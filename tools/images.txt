@@ -41,3 +41,33 @@ mycelium|Mycelium based composite.png|Mycelium composite grown on substrate
 starlite|Starlite sample.jpg|A surviving Starlite sample
 auxetic|Meta-aux-orange.jpg|Auxetic lattice — gets thinner when stretched
 albemet|Be-140g.jpg|Pure beryllium, the stiffening phase in AlBeMet
+ptfe|Teflon-jar hg.jpg|PTFE — the slipperiest solid in common use
+eptfe|Goretex photo.png|Expanded PTFE under the microscope — the node-and-fibril structure that passes vapour but not droplets
+aramid|Para Aramid Yarns Body Armor.jpg|Para-aramid yarn woven for ballistic panels
+fkm|Fiber optic vacuum viton seal ProtoDUNE.jpg|An FKM (Viton) seal on a vacuum feedthrough
+silicone|Liquid-silicon-rubber-crop.jpg|Liquid silicone rubber before cure
+natrubber|Natural rubber.jpg|Natural rubber, still unbeaten at resisting fatigue
+butyl|Butyl rubber gloves.JPG|Butyl rubber gloves — the polymer gas does not get through
+pvdf|A UPW Installation using PVDF Piping.png|PVDF pipework in an ultrapure water plant
+kapton|James Webb telescope sunshield.jpg|JWST's sunshield — five tensioned layers of Kapton
+delrin|Dunlop Delrin 500.jpg|Acetal (Delrin) picks — the material holds its dimensions
+pc|Laboratory protection goggles-blue.jpg|Polycarbonate eye protection
+pmma|Lichtenberg figure in block of Plexiglas.jpg|A Lichtenberg figure frozen inside a PMMA block
+sap|Superabsorbent Polymer.jpg|Superabsorbent polymer beads, before and after water
+polyurea|Spray-bedliner-installed-lg.png|Sprayed polyurea lining, cured within seconds
+alumina|Spark plug insulator.jpeg|A spark plug insulator — alumina’s highest-volume job
+sapphire|Sapphire boule, Kyropoulos method.jpg|A synthetic sapphire boule pulled from the melt
+fusedsilica|Einstein gyro gravity probe b.jpg|A Gravity Probe B fused-quartz rotor — among the roundest objects ever made
+gorilla|Nokia N8 gorilla glass screen (5083750412).jpg|Chemically strengthened cover glass
+borosilicate|Beakers.jpg|Borosilicate labware
+si3n4|Si3N4bearings.jpg|Silicon nitride bearing balls
+hbn|Hexagonal Boron Nitride.jpg|Hexagonal boron nitride crystals — "white graphite", soft enough to machine
+pzt|Maxim-1-HydrophonPZTinGehäuse.JPG|A PZT piezoelectric element in a hydrophone
+wc|Tungsten carbide inserts.jpg|Tungsten carbide cutting inserts
+uhtc|An UHTC strake composed of three different sections with different UHTC compositions.jpg|An ultra-high-temperature ceramic leading-edge strake
+li900|Shuttle tile.jpg|A Shuttle silica tile — 94% air, held by the edges while glowing
+cvddiamond|Single-crystal CVD diamond disc.jpg|A single-crystal CVD diamond disc
+quartzxtal|32768 Hz quartz crystal resonator.jpg|A 32,768 Hz quartz tuning fork, the heart of every quartz watch
+yag|Yag-rod.jpg|An Nd:YAG laser rod
+batio3|BaTiO3ceramics.JPG|Barium titanate ceramic — the dielectric inside billions of capacitors
+tbc|Coloured ceramic thermal barrier coating on exhaust component.jpg|A ceramic thermal barrier coating on an exhaust component

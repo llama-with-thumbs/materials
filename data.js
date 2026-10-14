@@ -85,6 +85,136 @@ window.MATERIALS = [
   stats: [["Density", "~1.3 g/cm³"], ["Niche", "cryogenic + HV"], ["Age", "a century old"]],
   uses: "LNG tank supports, transformer spacers and clamping, cryostat structures."
 },
+{
+  id: "ptfe", cat: "polymer", name: "PTFE",
+  sub: "polytetrafluoroethylene, Teflon", img: "ptfe",
+  hook: "A fluorine sheath wrapped so tightly around the carbon chain that nothing can get a grip on it — the lowest friction of any solid, and almost nothing sticks. The price is creep: load it and it slowly flows.",
+  stats: [["Friction coefficient", "~0.04"], ["Service", "−200 to 260 °C"], ["Flaw", "cold flow under load"]],
+  uses: "Seals and gaskets, thread tape, chemical lining, low-friction pads, cookware.",
+  link: "https://en.wikipedia.org/wiki/Polytetrafluoroethylene"
+},
+{
+  id: "eptfe", cat: "polymer", name: "Expanded PTFE",
+  sub: "ePTFE, Gore-Tex", img: "eptfe",
+  hook: "PTFE yanked apart fast enough to tear into a web of nodes and fibrils. The holes are far too small for a water droplet and far too large for a water-vapour molecule, so it breathes one way only.",
+  stats: [["Pores", "~10⁹ per cm²"], ["Blocks", "liquid water"], ["Passes", "water vapour"]],
+  uses: "Waterproof-breathable laminates, vascular grafts, vent plugs, filter media, sealing tape.",
+  link: "https://en.wikipedia.org/wiki/Gore-Tex"
+},
+{
+  id: "aramid", cat: "polymer", name: "Aramid (Kevlar)",
+  sub: "para-aramid fibre", img: "aramid",
+  hook: "Rigid rod-like molecules spun from liquid crystal so they emerge already aligned, then hydrogen-bonded into sheets. Enormous in tension and famously poor in compression — it is a rope material, not a strut material.",
+  stats: [["Tensile", "~3.6 GPa"], ["vs. steel by weight", "~5×"], ["In compression", "weak"]],
+  uses: "Ballistic vests, cut-resistant gloves, ropes and cables, tyre belts, friction materials.",
+  link: "https://en.wikipedia.org/wiki/Aramid"
+},
+{
+  id: "fkm", cat: "polymer", name: "FKM (Viton)",
+  sub: "fluoroelastomer", img: "fkm",
+  hook: "The workhorse below FFKM: most of the chemical and heat resistance at a fraction of the price. It is the default O-ring anywhere fuel, oil or vacuum is involved.",
+  stats: [["Service", "−20 to ~230 °C"], ["Resists", "fuels, oils, vacuum"], ["Avoid", "ketones, amines, steam"]],
+  uses: "Fuel system seals, vacuum feedthroughs, engine gaskets, chemical pump seals.",
+  link: "https://en.wikipedia.org/wiki/FKM"
+},
+{
+  id: "silicone", cat: "polymer", name: "Silicone rubber",
+  sub: "VMQ, polysiloxane", img: "silicone",
+  hook: "Its backbone is silicon and oxygen rather than carbon, which is why it stays rubbery at −60 °C and still rubbery at 230 °C. It is also strikingly permeable to gas — a flaw that became the basis of blood oxygenators.",
+  stats: [["Service", "−60 to 230 °C"], ["Gas permeability", "very high"], ["Strength", "modest"]],
+  uses: "Seals and gaskets, medical tubing and implants, bakeware, keypads, encapsulants.",
+  link: "https://en.wikipedia.org/wiki/Silicone_rubber"
+},
+{
+  id: "natrubber", cat: "polymer", name: "Natural rubber",
+  sub: "cis-1,4-polyisoprene", img: "natrubber",
+  hook: "Still unbeaten after a century of synthetics. Stretch it and the chains crystallise, reinforcing the material exactly where a crack would start — so it resists tearing and fatigue better than anything made in a reactor.",
+  stats: [["Elongation", "to ~700%"], ["Fatigue", "best in class"], ["Trick", "strain crystallisation"]],
+  uses: "Aircraft and truck tyres, seismic base isolators, engine mounts, gloves.",
+  link: "https://en.wikipedia.org/wiki/Natural_rubber"
+},
+{
+  id: "butyl", cat: "polymer", name: "Butyl rubber",
+  sub: "IIR, isobutylene-isoprene", img: "butyl",
+  hook: "Its chains pack so densely that gas molecules can barely thread through. It is also unusually lossy, so a butyl part damps vibration while it holds pressure.",
+  stats: [["Gas permeability", "~10× lower than NR"], ["Damping", "high"], ["Rebound", "low"]],
+  uses: "Tyre inner liners and tubes, glovebox gloves, pharmaceutical stoppers, vibration mounts.",
+  link: "https://en.wikipedia.org/wiki/Butyl_rubber"
+},
+{
+  id: "pvdf", cat: "polymer", name: "PVDF",
+  sub: "polyvinylidene fluoride", img: "pvdf",
+  hook: "Stretch and pole it and the fluorine dipoles line up permanently, leaving a plastic film that produces a voltage when you bend it — a piezoelectric you can cut with scissors. The same polymer makes pipe that shrugs off acid.",
+  stats: [["Piezoelectric", "yes, when poled"], ["Form", "film down to µm"], ["Also", "ultrapure piping"]],
+  uses: "Hydrophones, contact and impact sensors, ultrapure water piping, battery binders.",
+  link: "https://en.wikipedia.org/wiki/Polyvinylidene_fluoride"
+},
+{
+  id: "kapton", cat: "polymer", name: "Kapton",
+  sub: "polyimide film", img: "kapton",
+  hook: "A plastic film that works from near absolute zero to 400 °C and keeps its strength through both. It is the amber film wrapped around most spacecraft, and the substrate under most flexible circuits.",
+  stats: [["Range", "−269 to 400 °C"], ["Thickness", "from 7.5 µm"], ["Colour", "unmistakably amber"]],
+  uses: "Multi-layer insulation blankets, flexible circuits, 3D-printer bed tape, cryogenic wiring.",
+  link: "https://en.wikipedia.org/wiki/Kapton"
+},
+{
+  id: "parylene", cat: "polymer", name: "Parylene",
+  sub: "poly(p-xylylene)",
+  swatch: { pattern: "gloss", colors: ["#9fb0b8", "#e3edf1", "#5f7079"] },
+  hook: "Applied as a gas, not a liquid. The monomer drifts in under vacuum and polymerises on every surface it touches, so it coats the inside of a connector and the back of a chip in the same pinhole-free micron-thick skin, with no solvent and no curing stress.",
+  stats: [["Applied as", "a vapour"], ["Thickness", "~0.1–50 µm"], ["Coverage", "truly conformal"]],
+  uses: "PCB conformal coating, implant and stent coatings, MEMS, museum conservation.",
+  link: "https://en.wikipedia.org/wiki/Parylene"
+},
+{
+  id: "vectran", cat: "polymer", name: "Vectran",
+  sub: "melt-spun liquid crystal polymer",
+  swatch: { pattern: "fiber", colors: ["#9a7b2e", "#f0d98a", "#604a12"] },
+  hook: "Aramid-class strength with something aramid and Dyneema both lack: it does not creep. Hang a load on it for a year and it is where you left it, which is why it holds inflatable structures together.",
+  stats: [["Creep", "essentially none"], ["Moisture", "unaffected"], ["Cut resistance", "high"]],
+  uses: "Mars lander airbags, inflatable habitats, sailcloth and lines, cut-resistant gloves.",
+  link: "https://en.wikipedia.org/wiki/Vectran"
+},
+{
+  id: "delrin", cat: "polymer", name: "Acetal (Delrin)",
+  sub: "polyoxymethylene, POM", img: "delrin",
+  hook: "Highly crystalline, barely absorbs water and machines like a dream, so a part comes off the lathe at the dimension you asked for and stays there. The quiet default for small moving parts.",
+  stats: [["Moisture uptake", "~0.2%"], ["Friction", "low, self-lubricating"], ["Weakness", "acids, chlorine"]],
+  uses: "Gears and bushings, snap fits, fuel system parts, guitar picks, fittings.",
+  link: "https://en.wikipedia.org/wiki/Polyoxymethylene"
+},
+{
+  id: "pc", cat: "polymer", name: "Polycarbonate",
+  sub: "PC", img: "pc",
+  hook: "Transparent and almost impossible to shatter — the chains absorb impact by sliding rather than breaking. It scratches if you look at it wrong, which is why most sheets are sold with a hard coat.",
+  stats: [["Impact", "~250× glass"], ["Transmission", "~88%"], ["Weakness", "scratches, solvents"]],
+  uses: "Riot shields and visors, aircraft canopies, safety glazing, machine guards, lenses.",
+  link: "https://en.wikipedia.org/wiki/Polycarbonate"
+},
+{
+  id: "pmma", cat: "polymer", name: "PMMA",
+  sub: "acrylic, Plexiglas, Perspex", img: "pmma",
+  hook: "Clearer than window glass and far more weather-stable than most plastics. Cast thick it stays optically perfect, which is how an aquarium holds back several metres of water behind a single transparent wall.",
+  stats: [["Transmission", "~92%"], ["UV stability", "excellent"], ["Thick sections", "stay clear"]],
+  uses: "Aquarium and submersible windows, signage and lighting, dentures, optical fibre.",
+  link: "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)"
+},
+{
+  id: "sap", cat: "polymer", name: "Superabsorbent polymer",
+  sub: "sodium polyacrylate", img: "sap",
+  hook: "A loosely cross-linked network whose sodium ions pull water in osmotically until the network is physically stretched to its limit. It holds hundreds of times its own weight and does not release it under pressure.",
+  stats: [["Absorbs", "~300× its weight"], ["Mechanism", "osmotic swelling"], ["Releases", "reluctantly"]],
+  uses: "Nappies and hygiene products, agricultural water retention, fire gels, cable water-blocking.",
+  link: "https://en.wikipedia.org/wiki/Sodium_polyacrylate"
+},
+{
+  id: "polyurea", cat: "polymer", name: "Polyurea",
+  sub: "sprayed elastomer", img: "polyurea",
+  hook: "Two components that react on contact with each other rather than with air or moisture, so it gels within seconds and takes foot traffic in minutes. It can be sprayed overhead, in the cold, onto damp concrete.",
+  stats: [["Gel time", "~5 seconds"], ["Humidity", "does not care"], ["Thickness", "millimetres per pass"]],
+  uses: "Truck bed liners, tank and tunnel linings, blast mitigation retrofits, bridge decks.",
+  link: "https://en.wikipedia.org/wiki/Polyurea"
+},
 
 /* ---------- METALS & ALLOYS ---------- */
 {
@@ -319,6 +449,134 @@ window.MATERIALS = [
   stats: [["In-plane", "~1700 W/m·K"], ["Through-plane", "~100× lower"], ["Levitates", "at room temperature"]],
   uses: "Heat spreaders, crucibles, X-ray optics, neutron monochromators, desk toys.",
   link: "https://en.wikipedia.org/wiki/Pyrolytic_carbon"
+},
+{
+  id: "alumina", cat: "ceramic", name: "Alumina",
+  sub: "Al₂O₃, 96–99.8%", img: "alumina",
+  hook: "The workhorse of technical ceramics and the one you have definitely touched. Hard, stiff, inert, a superb insulator even when red hot, and cheap enough to throw at problems the exotic ceramics would solve more elegantly.",
+  stats: [["Hardness", "~15 GPa"], ["Max use", "~1700 °C"], ["Cost", "the cheap option"]],
+  uses: "Spark plug insulators, circuit substrates, wear liners, pump seals, armour plate.",
+  link: "https://en.wikipedia.org/wiki/Aluminium_oxide"
+},
+{
+  id: "sapphire", cat: "ceramic", name: "Sapphire",
+  sub: "single-crystal Al₂O₃", img: "sapphire",
+  hook: "The same chemistry as alumina, grown as one enormous crystal instead of sintered powder — and the difference is total. It is transparent from UV to mid-infrared and second only to diamond among common hard materials.",
+  stats: [["Hardness", "9 Mohs"], ["Transmits", "0.15–5.5 µm"], ["Grown as", "boules up to ~200 kg"]],
+  uses: "Watch crystals, scanner windows, LED substrates, high-pressure cell windows, endoscopes.",
+  link: "https://en.wikipedia.org/wiki/Sapphire"
+},
+{
+  id: "fusedsilica", cat: "ceramic", name: "Fused silica",
+  sub: "amorphous SiO₂", img: "fusedsilica",
+  hook: "Glass with everything else taken out. Pure silica barely expands, transmits deep into the ultraviolet, and loses so little light that a signal survives tens of kilometres of it — which is the entire basis of the internet.",
+  stats: [["CTE", "~0.55 ppm/K"], ["Optical loss", "~0.2 dB/km"], ["Purity", "parts per billion"]],
+  uses: "Optical fibre, UV optics, semiconductor process ware, gyroscope rotors, mirror substrates.",
+  link: "https://en.wikipedia.org/wiki/Fused_quartz"
+},
+{
+  id: "gorilla", cat: "ceramic", name: "Chemically strengthened glass",
+  sub: "Gorilla Glass and relatives", img: "gorilla",
+  hook: "Soak the glass in molten potassium salt and the big potassium ions swap into sodium's places near the surface, wedging it into permanent compression. A crack cannot open in a layer that is being squeezed shut.",
+  stats: [["Compression depth", "~30–100 µm"], ["Surface stress", "up to ~1 GPa"], ["Method", "ion exchange"]],
+  uses: "Phone and watch cover glass, laptop screens, vehicle glazing, appliance fronts.",
+  link: "https://en.wikipedia.org/wiki/Gorilla_Glass"
+},
+{
+  id: "borosilicate", cat: "ceramic", name: "Borosilicate glass",
+  sub: "Pyrex, Duran", img: "borosilicate",
+  hook: "Boron oxide loosens the silica network just enough to cut its expansion by two thirds, so the glass can go from a flame into water without splitting. The 200-inch Hale telescope mirror is a single borosilicate casting.",
+  stats: [["CTE", "~3.3 ppm/K"], ["Soda-lime", "~9 ppm/K"], ["Thermal shock", "~160 K"]],
+  uses: "Laboratory glassware, cookware, lighting, telescope mirror blanks, sight glasses.",
+  link: "https://en.wikipedia.org/wiki/Borosilicate_glass"
+},
+{
+  id: "si3n4", cat: "ceramic", name: "Silicon nitride",
+  sub: "Si₃N₄", img: "si3n4",
+  hook: "Interlocking needle-shaped grains make it the toughest of the structural ceramics, and it barely expands with heat. A ball of it is 60% the weight of steel, needs no lubricant, and will not weld itself to a steel race.",
+  stats: [["Density", "3.2 g/cm³"], ["Thermal shock", "excellent"], ["Bearings", "run dry, faster"]],
+  uses: "Hybrid and ceramic bearings, turbocharger rotors, glow plugs, cutting tools, weld nozzles.",
+  link: "https://en.wikipedia.org/wiki/Silicon_nitride"
+},
+{
+  id: "hbn", cat: "ceramic", name: "Hexagonal boron nitride",
+  sub: "hBN, “white graphite”", img: "hbn",
+  hook: "Identical chemistry to the second-hardest material known, stacked differently — and the result is soft, slippery and white. It machines with ordinary tools, lubricates at 900 °C, insulates electrically and conducts heat well.",
+  stats: [["Hardness", "soft — it is a lubricant"], ["Electrically", "insulating"], ["Lubricates to", "~900 °C"]],
+  uses: "Crucibles and setters, mould release, high-temperature lubricant, plasma chamber parts.",
+  link: "https://en.wikipedia.org/wiki/Boron_nitride"
+},
+{
+  id: "pzt", cat: "ceramic", name: "PZT",
+  sub: "lead zirconate titanate", img: "pzt",
+  hook: "Squeeze it and it produces a voltage; apply a voltage and it changes length by nanometres, reliably, forever. Almost every ultrasound image, fuel injector and parking sensor runs through a piece of this.",
+  stats: [["Strain", "~0.1%, sub-nm resolution"], ["Response", "microseconds"], ["Force", "very high"]],
+  uses: "Ultrasound transducers, fuel injectors, nanopositioners, sonar, buzzers, igniters.",
+  link: "https://en.wikipedia.org/wiki/Lead_zirconate_titanate"
+},
+{
+  id: "batio3", cat: "ceramic", name: "Barium titanate",
+  sub: "BaTiO₃", img: "batio3",
+  hook: "A perovskite whose unit cell is slightly lopsided, giving it a dielectric constant in the thousands where most insulators manage single digits. Stacked in hundreds of sub-micron layers, it is the most manufactured electronic component on earth.",
+  stats: [["Dielectric constant", "~1000–7000"], ["Layer thickness", "<1 µm"], ["Made", "trillions per year"]],
+  uses: "Multilayer ceramic capacitors, PTC thermistors, transducers, non-volatile memory.",
+  link: "https://en.wikipedia.org/wiki/Barium_titanate"
+},
+{
+  id: "wc", cat: "ceramic", name: "Cemented carbide",
+  sub: "WC–Co hardmetal", img: "wc",
+  hook: "Tungsten carbide grains glued together by cobalt metal — a ceramic with a metal binder, so it is nearly as hard as a ceramic but will not shatter like one. It is also twice as stiff as steel.",
+  stats: [["Hardness", "~1600 HV"], ["Stiffness", "~2× steel"], ["Binder", "6–15% cobalt"]],
+  uses: "Cutting inserts and drills, drawing dies, rock bits, wear parts, anti-vibration bars.",
+  link: "https://en.wikipedia.org/wiki/Tungsten_carbide"
+},
+{
+  id: "uhtc", cat: "ceramic", name: "Ultra-high-temperature ceramics",
+  sub: "ZrB₂, HfB₂, HfC", img: "uhtc",
+  hook: "The borides and carbides of hafnium and zirconium melt somewhere near 3900 °C — close to the highest melting points known. They are what you use when a leading edge must be sharp rather than blunt and rounded.",
+  stats: [["Melting", "~3200–3900 °C"], ["HfC", "~3950 °C"], ["Enables", "sharp hypersonic edges"]],
+  uses: "Hypersonic leading edges, rocket nozzle inserts, plasma electrodes, reactor components.",
+  link: "https://en.wikipedia.org/wiki/Ultra-high-temperature_ceramics"
+},
+{
+  id: "li900", cat: "ceramic", name: "LI-900 silica tile",
+  sub: "Shuttle thermal protection", img: "li900",
+  hook: "Silica fibres sintered at their contact points into a block that is 94% air. Heat has almost no path through it, which is why the famous photograph shows a technician holding a tile by its edges while the middle is still glowing.",
+  stats: [["Density", "144 kg/m³"], ["Air", "~94%"], ["Surface", "~1260 °C in use"]],
+  uses: "Orbiter thermal protection, furnace insulation, high-temperature standoffs.",
+  link: "https://en.wikipedia.org/wiki/Space_Shuttle_thermal_protection_system"
+},
+{
+  id: "tbc", cat: "ceramic", name: "Thermal barrier coating",
+  sub: "plasma-sprayed YSZ", img: "tbc",
+  hook: "A deliberately porous, deliberately cracked zirconia layer a fraction of a millimetre thick, sprayed onto a turbine blade. The gaps let it expand without spalling, and it drops the metal temperature underneath by over 100 °C.",
+  stats: [["Thickness", "~0.1–0.5 mm"], ["Metal temperature", "−100 to −150 °C"], ["Structure", "porous by design"]],
+  uses: "Turbine blades and vanes, combustors, exhaust components, diesel piston crowns.",
+  link: "https://en.wikipedia.org/wiki/Thermal_barrier_coating"
+},
+{
+  id: "cvddiamond", cat: "ceramic", name: "CVD diamond",
+  sub: "grown from methane plasma", img: "cvddiamond",
+  hook: "Diamond grown atom by atom out of a glowing gas, in sheets rather than gemstones. It conducts heat better than any other material known — roughly five times copper — while being an electrical insulator and transparent.",
+  stats: [["Thermal conductivity", "~2000 W/m·K"], ["Copper", "~400 W/m·K"], ["Electrically", "insulating"]],
+  uses: "Laser and X-ray windows, heat spreaders for power devices, anvils, surgical blades.",
+  link: "https://en.wikipedia.org/wiki/Synthetic_diamond"
+},
+{
+  id: "quartzxtal", cat: "ceramic", name: "Quartz crystal",
+  sub: "piezoelectric SiO₂", img: "quartzxtal",
+  hook: "Cut at exactly the right angle to the crystal axes, a sliver of quartz rings at a frequency that barely drifts with temperature. Etched into a tuning fork at 32,768 Hz — 2¹⁵ — it divides neatly down to one tick per second.",
+  stats: [["Watch fork", "32,768 Hz"], ["Stability", "~±20 ppm"], ["Drift", "seconds per month"]],
+  uses: "Every quartz watch and clock, oscillators in nearly all digital electronics, mass sensors.",
+  link: "https://en.wikipedia.org/wiki/Crystal_oscillator"
+},
+{
+  id: "yag", cat: "ceramic", name: "Nd:YAG",
+  sub: "neodymium-doped yttrium aluminium garnet", img: "yag",
+  hook: "A synthetic garnet grown as a flawless crystal and seeded with neodymium atoms that store energy and release it in step. It is the host that made the industrial solid-state laser practical.",
+  stats: [["Wavelength", "1064 nm"], ["Form", "grown rod or disc"], ["Host for", "Nd, Yb, Er, Ce"]],
+  uses: "Industrial cutting and welding lasers, rangefinders, surgery, LED phosphor (Ce:YAG).",
+  link: "https://en.wikipedia.org/wiki/Yttrium_aluminium_garnet"
 },
 
 /* ---------- COMPOSITES & STRUCTURES ---------- */

@@ -343,5 +343,245 @@ window.CREDITS = {
     "artist": "Alchemist-hp = Alchemist-hp (pse-mendelejew.de)",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Be-140g.jpg"
+  },
+  "ptfe": {
+    "file": "ptfe.jpg",
+    "caption": "PTFE — the slipperiest solid in common use",
+    "title": "Teflon-jar hg.jpg",
+    "artist": "Hannes Grobe",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teflon-jar_hg.jpg"
+  },
+  "eptfe": {
+    "file": "eptfe.png",
+    "caption": "Expanded PTFE under the microscope — the node-and-fibril structure that passes vapour but not droplets",
+    "title": "Goretex photo.png",
+    "artist": "Abrev improved picture impression",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Goretex_photo.png"
+  },
+  "aramid": {
+    "file": "aramid.jpg",
+    "caption": "Para-aramid yarn woven for ballistic panels",
+    "title": "Para Aramid Yarns Body Armor.jpg",
+    "artist": "Bodyarmor",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Para_Aramid_Yarns_Body_Armor.jpg"
+  },
+  "fkm": {
+    "file": "fkm.jpg",
+    "caption": "An FKM (Viton) seal on a vacuum feedthrough",
+    "title": "Fiber optic vacuum viton seal ProtoDUNE.jpg",
+    "artist": "Ajheindel",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fiber_optic_vacuum_viton_seal_ProtoDUNE.jpg"
+  },
+  "silicone": {
+    "file": "silicone.jpg",
+    "caption": "Liquid silicone rubber before cure",
+    "title": "Liquid-silicon-rubber-crop.jpg",
+    "artist": "By Gmhofmann (Own work) [CC-BY-SA-3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Liquid-silicon-rubber-crop.jpg"
+  },
+  "natrubber": {
+    "file": "natrubber.jpg",
+    "caption": "Natural rubber, still unbeaten at resisting fatigue",
+    "title": "Natural rubber.jpg",
+    "artist": "LukaszKatlewa",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Natural_rubber.jpg"
+  },
+  "butyl": {
+    "file": "butyl.jpg",
+    "caption": "Butyl rubber gloves — the polymer gas does not get through",
+    "title": "Butyl rubber gloves.JPG",
+    "artist": "MatChem121",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Butyl_rubber_gloves.JPG"
+  },
+  "pvdf": {
+    "file": "pvdf.png",
+    "caption": "PVDF pipework in an ultrapure water plant",
+    "title": "A UPW Installation using PVDF Piping.png",
+    "artist": "Wikikart99",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_UPW_Installation_using_PVDF_Piping.png"
+  },
+  "kapton": {
+    "file": "kapton.jpg",
+    "caption": "JWST's sunshield — five tensioned layers of Kapton",
+    "title": "James Webb telescope sunshield.jpg",
+    "artist": "Chris Gunn",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:James_Webb_telescope_sunshield.jpg"
+  },
+  "delrin": {
+    "file": "delrin.jpg",
+    "caption": "Acetal (Delrin) picks — the material holds its dimensions",
+    "title": "Dunlop Delrin 500.jpg",
+    "artist": "Urban Versis 32",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dunlop_Delrin_500.jpg"
+  },
+  "pc": {
+    "file": "pc.jpg",
+    "caption": "Polycarbonate eye protection",
+    "title": "Laboratory protection goggles-blue.jpg",
+    "artist": "Lilly_M",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laboratory_protection_goggles-blue.jpg"
+  },
+  "pmma": {
+    "file": "pmma.jpg",
+    "caption": "A Lichtenberg figure frozen inside a PMMA block",
+    "title": "Lichtenberg figure in block of Plexiglas.jpg",
+    "artist": "Bert Hickman",
+    "license": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:Lichtenberg_figure_in_block_of_Plexiglas.jpg"
+  },
+  "sap": {
+    "file": "sap.jpg",
+    "caption": "Superabsorbent polymer beads, before and after water",
+    "title": "Superabsorbent Polymer.jpg",
+    "artist": "User:Ritchey",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Superabsorbent_Polymer.jpg"
+  },
+  "polyurea": {
+    "file": "polyurea.png",
+    "caption": "Sprayed polyurea lining, cured within seconds",
+    "title": "Spray-bedliner-installed-lg.png",
+    "artist": "Abcflorida",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spray-bedliner-installed-lg.png"
+  },
+  "alumina": {
+    "file": "alumina.jpg",
+    "caption": "A spark plug insulator — alumina’s highest-volume job",
+    "title": "Spark plug insulator.jpeg",
+    "artist": "User:Industry shill",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Spark_plug_insulator.jpeg"
+  },
+  "sapphire": {
+    "file": "sapphire.jpg",
+    "caption": "A synthetic sapphire boule pulled from the melt",
+    "title": "Sapphire boule, Kyropoulos method.jpg",
+    "artist": "WhiteOakTree",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sapphire_boule,_Kyropoulos_method.jpg"
+  },
+  "fusedsilica": {
+    "file": "fusedsilica.jpg",
+    "caption": "A Gravity Probe B fused-quartz rotor — among the roundest objects ever made",
+    "title": "Einstein gyro gravity probe b.jpg",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Einstein_gyro_gravity_probe_b.jpg"
+  },
+  "gorilla": {
+    "file": "gorilla.jpg",
+    "caption": "Chemically strengthened cover glass",
+    "title": "Nokia N8 gorilla glass screen (5083750412).jpg",
+    "artist": "Titanas from Athens, Greece",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nokia_N8_gorilla_glass_screen_(5083750412).jpg"
+  },
+  "borosilicate": {
+    "file": "borosilicate.jpg",
+    "caption": "Borosilicate labware",
+    "title": "Beakers.jpg",
+    "artist": "Unknown",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Beakers.jpg"
+  },
+  "si3n4": {
+    "file": "si3n4.jpg",
+    "caption": "Silicon nitride bearing balls",
+    "title": "Si3N4bearings.jpg",
+    "artist": "David W. Richerson and Douglas W. Freitag; Oak Ridge National Laboratory (federal lab.)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Si3N4bearings.jpg"
+  },
+  "hbn": {
+    "file": "hbn.jpg",
+    "caption": "Hexagonal boron nitride crystals — \"white graphite\", soft enough to machine",
+    "title": "Hexagonal Boron Nitride.jpg",
+    "artist": "SJ879 C",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hexagonal_Boron_Nitride.jpg"
+  },
+  "pzt": {
+    "file": "pzt.jpg",
+    "caption": "A PZT piezoelectric element in a hydrophone",
+    "title": "Maxim-1-HydrophonPZTinGehäuse.JPG",
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maxim-1-HydrophonPZTinGeh%C3%A4use.JPG"
+  },
+  "wc": {
+    "file": "wc.jpg",
+    "caption": "Tungsten carbide cutting inserts",
+    "title": "Tungsten carbide inserts.jpg",
+    "artist": "Mauro Cateb",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tungsten_carbide_inserts.jpg"
+  },
+  "uhtc": {
+    "file": "uhtc.jpg",
+    "caption": "An ultra-high-temperature ceramic leading-edge strake",
+    "title": "An UHTC strake composed of three different sections with different UHTC compositions.jpg",
+    "artist": "S. M. Johnson, Matt Gasch, J. W. Lawson, M. I. Gusman, M. M. Stackpole",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:An_UHTC_strake_composed_of_three_different_sections_with_different_UHTC_compositions.jpg"
+  },
+  "li900": {
+    "file": "li900.jpg",
+    "caption": "A Shuttle silica tile — 94% air, held by the edges while glowing",
+    "title": "Shuttle tile.jpg",
+    "artist": "Greenshed",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Shuttle_tile.jpg"
+  },
+  "cvddiamond": {
+    "file": "cvddiamond.jpg",
+    "caption": "A single-crystal CVD diamond disc",
+    "title": "Single-crystal CVD diamond disc.jpg",
+    "artist": "Matthias Schreck, Stefan Gsell, Rosaria Brescia & Martin Fischer",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Single-crystal_CVD_diamond_disc.jpg"
+  },
+  "quartzxtal": {
+    "file": "quartzxtal.jpg",
+    "caption": "A 32,768 Hz quartz tuning fork, the heart of every quartz watch",
+    "title": "32768 Hz quartz crystal resonator.jpg",
+    "artist": "Mister rf",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:32768_Hz_quartz_crystal_resonator.jpg"
+  },
+  "yag": {
+    "file": "yag.jpg",
+    "caption": "An Nd:YAG laser rod",
+    "title": "Yag-rod.jpg",
+    "artist": "Unknown authorUnknown author",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yag-rod.jpg"
+  },
+  "batio3": {
+    "file": "batio3.jpg",
+    "caption": "Barium titanate ceramic — the dielectric inside billions of capacitors",
+    "title": "BaTiO3ceramics.JPG",
+    "artist": "Materialscientist (talk)",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BaTiO3ceramics.JPG"
+  },
+  "tbc": {
+    "file": "tbc.jpg",
+    "caption": "A ceramic thermal barrier coating on an exhaust component",
+    "title": "Coloured ceramic thermal barrier coating on exhaust component.jpg",
+    "artist": "http://www.zircotec.com",
+    "license": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:Coloured_ceramic_thermal_barrier_coating_on_exhaust_component.jpg"
   }
 };
