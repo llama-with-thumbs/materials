@@ -4,8 +4,10 @@ const CATS = {
   polymer: "Polymers & elastomers",
   metal: "Metals & alloys",
   ceramic: "Ceramics & glass",
+  electronic: "Semiconductors & optics",
   composite: "Composites & structures",
   fibre: "Ropes & woven materials",
+  natural: "Natural & biological",
   exotic: "Active & exotic"
 };
 

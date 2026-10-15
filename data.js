@@ -325,6 +325,166 @@ window.MATERIALS = [
   uses: "Shoe midsoles, mats and padding, solar panel encapsulant, hot-melt adhesive, buoyancy.",
   link: "https://en.wikipedia.org/wiki/Ethylene-vinyl_acetate"
 },
+{
+  id: "abs", cat: "polymer", name: "ABS",
+  sub: "acrylonitrile butadiene styrene", img: "abs",
+  hook: "Three monomers doing three jobs: styrene for stiffness and gloss, acrylonitrile for chemical resistance, a rubber phase for toughness. It moulds to ±0.01 mm and holds it, which is why a 1958 Lego brick still clutches a new one.",
+  stats: [["Tg", "~105 °C"], ["Impact", "rubber-toughened"], ["Mould shrink", "~0.5%"]],
+  uses: "Lego, appliance housings, automotive trim, 3D printing filament.",
+  link: "https://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene"
+},
+{
+  id: "pet", cat: "polymer", name: "PET",
+  sub: "polyethylene terephthalate", img: "pet",
+  hook: "Blown into a bottle it is stretched in two directions at once, and the chains crystallise as they go. The bottle ends up stronger and far less gas-permeable than the lump of plastic it started as — the shaping is the strengthening.",
+  stats: [["Wall", "~0.3 mm"], ["Preform", "~25 g"], ["Trick", "biaxial orientation"]],
+  uses: "Drinks bottles, film, polyester fibre, oven-safe trays.",
+  link: "https://en.wikipedia.org/wiki/Polyethylene_terephthalate"
+},
+{
+  id: "pvc", cat: "polymer", name: "PVC",
+  sub: "polyvinyl chloride", img: "pvc",
+  hook: "The same polymer makes drainpipe and inflatable boats. Plasticiser content slides it from rigid to floppy without changing the chemistry, and it is more than half chlorine by weight, so it refuses to keep burning.",
+  stats: [["Chlorine", "~57% by mass"], ["Plasticiser", "0–50%"], ["LOI", "~45%"]],
+  uses: "Pipe, window frames, cable sheathing, flooring, inflatables.",
+  link: "https://en.wikipedia.org/wiki/Polyvinyl_chloride"
+},
+{
+  id: "nylon66", cat: "polymer", name: "Nylon 6/6",
+  sub: "polyhexamethylene adipamide", img: "nylon66",
+  hook: "The first fully synthetic fibre, and still the default tough engineering plastic. Its flaw is a feature in disguise: it drinks up to 2.5% water, which swells the part and quietly turns it from brittle to tough.",
+  stats: [["Melting", "255 °C"], ["Water uptake", "~2.5%"], ["Dry vs wet", "different material"]],
+  uses: "Gears, cable ties, rope, bearings, toothbrush bristles.",
+  link: "https://en.wikipedia.org/wiki/Nylon_66"
+},
+{
+  id: "hdpe", cat: "polymer", name: "HDPE",
+  sub: "high-density polyethylene", img: "hdpe",
+  hook: "Almost nothing wets it, almost nothing attacks it, and it costs about a dollar a kilo. The catch is that it creeps: load an HDPE part for a year and it keeps moving, so it is designed by deflection, not by strength.",
+  stats: [["Density", "0.94–0.97 g/cm³"], ["Chemical", "near-universal resistance"], ["Weakness", "creep"]],
+  uses: "Jerry cans, gas pipe, cutting boards, chemical tanks, milk jugs.",
+  link: "https://en.wikipedia.org/wiki/High-density_polyethylene"
+},
+{
+  id: "pex", cat: "polymer", name: "PEX",
+  sub: "cross-linked polyethylene", img: "pex",
+  hook: "Cross-linking gives polyethylene a memory. Expand a PEX pipe end with a cold tool, push it over a fitting, and the pipe spends the next thirty seconds shrinking back onto it — the joint tightens itself, no glue, no heat.",
+  stats: [["Cross-link", "70–89%"], ["Service", "95 °C at 6 bar"], ["Joint", "shrink-fit"]],
+  uses: "Domestic hot and cold plumbing, underfloor heating loops.",
+  link: "https://en.wikipedia.org/wiki/Cross-linked_polyethylene"
+},
+{
+  id: "eps", cat: "polymer", name: "Expanded polystyrene",
+  sub: "steam-expanded PS beads", img: "eps",
+  hook: "98% air held in closed cells. It does not spring back, and that is the point: a bicycle helmet works once, crushing in a controlled way to stretch the stop over milliseconds instead of microseconds.",
+  stats: [["Density", "15–30 kg/m³"], ["λ", "~0.035 W/m·K"], ["Rebound", "none, by design"]],
+  uses: "Helmets, packaging, insulation board, void formers in concrete.",
+  link: "https://en.wikipedia.org/wiki/Polystyrene"
+},
+{
+  id: "pdms", cat: "polymer", name: "PDMS",
+  sub: "polydimethylsiloxane (Sylgard 184)", img: "pdms",
+  hook: "Pour it over a silicon mould, bake it for an hour, peel it off and you have copied features 100 nanometres across in a rubber you can see through. It is also gas-permeable, so cells living inside the channels can breathe.",
+  stats: [["Feature copy", "<100 nm"], ["Optical", "clear to 300 nm"], ["O₂", "permeable"]],
+  uses: "Microfluidic chips, organ-on-chip, soft lithography, optical encapsulation.",
+  link: "https://en.wikipedia.org/wiki/Polydimethylsiloxane"
+},
+{
+  id: "pebax", cat: "polymer", name: "Pebax",
+  sub: "polyether block amide", swatch: { pattern: "gloss", colors: ["#d8dde3", "#f3f6f9", "#a9b3bd"] },
+  hook: "A block copolymer that hands you stiffness and bounce on the same dial. Foamed, it returns more energy per gram than any other midsole material, which is why every marathon record of the last decade has been run on top of it.",
+  stats: [["Density, foamed", "~0.1 g/cm³"], ["Energy return", "~85%"], ["Cold", "flexible to −40 °C"]],
+  uses: "Running shoe midsoles, ski boots, catheters, sports film.",
+  link: "https://en.wikipedia.org/wiki/Polyether_block_amide"
+},
+{
+  id: "pei", cat: "polymer", name: "PEI (Ultem)",
+  sub: "polyetherimide", swatch: { pattern: "gloss", colors: ["#b06a1f", "#e0a657", "#6d3d0d"] },
+  hook: "An amber transparent plastic that passes aircraft cabin fire tests without any flame retardant added — the imide rings simply char instead of feeding the fire. It also takes repeated steam autoclaving.",
+  stats: [["Tg", "217 °C"], ["LOI", "47%"], ["Smoke", "very low"]],
+  uses: "Aircraft interior panels, sterilisable medical trays, high-temp 3D printing.",
+  link: "https://en.wikipedia.org/wiki/Polyetherimide"
+},
+{
+  id: "fep", cat: "polymer", name: "FEP",
+  sub: "fluorinated ethylene propylene", img: "fep",
+  hook: "PTFE's non-stick surface in a plastic you can actually melt and extrude. You give up about 60 °C of service temperature and get continuous tubing and heat-sealable film in return.",
+  stats: [["Max service", "~200 °C"], ["Melt-processible", "yes, unlike PTFE"], ["Clarity", "transparent"]],
+  uses: "Release film, lab tubing, wire insulation, solar module front sheets.",
+  link: "https://en.wikipedia.org/wiki/Fluorinated_ethylene_propylene"
+},
+{
+  id: "pvb", cat: "polymer", name: "PVB interlayer",
+  sub: "polyvinyl butyral", img: "pvb",
+  hook: "The reason a windscreen crazes into a spiderweb instead of a cloud of knives. A 0.76 mm sheet of PVB bonded between two glass plies holds every fragment in place and stretches two and a half times its length doing it.",
+  stats: [["Thickness", "0.38 / 0.76 mm"], ["Elongation", ">250%"], ["Invented", "1930s"]],
+  uses: "Windscreens, laminated architectural glass, hurricane glazing, photovoltaic lamination.",
+  link: "https://en.wikipedia.org/wiki/Polyvinyl_butyral"
+},
+{
+  id: "surlyn", cat: "polymer", name: "Ionomer (Surlyn)",
+  sub: "zinc/sodium-neutralised ethylene acrylic acid", img: "surlyn",
+  hook: "Metal ions stitch the chains together with bonds that break under a blow and reform afterwards. A golf ball cover shrugs off the edge of a wedge, and a scuffed ski base can be healed with a heat gun.",
+  stats: [["Cross-links", "ionic, reversible"], ["Cut resistance", "very high"], ["Clarity", "glass-like"]],
+  uses: "Golf ball covers, ski bases, bottle closures, food packaging film.",
+  link: "https://en.wikipedia.org/wiki/Ionomer"
+},
+{
+  id: "pla", cat: "polymer", name: "PLA",
+  sub: "polylactic acid", img: "pla",
+  hook: "Made from fermented sugar rather than oil, and it hydrolyses back to lactic acid. The honest caveat is that it needs an industrial composter at 58 °C — in a garden heap or the sea it behaves like any other plastic.",
+  stats: [["Feedstock", "corn, cane sugar"], ["Tg", "~60 °C"], ["Compost", "industrial only"]],
+  uses: "3D printing filament, food service ware, resorbable sutures and screws.",
+  link: "https://en.wikipedia.org/wiki/Polylactic_acid"
+},
+{
+  id: "cellacetate", cat: "polymer", name: "Cellulose acetate",
+  sub: "acetylated cotton linter or wood pulp", swatch: { pattern: "speckle", colors: ["#6b4320", "#b9813f", "#3a2310"] },
+  hook: "A plastic made from trees, dyed in the block rather than on the surface, so colour runs all the way through and polishes back to a shine after years on a face. It is still the only material good eyewear is made from.",
+  stats: [["Base", "plant cellulose"], ["Colour", "through the block"], ["Repolish", "indefinitely"]],
+  uses: "Spectacle frames, guitar picks, cigarette filters, photographic film base.",
+  link: "https://en.wikipedia.org/wiki/Cellulose_acetate"
+},
+{
+  id: "melaminefoam", cat: "polymer", name: "Melamine foam",
+  sub: "melamine–formaldehyde resin foam", img: "melaminefoam",
+  hook: "Sold as a cleaning sponge, it is really an abrasive. The open cell walls are hard and brittle, so the foam acts as extremely fine sandpaper that wears itself away instead of scratching — no detergent involved.",
+  stats: [["Density", "~9 kg/m³"], ["Mechanism", "micro-abrasion"], ["Also", "acoustic absorber"]],
+  uses: "Magic-eraser sponges, studio acoustic foam, high-temperature insulation.",
+  link: "https://en.wikipedia.org/wiki/Melamine_foam"
+},
+{
+  id: "cyanoacrylate", cat: "polymer", name: "Cyanoacrylate",
+  sub: "ethyl 2-cyanoacrylate", img: "cyanoacrylate",
+  hook: "It does not dry — it polymerises, and the trigger is the trace of water on almost any surface. Discovered twice by accident while people were trying to make gunsights, and dismissed both times for sticking to everything.",
+  stats: [["Cure trigger", "surface moisture"], ["Set", "seconds"], ["Also", "fingerprint fuming"]],
+  uses: "Superglue, surgical skin adhesive, model making, crime-scene fingerprinting.",
+  link: "https://en.wikipedia.org/wiki/Cyanoacrylate"
+},
+{
+  id: "pva", cat: "polymer", name: "Polyvinyl alcohol",
+  sub: "PVOH", img: "pva",
+  hook: "A plastic designed to fail. The film around a detergent pod is strong enough to survive shipping and a dry hand, then dissolves completely in cold water in under a minute.",
+  stats: [["Solubility", "cold or hot grades"], ["Oxygen barrier", "excellent, when dry"], ["Residue", "dissolves away"]],
+  uses: "Detergent pods, dissolvable 3D-print supports, embroidery backing, release film.",
+  link: "https://en.wikipedia.org/wiki/Polyvinyl_alcohol"
+},
+{
+  id: "nafion", cat: "polymer", name: "Nafion",
+  sub: "sulfonated tetrafluoroethylene ionomer", img: "nafion",
+  hook: "A PTFE backbone with sulfonic acid groups hanging off it. The fluorine keeps it chemically immortal while the acid channels ferry protons through — it lets hydrogen ions cross and blocks everything else, which is what makes a fuel cell a cell.",
+  stats: [["Conductivity", "~0.1 S/cm, hydrated"], ["Thickness", "25–180 µm"], ["Needs", "water to work"]],
+  uses: "PEM fuel cells, chlor-alkali cells, electrolysers, flow batteries.",
+  link: "https://en.wikipedia.org/wiki/Nafion"
+},
+{
+  id: "pbi", cat: "polymer", name: "PBI",
+  sub: "polybenzimidazole", img: "pbi",
+  hook: "The polymer that will not burn and will not melt. It has no melting point at all — it chars at around 500 °C — so a firefighter's hood made of it stays intact in flashover where aramid alone would shrink away.",
+  stats: [["Tg", "427 °C"], ["Melting", "none"], ["LOI", ">41%"]],
+  uses: "Firefighter hoods and turnout gear, high-temp seals and bushings, glove liners.",
+  link: "https://en.wikipedia.org/wiki/Polybenzimidazole_fiber"
+},
 
 /* ---------- METALS & ALLOYS ---------- */
 {
@@ -478,6 +638,214 @@ window.MATERIALS = [
   stats: [["Modulus", "~193 GPa"], ["Density", "2.07 g/cm³"], ["Specific stiffness", "~3× aluminium"]],
   uses: "Optical benches, inertial guidance platforms, satellite structures.",
   link: "https://en.wikipedia.org/wiki/Beryllium"
+},
+{
+  id: "ti64", cat: "metal", name: "Ti-6Al-4V",
+  sub: "titanium grade 5", img: "ti64",
+  hook: "Half the density of steel at similar strength, and the oxide film reforms instantly wherever it is scratched — including inside a body, which is why bone grows straight onto it. It also hates being machined, galling and work-hardening against the tool.",
+  stats: [["Tensile", "~950 MPa"], ["Density", "4.43 g/cm³"], ["Share", "~half of all Ti used"]],
+  uses: "Airframe and engine parts, implants, fasteners, bike frames.",
+  link: "https://en.wikipedia.org/wiki/Ti-6Al-4V"
+},
+{
+  id: "al7075", cat: "metal", name: "7075 aluminium",
+  sub: "Al–Zn–Mg–Cu, T6 temper", swatch: { pattern: "brushed", colors: ["#9aa3ab", "#d4dade", "#6b747c"] },
+  hook: "An aluminium as strong as mild steel, invented in secret in Japan in the 1930s and flown on the Zero. The strength comes from zinc precipitates grown by baking, and it is bought at the price of weldability and corrosion resistance.",
+  stats: [["Tensile, T6", "~570 MPa"], ["Density", "2.81 g/cm³"], ["Welding", "essentially not"]],
+  uses: "Aircraft spars, rifle receivers, climbing hardware, mould plate.",
+  link: "https://en.wikipedia.org/wiki/7075_aluminium_alloy"
+},
+{
+  id: "magnesium", cat: "metal", name: "Magnesium alloy",
+  sub: "AZ91 / AZ31", img: "magnesium",
+  hook: "The lightest structural metal in use — two thirds the density of aluminium — and the best damper of the lot, which is why camera bodies and steering wheel cores are cast from it. Fine chips really do burn, cast parts really do not.",
+  stats: [["Density", "1.74 g/cm³"], ["Damping", "best of structural metals"], ["Casting", "thin walls, fast cycles"]],
+  uses: "Laptop and camera bodies, gearbox housings, steering-wheel armatures, drone frames.",
+  link: "https://en.wikipedia.org/wiki/Magnesium_alloy"
+},
+{
+  id: "damascus", cat: "metal", name: "Pattern-welded steel",
+  sub: "folded laminate, 'Damascus'", img: "damascus",
+  hook: "Two steels with different alloy content folded together a few hundred times, then etched so one layer darkens and the other stays bright. Modern versions are decorative; the original wootz used carbide bands that genuinely sharpened the edge.",
+  stats: [["Layers", "100s–1000s"], ["Pattern", "revealed by acid etch"], ["Original", "wootz, ~300 BC"]],
+  uses: "Knives, jewellery, watch cases, gun barrels historically.",
+  link: "https://en.wikipedia.org/wiki/Pattern_welding"
+},
+{
+  id: "hadfield", cat: "metal", name: "Hadfield manganese steel",
+  sub: "~12% Mn austenitic steel", img: "hadfield",
+  hook: "Arrives soft enough to cut, then transforms under impact: the surface work-hardens to three times its original hardness while the core stays tough. The harder you hit it, the better it gets, which is why it is still used where rails cross.",
+  stats: [["Manganese", "11–14%"], ["As-cast", "~200 HB"], ["Worked surface", "~550 HB"]],
+  uses: "Railway crossings, rock crusher jaws, excavator teeth, prison bars.",
+  link: "https://en.wikipedia.org/wiki/Mangalloy"
+},
+{
+  id: "duplex", cat: "metal", name: "Duplex stainless 2205",
+  sub: "half ferrite, half austenite", img: "duplex",
+  hook: "Two crystal structures in one alloy, deliberately balanced fifty-fifty. The mixture is twice as strong as ordinary 316 and far harder to crack in chloride, so you use less of it on an offshore platform.",
+  stats: [["Yield", "~450 MPa"], ["Phases", "~50/50 α + γ"], ["PREN", "~35"]],
+  uses: "Offshore piping, desalination plant, chemical tankers, bridge rebar.",
+  link: "https://en.wikipedia.org/wiki/Duplex_stainless_steel"
+},
+{
+  id: "ss316l", cat: "metal", name: "316L stainless",
+  sub: "Fe–18Cr–10Ni–2Mo, low carbon", swatch: { pattern: "brushed", colors: ["#8d969e", "#cdd4d9", "#5d666e"] },
+  hook: "The default when something has to be clean, welded and left alone. The 2% molybdenum is what buys chloride resistance, and the L — carbon under 0.03% — stops chromium carbides forming at the weld and eating the corrosion resistance there.",
+  stats: [["Molybdenum", "2–3%"], ["Carbon", "<0.03%"], ["Magnetic", "no, until cold-worked"]],
+  uses: "Food and pharma plant, marine fittings, surgical instruments, exhausts.",
+  link: "https://en.wikipedia.org/wiki/SAE_316L_stainless_steel"
+},
+{
+  id: "hss", cat: "metal", name: "High-speed steel",
+  sub: "M2 / T1 tool steel", img: "hss",
+  hook: "The alloy that doubled factory output overnight in 1900: tungsten and molybdenum carbides keep it hard even when the cutting edge glows dull red. Carbide has taken the high end, but HSS still wins wherever the tool has to survive a flex.",
+  stats: [["Red hardness", "to ~600 °C"], ["Hardness", "62–67 HRC"], ["Beats carbide at", "toughness"]],
+  uses: "Drill bits, taps, milling cutters, hacksaw and bandsaw blades.",
+  link: "https://en.wikipedia.org/wiki/High-speed_steel"
+},
+{
+  id: "phosbronze", cat: "metal", name: "Phosphor bronze",
+  sub: "Cu–Sn with ~0.2% P", img: "phosbronze",
+  hook: "The phosphorus deoxidises the melt and leaves hard tin phosphide particles behind. The result springs back forever without fatiguing and slides against steel without seizing — one alloy for contacts and for bearings.",
+  stats: [["Tin", "4–10%"], ["Fatigue", "excellent in spring temper"], ["Friction", "low against steel"]],
+  uses: "Electrical contacts and connectors, plain bearings, ship propellers, bass strings.",
+  link: "https://en.wikipedia.org/wiki/Phosphor_bronze"
+},
+{
+  id: "monel", cat: "metal", name: "Monel 400",
+  sub: "~67% Ni, 30% Cu", img: "monel",
+  hook: "Smelted almost straight from an ore that already contained both metals in roughly the right ratio. It is one of very few metals that holds up in hydrofluoric acid and in fast-moving seawater at the same time, and it will not spark.",
+  stats: [["Nickel", "63–70%"], ["Seawater", "resists erosion-corrosion"], ["HF acid", "one of the few"]],
+  uses: "Marine shafting and pumps, HF service, cryogenic parts, saxophone necks.",
+  link: "https://en.wikipedia.org/wiki/Monel"
+},
+{
+  id: "hastelloy", cat: "metal", name: "Hastelloy C-276",
+  sub: "Ni–Mo–Cr superalloy", img: "hastelloy",
+  hook: "Holds against wet chlorine, hot hydrochloric and sulfuric acid, and oxidising and reducing conditions in the same vessel — a combination almost nothing else survives. It is priced accordingly, so it is used as cladding more than as bulk.",
+  stats: [["Molybdenum", "~16%"], ["Resists", "oxidising and reducing"], ["Weld", "no post-weld anneal needed"]],
+  uses: "Chemical reactors, flue gas scrubbers, pollution control, nuclear reprocessing.",
+  link: "https://en.wikipedia.org/wiki/Hastelloy"
+},
+{
+  id: "zamak", cat: "metal", name: "Zamak",
+  sub: "Zn–Al–Mg–Cu die casting alloy", img: "zamak",
+  hook: "Melts at 385 °C, so it is injected into a steel die that lasts a million shots instead of ten thousand. That is why a zinc casting carries crisp lettering and threads straight out of the machine. Old impure zinc crumbled; the 'zamak' name marks the purity rule that fixed it.",
+  stats: [["Melting", "~385 °C"], ["Die life", "~1,000,000 shots"], ["Detail", "as-cast threads"]],
+  uses: "Carburettors, locks and keys, model cars, zips, bathroom fittings.",
+  link: "https://en.wikipedia.org/wiki/Zamak"
+},
+{
+  id: "sac305", cat: "metal", name: "SAC305 solder",
+  sub: "Sn–3.0Ag–0.5Cu", img: "sac305",
+  hook: "The lead-free replacement the whole electronics industry switched to at once. It melts 34 °C hotter than tin-lead, wets worse, looks dull when it is actually fine — and brings back tin whiskers, hair-thin crystals that grow out of the joint and short things years later.",
+  stats: [["Melting", "217–220 °C"], ["vs Sn63Pb37", "+34 °C"], ["Known issue", "tin whiskers"]],
+  uses: "Essentially all consumer electronics assembly since RoHS in 2006.",
+  link: "https://en.wikipedia.org/wiki/Solder"
+},
+{
+  id: "tantalum", cat: "metal", name: "Tantalum",
+  sub: "Ta, refractory metal", img: "tantalum",
+  hook: "Its oxide film is so stable that the body ignores it entirely and so thin and even that a speck of tantalum powder becomes a capacitor. Nearly immune to acid, and it melts at 3017 °C.",
+  stats: [["Melting", "3017 °C"], ["Oxide", "Ta₂O₅, self-healing"], ["Body response", "inert"]],
+  uses: "Capacitors in every phone, cranial plates, acid-plant heat exchangers, crucibles.",
+  link: "https://en.wikipedia.org/wiki/Tantalum"
+},
+{
+  id: "niobium", cat: "metal", name: "Niobium",
+  sub: "Nb, superconducting below 9.2 K", img: "niobium",
+  hook: "Cool it with liquid helium and a niobium cavity carries a radio-frequency field with almost no loss, so particle accelerators are built from it. It also anodises into saturated colours with no dye at all — the colour is film interference.",
+  stats: [["Tc", "9.2 K"], ["Cavity Q", ">10¹⁰"], ["Anodising", "colour by film thickness"]],
+  uses: "Accelerator cavities, MRI magnet wire (as Nb-Ti), HSLA steel, body jewellery.",
+  link: "https://en.wikipedia.org/wiki/Niobium"
+},
+{
+  id: "nbti", cat: "metal", name: "Nb-Ti superconductor",
+  sub: "niobium–titanium filaments in copper", img: "nbti",
+  hook: "Thousands of filaments thinner than a hair, drawn inside a copper matrix and twisted. Below 9 K it carries current with no resistance; the copper is there to take over for a few milliseconds if a patch warms up, so the magnet does not destroy itself.",
+  stats: [["Tc", "9.2 K"], ["Field", "to ~10 T"], ["Filaments", "<10 µm each"]],
+  uses: "Every MRI scanner, the LHC dipoles, research magnets.",
+  link: "https://en.wikipedia.org/wiki/Niobium%E2%80%93titanium"
+},
+{
+  id: "bismuth", cat: "metal", name: "Bismuth",
+  sub: "Bi, the benign heavy metal", img: "bismuth",
+  hook: "Heavy as lead and essentially non-toxic, so it has quietly replaced lead in shot, solder and plumbing fittings. It expands as it freezes — useful in type metal — and grows hopper crystals in rainbow oxide colours.",
+  stats: [["Density", "9.8 g/cm³"], ["On freezing", "expands ~3%"], ["Diamagnetism", "strongest of all metals"]],
+  uses: "Lead-free solder and brass, fusible alloys, pigments, Pepto-Bismol.",
+  link: "https://en.wikipedia.org/wiki/Bismuth"
+},
+{
+  id: "inconel718", cat: "metal", name: "Inconel 718",
+  sub: "Ni–Cr–Nb–Mo age-hardening superalloy", img: "inconel718",
+  hook: "A nickel alloy that is actually weldable, because the niobium-bearing strengthening phase forms slowly enough that the weld does not crack while it cools. That one property made it the default for rocket engine parts, and now for metal 3D printing.",
+  stats: [["Service", "to ~700 °C"], ["Tensile", "~1375 MPa aged"], ["Weldable", "unusually, yes"]],
+  uses: "Rocket turbopumps, turbine casings, downhole tools, additive-manufactured parts.",
+  link: "https://en.wikipedia.org/wiki/Inconel"
+},
+{
+  id: "cupronickel", cat: "metal", name: "Cupronickel",
+  sub: "Cu–10Ni or Cu–30Ni", swatch: { pattern: "brushed", colors: ["#9b9a94", "#d2d1c9", "#6a6963"] },
+  hook: "Copper ions leaching slowly from the surface keep barnacles and weed from ever settling, so a cupronickel hull or intake pipe stays clean without paint. It is also why most 'silver' coins are not silver.",
+  stats: [["Nickel", "10–30%"], ["Biofouling", "self-resisting"], ["Seawater", "decades of service"]],
+  uses: "Ship hull cladding, condenser tubing, seawater piping, coinage.",
+  link: "https://en.wikipedia.org/wiki/Cupronickel"
+},
+{
+  id: "ndfeb", cat: "metal", name: "Neodymium magnet",
+  sub: "Nd₂Fe₁₄B sintered", img: "ndfeb",
+  hook: "The strongest permanent magnet ever made, and the reason headphones, hard drives and electric motors shrank in the 1980s. It rusts if left bare, demagnetises above about 80 °C, and will shatter and take a fingertip if two are allowed to meet.",
+  stats: [["Energy product", "to 52 MGOe"], ["Max temp", "80–200 °C by grade"], ["Discovered", "1982"]],
+  uses: "EV and wind turbine motors, hard drives, speakers, MRI, magnetic couplings.",
+  link: "https://en.wikipedia.org/wiki/Neodymium_magnet"
+},
+{
+  id: "alnico", cat: "metal", name: "Alnico",
+  sub: "Al–Ni–Co–Fe cast magnet", img: "alnico",
+  hook: "Weaker than neodymium but it barely cares about heat, holding its field to 500 °C where modern magnets give up at 80. Guitar pickups still use it because it saturates gently and softens the top end — a magnetic compressor.",
+  stats: [["Curie point", "~800 °C"], ["Working temp", "to 500 °C"], ["Coercivity", "low — easily demagnetised"]],
+  uses: "Guitar pickups, sensors and magnetrons, hot-environment holding magnets.",
+  link: "https://en.wikipedia.org/wiki/Alnico"
+},
+{
+  id: "babbitt", cat: "metal", name: "Babbitt metal",
+  sub: "tin or lead matrix with hard crystals", swatch: { pattern: "speckle", colors: ["#b8bcc0", "#e8ebee", "#7d8287"] },
+  hook: "A deliberately weak bearing lining: hard crystals sit in a soft matrix that wears away around them, leaving channels for oil and letting grit bury itself harmlessly. The bearing is sacrificed instead of the million-dollar shaft.",
+  stats: [["Hardness", "~20–30 HB"], ["Structure", "hard phase in soft matrix"], ["Role", "the sacrificial part"]],
+  uses: "Steam and gas turbine journal bearings, large engines, machine tool ways.",
+  link: "https://en.wikipedia.org/wiki/Babbitt_(alloy)"
+},
+{
+  id: "corten", cat: "metal", name: "Weathering steel",
+  sub: "Cor-Ten, Cu–Cr–Ni–P steel", img: "corten",
+  hook: "A steel that rusts on purpose and then stops. Copper and phosphorus make the first rust layer dense and sticky instead of flaky, so it seals the surface and corrosion slows to near nothing — no paint, ever. Give it standing water and the trick fails.",
+  stats: [["Patina", "stable in 2–6 years"], ["Paint", "none required"], ["Fails if", "constantly wet or salted"]],
+  uses: "Bridges, sculpture, building façades, shipping containers, planters.",
+  link: "https://en.wikipedia.org/wiki/Weathering_steel"
+},
+{
+  id: "zircaloy", cat: "metal", name: "Zircaloy",
+  sub: "zirconium–tin cladding alloy", img: "zircaloy",
+  hook: "Chosen for one property: neutrons pass straight through it. That lets a fuel rod be wrapped in metal without poisoning the reaction. Its one bad day is a loss of coolant, when hot zirconium strips oxygen from steam and makes hydrogen.",
+  stats: [["Neutron capture", "very low"], ["Service", "~350 °C in water"], ["Steam above 1200 °C", "makes H₂"]],
+  uses: "Fuel rod cladding and channel boxes in essentially every water-cooled reactor.",
+  link: "https://en.wikipedia.org/wiki/Zircaloy"
+},
+{
+  id: "hafnium", cat: "metal", name: "Hafnium",
+  sub: "Hf, zirconium's chemical twin", img: "hafnium",
+  hook: "Chemically almost identical to zirconium and found in the same ore, but it swallows neutrons about 600 times more greedily. So the two are painstakingly separated: zirconium wraps the fuel, hafnium makes the control rods that stop it.",
+  stats: [["Neutron capture", "~600× zirconium"], ["Melting", "2233 °C"], ["Separation", "the hard part"]],
+  uses: "Reactor control rods, plasma cutting electrodes, superalloy additive, high-k gate oxide.",
+  link: "https://en.wikipedia.org/wiki/Hafnium"
+},
+{
+  id: "hea", cat: "metal", name: "High-entropy alloy",
+  sub: "CrMnFeCoNi (Cantor alloy)", img: "hea",
+  hook: "Five metals in roughly equal amounts, with no host element at all — the opposite of how alloys are normally designed. The Cantor alloy's fracture toughness rises as it gets colder, which almost every other metal refuses to do.",
+  stats: [["Elements", "5, near-equiatomic"], ["Toughness at 77 K", "~200 MPa·m½"], ["First reported", "2004"]],
+  uses: "Cryogenic structures, research into radiation-tolerant and wear-resistant alloys.",
+  link: "https://en.wikipedia.org/wiki/High-entropy_alloy"
 },
 
 /* ---------- CERAMICS & GLASS ---------- */
@@ -692,6 +1060,190 @@ window.MATERIALS = [
   uses: "Industrial cutting and welding lasers, rangefinders, surgery, LED phosphor (Ce:YAG).",
   link: "https://en.wikipedia.org/wiki/Yttrium_aluminium_garnet"
 },
+{
+  id: "sodalime", cat: "ceramic", name: "Soda-lime glass",
+  sub: "SiO₂–Na₂O–CaO", img: "sodalime",
+  hook: "90% of all glass made. Soda drops silica's melting point by 700 °C so it can be worked at all; lime is then added to stop the result dissolving in water, which is exactly what soda alone produces — water glass.",
+  stats: [["Melt", "~1500 °C"], ["Expansion", "9 × 10⁻⁶ /K"], ["Share of all glass", "~90%"]],
+  uses: "Windows, bottles, jars, light bulbs, everyday tableware.",
+  link: "https://en.wikipedia.org/wiki/Soda%E2%80%93lime_glass"
+},
+{
+  id: "leadcrystal", cat: "ceramic", name: "Lead crystal",
+  sub: "potash–lead silicate glass", img: "leadcrystal",
+  hook: "Lead oxide raises the refractive index and spreads the colours further apart, so a cut facet throws rainbows. It also softens the glass enough to cut deeply, and it rings — the low internal damping gives a long, pure note.",
+  stats: [["PbO", "24–33%"], ["Refractive index", "1.55–1.6"], ["Ring", "seconds, not a thud"]],
+  uses: "Cut glassware and chandeliers; historically radiation shielding windows and CRT faces.",
+  link: "https://en.wikipedia.org/wiki/Lead_glass"
+},
+{
+  id: "ceran", cat: "ceramic", name: "Glass-ceramic cooktop",
+  sub: "lithium aluminosilicate, Ceran", img: "ceran",
+  hook: "Glass that is heat-treated until tiny crystals grow inside it, and those crystals shrink as the glass expands. The two cancel out: you can run a red-hot ring in one spot while the plate an inch away stays cool, with no crack.",
+  stats: [["Expansion", "≈0 × 10⁻⁶ /K"], ["Spot heating", "no thermal shock"], ["Crystals", "grown in place"]],
+  uses: "Hob panels, wood stove windows, telescope mirror blanks, cookware.",
+  link: "https://en.wikipedia.org/wiki/Glass-ceramic"
+},
+{
+  id: "chalcogenide", cat: "ceramic", name: "Chalcogenide glass",
+  sub: "Ge–As–Se / As₂S₃", swatch: { pattern: "gloss", colors: ["#23262a", "#5b6066", "#0b0c0e"] },
+  hook: "Looks like a black mirror and is completely opaque to the eye, yet thermal infrared passes straight through it. It can be moulded like plastic, which is why thermal cameras got cheap enough to clip onto a phone.",
+  stats: [["Transmits", "8–12 µm"], ["Visible", "opaque"], ["Forming", "precision moulded"]],
+  uses: "Thermal imaging lenses, IR fibre, rewritable optical disc layers, phase-change memory.",
+  link: "https://en.wikipedia.org/wiki/Chalcogenide_glass"
+},
+{
+  id: "zblan", cat: "ceramic", name: "ZBLAN fluoride glass",
+  sub: "ZrF₄–BaF₂–LaF₃–AlF₃–NaF", swatch: { pattern: "gloss", colors: ["#cfe3e8", "#f2fafc", "#9ab6bf"] },
+  hook: "In theory it could carry light a hundred times further than silica fibre. In practice gravity lets crystals nucleate and settle while it cools, ruining it — so it is now being drawn in orbit, where there is nothing to settle.",
+  stats: [["Theoretical loss", "~0.001 dB/km"], ["Problem", "crystallises on cooling"], ["Drawn on", "the ISS, since 2017"]],
+  uses: "Mid-IR fibre lasers, fibre amplifiers, proposed ultra-long-haul links.",
+  link: "https://en.wikipedia.org/wiki/ZBLAN"
+},
+{
+  id: "porcelain", cat: "ceramic", name: "Electrical porcelain",
+  sub: "kaolin–feldspar–quartz, vitrified", img: "porcelain",
+  hook: "Fired until the glassy phase closes every pore, so rain cannot get in and nothing tracks across the surface. A grid insulator has held tens of thousands of volts outdoors for a century with no maintenance at all.",
+  stats: [["Dielectric strength", "~20 kV/mm"], ["Porosity", "zero"], ["Fired at", "1200–1400 °C"]],
+  uses: "Power line and substation insulators, fuse bodies, spark plug cores, lab ware.",
+  link: "https://en.wikipedia.org/wiki/Porcelain"
+},
+{
+  id: "steatite", cat: "ceramic", name: "Steatite",
+  sub: "fired talc–clay (soapstone)", img: "steatite",
+  hook: "Soft enough to carve with a knife before firing, then fires into a hard insulator with low dielectric loss. That window — machine it green, fire it hard — made it the standard body for electrical parts before plastics.",
+  stats: [["Green state", "machinable"], ["Loss tangent", "very low"], ["Max use", "~1000 °C"]],
+  uses: "Heater element formers, terminal blocks, RF insulators, aquarium heaters.",
+  link: "https://en.wikipedia.org/wiki/Steatite"
+},
+{
+  id: "mullite", cat: "ceramic", name: "Mullite",
+  sub: "3Al₂O₃·2SiO₂", img: "mullite",
+  hook: "Almost nonexistent in nature — it was named after a Scottish island where lava met clay — yet it is the phase that forms in nearly every fired clay body and gives it strength. It barely creeps at 1500 °C.",
+  stats: [["Stable to", "~1800 °C"], ["Creep", "very low"], ["Expansion", "5 × 10⁻⁶ /K"]],
+  uses: "Kiln furniture, furnace linings, foundry crucibles, IR-transparent windows.",
+  link: "https://en.wikipedia.org/wiki/Mullite"
+},
+{
+  id: "tib2", cat: "ceramic", name: "Titanium diboride",
+  sub: "TiB₂", swatch: { pattern: "gloss", colors: ["#5a5f63", "#9aa0a5", "#32363a"] },
+  hook: "A ceramic that conducts electricity better than titanium metal while being nearly as hard as boron carbide. That combination lets it be cut by EDM — you can spark-erode shapes into a ceramic, which is normally impossible.",
+  stats: [["Hardness", "~25 GPa"], ["Resistivity", "~15 µΩ·cm"], ["Melting", "3230 °C"]],
+  uses: "Aluminium smelter cathodes, crucibles for molten metal, armour, cutting tools.",
+  link: "https://en.wikipedia.org/wiki/Titanium_diboride"
+},
+{
+  id: "isographite", cat: "ceramic", name: "Isostatic graphite",
+  sub: "isotropically pressed fine-grain carbon", swatch: { pattern: "grain", colors: ["#3a3d40", "#6e7276", "#202224"] },
+  hook: "Unlike every other structural material, it gets stronger as it gets hotter, peaking around 2500 °C. It also machines like chalk and conducts electricity, so it is the electrode that burns a shape into hardened steel.",
+  stats: [["Strength peak", "~2500 °C"], ["Grain", "<10 µm"], ["Machining", "like dense chalk"]],
+  uses: "EDM electrodes, continuous casting dies, crucibles, rocket nozzle throats.",
+  link: "https://en.wikipedia.org/wiki/Graphite"
+},
+{
+  id: "glassycarbon", cat: "ceramic", name: "Glassy carbon",
+  sub: "vitreous carbon", img: "glassycarbon",
+  hook: "Carbon that has been baked until it is neither graphite nor diamond but a tangle of ribbons with no connected porosity at all. Gas cannot get through it, acid cannot touch it, and it keeps a mirror polish.",
+  stats: [["Permeability", "gas-tight"], ["Use temp", "to 3000 °C, inert"], ["Density", "1.5 g/cm³"]],
+  uses: "Electrochemistry electrodes, crucibles for ultra-pure melts, AFM calibration standards.",
+  link: "https://en.wikipedia.org/wiki/Glassy_carbon"
+},
+{
+  id: "emax", cat: "ceramic", name: "Lithium disilicate",
+  sub: "Li₂Si₂O₅ dental glass-ceramic", img: "emax",
+  hook: "Milled as a soft blue-violet blank in twenty minutes, then fired — and during the firing the crystals grow, the colour turns to tooth, and the strength triples. The machining happens while it is still weak on purpose.",
+  stats: [["Milled strength", "~130 MPa"], ["Fired strength", "~400 MPa"], ["Chairside", "under an hour"]],
+  uses: "Crowns, veneers and inlays made in the dentist's own milling machine.",
+  link: "https://en.wikipedia.org/wiki/Glass-ceramic"
+},
+{
+  id: "zta", cat: "ceramic", name: "Zirconia-toughened alumina",
+  sub: "ZTA, Al₂O₃ + 10–20% ZrO₂", img: "zta",
+  hook: "Zirconia grains sit in the alumina like loaded springs. A crack running through triggers them to change crystal structure and swell, which squeezes the crack shut behind the tip. Alumina's hardness with much of zirconia's toughness.",
+  stats: [["Toughness", "~6 MPa·m½"], ["Hardness", "~1700 HV"], ["Mechanism", "transformation toughening"]],
+  uses: "Hip replacement heads, wear tiles, cutting inserts, ballistic plates.",
+  link: "https://en.wikipedia.org/wiki/Zirconium_dioxide"
+},
+{
+  id: "mnznferrite", cat: "ceramic", name: "MnZn ferrite",
+  sub: "soft ferrite core material", img: "mnznferrite",
+  hook: "A magnetic ceramic that is an electrical insulator, so eddy currents that would cook a solid iron core simply cannot circulate. That is the only reason switching power supplies can run at hundreds of kilohertz.",
+  stats: [["Permeability", "2000–15000"], ["Resistivity", "~1 Ω·m"], ["Useful to", "~1 MHz"]],
+  uses: "SMPS transformers, inductors, the lump on every USB cable, antenna rods.",
+  link: "https://en.wikipedia.org/wiki/Ferrite_(magnet)"
+},
+{
+  id: "azs", cat: "ceramic", name: "Fused-cast AZS",
+  sub: "alumina–zirconia–silica refractory", swatch: { pattern: "speckle", colors: ["#cdc7b8", "#eee9dc", "#9a9484"] },
+  hook: "Melted at over 2000 °C and cast like metal into blocks, rather than pressed and fired. The result stands in molten glass for ten or fifteen years without dissolving into it — a glass furnace is rebuilt around the AZS, not the other way round.",
+  stats: [["Cast at", ">2000 °C"], ["Campaign life", "10–15 years"], ["ZrO₂", "33–41%"]],
+  uses: "Glass melting furnace linings, throats and feeders.",
+  link: "https://en.wikipedia.org/wiki/Refractory"
+},
+{
+  id: "ifb", cat: "ceramic", name: "Insulating firebrick",
+  sub: "porous alumina-silicate refractory", img: "ifb",
+  hook: "Sawdust or polystyrene beads are burned out of the body during firing, leaving a brick that is mostly sealed air. You can hold one corner while the other glows at 1200 °C, and cut it with a hand saw.",
+  stats: [["Density", "0.5–0.8 g/cm³"], ["Rating", "1260–1650 °C"], ["Cutting", "ordinary wood saw"]],
+  uses: "Kiln and furnace linings, forge interiors, back-up insulation.",
+  link: "https://en.wikipedia.org/wiki/Fire_brick"
+},
+{
+  id: "sialon", cat: "ceramic", name: "Sialon",
+  sub: "Si–Al–O–N solid solution", img: "sialon",
+  hook: "Silicon nitride with aluminium and oxygen substituted into the lattice, which lets it be sintered without a glassy grain-boundary phase to soften at temperature. Molten aluminium will not wet it, so it survives in a job that destroys steel.",
+  stats: [["Hardness", "~1600 HV"], ["Thermal shock", "excellent"], ["Molten Al", "non-wetting"]],
+  uses: "Welding nozzles, thermocouple sheaths in aluminium melts, cutting inserts for nickel alloys.",
+  link: "https://en.wikipedia.org/wiki/SiAlON"
+},
+{
+  id: "beo", cat: "ceramic", name: "Beryllia",
+  sub: "BeO, beryllium oxide", img: "beo",
+  hook: "An electrical insulator that conducts heat better than aluminium metal — only diamond and a couple of others beat it. Sintered parts are safe to handle; the dust is not, which is why aluminium nitride replaced it wherever it could.",
+  stats: [["Thermal conductivity", "~285 W/m·K"], ["Dielectric", "insulator"], ["Hazard", "dust only, chronic"]],
+  uses: "Legacy RF power transistor and klystron packages, laser tubes, specialist heat spreaders.",
+  link: "https://en.wikipedia.org/wiki/Beryllium_oxide"
+},
+{
+  id: "uraniumglass", cat: "ceramic", name: "Uranium glass",
+  sub: "uranium-doped soda-lime glass", img: "uraniumglass",
+  hook: "A couple of percent uranium oxide turns glass yellow-green and makes it blaze under ultraviolet. Made as ordinary tableware from the 1830s; the radioactivity is real but trivial, less than a banana's worth of dose from sitting in the cabinet.",
+  stats: [["Uranium", "~0.1–2%"], ["Under UV", "bright green"], ["Dose", "negligible"]],
+  uses: "Collectable glassware, Depression-era pressed glass, historical lab ware.",
+  link: "https://en.wikipedia.org/wiki/Uranium_glass"
+},
+{
+  id: "dichroic", cat: "ceramic", name: "Dichroic glass",
+  sub: "glass with a vapour-deposited oxide stack", img: "dichroic",
+  hook: "The colour is not a pigment but a stack of oxide layers a few hundred atoms thick, interfering with light. It shows one colour reflected and the complementary one transmitted, and changes as you tilt it. NASA developed it for spacecraft filters.",
+  stats: [["Layers", "30–50, nanometre scale"], ["Colour source", "interference, not dye"], ["Origin", "NASA optical filters"]],
+  uses: "Art glass and jewellery, stage lighting filters, laser mirrors, architectural glazing.",
+  link: "https://en.wikipedia.org/wiki/Dichroic_glass"
+},
+{
+  id: "photochromic", cat: "ceramic", name: "Photochromic glass",
+  sub: "silver halide microcrystals in glass", img: "photochromic",
+  hook: "Silver halide crystals suspended in the glass split into silver and halogen in sunlight, darkening the lens — and because the glass cage holds both halves in place, they recombine in the shade. The same reaction as photographic film, made reversible.",
+  stats: [["Darkening", "under 60 s"], ["Clearing", "a few minutes"], ["Cycles", "effectively unlimited"]],
+  uses: "Sunglass and spectacle lenses, aircraft and architectural glazing.",
+  link: "https://en.wikipedia.org/wiki/Photochromic_lens"
+},
+{
+  id: "bonechina", cat: "ceramic", name: "Bone china",
+  sub: "~50% calcined bone ash", img: "bonechina",
+  hook: "Half the body is ash from cattle bone, which gives it a translucency and a whiteness no clay alone reaches, and makes a thin-walled cup strong enough to survive a hotel. Fired once hot and glazed once cool — the opposite order to porcelain.",
+  stats: [["Bone ash", "~50%"], ["Translucency", "you can see a hand through it"], ["Firing", "biscuit high, glaze low"]],
+  uses: "Fine tableware, teacups, figurines.",
+  link: "https://en.wikipedia.org/wiki/Bone_china"
+},
+{
+  id: "enamel", cat: "ceramic", name: "Vitreous enamel",
+  sub: "glass fused to steel or cast iron", img: "enamel",
+  hook: "Powdered glass fired onto metal at 800 °C, so the two expand together for the life of the part. It gives steel a surface that does not fade, scratch or stain — the London Underground's signs are nearly a century old and still look printed yesterday.",
+  stats: [["Fired at", "750–850 °C"], ["Hardness", "~6 Mohs"], ["Weakness", "chips if struck"]],
+  uses: "Cookware and sinks, cast iron baths, road and transit signs, cloisonné jewellery.",
+  link: "https://en.wikipedia.org/wiki/Vitreous_enamel"
+},
 
 /* ---------- COMPOSITES & STRUCTURES ---------- */
 {
@@ -789,6 +1341,206 @@ window.MATERIALS = [
   stats: [["Transmittance", "~85–90%"], ["vs. glass", "tougher, warmer"], ["Keeps", "the grain"]],
   uses: "Experimental glazing, diffusing light panels, structural windows.",
   link: "https://en.wikipedia.org/wiki/Transparent_wood_composite"
+},
+{
+  id: "gfrp", cat: "composite", name: "Glass-fibre laminate",
+  sub: "GFRP / fibreglass", img: "gfrp",
+  hook: "Glass in bulk is brittle because of surface flaws; drawn into a 10 µm filament and kept coated, those flaws never form, and the fibre is stronger than steel wire. The resin's only job is to hold the fibres apart and pass load between them.",
+  stats: [["Fibre tensile", "~3.4 GPa"], ["Fibre fraction", "30–60%"], ["Resin's job", "load transfer"]],
+  uses: "Boat hulls, wind turbine blades, bath tubs, circuit boards, ladders.",
+  link: "https://en.wikipedia.org/wiki/Fiberglass"
+},
+{
+  id: "cfrp", cat: "composite", name: "CFRP prepreg laminate",
+  sub: "carbon fibre pre-impregnated with epoxy", img: "cfrp",
+  hook: "Cloth arrives already loaded with exactly the right amount of B-staged resin, frozen to stop it curing. You lay it up, bag it and bake it, and the part has the fibre fraction an engineer specified rather than the one a wet brush happened to give.",
+  stats: [["Fibre fraction", "~60%, controlled"], ["Shelf life", "months at −18 °C"], ["Cure", "120–180 °C in autoclave"]],
+  uses: "Airframes, F1 monocoques, bicycle frames, satellite structures.",
+  link: "https://en.wikipedia.org/wiki/Pre-preg"
+},
+{
+  id: "alhoneycomb", cat: "composite", name: "Aluminium honeycomb",
+  sub: "expanded foil core sandwich", img: "alhoneycomb",
+  hook: "Foil 25 µm thick, glued in stripes and pulled open into hexagons. Separating two thin skins by an inch of near-nothing multiplies the panel's bending stiffness by a hundred for a few percent extra weight — the I-beam idea in two dimensions.",
+  stats: [["Foil", "~25 µm"], ["Density", "~50 kg/m³"], ["Stiffness gain", "~100×"]],
+  uses: "Aircraft floors and control surfaces, satellite panels, race car floors, flight cases.",
+  link: "https://en.wikipedia.org/wiki/Honeycomb_structure"
+},
+{
+  id: "nomexcore", cat: "composite", name: "Nomex honeycomb",
+  sub: "phenolic-dipped aramid paper core", swatch: { pattern: "honeycomb", colors: ["#c79a3c", "#e9c877", "#8a6520"] },
+  hook: "Aramid paper folded into cells and dipped in phenolic resin until it is rigid. Lighter than aluminium core, does not corrode, does not conduct, and does not take a permanent dent — it springs back where the metal version stays crushed.",
+  stats: [["Density", "29–130 kg/m³"], ["Dent", "recovers"], ["Flame", "self-extinguishing"]],
+  uses: "Aircraft interior panels, radomes, racing bodywork, skis and snowboards.",
+  link: "https://en.wikipedia.org/wiki/Honeycomb_structure"
+},
+{
+  id: "glare", cat: "composite", name: "GLARE",
+  sub: "glass-fibre / aluminium laminate", img: "glare",
+  hook: "Thin aluminium sheets alternating with glass-fibre prepreg. A fatigue crack runs through the metal layer and then stops dead, because the fibres bridging it carry the load across — cracks grow ten to a hundred times slower than in solid alloy.",
+  stats: [["Crack growth", "10–100× slower"], ["Weight saving", "~10% vs alloy"], ["Flies on", "the A380 upper fuselage"]],
+  uses: "Airbus A380 fuselage panels, cargo liners, blast-resistant containers.",
+  link: "https://en.wikipedia.org/wiki/GLARE"
+},
+{
+  id: "plywood", cat: "composite", name: "Plywood",
+  sub: "cross-laminated wood veneer", img: "plywood",
+  hook: "Wood is roughly thirty times stiffer along the grain than across it. Rotate every veneer 90° to its neighbour and you get a sheet that is equally strong in both directions and will not split — engineering around a flaw by stacking it out.",
+  stats: [["Plies", "odd number, always"], ["Grain", "alternating 90°"], ["Splitting", "designed out"]],
+  uses: "Construction sheathing, furniture, boat hulls, concrete formwork, aircraft (Mosquito).",
+  link: "https://en.wikipedia.org/wiki/Plywood"
+},
+{
+  id: "clt", cat: "composite", name: "Cross-laminated timber",
+  sub: "CLT mass timber panel", img: "clt",
+  hook: "Plywood's logic at building scale: whole boards stacked crosswise into slabs a foot thick. It carries like concrete at a fifth of the weight, and in a fire the outside chars into an insulating layer that protects the structural core behind it.",
+  stats: [["Char rate", "~0.65 mm/min"], ["vs concrete", "~1/5 the weight"], ["Tallest so far", "~25 storeys"]],
+  uses: "Mid-rise apartment and office buildings, floor and roof slabs, shear walls.",
+  link: "https://en.wikipedia.org/wiki/Cross-laminated_timber"
+},
+{
+  id: "rcconcrete", cat: "composite", name: "Reinforced concrete",
+  sub: "concrete with embedded steel", img: "rcconcrete",
+  hook: "The partnership works for a reason nobody planned: concrete and steel happen to expand at almost exactly the same rate, so a hot day does not tear them apart. The concrete's alkalinity also passivates the steel, which is why carbonation and chloride are what eventually kill a structure.",
+  stats: [["Compression", "concrete, 20–50 MPa"], ["Tension", "steel, ~500 MPa"], ["Expansion", "near-identical, by luck"]],
+  uses: "Essentially all modern construction — frames, slabs, dams, foundations.",
+  link: "https://en.wikipedia.org/wiki/Reinforced_concrete"
+},
+{
+  id: "uhpc", cat: "composite", name: "Ultra-high-performance concrete",
+  sub: "UHPC with steel microfibres", img: "uhpc",
+  hook: "Packed with particles of every size from a centimetre down to a tenth of a micron so there is no space left for voids, plus steel fibres to carry tension. It is eight times stronger than structural concrete and does not need rebar.",
+  stats: [["Compressive", "120–250 MPa"], ["Water/cement", "<0.25"], ["Rebar", "often none"]],
+  uses: "Thin-shell footbridges, façade panels, bridge deck joints, security bollards.",
+  link: "https://en.wikipedia.org/wiki/Ultra-high-performance_concrete"
+},
+{
+  id: "selfhealconcrete", cat: "composite", name: "Self-healing concrete",
+  sub: "bacterial or capsule-healed concrete", img: "selfhealconcrete",
+  hook: "Dormant Bacillus spores and their calcium lactate food are mixed into the pour and sit inert for decades. A crack lets water in, the spores wake, and they precipitate limestone until the crack is plugged and the water stops.",
+  stats: [["Spore dormancy", "200 years, claimed"], ["Crack sealed", "to ~0.8 mm"], ["Trigger", "water ingress"]],
+  uses: "Tunnel linings, marine structures, basement walls — anywhere repair access is expensive.",
+  link: "https://en.wikipedia.org/wiki/Self-healing_material"
+},
+{
+  id: "fibrecement", cat: "composite", name: "Fibre cement",
+  sub: "cellulose-reinforced cement board", img: "fibrecement",
+  hook: "The modern, honest replacement for asbestos cement: wood pulp fibres do the same crack-bridging job without the lung hazard. Non-combustible, immune to termites and rot, and it holds paint for decades.",
+  stats: [["Fibre", "cellulose, not asbestos"], ["Combustible", "no"], ["Life", "50 years typical"]],
+  uses: "Cladding and siding, soffits, tile backer board, roof slates.",
+  link: "https://en.wikipedia.org/wiki/Fibre_cement"
+},
+{
+  id: "smc", cat: "composite", name: "Sheet moulding compound",
+  sub: "SMC, chopped glass in thickened polyester", swatch: { pattern: "speckle", colors: ["#6f756e", "#a4a99f", "#464b45"] },
+  hook: "A leathery sheet of resin and chopped fibre that is pressed into a hot steel die and cured in two minutes. It is how a composite body panel gets made at car-plant rate instead of boat-yard rate, and it does not dent or rust.",
+  stats: [["Cycle", "1–3 minutes"], ["Glass", "25–30%"], ["Finish", "paintable Class A"]],
+  uses: "Truck and car body panels, electrical enclosures, lorry cabs, bathroom units.",
+  link: "https://en.wikipedia.org/wiki/Sheet_moulding_compound"
+},
+{
+  id: "forgedcomposite", cat: "composite", name: "Forged composite",
+  sub: "chopped-tow compression moulded CFRP", swatch: { pattern: "speckle", colors: ["#2b2e31", "#70757a", "#141618"] },
+  hook: "Short random carbon tows squeezed into a die instead of laid up by hand. You lose the directional strength of a laminate and gain the ability to mould ribs, bosses and thick sections in one shot — and a marbled surface nobody can fake.",
+  stats: [["Tow length", "~25–50 mm"], ["Cycle", "minutes"], ["Shapes", "3D, not just shells"]],
+  uses: "Supercar structural parts, watch cases, bicycle components, tool bodies.",
+  link: "https://en.wikipedia.org/wiki/Carbon_fiber_reinforced_polymer"
+},
+{
+  id: "alsic", cat: "composite", name: "Al-SiC metal matrix",
+  sub: "aluminium with 40–70% SiC particles", img: "alsic",
+  hook: "Load aluminium with enough silicon carbide and you can tune its thermal expansion to match a silicon chip exactly, while keeping metal's heat conduction. The package then survives thousands of thermal cycles without the solder joints shearing off.",
+  stats: [["Expansion", "tunable 6–12 × 10⁻⁶ /K"], ["Conductivity", "~180 W/m·K"], ["SiC", "40–70 vol%"]],
+  uses: "Power module baseplates, IGBT substrates, avionics packaging, brake discs.",
+  link: "https://en.wikipedia.org/wiki/Metal_matrix_composite"
+},
+{
+  id: "tyre", cat: "composite", name: "Steel-belted radial tyre",
+  sub: "rubber, steel cord, textile plies", img: "tyre",
+  hook: "Among the most complex objects mass-produced: up to twenty materials, brass-plated steel cord bonded chemically to rubber, carcass plies running radially and belts running across them. It is expected to run at 120 km/h for 60,000 km with no maintenance.",
+  stats: [["Materials", "up to ~20"], ["Cord bond", "brass-to-sulfur"], ["Flex cycles", "~50 million"]],
+  uses: "Every road vehicle built since the 1970s.",
+  link: "https://en.wikipedia.org/wiki/Radial_tire"
+},
+{
+  id: "transparentarmour", cat: "composite", name: "Transparent armour",
+  sub: "glass / polycarbonate / ceramic laminate", img: "transparentarmour",
+  hook: "A stack with a job for each layer: a hard ceramic or glass face to shatter and blunt the bullet, thick glass to spread the load, and a polycarbonate backing to catch everything without spalling into the cabin. Four inches thick for a rifle round.",
+  stats: [["Thickness", "25–100 mm"], ["Layers", "glass, PVB, PC"], ["Weight", "~100 kg/m² at rifle rating"]],
+  uses: "Armoured vehicle and bank glazing, cockpit windscreens, riot shields.",
+  link: "https://en.wikipedia.org/wiki/Bulletproof_glass"
+},
+{
+  id: "dyneemahb", cat: "composite", name: "UHMWPE armour laminate",
+  sub: "cross-plied Dyneema HB", img: "dyneemahb",
+  hook: "Unidirectional fibre sheets cross-plied and pressed with almost no resin, so the fibres do nearly all the work. It stops rifle rounds at a lower areal weight than any other material, and being polyethylene it floats and ignores water.",
+  stats: [["Areal density", "~15–20 kg/m² rifle"], ["Resin", "<20%"], ["Water", "no effect"]],
+  uses: "Helmets, vehicle and ship armour, ballistic plates, blast containment.",
+  link: "https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene"
+},
+{
+  id: "pvcfoam", cat: "composite", name: "Structural PVC foam core",
+  sub: "cross-linked PVC, Divinycell type", swatch: { pattern: "powder", colors: ["#c8b78f", "#e6dcc0", "#95855f"] },
+  hook: "A rigid closed-cell foam engineered to carry shear rather than to insulate. In a sandwich panel the skins take tension and compression and the core's only job is to keep them apart and stop them sliding — and it absorbs no water if the skin is pierced.",
+  stats: [["Density", "40–250 kg/m³"], ["Cells", "closed"], ["Carries", "shear, not bending"]],
+  uses: "Boat hulls and decks, wind turbine blade shells, rail car panels.",
+  link: "https://en.wikipedia.org/wiki/Sandwich-structured_composite"
+},
+{
+  id: "gypsum", cat: "composite", name: "Gypsum board",
+  sub: "CaSO₄·2H₂O between paper facings", img: "gypsum",
+  hook: "Its fire rating comes from chemistry, not insulation: the board is about 20% water bound into the crystal, and in a fire that water boils off and holds the far side at 100 °C until the whole sheet is dry. A 16 mm board buys an hour.",
+  stats: [["Bound water", "~21% by mass"], ["Rating", "~60 min at 16 mm"], ["Mechanism", "calcination"]],
+  uses: "Interior walls and ceilings, fire separations, shaft linings.",
+  link: "https://en.wikipedia.org/wiki/Drywall"
+},
+{
+  id: "g10", cat: "composite", name: "G10 / FR-4",
+  sub: "woven glass cloth in epoxy", swatch: { pattern: "weave", colors: ["#2f6b3a", "#5ea06b", "#1b3f22"] },
+  hook: "The green board every circuit lives on, and a superb structural material in its own right: dimensionally stable, an excellent insulator, and unbothered by water. FR-4 is the same thing with bromine added so it self-extinguishes.",
+  stats: [["Dielectric strength", "~20 kV/mm"], ["Water absorption", "<0.1%"], ["Tg", "130–180 °C"]],
+  uses: "Printed circuit boards, knife scales, transformer spacers, cryogenic supports.",
+  link: "https://en.wikipedia.org/wiki/FR-4"
+},
+{
+  id: "copv", cat: "composite", name: "COPV",
+  sub: "composite overwrapped pressure vessel", img: "copv",
+  hook: "A thin metal or plastic liner that only has to hold gas in, wound with carbon fibre that does all the holding together. Half the weight of a steel cylinder at the same pressure — and the winding pattern is calculated so the fibres carry pure tension everywhere.",
+  stats: [["Pressure", "300–700 bar"], ["vs steel", "~50% lighter"], ["Liner", "seals only"]],
+  uses: "Hydrogen and CNG vehicle tanks, SCBA and scuba cylinders, spacecraft helium tanks.",
+  link: "https://en.wikipedia.org/wiki/Composite_overwrapped_pressure_vessel"
+},
+{
+  id: "pykrete", cat: "composite", name: "Pykrete",
+  sub: "14% wood pulp frozen into water", img: "pykrete",
+  hook: "Ice with sawdust in it. The fibres stop cracks running, so it is several times stronger than ice, melts far more slowly, and can be machined and shot at. Britain seriously planned an aircraft carrier out of it in 1943; the war ended first.",
+  stats: [["Pulp", "~14% by mass"], ["Crush strength", "~7 MPa"], ["Project", "Habakkuk, 1943"]],
+  uses: "None in service — a wartime proposal and a durable demonstration piece.",
+  link: "https://en.wikipedia.org/wiki/Pykrete"
+},
+{
+  id: "hempcrete", cat: "composite", name: "Hempcrete",
+  sub: "hemp shiv bound with lime", img: "hempcrete",
+  hook: "Not structural — it is poured around a timber frame as insulation. The lime slowly reabsorbs the CO₂ it gave off when it was burned, and the plant locked up carbon while growing, so a finished wall can be carbon-negative. It also buffers humidity.",
+  stats: [["Density", "~275 kg/m³"], ["λ", "~0.06 W/m·K"], ["Carbon", "net negative"]],
+  uses: "Infill walls and insulating renders in low-energy and heritage building.",
+  link: "https://en.wikipedia.org/wiki/Hempcrete"
+},
+{
+  id: "fgm", cat: "composite", name: "Functionally graded material",
+  sub: "FGM, continuously varying composition", swatch: { pattern: "laminate", colors: ["#8d6a4a", "#d8d2cc", "#3c4147"] },
+  hook: "Instead of bonding ceramic to metal and living with the stress at the interface, the composition is swept gradually from one to the other across a few millimetres. There is no interface left to delaminate — the idea came out of Japanese hypersonic work in the 1980s.",
+  stats: [["Interface", "none — a gradient"], ["Made by", "powder grading, DED printing"], ["Origin", "Japan, 1984"]],
+  uses: "Thermal barrier layers, rocket nozzles, cutting tools, graded bone implants.",
+  link: "https://en.wikipedia.org/wiki/Functionally_graded_material"
+},
+{
+  id: "lattice", cat: "composite", name: "Printed lattice",
+  sub: "gyroid and octet truss structures", swatch: { pattern: "honeycomb", colors: ["#8a8f95", "#c3c8cd", "#5a5f65"] },
+  hook: "Additive manufacturing made it possible to build the inside of a part, not just its outside. A gyroid or octet lattice puts material only where stress goes, so a bracket can lose two thirds of its mass and keep its stiffness — and the whole thing prints in one piece.",
+  stats: [["Mass saving", "50–80%"], ["Cell size", "1–10 mm"], ["Stiffness scaling", "octet: linear with density"]],
+  uses: "Aerospace brackets, heat exchangers, bone-ingrowth implants, impact liners.",
+  link: "https://en.wikipedia.org/wiki/Lattice_material"
 },
 
 /* ---------- ROPES & WOVEN MATERIALS ---------- */
@@ -936,6 +1688,206 @@ window.MATERIALS = [
   uses: "Racing sails, kites and wings, lightweight packs, inflatable structures.",
   link: "https://en.wikipedia.org/wiki/Sailcloth"
 },
+{
+  id: "nylonrope", cat: "fibre", name: "Nylon double braid",
+  sub: "polyamide rope", img: "nylonrope",
+  hook: "Chosen for the opposite of what a rope is usually judged on: it stretches. Up to 30% before it breaks, which turns a snatch load into a long gentle pull — and makes a parted line a lethal whip, because all that stored energy comes back.",
+  stats: [["Stretch at break", "~25–30%"], ["Wet strength", "−10 to −15%"], ["Danger", "stored energy on failure"]],
+  uses: "Anchor and mooring rode, tow and recovery straps, climbing slings, winch snatch lines.",
+  link: "https://en.wikipedia.org/wiki/Rope"
+},
+{
+  id: "pprope", cat: "fibre", name: "Polypropylene rope",
+  sub: "PP monofilament or split film", swatch: { pattern: "fiber", colors: ["#d9b321", "#f3dd71", "#9a7c10"] },
+  hook: "The only common rope that floats, which is why a throwline is always this garish yellow. The price is sunlight: a few seasons of UV and it turns to powder in your hand, and it melts at a temperature a hand-over-hand descent can reach.",
+  stats: [["Density", "0.91 g/cm³ — floats"], ["UV life", "1–3 seasons"], ["Melts", "~165 °C"]],
+  uses: "Rescue throwlines, water-ski ropes, barrier rope, agriculture and baling.",
+  link: "https://en.wikipedia.org/wiki/Polypropylene"
+},
+{
+  id: "bungee", cat: "fibre", name: "Shock cord",
+  sub: "rubber strands in a braided sleeve", img: "bungee",
+  hook: "A bundle of natural rubber threads inside a woven jacket that limits how far it can go. The jacket takes the abrasion and sets the stretch limit; the rubber supplies the force. Jump off a bridge on one and it decelerates you over several seconds at well under 3 g.",
+  stats: [["Stretch", "100–200%"], ["Core", "natural rubber"], ["Peak load", "~2–3 g on a jump"]],
+  uses: "Bungee jumping, cargo nets and tie-downs, tent poles, kayak deck rigging.",
+  link: "https://en.wikipedia.org/wiki/Bungee_cord"
+},
+{
+  id: "kernmantle", cat: "fibre", name: "Kernmantle rope",
+  sub: "twisted nylon core in a woven sheath", img: "kernmantle",
+  hook: "Two ropes in one: a core that carries essentially all the load and a sheath that protects it and does almost nothing else. A dynamic rope is rated not by breaking strength but by how many standard falls it survives — it is a consumable energy absorber.",
+  stats: [["Core carries", "~70% of load"], ["Impact force", "<9 kN by standard"], ["Rated in", "UIAA falls held"]],
+  uses: "Climbing and caving, rope access, rescue, arborist work.",
+  link: "https://en.wikipedia.org/wiki/Kernmantle_rope"
+},
+{
+  id: "webbing", cat: "fibre", name: "Tubular webbing",
+  sub: "flat-woven nylon tube", swatch: { pattern: "weave", colors: ["#3a3d42", "#6d7278", "#1e2024"] },
+  hook: "Woven as a continuous tube on a shuttle loom rather than a strip folded over. There is no seam to abrade, it drapes flat over an edge instead of rolling onto a corner, and a hitch tied in it does not want to slip.",
+  stats: [["Strength", "~18 kN in 25 mm"], ["Weave", "seamless tube"], ["Edge load", "spread flat"]],
+  uses: "Climbing anchors and slings, rescue harnesses, slacklines, load restraint.",
+  link: "https://en.wikipedia.org/wiki/Webbing"
+},
+{
+  id: "seatbelt", cat: "fibre", name: "Seat-belt webbing",
+  sub: "polyester, engineered to elongate", img: "seatbelt",
+  hook: "A belt that did not stretch would break ribs. This one is woven to give 8–14% at full load, which adds a few extra centimetres of stopping distance at exactly the moment they matter most, and polyester is used because it does not lose that behaviour when damp.",
+  stats: [["Elongation", "8–14% at rated load"], ["Strength", ">26 kN"], ["Fibre", "polyester, not nylon"]],
+  uses: "Vehicle and aircraft restraints, child seats, racing harnesses.",
+  link: "https://en.wikipedia.org/wiki/Seat_belt"
+},
+{
+  id: "velcro", cat: "fibre", name: "Hook-and-loop",
+  sub: "Velcro, nylon hooks and loops", img: "velcro",
+  hook: "Copied directly from burdock burrs stuck to a dog in 1941. Thousands of stiff hooks catch a felt of soft loops; each bond is trivial, the sum is strong in shear and weak in peel, which is why you pull it apart from a corner.",
+  stats: [["Shear strength", "~100 kN/m²"], ["Peel", "weak, by design"], ["Cycles", "~10,000"]],
+  uses: "Clothing and shoes, cable management, medical braces, spacecraft interiors.",
+  link: "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
+},
+{
+  id: "denim", cat: "fibre", name: "Denim",
+  sub: "indigo-dyed cotton twill", img: "denim",
+  hook: "Indigo will not penetrate cotton — it sits in rings on the outside of the yarn. Every crease wears that ring away and exposes white fibre underneath, so the fabric records exactly how its owner moved. The twill weave is what makes it fade in diagonal lines.",
+  stats: [["Weave", "3×1 right-hand twill"], ["Dye", "ring, not through"], ["Weight", "10–21 oz/yd²"]],
+  uses: "Jeans and workwear, upholstery, jackets.",
+  link: "https://en.wikipedia.org/wiki/Denim"
+},
+{
+  id: "cordura", cat: "fibre", name: "Cordura",
+  sub: "high-tenacity air-jet textured nylon 6,6", img: "cordura",
+  hook: "Abrasion resistance comes from the yarn, not the weave: the filaments are tangled by an air jet so they grab each other, and a snagged fibre pulls its neighbours in instead of pulling out. Several times the life of standard nylon of the same weight.",
+  stats: [["Denier", "500–1000 typical"], ["Abrasion", "~4× standard nylon"], ["Introduced", "1929, as rayon"]],
+  uses: "Backpacks and luggage, motorcycle gear, military packs, boot panels.",
+  link: "https://en.wikipedia.org/wiki/Cordura"
+},
+{
+  id: "monofil", cat: "fibre", name: "Nylon monofilament",
+  sub: "single-strand extruded line", swatch: { pattern: "fiber", colors: ["#c3ccd2", "#eef3f6", "#8f9aa2"] },
+  hook: "A single smooth strand rather than a bundle, so it is nearly invisible in water and knots bite into themselves. It also absorbs water and stretches, which is forgiving on a strike and infuriating when you need to feel the bottom.",
+  stats: [["Stretch", "~20–30%"], ["Refractive index", "close to water"], ["Weakness", "UV, ~1 season"]],
+  uses: "Fishing line, string trimmers, surgical suture, brush bristles, netting.",
+  link: "https://en.wikipedia.org/wiki/Monofilament_fishing_line"
+},
+{
+  id: "viscose", cat: "fibre", name: "Viscose rayon",
+  sub: "regenerated cellulose", img: "viscose",
+  hook: "Neither natural nor synthetic: wood pulp is dissolved into a thick orange syrup and squirted back out as fibre. The first manufactured fibre, sold as artificial silk from 1905 — and it still drapes like silk, because the chemistry really is the same cellulose.",
+  stats: [["Source", "wood pulp"], ["Wet strength", "loses ~50%"], ["Since", "1905"]],
+  uses: "Linings and dress fabric, tyre cord historically, wipes, cigarette filters.",
+  link: "https://en.wikipedia.org/wiki/Viscose"
+},
+{
+  id: "lyocell", cat: "fibre", name: "Lyocell",
+  sub: "solvent-spun cellulose, Tencel", img: "lyocell",
+  hook: "Viscose redone with the chemistry fixed. The pulp dissolves in a non-toxic amine oxide that is recovered and reused at over 99%, and the fibre comes out stronger than viscose wet or dry, with a smooth surface that resists bacteria.",
+  stats: [["Solvent recovery", ">99%"], ["Wet strength", "far better than viscose"], ["Moisture", "absorbs 50% more than cotton"]],
+  uses: "Shirting and bedding, denim blends, wipes, medical textiles.",
+  link: "https://en.wikipedia.org/wiki/Lyocell"
+},
+{
+  id: "acrylicfibre", cat: "fibre", name: "Acrylic fibre",
+  sub: "polyacrylonitrile", img: "acrylicfibre",
+  hook: "Solution-dyed before it is even a fibre, so the colour is in the polymer, not on it — an acrylic awning holds its colour outdoors for a decade where a dyed fabric fades in two seasons. It is also the precursor that becomes carbon fibre when you burn everything else off.",
+  stats: [["UV life", "10+ years solution-dyed"], ["Warmth", "wool-like, lighter"], ["Also", "precursor to carbon fibre"]],
+  uses: "Awnings and marine canvas, knitwear, outdoor upholstery, fake fur.",
+  link: "https://en.wikipedia.org/wiki/Acrylic_fiber"
+},
+{
+  id: "merino", cat: "fibre", name: "Merino wool",
+  sub: "fine crimped keratin fibre", img: "merino",
+  hook: "Each fibre is crimped and scaled, trapping air so it insulates even soaked, and the scales break down the bacteria that make sweat smell — it is the only common fibre you can wear for a week. Under 19 µm it stops prickling the skin.",
+  stats: [["Diameter", "15–24 µm"], ["Moisture held", "~30% of its weight"], ["Odour", "naturally resisted"]],
+  uses: "Base layers and socks, suiting, insulation, mattress fill.",
+  link: "https://en.wikipedia.org/wiki/Merino"
+},
+{
+  id: "mohair", cat: "fibre", name: "Mohair",
+  sub: "angora goat hair", img: "mohair",
+  hook: "A hair with almost no crimp and flat scales, so it reflects light like silk and takes dye to a brilliance wool cannot reach. It is also unusually resilient — a mohair plush pile stands back up, which is why cinema seats and teddy bears used it.",
+  stats: [["Diameter", "25–45 µm"], ["Lustre", "silk-like"], ["Resilience", "pile recovers"]],
+  uses: "Suiting and upholstery, doll and teddy plush, ski climbing skins, violin bow hair substitute.",
+  link: "https://en.wikipedia.org/wiki/Mohair"
+},
+{
+  id: "ramie", cat: "fibre", name: "Ramie",
+  sub: "Boehmeria nivea bast fibre", img: "ramie",
+  hook: "One of the strongest natural fibres, and almost alone in getting stronger when wet. It was used for Egyptian mummy wrappings and still holds up where cotton rots, but it is stiff and brittle, so it is nearly always blended.",
+  stats: [["Wet strength", "increases"], ["Rot resistance", "very high"], ["Flaw", "brittle, low elasticity"]],
+  uses: "Blended shirting, canvas and fire hose historically, upholstery, paper.",
+  link: "https://en.wikipedia.org/wiki/Ramie"
+},
+{
+  id: "kapok", cat: "fibre", name: "Kapok",
+  sub: "hollow seed floss from Ceiba pentandra", img: "kapok",
+  hook: "Each fibre is a sealed hollow tube, so it floats eight times better than cork by weight and holds thirty times its own weight in water out. It filled every life jacket until foam arrived — but it is too slippery and brittle to spin into yarn.",
+  stats: [["Buoyancy", "~5× cork by volume"], ["Density", "~0.03 g/cm³"], ["Spinnable", "no"]],
+  uses: "Life jackets historically, pillow and mattress fill, zafu cushions, oil-spill absorbent.",
+  link: "https://en.wikipedia.org/wiki/Kapok_fibre"
+},
+{
+  id: "rockwool", cat: "fibre", name: "Mineral wool",
+  sub: "spun basalt and slag fibre", img: "rockwool",
+  hook: "Molten rock thrown off a spinning wheel into fibres, the same way candy floss is made. The result insulates, absorbs sound, and simply does not burn — it stays intact at 1000 °C, so it is the fire-stopping insulation rather than the cheap one.",
+  stats: [["Melting", ">1000 °C"], ["λ", "~0.035 W/m·K"], ["Also", "acoustic absorber"]],
+  uses: "Building and pipe insulation, fire stopping, acoustic panels, hydroponic growing media.",
+  link: "https://en.wikipedia.org/wiki/Mineral_wool"
+},
+{
+  id: "wiremesh", cat: "fibre", name: "Woven wire cloth",
+  sub: "Dutch-weave stainless mesh", img: "wiremesh",
+  hook: "A plain square weave filters down to about 25 µm and no further. Dutch weave uses coarse wires one way and very fine wires packed tight the other, so the holes become triangular slots — 2 µm filtration in a cloth you can still clean and reuse.",
+  stats: [["Plain weave", "to ~25 µm"], ["Dutch weave", "to ~2 µm"], ["Reusable", "backflush and reuse"]],
+  uses: "Hydraulic and polymer melt filters, sieve analysis, EMI screening, security grilles.",
+  link: "https://en.wikipedia.org/wiki/Woven_wire_mesh"
+},
+{
+  id: "geotextile", cat: "fibre", name: "Geotextile",
+  sub: "needle-punched or woven polypropylene", img: "geotextile",
+  hook: "Buried fabric that keeps two layers of soil from mixing while letting water through. A road built on soft ground over geotextile needs a third less stone, because the aggregate stops being pressed into the mud — the fabric is cheaper than the rock it saves.",
+  stats: [["Permittivity", "water through, soil not"], ["Aggregate saved", "~30%"], ["Design life", "100 years buried"]],
+  uses: "Road and rail subgrade, landfill liners, erosion control, drainage, French drains.",
+  link: "https://en.wikipedia.org/wiki/Geotextile"
+},
+{
+  id: "down", cat: "fibre", name: "Goose down",
+  sub: "three-dimensional plumule clusters", img: "down",
+  hook: "Not a fibre but a tiny three-dimensional cluster with no central shaft, so it traps more still air per gram than anything manufactured. Still the best insulation by weight ever measured — and it fails completely when wet, which nothing has fixed.",
+  stats: [["Fill power", "550–900 in³/oz"], ["Warmth/weight", "unbeaten"], ["Wet", "collapses"]],
+  uses: "Sleeping bags, duvets, expedition clothing.",
+  link: "https://en.wikipedia.org/wiki/Down_feather"
+},
+{
+  id: "primaloft", cat: "fibre", name: "Synthetic down",
+  sub: "fine crimped polyester microfibre", swatch: { pattern: "fiber", colors: ["#dfe3e7", "#ffffff", "#b2b8be"] },
+  hook: "Developed for the US Army when they wanted something that worked soaked. It gets about 70% of down's warmth per gram and keeps most of it when wet, because polyester holds no water — a straight trade of peak performance for reliability.",
+  stats: [["vs down", "~70% warmth/weight"], ["Wet", "retains most loft"], ["Dries", "hours, not days"]],
+  uses: "Insulated jackets and sleeping bags, work wear, marine clothing.",
+  link: "https://en.wikipedia.org/wiki/Synthetic_fiber"
+},
+{
+  id: "emifabric", cat: "fibre", name: "Conductive fabric",
+  sub: "silver- or nickel-plated nylon ripstop", swatch: { pattern: "weave", colors: ["#a8aeb4", "#dfe4e8", "#71777d"] },
+  hook: "A textile that is also a Faraday cage: metal plated onto each fibre gives a cloth that drapes and sews but blocks 50–80 dB of radio. Silver versions also kill odour-causing bacteria, which is how it ended up in socks.",
+  stats: [["Shielding", "50–80 dB"], ["Surface resistance", "<0.1 Ω/sq"], ["Plating", "Ag, Ni or Cu"]],
+  uses: "EMI gaskets and shielding bags, ESD garments, touchscreen gloves, medical electrodes.",
+  link: "https://en.wikipedia.org/wiki/Electromagnetic_shielding"
+},
+{
+  id: "horsehair", cat: "fibre", name: "Horsehair",
+  sub: "tail hair, woven or in hanks", img: "horsehair",
+  hook: "A long, springy, scaled hair that two trades still cannot replace. Woven into interlining it holds a jacket's shape where no synthetic will; in a bow, the microscopic scales grip rosin and make a string speak.",
+  stats: [["Length", "to ~1 m"], ["Surface", "scaled, grips rosin"], ["Replacement", "none accepted"]],
+  uses: "Violin and cello bows, bespoke tailoring canvas, upholstery stuffing, plaster reinforcement.",
+  link: "https://en.wikipedia.org/wiki/Horsehair"
+},
+{
+  id: "catgut", cat: "fibre", name: "Catgut",
+  sub: "twisted serosa from sheep intestine", img: "catgut",
+  hook: "Never from cats. Cleaned and twisted sheep intestine makes a string with a warmth and complexity of tone that steel has never quite matched, and a suture that the body dissolves on its own schedule — the first self-removing stitch.",
+  stats: [["Source", "sheep or goat serosa"], ["Suture", "absorbed in 60–90 days"], ["Humidity", "tunes with the weather"]],
+  uses: "Baroque and classical instrument strings, racquets historically, absorbable sutures.",
+  link: "https://en.wikipedia.org/wiki/Catgut"
+},
 
 /* ---------- ACTIVE & EXOTIC ---------- */
 {
@@ -977,5 +1929,682 @@ window.MATERIALS = [
   stats: [["Shown", "1990s, on TV"], ["Formula", "never disclosed"], ["Status", "lost"]],
   uses: "None — it survives as a cautionary tale about trade secrets.",
   link: "https://en.wikipedia.org/wiki/Starlite"
+},
+{
+  id: "graphene", cat: "exotic", name: "Graphene",
+  sub: "single-atom carbon sheet", img: "graphene",
+  hook: "One atom thick, strong enough that an elephant balanced on a pencil would not push through a sheet of it, and it was first isolated with sticky tape and a pencil mark. Making it in square metres rather than square millimetres is still the whole problem.",
+  stats: [["Thickness", "0.335 nm"], ["Tensile", "130 GPa"], ["Isolated", "2004, with tape"]],
+  uses: "Transparent electrodes, composites, sensors, battery additives, membranes.",
+  link: "https://en.wikipedia.org/wiki/Graphene"
+},
+{
+  id: "cntyarn", cat: "exotic", name: "Carbon nanotube yarn",
+  sub: "spun from a nanotube forest", img: "cntyarn",
+  hook: "Drawn out of a vertical nanotube forest like candy floss off a drum and twisted into thread. It conducts electricity and heat like metal, survives temperatures that melt copper, and is the only route anyone has to a macroscopic nanotube object.",
+  stats: [["Strength", "1–3 GPa as yarn"], ["Conductivity", "metallic"], ["Spun from", "a grown forest"]],
+  uses: "Lightweight wiring, actuators, heaters, sensors, EMI shielding.",
+  link: "https://en.wikipedia.org/wiki/Carbon_nanotube"
+},
+{
+  id: "aerographite", cat: "exotic", name: "Aerographite",
+  sub: "hollow carbon tube network", img: "aerographite",
+  hook: "A sponge of hollow carbon tubes grown on a zinc oxide template which is then etched away. At 0.18 mg/cm³ it is a few times lighter than air itself would be if it were solid, and it springs back from being squashed to a twentieth of its height.",
+  stats: [["Density", "0.18 mg/cm³"], ["Compressible", "to 5% and back"], ["Reported", "2012"]],
+  uses: "Research: electrodes, sensors, lightweight shielding, water purification.",
+  link: "https://en.wikipedia.org/wiki/Aerographite"
+},
+{
+  id: "ybco", cat: "exotic", name: "YBCO",
+  sub: "YBa₂Cu₃O₇, high-Tc superconductor", img: "ybco",
+  hook: "The first superconductor that works in liquid nitrogen rather than liquid helium — 92 K, which turned a cryogenic laboratory into a thermos flask. It also pins magnetic flux lines, so it does not just float above a magnet, it hangs underneath one too.",
+  stats: [["Tc", "92 K"], ["Coolant", "liquid nitrogen"], ["Trick", "flux pinning"]],
+  uses: "Maglev demonstrators, fault current limiters, research magnets, SQUID sensors.",
+  link: "https://en.wikipedia.org/wiki/Yttrium_barium_copper_oxide"
+},
+{
+  id: "electrochromic", cat: "exotic", name: "Electrochromic glass",
+  sub: "tungsten oxide ion-insertion stack", img: "electrochromic",
+  hook: "Lithium ions are pushed into a tungsten oxide layer by a few volts and the glass darkens; reverse the polarity and they come out again. It only draws power while changing state, so a tinted window holds its tint on nothing at all.",
+  stats: [["Drive", "~3 V"], ["Switch time", "3–10 min"], ["Holding power", "zero"]],
+  uses: "Boeing 787 cabin windows, building façades, rear-view mirrors, sunroofs.",
+  link: "https://en.wikipedia.org/wiki/Electrochromic_device"
+},
+{
+  id: "vo2", cat: "exotic", name: "Vanadium dioxide",
+  sub: "VO₂, thermochromic switch", img: "vo2",
+  hook: "At 68 °C it rearranges its crystal structure in picoseconds and flips from insulator to metal — and from infrared-transparent to infrared-reflecting. A window coated with it rejects heat only on a hot day, and nobody has to switch anything.",
+  stats: [["Transition", "68 °C"], ["Resistance change", "~10,000×"], ["Speed", "sub-picosecond"]],
+  uses: "Smart window coatings, uncooled IR bolometers, optical switches, thermal camouflage.",
+  link: "https://en.wikipedia.org/wiki/Vanadium(IV)_oxide"
+},
+{
+  id: "qdot", cat: "exotic", name: "Quantum dots",
+  sub: "CdSe / InP nanocrystals", img: "qdot",
+  hook: "Identical chemistry, different colour — the emitted wavelength is set purely by how big the crystal is, because the electron is squeezed into a box and the box sets the energy. Grow them 2 nm and they glow blue, 6 nm and they glow red.",
+  stats: [["Size", "2–10 nm"], ["Emission width", "~25 nm FWHM"], ["Colour set by", "diameter"]],
+  uses: "QLED displays, LED phosphors, solar cells, biological tagging.",
+  link: "https://en.wikipedia.org/wiki/Quantum_dot"
+},
+{
+  id: "metamaterial", cat: "exotic", name: "Electromagnetic metamaterial",
+  sub: "split-ring resonator arrays", img: "metamaterial",
+  hook: "A material whose behaviour comes from its geometry rather than its chemistry. Pattern copper rings smaller than the wavelength and the array can show a negative refractive index — light bends the wrong way, which no substance on Earth does.",
+  stats: [["Refractive index", "can be negative"], ["Feature size", "< wavelength"], ["First shown", "2000, microwave"]],
+  uses: "Flat lenses, antenna miniaturisation, radar absorbers, cloaking demonstrations.",
+  link: "https://en.wikipedia.org/wiki/Metamaterial"
+},
+{
+  id: "acousticmeta", cat: "exotic", name: "Acoustic metamaterial",
+  sub: "sub-wavelength resonator lattice", img: "acousticmeta",
+  hook: "Normally blocking low frequencies means mass — a wall. A lattice of tuned resonators can stop a band of sound in a panel a hundredth of a wavelength thick, and some designs block sound while air flows straight through them.",
+  stats: [["Thickness", "~λ/100"], ["Attenuation", ">20 dB in band"], ["Open versions", "sound out, air through"]],
+  uses: "Ventilation silencers, machine enclosures, aircraft cabin panels, vibration isolation.",
+  link: "https://en.wikipedia.org/wiki/Acoustic_metamaterial"
+},
+{
+  id: "selfhealpoly", cat: "exotic", name: "Self-healing polymer",
+  sub: "Diels–Alder and capsule systems", img: "selfhealpoly",
+  hook: "Two approaches. One buries capsules of liquid monomer that burst when a crack passes and polymerise in it; the other uses reversible bonds that unzip with heat and re-form on cooling, so the same spot can be healed again and again.",
+  stats: [["Strength recovered", "70–100%"], ["Capsule type", "one-shot per site"], ["Reversible type", "repeatable"]],
+  uses: "Self-healing coatings and paint, phone screen protectors, aerospace sealants, soft robotics.",
+  link: "https://en.wikipedia.org/wiki/Self-healing_material"
+},
+{
+  id: "dea", cat: "exotic", name: "Dielectric elastomer actuator",
+  sub: "compliant electrodes on acrylic film", swatch: { pattern: "gloss", colors: ["#6e6a7a", "#b0abc0", "#413e4b"] },
+  hook: "A rubber film with stretchy electrodes on both faces. Charge it to a few kilovolts and electrostatic pressure squeezes it thinner and wider — over 100% strain, faster and more efficiently than muscle, which is why they are called artificial muscles.",
+  stats: [["Strain", ">100%"], ["Drive", "1–5 kV"], ["Efficiency", "up to ~80%"]],
+  uses: "Soft robotics, haptic feedback, tunable optics, energy harvesting from waves.",
+  link: "https://en.wikipedia.org/wiki/Electroactive_polymers"
+},
+{
+  id: "lce", cat: "exotic", name: "Liquid crystal elastomer",
+  sub: "LCE, programmable-shape rubber", img: "lce",
+  hook: "A rubber whose molecules are aligned like a liquid crystal. Heat it and the alignment collapses, so the strip contracts along one axis — up to 40%, reversibly, with the direction and shape written in during manufacture.",
+  stats: [["Contraction", "to 40%"], ["Trigger", "heat, light or solvent"], ["Shape", "programmed in the mould"]],
+  uses: "Artificial muscle research, micro-grippers, morphing optics, haptics.",
+  link: "https://en.wikipedia.org/wiki/Liquid_crystal_elastomer"
+},
+{
+  id: "erf", cat: "exotic", name: "Electrorheological fluid",
+  sub: "polarisable particles in oil", swatch: { pattern: "speckle", colors: ["#6b5e3c", "#a3946a", "#413923"] },
+  hook: "Magnetorheological fluid's electrical cousin: apply a few kilovolts per millimetre and the suspended particles chain up into columns, turning the oil into a paste in about a millisecond. Faster than MR fluid, but it needs high voltage and hates water.",
+  stats: [["Response", "~1 ms"], ["Field", "1–5 kV/mm"], ["Yield stress", "~5 kPa"]],
+  uses: "Fast clutches and valves, haptic devices, vibration dampers, research actuators.",
+  link: "https://en.wikipedia.org/wiki/Electrorheological_fluid"
+},
+{
+  id: "oobleck", cat: "exotic", name: "Shear-thickening suspension",
+  sub: "cornstarch in water", img: "oobleck",
+  hook: "Pour it and it flows; punch it and it is briefly a solid, because the particles jam into a force-carrying network faster than the water can flow out of the way. The kitchen version of the fluid that stiffens body armour.",
+  stats: [["Solids", "~55% by volume"], ["Trigger", "shear rate"], ["Recovery", "instant"]],
+  uses: "Demonstrations; the same physics in impact-hardening armour and sports padding.",
+  link: "https://en.wikipedia.org/wiki/Dilatant"
+},
+{
+  id: "thermoelectric", cat: "exotic", name: "Bismuth telluride",
+  sub: "Bi₂Te₃ thermoelectric", img: "thermoelectric",
+  hook: "Run a current through it and one face gets cold while the other gets hot — no compressor, no gas, no moving parts, and reversing the current reverses the direction. The catch is efficiency: it manages about a tenth of what a heat pump does.",
+  stats: [["ΔT", "up to ~70 K single stage"], ["Efficiency", "~5–8% of Carnot"], ["Moving parts", "none"]],
+  uses: "Peltier coolers, CPU and laser chip cooling, wine fridges, waste-heat generators, RTGs.",
+  link: "https://en.wikipedia.org/wiki/Bismuth_telluride"
+},
+{
+  id: "magnetocaloric", cat: "exotic", name: "Magnetocaloric material",
+  sub: "Gd and Gd₅(Si,Ge)₄", img: "magnetocaloric",
+  hook: "Put gadolinium in a magnetic field and it warms; take the field away and it cools. A fridge built on that effect needs no refrigerant gas at all, is quiet, and could be a third more efficient — if anyone can make it cheaply enough.",
+  stats: [["ΔT per cycle", "2–5 K"], ["Refrigerant", "none — the metal is it"], ["Efficiency", "~+30% potential"]],
+  uses: "Prototype magnetic refrigerators, gas liquefaction, sub-kelvin cooling for physics.",
+  link: "https://en.wikipedia.org/wiki/Magnetic_refrigeration"
+},
+{
+  id: "zeolite", cat: "exotic", name: "Zeolite",
+  sub: "crystalline aluminosilicate molecular sieve", img: "zeolite",
+  hook: "A crystal full of pores all exactly the same size, down to the fraction of an ångström. That lets it sort molecules by shape: a 3A sieve takes water out of ethanol and leaves everything else, which no filter can do.",
+  stats: [["Pore size", "0.3–1 nm, exact"], ["Surface area", "~600 m²/g"], ["Regenerated", "by heating"]],
+  uses: "Oil cracking catalysts, oxygen concentrators, drying insulated glazing, detergent softeners, cat litter.",
+  link: "https://en.wikipedia.org/wiki/Zeolite"
+},
+{
+  id: "mof", cat: "exotic", name: "Metal-organic framework",
+  sub: "MOF, metal nodes and organic linkers", img: "mof",
+  hook: "A crystalline scaffold that is mostly empty space. One gram can have the surface area of a football pitch — the record holders exceed 7000 m²/g — and the pore size can be dialled in by choosing a longer linker molecule.",
+  stats: [["Surface area", "to >7000 m²/g"], ["Void fraction", "up to 90%"], ["Design", "pore size by linker"]],
+  uses: "Gas storage and separation, carbon capture, water harvesting from desert air, catalysis.",
+  link: "https://en.wikipedia.org/wiki/Metal%E2%80%93organic_framework"
+},
+{
+  id: "metalhydride", cat: "exotic", name: "Metal hydride",
+  sub: "LaNi₅ and related storage alloys", img: "metalhydride",
+  hook: "Hydrogen gas is absorbed into the metal lattice and sits between the atoms, so the alloy holds more hydrogen per litre than liquid hydrogen does — at room temperature and low pressure. It is just extremely heavy per kilogram stored.",
+  stats: [["Density", ">liquid H₂ by volume"], ["Pressure", "a few bar"], ["Penalty", "~1.5% H₂ by mass"]],
+  uses: "NiMH battery electrodes, hydrogen storage, heat pumps, submarine fuel cells.",
+  link: "https://en.wikipedia.org/wiki/Metal_hydride"
+},
+{
+  id: "pcm", cat: "exotic", name: "Phase change material",
+  sub: "paraffin and salt hydrates", img: "pcm",
+  hook: "Stores heat by melting instead of by warming up, so it soaks up energy at a fixed temperature and hands it back at the same one. A centimetre of the right paraffin in a wall holds as much heat as a brick a foot thick.",
+  stats: [["Latent heat", "150–250 kJ/kg"], ["vs sensible", "~10× per kg"], ["Temp", "fixed by the material"]],
+  uses: "Building temperature buffering, cold chain packaging, hand warmers, spacecraft and electronics thermal control.",
+  link: "https://en.wikipedia.org/wiki/Phase-change_material"
+},
+{
+  id: "vip", cat: "exotic", name: "Vacuum insulation panel",
+  sub: "fumed silica core in a barrier envelope", img: "vip",
+  hook: "Remove the air and you remove the main way heat crosses an insulator. A 20 mm panel does the job of 200 mm of foam — and if a nail punctures the envelope, it instantly becomes a 20 mm panel of ordinary chalk.",
+  stats: [["λ", "0.004 W/m·K"], ["vs foam", "~8× better"], ["Failure", "one puncture ends it"]],
+  uses: "Fridge and freezer walls, vaccine shippers, retrofit insulation where thickness is fixed.",
+  link: "https://en.wikipedia.org/wiki/Vacuum_insulated_panel"
+},
+{
+  id: "getter", cat: "exotic", name: "Getter material",
+  sub: "barium or zirconium alloy film", img: "getter",
+  hook: "A pump with no moving parts that works after the thing is sealed. Reactive metal is flashed onto the inside of a vacuum tube or flask, and it chemically swallows the stray gas molecules that keep leaking out of the walls for years afterwards.",
+  stats: [["Vacuum reached", "<10⁻⁹ mbar"], ["Mechanism", "chemisorption"], ["The silver patch", "in every old valve"]],
+  uses: "Vacuum tubes and CRTs, vacuum flasks, MEMS packages, particle accelerator beam pipes.",
+  link: "https://en.wikipedia.org/wiki/Getter"
+},
+{
+  id: "strontiumal", cat: "exotic", name: "Strontium aluminate",
+  sub: "SrAl₂O₄:Eu,Dy phosphor", swatch: { pattern: "gloss", colors: ["#4fb36a", "#b8f3c4", "#1d6b33"] },
+  hook: "The glow-in-the-dark pigment that actually works. It traps the energy of absorbed light in crystal defects and leaks it back out slowly — ten times brighter than the zinc sulfide of old toys and still visible after twelve hours in the dark.",
+  stats: [["vs ZnS", "~10× brighter"], ["Afterglow", ">12 hours"], ["Radioactive", "no"]],
+  uses: "Emergency exit marking, watch dials, safety signage, pigments and toys.",
+  link: "https://en.wikipedia.org/wiki/Strontium_aluminate"
+},
+{
+  id: "tritium", cat: "exotic", name: "Tritium gas light",
+  sub: "GTLS, tritium in a phosphor-lined tube", img: "tritium",
+  hook: "A sealed glass capillary of tritium gas lined with phosphor. Beta particles hit the coating and it glows — for twelve years, with no battery and no charging. The betas cannot get through the glass, so the tube is safe until it is broken.",
+  stats: [["Half-life", "12.3 years"], ["Power", "none required"], ["Beta range", "a few mm of air"]],
+  uses: "Gun and watch night sights, emergency exit signs, key fobs.",
+  link: "https://en.wikipedia.org/wiki/Tritium_radioluminescence"
+},
+{
+  id: "slips", cat: "exotic", name: "Liquid-infused surface",
+  sub: "SLIPS, lubricant locked in a nanotexture", img: "slips",
+  hook: "Copied from the pitcher plant: a nanoporous surface holds a layer of lubricant by capillary action, so what a droplet touches is liquid, not solid. Nothing sticks — not blood, not ice, not ketchup — and a scratch heals as the liquid flows back in.",
+  stats: [["Contact angle hysteresis", "<2.5°"], ["Repels", "water, oil, blood, ice"], ["Self-healing", "liquid reflows"]],
+  uses: "Anti-fouling and anti-icing coatings, medical tubing, condenser surfaces, bottles that empty.",
+  link: "https://en.wikipedia.org/wiki/Slippery_Liquid-Infused_Porous_Surfaces"
+},
+{
+  id: "tio2photo", cat: "exotic", name: "Photocatalytic titania",
+  sub: "anatase TiO₂ coating", img: "tio2photo",
+  hook: "Ultraviolet light knocks electrons loose in the coating, which then tear apart any organic molecule touching the surface. The same reaction makes the surface perfectly water-wetting, so rain sheets off and takes the broken-down dirt with it.",
+  stats: [["Activated by", "UV < 390 nm"], ["Contact angle", "~0° under light"], ["Breaks down", "organics and NOₓ"]],
+  uses: "Self-cleaning glass and façades, anti-fog mirrors, air-purifying paving and paint.",
+  link: "https://en.wikipedia.org/wiki/Titanium_dioxide"
+},
+{
+  id: "electret", cat: "exotic", name: "Electret",
+  sub: "permanently charged fluoropolymer film", img: "electret",
+  hook: "The electrostatic equivalent of a permanent magnet: charge frozen into a polymer film that stays there for decades. Nearly every microphone built in the last fifty years is one, and the same charge is what makes an N95 filter catch particles far smaller than its holes.",
+  stats: [["Charge life", "decades"], ["Bias supply", "none needed"], ["Filter gain", "~10× at 0.3 µm"]],
+  uses: "Microphones in every phone and laptop, N95 and HEPA filter media, air ionisers, energy harvesters.",
+  link: "https://en.wikipedia.org/wiki/Electret"
+},
+
+/* ---------- NATURAL & BIOLOGICAL ---------- */
+{
+  id: "nacre", cat: "natural", name: "Nacre",
+  sub: "mother of pearl, aragonite and conchiolin", img: "nacre",
+  hook: "95% chalk, and three thousand times tougher than chalk. Microscopic aragonite tiles are laid like brickwork with a protein mortar between them; a crack cannot run straight, it has to go around every tile, and it runs out of energy trying.",
+  stats: [["Mineral", "~95% aragonite"], ["Toughness", "~3000× the mineral"], ["Tile", "~0.5 µm thick"]],
+  uses: "Inlay and buttons, pearls; the structural template for a generation of tough composites.",
+  link: "https://en.wikipedia.org/wiki/Nacre"
+},
+{
+  id: "bamboo", cat: "natural", name: "Bamboo",
+  sub: "graded fibre-reinforced grass", img: "bamboo",
+  hook: "A grass, not a tree, and a natural composite with the fibres packed densest at the outside where bending stress is highest. It reaches full height in a season, and along the grain it out-pulls mild steel for its weight.",
+  stats: [["Tensile", "~400–800 MPa"], ["Growth", "to 1 m per day"], ["Fibres", "graded to the outside"]],
+  uses: "Scaffolding, flooring and panels, bicycle frames, textiles, reinforcement research.",
+  link: "https://en.wikipedia.org/wiki/Bamboo"
+},
+{
+  id: "balsa", cat: "natural", name: "Balsa",
+  sub: "Ochroma pyramidale", img: "balsa",
+  hook: "A hardwood that floats higher than cork, because it is 60% air held in cells with thin but genuinely stiff walls. End-grain balsa, sliced across the cells, carries compression like a honeycomb and is still the core in most wind turbine blades.",
+  stats: [["Density", "100–200 kg/m³"], ["Air", "~60% of volume"], ["End grain", "honeycomb-like"]],
+  uses: "Wind turbine blade and boat cores, model aircraft, surfboards, packaging.",
+  link: "https://en.wikipedia.org/wiki/Ochroma"
+},
+{
+  id: "lignumvitae", cat: "natural", name: "Lignum vitae",
+  sub: "Guaiacum, self-lubricating hardwood", img: "lignumvitae",
+  hook: "The densest commercial wood — it sinks — and about a quarter of its weight is natural resin, so it oils itself. Submarine propeller shaft bearings were made from it well into the nuclear age, lubricated by nothing but seawater and the wood.",
+  stats: [["Density", "1.23 g/cm³"], ["Resin", "~25% by weight"], ["Lubrication", "its own"]],
+  uses: "Propeller shaft and turbine bearings, mallet heads, bowls, pulley sheaves.",
+  link: "https://en.wikipedia.org/wiki/Lignum_vitae"
+},
+{
+  id: "whiteoak", cat: "natural", name: "White oak",
+  sub: "Quercus alba, tylosis-plugged pores", img: "whiteoak",
+  hook: "The tree plugs its own vessels with balloon-like growths called tyloses as the heartwood forms. Red oak does not, and a red oak barrel leaks like a straw. That single anatomical difference is why every whisky and wine barrel is white oak.",
+  stats: [["Pores", "plugged by tyloses"], ["Watertight", "yes — red oak is not"], ["Rot resistance", "high"]],
+  uses: "Wine and whisky barrels, boat planking, flooring, timber framing.",
+  link: "https://en.wikipedia.org/wiki/Quercus_alba"
+},
+{
+  id: "spruce", cat: "natural", name: "Spruce tonewood",
+  sub: "Picea, quartersawn soundboard stock", swatch: { pattern: "grain", colors: ["#d9c295", "#f0e2c4", "#a98f63"] },
+  hook: "Chosen for one number: stiffness along the grain divided by density, where spruce beats everything. A soundboard must be as light as possible and as stiff as possible at once, and the slow-grown Alpine trees Stradivari used grew in a cold spell that made the rings unusually tight.",
+  stats: [["Stiffness/density", "best of woods"], ["Ring spacing", "1–2 mm prized"], ["Cut", "quartersawn only"]],
+  uses: "Guitar, violin and piano soundboards, aircraft spars historically, ladders.",
+  link: "https://en.wikipedia.org/wiki/Tonewood"
+},
+{
+  id: "cork", cat: "natural", name: "Cork",
+  sub: "suberised bark of Quercus suber", img: "cork",
+  hook: "Fourteen-sided closed cells full of air, and almost uniquely among materials it has a Poisson's ratio of zero — squeeze it and it does not bulge sideways. That is the only reason a cork can be pushed into a bottle neck at all. Harvested without felling the tree.",
+  stats: [["Poisson's ratio", "~0"], ["Cells", "~40 million/cm³"], ["Harvest", "every 9 years, tree lives"]],
+  uses: "Wine closures, flooring, gaskets, cricket and baseball cores, spacecraft ablative layers.",
+  link: "https://en.wikipedia.org/wiki/Cork_(material)"
+},
+{
+  id: "vegleather", cat: "natural", name: "Vegetable-tanned leather",
+  sub: "collagen cross-linked with plant tannins", img: "vegleather",
+  hook: "Tannins from oak and chestnut bark lock the collagen fibres so they stop rotting, over weeks in a pit rather than hours in a drum. The resulting hide can be moulded wet and holds the shape dry, and it darkens with light and oil instead of wearing out.",
+  stats: [["Tanning", "30–60 days"], ["Mouldable", "wet-formed"], ["Ages by", "darkening, not failing"]],
+  uses: "Saddlery and belts, shoe soles, bookbinding, holsters and tool sheaths.",
+  link: "https://en.wikipedia.org/wiki/Vegetable_tanning"
+},
+{
+  id: "bone", cat: "natural", name: "Bone",
+  sub: "collagen with hydroxyapatite mineral", img: "bone",
+  hook: "A composite of a brittle mineral and a stretchy protein, in the one ratio that is tough rather than merely hard. It is also the only structural material that rebuilds itself to match its loads — stop loading it and it dissolves itself to save the weight.",
+  stats: [["Mineral", "~60–70%"], ["Toughness", "~5 kJ/m²"], ["Remodels", "~10% per year"]],
+  uses: "Living skeletons; historically buttons, handles, bone china and glue.",
+  link: "https://en.wikipedia.org/wiki/Bone"
+},
+{
+  id: "antler", cat: "natural", name: "Antler",
+  sub: "high-collagen bone, shed annually", img: "antler",
+  hook: "Bone tuned for impact rather than stiffness: less mineral, more collagen, so it absorbs several times the energy of a leg bone before it breaks. The fastest-growing tissue of any mammal, and it is shed and regrown every year.",
+  stats: [["Work to fracture", "~6× leg bone"], ["Growth", "to 2 cm/day"], ["Regrown", "annually"]],
+  uses: "Tool handles and knife scales, dog chews, carving, prehistoric picks and pressure flakers.",
+  link: "https://en.wikipedia.org/wiki/Antler"
+},
+{
+  id: "horn", cat: "natural", name: "Horn",
+  sub: "keratin, a natural thermoplastic", img: "horn",
+  hook: "Heat it in water and it softens, press it and it holds the new shape, and it can be welded to itself with nothing but heat and pressure. Horn was the thermoplastic of the pre-plastic world — window panes, lantern glazing, spoons and combs.",
+  stats: [["Softens", "in hot water"], ["Welds", "to itself, heat and pressure"], ["Translucent", "when thin"]],
+  uses: "Combs and buttons, drinking vessels, composite bow bellies, lantern panes historically.",
+  link: "https://en.wikipedia.org/wiki/Horn_(anatomy)"
+},
+{
+  id: "baleen", cat: "natural", name: "Baleen",
+  sub: "keratin plates from filter-feeding whales", img: "baleen",
+  hook: "Springy, mouldable and splittable into strips — the stiffening in corsets, umbrella ribs and buggy whips for two centuries. The whaling industry chased it as hard as it chased oil, and plastics are what finally made it worthless.",
+  stats: [["Material", "keratin, like fingernail"], ["Formed", "by heat and pressure"], ["Replaced by", "spring steel, then plastic"]],
+  uses: "Historical only: corset stays, umbrella ribs, brushes, whips. Trade now banned.",
+  link: "https://en.wikipedia.org/wiki/Baleen"
+},
+{
+  id: "amber", cat: "natural", name: "Amber",
+  sub: "fossilised tree resin", img: "amber",
+  hook: "Tree resin that has lost its volatiles and polymerised over tens of millions of years into a true solid. It is warm to the touch, floats in brine, builds a static charge when rubbed — the Greek word for it, elektron, is where electricity got its name.",
+  stats: [["Age", "20–300 million years"], ["Hardness", "2–2.5 Mohs"], ["Gave us", "the word 'electron'"]],
+  uses: "Jewellery, varnish historically, scientific specimens with trapped inclusions.",
+  link: "https://en.wikipedia.org/wiki/Amber"
+},
+{
+  id: "shellac", cat: "natural", name: "Shellac",
+  sub: "resin secreted by the lac insect", img: "shellac",
+  hook: "Scraped off twigs, dissolved in alcohol, and it dries by evaporation in minutes to a hard glossy film that later coats can re-dissolve and melt into. It is edible, blocks odours and stains that nothing else will, and it was the first record material.",
+  stats: [["Dries", "in minutes"], ["Recoat", "melts into previous layer"], ["Food safe", "yes — E904"]],
+  uses: "French polish, pill and sweet coating, odour-blocking primer, 78 rpm records historically.",
+  link: "https://en.wikipedia.org/wiki/Shellac"
+},
+{
+  id: "guttapercha", cat: "natural", name: "Gutta-percha",
+  sub: "trans-polyisoprene from Palaquium sap", img: "guttapercha",
+  hook: "Chemically natural rubber's mirror image, and that flipped bond makes it hard and thermoplastic instead of elastic. It was the insulation that made the first transatlantic telegraph cable possible — the only material of the age that stayed waterproof on the sea floor.",
+  stats: [["Isomer", "trans, not cis"], ["Softens", "~60 °C"], ["Undersea life", "a century"]],
+  uses: "Root canal fillings today; submarine cable insulation and golf balls historically.",
+  link: "https://en.wikipedia.org/wiki/Gutta-percha"
+},
+{
+  id: "diatomite", cat: "natural", name: "Diatomaceous earth",
+  sub: "fossil diatom silica skeletons", img: "diatomite",
+  hook: "A soft white powder that is actually billions of glass skeletons, each one microscopically perforated. It filters beer, absorbs three times its weight in liquid, and kills insects by scratching through their waxy coat so they dry out — physics, not poison.",
+  stats: [["Porosity", "~80–90%"], ["Surface area", "~20 m²/g"], ["Insecticide", "mechanical"]],
+  uses: "Beer and pool filtration, absorbent granules, mild abrasive, insecticide, dynamite originally.",
+  link: "https://en.wikipedia.org/wiki/Diatomaceous_earth"
+},
+{
+  id: "chitin", cat: "natural", name: "Chitin & chitosan",
+  sub: "poly-N-acetylglucosamine", img: "chitin",
+  hook: "The second most abundant polymer on Earth after cellulose, and the stuff of every insect shell and crab leg. Deacetylated into chitosan it becomes positively charged, which makes it clump bacteria and clot blood — field dressings are made of shellfish waste.",
+  stats: [["Abundance", "2nd after cellulose"], ["Chitosan", "binds blood, clots fast"], ["Source", "shellfish waste"]],
+  uses: "Haemostatic dressings, wound healing, water treatment flocculant, edible coatings.",
+  link: "https://en.wikipedia.org/wiki/Chitin"
+},
+{
+  id: "byssus", cat: "natural", name: "Byssus",
+  sub: "mussel threads and their DOPA adhesive", img: "byssus",
+  hook: "A mussel glues itself to a wet, salted, fouled rock in minutes and does not come off in a storm. The trick is an amino acid called DOPA that displaces water from the surface — and the thread behind it is stiff at the rock end and stretchy at the shell end.",
+  stats: [["Bond", "sets underwater"], ["Thread", "graded stiff to soft"], ["Key molecule", "DOPA"]],
+  uses: "Model for surgical and marine adhesives; historically woven into 'sea silk'.",
+  link: "https://en.wikipedia.org/wiki/Byssus"
+},
+{
+  id: "toothenamel", cat: "natural", name: "Tooth enamel",
+  sub: "96% hydroxyapatite prisms", img: "toothenamel",
+  hook: "The hardest substance the body makes — almost pure mineral, arranged in prisms that run from the inside out. It is also the only tissue with no living cells in it, so it cannot repair itself: every scratch is permanent for life.",
+  stats: [["Mineral", "96%"], ["Hardness", "~5 Mohs"], ["Repair", "none — no cells"]],
+  uses: "Chewing, for about eighty years without maintenance.",
+  link: "https://en.wikipedia.org/wiki/Tooth_enamel"
+},
+{
+  id: "pumice", cat: "natural", name: "Pumice",
+  sub: "gas-frothed volcanic glass", img: "pumice",
+  hook: "Lava so saturated with dissolved gas that it foams as the pressure drops and freezes mid-bubble. It is the only common rock that floats, and rafts of it have drifted across entire oceans after eruptions, carrying marine life with them.",
+  stats: [["Porosity", "~90%"], ["Floats", "for months to years"], ["Hardness", "~6 Mohs, still abrasive"]],
+  uses: "Lightweight concrete, abrasive blocks and stonewashing, horticultural grit, filtration.",
+  link: "https://en.wikipedia.org/wiki/Pumice"
+},
+{
+  id: "mica", cat: "natural", name: "Mica",
+  sub: "muscovite and phlogopite sheet silicate", img: "mica",
+  hook: "Splits into sheets a few microns thick that are flat at the atomic level, transparent, and good insulators to 500 °C. Before glass could be made large and flat, mica was the window in every furnace door and oil lamp.",
+  stats: [["Cleavage", "to ~1 µm sheets"], ["Dielectric strength", "~100 kV/mm"], ["Use temp", "to 500 °C"]],
+  uses: "Capacitors and heater insulation, furnace and stove windows, AFM substrates, cosmetics.",
+  link: "https://en.wikipedia.org/wiki/Mica"
+},
+{
+  id: "asbestos", cat: "natural", name: "Asbestos",
+  sub: "chrysotile and amphibole silicate fibres",
+  img: "asbestos",
+  hook: "A mineral that comes out of the ground as a soft spinnable fibre, does not burn, and resists acid — it genuinely was a miracle material, and it was used everywhere for a century. The same fibres are thin enough to lodge in lung tissue permanently. The cautionary tale at the centre of modern materials regulation.",
+  stats: [["Melting", ">1000 °C"], ["Fibre", "0.1–10 µm, respirable"], ["Status", "banned in 60+ countries"]],
+  uses: "None permitted in most countries. Historically: insulation, brake pads, cement sheet, fireproof cloth.",
+  link: "https://en.wikipedia.org/wiki/Asbestos"
+},
+{
+  id: "nephrite", cat: "natural", name: "Nephrite jade",
+  sub: "felted tremolite–actinolite amphibole", img: "nephrite",
+  hook: "Not especially hard — a steel knife nearly scratches it — but the toughest natural stone there is, because the crystals grow in a matted tangle of interlocking fibres. Neolithic adzes made from it outperformed bronze.",
+  stats: [["Hardness", "6–6.5 Mohs"], ["Toughness", "highest of minerals"], ["Structure", "felted fibres"]],
+  uses: "Carving and jewellery, ceremonial objects, prehistoric axe and adze blades.",
+  link: "https://en.wikipedia.org/wiki/Nephrite"
+},
+{
+  id: "granite", cat: "natural", name: "Granite surface plate",
+  sub: "lapped black diabase or granite", swatch: { pattern: "speckle", colors: ["#6f7378", "#b2b7bc", "#42464a"] },
+  hook: "The reference flat of the machine shop, and it beats cast iron on every count: it does not rust, a knock raises no burr, it damps vibration, and it barely moves with temperature. Grade AA is flat to about two microns over a metre.",
+  stats: [["Flatness", "~2 µm/m, grade AA"], ["Damage mode", "chips, never burrs"], ["Damping", "far better than iron"]],
+  uses: "Metrology surface plates, CMM bases, machine tool bedways, optical benches.",
+  link: "https://en.wikipedia.org/wiki/Surface_plate"
+},
+{
+  id: "washi", cat: "natural", name: "Washi",
+  sub: "long-fibre kozo bark paper", img: "washi",
+  hook: "Made from the inner bark of mulberry, whose fibres are ten times longer than wood pulp's, so the sheet is strong enough to be a wall and translucent enough to be a window. Conservators use it to repair thousand-year-old documents because it outlasts them.",
+  stats: [["Fibre length", "~10 mm"], ["pH", "neutral, no lignin"], ["Life", "1000+ years"]],
+  uses: "Shoji screens, art conservation and repair, printmaking, lampshades, banknote stock.",
+  link: "https://en.wikipedia.org/wiki/Washi"
+},
+{
+  id: "vellum", cat: "natural", name: "Parchment & vellum",
+  sub: "limed, stretched and scraped animal skin", img: "vellum",
+  hook: "Not tanned — stretched wet on a frame and scraped until the collagen fibres dry in a flat, tensioned sheet. It survives a thousand years, can be scraped clean and written on again, and it reacts to humidity by cockling, which is how you can tell it from paper.",
+  stats: [["Survival", ">1000 years"], ["Erasable", "scrape and rewrite"], ["Source", "calf, goat, sheep"]],
+  uses: "Manuscripts and legal documents, drumheads, bookbinding, UK Acts of Parliament.",
+  link: "https://en.wikipedia.org/wiki/Parchment"
+},
+{
+  id: "beeswax", cat: "natural", name: "Beeswax",
+  sub: "long-chain ester and hydrocarbon wax", img: "beeswax",
+  hook: "Secreted by bees at a fixed composition that has not changed in millions of years, with a narrow melting range right above body temperature. It takes a mould impression perfectly and burns off cleanly, which is why bronze casting began with it.",
+  stats: [["Melting", "62–64 °C"], ["Composition", "stable for millennia"], ["Burns out", "no residue"]],
+  uses: "Lost-wax casting, candles, polish, waxed thread, cosmetics, food wraps.",
+  link: "https://en.wikipedia.org/wiki/Beeswax"
+},
+{
+  id: "cuttlebone", cat: "natural", name: "Cuttlebone",
+  sub: "aragonite chambered buoyancy structure", img: "cuttlebone",
+  hook: "A buoyancy tank built from stacked chambers braced by pillars — 90% empty space that still takes pressure at 200 metres. Jewellers saw one in half, press a model into the soft face, and cast silver straight into it; the grain prints onto the metal.",
+  stats: [["Porosity", "~90%"], ["Crush depth", "~200 m"], ["Casting", "one-shot mould"]],
+  uses: "One-off silver and pewter casting, bird calcium supplement, polishing powder.",
+  link: "https://en.wikipedia.org/wiki/Cuttlebone"
+},
+{
+  id: "nanocellulose", cat: "natural", name: "Nanocellulose",
+  sub: "cellulose nanofibrils and nanocrystals", img: "nanocellulose",
+  hook: "Wood pulp broken down to the crystalline fibrils that make up the fibre. At that scale cellulose is stiffer than Kevlar, transparent, and made from a tree — films, aerogels and reinforcements all come out of what used to be paper.",
+  stats: [["Tensile modulus", "~140 GPa"], ["Width", "3–20 nm"], ["Feedstock", "wood pulp"]],
+  uses: "Composite reinforcement, transparent films, rheology modifiers, aerogels, wound dressings.",
+  link: "https://en.wikipedia.org/wiki/Nanocellulose"
+},
+
+/* ---------- SEMICONDUCTORS & OPTICS ---------- */
+{
+  id: "silicon", cat: "electronic", name: "Monocrystalline silicon",
+  sub: "Czochralski-grown Si boule", img: "silicon",
+  hook: "A single crystal 300 mm across and two metres long, pulled slowly out of a melt from one seed, with roughly one atom in a billion out of place. It is not a good semiconductor — germanium is better — but it grows a perfect insulating oxide on itself, and that decided the century.",
+  stats: [["Purity", "11 nines"], ["Wafer", "300 mm, going to 450"], ["Bandgap", "1.12 eV"]],
+  uses: "Every integrated circuit, most solar cells, MEMS sensors.",
+  link: "https://en.wikipedia.org/wiki/Monocrystalline_silicon"
+},
+{
+  id: "gaas", cat: "electronic", name: "Gallium arsenide",
+  sub: "GaAs, direct bandgap III-V", img: "gaas",
+  hook: "Electrons move five times faster through it than through silicon, and unlike silicon it can emit light, because its bandgap is direct. It is brittle, expensive and arsenic-bearing, so it is used only where silicon genuinely cannot go.",
+  stats: [["Electron mobility", "~5× Si"], ["Bandgap", "1.42 eV, direct"], ["Solar record", "~29% single junction"]],
+  uses: "Phone RF front ends, laser diodes, satellite and concentrator solar cells, IR LEDs.",
+  link: "https://en.wikipedia.org/wiki/Gallium_arsenide"
+},
+{
+  id: "gan", cat: "electronic", name: "Gallium nitride",
+  sub: "GaN, wide bandgap III-V", img: "gan",
+  hook: "Two Nobel-winning decades went into making it emit blue, which finally gave white LEDs. The same wide bandgap lets it switch hundreds of volts at megahertz with very little loss — which is why a 65 W laptop charger is now the size of a matchbox.",
+  stats: [["Bandgap", "3.4 eV"], ["Breakdown field", "~10× Si"], ["Blue LED", "Nobel Prize 2014"]],
+  uses: "White and blue LEDs, Blu-ray lasers, fast chargers, EV inverters, radar amplifiers.",
+  link: "https://en.wikipedia.org/wiki/Gallium_nitride"
+},
+{
+  id: "germanium", cat: "electronic", name: "Germanium",
+  sub: "Ge, the first transistor material", img: "germanium",
+  hook: "The first transistors were germanium, and silicon pushed it out because germanium's oxide is water-soluble. It came back anyway: it is transparent to thermal infrared, so almost every thermal camera lens is a disc of it.",
+  stats: [["Bandgap", "0.67 eV"], ["IR window", "2–14 µm"], ["Oxide", "soluble — its downfall"]],
+  uses: "Thermal imaging optics, SiGe high-speed transistors, fibre-optic dopant, solar cell substrates.",
+  link: "https://en.wikipedia.org/wiki/Germanium"
+},
+{
+  id: "hgcdte", cat: "electronic", name: "Mercury cadmium telluride",
+  sub: "HgCdTe, tunable IR detector", img: "hgcdte",
+  hook: "Change the mercury-to-cadmium ratio and the bandgap sweeps continuously, so the detector can be tuned to any infrared band you like. Nothing else offers that, which is why it is in every high-end thermal imager — and why it costs what it costs.",
+  stats: [["Cutoff", "tunable 1–30 µm"], ["Operating temp", "usually 77 K"], ["Alloy", "Hg₁₋ₓCdₓTe"]],
+  uses: "Military and astronomical infrared sensors, JWST detectors, gas spectroscopy.",
+  link: "https://en.wikipedia.org/wiki/Mercury_cadmium_telluride"
+},
+{
+  id: "perovskitepv", cat: "electronic", name: "Halide perovskite",
+  sub: "CH₃NH₃PbI₃ and relatives", img: "perovskitepv",
+  hook: "Solar cell efficiency went from 3% to over 25% in about a decade, faster than any technology before it, using a crystal you can print from solution at low temperature. It still degrades in damp heat, and that is the only thing between it and the market.",
+  stats: [["Efficiency", "3% (2009) → 27%"], ["Processing", "solution, <150 °C"], ["Weakness", "moisture and heat"]],
+  uses: "Tandem solar cells on silicon, flexible photovoltaics, X-ray detectors, LEDs.",
+  link: "https://en.wikipedia.org/wiki/Perovskite_solar_cell"
+},
+{
+  id: "ito", cat: "electronic", name: "Indium tin oxide",
+  sub: "ITO transparent conductor", img: "ito",
+  hook: "A material that should not exist: metals conduct and block light, insulators pass light and block current. Heavily doped ITO has a plasma edge just below the visible, so it passes 90% of daylight and still carries current — every touchscreen depends on it.",
+  stats: [["Transmission", "~90%"], ["Sheet resistance", "10–100 Ω/sq"], ["Problem", "indium is scarce and brittle"]],
+  uses: "Touchscreens, LCD and OLED electrodes, solar cells, defrosting aircraft windscreens.",
+  link: "https://en.wikipedia.org/wiki/Indium_tin_oxide"
+},
+{
+  id: "linbo3", cat: "electronic", name: "Lithium niobate",
+  sub: "LiNbO₃, the silicon of photonics", img: "linbo3",
+  hook: "Piezoelectric, pyroelectric, electro-optic and nonlinear all in one crystal. Apply a voltage and its refractive index shifts, which lets you stamp data onto a laser beam at a hundred gigabits a second — that is how long-haul internet traffic gets modulated.",
+  stats: [["Modulation", ">100 GHz"], ["Also", "piezo, pyro, nonlinear"], ["Grown by", "Czochralski"]],
+  uses: "Optical modulators, SAW filters in every phone, frequency doublers, optical isolators.",
+  link: "https://en.wikipedia.org/wiki/Lithium_niobate"
+},
+{
+  id: "yig", cat: "electronic", name: "Yttrium iron garnet",
+  sub: "YIG, Y₃Fe₅O₁₂", img: "yig",
+  hook: "A magnetic insulator with the narrowest ferromagnetic resonance line of any known material, so a small YIG sphere behaves as a tunable microwave filter with a Q in the thousands — swept simply by changing the magnet current.",
+  stats: [["Linewidth", "<0.5 Oe"], ["Q", ">10,000"], ["Tuning", "by magnetic field"]],
+  uses: "Tunable microwave filters and oscillators, optical isolators, magnonics research.",
+  link: "https://en.wikipedia.org/wiki/Yttrium_iron_garnet"
+},
+{
+  id: "ggg", cat: "electronic", name: "Gadolinium gallium garnet",
+  sub: "GGG substrate crystal", swatch: { pattern: "gloss", colors: ["#d7b7bf", "#f3e2e6", "#a7868f"] },
+  hook: "Grown almost entirely to be a surface for something else to grow on: its lattice spacing matches magnetic garnet films to within a fraction of a percent. It carried the bubble memory industry, and now carries magneto-optic isolators. It also makes a convincing fake diamond.",
+  stats: [["Lattice match", "<0.1% mismatch"], ["Role", "substrate, not device"], ["Also", "diamond simulant"]],
+  uses: "Substrates for magnetic garnet films, optical isolators, laser hosts, cryogenic cooling salts.",
+  link: "https://en.wikipedia.org/wiki/Gadolinium_gallium_garnet"
+},
+{
+  id: "tisapphire", cat: "electronic", name: "Ti:sapphire",
+  sub: "titanium-doped Al₂O₃ laser crystal", img: "tisapphire",
+  hook: "The widest gain bandwidth of any laser crystal — it lases anywhere from 650 to 1100 nm. By the uncertainty principle, a wide spectrum permits a short pulse, and that is what makes femtosecond pulses possible: light in bursts shorter than a molecule takes to vibrate.",
+  stats: [["Tuning", "650–1100 nm"], ["Pulse", "<10 fs achievable"], ["Pumped by", "green laser"]],
+  uses: "Femtosecond lasers, two-photon microscopy, LASIK, attosecond and high-field physics.",
+  link: "https://en.wikipedia.org/wiki/Ti-sapphire_laser"
+},
+{
+  id: "bbo", cat: "electronic", name: "BBO crystal",
+  sub: "β-barium borate, nonlinear optic", swatch: { pattern: "gloss", colors: ["#b9cdd6", "#e9f4f8", "#87a0ab"] },
+  hook: "Light goes in at one colour and comes out at double the frequency, because the crystal's response to a strong field is not quite linear. It is how an infrared laser becomes a green pointer, and how entangled photon pairs are made for quantum optics.",
+  stats: [["Transparent", "190–3500 nm"], ["Damage threshold", "very high"], ["Does", "frequency doubling, SPDC"]],
+  uses: "Frequency doubling and tripling, optical parametric oscillators, entangled photon sources, Pockels cells.",
+  link: "https://en.wikipedia.org/wiki/Barium_borate"
+},
+{
+  id: "calcite", cat: "electronic", name: "Calcite",
+  sub: "CaCO₃, optical-grade Iceland spar", img: "calcite",
+  hook: "Put a clear rhomb on a page and you see two lines of text, because the crystal's two axes bend light differently and split a beam into two polarisations. Viking navigators may have used it to find the sun through cloud, and polarising optics started here.",
+  stats: [["Birefringence", "0.172 — the largest common"], ["Splits", "into two polarised rays"], ["Source", "Iceland spar"]],
+  uses: "Polarising prisms (Nicol, Glan–Thompson), optical isolators, microscopy.",
+  link: "https://en.wikipedia.org/wiki/Iceland_spar"
+},
+{
+  id: "caf2", cat: "electronic", name: "Calcium fluoride",
+  sub: "CaF₂, deep-UV optical crystal", img: "caf2",
+  hook: "Transparent from 130 nm in the vacuum ultraviolet right out to 10 µm in the thermal infrared — a wider window than any common glass. It also barely disperses, so lenses made from it correct the colour fringing that normal glass cannot.",
+  stats: [["Range", "0.13–10 µm"], ["Abbe number", "95 — very low dispersion"], ["Soft", "scratches easily"]],
+  uses: "Apochromatic camera and telescope lenses, lithography optics, FTIR windows, excimer optics.",
+  link: "https://en.wikipedia.org/wiki/Calcium_fluoride"
+},
+{
+  id: "znse", cat: "electronic", name: "Zinc selenide",
+  sub: "CVD-grown ZnSe", img: "znse",
+  hook: "Transparent orange-yellow glass to the eye, and the standard window for a CO₂ laser at 10.6 µm because it absorbs almost nothing there. Very low absorption matters: a focusing lens taking 4 kW must not heat up, or it defocuses itself.",
+  stats: [["Transmits", "0.6–21 µm"], ["Absorption", "<0.0005 /cm at 10.6 µm"], ["Soft", "0.1 Mohs scratch risk"]],
+  uses: "CO₂ laser lenses and windows, thermal imaging optics, IR spectroscopy.",
+  link: "https://en.wikipedia.org/wiki/Zinc_selenide"
+},
+{
+  id: "yagce", cat: "electronic", name: "YAG:Ce phosphor",
+  sub: "cerium-doped yttrium aluminium garnet", img: "yagce",
+  hook: "The yellow powder that makes a blue LED look white. It absorbs part of the blue and re-emits broad yellow; the leftover blue and the yellow together read as white. Almost every white LED in the world is a blue chip under a dot of this.",
+  stats: [["Absorbs", "~450 nm blue"], ["Emits", "broad ~550 nm"], ["Decay", "~70 ns"]],
+  uses: "White LEDs, laser lighting and projection, scintillators, electron microscope screens.",
+  link: "https://en.wikipedia.org/wiki/Yttrium_aluminium_garnet"
+},
+{
+  id: "scintillator", cat: "electronic", name: "Scintillator crystal",
+  sub: "NaI:Tl, LYSO, BGO", img: "scintillator",
+  hook: "Turns a single gamma ray into a flash of a few thousand visible photons, so an invisible particle becomes something a photodetector can count. The crystal's density decides how likely it is to catch the gamma at all — which is why PET scanners use heavy ones.",
+  stats: [["Light yield", "~38,000 photons/MeV (NaI)"], ["Decay", "40–250 ns"], ["NaI", "hygroscopic — sealed"]],
+  uses: "PET and SPECT scanners, radiation survey meters, airport scanners, particle physics calorimeters.",
+  link: "https://en.wikipedia.org/wiki/Scintillator"
+},
+{
+  id: "hfo2", cat: "electronic", name: "Hafnium oxide",
+  sub: "HfO₂ high-k gate dielectric", img: "hfo2",
+  hook: "By 2007 the silicon dioxide gate insulator was five atoms thick and electrons were tunnelling straight through it. Hafnium oxide has a dielectric constant four times higher, so the layer can be four times thicker for the same effect — it is what let Moore's law continue.",
+  stats: [["k", "~25 vs SiO₂'s 3.9"], ["Introduced", "45 nm node, 2007"], ["Deposited by", "atomic layer deposition"]],
+  uses: "Gate dielectrics in every modern processor, DRAM capacitors, optical coatings, ferroelectric memory.",
+  link: "https://en.wikipedia.org/wiki/Hafnium_dioxide"
+},
+{
+  id: "opticalfibre", cat: "electronic", name: "Optical fibre",
+  sub: "ultra-pure silica core and cladding", img: "opticalfibre",
+  hook: "So transparent that a window twenty kilometres thick made of it would still be clear. Getting from 1000 dB/km to 0.2 dB/km took a decade of removing water and metal impurities — the glass itself was never the problem, the contamination was.",
+  stats: [["Loss", "0.14–0.2 dB/km"], ["Core", "9 µm single mode"], ["Strength", "stronger than steel wire"]],
+  uses: "Essentially all long-haul and subsea data traffic, FTTH, sensors, endoscopes, fibre lasers.",
+  link: "https://en.wikipedia.org/wiki/Optical_fiber"
+},
+{
+  id: "pcf", cat: "electronic", name: "Photonic crystal fibre",
+  sub: "microstructured air-hole fibre", img: "pcf",
+  hook: "A fibre with a lattice of air holes running its whole length. The guiding stops depending on the glass and starts depending on the geometry — some versions guide light in a hollow core, so the beam travels through air with glass only as a cage.",
+  stats: [["Holes", "run the full length"], ["Hollow core", "light travels in air"], ["Also", "supercontinuum generation"]],
+  uses: "Supercontinuum white-light lasers, high-power delivery, gas sensing, low-latency trading links.",
+  link: "https://en.wikipedia.org/wiki/Photonic-crystal_fiber"
+},
+{
+  id: "oled", cat: "electronic", name: "OLED emitter stack",
+  sub: "organic small-molecule thin films", img: "oled",
+  hook: "Layers of organic molecule a hundred nanometres thick, each with one job — inject, transport, block, emit. Because each pixel makes its own light, a black pixel is genuinely off, so the contrast ratio is not high, it is infinite.",
+  stats: [["Stack", "~100–200 nm total"], ["Black level", "zero"], ["Weak point", "blue emitter lifetime"]],
+  uses: "Phone and TV displays, wearables, automotive lighting, flexible and transparent panels.",
+  link: "https://en.wikipedia.org/wiki/OLED"
+},
+{
+  id: "eink", cat: "electronic", name: "Electrophoretic ink",
+  sub: "E Ink microcapsules", img: "eink",
+  hook: "Microcapsules the width of a hair, each holding white and black pigment particles with opposite charges in clear fluid. A voltage pulls one colour to the top and then the power can be cut — the image stays put with nothing holding it, for years.",
+  stats: [["Capsule", "~40 µm"], ["Power to hold image", "zero"], ["Refresh", "~100s of ms"]],
+  uses: "E-readers, shelf labels, digital signage, watch faces, variable-colour car wraps.",
+  link: "https://en.wikipedia.org/wiki/E_Ink"
+},
+{
+  id: "nematiclc", cat: "electronic", name: "Nematic liquid crystal",
+  sub: "rod-shaped molecules, 5CB and mixtures", img: "nematiclc",
+  hook: "A fourth state of matter: flows like a liquid while its molecules stay pointed the same way like a crystal. A field re-points them, which twists polarised light, which an LCD turns into a pixel. Discovered in 1888 by a botanist studying carrot cholesterol.",
+  stats: [["State", "liquid order, crystal orientation"], ["Switch", "ms, at ~5 V"], ["Discovered", "1888"]],
+  uses: "Every LCD panel, thermometers, spatial light modulators, tunable lenses.",
+  link: "https://en.wikipedia.org/wiki/Liquid_crystal"
+},
+{
+  id: "ga2o3", cat: "electronic", name: "Gallium oxide",
+  sub: "β-Ga₂O₃, ultra-wide bandgap", swatch: { pattern: "gloss", colors: ["#9fb6c4", "#dceaf1", "#6d8696"] },
+  hook: "A 4.8 eV bandgap, wider than GaN or SiC, so it holds off voltage in a far thinner layer — and unlike them it can be grown from a melt, which makes wafers cheap. It barely conducts heat, which is the one thing standing in its way.",
+  stats: [["Bandgap", "4.8 eV"], ["Breakdown field", "8 MV/cm"], ["Problem", "thermal conductivity ~11 W/m·K"]],
+  uses: "Emerging high-voltage power devices, solar-blind UV detectors.",
+  link: "https://en.wikipedia.org/wiki/Gallium(III)_oxide"
+},
+{
+  id: "mov", cat: "electronic", name: "ZnO varistor",
+  sub: "metal oxide varistor ceramic", img: "mov",
+  hook: "A ceramic that is an insulator until a certain voltage and then a conductor, because every grain boundary acts as a back-to-back diode pair. A surge arrives, the disc turns on in nanoseconds and shunts it to earth, then goes back to blocking.",
+  stats: [["Response", "<25 ns"], ["Surge", "to 70 kA"], ["Wears out", "degrades with each hit"]],
+  uses: "Surge protector strips, mains and telecom protection, motor snubbers, substation arresters.",
+  link: "https://en.wikipedia.org/wiki/Varistor"
+},
+{
+  id: "ptcpoly", cat: "electronic", name: "Polymer PTC fuse",
+  sub: "carbon-filled polyethylene resettable fuse", img: "ptcpoly",
+  hook: "Conductive carbon particles touching each other through a plastic. Too much current heats the plastic, it expands, the chain of contact breaks and the resistance jumps a thousandfold — and when it cools, the chain reforms. A fuse that resets itself.",
+  stats: [["Resistance jump", "~1000×"], ["Trip", "under a second"], ["Resets", "on cooling"]],
+  uses: "USB port and battery protection, motor overload, telecom lines, Li-ion packs.",
+  link: "https://en.wikipedia.org/wiki/Resettable_fuse"
+},
+{
+  id: "etchedfoil", cat: "electronic", name: "Etched anode foil",
+  sub: "aluminium electrolytic capacitor foil", img: "etchedfoil",
+  hook: "Aluminium foil electrochemically eaten into a sponge of tunnels, multiplying its surface area a hundredfold, then anodised to grow an oxide dielectric nanometres thick. Huge area and a near-zero gap are what make a capacitor big — in a can the size of a thumb.",
+  stats: [["Area gain", "up to ~100×"], ["Oxide", "~1.4 nm per volt"], ["Electrolyte", "the real cathode"]],
+  uses: "Power supply smoothing capacitors in practically all mains-powered electronics.",
+  link: "https://en.wikipedia.org/wiki/Aluminum_electrolytic_capacitor"
+},
+{
+  id: "tim", cat: "electronic", name: "Thermal interface material",
+  sub: "filled greases, pads and liquid metal", img: "tim",
+  hook: "Two polished metal faces touch on maybe 2% of their area; the rest is air, which insulates. The paste's job is only to fill that gap — it is far worse than metal and far better than air, and the thinnest layer that fills the voids always wins.",
+  stats: [["Real contact", "~1–2% of area"], ["Grease", "3–8 W/m·K"], ["Liquid metal", "~70 W/m·K"]],
+  uses: "CPU and GPU coolers, LED and power module mounting, automotive electronics.",
+  link: "https://en.wikipedia.org/wiki/Thermal_interface_material"
 }
 ];

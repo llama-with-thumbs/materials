@@ -112,3 +112,174 @@ basalt|Basalt fibre and glass fibre.jpg|Basalt fibre (dark) beside glass fibre|p
 nomex|TFS Nomex Hood.JPG|A Nomex firefighting hood|product
 ripstop|RipStop.jpg|Ripstop: a grid of heavier yarns that stops a tear spreading|photo
 sailcloth|Bear of Britain spinnaker.jpg|A modern laminate spinnaker under load|product
+abs|Lego bricks.jpg|Lego bricks — ABS moulded to a tolerance of about a hundredth of a millimetre|product
+pet|Plastic bottles before processing.jpg|PET bottles, blown and biaxially stretched|product
+pvc|Pvc cevi.jpg|PVC pipe
+nylon66|Kabelbinder -- 2024 -- 6907.jpg|Nylon 6/6 cable ties|product
+hdpe|Diverse Kanisterformen.png|HDPE jerrycans|product
+pex|PEX piping in basement ceiling.jpg|PEX plumbing runs|product
+eps|Expanded Polystyrene (EPS) foam pellets.jpg|Expanded polystyrene beads
+pdms|Рождение микрофлюидного чипа.JPG|A PDMS microfluidic chip|product
+fep|Pfa tubing.jpeg|PFA tubing — the same melt-processible fluoropolymer family as FEP|related
+pvb|Shattered laminated glass in broken window in railway tram train carriage Close-up Cracks fragments visual effects patterns NORWAY Knust vindu i togvogn med laminert sikkerhetsglass sprekker småbiter lyseffekter 2019-02-11 DSC03363.jpg|Shattered laminated glass, every fragment still held by the PVB interlayer|product
+surlyn|Golf ball by Japanese company Srixon.jpg|A golf ball — the cover is an ionomer|product
+pla|3D printing filament.jpg|PLA filament
+melaminefoam|MagicEraser.jpg|A melamine foam cleaning sponge|product
+cyanoacrylate|Cianocrilato.JPG|Cyanoacrylate adhesive|product
+pva|Folia PVA z pochodną kumaryny w świetle widzialnym nr 01.jpg|Polyvinyl alcohol film
+nafion|Patrick Teppor and PEM active layer deposition by ultrasonic spraying.jpg|Spraying a catalyst layer onto a proton exchange membrane|process
+pbi|Membrana di PBI commerciale.JPG|A commercial PBI membrane
+ti64|Ti-6Al-4V microstructure.tif|Ti-6Al-4V microstructure — the fine α+β grain mixture that carries the strength
+magnesium|Mg alloy car engine blocks.jpg|Magnesium alloy engine blocks|product
+damascus|Front and back of blades of hair-cutting shears made from Damascus steel.jpg|Pattern-welded blades, etched to bring out the layers|product
+hadfield|Sacramento tram track frog 4036.JPG|A track frog — the crossing casting is manganese steel|product
+duplex|Microstructure of 2707 Hyper Duplex Stainless Steel.jpg|Duplex stainless microstructure — two phases interleaved
+hss|HSS Twist Drill into Aluminium with Lubricant.jpg|An HSS twist drill cutting aluminium|product
+phosbronze|Phosphorbronzeguitarstring.jpg|Phosphor bronze guitar string|product
+monel|Monel-valves--The-Alloy-Valve-Stockist.JPG|Monel valves|product
+hastelloy|Hastelloy Ball valve.jpg|A Hastelloy ball valve|product
+zamak|Zink auto.jpg|A zinc die-cast model car — detail straight out of the die|product
+sac305|Solder on spool.jpeg|Solder wire on a spool|product
+tantalum|Tantalum (Element - 73) 1.jpg|Tantalum metal
+niobium|Ultrapure niobium bead, slightly oxidized.jpg|An ultrapure niobium bead
+nbti|LHC NbTi superconducting wire.jpg|Nb-Ti superconducting cable from the LHC
+bismuth|Bismuth crystals and 1cm3 cube.jpg|Bismuth hopper crystals and a 1 cm³ cube
+inconel718|Inconel 718.JPG|Inconel 718
+ndfeb|Neodimijski magneti, (Neodymium magnets).JPG|Sintered neodymium magnets
+alnico|Alnico magnet assortment.jpg|Assorted Alnico magnets
+corten|Weathering steel door.jpg|Weathering steel with its stable patina
+zircaloy|Fuel Rod (26072384441).jpg|A nuclear fuel rod — the cladding tube is Zircaloy|product
+hafnium|Hafnium ebeam remelted.jpg|Electron-beam remelted hafnium
+hea|Microstructure of High-Entropy Alloy AlCoCrFeNi₂.₁.jpg|High-entropy alloy microstructure
+sodalime|Foxton Fizz Bottles.jpg|Soda-lime glass bottles|product
+leadcrystal|Cut crystal wine glasses in the Fakiris series by German glassworks Knittel 4.jpg|Cut lead crystal|product
+ceran|Schott Ceran glass-ceramic cooktop.jpg|A glass-ceramic cooktop|product
+porcelain|Johnny ball strain insulator.JPG|A porcelain strain insulator|product
+steatite|Lampe Nishapur steatite.JPG|Carved steatite — soapstone in the soft state, before firing hardens it
+mullite|Kiln Furniture Before Glost FIring.png|Kiln furniture — mullite-bonded refractory props|product
+glassycarbon|Glassy Carbon.jpg|Glassy carbon
+emax|Detached-dental-crown-view-a.jpg|A pressed ceramic dental crown|product
+zta|Hip replacement Image 3684-PH.jpg|A hip replacement — the ball is a toughened alumina ceramic|product
+mnznferrite|T-10 Ferrite Core (1).jpg|A MnZn ferrite core
+ifb|Refractory bricks lining.jpg|Refractory brick lining|product
+sialon|ASiAlONb.jpg|Sialon ceramic
+beo|BeO sample.jpg|A beryllium oxide ceramic sample
+uraniumglass|Uranium glass.jpg|Uranium glass under ultraviolet light
+dichroic|Petit Palais Verre dichroïque Noir souriant 13012018 1.jpg|Dichroic glass|product
+photochromic|Photo Grey glasses, Фото греј наочари.JPG|Photochromic spectacle lenses|product
+bonechina|BLW Bone China Chocolate Cup.jpg|A bone china cup|product
+enamel|Vitreous enamel sign of Japan postal mark 001.JPG|A vitreous enamel sign|product
+gfrp|Glass reinforced plastic SEM Stereo 200x.JPG|Glass-reinforced plastic under the electron microscope — fibres embedded in resin
+cfrp|Carbon fibre weave.jpg|Carbon fibre fabric
+alhoneycomb|Glare honeycomb.jpg|Honeycomb core bonded between thin skins|product
+glare|An exploded view of a GLARE hybrid sheet.jpg|GLARE, exploded — alloy sheets alternating with glass-fibre prepreg
+plywood|Sandakan Sabah Plywood-Factory-35c.jpg|Plywood, veneers laid crosswise
+clt|Brettsperrholzkonstruktion.jpg|Cross-laminated timber construction|product
+rcconcrete|Reinforced concrete foundation.JPG|Reinforced concrete going in|product
+uhpc|Gaertnerplatzbruecke Kassel.JPG|The Gärtnerplatz bridge in Kassel, built from UHPC|product
+selfhealconcrete|Basilisk self-healing concrete exhibit at science museum.jpg|Self-healing concrete on display
+fibrecement|Fiber cement siding.jpg|Fibre cement siding|product
+alsic|255-GRC-1988-C-06617 Ceramic fiber metal matrix composite.jpg|A metal matrix composite — ceramic reinforcement inside metal
+tyre|Pirelli Cinturato Tire cutaway.jpg|A radial tyre cut away — belts, plies and bead|product
+transparentarmour|IDET2007 bulletproof glass.jpg|Transparent armour, layered glass and polycarbonate|product
+dyneemahb|Osprey plates COB2009.jpg|Ballistic plates|product
+gypsum|Drywall and tools.jpg|Gypsum board|product
+copv|Copv tank close out prior to flight.png|A composite overwrapped pressure vessel|product
+pykrete|Pykrete.jpg|Pykrete — ice with wood pulp mixed into it
+hempcrete|Hempcrete wall.jpg|A hempcrete wall|product
+nylonrope|Rope 20221203 102029.jpg|Braided synthetic rope
+bungee|Bungee Cord PICT6882a.jpg|Shock cord — rubber strands in a braided jacket
+kernmantle|Kernmantle climbing rope dynamic Sterling 10.7mm cut end.jpg|Kernmantle rope cut open — load-bearing core, protective sheath
+seatbelt|Female driver buckling seatbelt.jpg|Seat-belt webbing in use|product
+velcro|Hook and loop fastener - macro photograph of "hooks".jpg|The hooks of a hook-and-loop fastener, magnified
+denim|Denim fabric 05 (Rico Cilliers and colormass via Poly Haven).png|Denim, woven as a right-hand twill
+cordura|Blue cordura garment.jpg|Cordura fabric
+viscose|Rayon sample.jpg|Viscose rayon
+lyocell|Lyocell.jpg|Lyocell fibre
+acrylicfibre|Acrylic stash -1 (12115250915).jpg|Acrylic yarn
+merino|CSIRO ScienceImage 7663 The structure of a Merino Wool Fibre.jpg|A merino wool fibre, showing its scales
+mohair|Ull mohair.jpg|Mohair
+ramie|Ramie fiber exhibited in Yonezawa City Uesugi Museum.jpg|Ramie fibre
+kapok|Tunku Sabah Kapok-fibres-01.jpg|Kapok floss
+rockwool|Arrangement Mineralwolle.jpeg|Mineral wool
+wiremesh|Woven wire mesh.png|Woven wire mesh
+geotextile|Geotextile-GSI.JPG|Geotextile
+down|Hungarian Goose Down.jpg|Goose down clusters
+horsehair|Bow, violin (AM 1998.60.381-2).jpg|A violin bow — the ribbon is horsehair|product
+catgut|Catgut Plain 01.JPG|Catgut
+graphene|Graphen.jpg|Graphene's hexagonal carbon lattice|structure
+cntyarn|CSIRO ScienceImage 988 Carbon nanotubes spun to form a yarn.jpg|Carbon nanotubes being spun into a yarn|process
+aerographite|TUHH CAU newexampleAerographite Netwok.png|Aerographite's network of hollow carbon tubes
+ybco|Tile levitates by Meissner effect.jpeg|A high-temperature superconductor levitating over a magnet track
+electrochromic|ANA Boeing 787-8 Dreamliner electrochromic window.jpg|A 787 cabin window, electrochromically dimmed|product
+vo2|VO2 crystal.jpg|A vanadium dioxide crystal
+qdot|Quantum dots 2.jpg|Quantum dots fluorescing — the colour is set by particle size
+metamaterial|Metamaterial 'Flat Lens' (8889691315).jpg|A metamaterial flat lens
+acousticmeta|Órgano, de Eusebio Sempere Juan.JPG|Eusebio Sempere's sculpture — the rod array that turned out to be the first proven sonic crystal|related
+selfhealpoly|Supramolecular rubber and polymer glass.tif|Supramolecular rubber, which re-forms its own broken bonds
+lce|Wikipedia pic LCE.png|A liquid crystal elastomer
+oobleck|Corn speaker.jpg|A cornstarch suspension standing up on a speaker cone
+thermoelectric|Thermoelectric Seebeck power module.jpg|A thermoelectric module
+magnetocaloric|Gadolinium (Element - 64).jpg|Gadolinium
+zeolite|Ana's Zeolite (393784940).jpg|Zeolite crystals
+mof|MOF-5 Crystal Structure.png|The MOF-5 framework — metal nodes joined by organic linkers|structure
+metalhydride|Metal Hydride Storage Canisters.jpg|Metal hydride hydrogen storage canisters|product
+pcm|Bicycle chain in paraffin wax just about to solidify.jpg|Paraffin wax at the moment of freezing
+vip|Va-Q-vip 2.jpg|A vacuum insulation panel
+getter|6P1P vacuum tube teardown.jpg|A vacuum tube — the silver mirror on the glass is the flashed getter|product
+tritium|Tritium-Glowring - 320s.jpg|A tritium glow ring|product
+slips|Water droplet on a super hydrophobic surface.jpg|A droplet on a water-repellent surface — the same non-wetting idea|related
+tio2photo|Titanium dioxide powder dispersing in water.JPG|Titanium dioxide powder
+electret|Electret microphone MKE3.JPG|An electret microphone|product
+nacre|Nacre mother of pearl shellB.jpg|Nacre
+bamboo|08 Asper 1 - Copy.jpg|Bamboo culms
+balsa|Balsa Wood Texture.jpg|Balsa
+lignumvitae|LignumVitaeMallet01.jpg|A lignum vitae mallet|product
+whiteoak|Cooperage wood to make wine barrels.jpg|Oak staves in a cooperage|product
+cork|Cork (25753850818).jpg|Cork
+vegleather|Tanned leather.JPG|Tanned leather
+bone|Spongy bone - Trabecular bone - Normal trabecular bone Trabecular bone etc -- Smart-Servier (cropped).jpg|Trabecular bone
+antler|Roe deer antler.jpg|A roe deer antler
+horn|Horn hair comb, Ludlow Museum - DSCF2042.JPG|A horn comb|product
+baleen|Gray whale baleen plates.JPG|Baleen plates
+amber|Baltic Amber necklace with insects inclusions.jpg|Baltic amber with insect inclusions
+shellac|Shellac flakes closeup.JPG|Shellac flakes
+guttapercha|Caoutchouc Gutta-percha Droguier ISPB Lyon UCBL 1.jpg|Gutta-percha in a pharmacy specimen collection
+diatomite|Diatomaceous Earth BrightField.jpg|Diatomaceous earth under the microscope — fossil diatom skeletons
+chitin|Fiddler crab exoskeleton shedding within the marsh (6555236543).jpg|A moulted crab exoskeleton
+byssus|Mussel & Byssal Threads.jpg|Mussel byssus threads
+toothenamel|What is Inside Human Tooth (Macro-Anatomy).jpg|A sectioned tooth — enamel is the outer shell
+pumice|Pumice stones.JPG|Pumice
+mica|Muscovite mica 6.jpg|Muscovite mica
+asbestos|Chrysotile and asbestos (GeoDIL number - 2527).jpg|Chrysotile asbestos
+nephrite|Amphibole - Nephrite Jade Basic calcium magnesium iron silicate Lander County Wyoming 2077.jpg|Nephrite jade
+washi|Washi(Sugihara paper).JPG|Washi paper
+vellum|Ashmolean Parchment AN 1981.940.jpg|Parchment
+beeswax|Beeswax blocks.JPG|Beeswax blocks
+cuttlebone|Zeeschuim of sepia.jpg|Cuttlebone
+nanocellulose|Nanocellulose.JPG|Nanocellulose
+silicon|Silicon ingot 2019-01-30 064114.jpg|A monocrystalline silicon ingot
+gaas|Gallium Arsenide (GaAs) 2" wafer.jpg|A gallium arsenide wafer
+gan|Silicon vs GaN 30W USB-C chargers.jpg|Two 30 W chargers — silicon on the left, GaN on the right|product
+germanium|Germanium crystals.jpg|Germanium crystals
+hgcdte|Detector array on the focal plane of the Infrared Astronomical Satellite (IRAS).png|An infrared focal plane detector array|product
+perovskitepv|Perovskite solar cell.jpg|A perovskite solar cell
+ito|Transparent keypad touchscreen.png|A transparent ITO-coated touch keypad|product
+linbo3|Lithium Niobate Wafer.jpg|A lithium niobate wafer
+yig|Four Yttrium Iron Garnet spheres filter.jpg|YIG spheres inside a tunable microwave filter|product
+tisapphire|TiSa crystal.jpg|A Ti:sapphire laser crystal
+calcite|3310.calcite (Iceland Spar) birefringence.jpg|Iceland spar doubling the lines beneath it
+caf2|Fluorite crystal.jpg|Fluorite — calcium fluoride in its mineral form|related
+znse|2 CVD ZnSe domes and lenses Crystaltechno.jpg|CVD zinc selenide optics
+yagce|White LED.png|A white LED — a blue chip under a dot of YAG:Ce phosphor|product
+scintillator|RadiaCode-101 dosimeter-spectrometer (front view).jpg|A scintillation spectrometer — crystal coupled to a photodetector|product
+hfo2|Hafnium(IV)-oxide-3D-polyhedra.png|Hafnium oxide's crystal structure|structure
+opticalfibre|MoST Fiber Optic Cable Display.jpg|Optical fibre carrying light|product
+pcf|Photonic-crystal-fiber-from-NRL.jpg|Photonic crystal fibre in cross-section — the lattice of air holes
+oled|LG gram Pro 16 (2024) 16Z90SPG OLED DISPLAY RGB DOT MATRIX, OLED PANEL MADE BY SAMSUNG DISPLAY.jpg|OLED subpixels, magnified|product
+eink|Electronic paper display microphotography.jpg|E-ink microcapsules under the microscope
+nematiclc|Nematic liquid crystal.jpg|A nematic liquid crystal texture
+mov|Metal Oxide Varistor.jpg|A metal oxide varistor|product
+ptcpoly|Disassembled resettable fuse.JPG|A polymer resettable fuse, opened up|product
+etchedfoil|Low-voltage-anode-foil.tif|Etched anode foil in cross-section — the tunnels that multiply its area
+tim|Thermal compound Applied.JPG|Thermal compound spread on a processor lid|product
