@@ -14,6 +14,7 @@ window.MATERIALS = [
 {
   id: "sorbothane", cat: "polymer", name: "Sorbothane",
   sub: "viscoelastic polyether polyurethane",
+  img: "sorbothane",
   swatch: { pattern: "gloss", colors: ["#2b2430", "#6a5878", "#17131c"] },
   hook: "Behaves like a solid at rest and like a liquid on impact timescales. Rubber stores energy and hands it back; Sorbothane turns it into heat instead.",
   stats: [["Durometer", "30–70"], ["Shock absorbed", "~90%+"], ["Rebound", "deliberately terrible"]],
@@ -54,6 +55,7 @@ window.MATERIALS = [
 {
   id: "torlon", cat: "polymer", name: "Torlon",
   sub: "polyamide-imide (PAI)",
+  img: "torlon",
   swatch: { pattern: "gloss", colors: ["#5d3113", "#c9802f", "#39200b"] },
   hook: "About the highest compressive strength of any unfilled thermoplastic — and it keeps getting tougher through a post-cure that takes days in an oven.",
   stats: [["Glass transition", "~275 °C"], ["Compressive", "~220+ MPa"], ["Post-cure", "measured in days"]],
@@ -71,6 +73,7 @@ window.MATERIALS = [
 {
   id: "zylon", cat: "polymer", name: "Zylon (PBO)",
   sub: "poly(p-phenylene benzobisoxazole)",
+  img: "zylon",
   swatch: { pattern: "fiber", colors: ["#7d5f12", "#e5c85f", "#4c3807"] },
   hook: "Stronger and stiffer than aramid, and the cautionary tale of the field: it quietly loses strength to heat and humidity, which turned into a body-armour recall.",
   stats: [["Tensile", "~5.8 GPa"], ["Modulus", "~270 GPa"], ["Weakness", "hydrolysis + UV"]],
@@ -80,6 +83,7 @@ window.MATERIALS = [
 {
   id: "lignostone", cat: "polymer", name: "Densified wood laminate",
   sub: "Lignostone, Permali",
+  img: "lignostone",
   swatch: { pattern: "laminate", colors: ["#50351d", "#a3733f", "#2f2012"] },
   hook: "Beech veneer soaked in resin and compressed until it is denser than water. It still beats modern plastics on creep at cryogenic temperature, so it never went away.",
   stats: [["Density", "~1.3 g/cm³"], ["Niche", "cryogenic + HV"], ["Age", "a century old"]],
@@ -160,6 +164,7 @@ window.MATERIALS = [
 {
   id: "parylene", cat: "polymer", name: "Parylene",
   sub: "poly(p-xylylene)",
+  img: "parylene",
   swatch: { pattern: "gloss", colors: ["#9fb0b8", "#e3edf1", "#5f7079"] },
   hook: "Applied as a gas, not a liquid. The monomer drifts in under vacuum and polymerises on every surface it touches, so it coats the inside of a connector and the back of a chip in the same pinhole-free micron-thick skin, with no solvent and no curing stress.",
   stats: [["Applied as", "a vapour"], ["Thickness", "~0.1–50 µm"], ["Coverage", "truly conformal"]],
@@ -169,6 +174,7 @@ window.MATERIALS = [
 {
   id: "vectran", cat: "polymer", name: "Vectran",
   sub: "melt-spun liquid crystal polymer",
+  img: "vectran",
   swatch: { pattern: "fiber", colors: ["#9a7b2e", "#f0d98a", "#604a12"] },
   hook: "Aramid-class strength with something aramid and Dyneema both lack: it does not creep. Hang a load on it for a year and it is where you left it, which is why it holds inflatable structures together.",
   stats: [["Creep", "essentially none"], ["Moisture", "unaffected"], ["Cut resistance", "high"]],
@@ -214,6 +220,110 @@ window.MATERIALS = [
   stats: [["Gel time", "~5 seconds"], ["Humidity", "does not care"], ["Thickness", "millimetres per pass"]],
   uses: "Truck bed liners, tank and tunnel linings, blast mitigation retrofits, bridge decks.",
   link: "https://en.wikipedia.org/wiki/Polyurea"
+},
+{
+  id: "bakelite", cat: "polymer", name: "Bakelite",
+  sub: "phenol formaldehyde resin", img: "bakelite",
+  hook: "The first fully synthetic plastic, and the first thermoset: once cured it is cross-linked into a single molecule and can never be melted again. That is why 1930s radio cabinets survive and 1990s plastics do not.",
+  stats: [["Invented", "1907"], ["Cure", "irreversible"], ["Legacy", "the first thermoset"]],
+  uses: "Vintage housings and knobs, electrical insulators, brake pads, laboratory benchtops.",
+  link: "https://en.wikipedia.org/wiki/Bakelite"
+},
+{
+  id: "phenolic", cat: "polymer", name: "Phenolic laminate",
+  sub: "Tufnol, Textolite, Micarta", img: "phenolic",
+  hook: "Sheets of paper, cotton or linen soaked in phenolic resin and pressed into a solid board. Gears cut from it run quieter than steel and tolerate grit, which is why the material outlived its own era.",
+  stats: [["Core", "cloth or paper"], ["Gears", "quiet, forgiving"], ["Machines", "like hard wood"]],
+  uses: "Quiet gears, electrical standoffs, knife scales, bearing cages, switchgear panels.",
+  link: "https://en.wikipedia.org/wiki/Phenol_formaldehyde_resin"
+},
+{
+  id: "neoprene", cat: "polymer", name: "Neoprene",
+  sub: "polychloroprene", img: "neoprene",
+  hook: "One of the first successful synthetic rubbers and still the all-rounder: it resists oil, ozone and weather at once, which natural rubber does not. Foamed with nitrogen, the trapped bubbles became the wetsuit.",
+  stats: [["Introduced", "1931"], ["Resists", "oil, ozone, weather"], ["Foamed", "it insulates"]],
+  uses: "Wetsuits, gaskets and bellows, hose covers, laptop sleeves, bridge bearings.",
+  link: "https://en.wikipedia.org/wiki/Neoprene"
+},
+{
+  id: "epdm", cat: "polymer", name: "EPDM",
+  sub: "ethylene propylene diene rubber", img: "epdm",
+  hook: "Its backbone carries no double bonds for ozone to attack, so it simply does not perish outdoors. Thirty years on a roof and it is still flexible — but it swells in oil, so it is kept away from engines.",
+  stats: [["Ozone", "unaffected"], ["Service", "−50 to 150 °C"], ["Weakness", "oils and fuels"]],
+  uses: "Roofing membrane, car door and window seals, radiator hose, pond liners, cable insulation.",
+  link: "https://en.wikipedia.org/wiki/EPDM_rubber"
+},
+{
+  id: "nbr", cat: "polymer", name: "Nitrile rubber",
+  sub: "NBR, Buna-N", img: "nbr",
+  hook: "Adding acrylonitrile to the chain makes the rubber polar, and polar rubber will not dissolve in non-polar oil. The more you add the better it resists fuel and the worse it tolerates cold — a dial the compounder sets.",
+  stats: [["Resists", "fuel, oil, grease"], ["Trade-off", "cold flexibility"], ["Service", "−30 to 120 °C"]],
+  uses: "Fuel and hydraulic seals, O-rings, disposable gloves, conveyor belts, hoses.",
+  link: "https://en.wikipedia.org/wiki/Nitrile_rubber"
+},
+{
+  id: "br", cat: "polymer", name: "Polybutadiene",
+  sub: "BR", img: "br",
+  hook: "The bounciest rubber in production. It loses very little energy per cycle, so it is blended into tyre treads for low rolling resistance and moulded solid into the core of a golf ball.",
+  stats: [["Rebound", "highest of the rubbers"], ["Glass transition", "~−100 °C"], ["Use", "usually blended"]],
+  uses: "Tyre treads and sidewalls, golf ball cores, conveyor belts, impact modifier in plastics.",
+  link: "https://en.wikipedia.org/wiki/Polybutadiene"
+},
+{
+  id: "tpu", cat: "polymer", name: "TPU",
+  sub: "thermoplastic polyurethane", img: "tpu",
+  hook: "Hard and soft segments separate into their own microscopic domains: the hard ones act as physical cross-links that hold it together, and melt on demand. Rubber behaviour from a plastic you can injection mould or print.",
+  stats: [["Hardness", "60 Shore A to 70 Shore D"], ["Abrasion", "outstanding"], ["Processing", "melt, mould, reuse"]],
+  uses: "Phone cases, shoe soles, cable jackets, 3D printing filament, caster wheels, films.",
+  link: "https://en.wikipedia.org/wiki/Thermoplastic_polyurethane"
+},
+{
+  id: "pps", cat: "polymer", name: "PPS",
+  sub: "polyphenylene sulfide", img: "pps",
+  hook: "Rigid aromatic rings strung on sulfur links, and below 200 °C there is no known solvent for it. It holds dimensions hot and wet, which is why it quietly replaced metal in pumps and under bonnets.",
+  stats: [["Continuous use", "~220 °C"], ["Solvents", "none below 200 °C"], ["Flammability", "inherently V-0"]],
+  uses: "Pump housings and impellers, under-bonnet parts, connectors, filter fabric for flue gas.",
+  link: "https://en.wikipedia.org/wiki/Polyphenylene_sulfide"
+},
+{
+  id: "mylar", cat: "polymer", name: "BoPET (Mylar)",
+  sub: "biaxially oriented polyester film", img: "mylar",
+  hook: "PET film stretched in both directions at once, aligning the crystals in the plane of the sheet. The result is dimensionally stable, nearly impossible to tear, and takes a vapour-deposited aluminium layer a few atoms thick.",
+  stats: [["Thickness", "from 1.5 µm"], ["Strength", "high, in both directions"], ["Metallised", "near-total IR reflection"]],
+  uses: "Space blankets and MLI, solar sails, food packaging, capacitor dielectric, balloons.",
+  link: "https://en.wikipedia.org/wiki/BoPET"
+},
+{
+  id: "pp", cat: "polymer", name: "Polypropylene",
+  sub: "PP", img: "pp",
+  hook: "Cheap, light enough to float, and the only common plastic with a genuine living hinge: flex a thin moulded web once and the crystals align across it, after which it will survive millions of cycles.",
+  stats: [["Density", "0.90 g/cm³ — it floats"], ["Living hinge", "millions of cycles"], ["Melt point", "~160 °C"]],
+  uses: "Flip-top caps and boxes, car bumpers and trim, rope, autoclavable labware, fibre.",
+  link: "https://en.wikipedia.org/wiki/Polypropylene"
+},
+{
+  id: "memoryfoam", cat: "polymer", name: "Viscoelastic foam",
+  sub: "memory foam", img: "memoryfoam",
+  hook: "An open-cell polyurethane whose glass transition sits near body temperature, so your own warmth softens the part you are touching. The recovery is slow because the air has to seep back through the cells.",
+  stats: [["Softens at", "~body temperature"], ["Recovery", "seconds, deliberately"], ["Origin", "NASA seat research, 1966"]],
+  uses: "Mattresses and pillows, earplugs, prosthetic liners, wheelchair cushions, packaging.",
+  link: "https://en.wikipedia.org/wiki/Memory_foam"
+},
+{
+  id: "epoxy", cat: "polymer", name: "Epoxy",
+  sub: "thermosetting resin", img: "epoxy",
+  hook: "It cures by addition rather than condensation, so nothing is given off and nothing shrinks away — which is why it sticks to almost everything and why it became the matrix holding nearly every composite together.",
+  stats: [["Cure shrinkage", "~1–2%"], ["Adhesion", "to almost anything"], ["Service", "to ~180 °C"]],
+  uses: "Composite matrix, structural adhesive, potting and encapsulation, coatings, PCB laminate.",
+  link: "https://en.wikipedia.org/wiki/Epoxy"
+},
+{
+  id: "eva", cat: "polymer", name: "EVA foam",
+  sub: "ethylene-vinyl acetate", img: "eva",
+  hook: "Polyethylene with enough vinyl acetate disrupting the crystals to leave it soft and rubbery without plasticiser — so it cannot dry out and go brittle the way plasticised PVC does.",
+  stats: [["Plasticiser", "none needed"], ["Density", "typically 30–200 kg/m³"], ["Water", "closed cell, absorbs none"]],
+  uses: "Shoe midsoles, mats and padding, solar panel encapsulant, hot-melt adhesive, buoyancy.",
+  link: "https://en.wikipedia.org/wiki/Ethylene-vinyl_acetate"
 },
 
 /* ---------- METALS & ALLOYS ---------- */
@@ -285,6 +395,7 @@ window.MATERIALS = [
 {
   id: "metglas", cat: "metal", name: "Metglas",
   sub: "amorphous Fe–Si–B ribbon",
+  img: "metglas",
   swatch: { pattern: "ribbon", colors: ["#394049", "#b5bdc6", "#1f2328"] },
   hook: "Molten alloy squirted onto a spinning chilled wheel and frozen into a glassy ribbon 25 µm thick. With no crystal structure there is almost no hysteresis loss.",
   stats: [["Thickness", "~25 µm"], ["Core loss", "~70–80% below Si steel"], ["Quench", "~10⁶ K/s"]],
@@ -327,6 +438,7 @@ window.MATERIALS = [
 {
   id: "maraging", cat: "metal", name: "Maraging steel",
   sub: "18Ni(250), 18Ni(300)",
+  img: "maraging",
   swatch: { pattern: "brushed", colors: ["#3f464e", "#a7b0b9", "#242930"] },
   hook: "Takes its strength from intermetallic precipitates during a gentle 480 °C age, not from quenching. Almost nothing moves, so you can machine it complete and harden it afterwards.",
   stats: [["UTS", "1700–2400 MPa"], ["Aging", "~480 °C"], ["Distortion", "minimal"]],
@@ -344,6 +456,7 @@ window.MATERIALS = [
 {
   id: "fields", cat: "metal", name: "Field's metal",
   sub: "Bi–In–Sn eutectic",
+  img: "fields",
   swatch: { pattern: "gloss", colors: ["#656b73", "#d4dae1", "#3f444a"] },
   hook: "A non-toxic alloy that melts in hot water. Handy for casting at kitchen temperatures, and for fusible links that are meant to fail at a known number.",
   stats: [["Melting point", "62 °C"], ["Toxicity", "no lead or cadmium"], ["Mix", "Bi 32.5 / In 51 / Sn 16.5"]],
@@ -428,6 +541,7 @@ window.MATERIALS = [
 {
   id: "cordierite", cat: "ceramic", name: "Cordierite",
   sub: "2MgO·2Al₂O₃·5SiO₂",
+  img: "cordierite",
   swatch: { pattern: "honeycomb", colors: ["#b2a085", "#e6dcc8", "#857760"] },
   hook: "Barely expands when heated, so it can go from cold to glowing without cracking. Extruded into a honeycomb, it is the substrate inside essentially every catalytic converter ever fitted.",
   stats: [["CTE", "~1–2 ppm/K"], ["Thermal shock", "excellent"], ["Form", "extruded honeycomb"]],
@@ -675,6 +789,152 @@ window.MATERIALS = [
   stats: [["Transmittance", "~85–90%"], ["vs. glass", "tougher, warmer"], ["Keeps", "the grain"]],
   uses: "Experimental glazing, diffusing light panels, structural windows.",
   link: "https://en.wikipedia.org/wiki/Transparent_wood_composite"
+},
+
+/* ---------- ROPES & WOVEN MATERIALS ---------- */
+{
+  id: "manila", cat: "fibre", name: "Manila (abacá)",
+  sub: "Musa textilis leaf fibre", img: "manila",
+  hook: "Not hemp at all but a banana relative, and for a century the standard every other rope was measured against. It holds up in salt water where most plant fibres rot, and it is stiff enough to hold a coil.",
+  stats: [["Wet", "tolerates salt water"], ["Historic role", "the benchmark rope"], ["Stretch", "low for a natural fibre"]],
+  uses: "Marine and towing rope, heavy twine, teabags and currency paper, Manila folders.",
+  link: "https://en.wikipedia.org/wiki/Abac%C3%A1"
+},
+{
+  id: "hemprope", cat: "fibre", name: "Hemp",
+  sub: "Cannabis sativa bast fibre", img: "hemprope",
+  hook: "The rope that rigged the age of sail. It is strong and grips well, but it rots from the inside once damp — which is why standing rigging was tarred, and why the smell of tar is the smell of an old ship.",
+  stats: [["Strength", "high for a bast fibre"], ["Wet", "rots untreated"], ["Traditional fix", "tar"]],
+  uses: "Traditional rigging and cordage, twine, canvas, decorative and theatre rope.",
+  link: "https://en.wikipedia.org/wiki/Hemp"
+},
+{
+  id: "sisal", cat: "fibre", name: "Sisal",
+  sub: "Agave sisalana leaf fibre", img: "sisal",
+  hook: "Coarse, cheap and sharply textured, so knots in it stay tied and cats sharpen their claws on it. It has almost no elasticity and little tolerance for damp, so it lives a short hard life on purpose.",
+  stats: [["Texture", "deliberately rough"], ["Stretch", "minimal"], ["Wet", "weakens and rots"]],
+  uses: "Baler and agricultural twine, scratching posts, buffing wheels, carpet backing, matting.",
+  link: "https://en.wikipedia.org/wiki/Sisal"
+},
+{
+  id: "coir", cat: "fibre", name: "Coir",
+  sub: "coconut husk fibre", img: "coir",
+  hook: "Weak by any engineering measure, but it floats, stretches about a third of its length before failing, and salt water barely touches it. For a mooring line that has to surge and never sink, those are the right properties.",
+  stats: [["Elongation", "~30%"], ["Buoyancy", "floats"], ["Salt water", "highly resistant"]],
+  uses: "Mooring and towing lines, doormats and matting, erosion blankets, growing medium, brushes.",
+  link: "https://en.wikipedia.org/wiki/Coir"
+},
+{
+  id: "jute", cat: "fibre", name: "Jute",
+  sub: "Corchorus bast fibre, “golden fibre”", img: "jute",
+  hook: "The cheapest usable natural fibre there is, grown in volumes second only to cotton. It is not strong, it hates water and it degrades in sunlight — and all of that is fine for a sack that composts after one trip.",
+  stats: [["Cost", "the cheapest"], ["Lifetime", "short, by design"], ["End of life", "biodegrades"]],
+  uses: "Sacking and hessian, carpet backing, rope and twine, geotextiles, packaging.",
+  link: "https://en.wikipedia.org/wiki/Jute"
+},
+{
+  id: "cottonduck", cat: "fibre", name: "Cotton duck",
+  sub: "tightly woven cotton canvas", img: "cottonduck",
+  hook: "A plain weave packed so densely that when the cotton wets it swells and closes the gaps. The fabric seals itself against rain while still breathing — a trick it performs with no coating at all.",
+  stats: [["Weave", "plain, very dense"], ["Wet", "swells and seals"], ["Coating", "none required"]],
+  uses: "Tents and awnings, workwear and aprons, sneakers, artist canvas, sandbags, tarpaulins.",
+  link: "https://en.wikipedia.org/wiki/Cotton_duck"
+},
+{
+  id: "linen", cat: "fibre", name: "Linen (flax)",
+  sub: "Linum usitatissimum bast fibre", img: "linen",
+  hook: "One of the few fibres that is stronger wet than dry, and among the oldest in use — there is linen in Egyptian tombs still recognisable as cloth. It barely stretches, which makes it crisp and makes it crease.",
+  stats: [["Wet strength", "~20% higher than dry"], ["Stretch", "very low"], ["Age of use", "~30,000 years"]],
+  uses: "Cloth and sailcloth, fire hose liners, bookbinding and paper, composite reinforcement.",
+  link: "https://en.wikipedia.org/wiki/Linen"
+},
+{
+  id: "silk", cat: "fibre", name: "Silk",
+  sub: "Bombyx mori filament", img: "silk",
+  hook: "A single continuous filament, up to a kilometre and a half of it, unwound from one cocoon — no other natural fibre comes in a length like that. Strong, tough and smooth enough to pack a parachute.",
+  stats: [["Filament length", "up to ~1500 m"], ["Tensile", "~0.5 GPa"], ["Diameter", "~10–15 µm"]],
+  uses: "Textiles, parachutes and balloon cloth historically, surgical suture, insulation in fine wire.",
+  link: "https://en.wikipedia.org/wiki/Silk"
+},
+{
+  id: "spidersilk", cat: "fibre", name: "Spider silk",
+  sub: "dragline silk and its recombinant copies", img: "spidersilk",
+  hook: "Not the strongest fibre, but the toughest: it stretches far while resisting hard, so it absorbs more energy before breaking than steel or aramid. Spiders are territorial and eat each other, so it cannot be farmed — it has to be brewed.",
+  stats: [["Toughness", "~3× aramid"], ["Extension", "~30–40%"], ["Production", "recombinant, not farmed"]],
+  uses: "Experimental textiles and composites, sutures and scaffolds, research into tough fibres.",
+  link: "https://en.wikipedia.org/wiki/Spider_silk"
+},
+{
+  id: "felt", cat: "fibre", name: "Wool felt",
+  sub: "non-woven matted fibre", img: "felt",
+  hook: "Fabric with no weave at all. Wool scales ratchet past each other under heat, moisture and pressure and then cannot slide back, locking into a solid sheet. It has no grain, so it never frays and cuts in any direction.",
+  stats: [["Structure", "no weave, no grain"], ["Edges", "never fray"], ["Age", "oldest known fabric"]],
+  uses: "Piano hammers and dampers, gaskets and washers, polishing wheels, yurts, hats, acoustic panels.",
+  link: "https://en.wikipedia.org/wiki/Felt"
+},
+{
+  id: "paracord", cat: "fibre", name: "Paracord 550",
+  sub: "nylon kernmantle cord", img: "paracord",
+  hook: "A braided nylon sheath over seven to nine twisted inner yarns, each of which is itself usable cordage. Nylon stretches roughly a third before it breaks, which is exactly what you want under a parachute canopy and nowhere near a winch.",
+  stats: [["Breaking strength", "550 lb / 2.5 kN"], ["Stretch", "~30%"], ["Core", "7–9 separate yarns"]],
+  uses: "Parachute suspension lines, general lashing, repairs, bracelets, improvised shelter.",
+  link: "https://en.wikipedia.org/wiki/Parachute_cord"
+},
+{
+  id: "polyesterfab", cat: "fibre", name: "Polyester (Dacron)",
+  sub: "PET fibre", img: "polyesterfab",
+  hook: "Nylon's quieter rival and the reason natural rope disappeared from working boats. It barely creeps under sustained load, is unbothered by water and shrugs off sunlight far better than nylon does.",
+  stats: [["Creep", "very low"], ["Wet strength", "unchanged"], ["UV", "good resistance"]],
+  uses: "Halyards and standing rigging, sailcloth, webbing and slings, clothing, tyre cord.",
+  link: "https://en.wikipedia.org/wiki/Polyester"
+},
+{
+  id: "wirerope", cat: "fibre", name: "Wire rope",
+  sub: "laid steel strand", img: "wirerope",
+  hook: "A solid steel bar of the same section cannot bend around a sheave; a few hundred thin wires can, because each one only has to flex a little. Spiral the strands against the lay of the wires and the whole rope resists unwinding under load.",
+  stats: [["Construction", "e.g. 6×19, 6×36"], ["Why it bends", "thin wires, low strain"], ["Invented", "1830s, mining"]],
+  uses: "Cranes and lifts, cable cars and bridges, winches, rigging, control cables.",
+  link: "https://en.wikipedia.org/wiki/Wire_rope"
+},
+{
+  id: "glassfibre", cat: "fibre", name: "Glass fibre",
+  sub: "E-glass and S-glass", img: "glassfibre",
+  hook: "Bulk glass is brittle because of the flaws on its surface; drawn into a filament ten microns across, there is hardly any surface left to flaw. The same material that shatters as a pane becomes a fibre you can tie in a knot.",
+  stats: [["Modulus", "~72 GPa (E-glass)"], ["Diameter", "~5–20 µm"], ["Weakness", "abrasion, moisture"]],
+  uses: "GRP hulls and panels, circuit board laminate, insulation, pressure vessels, ducting.",
+  link: "https://en.wikipedia.org/wiki/Glass_fiber"
+},
+{
+  id: "basalt", cat: "fibre", name: "Basalt fibre",
+  sub: "melt-spun volcanic rock", img: "basalt",
+  hook: "Crushed basalt melted at 1450 °C and drawn straight into filament — one raw material, no additives, no binders. It outperforms E-glass on temperature and alkali resistance, which matters in concrete.",
+  stats: [["Service", "−260 to 700 °C"], ["Input", "rock, nothing else"], ["vs. E-glass", "stiffer, more alkali-proof"]],
+  uses: "Concrete reinforcement, fire barriers, pipe wrap, automotive composites, insulation.",
+  link: "https://en.wikipedia.org/wiki/Basalt_fiber"
+},
+{
+  id: "nomex", cat: "fibre", name: "Nomex",
+  sub: "meta-aramid", img: "nomex",
+  hook: "Kevlar's sibling with the bonds in the meta position instead of para, which trades tensile strength for heat. It does not melt or drip; it thickens and chars, and the char is what keeps the flame off skin.",
+  stats: [["Behaviour in fire", "chars, never melts"], ["Continuous use", "~200 °C"], ["Also made as", "honeycomb core"]],
+  uses: "Firefighting and racing suits, flight gloves, electrical insulation paper, honeycomb cores.",
+  link: "https://en.wikipedia.org/wiki/Nomex"
+},
+{
+  id: "ripstop", cat: "fibre", name: "Ripstop",
+  sub: "a weave, not a material", img: "ripstop",
+  hook: "The only entry here that is pure geometry. Thicker yarns woven in every few millimetres do nothing until something tears — then the tear runs to the next grid line and stops, so a hole stays a hole.",
+  stats: [["Grid spacing", "~5–8 mm"], ["Weight cost", "almost none"], ["Effect", "arrests tear propagation"]],
+  uses: "Parachutes and paragliders, tents and sails, hot air balloons, outdoor clothing, flags.",
+  link: "https://en.wikipedia.org/wiki/Ripstop"
+},
+{
+  id: "sailcloth", cat: "fibre", name: "Laminate sailcloth",
+  sub: "scrim between films", img: "sailcloth",
+  hook: "A racing sail fails by stretching, not by tearing, so modern cloth is a sandwich: load-bearing yarns of aramid, carbon or UHMWPE laid exactly along the computed load paths and trapped between polyester films.",
+  stats: [["Design driver", "stretch, not strength"], ["Yarns", "aligned to load paths"], ["Build", "film–scrim–film"]],
+  uses: "Racing sails, kites and wings, lightweight packs, inflatable structures.",
+  link: "https://en.wikipedia.org/wiki/Sailcloth"
 },
 
 /* ---------- ACTIVE & EXOTIC ---------- */

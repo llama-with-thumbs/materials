@@ -185,6 +185,19 @@ main { padding: 28px 0 56px; }
   display: block;
 }
 
+.shot .tag.kind {
+  left: auto;
+  top: auto;
+  right: 10px;
+  bottom: 10px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 11px;
+  background: rgba(10, 12, 13, 0.6);
+  color: #cfd4d8;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
 .shot .tag {
   position: absolute;
   left: 10px;

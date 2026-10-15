@@ -3,6 +3,7 @@ window.CREDITS = {
   "vulkollan": {
     "file": "vulkollan.jpg",
     "caption": "Cast polyurethane skate wheel — same NDI/MDI cast-elastomer family, representative of Vulkollan's look",
+    "kind": "photo",
     "title": "Kryptonics Classic skateboard polyurethane wheel glowing against sunset.jpg",
     "artist": "Adam Rosenberg",
     "license": "CC BY-SA 2.0",
@@ -11,6 +12,7 @@ window.CREDITS = {
   "d3o": {
     "file": "d3o.jpg",
     "caption": "D3O impact padding in a protective glove",
+    "kind": "photo",
     "title": "Hand protection.jpg",
     "artist": "HecltoTrmel2020",
     "license": "CC BY-SA 4.0",
@@ -19,6 +21,7 @@ window.CREDITS = {
   "uhmwpe": {
     "file": "uhmwpe.jpg",
     "caption": "Hollow-braid Dyneema (UHMWPE) rope",
+    "kind": "photo",
     "title": "LIROS Dyneema hollow.jpg",
     "artist": "Justsail",
     "license": "CC BY-SA 3.0",
@@ -27,6 +30,7 @@ window.CREDITS = {
   "peek": {
     "file": "peek.jpg",
     "caption": "PEEK granulate, the characteristic tan colour",
+    "kind": "photo",
     "title": "PEEK resin.jpg",
     "artist": "Acheolg",
     "license": "CC BY-SA 4.0",
@@ -35,6 +39,7 @@ window.CREDITS = {
   "vespel": {
     "file": "vespel.jpg",
     "caption": "Machined Vespel polyimide part",
+    "kind": "photo",
     "title": "Vespel.Werkstueck.P1149524.jpg",
     "artist": "Bautsch",
     "license": "CC0",
@@ -43,6 +48,7 @@ window.CREDITS = {
   "ffkm": {
     "file": "ffkm.jpg",
     "caption": "FFKM perfluoroelastomer sheet",
+    "kind": "photo",
     "title": "FFKM FFPM CKD900 plate 80mm 80mm 1mm.jpg",
     "artist": "Johannes Schneider",
     "license": "CC BY 4.0",
@@ -51,6 +57,7 @@ window.CREDITS = {
   "nitinol": {
     "file": "nitinol.jpg",
     "caption": "Nitinol wire",
+    "kind": "photo",
     "title": "Nitinol draht.jpg",
     "artist": "Petermaerki",
     "license": "CC BY-SA 3.0",
@@ -59,6 +66,7 @@ window.CREDITS = {
   "invar": {
     "file": "invar.jpg",
     "caption": "Invar 36 stock",
+    "kind": "photo",
     "title": "Invar 800.jpg",
     "artist": "U.S. Research center",
     "license": "Public domain",
@@ -67,6 +75,7 @@ window.CREDITS = {
   "kovar": {
     "file": "kovar.jpg",
     "caption": "Assorted Kovar parts",
+    "kind": "photo",
     "title": "Assortment of Kovar metal.jpg",
     "artist": "Unknown authorUnknown author",
     "license": "Public domain",
@@ -75,6 +84,7 @@ window.CREDITS = {
   "bmg": {
     "file": "bmg.jpg",
     "caption": "Bulk metallic glass sample, note the mirror-smooth as-cast surface",
+    "kind": "photo",
     "title": "Bulk Metallic Glass Sample.jpg",
     "artist": "George Stobbart",
     "license": "Public domain",
@@ -83,6 +93,7 @@ window.CREDITS = {
   "greyiron": {
     "file": "greyiron.jpg",
     "caption": "Grey iron micrograph — the dark graphite flakes that damp vibration",
+    "kind": "photo",
     "title": "Gusseisen mit Lamellengraphit.jpg",
     "artist": "Hb tuw",
     "license": "CC BY-SA 4.0",
@@ -91,6 +102,7 @@ window.CREDITS = {
   "becu": {
     "file": "becu.jpg",
     "caption": "Beryllium-copper non-sparking tool",
+    "kind": "photo",
     "title": "CuBe Tool.jpg",
     "artist": "nicransby",
     "license": "Public domain",
@@ -99,6 +111,7 @@ window.CREDITS = {
   "mumetal": {
     "file": "mumetal.jpg",
     "caption": "Mu-metal shielding cans",
+    "kind": "photo",
     "title": "Mu-metal assortment 1951.jpg",
     "artist": "Unknown authorUnknown author",
     "license": "Public domain",
@@ -107,6 +120,7 @@ window.CREDITS = {
   "stellite": {
     "file": "stellite.jpg",
     "caption": "Cast cobalt-chrome (Stellite-type) framework",
+    "kind": "photo",
     "title": "Unterkiefer Teilprothese 20100112 008.JPG",
     "artist": "Sterilgutassistentin",
     "license": "CC BY-SA 3.0",
@@ -115,6 +129,7 @@ window.CREDITS = {
   "wha": {
     "file": "wha.jpg",
     "caption": "Tungsten crystals and a 1 cm³ cube — 19.3 g in that cube",
+    "kind": "photo",
     "title": "Wolfram evaporated crystals and 1cm3 cube.jpg",
     "artist": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
     "license": "FAL",
@@ -123,6 +138,7 @@ window.CREDITS = {
   "superalloy": {
     "file": "superalloy.jpg",
     "caption": "Single-crystal high-pressure turbine blade",
+    "kind": "photo",
     "title": "255 GRC 1979 03464 EEE - 2 piece single crystal HTP blade.jpg",
     "artist": "Photographer: JACK DARGINSKY",
     "license": "Public domain",
@@ -131,6 +147,7 @@ window.CREDITS = {
   "galinstan": {
     "file": "galinstan.jpg",
     "caption": "Galinstan, liquid at room temperature",
+    "kind": "photo",
     "title": "Galinstan on glass.jpg",
     "artist": "Splarka at English Wikipedia",
     "license": "Public domain",
@@ -139,6 +156,7 @@ window.CREDITS = {
   "rhenium": {
     "file": "rhenium.jpg",
     "caption": "Rhenium single-crystal bar and cube",
+    "kind": "photo",
     "title": "Rhenium single crystal bar and 1cm3 cube.jpg",
     "artist": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
     "license": "FAL",
@@ -147,6 +165,7 @@ window.CREDITS = {
   "ytzp": {
     "file": "ytzp.jpg",
     "caption": "Y-TZP zirconia bearing balls",
+    "kind": "photo",
     "title": "Zirconium dioxide ZrO2 bearing balls.jpg",
     "artist": "Lucasbosch",
     "license": "CC BY-SA 3.0",
@@ -155,6 +174,7 @@ window.CREDITS = {
   "cbn": {
     "file": "cbn.jpg",
     "caption": "Cubic boron nitride crystals",
+    "kind": "photo",
     "title": "Cubic Boron Nitride.jpg",
     "artist": "Whodunit244",
     "license": "CC BY-SA 4.0",
@@ -163,6 +183,7 @@ window.CREDITS = {
   "b4c": {
     "file": "b4c.jpg",
     "caption": "Boron carbide, sintered and as powder",
+    "kind": "photo",
     "title": "Boron carbide.JPG",
     "artist": "Preslav",
     "license": "Public domain",
@@ -171,6 +192,7 @@ window.CREDITS = {
   "sic": {
     "file": "sic.jpg",
     "caption": "Silicon carbide crystals with their iridescent oxide film",
+    "kind": "photo",
     "title": "SiC p1390066.jpg",
     "artist": "David Monniaux",
     "license": "CC BY-SA 3.0",
@@ -179,6 +201,7 @@ window.CREDITS = {
   "zerodur": {
     "file": "zerodur.jpg",
     "caption": "A cast Zerodur mirror blank (ELT secondary, 4.2 m)",
+    "kind": "photo",
     "title": "ELT secondary mirror blank successfully cast.jpg",
     "artist": "SCHOTT/ESO",
     "license": "CC BY 4.0",
@@ -187,6 +210,7 @@ window.CREDITS = {
   "aln": {
     "file": "aln.jpg",
     "caption": "Aluminium nitride — an insulator that conducts heat like metal",
+    "kind": "photo",
     "title": "Aluminium Nitride.jpg",
     "artist": "en:user:Waprap",
     "license": "Public domain",
@@ -195,6 +219,7 @@ window.CREDITS = {
   "alon": {
     "file": "alon.jpg",
     "caption": "Transparent spinel ceramic — AlON's close cousin, same trick: a polycrystalline ceramic you can see through",
+    "kind": "photo",
     "title": "TTO Spinel Ceramic.JPG",
     "artist": "Technology Transfer Office. U.S. Navy. Naval Research Laboratory",
     "license": "Public domain",
@@ -203,6 +228,7 @@ window.CREDITS = {
   "pyro": {
     "file": "pyro.jpg",
     "caption": "Pyrolytic graphite levitating over permanent magnets at room temperature",
+    "kind": "photo",
     "title": "Diamagnetic graphite levitation.jpg",
     "artist": "en:User:Splarka",
     "license": "Public domain",
@@ -211,6 +237,7 @@ window.CREDITS = {
   "cc": {
     "file": "cc.jpg",
     "caption": "Carbon-carbon / carbon-ceramic racing brake",
+    "kind": "photo",
     "title": "Ferrari F430 Challenge Brake.JPG",
     "artist": "The359",
     "license": "CC BY-SA 3.0",
@@ -219,6 +246,7 @@ window.CREDITS = {
   "cmc": {
     "file": "cmc.jpg",
     "caption": "SiC/SiC ceramic matrix composite body flaps (X-38)",
+    "kind": "photo",
     "title": "CMC-X38-Bodyflaps.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 3.0",
@@ -227,6 +255,7 @@ window.CREDITS = {
   "cf": {
     "file": "cf.jpg",
     "caption": "Carbon fibre tow",
+    "kind": "photo",
     "title": "Carbon fiber bundle.jpg",
     "artist": "Acheolg",
     "license": "CC BY-SA 4.0",
@@ -235,6 +264,7 @@ window.CREDITS = {
   "syntactic": {
     "file": "syntactic.jpg",
     "caption": "Syntactic foam — glass microballoons in resin",
+    "kind": "photo",
     "title": "Syntactic foam sphere.jpg",
     "artist": "Z22",
     "license": "CC BY-SA 4.0",
@@ -243,6 +273,7 @@ window.CREDITS = {
   "aerogel": {
     "file": "aerogel.jpg",
     "caption": "Silica aerogel, about 0.001 g/cm³",
+    "kind": "photo",
     "title": "Aerogel hand.jpg",
     "artist": "Courtesy NASA/JPL-Caltech",
     "license": "Public domain",
@@ -251,6 +282,7 @@ window.CREDITS = {
   "metalfoam": {
     "file": "metalfoam.jpg",
     "caption": "Closed-cell aluminium foam",
+    "kind": "photo",
     "title": "Aluminium foam.jpg",
     "artist": "Stehfun",
     "license": "CC BY 3.0",
@@ -259,6 +291,7 @@ window.CREDITS = {
   "bioglass": {
     "file": "bioglass.png",
     "caption": "Bioglass 45S5 surface morphology",
+    "kind": "photo",
     "title": "MorphologyofBioglass.png",
     "artist": "X. Wang",
     "license": "CC BY-SA 4.0",
@@ -267,6 +300,7 @@ window.CREDITS = {
   "hap": {
     "file": "hap.jpg",
     "caption": "Hydroxyapatite, the mineral phase of bone",
+    "kind": "photo",
     "title": "Hydroxylapatite-338779.jpg",
     "artist": "Robert M. Lavinsky",
     "license": "CC BY-SA 3.0",
@@ -275,6 +309,7 @@ window.CREDITS = {
   "mxene": {
     "file": "mxene.png",
     "caption": "MXene flakes under the electron microscope",
+    "kind": "photo",
     "title": "SEM of MXene.png",
     "artist": "Prussianblue1403",
     "license": "CC BY 3.0",
@@ -283,6 +318,7 @@ window.CREDITS = {
   "vantablack": {
     "file": "vantablack.jpg",
     "caption": "Vantablack-coated foil — the crumpled surface is invisible",
+    "kind": "photo",
     "title": "Vantablack 02.JPG",
     "artist": "Surrey NanoSystems",
     "license": "CC BY-SA 3.0",
@@ -291,6 +327,7 @@ window.CREDITS = {
   "mrf": {
     "file": "mrf.jpg",
     "caption": "Magnetorheological fluid standing up on a permanent magnet",
+    "kind": "photo",
     "title": "MRF mit Permanentmagnet.jpg",
     "artist": "INVENTUS Engineering GmbH",
     "license": "CC BY-SA 3.0",
@@ -299,6 +336,7 @@ window.CREDITS = {
   "ferrofluid": {
     "file": "ferrofluid.jpg",
     "caption": "Ferrofluid spiking along field lines",
+    "kind": "photo",
     "title": "Ferrofluid Magnet under glass edit.jpg",
     "artist": "Gregory F. Maxwell <gmaxwell@gmail.com> PGP:0xB0413BFA",
     "license": "CC BY-SA 3.0",
@@ -307,6 +345,7 @@ window.CREDITS = {
   "twood": {
     "file": "twood.jpg",
     "caption": "Transparent wood sample (KTH)",
+    "kind": "photo",
     "title": "KTH-forskare har uppfunnit genomskinligt trä prov 1.jpg",
     "artist": "Peter Larsson",
     "license": "CC BY 3.0",
@@ -315,6 +354,7 @@ window.CREDITS = {
   "mycelium": {
     "file": "mycelium.png",
     "caption": "Mycelium composite grown on substrate",
+    "kind": "photo",
     "title": "Mycelium based composite.png",
     "artist": "Karana et al.",
     "license": "CC BY 4.0",
@@ -323,6 +363,7 @@ window.CREDITS = {
   "starlite": {
     "file": "starlite.jpg",
     "caption": "A surviving Starlite sample",
+    "kind": "photo",
     "title": "Starlite sample.jpg",
     "artist": "Risilvaa",
     "license": "CC BY-SA 4.0",
@@ -331,6 +372,7 @@ window.CREDITS = {
   "auxetic": {
     "file": "auxetic.jpg",
     "caption": "Auxetic lattice — gets thinner when stretched",
+    "kind": "photo",
     "title": "Meta-aux-orange.jpg",
     "artist": "Bigspaggio18",
     "license": "CC BY 4.0",
@@ -339,6 +381,7 @@ window.CREDITS = {
   "albemet": {
     "file": "albemet.jpg",
     "caption": "Pure beryllium, the stiffening phase in AlBeMet",
+    "kind": "photo",
     "title": "Be-140g.jpg",
     "artist": "Alchemist-hp = Alchemist-hp (pse-mendelejew.de)",
     "license": "CC BY-SA 3.0",
@@ -347,6 +390,7 @@ window.CREDITS = {
   "ptfe": {
     "file": "ptfe.jpg",
     "caption": "PTFE — the slipperiest solid in common use",
+    "kind": "photo",
     "title": "Teflon-jar hg.jpg",
     "artist": "Hannes Grobe",
     "license": "CC BY-SA 3.0",
@@ -355,6 +399,7 @@ window.CREDITS = {
   "eptfe": {
     "file": "eptfe.png",
     "caption": "Expanded PTFE under the microscope — the node-and-fibril structure that passes vapour but not droplets",
+    "kind": "photo",
     "title": "Goretex photo.png",
     "artist": "Abrev improved picture impression",
     "license": "CC BY-SA 3.0",
@@ -363,6 +408,7 @@ window.CREDITS = {
   "aramid": {
     "file": "aramid.jpg",
     "caption": "Para-aramid yarn woven for ballistic panels",
+    "kind": "photo",
     "title": "Para Aramid Yarns Body Armor.jpg",
     "artist": "Bodyarmor",
     "license": "CC BY-SA 3.0",
@@ -371,6 +417,7 @@ window.CREDITS = {
   "fkm": {
     "file": "fkm.jpg",
     "caption": "An FKM (Viton) seal on a vacuum feedthrough",
+    "kind": "photo",
     "title": "Fiber optic vacuum viton seal ProtoDUNE.jpg",
     "artist": "Ajheindel",
     "license": "CC BY 4.0",
@@ -379,6 +426,7 @@ window.CREDITS = {
   "silicone": {
     "file": "silicone.jpg",
     "caption": "Liquid silicone rubber before cure",
+    "kind": "photo",
     "title": "Liquid-silicon-rubber-crop.jpg",
     "artist": "By Gmhofmann (Own work) [CC-BY-SA-3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
     "license": "CC BY-SA 3.0",
@@ -387,6 +435,7 @@ window.CREDITS = {
   "natrubber": {
     "file": "natrubber.jpg",
     "caption": "Natural rubber, still unbeaten at resisting fatigue",
+    "kind": "photo",
     "title": "Natural rubber.jpg",
     "artist": "LukaszKatlewa",
     "license": "CC BY-SA 4.0",
@@ -395,6 +444,7 @@ window.CREDITS = {
   "butyl": {
     "file": "butyl.jpg",
     "caption": "Butyl rubber gloves — the polymer gas does not get through",
+    "kind": "photo",
     "title": "Butyl rubber gloves.JPG",
     "artist": "MatChem121",
     "license": "CC BY 3.0",
@@ -403,6 +453,7 @@ window.CREDITS = {
   "pvdf": {
     "file": "pvdf.png",
     "caption": "PVDF pipework in an ultrapure water plant",
+    "kind": "photo",
     "title": "A UPW Installation using PVDF Piping.png",
     "artist": "Wikikart99",
     "license": "CC0",
@@ -411,6 +462,7 @@ window.CREDITS = {
   "kapton": {
     "file": "kapton.jpg",
     "caption": "JWST's sunshield — five tensioned layers of Kapton",
+    "kind": "photo",
     "title": "James Webb telescope sunshield.jpg",
     "artist": "Chris Gunn",
     "license": "Public domain",
@@ -419,6 +471,7 @@ window.CREDITS = {
   "delrin": {
     "file": "delrin.jpg",
     "caption": "Acetal (Delrin) picks — the material holds its dimensions",
+    "kind": "photo",
     "title": "Dunlop Delrin 500.jpg",
     "artist": "Urban Versis 32",
     "license": "CC BY-SA 4.0",
@@ -427,6 +480,7 @@ window.CREDITS = {
   "pc": {
     "file": "pc.jpg",
     "caption": "Polycarbonate eye protection",
+    "kind": "photo",
     "title": "Laboratory protection goggles-blue.jpg",
     "artist": "Lilly_M",
     "license": "CC BY-SA 3.0",
@@ -435,6 +489,7 @@ window.CREDITS = {
   "pmma": {
     "file": "pmma.jpg",
     "caption": "A Lichtenberg figure frozen inside a PMMA block",
+    "kind": "photo",
     "title": "Lichtenberg figure in block of Plexiglas.jpg",
     "artist": "Bert Hickman",
     "license": "Attribution",
@@ -443,6 +498,7 @@ window.CREDITS = {
   "sap": {
     "file": "sap.jpg",
     "caption": "Superabsorbent polymer beads, before and after water",
+    "kind": "photo",
     "title": "Superabsorbent Polymer.jpg",
     "artist": "User:Ritchey",
     "license": "Public domain",
@@ -451,6 +507,7 @@ window.CREDITS = {
   "polyurea": {
     "file": "polyurea.png",
     "caption": "Sprayed polyurea lining, cured within seconds",
+    "kind": "photo",
     "title": "Spray-bedliner-installed-lg.png",
     "artist": "Abcflorida",
     "license": "CC BY-SA 3.0",
@@ -459,6 +516,7 @@ window.CREDITS = {
   "alumina": {
     "file": "alumina.jpg",
     "caption": "A spark plug insulator — alumina’s highest-volume job",
+    "kind": "photo",
     "title": "Spark plug insulator.jpeg",
     "artist": "User:Industry shill",
     "license": "Public domain",
@@ -467,6 +525,7 @@ window.CREDITS = {
   "sapphire": {
     "file": "sapphire.jpg",
     "caption": "A synthetic sapphire boule pulled from the melt",
+    "kind": "photo",
     "title": "Sapphire boule, Kyropoulos method.jpg",
     "artist": "WhiteOakTree",
     "license": "CC0",
@@ -475,6 +534,7 @@ window.CREDITS = {
   "fusedsilica": {
     "file": "fusedsilica.jpg",
     "caption": "A Gravity Probe B fused-quartz rotor — among the roundest objects ever made",
+    "kind": "photo",
     "title": "Einstein gyro gravity probe b.jpg",
     "artist": "Unknown",
     "license": "Public domain",
@@ -483,6 +543,7 @@ window.CREDITS = {
   "gorilla": {
     "file": "gorilla.jpg",
     "caption": "Chemically strengthened cover glass",
+    "kind": "photo",
     "title": "Nokia N8 gorilla glass screen (5083750412).jpg",
     "artist": "Titanas from Athens, Greece",
     "license": "CC BY-SA 2.0",
@@ -491,6 +552,7 @@ window.CREDITS = {
   "borosilicate": {
     "file": "borosilicate.jpg",
     "caption": "Borosilicate labware",
+    "kind": "photo",
     "title": "Beakers.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 2.5",
@@ -499,6 +561,7 @@ window.CREDITS = {
   "si3n4": {
     "file": "si3n4.jpg",
     "caption": "Silicon nitride bearing balls",
+    "kind": "photo",
     "title": "Si3N4bearings.jpg",
     "artist": "David W. Richerson and Douglas W. Freitag; Oak Ridge National Laboratory (federal lab.)",
     "license": "Public domain",
@@ -507,6 +570,7 @@ window.CREDITS = {
   "hbn": {
     "file": "hbn.jpg",
     "caption": "Hexagonal boron nitride crystals — \"white graphite\", soft enough to machine",
+    "kind": "photo",
     "title": "Hexagonal Boron Nitride.jpg",
     "artist": "SJ879 C",
     "license": "CC BY 4.0",
@@ -515,6 +579,7 @@ window.CREDITS = {
   "pzt": {
     "file": "pzt.jpg",
     "caption": "A PZT piezoelectric element in a hydrophone",
+    "kind": "photo",
     "title": "Maxim-1-HydrophonPZTinGehäuse.JPG",
     "artist": "Unknown",
     "license": "CC BY-SA 3.0",
@@ -523,6 +588,7 @@ window.CREDITS = {
   "wc": {
     "file": "wc.jpg",
     "caption": "Tungsten carbide cutting inserts",
+    "kind": "photo",
     "title": "Tungsten carbide inserts.jpg",
     "artist": "Mauro Cateb",
     "license": "CC BY-SA 4.0",
@@ -531,6 +597,7 @@ window.CREDITS = {
   "uhtc": {
     "file": "uhtc.jpg",
     "caption": "An ultra-high-temperature ceramic leading-edge strake",
+    "kind": "photo",
     "title": "An UHTC strake composed of three different sections with different UHTC compositions.jpg",
     "artist": "S. M. Johnson, Matt Gasch, J. W. Lawson, M. I. Gusman, M. M. Stackpole",
     "license": "Public domain",
@@ -539,6 +606,7 @@ window.CREDITS = {
   "li900": {
     "file": "li900.jpg",
     "caption": "A Shuttle silica tile — 94% air, held by the edges while glowing",
+    "kind": "photo",
     "title": "Shuttle tile.jpg",
     "artist": "Greenshed",
     "license": "Public domain",
@@ -547,6 +615,7 @@ window.CREDITS = {
   "cvddiamond": {
     "file": "cvddiamond.jpg",
     "caption": "A single-crystal CVD diamond disc",
+    "kind": "photo",
     "title": "Single-crystal CVD diamond disc.jpg",
     "artist": "Matthias Schreck, Stefan Gsell, Rosaria Brescia & Martin Fischer",
     "license": "CC BY-SA 4.0",
@@ -555,6 +624,7 @@ window.CREDITS = {
   "quartzxtal": {
     "file": "quartzxtal.jpg",
     "caption": "A 32,768 Hz quartz tuning fork, the heart of every quartz watch",
+    "kind": "photo",
     "title": "32768 Hz quartz crystal resonator.jpg",
     "artist": "Mister rf",
     "license": "CC BY-SA 4.0",
@@ -563,6 +633,7 @@ window.CREDITS = {
   "yag": {
     "file": "yag.jpg",
     "caption": "An Nd:YAG laser rod",
+    "kind": "photo",
     "title": "Yag-rod.jpg",
     "artist": "Unknown authorUnknown author",
     "license": "CC BY 3.0",
@@ -571,6 +642,7 @@ window.CREDITS = {
   "batio3": {
     "file": "batio3.jpg",
     "caption": "Barium titanate ceramic — the dielectric inside billions of capacitors",
+    "kind": "photo",
     "title": "BaTiO3ceramics.JPG",
     "artist": "Materialscientist (talk)",
     "license": "CC BY-SA 3.0",
@@ -579,9 +651,379 @@ window.CREDITS = {
   "tbc": {
     "file": "tbc.jpg",
     "caption": "A ceramic thermal barrier coating on an exhaust component",
+    "kind": "photo",
     "title": "Coloured ceramic thermal barrier coating on exhaust component.jpg",
     "artist": "http://www.zircotec.com",
     "license": "Attribution",
     "page": "https://commons.wikimedia.org/wiki/File:Coloured_ceramic_thermal_barrier_coating_on_exhaust_component.jpg"
+  },
+  "sorbothane": {
+    "file": "sorbothane.jpg",
+    "caption": "Sorbothane grommets isolating a turntable motor",
+    "kind": "product",
+    "title": "Motor tower level 1 with grommets and sorbothane - Connoisseur BD1 Kit Replinth (6909790478).jpg",
+    "artist": "Jacques from Cape Town, South Africa",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Motor_tower_level_1_with_grommets_and_sorbothane_-_Connoisseur_BD1_Kit_Replinth_(6909790478).jpg"
+  },
+  "zylon": {
+    "file": "zylon.png",
+    "caption": "PBO: rigid rod-like chains, which is where the strength comes from",
+    "kind": "structure",
+    "title": "Poly(p-phenylene-2,6-benzobisoxazole).svg",
+    "artist": "Calvero",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Poly(p-phenylene-2,6-benzobisoxazole).svg"
+  },
+  "lignostone": {
+    "file": "lignostone.jpg",
+    "caption": "Densified beech laminate",
+    "kind": "photo",
+    "title": "Lignoston.jpg",
+    "artist": "Mnemosine",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lignoston.jpg"
+  },
+  "parylene": {
+    "file": "parylene.jpg",
+    "caption": "The parylene family — N, C and D repeat units",
+    "kind": "structure",
+    "title": "Parylene repeat units.JPG",
+    "artist": "Senkej",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parylene_repeat_units.JPG"
+  },
+  "vectran": {
+    "file": "vectran.png",
+    "caption": "Vectran's aromatic polyester chain",
+    "kind": "structure",
+    "title": "Vectran.svg",
+    "artist": "Doxepine",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Vectran.svg"
+  },
+  "metglas": {
+    "file": "metglas.png",
+    "caption": "Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise",
+    "kind": "process",
+    "title": "MeltSpinner.png",
+    "artist": "J3D3",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MeltSpinner.png"
+  },
+  "maraging": {
+    "file": "maraging.jpg",
+    "caption": "Competition épée blades are maraging steel — it bends far before it breaks",
+    "kind": "product",
+    "title": "Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg",
+    "artist": "Marie-Lan Nguyen",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Semi-finals_Heinzer-Novosjolov_Masters_epee_2012_n06.jpg"
+  },
+  "cordierite": {
+    "file": "cordierite.jpg",
+    "caption": "Inside a catalytic converter: the extruded cordierite honeycomb",
+    "kind": "product",
+    "title": "Catalytic Converter Interior.jpg",
+    "artist": "Cyrogigabyte",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catalytic_Converter_Interior.jpg"
+  },
+  "torlon": {
+    "file": "torlon.png",
+    "caption": "Trimellitic anhydride chloride, the monomer PAI is built from",
+    "kind": "structure",
+    "title": "TMAC.png",
+    "artist": "Mr polymer",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:TMAC.png"
+  },
+  "fields": {
+    "file": "fields.jpg",
+    "caption": "Wood's metal, Field's older cadmium-bearing cousin, melting in hot water",
+    "kind": "related",
+    "title": "Wood's alloy 2.JPG",
+    "artist": "GOKLuLe",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wood%27s_alloy_2.JPG"
+  },
+  "bakelite": {
+    "file": "bakelite.jpg",
+    "caption": "A Bakelite radio cabinet",
+    "kind": "product",
+    "title": "Bakelite radio.jpg",
+    "artist": "Original uploader was Robneild at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bakelite_radio.jpg"
+  },
+  "phenolic": {
+    "file": "phenolic.jpg",
+    "caption": "Phenolic cotton laminate — cloth and resin pressed into a solid",
+    "kind": "photo",
+    "title": "Textolite.jpg",
+    "artist": "Zureks",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Textolite.jpg"
+  },
+  "neoprene": {
+    "file": "neoprene.jpg",
+    "caption": "Neoprene foam in a diving suit",
+    "kind": "product",
+    "title": "Diving suit neoprene.jpg",
+    "artist": "Mark.murphy",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Diving_suit_neoprene.jpg"
+  },
+  "epdm": {
+    "file": "epdm.jpg",
+    "caption": "EPDM membrane",
+    "kind": "photo",
+    "title": "EPDM foil.jpg",
+    "artist": "KVDP",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:EPDM_foil.jpg"
+  },
+  "nbr": {
+    "file": "nbr.jpg",
+    "caption": "Nitrile gloves",
+    "kind": "product",
+    "title": "Disposable nitrile glove.jpg",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Disposable_nitrile_glove.jpg"
+  },
+  "br": {
+    "file": "br.jpg",
+    "caption": "A golf ball core — polybutadiene, chosen purely for rebound",
+    "kind": "product",
+    "title": "Golfballinsiderp.jpg",
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Golfballinsiderp.jpg"
+  },
+  "tpu": {
+    "file": "tpu.jpg",
+    "caption": "TPU pellets, with a coin for scale",
+    "kind": "photo",
+    "title": "Chips TPU con eurocent.jpg",
+    "artist": "Luigi Chiesa",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chips_TPU_con_eurocent.jpg"
+  },
+  "pps": {
+    "file": "pps.png",
+    "caption": "The PPS chain, as resolved by crystallography",
+    "kind": "structure",
+    "title": "Polyphenylene-sulfide-from-xtal-3D-sf.png",
+    "artist": "Ben Mills",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Polyphenylene-sulfide-from-xtal-3D-sf.png"
+  },
+  "mylar": {
+    "file": "mylar.jpg",
+    "caption": "Aluminised BoPET film",
+    "kind": "photo",
+    "title": "Myla32rp.jpg",
+    "artist": "Anton",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Myla32rp.jpg"
+  },
+  "pp": {
+    "file": "pp.jpg",
+    "caption": "A living hinge moulded in one piece with the box",
+    "kind": "product",
+    "title": "Mint box polypropylene lid.JPG",
+    "artist": "en:User:Polyparadig",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG"
+  },
+  "memoryfoam": {
+    "file": "memoryfoam.jpg",
+    "caption": "Viscoelastic foam returning slowly after a hand is lifted",
+    "kind": "photo",
+    "title": "MemoryFoam-slow.jpg",
+    "artist": "Johan",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MemoryFoam-slow.jpg"
+  },
+  "epoxy": {
+    "file": "epoxy.jpg",
+    "caption": "Aerospace epoxy resin",
+    "kind": "photo",
+    "title": "Aerospace epoxy resin.jpg",
+    "artist": "Acheolg",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerospace_epoxy_resin.jpg"
+  },
+  "eva": {
+    "file": "eva.jpg",
+    "caption": "EVA foam",
+    "kind": "photo",
+    "title": "Eva closeup.jpg",
+    "artist": "Rotor DB at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eva_closeup.jpg"
+  },
+  "manila": {
+    "file": "manila.jpg",
+    "caption": "Abacá fibre, stripped and dried",
+    "kind": "photo",
+    "title": "20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg",
+    "artist": "BANANATEX",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg"
+  },
+  "hemprope": {
+    "file": "hemprope.jpg",
+    "caption": "Hemp cordage",
+    "kind": "photo",
+    "title": "Cordage en chanvre.jpg",
+    "artist": "Ji-Elle",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cordage_en_chanvre.jpg"
+  },
+  "sisal": {
+    "file": "sisal.jpg",
+    "caption": "Baled sisal fibre",
+    "kind": "photo",
+    "title": "Pacas de sisal.jpg",
+    "artist": "Comvaser dice: Tomado de Wikipedia en Inglés según referencia señalada en Source.Dotado de licencia de uso de dominio público por el autor misma que se reproduce abajo.",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pacas_de_sisal.jpg"
+  },
+  "coir": {
+    "file": "coir.jpg",
+    "caption": "Coir rope being twisted by hand in Kerala",
+    "kind": "product",
+    "title": "Making coir rope in Kerala.JPG",
+    "artist": "Bricaniwi",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Making_coir_rope_in_Kerala.JPG"
+  },
+  "jute": {
+    "file": "jute.jpg",
+    "caption": "Jute rope",
+    "kind": "photo",
+    "title": "Jute Rope (சணல் கயிறு).jpg",
+    "artist": "Thamizhpparithi Maari",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jute_Rope_(%E0%AE%9A%E0%AE%A3%E0%AE%B2%E0%AF%8D_%E0%AE%95%E0%AE%AF%E0%AE%BF%E0%AE%B1%E0%AF%81).jpg"
+  },
+  "cottonduck": {
+    "file": "cottonduck.jpg",
+    "caption": "Cotton duck, woven tight enough to shed water",
+    "kind": "photo",
+    "title": "Close up of cotton duck canvas.JPG",
+    "artist": "Clescelius",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Close_up_of_cotton_duck_canvas.JPG"
+  },
+  "linen": {
+    "file": "linen.jpg",
+    "caption": "Linen cloth",
+    "kind": "photo",
+    "title": "Linen cloth.jpg",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Linen_cloth.jpg"
+  },
+  "silk": {
+    "file": "silk.jpg",
+    "caption": "Bombyx mori cocoons — one continuous filament each",
+    "kind": "photo",
+    "title": "Bombyx mori Cocon 02.jpg",
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bombyx_mori_Cocon_02.jpg"
+  },
+  "spidersilk": {
+    "file": "spidersilk.jpg",
+    "caption": "A strand of artificial spider silk",
+    "kind": "photo",
+    "title": "Artificial Spider Silk Strand.JPG",
+    "artist": "K8joc8ohGee9j",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Artificial_Spider_Silk_Strand.JPG"
+  },
+  "felt": {
+    "file": "felt.jpg",
+    "caption": "Wool felt — fabric with no weave at all",
+    "kind": "photo",
+    "title": "Colored felt cloth.jpg",
+    "artist": "Bastet78",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Colored_felt_cloth.jpg"
+  },
+  "paracord": {
+    "file": "paracord.jpg",
+    "caption": "550 paracord, sheath opened to show the core yarns",
+    "kind": "photo",
+    "title": "MIL-C-5040 Type III 550 Paracord.jpg",
+    "artist": "Rawkhopper",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MIL-C-5040_Type_III_550_Paracord.jpg"
+  },
+  "polyesterfab": {
+    "file": "polyesterfab.jpg",
+    "caption": "Water beading on woven polyester",
+    "kind": "photo",
+    "title": "Drop of water on water-resistant textile (100% polyester).jpg",
+    "artist": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Drop_of_water_on_water-resistant_textile_(100%25_polyester).jpg"
+  },
+  "wirerope": {
+    "file": "wirerope.jpg",
+    "caption": "Steel wire rope, laid left-hand ordinary",
+    "kind": "photo",
+    "title": "Lhol wire rope.jpg",
+    "artist": "Bernard S. Jansen",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Lhol_wire_rope.jpg"
+  },
+  "glassfibre": {
+    "file": "glassfibre.jpg",
+    "caption": "A glass fibre bundle",
+    "kind": "photo",
+    "title": "Glass fiber bundle.jpg",
+    "artist": "Acheolg",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glass_fiber_bundle.jpg"
+  },
+  "basalt": {
+    "file": "basalt.jpg",
+    "caption": "Basalt fibre (dark) beside glass fibre",
+    "kind": "photo",
+    "title": "Basalt fibre and glass fibre.jpg",
+    "artist": "Nils Austa",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Basalt_fibre_and_glass_fibre.jpg"
+  },
+  "nomex": {
+    "file": "nomex.jpg",
+    "caption": "A Nomex firefighting hood",
+    "kind": "product",
+    "title": "TFS Nomex Hood.JPG",
+    "artist": "The original uploader was Sherurcij at English Wikipedia.",
+    "license": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:TFS_Nomex_Hood.JPG"
+  },
+  "ripstop": {
+    "file": "ripstop.jpg",
+    "caption": "Ripstop: a grid of heavier yarns that stops a tear spreading",
+    "kind": "photo",
+    "title": "RipStop.jpg",
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:RipStop.jpg"
+  },
+  "sailcloth": {
+    "file": "sailcloth.jpg",
+    "caption": "A modern laminate spinnaker under load",
+    "kind": "product",
+    "title": "Bear of Britain spinnaker.jpg",
+    "artist": "No machine-readable author provided. Malcolm Morley~commonswiki assumed (based on copyright claims).",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bear_of_Britain_spinnaker.jpg"
   }
 };

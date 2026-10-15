@@ -1,7 +1,8 @@
 """Download material photos from Wikimedia Commons into images/ and write credits.js.
 
 Usage: python -I tools/fetch_images.py
-Reads tools/images.txt  ->  id|Commons File name|caption
+Reads tools/images.txt  ->  id|Commons File name|caption[|kind]
+kind is photo (default), structure, product, process or related.
 """
 import sys, os, re, json, time, html, urllib.request, urllib.parse
 sys.stdout.reconfigure(encoding="utf-8")
@@ -46,14 +47,16 @@ with open(os.path.join(ROOT, "tools", "images.txt"), encoding="utf-8") as fh:
     for line in fh:
         line = line.strip()
         if line and not line.startswith("#"):
-            mid, fname, caption = line.split("|", 2)
-            rows.append((mid, fname, caption))
+            parts = line.split("|")
+            mid, fname, caption = parts[0], parts[1], parts[2]
+            kind = parts[3] if len(parts) > 3 else "photo"
+            rows.append((mid, fname, caption, kind))
 
 credits = {}
 for i in range(0, len(rows), 10):
     chunk = rows[i:i + 10]
     data = api({"action": "query", "format": "json", "formatversion": "2",
-                "titles": "|".join("File:" + f for _, f, _ in chunk),
+                "titles": "|".join("File:" + f for _, f, _, _ in chunk),
                 "prop": "imageinfo", "iiprop": "url|extmetadata|mime",
                 "iiurlwidth": str(WIDTH)})
     byname = {}
@@ -61,7 +64,7 @@ for i in range(0, len(rows), 10):
         if p.get("missing"):
             print("MISSING " + p.get("title", "?")); continue
         byname[p["title"].replace("File:", "")] = p["imageinfo"][0]
-    for mid, fname, caption in chunk:
+    for mid, fname, caption, kind in chunk:
         ii = byname.get(fname)
         if not ii:
             print("no imageinfo: " + fname); continue
@@ -75,6 +78,7 @@ for i in range(0, len(rows), 10):
         credits[mid] = {
             "file": mid + ext,
             "caption": caption,
+            "kind": kind,
             "title": fname,
             "artist": strip_html(em.get("Artist", {}).get("value", "")) or "Unknown",
             "license": strip_html(em.get("LicenseShortName", {}).get("value", "")) or "see source",

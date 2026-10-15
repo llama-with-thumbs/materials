@@ -5,7 +5,16 @@ const CATS = {
   metal: "Metals & alloys",
   ceramic: "Ceramics & glass",
   composite: "Composites & structures",
+  fibre: "Ropes & woven materials",
   exotic: "Active & exotic"
+};
+
+// What the picture actually shows, when it is not a photograph of the material itself.
+const KINDS = {
+  structure: "molecular structure",
+  product: "something made from it",
+  process: "how it is made",
+  related: "a close relative"
 };
 
 const CREDITS = window.CREDITS || {};
@@ -118,15 +127,17 @@ function shotFor(mat) {
 
 function cardFor(mat) {
   const c = CREDITS[mat.id];
+  const kind = c && KINDS[c.kind] ? c.kind : null;
   const stats = mat.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
   const source = c
-    ? `<a href="${esc(c.page)}" target="_blank" rel="noopener">photo: Wikimedia (${esc(c.license)})</a>`
+    ? `<a href="${esc(c.page)}" target="_blank" rel="noopener">${kind ? esc(c.kind) : "photo"}: Wikimedia (${esc(c.license)})</a>`
     : `<span>illustration</span>`;
   const more = mat.link ? `<a href="${esc(mat.link)}" target="_blank" rel="noopener">read more</a>` : "";
   return `<article class="card" data-cat="${mat.cat}" data-id="${mat.id}">
     <button class="shot" data-shot="${mat.id}" title="Enlarge">
       ${shotFor(mat)}
       <span class="tag">${esc(CATS[mat.cat].split(" ")[0])}</span>
+      ${kind ? `<span class="tag kind">${esc(KINDS[kind])}</span>` : ""}
     </button>
     <div class="body">
       <h2>${esc(mat.name)}</h2>
@@ -187,7 +198,7 @@ grid.addEventListener("click", e => {
   const mat = MATERIALS.find(m => m.id === btn.dataset.shot);
   const c = CREDITS[mat.id];
   const credit = c
-    ? `<span class="credit">${esc(c.caption)} — ${esc(c.artist)}, ${esc(c.license)},
+    ? `<span class="credit">${KINDS[c.kind] ? "Shows " + esc(KINDS[c.kind]) + ". " : ""}${esc(c.caption)} — ${esc(c.artist)}, ${esc(c.license)},
          <a href="${esc(c.page)}" target="_blank" rel="noopener">Wikimedia Commons</a></span>`
     : `<span class="credit">Drawn illustration — no freely licensed photograph of this material was available.</span>`;
   lbInner.innerHTML = `<figure>${shotFor(mat)}

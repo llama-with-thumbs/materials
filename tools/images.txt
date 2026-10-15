@@ -71,3 +71,44 @@ quartzxtal|32768 Hz quartz crystal resonator.jpg|A 32,768 Hz quartz tuning fork,
 yag|Yag-rod.jpg|An Nd:YAG laser rod
 batio3|BaTiO3ceramics.JPG|Barium titanate ceramic — the dielectric inside billions of capacitors
 tbc|Coloured ceramic thermal barrier coating on exhaust component.jpg|A ceramic thermal barrier coating on an exhaust component
+sorbothane|Motor tower level 1 with grommets and sorbothane - Connoisseur BD1 Kit Replinth (6909790478).jpg|Sorbothane grommets isolating a turntable motor|product
+zylon|Poly(p-phenylene-2,6-benzobisoxazole).svg|PBO: rigid rod-like chains, which is where the strength comes from|structure
+lignostone|Lignoston.jpg|Densified beech laminate|photo
+parylene|Parylene repeat units.JPG|The parylene family — N, C and D repeat units|structure
+vectran|Vectran.svg|Vectran's aromatic polyester chain|structure
+metglas|MeltSpinner.png|Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise|process
+maraging|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Competition épée blades are maraging steel — it bends far before it breaks|product
+cordierite|Catalytic Converter Interior.jpg|Inside a catalytic converter: the extruded cordierite honeycomb|product
+torlon|TMAC.png|Trimellitic anhydride chloride, the monomer PAI is built from|structure
+fields|Wood's alloy 2.JPG|Wood's metal, Field's older cadmium-bearing cousin, melting in hot water|related
+bakelite|Bakelite radio.jpg|A Bakelite radio cabinet|product
+phenolic|Textolite.jpg|Phenolic cotton laminate — cloth and resin pressed into a solid|photo
+neoprene|Diving suit neoprene.jpg|Neoprene foam in a diving suit|product
+epdm|EPDM foil.jpg|EPDM membrane|photo
+nbr|Disposable nitrile glove.jpg|Nitrile gloves|product
+br|Golfballinsiderp.jpg|A golf ball core — polybutadiene, chosen purely for rebound|product
+tpu|Chips TPU con eurocent.jpg|TPU pellets, with a coin for scale|photo
+pps|Polyphenylene-sulfide-from-xtal-3D-sf.png|The PPS chain, as resolved by crystallography|structure
+mylar|Myla32rp.jpg|Aluminised BoPET film|photo
+pp|Mint box polypropylene lid.JPG|A living hinge moulded in one piece with the box|product
+memoryfoam|MemoryFoam-slow.jpg|Viscoelastic foam returning slowly after a hand is lifted|photo
+epoxy|Aerospace epoxy resin.jpg|Aerospace epoxy resin|photo
+eva|Eva closeup.jpg|EVA foam|photo
+manila|20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg|Abacá fibre, stripped and dried|photo
+hemprope|Cordage en chanvre.jpg|Hemp cordage|photo
+sisal|Pacas de sisal.jpg|Baled sisal fibre|photo
+coir|Making coir rope in Kerala.JPG|Coir rope being twisted by hand in Kerala|product
+jute|Jute Rope (சணல் கயிறு).jpg|Jute rope|photo
+cottonduck|Close up of cotton duck canvas.JPG|Cotton duck, woven tight enough to shed water|photo
+linen|Linen cloth.jpg|Linen cloth|photo
+silk|Bombyx mori Cocon 02.jpg|Bombyx mori cocoons — one continuous filament each|photo
+spidersilk|Artificial Spider Silk Strand.JPG|A strand of artificial spider silk|photo
+felt|Colored felt cloth.jpg|Wool felt — fabric with no weave at all|photo
+paracord|MIL-C-5040 Type III 550 Paracord.jpg|550 paracord, sheath opened to show the core yarns|photo
+polyesterfab|Drop of water on water-resistant textile (100% polyester).jpg|Water beading on woven polyester|photo
+wirerope|Lhol wire rope.jpg|Steel wire rope, laid left-hand ordinary|photo
+glassfibre|Glass fiber bundle.jpg|A glass fibre bundle|photo
+basalt|Basalt fibre and glass fibre.jpg|Basalt fibre (dark) beside glass fibre|photo
+nomex|TFS Nomex Hood.JPG|A Nomex firefighting hood|product
+ripstop|RipStop.jpg|Ripstop: a grid of heavier yarns that stops a tear spreading|photo
+sailcloth|Bear of Britain spinnaker.jpg|A modern laminate spinnaker under load|product
