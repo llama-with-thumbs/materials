@@ -1534,8 +1534,282 @@ window.MATERIALS = [
   uses: "Thermal barrier layers, rocket nozzles, cutting tools, graded bone implants.",
   link: "https://en.wikipedia.org/wiki/Functionally_graded_material"
 },
+
+/* ---------- 3D PRINTING & ADDITIVE ---------- */
 {
-  id: "lattice", cat: "composite", name: "Printed lattice",
+  id: "fff", cat: "additive", name: "Fused filament fabrication",
+  sub: "FDM, molten thermoplastic extrusion", img: "fff",
+  hook: "A hot glue gun on a gantry, and the reason 3D printing became a consumer object: the patent lapsed in 2009 and the RepRap project turned a 30,000 dollar machine into a 200 dollar one. Every part is anisotropic, because the layers are welded to each other and the weld is the weakest thing in the part.",
+  stats: [["Z strength", "20–70% of XY"], ["Nozzle", "0.4 mm typical"], ["Layer", "0.1–0.3 mm"]],
+  uses: "Prototyping, jigs and fixtures, end-use brackets, the entire desktop printer market.",
+  link: "https://en.wikipedia.org/wiki/Fused_filament_fabrication"
+},
+{
+  id: "sla", cat: "additive", name: "Stereolithography",
+  sub: "laser-cured photopolymer vat", img: "sla",
+  hook: "The first additive process of all, patented by Chuck Hull in 1986. A laser draws each layer into a vat of resin and the whole part ends up as one continuous polymer network, so unlike an extruded part it has no weak direction. It comes out soft and has to be washed and post-cured.",
+  stats: [["First", "1986, the original AM process"], ["Anisotropy", "essentially none"], ["Green part", "needs wash and UV cure"]],
+  uses: "Master patterns, dental models and guides, hearing aid shells, jewellery.",
+  link: "https://en.wikipedia.org/wiki/Stereolithography"
+},
+{
+  id: "mslalcd", cat: "additive", name: "Masked stereolithography",
+  sub: "MSLA, LCD-masked UV array", img: "mslalcd",
+  hook: "Put an LCD panel over a UV array and the whole layer is exposed at once, so print time depends only on how tall the job is — one part or forty on the plate takes exactly as long. It made resin printing cheap, at the price of a panel that is a consumable.",
+  stats: [["Pixel", "18–50 µm"], ["Time", "set by height, not part count"], ["Panel life", "~2000 hours"]],
+  uses: "Miniatures and models, dental, jewellery casting patterns, small functional parts.",
+  link: "https://en.wikipedia.org/wiki/Masked_stereolithography"
+},
+{
+  id: "clip", cat: "additive", name: "CLIP",
+  sub: "continuous liquid interface production", swatch: { pattern: "gloss", colors: ["#3a3f49", "#8b93a0", "#1e2228"] },
+  hook: "An oxygen-permeable window holds a dead zone of uncured resin a few tens of micrometres thick against the glass, so the part never sticks and never has to peel. It is drawn out of the vat continuously instead of layer by layer, which is why it looks like the Terminator scene.",
+  stats: [["Speed", "25–100× laser SLA"], ["Dead zone", "~20–30 µm of liquid"], ["Layers", "no discrete peel step"]],
+  uses: "Adidas midsoles, dental, automotive production parts, lattice-filled padding.",
+  link: "https://en.wikipedia.org/wiki/Continuous_Liquid_Interface_Production"
+},
+{
+  id: "sls", cat: "additive", name: "Selective laser sintering",
+  sub: "polymer powder bed fusion", swatch: { pattern: "powder", colors: ["#d9d7d0", "#f3f2ee", "#a8a69e"] },
+  hook: "The powder that was not sintered holds up the powder that was, so nothing needs supports and parts can be stacked in three dimensions throughout the whole build volume. You get a grainy matt part and an awkward truth: the unused powder ages in the heat and cannot all be reused.",
+  stats: [["Supports", "none needed"], ["Powder refresh", "~30–50% virgin"], ["Finish", "matt, slightly porous"]],
+  uses: "Functional nylon parts, ducting, short-run production, complex assemblies printed in one piece.",
+  link: "https://en.wikipedia.org/wiki/Selective_laser_sintering"
+},
+{
+  id: "mjf", cat: "additive", name: "Multi Jet Fusion",
+  sub: "agent-jetted powder bed", swatch: { pattern: "powder", colors: ["#54585c", "#8d9196", "#303337"] },
+  hook: "Instead of tracing each layer with a laser, an inkjet head prints a fusing agent where the part should be and a detailing agent at its edges, then an infrared lamp sweeps across and the agent decides what melts. The whole layer fuses in one pass, and the edge sharpness comes from chemistry rather than optics.",
+  stats: [["Layer time", "one IR pass"], ["Detail agent", "cools the boundary"], ["Parts", "denser than SLS, grey"]],
+  uses: "Production nylon parts, medical devices, manifolds, short-run injection-moulding replacement.",
+  link: "https://en.wikipedia.org/wiki/3D_printing"
+},
+{
+  id: "lpbf", cat: "additive", name: "Laser powder bed fusion",
+  sub: "SLM and DMLS metal printing", img: "lpbf",
+  hook: "A fibre laser fully melts metal powder under argon, 30 micrometres at a time. The melt pool cools in milliseconds, which gives fine grains and real strength — and locks in enough residual stress that parts curl off the plate if the supports are wrong.",
+  stats: [["Density", "99.5%+"], ["Layer", "20–60 µm"], ["Catch", "residual stress, needs stress relief"]],
+  uses: "Fuel nozzles, turbine parts, conformally cooled tool inserts, orthopaedic implants.",
+  link: "https://en.wikipedia.org/wiki/Selective_laser_melting"
+},
+{
+  id: "ebm", cat: "additive", name: "Electron beam melting",
+  sub: "vacuum powder bed fusion", img: "ebm",
+  hook: "Melting with electrons in a vacuum, with the whole powder bed held near 700 degrees. The part is effectively annealed as it is built, so it comes out almost free of residual stress and needs far fewer supports — the trade is a rough surface and a bed of lightly sintered powder to break out of.",
+  stats: [["Bed temperature", "700–1000 °C"], ["Stress", "very low, self-annealed"], ["Limit", "conductive metals only"]],
+  uses: "Titanium acetabular cups and spinal cages, turbine blades, refractory alloys.",
+  link: "https://en.wikipedia.org/wiki/Electron-beam_additive_manufacturing"
+},
+{
+  id: "binderjet", cat: "additive", name: "Binder jetting",
+  sub: "inkjet glue into powder, then sinter", img: "binderjet",
+  hook: "Nothing is melted during printing: an inkjet head glues powder together and the real work happens later in a furnace. The part shrinks about a fifth as it sinters, so the file has to be printed oversized and the shrinkage predicted — geometry becomes a simulation problem.",
+  stats: [["Sinter shrinkage", "~15–20%"], ["Printing", "no heat, no stress"], ["Speed", "fastest metal AM per part"]],
+  uses: "Metal production parts, sand moulds, full-colour gypsum models, ceramic cores.",
+  link: "https://en.wikipedia.org/wiki/Binder_jetting"
+},
+{
+  id: "polyjet", cat: "additive", name: "Material jetting",
+  sub: "PolyJet photopolymer droplets", swatch: { pattern: "laminate", colors: ["#5f6f8a", "#dfe4ea", "#2c3647"] },
+  hook: "An inkjet head sprays photopolymer and a UV lamp cures it in the same pass, which means several resins can be laid down side by side in a single layer. Mix a rigid and a rubbery one per voxel and you get digital materials: one printed part that is stiff here, soft there and transparent in between.",
+  stats: [["Layer", "14–30 µm"], ["Materials", "multiple per voxel"], ["Supports", "gel, washed away"]],
+  uses: "Full-colour anatomical models, overmoulded prototypes, soft-touch grips, medical training parts.",
+  link: "https://en.wikipedia.org/wiki/Material_jetting"
+},
+{
+  id: "waam", cat: "additive", name: "Wire arc additive manufacturing",
+  sub: "robotic welding as deposition", img: "waam",
+  hook: "A welding robot laying metal down by the kilogram per hour rather than the gram. The resolution is terrible and everything needs machining afterwards, but it is the only process whose build volume is the reach of the arm — which is how you print a ship's propeller or a rocket tank.",
+  stats: [["Rate", "1–10 kg/h"], ["Build volume", "the robot's reach"], ["Finish", "rough, machine after"]],
+  uses: "Rocket tanks, ship propellers, large brackets, repair and feature addition on big castings.",
+  link: "https://en.wikipedia.org/wiki/Wire_arc_additive_manufacturing"
+},
+{
+  id: "coldspray", cat: "additive", name: "Cold spray",
+  sub: "supersonic solid-state deposition", img: "coldspray",
+  hook: "Powder fired through a nozzle at up to a kilometre a second bonds by slamming flat on impact — the metal never melts. No heat means no oxidation and no heat-affected zone, so it will build on a finished part, and it handles copper and aluminium that reflect a laser straight back at it.",
+  stats: [["Particle speed", "500–1200 m/s"], ["Temperature", "below melting throughout"], ["Oxidation", "essentially none"]],
+  uses: "Repairing worn or corroded castings, adding features to finished parts, coating, field repair of aircraft.",
+  link: "https://en.wikipedia.org/wiki/Cold_spraying"
+},
+{
+  id: "twophoton", cat: "additive", name: "Two-photon polymerisation",
+  sub: "nonlinear direct laser writing", swatch: { pattern: "speckle", colors: ["#5b6470", "#aab3c0", "#333a44"] },
+  hook: "Curing only happens where two infrared photons arrive at the same instant, which is only at the focus of the beam. That nonlinearity beats the diffraction limit: features come out around a hundred nanometres, smaller than the light used to make them, anywhere inside the resin volume.",
+  stats: [["Feature size", "~100–200 nm"], ["Mechanism", "two-photon absorption"], ["Speed", "slow, microscopic parts"]],
+  uses: "Microlenses printed on fibre tips, microfluidic parts, mechanical metamaterials, micro-robots.",
+  link: "https://en.wikipedia.org/wiki/Two-photon_lithography"
+},
+{
+  id: "volumetric", cat: "additive", name: "Volumetric printing",
+  sub: "computed axial lithography", swatch: { pattern: "gloss", colors: ["#b9a7d8", "#e8def7", "#7c6aa0"] },
+  hook: "A rotating vial of resin is lit with a computed sequence of projected images, so the accumulated dose reaches the curing threshold everywhere the object should be — all at once. The part simply appears in the liquid in seconds, with no layers, no supports and a smooth surface.",
+  stats: [["Build time", "seconds to a minute"], ["Layers", "none at all"], ["Supports", "unnecessary"]],
+  uses: "Soft and embedded objects, printing around existing inserts, optics, research-stage bioprinting.",
+  link: "https://en.wikipedia.org/wiki/Computed_axial_lithography"
+},
+{
+  id: "bioprint", cat: "additive", name: "Bioprinting",
+  sub: "cell-laden deposition", img: "bioprint",
+  hook: "Printing living cells is the easy half. Nothing thicker than about a fifth of a millimetre survives without a blood supply, so the real problem is printing the plumbing — which is why the field prints thin tissue, organ-on-chip models and support-bath structures rather than organs.",
+  stats: [["Diffusion limit", "~200 um without vessels"], ["Cell survival", "the figure of merit"], ["Support bath", "FRESH printing in gel"]],
+  uses: "Tissue models for drug testing, skin and cartilage grafts, organ-on-a-chip, surgical research.",
+  link: "https://en.wikipedia.org/wiki/3D_bioprinting"
+},
+{
+  id: "concreteprint", cat: "additive", name: "Construction printing",
+  sub: "extruded mortar, no formwork", img: "concreteprint",
+  hook: "The mix has to contradict itself: fluid enough to pump through a hose, then stiff enough within minutes to carry the layers stacked on it before it has cured. Once formwork is gone a curved wall costs no more than a straight one. Putting the steel back in is the part nobody has solved.",
+  stats: [["Open time", "minutes, tuned by accelerator"], ["Layer", "10–50 mm beads"], ["Open problem", "reinforcement"]],
+  uses: "House shells and walls, bridges, street furniture, formwork for conventional concrete.",
+  link: "https://en.wikipedia.org/wiki/Construction_3D_printing"
+},
+{
+  id: "sandprint", cat: "additive", name: "Printed sand moulds",
+  sub: "furan-bonded sand binder jetting", swatch: { pattern: "grain", colors: ["#c2a87e", "#e3d2b2", "#8e7750"] },
+  hook: "Print the mould, not the part. The casting process stays exactly as it was for three thousand years, but the pattern and the core box disappear — and with them the rule that a core has to be withdrawn, so cooling passages can loop through a cylinder head any way they like.",
+  stats: [["Printed", "the mould and cores"], ["Tooling", "none"], ["Lead time", "days instead of months"]],
+  uses: "Engine blocks and heads, pump and valve bodies, art casting, foundry prototyping.",
+  link: "https://en.wikipedia.org/wiki/Sand_casting"
+},
+{
+  id: "contfibre", cat: "additive", name: "Continuous fibre printing",
+  sub: "tow laid inside a printed shell", swatch: { pattern: "ribbon", colors: ["#262a2e", "#6c737b", "#121416"] },
+  hook: "Chopped fibre in a filament stiffens it a little; a continuous tow laid along the load path changes what the part is. A second nozzle feeds unbroken carbon or glass fibre inside the plastic shell as it prints, so reinforcement follows the stress rather than the raster.",
+  stats: [["Fibre", "continuous, placed by path"], ["Stiffness", "several times unfilled"], ["Cost", "far below a layup"]],
+  uses: "Tooling and fixtures, drone and robot structures, replacement brackets, low-volume load-bearing parts.",
+  link: "https://en.wikipedia.org/wiki/Fibre-reinforced_plastic"
+},
+{
+  id: "boundmetal", cat: "additive", name: "Sinter-based metal printing",
+  sub: "bound metal filament and paste", swatch: { pattern: "brushed", colors: ["#8e949b", "#cdd3d9", "#5c6168"] },
+  hook: "Metal powder held in wax and polymer, printed on what is essentially a plastic printer, then debound in solvent and sintered. It puts metal parts in a workshop with no laser, no argon and no powder hazard — and the part shrinks by a fifth in the furnace, so it must be printed distorted to come out straight.",
+  stats: [["Shrinkage", "~20% on sintering"], ["Hazards", "no loose powder, no laser"], ["Density", "96–99% after sinter"]],
+  uses: "Tooling, fixtures and jaws, spare parts, low-volume stainless and tool steel components.",
+  link: "https://en.wikipedia.org/wiki/Metal_injection_molding"
+},
+{
+  id: "lcmceramic", cat: "additive", name: "Ceramic vat printing",
+  sub: "lithography-based ceramic manufacturing", img: "lcmceramic",
+  hook: "Ceramic powder suspended in photopolymer and cured like a resin print, then fired until the binder is gone and the grains fuse. It is the only route that gets printed alumina and zirconia to near full density, so the parts behave like real ceramics rather than like something printed.",
+  stats: [["Density after firing", ">99%"], ["Shrinkage", "~20–25%"], ["Materials", "alumina, zirconia, silicon nitride"]],
+  uses: "Dental crowns, surgical tools, high-temperature cores, microreactors, casting cores.",
+  link: "https://en.wikipedia.org/wiki/Ceramic_engineering"
+},
+{
+  id: "petg", cat: "additive", name: "PETG filament",
+  sub: "glycol-modified PET", img: "petg",
+  hook: "The glycol blocks crystallisation, so this version of PET stays clear and prints without the warping that makes ABS miserable, while surviving heat and knocks that flatten PLA. It is the sensible default, and it strings like candy floss and bonds to the bed hard enough to take glass with it.",
+  stats: [["Glass transition", "~80 °C"], ["Warping", "minimal"], ["Vice", "stringing and bed adhesion"]],
+  uses: "Functional prints, enclosures, food-contact parts, machine guards and shields.",
+  link: "https://en.wikipedia.org/wiki/Polyethylene_terephthalate"
+},
+{
+  id: "asa", cat: "additive", name: "ASA filament",
+  sub: "acrylonitrile styrene acrylate", img: "asa",
+  hook: "ABS with the butadiene rubber swapped for an acrylate one, which removes the double bond that ultraviolet attacks. Outdoors an ABS part yellows and goes brittle in a season; this one does not. Everything else about it is still ABS, including the warping and the smell.",
+  stats: [["UV", "stable outdoors for years"], ["Printing", "enclosure, 240–260 °C"], ["Warping", "high, same as ABS"]],
+  uses: "Outdoor fixtures, automotive exterior parts, antenna and sensor housings, garden hardware.",
+  link: "https://en.wikipedia.org/wiki/Acrylonitrile_styrene_acrylate"
+},
+{
+  id: "nyloncf", cat: "additive", name: "Carbon-filled filament",
+  sub: "chopped fibre in nylon or PET", swatch: { pattern: "speckle", colors: ["#2e3134", "#6e7478", "#17191b"] },
+  hook: "Ten or twenty per cent of chopped carbon fibre makes the plastic stiffer, but the useful part is that the filled melt barely shrinks, so a nylon that used to curl off the bed now prints flat. The fibre is abrasive enough that a brass nozzle is gone in a few hours.",
+  stats: [["Fibre loading", "10–20% chopped"], ["Stiffness", "2–4× unfilled"], ["Nozzle", "hardened steel or ruby"]],
+  uses: "Jigs and fixtures, drone frames, robot arms, tooling that has to hold its shape.",
+  link: "https://en.wikipedia.org/wiki/3D_printing_filament"
+},
+{
+  id: "soluble", cat: "additive", name: "Soluble support",
+  sub: "PVA, BVOH and HIPS", img: "soluble",
+  hook: "Print the support out of something you can wash away, and overhangs stop dictating the design. A sealed cavity, a captive bearing or a gear train printed already assembled are all possible because the scaffolding leaves through a chemical door rather than a mechanical one.",
+  stats: [["PVA", "dissolves in water"], ["HIPS", "dissolves in limonene"], ["Cost", "needs a second extruder"]],
+  uses: "Enclosed voids, printed-in-place mechanisms, fine overhangs, clean surfaces where supports touched.",
+  link: "https://en.wikipedia.org/wiki/Polyvinyl_alcohol"
+},
+{
+  id: "slaresin", cat: "additive", name: "Photopolymer resin",
+  sub: "acrylate and epoxy oligomers", swatch: { pattern: "gloss", colors: ["#c9a24a", "#f0dca2", "#8d6c23"] },
+  hook: "Oligomers, a reactive diluent and a photoinitiator that fires on UV and starts a chain across the whole vat layer. The part that comes out is only partly cured and keeps changing for days, and the uncured monomer is a skin sensitiser — the gloves are not optional.",
+  stats: [["Cure", "UV, 385 or 405 nm"], ["Green part", "drifts until post-cured"], ["Handling", "sensitiser, use gloves"]],
+  uses: "Every vat process: SLA, MSLA, DLP and CLIP; dental, jewellery, models and engineering resins.",
+  link: "https://en.wikipedia.org/wiki/Photopolymer"
+},
+{
+  id: "castablewax", cat: "additive", name: "Castable resin",
+  sub: "wax-loaded burnout photopolymer", img: "castablewax",
+  hook: "Formulated for how cleanly it disappears rather than how it performs: it has to burn out of an investment mould leaving almost no ash, or the casting is ruined. One material took jewellery and dentistry from hand-carved wax to a file in an afternoon.",
+  stats: [["Ash residue", "under ~0.05%"], ["Burnout", "slow ramp to ~730 °C"], ["Replaces", "hand-carved wax patterns"]],
+  uses: "Jewellery casting, dental crowns and frameworks, small investment castings, art.",
+  link: "https://en.wikipedia.org/wiki/Investment_casting"
+},
+{
+  id: "pa12powder", cat: "additive", name: "PA12 powder",
+  sub: "nylon 12 for powder bed fusion", img: "pa12powder",
+  hook: "The workhorse of powder printing, chosen for a thermal quirk: the gap between where it melts and where it recrystallises is wide, so a fused layer stays liquid long enough for the next one to join it properly. Powder that has sat hot in the bed ages, so every build blends used with virgin.",
+  stats: [["Particle size", "~45–60 µm"], ["Refresh", "30–50% virgin per build"], ["Parts", "tough, slightly porous"]],
+  uses: "SLS and MJF production parts, ducts, housings, orthotics, living hinges.",
+  link: "https://en.wikipedia.org/wiki/Nylon_12"
+},
+{
+  id: "metalpowder", cat: "additive", name: "Gas-atomised powder",
+  sub: "spherical metal feedstock", img: "metalpowder",
+  hook: "Molten metal blown apart by an inert gas jet freezes into spheres before it can land. Roundness is the whole specification: only spheres flow and pack evenly under a recoater blade, and a satellite — a small sphere welded to a big one — is enough to streak a layer and seed a pore.",
+  stats: [["Size cut", "15–45 µm for laser beds"], ["Shape", "spherical, satellite-free"], ["Oxygen", "tracked, ppm level"]],
+  uses: "Feedstock for every powder bed and blown powder process; also MIM and thermal spray.",
+  link: "https://en.wikipedia.org/wiki/Powder_metallurgy"
+},
+{
+  id: "alsi10mg", cat: "additive", name: "AlSi10Mg",
+  sub: "printable aluminium casting alloy", swatch: { pattern: "powder", colors: ["#a7adb3", "#dde2e6", "#767c82"] },
+  hook: "A casting alloy that turned out to suit lasers: the silicon content sits near the eutectic, so the freezing range is narrow and the melt pool solidifies without tearing itself apart. The cooling rate is so steep that the printed structure is finer, and stronger, than the same alloy cast.",
+  stats: [["Tensile", "~450 MPa as built"], ["Why it works", "near-eutectic, no hot tearing"], ["Versus cast", "finer grain, stronger"]],
+  uses: "Heat exchangers and cold plates, automotive and motorsport brackets, drone and robot structures.",
+  link: "https://en.wikipedia.org/wiki/Aluminium%E2%80%93silicon_alloys"
+},
+{
+  id: "scalmalloy", cat: "additive", name: "Scalmalloy",
+  sub: "Al-Mg-Sc, designed for printing", swatch: { pattern: "brushed", colors: ["#9fa7af", "#d8dee3", "#6d757d"] },
+  hook: "Most printable metals are old alloys that happen to tolerate a laser. This one was designed backwards from the process: scandium precipitates as Al₃Sc particles during the extremely fast solidification and pins the grains, so a high-strength aluminium prints without the hot cracking that rules out 7075.",
+  stats: [["Tensile", "~520 MPa after ageing"], ["Key", "Al₃Sc pins grains while freezing"], ["Cost", "scandium is the price"]],
+  uses: "Aerospace brackets, satellite structures, motorsport, topology-optimised load parts.",
+  link: "https://en.wikipedia.org/wiki/Aluminium%E2%80%93scandium_alloys"
+},
+{
+  id: "grcop", cat: "additive", name: "GRCop-42",
+  sub: "Cu-Cr-Nb rocket chamber alloy", img: "grcop",
+  hook: "Copper conducts heat better than almost anything and softens if you look at it hot. NASA's answer disperses Cr₂Nb particles through it, which hold the grains in place at 800 degrees while the copper keeps conducting — and the chamber is printed because its cooling channels cannot be drilled.",
+  stats: [["Conductivity", "~80% of pure copper"], ["Hot strength", "holds to ~800 °C"], ["Made by", "laser powder bed fusion"]],
+  uses: "Regeneratively cooled rocket combustion chambers and nozzle liners.",
+  link: "https://en.wikipedia.org/wiki/Regenerative_cooling_(rocketry)"
+},
+{
+  id: "bioink", cat: "additive", name: "Bioink",
+  sub: "cell-laden hydrogel", img: "bioink",
+  hook: "Three demands that pull against each other: runny enough to pass a nozzle, stiff enough to hold the shape once it lands, and gentle enough that the cells inside survive the shear on the way through. Every formulation is a compromise between printability and keeping things alive.",
+  stats: [["Base", "GelMA, alginate, collagen"], ["Cell viability", "the headline number"], ["Gelling", "temperature, ions or UV"]],
+  uses: "Tissue and tumour models, skin and cartilage constructs, organ-on-a-chip, drug screening.",
+  link: "https://en.wikipedia.org/wiki/Bio-ink"
+},
+{
+  id: "fourd", cat: "additive", name: "4D printing",
+  sub: "printed parts that change shape", img: "fourd",
+  hook: "Print the mechanism into the material instead of assembling one. A bilayer that swells unevenly, a fibre laid in one direction, a shape-memory polymer with a folded state remembered — all fold, curl or open on their own when wetted or heated. The toolpath is the program.",
+  stats: [["Trigger", "water, heat, light or field"], ["Mechanism", "anisotropy or shape memory"], ["Parts", "flat-pack, deploy later"]],
+  uses: "Self-folding structures, deployable space hardware, adaptive textiles, soft actuators, stents.",
+  link: "https://en.wikipedia.org/wiki/4D_printing"
+},
+{
+  id: "printsilicone", cat: "additive", name: "Printable silicone",
+  sub: "thixotropic LSR paste", swatch: { pattern: "gloss", colors: ["#d98f9c", "#f6ccd4", "#a05f6c"] },
+  hook: "Silicone will not hold a shape on its own, so it is either made thixotropic — stiff until the nozzle shears it, stiff again the instant it lands — or printed into a gel that holds it while it cures. Either way, soft parts stop needing a mould, which is what soft robotics was waiting for.",
+  stats: [["Shore", "00–30 to A-60"], ["Rheology", "shear-thinning, recovers fast"], ["Cure", "platinum or UV"]],
+  uses: "Soft robot actuators, custom seals and gaskets, prosthetic liners, wearables, anatomical models.",
+  link: "https://en.wikipedia.org/wiki/Silicone"
+},
+{
+  id: "lattice", cat: "additive", name: "Printed lattice",
   sub: "gyroid and octet truss structures", swatch: { pattern: "honeycomb", colors: ["#8a8f95", "#c3c8cd", "#5a5f65"] },
   hook: "Additive manufacturing made it possible to build the inside of a part, not just its outside. A gyroid or octet lattice puts material only where stress goes, so a bracket can lose two thirds of its mass and keep its stiffness — and the whole thing prints in one piece.",
   stats: [["Mass saving", "50–80%"], ["Cell size", "1–10 mm"], ["Stiffness scaling", "octet: linear with density"]],

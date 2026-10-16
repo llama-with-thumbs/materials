@@ -311,3 +311,23 @@ leno|3611 Bandage rolling.jpg|Gauze bandage being rolled|product
 fleece|Polar fleece (2) (Rico Cilliers and colormass via Poly Haven).png|Polar fleece — napped and shorn level|photo
 nonwoven|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
 weldedseam|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
+binderjet|ProMetal RTS-300.jpg|A binder jetting machine|photo
+waam|Панфилов Александр - Wire Arc Additive Manufacturing (ИФПМ СО РАН).jpg|Wire arc deposition in progress|photo
+bioprint|Making 3-D Bioprinted Tissue.jpg|A bioprinter laying down cell-laden gel|photo
+metalpowder|SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg|Electron micrograph of gas-atomised steel powder|photo
+fff|3D printing in progress.jpg|A filament printer part-way through a part|photo
+lpbf|Project 1 Selective Laser Melting.jpg|Laser powder bed fusion|photo
+coldspray|CSAM 7755 16.jpg|Cold spray additive deposition|photo
+fourd|Multishape active composites by 3d printing of digial smps.jpg|Printed shape-memory composites, folded and recovered|photo
+petg|Universal stand-alone filament spool holder (Fully 3D-printable) v04.jpg|Filament on the spool|photo
+sla|Stereolithography cycloidal drive.JPG|A cycloidal drive printed by stereolithography|product
+lcmceramic|Zirconia bridge.jpg|A zirconia dental bridge — the kind of part ceramic vat printing makes|product
+asa|ABS filament spool.jpg|An ABS spool; ASA is the same resin with a UV-stable rubber in it|related
+concreteprint|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a house printed in earth|product
+bioink|Клеточная сеть образованная стволовыми клетками в трехмерном пространстве внутри гидрогелевого скаффолда.png|Stem cells spreading through a hydrogel scaffold|photo
+grcop|This copper nozzle at J-1 was shaped similarly to nozzles on nuclear engine GRC-1971-C-01014.jpg|A machined copper rocket nozzle — printed GRCop chambers do this job|related
+mslalcd|Halot-X1.jpg|An LCD resin printer|photo
+ebm|Xilloc Patient Specific Implant Titanium.png|A patient-specific titanium implant|product
+castablewax|Hand-carved wax model.jpg|A hand-carved wax model — castable resin replaced this step|related
+soluble|Support structure in 3D printing.jpg|Support structure on a printed part; soluble versions wash off|related
+pa12powder|Sunderland, National Glass Centre, Exhibit 1, '3D printed nylon' - geograph.org.uk - 7576037.jpg|A printed nylon object|product

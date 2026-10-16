@@ -6,6 +6,7 @@ const CATS = {
   ceramic: "Ceramics & glass",
   electronic: "Semiconductors & optics",
   composite: "Composites & structures",
+  additive: "3D printing & additive",
   fibre: "Ropes & woven materials",
   fabric: "Fabrics & constructions",
   natural: "Natural & biological",

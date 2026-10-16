@@ -2816,5 +2816,185 @@ window.CREDITS = {
     "artist": "dive90m",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Viking_pro_1000_drysuit_with_magnum_hood.jpg"
+  },
+  "binderjet": {
+    "file": "binderjet.jpg",
+    "caption": "A binder jetting machine",
+    "kind": "photo",
+    "title": "ProMetal RTS-300.jpg",
+    "artist": "Bon pl",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ProMetal_RTS-300.jpg"
+  },
+  "waam": {
+    "file": "waam.jpg",
+    "caption": "Wire arc deposition in progress",
+    "kind": "photo",
+    "title": "Панфилов Александр - Wire Arc Additive Manufacturing (ИФПМ СО РАН).jpg",
+    "artist": "Панфилов Александр",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BD%D1%84%D0%B8%D0%BB%D0%BE%D0%B2_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_-_Wire_Arc_Additive_Manufacturing_(%D0%98%D0%A4%D0%9F%D0%9C_%D0%A1%D0%9E_%D0%A0%D0%90%D0%9D).jpg"
+  },
+  "bioprint": {
+    "file": "bioprint.jpg",
+    "caption": "A bioprinter laying down cell-laden gel",
+    "kind": "photo",
+    "title": "Making 3-D Bioprinted Tissue.jpg",
+    "artist": "National Center for Advancing Translational Sciences",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Making_3-D_Bioprinted_Tissue.jpg"
+  },
+  "metalpowder": {
+    "file": "metalpowder.jpg",
+    "caption": "Electron micrograph of gas-atomised steel powder",
+    "kind": "photo",
+    "title": "SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg",
+    "artist": "Michaltoczko",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SEM_photo_of_316L_Stainless_Steel_metal_powder_atomized_with_ATO_Lab_Plus_ultrasonic_metal_atomizer.jpg"
+  },
+  "fff": {
+    "file": "fff.jpg",
+    "caption": "A filament printer part-way through a part",
+    "kind": "photo",
+    "title": "3D printing in progress.jpg",
+    "artist": "MakerTobey",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:3D_printing_in_progress.jpg"
+  },
+  "lpbf": {
+    "file": "lpbf.jpg",
+    "caption": "Laser powder bed fusion",
+    "kind": "photo",
+    "title": "Project 1 Selective Laser Melting.jpg",
+    "artist": "Sangeeth.G.KR",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Project_1_Selective_Laser_Melting.jpg"
+  },
+  "coldspray": {
+    "file": "coldspray.jpg",
+    "caption": "Cold spray additive deposition",
+    "kind": "photo",
+    "title": "CSAM 7755 16.jpg",
+    "artist": "Lilia Chomoyan",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CSAM_7755_16.jpg"
+  },
+  "fourd": {
+    "file": "fourd.jpg",
+    "caption": "Printed shape-memory composites, folded and recovered",
+    "kind": "photo",
+    "title": "Multishape active composites by 3d printing of digial smps.jpg",
+    "artist": "Jiangtao Wu, Chao Yuan, Zhen Ding, Michael Isakov, Yiqi Mao, Tiejun Wang, Martin L. Dunn & H. Jerry Qi",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Multishape_active_composites_by_3d_printing_of_digial_smps.jpg"
+  },
+  "petg": {
+    "file": "petg.jpg",
+    "caption": "Filament on the spool",
+    "kind": "photo",
+    "title": "Universal stand-alone filament spool holder (Fully 3D-printable) v04.jpg",
+    "artist": "Creative Tools",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Universal_stand-alone_filament_spool_holder_(Fully_3D-printable)_v04.jpg"
+  },
+  "sla": {
+    "file": "sla.jpg",
+    "caption": "A cycloidal drive printed by stereolithography",
+    "kind": "product",
+    "title": "Stereolithography cycloidal drive.JPG",
+    "artist": "Clemenspool",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stereolithography_cycloidal_drive.JPG"
+  },
+  "lcmceramic": {
+    "file": "lcmceramic.jpg",
+    "caption": "A zirconia dental bridge — the kind of part ceramic vat printing makes",
+    "kind": "product",
+    "title": "Zirconia bridge.jpg",
+    "artist": "AmirAttallah",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zirconia_bridge.jpg"
+  },
+  "asa": {
+    "file": "asa.jpg",
+    "caption": "An ABS spool; ASA is the same resin with a UV-stable rubber in it",
+    "kind": "related",
+    "title": "ABS filament spool.jpg",
+    "artist": "Tatár Lehel",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ABS_filament_spool.jpg"
+  },
+  "concreteprint": {
+    "file": "concreteprint.jpg",
+    "caption": "Tecla, a house printed in earth",
+    "kind": "product",
+    "title": "Eco-sustainable 3D printed house \"Tecla\".jpg",
+    "artist": "Video Autor: Alfredo Milano\nDrone views: Italdron\n\n\nProject by:\nWASP: Engineering and 3D printing construction \nMario Cucinella Architects: Architectural design and project management\nIn collaboration with:\nSOS - School of Sustainability: Research partner\nMapei: Materials consultancy and supply\nMilan Ingegneria: Structural consultancy\nCapoferri: Frames engineering and production\nRiceHouse: Bio-materials consultancy and supply\nFrassinago: Landscaping\nLucifero’s: Lighting design\nAriatta: Energy and internal comfort consultancy\nImola Legno: Timber solutions consultancy and supply\nPrimat • Terracruda®: Earthen floor supply\nCefla: Electrical solutions supply\nUnder the patronage of: \nMunicipality of Massa Lombarda \nSponsored by:\n\nTer Costruzioni",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Eco-sustainable_3D_printed_house_%22Tecla%22.jpg"
+  },
+  "bioink": {
+    "file": "bioink.png",
+    "caption": "Stem cells spreading through a hydrogel scaffold",
+    "kind": "photo",
+    "title": "Клеточная сеть образованная стволовыми клетками в трехмерном пространстве внутри гидрогелевого скаффолда.png",
+    "artist": "Marfaegorihina",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BB%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C_%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2%D1%8B%D0%BC%D0%B8_%D0%BA%D0%BB%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8_%D0%B2_%D1%82%D1%80%D0%B5%D1%85%D0%BC%D0%B5%D1%80%D0%BD%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%B5_%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8_%D0%B3%D0%B8%D0%B4%D1%80%D0%BE%D0%B3%D0%B5%D0%BB%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE_%D1%81%D0%BA%D0%B0%D1%84%D1%84%D0%BE%D0%BB%D0%B4%D0%B0.png"
+  },
+  "grcop": {
+    "file": "grcop.jpg",
+    "caption": "A machined copper rocket nozzle — printed GRCop chambers do this job",
+    "kind": "related",
+    "title": "This copper nozzle at J-1 was shaped similarly to nozzles on nuclear engine GRC-1971-C-01014.jpg",
+    "artist": "NASA",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:This_copper_nozzle_at_J-1_was_shaped_similarly_to_nozzles_on_nuclear_engine_GRC-1971-C-01014.jpg"
+  },
+  "mslalcd": {
+    "file": "mslalcd.jpg",
+    "caption": "An LCD resin printer",
+    "kind": "photo",
+    "title": "Halot-X1.jpg",
+    "artist": "Piocreat",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Halot-X1.jpg"
+  },
+  "ebm": {
+    "file": "ebm.png",
+    "caption": "A patient-specific titanium implant",
+    "kind": "product",
+    "title": "Xilloc Patient Specific Implant Titanium.png",
+    "artist": "Maikel Beerens, Xilloc",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Xilloc_Patient_Specific_Implant_Titanium.png"
+  },
+  "castablewax": {
+    "file": "castablewax.jpg",
+    "caption": "A hand-carved wax model — castable resin replaced this step",
+    "kind": "related",
+    "title": "Hand-carved wax model.jpg",
+    "artist": "Mauro Cateb",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hand-carved_wax_model.jpg"
+  },
+  "soluble": {
+    "file": "soluble.jpg",
+    "caption": "Support structure on a printed part; soluble versions wash off",
+    "kind": "related",
+    "title": "Support structure in 3D printing.jpg",
+    "artist": "M6oh7z",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Support_structure_in_3D_printing.jpg"
+  },
+  "pa12powder": {
+    "file": "pa12powder.jpg",
+    "caption": "A printed nylon object",
+    "kind": "product",
+    "title": "Sunderland, National Glass Centre, Exhibit 1, '3D printed nylon' - geograph.org.uk - 7576037.jpg",
+    "artist": "Michael Garlick",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunderland,_National_Glass_Centre,_Exhibit_1,_%273D_printed_nylon%27_-_geograph.org.uk_-_7576037.jpg"
   }
 };
