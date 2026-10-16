@@ -1888,6 +1888,384 @@ window.MATERIALS = [
   uses: "Baroque and classical instrument strings, racquets historically, absorbable sutures.",
   link: "https://en.wikipedia.org/wiki/Catgut"
 },
+{
+  id: "technora", cat: "fibre", name: "Technora",
+  sub: "para-aramid copolymer", swatch: { pattern: "fiber", colors: ["#c9a63f", "#f0d98a", "#8e7122"] },
+  hook: "An aramid built to survive the things that eat aramids. Swapping part of the backbone for an ether link makes it shrug off the steam, acid and seawater that hydrolyse Kevlar, while keeping most of the strength.",
+  stats: [["Tensile", "~3.4 GPa"], ["Modulus", "~70 GPa"], ["Hot water", "far better than standard aramid"]],
+  uses: "Brake and hydraulic hose reinforcement, timing belt cord, optical cable strength members, racing yacht lines.",
+  link: "https://en.wikipedia.org/wiki/Technora"
+},
+{
+  id: "m5fibre", cat: "fibre", name: "M5 (PIPD)",
+  sub: "poly(pyridobisimidazole)", swatch: { pattern: "fiber", colors: ["#d8cf9e", "#f4efcf", "#a39a6a"] },
+  hook: "The one rigid-rod fibre designed to hold hydrogen bonds sideways between its chains, so it resists being squashed instead of only being pulled. On paper it beat everything. It never left the pilot plant.",
+  stats: [["Predicted modulus", "300–450 GPa"], ["Compression", "best of the rigid rods"], ["Status", "never commercialised"]],
+  uses: "Armour and cable prototypes only; the benchmark everyone cites and nobody can buy.",
+  link: "https://en.wikipedia.org/wiki/M5_fiber"
+},
+{
+  id: "basofil", cat: "fibre", name: "Melamine fibre",
+  sub: "melamine-formaldehyde, Basofil", swatch: { pattern: "fiber", colors: ["#e2ddd2", "#f8f6f1", "#b4ae9f"] },
+  hook: "A thermoset spun as a fibre, which means it has no melting point to reach. It chars, holds its shape and keeps heat off the skin for a fraction of the price of aramid. It is simply too weak to be the strength of the garment.",
+  stats: [["Limiting oxygen index", "~32%"], ["Continuous use", "190–200 °C"], ["Tenacity", "low, always blended"]],
+  uses: "Firefighter hoods and liners, aircraft seat fire blocking, hot gas filter felts, mattress barriers.",
+  link: "https://en.wikipedia.org/wiki/Melamine_fiber"
+},
+{
+  id: "preoxpan", cat: "fibre", name: "Oxidised PAN",
+  sub: "stabilised polyacrylonitrile, Panox", swatch: { pattern: "fiber", colors: ["#2a2b2d", "#5e6063", "#131415"] },
+  hook: "Carbon fibre stopped halfway. Heat acrylic fibre in air and it cyclises into a black, soft, infusible ladder polymer at about 62% carbon. Carry on and you get carbon fibre; stop here and you get something that stays textile and will not burn.",
+  stats: [["Carbon", "~62%"], ["Limiting oxygen index", "~45%"], ["Shrinkage in flame", "almost none"]],
+  uses: "Fire blankets, flame barriers under aircraft and vehicle seats, firefighter underlayers, friction material preforms.",
+  link: "https://en.wikipedia.org/wiki/Polyacrylonitrile"
+},
+{
+  id: "silicafibre", cat: "fibre", name: "High-silica fibre",
+  sub: "acid-leached glass fibre, 96–99% SiO₂", swatch: { pattern: "weave", colors: ["#dcdfe2", "#f6f8f9", "#aeb3b8"] },
+  hook: "Ordinary glass cloth soaked in acid until everything except the silica has been washed out of it. What is left behaves like quartz but drapes like a textile: it takes a welding spark or a rocket exhaust and stays a cloth.",
+  stats: [["Silica", "96–99%"], ["Continuous use", "~1000 °C"], ["Short excursions", "~1600 °C"]],
+  uses: "Welding blankets and curtains, furnace gaskets, ablative liners, exhaust wrap.",
+  link: "https://en.wikipedia.org/wiki/Glass_fiber"
+},
+{
+  id: "ptfethread", cat: "fibre", name: "PTFE thread",
+  sub: "expanded PTFE sewing thread, Tenara", swatch: { pattern: "fiber", colors: ["#eef1f3", "#ffffff", "#c2c7cb"] },
+  hook: "Awnings used to fail at the stitching, not the cloth, because polyester thread sitting proud of the surface takes the full UV dose. This thread is chemically indifferent to sunlight, chlorine and salt, so the seam now outlives the fabric it holds together.",
+  stats: [["UV life", "effectively unlimited"], ["Strength", "below polyester"], ["Handling", "slippery, needs tension tuning"]],
+  uses: "Marine canvas, awnings, tensile structures, pool covers, outdoor furniture.",
+  link: "https://en.wikipedia.org/wiki/Polytetrafluoroethylene"
+},
+{
+  id: "kuralon", cat: "fibre", name: "PVA fibre",
+  sub: "polyvinyl alcohol, Kuralon", swatch: { pattern: "fiber", colors: ["#e6e9ec", "#fbfcfd", "#b7bcc1"] },
+  hook: "The fibre you can dissolve on purpose. Grades are made to vanish in water at a chosen temperature, so you knit with a sacrificial yarn and wash it out afterwards to leave openwork no loom could make. Other grades are the asbestos replacement in cement board.",
+  stats: [["Dissolving grades", "tuned 20–90 °C"], ["Tenacity", "up to ~1.6 GPa"], ["Alkali", "stable in cement"]],
+  uses: "Sacrificial yarn in knitting and embroidery, fibre cement sheet, concrete reinforcement, water-soluble packaging.",
+  link: "https://en.wikipedia.org/wiki/Polyvinyl_alcohol"
+},
+{
+  id: "cashmere", cat: "fibre", name: "Cashmere",
+  sub: "goat undercoat down", img: "cashmere",
+  hook: "Not the goat's outer hair but the down beneath it, grown for a Mongolian winter and combed out in spring. At 14–19 µm it bends under its own weight, which is why it feels like nothing, and why one goat yields a scarf rather than a coat.",
+  stats: [["Diameter", "14–19 µm"], ["Yield", "100–200 g per goat per year"], ["Warmth", "~3× wool by weight"]],
+  uses: "Knitwear, shawls, blended suiting, and the overgrazing problem on the Mongolian steppe.",
+  link: "https://en.wikipedia.org/wiki/Cashmere_wool"
+},
+{
+  id: "qiviut", cat: "fibre", name: "Qiviut",
+  sub: "muskox down", img: "qiviut",
+  hook: "The warmest animal fibre anyone harvests, and it is collected rather than shorn: muskoxen shed it in sheets each spring and it is picked off the tundra and the fences. It has almost no scales, so unlike wool it will never felt or shrink.",
+  stats: [["Diameter", "11–13 µm"], ["Warmth", "~8× wool by weight"], ["Yield", "~2.5 kg per animal, shed"]],
+  uses: "Arctic knitwear, Alaskan and Canadian co-operative cottage industry, very expensive hats.",
+  link: "https://en.wikipedia.org/wiki/Qiviut"
+},
+{
+  id: "sinew", cat: "fibre", name: "Sinew",
+  sub: "dried collagen tendon", img: "sinew",
+  hook: "Shred a dried tendon and you have thread that shrinks as it dries. Bind a joint wet and it pulls itself tight; the collagen that is not fibre is hide glue, so it also makes its own adhesive. The oldest self-tightening fastener there is.",
+  stats: [["Shrinkage on drying", "~10%"], ["Strength", "~100 MPa dry"], ["Wet", "goes soft, re-sets on drying"]],
+  uses: "Bowstrings and sinew-backed bows, hafting stone tools, hand sewing, drum lacing.",
+  link: "https://en.wikipedia.org/wiki/Tendon"
+},
+{
+  id: "rawhide", cat: "fibre", name: "Rawhide",
+  sub: "untanned dehaired hide", swatch: { pattern: "grain", colors: ["#c9a870", "#e8d3a8", "#95784a"] },
+  hook: "Leather that was never tanned: dehaired and dried hard under tension. Lace a frame with it wet and the drying shrink locks the joint with no knot and no fastener — the material is the clamp. Soak it again and the joint comes apart.",
+  stats: [["Shrink", "tightens as it dries"], ["Dry state", "rigid, almost horn-like"], ["Weakness", "water undoes it"]],
+  uses: "Snowshoes, drum heads, chair seats, lacrosse sticks, saddle trees, laminated armour.",
+  link: "https://en.wikipedia.org/wiki/Rawhide_(material)"
+},
+{
+  id: "harakeke", cat: "fibre", name: "Harakeke (New Zealand flax)",
+  sub: "Phormium tenax leaf fibre, muka", img: "harakeke",
+  hook: "Not a flax at all. The fibre is scraped out of the living leaf with the edge of a mussel shell, which strips the green away without cutting the strands — a tool choice that is also a technique, and the reason muka comes out silky rather than hairy.",
+  stats: [["Wet strength", "holds up in water"], ["Extraction", "scraped, not retted"], ["Fineness", "spinnable by hand"]],
+  uses: "Māori weaving — korowai cloaks, kete baskets, cordage; a 19th-century export rope trade.",
+  link: "https://en.wikipedia.org/wiki/Phormium_tenax"
+},
+{
+  id: "esparto", cat: "fibre", name: "Esparto grass",
+  sub: "Stipa tenacissima", img: "esparto",
+  hook: "A desert grass tough enough to be rope and short enough to be paper. Victorian Britain printed on it by the shipload because it gave a bulky, opaque sheet from a plant nobody had to farm: it grows on ground that supports nothing else.",
+  stats: [["Fibre length", "~1.5 mm, short"], ["Paper", "bulky and opaque"], ["Habitat", "semi-arid, unirrigated"]],
+  uses: "Cordage and mats, espadrille soles, baskets, book and printing papers.",
+  link: "https://en.wikipedia.org/wiki/Esparto"
+},
+{
+  id: "raffia", cat: "fibre", name: "Raffia",
+  sub: "Raphia palm leaf epidermis", img: "raffia",
+  hook: "A flat fibre in a world of round ones. It is peeled off the leaf as a ribbon, so it lies down, grips itself and ties without cutting into what it holds — exactly what a grafted stem or a woven hat brim needs.",
+  stats: [["Section", "flat ribbon, not round"], ["Length", "up to ~1.5 m"], ["Wet", "pliable, dries firm"]],
+  uses: "Garden and grafting ties, hats and baskets, Kuba cloth, millinery, florist work.",
+  link: "https://en.wikipedia.org/wiki/Raffia_palm"
+},
+{
+  id: "pina", cat: "fibre", name: "Piña",
+  sub: "pineapple leaf fibre", img: "pina",
+  hook: "Scraped out of pineapple leaves by hand, then knotted end to end — every single filament — to make a continuous thread. The cloth is stiff, translucent and faintly glassy, and the labour behind a metre of it is why it stayed ceremonial.",
+  stats: [["Preparation", "hand-scraped, hand-knotted"], ["Handle", "stiff and translucent"], ["Source", "a by-product of fruit"]],
+  uses: "Barong tagalog and formal Philippine dress, embroidery grounds, ecclesiastical cloth.",
+  link: "https://en.wikipedia.org/wiki/Pi%C3%B1a"
+},
+{
+  id: "laidrope", cat: "fibre", name: "Three-strand laid rope",
+  sub: "twisted construction", swatch: { pattern: "fiber", colors: ["#b99a62", "#ddc694", "#866c3d"] },
+  hook: "Nothing holds this rope together but opposing twist. Fibres are spun one way, yarns laid the other, strands the first way again — each level permanently trying to unwind the one above it, and the standoff is the rope. Let it unbalance and it hockles into a knot by itself.",
+  stats: [["Lay", "right-hand by convention"], ["Splice", "strands tucked, no tools"], ["Vice", "torque, twist and hockling"]],
+  uses: "Mooring and anchor lines, traditional rigging, hauling rope — the rope every knot book assumes.",
+  link: "https://en.wikipedia.org/wiki/Rope"
+},
+{
+  id: "doublebraid", cat: "fibre", name: "Double braid",
+  sub: "braided core inside a braided cover", swatch: { pattern: "weave", colors: ["#9aa4ad", "#d2dade", "#67707a"] },
+  hook: "Two ropes sharing one job, each taking roughly half the load, and neither one twisting. The clever part is the splice: the core is buried inside its own cover, so pulling harder only locks it tighter — stronger than any knot you could tie in it.",
+  stats: [["Load split", "~50/50 core and cover"], ["Splice strength", "95–100% of rope"], ["Torque", "balanced, none"]],
+  uses: "Yacht sheets and halyards, arborist climbing lines, winch and rescue rope.",
+  link: "https://en.wikipedia.org/wiki/Rope_splicing"
+},
+{
+  id: "twelvestrand", cat: "fibre", name: "Twelve-strand hollow braid",
+  sub: "single-braid construction", swatch: { pattern: "weave", colors: ["#cdd4d9", "#f0f4f6", "#99a1a8"] },
+  hook: "A rope with nothing inside it, which is the point: a splice can be pushed down the middle of the rope itself. That is what makes a soft shackle possible — a loop of cord stronger than the steel shackle it replaces, that cannot dent a deck or take an eye out when it lets go.",
+  stats: [["Carriers", "12, no core"], ["Splice", "buried in its own braid"], ["Soft shackle", "beats steel per gram"]],
+  uses: "Soft shackles and lashings, winch lines, arborist rigging, rope-to-rope connections.",
+  link: "https://en.wikipedia.org/wiki/Soft_shackle"
+},
+{
+  id: "braidedline", cat: "fibre", name: "Braided fishing line",
+  sub: "gel-spun UHMWPE, 4–8 carriers", swatch: { pattern: "fiber", colors: ["#4b6b55", "#86a892", "#2b4133"] },
+  hook: "Near-zero stretch changes what fishing feels like: a fish mouthing the bait forty metres away arrives in your fingertips. It also means nothing absorbs a shock, so the rod and the knot have to, and the line quietly saws grooves in the rod guides.",
+  stats: [["Stretch", "~3% or less"], ["Diameter", "about a third of mono"], ["Knots", "slips unless tied for it"]],
+  uses: "Spinning and baitcasting mainline, jigging, kite and drone line, cut-resistant cord.",
+  link: "https://en.wikipedia.org/wiki/Fishing_line"
+},
+{
+  id: "kineticrope", cat: "fibre", name: "Kinetic recovery rope",
+  sub: "double-braid nylon, high stretch", swatch: { pattern: "fiber", colors: ["#b8572f", "#e08a5e", "#7d3519"] },
+  hook: "A rope engineered to be stretchy, the opposite of every other rope here. The recovery vehicle takes a run-up, the rope stores that kinetic energy and hands it back, and a stuck truck floats out on a gentle pull where a steel cable would tear a bumper off.",
+  stats: [["Stretch", "20–30% working"], ["Energy", "stores it, returns it"], ["Failure", "recoils — the dangerous part"]],
+  uses: "Off-road vehicle recovery, agricultural and military towing; replaced snatch straps and steel cable.",
+  link: "https://en.wikipedia.org/wiki/Kinetic_recovery_rope"
+},
+{
+  id: "pianowire", cat: "fibre", name: "Music wire",
+  sub: "cold-drawn high-carbon steel", img: "pianowire",
+  hook: "Among the strongest steel sold by the kilometre, and it gets there by being pulled through holes. Each die squeezes the pearlite lamellae thinner and straighter until the wire is nearly a composite of itself — strength that drawing gives you, not heat treatment.",
+  stats: [["Tensile", "2300–3000 MPa in fine sizes"], ["Carbon", "0.7–1.0%"], ["Route", "cold drawing, no quench"]],
+  uses: "Piano and instrument strings, springs, cheese cutters, control cables, lock picks.",
+  link: "https://en.wikipedia.org/wiki/Piano_wire"
+},
+
+/* ---------- FABRICS & CONSTRUCTIONS ---------- */
+{
+  id: "jacquard", cat: "fabric", name: "Jacquard weave",
+  sub: "punched-card warp selection", img: "jacquard",
+  hook: "Every warp thread gets its own hook, and a punched card decides which ones lift. That turned pattern into data in 1804, freed the weaver from the repeat entirely, and gave Babbage and then Hollerith the idea of the punched card.",
+  stats: [["Control", "one card row per pick"], ["Repeat", "effectively unlimited"], ["Legacy", "the first stored program"]],
+  uses: "Figured upholstery and damask, labels and ribbons, airbag fabric, carbon fibre preforms.",
+  link: "https://en.wikipedia.org/wiki/Jacquard_machine"
+},
+{
+  id: "leno", cat: "fabric", name: "Leno weave",
+  sub: "crossed-warp gauze", img: "leno",
+  hook: "Paired warp threads cross over each other between every pick, so each weft yarn is trapped in a twist rather than resting in a gap. That is how you get a fabric that is mostly holes and still cannot slide out of shape.",
+  stats: [["Openness", "mostly air"], ["Slippage", "locked by the twist"], ["Cost", "slower than plain weave"]],
+  uses: "Surgical gauze and bandage, shade cloth, plaster and render scrim, wallpaper backing, geogrid.",
+  link: "https://en.wikipedia.org/wiki/Leno_weave"
+},
+{
+  id: "triaxial", cat: "fabric", name: "Triaxial weave",
+  sub: "three yarn sets at 60°", swatch: { pattern: "weave", colors: ["#2f3337", "#6b7177", "#181a1c"] },
+  hook: "Ordinary cloth has two thread directions and no resistance to racking: pull it on the diagonal and the square becomes a parallelogram. Add a third set at sixty degrees and the shear has nowhere to go. The fabric holds its shape in its own plane.",
+  stats: [["Yarn directions", "3 at 60°"], ["Shear stiffness", "far above biaxial"], ["Isotropy", "near-equal in plane"]],
+  uses: "Sailcloth and kite skins, filter and screen fabric, balloon envelopes, composite reinforcement.",
+  link: "https://en.wikipedia.org/wiki/Triaxial_weave"
+},
+{
+  id: "doublecloth", cat: "fabric", name: "Double cloth",
+  sub: "two fabrics woven at once", img: "doublecloth",
+  hook: "One loom, two complete cloths, stitched to each other wherever the weaver swaps a thread from the top layer to the bottom. Stop swapping and the two layers separate: the pocket, the tube and the closed bag are woven, not sewn.",
+  stats: [["Layers", "2 or more, simultaneous"], ["Join", "by thread exchange"], ["Reversible", "a different face each side"]],
+  uses: "Reversible coats and blankets, Welsh and Jacquard tapestry, woven tubes, airbag and ducting fabric.",
+  link: "https://en.wikipedia.org/wiki/Double_cloth"
+},
+{
+  id: "terrypile", cat: "fabric", name: "Pile weave",
+  sub: "terry and velvet construction", img: "terrypile",
+  hook: "A second warp fed in slack and lifted over wires, so the fabric grows a third dimension off a flat loom. Leave the loops whole and you have a towel, where the surface area is the point. Shear them and you have velvet, where the cut ends are.",
+  stats: [["Warps", "2, one slack"], ["Loops uncut", "towel, high absorbency"], ["Loops cut", "velvet and velour"]],
+  uses: "Towels and robes, velvet and corduroy, upholstery plush, cleaning cloth.",
+  link: "https://en.wikipedia.org/wiki/Pile_(textile)"
+},
+{
+  id: "warpknit", cat: "fabric", name: "Warp knitting",
+  sub: "tricot and raschel", img: "warpknit",
+  hook: "Every warp end has its own needle and the loops interlock sideways along the row, not in a single running chain. Cut it and nothing unravels — the reason a ladder in tricot stays a hole rather than racing to the hem.",
+  stats: [["Yarns", "one per needle"], ["Run resistance", "high, does not ladder"], ["Speed", "very fast, wide fabric"]],
+  uses: "Lingerie and swimwear, powernet and mesh, mosquito and sports netting, car headliners, geogrid.",
+  link: "https://en.wikipedia.org/wiki/Warp_knitting"
+},
+{
+  id: "jersey", cat: "fabric", name: "Weft-knit jersey",
+  sub: "single-bed loop structure", img: "jersey",
+  hook: "A single yarn looped through itself in rows. It stretches a third of its length again with no elastic in it at all, because the loops simply straighten — that is why a knitted shirt fits where a woven one has to be tailored. Cut one loop and the whole row runs.",
+  stats: [["Stretch", "30–50% with no elastane"], ["Edges", "curl, need hemming"], ["Failure", "one broken loop runs"]],
+  uses: "T-shirts and underwear, sweatshirting, sportswear, medical tubular bandage.",
+  link: "https://en.wikipedia.org/wiki/Jersey_(fabric)"
+},
+{
+  id: "seamlessknit", cat: "fabric", name: "Whole-garment knitting",
+  sub: "3D knitted to shape", img: "seamlessknit",
+  hook: "The machine knits a finished three-dimensional garment — sleeves, body, neck — in one piece, so there are no cut panels and no seams to sew. Cutting flat cloth throws away 15 to 20% of it; this throws away nothing, which is the real argument.",
+  stats: [["Seams", "none"], ["Cutting waste", "~0 vs 15–20%"], ["Shaping", "stitch by stitch in software"]],
+  uses: "Seamless knitwear and hosiery, knitted shoe uppers, compression garments, medical sleeves.",
+  link: "https://en.wikipedia.org/wiki/Knitting_machine"
+},
+{
+  id: "spacerfabric", cat: "fabric", name: "Spacer fabric",
+  sub: "3D knit with monofilament pile", img: "spacerfabric",
+  hook: "Two knitted faces made at the same time and held apart by monofilaments standing between them. It cushions like foam but is open to air and water, springs back instead of taking a permanent dent, and goes through a washing machine.",
+  stats: [["Thickness", "2–20 mm knitted in"], ["Recovery", "no permanent set"], ["Airflow", "open through the core"]],
+  uses: "Mattress and car-seat tops, backpack straps, shoe uppers, orthopaedic padding, pressure-sore mattresses.",
+  link: "https://en.wikipedia.org/wiki/Spacer_fabric"
+},
+{
+  id: "fleece", cat: "fabric", name: "Polar fleece",
+  sub: "napped double-knit polyester", img: "fleece",
+  hook: "A polyester knit brushed until the fibre ends stand up, then shorn level, so the fabric is mostly trapped air. It was deliberately left unpatented in 1979, barely absorbs water, and is often spun from drinks bottles — but it sheds microfibre in every wash.",
+  stats: [["Weight", "100–300 g/m²"], ["Water uptake", "~1% of its weight"], ["Problem", "microfibre shedding"]],
+  uses: "Midlayers and jackets, blankets, pet bedding, linings.",
+  link: "https://en.wikipedia.org/wiki/Polar_fleece"
+},
+{
+  id: "nonwoven", cat: "fabric", name: "Spunbond-meltblown nonwoven",
+  sub: "SMS web, no yarn at all", img: "nonwoven",
+  hook: "Fabric with no spinning and no weaving: polymer goes straight from melt to web and is bonded where the fibres touch. The meltblown middle layer is fibres a few µm across — fine enough to catch what a weave never could, which is why it is the filter in a mask.",
+  stats: [["Meltblown fibre", "1–5 µm"], ["Spunbond fibre", "15–35 µm"], ["Route", "melt to fabric in one line"]],
+  uses: "Surgical gowns and masks, nappies and wipes, housewrap, geotextile, teabags.",
+  link: "https://en.wikipedia.org/wiki/Nonwoven_fabric"
+},
+{
+  id: "needlepunch", cat: "fabric", name: "Needle-punched felt",
+  sub: "mechanically entangled web", swatch: { pattern: "fiber", colors: ["#7e838a", "#b6bbc1", "#53585e"] },
+  hook: "Thousands of barbed needles stab a loose web of fibre tens of times a second, dragging fibres down through the thickness. Nothing is spun, knitted, glued or melted — the fabric is held together purely by friction between tangled fibres.",
+  stats: [["Punches", "up to ~2000 per cm²"], ["Binder", "none, friction only"], ["Thickness", "1–20 mm"]],
+  uses: "Automotive carpet and insulation, filter felt, geotextile, papermaker felts, craft felt.",
+  link: "https://en.wikipedia.org/wiki/Needle_felting"
+},
+{
+  id: "electrospun", cat: "fabric", name: "Electrospun nanofibre mat",
+  sub: "polymer drawn by a high-voltage field", img: "electrospun",
+  hook: "A drop of polymer solution at twenty kilovolts tears itself into a whipping jet and lands as fibres a hundred times thinner than anything a spinneret makes. The result has a pore structure no textile route can reach — and it comes off the rig by the gram, not the tonne.",
+  stats: [["Fibre diameter", "50–500 nm"], ["Voltage", "10–30 kV"], ["Limit", "production rate"]],
+  uses: "Wound dressings and scaffolds, high-efficiency air filtration, battery separators, sensor membranes.",
+  link: "https://en.wikipedia.org/wiki/Electrospinning"
+},
+{
+  id: "tyvek", cat: "fabric", name: "Tyvek",
+  sub: "flash-spun high-density polyethylene", img: "tyvek",
+  hook: "Polyethylene dissolved under pressure and released, so the solvent flashes off and leaves a cloud of fibres that are pressed into a sheet. It looks like paper, tears like fabric, passes water vapour and stops liquid water, and you cannot write on it with a pencil.",
+  stats: [["Fibre diameter", "0.5–10 µm"], ["Water", "liquid out, vapour through"], ["Tear", "very high for paper"]],
+  uses: "Housewrap, courier envelopes, sterile medical packaging, protective coveralls, wristbands, maps.",
+  link: "https://en.wikipedia.org/wiki/Tyvek"
+},
+{
+  id: "stitchbond", cat: "fabric", name: "Non-crimp fabric",
+  sub: "stitched multiaxial reinforcement", swatch: { pattern: "ribbon", colors: ["#3b3f44", "#787f87", "#1f2225"] },
+  hook: "Weaving makes every fibre go over and under, and a bent fibre is a weaker fibre. Here the layers are laid dead straight at whatever angles the part needs and held with a light stitching yarn, so the reinforcement is as strong as the fibre actually is.",
+  stats: [["Crimp", "none"], ["Strength gain", "~10–15% over woven"], ["Angles", "0/90/±45 as laid"]],
+  uses: "Wind turbine blades, boat hulls, automotive and rail composite panels.",
+  link: "https://en.wikipedia.org/wiki/Fibre-reinforced_plastic"
+},
+{
+  id: "woven3d", cat: "fabric", name: "3D woven preform",
+  sub: "through-thickness yarn architecture", swatch: { pattern: "weave", colors: ["#23262a", "#5a5f65", "#101214"] },
+  hook: "A stack of flat plies delaminates because there is nothing holding one ply to the next except resin. Weave yarns through the thickness and there is no plane to split along: the part comes off the loom as a shape, and the resin is only filler.",
+  stats: [["Yarn directions", "3, including Z"], ["Delamination", "designed out"], ["Form", "near-net shape off the loom"]],
+  uses: "Jet engine fan blades and cases, rocket nozzles, stiffened panels, I-beam and joint preforms.",
+  link: "https://en.wikipedia.org/wiki/Woven_fabric"
+},
+{
+  id: "opwairbag", cat: "fabric", name: "One-piece woven airbag",
+  sub: "bag woven closed on a Jacquard loom", img: "opwairbag",
+  hook: "A curtain airbag has to hold pressure for several seconds through a rollover, and a sewn seam is a row of holes waiting to open. So the bag is woven as a bag — two layers that merge into one wherever the edge should be. Nothing is stitched, because nothing is cut.",
+  stats: [["Seams", "woven, not sewn"], ["Hold time", "seconds, not milliseconds"], ["Loom", "Jacquard, double cloth"]],
+  uses: "Side curtain airbags, inflatable slides and rafts, high-pressure inflatable structures.",
+  link: "https://en.wikipedia.org/wiki/Airbag"
+},
+{
+  id: "ptfeglass", cat: "fabric", name: "PTFE-coated glass fabric",
+  sub: "woven glass fibre in fluoropolymer", img: "ptfeglass",
+  hook: "A roof you can see daylight through that will not burn, will not rot and washes itself in the rain. Glass fibre takes the tension, the PTFE takes the weather, and the two together let a building be spanned by a membrane under cable rather than held up by structure.",
+  stats: [["Light transmission", "~10–15%"], ["Service life", "30 years plus"], ["Fire", "non-combustible"]],
+  uses: "Stadium and terminal roofs, the Hajj Terminal and Millennium Dome, conveyor belts, release sheets.",
+  link: "https://en.wikipedia.org/wiki/Tensile_structure"
+},
+{
+  id: "etfefoil", cat: "fabric", name: "ETFE cushion",
+  sub: "inflated multi-layer fluoropolymer foil", img: "etfefoil",
+  hook: "Two or three films welded into a pillow and kept inflated at a few hundred pascals. It weighs about one per cent of the glass it replaces, lets through the ultraviolet that plants need, and a printed dot pattern on each layer turns shading on and off by changing the pressure.",
+  stats: [["Weight", "~1% of glazing"], ["Pressure", "200–800 Pa"], ["UV", "passes it, unlike glass"]],
+  uses: "Eden Project, Allianz Arena, Beijing Water Cube; atria, greenhouses, stadium facades.",
+  link: "https://en.wikipedia.org/wiki/ETFE"
+},
+{
+  id: "laminateshell", cat: "fabric", name: "Three-layer laminate",
+  sub: "face fabric, membrane, knit backer", swatch: { pattern: "laminate", colors: ["#2d4a63", "#cfd6db", "#1a2a38"] },
+  hook: "The waterproof-breathable membrane is the whole point of the jacket and it cannot be either surface: abrasion destroys it from outside and skin oil blocks it from inside. So it is buried between a face fabric and a scrim. The sandwich, not the film, is the invention.",
+  stats: [["Layers", "3, bonded"], ["Membrane", "buried, never exposed"], ["Seams", "taped, not just sewn"]],
+  uses: "Hardshell jackets and gloves, drysuits, surgical drapes, tent flys.",
+  link: "https://en.wikipedia.org/wiki/Waterproof_fabric"
+},
+{
+  id: "mercerised", cat: "fabric", name: "Mercerised cotton",
+  sub: "caustic treatment under tension", img: "mercerised",
+  hook: "Cotton is a flat twisted ribbon. Hold it in tension in caustic soda and it swells into a round rod and the cellulose recrystallises — so it reflects light, holds dye far better, gains strength and stops shrinking. Mercer found it in 1844; Lowe added the tension and made it useful.",
+  stats: [["Strength", "+20–30%"], ["Dye uptake", "much higher"], ["Shrinkage", "largely stabilised"]],
+  uses: "Sewing and embroidery thread, shirting and polo knits, quilting cotton, lace.",
+  link: "https://en.wikipedia.org/wiki/Mercerised_cotton"
+},
+{
+  id: "dwrfinish", cat: "fabric", name: "Durable water repellent",
+  sub: "low-surface-energy surface finish", img: "dwrfinish",
+  hook: "A coating a few nanometres thick that does not block the fabric at all: it lowers the surface energy so water beads and rolls, while the weave stays open to vapour. The old C8 fluorochemistry did it almost permanently — and stayed in the environment just as permanently.",
+  stats: [["Thickness", "nanometres"], ["Old chemistry", "C8, now phased out"], ["Upkeep", "wears off, heat reactivates"]],
+  uses: "Shell jackets and softshells, tents, umbrellas, upholstery stain finishes.",
+  link: "https://en.wikipedia.org/wiki/Durable_water_repellent"
+},
+{
+  id: "ringmesh", cat: "fabric", name: "Ring mesh",
+  sub: "riveted or welded steel rings", img: "ringmesh",
+  hook: "Fabric made of small steel circles, each one riveted or welded shut and linked to four neighbours. A blade cannot part a single ring without the load spreading to the others, so a cut becomes a push. Fifteen centuries as armour, now a butcher's glove.",
+  stats: [["Pattern", "4-in-1 is standard"], ["Ring", "riveted or welded closed"], ["Cut", "stopped, not slowed"]],
+  uses: "Butchers and oyster gloves, shark suits, abrasive blast curtains, chef aprons, reproduction mail.",
+  link: "https://en.wikipedia.org/wiki/Mail_(armour)"
+},
+{
+  id: "weldedseam", cat: "fabric", name: "Welded seam",
+  sub: "ultrasonic and RF bonding", img: "weldedseam",
+  hook: "A stitch is a neat row of holes through a waterproof layer, which is why it has to be taped afterwards. A weld melts the two layers into each other instead — no needle, no thread, no holes, and a joint thinner than the stitched one it replaces.",
+  stats: [["Holes", "none"], ["Ultrasonic", "20–40 kHz"], ["Limit", "thermoplastics only"]],
+  uses: "Drysuits and waders, inflatable boats, medical disposables, taped shell jackets, filter bags.",
+  link: "https://en.wikipedia.org/wiki/Ultrasonic_welding"
+},
+{
+  id: "tufted", cat: "fabric", name: "Tufting",
+  sub: "yarn needled into a backing", img: "tufted",
+  hook: "Hundreds of needles push yarn through a ready-made backing cloth and hooks hold the loops while the needles withdraw. A carpet that took a weaver months comes off the machine in minutes — which is the entire reason wall-to-wall carpet stopped being a luxury in the 1950s.",
+  stats: [["Share of carpet", "over 90%"], ["Speed", "minutes, not months"], ["Backing", "woven or nonwoven, added"]],
+  uses: "Carpet and rugs, automotive floor mats, artificial turf, upholstery, tufted art.",
+  link: "https://en.wikipedia.org/wiki/Tufting"
+},
+{
+  id: "etextile", cat: "fabric", name: "E-textile",
+  sub: "conductive yarn knitted as circuit", swatch: { pattern: "weave", colors: ["#9ba3a9", "#dde3e7", "#5f666c"] },
+  hook: "Spin a conductor into the yarn and the fabric becomes the sensor: a knitted stripe reads stretch, a woven grid reads touch, an embroidered trace carries the signal. The physics is easy. Surviving forty washes and a tumble dryer is the research problem.",
+  stats: [["Conductors", "silver, steel, copper yarn"], ["Sensing", "stretch, touch, ECG"], ["Hard part", "laundering durability"]],
+  uses: "Touch-sensitive garments and bags, heated seats and clothing, ECG and respiration shirts, soft robotics.",
+  link: "https://en.wikipedia.org/wiki/E-textiles"
+},
 
 /* ---------- ACTIVE & EXOTIC ---------- */
 {

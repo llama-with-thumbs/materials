@@ -1292,7 +1292,7 @@ window.CREDITS = {
     "caption": "An ultrapure niobium bead",
     "kind": "photo",
     "title": "Ultrapure niobium bead, slightly oxidized.jpg",
-    "artist": "Hi-Res Images of\n\nChemical Elements",
+    "artist": "Hi-Res Images of\nChemical Elements",
     "license": "CC BY 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Ultrapure_niobium_bead,_slightly_oxidized.jpg"
   },
@@ -2564,5 +2564,257 @@ window.CREDITS = {
     "artist": "Jyothis at ml.wikipedia",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Thermal_compound_Applied.JPG"
+  },
+  "cashmere": {
+    "file": "cashmere.jpg",
+    "caption": "Cashmere down, combed from a goat's undercoat",
+    "kind": "photo",
+    "title": "CSIRO ScienceImage 6863 Cashmere goat hair fibre.jpg",
+    "artist": "division, CSIRO",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_6863_Cashmere_goat_hair_fibre.jpg"
+  },
+  "qiviut": {
+    "file": "qiviut.jpg",
+    "caption": "Raw qiviut, shed by a muskox and picked up by hand",
+    "kind": "photo",
+    "title": "Qiviut wool 1.JPG",
+    "artist": "Dvortygirl",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Qiviut_wool_1.JPG"
+  },
+  "sinew": {
+    "file": "sinew.jpg",
+    "caption": "Sinew twisted into cordage",
+    "kind": "photo",
+    "title": "Sinew strings.jpg",
+    "artist": "Сергей 6662",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sinew_strings.jpg"
+  },
+  "harakeke": {
+    "file": "harakeke.jpg",
+    "caption": "A pā harakeke — the stand the leaves are cut from",
+    "kind": "photo",
+    "title": "Te Pā Harakeke o te Iwi 20230816 082439 02.jpg",
+    "artist": "Prosperosity",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Te_P%C4%81_Harakeke_o_te_Iwi_20230816_082439_02.jpg"
+  },
+  "esparto": {
+    "file": "esparto.jpg",
+    "caption": "Esparto grass growing on dry ground",
+    "kind": "photo",
+    "title": "Stipa tenacissima kz08.jpg",
+    "artist": "Krzysztof Ziarnek, Kenraiz",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stipa_tenacissima_kz08.jpg"
+  },
+  "raffia": {
+    "file": "raffia.jpg",
+    "caption": "Raffia, peeled off the leaf as flat ribbon",
+    "kind": "photo",
+    "title": "Raffia fibers.jpg",
+    "artist": "Ragesoss",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Raffia_fibers.jpg"
+  },
+  "pina": {
+    "file": "pina.jpg",
+    "caption": "A barong tagalog woven from piña",
+    "kind": "product",
+    "title": "Piña Barong tagalog AklanA.jpg",
+    "artist": "Unknown",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pi%C3%B1a_Barong_tagalog_AklanA.jpg"
+  },
+  "pianowire": {
+    "file": "pianowire.jpg",
+    "caption": "Music wire strung in a grand piano",
+    "kind": "product",
+    "title": "Piano strings.jpg",
+    "artist": "Matt Billings",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Piano_strings.jpg"
+  },
+  "jacquard": {
+    "file": "jacquard.jpg",
+    "caption": "A Jacquard loom and its chain of punched cards",
+    "kind": "process",
+    "title": "A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
+    "artist": "Stephencdickson",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg"
+  },
+  "doublecloth": {
+    "file": "doublecloth.png",
+    "caption": "Double-weave cloth, close up",
+    "kind": "photo",
+    "title": "Blue Double Weave Kimono Close Up.png",
+    "artist": "GuitarStv",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Double_Weave_Kimono_Close_Up.png"
+  },
+  "warpknit": {
+    "file": "warpknit.jpg",
+    "caption": "A warp knitting machine — one needle per warp end",
+    "kind": "process",
+    "title": "NIM 1910 Warp knitting machine 2522.jpg",
+    "artist": "ClemRutter",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NIM_1910_Warp_knitting_machine_2522.jpg"
+  },
+  "jersey": {
+    "file": "jersey.jpg",
+    "caption": "Weft-knit fabric, face side",
+    "kind": "photo",
+    "title": "Gestrick links-rechts rechte Seite.jpeg",
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gestrick_links-rechts_rechte_Seite.jpeg"
+  },
+  "seamlessknit": {
+    "file": "seamlessknit.jpg",
+    "caption": "A computerised flat knitting machine",
+    "kind": "process",
+    "title": "Computerized Flat Knitting Machine (Jacquard Machine) 07.jpg",
+    "artist": "Asivechowdhury",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Computerized_Flat_Knitting_Machine_(Jacquard_Machine)_07.jpg"
+  },
+  "spacerfabric": {
+    "file": "spacerfabric.jpg",
+    "caption": "Spacer fabric — two faces held apart by monofilament",
+    "kind": "photo",
+    "title": "Spacer fabric.jpg",
+    "artist": "Elkagye",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spacer_fabric.jpg"
+  },
+  "electrospun": {
+    "file": "electrospun.jpg",
+    "caption": "Electron micrograph of electrospun nanofibres",
+    "kind": "photo",
+    "title": "Electrospun polymer nanofibers with bead-fiber morphology.jpg",
+    "artist": "Farizat Aidyn",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Electrospun_polymer_nanofibers_with_bead-fiber_morphology.jpg"
+  },
+  "tyvek": {
+    "file": "tyvek.jpg",
+    "caption": "A Tyvek envelope",
+    "kind": "product",
+    "title": "Tyvek 1056D Envelope 13032009849.jpg",
+    "artist": "Newone",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tyvek_1056D_Envelope_13032009849.jpg"
+  },
+  "mercerised": {
+    "file": "mercerised.jpg",
+    "caption": "Spooled cotton thread — mercerising gives it the sheen",
+    "kind": "product",
+    "title": "Spool of white thread.jpg",
+    "artist": "No machine-readable author provided. Dmeranda assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spool_of_white_thread.jpg"
+  },
+  "ringmesh": {
+    "file": "ringmesh.jpg",
+    "caption": "A riveted mail shirt",
+    "kind": "product",
+    "title": "Chain mail shirt - Georgian.jpg",
+    "artist": "Jonathan Cardy",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chain_mail_shirt_-_Georgian.jpg"
+  },
+  "opwairbag": {
+    "file": "opwairbag.jpg",
+    "caption": "A curtain airbag deployed in a car",
+    "kind": "product",
+    "title": "Vauxhall Vectra curtain airbag deployed.jpg",
+    "artist": "Janipewter (talk)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Vauxhall_Vectra_curtain_airbag_deployed.jpg"
+  },
+  "ptfeglass": {
+    "file": "ptfeglass.jpg",
+    "caption": "Denver airport roof — PTFE-coated glass fibre on cables",
+    "kind": "product",
+    "title": "Denver International Airport.jpg",
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Denver_International_Airport.jpg"
+  },
+  "etfefoil": {
+    "file": "etfefoil.jpg",
+    "caption": "The Eden Project biomes, clad in inflated ETFE pillows",
+    "kind": "product",
+    "title": "Tropical Biome of the Eden Project - geograph.org.uk - 4456101.jpg",
+    "artist": "Gareth James",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tropical_Biome_of_the_Eden_Project_-_geograph.org.uk_-_4456101.jpg"
+  },
+  "dwrfinish": {
+    "file": "dwrfinish.jpg",
+    "caption": "Water beading on treated fabric",
+    "kind": "photo",
+    "title": "CSIRO ScienceImage 11489 Water droplets on QuickDry merino wollen fabric.jpg",
+    "artist": "Bea Lipson, CSIRO",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11489_Water_droplets_on_QuickDry_merino_wollen_fabric.jpg"
+  },
+  "tufted": {
+    "file": "tufted.jpg",
+    "caption": "Deep carpet pile, close up",
+    "kind": "product",
+    "title": "Deep Pile Carpet Up Close.jpg",
+    "artist": "GHOSTIE134",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Deep_Pile_Carpet_Up_Close.jpg"
+  },
+  "terrypile": {
+    "file": "terrypile.jpg",
+    "caption": "Terry towelling — the loops left uncut",
+    "kind": "photo",
+    "title": "Frottee-Handtuch.jpg",
+    "artist": "Anna reg",
+    "license": "CC BY-SA 3.0 at",
+    "page": "https://commons.wikimedia.org/wiki/File:Frottee-Handtuch.jpg"
+  },
+  "leno": {
+    "file": "leno.jpg",
+    "caption": "Gauze bandage being rolled",
+    "kind": "product",
+    "title": "3611 Bandage rolling.jpg",
+    "artist": "Oscar Bernader Bengtsson (b1888)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:3611_Bandage_rolling.jpg"
+  },
+  "fleece": {
+    "file": "fleece.png",
+    "caption": "Polar fleece — napped and shorn level",
+    "kind": "photo",
+    "title": "Polar fleece (2) (Rico Cilliers and colormass via Poly Haven).png",
+    "artist": "Rico Cilliers (Processing)\ncolormass (Photography)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Polar_fleece_(2)_(Rico_Cilliers_and_colormass_via_Poly_Haven).png"
+  },
+  "nonwoven": {
+    "file": "nonwoven.jpg",
+    "caption": "A disposable mask — spunbond faces over a meltblown filter",
+    "kind": "product",
+    "title": "The front of a blue disposable mask.jpg",
+    "artist": "彩色琪子",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_front_of_a_blue_disposable_mask.jpg"
+  },
+  "weldedseam": {
+    "file": "weldedseam.jpg",
+    "caption": "A drysuit — its seams are welded, not sewn",
+    "kind": "product",
+    "title": "Viking pro 1000 drysuit with magnum hood.jpg",
+    "artist": "dive90m",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Viking_pro_1000_drysuit_with_magnum_hood.jpg"
   }
 };

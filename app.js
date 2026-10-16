@@ -7,6 +7,7 @@ const CATS = {
   electronic: "Semiconductors & optics",
   composite: "Composites & structures",
   fibre: "Ropes & woven materials",
+  fabric: "Fabrics & constructions",
   natural: "Natural & biological",
   exotic: "Active & exotic"
 };

@@ -283,3 +283,31 @@ mov|Metal Oxide Varistor.jpg|A metal oxide varistor|product
 ptcpoly|Disassembled resettable fuse.JPG|A polymer resettable fuse, opened up|product
 etchedfoil|Low-voltage-anode-foil.tif|Etched anode foil in cross-section — the tunnels that multiply its area
 tim|Thermal compound Applied.JPG|Thermal compound spread on a processor lid|product
+cashmere|CSIRO ScienceImage 6863 Cashmere goat hair fibre.jpg|Cashmere down, combed from a goat's undercoat|photo
+qiviut|Qiviut wool 1.JPG|Raw qiviut, shed by a muskox and picked up by hand|photo
+sinew|Sinew strings.jpg|Sinew twisted into cordage|photo
+harakeke|Te Pā Harakeke o te Iwi 20230816 082439 02.jpg|A pā harakeke — the stand the leaves are cut from|photo
+esparto|Stipa tenacissima kz08.jpg|Esparto grass growing on dry ground|photo
+raffia|Raffia fibers.jpg|Raffia, peeled off the leaf as flat ribbon|photo
+pina|Piña Barong tagalog AklanA.jpg|A barong tagalog woven from piña|product
+pianowire|Piano strings.jpg|Music wire strung in a grand piano|product
+jacquard|A Jacquard loom showing information punchcards, National Museum of Scotland.jpg|A Jacquard loom and its chain of punched cards|process
+doublecloth|Blue Double Weave Kimono Close Up.png|Double-weave cloth, close up|photo
+warpknit|NIM 1910 Warp knitting machine 2522.jpg|A warp knitting machine — one needle per warp end|process
+jersey|Gestrick links-rechts rechte Seite.jpeg|Weft-knit fabric, face side|photo
+seamlessknit|Computerized Flat Knitting Machine (Jacquard Machine) 07.jpg|A computerised flat knitting machine|process
+spacerfabric|Spacer fabric.jpg|Spacer fabric — two faces held apart by monofilament|photo
+electrospun|Electrospun polymer nanofibers with bead-fiber morphology.jpg|Electron micrograph of electrospun nanofibres|photo
+tyvek|Tyvek 1056D Envelope 13032009849.jpg|A Tyvek envelope|product
+mercerised|Spool of white thread.jpg|Spooled cotton thread — mercerising gives it the sheen|product
+ringmesh|Chain mail shirt - Georgian.jpg|A riveted mail shirt|product
+opwairbag|Vauxhall Vectra curtain airbag deployed.jpg|A curtain airbag deployed in a car|product
+ptfeglass|Denver International Airport.jpg|Denver airport roof — PTFE-coated glass fibre on cables|product
+etfefoil|Tropical Biome of the Eden Project - geograph.org.uk - 4456101.jpg|The Eden Project biomes, clad in inflated ETFE pillows|product
+dwrfinish|CSIRO ScienceImage 11489 Water droplets on QuickDry merino wollen fabric.jpg|Water beading on treated fabric|photo
+tufted|Deep Pile Carpet Up Close.jpg|Deep carpet pile, close up|product
+terrypile|Frottee-Handtuch.jpg|Terry towelling — the loops left uncut|photo
+leno|3611 Bandage rolling.jpg|Gauze bandage being rolled|product
+fleece|Polar fleece (2) (Rico Cilliers and colormass via Poly Haven).png|Polar fleece — napped and shorn level|photo
+nonwoven|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
+weldedseam|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
