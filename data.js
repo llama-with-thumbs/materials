@@ -391,7 +391,8 @@ window.MATERIALS = [
 },
 {
   id: "pebax", cat: "polymer", name: "Pebax",
-  sub: "polyether block amide", swatch: { pattern: "gloss", colors: ["#d8dde3", "#f3f6f9", "#a9b3bd"] },
+  sub: "polyether block amide", img: "pebax",
+  swatch: { pattern: "gloss", colors: ["#d8dde3", "#f3f6f9", "#a9b3bd"] },
   hook: "A block copolymer that hands you stiffness and bounce on the same dial. Foamed, it returns more energy per gram than any other midsole material, which is why every marathon record of the last decade has been run on top of it.",
   stats: [["Density, foamed", "~0.1 g/cm³"], ["Energy return", "~85%"], ["Cold", "flexible to −40 °C"]],
   uses: "Running shoe midsoles, ski boots, catheters, sports film.",
@@ -399,7 +400,8 @@ window.MATERIALS = [
 },
 {
   id: "pei", cat: "polymer", name: "PEI (Ultem)",
-  sub: "polyetherimide", swatch: { pattern: "gloss", colors: ["#b06a1f", "#e0a657", "#6d3d0d"] },
+  sub: "polyetherimide", img: "pei",
+  swatch: { pattern: "gloss", colors: ["#b06a1f", "#e0a657", "#6d3d0d"] },
   hook: "An amber transparent plastic that passes aircraft cabin fire tests without any flame retardant added — the imide rings simply char instead of feeding the fire. It also takes repeated steam autoclaving.",
   stats: [["Tg", "217 °C"], ["LOI", "47%"], ["Smoke", "very low"]],
   uses: "Aircraft interior panels, sterilisable medical trays, high-temp 3D printing.",
@@ -567,6 +569,7 @@ window.MATERIALS = [
 {
   id: "terfenol", cat: "metal", name: "Terfenol-D",
   sub: "Tb–Dy–Fe",
+  img: "terfenol",
   swatch: { pattern: "grain", colors: ["#2d3136", "#848c94", "#171a1d"] },
   hook: "Put it in a magnetic field and it physically grows. The strain is small, but the force is enormous and the response is instant — an actuator with no moving parts.",
   stats: [["Strain", "~1000–2000 ppm"], ["Response", "microseconds"], ["Downside", "brittle, costly"]],
@@ -1135,7 +1138,8 @@ window.MATERIALS = [
 },
 {
   id: "tib2", cat: "ceramic", name: "Titanium diboride",
-  sub: "TiB₂", swatch: { pattern: "gloss", colors: ["#5a5f63", "#9aa0a5", "#32363a"] },
+  sub: "TiB₂", img: "tib2",
+  swatch: { pattern: "gloss", colors: ["#5a5f63", "#9aa0a5", "#32363a"] },
   hook: "A ceramic that conducts electricity better than titanium metal while being nearly as hard as boron carbide. That combination lets it be cut by EDM — you can spark-erode shapes into a ceramic, which is normally impossible.",
   stats: [["Hardness", "~25 GPa"], ["Resistivity", "~15 µΩ·cm"], ["Melting", "3230 °C"]],
   uses: "Aluminium smelter cathodes, crucibles for molten metal, armour, cutting tools.",
@@ -1284,6 +1288,7 @@ window.MATERIALS = [
 {
   id: "nextel", cat: "composite", name: "Nextel ceramic fabric",
   sub: "alumina–boria–silica fibre",
+  img: "nextel",
   swatch: { pattern: "weave", colors: ["#d6d1c7", "#f5f3ed", "#b0a99b"] },
   hook: "A ceramic you can weave, drape and sew. It takes a flame straight on, which is why it forms the outer layers of spacecraft shielding and furnace curtains.",
   stats: [["Continuous use", "1200–1400 °C"], ["Form", "cloth, sleeve, tape"], ["Handling", "like fabric"]],
@@ -1444,7 +1449,8 @@ window.MATERIALS = [
 },
 {
   id: "smc", cat: "composite", name: "Sheet moulding compound",
-  sub: "SMC, chopped glass in thickened polyester", swatch: { pattern: "speckle", colors: ["#6f756e", "#a4a99f", "#464b45"] },
+  sub: "SMC, chopped glass in thickened polyester", img: "smc",
+  swatch: { pattern: "speckle", colors: ["#6f756e", "#a4a99f", "#464b45"] },
   hook: "A leathery sheet of resin and chopped fibre that is pressed into a hot steel die and cured in two minutes. It is how a composite body panel gets made at car-plant rate instead of boat-yard rate, and it does not dent or rust.",
   stats: [["Cycle", "1–3 minutes"], ["Glass", "25–30%"], ["Finish", "paintable Class A"]],
   uses: "Truck and car body panels, electrical enclosures, lorry cabs, bathroom units.",
@@ -1510,7 +1516,8 @@ window.MATERIALS = [
 },
 {
   id: "g10", cat: "composite", name: "G10 / FR-4",
-  sub: "woven glass cloth in epoxy", swatch: { pattern: "weave", colors: ["#2f6b3a", "#5ea06b", "#1b3f22"] },
+  sub: "woven glass cloth in epoxy", img: "g10",
+  swatch: { pattern: "weave", colors: ["#2f6b3a", "#5ea06b", "#1b3f22"] },
   hook: "The green board every circuit lives on, and a superb structural material in its own right: dimensionally stable, an excellent insulator, and unbothered by water. FR-4 is the same thing with bromine added so it self-extinguishes.",
   stats: [["Dielectric strength", "~20 kV/mm"], ["Water absorption", "<0.1%"], ["Tg", "130–180 °C"]],
   uses: "Printed circuit boards, knife scales, transformer spacers, cryogenic supports.",
@@ -1542,7 +1549,8 @@ window.MATERIALS = [
 },
 {
   id: "fgm", cat: "composite", name: "Functionally graded material",
-  sub: "FGM, continuously varying composition", swatch: { pattern: "laminate", colors: ["#8d6a4a", "#d8d2cc", "#3c4147"] },
+  sub: "FGM, continuously varying composition", img: "fgm",
+  swatch: { pattern: "laminate", colors: ["#8d6a4a", "#d8d2cc", "#3c4147"] },
   hook: "Instead of bonding ceramic to metal and living with the stress at the interface, the composition is swept gradually from one to the other across a few millimetres. There is no interface left to delaminate — the idea came out of Japanese hypersonic work in the 1980s.",
   stats: [["Interface", "none — a gradient"], ["Made by", "powder grading, DED printing"], ["Origin", "Japan, 1984"]],
   uses: "Thermal barrier layers, rocket nozzles, cutting tools, graded bone implants.",
@@ -1576,7 +1584,8 @@ window.MATERIALS = [
 },
 {
   id: "clip", cat: "additive", name: "CLIP",
-  sub: "continuous liquid interface production", swatch: { pattern: "gloss", colors: ["#3a3f49", "#8b93a0", "#1e2228"] },
+  sub: "continuous liquid interface production", img: "clip",
+  swatch: { pattern: "gloss", colors: ["#3a3f49", "#8b93a0", "#1e2228"] },
   hook: "An oxygen-permeable window holds a dead zone of uncured resin a few tens of micrometres thick against the glass, so the part never sticks and never has to peel. It is drawn out of the vat continuously instead of layer by layer, which is why it looks like the Terminator scene.",
   stats: [["Speed", "25–100× laser SLA"], ["Dead zone", "~20–30 µm of liquid"], ["Layers", "no discrete peel step"]],
   uses: "Adidas midsoles, dental, automotive production parts, lattice-filled padding.",
@@ -1593,7 +1602,8 @@ window.MATERIALS = [
 },
 {
   id: "mjf", cat: "additive", name: "Multi Jet Fusion",
-  sub: "agent-jetted powder bed", swatch: { pattern: "powder", colors: ["#54585c", "#8d9196", "#303337"] },
+  sub: "agent-jetted powder bed", img: "mjf",
+  swatch: { pattern: "powder", colors: ["#54585c", "#8d9196", "#303337"] },
   hook: "Instead of tracing each layer with a laser, an inkjet head prints a fusing agent where the part should be and a detailing agent at its edges, then an infrared lamp sweeps across and the agent decides what melts. The whole layer fuses in one pass, and the edge sharpness comes from chemistry rather than optics.",
   stats: [["Layer time", "one IR pass"], ["Detail agent", "cools the boundary"], ["Parts", "denser than SLS, grey"]],
   uses: "Production nylon parts, medical devices, manifolds, short-run injection-moulding replacement.",
@@ -1659,7 +1669,8 @@ window.MATERIALS = [
 },
 {
   id: "volumetric", cat: "additive", name: "Volumetric printing",
-  sub: "computed axial lithography", swatch: { pattern: "gloss", colors: ["#b9a7d8", "#e8def7", "#7c6aa0"] },
+  sub: "computed axial lithography", img: "volumetric",
+  swatch: { pattern: "gloss", colors: ["#b9a7d8", "#e8def7", "#7c6aa0"] },
   hook: "A rotating vial of resin is lit with a computed sequence of projected images, so the accumulated dose reaches the curing threshold everywhere the object should be — all at once. The part simply appears in the liquid in seconds, with no layers, no supports and a smooth surface.",
   stats: [["Build time", "seconds to a minute"], ["Layers", "none at all"], ["Supports", "unnecessary"]],
   uses: "Soft and embedded objects, printing around existing inserts, optics, research-stage bioprinting.",
@@ -1692,7 +1703,8 @@ window.MATERIALS = [
 },
 {
   id: "contfibre", cat: "additive", name: "Continuous fibre printing",
-  sub: "tow laid inside a printed shell", swatch: { pattern: "ribbon", colors: ["#262a2e", "#6c737b", "#121416"] },
+  sub: "tow laid inside a printed shell", img: "contfibre",
+  swatch: { pattern: "ribbon", colors: ["#262a2e", "#6c737b", "#121416"] },
   hook: "Chopped fibre in a filament stiffens it a little; a continuous tow laid along the load path changes what the part is. A second nozzle feeds unbroken carbon or glass fibre inside the plastic shell as it prints, so reinforcement follows the stress rather than the raster.",
   stats: [["Fibre", "continuous, placed by path"], ["Stiffness", "several times unfilled"], ["Cost", "far below a layup"]],
   uses: "Tooling and fixtures, drone and robot structures, replacement brackets, low-volume load-bearing parts.",
@@ -1834,7 +1846,8 @@ window.MATERIALS = [
 },
 {
   id: "lattice", cat: "additive", name: "Printed lattice",
-  sub: "gyroid and octet truss structures", swatch: { pattern: "honeycomb", colors: ["#8a8f95", "#c3c8cd", "#5a5f65"] },
+  sub: "gyroid and octet truss structures", img: "lattice",
+  swatch: { pattern: "honeycomb", colors: ["#8a8f95", "#c3c8cd", "#5a5f65"] },
   hook: "Additive manufacturing made it possible to build the inside of a part, not just its outside. A gyroid or octet lattice puts material only where stress goes, so a bracket can lose two thirds of its mass and keep its stiffness — and the whole thing prints in one piece.",
   stats: [["Mass saving", "50–80%"], ["Cell size", "1–10 mm"], ["Stiffness scaling", "octet: linear with density"]],
   uses: "Aerospace brackets, heat exchangers, bone-ingrowth implants, impact liners.",
@@ -2159,7 +2172,8 @@ window.MATERIALS = [
 },
 {
   id: "primaloft", cat: "fibre", name: "Synthetic down",
-  sub: "fine crimped polyester microfibre", swatch: { pattern: "fiber", colors: ["#dfe3e7", "#ffffff", "#b2b8be"] },
+  sub: "fine crimped polyester microfibre", img: "primaloft",
+  swatch: { pattern: "fiber", colors: ["#dfe3e7", "#ffffff", "#b2b8be"] },
   hook: "Developed for the US Army when they wanted something that worked soaked. It gets about 70% of down's warmth per gram and keeps most of it when wet, because polyester holds no water — a straight trade of peak performance for reliability.",
   stats: [["vs down", "~70% warmth/weight"], ["Wet", "retains most loft"], ["Dries", "hours, not days"]],
   uses: "Insulated jackets and sleeping bags, work wear, marine clothing.",
@@ -2201,7 +2215,8 @@ window.MATERIALS = [
 },
 {
   id: "m5fibre", cat: "fibre", name: "M5 (PIPD)",
-  sub: "poly(pyridobisimidazole)", swatch: { pattern: "fiber", colors: ["#d8cf9e", "#f4efcf", "#a39a6a"] },
+  sub: "poly(pyridobisimidazole)", img: "m5fibre",
+  swatch: { pattern: "fiber", colors: ["#d8cf9e", "#f4efcf", "#a39a6a"] },
   hook: "The one rigid-rod fibre designed to hold hydrogen bonds sideways between its chains, so it resists being squashed instead of only being pulled. On paper it beat everything. It never left the pilot plant.",
   stats: [["Predicted modulus", "300–450 GPa"], ["Compression", "best of the rigid rods"], ["Status", "never commercialised"]],
   uses: "Armour and cable prototypes only; the benchmark everyone cites and nobody can buy.",
@@ -2209,7 +2224,8 @@ window.MATERIALS = [
 },
 {
   id: "basofil", cat: "fibre", name: "Melamine fibre",
-  sub: "melamine-formaldehyde, Basofil", swatch: { pattern: "fiber", colors: ["#e2ddd2", "#f8f6f1", "#b4ae9f"] },
+  sub: "melamine-formaldehyde, Basofil", img: "basofil",
+  swatch: { pattern: "fiber", colors: ["#e2ddd2", "#f8f6f1", "#b4ae9f"] },
   hook: "A thermoset spun as a fibre, which means it has no melting point to reach. It chars, holds its shape and keeps heat off the skin for a fraction of the price of aramid. It is simply too weak to be the strength of the garment.",
   stats: [["Limiting oxygen index", "~32%"], ["Continuous use", "190–200 °C"], ["Tenacity", "low, always blended"]],
   uses: "Firefighter hoods and liners, aircraft seat fire blocking, hot gas filter felts, mattress barriers.",
@@ -2226,7 +2242,8 @@ window.MATERIALS = [
 },
 {
   id: "silicafibre", cat: "fibre", name: "High-silica fibre",
-  sub: "acid-leached glass fibre, 96–99% SiO₂", swatch: { pattern: "weave", colors: ["#dcdfe2", "#f6f8f9", "#aeb3b8"] },
+  sub: "acid-leached glass fibre, 96–99% SiO₂", img: "silicafibre",
+  swatch: { pattern: "weave", colors: ["#dcdfe2", "#f6f8f9", "#aeb3b8"] },
   hook: "Ordinary glass cloth soaked in acid until everything except the silica has been washed out of it. What is left behaves like quartz but drapes like a textile: it takes a welding spark or a rocket exhaust and stays a cloth.",
   stats: [["Silica", "96–99%"], ["Continuous use", "~1000 °C"], ["Short excursions", "~1600 °C"]],
   uses: "Welding blankets and curtains, furnace gaskets, ablative liners, exhaust wrap.",
@@ -2353,7 +2370,8 @@ window.MATERIALS = [
 },
 {
   id: "kineticrope", cat: "fibre", name: "Kinetic recovery rope",
-  sub: "double-braid nylon, high stretch", swatch: { pattern: "fiber", colors: ["#b8572f", "#e08a5e", "#7d3519"] },
+  sub: "double-braid nylon, high stretch", img: "kineticrope",
+  swatch: { pattern: "fiber", colors: ["#b8572f", "#e08a5e", "#7d3519"] },
   hook: "A rope engineered to be stretchy, the opposite of every other rope here. The recovery vehicle takes a run-up, the rope stores that kinetic energy and hands it back, and a stuck truck floats out on a gentle pull where a steel cable would tear a bumper off.",
   stats: [["Stretch", "20–30% working"], ["Energy", "stores it, returns it"], ["Failure", "recoils — the dangerous part"]],
   uses: "Off-road vehicle recovery, agricultural and military towing; replaced snatch straps and steel cable.",
@@ -2387,7 +2405,8 @@ window.MATERIALS = [
 },
 {
   id: "triaxial", cat: "fabric", name: "Triaxial weave",
-  sub: "three yarn sets at 60°", swatch: { pattern: "weave", colors: ["#2f3337", "#6b7177", "#181a1c"] },
+  sub: "three yarn sets at 60°", img: "triaxial",
+  swatch: { pattern: "weave", colors: ["#2f3337", "#6b7177", "#181a1c"] },
   hook: "Ordinary cloth has two thread directions and no resistance to racking: pull it on the diagonal and the square becomes a parallelogram. Add a third set at sixty degrees and the shear has nowhere to go. The fabric holds its shape in its own plane.",
   stats: [["Yarn directions", "3 at 60°"], ["Shear stiffness", "far above biaxial"], ["Isotropy", "near-equal in plane"]],
   uses: "Sailcloth and kite skins, filter and screen fabric, balloon envelopes, composite reinforcement.",
@@ -2484,7 +2503,8 @@ window.MATERIALS = [
 },
 {
   id: "stitchbond", cat: "fabric", name: "Non-crimp fabric",
-  sub: "stitched multiaxial reinforcement", swatch: { pattern: "ribbon", colors: ["#3b3f44", "#787f87", "#1f2225"] },
+  sub: "stitched multiaxial reinforcement", img: "stitchbond",
+  swatch: { pattern: "ribbon", colors: ["#3b3f44", "#787f87", "#1f2225"] },
   hook: "Weaving makes every fibre go over and under, and a bent fibre is a weaker fibre. Here the layers are laid dead straight at whatever angles the part needs and held with a light stitching yarn, so the reinforcement is as strong as the fibre actually is.",
   stats: [["Crimp", "none"], ["Strength gain", "~10–15% over woven"], ["Angles", "0/90/±45 as laid"]],
   uses: "Wind turbine blades, boat hulls, automotive and rail composite panels.",
@@ -2722,7 +2742,8 @@ window.MATERIALS = [
 },
 {
   id: "erf", cat: "exotic", name: "Electrorheological fluid",
-  sub: "polarisable particles in oil", swatch: { pattern: "speckle", colors: ["#6b5e3c", "#a3946a", "#413923"] },
+  sub: "polarisable particles in oil", img: "erf",
+  swatch: { pattern: "speckle", colors: ["#6b5e3c", "#a3946a", "#413923"] },
   hook: "Magnetorheological fluid's electrical cousin: apply a few kilovolts per millimetre and the suspended particles chain up into columns, turning the oil into a paste in about a millisecond. Faster than MR fluid, but it needs high voltage and hates water.",
   stats: [["Response", "~1 ms"], ["Field", "1–5 kV/mm"], ["Yield stress", "~5 kPa"]],
   uses: "Fast clutches and valves, haptic devices, vibration dampers, research actuators.",
@@ -3031,7 +3052,8 @@ window.MATERIALS = [
 },
 {
   id: "granite", cat: "natural", name: "Granite surface plate",
-  sub: "lapped black diabase or granite", swatch: { pattern: "speckle", colors: ["#6f7378", "#b2b7bc", "#42464a"] },
+  sub: "lapped black diabase or granite", img: "granite",
+  swatch: { pattern: "speckle", colors: ["#6f7378", "#b2b7bc", "#42464a"] },
   hook: "The reference flat of the machine shop, and it beats cast iron on every count: it does not rust, a knock raises no burr, it damps vibration, and it barely moves with temperature. Grade AA is flat to about two microns over a metre.",
   stats: [["Flatness", "~2 µm/m, grade AA"], ["Damage mode", "chips, never burrs"], ["Damping", "far better than iron"]],
   uses: "Metrology surface plates, CMM bases, machine tool bedways, optical benches.",

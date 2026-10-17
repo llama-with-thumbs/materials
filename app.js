@@ -18,7 +18,8 @@ const KINDS = {
   structure: "molecular structure",
   product: "something made from it",
   process: "how it is made",
-  related: "a close relative"
+  related: "a close relative",
+  analog: "a similar example"
 };
 
 const CREDITS = window.CREDITS || {};

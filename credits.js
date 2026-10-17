@@ -667,13 +667,13 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Motor_tower_level_1_with_grommets_and_sorbothane_-_Connoisseur_BD1_Kit_Replinth_(6909790478).jpg"
   },
   "zylon": {
-    "file": "zylon.png",
-    "caption": "PBO: rigid rod-like chains, which is where the strength comes from",
-    "kind": "structure",
-    "title": "Poly(p-phenylene-2,6-benzobisoxazole).svg",
-    "artist": "Calvero",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Poly(p-phenylene-2,6-benzobisoxazole).svg"
+    "file": "zylon.jpg",
+    "caption": "A Level IIIA vest — Zylon was woven into vests like this until it was found to lose strength as it aged",
+    "kind": "analog",
+    "title": "NIJ LVLIIIA Kogelvrij vest, BA8001.jpg",
+    "artist": "PMullahaa",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NIJ_LVLIIIA_Kogelvrij_vest,_BA8001.jpg"
   },
   "lignostone": {
     "file": "lignostone.jpg",
@@ -730,13 +730,13 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Catalytic_Converter_Interior.jpg"
   },
   "torlon": {
-    "file": "torlon.png",
-    "caption": "Trimellitic anhydride chloride, the monomer PAI is built from",
-    "kind": "structure",
-    "title": "TMAC.png",
-    "artist": "Mr polymer",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:TMAC.png"
+    "file": "torlon.jpg",
+    "caption": "A sawn and turned Vespel part — polyimide, the chemical neighbour Torlon's amide-imide sits beside",
+    "kind": "analog",
+    "title": "Vespel.Werkstueck.P1149524.jpg",
+    "artist": "Bautsch",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vespel.Werkstueck.P1149524.jpg"
   },
   "fields": {
     "file": "fields.jpg",
@@ -811,13 +811,13 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Chips_TPU_con_eurocent.jpg"
   },
   "pps": {
-    "file": "pps.png",
-    "caption": "The PPS chain, as resolved by crystallography",
-    "kind": "structure",
-    "title": "Polyphenylene-sulfide-from-xtal-3D-sf.png",
-    "artist": "Ben Mills",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Polyphenylene-sulfide-from-xtal-3D-sf.png"
+    "file": "pps.jpg",
+    "caption": "Connector housings and crimp terminals — PPS is one of the resins moulded into parts that must survive a solder oven",
+    "kind": "analog",
+    "title": "Molexddpcsfamily.jpg",
+    "artist": "Inaxeon",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Molexddpcsfamily.jpg"
   },
   "mylar": {
     "file": "mylar.jpg",
@@ -2017,13 +2017,13 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Ana%27s_Zeolite_(393784940).jpg"
   },
   "mof": {
-    "file": "mof.png",
-    "caption": "The MOF-5 framework — metal nodes joined by organic linkers",
-    "kind": "structure",
-    "title": "MOF-5 Crystal Structure.png",
-    "artist": "Axs154",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MOF-5_Crystal_Structure.png"
+    "file": "mof.jpg",
+    "caption": "Activated carbon, powder and block — the adsorbent a MOF is built to out-perform, surface area for surface area",
+    "kind": "analog",
+    "title": "Activated Carbon.jpg",
+    "artist": "Ravedave (talk)",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Activated_Carbon.jpg"
   },
   "metalhydride": {
     "file": "metalhydride.jpg",
@@ -2476,13 +2476,13 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:RadiaCode-101_dosimeter-spectrometer_(front_view).jpg"
   },
   "hfo2": {
-    "file": "hfo2.png",
-    "caption": "Hafnium oxide's crystal structure",
-    "kind": "structure",
-    "title": "Hafnium(IV)-oxide-3D-polyhedra.png",
-    "artist": "Hoa112008",
+    "file": "hfo2.jpg",
+    "caption": "A dye-laser mirror, over 99% reflective at 550 nm — hafnium oxide is one of the standard high-index layers in coatings like this",
+    "kind": "analog",
+    "title": "Dielectric laser mirror from a dye laser.JPG",
+    "artist": "Zaereth (talk)",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Hafnium(IV)-oxide-3D-polyhedra.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Dielectric_laser_mirror_from_a_dye_laser.JPG"
   },
   "opticalfibre": {
     "file": "opticalfibre.jpg",
@@ -3419,5 +3419,203 @@ window.CREDITS = {
     "artist": "GalliumGorl",
     "license": "CC0",
     "page": "https://commons.wikimedia.org/wiki/File:Czochralski_Gallium_Oxide.png"
+  },
+  "pebax": {
+    "file": "pebax.jpg",
+    "caption": "Alpine ski boots — Pebax is one of the shell plastics boots like these are moulded in",
+    "kind": "analog",
+    "title": "Ski boots alpin large.jpg",
+    "artist": "Chianti90",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ski_boots_alpin_large.jpg"
+  },
+  "pei": {
+    "file": "pei.jpg",
+    "caption": "A 3D printer's build plate, powder-coated in PEI — prints grip it hot and let go cold",
+    "kind": "product",
+    "title": "DG 東莞 DongGuan 南城區 Nancheng 鴻福路 HongFu Road 東莞京東商場 JD Mall Electronics Showroom 3D printers December 2024 R12S 06 (cropped).jpg",
+    "artist": "NAS 238 WMMNO",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E6%9D%B1%E8%8E%9E%E4%BA%AC%E6%9D%B1%E5%95%86%E5%A0%B4_JD_Mall_Electronics_Showroom_3D_printers_December_2024_R12S_06_(cropped).jpg"
+  },
+  "terfenol": {
+    "file": "terfenol.jpg",
+    "caption": "A hydrophone going into the North Atlantic — this one is piezoelectric; Terfenol-D does the same job by stretching in a magnetic field",
+    "kind": "analog",
+    "title": "Hydrophone being lowered into the Atlantic.jpg",
+    "artist": "Dave Mellinger/Oregon State University",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hydrophone_being_lowered_into_the_Atlantic.jpg"
+  },
+  "tib2": {
+    "file": "tib2.jpg",
+    "caption": "A 400 kA aluminium reduction cell hall — titanium diboride is what the cathode surface is made of",
+    "kind": "analog",
+    "title": "Цех электролизных ванн для выплавки алюминия с силой тока 400 КА в промышленно-инновационном парке \"Юйлянь\" в г. Гунъи (Китай).jpg",
+    "artist": "Ischek",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A6%D0%B5%D1%85_%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BB%D0%B8%D0%B7%D0%BD%D1%8B%D1%85_%D0%B2%D0%B0%D0%BD%D0%BD_%D0%B4%D0%BB%D1%8F_%D0%B2%D1%8B%D0%BF%D0%BB%D0%B0%D0%B2%D0%BA%D0%B8_%D0%B0%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B8%D1%8F_%D1%81_%D1%81%D0%B8%D0%BB%D0%BE%D0%B9_%D1%82%D0%BE%D0%BA%D0%B0_400_%D0%9A%D0%90_%D0%B2_%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE-%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D0%BA%D0%B5_%22%D0%AE%D0%B9%D0%BB%D1%8F%D0%BD%D1%8C%22_%D0%B2_%D0%B3._%D0%93%D1%83%D0%BD%D1%8A%D0%B8_(%D0%9A%D0%B8%D1%82%D0%B0%D0%B9).jpg"
+  },
+  "nextel": {
+    "file": "nextel.jpg",
+    "caption": "A furnace lined with high-temperature insulation wool — Nextel's woven alumina cloth does this job where the lining must also be strong",
+    "kind": "analog",
+    "title": "Industrial furnace equipped with HTIW modules.jpg",
+    "artist": "ANDRITZ Maerz GmbH",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Industrial_furnace_equipped_with_HTIW_modules.jpg"
+  },
+  "smc": {
+    "file": "smc.jpg",
+    "caption": "A TVR 3000S — its body is hand-laid glass-reinforced plastic; sheet moulding compound is the same idea pressed out by the minute",
+    "kind": "analog",
+    "title": "1979 tvr 3000s.jpg",
+    "artist": "ColinMB at English Wikipedia",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:1979_tvr_3000s.jpg"
+  },
+  "g10": {
+    "file": "g10.jpg",
+    "caption": "A DVD player's circuit board — boards like this are cut from glass-cloth epoxy laminate, the electrical grade of G10",
+    "kind": "analog",
+    "title": "SEG DVD 430 - Printed circuit board-4276.jpg",
+    "artist": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SEG_DVD_430_-_Printed_circuit_board-4276.jpg"
+  },
+  "fgm": {
+    "file": "fgm.jpg",
+    "caption": "A V2500 turbine guide vane, its thermal barrier just plasma-sprayed on — coatings like this are where graded composition earns its keep",
+    "kind": "analog",
+    "title": "Repair process for a V2500 high-pressure turbine guide vane (8).jpg",
+    "artist": "Olivier Cleynen",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Repair_process_for_a_V2500_high-pressure_turbine_guide_vane_(8).jpg"
+  },
+  "clip": {
+    "file": "clip.jpg",
+    "caption": "A Mammoth stereolithography machine — the same resin vat and laser; CLIP replaces the layers with one continuous pull",
+    "kind": "analog",
+    "title": "Mammoth Stereolithography.jpg",
+    "artist": "Materialise NV",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mammoth_Stereolithography.jpg"
+  },
+  "mjf": {
+    "file": "mjf.jpg",
+    "caption": "Powder-bed fusion, drawn — Multi Jet Fusion works this way, but jets a fusing agent and heats with a lamp",
+    "kind": "analog",
+    "title": "MIT 3.044 Materials Processing, Spring 2005 - Selective Laser Sintering - 4153098317.jpg",
+    "artist": "mitopencourseware",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MIT_3.044_Materials_Processing,_Spring_2005_-_Selective_Laser_Sintering_-_4153098317.jpg"
+  },
+  "volumetric": {
+    "file": "volumetric.jpg",
+    "caption": "A cycloidal drive grown by stereolithography — volumetric printing cures the same resin, the whole object at once",
+    "kind": "analog",
+    "title": "Stereolithography cycloidal drive.JPG",
+    "artist": "Clemenspool",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stereolithography_cycloidal_drive.JPG"
+  },
+  "contfibre": {
+    "file": "contfibre.jpg",
+    "caption": "Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell",
+    "kind": "process",
+    "title": "U S Marines with 3d Marine Logistics Group showcase 3D Printing Capabilities to the U S Coast Guard at CJLOTS 26 (9832271).jpg",
+    "artist": "U.S. Marine Corps photo by Lance Cpl. Marcus Henson",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:U_S_Marines_with_3d_Marine_Logistics_Group_showcase_3D_Printing_Capabilities_to_the_U_S_Coast_Guard_at_CJLOTS_26_(9832271).jpg"
+  },
+  "lattice": {
+    "file": "lattice.jpg",
+    "caption": "A printed biodegradable bone scaffold going in, in Assam — the open structure is there for bone to grow into",
+    "kind": "analog",
+    "title": "3D-Printed Biodegradable Human Bone Scaffold 4.jpg",
+    "artist": "Donvikro",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:3D-Printed_Biodegradable_Human_Bone_Scaffold_4.jpg"
+  },
+  "primaloft": {
+    "file": "primaloft.jpg",
+    "caption": "An insulated cycling gilet — PrimaLoft wadding under a windproof shell",
+    "kind": "product",
+    "title": "Adidas belgements primaloft cycling gilet.jpg",
+    "artist": "Adenosine Triphosphate",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Adidas_belgements_primaloft_cycling_gilet.jpg"
+  },
+  "m5fibre": {
+    "file": "m5fibre.jpg",
+    "caption": "Aramid filaments about 10 µm across — M5 is the rigid-rod fibre that was meant to beat these",
+    "kind": "analog",
+    "title": "Aramid fiber2.jpg",
+    "artist": "Cjp24",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aramid_fiber2.jpg"
+  },
+  "basofil": {
+    "file": "basofil.jpg",
+    "caption": "A firefighter's hood, Toronto Fire Service — melamine fibre is blended into exactly this kind of knit",
+    "kind": "analog",
+    "title": "TFS Nomex Hood.JPG",
+    "artist": "The original uploader was Sherurcij at English Wikipedia.",
+    "license": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:TFS_Nomex_Hood.JPG"
+  },
+  "silicafibre": {
+    "file": "silicafibre.jpg",
+    "caption": "A bundle of glass filaments — high-silica fibre is this, leached in acid until almost nothing but silica is left",
+    "kind": "analog",
+    "title": "Glass fiber bundle.jpg",
+    "artist": "Acheolg",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glass_fiber_bundle.jpg"
+  },
+  "kineticrope": {
+    "file": "kineticrope.jpg",
+    "caption": "A fuse shackle for vehicle recovery, built to break first — the weak link that goes in line with a kinetic rope",
+    "kind": "analog",
+    "title": "Maxtrax Fuse Shackle - Recovery Gear.jpg",
+    "artist": "Tony Webster",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maxtrax_Fuse_Shackle_-_Recovery_Gear.jpg"
+  },
+  "triaxial": {
+    "file": "triaxial.jpg",
+    "caption": "An open leno-type weave — triaxial takes the idea further, with three yarn sets at 60°",
+    "kind": "analog",
+    "title": "Woven Fabric (ST177) - MoMu Antwerp.jpg",
+    "artist": "Unknown",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Woven_Fabric_(ST177)_-_MoMu_Antwerp.jpg"
+  },
+  "stitchbond": {
+    "file": "stitchbond.jpg",
+    "caption": "A glass–aramid hybrid reinforcement, 580 g/m² — non-crimp fabric is this job with the yarns kept dead straight",
+    "kind": "analog",
+    "title": "Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg",
+    "artist": "Photo: User Cjp24; edited by User Jaybear",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glass-aramid-hybrid-area_used-for-reinforced-plastics.jpg"
+  },
+  "erf": {
+    "file": "erf.png",
+    "caption": "Magnetorheological fluid stiffening in a field — the electric cousin behaves the same way, with volts instead of magnets",
+    "kind": "analog",
+    "title": "MRF-Effekt-static-crop.png",
+    "artist": "INVENTUS Engineering GmbH",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MRF-Effekt-static-crop.png"
+  },
+  "granite": {
+    "file": "granite.jpg",
+    "caption": "A cast-iron surface plate, 250 × 250 mm — the older material for the same lapped reference surface",
+    "kind": "analog",
+    "title": "Surface plate.jpg",
+    "artist": "Rrudzik",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Surface_plate.jpg"
   }
 };

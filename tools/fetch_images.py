@@ -2,7 +2,7 @@
 
 Usage: python -I tools/fetch_images.py
 Reads tools/images.txt  ->  id|Commons File name|caption[|kind]
-kind is photo (default), structure, product, process or related.
+kind is photo (default), structure, product, process, related or analog.
 """
 import sys, os, re, json, time, html, urllib.request, urllib.parse
 sys.stdout.reconfigure(encoding="utf-8")

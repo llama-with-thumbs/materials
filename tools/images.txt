@@ -72,14 +72,14 @@ yag|Yag-rod.jpg|An Nd:YAG laser rod
 batio3|BaTiO3ceramics.JPG|Barium titanate ceramic — the dielectric inside billions of capacitors
 tbc|Coloured ceramic thermal barrier coating on exhaust component.jpg|A ceramic thermal barrier coating on an exhaust component
 sorbothane|Motor tower level 1 with grommets and sorbothane - Connoisseur BD1 Kit Replinth (6909790478).jpg|Sorbothane grommets isolating a turntable motor|product
-zylon|Poly(p-phenylene-2,6-benzobisoxazole).svg|PBO: rigid rod-like chains, which is where the strength comes from|structure
+zylon|NIJ LVLIIIA Kogelvrij vest, BA8001.jpg|A Level IIIA vest — Zylon was woven into vests like this until it was found to lose strength as it aged|analog
 lignostone|Lignoston.jpg|Densified beech laminate|photo
 parylene|CPI Microlyth Pacemaker.jpg|A cardiac pacemaker — parylene C is the standard conformal coating on implanted electronics|product
 vectran|Level 3A glove.jpg|A cut-resistant glove — Vectran is one of the yarns knitted into this class|related
 metglas|MeltSpinner.png|Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise|process
 maraging|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Competition épée blades are maraging steel — it bends far before it breaks|product
 cordierite|Catalytic Converter Interior.jpg|Inside a catalytic converter: the extruded cordierite honeycomb|product
-torlon|TMAC.png|Trimellitic anhydride chloride, the monomer PAI is built from|structure
+torlon|Vespel.Werkstueck.P1149524.jpg|A sawn and turned Vespel part — polyimide, the chemical neighbour Torlon's amide-imide sits beside|analog
 fields|Wood's alloy 2.JPG|Wood's metal, Field's older cadmium-bearing cousin, melting in hot water|related
 bakelite|Bakelite radio.jpg|A Bakelite radio cabinet|product
 phenolic|Textolite.jpg|Phenolic cotton laminate — cloth and resin pressed into a solid|photo
@@ -88,7 +88,7 @@ epdm|EPDM foil.jpg|EPDM membrane|photo
 nbr|Disposable nitrile glove.jpg|Nitrile gloves|product
 br|Golfballinsiderp.jpg|A golf ball core — polybutadiene, chosen purely for rebound|product
 tpu|Chips TPU con eurocent.jpg|TPU pellets, with a coin for scale|photo
-pps|Polyphenylene-sulfide-from-xtal-3D-sf.png|The PPS chain, as resolved by crystallography|structure
+pps|Molexddpcsfamily.jpg|Connector housings and crimp terminals — PPS is one of the resins moulded into parts that must survive a solder oven|analog
 mylar|Myla32rp.jpg|Aluminised BoPET film|photo
 pp|Mint box polypropylene lid.JPG|A living hinge moulded in one piece with the box|product
 memoryfoam|MemoryFoam-slow.jpg|Viscoelastic foam returning slowly after a hand is lifted|photo
@@ -222,7 +222,7 @@ oobleck|Corn speaker.jpg|A cornstarch suspension standing up on a speaker cone
 thermoelectric|Thermoelectric Seebeck power module.jpg|A thermoelectric module
 magnetocaloric|Gadolinium (Element - 64).jpg|Gadolinium
 zeolite|Ana's Zeolite (393784940).jpg|Zeolite crystals
-mof|MOF-5 Crystal Structure.png|The MOF-5 framework — metal nodes joined by organic linkers|structure
+mof|Activated Carbon.jpg|Activated carbon, powder and block — the adsorbent a MOF is built to out-perform, surface area for surface area|analog
 metalhydride|Metal Hydride Storage Canisters.jpg|Metal hydride hydrogen storage canisters|product
 pcm|Bicycle chain in paraffin wax just about to solidify.jpg|Paraffin wax at the moment of freezing
 vip|Va-Q-vip 2.jpg|A vacuum insulation panel
@@ -273,7 +273,7 @@ caf2|Fluorite crystal.jpg|Fluorite — calcium fluoride in its mineral form|rela
 znse|2 CVD ZnSe domes and lenses Crystaltechno.jpg|CVD zinc selenide optics
 yagce|White LED.png|A white LED — a blue chip under a dot of YAG:Ce phosphor|product
 scintillator|RadiaCode-101 dosimeter-spectrometer (front view).jpg|A scintillation spectrometer — crystal coupled to a photodetector|product
-hfo2|Hafnium(IV)-oxide-3D-polyhedra.png|Hafnium oxide's crystal structure|structure
+hfo2|Dielectric laser mirror from a dye laser.JPG|A dye-laser mirror, over 99% reflective at 550 nm — hafnium oxide is one of the standard high-index layers in coatings like this|analog
 opticalfibre|MoST Fiber Optic Cable Display.jpg|Optical fibre carrying light|product
 pcf|Photonic-crystal-fiber-from-NRL.jpg|Photonic crystal fibre in cross-section — the lattice of air holes
 oled|LG gram Pro 16 (2024) 16Z90SPG OLED DISPLAY RGB DOT MATRIX, OLED PANEL MADE BY SAMSUNG DISPLAY.jpg|OLED subpixels, magnified|product
@@ -378,3 +378,25 @@ spruce|Violin Top and back plates.jpg|A carved violin top in spruce, beside its 
 ggg|GAGG-Ce.jpg|A GAGG:Ce scintillator crystal — a garnet grown the same way as GGG|related
 bbo|Beam output from OPA.jpg|The output of an optical parametric amplifier — BBO is the crystal that splits the beam|related
 ga2o3|Czochralski Gallium Oxide.png|Pulling gallium oxide from the melt by the Czochralski method|process
+pebax|Ski boots alpin large.jpg|Alpine ski boots — Pebax is one of the shell plastics boots like these are moulded in|analog
+pei|DG 東莞 DongGuan 南城區 Nancheng 鴻福路 HongFu Road 東莞京東商場 JD Mall Electronics Showroom 3D printers December 2024 R12S 06 (cropped).jpg|A 3D printer's build plate, powder-coated in PEI — prints grip it hot and let go cold|product
+terfenol|Hydrophone being lowered into the Atlantic.jpg|A hydrophone going into the North Atlantic — this one is piezoelectric; Terfenol-D does the same job by stretching in a magnetic field|analog
+tib2|Цех электролизных ванн для выплавки алюминия с силой тока 400 КА в промышленно-инновационном парке "Юйлянь" в г. Гунъи (Китай).jpg|A 400 kA aluminium reduction cell hall — titanium diboride is what the cathode surface is made of|analog
+nextel|Industrial furnace equipped with HTIW modules.jpg|A furnace lined with high-temperature insulation wool — Nextel's woven alumina cloth does this job where the lining must also be strong|analog
+smc|1979 tvr 3000s.jpg|A TVR 3000S — its body is hand-laid glass-reinforced plastic; sheet moulding compound is the same idea pressed out by the minute|analog
+g10|SEG DVD 430 - Printed circuit board-4276.jpg|A DVD player's circuit board — boards like this are cut from glass-cloth epoxy laminate, the electrical grade of G10|analog
+fgm|Repair process for a V2500 high-pressure turbine guide vane (8).jpg|A V2500 turbine guide vane, its thermal barrier just plasma-sprayed on — coatings like this are where graded composition earns its keep|analog
+clip|Mammoth Stereolithography.jpg|A Mammoth stereolithography machine — the same resin vat and laser; CLIP replaces the layers with one continuous pull|analog
+mjf|MIT 3.044 Materials Processing, Spring 2005 - Selective Laser Sintering - 4153098317.jpg|Powder-bed fusion, drawn — Multi Jet Fusion works this way, but jets a fusing agent and heats with a lamp|analog
+volumetric|Stereolithography cycloidal drive.JPG|A cycloidal drive grown by stereolithography — volumetric printing cures the same resin, the whole object at once|analog
+contfibre|U S Marines with 3d Marine Logistics Group showcase 3D Printing Capabilities to the U S Coast Guard at CJLOTS 26 (9832271).jpg|Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell|process
+lattice|3D-Printed Biodegradable Human Bone Scaffold 4.jpg|A printed biodegradable bone scaffold going in, in Assam — the open structure is there for bone to grow into|analog
+primaloft|Adidas belgements primaloft cycling gilet.jpg|An insulated cycling gilet — PrimaLoft wadding under a windproof shell|product
+m5fibre|Aramid fiber2.jpg|Aramid filaments about 10 µm across — M5 is the rigid-rod fibre that was meant to beat these|analog
+basofil|TFS Nomex Hood.JPG|A firefighter's hood, Toronto Fire Service — melamine fibre is blended into exactly this kind of knit|analog
+silicafibre|Glass fiber bundle.jpg|A bundle of glass filaments — high-silica fibre is this, leached in acid until almost nothing but silica is left|analog
+kineticrope|Maxtrax Fuse Shackle - Recovery Gear.jpg|A fuse shackle for vehicle recovery, built to break first — the weak link that goes in line with a kinetic rope|analog
+triaxial|Woven Fabric (ST177) - MoMu Antwerp.jpg|An open leno-type weave — triaxial takes the idea further, with three yarn sets at 60°|analog
+stitchbond|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A glass–aramid hybrid reinforcement, 580 g/m² — non-crimp fabric is this job with the yarns kept dead straight|analog
+erf|MRF-Effekt-static-crop.png|Magnetorheological fluid stiffening in a field — the electric cousin behaves the same way, with volts instead of magnets|analog
+granite|Surface plate.jpg|A cast-iron surface plate, 250 × 250 mm — the older material for the same lapped reference surface|analog
