@@ -74,8 +74,8 @@ tbc|Coloured ceramic thermal barrier coating on exhaust component.jpg|A ceramic 
 sorbothane|Motor tower level 1 with grommets and sorbothane - Connoisseur BD1 Kit Replinth (6909790478).jpg|Sorbothane grommets isolating a turntable motor|product
 zylon|Poly(p-phenylene-2,6-benzobisoxazole).svg|PBO: rigid rod-like chains, which is where the strength comes from|structure
 lignostone|Lignoston.jpg|Densified beech laminate|photo
-parylene|Parylene repeat units.JPG|The parylene family — N, C and D repeat units|structure
-vectran|Vectran.svg|Vectran's aromatic polyester chain|structure
+parylene|CPI Microlyth Pacemaker.jpg|A cardiac pacemaker — parylene C is the standard conformal coating on implanted electronics|product
+vectran|Level 3A glove.jpg|A cut-resistant glove — Vectran is one of the yarns knitted into this class|related
 metglas|MeltSpinner.png|Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise|process
 maraging|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Competition épée blades are maraging steel — it bends far before it breaks|product
 cordierite|Catalytic Converter Interior.jpg|Inside a catalytic converter: the extruded cordierite honeycomb|product
@@ -207,7 +207,7 @@ geotextile|Geotextile-GSI.JPG|Geotextile
 down|Hungarian Goose Down.jpg|Goose down clusters
 horsehair|Bow, violin (AM 1998.60.381-2).jpg|A violin bow — the ribbon is horsehair|product
 catgut|Catgut Plain 01.JPG|Catgut
-graphene|Graphen.jpg|Graphene's hexagonal carbon lattice|structure
+graphene|Sample of graphene (1~3 layers).jpg|A commercial graphene sample — one to three layers, 98% carbon|photo
 cntyarn|CSIRO ScienceImage 988 Carbon nanotubes spun to form a yarn.jpg|Carbon nanotubes being spun into a yarn|process
 aerographite|TUHH CAU newexampleAerographite Netwok.png|Aerographite's network of hollow carbon tubes
 ybco|Tile levitates by Meissner effect.jpeg|A high-temperature superconductor levitating over a magnet track
@@ -331,3 +331,50 @@ ebm|Xilloc Patient Specific Implant Titanium.png|A patient-specific titanium imp
 castablewax|Hand-carved wax model.jpg|A hand-carved wax model — castable resin replaced this step|related
 soluble|Support structure in 3D printing.jpg|Support structure on a printed part; soluble versions wash off|related
 pa12powder|Sunderland, National Glass Centre, Exhibit 1, '3D printed nylon' - geograph.org.uk - 7576037.jpg|A printed nylon object|product
+cellacetate|Cutlery made from Cellulose Acetate Biograde.JPG|Cutlery moulded in cellulose acetate|product
+gummetal|Watch balance spring and human hair.jpg|A watch balance spring beside a human hair — Gum Metal is one of the alloys wound into these|related
+al7075|Black Diamond Carabiners.JPG|Climbing carabiners — hot-forged 7075 is the standard alloy|product
+ss316l|Orbital Welding 316L Stainless Steel.jpg|Orbital welding 316L tube — the low-carbon grade exists so a weld like this does not sensitise|product
+cupronickel|Two stacks of half dollars, one silver, one clad - effects of the Coinage Act 1965.jpg|Clad half dollars beside silver ones — the reddish copper core shows at the edge of every post-1965 coin|product
+babbitt|Miba Thrust Bearing.jpg|A fluid-film thrust bearing for a gas turbine — the pads carry a Babbitt lining|product
+macor|60kV Feedthrough.jpg|A 60 kV vacuum feedthrough — the insulator is the kind of part Macor gets machined into|related
+chalcogenide|CD-RW bottom.jpg|The underside of a CD-RW — the recording layer is a chalcogenide that switches between glass and crystal|product
+zblan|Doped glasses.jpg|ZBLAN samples: praseodymium-doped, erbium-doped and undoped|photo
+isographite|Graphite crucibles.jpg|Graphite crucibles, good to about 1500 °C|product
+azs|Refractory bricks lining.jpg|A refractory lining inside a rotary kiln — fused-cast AZS does this job where molten glass would eat ordinary brick|related
+nomexcore|Composite honeycomb exhaust duct (2).jpg|A sectioned composite exhaust duct, showing the honeycomb core between its skins|product
+forgedcomposite|Forged Carbon Fiber Mat for Lamborghini HURACAN.jpg|Forged composite — a mat of chopped carbon tow, pressed to shape|photo
+pvcfoam|Begutachtung eines Rotorblattes.JPG|A wind turbine blade under inspection — the shells are foam-cored sandwich|product
+sls|The Power of Making at the Victoria and Albert Museum, London.jpg|A laser-sintered nylon bicycle — the first workable one, grown in fused powder|product
+polyjet|Objet 260 Stratasys.jpg|A Stratasys Objet machine — the head jets photopolymer and cures it line by line|process
+twophoton|Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg|A 2 mm model of an 1871 microscope, written by two-photon lithography|product
+sandprint|SandMoldCopeDragCores.jpg|Cope, drag and cores of a sand mould — printing makes these without a pattern|related
+boundmetal|INDO-MIM Automotive Sector .jpg|Metal injection moulded parts — sinter-based printing uses the same feedstock and the same furnace|related
+nyloncf|3D Printing Materials (16863368275).jpg|Filament spools — the carbon-filled grades are the flat black ones|related
+slaresin|SLA produced part.JPG|A part grown in a vat of photopolymer|product
+alsi10mg|FZU 3Dprinting 1.jpg|Inside a laser powder bed machine, mid-build|process
+scalmalloy|Mig-29 on landing.jpg|The MiG-29 — its welded airframe was the first production use of scandium in aluminium|related
+printsilicone|Silicone 3d print with support material.jpg|A pneumatic actuator printed in liquid silicone, still in its clear support|photo
+pprope|Failedrope1.jpg|A polypropylene rope after UV exposure, beside a new one — sunlight is this fibre's weakness|product
+webbing|Water-knot-webbing-loose-ABOK-296.jpg|Tubular webbing joined with a water knot|photo
+monofil|String trimmer head-insert style.jpg|A fixed-line trimmer head — nylon monofilament doing the cutting|product
+emifabric|Isotoner touch gloves BB E86 jeh.jpg|Touchscreen gloves — conductive yarn knitted into the fingertips|product
+technora|Tandriem BMW F 650 CS02.JPG|A toothed belt final drive — aramid cords carry the load inside the rubber|product
+preoxpan|Fire-blanket-on-display.jpg|A fire blanket — oxidised PAN felt is one of the two cloths used for these, glass the other|related
+ptfethread|Velodrome Marseille Stadium by Taiyo Europe.JPG|A stadium membrane roof — seams this size are sewn with PTFE thread|product
+kuralon|Sample of Polyvinyl alcohol.jpg|Polyvinyl alcohol resin — Kuralon is this polymer, wet-spun into fibre|related
+rawhide|Rawhide mallet in Tuntorp 3.jpg|A rawhide mallet — a face that strikes hard without marking|product
+laidrope|Cordage chantier de l'Hermione Rochefort sur Mer.jpg|Three-strand hemp rope at the Hermione dockyard|photo
+doublebraid|Tree Climbing Arborist.jpg|An arborist on a climbing line, the job double braid was made for|product
+twelvestrand|Soft shackles.JPG|Soft shackles — a loop of hollow braid spliced into itself|product
+braidedline|Fishing lines 2025 G1.jpg|Eight-strand braided line, 0.15 mm|photo
+needlepunch|Needle-felt-making-1080204.jpg|Needle felting by hand in Kyrgyzstan — barbed needles tangling fibre into cloth|process
+woven3d|Paris Air Show 2017 LEAP fan.jpg|A LEAP engine fan — each blade is a 3D-woven preform, injected with resin|product
+laminateshell|Early Gore-Tex hooded rain jacket.jpg|An MSR Gore-Tex jacket from about 1976, one of the first laminate shells|product
+etextile|Wireless electronic textiles.jpg|Inductors printed straight onto fabric, powering circuits without a wire|photo
+dea|Soft robot locomotion.jpg|A soft robot built for colonoscopy — the job DEAs are aimed at; this one runs on air, not volts|related
+strontiumal|Photoluminescent Exit Sign.jpg|A photoluminescent exit sign, charged by room light|product
+spruce|Violin Top and back plates.jpg|A carved violin top in spruce, beside its maple back|product
+ggg|GAGG-Ce.jpg|A GAGG:Ce scintillator crystal — a garnet grown the same way as GGG|related
+bbo|Beam output from OPA.jpg|The output of an optical parametric amplifier — BBO is the crystal that splits the beam|related
+ga2o3|Czochralski Gallium Oxide.png|Pulling gallium oxide from the melt by the Czochralski method|process

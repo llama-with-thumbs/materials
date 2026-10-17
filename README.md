@@ -87,43 +87,36 @@ wider than 640 px, then picking by eye from the top few results.
 
 ## Images and licensing
 
-333 of the 402 entries carry an image from Wikimedia Commons. Each remains under its own licence
+380 of the 402 entries carry an image from Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
 the lightbox. If you redistribute this page, keep those credits.
 
-218 are photographs of the material itself. 115 are not, and say so in the corner of the image:
+226 are photographs of the material itself. 154 are not, and say so in the corner of the image:
 
-- **92 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
-  fuel rod for Zircaloy, a violin bow for horsehair, a deployed curtain airbag for one-piece
-  weaving, the Denver airport roof for PTFE-coated glass fabric, a zirconia bridge for ceramic vat
-  printing, a titanium implant for electron beam melting.
-- **9 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
-  optical calcium fluoride, a superhydrophobic droplet for SLIPS, Eusebio Sempere's rod sculpture
-  for acoustic metamaterials, an ABS spool for ASA, a hand-carved wax model for castable resin, a
-  machined copper nozzle for GRCop-42, ordinary printed supports for soluble ones.
-- **8 show a molecular or crystal structure** — Zylon, Vectran, Torlon, parylene, PPS, graphene,
-  MOF-5, hafnium oxide.
-- **6 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
-  spraying for Nafion, and the loom or knitting machine itself for Jacquard weave, warp knitting
+- **117 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+  fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
+  Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for SLS,
+  a LEAP engine fan for 3D woven preforms, soft shackles for twelve-strand hollow braid, and a
+  2 mm model of an 1871 microscope for two-photon polymerisation.
+- **22 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
+  optical calcium fluoride, a superhydrophobic droplet for SLIPS, metal injection moulded parts for
+  sinter-based printing, a MiG-29 for Scalmalloy, a GAGG:Ce scintillator for GGG, and a
+  cut-resistant glove for Vectran.
+- **10 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
+  spraying for Nafion, a laser powder bed machine mid-build for AlSi10Mg, hand needle felting for
+  needle-punched felt, and the loom or knitting machine itself for Jacquard weave, warp knitting
   and whole-garment knitting.
+- **5 show a molecular or crystal structure** — Zylon, Torlon, PPS, MOF-5 and hafnium oxide, where
+  no photograph of the material or of anything made from it could be found.
 
-69 materials have no usable image at all and carry a drawn SVG swatch, generated in `app.js` and
+22 materials have no usable image at all and carry a drawn SVG swatch, generated in `app.js` and
 labelled "illustration": it approximates the appearance and is not a photograph of a real sample.
-They are Pebax, PEI (Ultem), Cellulose acetate, Gum Metal, Terfenol-D, 7075 aluminium, 316L stainless,
-Cupronickel, Babbitt metal, Macor, Chalcogenide glass, ZBLAN fluoride glass, Titanium diboride,
-Isostatic graphite, Fused-cast AZS, Nextel ceramic fabric, Nomex honeycomb, Sheet moulding
-compound, Forged composite, Structural PVC foam core, G10 / FR-4, Functionally graded material,
-CLIP, Selective laser sintering, Multi Jet Fusion, Material jetting, Two-photon polymerisation,
-Volumetric printing, Printed sand moulds, Continuous fibre printing, Sinter-based metal
-printing, Carbon-filled filament, Photopolymer resin, AlSi10Mg, Scalmalloy, Printable silicone,
-Printed lattice, Polypropylene rope, Tubular webbing, Nylon monofilament, Synthetic down,
-Conductive fabric, Technora, M5 (PIPD), Melamine fibre, Oxidised PAN, High-silica fibre, PTFE
-thread, PVA fibre, Rawhide, Three-strand laid rope, Double braid, Twelve-strand hollow braid,
-Braided fishing line, Kinetic recovery rope, Triaxial weave, Needle-punched felt, Non-crimp
-fabric, 3D woven preform, Three-layer laminate, E-textile, Dielectric elastomer actuator,
-Electrorheological fluid, Strontium aluminate, Spruce tonewood, Granite surface plate,
-Gadolinium gallium garnet, BBO crystal and Gallium oxide.
+They are Pebax, PEI (Ultem), Terfenol-D, Titanium diboride, Nextel ceramic fabric, Sheet moulding
+compound, G10 / FR-4, Functionally graded material, CLIP, Multi Jet Fusion, Volumetric printing,
+Continuous fibre printing, Printed lattice, Synthetic down, M5 (PIPD), Melamine fibre,
+High-silica fibre, Kinetic recovery rope, Triaxial weave, Non-crimp fabric, Electrorheological
+fluid and Granite surface plate.
 
 Two photographs are representative rather than exact and say so in their captions: the Vulkollan
 card shows a cast polyurethane wheel of the same family, and the AlON card shows transparent

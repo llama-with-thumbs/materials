@@ -686,21 +686,21 @@ window.CREDITS = {
   },
   "parylene": {
     "file": "parylene.jpg",
-    "caption": "The parylene family — N, C and D repeat units",
-    "kind": "structure",
-    "title": "Parylene repeat units.JPG",
-    "artist": "Senkej",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Parylene_repeat_units.JPG"
+    "caption": "A cardiac pacemaker — parylene C is the standard conformal coating on implanted electronics",
+    "kind": "product",
+    "title": "CPI Microlyth Pacemaker.jpg",
+    "artist": "Brian Adducci",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CPI_Microlyth_Pacemaker.jpg"
   },
   "vectran": {
-    "file": "vectran.png",
-    "caption": "Vectran's aromatic polyester chain",
-    "kind": "structure",
-    "title": "Vectran.svg",
-    "artist": "Doxepine",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Vectran.svg"
+    "file": "vectran.jpg",
+    "caption": "A cut-resistant glove — Vectran is one of the yarns knitted into this class",
+    "kind": "related",
+    "title": "Level 3A glove.jpg",
+    "artist": "Lsmit301",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Level_3A_glove.jpg"
   },
   "metglas": {
     "file": "metglas.png",
@@ -1883,12 +1883,12 @@ window.CREDITS = {
   },
   "graphene": {
     "file": "graphene.jpg",
-    "caption": "Graphene's hexagonal carbon lattice",
-    "kind": "structure",
-    "title": "Graphen.jpg",
-    "artist": "AlexanderAlUS",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Graphen.jpg"
+    "caption": "A commercial graphene sample — one to three layers, 98% carbon",
+    "kind": "photo",
+    "title": "Sample of graphene (1~3 layers).jpg",
+    "artist": "Leiem",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sample_of_graphene_(1~3_layers).jpg"
   },
   "cntyarn": {
     "file": "cntyarn.jpg",
@@ -2996,5 +2996,428 @@ window.CREDITS = {
     "artist": "Michael Garlick",
     "license": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sunderland,_National_Glass_Centre,_Exhibit_1,_%273D_printed_nylon%27_-_geograph.org.uk_-_7576037.jpg"
+  },
+  "cellacetate": {
+    "file": "cellacetate.jpg",
+    "caption": "Cutlery moulded in cellulose acetate",
+    "kind": "product",
+    "title": "Cutlery made from Cellulose Acetate Biograde.JPG",
+    "artist": "F. Kesselring, FKuR Willich",
+    "license": "CC BY-SA 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:Cutlery_made_from_Cellulose_Acetate_Biograde.JPG"
+  },
+  "gummetal": {
+    "file": "gummetal.jpg",
+    "caption": "A watch balance spring beside a human hair — Gum Metal is one of the alloys wound into these",
+    "kind": "related",
+    "title": "Watch balance spring and human hair.jpg",
+    "artist": "Sandbachfizzy",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Watch_balance_spring_and_human_hair.jpg"
+  },
+  "al7075": {
+    "file": "al7075.jpg",
+    "caption": "Climbing carabiners — hot-forged 7075 is the standard alloy",
+    "kind": "product",
+    "title": "Black Diamond Carabiners.JPG",
+    "artist": "Eric T Gunther",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_Diamond_Carabiners.JPG"
+  },
+  "ss316l": {
+    "file": "ss316l.jpg",
+    "caption": "Orbital welding 316L tube — the low-carbon grade exists so a weld like this does not sensitise",
+    "kind": "product",
+    "title": "Orbital Welding 316L Stainless Steel.jpg",
+    "artist": "4X4 Blazer 1776",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Orbital_Welding_316L_Stainless_Steel.jpg"
+  },
+  "cupronickel": {
+    "file": "cupronickel.jpg",
+    "caption": "Clad half dollars beside silver ones — the reddish copper core shows at the edge of every post-1965 coin",
+    "kind": "product",
+    "title": "Two stacks of half dollars, one silver, one clad - effects of the Coinage Act 1965.jpg",
+    "artist": "BrayLockBoy",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Two_stacks_of_half_dollars,_one_silver,_one_clad_-_effects_of_the_Coinage_Act_1965.jpg"
+  },
+  "babbitt": {
+    "file": "babbitt.jpg",
+    "caption": "A fluid-film thrust bearing for a gas turbine — the pads carry a Babbitt lining",
+    "kind": "product",
+    "title": "Miba Thrust Bearing.jpg",
+    "artist": "Miba Industrial Bearings",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Miba_Thrust_Bearing.jpg"
+  },
+  "macor": {
+    "file": "macor.jpg",
+    "caption": "A 60 kV vacuum feedthrough — the insulator is the kind of part Macor gets machined into",
+    "kind": "related",
+    "title": "60kV Feedthrough.jpg",
+    "artist": "Kkmurray",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:60kV_Feedthrough.jpg"
+  },
+  "chalcogenide": {
+    "file": "chalcogenide.jpg",
+    "caption": "The underside of a CD-RW — the recording layer is a chalcogenide that switches between glass and crystal",
+    "kind": "product",
+    "title": "CD-RW bottom.jpg",
+    "artist": "高橋 宗史",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CD-RW_bottom.jpg"
+  },
+  "zblan": {
+    "file": "zblan.jpg",
+    "caption": "ZBLAN samples: praseodymium-doped, erbium-doped and undoped",
+    "kind": "photo",
+    "title": "Doped glasses.jpg",
+    "artist": "Icozmuta",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Doped_glasses.jpg"
+  },
+  "isographite": {
+    "file": "isographite.jpg",
+    "caption": "Graphite crucibles, good to about 1500 °C",
+    "kind": "product",
+    "title": "Graphite crucibles.jpg",
+    "artist": "No machine-readable author provided. Skatebiker assumed (based on copyright claims).",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Graphite_crucibles.jpg"
+  },
+  "azs": {
+    "file": "azs.jpg",
+    "caption": "A refractory lining inside a rotary kiln — fused-cast AZS does this job where molten glass would eat ordinary brick",
+    "kind": "related",
+    "title": "Refractory bricks lining.jpg",
+    "artist": "Alexknight12",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Refractory_bricks_lining.jpg"
+  },
+  "nomexcore": {
+    "file": "nomexcore.jpg",
+    "caption": "A sectioned composite exhaust duct, showing the honeycomb core between its skins",
+    "kind": "product",
+    "title": "Composite honeycomb exhaust duct (2).jpg",
+    "artist": "Olivier Cleynen",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Composite_honeycomb_exhaust_duct_(2).jpg"
+  },
+  "forgedcomposite": {
+    "file": "forgedcomposite.jpg",
+    "caption": "Forged composite — a mat of chopped carbon tow, pressed to shape",
+    "kind": "photo",
+    "title": "Forged Carbon Fiber Mat for Lamborghini HURACAN.jpg",
+    "artist": "Own Silent International LLC",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Forged_Carbon_Fiber_Mat_for_Lamborghini_HURACAN.jpg"
+  },
+  "pvcfoam": {
+    "file": "pvcfoam.jpg",
+    "caption": "A wind turbine blade under inspection — the shells are foam-cored sandwich",
+    "kind": "product",
+    "title": "Begutachtung eines Rotorblattes.JPG",
+    "artist": "Markus Bergmann",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Begutachtung_eines_Rotorblattes.JPG"
+  },
+  "sls": {
+    "file": "sls.jpg",
+    "caption": "A laser-sintered nylon bicycle — the first workable one, grown in fused powder",
+    "kind": "product",
+    "title": "The Power of Making at the Victoria and Albert Museum, London.jpg",
+    "artist": "51% Studios Architecture",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Power_of_Making_at_the_Victoria_and_Albert_Museum,_London.jpg"
+  },
+  "polyjet": {
+    "file": "polyjet.jpg",
+    "caption": "A Stratasys Objet machine — the head jets photopolymer and cures it line by line",
+    "kind": "process",
+    "title": "Objet 260 Stratasys.jpg",
+    "artist": "3dilla",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Objet_260_Stratasys.jpg"
+  },
+  "twophoton": {
+    "file": "twophoton.jpg",
+    "caption": "A 2 mm model of an 1871 microscope, written by two-photon lithography",
+    "kind": "product",
+    "title": "Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg",
+    "artist": "ZEISS Microscopy from Germany",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nanosize_3D_model_of_a_vintage_ZEISS_microscope,_by_Nanoscribe_(29829841445).jpg"
+  },
+  "sandprint": {
+    "file": "sandprint.jpg",
+    "caption": "Cope, drag and cores of a sand mould — printing makes these without a pattern",
+    "kind": "related",
+    "title": "SandMoldCopeDragCores.jpg",
+    "artist": "Photograph taken by Glenn McKechnie",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SandMoldCopeDragCores.jpg"
+  },
+  "boundmetal": {
+    "file": "boundmetal.jpg",
+    "caption": "Metal injection moulded parts — sinter-based printing uses the same feedstock and the same furnace",
+    "kind": "related",
+    "title": "INDO-MIM Automotive Sector .jpg",
+    "artist": "INDO-MIM PVT. LTD.",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:INDO-MIM_Automotive_Sector_.jpg"
+  },
+  "nyloncf": {
+    "file": "nyloncf.jpg",
+    "caption": "Filament spools — the carbon-filled grades are the flat black ones",
+    "kind": "related",
+    "title": "3D Printing Materials (16863368275).jpg",
+    "artist": "Maurizio Pesce from Milan, Italia",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:3D_Printing_Materials_(16863368275).jpg"
+  },
+  "slaresin": {
+    "file": "slaresin.jpg",
+    "caption": "A part grown in a vat of photopolymer",
+    "kind": "product",
+    "title": "SLA produced part.JPG",
+    "artist": "Wizard191",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SLA_produced_part.JPG"
+  },
+  "alsi10mg": {
+    "file": "alsi10mg.jpg",
+    "caption": "Inside a laser powder bed machine, mid-build",
+    "kind": "process",
+    "title": "FZU 3Dprinting 1.jpg",
+    "artist": "René Volfík",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FZU_3Dprinting_1.jpg"
+  },
+  "scalmalloy": {
+    "file": "scalmalloy.jpg",
+    "caption": "The MiG-29 — its welded airframe was the first production use of scandium in aluminium",
+    "kind": "related",
+    "title": "Mig-29 on landing.jpg",
+    "artist": "Dmitry A. Mottl",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mig-29_on_landing.jpg"
+  },
+  "printsilicone": {
+    "file": "printsilicone.jpg",
+    "caption": "A pneumatic actuator printed in liquid silicone, still in its clear support",
+    "kind": "photo",
+    "title": "Silicone 3d print with support material.jpg",
+    "artist": "Obseus",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Silicone_3d_print_with_support_material.jpg"
+  },
+  "pprope": {
+    "file": "pprope.jpg",
+    "caption": "A polypropylene rope after UV exposure, beside a new one — sunlight is this fibre's weakness",
+    "kind": "product",
+    "title": "Failedrope1.jpg",
+    "artist": "Peterlewis at English Wikipedia",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Failedrope1.jpg"
+  },
+  "webbing": {
+    "file": "webbing.jpg",
+    "caption": "Tubular webbing joined with a water knot",
+    "kind": "photo",
+    "title": "Water-knot-webbing-loose-ABOK-296.jpg",
+    "artist": "David J. Fred (Dfred)",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Water-knot-webbing-loose-ABOK-296.jpg"
+  },
+  "monofil": {
+    "file": "monofil.jpg",
+    "caption": "A fixed-line trimmer head — nylon monofilament doing the cutting",
+    "kind": "product",
+    "title": "String trimmer head-insert style.jpg",
+    "artist": "StrangeApparition2011",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:String_trimmer_head-insert_style.jpg"
+  },
+  "emifabric": {
+    "file": "emifabric.jpg",
+    "caption": "Touchscreen gloves — conductive yarn knitted into the fingertips",
+    "kind": "product",
+    "title": "Isotoner touch gloves BB E86 jeh.jpg",
+    "artist": "Jim.henderson",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isotoner_touch_gloves_BB_E86_jeh.jpg"
+  },
+  "technora": {
+    "file": "technora.jpg",
+    "caption": "A toothed belt final drive — aramid cords carry the load inside the rubber",
+    "kind": "product",
+    "title": "Tandriem BMW F 650 CS02.JPG",
+    "artist": "Piero",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tandriem_BMW_F_650_CS02.JPG"
+  },
+  "preoxpan": {
+    "file": "preoxpan.jpg",
+    "caption": "A fire blanket — oxidised PAN felt is one of the two cloths used for these, glass the other",
+    "kind": "related",
+    "title": "Fire-blanket-on-display.jpg",
+    "artist": "JonathanLamb",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Fire-blanket-on-display.jpg"
+  },
+  "ptfethread": {
+    "file": "ptfethread.jpg",
+    "caption": "A stadium membrane roof — seams this size are sewn with PTFE thread",
+    "kind": "product",
+    "title": "Velodrome Marseille Stadium by Taiyo Europe.JPG",
+    "artist": "Taiyo Europe",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Velodrome_Marseille_Stadium_by_Taiyo_Europe.JPG"
+  },
+  "kuralon": {
+    "file": "kuralon.jpg",
+    "caption": "Polyvinyl alcohol resin — Kuralon is this polymer, wet-spun into fibre",
+    "kind": "related",
+    "title": "Sample of Polyvinyl alcohol.jpg",
+    "artist": "LHcheM",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sample_of_Polyvinyl_alcohol.jpg"
+  },
+  "rawhide": {
+    "file": "rawhide.jpg",
+    "caption": "A rawhide mallet — a face that strikes hard without marking",
+    "kind": "product",
+    "title": "Rawhide mallet in Tuntorp 3.jpg",
+    "artist": "W.carter",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rawhide_mallet_in_Tuntorp_3.jpg"
+  },
+  "laidrope": {
+    "file": "laidrope.jpg",
+    "caption": "Three-strand hemp rope at the Hermione dockyard",
+    "kind": "photo",
+    "title": "Cordage chantier de l'Hermione Rochefort sur Mer.jpg",
+    "artist": "Jebulon",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cordage_chantier_de_l%27Hermione_Rochefort_sur_Mer.jpg"
+  },
+  "doublebraid": {
+    "file": "doublebraid.jpg",
+    "caption": "An arborist on a climbing line, the job double braid was made for",
+    "kind": "product",
+    "title": "Tree Climbing Arborist.jpg",
+    "artist": "TreeMinion15",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tree_Climbing_Arborist.jpg"
+  },
+  "twelvestrand": {
+    "file": "twelvestrand.jpg",
+    "caption": "Soft shackles — a loop of hollow braid spliced into itself",
+    "kind": "product",
+    "title": "Soft shackles.JPG",
+    "artist": "White74",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Soft_shackles.JPG"
+  },
+  "braidedline": {
+    "file": "braidedline.jpg",
+    "caption": "Eight-strand braided line, 0.15 mm",
+    "kind": "photo",
+    "title": "Fishing lines 2025 G1.jpg",
+    "artist": "George Chernilevsky",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fishing_lines_2025_G1.jpg"
+  },
+  "needlepunch": {
+    "file": "needlepunch.jpg",
+    "caption": "Needle felting by hand in Kyrgyzstan — barbed needles tangling fibre into cloth",
+    "kind": "process",
+    "title": "Needle-felt-making-1080204.jpg",
+    "artist": "Fabienkhan",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Needle-felt-making-1080204.jpg"
+  },
+  "woven3d": {
+    "file": "woven3d.jpg",
+    "caption": "A LEAP engine fan — each blade is a 3D-woven preform, injected with resin",
+    "kind": "product",
+    "title": "Paris Air Show 2017 LEAP fan.jpg",
+    "artist": "Marc Lacoste",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_Air_Show_2017_LEAP_fan.jpg"
+  },
+  "laminateshell": {
+    "file": "laminateshell.jpg",
+    "caption": "An MSR Gore-Tex jacket from about 1976, one of the first laminate shells",
+    "kind": "product",
+    "title": "Early Gore-Tex hooded rain jacket.jpg",
+    "artist": "Joe Mabel",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Early_Gore-Tex_hooded_rain_jacket.jpg"
+  },
+  "etextile": {
+    "file": "etextile.jpg",
+    "caption": "Inductors printed straight onto fabric, powering circuits without a wire",
+    "kind": "photo",
+    "title": "Wireless electronic textiles.jpg",
+    "artist": "MW AHM",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wireless_electronic_textiles.jpg"
+  },
+  "dea": {
+    "file": "dea.jpg",
+    "caption": "A soft robot built for colonoscopy — the job DEAs are aimed at; this one runs on air, not volts",
+    "kind": "related",
+    "title": "Soft robot locomotion.jpg",
+    "artist": "Hdehqani",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Soft_robot_locomotion.jpg"
+  },
+  "strontiumal": {
+    "file": "strontiumal.jpg",
+    "caption": "A photoluminescent exit sign, charged by room light",
+    "kind": "product",
+    "title": "Photoluminescent Exit Sign.jpg",
+    "artist": "Aug wiki 1257",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Photoluminescent_Exit_Sign.jpg"
+  },
+  "spruce": {
+    "file": "spruce.jpg",
+    "caption": "A carved violin top in spruce, beside its maple back",
+    "kind": "product",
+    "title": "Violin Top and back plates.jpg",
+    "artist": "Ronaldmoretto",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Violin_Top_and_back_plates.jpg"
+  },
+  "ggg": {
+    "file": "ggg.jpg",
+    "caption": "A GAGG:Ce scintillator crystal — a garnet grown the same way as GGG",
+    "kind": "related",
+    "title": "GAGG-Ce.jpg",
+    "artist": "Thunderblood101",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GAGG-Ce.jpg"
+  },
+  "bbo": {
+    "file": "bbo.jpg",
+    "caption": "The output of an optical parametric amplifier — BBO is the crystal that splits the beam",
+    "kind": "related",
+    "title": "Beam output from OPA.jpg",
+    "artist": "Fauzul Uzul",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beam_output_from_OPA.jpg"
+  },
+  "ga2o3": {
+    "file": "ga2o3.png",
+    "caption": "Pulling gallium oxide from the melt by the Czochralski method",
+    "kind": "process",
+    "title": "Czochralski Gallium Oxide.png",
+    "artist": "GalliumGorl",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Czochralski_Gallium_Oxide.png"
   }
 };

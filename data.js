@@ -439,7 +439,8 @@ window.MATERIALS = [
 },
 {
   id: "cellacetate", cat: "polymer", name: "Cellulose acetate",
-  sub: "acetylated cotton linter or wood pulp", swatch: { pattern: "speckle", colors: ["#6b4320", "#b9813f", "#3a2310"] },
+  sub: "acetylated cotton linter or wood pulp", img: "cellacetate",
+  swatch: { pattern: "speckle", colors: ["#6b4320", "#b9813f", "#3a2310"] },
   hook: "A plastic made from trees, dyed in the block rather than on the surface, so colour runs all the way through and polishes back to a shine after years on a face. It is still the only material good eyewear is made from.",
   stats: [["Base", "plant cellulose"], ["Colour", "through the block"], ["Repolish", "indefinitely"]],
   uses: "Spectacle frames, guitar picks, cigarette filters, photographic film base.",
@@ -514,6 +515,7 @@ window.MATERIALS = [
 {
   id: "gummetal", cat: "metal", name: "Gum Metal",
   sub: "Ti–Nb–Ta–Zr–O",
+  img: "gummetal",
   swatch: { pattern: "brushed", colors: ["#434a52", "#98a3ad", "#2b3137"] },
   hook: "A titanium alloy that breaks the usual rules: very low stiffness, large elastic strain, and it can be cold-worked enormously without work-hardening the way metals are supposed to.",
   stats: [["Elastic strain", "~2.5%"], ["Modulus", "~55–65 GPa"], ["Cold work", "90%+"]],
@@ -649,7 +651,8 @@ window.MATERIALS = [
 },
 {
   id: "al7075", cat: "metal", name: "7075 aluminium",
-  sub: "Al–Zn–Mg–Cu, T6 temper", swatch: { pattern: "brushed", colors: ["#9aa3ab", "#d4dade", "#6b747c"] },
+  sub: "Al–Zn–Mg–Cu, T6 temper", img: "al7075",
+  swatch: { pattern: "brushed", colors: ["#9aa3ab", "#d4dade", "#6b747c"] },
   hook: "An aluminium as strong as mild steel, invented in secret in Japan in the 1930s and flown on the Zero. The strength comes from zinc precipitates grown by baking, and it is bought at the price of weldability and corrosion resistance.",
   stats: [["Tensile, T6", "~570 MPa"], ["Density", "2.81 g/cm³"], ["Welding", "essentially not"]],
   uses: "Aircraft spars, rifle receivers, climbing hardware, mould plate.",
@@ -689,7 +692,8 @@ window.MATERIALS = [
 },
 {
   id: "ss316l", cat: "metal", name: "316L stainless",
-  sub: "Fe–18Cr–10Ni–2Mo, low carbon", swatch: { pattern: "brushed", colors: ["#8d969e", "#cdd4d9", "#5d666e"] },
+  sub: "Fe–18Cr–10Ni–2Mo, low carbon", img: "ss316l",
+  swatch: { pattern: "brushed", colors: ["#8d969e", "#cdd4d9", "#5d666e"] },
   hook: "The default when something has to be clean, welded and left alone. The 2% molybdenum is what buys chloride resistance, and the L — carbon under 0.03% — stops chromium carbides forming at the weld and eating the corrosion resistance there.",
   stats: [["Molybdenum", "2–3%"], ["Carbon", "<0.03%"], ["Magnetic", "no, until cold-worked"]],
   uses: "Food and pharma plant, marine fittings, surgical instruments, exhausts.",
@@ -785,7 +789,8 @@ window.MATERIALS = [
 },
 {
   id: "cupronickel", cat: "metal", name: "Cupronickel",
-  sub: "Cu–10Ni or Cu–30Ni", swatch: { pattern: "brushed", colors: ["#9b9a94", "#d2d1c9", "#6a6963"] },
+  sub: "Cu–10Ni or Cu–30Ni", img: "cupronickel",
+  swatch: { pattern: "brushed", colors: ["#9b9a94", "#d2d1c9", "#6a6963"] },
   hook: "Copper ions leaching slowly from the surface keep barnacles and weed from ever settling, so a cupronickel hull or intake pipe stays clean without paint. It is also why most 'silver' coins are not silver.",
   stats: [["Nickel", "10–30%"], ["Biofouling", "self-resisting"], ["Seawater", "decades of service"]],
   uses: "Ship hull cladding, condenser tubing, seawater piping, coinage.",
@@ -809,7 +814,8 @@ window.MATERIALS = [
 },
 {
   id: "babbitt", cat: "metal", name: "Babbitt metal",
-  sub: "tin or lead matrix with hard crystals", swatch: { pattern: "speckle", colors: ["#b8bcc0", "#e8ebee", "#7d8287"] },
+  sub: "tin or lead matrix with hard crystals", img: "babbitt",
+  swatch: { pattern: "speckle", colors: ["#b8bcc0", "#e8ebee", "#7d8287"] },
   hook: "A deliberately weak bearing lining: hard crystals sit in a soft matrix that wears away around them, leaving channels for oil and letting grit bury itself harmlessly. The bearing is sacrificed instead of the million-dollar shaft.",
   stats: [["Hardness", "~20–30 HB"], ["Structure", "hard phase in soft matrix"], ["Role", "the sacrificial part"]],
   uses: "Steam and gas turbine journal bearings, large engines, machine tool ways.",
@@ -892,6 +898,7 @@ window.MATERIALS = [
 {
   id: "macor", cat: "ceramic", name: "Macor",
   sub: "machinable glass-ceramic",
+  img: "macor",
   swatch: { pattern: "speckle", colors: ["#ded9d0", "#faf8f4", "#bdb6a9"] },
   hook: "Mica crystals in a glass matrix: the crystals deflect and arrest the cutting edge, so you can drill and tap it on an ordinary mill — then run the finished part at 800 °C.",
   stats: [["Continuous use", "800 °C"], ["Porosity", "zero"], ["Tooling", "standard metalworking"]],
@@ -1086,7 +1093,8 @@ window.MATERIALS = [
 },
 {
   id: "chalcogenide", cat: "ceramic", name: "Chalcogenide glass",
-  sub: "Ge–As–Se / As₂S₃", swatch: { pattern: "gloss", colors: ["#23262a", "#5b6066", "#0b0c0e"] },
+  sub: "Ge–As–Se / As₂S₃", img: "chalcogenide",
+  swatch: { pattern: "gloss", colors: ["#23262a", "#5b6066", "#0b0c0e"] },
   hook: "Looks like a black mirror and is completely opaque to the eye, yet thermal infrared passes straight through it. It can be moulded like plastic, which is why thermal cameras got cheap enough to clip onto a phone.",
   stats: [["Transmits", "8–12 µm"], ["Visible", "opaque"], ["Forming", "precision moulded"]],
   uses: "Thermal imaging lenses, IR fibre, rewritable optical disc layers, phase-change memory.",
@@ -1094,7 +1102,8 @@ window.MATERIALS = [
 },
 {
   id: "zblan", cat: "ceramic", name: "ZBLAN fluoride glass",
-  sub: "ZrF₄–BaF₂–LaF₃–AlF₃–NaF", swatch: { pattern: "gloss", colors: ["#cfe3e8", "#f2fafc", "#9ab6bf"] },
+  sub: "ZrF₄–BaF₂–LaF₃–AlF₃–NaF", img: "zblan",
+  swatch: { pattern: "gloss", colors: ["#cfe3e8", "#f2fafc", "#9ab6bf"] },
   hook: "In theory it could carry light a hundred times further than silica fibre. In practice gravity lets crystals nucleate and settle while it cools, ruining it — so it is now being drawn in orbit, where there is nothing to settle.",
   stats: [["Theoretical loss", "~0.001 dB/km"], ["Problem", "crystallises on cooling"], ["Drawn on", "the ISS, since 2017"]],
   uses: "Mid-IR fibre lasers, fibre amplifiers, proposed ultra-long-haul links.",
@@ -1134,7 +1143,8 @@ window.MATERIALS = [
 },
 {
   id: "isographite", cat: "ceramic", name: "Isostatic graphite",
-  sub: "isotropically pressed fine-grain carbon", swatch: { pattern: "grain", colors: ["#3a3d40", "#6e7276", "#202224"] },
+  sub: "isotropically pressed fine-grain carbon", img: "isographite",
+  swatch: { pattern: "grain", colors: ["#3a3d40", "#6e7276", "#202224"] },
   hook: "Unlike every other structural material, it gets stronger as it gets hotter, peaking around 2500 °C. It also machines like chalk and conducts electricity, so it is the electrode that burns a shape into hardened steel.",
   stats: [["Strength peak", "~2500 °C"], ["Grain", "<10 µm"], ["Machining", "like dense chalk"]],
   uses: "EDM electrodes, continuous casting dies, crucibles, rocket nozzle throats.",
@@ -1174,7 +1184,8 @@ window.MATERIALS = [
 },
 {
   id: "azs", cat: "ceramic", name: "Fused-cast AZS",
-  sub: "alumina–zirconia–silica refractory", swatch: { pattern: "speckle", colors: ["#cdc7b8", "#eee9dc", "#9a9484"] },
+  sub: "alumina–zirconia–silica refractory", img: "azs",
+  swatch: { pattern: "speckle", colors: ["#cdc7b8", "#eee9dc", "#9a9484"] },
   hook: "Melted at over 2000 °C and cast like metal into blocks, rather than pressed and fired. The result stands in molten glass for ten or fifteen years without dissolving into it — a glass furnace is rebuilt around the AZS, not the other way round.",
   stats: [["Cast at", ">2000 °C"], ["Campaign life", "10–15 years"], ["ZrO₂", "33–41%"]],
   uses: "Glass melting furnace linings, throats and feeders.",
@@ -1368,7 +1379,8 @@ window.MATERIALS = [
 },
 {
   id: "nomexcore", cat: "composite", name: "Nomex honeycomb",
-  sub: "phenolic-dipped aramid paper core", swatch: { pattern: "honeycomb", colors: ["#c79a3c", "#e9c877", "#8a6520"] },
+  sub: "phenolic-dipped aramid paper core", img: "nomexcore",
+  swatch: { pattern: "honeycomb", colors: ["#c79a3c", "#e9c877", "#8a6520"] },
   hook: "Aramid paper folded into cells and dipped in phenolic resin until it is rigid. Lighter than aluminium core, does not corrode, does not conduct, and does not take a permanent dent — it springs back where the metal version stays crushed.",
   stats: [["Density", "29–130 kg/m³"], ["Dent", "recovers"], ["Flame", "self-extinguishing"]],
   uses: "Aircraft interior panels, radomes, racing bodywork, skis and snowboards.",
@@ -1440,7 +1452,8 @@ window.MATERIALS = [
 },
 {
   id: "forgedcomposite", cat: "composite", name: "Forged composite",
-  sub: "chopped-tow compression moulded CFRP", swatch: { pattern: "speckle", colors: ["#2b2e31", "#70757a", "#141618"] },
+  sub: "chopped-tow compression moulded CFRP", img: "forgedcomposite",
+  swatch: { pattern: "speckle", colors: ["#2b2e31", "#70757a", "#141618"] },
   hook: "Short random carbon tows squeezed into a die instead of laid up by hand. You lose the directional strength of a laminate and gain the ability to mould ribs, bosses and thick sections in one shot — and a marbled surface nobody can fake.",
   stats: [["Tow length", "~25–50 mm"], ["Cycle", "minutes"], ["Shapes", "3D, not just shells"]],
   uses: "Supercar structural parts, watch cases, bicycle components, tool bodies.",
@@ -1480,7 +1493,8 @@ window.MATERIALS = [
 },
 {
   id: "pvcfoam", cat: "composite", name: "Structural PVC foam core",
-  sub: "cross-linked PVC, Divinycell type", swatch: { pattern: "powder", colors: ["#c8b78f", "#e6dcc0", "#95855f"] },
+  sub: "cross-linked PVC, Divinycell type", img: "pvcfoam",
+  swatch: { pattern: "powder", colors: ["#c8b78f", "#e6dcc0", "#95855f"] },
   hook: "A rigid closed-cell foam engineered to carry shear rather than to insulate. In a sandwich panel the skins take tension and compression and the core's only job is to keep them apart and stop them sliding — and it absorbs no water if the skin is pierced.",
   stats: [["Density", "40–250 kg/m³"], ["Cells", "closed"], ["Carries", "shear, not bending"]],
   uses: "Boat hulls and decks, wind turbine blade shells, rail car panels.",
@@ -1570,7 +1584,8 @@ window.MATERIALS = [
 },
 {
   id: "sls", cat: "additive", name: "Selective laser sintering",
-  sub: "polymer powder bed fusion", swatch: { pattern: "powder", colors: ["#d9d7d0", "#f3f2ee", "#a8a69e"] },
+  sub: "polymer powder bed fusion", img: "sls",
+  swatch: { pattern: "powder", colors: ["#d9d7d0", "#f3f2ee", "#a8a69e"] },
   hook: "The powder that was not sintered holds up the powder that was, so nothing needs supports and parts can be stacked in three dimensions throughout the whole build volume. You get a grainy matt part and an awkward truth: the unused powder ages in the heat and cannot all be reused.",
   stats: [["Supports", "none needed"], ["Powder refresh", "~30–50% virgin"], ["Finish", "matt, slightly porous"]],
   uses: "Functional nylon parts, ducting, short-run production, complex assemblies printed in one piece.",
@@ -1610,7 +1625,8 @@ window.MATERIALS = [
 },
 {
   id: "polyjet", cat: "additive", name: "Material jetting",
-  sub: "PolyJet photopolymer droplets", swatch: { pattern: "laminate", colors: ["#5f6f8a", "#dfe4ea", "#2c3647"] },
+  sub: "PolyJet photopolymer droplets", img: "polyjet",
+  swatch: { pattern: "laminate", colors: ["#5f6f8a", "#dfe4ea", "#2c3647"] },
   hook: "An inkjet head sprays photopolymer and a UV lamp cures it in the same pass, which means several resins can be laid down side by side in a single layer. Mix a rigid and a rubbery one per voxel and you get digital materials: one printed part that is stiff here, soft there and transparent in between.",
   stats: [["Layer", "14–30 µm"], ["Materials", "multiple per voxel"], ["Supports", "gel, washed away"]],
   uses: "Full-colour anatomical models, overmoulded prototypes, soft-touch grips, medical training parts.",
@@ -1634,7 +1650,8 @@ window.MATERIALS = [
 },
 {
   id: "twophoton", cat: "additive", name: "Two-photon polymerisation",
-  sub: "nonlinear direct laser writing", swatch: { pattern: "speckle", colors: ["#5b6470", "#aab3c0", "#333a44"] },
+  sub: "nonlinear direct laser writing", img: "twophoton",
+  swatch: { pattern: "speckle", colors: ["#5b6470", "#aab3c0", "#333a44"] },
   hook: "Curing only happens where two infrared photons arrive at the same instant, which is only at the focus of the beam. That nonlinearity beats the diffraction limit: features come out around a hundred nanometres, smaller than the light used to make them, anywhere inside the resin volume.",
   stats: [["Feature size", "~100–200 nm"], ["Mechanism", "two-photon absorption"], ["Speed", "slow, microscopic parts"]],
   uses: "Microlenses printed on fibre tips, microfluidic parts, mechanical metamaterials, micro-robots.",
@@ -1666,7 +1683,8 @@ window.MATERIALS = [
 },
 {
   id: "sandprint", cat: "additive", name: "Printed sand moulds",
-  sub: "furan-bonded sand binder jetting", swatch: { pattern: "grain", colors: ["#c2a87e", "#e3d2b2", "#8e7750"] },
+  sub: "furan-bonded sand binder jetting", img: "sandprint",
+  swatch: { pattern: "grain", colors: ["#c2a87e", "#e3d2b2", "#8e7750"] },
   hook: "Print the mould, not the part. The casting process stays exactly as it was for three thousand years, but the pattern and the core box disappear — and with them the rule that a core has to be withdrawn, so cooling passages can loop through a cylinder head any way they like.",
   stats: [["Printed", "the mould and cores"], ["Tooling", "none"], ["Lead time", "days instead of months"]],
   uses: "Engine blocks and heads, pump and valve bodies, art casting, foundry prototyping.",
@@ -1682,7 +1700,8 @@ window.MATERIALS = [
 },
 {
   id: "boundmetal", cat: "additive", name: "Sinter-based metal printing",
-  sub: "bound metal filament and paste", swatch: { pattern: "brushed", colors: ["#8e949b", "#cdd3d9", "#5c6168"] },
+  sub: "bound metal filament and paste", img: "boundmetal",
+  swatch: { pattern: "brushed", colors: ["#8e949b", "#cdd3d9", "#5c6168"] },
   hook: "Metal powder held in wax and polymer, printed on what is essentially a plastic printer, then debound in solvent and sintered. It puts metal parts in a workshop with no laser, no argon and no powder hazard — and the part shrinks by a fifth in the furnace, so it must be printed distorted to come out straight.",
   stats: [["Shrinkage", "~20% on sintering"], ["Hazards", "no loose powder, no laser"], ["Density", "96–99% after sinter"]],
   uses: "Tooling, fixtures and jaws, spare parts, low-volume stainless and tool steel components.",
@@ -1714,7 +1733,8 @@ window.MATERIALS = [
 },
 {
   id: "nyloncf", cat: "additive", name: "Carbon-filled filament",
-  sub: "chopped fibre in nylon or PET", swatch: { pattern: "speckle", colors: ["#2e3134", "#6e7478", "#17191b"] },
+  sub: "chopped fibre in nylon or PET", img: "nyloncf",
+  swatch: { pattern: "speckle", colors: ["#2e3134", "#6e7478", "#17191b"] },
   hook: "Ten or twenty per cent of chopped carbon fibre makes the plastic stiffer, but the useful part is that the filled melt barely shrinks, so a nylon that used to curl off the bed now prints flat. The fibre is abrasive enough that a brass nozzle is gone in a few hours.",
   stats: [["Fibre loading", "10–20% chopped"], ["Stiffness", "2–4× unfilled"], ["Nozzle", "hardened steel or ruby"]],
   uses: "Jigs and fixtures, drone frames, robot arms, tooling that has to hold its shape.",
@@ -1730,7 +1750,8 @@ window.MATERIALS = [
 },
 {
   id: "slaresin", cat: "additive", name: "Photopolymer resin",
-  sub: "acrylate and epoxy oligomers", swatch: { pattern: "gloss", colors: ["#c9a24a", "#f0dca2", "#8d6c23"] },
+  sub: "acrylate and epoxy oligomers", img: "slaresin",
+  swatch: { pattern: "gloss", colors: ["#c9a24a", "#f0dca2", "#8d6c23"] },
   hook: "Oligomers, a reactive diluent and a photoinitiator that fires on UV and starts a chain across the whole vat layer. The part that comes out is only partly cured and keeps changing for days, and the uncured monomer is a skin sensitiser — the gloves are not optional.",
   stats: [["Cure", "UV, 385 or 405 nm"], ["Green part", "drifts until post-cured"], ["Handling", "sensitiser, use gloves"]],
   uses: "Every vat process: SLA, MSLA, DLP and CLIP; dental, jewellery, models and engineering resins.",
@@ -1762,7 +1783,8 @@ window.MATERIALS = [
 },
 {
   id: "alsi10mg", cat: "additive", name: "AlSi10Mg",
-  sub: "printable aluminium casting alloy", swatch: { pattern: "powder", colors: ["#a7adb3", "#dde2e6", "#767c82"] },
+  sub: "printable aluminium casting alloy", img: "alsi10mg",
+  swatch: { pattern: "powder", colors: ["#a7adb3", "#dde2e6", "#767c82"] },
   hook: "A casting alloy that turned out to suit lasers: the silicon content sits near the eutectic, so the freezing range is narrow and the melt pool solidifies without tearing itself apart. The cooling rate is so steep that the printed structure is finer, and stronger, than the same alloy cast.",
   stats: [["Tensile", "~450 MPa as built"], ["Why it works", "near-eutectic, no hot tearing"], ["Versus cast", "finer grain, stronger"]],
   uses: "Heat exchangers and cold plates, automotive and motorsport brackets, drone and robot structures.",
@@ -1770,7 +1792,8 @@ window.MATERIALS = [
 },
 {
   id: "scalmalloy", cat: "additive", name: "Scalmalloy",
-  sub: "Al-Mg-Sc, designed for printing", swatch: { pattern: "brushed", colors: ["#9fa7af", "#d8dee3", "#6d757d"] },
+  sub: "Al-Mg-Sc, designed for printing", img: "scalmalloy",
+  swatch: { pattern: "brushed", colors: ["#9fa7af", "#d8dee3", "#6d757d"] },
   hook: "Most printable metals are old alloys that happen to tolerate a laser. This one was designed backwards from the process: scandium precipitates as Al₃Sc particles during the extremely fast solidification and pins the grains, so a high-strength aluminium prints without the hot cracking that rules out 7075.",
   stats: [["Tensile", "~520 MPa after ageing"], ["Key", "Al₃Sc pins grains while freezing"], ["Cost", "scandium is the price"]],
   uses: "Aerospace brackets, satellite structures, motorsport, topology-optimised load parts.",
@@ -1802,7 +1825,8 @@ window.MATERIALS = [
 },
 {
   id: "printsilicone", cat: "additive", name: "Printable silicone",
-  sub: "thixotropic LSR paste", swatch: { pattern: "gloss", colors: ["#d98f9c", "#f6ccd4", "#a05f6c"] },
+  sub: "thixotropic LSR paste", img: "printsilicone",
+  swatch: { pattern: "gloss", colors: ["#d98f9c", "#f6ccd4", "#a05f6c"] },
   hook: "Silicone will not hold a shape on its own, so it is either made thixotropic — stiff until the nozzle shears it, stiff again the instant it lands — or printed into a gel that holds it while it cures. Either way, soft parts stop needing a mould, which is what soft robotics was waiting for.",
   stats: [["Shore", "00–30 to A-60"], ["Rheology", "shear-thinning, recovers fast"], ["Cure", "platinum or UV"]],
   uses: "Soft robot actuators, custom seals and gaskets, prosthetic liners, wearables, anatomical models.",
@@ -1972,7 +1996,8 @@ window.MATERIALS = [
 },
 {
   id: "pprope", cat: "fibre", name: "Polypropylene rope",
-  sub: "PP monofilament or split film", swatch: { pattern: "fiber", colors: ["#d9b321", "#f3dd71", "#9a7c10"] },
+  sub: "PP monofilament or split film", img: "pprope",
+  swatch: { pattern: "fiber", colors: ["#d9b321", "#f3dd71", "#9a7c10"] },
   hook: "The only common rope that floats, which is why a throwline is always this garish yellow. The price is sunlight: a few seasons of UV and it turns to powder in your hand, and it melts at a temperature a hand-over-hand descent can reach.",
   stats: [["Density", "0.91 g/cm³ — floats"], ["UV life", "1–3 seasons"], ["Melts", "~165 °C"]],
   uses: "Rescue throwlines, water-ski ropes, barrier rope, agriculture and baling.",
@@ -1996,7 +2021,8 @@ window.MATERIALS = [
 },
 {
   id: "webbing", cat: "fibre", name: "Tubular webbing",
-  sub: "flat-woven nylon tube", swatch: { pattern: "weave", colors: ["#3a3d42", "#6d7278", "#1e2024"] },
+  sub: "flat-woven nylon tube", img: "webbing",
+  swatch: { pattern: "weave", colors: ["#3a3d42", "#6d7278", "#1e2024"] },
   hook: "Woven as a continuous tube on a shuttle loom rather than a strip folded over. There is no seam to abrade, it drapes flat over an edge instead of rolling onto a corner, and a hitch tied in it does not want to slip.",
   stats: [["Strength", "~18 kN in 25 mm"], ["Weave", "seamless tube"], ["Edge load", "spread flat"]],
   uses: "Climbing anchors and slings, rescue harnesses, slacklines, load restraint.",
@@ -2036,7 +2062,8 @@ window.MATERIALS = [
 },
 {
   id: "monofil", cat: "fibre", name: "Nylon monofilament",
-  sub: "single-strand extruded line", swatch: { pattern: "fiber", colors: ["#c3ccd2", "#eef3f6", "#8f9aa2"] },
+  sub: "single-strand extruded line", img: "monofil",
+  swatch: { pattern: "fiber", colors: ["#c3ccd2", "#eef3f6", "#8f9aa2"] },
   hook: "A single smooth strand rather than a bundle, so it is nearly invisible in water and knots bite into themselves. It also absorbs water and stretches, which is forgiving on a strike and infuriating when you need to feel the bottom.",
   stats: [["Stretch", "~20–30%"], ["Refractive index", "close to water"], ["Weakness", "UV, ~1 season"]],
   uses: "Fishing line, string trimmers, surgical suture, brush bristles, netting.",
@@ -2140,7 +2167,8 @@ window.MATERIALS = [
 },
 {
   id: "emifabric", cat: "fibre", name: "Conductive fabric",
-  sub: "silver- or nickel-plated nylon ripstop", swatch: { pattern: "weave", colors: ["#a8aeb4", "#dfe4e8", "#71777d"] },
+  sub: "silver- or nickel-plated nylon ripstop", img: "emifabric",
+  swatch: { pattern: "weave", colors: ["#a8aeb4", "#dfe4e8", "#71777d"] },
   hook: "A textile that is also a Faraday cage: metal plated onto each fibre gives a cloth that drapes and sews but blocks 50–80 dB of radio. Silver versions also kill odour-causing bacteria, which is how it ended up in socks.",
   stats: [["Shielding", "50–80 dB"], ["Surface resistance", "<0.1 Ω/sq"], ["Plating", "Ag, Ni or Cu"]],
   uses: "EMI gaskets and shielding bags, ESD garments, touchscreen gloves, medical electrodes.",
@@ -2164,7 +2192,8 @@ window.MATERIALS = [
 },
 {
   id: "technora", cat: "fibre", name: "Technora",
-  sub: "para-aramid copolymer", swatch: { pattern: "fiber", colors: ["#c9a63f", "#f0d98a", "#8e7122"] },
+  sub: "para-aramid copolymer", img: "technora",
+  swatch: { pattern: "fiber", colors: ["#c9a63f", "#f0d98a", "#8e7122"] },
   hook: "An aramid built to survive the things that eat aramids. Swapping part of the backbone for an ether link makes it shrug off the steam, acid and seawater that hydrolyse Kevlar, while keeping most of the strength.",
   stats: [["Tensile", "~3.4 GPa"], ["Modulus", "~70 GPa"], ["Hot water", "far better than standard aramid"]],
   uses: "Brake and hydraulic hose reinforcement, timing belt cord, optical cable strength members, racing yacht lines.",
@@ -2188,7 +2217,8 @@ window.MATERIALS = [
 },
 {
   id: "preoxpan", cat: "fibre", name: "Oxidised PAN",
-  sub: "stabilised polyacrylonitrile, Panox", swatch: { pattern: "fiber", colors: ["#2a2b2d", "#5e6063", "#131415"] },
+  sub: "stabilised polyacrylonitrile, Panox", img: "preoxpan",
+  swatch: { pattern: "fiber", colors: ["#2a2b2d", "#5e6063", "#131415"] },
   hook: "Carbon fibre stopped halfway. Heat acrylic fibre in air and it cyclises into a black, soft, infusible ladder polymer at about 62% carbon. Carry on and you get carbon fibre; stop here and you get something that stays textile and will not burn.",
   stats: [["Carbon", "~62%"], ["Limiting oxygen index", "~45%"], ["Shrinkage in flame", "almost none"]],
   uses: "Fire blankets, flame barriers under aircraft and vehicle seats, firefighter underlayers, friction material preforms.",
@@ -2204,7 +2234,8 @@ window.MATERIALS = [
 },
 {
   id: "ptfethread", cat: "fibre", name: "PTFE thread",
-  sub: "expanded PTFE sewing thread, Tenara", swatch: { pattern: "fiber", colors: ["#eef1f3", "#ffffff", "#c2c7cb"] },
+  sub: "expanded PTFE sewing thread, Tenara", img: "ptfethread",
+  swatch: { pattern: "fiber", colors: ["#eef1f3", "#ffffff", "#c2c7cb"] },
   hook: "Awnings used to fail at the stitching, not the cloth, because polyester thread sitting proud of the surface takes the full UV dose. This thread is chemically indifferent to sunlight, chlorine and salt, so the seam now outlives the fabric it holds together.",
   stats: [["UV life", "effectively unlimited"], ["Strength", "below polyester"], ["Handling", "slippery, needs tension tuning"]],
   uses: "Marine canvas, awnings, tensile structures, pool covers, outdoor furniture.",
@@ -2212,7 +2243,8 @@ window.MATERIALS = [
 },
 {
   id: "kuralon", cat: "fibre", name: "PVA fibre",
-  sub: "polyvinyl alcohol, Kuralon", swatch: { pattern: "fiber", colors: ["#e6e9ec", "#fbfcfd", "#b7bcc1"] },
+  sub: "polyvinyl alcohol, Kuralon", img: "kuralon",
+  swatch: { pattern: "fiber", colors: ["#e6e9ec", "#fbfcfd", "#b7bcc1"] },
   hook: "The fibre you can dissolve on purpose. Grades are made to vanish in water at a chosen temperature, so you knit with a sacrificial yarn and wash it out afterwards to leave openwork no loom could make. Other grades are the asbestos replacement in cement board.",
   stats: [["Dissolving grades", "tuned 20–90 °C"], ["Tenacity", "up to ~1.6 GPa"], ["Alkali", "stable in cement"]],
   uses: "Sacrificial yarn in knitting and embroidery, fibre cement sheet, concrete reinforcement, water-soluble packaging.",
@@ -2244,7 +2276,8 @@ window.MATERIALS = [
 },
 {
   id: "rawhide", cat: "fibre", name: "Rawhide",
-  sub: "untanned dehaired hide", swatch: { pattern: "grain", colors: ["#c9a870", "#e8d3a8", "#95784a"] },
+  sub: "untanned dehaired hide", img: "rawhide",
+  swatch: { pattern: "grain", colors: ["#c9a870", "#e8d3a8", "#95784a"] },
   hook: "Leather that was never tanned: dehaired and dried hard under tension. Lace a frame with it wet and the drying shrink locks the joint with no knot and no fastener — the material is the clamp. Soak it again and the joint comes apart.",
   stats: [["Shrink", "tightens as it dries"], ["Dry state", "rigid, almost horn-like"], ["Weakness", "water undoes it"]],
   uses: "Snowshoes, drum heads, chair seats, lacrosse sticks, saddle trees, laminated armour.",
@@ -2284,7 +2317,8 @@ window.MATERIALS = [
 },
 {
   id: "laidrope", cat: "fibre", name: "Three-strand laid rope",
-  sub: "twisted construction", swatch: { pattern: "fiber", colors: ["#b99a62", "#ddc694", "#866c3d"] },
+  sub: "twisted construction", img: "laidrope",
+  swatch: { pattern: "fiber", colors: ["#b99a62", "#ddc694", "#866c3d"] },
   hook: "Nothing holds this rope together but opposing twist. Fibres are spun one way, yarns laid the other, strands the first way again — each level permanently trying to unwind the one above it, and the standoff is the rope. Let it unbalance and it hockles into a knot by itself.",
   stats: [["Lay", "right-hand by convention"], ["Splice", "strands tucked, no tools"], ["Vice", "torque, twist and hockling"]],
   uses: "Mooring and anchor lines, traditional rigging, hauling rope — the rope every knot book assumes.",
@@ -2292,7 +2326,8 @@ window.MATERIALS = [
 },
 {
   id: "doublebraid", cat: "fibre", name: "Double braid",
-  sub: "braided core inside a braided cover", swatch: { pattern: "weave", colors: ["#9aa4ad", "#d2dade", "#67707a"] },
+  sub: "braided core inside a braided cover", img: "doublebraid",
+  swatch: { pattern: "weave", colors: ["#9aa4ad", "#d2dade", "#67707a"] },
   hook: "Two ropes sharing one job, each taking roughly half the load, and neither one twisting. The clever part is the splice: the core is buried inside its own cover, so pulling harder only locks it tighter — stronger than any knot you could tie in it.",
   stats: [["Load split", "~50/50 core and cover"], ["Splice strength", "95–100% of rope"], ["Torque", "balanced, none"]],
   uses: "Yacht sheets and halyards, arborist climbing lines, winch and rescue rope.",
@@ -2300,7 +2335,8 @@ window.MATERIALS = [
 },
 {
   id: "twelvestrand", cat: "fibre", name: "Twelve-strand hollow braid",
-  sub: "single-braid construction", swatch: { pattern: "weave", colors: ["#cdd4d9", "#f0f4f6", "#99a1a8"] },
+  sub: "single-braid construction", img: "twelvestrand",
+  swatch: { pattern: "weave", colors: ["#cdd4d9", "#f0f4f6", "#99a1a8"] },
   hook: "A rope with nothing inside it, which is the point: a splice can be pushed down the middle of the rope itself. That is what makes a soft shackle possible — a loop of cord stronger than the steel shackle it replaces, that cannot dent a deck or take an eye out when it lets go.",
   stats: [["Carriers", "12, no core"], ["Splice", "buried in its own braid"], ["Soft shackle", "beats steel per gram"]],
   uses: "Soft shackles and lashings, winch lines, arborist rigging, rope-to-rope connections.",
@@ -2308,7 +2344,8 @@ window.MATERIALS = [
 },
 {
   id: "braidedline", cat: "fibre", name: "Braided fishing line",
-  sub: "gel-spun UHMWPE, 4–8 carriers", swatch: { pattern: "fiber", colors: ["#4b6b55", "#86a892", "#2b4133"] },
+  sub: "gel-spun UHMWPE, 4–8 carriers", img: "braidedline",
+  swatch: { pattern: "fiber", colors: ["#4b6b55", "#86a892", "#2b4133"] },
   hook: "Near-zero stretch changes what fishing feels like: a fish mouthing the bait forty metres away arrives in your fingertips. It also means nothing absorbs a shock, so the rod and the knot have to, and the line quietly saws grooves in the rod guides.",
   stats: [["Stretch", "~3% or less"], ["Diameter", "about a third of mono"], ["Knots", "slips unless tied for it"]],
   uses: "Spinning and baitcasting mainline, jigging, kite and drone line, cut-resistant cord.",
@@ -2422,7 +2459,8 @@ window.MATERIALS = [
 },
 {
   id: "needlepunch", cat: "fabric", name: "Needle-punched felt",
-  sub: "mechanically entangled web", swatch: { pattern: "fiber", colors: ["#7e838a", "#b6bbc1", "#53585e"] },
+  sub: "mechanically entangled web", img: "needlepunch",
+  swatch: { pattern: "fiber", colors: ["#7e838a", "#b6bbc1", "#53585e"] },
   hook: "Thousands of barbed needles stab a loose web of fibre tens of times a second, dragging fibres down through the thickness. Nothing is spun, knitted, glued or melted — the fabric is held together purely by friction between tangled fibres.",
   stats: [["Punches", "up to ~2000 per cm²"], ["Binder", "none, friction only"], ["Thickness", "1–20 mm"]],
   uses: "Automotive carpet and insulation, filter felt, geotextile, papermaker felts, craft felt.",
@@ -2454,7 +2492,8 @@ window.MATERIALS = [
 },
 {
   id: "woven3d", cat: "fabric", name: "3D woven preform",
-  sub: "through-thickness yarn architecture", swatch: { pattern: "weave", colors: ["#23262a", "#5a5f65", "#101214"] },
+  sub: "through-thickness yarn architecture", img: "woven3d",
+  swatch: { pattern: "weave", colors: ["#23262a", "#5a5f65", "#101214"] },
   hook: "A stack of flat plies delaminates because there is nothing holding one ply to the next except resin. Weave yarns through the thickness and there is no plane to split along: the part comes off the loom as a shape, and the resin is only filler.",
   stats: [["Yarn directions", "3, including Z"], ["Delamination", "designed out"], ["Form", "near-net shape off the loom"]],
   uses: "Jet engine fan blades and cases, rocket nozzles, stiffened panels, I-beam and joint preforms.",
@@ -2486,7 +2525,8 @@ window.MATERIALS = [
 },
 {
   id: "laminateshell", cat: "fabric", name: "Three-layer laminate",
-  sub: "face fabric, membrane, knit backer", swatch: { pattern: "laminate", colors: ["#2d4a63", "#cfd6db", "#1a2a38"] },
+  sub: "face fabric, membrane, knit backer", img: "laminateshell",
+  swatch: { pattern: "laminate", colors: ["#2d4a63", "#cfd6db", "#1a2a38"] },
   hook: "The waterproof-breathable membrane is the whole point of the jacket and it cannot be either surface: abrasion destroys it from outside and skin oil blocks it from inside. So it is buried between a face fabric and a scrim. The sandwich, not the film, is the invention.",
   stats: [["Layers", "3, bonded"], ["Membrane", "buried, never exposed"], ["Seams", "taped, not just sewn"]],
   uses: "Hardshell jackets and gloves, drysuits, surgical drapes, tent flys.",
@@ -2534,7 +2574,8 @@ window.MATERIALS = [
 },
 {
   id: "etextile", cat: "fabric", name: "E-textile",
-  sub: "conductive yarn knitted as circuit", swatch: { pattern: "weave", colors: ["#9ba3a9", "#dde3e7", "#5f666c"] },
+  sub: "conductive yarn knitted as circuit", img: "etextile",
+  swatch: { pattern: "weave", colors: ["#9ba3a9", "#dde3e7", "#5f666c"] },
   hook: "Spin a conductor into the yarn and the fabric becomes the sensor: a knitted stripe reads stretch, a woven grid reads touch, an embroidered trace carries the signal. The physics is easy. Surviving forty washes and a tumble dryer is the research problem.",
   stats: [["Conductors", "silver, steel, copper yarn"], ["Sensing", "stretch, touch, ECG"], ["Hard part", "laundering durability"]],
   uses: "Touch-sensitive garments and bags, heated seats and clothing, ECG and respiration shirts, soft robotics.",
@@ -2664,7 +2705,8 @@ window.MATERIALS = [
 },
 {
   id: "dea", cat: "exotic", name: "Dielectric elastomer actuator",
-  sub: "compliant electrodes on acrylic film", swatch: { pattern: "gloss", colors: ["#6e6a7a", "#b0abc0", "#413e4b"] },
+  sub: "compliant electrodes on acrylic film", img: "dea",
+  swatch: { pattern: "gloss", colors: ["#6e6a7a", "#b0abc0", "#413e4b"] },
   hook: "A rubber film with stretchy electrodes on both faces. Charge it to a few kilovolts and electrostatic pressure squeezes it thinner and wider — over 100% strain, faster and more efficiently than muscle, which is why they are called artificial muscles.",
   stats: [["Strain", ">100%"], ["Drive", "1–5 kV"], ["Efficiency", "up to ~80%"]],
   uses: "Soft robotics, haptic feedback, tunable optics, energy harvesting from waves.",
@@ -2760,7 +2802,8 @@ window.MATERIALS = [
 },
 {
   id: "strontiumal", cat: "exotic", name: "Strontium aluminate",
-  sub: "SrAl₂O₄:Eu,Dy phosphor", swatch: { pattern: "gloss", colors: ["#4fb36a", "#b8f3c4", "#1d6b33"] },
+  sub: "SrAl₂O₄:Eu,Dy phosphor", img: "strontiumal",
+  swatch: { pattern: "gloss", colors: ["#4fb36a", "#b8f3c4", "#1d6b33"] },
   hook: "The glow-in-the-dark pigment that actually works. It traps the energy of absorbed light in crystal defects and leaks it back out slowly — ten times brighter than the zinc sulfide of old toys and still visible after twelve hours in the dark.",
   stats: [["vs ZnS", "~10× brighter"], ["Afterglow", ">12 hours"], ["Radioactive", "no"]],
   uses: "Emergency exit marking, watch dials, safety signage, pigments and toys.",
@@ -2842,7 +2885,8 @@ window.MATERIALS = [
 },
 {
   id: "spruce", cat: "natural", name: "Spruce tonewood",
-  sub: "Picea, quartersawn soundboard stock", swatch: { pattern: "grain", colors: ["#d9c295", "#f0e2c4", "#a98f63"] },
+  sub: "Picea, quartersawn soundboard stock", img: "spruce",
+  swatch: { pattern: "grain", colors: ["#d9c295", "#f0e2c4", "#a98f63"] },
   hook: "Chosen for one number: stiffness along the grain divided by density, where spruce beats everything. A soundboard must be as light as possible and as stiff as possible at once, and the slow-grown Alpine trees Stradivari used grew in a cold spell that made the rings unusually tight.",
   stats: [["Stiffness/density", "best of woods"], ["Ring spacing", "1–2 mm prized"], ["Cut", "quartersawn only"]],
   uses: "Guitar, violin and piano soundboards, aircraft spars historically, ladders.",
@@ -3109,7 +3153,8 @@ window.MATERIALS = [
 },
 {
   id: "ggg", cat: "electronic", name: "Gadolinium gallium garnet",
-  sub: "GGG substrate crystal", swatch: { pattern: "gloss", colors: ["#d7b7bf", "#f3e2e6", "#a7868f"] },
+  sub: "GGG substrate crystal", img: "ggg",
+  swatch: { pattern: "gloss", colors: ["#d7b7bf", "#f3e2e6", "#a7868f"] },
   hook: "Grown almost entirely to be a surface for something else to grow on: its lattice spacing matches magnetic garnet films to within a fraction of a percent. It carried the bubble memory industry, and now carries magneto-optic isolators. It also makes a convincing fake diamond.",
   stats: [["Lattice match", "<0.1% mismatch"], ["Role", "substrate, not device"], ["Also", "diamond simulant"]],
   uses: "Substrates for magnetic garnet films, optical isolators, laser hosts, cryogenic cooling salts.",
@@ -3125,7 +3170,8 @@ window.MATERIALS = [
 },
 {
   id: "bbo", cat: "electronic", name: "BBO crystal",
-  sub: "β-barium borate, nonlinear optic", swatch: { pattern: "gloss", colors: ["#b9cdd6", "#e9f4f8", "#87a0ab"] },
+  sub: "β-barium borate, nonlinear optic", img: "bbo",
+  swatch: { pattern: "gloss", colors: ["#b9cdd6", "#e9f4f8", "#87a0ab"] },
   hook: "Light goes in at one colour and comes out at double the frequency, because the crystal's response to a strong field is not quite linear. It is how an infrared laser becomes a green pointer, and how entangled photon pairs are made for quantum optics.",
   stats: [["Transparent", "190–3500 nm"], ["Damage threshold", "very high"], ["Does", "frequency doubling, SPDC"]],
   uses: "Frequency doubling and tripling, optical parametric oscillators, entangled photon sources, Pockels cells.",
@@ -3221,7 +3267,8 @@ window.MATERIALS = [
 },
 {
   id: "ga2o3", cat: "electronic", name: "Gallium oxide",
-  sub: "β-Ga₂O₃, ultra-wide bandgap", swatch: { pattern: "gloss", colors: ["#9fb6c4", "#dceaf1", "#6d8696"] },
+  sub: "β-Ga₂O₃, ultra-wide bandgap", img: "ga2o3",
+  swatch: { pattern: "gloss", colors: ["#9fb6c4", "#dceaf1", "#6d8696"] },
   hook: "A 4.8 eV bandgap, wider than GaN or SiC, so it holds off voltage in a far thinner layer — and unlike them it can be grown from a melt, which makes wafers cheap. It barely conducts heat, which is the one thing standing in its way.",
   stats: [["Bandgap", "4.8 eV"], ["Breakdown field", "8 MV/cm"], ["Problem", "thermal conductivity ~11 W/m·K"]],
   uses: "Emerging high-voltage power devices, solar-blind UV detectors.",
