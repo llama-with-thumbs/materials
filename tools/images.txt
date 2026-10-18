@@ -311,22 +311,22 @@ leno|3611 Bandage rolling.jpg|Gauze bandage being rolled|product
 fleece|Polar fleece (2) (Rico Cilliers and colormass via Poly Haven).png|Polar fleece — napped and shorn level|photo
 nonwoven|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
 weldedseam|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
-binderjet|ProMetal RTS-300.jpg|A binder jetting machine|photo
+binderjet|ProMetal RTS-300.jpg|A binder jetting machine — the inkjet head that glues a green part together|process
 waam|Панфилов Александр - Wire Arc Additive Manufacturing (ИФПМ СО РАН).jpg|Wire arc deposition in progress|photo
-bioprint|Making 3-D Bioprinted Tissue.jpg|A bioprinter laying down cell-laden gel|photo
+bioprint|Making 3-D Bioprinted Tissue.jpg|A bioprinter laying cell-laden gel — something this soft needs a support bath to hold it while it sets|process
 metalpowder|SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg|Electron micrograph of gas-atomised steel powder|photo
 fff|3D printing in progress.jpg|A filament printer part-way through a part|photo
-lpbf|Project 1 Selective Laser Melting.jpg|Laser powder bed fusion|photo
-coldspray|CSAM 7755 16.jpg|Cold spray additive deposition|photo
+lpbf|Project 1 Selective Laser Melting.jpg|A laser powder bed machine — where the metal is melted and frozen again 30 µm at a time|process
+coldspray|CSAM 7755 16.jpg|Cold spray in progress — powder arriving fast enough to weld without melting|process
 fourd|Multishape active composites by 3d printing of digial smps.jpg|Printed shape-memory composites, folded and recovered|photo
 petg|Universal stand-alone filament spool holder (Fully 3D-printable) v04.jpg|Filament on the spool|photo
 sla|Stereolithography cycloidal drive.JPG|A cycloidal drive printed by stereolithography|product
 lcmceramic|Zirconia bridge.jpg|A zirconia dental bridge — the kind of part ceramic vat printing makes|product
 asa|ABS filament spool.jpg|An ABS spool; ASA is the same resin with a UV-stable rubber in it|related
-concreteprint|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a house printed in earth|product
+concreteprint|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a house printed in raw earth — the same thixotropic trick, with clay in place of cement|product
 bioink|Клеточная сеть образованная стволовыми клетками в трехмерном пространстве внутри гидрогелевого скаффолда.png|Stem cells spreading through a hydrogel scaffold|photo
 grcop|This copper nozzle at J-1 was shaped similarly to nozzles on nuclear engine GRC-1971-C-01014.jpg|A machined copper rocket nozzle — printed GRCop chambers do this job|related
-mslalcd|Halot-X1.jpg|An LCD resin printer|photo
+mslalcd|Halot-X1.jpg|An LCD resin printer — the vat above the panel holds the pigmented resin|process
 ebm|Xilloc Patient Specific Implant Titanium.png|A patient-specific titanium implant|product
 castablewax|Hand-carved wax model.jpg|A hand-carved wax model — castable resin replaced this step|related
 soluble|Support structure in 3D printing.jpg|Support structure on a printed part; soluble versions wash off|related
@@ -346,7 +346,7 @@ nomexcore|Composite honeycomb exhaust duct (2).jpg|A sectioned composite exhaust
 forgedcomposite|Forged Carbon Fiber Mat for Lamborghini HURACAN.jpg|Forged composite — a mat of chopped carbon tow, pressed to shape|photo
 pvcfoam|Begutachtung eines Rotorblattes.JPG|A wind turbine blade under inspection — the shells are foam-cored sandwich|product
 sls|The Power of Making at the Victoria and Albert Museum, London.jpg|A laser-sintered nylon bicycle — the first workable one, grown in fused powder|product
-polyjet|Objet 260 Stratasys.jpg|A Stratasys Objet machine — the head jets photopolymer and cures it line by line|process
+polyjet|Objet 260 Stratasys.jpg|A Stratasys Objet machine — the head jets two or more photopolymers in one pass and cures them as it goes|process
 twophoton|Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg|A 2 mm model of an 1871 microscope, written by two-photon lithography|product
 sandprint|SandMoldCopeDragCores.jpg|Cope, drag and cores of a sand mould — printing makes these without a pattern|related
 boundmetal|INDO-MIM Automotive Sector .jpg|Metal injection moulded parts — sinter-based printing uses the same feedstock and the same furnace|related
@@ -386,7 +386,7 @@ nextel|Industrial furnace equipped with HTIW modules.jpg|A furnace lined with hi
 smc|1979 tvr 3000s.jpg|A TVR 3000S — its body is hand-laid glass-reinforced plastic; sheet moulding compound is the same idea pressed out by the minute|analog
 g10|SEG DVD 430 - Printed circuit board-4276.jpg|A DVD player's circuit board — boards like this are cut from glass-cloth epoxy laminate, the electrical grade of G10|analog
 fgm|Repair process for a V2500 high-pressure turbine guide vane (8).jpg|A V2500 turbine guide vane, its thermal barrier just plasma-sprayed on — coatings like this are where graded composition earns its keep|analog
-clip|Mammoth Stereolithography.jpg|A Mammoth stereolithography machine — the same resin vat and laser; CLIP replaces the layers with one continuous pull|analog
+clip|Mammoth Stereolithography.jpg|A large vat-photopolymer machine — dual-cure resin is drawn out of a vat like this, then baked to finish the second network|analog
 mjf|MIT 3.044 Materials Processing, Spring 2005 - Selective Laser Sintering - 4153098317.jpg|Powder-bed fusion, drawn — Multi Jet Fusion works this way, but jets a fusing agent and heats with a lamp|analog
 volumetric|Stereolithography cycloidal drive.JPG|A cycloidal drive grown by stereolithography — volumetric printing cures the same resin, the whole object at once|analog
 contfibre|U S Marines with 3d Marine Logistics Group showcase 3D Printing Capabilities to the U S Coast Guard at CJLOTS 26 (9832271).jpg|Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell|process

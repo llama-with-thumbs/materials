@@ -20,7 +20,7 @@ style.css      styling, dark by default with a light toggle
 app.js         rendering, search, category filter, lightbox, swatch drawing
 data.js        the catalogue — 402 entries, this is the file to edit
 credits.js     generated: image filenames, photographers, licences, source links
-images/        313 images, 900 px wide
+images/        402 images, 900 px wide
 tools/
   images.txt       id | Commons filename | caption | kind
   fetch_images.py  downloads the images and regenerates credits.js
@@ -40,6 +40,10 @@ tools/
 | `fabric` | Fabrics & constructions | 26 |
 | `natural` | Natural & biological | 29 |
 | `exotic` | Active & exotic | 32 |
+
+`additive` is a materials category like the rest: each card is a feedstock or the stuff a printed
+part is made of — filament, resin, powder, wire, slurry, bath — and the process that consumes it is
+named in the subtitle and the stats, not made the subject.
 
 ## Adding a material
 
@@ -94,7 +98,7 @@ All 402 entries carry an image from Wikimedia Commons. Each remains under its ow
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
 the lightbox. If you redistribute this page, keep those credits.
 
-226 are photographs of the material itself. 176 are not, and say so in the corner of the image:
+221 are photographs of the material itself. 181 are not, and say so in the corner of the image:
 
 - **119 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
@@ -113,10 +117,11 @@ the lightbox. If you redistribute this page, keep those credits.
   optical calcium fluoride, a superhydrophobic droplet for SLIPS, metal injection moulded parts for
   sinter-based printing, a MiG-29 for Scalmalloy, a GAGG:Ce scintillator for GGG, and a
   cut-resistant glove for Vectran.
-- **11 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
+- **16 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
   spraying for Nafion, a laser powder bed machine mid-build for AlSi10Mg, hand needle felting for
-  needle-punched felt, two Markforged X7 machines for continuous fibre printing, and the loom or
-  knitting machine itself for Jacquard weave, warp knitting and whole-garment knitting.
+  needle-punched felt, two Markforged X7 machines for continuous fibre printing, the machine that
+  consumes the feedstock for several of the printing materials, and the loom or knitting machine
+  itself for Jacquard weave, warp knitting and whole-garment knitting.
 
 No entry now falls back to a drawn swatch, and none shows only a molecular structure: the five that
 did — Zylon, Torlon, PPS, MOF-5 and hafnium oxide — now show the closest real object instead,

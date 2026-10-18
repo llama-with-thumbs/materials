@@ -2819,8 +2819,8 @@ window.CREDITS = {
   },
   "binderjet": {
     "file": "binderjet.jpg",
-    "caption": "A binder jetting machine",
-    "kind": "photo",
+    "caption": "A binder jetting machine — the inkjet head that glues a green part together",
+    "kind": "process",
     "title": "ProMetal RTS-300.jpg",
     "artist": "Bon pl",
     "license": "CC BY-SA 4.0",
@@ -2837,8 +2837,8 @@ window.CREDITS = {
   },
   "bioprint": {
     "file": "bioprint.jpg",
-    "caption": "A bioprinter laying down cell-laden gel",
-    "kind": "photo",
+    "caption": "A bioprinter laying cell-laden gel — something this soft needs a support bath to hold it while it sets",
+    "kind": "process",
     "title": "Making 3-D Bioprinted Tissue.jpg",
     "artist": "National Center for Advancing Translational Sciences",
     "license": "Public domain",
@@ -2864,8 +2864,8 @@ window.CREDITS = {
   },
   "lpbf": {
     "file": "lpbf.jpg",
-    "caption": "Laser powder bed fusion",
-    "kind": "photo",
+    "caption": "A laser powder bed machine — where the metal is melted and frozen again 30 µm at a time",
+    "kind": "process",
     "title": "Project 1 Selective Laser Melting.jpg",
     "artist": "Sangeeth.G.KR",
     "license": "CC0",
@@ -2873,8 +2873,8 @@ window.CREDITS = {
   },
   "coldspray": {
     "file": "coldspray.jpg",
-    "caption": "Cold spray additive deposition",
-    "kind": "photo",
+    "caption": "Cold spray in progress — powder arriving fast enough to weld without melting",
+    "kind": "process",
     "title": "CSAM 7755 16.jpg",
     "artist": "Lilia Chomoyan",
     "license": "CC BY-SA 4.0",
@@ -2927,7 +2927,7 @@ window.CREDITS = {
   },
   "concreteprint": {
     "file": "concreteprint.jpg",
-    "caption": "Tecla, a house printed in earth",
+    "caption": "Tecla, a house printed in raw earth — the same thixotropic trick, with clay in place of cement",
     "kind": "product",
     "title": "Eco-sustainable 3D printed house \"Tecla\".jpg",
     "artist": "Video Autor: Alfredo Milano\nDrone views: Italdron\n\n\nProject by:\nWASP: Engineering and 3D printing construction \nMario Cucinella Architects: Architectural design and project management\nIn collaboration with:\nSOS - School of Sustainability: Research partner\nMapei: Materials consultancy and supply\nMilan Ingegneria: Structural consultancy\nCapoferri: Frames engineering and production\nRiceHouse: Bio-materials consultancy and supply\nFrassinago: Landscaping\nLucifero’s: Lighting design\nAriatta: Energy and internal comfort consultancy\nImola Legno: Timber solutions consultancy and supply\nPrimat • Terracruda®: Earthen floor supply\nCefla: Electrical solutions supply\nUnder the patronage of: \nMunicipality of Massa Lombarda \nSponsored by:\n\nTer Costruzioni",
@@ -2954,8 +2954,8 @@ window.CREDITS = {
   },
   "mslalcd": {
     "file": "mslalcd.jpg",
-    "caption": "An LCD resin printer",
-    "kind": "photo",
+    "caption": "An LCD resin printer — the vat above the panel holds the pigmented resin",
+    "kind": "process",
     "title": "Halot-X1.jpg",
     "artist": "Piocreat",
     "license": "CC BY-SA 4.0",
@@ -3134,7 +3134,7 @@ window.CREDITS = {
   },
   "polyjet": {
     "file": "polyjet.jpg",
-    "caption": "A Stratasys Objet machine — the head jets photopolymer and cures it line by line",
+    "caption": "A Stratasys Objet machine — the head jets two or more photopolymers in one pass and cures them as it goes",
     "kind": "process",
     "title": "Objet 260 Stratasys.jpg",
     "artist": "3dilla",
@@ -3494,7 +3494,7 @@ window.CREDITS = {
   },
   "clip": {
     "file": "clip.jpg",
-    "caption": "A Mammoth stereolithography machine — the same resin vat and laser; CLIP replaces the layers with one continuous pull",
+    "caption": "A large vat-photopolymer machine — dual-cure resin is drawn out of a vat like this, then baked to finish the second network",
     "kind": "analog",
     "title": "Mammoth Stereolithography.jpg",
     "artist": "Materialise NV",
