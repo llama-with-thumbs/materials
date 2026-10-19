@@ -731,12 +731,12 @@ window.CREDITS = {
   },
   "torlon": {
     "file": "torlon.jpg",
-    "caption": "A sawn and turned Vespel part — polyimide, the chemical neighbour Torlon's amide-imide sits beside",
+    "caption": "A roll of Kapton tape — polyimide, the amber chemical neighbour Torlon's amide-imide sits beside",
     "kind": "analog",
-    "title": "Vespel.Werkstueck.P1149524.jpg",
-    "artist": "Bautsch",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vespel.Werkstueck.P1149524.jpg"
+    "title": "Ruban-capton-adhesif.jpg",
+    "artist": "Jérôme",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ruban-capton-adhesif.jpg"
   },
   "fields": {
     "file": "fields.jpg",
@@ -1181,12 +1181,12 @@ window.CREDITS = {
   },
   "ti64": {
     "file": "ti64.jpg",
-    "caption": "Ti-6Al-4V microstructure — the fine α+β grain mixture that carries the strength",
-    "kind": "photo",
-    "title": "Ti-6Al-4V microstructure.tif",
-    "artist": "Berksoykan",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ti-6Al-4V_microstructure.tif"
+    "caption": "A titanium hip prosthesis — the stem is this alloy",
+    "kind": "product",
+    "title": "Hip joint replacement, United States, 1998 Wellcome L0060175.jpg",
+    "artist": "Unknown",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hip_joint_replacement,_United_States,_1998_Wellcome_L0060175.jpg"
   },
   "magnesium": {
     "file": "magnesium.jpg",
@@ -1217,12 +1217,12 @@ window.CREDITS = {
   },
   "duplex": {
     "file": "duplex.jpg",
-    "caption": "Duplex stainless microstructure — two phases interleaved",
-    "kind": "photo",
-    "title": "Microstructure of 2707 Hyper Duplex Stainless Steel.jpg",
-    "artist": "Huabing Li, Enze Zhou, Dawei Zhang, Dake Xu, Jin Xia, Chunguang Yang, Hao Feng, Zhouhua Jiang, Xiaogang Li, Tingyue Gu & Ke Yang",
-    "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Microstructure_of_2707_Hyper_Duplex_Stainless_Steel.jpg"
+    "caption": "A chemical tanker — duplex stainless is the standard for cargo tanks that carry acid",
+    "kind": "product",
+    "title": "Chemical tanker Ternholm at Skarvikshamnen 2.jpg",
+    "artist": "W.carter",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chemical_tanker_Ternholm_at_Skarvikshamnen_2.jpg"
   },
   "hss": {
     "file": "hss.jpg",
@@ -2817,15 +2817,6 @@ window.CREDITS = {
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Viking_pro_1000_drysuit_with_magnum_hood.jpg"
   },
-  "binderjet": {
-    "file": "binderjet.jpg",
-    "caption": "A binder jetting machine — the inkjet head that glues a green part together",
-    "kind": "process",
-    "title": "ProMetal RTS-300.jpg",
-    "artist": "Bon pl",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:ProMetal_RTS-300.jpg"
-  },
   "waam": {
     "file": "waam.jpg",
     "caption": "Wire arc deposition in progress",
@@ -2834,15 +2825,6 @@ window.CREDITS = {
     "artist": "Панфилов Александр",
     "license": "CC BY 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BD%D1%84%D0%B8%D0%BB%D0%BE%D0%B2_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_-_Wire_Arc_Additive_Manufacturing_(%D0%98%D0%A4%D0%9F%D0%9C_%D0%A1%D0%9E_%D0%A0%D0%90%D0%9D).jpg"
-  },
-  "bioprint": {
-    "file": "bioprint.jpg",
-    "caption": "A bioprinter laying cell-laden gel — something this soft needs a support bath to hold it while it sets",
-    "kind": "process",
-    "title": "Making 3-D Bioprinted Tissue.jpg",
-    "artist": "National Center for Advancing Translational Sciences",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Making_3-D_Bioprinted_Tissue.jpg"
   },
   "metalpowder": {
     "file": "metalpowder.jpg",
@@ -2855,21 +2837,12 @@ window.CREDITS = {
   },
   "fff": {
     "file": "fff.jpg",
-    "caption": "A filament printer part-way through a part",
+    "caption": "Spools of 1.75 mm filament on a printed stand",
     "kind": "photo",
-    "title": "3D printing in progress.jpg",
-    "artist": "MakerTobey",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:3D_printing_in_progress.jpg"
-  },
-  "lpbf": {
-    "file": "lpbf.jpg",
-    "caption": "A laser powder bed machine — where the metal is melted and frozen again 30 µm at a time",
-    "kind": "process",
-    "title": "Project 1 Selective Laser Melting.jpg",
-    "artist": "Sangeeth.G.KR",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Project_1_Selective_Laser_Melting.jpg"
+    "title": "Universal stand-alone filament spool holder (Fully 3D-printable) v04.jpg",
+    "artist": "Creative Tools",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Universal_stand-alone_filament_spool_holder_(Fully_3D-printable)_v04.jpg"
   },
   "coldspray": {
     "file": "coldspray.jpg",
@@ -2889,41 +2862,14 @@ window.CREDITS = {
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Multishape_active_composites_by_3d_printing_of_digial_smps.jpg"
   },
-  "petg": {
-    "file": "petg.jpg",
-    "caption": "Filament on the spool",
-    "kind": "photo",
-    "title": "Universal stand-alone filament spool holder (Fully 3D-printable) v04.jpg",
-    "artist": "Creative Tools",
-    "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Universal_stand-alone_filament_spool_holder_(Fully_3D-printable)_v04.jpg"
-  },
-  "sla": {
-    "file": "sla.jpg",
-    "caption": "A cycloidal drive printed by stereolithography",
-    "kind": "product",
-    "title": "Stereolithography cycloidal drive.JPG",
-    "artist": "Clemenspool",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Stereolithography_cycloidal_drive.JPG"
-  },
   "lcmceramic": {
     "file": "lcmceramic.jpg",
-    "caption": "A zirconia dental bridge — the kind of part ceramic vat printing makes",
+    "caption": "A zirconia dental bridge — the kind of part a ceramic slurry resin makes",
     "kind": "product",
     "title": "Zirconia bridge.jpg",
     "artist": "AmirAttallah",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Zirconia_bridge.jpg"
-  },
-  "asa": {
-    "file": "asa.jpg",
-    "caption": "An ABS spool; ASA is the same resin with a UV-stable rubber in it",
-    "kind": "related",
-    "title": "ABS filament spool.jpg",
-    "artist": "Tatár Lehel",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:ABS_filament_spool.jpg"
   },
   "concreteprint": {
     "file": "concreteprint.jpg",
@@ -2945,21 +2891,12 @@ window.CREDITS = {
   },
   "grcop": {
     "file": "grcop.jpg",
-    "caption": "A machined copper rocket nozzle — printed GRCop chambers do this job",
-    "kind": "related",
-    "title": "This copper nozzle at J-1 was shaped similarly to nozzles on nuclear engine GRC-1971-C-01014.jpg",
-    "artist": "NASA",
+    "caption": "A printed fuel injector going into a subscale RS-25 engine — hot-fire tested near 3300 °C",
+    "kind": "product",
+    "title": "Marshall engineers installed the injector in a subscale RS-25 engine model.jpg",
+    "artist": "NASA/MSFC",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:This_copper_nozzle_at_J-1_was_shaped_similarly_to_nozzles_on_nuclear_engine_GRC-1971-C-01014.jpg"
-  },
-  "mslalcd": {
-    "file": "mslalcd.jpg",
-    "caption": "An LCD resin printer — the vat above the panel holds the pigmented resin",
-    "kind": "process",
-    "title": "Halot-X1.jpg",
-    "artist": "Piocreat",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Halot-X1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Marshall_engineers_installed_the_injector_in_a_subscale_RS-25_engine_model.jpg"
   },
   "ebm": {
     "file": "ebm.png",
@@ -2969,15 +2906,6 @@ window.CREDITS = {
     "artist": "Maikel Beerens, Xilloc",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Xilloc_Patient_Specific_Implant_Titanium.png"
-  },
-  "castablewax": {
-    "file": "castablewax.jpg",
-    "caption": "A hand-carved wax model — castable resin replaced this step",
-    "kind": "related",
-    "title": "Hand-carved wax model.jpg",
-    "artist": "Mauro Cateb",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hand-carved_wax_model.jpg"
   },
   "soluble": {
     "file": "soluble.jpg",
@@ -2990,12 +2918,12 @@ window.CREDITS = {
   },
   "pa12powder": {
     "file": "pa12powder.jpg",
-    "caption": "A printed nylon object",
+    "caption": "A laser-sintered nylon bicycle — the first workable one, grown in fused powder",
     "kind": "product",
-    "title": "Sunderland, National Glass Centre, Exhibit 1, '3D printed nylon' - geograph.org.uk - 7576037.jpg",
-    "artist": "Michael Garlick",
+    "title": "The Power of Making at the Victoria and Albert Museum, London.jpg",
+    "artist": "51% Studios Architecture",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sunderland,_National_Glass_Centre,_Exhibit_1,_%273D_printed_nylon%27_-_geograph.org.uk_-_7576037.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:The_Power_of_Making_at_the_Victoria_and_Albert_Museum,_London.jpg"
   },
   "cellacetate": {
     "file": "cellacetate.jpg",
@@ -3089,12 +3017,12 @@ window.CREDITS = {
   },
   "azs": {
     "file": "azs.jpg",
-    "caption": "A refractory lining inside a rotary kiln — fused-cast AZS does this job where molten glass would eat ordinary brick",
+    "caption": "The Lemington glass furnace, the last of its type working in Britain — fused-cast AZS lines the tank that holds molten glass",
     "kind": "related",
-    "title": "Refractory bricks lining.jpg",
-    "artist": "Alexknight12",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Refractory_bricks_lining.jpg"
+    "title": "Lemington Glass Furnace - geograph.org.uk - 498767.jpg",
+    "artist": "ivan everett",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lemington_Glass_Furnace_-_geograph.org.uk_-_498767.jpg"
   },
   "nomexcore": {
     "file": "nomexcore.jpg",
@@ -3123,24 +3051,6 @@ window.CREDITS = {
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Begutachtung_eines_Rotorblattes.JPG"
   },
-  "sls": {
-    "file": "sls.jpg",
-    "caption": "A laser-sintered nylon bicycle — the first workable one, grown in fused powder",
-    "kind": "product",
-    "title": "The Power of Making at the Victoria and Albert Museum, London.jpg",
-    "artist": "51% Studios Architecture",
-    "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Power_of_Making_at_the_Victoria_and_Albert_Museum,_London.jpg"
-  },
-  "polyjet": {
-    "file": "polyjet.jpg",
-    "caption": "A Stratasys Objet machine — the head jets two or more photopolymers in one pass and cures them as it goes",
-    "kind": "process",
-    "title": "Objet 260 Stratasys.jpg",
-    "artist": "3dilla",
-    "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Objet_260_Stratasys.jpg"
-  },
   "twophoton": {
     "file": "twophoton.jpg",
     "caption": "A 2 mm model of an 1871 microscope, written by two-photon lithography",
@@ -3161,21 +3071,12 @@ window.CREDITS = {
   },
   "boundmetal": {
     "file": "boundmetal.jpg",
-    "caption": "Metal injection moulded parts — sinter-based printing uses the same feedstock and the same furnace",
-    "kind": "related",
-    "title": "INDO-MIM Automotive Sector .jpg",
-    "artist": "INDO-MIM PVT. LTD.",
+    "caption": "Capsule, helix and tetrapod — filament-printed in 316L, then sintered",
+    "kind": "product",
+    "title": "Filamentgedruckte und gesinterte Bauteile aus hochlegiertem Stahl (316L).jpg",
+    "artist": "Fraunhofer IFAM",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:INDO-MIM_Automotive_Sector_.jpg"
-  },
-  "nyloncf": {
-    "file": "nyloncf.jpg",
-    "caption": "Filament spools — the carbon-filled grades are the flat black ones",
-    "kind": "related",
-    "title": "3D Printing Materials (16863368275).jpg",
-    "artist": "Maurizio Pesce from Milan, Italia",
-    "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:3D_Printing_Materials_(16863368275).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Filamentgedruckte_und_gesinterte_Bauteile_aus_hochlegiertem_Stahl_(316L).jpg"
   },
   "slaresin": {
     "file": "slaresin.jpg",
@@ -3188,21 +3089,12 @@ window.CREDITS = {
   },
   "alsi10mg": {
     "file": "alsi10mg.jpg",
-    "caption": "Inside a laser powder bed machine, mid-build",
-    "kind": "process",
-    "title": "FZU 3Dprinting 1.jpg",
-    "artist": "René Volfík",
+    "caption": "Prototype turbochargers grown in a laser powder bed — the same powder route, though a housing this hot wants nickel rather than aluminium",
+    "kind": "analog",
+    "title": "Professional MotorSport World Expo 2024, Cologne (P1031209).jpg",
+    "artist": "Matti Blume",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:FZU_3Dprinting_1.jpg"
-  },
-  "scalmalloy": {
-    "file": "scalmalloy.jpg",
-    "caption": "The MiG-29 — its welded airframe was the first production use of scandium in aluminium",
-    "kind": "related",
-    "title": "Mig-29 on landing.jpg",
-    "artist": "Dmitry A. Mottl",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mig-29_on_landing.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Professional_MotorSport_World_Expo_2024,_Cologne_(P1031209).jpg"
   },
   "printsilicone": {
     "file": "printsilicone.jpg",
@@ -3492,33 +3384,6 @@ window.CREDITS = {
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Repair_process_for_a_V2500_high-pressure_turbine_guide_vane_(8).jpg"
   },
-  "clip": {
-    "file": "clip.jpg",
-    "caption": "A large vat-photopolymer machine — dual-cure resin is drawn out of a vat like this, then baked to finish the second network",
-    "kind": "analog",
-    "title": "Mammoth Stereolithography.jpg",
-    "artist": "Materialise NV",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mammoth_Stereolithography.jpg"
-  },
-  "mjf": {
-    "file": "mjf.jpg",
-    "caption": "Powder-bed fusion, drawn — Multi Jet Fusion works this way, but jets a fusing agent and heats with a lamp",
-    "kind": "analog",
-    "title": "MIT 3.044 Materials Processing, Spring 2005 - Selective Laser Sintering - 4153098317.jpg",
-    "artist": "mitopencourseware",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MIT_3.044_Materials_Processing,_Spring_2005_-_Selective_Laser_Sintering_-_4153098317.jpg"
-  },
-  "volumetric": {
-    "file": "volumetric.jpg",
-    "caption": "A cycloidal drive grown by stereolithography — volumetric printing cures the same resin, the whole object at once",
-    "kind": "analog",
-    "title": "Stereolithography cycloidal drive.JPG",
-    "artist": "Clemenspool",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Stereolithography_cycloidal_drive.JPG"
-  },
   "contfibre": {
     "file": "contfibre.jpg",
     "caption": "Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell",
@@ -3557,21 +3422,21 @@ window.CREDITS = {
   },
   "basofil": {
     "file": "basofil.jpg",
-    "caption": "A firefighter's hood, Toronto Fire Service — melamine fibre is blended into exactly this kind of knit",
+    "caption": "Firefighters' turnout gear — melamine fibre goes into liners and hoods of kit like this",
     "kind": "analog",
-    "title": "TFS Nomex Hood.JPG",
-    "artist": "The original uploader was Sherurcij at English Wikipedia.",
-    "license": "Attribution",
-    "page": "https://commons.wikimedia.org/wiki/File:TFS_Nomex_Hood.JPG"
+    "title": "Turnout gear in the Czech Republic.jpg",
+    "artist": "Michal Maňas",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Turnout_gear_in_the_Czech_Republic.jpg"
   },
   "silicafibre": {
     "file": "silicafibre.jpg",
-    "caption": "A bundle of glass filaments — high-silica fibre is this, leached in acid until almost nothing but silica is left",
+    "caption": "A bobbin of glass roving — high-silica fibre starts as glass like this, then is leached until almost nothing but silica is left",
     "kind": "analog",
-    "title": "Glass fiber bundle.jpg",
-    "artist": "Acheolg",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Glass_fiber_bundle.jpg"
+    "title": "Glasfaser Roving.jpg",
+    "artist": "NoiseD at de.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glasfaser_Roving.jpg"
   },
   "kineticrope": {
     "file": "kineticrope.jpg",

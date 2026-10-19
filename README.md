@@ -1,6 +1,6 @@
 # Interesting Materials
 
-A single-page field guide to 402 materials that exist because of one specific trick — a
+A single-page field guide to 387 materials that exist because of one specific trick — a
 polyurethane that carries tons without overheating, a ceramic that clamps its own cracks shut,
 a lashing that tightens itself as it dries, an airbag woven closed so it has no seam to burst.
 
@@ -18,9 +18,9 @@ one JS file, and it works straight off the filesystem.
 index.html     page shell
 style.css      styling, dark by default with a light toggle
 app.js         rendering, search, category filter, lightbox, swatch drawing
-data.js        the catalogue — 402 entries, this is the file to edit
+data.js        the catalogue — 387 entries, this is the file to edit
 credits.js     generated: image filenames, photographers, licences, source links
-images/        402 images, 900 px wide
+images/        387 images, 900 px wide
 tools/
   images.txt       id | Commons filename | caption | kind
   fetch_images.py  downloads the images and regenerates credits.js
@@ -35,7 +35,7 @@ tools/
 | `ceramic` | Ceramics & glass | 49 |
 | `electronic` | Semiconductors & optics | 28 |
 | `composite` | Composites & structures | 36 |
-| `additive` | 3D printing & additive | 35 |
+| `additive` | 3D printing & additive | 20 |
 | `fibre` | Ropes & woven materials | 64 |
 | `fabric` | Fabrics & constructions | 26 |
 | `natural` | Natural & biological | 29 |
@@ -43,7 +43,11 @@ tools/
 
 `additive` is a materials category like the rest: each card is a feedstock or the stuff a printed
 part is made of — filament, resin, powder, wire, slurry, bath — and the process that consumes it is
-named in the subtitle and the stats, not made the subject.
+named in the subtitle and the stats, not made the subject. It is deliberately short: twenty
+materials that each carry their own distinct picture, rather than a card for every machine on the
+market.
+
+Within each category, cards appear in the order they were added.
 
 ## Adding a material
 
@@ -93,39 +97,38 @@ wider than 640 px, then picking by eye from the top few results.
 
 ## Images and licensing
 
-All 402 entries carry an image from Wikimedia Commons. Each remains under its own licence
+All 387 entries carry an image from Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
-the lightbox. If you redistribute this page, keep those credits.
+the lightbox. If you redistribute this page, keep those credits. No two cards use the same
+photograph.
 
-221 are photographs of the material itself. 181 are not, and say so in the corner of the image:
+218 are photographs of the material itself. 169 are not, and say so in the corner of the image:
 
-- **119 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **121 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
-  Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for SLS,
-  a LEAP engine fan for 3D woven preforms, soft shackles for twelve-strand hollow braid, a PEI-coated
-  printer build plate for polyetherimide, and a 2 mm model of an 1871 microscope for two-photon
-  polymerisation.
-- **24 show a similar example** — the nearest comparable thing, where neither the material nor
+  Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
+  powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
+  chemical tanker for duplex stainless, and a 2 mm model of an 1871 microscope for the two-photon
+  resist.
+- **22 show a similar example** — the nearest comparable thing, where neither the material nor
   anything made from it has been photographed freely: a piezoelectric hydrophone for Terfenol-D, a
-  Level IIIA vest for Zylon, a machined Vespel part for Torlon, activated carbon for MOF-5, a
+  Level IIIA vest for Zylon, a roll of Kapton tape for Torlon, activated carbon for MOF-5, a
   dye-laser mirror for hafnium oxide, a cast-iron surface plate for the granite one, a
-  magnetorheological fluid for the electrorheological one, aramid filaments for M5, a Nomex hood for
-  melamine fibre, a hand-laid glass-reinforced body for sheet moulding compound, and an aluminium
-  reduction cell hall for titanium diboride. The caption always says what the picture actually is.
-- **22 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
-  optical calcium fluoride, a superhydrophobic droplet for SLIPS, metal injection moulded parts for
-  sinter-based printing, a MiG-29 for Scalmalloy, a GAGG:Ce scintillator for GGG, and a
-  cut-resistant glove for Vectran.
-- **16 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
-  spraying for Nafion, a laser powder bed machine mid-build for AlSi10Mg, hand needle felting for
-  needle-punched felt, two Markforged X7 machines for continuous fibre printing, the machine that
-  consumes the feedstock for several of the printing materials, and the loom or knitting machine
-  itself for Jacquard weave, warp knitting and whole-garment knitting.
+  magnetorheological fluid for the electrorheological one, aramid filaments for M5, turnout gear for
+  melamine fibre, and a hand-laid glass-reinforced body for sheet moulding compound. The caption
+  always says what the picture actually is.
+- **16 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
+  optical calcium fluoride, a superhydrophobic droplet for SLIPS, a printed sand mould for
+  furan-bonded sand, a GAGG:Ce scintillator for GGG, and a cut-resistant glove for Vectran.
+- **10 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
+  spraying for Nafion, cold spray mid-deposition for cold-spray powder, hand needle felting for
+  needle-punched felt, two Markforged X7 machines for continuous fibre printing, and the loom or
+  knitting machine itself for Jacquard weave, warp knitting and whole-garment knitting.
 
-No entry now falls back to a drawn swatch, and none shows only a molecular structure: the five that
-did — Zylon, Torlon, PPS, MOF-5 and hafnium oxide — now show the closest real object instead,
-badged "a similar example".
+No entry falls back to a drawn swatch, and none shows a molecular or crystal structure: where a
+material itself has never been photographed freely, the card carries the closest real object
+instead.
 
 Three photographs are representative rather than exact and say so in their captions: the Vulkollan
 card shows a cast polyurethane wheel of the same family, the AlON card shows transparent

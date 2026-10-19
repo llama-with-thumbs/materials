@@ -79,7 +79,7 @@ vectran|Level 3A glove.jpg|A cut-resistant glove — Vectran is one of the yarns
 metglas|MeltSpinner.png|Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise|process
 maraging|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Competition épée blades are maraging steel — it bends far before it breaks|product
 cordierite|Catalytic Converter Interior.jpg|Inside a catalytic converter: the extruded cordierite honeycomb|product
-torlon|Vespel.Werkstueck.P1149524.jpg|A sawn and turned Vespel part — polyimide, the chemical neighbour Torlon's amide-imide sits beside|analog
+torlon|Ruban-capton-adhesif.jpg|A roll of Kapton tape — polyimide, the amber chemical neighbour Torlon's amide-imide sits beside|analog
 fields|Wood's alloy 2.JPG|Wood's metal, Field's older cadmium-bearing cousin, melting in hot water|related
 bakelite|Bakelite radio.jpg|A Bakelite radio cabinet|product
 phenolic|Textolite.jpg|Phenolic cotton laminate — cloth and resin pressed into a solid|photo
@@ -129,11 +129,11 @@ cyanoacrylate|Cianocrilato.JPG|Cyanoacrylate adhesive|product
 pva|Folia PVA z pochodną kumaryny w świetle widzialnym nr 01.jpg|Polyvinyl alcohol film
 nafion|Patrick Teppor and PEM active layer deposition by ultrasonic spraying.jpg|Spraying a catalyst layer onto a proton exchange membrane|process
 pbi|Membrana di PBI commerciale.JPG|A commercial PBI membrane
-ti64|Ti-6Al-4V microstructure.tif|Ti-6Al-4V microstructure — the fine α+β grain mixture that carries the strength
+ti64|Hip joint replacement, United States, 1998 Wellcome L0060175.jpg|A titanium hip prosthesis — the stem is this alloy|product
 magnesium|Mg alloy car engine blocks.jpg|Magnesium alloy engine blocks|product
 damascus|Front and back of blades of hair-cutting shears made from Damascus steel.jpg|Pattern-welded blades, etched to bring out the layers|product
 hadfield|Sacramento tram track frog 4036.JPG|A track frog — the crossing casting is manganese steel|product
-duplex|Microstructure of 2707 Hyper Duplex Stainless Steel.jpg|Duplex stainless microstructure — two phases interleaved
+duplex|Chemical tanker Ternholm at Skarvikshamnen 2.jpg|A chemical tanker — duplex stainless is the standard for cargo tanks that carry acid|product
 hss|HSS Twist Drill into Aluminium with Lubricant.jpg|An HSS twist drill cutting aluminium|product
 phosbronze|Phosphorbronzeguitarstring.jpg|Phosphor bronze guitar string|product
 monel|Monel-valves--The-Alloy-Valve-Stockist.JPG|Monel valves|product
@@ -311,26 +311,18 @@ leno|3611 Bandage rolling.jpg|Gauze bandage being rolled|product
 fleece|Polar fleece (2) (Rico Cilliers and colormass via Poly Haven).png|Polar fleece — napped and shorn level|photo
 nonwoven|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
 weldedseam|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
-binderjet|ProMetal RTS-300.jpg|A binder jetting machine — the inkjet head that glues a green part together|process
 waam|Панфилов Александр - Wire Arc Additive Manufacturing (ИФПМ СО РАН).jpg|Wire arc deposition in progress|photo
-bioprint|Making 3-D Bioprinted Tissue.jpg|A bioprinter laying cell-laden gel — something this soft needs a support bath to hold it while it sets|process
 metalpowder|SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg|Electron micrograph of gas-atomised steel powder|photo
-fff|3D printing in progress.jpg|A filament printer part-way through a part|photo
-lpbf|Project 1 Selective Laser Melting.jpg|A laser powder bed machine — where the metal is melted and frozen again 30 µm at a time|process
+fff|Universal stand-alone filament spool holder (Fully 3D-printable) v04.jpg|Spools of 1.75 mm filament on a printed stand|photo
 coldspray|CSAM 7755 16.jpg|Cold spray in progress — powder arriving fast enough to weld without melting|process
 fourd|Multishape active composites by 3d printing of digial smps.jpg|Printed shape-memory composites, folded and recovered|photo
-petg|Universal stand-alone filament spool holder (Fully 3D-printable) v04.jpg|Filament on the spool|photo
-sla|Stereolithography cycloidal drive.JPG|A cycloidal drive printed by stereolithography|product
-lcmceramic|Zirconia bridge.jpg|A zirconia dental bridge — the kind of part ceramic vat printing makes|product
-asa|ABS filament spool.jpg|An ABS spool; ASA is the same resin with a UV-stable rubber in it|related
+lcmceramic|Zirconia bridge.jpg|A zirconia dental bridge — the kind of part a ceramic slurry resin makes|product
 concreteprint|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a house printed in raw earth — the same thixotropic trick, with clay in place of cement|product
 bioink|Клеточная сеть образованная стволовыми клетками в трехмерном пространстве внутри гидрогелевого скаффолда.png|Stem cells spreading through a hydrogel scaffold|photo
-grcop|This copper nozzle at J-1 was shaped similarly to nozzles on nuclear engine GRC-1971-C-01014.jpg|A machined copper rocket nozzle — printed GRCop chambers do this job|related
-mslalcd|Halot-X1.jpg|An LCD resin printer — the vat above the panel holds the pigmented resin|process
+grcop|Marshall engineers installed the injector in a subscale RS-25 engine model.jpg|A printed fuel injector going into a subscale RS-25 engine — hot-fire tested near 3300 °C|product
 ebm|Xilloc Patient Specific Implant Titanium.png|A patient-specific titanium implant|product
-castablewax|Hand-carved wax model.jpg|A hand-carved wax model — castable resin replaced this step|related
 soluble|Support structure in 3D printing.jpg|Support structure on a printed part; soluble versions wash off|related
-pa12powder|Sunderland, National Glass Centre, Exhibit 1, '3D printed nylon' - geograph.org.uk - 7576037.jpg|A printed nylon object|product
+pa12powder|The Power of Making at the Victoria and Albert Museum, London.jpg|A laser-sintered nylon bicycle — the first workable one, grown in fused powder|product
 cellacetate|Cutlery made from Cellulose Acetate Biograde.JPG|Cutlery moulded in cellulose acetate|product
 gummetal|Watch balance spring and human hair.jpg|A watch balance spring beside a human hair — Gum Metal is one of the alloys wound into these|related
 al7075|Black Diamond Carabiners.JPG|Climbing carabiners — hot-forged 7075 is the standard alloy|product
@@ -341,19 +333,15 @@ macor|60kV Feedthrough.jpg|A 60 kV vacuum feedthrough — the insulator is the k
 chalcogenide|CD-RW bottom.jpg|The underside of a CD-RW — the recording layer is a chalcogenide that switches between glass and crystal|product
 zblan|Doped glasses.jpg|ZBLAN samples: praseodymium-doped, erbium-doped and undoped|photo
 isographite|Graphite crucibles.jpg|Graphite crucibles, good to about 1500 °C|product
-azs|Refractory bricks lining.jpg|A refractory lining inside a rotary kiln — fused-cast AZS does this job where molten glass would eat ordinary brick|related
+azs|Lemington Glass Furnace - geograph.org.uk - 498767.jpg|The Lemington glass furnace, the last of its type working in Britain — fused-cast AZS lines the tank that holds molten glass|related
 nomexcore|Composite honeycomb exhaust duct (2).jpg|A sectioned composite exhaust duct, showing the honeycomb core between its skins|product
 forgedcomposite|Forged Carbon Fiber Mat for Lamborghini HURACAN.jpg|Forged composite — a mat of chopped carbon tow, pressed to shape|photo
 pvcfoam|Begutachtung eines Rotorblattes.JPG|A wind turbine blade under inspection — the shells are foam-cored sandwich|product
-sls|The Power of Making at the Victoria and Albert Museum, London.jpg|A laser-sintered nylon bicycle — the first workable one, grown in fused powder|product
-polyjet|Objet 260 Stratasys.jpg|A Stratasys Objet machine — the head jets two or more photopolymers in one pass and cures them as it goes|process
 twophoton|Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg|A 2 mm model of an 1871 microscope, written by two-photon lithography|product
 sandprint|SandMoldCopeDragCores.jpg|Cope, drag and cores of a sand mould — printing makes these without a pattern|related
-boundmetal|INDO-MIM Automotive Sector .jpg|Metal injection moulded parts — sinter-based printing uses the same feedstock and the same furnace|related
-nyloncf|3D Printing Materials (16863368275).jpg|Filament spools — the carbon-filled grades are the flat black ones|related
+boundmetal|Filamentgedruckte und gesinterte Bauteile aus hochlegiertem Stahl (316L).jpg|Capsule, helix and tetrapod — filament-printed in 316L, then sintered|product
 slaresin|SLA produced part.JPG|A part grown in a vat of photopolymer|product
-alsi10mg|FZU 3Dprinting 1.jpg|Inside a laser powder bed machine, mid-build|process
-scalmalloy|Mig-29 on landing.jpg|The MiG-29 — its welded airframe was the first production use of scandium in aluminium|related
+alsi10mg|Professional MotorSport World Expo 2024, Cologne (P1031209).jpg|Prototype turbochargers grown in a laser powder bed — the same powder route, though a housing this hot wants nickel rather than aluminium|analog
 printsilicone|Silicone 3d print with support material.jpg|A pneumatic actuator printed in liquid silicone, still in its clear support|photo
 pprope|Failedrope1.jpg|A polypropylene rope after UV exposure, beside a new one — sunlight is this fibre's weakness|product
 webbing|Water-knot-webbing-loose-ABOK-296.jpg|Tubular webbing joined with a water knot|photo
@@ -386,15 +374,12 @@ nextel|Industrial furnace equipped with HTIW modules.jpg|A furnace lined with hi
 smc|1979 tvr 3000s.jpg|A TVR 3000S — its body is hand-laid glass-reinforced plastic; sheet moulding compound is the same idea pressed out by the minute|analog
 g10|SEG DVD 430 - Printed circuit board-4276.jpg|A DVD player's circuit board — boards like this are cut from glass-cloth epoxy laminate, the electrical grade of G10|analog
 fgm|Repair process for a V2500 high-pressure turbine guide vane (8).jpg|A V2500 turbine guide vane, its thermal barrier just plasma-sprayed on — coatings like this are where graded composition earns its keep|analog
-clip|Mammoth Stereolithography.jpg|A large vat-photopolymer machine — dual-cure resin is drawn out of a vat like this, then baked to finish the second network|analog
-mjf|MIT 3.044 Materials Processing, Spring 2005 - Selective Laser Sintering - 4153098317.jpg|Powder-bed fusion, drawn — Multi Jet Fusion works this way, but jets a fusing agent and heats with a lamp|analog
-volumetric|Stereolithography cycloidal drive.JPG|A cycloidal drive grown by stereolithography — volumetric printing cures the same resin, the whole object at once|analog
 contfibre|U S Marines with 3d Marine Logistics Group showcase 3D Printing Capabilities to the U S Coast Guard at CJLOTS 26 (9832271).jpg|Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell|process
 lattice|3D-Printed Biodegradable Human Bone Scaffold 4.jpg|A printed biodegradable bone scaffold going in, in Assam — the open structure is there for bone to grow into|analog
 primaloft|Adidas belgements primaloft cycling gilet.jpg|An insulated cycling gilet — PrimaLoft wadding under a windproof shell|product
 m5fibre|Aramid fiber2.jpg|Aramid filaments about 10 µm across — M5 is the rigid-rod fibre that was meant to beat these|analog
-basofil|TFS Nomex Hood.JPG|A firefighter's hood, Toronto Fire Service — melamine fibre is blended into exactly this kind of knit|analog
-silicafibre|Glass fiber bundle.jpg|A bundle of glass filaments — high-silica fibre is this, leached in acid until almost nothing but silica is left|analog
+basofil|Turnout gear in the Czech Republic.jpg|Firefighters' turnout gear — melamine fibre goes into liners and hoods of kit like this|analog
+silicafibre|Glasfaser Roving.jpg|A bobbin of glass roving — high-silica fibre starts as glass like this, then is leached until almost nothing but silica is left|analog
 kineticrope|Maxtrax Fuse Shackle - Recovery Gear.jpg|A fuse shackle for vehicle recovery, built to break first — the weak link that goes in line with a kinetic rope|analog
 triaxial|Woven Fabric (ST177) - MoMu Antwerp.jpg|An open leno-type weave — triaxial takes the idea further, with three yarn sets at 60°|analog
 stitchbond|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A glass–aramid hybrid reinforcement, 580 g/m² — non-crimp fabric is this job with the yarns kept dead straight|analog

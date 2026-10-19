@@ -1556,104 +1556,44 @@ window.MATERIALS = [
   uses: "Thermal barrier layers, rocket nozzles, cutting tools, graded bone implants.",
   link: "https://en.wikipedia.org/wiki/Functionally_graded_material"
 },
+{
+  id: "lattice", cat: "additive", name: "Printed lattice",
+  sub: "a solid whose stiffness is geometry", img: "lattice",
+  hook: "A material whose properties come from its architecture rather than its chemistry: relative density sets the stiffness, and the cell type sets how it scales — a stretch-dominated octet truss falls off roughly linearly with density, a bending-dominated foam far faster. Printing is what made the inside of a part designable at all.",
+  stats: [["Mass saving", "50–80%"], ["Cell size", "1–10 mm"], ["Octet", "stiffness linear with density"]],
+  uses: "Aerospace brackets, heat exchangers, bone-ingrowth implants, impact liners.",
+  link: "https://en.wikipedia.org/wiki/Lattice_material"
+},
 
 /* ---------- 3D PRINTING & ADDITIVE ---------- */
 {
   id: "fff", cat: "additive", name: "Printer filament",
   sub: "1.75 mm spooled thermoplastic", img: "fff",
-  hook: "A drawn thermoplastic monofilament on a spool, held to about ±0.02 mm because the extruder meters by volume and a fat spot becomes a blob. PLA, PETG and ABS all arrive as the same 1.75 mm stock, and the machine only melts and places it. What comes back is never isotropic — the layers are welds, and the weld is the weakest thing in the part.",
+  hook: "A drawn monofilament on a spool, held to about ±0.02 mm, because the extruder meters by volume and a fat spot becomes a blob. PLA, PETG and ABS all arrive as the same stock and the machine only melts and places it — which is why what comes out is never isotropic: the layers are welds, and the weld is the weakest thing in the part.",
   stats: [["Diameter", "1.75 mm, ±0.02 mm"], ["Z strength", "20–70% of XY"], ["Catch", "nylon and PETG drink water"]],
   uses: "Prototyping, jigs and fixtures, end-use brackets, the entire desktop printer market.",
   link: "https://en.wikipedia.org/wiki/3D_printing_filament"
 },
 {
-  id: "sla", cat: "additive", name: "Cured photopolymer",
-  sub: "the glassy network a vat print leaves", img: "sla",
-  hook: "Each exposure cross-links into the layer below rather than welding to it, so a vat-printed part is one continuous network with no weak direction. The price is that it is a thermoset: glassy, notch-sensitive, and still moving for days, because the green part comes out only partly cured and keeps reacting until it has been washed and put under a lamp.",
-  stats: [["Anisotropy", "essentially none"], ["Heat deflection", "~50–80 °C"], ["Green part", "drifts until post-cured"]],
-  uses: "Master patterns, dental models and guides, hearing aid shells, jewellery.",
-  link: "https://en.wikipedia.org/wiki/Stereolithography"
-},
-{
-  id: "mslalcd", cat: "additive", name: "Pigmented LCD resin",
-  sub: "405 nm resin, loaded with absorber", img: "mslalcd",
-  hook: "Masked exposure lights a whole layer at once through an LCD, so the resin has to carry enough pigment or absorber that each 20 µm pixel cures its own column and nothing bleeds sideways. That is why these resins are opaque, thin and quick, and why print time depends only on how tall the job is, not how much is on the plate.",
-  stats: [["Pixel", "18–50 µm"], ["Viscosity", "low, 100–300 mPa·s"], ["Panel", "a consumable, ~2000 h"]],
-  uses: "Miniatures and models, dental, jewellery casting patterns, small functional parts.",
-  link: "https://en.wikipedia.org/wiki/Masked_stereolithography"
-},
-{
-  id: "clip", cat: "additive", name: "Dual-cure polyurethane",
-  sub: "EPU and RPU resin, cured twice", img: "clip",
-  swatch: { pattern: "gloss", colors: ["#3a3f49", "#8b93a0", "#1e2228"] },
-  hook: "A resin with two networks: ultraviolet sets the shape in the vat, then a bake drives a polyurethane reaction right through the part. That second cure is what makes it a real elastomer instead of a stiff acrylate, which is how a printed midsole lattice survives being stood on a few million times.",
-  stats: [["Cure", "UV, then ~120 °C bake"], ["Elongation", "200–300% (EPU)"], ["Why", "acrylates alone stay brittle"]],
-  uses: "Adidas midsoles, dental, automotive production parts, lattice-filled padding.",
-  link: "https://en.wikipedia.org/wiki/Continuous_Liquid_Interface_Production"
-},
-{
-  id: "sls", cat: "additive", name: "Laser-sintered nylon",
-  sub: "the matt part a powder bed leaves", img: "sls",
-  swatch: { pattern: "powder", colors: ["#d9d7d0", "#f3f2ee", "#a8a69e"] },
-  hook: "Nylon that was never fully molten: the grains fuse at their contacts, so the part is tough and nearly isotropic but keeps a few per cent porosity — which is why it comes out matt, slightly absorbent and takes dye beautifully. The loose powder around it was the support, so the shape owes nothing to overhangs.",
-  stats: [["Porosity", "~2–4%"], ["Supports", "none needed"], ["Finish", "matt, dyeable, absorbent"]],
-  uses: "Functional nylon parts, ducting, short-run production, complex assemblies printed in one piece.",
-  link: "https://en.wikipedia.org/wiki/Selective_laser_sintering"
-},
-{
-  id: "mjf", cat: "additive", name: "Fusing and detailing agent",
-  sub: "the inks that decide what melts", img: "mjf",
-  swatch: { pattern: "powder", colors: ["#54585c", "#8d9196", "#303337"] },
-  hook: "Two inkjet fluids do the work a laser used to. A carbon-black fusing agent is printed where the part should be and soaks up infrared until the powder under it melts; a detailing agent at the edges evaporates and cools the boundary sharply. The fusing agent is also why every part comes out grey.",
-  stats: [["Fusing agent", "carbon black, IR absorber"], ["Detailing agent", "cools the edge"], ["Parts", "grey, denser than SLS"]],
-  uses: "Production nylon parts, medical devices, manifolds, short-run injection-moulding replacement.",
-  link: "https://en.wikipedia.org/wiki/3D_printing"
-},
-{
-  id: "lpbf", cat: "additive", name: "Laser-melted metal",
-  sub: "as-built structure, 20–60 µm layers", img: "lpbf",
-  hook: "Metal that froze in milliseconds. The melt pool is tiny and the cooling steep, so the grains come out cellular and far finer than any casting, and the part is stronger as built than the same alloy poured. It also keeps the stress of that freezing, which is why a part can curl off the plate and why stress relief comes before the supports do.",
-  stats: [["Density", "99.5%+"], ["Structure", "cellular, sub-µm spacing"], ["Catch", "residual stress, relieve first"]],
-  uses: "Fuel nozzles, turbine parts, conformally cooled tool inserts, orthopaedic implants.",
-  link: "https://en.wikipedia.org/wiki/Selective_laser_melting"
-},
-{
   id: "ebm", cat: "additive", name: "Electron-beam titanium",
   sub: "Ti-6Al-4V built hot, in vacuum", img: "ebm",
-  hook: "Titanium grown in a bed held near 700 °C anneals itself as it goes, so it ends up with a lamellar α+β structure and almost none of the residual stress a laser leaves behind. The surface is rough, half-sintered powder — which is what surgeons want, because bone grows into exactly that kind of trabecular skin.",
+  hook: "Titanium grown in a powder bed held near 700 °C anneals itself as it goes, so it ends up with a lamellar α+β structure and almost none of the residual stress a laser leaves behind. The surface comes out rough, half-sintered powder — which is what surgeons want, because bone grows into exactly that kind of trabecular skin.",
   stats: [["Bed", "700–1000 °C, self-annealed"], ["Structure", "lamellar α+β"], ["Surface", "rough, bone grows in"]],
-  uses: "Titanium acetabular cups and spinal cages, turbine blades, refractory alloys.",
+  uses: "Acetabular cups and spinal cages, patient-specific implants, turbine blades, refractory alloys.",
   link: "https://en.wikipedia.org/wiki/Electron-beam_additive_manufacturing"
-},
-{
-  id: "binderjet", cat: "additive", name: "Binder-jetted green part",
-  sub: "powder glued by inkjet, pre-furnace", img: "binderjet",
-  hook: "Before the furnace it is barely a part: powder held at its contacts by a few per cent of polymer, about as strong as a biscuit and handled accordingly. Nothing was melted, so there is no stress and no support structure — and then it gives up about a fifth of its size in sintering, so it has to be printed oversized and the shrinkage predicted.",
-  stats: [["Green density", "~55–65%"], ["Binder", "2–5% polymer"], ["Sinter shrinkage", "~15–20%"]],
-  uses: "Metal production parts, sand moulds, full-colour gypsum models, ceramic cores.",
-  link: "https://en.wikipedia.org/wiki/Binder_jetting"
-},
-{
-  id: "polyjet", cat: "additive", name: "Digital material",
-  sub: "voxel-blended rigid and rubbery photopolymer", img: "polyjet",
-  swatch: { pattern: "laminate", colors: ["#5f6f8a", "#dfe4ea", "#2c3647"] },
-  hook: "Two or more photopolymers jetted side by side in one layer and cured in the same pass, with the mix set per voxel. The result behaves as a single material with a gradient through it: stiff at one end, rubbery at the other, clear in between, and no joint anywhere — an overmoulded part with nothing assembled.",
-  stats: [["Layer", "14–30 µm"], ["Blend", "set per voxel"], ["Supports", "gel, washed away"]],
-  uses: "Full-colour anatomical models, overmoulded prototypes, soft-touch grips, medical training parts.",
-  link: "https://en.wikipedia.org/wiki/Material_jetting"
 },
 {
   id: "waam", cat: "additive", name: "Welding wire feedstock",
   sub: "ER70S, 5356 and titanium wire", img: "waam",
-  hook: "The cheapest feedstock in additive manufacturing: ordinary welding wire off a spool, a few euros a kilogram against hundreds for atomised powder, and laid down by the kilogram per hour. What you get is weld-bead metal — coarse, columnar, sound once machined back — and the only option when the part is larger than any build chamber.",
-  stats: [["Rate", "1–10 kg/h"], ["Feedstock cost", "a fraction of powder"], ["Finish", "rough, machine after"]],
+  hook: "Ordinary welding wire off a spool, laid down by the kilogram an hour rather than the gram. What you get is weld metal — coarse, columnar, sound once machined back — and the build volume is simply the reach of the robot arm, which is the only reason a ship's propeller or a rocket tank can be printed at all.",
+  stats: [["Rate", "1–10 kg/h"], ["Build volume", "the robot's reach"], ["Finish", "rough, machine after"]],
   uses: "Rocket tanks, ship propellers, large brackets, repair and feature addition on big castings.",
   link: "https://en.wikipedia.org/wiki/Wire_arc_additive_manufacturing"
 },
 {
   id: "coldspray", cat: "additive", name: "Cold-spray powder",
   sub: "ductile metal, bonded by impact", img: "coldspray",
-  hook: "Powder that has to be ductile, because the bond is mechanical: at 500–1200 m/s the particle and the surface deform past their oxide skins and weld without melting. Copper, aluminium, nickel and tantalum work; hard, brittle powders simply bounce off. No heat means no oxidation, and a finished part can be built onto.",
+  hook: "Powder that has to be ductile, because the bond is mechanical: at 500–1200 m/s the particle and the surface deform past their oxide skins and weld without melting. Copper, aluminium, nickel and tantalum work; hard, brittle powders simply bounce off. No heat means no oxidation and no heat-affected zone, so a finished part can be built onto.",
   stats: [["Particle speed", "500–1200 m/s"], ["Needs", "ductile powder, 5–45 µm"], ["Heat", "none, no oxidation"]],
   uses: "Repairing worn or corroded castings, adding features to finished parts, coating, field repair of aircraft.",
   link: "https://en.wikipedia.org/wiki/Cold_spraying"
@@ -1661,33 +1601,15 @@ window.MATERIALS = [
 {
   id: "twophoton", cat: "additive", name: "Two-photon resist",
   sub: "acrylate resist cured only at the focus", img: "twophoton",
-  swatch: { pattern: "speckle", colors: ["#5b6470", "#aab3c0", "#333a44"] },
   hook: "A resist formulated so that curing takes two infrared photons arriving at the same instant, which happens only inside the focal volume. That nonlinearity beats the diffraction limit: features land around 100–200 nm, smaller than the light writing them, anywhere inside the drop. Cure shrinkage is what fights you at that scale.",
   stats: [["Feature size", "~100–200 nm"], ["Mechanism", "two-photon absorption"], ["Catch", "a few % cure shrinkage"]],
   uses: "Microlenses printed on fibre tips, microfluidic parts, mechanical metamaterials, micro-robots.",
   link: "https://en.wikipedia.org/wiki/Two-photon_lithography"
 },
 {
-  id: "volumetric", cat: "additive", name: "Threshold-dose resin",
-  sub: "inhibited resin that ignores weak light", img: "volumetric",
-  swatch: { pattern: "gloss", colors: ["#b9a7d8", "#e8def7", "#7c6aa0"] },
-  hook: "A resin with an inhibitor tuned so that light below a dose threshold does nothing at all. Project a computed sequence into a rotating vial and only the voxels where the accumulated dose crosses that threshold gel: the object appears in the liquid in seconds, with no layers and no supports, and the rest pours back out.",
-  stats: [["Build time", "seconds to a minute"], ["Key", "a sharp dose threshold"], ["Layers", "none at all"]],
-  uses: "Soft and embedded objects, printing around existing inserts, optics, research-stage bioprinting.",
-  link: "https://en.wikipedia.org/wiki/Computed_axial_lithography"
-},
-{
-  id: "bioprint", cat: "additive", name: "Support-bath gel",
-  sub: "granular gelatin slurry, FRESH printing", img: "bioprint",
-  hook: "A slurry of gelatin microparticles that holds like a solid until a nozzle passes through it and closes behind the tip. It is the only way something as soft as a cell-laden gel keeps its shape while it crosslinks — and warming the dish to 37 °C melts the bath away and leaves the construct standing.",
-  stats: [["Behaviour", "yield-stress, self-healing"], ["Particles", "~10–100 µm gelatin"], ["Removal", "melts at 37 °C"]],
-  uses: "Printing collagen, fibrin and cell-laden gels; vessel networks, soft tissue constructs, organ-on-a-chip.",
-  link: "https://en.wikipedia.org/wiki/3D_bioprinting"
-},
-{
   id: "concreteprint", cat: "additive", name: "Printable mortar",
   sub: "thixotropic fine-aggregate mix", img: "concreteprint",
-  hook: "A mix that has to contradict itself: fluid enough to pump down a hose, then stiff enough within minutes to carry the beads stacked on it before any of it has cured. The aggregate is kept small enough to pass the nozzle, accelerator sets the open time, and the layer interface is the weak plane. Putting the steel back in is the part nobody has solved.",
+  hook: "A mix that has to contradict itself: fluid enough to pump down a hose, then stiff enough within minutes to carry the beads stacked on it before any of it has cured. Aggregate is kept small enough to pass the nozzle, accelerator sets the open time, and the layer interface is the weak plane. Putting the steel back in is the part nobody has solved.",
   stats: [["Aggregate", "under ~4 mm"], ["Open time", "minutes, set by accelerator"], ["Open problem", "reinforcement"]],
   uses: "House shells and walls, bridges, street furniture, formwork for conventional concrete.",
   link: "https://en.wikipedia.org/wiki/Construction_3D_printing"
@@ -1695,7 +1617,6 @@ window.MATERIALS = [
 {
   id: "sandprint", cat: "additive", name: "Furan-bonded sand",
   sub: "foundry sand, printed into moulds", img: "sandprint",
-  swatch: { pattern: "grain", colors: ["#c2a87e", "#e3d2b2", "#8e7750"] },
   hook: "Plain silica sand with furan resin and an acid catalyst jetted into it drop by drop: it sets where the head passed and the rest pours away. The casting that follows is three thousand years old and unchanged, but no pattern was carved and no core had to be withdrawable, so cooling passages can loop through a cylinder head any way they like.",
   stats: [["Sand", "silica, 0.1–0.3 mm"], ["Binder", "furan resin, acid cured"], ["Tooling", "none"]],
   uses: "Engine blocks and heads, pump and valve bodies, art casting, foundry prototyping.",
@@ -1704,126 +1625,80 @@ window.MATERIALS = [
 {
   id: "contfibre", cat: "additive", name: "Printed continuous tow",
   sub: "unbroken carbon or glass in a printed shell", img: "contfibre",
-  swatch: { pattern: "ribbon", colors: ["#262a2e", "#6c737b", "#121416"] },
-  hook: "A single unbroken tow, fed by a second nozzle and laid along the load path while the plastic shell prints around it. Chopped fibre only stiffens a filament; continuous fibre changes what the part is, because the reinforcement follows the stress rather than the raster — at a fraction of the cost of a hand layup.",
-  stats: [["Fibre", "continuous, path-placed"], ["Stiffness", "several × unfilled"], ["Limit", "a tow will not turn sharply"]],
+  hook: "A single unbroken tow, fed by a second nozzle and laid along the load path while the plastic shell prints around it. Chopped fibre only stiffens a filament; continuous fibre changes what the part is, because the reinforcement follows the stress rather than the raster. The limit is geometric — a tow will not turn a sharp corner.",
+  stats: [["Fibre", "continuous, path-placed"], ["Stiffness", "several × unfilled"], ["Limit", "no sharp turns"]],
   uses: "Tooling and fixtures, drone and robot structures, replacement brackets, low-volume load-bearing parts.",
   link: "https://en.wikipedia.org/wiki/Fibre-reinforced_plastic"
 },
 {
   id: "boundmetal", cat: "additive", name: "Bound metal filament",
   sub: "metal powder in wax and polymer", img: "boundmetal",
-  swatch: { pattern: "brushed", colors: ["#8e949b", "#cdd3d9", "#5c6168"] },
-  hook: "Metal injection moulding feedstock drawn into a filament: around 60% steel powder by volume, held in wax and polymer, stiff and faintly waxy in the hand. It prints on what is essentially a plastic machine — no laser, no argon, no loose powder — then the binder leaves in solvent and heat and the part shrinks by a fifth in the furnace.",
+  hook: "Metal injection moulding feedstock drawn into a filament: around 60% steel powder by volume held in wax and polymer, stiff and faintly waxy in the hand. It prints on what is essentially a plastic machine — no laser, no argon, no loose powder — then the binder leaves in solvent and heat, and the part gives up a fifth of its size in the furnace.",
   stats: [["Solids", "~55–60% powder by volume"], ["Shrinkage", "~20% on sintering"], ["Density", "96–99% after sinter"]],
-  uses: "Tooling, fixtures and jaws, spare parts, low-volume stainless and tool steel components.",
+  uses: "Tooling, fixtures and soft jaws, spare parts, low-volume stainless and tool steel components.",
   link: "https://en.wikipedia.org/wiki/Metal_injection_molding"
 },
 {
   id: "lcmceramic", cat: "additive", name: "Ceramic slurry resin",
   sub: "alumina or zirconia in photopolymer", img: "lcmceramic",
-  hook: "Half ceramic powder by volume suspended in photopolymer, which makes a paste that scatters the very light meant to cure it — so the binder is matched to the powder's refractive index to keep the cure depth usable. Fire it and the polymer leaves: what remains is over 99% dense zirconia or alumina, which behaves like a real ceramic rather than something printed.",
+  hook: "Half ceramic powder by volume suspended in photopolymer, which makes a paste that scatters the very light meant to cure it — so the binder is matched to the powder's refractive index to keep the cure depth usable. Fire it and the polymer leaves: what remains is over 99% dense zirconia or alumina, which behaves like a real ceramic rather than like something printed.",
   stats: [["Solids loading", "40–55% by volume"], ["After firing", ">99% dense"], ["Shrinkage", "~20–25%"]],
-  uses: "Dental crowns, surgical tools, high-temperature cores, microreactors, casting cores.",
+  uses: "Dental crowns and bridges, surgical tools, microreactors, high-temperature cores.",
   link: "https://en.wikipedia.org/wiki/Ceramic_engineering"
-},
-{
-  id: "petg", cat: "additive", name: "PETG filament",
-  sub: "glycol-modified PET", img: "petg",
-  hook: "The glycol blocks crystallisation, so this version of PET stays clear and prints without the warping that makes ABS miserable, while surviving heat and knocks that flatten PLA. It is the sensible default, and it strings like candy floss and bonds to the bed hard enough to take glass with it.",
-  stats: [["Glass transition", "~80 °C"], ["Warping", "minimal"], ["Vice", "stringing and bed adhesion"]],
-  uses: "Functional prints, enclosures, food-contact parts, machine guards and shields.",
-  link: "https://en.wikipedia.org/wiki/Polyethylene_terephthalate"
-},
-{
-  id: "asa", cat: "additive", name: "ASA filament",
-  sub: "acrylonitrile styrene acrylate", img: "asa",
-  hook: "ABS with the butadiene rubber swapped for an acrylate one, which removes the double bond that ultraviolet attacks. Outdoors an ABS part yellows and goes brittle in a season; this one does not. Everything else about it is still ABS, including the warping and the smell.",
-  stats: [["UV", "stable outdoors for years"], ["Printing", "enclosure, 240–260 °C"], ["Warping", "high, same as ABS"]],
-  uses: "Outdoor fixtures, automotive exterior parts, antenna and sensor housings, garden hardware.",
-  link: "https://en.wikipedia.org/wiki/Acrylonitrile_styrene_acrylate"
-},
-{
-  id: "nyloncf", cat: "additive", name: "Carbon-filled filament",
-  sub: "chopped fibre in nylon or PET", img: "nyloncf",
-  swatch: { pattern: "speckle", colors: ["#2e3134", "#6e7478", "#17191b"] },
-  hook: "Ten or twenty per cent of chopped carbon fibre makes the plastic stiffer, but the useful part is that the filled melt barely shrinks, so a nylon that used to curl off the bed now prints flat. The fibre is abrasive enough that a brass nozzle is gone in a few hours.",
-  stats: [["Fibre loading", "10–20% chopped"], ["Stiffness", "2–4× unfilled"], ["Nozzle", "hardened steel or ruby"]],
-  uses: "Jigs and fixtures, drone frames, robot arms, tooling that has to hold its shape.",
-  link: "https://en.wikipedia.org/wiki/3D_printing_filament"
 },
 {
   id: "soluble", cat: "additive", name: "Soluble support",
   sub: "PVA, BVOH and HIPS", img: "soluble",
-  hook: "Print the support out of something you can wash away, and overhangs stop dictating the design. A sealed cavity, a captive bearing or a gear train printed already assembled are all possible because the scaffolding leaves through a chemical door rather than a mechanical one.",
-  stats: [["PVA", "dissolves in water"], ["HIPS", "dissolves in limonene"], ["Cost", "needs a second extruder"]],
+  hook: "Scaffolding that leaves through a chemical door rather than a mechanical one: PVA and BVOH wash out in water, HIPS dissolves in limonene. Once support no longer has to be broken off, a sealed cavity, a captive bearing or a gear train printed already meshed all become things you can simply print.",
+  stats: [["PVA", "dissolves in water"], ["HIPS", "dissolves in limonene"], ["Needs", "a second extruder"]],
   uses: "Enclosed voids, printed-in-place mechanisms, fine overhangs, clean surfaces where supports touched.",
   link: "https://en.wikipedia.org/wiki/Polyvinyl_alcohol"
 },
 {
   id: "slaresin", cat: "additive", name: "Photopolymer resin",
-  sub: "acrylate and epoxy oligomers", img: "slaresin",
-  swatch: { pattern: "gloss", colors: ["#c9a24a", "#f0dca2", "#8d6c23"] },
-  hook: "Oligomers, a reactive diluent and a photoinitiator that fires on UV and starts a chain across the whole vat layer. The part that comes out is only partly cured and keeps changing for days, and the uncured monomer is a skin sensitiser — the gloves are not optional.",
-  stats: [["Cure", "UV, 385 or 405 nm"], ["Green part", "drifts until post-cured"], ["Handling", "sensitiser, use gloves"]],
-  uses: "Every vat process: SLA, MSLA, DLP and CLIP; dental, jewellery, models and engineering resins.",
+  sub: "acrylate oligomers and a photoinitiator", img: "slaresin",
+  hook: "Oligomers, a reactive diluent and an initiator that fires under ultraviolet and runs a chain reaction across the whole exposed layer. Each layer cross-links into the one below instead of welding to it, so the part is a single continuous network with no weak direction — but it is a thermoset: it leaves the vat only partly cured, keeps changing for days, and the uncured monomer is a skin sensitiser.",
+  stats: [["Cure", "UV, 385 or 405 nm"], ["Anisotropy", "essentially none"], ["Handling", "sensitiser, wear gloves"]],
+  uses: "Every vat process: laser, DLP, masked LCD and continuous printing; dental, jewellery, models, engineering parts.",
   link: "https://en.wikipedia.org/wiki/Photopolymer"
-},
-{
-  id: "castablewax", cat: "additive", name: "Castable resin",
-  sub: "wax-loaded burnout photopolymer", img: "castablewax",
-  hook: "Formulated for how cleanly it disappears rather than how it performs: it has to burn out of an investment mould leaving almost no ash, or the casting is ruined. One material took jewellery and dentistry from hand-carved wax to a file in an afternoon.",
-  stats: [["Ash residue", "under ~0.05%"], ["Burnout", "slow ramp to ~730 °C"], ["Replaces", "hand-carved wax patterns"]],
-  uses: "Jewellery casting, dental crowns and frameworks, small investment castings, art.",
-  link: "https://en.wikipedia.org/wiki/Investment_casting"
 },
 {
   id: "pa12powder", cat: "additive", name: "PA12 powder",
   sub: "nylon 12 for powder bed fusion", img: "pa12powder",
-  hook: "The workhorse of powder printing, chosen for a thermal quirk: the gap between where it melts and where it recrystallises is wide, so a fused layer stays liquid long enough for the next one to join it properly. Powder that has sat hot in the bed ages, so every build blends used with virgin.",
-  stats: [["Particle size", "~45–60 µm"], ["Refresh", "30–50% virgin per build"], ["Parts", "tough, slightly porous"]],
-  uses: "SLS and MJF production parts, ducts, housings, orthotics, living hinges.",
+  hook: "Chosen for a thermal quirk: the gap between where it melts and where it recrystallises is wide, so a fused layer stays liquid long enough for the next one to join it properly. The grains never fully melt, which leaves a few per cent porosity — matt, faintly absorbent, superb at taking dye — and powder that has sat hot in the bed ages, so every build blends used with virgin.",
+  stats: [["Particle size", "~45–60 µm"], ["Refresh", "30–50% virgin per build"], ["Porosity", "~2–4%"]],
+  uses: "Laser-sintered and agent-jetted parts, ducting, housings, orthotics, living hinges.",
   link: "https://en.wikipedia.org/wiki/Nylon_12"
 },
 {
   id: "metalpowder", cat: "additive", name: "Gas-atomised powder",
   sub: "spherical metal feedstock", img: "metalpowder",
-  hook: "Molten metal blown apart by an inert gas jet freezes into spheres before it can land. Roundness is the whole specification: only spheres flow and pack evenly under a recoater blade, and a satellite — a small sphere welded to a big one — is enough to streak a layer and seed a pore.",
+  hook: "Molten metal blown apart by an inert gas jet freezes into spheres before it can land. Roundness is the whole specification: only spheres flow and pack evenly under a recoater blade, and a satellite — a small sphere welded to a big one — is enough to streak a layer and seed a pore. Oxygen is counted in parts per million, because every reuse picks up a little more.",
   stats: [["Size cut", "15–45 µm for laser beds"], ["Shape", "spherical, satellite-free"], ["Oxygen", "tracked, ppm level"]],
-  uses: "Feedstock for every powder bed and blown powder process; also MIM and thermal spray.",
+  uses: "Feedstock for every powder bed and blown powder process; also metal injection moulding and thermal spray.",
   link: "https://en.wikipedia.org/wiki/Powder_metallurgy"
 },
 {
   id: "alsi10mg", cat: "additive", name: "AlSi10Mg",
   sub: "printable aluminium casting alloy", img: "alsi10mg",
-  swatch: { pattern: "powder", colors: ["#a7adb3", "#dde2e6", "#767c82"] },
-  hook: "A casting alloy that turned out to suit lasers: the silicon content sits near the eutectic, so the freezing range is narrow and the melt pool solidifies without tearing itself apart. The cooling rate is so steep that the printed structure is finer, and stronger, than the same alloy cast.",
+  hook: "A casting alloy that turned out to suit lasers: the silicon sits near the eutectic, so the freezing range is narrow and the melt pool solidifies without tearing itself apart. Cooling is steep enough that the printed structure comes out finer, and stronger, than the same alloy poured into a mould.",
   stats: [["Tensile", "~450 MPa as built"], ["Why it works", "near-eutectic, no hot tearing"], ["Versus cast", "finer grain, stronger"]],
-  uses: "Heat exchangers and cold plates, automotive and motorsport brackets, drone and robot structures.",
+  uses: "Heat exchangers and cold plates, motorsport brackets, drone and robot structures.",
   link: "https://en.wikipedia.org/wiki/Aluminium%E2%80%93silicon_alloys"
-},
-{
-  id: "scalmalloy", cat: "additive", name: "Scalmalloy",
-  sub: "Al-Mg-Sc, designed for printing", img: "scalmalloy",
-  swatch: { pattern: "brushed", colors: ["#9fa7af", "#d8dee3", "#6d757d"] },
-  hook: "Most printable metals are old alloys that happen to tolerate a laser. This one was designed backwards from the process: scandium precipitates as Al₃Sc particles during the extremely fast solidification and pins the grains, so a high-strength aluminium prints without the hot cracking that rules out 7075.",
-  stats: [["Tensile", "~520 MPa after ageing"], ["Key", "Al₃Sc pins grains while freezing"], ["Cost", "scandium is the price"]],
-  uses: "Aerospace brackets, satellite structures, motorsport, topology-optimised load parts.",
-  link: "https://en.wikipedia.org/wiki/Aluminium%E2%80%93scandium_alloys"
 },
 {
   id: "grcop", cat: "additive", name: "GRCop-42",
   sub: "Cu-Cr-Nb rocket chamber alloy", img: "grcop",
-  hook: "Copper conducts heat better than almost anything and softens if you look at it hot. NASA's answer disperses Cr₂Nb particles through it, which hold the grains in place at 800 degrees while the copper keeps conducting — and the chamber is printed because its cooling channels cannot be drilled.",
-  stats: [["Conductivity", "~80% of pure copper"], ["Hot strength", "holds to ~800 °C"], ["Made by", "laser powder bed fusion"]],
-  uses: "Regeneratively cooled rocket combustion chambers and nozzle liners.",
+  hook: "Copper carries heat better than almost anything and softens if you look at it hot. NASA's answer disperses Cr₂Nb particles through it, which hold the grains in place at 800 °C while the copper keeps conducting — and the chamber is printed because its cooling channels cannot be drilled.",
+  stats: [["Conductivity", "~80% of pure copper"], ["Hot strength", "holds to ~800 °C"], ["Built by", "laser powder bed fusion"]],
+  uses: "Regeneratively cooled rocket combustion chambers, nozzle liners and injectors.",
   link: "https://en.wikipedia.org/wiki/Regenerative_cooling_(rocketry)"
 },
 {
   id: "bioink", cat: "additive", name: "Bioink",
   sub: "cell-laden hydrogel", img: "bioink",
-  hook: "Three demands that pull against each other: runny enough to pass a nozzle, stiff enough to hold the shape once it lands, and gentle enough that the cells inside survive the shear on the way through. Every formulation is a compromise between printability and keeping things alive.",
-  stats: [["Base", "GelMA, alginate, collagen"], ["Cell viability", "the headline number"], ["Gelling", "temperature, ions or UV"]],
+  hook: "Three demands that pull against each other: runny enough to pass a nozzle, stiff enough to hold its shape once it lands, and gentle enough that the cells inside survive the shear on the way through. Every formulation is a compromise, and the number that matters is how many cells are still alive afterwards.",
+  stats: [["Base", "GelMA, alginate, collagen"], ["Cell viability", "the figure of merit"], ["Gelling", "temperature, ions or UV"]],
   uses: "Tissue and tumour models, skin and cartilage constructs, organ-on-a-chip, drug screening.",
   link: "https://en.wikipedia.org/wiki/Bio-ink"
 },
@@ -1837,21 +1712,11 @@ window.MATERIALS = [
 },
 {
   id: "printsilicone", cat: "additive", name: "Printable silicone",
-  sub: "thixotropic LSR paste", img: "printsilicone",
-  swatch: { pattern: "gloss", colors: ["#d98f9c", "#f6ccd4", "#a05f6c"] },
-  hook: "Silicone will not hold a shape on its own, so it is either made thixotropic — stiff until the nozzle shears it, stiff again the instant it lands — or printed into a gel that holds it while it cures. Either way, soft parts stop needing a mould, which is what soft robotics was waiting for.",
+  sub: "thixotropic liquid silicone rubber", img: "printsilicone",
+  hook: "Silicone will not hold a shape on its own, so it is either made thixotropic — stiff until the nozzle shears it, stiff again the instant it lands — or printed into a gel bath that holds it while it cures. Either way soft parts stop needing a mould, which is what soft robotics was waiting for.",
   stats: [["Shore", "00–30 to A-60"], ["Rheology", "shear-thinning, recovers fast"], ["Cure", "platinum or UV"]],
   uses: "Soft robot actuators, custom seals and gaskets, prosthetic liners, wearables, anatomical models.",
   link: "https://en.wikipedia.org/wiki/Silicone"
-},
-{
-  id: "lattice", cat: "additive", name: "Printed lattice",
-  sub: "a solid whose stiffness is geometry", img: "lattice",
-  swatch: { pattern: "honeycomb", colors: ["#8a8f95", "#c3c8cd", "#5a5f65"] },
-  hook: "A material whose properties come from its architecture rather than its chemistry: relative density sets the stiffness, and the cell type sets how it scales — a stretch-dominated octet truss falls off roughly linearly with density, a bending-dominated foam far faster. Printing is what made the inside of a part designable at all.",
-  stats: [["Mass saving", "50–80%"], ["Cell size", "1–10 mm"], ["Octet", "stiffness linear with density"]],
-  uses: "Aerospace brackets, heat exchangers, bone-ingrowth implants, impact liners.",
-  link: "https://en.wikipedia.org/wiki/Lattice_material"
 },
 
 /* ---------- ROPES & WOVEN MATERIALS ---------- */
@@ -3328,4 +3193,5 @@ window.MATERIALS = [
   uses: "CPU and GPU coolers, LED and power module mounting, automotive electronics.",
   link: "https://en.wikipedia.org/wiki/Thermal_interface_material"
 }
+
 ];
