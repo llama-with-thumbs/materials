@@ -10,7 +10,8 @@ const CATS = {
   fibre: "Ropes & woven materials",
   fabric: "Fabrics & constructions",
   natural: "Natural & biological",
-  exotic: "Active & exotic"
+  exotic: "Active & exotic",
+  music: "Sound & music"
 };
 
 // What the picture actually shows, when it is not a photograph of the material itself.

@@ -3554,5 +3554,167 @@ window.CREDITS = {
     "artist": "Olgierd Rudak",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Broken_twill_denim_Wrangler_13MWZ_jeans_(2026-01-21).jpg"
+  },
+  "bellbronze": {
+    "file": "bellbronze.jpg",
+    "caption": "A bronze bell cast in 1813, in San Geremia, Venice",
+    "kind": "product",
+    "title": "San Geremia (Venice) - Bronze bell from 1813.jpg",
+    "artist": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Geremia_(Venice)_-_Bronze_bell_from_1813.jpg"
+  },
+  "singingbowl": {
+    "file": "singingbowl.jpg",
+    "caption": "A Himalayan standing bowl, 14 cm across",
+    "kind": "photo",
+    "title": "Tibetan bowl 14 cm.jpg",
+    "artist": "Praewjarat",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tibetan_bowl_14_cm.jpg"
+  },
+  "pipemetal": {
+    "file": "pipemetal.jpg",
+    "caption": "Open bass pipes in an organ, cast from tin and lead",
+    "kind": "product",
+    "title": "Organ pipes.jpg",
+    "artist": "Gnumarcoo",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Organ_pipes.jpg"
+  },
+  "pernambuco": {
+    "file": "pernambuco.jpg",
+    "caption": "A squared blank of pernambuco, cut in 1987 and kept for bows",
+    "kind": "photo",
+    "title": "Brazilwood Paubrasilia echinata square blank.jpg",
+    "artist": "Fopseh",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Brazilwood_Paubrasilia_echinata_square_blank.jpg"
+  },
+  "ebony": {
+    "file": "ebony.jpg",
+    "caption": "A block of ebony, polished on one face",
+    "kind": "photo",
+    "title": "A piece of ebony wood 1.jpg",
+    "artist": "W.carter",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_piece_of_ebony_wood_1.jpg"
+  },
+  "rosin": {
+    "file": "rosin.jpg",
+    "caption": "A cake of violin rosin",
+    "kind": "photo",
+    "title": "Violin rosin (2).jpg",
+    "artist": "Cjp24",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Violin_rosin_(2).jpg"
+  },
+  "fiddleback": {
+    "file": "fiddleback.jpg",
+    "caption": "Sliced fiddleback maple veneer — the stripes are waves in the grain",
+    "kind": "photo",
+    "title": "Riegelahorn Holz.JPG",
+    "artist": "Philipp Zinger",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Riegelahorn_Holz.JPG"
+  },
+  "instbrass": {
+    "file": "instbrass.jpg",
+    "caption": "The bell of a trumpet, spun from brass sheet",
+    "kind": "product",
+    "title": "Trumpet Bell.jpg",
+    "artist": "Gdk411 at English Wikipedia (\"User:Gdk411 is the author of this photograph.\")",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Trumpet_Bell.jpg"
+  },
+  "lithophone": {
+    "file": "lithophone.jpg",
+    "caption": "A jade sounding stone from a Chinese lithophone, dated 1764",
+    "kind": "product",
+    "title": "Pierre sonore d'un lithophone jade chine 1764 mariemont.JPG",
+    "artist": "Chatsam",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pierre_sonore_d%27un_lithophone_jade_chine_1764_mariemont.JPG"
+  },
+  "cymbalbronze": {
+    "file": "cymbalbronze.jpg",
+    "caption": "A deeply hammered B8 crash-ride cymbal",
+    "kind": "product",
+    "title": "Crashride cymbal.JPG",
+    "artist": "Andrewa",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Crashride_cymbal.JPG"
+  },
+  "tuningfork": {
+    "file": "tuningfork.jpg",
+    "caption": "A chromed steel tuning fork cut for 440 Hz",
+    "kind": "product",
+    "title": "Diapason Wittner à branches carrées à 440 Hz.jpg",
+    "artist": "Édouard Hue (User:EdouardHue)",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Diapason_Wittner_%C3%A0_branches_carr%C3%A9es_%C3%A0_440_Hz.jpg"
+  },
+  "singingsand": {
+    "file": "singingsand.jpg",
+    "caption": "The Mingsha singing dunes at Dunhuang",
+    "kind": "photo",
+    "title": "Singing Sand Dunes and Crescent Lake (20230918100733).jpg",
+    "artist": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Singing_Sand_Dunes_and_Crescent_Lake_(20230918100733).jpg"
+  },
+  "ringingrock": {
+    "file": "ringingrock.jpg",
+    "caption": "The boulder field at Ringing Rocks Park, Pennsylvania",
+    "kind": "photo",
+    "title": "Boulder field, Ringing Rocks Park, Bridgeton Township, PA.jpg",
+    "artist": "Zeete",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boulder_field,_Ringing_Rocks_Park,_Bridgeton_Township,_PA.jpg"
+  },
+  "steelpan": {
+    "file": "steelpan.jpg",
+    "caption": "A tenor steelpan, sunk and tuned from a barrel end",
+    "kind": "product",
+    "title": "Steelpan.jpeg",
+    "artist": "Aldric B.",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Steelpan.jpeg"
+  },
+  "glassharp": {
+    "file": "glassharp.jpg",
+    "caption": "A glass harp built in Brussels around 1850",
+    "kind": "product",
+    "title": "Glass Harp.jpg",
+    "artist": "Kosboot",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glass_Harp.jpg"
+  },
+  "handpan": {
+    "file": "handpan.jpg",
+    "caption": "A handpan being played — nitrided sheet steel",
+    "kind": "product",
+    "title": "Handpan 2014.jpg",
+    "artist": "Toglenn",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Handpan_2014.jpg"
+  },
+  "springreverb": {
+    "file": "springreverb.jpg",
+    "caption": "A spring reverb tank with the lid off",
+    "kind": "photo",
+    "title": "Spring Reverb 8325.jpg",
+    "artist": "Ashley Pomeroy",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spring_Reverb_8325.jpg"
+  },
+  "thermowood": {
+    "file": "thermowood.jpg",
+    "caption": "Ash before and after thermal modification",
+    "kind": "photo",
+    "title": "Thermoholz vergleich.JPG",
+    "artist": "Anubis100",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thermoholz_vergleich.JPG"
   }
 };

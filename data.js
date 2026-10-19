@@ -3256,6 +3256,150 @@ window.MATERIALS = [
   stats: [["Real contact", "~1–2% of area"], ["Grease", "3–8 W/m·K"], ["Liquid metal", "~70 W/m·K"]],
   uses: "CPU and GPU coolers, LED and power module mounting, automotive electronics.",
   link: "https://en.wikipedia.org/wiki/Thermal_interface_material"
+},
+{
+  id: "bellbronze", cat: "music", name: "Bell bronze",
+  sub: "copper with about a fifth tin", img: "bellbronze",
+  hook: "At a fifth tin this is a bronze no engineer would pick for a machine part: hard, brittle, and it cracks rather than bends. That is exactly what a bell wants, because metal that deforms at all swallows the vibration, and the casting has to keep sounding for half a minute after the clapper has left it. Tuning is subtractive — metal is turned off the inside until the hum, prime, tierce, quint and nominal sit in tune with each other, and none of it can be put back.",
+  stats: [["Alloy", "roughly 78 copper, 22 tin"], ["Damping", "low — rings for tens of seconds"], ["Tuned by", "cutting metal off the inside"]],
+  uses: "Church and tower bells, carillons, orchestral tubular bells and gongs.",
+  link: "https://en.wikipedia.org/wiki/Bell_metal"
+},
+{
+  id: "singingbowl", cat: "music", name: "Singing bowl bronze",
+  sub: "hammered copper-tin, Himalayan", img: "singingbowl",
+  hook: "The same copper-tin family as a bell, but hammered thin while hot rather than cast, so thickness and stiffness vary all the way round the rim. Rubbing that rim with a leather mallet is stick-slip — the same grab-and-release that makes a bowed string sound — feeding energy into a bending mode of the wall. Because the bowl is never quite round, that mode exists twice at slightly different frequencies, and the slow warble people find hypnotic is the two of them beating against each other.",
+  stats: [["Alloy", "copper and tin, often with traces of more"], ["Formed by", "hot hammering, not casting"], ["Warble", "two split modes, beating"]],
+  uses: "Meditation and sound therapy, temple ritual, percussion and film scoring.",
+  link: "https://en.wikipedia.org/wiki/Standing_bell"
+},
+{
+  id: "pipemetal", cat: "music", name: "Organ pipe metal",
+  sub: "tin and lead, cast as sheet", img: "pipemetal",
+  hook: "Tin and lead poured onto a long table, planed down to a sheet about a millimetre thick and rolled round a mandrel. The ratio is chosen stop by stop: high tin is stiff and bright, lead is soft, dull and slow to speak, and one instrument uses both. Near half and half the alloy freezes in two phases and the surface comes out mottled like hide — spotted metal, prized by eye, though what the sound cares about is the stiffness of the wall.",
+  stats: [["Alloy", "tin with lead, 25–90 percent tin"], ["Spotted metal", "two-phase freezing, near 50/50"], ["Chosen per", "stop, not per organ"]],
+  uses: "Flue and reed pipes in organs, facade ranks, reproduction historical instruments.",
+  link: "https://en.wikipedia.org/wiki/Organ_pipe"
+},
+{
+  id: "pernambuco", cat: "music", name: "Pernambuco",
+  sub: "Paubrasilia echinata, bow wood", img: "pernambuco",
+  hook: "Nearly every serious violin bow for two centuries has been cut from one species growing on one stretch of Brazilian coast. It is dense and very stiff along the grain, damps just enough internally that the stick does not ring on its own under the hand, and holds the camber bent into it over a flame. Carbon fibre bows are stiffer and far tougher and still lose on feel, and the tree is now CITES-listed, so most of what is worked today was cut decades ago.",
+  stats: [["Density", "about 0.9–1.1 g/cm³"], ["Stiff along", "the grain, with internal damping"], ["Supply", "CITES-listed, old stock"]],
+  uses: "Violin, viola, cello and bass bows; inlay and marquetry.",
+  link: "https://en.wikipedia.org/wiki/Paubrasilia"
+},
+{
+  id: "ebony", cat: "music", name: "Ebony",
+  sub: "Diospyros, fingerboard wood", img: "ebony",
+  hook: "A wood dense enough to sink, with pores fine enough that a planed face polishes without filler or varnish. On a fingerboard that counts twice: there is no coating to wear through, and the surface under a pressed string is stiff enough that the note stops exactly where the finger puts it. It is also brittle and moves with humidity, which is why a fingerboard is a thin cap glued to a lighter neck rather than a solid piece.",
+  stats: [["Density", "about 0.9–1.2 g/cm³"], ["Finish", "none — polished bare"], ["Used as", "a thin cap, not a whole neck"]],
+  uses: "Fingerboards, tailpieces and pegs, piano sharps, clarinet and oboe bodies.",
+  link: "https://en.wikipedia.org/wiki/Ebony"
+},
+{
+  id: "rosin", cat: "music", name: "Rosin",
+  sub: "distilled pine resin", img: "rosin",
+  hook: "Pine resin boiled down until the turpentine is gone, leaving a glass that cracks like toffee and softens at about the heat of a fingertip. A bow does not rub a string, it grabs and lets go a few hundred times a second, and rosin is what makes the grab possible: friction heat softens it under the hair, it sticks, the string tears free, and the cycle repeats. Without it, horsehair on steel simply slides and the instrument is silent.",
+  stats: [["From", "distilled pine resin"], ["Softens", "at the heat of friction"], ["Does", "the grab half of stick-slip"]],
+  uses: "String bows, grip for gymnasts and dancers, ballet shoes, solder fluxes and varnishes.",
+  link: "https://en.wikipedia.org/wiki/Rosin"
+},
+{
+  id: "fiddleback", cat: "music", name: "Fiddleback maple",
+  sub: "wavy-grain Acer", img: "fiddleback",
+  hook: "The stripes are not a pattern on the surface but a wave in the fibres themselves, so each band of figure catches light at a different angle and the back seems to move as the instrument is turned. Maple earns its place for a duller reason: it is stiff across the grain and dense enough to reflect sound back into the box, leaving a soft, light spruce top to do the radiating. Wavy grain is harder to work and does nothing for the sound — luthiers choose it anyway.",
+  stats: [["Figure", "waves in the fibre, not the surface"], ["Role", "the stiff, reflecting back plate"], ["Paired with", "a light spruce top"]],
+  uses: "Violin, viola and cello backs, necks and ribs, guitar backs, drum shells, veneer.",
+  link: "https://en.wikipedia.org/wiki/Figure_(wood)"
+},
+{
+  id: "instbrass", cat: "music", name: "Instrument brass",
+  sub: "yellow brass, 70/30 copper-zinc", img: "instbrass",
+  hook: "Seventy copper to thirty zinc, picked because it can be spun and hammered into a bell without splitting, not because of how it sounds. The bell is pressed from flat sheet over a mandrel and the metal thins as it flares, so the wall ends up thinnest exactly where it moves most. Players hear real differences between yellow, gold and red brass; measurement puts most of it in wall thickness, the flare of the bell and the lacquer, with the alloy a small term.",
+  stats: [["Alloy", "about 70 copper, 30 zinc"], ["Formed by", "spinning and hammering sheet"], ["Timbre", "mostly geometry, not alloy"]],
+  uses: "Trumpet, trombone, horn and tuba bells, mouthpieces, keywork and slides.",
+  link: "https://en.wikipedia.org/wiki/Brass"
+},
+{
+  id: "lithophone", cat: "music", name: "Sounding stone",
+  sub: "fine-grained rock, cut to pitch", img: "lithophone",
+  hook: "Dense, even-grained rock with no crack in it has very little internal damping, so a free slab struck on the edge rings like metal instead of thudding. The Chinese bianqing cut sets of them from jade and limestone and tuned them by thickness rather than length, and the same trick turns up wherever a quarry yields stone of uniform grain. One crack anywhere in the slab kills it — the ring collapses to a thud — which is why complete old sets are so rare.",
+  stats: [["Needs", "even grain and no cracks"], ["Tuned by", "thickness"], ["Failure", "one crack and the ring is gone"]],
+  uses: "Chinese and Vietnamese stone chimes, Ethiopian church stones, orchestral stone percussion.",
+  link: "https://en.wikipedia.org/wiki/Lithophone"
+},
+{
+  id: "cymbalbronze", cat: "music", name: "Cymbal bronze",
+  sub: "B20 and B8, hammered sheet", img: "cymbalbronze",
+  hook: "A fifth tin, like bell metal, but rolled and hammered rather than cast, which leaves a plate stressed unevenly and never quite symmetrical. That is the point: a symmetrical plate would ring on a few clean modes, while a hammered one carries hundreds of close, inharmonic ones that smear into a wash with no pitch in it. Drop the tin to eight percent and the alloy becomes forgiving enough to stamp out of sheet — brighter, more uniform, shorter, and much easier to make.",
+  stats: [["B20", "about 20 percent tin, cast then hammered"], ["B8", "about 8 percent tin, from sheet"], ["Spectrum", "dense and inharmonic on purpose"]],
+  uses: "Drum kit and orchestral cymbals, hi-hats, tam-tams and gongs.",
+  link: "https://en.wikipedia.org/wiki/Cymbal"
+},
+{
+  id: "tuningfork", cat: "music", name: "Tuning-fork steel",
+  sub: "pitch from stiffness and density", img: "tuningfork",
+  hook: "A fork's pitch follows from its geometry and from the stiffness of its metal divided by its density, and from nothing else — no air column, no string tension to creep. Which leaves one flaw: steel loses a little stiffness as it warms, so a fork goes flat in a warm room. Elinvar, a nickel-iron-chromium alloy whose stiffness barely moves with temperature, was invented for exactly that complaint, and the same alloy went into watch balance springs.",
+  stats: [["Pitch set by", "geometry, stiffness, density"], ["Steel", "goes flat as it warms"], ["Fix", "Elinvar, near-constant stiffness"]],
+  uses: "Pitch references, hearing and bone-conduction tests, clock oscillators, vibrating sensors.",
+  link: "https://en.wikipedia.org/wiki/Tuning_fork"
+},
+{
+  id: "singingsand", cat: "music", name: "Booming sand",
+  sub: "dry, rounded, closely sized grains", img: "singingsand",
+  hook: "A few dozen dune fields in the world boom when sand avalanches down the lee face, loud enough to carry for about a kilometre and low enough to feel in the chest. It takes a narrow spread of grain size, well-rounded dry grains and a slope steep enough to slip; the shearing layer then locks into step with itself and radiates one note, usually somewhere around 70–105 Hz. Wet the sand or mix the sizes and the dune falls silent, so the effect lives in the packing rather than in the mineral.",
+  stats: [["Pitch", "roughly 70–105 Hz"], ["Needs", "dry, rounded, closely sized grains"], ["Carries", "about a kilometre"]],
+  uses: "Dune fields from Dunhuang to the Mojave; a test case for how granular flows synchronise.",
+  link: "https://en.wikipedia.org/wiki/Singing_sand"
+},
+{
+  id: "ringingrock", cat: "music", name: "Ringing rock",
+  sub: "diabase boulders under locked-in stress", img: "ringingrock",
+  hook: "In a handful of boulder fields the rocks answer a hammer with a clear metallic ring rather than a thud, though the stone is ordinary fine-grained diabase. The fields are open and dry, the boulders rest on each other instead of in soil, and the rock still carries stress locked in by weathering — take a ringing boulder home and it often stops ringing. There is no single agreed explanation yet, which is unusual for something this easy to go and reproduce.",
+  stats: [["Rock", "fine-grained diabase"], ["Needs", "an open dry field, boulder on boulder"], ["Cause", "locked-in stress, still argued"]],
+  uses: "Ringing Rocks Park in Pennsylvania, Montana and elsewhere; struck-stone percussion.",
+  link: "https://en.wikipedia.org/wiki/Ringing_rocks"
+},
+{
+  id: "steelpan", cat: "music", name: "Oil-drum steel",
+  sub: "a barrel end, sunk and tuned", img: "steelpan",
+  hook: "The one acoustic instrument invented in the twentieth century, and it was invented out of rubbish: the end of a 55-gallon oil drum, sunk into a bowl with a sledgehammer and then raised into note areas with a punch. The hammering work-hardens and pre-stresses the mild sheet, and the tuner shapes each area until its octave and fifth fall in with its fundamental — a thin steel plate talked into behaving harmonically. Pans are chromed or chemically treated now, because rust and the slow loss of that locked-in stress both pull the instrument out of tune.",
+  stats: [["From", "the end of a steel drum"], ["Tuned by", "hammering each note area"], ["Each note", "fundamental, octave and fifth aligned"]],
+  uses: "Steel bands and panorama orchestras, carnival, school and community ensembles.",
+  link: "https://en.wikipedia.org/wiki/Steelpan"
+},
+{
+  id: "glassharp", cat: "music", name: "Rubbed glass",
+  sub: "stemware as an instrument", img: "glassharp",
+  hook: "Ordinary stemware does something nobody designed it to do: a wet finger dragged round the rim grabs and releases it hundreds of times a second, drives the bending mode of the bowl, and the pitch follows how much water is in the glass. It works because glass has almost no internal damping — the same property that makes a dropped tumbler ring as it breaks. Lead crystal damps even less, which is what these were built from when they were built as instruments.",
+  stats: [["Driven by", "stick-slip from a wet finger"], ["Tuned by", "the water level"], ["Works because", "glass barely damps"]],
+  uses: "Glass harps and glass harmonicas, tuned bowl sets, physics demonstrations.",
+  link: "https://en.wikipedia.org/wiki/Glass_harp"
+},
+{
+  id: "handpan", cat: "music", name: "Nitrided pan steel",
+  sub: "deep-drawn sheet, case-hardened", img: "handpan",
+  hook: "A handpan is two deep-drawn steel shells glued rim to rim, each note area hammered until its octave and fifth lock onto its fundamental, so one dome sounds a chord. Bare sheet steel rusts and a rusting pan drifts out of tune, so makers hold the shells in ammonia gas at around 500 °C until the surface turns to iron nitride: a hard, corrosion-resistant case a few hundredths of a millimetre deep, with soft steel left underneath to do the vibrating. It is a heat treatment borrowed straight from gearboxes and crankshafts.",
+  stats: [["Shell", "deep-drawn sheet steel"], ["Case", "iron nitride, gas-nitrided"], ["Each note", "fundamental, octave, fifth"]],
+  uses: "Handpans and steel tongue drums, percussion for film, street and studio.",
+  link: "https://en.wikipedia.org/wiki/Handpan"
+},
+{
+  id: "springreverb", cat: "music", name: "Reverb spring",
+  sub: "coiled steel wire as a delay line", img: "springreverb",
+  hook: "A coiled steel wire is a bad delay line, and that is the entire point. Twist one end and the torsional wave crawls along the coil for tens of milliseconds, dispersing as it goes so the high frequencies arrive first, then reflects off both ends until a pickup at the far end hears a smear of echoes no room has ever produced. Amplifier makers kept it long after plates and tapes were available, because the defect itself had become the sound.",
+  stats: [["Medium", "torsional waves in coiled steel"], ["Delay", "tens of milliseconds per spring"], ["Character", "dispersion — highs arrive first"]],
+  uses: "Guitar amplifiers and organs, dub and surf records, modular synthesisers.",
+  link: "https://en.wikipedia.org/wiki/Spring_reverb"
+},
+{
+  id: "thermowood", cat: "music", name: "Thermally modified wood",
+  sub: "baked, not treated", img: "thermowood",
+  hook: "Wood taken to 160–215 °C with the oxygen kept out, which breaks down the hemicellulose — the component that holds water — and leaves the cellulose and lignin behind. It comes out darker, a few percent lighter, almost indifferent to humidity and much slower to rot, at the cost of toughness across the grain. Instrument makers use it on tops and fingerboards to imitate what decades of slow drying do to a soundboard; the same ovens turn plantation softwood into cladding that survives outdoors untreated.",
+  stats: [["Treated at", "160–215 °C, low oxygen"], ["Lost", "hemicellulose, and most humidity movement"], ["Cost", "toughness across the grain"]],
+  uses: "Guitar tops and fingerboards, cladding and decking, sauna benches, window frames.",
+  link: "https://en.wikipedia.org/wiki/Thermally_modified_wood"
 }
 
 ];

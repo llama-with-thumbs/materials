@@ -393,3 +393,21 @@ surgmesh|Hernia mesh 2.JPG|Polypropylene hernia mesh, knitted open|photo
 pinatex|Piñatex fabric in white.jpg|Piñatex in white — pineapple-leaf fibre, needled into a web and coated|photo
 waffle|An example of waffle fabric.jpeg|A close-up of waffle weave — floats stepping down into cells|photo
 twill|Broken twill denim Wrangler 13MWZ jeans (2026-01-21).jpg|Broken twill denim, face and back — the diagonal reverses across the warp|photo
+bellbronze|San Geremia (Venice) - Bronze bell from 1813.jpg|A bronze bell cast in 1813, in San Geremia, Venice|product
+singingbowl|Tibetan bowl 14 cm.jpg|A Himalayan standing bowl, 14 cm across|photo
+pipemetal|Organ pipes.jpg|Open bass pipes in an organ, cast from tin and lead|product
+pernambuco|Brazilwood Paubrasilia echinata square blank.jpg|A squared blank of pernambuco, cut in 1987 and kept for bows|photo
+ebony|A piece of ebony wood 1.jpg|A block of ebony, polished on one face|photo
+rosin|Violin rosin (2).jpg|A cake of violin rosin|photo
+fiddleback|Riegelahorn Holz.JPG|Sliced fiddleback maple veneer — the stripes are waves in the grain|photo
+instbrass|Trumpet Bell.jpg|The bell of a trumpet, spun from brass sheet|product
+lithophone|Pierre sonore d'un lithophone jade chine 1764 mariemont.JPG|A jade sounding stone from a Chinese lithophone, dated 1764|product
+cymbalbronze|Crashride cymbal.JPG|A deeply hammered B8 crash-ride cymbal|product
+tuningfork|Diapason Wittner à branches carrées à 440 Hz.jpg|A chromed steel tuning fork cut for 440 Hz|product
+singingsand|Singing Sand Dunes and Crescent Lake (20230918100733).jpg|The Mingsha singing dunes at Dunhuang|photo
+ringingrock|Boulder field, Ringing Rocks Park, Bridgeton Township, PA.jpg|The boulder field at Ringing Rocks Park, Pennsylvania|photo
+steelpan|Steelpan.jpeg|A tenor steelpan, sunk and tuned from a barrel end|product
+glassharp|Glass Harp.jpg|A glass harp built in Brussels around 1850|product
+handpan|Handpan 2014.jpg|A handpan being played — nitrided sheet steel|product
+springreverb|Spring Reverb 8325.jpg|A spring reverb tank with the lid off|photo
+thermowood|Thermoholz vergleich.JPG|Ash before and after thermal modification|photo
