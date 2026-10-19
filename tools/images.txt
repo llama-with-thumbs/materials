@@ -385,3 +385,11 @@ triaxial|Woven Fabric (ST177) - MoMu Antwerp.jpg|An open leno-type weave — tri
 stitchbond|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A glass–aramid hybrid reinforcement, 580 g/m² — non-crimp fabric is this job with the yarns kept dead straight|analog
 erf|MRF-Effekt-static-crop.png|Magnetorheological fluid stiffening in a field — the electric cousin behaves the same way, with volts instead of magnets|analog
 granite|Surface plate.jpg|A cast-iron surface plate, 250 × 250 mm — the older material for the same lapped reference surface|analog
+byborre|Double knit structure (weft knitted).jpg|A two-faced weft-knit structure — the kind of double knit this cloth is built from|analog
+dcf|Clew of an AC45 Cuben fiber gennaker.jpg|The clew of an AC45 catamaran's gennaker, cut from Cuben fibre|photo
+seersucker|Seersucker-sample1.jpg|A seersucker sample — the puckered stripes are woven in, not pressed|photo
+flyknit|Nike flyknit one (8483993132).jpg|A Flyknit shoe — the upper is a single knitted piece|product
+surgmesh|Hernia mesh 2.JPG|Polypropylene hernia mesh, knitted open|photo
+pinatex|Piñatex fabric in white.jpg|Piñatex in white — pineapple-leaf fibre, needled into a web and coated|photo
+waffle|An example of waffle fabric.jpeg|A close-up of waffle weave — floats stepping down into cells|photo
+twill|Broken twill denim Wrangler 13MWZ jeans (2026-01-21).jpg|Broken twill denim, face and back — the diagonal reverses across the warp|photo

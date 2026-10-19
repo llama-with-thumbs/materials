@@ -3482,5 +3482,77 @@ window.CREDITS = {
     "artist": "Rrudzik",
     "license": "CC0",
     "page": "https://commons.wikimedia.org/wiki/File:Surface_plate.jpg"
+  },
+  "byborre": {
+    "file": "byborre.jpg",
+    "caption": "A two-faced weft-knit structure — the kind of double knit this cloth is built from",
+    "kind": "analog",
+    "title": "Double knit structure (weft knitted).jpg",
+    "artist": "Elkagye",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Double_knit_structure_(weft_knitted).jpg"
+  },
+  "dcf": {
+    "file": "dcf.jpg",
+    "caption": "The clew of an AC45 catamaran's gennaker, cut from Cuben fibre",
+    "kind": "photo",
+    "title": "Clew of an AC45 Cuben fiber gennaker.jpg",
+    "artist": "HaeB",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Clew_of_an_AC45_Cuben_fiber_gennaker.jpg"
+  },
+  "seersucker": {
+    "file": "seersucker.jpg",
+    "caption": "A seersucker sample — the puckered stripes are woven in, not pressed",
+    "kind": "photo",
+    "title": "Seersucker-sample1.jpg",
+    "artist": "Giftzwerg 88",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seersucker-sample1.jpg"
+  },
+  "flyknit": {
+    "file": "flyknit.jpg",
+    "caption": "A Flyknit shoe — the upper is a single knitted piece",
+    "kind": "product",
+    "title": "Nike flyknit one (8483993132).jpg",
+    "artist": "29621165@N03",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nike_flyknit_one_(8483993132).jpg"
+  },
+  "surgmesh": {
+    "file": "surgmesh.jpg",
+    "caption": "Polypropylene hernia mesh, knitted open",
+    "kind": "photo",
+    "title": "Hernia mesh 2.JPG",
+    "artist": "Doctoroftcm",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hernia_mesh_2.JPG"
+  },
+  "pinatex": {
+    "file": "pinatex.jpg",
+    "caption": "Piñatex in white — pineapple-leaf fibre, needled into a web and coated",
+    "kind": "photo",
+    "title": "Piñatex fabric in white.jpg",
+    "artist": "Piñatex",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pi%C3%B1atex_fabric_in_white.jpg"
+  },
+  "waffle": {
+    "file": "waffle.jpg",
+    "caption": "A close-up of waffle weave — floats stepping down into cells",
+    "kind": "photo",
+    "title": "An example of waffle fabric.jpeg",
+    "artist": "Alexandra.birenbaum",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:An_example_of_waffle_fabric.jpeg"
+  },
+  "twill": {
+    "file": "twill.jpg",
+    "caption": "Broken twill denim, face and back — the diagonal reverses across the warp",
+    "kind": "photo",
+    "title": "Broken twill denim Wrangler 13MWZ jeans (2026-01-21).jpg",
+    "artist": "Olgierd Rudak",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Broken_twill_denim_Wrangler_13MWZ_jeans_(2026-01-21).jpg"
   }
 };

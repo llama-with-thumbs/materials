@@ -1,6 +1,6 @@
 # Interesting Materials
 
-A single-page field guide to 387 materials that exist because of one specific trick — a
+A single-page field guide to 395 materials that exist because of one specific trick — a
 polyurethane that carries tons without overheating, a ceramic that clamps its own cracks shut,
 a lashing that tightens itself as it dries, an airbag woven closed so it has no seam to burst.
 
@@ -18,9 +18,9 @@ one JS file, and it works straight off the filesystem.
 index.html     page shell
 style.css      styling, dark by default with a light toggle
 app.js         rendering, search, category filter, lightbox, swatch drawing
-data.js        the catalogue — 387 entries, this is the file to edit
+data.js        the catalogue — 395 entries, this is the file to edit
 credits.js     generated: image filenames, photographers, licences, source links
-images/        387 images, 900 px wide
+images/        395 images, 900 px wide
 tools/
   images.txt       id | Commons filename | caption | kind
   fetch_images.py  downloads the images and regenerates credits.js
@@ -37,7 +37,7 @@ tools/
 | `composite` | Composites & structures | 36 |
 | `additive` | 3D printing & additive | 20 |
 | `fibre` | Ropes & woven materials | 64 |
-| `fabric` | Fabrics & constructions | 26 |
+| `fabric` | Fabrics & constructions | 34 |
 | `natural` | Natural & biological | 29 |
 | `exotic` | Active & exotic | 32 |
 
@@ -97,21 +97,21 @@ wider than 640 px, then picking by eye from the top few results.
 
 ## Images and licensing
 
-All 387 entries carry an image from Wikimedia Commons. Each remains under its own licence
+All 395 entries carry an image from Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
 the lightbox. If you redistribute this page, keep those credits. No two cards use the same
 photograph.
 
-218 are photographs of the material itself. 169 are not, and say so in the corner of the image:
+224 are photographs of the material itself. 171 are not, and say so in the corner of the image:
 
-- **121 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **122 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
   chemical tanker for duplex stainless, and a 2 mm model of an 1871 microscope for the two-photon
   resist.
-- **22 show a similar example** — the nearest comparable thing, where neither the material nor
+- **23 show a similar example** — the nearest comparable thing, where neither the material nor
   anything made from it has been photographed freely: a piezoelectric hydrophone for Terfenol-D, a
   Level IIIA vest for Zylon, a roll of Kapton tape for Torlon, activated carbon for MOF-5, a
   dye-laser mirror for hafnium oxide, a cast-iron surface plate for the granite one, a

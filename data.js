@@ -2466,6 +2466,70 @@ window.MATERIALS = [
   uses: "Touch-sensitive garments and bags, heated seats and clothing, ECG and respiration shirts, soft robotics.",
   link: "https://en.wikipedia.org/wiki/E-textiles"
 },
+{
+  id: "byborre", cat: "fabric", name: "Byborre engineered knit",
+  sub: "layered double-knit, specified per zone", img: "byborre",
+  hook: "An Amsterdam studio that treats the knit itself as the design. On a circular machine two faces are knitted at once and a further yarn can be trapped between them, so weight, stretch, insulation and texture change from one zone to the next inside a single continuous piece, with no seam and no panel to cut. The cloth is knitted to order rather than held as stock, and each run carries a passport recording the yarns that went into it.",
+  stats: [["Structure", "two faces, knitted as one"], ["Specified", "per zone, not per panel"], ["Made", "to order, not from stock"]],
+  uses: "Upholstery and interiors, footwear and apparel panels, acoustic and insulating textiles.",
+  link: "https://byborre.com/"
+},
+{
+  id: "dcf", cat: "fabric", name: "Dyneema composite fabric",
+  sub: "UHMWPE scrim laminated between films", img: "dcf",
+  hook: "Not woven at all. Parallel UHMWPE filaments are laid down in a thin cross-plied grid and sandwiched between polyester films, so every fibre carries load in a straight line instead of crimping over and under a weave. It barely stretches, takes up no water and comes out translucent — and it creases rather than drapes, which is why sails and packs are made of it and clothing is not.",
+  stats: [["Construction", "laid and laminated, no weave"], ["Stretch", "very low, no crimp"], ["Water", "the films stop it entirely"]],
+  uses: "Racing sails, ultralight packs and shelters, kites, protective covers.",
+  link: "https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene"
+},
+{
+  id: "seersucker", cat: "fabric", name: "Seersucker",
+  sub: "slack-tension stripe weave", img: "seersucker",
+  hook: "Two warps are run at different tensions on the same loom, so when the cloth comes off and relaxes, the slack stripes bunch up into permanent puckers. The point is not the look: the ridges hold the fabric off the skin so air moves underneath it, and it never needs ironing, because the wrinkles are the construction.",
+  stats: [["Made by", "two warp tensions at once"], ["Pucker", "permanent, woven in"], ["Why", "it stands off the skin"]],
+  uses: "Summer suits and shirting, children's clothes, bedding, curtains.",
+  link: "https://en.wikipedia.org/wiki/Seersucker"
+},
+{
+  id: "flyknit", cat: "fabric", name: "Engineered knit upper",
+  sub: "one piece, structure changed mid-knit", img: "flyknit",
+  hook: "A shoe upper knitted as a single piece, with the stitch structure changing as it goes: open mesh where the foot needs air, tight structure where it needs holding, and a fused yarn knitted in along the lines that take the load. Cutting and stitching panels disappears, and most of the offcut waste goes with it.",
+  stats: [["Pieces", "one, knitted to shape"], ["Zones", "structure changes mid-knit"], ["Waste", "far below cut-and-sew"]],
+  uses: "Running and lifestyle shoe uppers, seamless garments, orthopaedic braces.",
+  link: "https://en.wikipedia.org/wiki/Knitted_fabric"
+},
+{
+  id: "surgmesh", cat: "fabric", name: "Surgical mesh",
+  sub: "knitted polypropylene, pore size tuned", img: "surgmesh",
+  hook: "A warp-knitted polypropylene net whose whole specification is its holes. Large pores let tissue grow through and leave the repair flexible; small ones give a stiffer, denser patch that the body walls off instead. It is knitted rather than woven so a cut edge cannot run, and the modern meshes are deliberately lighter, because the first generation was far stronger than any abdomen needs.",
+  stats: [["Pore size", "the design variable"], ["Knit", "cut edges do not unravel"], ["Trend", "lighter, larger-pore"]],
+  uses: "Hernia repair, pelvic floor reconstruction, chest wall and soft tissue support.",
+  link: "https://en.wikipedia.org/wiki/Surgical_mesh"
+},
+{
+  id: "pinatex", cat: "fabric", name: "Piñatex",
+  sub: "pineapple-leaf fibre nonwoven", img: "pinatex",
+  hook: "Leaves left on the ground after the pineapple harvest, stripped down to fibre, dried and needle-punched into a web, then coated until the sheet behaves like a light leather. Nothing is planted for it — the fibre is a by-product of a crop already grown for its fruit, and the leaf pulp left over goes back to the field.",
+  stats: [["Fibre", "pineapple leaf, a by-product"], ["Web", "needle-punched nonwoven"], ["Finish", "resin coated"]],
+  uses: "Shoes and bags, upholstery, watch straps, accessories.",
+  link: "https://en.wikipedia.org/wiki/Pi%C3%B1atex"
+},
+{
+  id: "waffle", cat: "fabric", name: "Waffle weave",
+  sub: "honeycomb float structure", img: "waffle",
+  hook: "Long floats on both faces step down into a recessed grid, so the cloth ends up all ridges and hollows instead of flat. The hollows hold still air, which is what makes it insulate, and the ridges give a towel far more surface and far more grip on water than a flat weave of the same yarn.",
+  stats: [["Structure", "floats stepping into cells"], ["Insulates", "by trapping air"], ["Absorbs", "more than a flat weave"]],
+  uses: "Towels and bathrobes, thermal underwear, blankets, kitchen cloths.",
+  link: "https://en.wikipedia.org/wiki/Waffle_fabric"
+},
+{
+  id: "twill", cat: "fabric", name: "Broken twill",
+  sub: "twill with the diagonal reversed", img: "twill",
+  hook: "A twill's diagonal comes from floats that all step the same way, and those aligned floats also drag the leg of a pair of jeans into a slow spiral every time it is washed. Reversing the step every few ends breaks the diagonal into a zigzag too fine to see, cancels the twist, and leaves the drape and wear of a twill intact.",
+  stats: [["Twill", "diagonal float, usually 3/1"], ["Broken", "step reverses across the warp"], ["Fixes", "leg twist after washing"]],
+  uses: "Jeans and workwear, shirting, upholstery, uniform cloth.",
+  link: "https://en.wikipedia.org/wiki/Twill"
+},
 
 /* ---------- ACTIVE & EXOTIC ---------- */
 {
