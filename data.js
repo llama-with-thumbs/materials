@@ -856,6 +856,22 @@ window.MATERIALS = [
   uses: "Cryogenic structures, research into radiation-tolerant and wear-resistant alloys.",
   link: "https://en.wikipedia.org/wiki/High-entropy_alloy"
 },
+{
+  id: "nb3sn", cat: "metal", name: "Nb3Sn superconductor",
+  sub: "A15 intermetallic, reacted after winding", img: "nb3sn",
+  hook: "Niobium and tin in the A15 structure stay superconducting in fields that flatten niobium-titanium — useful past 20 tesla, where Nb-Ti gives up around 10. The catch is that the compound is a ceramic in all but name: bend a finished strand and the filaments crack. So magnets are wound from ductile niobium-and-bronze precursor and then baked at about 650 °C for days, forming the superconductor in place inside the finished coil, after which the whole thing has to be handled as if it were glass.",
+  stats: [["Critical temperature", "about 18 K"], ["Useful past", "20 T, where Nb-Ti stops"], ["Formed", "after winding, near 650 °C"]],
+  uses: "ITER and fusion magnets, high-luminosity LHC quadrupoles, high-field NMR and research magnets.",
+  link: "https://en.wikipedia.org/wiki/Niobium%E2%80%93tin"
+},
+{
+  id: "wroughtiron", cat: "metal", name: "Wrought iron",
+  sub: "iron with its slag rolled into fibres", img: "wroughtiron",
+  hook: "Neither steel nor cast iron: almost pure iron with one or two percent of its smelting slag left inside and rolled out into long fibres, so the metal has a grain and tears along it like timber. The grain is why it forge-welds so willingly and why old chain and railing bends instead of snapping, and the low carbon with a trace of phosphorus is why some of it corrodes so slowly — the Delhi pillar has stood in the open for sixteen centuries. Nobody has made it at scale since the 1970s, so restoration work runs on reclaimed stock.",
+  stats: [["Carbon", "under 0.1 percent"], ["Slag", "1–2 percent, drawn into fibres"], ["Supply", "reclaimed — no longer made at scale"]],
+  uses: "Historic chain, gates and railings; blacksmithing; conservation and restoration work.",
+  link: "https://en.wikipedia.org/wiki/Wrought_iron"
+},
 
 /* ---------- CERAMICS & GLASS ---------- */
 {
@@ -1258,6 +1274,14 @@ window.MATERIALS = [
   stats: [["Fired at", "750–850 °C"], ["Hardness", "~6 Mohs"], ["Weakness", "chips if struck"]],
   uses: "Cookware and sinks, cast iron baths, road and transit signs, cloisonné jewellery.",
   link: "https://en.wikipedia.org/wiki/Vitreous_enamel"
+},
+{
+  id: "tincoat", cat: "ceramic", name: "Titanium nitride coating",
+  sub: "a few micrometres, struck on by arc", img: "tincoat",
+  hook: "Two to four micrometres of titanium nitride grown onto a finished tool by striking an arc on a titanium cathode in nitrogen, hot enough to bond but not to ruin the temper underneath. The coating is around three times the hardness of hardened steel and slides better, so the tool keeps its own toughness while the surface takes the wear, and a worn tool can be stripped and recoated rather than scrapped. The gold colour is incidental — a consequence of how its electrons swallow blue light — and hotter cutting has since moved on to aluminium-titanium and aluminium-chromium nitrides, which grow their own oxide skin at the edge.",
+  stats: [["Thickness", "2–4 µm"], ["Hardness", "around 2000–2400 HV"], ["Gold colour", "a side effect, not a plating"]],
+  uses: "Drills, taps, punches and cutters; injection moulds, medical implants, decorative trim.",
+  link: "https://en.wikipedia.org/wiki/Titanium_nitride"
 },
 
 /* ---------- COMPOSITES & STRUCTURES ---------- */
@@ -3256,6 +3280,14 @@ window.MATERIALS = [
   stats: [["Real contact", "~1–2% of area"], ["Grease", "3–8 W/m·K"], ["Liquid metal", "~70 W/m·K"]],
   uses: "CPU and GPU coolers, LED and power module mounting, automotive electronics.",
   link: "https://en.wikipedia.org/wiki/Thermal_interface_material"
+},
+{
+  id: "lfp", cat: "electronic", name: "Lithium iron phosphate",
+  sub: "LiFePO4 olivine cathode", img: "lfp",
+  hook: "An olivine cathode that trades some energy for peace of mind. Its phosphate groups hold their oxygen covalently, so an overheated cell has nothing of its own to burn with — unlike a nickel-cobalt cathode, which releases oxygen into its own fire. It runs on iron and phosphorus rather than cobalt and nickel, holds a flat 3.2 volts across most of the discharge, and takes several thousand cycles; the flatness is also its nuisance, since the voltage tells you almost nothing about the charge left.",
+  stats: [["Cell voltage", "about 3.2 V, very flat"], ["Cycles", "several thousand"], ["Contains", "no cobalt and no nickel"]],
+  uses: "Standard-range electric cars, home and grid storage, buses, boats and solar systems.",
+  link: "https://en.wikipedia.org/wiki/Lithium_iron_phosphate_battery"
 },
 {
   id: "bellbronze", cat: "music", name: "Bell bronze",

@@ -3806,5 +3806,41 @@ window.CREDITS = {
     "artist": "SMasters",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Cello_endpin.JPG"
+  },
+  "nb3sn": {
+    "file": "nb3sn.jpg",
+    "caption": "An exploded view of ITER's central solenoid conductor, cabled from niobium-tin",
+    "kind": "product",
+    "title": "ITER Central Solenoid CICC (34860816181).jpg",
+    "artist": "Charlie Sanabria",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ITER_Central_Solenoid_CICC_(34860816181).jpg"
+  },
+  "wroughtiron": {
+    "file": "wroughtiron.jpg",
+    "caption": "The iron pillar of Delhi, forged about sixteen centuries ago and barely rusted",
+    "kind": "product",
+    "title": "Iron Pillar of Delhi.jpg",
+    "artist": "Rounik Ghosh",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iron_Pillar_of_Delhi.jpg"
+  },
+  "tincoat": {
+    "file": "tincoat.jpg",
+    "caption": "Punches coated with titanium nitride by cathodic arc deposition",
+    "kind": "photo",
+    "title": "TiNCoatedPunches NanoShieldPVD Thailand.JPG",
+    "artist": "Sunyataburus",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TiNCoatedPunches_NanoShieldPVD_Thailand.JPG"
+  },
+  "lfp": {
+    "file": "lfp.jpg",
+    "caption": "400 Ah lithium iron phosphate cells wired into a house battery",
+    "kind": "product",
+    "title": "Lithium Iron Phosphate LiFePO4 Cells 400 Ah Amp Hours 3.25 Volts - 1.jpg",
+    "artist": "Yo-Co-Man",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lithium_Iron_Phosphate_LiFePO4_Cells_400_Ah_Amp_Hours_3.25_Volts_-_1.jpg"
   }
 };

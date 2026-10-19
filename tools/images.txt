@@ -421,3 +421,7 @@ bonesaddle|Classical Guitar Bridge Bone.jpg|The bridge of a classical guitar wit
 hideglue|Knochenleim Granulat.jpg|Animal glue granules, ready to be soaked and melted|photo
 shockmount|AKG C214 condenser microphone with H85 shock mount.jpg|A condenser microphone slung in an elastic shock mount|photo
 endpin|Cello endpin.JPG|A cello endpin — the steel spike, with its rubber cap beside it|photo
+nb3sn|ITER Central Solenoid CICC (34860816181).jpg|An exploded view of ITER's central solenoid conductor, cabled from niobium-tin|product
+wroughtiron|Iron Pillar of Delhi.jpg|The iron pillar of Delhi, forged about sixteen centuries ago and barely rusted|product
+tincoat|TiNCoatedPunches NanoShieldPVD Thailand.JPG|Punches coated with titanium nitride by cathodic arc deposition|photo
+lfp|Lithium Iron Phosphate LiFePO4 Cells 400 Ah Amp Hours 3.25 Volts - 1.jpg|400 Ah lithium iron phosphate cells wired into a house battery|product
