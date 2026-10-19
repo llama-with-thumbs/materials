@@ -411,3 +411,13 @@ glassharp|Glass Harp.jpg|A glass harp built in Brussels around 1850|product
 handpan|Handpan 2014.jpg|A handpan being played — nitrided sheet steel|product
 springreverb|Spring Reverb 8325.jpg|A spring reverb tank with the lid off|photo
 thermowood|Thermoholz vergleich.JPG|Ash before and after thermal modification|photo
+headstock|Avebury St James - old bell headstock - geograph.org.uk - 7250336.jpg|An old wooden bell headstock, taken out of the tower at Avebury|photo
+clapper|Glockenklöppel St. Maximilian München.jpg|The clapper of a bell at St Maximilian in Munich|photo
+cymbalfelt|Cymbal stand buttons and disassembled bolts.JPG|Cymbal stand tops taken apart — felts, plastic sleeves, washers and nuts|photo
+bowlcushion|Rin gong at Kiyomizu-dera, Kyoto.JPG|A temple rin resting on its brocade ring cushion, Kiyomizu-dera in Kyoto|photo
+soundpost|Soundpost end.jpg|The foot of a soundpost, seen through the treble f-hole|photo
+violinbridge|Cello bridge.jpg|The bridge of a cello, standing on string pressure alone|photo
+bonesaddle|Classical Guitar Bridge Bone.jpg|The bridge of a classical guitar with its bone saddle|photo
+hideglue|Knochenleim Granulat.jpg|Animal glue granules, ready to be soaked and melted|photo
+shockmount|AKG C214 condenser microphone with H85 shock mount.jpg|A condenser microphone slung in an elastic shock mount|photo
+endpin|Cello endpin.JPG|A cello endpin — the steel spike, with its rubber cap beside it|photo

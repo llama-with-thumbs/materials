@@ -1,6 +1,6 @@
 # Interesting Materials
 
-A single-page field guide to 413 materials that exist because of one specific trick — a
+A single-page field guide to 423 materials that exist because of one specific trick — a
 polyurethane that carries tons without overheating, a ceramic that clamps its own cracks shut,
 a lashing that tightens itself as it dries, an airbag woven closed so it has no seam to burst.
 
@@ -18,9 +18,9 @@ one JS file, and it works straight off the filesystem.
 index.html     page shell
 style.css      styling, dark by default with a light toggle
 app.js         rendering, search, category filter, lightbox, swatch drawing
-data.js        the catalogue — 413 entries, this is the file to edit
+data.js        the catalogue — 423 entries, this is the file to edit
 credits.js     generated: image filenames, photographers, licences, source links
-images/        413 images, 900 px wide
+images/        423 images, 900 px wide
 tools/
   images.txt       id | Commons filename | caption | kind
   fetch_images.py  downloads the images and regenerates credits.js
@@ -40,7 +40,7 @@ tools/
 | `fabric` | Fabrics & constructions | 34 |
 | `natural` | Natural & biological | 29 |
 | `exotic` | Active & exotic | 32 |
-| `music` | Sound & music | 18 |
+| `music` | Sound & music | 28 |
 
 `additive` is a materials category like the rest: each card is a feedstock or the stuff a printed
 part is made of — filament, resin, powder, wire, slurry, bath — and the process that consumes it is
@@ -51,7 +51,10 @@ market.
 `music` is the same idea applied to sound: alloys and woods chosen for how they ring, a few recent
 developments, and three or four materials whose acoustic behaviour nobody designed — sand that booms
 when it slides, diabase boulders that answer a hammer like metal, an oil drum that became an
-instrument, a coiled spring whose dispersion turned into the sound of an amplifier.
+instrument, a coiled spring whose dispersion turned into the sound of an amplifier. It also covers
+the mounts: the headstock a bell hangs from, the felts that hold a cymbal without clamping it, the
+cushion under a singing bowl, the glue inside a violin — every one of them a choice between
+coupling the instrument to something and isolating it from everything.
 
 Within each category, cards appear in the order they were added.
 
@@ -103,13 +106,13 @@ wider than 640 px, then picking by eye from the top few results.
 
 ## Images and licensing
 
-All 413 entries carry an image from Wikimedia Commons. Each remains under its own licence
+All 423 entries carry an image from Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
 the lightbox. If you redistribute this page, keep those credits. No two cards use the same
 photograph.
 
-233 are photographs of the material itself. 180 are not, and say so in the corner of the image:
+243 are photographs of the material itself. 180 are not, and say so in the corner of the image:
 
 - **131 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for

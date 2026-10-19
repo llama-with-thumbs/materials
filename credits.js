@@ -3716,5 +3716,95 @@ window.CREDITS = {
     "artist": "Anubis100",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Thermoholz_vergleich.JPG"
+  },
+  "headstock": {
+    "file": "headstock.jpg",
+    "caption": "An old wooden bell headstock, taken out of the tower at Avebury",
+    "kind": "photo",
+    "title": "Avebury St James - old bell headstock - geograph.org.uk - 7250336.jpg",
+    "artist": "Stephen Craven",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Avebury_St_James_-_old_bell_headstock_-_geograph.org.uk_-_7250336.jpg"
+  },
+  "clapper": {
+    "file": "clapper.jpg",
+    "caption": "The clapper of a bell at St Maximilian in Munich",
+    "kind": "photo",
+    "title": "Glockenklöppel St. Maximilian München.jpg",
+    "artist": "Wikitarisch",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glockenkl%C3%B6ppel_St._Maximilian_M%C3%BCnchen.jpg"
+  },
+  "cymbalfelt": {
+    "file": "cymbalfelt.jpg",
+    "caption": "Cymbal stand tops taken apart — felts, plastic sleeves, washers and nuts",
+    "kind": "photo",
+    "title": "Cymbal stand buttons and disassembled bolts.JPG",
+    "artist": "Andrewa",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cymbal_stand_buttons_and_disassembled_bolts.JPG"
+  },
+  "bowlcushion": {
+    "file": "bowlcushion.jpg",
+    "caption": "A temple rin resting on its brocade ring cushion, Kiyomizu-dera in Kyoto",
+    "kind": "photo",
+    "title": "Rin gong at Kiyomizu-dera, Kyoto.JPG",
+    "artist": "MichaelMaggs",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Rin_gong_at_Kiyomizu-dera,_Kyoto.JPG"
+  },
+  "soundpost": {
+    "file": "soundpost.jpg",
+    "caption": "The foot of a soundpost, seen through the treble f-hole",
+    "kind": "photo",
+    "title": "Soundpost end.jpg",
+    "artist": "No machine-readable author provided. Just plain Bill assumed (based on copyright claims).",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Soundpost_end.jpg"
+  },
+  "violinbridge": {
+    "file": "violinbridge.jpg",
+    "caption": "The bridge of a cello, standing on string pressure alone",
+    "kind": "photo",
+    "title": "Cello bridge.jpg",
+    "artist": "Turidoth File uploaded by Phyzome for w:en:User:Turidoth through the File upload service.",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Cello_bridge.jpg"
+  },
+  "bonesaddle": {
+    "file": "bonesaddle.jpg",
+    "caption": "The bridge of a classical guitar with its bone saddle",
+    "kind": "photo",
+    "title": "Classical Guitar Bridge Bone.jpg",
+    "artist": "Dirkjot",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Classical_Guitar_Bridge_Bone.jpg"
+  },
+  "hideglue": {
+    "file": "hideglue.jpg",
+    "caption": "Animal glue granules, ready to be soaked and melted",
+    "kind": "photo",
+    "title": "Knochenleim Granulat.jpg",
+    "artist": "Simon Eugster – Simon / ?! 12:57, 8 May 2008 (UTC)",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Knochenleim_Granulat.jpg"
+  },
+  "shockmount": {
+    "file": "shockmount.jpg",
+    "caption": "A condenser microphone slung in an elastic shock mount",
+    "kind": "photo",
+    "title": "AKG C214 condenser microphone with H85 shock mount.jpg",
+    "artist": "Lucasbosch",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AKG_C214_condenser_microphone_with_H85_shock_mount.jpg"
+  },
+  "endpin": {
+    "file": "endpin.jpg",
+    "caption": "A cello endpin — the steel spike, with its rubber cap beside it",
+    "kind": "photo",
+    "title": "Cello endpin.JPG",
+    "artist": "SMasters",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cello_endpin.JPG"
   }
 };

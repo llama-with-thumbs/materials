@@ -3400,6 +3400,86 @@ window.MATERIALS = [
   stats: [["Treated at", "160–215 °C, low oxygen"], ["Lost", "hemicellulose, and most humidity movement"], ["Cost", "toughness across the grain"]],
   uses: "Guitar tops and fingerboards, cladding and decking, sauna benches, window frames.",
   link: "https://en.wikipedia.org/wiki/Thermally_modified_wood"
+},
+{
+  id: "headstock", cat: "music", name: "Bell headstock",
+  sub: "the beam a bell hangs from", img: "headstock",
+  hook: "A swinging bell throws several times its own weight at whatever holds it, over and over, for centuries — so the headstock has to be stiff, heavy and acoustically dull, because anything that rings along with the bell is stealing from it. Seasoned oak and elm did the job for six hundred years: wood soaks up the shock of each strike inside itself instead of passing it into the tower, and when it finally goes it goes slowly and visibly. Cast iron and welded steel took over where the loads grew, at the price of a harder hang and fatigue cracks that give no warning at all.",
+  stats: [["Carries", "several times the bell's weight, each swing"], ["Wants to be", "stiff, heavy, non-resonant"], ["Traditionally", "seasoned oak or elm"]],
+  uses: "Church and tower bell frames, carillons, bell restoration and rehanging.",
+  link: "https://en.wikipedia.org/wiki/Bell_(instrument)"
+},
+{
+  id: "clapper", cat: "music", name: "Clapper and baldric",
+  sub: "wrought iron on a leather strap", img: "clapper",
+  hook: "The clapper is deliberately the softer of the two: wrought iron against bronze, so a century of blows wears a flat onto the clapper instead of starting a crack in the bell. How it hangs matters more than what it is made of — the leather baldric lets it swing free and bounce clear, because a clapper still touching the bell damps the note it has just made. Leather is used because it takes millions of flexing cycles, gives a little at the instant of impact, and frays visibly long before it parts.",
+  stats: [["Softer than", "the bell, on purpose"], ["Must", "bounce clear after the strike"], ["Strap", "leather — flexes, gives, warns"]],
+  uses: "Church bells and carillons, ship and school bells, handbells.",
+  link: "https://en.wikipedia.org/wiki/Wrought_iron"
+},
+{
+  id: "cymbalfelt", cat: "music", name: "Cymbal felt and sleeve",
+  sub: "wool felt and a plastic tube", img: "cymbalfelt",
+  hook: "A cymbal has to be held up and left alone at the same time. Two wool felt washers carry the weight and do nothing else: felt is soft, lossy and conforms to the curve, so the plate can rock and swing on the stand without being clamped and without the ring being choked out of it. The plastic sleeve over the threaded rod handles the unglamorous half — bare metal through the centre hole would chew it into a keyhole within a season and rattle along with the stand.",
+  stats: [["Held by", "two felt washers, deliberately loose"], ["Felt", "soft, lossy, conforming"], ["Sleeve", "keeps metal off metal"]],
+  uses: "Cymbal stands and hi-hat clutches, gong and tam-tam mounts, drum hardware.",
+  link: "https://en.wikipedia.org/wiki/Cymbal_stand"
+},
+{
+  id: "bowlcushion", cat: "music", name: "Bowl cushion",
+  sub: "cloth over a loose fill", img: "bowlcushion",
+  hook: "A standing bowl rings in its wall, and the wall barely moves only in a narrow band near the base — so that band is the one place anything is allowed to touch. A ring cushion of cloth over a loose fill does two jobs at once: it holds the bowl steady, and it is soft enough to mould itself to the base instead of making the hard point contact that would short the vibration out. Set the same bowl on a bare table and it goes dull and buzzes; the cushion is not decoration, it is the mount.",
+  stats: [["Touches", "only the quiet band near the base"], ["Fill", "loose, so it moulds to the bowl"], ["Bare table", "dull note and a buzz"]],
+  uses: "Temple rin and singing bowls, gong cushions and stands, sound therapy sets.",
+  link: "https://en.wikipedia.org/wiki/Standing_bell"
+},
+{
+  id: "soundpost", cat: "music", name: "Soundpost",
+  sub: "a spruce dowel held by friction", img: "soundpost",
+  hook: "A stick of spruce about six millimetres thick, wedged between belly and back with no glue at all, its ends cut to match the curve of each plate so it stands up on friction alone. It stiffens the treble side so the bridge rocks instead of pumping the whole top, and moving it a millimetre is audible — it is the largest single adjustment anyone makes to a finished instrument. Leaving it unglued is also the safety feature: a hard knock drops the post instead of cracking the plates.",
+  stats: [["Held by", "friction alone, never glued"], ["Adjusted in", "fractions of a millimetre"], ["Doubles as", "the fuse against a knock"]],
+  uses: "Violins, violas, cellos and basses; some lutes, guitars and viols.",
+  link: "https://en.wikipedia.org/wiki/Sound_post"
+},
+{
+  id: "violinbridge", cat: "music", name: "Bridge maple",
+  sub: "cut to fit one instrument", img: "violinbridge",
+  hook: "The bridge is held on by string pressure alone, and its feet are cut by hand to the exact arch of that one belly — move it to another instrument of the same model and it fits nothing. Quarter-sawn maple is used because it has to be stiff enough not to fold under roughly nine kilograms of downward load and still light enough to move at audio frequencies. The cut-out waist, heart and kidneys are a tuned filter rather than decoration: they put a broad resonance somewhere near 2–3 kHz, right where the ear is sharpest.",
+  stats: [["Held by", "string pressure, no glue"], ["Load", "about 9 kg pressing down"], ["Bridge hill", "a broad peak near 2–3 kHz"]],
+  uses: "Violin family and double bass, and in other forms most stringed instruments.",
+  link: "https://en.wikipedia.org/wiki/Bridge_(instrument)"
+},
+{
+  id: "bonesaddle", cat: "music", name: "Nut and saddle",
+  sub: "bone, Micarta or sintered polymer", img: "bonesaddle",
+  hook: "Every string ends on a hard little block, and that block has to be harder than the string, uniform the whole way through, and slippery enough that the string slides across it while being tuned instead of catching and then jumping sharp. Bone has been the default for centuries because it is dense, takes a polish and has a bright attack — but no two pieces are alike and some are porous enough to deaden one string out of six. Micarta and sintered polymers give up a little of that brightness for blanks that are all identical, which is what a factory and a repairer both want.",
+  stats: [["Harder than", "the string that sits on it"], ["Must", "let the string slide while tuning"], ["Bone", "dense and bright, but never twice the same"]],
+  uses: "Guitar nuts and saddles, mandolin and banjo bridges, harp and zither bearing points.",
+  link: "https://en.wikipedia.org/wiki/Nut_(string_instrument)"
+},
+{
+  id: "hideglue", cat: "music", name: "Hot hide glue",
+  sub: "collagen, brushed on at about 60 °C", img: "hideglue",
+  hook: "Collagen boiled out of hide and bone, kept molten in a pot at around 60 °C and brushed on hot, where it gels as it cools — which gives perhaps ten seconds to close the joint. It dries hard and glassy rather than rubbery, and that is the whole point: a flexible glue line inside a violin would swallow the vibration the wood is trying to pass along. It also releases with heat and water, so a three-hundred-year-old instrument can be opened and closed again, and the maker gets to decide which joint lets go first when the thing is dropped.",
+  stats: [["Worked at", "about 60 °C, sets as it cools"], ["Dry joint", "hard and glassy, not rubbery"], ["Reversible", "with heat and moisture"]],
+  uses: "Violin family and acoustic guitars, piano actions, furniture restoration, gilding.",
+  link: "https://en.wikipedia.org/wiki/Hide_glue"
+},
+{
+  id: "shockmount", cat: "music", name: "Elastic shock mount",
+  sub: "holding by not quite holding", img: "shockmount",
+  hook: "The opposite job to a bell headstock: let nothing through. A microphone slung in elastic cords, plus its own mass, makes a simple spring-and-weight filter tuned so that footsteps and knocks travelling up the stand die away well below the frequencies being recorded. The elastomer has to be soft, heavily damped inside itself so the suspension does not bounce at its own resonance, and free of creep — cheap rubber takes a permanent set and quietly lowers the microphone onto the frame it was supposed to be floating in.",
+  stats: [["Wants", "low stiffness, high internal damping"], ["Fails by", "creep — the cord sags into a set"], ["Tuned", "below the band being recorded"]],
+  uses: "Studio microphone suspensions, drum and tom isolation mounts, sensitive instrument stands.",
+  link: "https://en.wikipedia.org/wiki/Shock_mount"
+},
+{
+  id: "endpin", cat: "music", name: "Endpin and stopper",
+  sub: "couple to the floor, or do not", img: "endpin",
+  hook: "A cello spike is a decision to make the floor part of the instrument: steel driven into a wooden stage couples the body to a large radiating surface, and players can hear the room change underneath them. Carbon fibre endpins are stiffer and lighter and shift that balance again, while a rubber stopper or a strap-and-puck cuts the coupling almost entirely — which is what most people use, because the first duty of the fitting is to stop the instrument sliding away. Couple or isolate is the choice behind every mount in this category.",
+  stats: [["Steel spike", "couples the body to the floor"], ["Carbon fibre", "stiffer, lighter, different balance"], ["Rubber stopper", "isolates, and stops the slide"]],
+  uses: "Cellos and double basses, bassoons, some banjos, drums and speaker stands.",
+  link: "https://en.wikipedia.org/wiki/Endpin"
 }
 
 ];
