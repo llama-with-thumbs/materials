@@ -17,13 +17,15 @@ one JS file, and it works straight off the filesystem.
 ```
 index.html     page shell
 style.css      styling, dark by default with a light toggle
-app.js         rendering, search, category filter, lightbox, swatch drawing
+app.js         rendering, search, category filter, sort, lightbox, swatch drawing
 data.js        the catalogue — 427 entries, this is the file to edit
 credits.js     generated: image filenames, photographers, licences, source links
+added.js       generated: when each entry joined, in add order — the default sort
 images/        427 images, 900 px wide
 tools/
   images.txt       id | Commons filename | caption | kind
   fetch_images.py  downloads the images and regenerates credits.js
+  added.py         rebuilds added.js from the git history of data.js
 ```
 
 ## Categories
@@ -56,7 +58,26 @@ the mounts: the headstock a bell hangs from, the felts that hold a cymbal withou
 cushion under a singing bowl, the glue inside a violin — every one of them a choice between
 coupling the instrument to something and isolating it from everything.
 
-Within each category, cards appear in the order they were added.
+## Order
+
+The cards are sorted by when each one was added, oldest first, so the newest are at the bottom of
+the page. The select next to the search box also offers newest first, A–Z, and the grouping the
+file itself uses — category by category, add order within each. The choice is remembered.
+
+There is no date field in `data.js`. The add order comes from git: `tools/added.py` walks every
+commit that touched `data.js`, oldest first, and records the commit a given id first appeared in.
+Run it after adding materials:
+
+```sh
+python tools/added.py
+```
+
+It writes `added.js`, whose key order *is* the sort order. Entries added but not yet committed are
+not in the history yet, so they sort to the very end — which is where they belong anyway. Run it
+again after committing and they get their real date.
+
+A pair of buttons at the bottom right jumps to the top or the bottom of the page; each greys out at
+the end it points to, and both disappear on a page too short to scroll.
 
 ## Adding a material
 

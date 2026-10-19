@@ -27,6 +27,7 @@
 
     <div class="controls">
       <input id="search" type="search" placeholder="Search — heat, wheel, vacuum, cryogenic…" autocomplete="off">
+      <select id="sort" aria-label="Order the cards"></select>
       <div class="filters"></div>
     </div>
   </div>
@@ -48,9 +49,15 @@
   </p>
 </footer>
 
+<div class="jump">
+  <button id="to-top" type="button" title="Back to the top">↑ Top</button>
+  <button id="to-end" type="button" title="Jump to the bottom">↓ End</button>
+</div>
+
 <dialog id="lb"><div id="lb-inner"></div></dialog>
 
 <script src="credits.js"></script>
+<script src="added.js"></script>
 <script src="data.js"></script>
 <script src="app.js"></script>
 </body>

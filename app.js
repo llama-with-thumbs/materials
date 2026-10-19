@@ -25,6 +25,22 @@ const KINDS = {
 
 const CREDITS = window.CREDITS || {};
 const MATERIALS = window.MATERIALS || [];
+const ADDED = window.ADDED || {};
+
+// added.js lists every id in the order the catalogue grew, so its key order is the
+// sort order. An id missing from it is newer than everything in it.
+const ADD_ORDER = Object.keys(ADDED);
+const ADD_INDEX = new Map(ADD_ORDER.map((id, i) => [id, i]));
+const seq = m => (ADD_INDEX.has(m.id) ? ADD_INDEX.get(m.id) : ADD_ORDER.length);
+
+// Label, and how to order the filtered list. A null comparator leaves it in file
+// order, which is category by category.
+const SORTS = {
+  old: ["Added \u2014 new at the bottom", (a, b) => seq(a) - seq(b)],
+  new: ["Added \u2014 newest first", (a, b) => seq(b) - seq(a)],
+  cat: ["Grouped by category", null],
+  az: ["A\u2013Z by name", (a, b) => a.name.localeCompare(b.name)]
+};
 
 /* ---------- drawn swatches (used where no free photo exists) ---------- */
 
@@ -161,6 +177,7 @@ const countEl = document.getElementById("count");
 const searchEl = document.getElementById("search");
 
 let activeCat = "all";
+let activeSort = "old";
 
 function render() {
   const q = searchEl.value.trim().toLowerCase();
@@ -169,6 +186,8 @@ function render() {
     if (!q) return true;
     return (m.name + " " + m.sub + " " + m.hook + " " + m.uses).toLowerCase().includes(q);
   });
+  const cmp = SORTS[activeSort][1];
+  if (cmp) list.sort(cmp);
   grid.innerHTML = list.length
     ? list.map(cardFor).join("")
     : `<p class="empty">Nothing matches that. Try "ceramic", "heat" or "wheel".</p>`;
@@ -192,6 +211,43 @@ filterBar.addEventListener("click", e => {
 });
 
 searchEl.addEventListener("input", render);
+
+const sortEl = document.getElementById("sort");
+sortEl.innerHTML = Object.entries(SORTS)
+  .map(([k, [label]]) => `<option value="${k}">${esc(label)}</option>`).join("");
+
+let savedSort = null;
+try { savedSort = localStorage.getItem("materials-sort"); } catch (_) {}
+if (savedSort && SORTS[savedSort]) activeSort = savedSort;
+sortEl.value = activeSort;
+
+sortEl.addEventListener("change", () => {
+  activeSort = SORTS[sortEl.value] ? sortEl.value : "old";
+  try { localStorage.setItem("materials-sort", activeSort); } catch (_) {}
+  render();
+  scrollTo({ top: 0, behavior: "smooth" });
+});
+
+/* ---------- jump to the top or the bottom ---------- */
+
+const topBtn = document.getElementById("to-top");
+const endBtn = document.getElementById("to-end");
+
+topBtn.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
+endBtn.addEventListener("click", () =>
+  scrollTo({ top: document.body.scrollHeight, behavior: "smooth" }));
+
+// Grey out whichever end you are already at, and hide the pair on a short page.
+function jumpState() {
+  const y = scrollY;
+  const max = document.body.scrollHeight - innerHeight;
+  document.querySelector(".jump").hidden = max < 400;
+  topBtn.disabled = y < 200;
+  endBtn.disabled = y > max - 200;
+}
+
+addEventListener("scroll", jumpState, { passive: true });
+addEventListener("resize", jumpState);
 
 /* ---------- lightbox ---------- */
 
@@ -235,3 +291,4 @@ themeBtn.addEventListener("click", () => {
 });
 
 render();
+jumpState();
