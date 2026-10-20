@@ -23,9 +23,18 @@ credits.js     generated: image filenames, photographers, licences, source links
 added.js       generated: when each entry joined, in add order — the default sort
 images/        486 images, 900 px wide
 tools/
-  images.txt       id | Commons filename | caption | kind
-  fetch_images.py  downloads the images and regenerates credits.js
-  added.py         rebuilds added.js from the git history of data.js
+  images.txt         id | Commons filename | caption | kind
+  fetch_images.py    downloads the images and regenerates credits.js
+  added.py           rebuilds added.js from the git history of data.js
+  add_cards.py       inserts new cards from a JSON file into data.js and images.txt
+  search.py          Commons search for candidate photographs
+  describe.py        descriptions, sizes and licences of candidate files
+  peek.py            downloads candidates somewhere scratch, to be looked at first
+  readme_numbers.py  rewrites every count in README.md and index.html from the data
+  check.js           structural check of data.js against credits.js and images/
+  render.js          renders the whole grid in a DOM stub, no browser needed
+  searchlog.md       what was searched for and not found, and why
+.claude/skills/add-materials/   the whole routine, written down
 ```
 
 ## Categories
@@ -137,9 +146,13 @@ swatch: { pattern: "brushed", colors: ["#434a52", "#98a3ad", "#2b3137"] }
 Patterns available: `gloss`, `brushed`, `fiber`, `ribbon`, `laminate`, `grain`, `powder`,
 `speckle`, `weave`, `honeycomb`. The three colours are mid, highlight and shadow.
 
-Finding candidate images is the slow part. `tools/` has no search helper committed; the method
-that works is a Commons `generator=search` query in the File namespace, filtered to bitmaps
-wider than 640 px, then picking by eye from the top few results.
+Finding candidate images is the slow part, and most of `tools/` exists for it:
+`search.py` queries the File namespace and filters to bitmaps of at least 640x400,
+`describe.py` prints the description and licence of a shortlist, and `peek.py` downloads
+candidates somewhere scratch so they can be looked at before anything is committed. Looking is
+not optional — descriptions mislead, and `tools/searchlog.md` records the ones that did, along
+with every candidate that was searched for and had no honest photograph. Read that file before
+starting a round, so the same dead ends are not walked twice.
 
 ## Images and licensing
 
