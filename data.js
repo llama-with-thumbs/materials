@@ -2650,6 +2650,86 @@ window.MATERIALS = [
   uses: "Hotel, theatre and ship carpet, stair runners, patterned domestic carpet.",
   link: "https://en.wikipedia.org/wiki/Carpet"
 },
+{
+  id: "fulledwool", cat: "fabric", name: "Fulled wool",
+  sub: "cloth shrunk on purpose until it felts", img: "fulledwool",
+  hook: "Weave it loose, then beat it in hot soapy water until the scales on every fibre lock into their neighbours and the whole cloth shrinks by a quarter or a third. The weave disappears into a dense matted surface that sheds rain, holds a layer of still air, and — the part tailors care about — can be cut and left raw, because there is no longer anything in it to unravel. Loden, melton, billiard cloth and boiled wool are all the same trick at different severities. The cost is weight: a fulled coat is warm because it is heavy, not in spite of it.",
+  stats: [["Shrinks", "a quarter to a third in the fulling"], ["Cut edge", "does not fray, so no hem"], ["Weatherproofing", "mechanical — no coating involved"]],
+  uses: "Loden coats and capes, melton jackets and uniform cloth, billiard cloth, blankets, boiled-wool slippers.",
+  link: "https://en.wikipedia.org/wiki/Fulling"
+},
+{
+  id: "waxcotton", cat: "fabric", name: "Waxed cotton",
+  sub: "tight cotton loaded with paraffin", img: "waxcotton",
+  hook: "Densely woven cotton with wax pushed into every gap between the yarns, so water cannot wick through but the cloth is not sealed into a plastic bag either. It started as linseed oil on sailcloth, which worked and then went yellow and brittle, and paraffin blends fixed that in the 1930s. The useful oddity is that it repairs itself: a scratch or a crease is closed by rubbing it warm with a thumb, and the whole garment is re-waxed every year or two rather than replaced. In exchange it is heavy, stiff in the cold, smells faintly of petrol and marks everything it touches.",
+  stats: [["Wax", "fills the weave, it is not a film"], ["Maintenance", "re-waxed yearly, not replaced"], ["Repairs", "by rubbing the crease warm"]],
+  uses: "Field and motorcycle jackets, bags and tool rolls, shooting coats, historically sails and covers.",
+  link: "https://en.wikipedia.org/wiki/Waxed_cotton"
+},
+{
+  id: "crepe", cat: "fabric", name: "Crêpe",
+  sub: "yarn twisted until the cloth crinkles", img: "crepe",
+  hook: "The pucker in crêpe is stored energy. The yarn is given several times the twist it needs — thousands of turns per metre — and yarns twisted clockwise are alternated with yarns twisted the other way; when the finished cloth is wetted, every yarn tries to untwist at once and shoves the fabric into a fine random crinkle that cancels out across the piece instead of skewing it. The result is matte rather than shiny, hides creases because it is already crumpled, drapes like liquid, and gives slightly in every direction with no elastic fibre in it at all.",
+  stats: [["Twist", "thousands of turns per metre"], ["Balance", "S-twist and Z-twist yarns alternated"], ["Gives", "stretch and a matte face, with no elastane"]],
+  uses: "Dresses and blouses, georgette and chiffon, mourning crêpe, crêpe bandage.",
+  link: "https://en.wikipedia.org/wiki/Cr%C3%AApe_(textile)"
+},
+{
+  id: "knitmesh", cat: "fabric", name: "Knitted wire mesh",
+  sub: "one continuous wire, looped not woven", img: "knitmesh",
+  hook: "Knit a wire instead of weaving it and the loops can move: the mesh stretches, springs back and swallows vibration where a woven cloth would simply tear. It is made from a single continuous wire, so a pad can be unravelled back to the wire it came from, and it is knitted loose then compressed to whatever density the job wants. In a column it is a demister — gas blows through, droplets hit wire, coalesce and run back down — and compressed harder it becomes an exhaust hanger, a shielding gasket or a spring that cannot rust through in one place and fail.",
+  stats: [["Made from", "one continuous wire, knitted"], ["Loops", "stretch and spring back"], ["Density", "set by how hard the pad is pressed"]],
+  uses: "Demister and coalescer pads, exhaust and vibration mounts, EMI gaskets, filters and flame arrestors.",
+  link: "https://en.wikipedia.org/wiki/Mesh"
+},
+{
+  id: "barkcloth", cat: "fabric", name: "Barkcloth (tapa)",
+  sub: "inner bark beaten into a sheet", img: "barkcloth",
+  hook: "Cloth made with no spinning and no loom: the inner bark of paper mulberry is stripped, soaked and then beaten with a wooden mallet until the fibres spread sideways and felt into each other, growing wider with every blow. Narrow strips are joined by beating them together wet or pasting them, so a single sheet can end up the size of a room without a seam in the usual sense. It is the oldest non-woven there is, it goes brittle as it dries and soft again when it is damp, and across the Pacific it is still made for the occasions that matter.",
+  stats: [["Made without", "yarn, loom or needle"], ["Joined", "by beating strips together, not sewing"], ["Dry", "brittle — revives when damp"]],
+  uses: "Fijian gatu, Tongan ngatu and Hawaiian kapa, ceremonial dress, gifts and wall hangings.",
+  link: "https://en.wikipedia.org/wiki/Barkcloth"
+},
+{
+  id: "flock", cat: "fabric", name: "Flocked fabric",
+  sub: "short fibres stood on end by a field", img: "flock",
+  hook: "Chopped fibres a fraction of a millimetre long are poured through a high-voltage field, which charges each one, stands it on end and fires it into a layer of wet adhesive. What sets afterwards is a velvet pile with no weaving anywhere in it — and because every fibre is anchored upright, the surface behaves like a forest of ends: soft, matte, grippy, and quiet enough that car makers use it to stop trim rattling. It wears out by losing fibres rather than by going threadbare, and it is the cheapest way to make a surface that feels expensive.",
+  stats: [["Fibres", "0.3–3 mm, stood upright by the field"], ["Pile", "without a loom or a knitting machine"], ["Wears by", "shedding fibres, not thinning"]],
+  uses: "Flocked wallpaper and packaging inserts, car glove boxes and window channels, jewellery trays, display boards.",
+  link: "https://en.wikipedia.org/wiki/Flocking_(texture)"
+},
+{
+  id: "aluminised", cat: "fabric", name: "Aluminised fabric",
+  sub: "glass or aramid under a vapour-deposited mirror", img: "aluminised",
+  hook: "Close to a fire most of the heat arrives as radiation, and radiation can be turned away rather than resisted — which is why a proximity suit is shiny instead of thick. A film of aluminium vaporised onto glass or aramid cloth sends back the great majority of what lands on it, so the fabric underneath never gets the energy in the first place. The catch is that a mirror has to stay a mirror: soot, scratches and a coating worn off at the elbows all turn reflection into absorption, and none of it helps against heat arriving by contact, which is what the layers underneath are for.",
+  stats: [["Reflects", "around 90 percent of radiant heat"], ["Works only", "while clean and unscratched"], ["No help against", "conducted heat — hence the layers under it"]],
+  uses: "Fire proximity and furnace entry suits, foundry aprons and gloves, fire shelters, pipe and engine lagging.",
+  link: "https://en.wikipedia.org/wiki/Fire_proximity_suit"
+},
+{
+  id: "ikat", cat: "fabric", name: "Ikat",
+  sub: "the pattern dyed into the yarn before weaving", img: "ikat",
+  hook: "In almost every patterned cloth the design is put on after the fabric exists. In ikat it exists before: bundles of yarn are bound tight wherever the dye is to be kept out, dyed, unbound, re-bound and dyed again, and only then wound onto the loom, so the picture assembles itself as the weaving goes along. Nothing lines up perfectly, and the soft feathered edge that results is how you recognise it. Double ikat, where warp and weft are both resist-dyed and have to meet, is as close to arrogance as weaving gets — a patola from Gujarat can take months before a single pick is thrown.",
+  stats: [["Dyed", "as yarn, bound where the dye must not reach"], ["Signature", "soft feathered edges, never sharp"], ["Double ikat", "warp and weft dyed to meet each other"]],
+  uses: "Patola trade cloth, Indonesian and Central Asian textiles, Japanese kasuri, furnishing fabric.",
+  link: "https://en.wikipedia.org/wiki/Ikat"
+},
+{
+  id: "pvctarp", cat: "fabric", name: "Coated tarpaulin",
+  sub: "open polyester scrim under PVC", img: "pvctarp",
+  hook: "A truck curtain is two materials with one job each. The strength is an open polyester scrim, woven loose with big gaps; the weather is a PVC coating laid over both faces and through those gaps, which takes the rain, the ultraviolet and the abrasion. Because the surface is thermoplastic the panels are welded rather than sewn — no stitch holes, and the seam is as strong as the sheet. It is sold by weight per square metre, and it dies the day the coating cracks, because from then on the scrim wicks water along every yarn.",
+  stats: [["Scrim", "takes the load, coating takes the weather"], ["Weight", "about 500–900 g/m² for truck curtains"], ["Joined", "by welding, never sewing"]],
+  uses: "Truck curtains and lorry sheets, marquees and tents, tensile roofs, boat and machine covers.",
+  link: "https://en.wikipedia.org/wiki/Tarpaulin"
+},
+{
+  id: "pleat", cat: "fabric", name: "Permanent pleating",
+  sub: "setting the cloth instead of pressing it", img: "pleat",
+  hook: "A pressed crease is only the cloth being squashed, and the first shower takes it out. A permanent one is a change in the fibre. In wool, the Siroset process of 1957 uses a reducing agent to break the disulphide bonds that hold keratin in shape and lets them re-form with the fabric folded, so the pleat is now what the fibre thinks it should be. In polyester nothing chemical is needed at all: heat the folded cloth past the temperature where its molecules can move, let it cool, and the shape is set until something hotter comes along — which is why a pleated skirt and a hot iron are a bad combination.",
+  stats: [["Wool", "disulphide bonds broken, re-formed folded"], ["Polyester", "heat-set above its glass transition"], ["Undone by", "more heat than it was set with"]],
+  uses: "Pleated skirts and trousers, uniform creases, kilts, heat-pleated polyester garments.",
+  link: "https://en.wikipedia.org/wiki/Wrinkle-resistant_fabric"
+},
 
 /* ---------- ACTIVE & EXOTIC ---------- */
 {
@@ -3704,6 +3784,102 @@ window.MATERIALS = [
   stats: [["Silicon", "about 3 percent, grains aligned"], ["Strain", "a few parts per million, per cycle"], ["Hums at", "twice the line frequency, 100 or 120 Hz"]],
   uses: "Power and audio transformer cores, large motor laminations, inductors and chokes.",
   link: "https://en.wikipedia.org/wiki/Electrical_steel"
+},
+{
+  id: "hammerfelt", cat: "music", name: "Piano hammer felt",
+  sub: "graded wool, pressed on under tons", img: "hammerfelt",
+  hook: "One continuous sheet of wool felt per piano, pressed around the wooden hammer cores under enormous force so that it ends up hard and dense at the core and progressively softer at the surface. That gradient is the tone. A soft outer layer spreads the blow over a longer contact and kills the upper partials; a hard core gives the energy straight back and makes the note bright. So a technician changes a piano by changing the felt and nothing else — stabbing it with needles to loosen it, or painting lacquer into it to harden it, note by note across eighty-eight.",
+  stats: [["Built", "soft at the surface, hard at the core"], ["Voiced", "with needles or lacquer, note by note"], ["Contact", "a couple of milliseconds per blow"]],
+  uses: "Grand and upright piano hammers, damper felts, action bushings and punchings.",
+  link: "https://en.wikipedia.org/wiki/Action_(piano)"
+},
+{
+  id: "ribbonmic", cat: "music", name: "Microphone ribbon",
+  sub: "corrugated aluminium, about 2 µm thick", img: "ribbonmic",
+  hook: "A strip of aluminium ten times thinner than kitchen foil, corrugated so it can breathe like a concertina and hung slack in a magnet gap: the entire transducer is one piece of metal with no diaphragm, no coil and no electronics behind it. Hanging it loose puts its resonance below everything it has to record, which is why a ribbon sounds even and unhurried where a tensioned diaphragm has a peak somewhere. It is also a fuse. Phantom power down a miswired cable, a kick drum at close range or a walk across a windy car park will stretch or tear it, and a stretched ribbon never comes back.",
+  stats: [["Thickness", "about 2 µm, a few mm wide"], ["Resonance", "below the band it records"], ["Killed by", "a gust, a kick drum or a wiring fault"]],
+  uses: "Studio ribbon microphones for brass, guitar amplifiers and drum overheads; broadcast classics.",
+  link: "https://en.wikipedia.org/wiki/Ribbon_microphone"
+},
+{
+  id: "drumhead", cat: "music", name: "Drumhead film",
+  sub: "biaxially drawn polyester, one ply or two", img: "drumhead",
+  hook: "Until 1957 a drum head was calfskin, which went slack in damp weather and tight in dry, so tuning was something you did between numbers rather than between tours. Polyester film replaced it with a membrane that does not care what the room is doing, and once the material was reliable the makers started shaping the sound with it: two plies with a film of oil between them to damp the ring, a sprayed coating to give brushes something to catch, a ring of film round the edge to kill the overtones. The head is the sound source; the shell only colours what it does.",
+  stats: [["Film", "about 180–250 µm for a single ply"], ["Two-ply", "oil between the plies, for damping"], ["Unlike skin", "indifferent to humidity"]],
+  uses: "Drum kits and marching drums, timpani heads, practice pads, frame drums.",
+  link: "https://en.wikipedia.org/wiki/Drumhead"
+},
+{
+  id: "accordionreed", cat: "music", name: "Free reed plate",
+  sub: "a blued steel tongue over an aluminium plate", img: "accordionreed",
+  hook: "A clarinet reed beats against something; a free reed swings through a slot cut to its own shape with a few hundredths of a millimetre of clearance all round, touching nothing. Because of that, the pitch belongs to the steel tongue alone — the body of the accordion or the harmonica adds almost no resonance, and the same reed sounds the same note in any box you screw it into. Tuning is done by filing: metal off the tip to go flat, off the root to go sharp. And the musette shimmer is deliberate mistuning, two reeds a few cents apart beating against each other.",
+  stats: [["Clearance", "a few hundredths of a millimetre"], ["Tuned", "by filing: tip flat, root sharp"], ["Musette", "pairs detuned on purpose, to beat"]],
+  uses: "Accordions and concertinas, harmonicas, harmoniums and reed organs, pitch pipes.",
+  link: "https://en.wikipedia.org/wiki/Free_reed_aerophone"
+},
+{
+  id: "nickelsilver", cat: "music", name: "Nickel silver",
+  sub: "copper, nickel and zinc, with no silver in it", img: "nickelsilver",
+  hook: "A brass with ten to twenty percent nickel in it, which turns it white, stiffens it, hardens it and makes it shrug off the mild acid in human breath. None of it is silver. For instrument makers that combination is unbeatable in small parts: key posts that keep a thread, a trombone slide straight and hard enough to run for years without wearing oval, fretwire that survives a decade of bending strings. Flute bodies are usually nickel silver with a few microns of actual silver on the outside, and the tarnish you polish off is the plating, not the alloy.",
+  stats: [["Nickel", "10–20 percent, rest copper and zinc"], ["Harder", "and stiffer than yellow brass"], ["The white", "is the alloy itself, not plating"]],
+  uses: "Flute and clarinet keywork, trombone slides, brass trim and braces, fretwire, cutlery, coinage.",
+  link: "https://en.wikipedia.org/wiki/Nickel_silver"
+},
+{
+  id: "vibebars", cat: "music", name: "Vibraphone aluminium",
+  sub: "alloy bars, undercut and tuned", img: "vibebars",
+  hook: "Swap rosewood for aluminium alloy and the damping almost disappears: a struck bar rings for many seconds instead of dying away, which is lovely once and intolerable in a melody. So the instrument is built around getting rid of the sound it is so good at making — a pedal-operated bar of felt presses every note at once, and the famous wobble comes from motor-driven discs spinning in the mouths of the resonator tubes, opening and closing them a few times a second. The bars themselves are arched out underneath in the same way as wooden ones, to bring the first overtone into tune.",
+  stats: [["Rings", "for seconds — hence the damper bar"], ["Undercut", "to tune the overtone, as in wood"], ["Wobble", "discs spinning in the resonator mouths"]],
+  uses: "Vibraphones, glockenspiels and chime bars, tuned percussion.",
+  link: "https://en.wikipedia.org/wiki/Vibraphone"
+},
+{
+  id: "lacquermaster", cat: "music", name: "Lacquer master disc",
+  sub: "nitrocellulose flowed onto polished aluminium", img: "lacquermaster",
+  hook: "Every pressed record starts on one of these: a polished aluminium disc flow-coated with nitrocellulose lacquer, soft enough for a heated sapphire to cut a clean groove and hard enough to keep it. It is a consumable with a clock running — the lacquer keeps hardening and shrinking from the moment it is cut, so it has to be silvered and plated within days or the sound changes under it. It is also genuinely flammable, and made by a handful of people in the world: when one of the two remaining factories burned down in 2020 the entire record industry stopped for months.",
+  stats: [["Coating", "nitrocellulose on polished aluminium"], ["Shelf life", "days — it must be plated quickly"], ["Supply", "two factories, one of which burned down"]],
+  uses: "Mastering for vinyl, reference acetates, dub plates for sound systems.",
+  link: "https://en.wikipedia.org/wiki/Acetate_disc"
+},
+{
+  id: "cabinetmdf", cat: "music", name: "Cabinet MDF",
+  sub: "wood fibre and resin, chosen for being dead", img: "cabinetmdf",
+  hook: "A loudspeaker box wants to be heavy, stiff and silent, and solid wood is unreliable at all three: it is stiffer along the grain than across it, it moves with the weather, and it rings where it feels like ringing. Fibreboard has no grain, no knots and a great deal of internal friction, so its panels resonate more weakly and, more usefully, predictably — a designer can brace for a resonance that will actually be there. It machines to a clean edge for veneer, it is cheap, and in exchange it is heavy to lift, it blunts tooling, and if it ever gets wet it swells and never comes back.",
+  stats: [["Density", "about 700–800 kg/m³, no grain"], ["Damping", "higher than plywood, stiffness lower"], ["Ruined by", "water — it swells and stays swollen"]],
+  uses: "Loudspeaker cabinets, studio furniture and desks, flat-pack furniture, shop fitting, templates.",
+  link: "https://en.wikipedia.org/wiki/Medium-density_fibreboard"
+},
+{
+  id: "pickupwire", cat: "music", name: "Pickup magnet wire",
+  sub: "42 AWG copper under a few microns of enamel", img: "pickupwire",
+  hook: "A guitar pickup is five to eight thousand turns of copper thinner than a human hair, insulated by an enamel coat a couple of micrometres thick, wound round magnets until the coil has enough inductance to be heard. Everything about the sound follows from that number: more turns means louder and darker, because the coil and the cable form a filter that walks the resonant peak down out of the treble. The wire is fragile enough that a single nick ends the coil, and the whole thing has to be soaked in wax afterwards, or the windings move in sympathy with the loudspeaker and the amplifier starts to squeal.",
+  stats: [["Wire", "42 AWG, about 63 µm bare"], ["Turns", "five to eight thousand"], ["Potted in wax", "or the coil squeals"]],
+  uses: "Guitar and bass pickups, transformers and relays, small motors and solenoids.",
+  link: "https://en.wikipedia.org/wiki/Magnet_wire"
+},
+{
+  id: "woodpipe", cat: "music", name: "Organ pipe wood",
+  sub: "quartersawn pine and oak, square in section", img: "woodpipe",
+  hook: "Half of a large organ is wooden pipes, and they are square because boards are square: four planks and two blocks make a pipe that would otherwise have to be rolled and soldered out of soft metal. Wood gives a rounder, breathier tone than tin alloy, and in the bass it is the only sane choice — a 32-foot metal pipe would cost a fortune and sag under its own weight. The wood has to be quiet and stable above all else: a board that cups or twists moves the mouth out of line and the pipe stops speaking, which is why the stock is quartersawn and seasoned for years before it is cut.",
+  stats: [["Section", "square — boards, not rolled sheet"], ["Bass ranks", "almost always wood, not metal"], ["Fails by", "warping, which puts a pipe out of speech"]],
+  uses: "Organ flue stops and pedal ranks, stopped diapasons, wooden flutes and recorders.",
+  link: "https://en.wikipedia.org/wiki/Organ_pipe"
+},
+{
+  id: "valvepiston", cat: "music", name: "Valve piston alloy",
+  sub: "monel or nickel silver, fitted to microns", img: "valvepiston",
+  hook: "A trumpet piston has to slide inside its casing on a film of oil with a gap small enough that air does not leak past, and then do it a few hundred thousand times a year in a stream of warm, slightly acidic breath. Monel — nickel with a third copper — is the standard answer because it is hard, dimensionally stable and essentially indifferent to that corrosion, where brass pits and eventually seizes. Everything depends on the fit: the clearance is a few micrometres, so a dent in the outside of the casing is not cosmetic damage, it is the end of the valve.",
+  stats: [["Clearance", "a few micrometres, sealed by oil"], ["Monel", "about two-thirds nickel, a third copper"], ["Killed by", "one dent in the casing"]],
+  uses: "Trumpet, cornet, euphonium and tuba pistons; rotary valve cores; instrument repair.",
+  link: "https://en.wikipedia.org/wiki/Monel"
+},
+{
+  id: "saxpad", cat: "music", name: "Woodwind pad",
+  sub: "leather over felt, bedded in shellac", img: "saxpad",
+  hook: "Every tone hole has to be shut by something soft enough to mould itself to a rim that is never perfectly flat, and consistent enough to return to exactly the same place for years. A pad is a felt disc faced with thin kid or fish skin, glued into the key cup with shellac which is melted again to float the pad into alignment — that floating is the last and finest adjustment of any overhaul. The metal resonator in the middle sends a little sound back up the tube instead of into the leather. A leak the width of a hair and the lowest notes simply stop.",
+  stats: [["Built from", "a felt disc faced with kid or fish skin"], ["Bedded", "in shellac, melted to align it"], ["A hair-wide leak", "kills the bottom of the range"]],
+  uses: "Saxophone, clarinet, flute and bassoon pads; overhauls and repadding.",
+  link: "https://en.wikipedia.org/wiki/Key_(instrument)"
 }
 
 ];

@@ -1292,7 +1292,7 @@ window.CREDITS = {
     "caption": "An ultrapure niobium bead",
     "kind": "photo",
     "title": "Ultrapure niobium bead, slightly oxidized.jpg",
-    "artist": "Hi-Res Images of\nChemical Elements",
+    "artist": "Hi-Res Images of\n\nChemical Elements",
     "license": "CC BY 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Ultrapure_niobium_bead,_slightly_oxidized.jpg"
   },
@@ -4058,5 +4058,203 @@ window.CREDITS = {
     "artist": "Zureks",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Grain-oriented_electrical_steel_(grains).jpg"
+  },
+  "fulledwool": {
+    "file": "fulledwool.jpg",
+    "caption": "A dark grey loden cape, with a pocket hunting horn laid on it",
+    "kind": "photo",
+    "title": "Jagdhorn auf Loden 1.jpg",
+    "artist": "Frank Behnsen",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jagdhorn_auf_Loden_1.jpg"
+  },
+  "waxcotton": {
+    "file": "waxcotton.jpg",
+    "caption": "Water beading on waxed canvas",
+    "kind": "photo",
+    "title": "Martexin Waxed Canvas Water Resistance.jpg",
+    "artist": "David kss7",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Martexin_Waxed_Canvas_Water_Resistance.jpg"
+  },
+  "crepe": {
+    "file": "crepe.jpg",
+    "caption": "Chirimen, a finely crinkled cotton crêpe",
+    "kind": "photo",
+    "title": "Chirimen gaufré.JPG",
+    "artist": "Naooan",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chirimen_gaufr%C3%A9.JPG"
+  },
+  "knitmesh": {
+    "file": "knitmesh.jpg",
+    "caption": "A used demister pad in alloy 20 mesh, from sulphuric acid production",
+    "kind": "photo",
+    "title": "OldMeshDemisterAcidProduction.jpg",
+    "artist": "PennyBrowns23651",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:OldMeshDemisterAcidProduction.jpg"
+  },
+  "barkcloth": {
+    "file": "barkcloth.jpg",
+    "caption": "Tapa from Domara Village in Papua New Guinea, beaten from inner bark",
+    "kind": "photo",
+    "title": "PNG Turtle Tapa Cloth QM r.jpg",
+    "artist": "Queensland Museum",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PNG_Turtle_Tapa_Cloth_QM_r.jpg"
+  },
+  "flock": {
+    "file": "flock.jpg",
+    "caption": "Cotton with a golden-yellow flock print, close enough to see the pile",
+    "kind": "photo",
+    "title": "Flock-foil golden-yellow.jpg",
+    "artist": "Stefan Nagy",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flock-foil_golden-yellow.jpg"
+  },
+  "aluminised": {
+    "file": "aluminised.jpg",
+    "caption": "Detail of a fire proximity suit in the Czech Republic",
+    "kind": "product",
+    "title": "Fire proximity suit detail.jpg",
+    "artist": "Michal Maňas",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Fire_proximity_suit_detail.jpg"
+  },
+  "ikat": {
+    "file": "ikat.jpg",
+    "caption": "An antique double ikat patolu woven in Patan, Gujarat, for the Indonesian market",
+    "kind": "photo",
+    "title": "Antique Patan Patola Double Ikat Trade Textile courtesy Wovensouls Collection, Singapore.jpg",
+    "artist": "Jainamishra",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antique_Patan_Patola_Double_Ikat_Trade_Textile_courtesy_Wovensouls_Collection,_Singapore.jpg"
+  },
+  "pvctarp": {
+    "file": "pvctarp.jpg",
+    "caption": "A loose tarpaulin over an old truck",
+    "kind": "product",
+    "title": "Old truck with a loose tarpaulin. Vibrant colors (51170247859).jpg",
+    "artist": "Ivan Radic",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_truck_with_a_loose_tarpaulin._Vibrant_colors_(51170247859).jpg"
+  },
+  "pleat": {
+    "file": "pleat.jpg",
+    "caption": "Two wool skirts, the right one pleated by the Siroset process and the left one not",
+    "kind": "product",
+    "title": "CSIRO ScienceImage 2162 Skirt with Siroset and Skirt Without Siroset.jpg",
+    "artist": "division, CSIRO",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2162_Skirt_with_Siroset_and_Skirt_Without_Siroset.jpg"
+  },
+  "hammerfelt": {
+    "file": "hammerfelt.jpg",
+    "caption": "Piano hammers in their rest position under the strings",
+    "kind": "photo",
+    "title": "Piano hammer 2101-0006.jpg",
+    "artist": "Mozzihh",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Piano_hammer_2101-0006.jpg"
+  },
+  "ribbonmic": {
+    "file": "ribbonmic.jpg",
+    "caption": "A Royer R-122, with the ribbon hidden behind its grille",
+    "kind": "product",
+    "title": "Royer R-122 Active Ribbon Microphone (clip).jpg",
+    "artist": "Alex Regan",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Royer_R-122_Active_Ribbon_Microphone_(clip).jpg"
+  },
+  "drumhead": {
+    "file": "drumhead.png",
+    "caption": "A coated drumhead fitted to a tom",
+    "kind": "photo",
+    "title": "Drumhead Coated on Tom Drum 01.png",
+    "artist": "Edrocked",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Drumhead_Coated_on_Tom_Drum_01.png"
+  },
+  "accordionreed": {
+    "file": "accordionreed.jpg",
+    "caption": "A bass reed plate from a DIX accordion",
+    "kind": "photo",
+    "title": "Stimmplatte.jpg",
+    "artist": "Johann Pascher;",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stimmplatte.jpg"
+  },
+  "nickelsilver": {
+    "file": "nickelsilver.jpg",
+    "caption": "A simple-system flute of nickel silver, France, about 1900",
+    "kind": "product",
+    "title": "Flute (AM 1998.60.225-3).jpg",
+    "artist": "Rudall Carte & Co",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flute_(AM_1998.60.225-3).jpg"
+  },
+  "vibebars": {
+    "file": "vibebars.jpg",
+    "caption": "The underside of a vibraphone bar, showing the arch cut into it",
+    "kind": "photo",
+    "title": "Vibraphone bar.jpg",
+    "artist": "Why? I Ask",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vibraphone_bar.jpg"
+  },
+  "lacquermaster": {
+    "file": "lacquermaster.jpg",
+    "caption": "A Neumann VMS-70 lathe, where the lacquer is cut",
+    "kind": "process",
+    "title": "Reference acetates by Neumann VMS-70 Cutting Lathe, SAE Mastering, Phoenix, AZ.jpg",
+    "artist": "VACANT  FEVER",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Reference_acetates_by_Neumann_VMS-70_Cutting_Lathe,_SAE_Mastering,_Phoenix,_AZ.jpg"
+  },
+  "cabinetmdf": {
+    "file": "cabinetmdf.jpg",
+    "caption": "Samples of medium-density fibreboard, cut to show the core",
+    "kind": "photo",
+    "title": "MDF Sample.jpg",
+    "artist": "Vaderluck at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MDF_Sample.jpg"
+  },
+  "pickupwire": {
+    "file": "pickupwire.jpg",
+    "caption": "A single-coil guitar pickup, freshly rewound",
+    "kind": "product",
+    "title": "Electric Guitar Single Coil Pickup (New Winding) (3511734489).jpg",
+    "artist": "Roadside Guitars",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Electric_Guitar_Single_Coil_Pickup_(New_Winding)_(3511734489).jpg"
+  },
+  "woodpipe": {
+    "file": "woodpipe.jpg",
+    "caption": "Large wooden pipes in the organ at Hereford Cathedral",
+    "kind": "photo",
+    "title": "Large wooden organ pipes, Hereford Cathedral - geograph.org.uk - 2701066.jpg",
+    "artist": "Julian P Guffogg",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Large_wooden_organ_pipes,_Hereford_Cathedral_-_geograph.org.uk_-_2701066.jpg"
+  },
+  "valvepiston": {
+    "file": "valvepiston.jpg",
+    "caption": "The first piston valve of a Yamaha trumpet, out of its casing",
+    "kind": "photo",
+    "title": "Trompette - premier piston - perspective.JPG",
+    "artist": "Eusebius",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Trompette_-_premier_piston_-_perspective.JPG"
+  },
+  "saxpad": {
+    "file": "saxpad.jpg",
+    "caption": "Rolled tone holes on a 1938 alto saxophone, with resonator pads in the key cups",
+    "kind": "photo",
+    "title": "AltoSaxRolledToneHoles.JPG",
+    "artist": "Nabokov (talk) at en.wikipedia. \n\nRequired citation is \"Photo by Tom Oates, 2012\".",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AltoSaxRolledToneHoles.JPG"
   }
 };

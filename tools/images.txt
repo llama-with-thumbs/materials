@@ -449,3 +449,25 @@ recordvinyl|Vinyl groove macro.jpg|Record grooves under a macro lens, the modula
 woodwool|Holzfaserbeton groß.jpg|The surface of a wood-wool cement board|photo
 drumshell|Solid Shell Maple, Matte Black Laquer with Maple Inlay.jpg|A solid maple drum shell with a maple inlay|photo
 goss|Grain-oriented electrical steel (grains).jpg|Uncoated grain-oriented electrical steel, the aligned grains visible across 6 cm|photo
+fulledwool|Jagdhorn auf Loden 1.jpg|A dark grey loden cape, with a pocket hunting horn laid on it|photo
+waxcotton|Martexin Waxed Canvas Water Resistance.jpg|Water beading on waxed canvas|photo
+crepe|Chirimen gaufré.JPG|Chirimen, a finely crinkled cotton crêpe|photo
+knitmesh|OldMeshDemisterAcidProduction.jpg|A used demister pad in alloy 20 mesh, from sulphuric acid production|photo
+barkcloth|PNG Turtle Tapa Cloth QM r.jpg|Tapa from Domara Village in Papua New Guinea, beaten from inner bark|photo
+flock|Flock-foil golden-yellow.jpg|Cotton with a golden-yellow flock print, close enough to see the pile|photo
+aluminised|Fire proximity suit detail.jpg|Detail of a fire proximity suit in the Czech Republic|product
+ikat|Antique Patan Patola Double Ikat Trade Textile courtesy Wovensouls Collection, Singapore.jpg|An antique double ikat patolu woven in Patan, Gujarat, for the Indonesian market|photo
+pvctarp|Old truck with a loose tarpaulin. Vibrant colors (51170247859).jpg|A loose tarpaulin over an old truck|product
+pleat|CSIRO ScienceImage 2162 Skirt with Siroset and Skirt Without Siroset.jpg|Two wool skirts, the right one pleated by the Siroset process and the left one not|product
+hammerfelt|Piano hammer 2101-0006.jpg|Piano hammers in their rest position under the strings|photo
+ribbonmic|Royer R-122 Active Ribbon Microphone (clip).jpg|A Royer R-122, with the ribbon hidden behind its grille|product
+drumhead|Drumhead Coated on Tom Drum 01.png|A coated drumhead fitted to a tom|photo
+accordionreed|Stimmplatte.jpg|A bass reed plate from a DIX accordion|photo
+nickelsilver|Flute (AM 1998.60.225-3).jpg|A simple-system flute of nickel silver, France, about 1900|product
+vibebars|Vibraphone bar.jpg|The underside of a vibraphone bar, showing the arch cut into it|photo
+lacquermaster|Reference acetates by Neumann VMS-70 Cutting Lathe, SAE Mastering, Phoenix, AZ.jpg|A Neumann VMS-70 lathe, where the lacquer is cut|process
+cabinetmdf|MDF Sample.jpg|Samples of medium-density fibreboard, cut to show the core|photo
+pickupwire|Electric Guitar Single Coil Pickup (New Winding) (3511734489).jpg|A single-coil guitar pickup, freshly rewound|product
+woodpipe|Large wooden organ pipes, Hereford Cathedral - geograph.org.uk - 2701066.jpg|Large wooden pipes in the organ at Hereford Cathedral|photo
+valvepiston|Trompette - premier piston - perspective.JPG|The first piston valve of a Yamaha trumpet, out of its casing|photo
+saxpad|AltoSaxRolledToneHoles.JPG|Rolled tone holes on a 1938 alto saxophone, with resonator pads in the key cups|photo
