@@ -474,5 +474,18 @@ window.ADDED = {
   pickupwire: "2026-10-20",
   woodpipe: "2026-10-20",
   valvepiston: "2026-10-20",
-  saxpad: "2026-10-20"
+  saxpad: "2026-10-20",
+  moldedcab: "2026-10-20",
+  grillesteel: "2026-10-20",
+  surround: "2026-10-20",
+  roadcase: "2026-10-20",
+  tolex: "2026-10-20",
+  grillecloth: "2026-10-20",
+  woundstring: "2026-10-20",
+  pick: "2026-10-20",
+  gaffer: "2026-10-20",
+  drumstick: "2026-10-20",
+  truss: "2026-10-20",
+  miccable: "2026-10-20",
+  gel: "2026-10-20"
 };

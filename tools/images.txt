@@ -471,3 +471,16 @@ pickupwire|Electric Guitar Single Coil Pickup (New Winding) (3511734489).jpg|A s
 woodpipe|Large wooden organ pipes, Hereford Cathedral - geograph.org.uk - 2701066.jpg|Large wooden pipes in the organ at Hereford Cathedral|photo
 valvepiston|Trompette - premier piston - perspective.JPG|The first piston valve of a Yamaha trumpet, out of its casing|photo
 saxpad|AltoSaxRolledToneHoles.JPG|Rolled tone holes on a 1938 alto saxophone, with resonator pads in the key cups|photo
+moldedcab|Behringer Eurolive B212D Loudspeaker.jpg|A Behringer Eurolive B212D, a moulded powered PA top|product
+grillesteel|Loudspeaker grille.jpg|A round perforated grille, dished to stiffen it|product
+surround|Midrange loudspeaker of JBL TI 5000 loudspeaker box, 130 mm diameter.jpg|The 130 mm midrange of a JBL TI 5000, with its surround rolled around the rim|photo
+roadcase|Road-case-removable-lid-vol-case.jpg|A road case with a removable lid, laminate over plywood in aluminium edging|product
+tolex|1977 Rhodes Mark I Suitcase Piano 73-key (serial no. K610578) - tolex wear spot 1 (2005-01-29 10.00.30 by Daniel Spils).jpg|A worn-through patch of tolex on a 1977 Rhodes suitcase piano|photo
+grillecloth|Fender Twin Reverb Blonde.jpg|The gold grille cloth of a 1965 Fender Twin Reverb|product
+woundstring|Guitar string manufacturing at Cleartone Strings.jpg|A worker at a string winding machine, finished strings in hand|process
+pick|26 Assorted Guitar Picks.jpg|Twenty-six assorted plectra, in several plastics and gauges|product
+gaffer|Gaffer Tape, Black, White and Gray.jpg|Shelves of gaffer tape in a film expendables shop|product
+drumstick|2006-07-05 sticks.jpg|A matched pair of drumsticks, lacquered black|product
+truss|Traverse (Truss).JPG|Loaded lighting trusses under a marquee roof, chords and diagonals in view|product
+miccable|Microphone cable structure.jpg|A microphone cable opened up: two insulated cores and the screen twisted into a tail|photo
+gel|Many color gels.jpg|Lighting gels, loose sheets and some taped into frames|product

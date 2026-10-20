@@ -3880,6 +3880,110 @@ window.MATERIALS = [
   stats: [["Built from", "a felt disc faced with kid or fish skin"], ["Bedded", "in shellac, melted to align it"], ["A hair-wide leak", "kills the bottom of the range"]],
   uses: "Saxophone, clarinet, flute and bassoon pads; overhauls and repadding.",
   link: "https://en.wikipedia.org/wiki/Key_(instrument)"
+},
+{
+  id: "moldedcab", cat: "music", name: "Moulded speaker enclosure",
+  sub: "glass-filled ABS or polypropylene, one shot", img: "moldedcab",
+  hook: "A powered PA top of the QSC K or Behringer Eurolive sort is one injection moulding, a few millimetres of glass-filled ABS or polypropylene copolymer with a lattice of ribs on the inside. Nothing about it is flat: the curve of the wall, the flare of the horn, the handle, the pole socket and the slanted face that lets the box double as a floor monitor all come out of the same steel tool, and the stiffness comes from that geometry rather than from mass. A twelve-inch box lands near fifteen kilos where plywood would be twenty-five, and the plastic damps itself better than wood does — but the tool costs six figures, so the shape is frozen for the life of the model, and an unribbed panel will still sing along with the woofer.",
+  stats: [["Wall", "a few mm, ribbed from inside"], ["Resin", "glass-filled ABS or polypropylene"], ["One tool", "box, horn, handles and pole cup"]],
+  uses: "Powered PA tops and floor monitors, column arrays, portable subwoofers, DJ speakers.",
+  link: "https://en.wikipedia.org/wiki/Loudspeaker_enclosure"
+},
+{
+  id: "grillesteel", cat: "music", name: "Perforated grille steel",
+  sub: "punched sheet, powder-coated black", img: "grillesteel",
+  hook: "A millimetre of cold-rolled steel punched with round holes on a sixty-degree stagger, which leaves a third to a half of the area open. Sound does not notice holes much smaller than its wavelength, so acoustically the grille is nearly absent while mechanically it stops a microphone stand going through the cone. Punching costs most of the panel stiffness, so grilles are dished, rolled at the lip or backed with a frame, and the black is powder coat baked on because paint chips off an edge that gets kicked. Behind it there is usually a layer of reticulated foam or cloth, to hide the driver rather than to do anything to the sound.",
+  stats: [["Open area", "roughly 30–45 percent"], ["Sheet", "about 1–1.6 mm steel"], ["Shaped", "dished or rolled, to get stiffness back"]],
+  uses: "Loudspeaker and monitor grilles, amplifier cages, microphone baskets, equipment racks.",
+  link: "https://en.wikipedia.org/wiki/Perforated_metal"
+},
+{
+  id: "surround", cat: "music", name: "Driver surround",
+  sub: "a rolled rubber or foam edge seal", img: "surround",
+  hook: "The ring that joins the cone to the basket has to do two incompatible things: seal the front of the driver from the back absolutely, and offer almost no resistance over several millimetres of travel. The answer is a half-roll of moulded nitrile or SBR rubber, or of foamed polyurethane, which unrolls rather than stretches. It also damps the ragged resonance that otherwise runs round the rim of the cone. Foam is lighter and deader, which is why it was everywhere in the eighties, and it hydrolyses: a ten to twenty year old foam surround crumbles to dust at a touch, and refoaming dead woofers is a small industry.",
+  stats: [["Travel", "a few mm, with no added stiffness"], ["Materials", "nitrile or SBR rubber, PU foam, cloth"], ["Foam rot", "crumbles after 10–20 years"]],
+  uses: "Every cone loudspeaker, from earbuds to touring subwoofers.",
+  link: "https://en.wikipedia.org/wiki/Loudspeaker"
+},
+{
+  id: "roadcase", cat: "music", name: "Road case panel",
+  sub: "birch plywood under textured laminate", img: "roadcase",
+  hook: "A flight case is a sandwich doing three jobs in three materials. Six to twelve millimetres of birch plywood take the bending, a textured ABS or PVC laminate glued to both faces takes the scuffing and the wet, and an aluminium extrusion captures every edge so the ply never meets the loading dock. Ball corners spread the drop, recessed latches and handles survive being stacked on, and the inside is cut polyether or polyethylene foam. The whole thing is riveted rather than screwed, because rivets do not back out with a thousand miles of vibration under them.",
+  stats: [["Core", "6–12 mm birch plywood"], ["Faces", "textured ABS or PVC laminate"], ["Edges", "aluminium extrusion, riveted"]],
+  uses: "Touring racks and amplifier cases, instrument and console cases, lighting and camera transport.",
+  link: "https://en.wikipedia.org/wiki/Road_case"
+},
+{
+  id: "tolex", cat: "music", name: "Tolex",
+  sub: "grained vinyl on a cloth backing", img: "tolex",
+  hook: "The covering on a guitar amplifier is a sheet of PVC on a woven backing, embossed with a grain — levant, bronco, elephant — and contact-cemented over the plywood with the corners folded like a parcel. It is there because it is cheap, because it wipes clean, and because it hides every joint and every screw head in a box that was built in an afternoon. It is also the part that shows the miles: the vinyl is thinnest where it was stretched round a corner, so the wear starts at the corners and the handles, and a well-played amplifier ends up with the backing cloth showing through.",
+  stats: [["Build", "PVC skin on woven backing"], ["Fitted", "contact cement, corners folded"], ["Wears", "at corners first, where it stretched"]],
+  uses: "Guitar and bass amplifier cabinets, keyboard and speaker cabinets, case coverings.",
+  link: "https://en.wikipedia.org/wiki/Tolex"
+},
+{
+  id: "grillecloth", cat: "music", name: "Grille cloth",
+  sub: "open-woven cotton, rayon or metallised yarn", img: "grillecloth",
+  hook: "A loudspeaker grille cloth has one acoustic requirement — that air can pass through it without noticing — and one visual one, that the driver behind it cannot be seen. Those pull in opposite directions, which is why the classics are loose weaves of cotton or rayon in dark colours, often with a metallic thread for sparkle: salt and pepper, wheat, oxford, gold. It has to be stretched taut and kept that way, because a slack cloth flutters against the baffle and buzzes on bass notes. Smoke and dust fill the weave over the years, and a clogged cloth is a cloth that resists airflow.",
+  stats: [["Needs", "low airflow resistance, high opacity"], ["Stretched", "taut, or it buzzes"], ["Clogs", "with smoke and dust"]],
+  uses: "Amplifier and hi-fi speaker grilles, organ and radio fronts, acoustic panel facings.",
+  link: "https://en.wikipedia.org/wiki/Guitar_amplifier"
+},
+{
+  id: "woundstring", cat: "music", name: "Wound string",
+  sub: "a hexagonal steel core under a spun wrap", img: "woundstring",
+  hook: "A thick plain wire at pitch is stiff, and a stiff string sounds sharp in its upper partials and hurts to bend. So a bass string is built: a hexagonal high-carbon steel core carries all the tension, and a round wrap wire is spun over it to add mass without adding stiffness. The hexagon matters — its corners bite into the wrap so the winding cannot creep along the core when the string is bent or cut. The wrap alloy is the voice: phosphor bronze for acoustic warmth, nickel-plated steel for output under a magnetic pickup, pure nickel for something softer, flattened ribbon for players who want no finger noise.",
+  stats: [["Core", "hexagonal, carries all the tension"], ["Wrap", "phosphor bronze, nickel, or flat ribbon"], ["Why wound", "mass without stiffness"]],
+  uses: "Guitar, bass and piano strings, harp and orchestral bass strings.",
+  link: "https://en.wikipedia.org/wiki/String_(music)"
+},
+{
+  id: "pick", cat: "music", name: "Plectrum",
+  sub: "celluloid, acetal, nylon or Ultem", img: "pick",
+  hook: "The thing that actually excites the string is a sliver of plastic, and which plastic is audible. Celluloid, the old tortoiseshell imitation, is bright and a bit clicky and wears away visibly in a few gigs. Acetal is slick and rounder. Nylon grips damp fingers and flexes, so it softens the attack. Ultem and the glass-filled stiff plastics barely flex at all and sound loud and sharp. Thickness does the rest: half a millimetre bends away from the string and spreads the transient, a millimetre and a half transfers it whole. The edge finish matters as much as the material, which is why players sand them.",
+  stats: [["Materials", "celluloid, acetal, nylon, Ultem"], ["Gauge", "0.4 mm flexes, 1.5 mm does not"], ["Also voiced", "by the bevel on the edge"]],
+  uses: "Guitar, bass, mandolin and banjo picks; harpsichord jacks; plucked zithers.",
+  link: "https://en.wikipedia.org/wiki/Guitar_pick"
+},
+{
+  id: "gaffer", cat: "music", name: "Gaffer tape",
+  sub: "matte cloth scrim, synthetic rubber adhesive", img: "gaffer",
+  hook: "A cotton or polyester scrim coated matte black and backed with a synthetic rubber adhesive, built around three stage requirements. It tears straight by hand in both directions, so one hand can work; it does not reflect a spotlight, because anything shiny on a floor becomes a highlight; and it comes up without the baked-on film that duct tape leaves, because the adhesive is chosen to release rather than to hold forever. The price of all that is that it is not waterproof — duct tape has a polyethylene skin and gaffer tape does not — and that it costs several times as much per roll.",
+  stats: [["Carrier", "matte cloth scrim, not plastic film"], ["Tears", "straight, both ways, by hand"], ["Releases", "without the duct-tape residue"]],
+  uses: "Taping down cables and setlists, marking stage positions, film and theatre rigging, repairs.",
+  link: "https://en.wikipedia.org/wiki/Gaffer_tape"
+},
+{
+  id: "drumstick", cat: "music", name: "Drumstick hickory",
+  sub: "dense interlocked hardwood, matched in pairs", img: "drumstick",
+  hook: "Hickory is the default because its interlocked grain soaks up shock instead of passing it into the wrist, and it breaks by splintering slowly rather than snapping. Maple is lighter for the same diameter, so it moves faster and dies sooner; oak is denser and lasts longest but hands the player every rimshot back. Good sticks are sold in pairs matched by weight and by the pitch they ring at when rolled on a bench, because two unmatched sticks sound like two different drummers. The tip — round, barrel, acorn, teardrop — picks out how much of a cymbal gets excited, and a nylon tip brightens it and survives longer.",
+  stats: [["Wood", "hickory standard; maple light, oak hard"], ["Paired", "by weight and ringing pitch"], ["Tip", "shape sets the cymbal tone"]],
+  uses: "Drum kit and orchestral sticks, mallets and rutes, marching percussion.",
+  link: "https://en.wikipedia.org/wiki/Drum_stick"
+},
+{
+  id: "truss", cat: "music", name: "Stage truss",
+  sub: "welded aluminium lattice, 6082 or 6061", img: "truss",
+  hook: "The grid over a stage is aluminium tube welded into a lattice: fifty-millimetre chords with twenty-millimetre diagonals, in alloy chosen for strength per kilogram and for not rusting in a damp loading bay. Welding softens the alloy locally, so the design either counts on the weaker heat-affected metal or the whole truss is heat-treated afterwards. Aluminium has a third of steel's stiffness, which means that a span is almost always limited by how far it sags, not by how much it could carry, and the published load tables are specific to the spigot system, the span and an evenly spread load. Hang a motor in the wrong place and the numbers mean nothing.",
+  stats: [["Alloy", "6082-T6 or 6061-T6 aluminium"], ["Governed by", "deflection, not strength"], ["Welds", "soften the alloy where they land"]],
+  uses: "Lighting and PA rigging, stage roofs, line-array hangs, exhibition stands.",
+  link: "https://en.wikipedia.org/wiki/Truss"
+},
+{
+  id: "miccable", cat: "music", name: "Microphone cable",
+  sub: "twisted pair inside a braided screen", img: "miccable",
+  hook: "Two insulated conductors twisted tightly together, wrapped in a braid or spiral of bare copper, padded out with cotton or paper so the bundle stays round, and jacketed in flexible PVC or rubber. The twist is the whole trick: both conductors pick up the same interference, and a balanced input subtracts one from the other and throws the interference away with it. Star-quad goes further, using four conductors in opposing pairs to shrink the loop that a magnetic field can push on. The screen handles electric fields rather than magnetic ones, and a cheap foil screen that cracks when coiled is the usual reason a cable starts crackling.",
+  stats: [["Rejection", "from twisting, not from the screen"], ["Star quad", "four cores, opposing pairs"], ["Fails", "at the flex points and the solder joints"]],
+  uses: "Microphone and line runs, stage snakes and multicores, patch leads.",
+  link: "https://en.wikipedia.org/wiki/Balanced_audio"
+},
+{
+  id: "gel", cat: "music", name: "Lighting gel",
+  sub: "deep-dyed polyester filter film", img: "gel",
+  hook: "Stage colour comes from a film of polyester dyed all the way through, a tenth of a millimetre thick, dropped into a frame in front of a lamp. It works entirely by subtraction: a saturated blue passes a few percent of the light and absorbs the rest as heat, in itself, a few centimetres from a kilowatt. That is why gel is a consumable — it fades towards the colour it was blocking, then wrinkles, then bakes through in the middle. Deep colours in hot lanterns get polycarbonate instead of polyester, and dichroic glass does the same job by reflecting what it does not pass, so it lasts, at many times the price.",
+  stats: [["Film", "polyester, roughly 0.05–0.25 mm"], ["Works by", "absorbing the rest as heat"], ["Consumable", "it fades, wrinkles, then burns through"]],
+  uses: "Stage and studio lanterns, colour washes, correction and diffusion filters.",
+  link: "https://en.wikipedia.org/wiki/Color_gel"
 }
 
 ];

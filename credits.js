@@ -4256,5 +4256,122 @@ window.CREDITS = {
     "artist": "Nabokov (talk) at en.wikipedia. \n\nRequired citation is \"Photo by Tom Oates, 2012\".",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:AltoSaxRolledToneHoles.JPG"
+  },
+  "moldedcab": {
+    "file": "moldedcab.jpg",
+    "caption": "A Behringer Eurolive B212D, a moulded powered PA top",
+    "kind": "product",
+    "title": "Behringer Eurolive B212D Loudspeaker.jpg",
+    "artist": "TaurusEmerald",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Behringer_Eurolive_B212D_Loudspeaker.jpg"
+  },
+  "grillesteel": {
+    "file": "grillesteel.jpg",
+    "caption": "A round perforated grille, dished to stiffen it",
+    "kind": "product",
+    "title": "Loudspeaker grille.jpg",
+    "artist": "Angie from Sawara, Chiba-ken, Japan",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Loudspeaker_grille.jpg"
+  },
+  "surround": {
+    "file": "surround.jpg",
+    "caption": "The 130 mm midrange of a JBL TI 5000, with its surround rolled around the rim",
+    "kind": "photo",
+    "title": "Midrange loudspeaker of JBL TI 5000 loudspeaker box, 130 mm diameter.jpg",
+    "artist": "Pittigrilli",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Midrange_loudspeaker_of_JBL_TI_5000_loudspeaker_box,_130_mm_diameter.jpg"
+  },
+  "roadcase": {
+    "file": "roadcase.jpg",
+    "caption": "A road case with a removable lid, laminate over plywood in aluminium edging",
+    "kind": "product",
+    "title": "Road-case-removable-lid-vol-case.jpg",
+    "artist": "VCCmatt",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Road-case-removable-lid-vol-case.jpg"
+  },
+  "tolex": {
+    "file": "tolex.jpg",
+    "caption": "A worn-through patch of tolex on a 1977 Rhodes suitcase piano",
+    "kind": "photo",
+    "title": "1977 Rhodes Mark I Suitcase Piano 73-key (serial no. K610578) - tolex wear spot 1 (2005-01-29 10.00.30 by Daniel Spils).jpg",
+    "artist": "Daniel Spils from Seattle, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1977_Rhodes_Mark_I_Suitcase_Piano_73-key_(serial_no._K610578)_-_tolex_wear_spot_1_(2005-01-29_10.00.30_by_Daniel_Spils).jpg"
+  },
+  "grillecloth": {
+    "file": "grillecloth.jpg",
+    "caption": "The gold grille cloth of a 1965 Fender Twin Reverb",
+    "kind": "product",
+    "title": "Fender Twin Reverb Blonde.jpg",
+    "artist": "Paulus 2",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fender_Twin_Reverb_Blonde.jpg"
+  },
+  "woundstring": {
+    "file": "woundstring.jpg",
+    "caption": "A worker at a string winding machine, finished strings in hand",
+    "kind": "process",
+    "title": "Guitar string manufacturing at Cleartone Strings.jpg",
+    "artist": "ScottS1998",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Guitar_string_manufacturing_at_Cleartone_Strings.jpg"
+  },
+  "pick": {
+    "file": "pick.jpg",
+    "caption": "Twenty-six assorted plectra, in several plastics and gauges",
+    "kind": "product",
+    "title": "26 Assorted Guitar Picks.jpg",
+    "artist": "Urban Versis 32",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:26_Assorted_Guitar_Picks.jpg"
+  },
+  "gaffer": {
+    "file": "gaffer.jpg",
+    "caption": "Shelves of gaffer tape in a film expendables shop",
+    "kind": "product",
+    "title": "Gaffer Tape, Black, White and Gray.jpg",
+    "artist": "Robert.Harker",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gaffer_Tape,_Black,_White_and_Gray.jpg"
+  },
+  "drumstick": {
+    "file": "drumstick.jpg",
+    "caption": "A matched pair of drumsticks, lacquered black",
+    "kind": "product",
+    "title": "2006-07-05 sticks.jpg",
+    "artist": "Stephan Czuratis (Jazz-face)",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:2006-07-05_sticks.jpg"
+  },
+  "truss": {
+    "file": "truss.jpg",
+    "caption": "Loaded lighting trusses under a marquee roof, chords and diagonals in view",
+    "kind": "product",
+    "title": "Traverse (Truss).JPG",
+    "artist": "Gleiten 10:49, 17. Sep. 2012 (CEST)",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Traverse_(Truss).JPG"
+  },
+  "miccable": {
+    "file": "miccable.jpg",
+    "caption": "A microphone cable opened up: two insulated cores and the screen twisted into a tail",
+    "kind": "photo",
+    "title": "Microphone cable structure.jpg",
+    "artist": "Kreuzschnabel",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Microphone_cable_structure.jpg"
+  },
+  "gel": {
+    "file": "gel.jpg",
+    "caption": "Lighting gels, loose sheets and some taped into frames",
+    "kind": "product",
+    "title": "Many color gels.jpg",
+    "artist": "User:KeepOnTruckin",
+    "license": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:Many_color_gels.jpg"
   }
 };
