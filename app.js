@@ -155,6 +155,7 @@ function cardFor(mat) {
     ? `<a href="${esc(c.page)}" target="_blank" rel="noopener">${kind ? esc(c.kind) : "photo"}: Wikimedia (${esc(c.license)})</a>`
     : `<span>illustration</span>`;
   const more = mat.link ? `<a href="${esc(mat.link)}" target="_blank" rel="noopener">read more</a>` : "";
+  const src = mat.src ? `<a href="${esc(mat.src[1])}" target="_blank" rel="noopener">${esc(mat.src[0])}</a>` : "";
   return `<article class="card" data-cat="${mat.cat}" data-id="${mat.id}">
     <button class="shot" data-shot="${mat.id}" title="Enlarge">
       ${shotFor(mat)}
@@ -167,7 +168,7 @@ function cardFor(mat) {
       <p class="hook">${esc(mat.hook)}</p>
       <div class="stats">${stats}</div>
       <p class="uses"><b>Where you meet it:</b> ${esc(mat.uses)}</p>
-      <p class="meta">${source}${more}</p>
+      <p class="meta">${source}<span class="links">${src}${more}</span></p>
     </div>
   </article>`;
 }

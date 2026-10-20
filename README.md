@@ -115,9 +115,17 @@ Append an entry to `data.js`:
   hook: "Why it is interesting — the one thing it does that nothing else does.",
   stats: [["Property", "value"], ["Property", "value"]],
   uses: "Where you meet it.",
-  link: "https://en.wikipedia.org/wiki/..."
+  link: "https://en.wikipedia.org/wiki/...",
+  src: ["Who says so", "https://..."]
 }
 ```
+
+`link` is the encyclopaedia entry; `src` is the second opinion — a maker's datasheet, a trade
+body, a teaching page, a standards or conservation reference. Anything but Wikipedia, because one
+source is not a source. Check it actually loads before committing it: manufacturers move pages
+constantly, and a few answer 403 to a script while opening fine in a browser.
+
+All 59 polymer and elastomer cards carry one. The other categories do not yet.
 
 For a picture, add a line to `tools/images.txt` as `id|Commons File name.jpg|caption|kind` and run:
 

@@ -81,3 +81,21 @@ Rounds so far, so the next one can start somewhere else. Details are in git.
 | 2026-10-20 | Twelve woven materials (fibre and fabric); twenty-four more for Sound & music over two rounds |
 | 2026-10-20 | Ten fabrics: finishes and yarn-less cloths |
 | 2026-10-20 | Thirteen stage and PA materials: the gear side of Sound & music |
+
+## Sources (the `src` field)
+
+Every polymer and elastomer card got a second source on 2026-10-20, away from Wikipedia. What
+holds up, after checking all 59 over HTTP:
+
+| Family | Pattern | Behaviour |
+|---|---|---|
+| Boedeker | `boedeker.com/Family/<Name>` | engineering plastics with real property tables; answers scripts; old `*_p.htm` URLs redirect |
+| Macrogalleria | `pslc.ws/macrog/<x>.htm` | commodity polymers, teaching tone; slugs are short and unguessable (`isoprene`, `styrene`, `copoly`, `ionomer`, `cell`) — probe before trusting |
+| ERIKS | `o-ring.info/en/materials/<x>/` | elastomer seal compounds; index at `/en/materials/` lists the nine that exist (no IIR, no BR) |
+| Makers | varies | best source, worst stability: DuPont's brands moved to `dupont.com/<brand>.html` and the electronics ones to `qnityelectronics.com` |
+
+Blocked or dead, don't retry: MatWeb, Curbell, Omnexus/SpecialChem, Parker, Dow, Chemours,
+ExxonMobil, Celanese, Daicel, ScienceDirect and CAMEO all answer 403 to a script.
+polymerdatabase.com is parked. essentialchemicalindustry.org would not resolve at all.
+ACS pages (landmarks, Molecule of the Week) return 200 with an empty JS shell, so the content
+cannot be verified from a script — Science History Institute was used instead.

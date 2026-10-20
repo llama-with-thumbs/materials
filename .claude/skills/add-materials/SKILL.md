@@ -78,6 +78,12 @@ duplicate ids, duplicate photographs, bad stats and unknown categories.
 - `uses` — one sentence of real places you meet it.
 - `link` — an English Wikipedia URL. **Verify it**: titles redirect and go missing. Batch the
   check through the MediaWiki API rather than curling each one (bulk curl gets 429s).
+- `src` — `["Who says so", "https://..."]`, a second source that is **not** Wikipedia: a maker's
+  datasheet, a trade body, a teaching page, a conservation or standards reference. Fetch it before
+  committing it. Families that hold up and answer scripts politely: `boedeker.com/Family/<Name>`
+  for engineering plastics, `pslc.ws/macrog/<x>.htm` (Macrogalleria) for the commodity polymers,
+  `o-ring.info/en/materials/<x>/` (ERIKS) for elastomers, and the maker's own page where it loads.
+  Corporate sites 404 and 403 constantly — budget for it.
 
 ## Validate before committing
 

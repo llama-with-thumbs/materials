@@ -9,7 +9,8 @@ window.MATERIALS = [
   hook: "A cast polyurethane built on naphthalene diisocyanate instead of the usual MDI or TDI. It carries enormous load with very little hysteresis, so it does not cook itself from the inside while rolling.",
   stats: [["Hardness", "~65–95 Shore A"], ["Rebound", "up to ~65%"], ["Trick", "low heat build-up"]],
   uses: "Forklift and AGV wheels, heavy press pads, die cushions.",
-  link: "https://en.wikipedia.org/wiki/Polyurethane"
+  link: "https://en.wikipedia.org/wiki/Polyurethane",
+  src: ["Covestro", "https://solutions.covestro.com/en/brands/vulkollan"]
 },
 {
   id: "sorbothane", cat: "polymer", name: "Sorbothane",
@@ -18,7 +19,8 @@ window.MATERIALS = [
   swatch: { pattern: "gloss", colors: ["#2b2430", "#6a5878", "#17131c"] },
   hook: "Behaves like a solid at rest and like a liquid on impact timescales. Rubber stores energy and hands it back; Sorbothane turns it into heat instead.",
   stats: [["Durometer", "30–70"], ["Shock absorbed", "~90%+"], ["Rebound", "deliberately terrible"]],
-  uses: "Microscope and turntable feet, machine isolation, insoles, speaker mounts."
+  uses: "Microscope and turntable feet, machine isolation, insoles, speaker mounts.",
+  src: ["Sorbothane, Inc.", "https://www.sorbothane.com/"]
 },
 {
   id: "d3o", cat: "polymer", name: "D3O",
@@ -26,7 +28,8 @@ window.MATERIALS = [
   hook: "Soft, floppy putty you can fold into a glove — until it is struck, when the molecules lock up for a few milliseconds and spread the hit across the pad.",
   stats: [["Behaviour", "rate-dependent"], ["Lock-up", "milliseconds"], ["At rest", "stays soft"]],
   uses: "Motorcycle and ski armour, military knee pads, phone cases.",
-  link: "https://en.wikipedia.org/wiki/D3O"
+  link: "https://en.wikipedia.org/wiki/D3O",
+  src: ["D3O", "https://www.d3o.com/technology/"]
 },
 {
   id: "uhmwpe", cat: "polymer", name: "UHMWPE / Dyneema",
@@ -34,7 +37,8 @@ window.MATERIALS = [
   hook: "Polyethylene with chains so long they can be drawn into near-perfect alignment. Pound for pound it beats steel wire, and it floats.",
   stats: [["Fibre tensile", "~3–3.6 GPa"], ["Density", "0.97 g/cm³"], ["Melting", "~135 °C"]],
   uses: "Winch and mooring line, soft body armour, hip liners, cut-resistant gloves.",
-  link: "https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene"
+  link: "https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene",
+  src: ["Dyneema", "https://www.dyneema.com/"]
 },
 {
   id: "peek", cat: "polymer", name: "PEEK",
@@ -42,7 +46,8 @@ window.MATERIALS = [
   hook: "The semicrystalline thermoplastic that goes where engineers expect to need metal: steam, solvents, radiation and 250 °C, while still being injection-mouldable.",
   stats: [["Continuous use", "~250 °C"], ["Melt point", "343 °C"], ["Tensile", "~100 MPa"]],
   uses: "Pump wear rings, spinal cages, aerospace brackets, semiconductor handling.",
-  link: "https://en.wikipedia.org/wiki/Polyether_ether_ketone"
+  link: "https://en.wikipedia.org/wiki/Polyether_ether_ketone",
+  src: ["Boedeker: PEEK grades", "https://www.boedeker.com/Family/Peek"]
 },
 {
   id: "vespel", cat: "polymer", name: "Vespel",
@@ -50,7 +55,8 @@ window.MATERIALS = [
   hook: "A polymer that never melts. It is sintered from powder, machined like metal, and runs dry in vacuum from cryogenic temperatures up to 300 °C.",
   stats: [["Continuous", "300 °C"], ["Excursion", "~480 °C"], ["Melting point", "none — it chars"]],
   uses: "Jet engine seals, vacuum bushings, cryogenic bearings, semiconductor fixtures.",
-  link: "https://en.wikipedia.org/wiki/Vespel"
+  link: "https://en.wikipedia.org/wiki/Vespel",
+  src: ["DuPont Vespel", "https://www.dupont.com/vespel.html"]
 },
 {
   id: "torlon", cat: "polymer", name: "Torlon",
@@ -60,7 +66,8 @@ window.MATERIALS = [
   hook: "About the highest compressive strength of any unfilled thermoplastic — and it keeps getting tougher through a post-cure that takes days in an oven.",
   stats: [["Glass transition", "~275 °C"], ["Compressive", "~220+ MPa"], ["Post-cure", "measured in days"]],
   uses: "Valve seats, thrust washers, compressor vanes, downhole tooling.",
-  link: "https://en.wikipedia.org/wiki/Polyamide-imide"
+  link: "https://en.wikipedia.org/wiki/Polyamide-imide",
+  src: ["Boedeker: Torlon", "https://www.boedeker.com/Family/Torlon"]
 },
 {
   id: "ffkm", cat: "polymer", name: "FFKM",
@@ -68,7 +75,8 @@ window.MATERIALS = [
   hook: "A rubber with a fully fluorinated backbone. It shrugs off nearly every chemical on the shelf and stays elastic above 300 °C, and is priced per O-ring like jewellery.",
   stats: [["Service", "to ~327 °C"], ["Media resisted", "~1800+"], ["Cost", "$$$ per seal"]],
   uses: "Semiconductor plasma chambers, chemical reactors, aerospace fuel systems.",
-  link: "https://en.wikipedia.org/wiki/Perfluoroelastomer"
+  link: "https://en.wikipedia.org/wiki/Perfluoroelastomer",
+  src: ["Kalrez", "https://www.qnityelectronics.com/kalrez.html"]
 },
 {
   id: "zylon", cat: "polymer", name: "Zylon (PBO)",
@@ -78,7 +86,8 @@ window.MATERIALS = [
   hook: "Stronger and stiffer than aramid, and the cautionary tale of the field: it quietly loses strength to heat and humidity, which turned into a body-armour recall.",
   stats: [["Tensile", "~5.8 GPa"], ["Modulus", "~270 GPa"], ["Weakness", "hydrolysis + UV"]],
   uses: "F1 cockpit anti-intrusion panels, tethers, formerly ballistic vests.",
-  link: "https://en.wikipedia.org/wiki/Zylon"
+  link: "https://en.wikipedia.org/wiki/Zylon",
+  src: ["Toyobo", "https://en.toyobo-mc.jp/products/zylon/"]
 },
 {
   id: "lignostone", cat: "polymer", name: "Densified wood laminate",
@@ -87,7 +96,8 @@ window.MATERIALS = [
   swatch: { pattern: "laminate", colors: ["#50351d", "#a3733f", "#2f2012"] },
   hook: "Beech veneer soaked in resin and compressed until it is denser than water. It still beats modern plastics on creep at cryogenic temperature, so it never went away.",
   stats: [["Density", "~1.3 g/cm³"], ["Niche", "cryogenic + HV"], ["Age", "a century old"]],
-  uses: "LNG tank supports, transformer spacers and clamping, cryostat structures."
+  uses: "LNG tank supports, transformer spacers and clamping, cryostat structures.",
+  src: ["Röchling", "https://www.roechling.com/industrial/materials/composites"]
 },
 {
   id: "ptfe", cat: "polymer", name: "PTFE",
@@ -95,7 +105,8 @@ window.MATERIALS = [
   hook: "A fluorine sheath wrapped so tightly around the carbon chain that nothing can get a grip on it — the lowest friction of any solid, and almost nothing sticks. The price is creep: load it and it slowly flows.",
   stats: [["Friction coefficient", "~0.04"], ["Service", "−200 to 260 °C"], ["Flaw", "cold flow under load"]],
   uses: "Seals and gaskets, thread tape, chemical lining, low-friction pads, cookware.",
-  link: "https://en.wikipedia.org/wiki/Polytetrafluoroethylene"
+  link: "https://en.wikipedia.org/wiki/Polytetrafluoroethylene",
+  src: ["Boedeker: PTFE grades", "https://www.boedeker.com/Family/Ptfe"]
 },
 {
   id: "eptfe", cat: "polymer", name: "Expanded PTFE",
@@ -103,7 +114,8 @@ window.MATERIALS = [
   hook: "PTFE yanked apart fast enough to tear into a web of nodes and fibrils. The holes are far too small for a water droplet and far too large for a water-vapour molecule, so it breathes one way only.",
   stats: [["Pores", "~10⁹ per cm²"], ["Blocks", "liquid water"], ["Passes", "water vapour"]],
   uses: "Waterproof-breathable laminates, vascular grafts, vent plugs, filter media, sealing tape.",
-  link: "https://en.wikipedia.org/wiki/Gore-Tex"
+  link: "https://en.wikipedia.org/wiki/Gore-Tex",
+  src: ["Gore", "https://www.gore.com/categories/fabrics"]
 },
 {
   id: "aramid", cat: "polymer", name: "Aramid (Kevlar)",
@@ -111,7 +123,8 @@ window.MATERIALS = [
   hook: "Rigid rod-like molecules spun from liquid crystal so they emerge already aligned, then hydrogen-bonded into sheets. Enormous in tension and famously poor in compression — it is a rope material, not a strut material.",
   stats: [["Tensile", "~3.6 GPa"], ["vs. steel by weight", "~5×"], ["In compression", "weak"]],
   uses: "Ballistic vests, cut-resistant gloves, ropes and cables, tyre belts, friction materials.",
-  link: "https://en.wikipedia.org/wiki/Aramid"
+  link: "https://en.wikipedia.org/wiki/Aramid",
+  src: ["Macrogalleria: aramids", "https://pslc.ws/macrog/aramid.htm"]
 },
 {
   id: "fkm", cat: "polymer", name: "FKM (Viton)",
@@ -119,7 +132,8 @@ window.MATERIALS = [
   hook: "The workhorse below FFKM: most of the chemical and heat resistance at a fraction of the price. It is the default O-ring anywhere fuel, oil or vacuum is involved.",
   stats: [["Service", "−20 to ~230 °C"], ["Resists", "fuels, oils, vacuum"], ["Avoid", "ketones, amines, steam"]],
   uses: "Fuel system seals, vacuum feedthroughs, engine gaskets, chemical pump seals.",
-  link: "https://en.wikipedia.org/wiki/FKM"
+  link: "https://en.wikipedia.org/wiki/FKM",
+  src: ["ERIKS: FKM", "https://o-ring.info/en/materials/vitonr--fkm/"]
 },
 {
   id: "silicone", cat: "polymer", name: "Silicone rubber",
@@ -127,7 +141,8 @@ window.MATERIALS = [
   hook: "Its backbone is silicon and oxygen rather than carbon, which is why it stays rubbery at −60 °C and still rubbery at 230 °C. It is also strikingly permeable to gas — a flaw that became the basis of blood oxygenators.",
   stats: [["Service", "−60 to 230 °C"], ["Gas permeability", "very high"], ["Strength", "modest"]],
   uses: "Seals and gaskets, medical tubing and implants, bakeware, keypads, encapsulants.",
-  link: "https://en.wikipedia.org/wiki/Silicone_rubber"
+  link: "https://en.wikipedia.org/wiki/Silicone_rubber",
+  src: ["ERIKS: VMQ", "https://o-ring.info/en/materials/silicone-vmq/"]
 },
 {
   id: "natrubber", cat: "polymer", name: "Natural rubber",
@@ -135,7 +150,8 @@ window.MATERIALS = [
   hook: "Still unbeaten after a century of synthetics. Stretch it and the chains crystallise, reinforcing the material exactly where a crack would start — so it resists tearing and fatigue better than anything made in a reactor.",
   stats: [["Elongation", "to ~700%"], ["Fatigue", "best in class"], ["Trick", "strain crystallisation"]],
   uses: "Aircraft and truck tyres, seismic base isolators, engine mounts, gloves.",
-  link: "https://en.wikipedia.org/wiki/Natural_rubber"
+  link: "https://en.wikipedia.org/wiki/Natural_rubber",
+  src: ["Macrogalleria: polyisoprene", "https://pslc.ws/macrog/isoprene.htm"]
 },
 {
   id: "butyl", cat: "polymer", name: "Butyl rubber",
@@ -143,7 +159,8 @@ window.MATERIALS = [
   hook: "Its chains pack so densely that gas molecules can barely thread through. It is also unusually lossy, so a butyl part damps vibration while it holds pressure.",
   stats: [["Gas permeability", "~10× lower than NR"], ["Damping", "high"], ["Rebound", "low"]],
   uses: "Tyre inner liners and tubes, glovebox gloves, pharmaceutical stoppers, vibration mounts.",
-  link: "https://en.wikipedia.org/wiki/Butyl_rubber"
+  link: "https://en.wikipedia.org/wiki/Butyl_rubber",
+  src: ["HEXPOL: IIR", "https://www.hexpol.com/rubber/hexpol-rubber-compounding/advanced-rubber-compounds/polymers/iir-rubber-2/"]
 },
 {
   id: "pvdf", cat: "polymer", name: "PVDF",
@@ -151,7 +168,8 @@ window.MATERIALS = [
   hook: "Stretch and pole it and the fluorine dipoles line up permanently, leaving a plastic film that produces a voltage when you bend it — a piezoelectric you can cut with scissors. The same polymer makes pipe that shrugs off acid.",
   stats: [["Piezoelectric", "yes, when poled"], ["Form", "film down to µm"], ["Also", "ultrapure piping"]],
   uses: "Hydrophones, contact and impact sensors, ultrapure water piping, battery binders.",
-  link: "https://en.wikipedia.org/wiki/Polyvinylidene_fluoride"
+  link: "https://en.wikipedia.org/wiki/Polyvinylidene_fluoride",
+  src: ["Boedeker: Kynar", "https://www.boedeker.com/Family/Kynar"]
 },
 {
   id: "kapton", cat: "polymer", name: "Kapton",
@@ -159,7 +177,8 @@ window.MATERIALS = [
   hook: "A plastic film that works from near absolute zero to 400 °C and keeps its strength through both. It is the amber film wrapped around most spacecraft, and the substrate under most flexible circuits.",
   stats: [["Range", "−269 to 400 °C"], ["Thickness", "from 7.5 µm"], ["Colour", "unmistakably amber"]],
   uses: "Multi-layer insulation blankets, flexible circuits, 3D-printer bed tape, cryogenic wiring.",
-  link: "https://en.wikipedia.org/wiki/Kapton"
+  link: "https://en.wikipedia.org/wiki/Kapton",
+  src: ["Kapton datasheet", "https://www.qnityelectronics.com/products/kapton-hpp-st-polyimide-film.html"]
 },
 {
   id: "parylene", cat: "polymer", name: "Parylene",
@@ -169,7 +188,8 @@ window.MATERIALS = [
   hook: "Applied as a gas, not a liquid. The monomer drifts in under vacuum and polymerises on every surface it touches, so it coats the inside of a connector and the back of a chip in the same pinhole-free micron-thick skin, with no solvent and no curing stress.",
   stats: [["Applied as", "a vapour"], ["Thickness", "~0.1–50 µm"], ["Coverage", "truly conformal"]],
   uses: "PCB conformal coating, implant and stent coatings, MEMS, museum conservation.",
-  link: "https://en.wikipedia.org/wiki/Parylene"
+  link: "https://en.wikipedia.org/wiki/Parylene",
+  src: ["SCS Coatings", "https://scscoatings.com/parylene-coatings/"]
 },
 {
   id: "vectran", cat: "polymer", name: "Vectran",
@@ -179,7 +199,8 @@ window.MATERIALS = [
   hook: "Aramid-class strength with something aramid and Dyneema both lack: it does not creep. Hang a load on it for a year and it is where you left it, which is why it holds inflatable structures together.",
   stats: [["Creep", "essentially none"], ["Moisture", "unaffected"], ["Cut resistance", "high"]],
   uses: "Mars lander airbags, inflatable habitats, sailcloth and lines, cut-resistant gloves.",
-  link: "https://en.wikipedia.org/wiki/Vectran"
+  link: "https://en.wikipedia.org/wiki/Vectran",
+  src: ["Kuraray Vectran", "https://vectran.kuraray.com/en/"]
 },
 {
   id: "delrin", cat: "polymer", name: "Acetal (Delrin)",
@@ -187,7 +208,8 @@ window.MATERIALS = [
   hook: "Highly crystalline, barely absorbs water and machines like a dream, so a part comes off the lathe at the dimension you asked for and stays there. The quiet default for small moving parts.",
   stats: [["Moisture uptake", "~0.2%"], ["Friction", "low, self-lubricating"], ["Weakness", "acids, chlorine"]],
   uses: "Gears and bushings, snap fits, fuel system parts, guitar picks, fittings.",
-  link: "https://en.wikipedia.org/wiki/Polyoxymethylene"
+  link: "https://en.wikipedia.org/wiki/Polyoxymethylene",
+  src: ["Delrin", "https://www.delrin.com/"]
 },
 {
   id: "pc", cat: "polymer", name: "Polycarbonate",
@@ -195,7 +217,8 @@ window.MATERIALS = [
   hook: "Transparent and almost impossible to shatter — the chains absorb impact by sliding rather than breaking. It scratches if you look at it wrong, which is why most sheets are sold with a hard coat.",
   stats: [["Impact", "~250× glass"], ["Transmission", "~88%"], ["Weakness", "scratches, solvents"]],
   uses: "Riot shields and visors, aircraft canopies, safety glazing, machine guards, lenses.",
-  link: "https://en.wikipedia.org/wiki/Polycarbonate"
+  link: "https://en.wikipedia.org/wiki/Polycarbonate",
+  src: ["Macrogalleria: polycarbonates", "https://pslc.ws/macrog/pc.htm"]
 },
 {
   id: "pmma", cat: "polymer", name: "PMMA",
@@ -203,7 +226,8 @@ window.MATERIALS = [
   hook: "Clearer than window glass and far more weather-stable than most plastics. Cast thick it stays optically perfect, which is how an aquarium holds back several metres of water behind a single transparent wall.",
   stats: [["Transmission", "~92%"], ["UV stability", "excellent"], ["Thick sections", "stay clear"]],
   uses: "Aquarium and submersible windows, signage and lighting, dentures, optical fibre.",
-  link: "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)"
+  link: "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)",
+  src: ["Boedeker: acrylic grades", "https://www.boedeker.com/Family/Acrylic"]
 },
 {
   id: "sap", cat: "polymer", name: "Superabsorbent polymer",
@@ -211,7 +235,8 @@ window.MATERIALS = [
   hook: "A loosely cross-linked network whose sodium ions pull water in osmotically until the network is physically stretched to its limit. It holds hundreds of times its own weight and does not release it under pressure.",
   stats: [["Absorbs", "~300× its weight"], ["Mechanism", "osmotic swelling"], ["Releases", "reluctantly"]],
   uses: "Nappies and hygiene products, agricultural water retention, fire gels, cable water-blocking.",
-  link: "https://en.wikipedia.org/wiki/Sodium_polyacrylate"
+  link: "https://en.wikipedia.org/wiki/Sodium_polyacrylate",
+  src: ["BASF HySorb", "https://personal-care-hygiene.basf.com/global/en/hygiene/products/hysorb"]
 },
 {
   id: "polyurea", cat: "polymer", name: "Polyurea",
@@ -219,7 +244,8 @@ window.MATERIALS = [
   hook: "Two components that react on contact with each other rather than with air or moisture, so it gels within seconds and takes foot traffic in minutes. It can be sprayed overhead, in the cold, onto damp concrete.",
   stats: [["Gel time", "~5 seconds"], ["Humidity", "does not care"], ["Thickness", "millimetres per pass"]],
   uses: "Truck bed liners, tank and tunnel linings, blast mitigation retrofits, bridge decks.",
-  link: "https://en.wikipedia.org/wiki/Polyurea"
+  link: "https://en.wikipedia.org/wiki/Polyurea",
+  src: ["Polyurea Development Association", "https://www.pda-online.org/"]
 },
 {
   id: "bakelite", cat: "polymer", name: "Bakelite",
@@ -227,7 +253,8 @@ window.MATERIALS = [
   hook: "The first fully synthetic plastic, and the first thermoset: once cured it is cross-linked into a single molecule and can never be melted again. That is why 1930s radio cabinets survive and 1990s plastics do not.",
   stats: [["Invented", "1907"], ["Cure", "irreversible"], ["Legacy", "the first thermoset"]],
   uses: "Vintage housings and knobs, electrical insulators, brake pads, laboratory benchtops.",
-  link: "https://en.wikipedia.org/wiki/Bakelite"
+  link: "https://en.wikipedia.org/wiki/Bakelite",
+  src: ["Science History Institute", "https://www.sciencehistory.org/education/scientific-biographies/leo-hendrik-baekeland/"]
 },
 {
   id: "phenolic", cat: "polymer", name: "Phenolic laminate",
@@ -235,7 +262,8 @@ window.MATERIALS = [
   hook: "Sheets of paper, cotton or linen soaked in phenolic resin and pressed into a solid board. Gears cut from it run quieter than steel and tolerate grit, which is why the material outlived its own era.",
   stats: [["Core", "cloth or paper"], ["Gears", "quiet, forgiving"], ["Machines", "like hard wood"]],
   uses: "Quiet gears, electrical standoffs, knife scales, bearing cages, switchgear panels.",
-  link: "https://en.wikipedia.org/wiki/Phenol_formaldehyde_resin"
+  link: "https://en.wikipedia.org/wiki/Phenol_formaldehyde_resin",
+  src: ["Tufnol", "https://tufnol.com/"]
 },
 {
   id: "neoprene", cat: "polymer", name: "Neoprene",
@@ -243,7 +271,8 @@ window.MATERIALS = [
   hook: "One of the first successful synthetic rubbers and still the all-rounder: it resists oil, ozone and weather at once, which natural rubber does not. Foamed with nitrogen, the trapped bubbles became the wetsuit.",
   stats: [["Introduced", "1931"], ["Resists", "oil, ozone, weather"], ["Foamed", "it insulates"]],
   uses: "Wetsuits, gaskets and bellows, hose covers, laptop sleeves, bridge bearings.",
-  link: "https://en.wikipedia.org/wiki/Neoprene"
+  link: "https://en.wikipedia.org/wiki/Neoprene",
+  src: ["ERIKS: CR", "https://o-ring.info/en/materials/neoprene-cr/"]
 },
 {
   id: "epdm", cat: "polymer", name: "EPDM",
@@ -251,7 +280,8 @@ window.MATERIALS = [
   hook: "Its backbone carries no double bonds for ozone to attack, so it simply does not perish outdoors. Thirty years on a roof and it is still flexible — but it swells in oil, so it is kept away from engines.",
   stats: [["Ozone", "unaffected"], ["Service", "−50 to 150 °C"], ["Weakness", "oils and fuels"]],
   uses: "Roofing membrane, car door and window seals, radiator hose, pond liners, cable insulation.",
-  link: "https://en.wikipedia.org/wiki/EPDM_rubber"
+  link: "https://en.wikipedia.org/wiki/EPDM_rubber",
+  src: ["ERIKS: EPDM", "https://o-ring.info/en/materials/epdm/"]
 },
 {
   id: "nbr", cat: "polymer", name: "Nitrile rubber",
@@ -259,7 +289,8 @@ window.MATERIALS = [
   hook: "Adding acrylonitrile to the chain makes the rubber polar, and polar rubber will not dissolve in non-polar oil. The more you add the better it resists fuel and the worse it tolerates cold — a dial the compounder sets.",
   stats: [["Resists", "fuel, oil, grease"], ["Trade-off", "cold flexibility"], ["Service", "−30 to 120 °C"]],
   uses: "Fuel and hydraulic seals, O-rings, disposable gloves, conveyor belts, hoses.",
-  link: "https://en.wikipedia.org/wiki/Nitrile_rubber"
+  link: "https://en.wikipedia.org/wiki/Nitrile_rubber",
+  src: ["ERIKS: NBR", "https://o-ring.info/en/materials/nitrile--nbr/"]
 },
 {
   id: "br", cat: "polymer", name: "Polybutadiene",
@@ -267,7 +298,8 @@ window.MATERIALS = [
   hook: "The bounciest rubber in production. It loses very little energy per cycle, so it is blended into tyre treads for low rolling resistance and moulded solid into the core of a golf ball.",
   stats: [["Rebound", "highest of the rubbers"], ["Glass transition", "~−100 °C"], ["Use", "usually blended"]],
   uses: "Tyre treads and sidewalls, golf ball cores, conveyor belts, impact modifier in plastics.",
-  link: "https://en.wikipedia.org/wiki/Polybutadiene"
+  link: "https://en.wikipedia.org/wiki/Polybutadiene",
+  src: ["UBE Elastomer", "https://www.ube.co.jp/elastomer/en/product/polybutadiene_rubber.html"]
 },
 {
   id: "tpu", cat: "polymer", name: "TPU",
@@ -275,7 +307,8 @@ window.MATERIALS = [
   hook: "Hard and soft segments separate into their own microscopic domains: the hard ones act as physical cross-links that hold it together, and melt on demand. Rubber behaviour from a plastic you can injection mould or print.",
   stats: [["Hardness", "60 Shore A to 70 Shore D"], ["Abrasion", "outstanding"], ["Processing", "melt, mould, reuse"]],
   uses: "Phone cases, shoe soles, cable jackets, 3D printing filament, caster wheels, films.",
-  link: "https://en.wikipedia.org/wiki/Thermoplastic_polyurethane"
+  link: "https://en.wikipedia.org/wiki/Thermoplastic_polyurethane",
+  src: ["BASF Elastollan", "https://plastics-rubber.basf.com/global/en/performance_polymers/products/elastollan"]
 },
 {
   id: "pps", cat: "polymer", name: "PPS",
@@ -283,7 +316,8 @@ window.MATERIALS = [
   hook: "Rigid aromatic rings strung on sulfur links, and below 200 °C there is no known solvent for it. It holds dimensions hot and wet, which is why it quietly replaced metal in pumps and under bonnets.",
   stats: [["Continuous use", "~220 °C"], ["Solvents", "none below 200 °C"], ["Flammability", "inherently V-0"]],
   uses: "Pump housings and impellers, under-bonnet parts, connectors, filter fabric for flue gas.",
-  link: "https://en.wikipedia.org/wiki/Polyphenylene_sulfide"
+  link: "https://en.wikipedia.org/wiki/Polyphenylene_sulfide",
+  src: ["Boedeker: Ryton", "https://www.boedeker.com/Family/Ryton"]
 },
 {
   id: "mylar", cat: "polymer", name: "BoPET (Mylar)",
@@ -291,7 +325,8 @@ window.MATERIALS = [
   hook: "PET film stretched in both directions at once, aligning the crystals in the plane of the sheet. The result is dimensionally stable, nearly impossible to tear, and takes a vapour-deposited aluminium layer a few atoms thick.",
   stats: [["Thickness", "from 1.5 µm"], ["Strength", "high, in both directions"], ["Metallised", "near-total IR reflection"]],
   uses: "Space blankets and MLI, solar sails, food packaging, capacitor dielectric, balloons.",
-  link: "https://en.wikipedia.org/wiki/BoPET"
+  link: "https://en.wikipedia.org/wiki/BoPET",
+  src: ["Mylar films", "https://mylar.com/"]
 },
 {
   id: "pp", cat: "polymer", name: "Polypropylene",
@@ -299,7 +334,8 @@ window.MATERIALS = [
   hook: "Cheap, light enough to float, and the only common plastic with a genuine living hinge: flex a thin moulded web once and the crystals align across it, after which it will survive millions of cycles.",
   stats: [["Density", "0.90 g/cm³ — it floats"], ["Living hinge", "millions of cycles"], ["Melt point", "~160 °C"]],
   uses: "Flip-top caps and boxes, car bumpers and trim, rope, autoclavable labware, fibre.",
-  link: "https://en.wikipedia.org/wiki/Polypropylene"
+  link: "https://en.wikipedia.org/wiki/Polypropylene",
+  src: ["Macrogalleria: polypropylene", "https://pslc.ws/macrog/pp.htm"]
 },
 {
   id: "memoryfoam", cat: "polymer", name: "Viscoelastic foam",
@@ -307,7 +343,8 @@ window.MATERIALS = [
   hook: "An open-cell polyurethane whose glass transition sits near body temperature, so your own warmth softens the part you are touching. The recovery is slow because the air has to seep back through the cells.",
   stats: [["Softens at", "~body temperature"], ["Recovery", "seconds, deliberately"], ["Origin", "NASA seat research, 1966"]],
   uses: "Mattresses and pillows, earplugs, prosthetic liners, wheelchair cushions, packaging.",
-  link: "https://en.wikipedia.org/wiki/Memory_foam"
+  link: "https://en.wikipedia.org/wiki/Memory_foam",
+  src: ["NASA Spinoff", "https://spinoff.nasa.gov/Spinoff2005/ch_6.html"]
 },
 {
   id: "epoxy", cat: "polymer", name: "Epoxy",
@@ -315,7 +352,8 @@ window.MATERIALS = [
   hook: "It cures by addition rather than condensation, so nothing is given off and nothing shrinks away — which is why it sticks to almost everything and why it became the matrix holding nearly every composite together.",
   stats: [["Cure shrinkage", "~1–2%"], ["Adhesion", "to almost anything"], ["Service", "to ~180 °C"]],
   uses: "Composite matrix, structural adhesive, potting and encapsulation, coatings, PCB laminate.",
-  link: "https://en.wikipedia.org/wiki/Epoxy"
+  link: "https://en.wikipedia.org/wiki/Epoxy",
+  src: ["Macrogalleria: epoxies", "https://pslc.ws/macrog/epoxy.htm"]
 },
 {
   id: "eva", cat: "polymer", name: "EVA foam",
@@ -323,7 +361,8 @@ window.MATERIALS = [
   hook: "Polyethylene with enough vinyl acetate disrupting the crystals to leave it soft and rubbery without plasticiser — so it cannot dry out and go brittle the way plasticised PVC does.",
   stats: [["Plasticiser", "none needed"], ["Density", "typically 30–200 kg/m³"], ["Water", "closed cell, absorbs none"]],
   uses: "Shoe midsoles, mats and padding, solar panel encapsulant, hot-melt adhesive, buoyancy.",
-  link: "https://en.wikipedia.org/wiki/Ethylene-vinyl_acetate"
+  link: "https://en.wikipedia.org/wiki/Ethylene-vinyl_acetate",
+  src: ["Zotefoams Evazote", "https://www.zotefoams.com/our-materials/azote/evazote/"]
 },
 {
   id: "abs", cat: "polymer", name: "ABS",
@@ -331,7 +370,8 @@ window.MATERIALS = [
   hook: "Three monomers doing three jobs: styrene for stiffness and gloss, acrylonitrile for chemical resistance, a rubber phase for toughness. It moulds to ±0.01 mm and holds it, which is why a 1958 Lego brick still clutches a new one.",
   stats: [["Tg", "~105 °C"], ["Impact", "rubber-toughened"], ["Mould shrink", "~0.5%"]],
   uses: "Lego, appliance housings, automotive trim, 3D printing filament.",
-  link: "https://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene"
+  link: "https://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene",
+  src: ["Boedeker: ABS grades", "https://www.boedeker.com/Family/Abs"]
 },
 {
   id: "pet", cat: "polymer", name: "PET",
@@ -339,7 +379,8 @@ window.MATERIALS = [
   hook: "Blown into a bottle it is stretched in two directions at once, and the chains crystallise as they go. The bottle ends up stronger and far less gas-permeable than the lump of plastic it started as — the shaping is the strengthening.",
   stats: [["Wall", "~0.3 mm"], ["Preform", "~25 g"], ["Trick", "biaxial orientation"]],
   uses: "Drinks bottles, film, polyester fibre, oven-safe trays.",
-  link: "https://en.wikipedia.org/wiki/Polyethylene_terephthalate"
+  link: "https://en.wikipedia.org/wiki/Polyethylene_terephthalate",
+  src: ["Macrogalleria: polyesters", "https://pslc.ws/macrog/pet.htm"]
 },
 {
   id: "pvc", cat: "polymer", name: "PVC",
@@ -347,7 +388,8 @@ window.MATERIALS = [
   hook: "The same polymer makes drainpipe and inflatable boats. Plasticiser content slides it from rigid to floppy without changing the chemistry, and it is more than half chlorine by weight, so it refuses to keep burning.",
   stats: [["Chlorine", "~57% by mass"], ["Plasticiser", "0–50%"], ["LOI", "~45%"]],
   uses: "Pipe, window frames, cable sheathing, flooring, inflatables.",
-  link: "https://en.wikipedia.org/wiki/Polyvinyl_chloride"
+  link: "https://en.wikipedia.org/wiki/Polyvinyl_chloride",
+  src: ["Macrogalleria: PVC", "https://pslc.ws/macrog/pvc.htm"]
 },
 {
   id: "nylon66", cat: "polymer", name: "Nylon 6/6",
@@ -355,7 +397,8 @@ window.MATERIALS = [
   hook: "The first fully synthetic fibre, and still the default tough engineering plastic. Its flaw is a feature in disguise: it drinks up to 2.5% water, which swells the part and quietly turns it from brittle to tough.",
   stats: [["Melting", "255 °C"], ["Water uptake", "~2.5%"], ["Dry vs wet", "different material"]],
   uses: "Gears, cable ties, rope, bearings, toothbrush bristles.",
-  link: "https://en.wikipedia.org/wiki/Nylon_66"
+  link: "https://en.wikipedia.org/wiki/Nylon_66",
+  src: ["Macrogalleria: nylon", "https://pslc.ws/macrog/nylon.htm"]
 },
 {
   id: "hdpe", cat: "polymer", name: "HDPE",
@@ -363,7 +406,8 @@ window.MATERIALS = [
   hook: "Almost nothing wets it, almost nothing attacks it, and it costs about a dollar a kilo. The catch is that it creeps: load an HDPE part for a year and it keeps moving, so it is designed by deflection, not by strength.",
   stats: [["Density", "0.94–0.97 g/cm³"], ["Chemical", "near-universal resistance"], ["Weakness", "creep"]],
   uses: "Jerry cans, gas pipe, cutting boards, chemical tanks, milk jugs.",
-  link: "https://en.wikipedia.org/wiki/High-density_polyethylene"
+  link: "https://en.wikipedia.org/wiki/High-density_polyethylene",
+  src: ["Macrogalleria: polyethylene", "https://pslc.ws/macrog/pe.htm"]
 },
 {
   id: "pex", cat: "polymer", name: "PEX",
@@ -371,7 +415,8 @@ window.MATERIALS = [
   hook: "Cross-linking gives polyethylene a memory. Expand a PEX pipe end with a cold tool, push it over a fitting, and the pipe spends the next thirty seconds shrinking back onto it — the joint tightens itself, no glue, no heat.",
   stats: [["Cross-link", "70–89%"], ["Service", "95 °C at 6 bar"], ["Joint", "shrink-fit"]],
   uses: "Domestic hot and cold plumbing, underfloor heating loops.",
-  link: "https://en.wikipedia.org/wiki/Cross-linked_polyethylene"
+  link: "https://en.wikipedia.org/wiki/Cross-linked_polyethylene",
+  src: ["Plastics Pipe Institute", "https://plasticpipe.org/"]
 },
 {
   id: "eps", cat: "polymer", name: "Expanded polystyrene",
@@ -379,7 +424,8 @@ window.MATERIALS = [
   hook: "98% air held in closed cells. It does not spring back, and that is the point: a bicycle helmet works once, crushing in a controlled way to stretch the stop over milliseconds instead of microseconds.",
   stats: [["Density", "15–30 kg/m³"], ["λ", "~0.035 W/m·K"], ["Rebound", "none, by design"]],
   uses: "Helmets, packaging, insulation board, void formers in concrete.",
-  link: "https://en.wikipedia.org/wiki/Polystyrene"
+  link: "https://en.wikipedia.org/wiki/Polystyrene",
+  src: ["EPS Industry Alliance", "https://www.epsindustry.org/"]
 },
 {
   id: "pdms", cat: "polymer", name: "PDMS",
@@ -387,7 +433,8 @@ window.MATERIALS = [
   hook: "Pour it over a silicon mould, bake it for an hour, peel it off and you have copied features 100 nanometres across in a rubber you can see through. It is also gas-permeable, so cells living inside the channels can breathe.",
   stats: [["Feature copy", "<100 nm"], ["Optical", "clear to 300 nm"], ["O₂", "permeable"]],
   uses: "Microfluidic chips, organ-on-chip, soft lithography, optical encapsulation.",
-  link: "https://en.wikipedia.org/wiki/Polydimethylsiloxane"
+  link: "https://en.wikipedia.org/wiki/Polydimethylsiloxane",
+  src: ["Gelest: silicones", "https://www.gelest.com/product-lines/silicones/"]
 },
 {
   id: "pebax", cat: "polymer", name: "Pebax",
@@ -396,7 +443,8 @@ window.MATERIALS = [
   hook: "A block copolymer that hands you stiffness and bounce on the same dial. Foamed, it returns more energy per gram than any other midsole material, which is why every marathon record of the last decade has been run on top of it.",
   stats: [["Density, foamed", "~0.1 g/cm³"], ["Energy return", "~85%"], ["Cold", "flexible to −40 °C"]],
   uses: "Running shoe midsoles, ski boots, catheters, sports film.",
-  link: "https://en.wikipedia.org/wiki/Polyether_block_amide"
+  link: "https://en.wikipedia.org/wiki/Polyether_block_amide",
+  src: ["Arkema Pebax", "https://hpp.arkema.com/en/product-families/pebax-elastomer-family/"]
 },
 {
   id: "pei", cat: "polymer", name: "PEI (Ultem)",
@@ -405,7 +453,8 @@ window.MATERIALS = [
   hook: "An amber transparent plastic that passes aircraft cabin fire tests without any flame retardant added — the imide rings simply char instead of feeding the fire. It also takes repeated steam autoclaving.",
   stats: [["Tg", "217 °C"], ["LOI", "47%"], ["Smoke", "very low"]],
   uses: "Aircraft interior panels, sterilisable medical trays, high-temp 3D printing.",
-  link: "https://en.wikipedia.org/wiki/Polyetherimide"
+  link: "https://en.wikipedia.org/wiki/Polyetherimide",
+  src: ["Boedeker: Ultem", "https://www.boedeker.com/Family/Ultem"]
 },
 {
   id: "fep", cat: "polymer", name: "FEP",
@@ -413,7 +462,8 @@ window.MATERIALS = [
   hook: "PTFE's non-stick surface in a plastic you can actually melt and extrude. You give up about 60 °C of service temperature and get continuous tubing and heat-sealable film in return.",
   stats: [["Max service", "~200 °C"], ["Melt-processible", "yes, unlike PTFE"], ["Clarity", "transparent"]],
   uses: "Release film, lab tubing, wire insulation, solar module front sheets.",
-  link: "https://en.wikipedia.org/wiki/Fluorinated_ethylene_propylene"
+  link: "https://en.wikipedia.org/wiki/Fluorinated_ethylene_propylene",
+  src: ["Boedeker: FEP", "https://www.boedeker.com/Family/Fep"]
 },
 {
   id: "pvb", cat: "polymer", name: "PVB interlayer",
@@ -421,7 +471,8 @@ window.MATERIALS = [
   hook: "The reason a windscreen crazes into a spiderweb instead of a cloud of knives. A 0.76 mm sheet of PVB bonded between two glass plies holds every fragment in place and stretches two and a half times its length doing it.",
   stats: [["Thickness", "0.38 / 0.76 mm"], ["Elongation", ">250%"], ["Invented", "1930s"]],
   uses: "Windscreens, laminated architectural glass, hurricane glazing, photovoltaic lamination.",
-  link: "https://en.wikipedia.org/wiki/Polyvinyl_butyral"
+  link: "https://en.wikipedia.org/wiki/Polyvinyl_butyral",
+  src: ["Trosifol", "https://www.trosifol.com/"]
 },
 {
   id: "surlyn", cat: "polymer", name: "Ionomer (Surlyn)",
@@ -429,7 +480,8 @@ window.MATERIALS = [
   hook: "Metal ions stitch the chains together with bonds that break under a blow and reform afterwards. A golf ball cover shrugs off the edge of a wedge, and a scuffed ski base can be healed with a heat gun.",
   stats: [["Cross-links", "ionic, reversible"], ["Cut resistance", "very high"], ["Clarity", "glass-like"]],
   uses: "Golf ball covers, ski bases, bottle closures, food packaging film.",
-  link: "https://en.wikipedia.org/wiki/Ionomer"
+  link: "https://en.wikipedia.org/wiki/Ionomer",
+  src: ["Macrogalleria: ionomers", "https://pslc.ws/macrog/ionomer.htm"]
 },
 {
   id: "pla", cat: "polymer", name: "PLA",
@@ -437,7 +489,8 @@ window.MATERIALS = [
   hook: "Made from fermented sugar rather than oil, and it hydrolyses back to lactic acid. The honest caveat is that it needs an industrial composter at 58 °C — in a garden heap or the sea it behaves like any other plastic.",
   stats: [["Feedstock", "corn, cane sugar"], ["Tg", "~60 °C"], ["Compost", "industrial only"]],
   uses: "3D printing filament, food service ware, resorbable sutures and screws.",
-  link: "https://en.wikipedia.org/wiki/Polylactic_acid"
+  link: "https://en.wikipedia.org/wiki/Polylactic_acid",
+  src: ["NatureWorks", "https://natureworksllc.com/"]
 },
 {
   id: "cellacetate", cat: "polymer", name: "Cellulose acetate",
@@ -446,7 +499,8 @@ window.MATERIALS = [
   hook: "A plastic made from trees, dyed in the block rather than on the surface, so colour runs all the way through and polishes back to a shine after years on a face. It is still the only material good eyewear is made from.",
   stats: [["Base", "plant cellulose"], ["Colour", "through the block"], ["Repolish", "indefinitely"]],
   uses: "Spectacle frames, guitar picks, cigarette filters, photographic film base.",
-  link: "https://en.wikipedia.org/wiki/Cellulose_acetate"
+  link: "https://en.wikipedia.org/wiki/Cellulose_acetate",
+  src: ["Library of Congress: film care", "https://www.loc.gov/preservation/care/film.html"]
 },
 {
   id: "melaminefoam", cat: "polymer", name: "Melamine foam",
@@ -454,7 +508,8 @@ window.MATERIALS = [
   hook: "Sold as a cleaning sponge, it is really an abrasive. The open cell walls are hard and brittle, so the foam acts as extremely fine sandpaper that wears itself away instead of scratching — no detergent involved.",
   stats: [["Density", "~9 kg/m³"], ["Mechanism", "micro-abrasion"], ["Also", "acoustic absorber"]],
   uses: "Magic-eraser sponges, studio acoustic foam, high-temperature insulation.",
-  link: "https://en.wikipedia.org/wiki/Melamine_foam"
+  link: "https://en.wikipedia.org/wiki/Melamine_foam",
+  src: ["BASF Basotect", "https://plastics-rubber.basf.com/global/en/performance_polymers/products/basotect"]
 },
 {
   id: "cyanoacrylate", cat: "polymer", name: "Cyanoacrylate",
@@ -462,7 +517,8 @@ window.MATERIALS = [
   hook: "It does not dry — it polymerises, and the trigger is the trace of water on almost any surface. Discovered twice by accident while people were trying to make gunsights, and dismissed both times for sticking to everything.",
   stats: [["Cure trigger", "surface moisture"], ["Set", "seconds"], ["Also", "fingerprint fuming"]],
   uses: "Superglue, surgical skin adhesive, model making, crime-scene fingerprinting.",
-  link: "https://en.wikipedia.org/wiki/Cyanoacrylate"
+  link: "https://en.wikipedia.org/wiki/Cyanoacrylate",
+  src: ["Permabond", "https://permabond.com/products/cyanoacrylate-adhesives/"]
 },
 {
   id: "pva", cat: "polymer", name: "Polyvinyl alcohol",
@@ -470,7 +526,8 @@ window.MATERIALS = [
   hook: "A plastic designed to fail. The film around a detergent pod is strong enough to survive shipping and a dry hand, then dissolves completely in cold water in under a minute.",
   stats: [["Solubility", "cold or hot grades"], ["Oxygen barrier", "excellent, when dry"], ["Residue", "dissolves away"]],
   uses: "Detergent pods, dissolvable 3D-print supports, embroidery backing, release film.",
-  link: "https://en.wikipedia.org/wiki/Polyvinyl_alcohol"
+  link: "https://en.wikipedia.org/wiki/Polyvinyl_alcohol",
+  src: ["Kuraray Poval", "https://poval.kuraray.com/en/"]
 },
 {
   id: "nafion", cat: "polymer", name: "Nafion",
@@ -478,7 +535,8 @@ window.MATERIALS = [
   hook: "A PTFE backbone with sulfonic acid groups hanging off it. The fluorine keeps it chemically immortal while the acid channels ferry protons through — it lets hydrogen ions cross and blocks everything else, which is what makes a fuel cell a cell.",
   stats: [["Conductivity", "~0.1 S/cm, hydrated"], ["Thickness", "25–180 µm"], ["Needs", "water to work"]],
   uses: "PEM fuel cells, chlor-alkali cells, electrolysers, flow batteries.",
-  link: "https://en.wikipedia.org/wiki/Nafion"
+  link: "https://en.wikipedia.org/wiki/Nafion",
+  src: ["Nafion (Chemours)", "https://www.nafion.com/en/products/sulfonic-membranes"]
 },
 {
   id: "pbi", cat: "polymer", name: "PBI",
@@ -486,7 +544,8 @@ window.MATERIALS = [
   hook: "The polymer that will not burn and will not melt. It has no melting point at all — it chars at around 500 °C — so a firefighter's hood made of it stays intact in flashover where aramid alone would shrink away.",
   stats: [["Tg", "427 °C"], ["Melting", "none"], ["LOI", ">41%"]],
   uses: "Firefighter hoods and turnout gear, high-temp seals and bushings, glove liners.",
-  link: "https://en.wikipedia.org/wiki/Polybenzimidazole_fiber"
+  link: "https://en.wikipedia.org/wiki/Polybenzimidazole_fiber",
+  src: ["Boedeker: Celazole", "https://www.boedeker.com/Family/Celazole"]
 },
 
 /* ---------- METALS & ALLOYS ---------- */

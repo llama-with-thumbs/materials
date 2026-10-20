@@ -275,13 +275,15 @@ main { padding: 28px 0 56px; }
 
 .meta {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
+  gap: 4px 10px;
   margin-top: 10px;
   font-size: 11.5px;
   color: var(--text-faint);
 }
 
+.meta .links { display: flex; gap: 10px; margin-left: auto; }
 .meta a { color: var(--text-faint); text-decoration: none; border-bottom: 1px dotted var(--text-faint); }
 .meta a:hover { color: var(--accent); border-color: var(--accent); }
 
