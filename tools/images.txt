@@ -425,3 +425,27 @@ nb3sn|ITER Central Solenoid CICC (34860816181).jpg|An exploded view of ITER's ce
 wroughtiron|Iron Pillar of Delhi.jpg|The iron pillar of Delhi, forged about sixteen centuries ago and barely rusted|product
 tincoat|TiNCoatedPunches NanoShieldPVD Thailand.JPG|Punches coated with titanium nitride by cathodic arc deposition|photo
 lfp|Lithium Iron Phosphate LiFePO4 Cells 400 Ah Amp Hours 3.25 Volts - 1.jpg|400 Ah lithium iron phosphate cells wired into a house battery|product
+rattan|Rattan and Nito.jpg|Rattan and nito woven into baskets and trays, in a Philippine craft display|product
+willow|Weidenkorbflechter Intangible Cultural Heritage of Austria 01.jpg|A giant jug woven from willow rods, outside an Austrian basket maker|product
+tatami|Tatami being repaired; December 2018 (01).jpg|Tatami under repair, the rush facing lifted off its core|photo
+toquilla|The toquilla straw hat is woven from fibres from a palm tree characteristic of the Ecuadorian coast.jpg|Cenovio, a master weaver, working toquilla straw on the Ecuadorian coast|process
+worsted|Worsted wool yarn.JPG|Worsted wool yarn, the plied structure visible|photo
+tweed|Harris Tweed Macro photography.jpg|Harris Tweed cloth under a macro lens|photo
+satin|Satin Ribbons.png|Rolls of satin ribbon, the float surface catching the light|photo
+carbonfab|Woven carbon fiber fabric.jpg|Woven carbon fibre fabric, tow crossing tow|photo
+fibc|Flexible intermediate bulk containers-Fertilizer.jpg|Woven polypropylene big bags holding 600 kg of fertiliser each|product
+machinelace|Border (ST293) - Lace-Machine Lace - MoMu Antwerp.jpg|A machine-made lace border, from the MoMu collection in Antwerp|photo
+firehose|Fire hose supply.jpg|Rolled supply hose in a water tender, the woven jacket uppermost|photo
+wiltoncarpet|Museum of Carpet - Jacquard Wilton loom - geograph.org.uk - 6292683.jpg|A Jacquard Wilton carpet loom at the Museum of Carpet, Kidderminster|process
+reedcane|B-flat e-flat a-flat reeds.jpg|Clarinet and saxophone reeds in three sizes, cut from cane|product
+ebonite|Mouthpiece tenor saxophone.jpg|Two tenor saxophone mouthpieces, the Selmer in hard rubber and the Dukoff in metal|product
+snarewire|Orange county snare wire.jpg|A snare drum with its snare wire lifted clear of the head|photo
+conepulp|X5 Paper Pulp Cone.jpg|A paper pulp loudspeaker cone|photo
+voicecoil|Loudspeaker voice coil, three inch diameter.jpg|A three-inch dual voice coil from a subwoofer driver|photo
+marimbarose|San Domingo-Palisander Holz.JPG|Sliced veneer of the same wood, labelled San Domingo palisander and Honduras rosewood|related
+rhodestine|1975 Rhodes Mark I Stage Piano 73-key (serial no.300???) with Dyna Rhodes modification - tines (2005-01-07 20.42.58 by Daniel Spils).jpg|The tines of a 1975 Rhodes Mark I, with the pickups facing them|photo
+metaldome|Tweeter with Titanium membrane of loudspeaker box JBL TI 5000, 1990s.jpg|A JBL tweeter with a 25 mm titanium membrane|photo
+recordvinyl|Vinyl groove macro.jpg|Record grooves under a macro lens, the modulation visible|photo
+woodwool|Holzfaserbeton groß.jpg|The surface of a wood-wool cement board|photo
+drumshell|Solid Shell Maple, Matte Black Laquer with Maple Inlay.jpg|A solid maple drum shell with a maple inlay|photo
+goss|Grain-oriented electrical steel (grains).jpg|Uncoated grain-oriented electrical steel, the aligned grains visible across 6 cm|photo

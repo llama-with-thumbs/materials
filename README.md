@@ -1,6 +1,6 @@
 # Interesting Materials
 
-A single-page field guide to 427 materials that exist because of one specific trick — a
+A single-page field guide to 451 materials that exist because of one specific trick — a
 polyurethane that carries tons without overheating, a ceramic that clamps its own cracks shut,
 a lashing that tightens itself as it dries, an airbag woven closed so it has no seam to burst.
 
@@ -18,10 +18,10 @@ one JS file, and it works straight off the filesystem.
 index.html     page shell
 style.css      styling, dark by default with a light toggle
 app.js         rendering, search, category filter, sort, lightbox, swatch drawing
-data.js        the catalogue — 427 entries, this is the file to edit
+data.js        the catalogue — 451 entries, this is the file to edit
 credits.js     generated: image filenames, photographers, licences, source links
 added.js       generated: when each entry joined, in add order — the default sort
-images/        427 images, 900 px wide
+images/        451 images, 900 px wide
 tools/
   images.txt       id | Commons filename | caption | kind
   fetch_images.py  downloads the images and regenerates credits.js
@@ -38,11 +38,11 @@ tools/
 | `electronic` | Semiconductors & optics | 29 |
 | `composite` | Composites & structures | 36 |
 | `additive` | 3D printing & additive | 20 |
-| `fibre` | Ropes & woven materials | 64 |
-| `fabric` | Fabrics & constructions | 34 |
+| `fibre` | Ropes & woven materials | 69 |
+| `fabric` | Fabrics & constructions | 41 |
 | `natural` | Natural & biological | 29 |
 | `exotic` | Active & exotic | 32 |
-| `music` | Sound & music | 28 |
+| `music` | Sound & music | 40 |
 
 `additive` is a materials category like the rest: each card is a feedstock or the stuff a printed
 part is made of — filament, resin, powder, wire, slurry, bath — and the process that consumes it is
@@ -56,7 +56,11 @@ when it slides, diabase boulders that answer a hammer like metal, an oil drum th
 instrument, a coiled spring whose dispersion turned into the sound of an amplifier. It also covers
 the mounts: the headstock a bell hangs from, the felts that hold a cymbal without clamping it, the
 cushion under a singing bowl, the glue inside a violin — every one of them a choice between
-coupling the instrument to something and isolating it from everything.
+coupling the instrument to something and isolating it from everything. The later additions
+follow the sound out of the instrument and into the equipment — the pulp cone and voice coil of a
+loudspeaker, the metal dome of a tweeter, the compound a record is pressed from, the wood-wool
+board on a hall ceiling — and end on grain-oriented electrical steel, which hums at twice the
+mains frequency for no better reason than that magnetising it makes it change length.
 
 ## Order
 
@@ -78,6 +82,10 @@ again after committing and they get their real date.
 
 A pair of buttons at the bottom right jumps to the top or the bottom of the page; each greys out at
 the end it points to, and both disappear on a page too short to scroll.
+
+`fibre` and `fabric` split the same way everywhere: `fibre` holds the stock — fibres, yarns,
+ropes and the plants they are cut from — and `fabric` holds what is made by putting that stock
+together, which is why a weave or a knit with no new material in it still gets its own card.
 
 ## Adding a material
 
@@ -127,15 +135,15 @@ wider than 640 px, then picking by eye from the top few results.
 
 ## Images and licensing
 
-All 427 entries carry an image from Wikimedia Commons. Each remains under its own licence
+All 451 entries carry an image from Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
 the lightbox. If you redistribute this page, keep those credits. No two cards use the same
 photograph.
 
-244 are photographs of the material itself. 183 are not, and say so in the corner of the image:
+260 are photographs of the material itself. 191 are not, and say so in the corner of the image:
 
-- **134 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **139 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
@@ -148,10 +156,10 @@ photograph.
   magnetorheological fluid for the electrorheological one, aramid filaments for M5, turnout gear for
   melamine fibre, and a hand-laid glass-reinforced body for sheet moulding compound. The caption
   always says what the picture actually is.
-- **16 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
+- **17 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
   optical calcium fluoride, a superhydrophobic droplet for SLIPS, a printed sand mould for
   furan-bonded sand, a GAGG:Ce scintillator for GGG, and a cut-resistant glove for Vectran.
-- **10 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
+- **12 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
   spraying for Nafion, cold spray mid-deposition for cold-spray powder, hand needle felting for
   needle-punched felt, two Markforged X7 machines for continuous fibre printing, and the loom or
   knitting machine itself for Jacquard weave, warp knitting and whole-garment knitting.

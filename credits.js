@@ -3842,5 +3842,221 @@ window.CREDITS = {
     "artist": "Yo-Co-Man",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Lithium_Iron_Phosphate_LiFePO4_Cells_400_Ah_Amp_Hours_3.25_Volts_-_1.jpg"
+  },
+  "rattan": {
+    "file": "rattan.jpg",
+    "caption": "Rattan and nito woven into baskets and trays, in a Philippine craft display",
+    "kind": "product",
+    "title": "Rattan and Nito.jpg",
+    "artist": "Bim24",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rattan_and_Nito.jpg"
+  },
+  "willow": {
+    "file": "willow.jpg",
+    "caption": "A giant jug woven from willow rods, outside an Austrian basket maker",
+    "kind": "product",
+    "title": "Weidenkorbflechter Intangible Cultural Heritage of Austria 01.jpg",
+    "artist": "Iswoar",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Weidenkorbflechter_Intangible_Cultural_Heritage_of_Austria_01.jpg"
+  },
+  "tatami": {
+    "file": "tatami.jpg",
+    "caption": "Tatami under repair, the rush facing lifted off its core",
+    "kind": "photo",
+    "title": "Tatami being repaired; December 2018 (01).jpg",
+    "artist": "Rosewoman",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tatami_being_repaired;_December_2018_(01).jpg"
+  },
+  "toquilla": {
+    "file": "toquilla.jpg",
+    "caption": "Cenovio, a master weaver, working toquilla straw on the Ecuadorian coast",
+    "kind": "process",
+    "title": "The toquilla straw hat is woven from fibres from a palm tree characteristic of the Ecuadorian coast.jpg",
+    "artist": "hatsfromtheheart.ec",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_toquilla_straw_hat_is_woven_from_fibres_from_a_palm_tree_characteristic_of_the_Ecuadorian_coast.jpg"
+  },
+  "worsted": {
+    "file": "worsted.jpg",
+    "caption": "Worsted wool yarn, the plied structure visible",
+    "kind": "photo",
+    "title": "Worsted wool yarn.JPG",
+    "artist": "Pschemp",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Worsted_wool_yarn.JPG"
+  },
+  "tweed": {
+    "file": "tweed.jpg",
+    "caption": "Harris Tweed cloth under a macro lens",
+    "kind": "photo",
+    "title": "Harris Tweed Macro photography.jpg",
+    "artist": "No name",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Harris_Tweed_Macro_photography.jpg"
+  },
+  "satin": {
+    "file": "satin.png",
+    "caption": "Rolls of satin ribbon, the float surface catching the light",
+    "kind": "photo",
+    "title": "Satin Ribbons.png",
+    "artist": "Jblayson",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Satin_Ribbons.png"
+  },
+  "carbonfab": {
+    "file": "carbonfab.jpg",
+    "caption": "Woven carbon fibre fabric, tow crossing tow",
+    "kind": "photo",
+    "title": "Woven carbon fiber fabric.jpg",
+    "artist": "Acheolg",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Woven_carbon_fiber_fabric.jpg"
+  },
+  "fibc": {
+    "file": "fibc.jpg",
+    "caption": "Woven polypropylene big bags holding 600 kg of fertiliser each",
+    "kind": "product",
+    "title": "Flexible intermediate bulk containers-Fertilizer.jpg",
+    "artist": "Cjp24",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flexible_intermediate_bulk_containers-Fertilizer.jpg"
+  },
+  "machinelace": {
+    "file": "machinelace.jpg",
+    "caption": "A machine-made lace border, from the MoMu collection in Antwerp",
+    "kind": "photo",
+    "title": "Border (ST293) - Lace-Machine Lace - MoMu Antwerp.jpg",
+    "artist": "Unknown",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Border_(ST293)_-_Lace-Machine_Lace_-_MoMu_Antwerp.jpg"
+  },
+  "firehose": {
+    "file": "firehose.jpg",
+    "caption": "Rolled supply hose in a water tender, the woven jacket uppermost",
+    "kind": "photo",
+    "title": "Fire hose supply.jpg",
+    "artist": "No machine-readable author provided. Jclemens assumed (based on copyright claims).",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fire_hose_supply.jpg"
+  },
+  "wiltoncarpet": {
+    "file": "wiltoncarpet.jpg",
+    "caption": "A Jacquard Wilton carpet loom at the Museum of Carpet, Kidderminster",
+    "kind": "process",
+    "title": "Museum of Carpet - Jacquard Wilton loom - geograph.org.uk - 6292683.jpg",
+    "artist": "Chris Allen",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Carpet_-_Jacquard_Wilton_loom_-_geograph.org.uk_-_6292683.jpg"
+  },
+  "reedcane": {
+    "file": "reedcane.jpg",
+    "caption": "Clarinet and saxophone reeds in three sizes, cut from cane",
+    "kind": "product",
+    "title": "B-flat e-flat a-flat reeds.jpg",
+    "artist": "Michael Scott Cuthbert",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:B-flat_e-flat_a-flat_reeds.jpg"
+  },
+  "ebonite": {
+    "file": "ebonite.jpg",
+    "caption": "Two tenor saxophone mouthpieces, the Selmer in hard rubber and the Dukoff in metal",
+    "kind": "product",
+    "title": "Mouthpiece tenor saxophone.jpg",
+    "artist": "Dbenzhuser",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mouthpiece_tenor_saxophone.jpg"
+  },
+  "snarewire": {
+    "file": "snarewire.jpg",
+    "caption": "A snare drum with its snare wire lifted clear of the head",
+    "kind": "photo",
+    "title": "Orange county snare wire.jpg",
+    "artist": "Ocdp",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Orange_county_snare_wire.jpg"
+  },
+  "conepulp": {
+    "file": "conepulp.jpg",
+    "caption": "A paper pulp loudspeaker cone",
+    "kind": "photo",
+    "title": "X5 Paper Pulp Cone.jpg",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:X5_Paper_Pulp_Cone.jpg"
+  },
+  "voicecoil": {
+    "file": "voicecoil.jpg",
+    "caption": "A three-inch dual voice coil from a subwoofer driver",
+    "kind": "photo",
+    "title": "Loudspeaker voice coil, three inch diameter.jpg",
+    "artist": "Daniel Christensen",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Loudspeaker_voice_coil,_three_inch_diameter.jpg"
+  },
+  "marimbarose": {
+    "file": "marimbarose.jpg",
+    "caption": "Sliced veneer of the same wood, labelled San Domingo palisander and Honduras rosewood",
+    "kind": "related",
+    "title": "San Domingo-Palisander Holz.JPG",
+    "artist": "Philipp Zinger",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Domingo-Palisander_Holz.JPG"
+  },
+  "rhodestine": {
+    "file": "rhodestine.jpg",
+    "caption": "The tines of a 1975 Rhodes Mark I, with the pickups facing them",
+    "kind": "photo",
+    "title": "1975 Rhodes Mark I Stage Piano 73-key (serial no.300???) with Dyna Rhodes modification - tines (2005-01-07 20.42.58 by Daniel Spils).jpg",
+    "artist": "Daniel Spils from Seattle, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1975_Rhodes_Mark_I_Stage_Piano_73-key_(serial_no.300%3F%3F%3F)_with_Dyna_Rhodes_modification_-_tines_(2005-01-07_20.42.58_by_Daniel_Spils).jpg"
+  },
+  "metaldome": {
+    "file": "metaldome.jpg",
+    "caption": "A JBL tweeter with a 25 mm titanium membrane",
+    "kind": "photo",
+    "title": "Tweeter with Titanium membrane of loudspeaker box JBL TI 5000, 1990s.jpg",
+    "artist": "Pittigrilli",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tweeter_with_Titanium_membrane_of_loudspeaker_box_JBL_TI_5000,_1990s.jpg"
+  },
+  "recordvinyl": {
+    "file": "recordvinyl.jpg",
+    "caption": "Record grooves under a macro lens, the modulation visible",
+    "kind": "photo",
+    "title": "Vinyl groove macro.jpg",
+    "artist": "Shane Gavin",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vinyl_groove_macro.jpg"
+  },
+  "woodwool": {
+    "file": "woodwool.jpg",
+    "caption": "The surface of a wood-wool cement board",
+    "kind": "photo",
+    "title": "Holzfaserbeton groß.jpg",
+    "artist": "Florian Gerlach (Nawaro); improved by WinfriedSchneider (talk) 20:36, 6 May 2010 (UTC)",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Holzfaserbeton_gro%C3%9F.jpg"
+  },
+  "drumshell": {
+    "file": "drumshell.jpg",
+    "caption": "A solid maple drum shell with a maple inlay",
+    "kind": "photo",
+    "title": "Solid Shell Maple, Matte Black Laquer with Maple Inlay.jpg",
+    "artist": "Pframstad",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Solid_Shell_Maple,_Matte_Black_Laquer_with_Maple_Inlay.jpg"
+  },
+  "goss": {
+    "file": "goss.jpg",
+    "caption": "Uncoated grain-oriented electrical steel, the aligned grains visible across 6 cm",
+    "kind": "photo",
+    "title": "Grain-oriented electrical steel (grains).jpg",
+    "artist": "Zureks",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grain-oriented_electrical_steel_(grains).jpg"
   }
 };

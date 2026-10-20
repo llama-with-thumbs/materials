@@ -2274,6 +2274,46 @@ window.MATERIALS = [
   uses: "Piano and instrument strings, springs, cheese cutters, control cables, lock picks.",
   link: "https://en.wikipedia.org/wiki/Piano_wire"
 },
+{
+  id: "rattan", cat: "fibre", name: "Rattan cane",
+  sub: "split peel and core of a climbing palm", img: "rattan",
+  hook: "A palm that climbs instead of standing, so its stem is solid, even in diameter and hundreds of metres long — the only plant that supplies long weaving stock without being sawn into it. Two materials come out of one stem: the glossy outer peel, cut into narrow strips and used wherever the weave has to take tension around a corner, and the soft inner core, which is extruded into round reed for baskets and takes a bend but no load. Steam or a soak makes it pliable and it sets hard as it dries, which is why a caned seat tightens on itself rather than going slack.",
+  stats: [["Peel", "strong, glossy, takes the tension"], ["Core", "soft reed, bends but carries little"], ["Set", "woven wet, tightens as it dries"]],
+  uses: "Caned chair seats and backs, baskets, furniture frames, walking sticks, bindings.",
+  link: "https://en.wikipedia.org/wiki/Rattan"
+},
+{
+  id: "willow", cat: "fibre", name: "Willow (osier)",
+  sub: "one season of growth, cut in winter", img: "willow",
+  hook: "Basketry willow is never timber: it is a single year of growth cut from a stooled bed in winter, graded by length and sorted to the millimetre, because a rod that tapers differently weaves differently. Boiling the rods in their own tannin before stripping gives buff; stripping them after a spring soak gives white; leaving the bark on gives brown. All of them are soaked again before use — dry willow snaps, wet willow bends to a radius no sawn wood will take, and the weave tightens as the rods shrink, which is why a basket is stiffer a week after it is made.",
+  stats: [["Stock", "one season of growth, winter cut"], ["Soaked", "days before weaving, or it snaps"], ["Shrinks", "tighter than it was woven"]],
+  uses: "Baskets, hurdles and fencing, living willow structures, coffins, garden furniture, fish traps.",
+  link: "https://en.wikipedia.org/wiki/Salix_viminalis"
+},
+{
+  id: "tatami", cat: "fibre", name: "Tatami rush (igusa)",
+  sub: "soft rush woven over a pressed core", img: "tatami",
+  hook: "A tatami mat is two materials: a thick compressed core of rice straw or board, and a facing of soft rush woven over it with hemp or cotton warp. The rush is a hollow tube full of pith, so the mat is springy, insulating and hygroscopic — it takes up damp in a humid summer and gives it back in winter, and it smells of hay for the first year. It is also a unit of measurement: rooms in Japan are counted in mats, not square metres. When the facing wears it is turned over, then re-faced on the same core.",
+  stats: [["Facing", "igusa rush over straw or board"], ["Doubles as", "the unit a room is measured in"], ["Worn out", "flipped, then re-faced, not binned"]],
+  uses: "Japanese flooring, tea rooms, judo and kendo halls, zabuton and futon bases.",
+  link: "https://en.wikipedia.org/wiki/Tatami"
+},
+{
+  id: "toquilla", cat: "fibre", name: "Toquilla straw",
+  sub: "split palm shoot, boiled and sun-dried", img: "toquilla",
+  hook: "The straw of the so-called Panama hat, which is Ecuadorian: fibre split by fingernail from the unopened shoot of Carludovica palmata, boiled, dried in the sun and then woven damp, because dry straw breaks and wet straw stretches. The weave is counted in rows per inch like a textile, and at the top grades there are more rows in a hat brim than in most shirting — a fine one is months of work by one pair of hands, woven in the cool of early morning. The finished hat is a single woven fabric with no seam anywhere in it.",
+  stats: [["Split", "by fingernail from the leaf shoot"], ["Woven", "damp, in the cool of the morning"], ["Fine grades", "months of work, one weaver"]],
+  uses: "Panama hats, fans and baskets, fine Ecuadorian and Peruvian weaving.",
+  link: "https://en.wikipedia.org/wiki/Carludovica_palmata"
+},
+{
+  id: "worsted", cat: "fibre", name: "Worsted yarn",
+  sub: "combed, parallel, long staple only", img: "worsted",
+  hook: "Worsted and woollen are not two kinds of sheep but two ways of handling the same fleece. Combing pulls the long fibres parallel and throws out the short ones as noil; spun tight, that gives a smooth dense yarn with little air in it, which makes cloth that is strong, holds a crease and shines slightly. Carding instead leaves the fibres crossed in every direction and spins them soft and full of air, which is why a tweed is warm and fuzzy and a suit length is not. The comb costs a third of the fleece and most of the price.",
+  stats: [["Combed", "fibres parallel, shorts removed"], ["Loses", "about a third of the fleece as noil"], ["Cloth", "smooth, dense, holds a crease"]],
+  uses: "Suiting and tailoring cloth, gabardine, fine knitting yarn, upholstery.",
+  link: "https://en.wikipedia.org/wiki/Worsted"
+},
 
 /* ---------- FABRICS & CONSTRUCTIONS ---------- */
 {
@@ -2553,6 +2593,62 @@ window.MATERIALS = [
   stats: [["Twill", "diagonal float, usually 3/1"], ["Broken", "step reverses across the warp"], ["Fixes", "leg twist after washing"]],
   uses: "Jeans and workwear, shirting, upholstery, uniform cloth.",
   link: "https://en.wikipedia.org/wiki/Twill"
+},
+{
+  id: "tweed", cat: "fabric", name: "Harris Tweed",
+  sub: "handwoven in the Outer Hebrides, by statute", img: "tweed",
+  hook: "The only cloth with its own Act of Parliament: to be called Harris Tweed it must be made from virgin wool dyed and spun in the Outer Hebrides and woven by hand at the weaver's own home, on a treadle loom. The dyeing happens before spinning, so colour is blended inside the yarn rather than printed on the cloth, which is why a plain-looking brown turns out to be eight colours under a lens. Woollen-spun and loosely woven, it is thick and warm and does not hold a crease — the opposite of worsted, by construction rather than by fibre.",
+  stats: [["Dyed", "in the wool, before spinning"], ["Woven", "at home, on a treadle loom"], ["Protected", "by the Harris Tweed Act 1993"]],
+  uses: "Jackets and coats, caps, upholstery, bags and shoes.",
+  link: "https://en.wikipedia.org/wiki/Harris_Tweed"
+},
+{
+  id: "satin", cat: "fabric", name: "Satin weave",
+  sub: "long floats, as few crossings as possible", img: "satin",
+  hook: "The third basic weave, and the one defined by what it avoids: each warp thread passes over four or more wefts before tucking under a single one, and the tuck points are staggered so they never line up. The surface is therefore almost all unbroken float, which reflects light along the filament instead of scattering it at every crossing — the shine is geometry, not fibre, and the back of the same cloth is dull. Fewer crossings also means less friction holding the threads, so satin drapes beautifully and snags on anything.",
+  stats: [["Float", "over four or more, under one"], ["Shine", "from the weave, not the fibre"], ["Weakness", "snags — nothing pins the floats"]],
+  uses: "Linings and eveningwear, ribbon, bedding, pointe shoes, academic hoods.",
+  link: "https://en.wikipedia.org/wiki/Satin"
+},
+{
+  id: "carbonfab", cat: "fabric", name: "Woven carbon reinforcement",
+  sub: "3K tow, plain or 2x2 twill", img: "carbonfab",
+  hook: "Carbon fibre arrives as tow — a flat bundle of a few thousand filaments — and weaving it is a deliberate loss: every crossing bends the fibres out of line, and a crimped fibre carries less than a straight one. What the weave buys is handling. A dry fabric drapes over a mould, holds its yarns in place while resin wets it out, and resists the shear that would make a unidirectional sheet fall apart in the hands; a twill crosses less often than a plain weave and so follows a double curve where plain weave would wrinkle. Where the crimp cannot be afforded, the yarns are stitched instead of woven.",
+  stats: [["3K tow", "3000 filaments laid flat"], ["Areal weight", "around 200 g/m² for 3K twill"], ["Crimp", "costs stiffness, buys drape"]],
+  uses: "Wet lay-up and prepreg laminates, bike frames, car panels, repairs, cosmetic twill skins.",
+  link: "https://en.wikipedia.org/wiki/Carbon_fibers"
+},
+{
+  id: "fibc", cat: "fabric", name: "Bulk bag fabric",
+  sub: "flat polypropylene tape, woven both ways", img: "fibc",
+  hook: "The cloth a one-tonne bag is made of is not spun yarn at all: polypropylene film is slit into flat tapes and stretched several times its length, which lines the molecules up along the tape and makes it far stronger than the film it came from, then warp and weft of flat tape are woven into a cloth that barely stretches. Flat tape also packs edge to edge, so the weave is dense enough to hold powder without a liner. Sunlight is what ends it — a season outdoors and the tape goes chalky and tears in the hand, which is why a bag rated 5:1 is thrown away rather than reused.",
+  stats: [["Tape", "slit film, drawn to orient it"], ["Safety factor", "5:1 reusable, 6:1 single trip"], ["Killed by", "UV — months, not years"]],
+  uses: "FIBC big bags for sand, fertiliser and grain, woven sacks, ground sheets, tarpaulins.",
+  link: "https://en.wikipedia.org/wiki/Flexible_intermediate_bulk_container"
+},
+{
+  id: "machinelace", cat: "fabric", name: "Machine lace",
+  sub: "threads twisted round each other, not interlaced", img: "machinelace",
+  hook: "Lace is not a weave. Instead of passing over and under, each thread is twisted around its neighbours by a brass bobbin thin enough to swing through the warp in a comb, which produces a net that will not ravel when it is cut — the reason lace can be made as a shaped piece rather than a length. Heathcoat worked out the hexagonal bobbinet ground in 1808, and a Leavers machine with a Jacquard head on top of it can place pattern thread anywhere in that net. The machines still running are mostly a century old, because nobody has built new ones since.",
+  stats: [["Threads", "twisted, never interlaced"], ["Cut edge", "does not ravel"], ["Bobbinet ground", "patented 1808, still the base"]],
+  uses: "Lace trim and curtains, bridal and lingerie fabric, hosiery panels, millinery veiling.",
+  link: "https://en.wikipedia.org/wiki/Bobbinet"
+},
+{
+  id: "firehose", cat: "fabric", name: "Fire hose jacket",
+  sub: "circular-woven polyester over a rubber liner", img: "firehose",
+  hook: "A division of labour between two materials: a thin rubber or polyurethane liner holds the water and carries no load, and a jacket woven as a seamless tube on a circular loom takes the whole pressure. Because the jacket is woven rather than moulded it lies flat when empty — which is the only reason a hundred metres of it fits on a truck — and goes round the instant it is charged. Burst pressure is roughly three times the working pressure, but almost no hose dies of pressure: it dies of being dragged over concrete, and the jacket is what gets a coating to slow that down.",
+  stats: [["Jacket", "circular-woven, no seam"], ["Burst", "around 3x working pressure"], ["Fails by", "abrasion, not pressure"]],
+  uses: "Fire service attack and supply lines, industrial washdown, irrigation, layflat transfer hose.",
+  link: "https://en.wikipedia.org/wiki/Fire_hose"
+},
+{
+  id: "wiltoncarpet", cat: "fabric", name: "Woven carpet",
+  sub: "pile tied in by the weave itself", img: "wiltoncarpet",
+  hook: "Tufted carpet is needled into a finished backing and held there by glue; woven carpet makes backing and pile in one pass, each tuft locked by the warp that passes over it, with no latex doing the holding. A Wilton loom raises the pile as loops over wires and either leaves them or cuts them as the wire withdraws, limited to the few colours its shuttles carry; an Axminster loom instead grips individual tufts from spools of yarn and can place any colour anywhere, which is why figured carpet is woven that way. It is several times slower than tufting, and it does not shed.",
+  stats: [["Pile", "locked by the weave, not glued"], ["Wilton", "loops raised over wires, then cut"], ["Axminster", "any colour, tuft by tuft"]],
+  uses: "Hotel, theatre and ship carpet, stair runners, patterned domestic carpet.",
+  link: "https://en.wikipedia.org/wiki/Carpet"
 },
 
 /* ---------- ACTIVE & EXOTIC ---------- */
@@ -3512,6 +3608,102 @@ window.MATERIALS = [
   stats: [["Steel spike", "couples the body to the floor"], ["Carbon fibre", "stiffer, lighter, different balance"], ["Rubber stopper", "isolates, and stops the slide"]],
   uses: "Cellos and double basses, bassoons, some banjos, drums and speaker stands.",
   link: "https://en.wikipedia.org/wiki/Endpin"
+},
+{
+  id: "reedcane", cat: "music", name: "Reed cane (Arundo donax)",
+  sub: "a grass, cut at two years and cured", img: "reedcane",
+  hook: "A giant grass whose stem wall happens to be a natural composite: stiff vascular bundles running lengthwise in soft parenchyma, which is exactly the anisotropy a vibrating cantilever wants. The cane is cut after about two years, cured in the sun for months and only then cut into blanks, and still no two slips behave alike — players buy a box of ten and keep three, because density and bundle spacing vary within one field. Nothing synthetic has quite replaced it; polypropylene and composite reeds are consistent, which turns out to be only half of what players ask for.",
+  stats: [["Cut", "at about two years, then cured in sun"], ["Graded by", "hardness, not thickness"], ["Yield", "most of a box gets rejected"]],
+  uses: "Clarinet and saxophone reeds, oboe and bassoon double reeds, bagpipe and organ reeds.",
+  link: "https://en.wikipedia.org/wiki/Reed_(mouthpiece)"
+},
+{
+  id: "ebonite", cat: "music", name: "Ebonite",
+  sub: "rubber vulcanised until it is hard", img: "ebonite",
+  hook: "Natural rubber cooked for hours with up to half its weight in sulphur, until the crosslinking runs so far that the rubber stops being elastic and becomes a hard, dead, machinable solid. Mouthpieces are made of it for exactly that deadness — it absorbs rather than rings, so the tone is the air column and the reed, not the chamber — and because it cuts cleanly, so a player can have the facing filed and the chamber reworked by hand. Sunlight is its enemy: the surface oxidises, goes brown-green and smells of sulphur, which is why old mouthpieces look used even when they are not.",
+  stats: [["Sulphur", "around a third to a half by weight"], ["Works like", "a hard plastic, cut and refaced by hand"], ["Ages by", "oxidising brown-green in UV"]],
+  uses: "Clarinet and saxophone mouthpieces, bagpipe parts, fountain pens, bowling balls, battery cases.",
+  link: "https://en.wikipedia.org/wiki/Ebonite"
+},
+{
+  id: "snarewire", cat: "music", name: "Snare wires",
+  sub: "coiled steel resting against the lower head", img: "snarewire",
+  hook: "The thing that makes a snare drum a snare drum is a bundle of sixteen to forty-two steel coils stretched just touching the bottom head, so that every hit sets them slapping against it. It is a deliberate noise generator: the coils are not tuned to anything, so what they add is a short burst of broadband rattle on top of a pitched drum, which is why a snare cuts through a band that a tom cannot. It also answers things nobody played — a loud low note anywhere in the room makes the head move, and the wires buzz in sympathy. Drummers either throw them off or live with it.",
+  stats: [["Coils", "16 to 42, commonly 20"], ["Tuned to", "nothing — broadband by design"], ["Buzzes", "in sympathy with any loud note nearby"]],
+  uses: "Snare drums, piccolo snares, orchestral field drums, cajon interiors.",
+  link: "https://en.wikipedia.org/wiki/Snare_drum"
+},
+{
+  id: "conepulp", cat: "music", name: "Speaker cone pulp",
+  sub: "paper felted onto a cone screen", img: "conepulp",
+  hook: "A loudspeaker cone wants three things that fight each other: stiff, light, and lossy. Metal and carbon win the first two and lose the third badly — when a stiff cone finally breaks up it rings like the bell it is. Paper is mediocre at stiffness, good at mass and excellent at loss, so its breakup is a soft mush rather than a resonant peak, which is why pulp cones outlasted every announcement of their death. They are made like handmade paper: slurry of wood, bamboo or wool fibre sucked onto a conical screen, pressed, dried and then doped to slow down the one real weakness, which is humidity.",
+  stats: [["Made by", "felting wet pulp onto a cone screen"], ["Wants", "stiff, light and lossy at once"], ["Breakup", "soft, not a ringing peak"]],
+  uses: "Woofers and full-range drivers, guitar amplifier speakers, studio monitors, car audio.",
+  link: "https://en.wikipedia.org/wiki/Loudspeaker"
+},
+{
+  id: "voicecoil", cat: "music", name: "Voice coil",
+  sub: "wire wound on a polyimide former", img: "voicecoil",
+  hook: "The only part of a loudspeaker that actually moves under power: a few metres of copper or copper-clad aluminium wound onto a thin polyimide or glass-fibre tube and hung in a magnet gap about a millimetre wide. Every property is a compromise with heat. Copper conducts better, aluminium weighs a third as much, and both get hot enough to raise their own resistance mid-note — the quiet loss of output called power compression, audible long before anything smells. What usually ends a driver is not the wire but the adhesive holding it to the former, or the gap closing on a coil that has swollen.",
+  stats: [["Gap", "about 1 mm, and it must not touch"], ["CCAW", "trades conductivity for mass"], ["Fails by", "heat — adhesive first, wire second"]],
+  uses: "Every moving-coil loudspeaker and headphone, shakers, hard-disk head actuators.",
+  link: "https://en.wikipedia.org/wiki/Voice_coil"
+},
+{
+  id: "marimbarose", cat: "music", name: "Honduras rosewood",
+  sub: "Dalbergia stevensonii bar stock", img: "marimbarose",
+  hook: "The wood concert marimba and xylophone bars are sawn from, chosen for a combination nothing else quite has: dense and oily enough to ring for a long time, but with enough internal damping that the sound is warm rather than the glassy clang of metal. The tuning is cut rather than chosen — an arch is scooped out of the underside of each bar until its first overtone sits a clean two octaves above the fundamental, which is what makes a marimba sound pitched instead of merely struck. CITES listed the whole Dalbergia genus in 2017, so makers now work in padauk, synthetic bar stock and reclaimed billets.",
+  stats: [["Density", "about 0.95–1.1 g/cm³"], ["Tuned by", "undercutting the overtone to 4x"], ["Supply", "CITES-listed since 2017"]],
+  uses: "Marimba and xylophone bars, fine guitar backs, clarinet bodies, knife scales.",
+  link: "https://en.wikipedia.org/wiki/Dalbergia_stevensonii"
+},
+{
+  id: "rhodestine", cat: "music", name: "Rhodes tine",
+  sub: "a hardened steel rod, struck off centre", img: "rhodestine",
+  hook: "An electric piano key does not hit a string: it hits a short stiff steel rod clamped at one end, with a tuned bar beside it. A cantilever has overtones that do not fall into whole-number ratios the way a string's do, so the result is inharmonic — closer to a bell or a tuning fork than a piano, which is the entire sound of a Rhodes. Voicing is geometry: how far the electromagnetic pickup sits from the tine, and how far off centre, sets how much bark is in the attack. Tines are a consumable; they work-harden where they are clamped and snap, and a spare set is part of owning one.",
+  stats: [["Vibrates as", "a cantilever, not a string"], ["Overtones", "inharmonic — bell, not piano"], ["Fails by", "fatigue at the clamp"]],
+  uses: "Fender Rhodes and Rhodes Mark pianos, and the electric piano sound sampled from them.",
+  link: "https://en.wikipedia.org/wiki/Rhodes_piano"
+},
+{
+  id: "metaldome", cat: "music", name: "Metal dome diaphragm",
+  sub: "aluminium, titanium or beryllium, 25 mm", img: "metaldome",
+  hook: "A tweeter dome has to stay a piston across its whole range, so what matters is not stiffness but stiffness against density — the ratio that sets how high the first breakup mode lands. Aluminium puts it just above the top of hearing, titanium a little higher, beryllium far higher still, because sound travels through beryllium roughly three times as fast as through aluminium. The costs are real: metal rings hard when it does break up, where a fabric dome simply loses the energy as heat, and beryllium dust is toxic enough that the metal is machined under licence and the domes come with a warning not to touch a damaged one.",
+  stats: [["Dome", "about 25 mm across, tens of µm thick"], ["Beryllium", "about 3x the sound speed of aluminium"], ["Costs", "a hard ring at breakup, and in Be, toxicity"]],
+  uses: "Hi-fi and studio monitor tweeters, compression driver diaphragms, in-ear and headphone drivers.",
+  link: "https://en.wikipedia.org/wiki/Tweeter"
+},
+{
+  id: "recordvinyl", cat: "music", name: "Record vinyl",
+  sub: "PVC with vinyl acetate and carbon black", img: "recordvinyl",
+  hook: "A record is a copolymer picked for one job: to flow into a groove tens of micrometres wide under a hot stamper, then hold that shape for decades while something drags across it. Vinyl acetate softens the PVC enough to mould at a temperature that does not cook it; carbon black is there for colour and, more usefully, for conductivity — unfilled vinyl builds a static charge that pulls dust straight into the groove, which is why coloured and clear pressings are reliably noisier. Every play wears the modulation a little, and the heavier 180 g pressing buys flatness and handling rather than fidelity.",
+  stats: [["Groove", "tens of micrometres wide"], ["Carbon black", "for antistatic as much as colour"], ["180 g", "flatness and handling, not fidelity"]],
+  uses: "LP and single pressings, lacquer-cut masters, dub plates.",
+  link: "https://en.wikipedia.org/wiki/Phonograph_record"
+},
+{
+  id: "woodwool", cat: "music", name: "Wood-wool cement board",
+  sub: "shaved spruce bound in cement", img: "woodwool",
+  hook: "Long wood shavings sprayed with cement and pressed into a slab loose enough to see through in places — and the gaps are the product. Sound entering the open tangle is lost rubbing against fibre, so the board absorbs across the middle and top of the range without any membrane, facing or cavity to go wrong. Because the binder is mineral it does not burn, rot, or mind being damp, which is why the same material has been nailed to school hall ceilings since the 1920s and left bare in car parks. It is also the cheapest honest absorber there is, and the ugliest.",
+  stats: [["Made of", "wood shavings, mineral-bound"], ["Absorbs by", "friction in the open tangle"], ["Indifferent to", "fire, rot and damp"]],
+  uses: "Hall and classroom ceilings, car park soffits, industrial acoustic linings, permanent formwork.",
+  link: "https://en.wikipedia.org/wiki/Wood_wool"
+},
+{
+  id: "drumshell", cat: "music", name: "Drum shell maple",
+  sub: "plies cross-laminated into a cylinder", img: "drumshell",
+  hook: "Thin maple veneers glued with their grain crossed and pressed round a mould, because what a shell mainly has to do is hold two heads at several hundred newtons of tension without going oval. Most of the note is the heads and the air between them; the shell decides how fast energy leaves them — a thin shell flexes, absorbs and sings, a thick one reflects and projects. The part that changes the sound most is not the species but the bearing edge, the 45-degree knife the head sits on: cut sharp it is bright and open, rounded it is warm and short.",
+  stats: [["Ply", "six to eight, grain crossed"], ["Note", "mostly the heads — the shell colours it"], ["Matters most", "the bearing edge, not the species"]],
+  uses: "Drum kits, snare and orchestral drums, marching percussion.",
+  link: "https://en.wikipedia.org/wiki/Drum"
+},
+{
+  id: "goss", cat: "music", name: "Grain-oriented electrical steel",
+  sub: "the hum in every transformer", img: "goss",
+  hook: "Iron with about three percent silicon, rolled and annealed until nearly every crystal is lined up the same way, so that magnetising it along the rolling direction costs very little energy. The accident is that magnetising it also changes its length, by a few parts in a million — magnetostriction — and the core stretches and relaxes twice for every cycle of the supply. That is the hum: not 50 or 60 hertz but twice it, 100 or 120 hertz with a stack of harmonics, radiated by every transformer on the grid and by the one in a valve amplifier, which is why audio transformers are clamped, varnished and sometimes potted.",
+  stats: [["Silicon", "about 3 percent, grains aligned"], ["Strain", "a few parts per million, per cycle"], ["Hums at", "twice the line frequency, 100 or 120 Hz"]],
+  uses: "Power and audio transformer cores, large motor laminations, inductors and chokes.",
+  link: "https://en.wikipedia.org/wiki/Electrical_steel"
 }
 
 ];
