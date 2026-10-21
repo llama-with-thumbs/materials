@@ -115,8 +115,20 @@ to do, and a card can carry several — declared as `tags: ["warmth"]` in `data.
 `taxonomy.js`. Filtering on a theme shows its own category plus every card tagged with it, so
 merino wool stays filed under ropes and woven materials and still turns up under *Keeping warm*
 along with down, cashmere, qiviut, kapok, fleece, felt, tweed, mineral wool, EPS, aerogel,
-vacuum panels and phase-change material. One theme exists so far; the mechanism is there for
-the rest.
+vacuum panels and phase-change material.
+
+*Inside a duvet* is the second theme, and it is deliberately narrow: fifteen cards that are
+either the filling, the cloth around it, or the thing that stops the filling moving. A card
+is only tagged with it if its own `uses` line says it goes into bedding, which is why camel
+hair and alpaca are not in it even though both are sold as duvets somewhere.
+
+The three jobs, and why each material is chosen for one of them:
+
+| Job | Cards | What the choice decides |
+|---|---|---|
+| Filling | goose down, eiderdown, feather-and-down blend, silk wadding, polyester fibrefill, cotton batting, kapok, milkweed floss, merino | Warmth per gram, what happens when it gets wet, and whether it can be washed. Down wins on warmth and loses completely when damp; polyester survives the wash and dies of compression; cotton is heavy and walks; silk cannot migrate but has no loft at all |
+| Lining and cover | downproof ticking, satin weave, seersucker, flannel, lyocell | Whether the filling stays in, and what the cloth does against skin. Ticking is woven tight enough to stop a quill and is therefore nearly airproof; seersucker lifts off the skin; flannel's nap holds a layer of still air; lyocell moves moisture |
+| Holding it together | thread lattice | Whether the filling can move inside its cover. Quilting lines, baffle walls and the Hainan thread lattice are three answers to one problem: an unrestrained batt migrates to the corners and leaves cold voids |
 
 ## Order
 

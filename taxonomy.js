@@ -41,5 +41,6 @@ window.KINDS = {
 // on a theme shows its own category plus every card tagged with it, so merino wool
 // stays filed under ropes and woven materials and still turns up under Keeping warm.
 window.THEMES = {
-  warmth: "Keeping warm"
+  warmth: "Keeping warm",
+  duvet: "Inside a duvet"
 };

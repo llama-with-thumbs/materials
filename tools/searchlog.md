@@ -81,6 +81,19 @@ would unblock it.
 | Wood fibre and cork board | `wood fibre insulation`, `cork insulation board` | No results at all for either phrase | German and Norwegian terms (`Holzfaserdaemmplatte`, `trefiberisolasjon`) |
 | Hemp insulation | `hemp insulation`, `Hanfdaemmung` | A silica-treatment research figure and one mattress cross-section with four layers in it; neither has hemp as its subject | A labelled hemp batt |
 | Silk floss, the making of | `silk floss` | The MET hit is a woodblock print, not a photograph | — the finished wadding was found instead, see `silkfloss` |
+| Ball or cluster fibre | `Faserbaellchen`, `ball fibre filling`, `polyester fibre balls` | Nothing in either language. It is a real fill and distinct from sheet fibrefill, so it is worth another try | A cut-open pillow, or a maker's product shot |
+| Wool duvet, second attempt | `Wollbettdecke`, `wool duvet`, `ullteppe`, `Wollsteppdecke`, `Schafwolle Vlies` | Still nothing: one Norwegian woollen blanket, no batt and no opened duvet | — |
+| Batiste, percale, Mako sateen | `batiste fabric`, `Perkal`, `Mako Satin` | No results at all for any of the three | — |
+| Feather bed underlay | `Federbett Unterbett`, `feather bed mattress` | Nothing | — |
+| Yak down, second attempt | `khullu`, `yak down fibre` | Nothing; the 2026-10-20 note still stands | — |
+| Bamboo and hollow-core fill | `bamboo fibre filling`, `Hohlfaser`, `hollow fibre cross section` | One Hungarian cross-section of hollow fibres, which is membrane work rather than bedding, and `polyfill` already covers siliconised hollow polyester | — |
+| Duvet interiors in other languages | `羽毛布団`, `布団 綿`, `perina`, `dekbed`, `dyne fjer`, `Steppbett`, `Bettdecke Fuellung`, `comforter fill`, `duvet opened`, `Daunendecke` | Every language returns the same five photographs of made beds. Commons has no photograph of a duvet with its filling visible | Somebody opening one up with a camera |
+| Calico, muslin, nettle cloth | `calico cloth`, `Nesselstoff`, `unbleached cotton fabric`, `muslin fabric`, `Dhaka muslin` | Ghost towns, cats, stinging nettles and museum dresses. Dhaka muslin is worth a card of its own one day, but as a fabric, not as a lining | A bolt or a woven close-up |
+
+**Conclusion after two rounds and roughly fifty queries: the duvet is mined out.** What is on
+Commons is made beds, museum quilts and advertising. The four duvet cards that exist came from
+the only four honest photographs there are. Do not spend another session searching for a fifth
+without a new source of pictures.
 
 ## Rejected images
 
@@ -115,6 +128,7 @@ Rounds so far, so the next one can start somewhere else. Details are in git.
 | 2026-10-20 | Thirteen stage and PA materials: the gear side of Sound & music |
 | 2026-10-20 | Fifteen cards for the new Warmth & insulation category, plus the warmth theme tag on seventeen older cards |
 | 2026-10-21 | Seven more for Warmth & insulation: four that take a duvet apart, three that insulate buildings |
+| 2026-10-21 | Duvet searched out a second time; no new cards, so the findings became the Inside a duvet theme |
 
 ## Sources (the `src` field)
 

@@ -2012,7 +2012,8 @@ window.MATERIALS = [
   hook: "Viscose redone with the chemistry fixed. The pulp dissolves in a non-toxic amine oxide that is recovered and reused at over 99%, and the fibre comes out stronger than viscose wet or dry, with a smooth surface that resists bacteria.",
   stats: [["Solvent recovery", ">99%"], ["Wet strength", "far better than viscose"], ["Moisture", "absorbs 50% more than cotton"]],
   uses: "Shirting and bedding, denim blends, wipes, medical textiles.",
-  link: "https://en.wikipedia.org/wiki/Lyocell"
+  link: "https://en.wikipedia.org/wiki/Lyocell",
+  tags: ["duvet"]
 },
 {
   id: "acrylicfibre", cat: "fibre", name: "Acrylic fibre",
@@ -2029,7 +2030,7 @@ window.MATERIALS = [
   stats: [["Diameter", "15–24 µm"], ["Moisture held", "~30% of its weight"], ["Odour", "naturally resisted"]],
   uses: "Base layers and socks, suiting, insulation, mattress fill.",
   link: "https://en.wikipedia.org/wiki/Merino",
-  tags: ["warmth"]
+  tags: ["warmth", "duvet"]
 },
 {
   id: "mohair", cat: "fibre", name: "Mohair",
@@ -2055,7 +2056,7 @@ window.MATERIALS = [
   stats: [["Buoyancy", "~5× cork by volume"], ["Density", "~0.03 g/cm³"], ["Spinnable", "no"]],
   uses: "Life jackets historically, pillow and mattress fill, zafu cushions, oil-spill absorbent.",
   link: "https://en.wikipedia.org/wiki/Kapok_fibre",
-  tags: ["warmth"]
+  tags: ["warmth", "duvet"]
 },
 {
   id: "rockwool", cat: "fibre", name: "Mineral wool",
@@ -2089,7 +2090,7 @@ window.MATERIALS = [
   stats: [["Fill power", "550–900 in³/oz"], ["Warmth/weight", "unbeaten"], ["Wet", "collapses"]],
   uses: "Sleeping bags, duvets, expedition clothing.",
   link: "https://en.wikipedia.org/wiki/Down_feather",
-  tags: ["warmth"]
+  tags: ["warmth", "duvet"]
 },
 {
   id: "primaloft", cat: "fibre", name: "Synthetic down",
@@ -2567,7 +2568,8 @@ window.MATERIALS = [
   hook: "Two warps are run at different tensions on the same loom, so when the cloth comes off and relaxes, the slack stripes bunch up into permanent puckers. The point is not the look: the ridges hold the fabric off the skin so air moves underneath it, and it never needs ironing, because the wrinkles are the construction.",
   stats: [["Made by", "two warp tensions at once"], ["Pucker", "permanent, woven in"], ["Why", "it stands off the skin"]],
   uses: "Summer suits and shirting, children's clothes, bedding, curtains.",
-  link: "https://en.wikipedia.org/wiki/Seersucker"
+  link: "https://en.wikipedia.org/wiki/Seersucker",
+  tags: ["duvet"]
 },
 {
   id: "flyknit", cat: "fabric", name: "Engineered knit upper",
@@ -2625,7 +2627,8 @@ window.MATERIALS = [
   hook: "The third basic weave, and the one defined by what it avoids: each warp thread passes over four or more wefts before tucking under a single one, and the tuck points are staggered so they never line up. The surface is therefore almost all unbroken float, which reflects light along the filament instead of scattering it at every crossing — the shine is geometry, not fibre, and the back of the same cloth is dull. Fewer crossings also means less friction holding the threads, so satin drapes beautifully and snags on anything.",
   stats: [["Float", "over four or more, under one"], ["Shine", "from the weave, not the fibre"], ["Weakness", "snags — nothing pins the floats"]],
   uses: "Linings and eveningwear, ribbon, bedding, pointe shoes, academic hoods.",
-  link: "https://en.wikipedia.org/wiki/Satin"
+  link: "https://en.wikipedia.org/wiki/Satin",
+  tags: ["duvet"]
 },
 {
   id: "carbonfab", cat: "fabric", name: "Woven carbon reinforcement",
@@ -4004,7 +4007,8 @@ window.MATERIALS = [
   stats: [["Per nest", "about 15 g, gathered after the brood leaves"], ["Fill power", "900-1200, the highest of any fill"], ["Supply", "~4 tonnes a year worldwide"]],
   uses: "Icelandic and Norwegian duvets, a few Arctic parkas, and museum repairs to historic quilts.",
   link: "https://en.wikipedia.org/wiki/Eiderdown",
-  src: ["Icelandic Eiderdown", "https://icelandiceiderdown.com/"]
+  src: ["Icelandic Eiderdown", "https://icelandiceiderdown.com/"],
+  tags: ["duvet"]
 },
 {
   id: "shearling", cat: "warmth", name: "Shearling",
@@ -4064,7 +4068,8 @@ window.MATERIALS = [
   hook: "Warmth from a finishing step rather than a fibre. Flannel is ordinary cloth dragged across rollers covered in fine wire until fibre ends are torn out of the yarn and stand up as a nap, which holds still air against the skin. It adds no material and costs perhaps a tenth of the cloth strength, and it wears out in plain sight: the nap pills first, then rubs away at cuffs and elbows, leaving the thin plain weave that was underneath it all along.",
   stats: [["Made by", "raising a nap on wire-covered rollers"], ["Gains", "loft with no extra yarn"], ["Dies of", "pilling, then bald patches where it rubs"]],
   uses: "Shirts, pyjamas, bedsheets, and the backing of a tartan picnic rug.",
-  link: "https://en.wikipedia.org/wiki/Flannel"
+  link: "https://en.wikipedia.org/wiki/Flannel",
+  tags: ["duvet"]
 },
 {
   id: "polyfill", cat: "warmth", name: "Polyester fibrefill",
@@ -4072,7 +4077,8 @@ window.MATERIALS = [
   hook: "The cheap answer to down, and refreshingly honest about it. Hollow polyester staple is crimped and then coated with silicone so the fibres slide over each other and spring back rather than matting. It costs a fraction of down, ignores damp - it keeps most of its loft wet, where down collapses into porridge - and needs about twice the volume for the same warmth. It also has a lifespan: every compression takes a little permanent set, and a few hundred washes turn a duvet into a sheet.",
   stats: [["Fibre", "hollow, 6-15 denier, silicone-coated"], ["Wet", "keeps most of its loft; down keeps almost none"], ["Dies of", "compression set - flat after a few hundred washes"]],
   uses: "Duvets, pillows, sleeping bags, cheap jackets and every teddy bear.",
-  link: "https://en.wikipedia.org/wiki/Polyester_fiberfill"
+  link: "https://en.wikipedia.org/wiki/Polyester_fiberfill",
+  tags: ["duvet"]
 },
 {
   id: "spaceblanket", cat: "warmth", name: "Rescue blanket",
@@ -4089,7 +4095,8 @@ window.MATERIALS = [
   hook: "The filling in a quilt is carded cotton laid down in crossed layers, and it has exactly one failure mode: it walks. Cotton staple has no crimp to lock it in place, so an unquilted batt migrates to the corners of its cover and leaves cold voids - which is why quilting lines exist at all, and why traditional cotton wadding wants stitching every eighty to a hundred and fifty millimetres. It is also thirstily hygroscopic, and a damp batt is a cold one that stays cold.",
   stats: [["Weight", "about 200-400 g/m2 of carded cotton"], ["Needs", "quilting every 8-15 cm or it balls up"], ["Weakness", "soaks up moisture and holds it"]],
   uses: "Quilts, futons, mattresses, upholstery, and anything restored by a textile conservator.",
-  link: "https://en.wikipedia.org/wiki/Batting_(material)"
+  link: "https://en.wikipedia.org/wiki/Batting_(material)",
+  tags: ["duvet"]
 },
 {
   id: "milkweed", cat: "warmth", name: "Milkweed floss",
@@ -4098,7 +4105,8 @@ window.MATERIALS = [
   stats: [["Fibre", "hollow, ~20 µm, wax-coated"], ["Buoyancy", "about 6x cork by volume"], ["Limit", "will not spin - a fill, never a yarn"]],
   uses: "Jacket and duvet fill, pillow stuffing, oil-spill sorbents, and wartime life vests.",
   link: "https://en.wikipedia.org/wiki/Asclepias",
-  src: ["Crews et al., University of Nebraska", "https://digitalcommons.unl.edu/textiles_facpub/10/"]
+  src: ["Crews et al., University of Nebraska", "https://digitalcommons.unl.edu/textiles_facpub/10/"],
+  tags: ["duvet"]
 },
 {
   id: "possum", cat: "warmth", name: "Brushtail possum fur",
@@ -4134,7 +4142,8 @@ window.MATERIALS = [
   stats: [["Sold as", "a down/feather ratio by mass"], ["Down cluster", "no shaft, holds air in 3D"], ["Failure", "quills migrate out at the seams"]],
   uses: "Duvets, pillows and seat cushions, and the reason a cheap pillow feels crunchy.",
   link: "https://en.wikipedia.org/wiki/Feather",
-  src: ["American Down and Feather Council", "https://downandfeathercouncil.com/what-is-down-feather/"]
+  src: ["American Down and Feather Council", "https://downandfeathercouncil.com/what-is-down-feather/"],
+  tags: ["duvet"]
 },
 {
   id: "silkfloss", cat: "warmth", name: "Silk wadding",
@@ -4142,7 +4151,8 @@ window.MATERIALS = [
   hook: "Silk wadding is neither carded nor blown. A boiled-off cocoon is opened over a frame and drawn by hand into a sheet the size of the quilt, and twenty or thirty sheets are stacked on each other. Every strand in it is continuous and kilometres long, so the filling cannot ball up or walk into a corner and needs no quilting at all. What it cannot do is loft. It warms by lying against the sleeper instead of by holding air, which makes it heavy for its warmth and thin comfort on a cold night.",
   stats: [["Filament", "continuous, 10-15 um"], ["Needs", "no quilting, it cannot migrate"], ["Ruined by", "washing, which mats the layers"]],
   uses: "Silk duvets and summer quilts across east Asia, and the lightest layer in layered bedding.",
-  link: "https://en.wikipedia.org/wiki/Silk"
+  link: "https://en.wikipedia.org/wiki/Silk",
+  tags: ["duvet"]
 },
 {
   id: "threadlattice", cat: "warmth", name: "Thread lattice",
@@ -4150,7 +4160,8 @@ window.MATERIALS = [
   hook: "Before a quilt has a cover it is a loose cotton batt with nothing holding it together. The Hainan answer is a net rather than a seam: thread is run from peg to peg around the frame and laid across the batt in a diagonal lattice, the whole thing is turned, and it is netted again on the other face, so the cotton is caged instead of stitched through. It costs a reel of thread, and it can be unpicked, which is how a batt gets opened and re-carded every few years rather than thrown away.",
   stats: [["Holds", "a loose batt with no stitch through it"], ["Laid", "diagonally, both faces, every few cm"], ["Cost", "the quilt can be aired but not washed"]],
   uses: "Hand-made cotton quilts in southern China, and any batt meant to be re-carded rather than replaced.",
-  link: "https://en.wikipedia.org/wiki/Quilting"
+  link: "https://en.wikipedia.org/wiki/Quilting",
+  tags: ["duvet"]
 },
 {
   id: "ticking", cat: "warmth", name: "Downproof ticking",
@@ -4158,7 +4169,8 @@ window.MATERIALS = [
   hook: "The fill gets the credit and the shell does the work. Ticking is plain cotton driven to three hundred threads in ten centimetres and then calendered flat, so the gaps left are smaller than the tip of a quill; without it a feather duvet quietly empties itself into the bed over one winter. The price of a cloth that down cannot get through is that air cannot get through it either. It drapes stiffly, it breathes badly, and the wax or resin finish that closes the last pores washes out long before the fill is worn out.",
   stats: [["Weave", "plain cotton, 300+ threads per 10 cm"], ["Tested by", "EN 12132, rubbing for feather escape"], ["Wears out", "the downproof finish, not the cloth"]],
   uses: "The inner shells of duvets, pillows and feather beds, and the striped cloth on an old mattress.",
-  link: "https://en.wikipedia.org/wiki/Ticking"
+  link: "https://en.wikipedia.org/wiki/Ticking",
+  tags: ["duvet"]
 },
 {
   id: "cellulosefill", cat: "warmth", name: "Cellulose insulation",
