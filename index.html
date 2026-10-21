@@ -5,10 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Interesting Materials</title>
 <meta name="description" content="A field guide to materials that are interesting for one specific reason — what each one does that nothing else does.">
+<link rel="canonical" href="https://llama-with-thumbs.github.io/materials/">
+<meta name="theme-color" content="#14171c" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f6f5f2" media="(prefers-color-scheme: light)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Interesting Materials">
+<meta property="og:description" content="A field guide to 501 substances that exist because of one specific trick. Each entry says what it does that nothing else does, and where you actually meet it.">
+<meta property="og:url" content="https://llama-with-thumbs.github.io/materials/">
+<meta property="og:image" content="https://llama-with-thumbs.github.io/materials/images/aerogel.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<!-- Pick the theme before the first paint, or a light-mode reader gets a dark flash. -->
+<script>
+  try {
+    var t = localStorage.getItem("materials-theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", t);
+  } catch (e) {}
+</script>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>&#128300;</text></svg>">
 </head>
 <body>
+
+<a class="skip" href="#grid">Skip to the cards</a>
 
 <header>
   <div class="wrap">
@@ -16,7 +35,7 @@
       <div>
         <h1>Interesting Materials<span class="dot">.</span></h1>
         <p class="lede">
-          A field guide to 486 substances that exist because of one specific trick — a polyurethane
+          A field guide to 501 substances that exist because of one specific trick — a polyurethane
           that carries tons without overheating, a ceramic that clamps its own cracks shut, a lashing
           that tightens itself as it dries, a bag woven closed so it has no seam to burst. Each entry
           says what it does that nothing else does, and where you actually meet it.
@@ -29,12 +48,20 @@
       <input id="search" type="search" placeholder="Search — heat, wheel, vacuum, cryogenic…" autocomplete="off">
       <select id="sort" aria-label="Order the cards"></select>
       <div class="filters"></div>
+      <div class="themes"></div>
     </div>
   </div>
 </header>
 
 <main class="wrap">
-  <p id="count"></p>
+  <p id="count" role="status" aria-live="polite"></p>
+  <noscript>
+    <p class="empty">
+      This catalogue builds its cards in the browser, so it needs JavaScript switched on.
+      The raw entries are readable without it: <a href="data.js">data.js</a> holds every
+      material and <a href="credits.js">credits.js</a> every photograph credit.
+    </p>
+  </noscript>
   <div class="grid" id="grid"></div>
 </main>
 
@@ -54,11 +81,13 @@
   <button id="to-end" type="button" title="Jump to the bottom">↓ End</button>
 </div>
 
-<dialog id="lb"><div id="lb-inner"></div></dialog>
+<dialog id="lb" aria-label="Enlarged photograph"><div id="lb-inner"></div></dialog>
 
+<script src="taxonomy.js"></script>
 <script src="credits.js"></script>
 <script src="added.js"></script>
 <script src="data.js"></script>
+<script src="swatch.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

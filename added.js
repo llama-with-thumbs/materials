@@ -487,5 +487,20 @@ window.ADDED = {
   drumstick: "2026-10-20",
   truss: "2026-10-20",
   miccable: "2026-10-20",
-  gel: "2026-10-20"
+  gel: "2026-10-20",
+  eiderdown: "2026-10-20",
+  shearling: "2026-10-20",
+  alpaca: "2026-10-20",
+  angora: "2026-10-20",
+  camelhair: "2026-10-20",
+  vicuna: "2026-10-20",
+  reindeerhide: "2026-10-20",
+  flannel: "2026-10-20",
+  polyfill: "2026-10-20",
+  spaceblanket: "2026-10-20",
+  batting: "2026-10-20",
+  milkweed: "2026-10-20",
+  possum: "2026-10-20",
+  furfelt: "2026-10-20",
+  snow: "2026-10-20"
 };

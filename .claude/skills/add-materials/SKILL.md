@@ -57,12 +57,14 @@ python -I tools/peek.py $SCR/names.txt $SCR/peek
 python -I tools/add_cards.py $SCR/newcards.json --dry
 python -I tools/add_cards.py $SCR/newcards.json
 
-# 6  fetch the images and rebuild credits.js  (>2 min, run in background)
-python -I tools/fetch_images.py
-
-# 7  rebuild the add-order file
-python -I tools/added.py
+# 6  fetch the new images, rebuild credits.js and added.js, fix every count, run both checks
+python -I tools/build.py
 ```
+
+`tools/build.py` is the whole chain in the only order that works, and it stops at the first
+failure. `fetch_images.py` is incremental now — it only asks Commons about rows it does not
+already have on disk, so a fifteen-card round takes twenty seconds, not two minutes. Pass
+`--all` when a caption changed in bulk or a licence on Commons has moved.
 
 `newcards.json` is a list of objects; `tools/add_cards.py` documents the shape and refuses
 duplicate ids, duplicate photographs, bad stats and unknown categories.
@@ -78,6 +80,10 @@ duplicate ids, duplicate photographs, bad stats and unknown categories.
 - `uses` — one sentence of real places you meet it.
 - `link` — an English Wikipedia URL. **Verify it**: titles redirect and go missing. Batch the
   check through the MediaWiki API rather than curling each one (bulk curl gets 429s).
+- `tags` — optional, cross-cutting themes from `taxonomy.js`, e.g. `tags: ["warmth"]`. A card
+  keeps one `cat`, which is what it *is*; a tag is a job it does. Filtering on a theme shows its
+  own category plus everything tagged with it, which is how merino stays under ropes and still
+  appears under Keeping warm.
 - `src` — `["Who says so", "https://..."]`, a second source that is **not** Wikipedia: a maker's
   datasheet, a trade body, a teaching page, a conservation or standards reference. Fetch it before
   committing it. Families that hold up and answer scripts politely: `boedeker.com/Family/<Name>`
@@ -88,10 +94,22 @@ duplicate ids, duplicate photographs, bad stats and unknown categories.
 ## Validate before committing
 
 ```sh
-node tools/check.js                       # structure, credits, shared photos
-node tools/render.js $SCR/out.html        # renders every card, exercises the sorts
+python -I tools/build.py                  # all of it, in order, stopping at the first failure
+node tools/check.js                       # or one at a time: data, credits, images, themes
+node tools/render.js $SCR/out.html        # renders every card, exercises search, sorts, filters
 python -I tools/readme_numbers.py         # every count in README.md and index.html
 ```
+
+Then look at the real page, not just the stub — the DOM stub cannot see layout:
+
+```sh
+"/c/Program Files/Google/Chrome/Application/chrome.exe" --headless --disable-gpu   --hide-scrollbars --window-size=1280,1000 --virtual-time-budget=8000   --screenshot=$SCR/shot.png "file:///C:/Users/laman/Documents/git/Materials/index.html#cat=warmth"
+```
+
+Chrome's old headless clamps the window to 500 px wide, and `--window-size` is in device pixels,
+so a screenshot that looks like it overflows at phone width usually is not overflowing. Log
+`console.log` output with `--enable-logging=stderr --dump-dom` and measure `scrollWidth`
+before believing it.
 
 Then look at each **new** image file with the Read tool. This catches what Commons descriptions
 hide: a texture map with no texture, a silhouette, cloth where steel was promised. Fixing a
@@ -99,6 +117,23 @@ source photo means `rm images/<id>.<ext>` first — `fetch_images.py` skips file
 
 Also confirm with PIL that each new image decodes and is ~900 px wide. Use plain `python` for
 PIL work: `python -I` excludes user site-packages and PIL is not found under it.
+
+## Starting a new category
+
+A category exists when `taxonomy.js` says it does. In order:
+
+1. add it to `window.CATS` in `taxonomy.js`, last, with the label the filter button shows;
+2. if the first word of that label is uninformative on its own, add a short badge word to
+   `window.CAT_TAGS` — the corner of every photograph uses it;
+3. write the cards as usual and run `add_cards.py`: the first card of an undeclared-in-`data.js`
+   category starts its block at the end of the file, and the rest stack after it;
+4. add a row to the Categories table in `README.md` with any number in it — `readme_numbers.py`
+   corrects it, but it refuses to invent a row that is not there;
+5. write the category's paragraph under the table. That part is prose and nobody can generate it.
+
+A theme is the same but in `window.THEMES`, and then `tags: ["name"]` on the cards that earn it.
+If a theme's key matches a category's key, the page shows one button, not two, and it returns
+the union.
 
 ## Log the dead ends
 
@@ -119,8 +154,10 @@ category that grew; that part is prose and has to be written.
 
 ## Gotchas
 
-- The **last category block in `data.js` is music**, so music cards append at the end of the file
-  and everything else inserts after its category's last entry. `tools/add_cards.py` handles both.
+- The **last category block in `data.js` is whatever category came last** — `warmth` at the time
+  of writing — so those cards append at the end of the file and everything else inserts after its
+  own category's last entry. `tools/add_cards.py` handles both, and starts a new block when the
+  category has no cards yet.
 - Count entries with `s.count('\n  id: "')`. A regex over whole entry objects misses the last one,
   which ends `}` with no comma.
 - `credits.js` keys the photographer as **`artist`**, and duplicate-photo checks group by

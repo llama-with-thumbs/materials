@@ -16,7 +16,6 @@ window.MATERIALS = [
   id: "sorbothane", cat: "polymer", name: "Sorbothane",
   sub: "viscoelastic polyether polyurethane",
   img: "sorbothane",
-  swatch: { pattern: "gloss", colors: ["#2b2430", "#6a5878", "#17131c"] },
   hook: "Behaves like a solid at rest and like a liquid on impact timescales. Rubber stores energy and hands it back; Sorbothane turns it into heat instead.",
   stats: [["Durometer", "30–70"], ["Shock absorbed", "~90%+"], ["Rebound", "deliberately terrible"]],
   uses: "Microscope and turntable feet, machine isolation, insoles, speaker mounts.",
@@ -62,7 +61,6 @@ window.MATERIALS = [
   id: "torlon", cat: "polymer", name: "Torlon",
   sub: "polyamide-imide (PAI)",
   img: "torlon",
-  swatch: { pattern: "gloss", colors: ["#5d3113", "#c9802f", "#39200b"] },
   hook: "About the highest compressive strength of any unfilled thermoplastic — and it keeps getting tougher through a post-cure that takes days in an oven.",
   stats: [["Glass transition", "~275 °C"], ["Compressive", "~220+ MPa"], ["Post-cure", "measured in days"]],
   uses: "Valve seats, thrust washers, compressor vanes, downhole tooling.",
@@ -82,7 +80,6 @@ window.MATERIALS = [
   id: "zylon", cat: "polymer", name: "Zylon (PBO)",
   sub: "poly(p-phenylene benzobisoxazole)",
   img: "zylon",
-  swatch: { pattern: "fiber", colors: ["#7d5f12", "#e5c85f", "#4c3807"] },
   hook: "Stronger and stiffer than aramid, and the cautionary tale of the field: it quietly loses strength to heat and humidity, which turned into a body-armour recall.",
   stats: [["Tensile", "~5.8 GPa"], ["Modulus", "~270 GPa"], ["Weakness", "hydrolysis + UV"]],
   uses: "F1 cockpit anti-intrusion panels, tethers, formerly ballistic vests.",
@@ -93,7 +90,6 @@ window.MATERIALS = [
   id: "lignostone", cat: "polymer", name: "Densified wood laminate",
   sub: "Lignostone, Permali",
   img: "lignostone",
-  swatch: { pattern: "laminate", colors: ["#50351d", "#a3733f", "#2f2012"] },
   hook: "Beech veneer soaked in resin and compressed until it is denser than water. It still beats modern plastics on creep at cryogenic temperature, so it never went away.",
   stats: [["Density", "~1.3 g/cm³"], ["Niche", "cryogenic + HV"], ["Age", "a century old"]],
   uses: "LNG tank supports, transformer spacers and clamping, cryostat structures.",
@@ -184,7 +180,6 @@ window.MATERIALS = [
   id: "parylene", cat: "polymer", name: "Parylene",
   sub: "poly(p-xylylene)",
   img: "parylene",
-  swatch: { pattern: "gloss", colors: ["#9fb0b8", "#e3edf1", "#5f7079"] },
   hook: "Applied as a gas, not a liquid. The monomer drifts in under vacuum and polymerises on every surface it touches, so it coats the inside of a connector and the back of a chip in the same pinhole-free micron-thick skin, with no solvent and no curing stress.",
   stats: [["Applied as", "a vapour"], ["Thickness", "~0.1–50 µm"], ["Coverage", "truly conformal"]],
   uses: "PCB conformal coating, implant and stent coatings, MEMS, museum conservation.",
@@ -195,7 +190,6 @@ window.MATERIALS = [
   id: "vectran", cat: "polymer", name: "Vectran",
   sub: "melt-spun liquid crystal polymer",
   img: "vectran",
-  swatch: { pattern: "fiber", colors: ["#9a7b2e", "#f0d98a", "#604a12"] },
   hook: "Aramid-class strength with something aramid and Dyneema both lack: it does not creep. Hang a load on it for a year and it is where you left it, which is why it holds inflatable structures together.",
   stats: [["Creep", "essentially none"], ["Moisture", "unaffected"], ["Cut resistance", "high"]],
   uses: "Mars lander airbags, inflatable habitats, sailcloth and lines, cut-resistant gloves.",
@@ -425,7 +419,8 @@ window.MATERIALS = [
   stats: [["Density", "15–30 kg/m³"], ["λ", "~0.035 W/m·K"], ["Rebound", "none, by design"]],
   uses: "Helmets, packaging, insulation board, void formers in concrete.",
   link: "https://en.wikipedia.org/wiki/Polystyrene",
-  src: ["EPS Industry Alliance", "https://www.epsindustry.org/"]
+  src: ["EPS Industry Alliance", "https://www.epsindustry.org/"],
+  tags: ["warmth"]
 },
 {
   id: "pdms", cat: "polymer", name: "PDMS",
@@ -439,7 +434,6 @@ window.MATERIALS = [
 {
   id: "pebax", cat: "polymer", name: "Pebax",
   sub: "polyether block amide", img: "pebax",
-  swatch: { pattern: "gloss", colors: ["#d8dde3", "#f3f6f9", "#a9b3bd"] },
   hook: "A block copolymer that hands you stiffness and bounce on the same dial. Foamed, it returns more energy per gram than any other midsole material, which is why every marathon record of the last decade has been run on top of it.",
   stats: [["Density, foamed", "~0.1 g/cm³"], ["Energy return", "~85%"], ["Cold", "flexible to −40 °C"]],
   uses: "Running shoe midsoles, ski boots, catheters, sports film.",
@@ -449,7 +443,6 @@ window.MATERIALS = [
 {
   id: "pei", cat: "polymer", name: "PEI (Ultem)",
   sub: "polyetherimide", img: "pei",
-  swatch: { pattern: "gloss", colors: ["#b06a1f", "#e0a657", "#6d3d0d"] },
   hook: "An amber transparent plastic that passes aircraft cabin fire tests without any flame retardant added — the imide rings simply char instead of feeding the fire. It also takes repeated steam autoclaving.",
   stats: [["Tg", "217 °C"], ["LOI", "47%"], ["Smoke", "very low"]],
   uses: "Aircraft interior panels, sterilisable medical trays, high-temp 3D printing.",
@@ -495,7 +488,6 @@ window.MATERIALS = [
 {
   id: "cellacetate", cat: "polymer", name: "Cellulose acetate",
   sub: "acetylated cotton linter or wood pulp", img: "cellacetate",
-  swatch: { pattern: "speckle", colors: ["#6b4320", "#b9813f", "#3a2310"] },
   hook: "A plastic made from trees, dyed in the block rather than on the surface, so colour runs all the way through and polishes back to a shine after years on a face. It is still the only material good eyewear is made from.",
   stats: [["Base", "plant cellulose"], ["Colour", "through the block"], ["Repolish", "indefinitely"]],
   uses: "Spectacle frames, guitar picks, cigarette filters, photographic film base.",
@@ -577,7 +569,6 @@ window.MATERIALS = [
   id: "gummetal", cat: "metal", name: "Gum Metal",
   sub: "Ti–Nb–Ta–Zr–O",
   img: "gummetal",
-  swatch: { pattern: "brushed", colors: ["#434a52", "#98a3ad", "#2b3137"] },
   hook: "A titanium alloy that breaks the usual rules: very low stiffness, large elastic strain, and it can be cold-worked enormously without work-hardening the way metals are supposed to.",
   stats: [["Elastic strain", "~2.5%"], ["Modulus", "~55–65 GPa"], ["Cold work", "90%+"]],
   uses: "Watch springs, eyeglass frames, medical devices, research curiosities.",
@@ -619,7 +610,6 @@ window.MATERIALS = [
   id: "metglas", cat: "metal", name: "Metglas",
   sub: "amorphous Fe–Si–B ribbon",
   img: "metglas",
-  swatch: { pattern: "ribbon", colors: ["#394049", "#b5bdc6", "#1f2328"] },
   hook: "Molten alloy squirted onto a spinning chilled wheel and frozen into a glassy ribbon 25 µm thick. With no crystal structure there is almost no hysteresis loss.",
   stats: [["Thickness", "~25 µm"], ["Core loss", "~70–80% below Si steel"], ["Quench", "~10⁶ K/s"]],
   uses: "Distribution transformer cores, current sensors, anti-theft tags.",
@@ -629,7 +619,6 @@ window.MATERIALS = [
   id: "terfenol", cat: "metal", name: "Terfenol-D",
   sub: "Tb–Dy–Fe",
   img: "terfenol",
-  swatch: { pattern: "grain", colors: ["#2d3136", "#848c94", "#171a1d"] },
   hook: "Put it in a magnetic field and it physically grows. The strain is small, but the force is enormous and the response is instant — an actuator with no moving parts.",
   stats: [["Strain", "~1000–2000 ppm"], ["Response", "microseconds"], ["Downside", "brittle, costly"]],
   uses: "Sonar projectors, precision positioning, ultrasonic machining, active damping.",
@@ -663,7 +652,6 @@ window.MATERIALS = [
   id: "maraging", cat: "metal", name: "Maraging steel",
   sub: "18Ni(250), 18Ni(300)",
   img: "maraging",
-  swatch: { pattern: "brushed", colors: ["#3f464e", "#a7b0b9", "#242930"] },
   hook: "Takes its strength from intermetallic precipitates during a gentle 480 °C age, not from quenching. Almost nothing moves, so you can machine it complete and harden it afterwards.",
   stats: [["UTS", "1700–2400 MPa"], ["Aging", "~480 °C"], ["Distortion", "minimal"]],
   uses: "Rocket motor cases, tooling and dies, fencing blades, centrifuge rotors.",
@@ -681,7 +669,6 @@ window.MATERIALS = [
   id: "fields", cat: "metal", name: "Field's metal",
   sub: "Bi–In–Sn eutectic",
   img: "fields",
-  swatch: { pattern: "gloss", colors: ["#656b73", "#d4dae1", "#3f444a"] },
   hook: "A non-toxic alloy that melts in hot water. Handy for casting at kitchen temperatures, and for fusible links that are meant to fail at a known number.",
   stats: [["Melting point", "62 °C"], ["Toxicity", "no lead or cadmium"], ["Mix", "Bi 32.5 / In 51 / Sn 16.5"]],
   uses: "Low-temperature casting, prototyping, fusible safety links, demonstrations.",
@@ -714,7 +701,6 @@ window.MATERIALS = [
 {
   id: "al7075", cat: "metal", name: "7075 aluminium",
   sub: "Al–Zn–Mg–Cu, T6 temper", img: "al7075",
-  swatch: { pattern: "brushed", colors: ["#9aa3ab", "#d4dade", "#6b747c"] },
   hook: "An aluminium as strong as mild steel, invented in secret in Japan in the 1930s and flown on the Zero. The strength comes from zinc precipitates grown by baking, and it is bought at the price of weldability and corrosion resistance.",
   stats: [["Tensile, T6", "~570 MPa"], ["Density", "2.81 g/cm³"], ["Welding", "essentially not"]],
   uses: "Aircraft spars, rifle receivers, climbing hardware, mould plate.",
@@ -755,7 +741,6 @@ window.MATERIALS = [
 {
   id: "ss316l", cat: "metal", name: "316L stainless",
   sub: "Fe–18Cr–10Ni–2Mo, low carbon", img: "ss316l",
-  swatch: { pattern: "brushed", colors: ["#8d969e", "#cdd4d9", "#5d666e"] },
   hook: "The default when something has to be clean, welded and left alone. The 2% molybdenum is what buys chloride resistance, and the L — carbon under 0.03% — stops chromium carbides forming at the weld and eating the corrosion resistance there.",
   stats: [["Molybdenum", "2–3%"], ["Carbon", "<0.03%"], ["Magnetic", "no, until cold-worked"]],
   uses: "Food and pharma plant, marine fittings, surgical instruments, exhausts.",
@@ -852,7 +837,6 @@ window.MATERIALS = [
 {
   id: "cupronickel", cat: "metal", name: "Cupronickel",
   sub: "Cu–10Ni or Cu–30Ni", img: "cupronickel",
-  swatch: { pattern: "brushed", colors: ["#9b9a94", "#d2d1c9", "#6a6963"] },
   hook: "Copper ions leaching slowly from the surface keep barnacles and weed from ever settling, so a cupronickel hull or intake pipe stays clean without paint. It is also why most 'silver' coins are not silver.",
   stats: [["Nickel", "10–30%"], ["Biofouling", "self-resisting"], ["Seawater", "decades of service"]],
   uses: "Ship hull cladding, condenser tubing, seawater piping, coinage.",
@@ -877,7 +861,6 @@ window.MATERIALS = [
 {
   id: "babbitt", cat: "metal", name: "Babbitt metal",
   sub: "tin or lead matrix with hard crystals", img: "babbitt",
-  swatch: { pattern: "speckle", colors: ["#b8bcc0", "#e8ebee", "#7d8287"] },
   hook: "A deliberately weak bearing lining: hard crystals sit in a soft matrix that wears away around them, leaving channels for oil and letting grit bury itself harmlessly. The bearing is sacrificed instead of the million-dollar shaft.",
   stats: [["Hardness", "~20–30 HB"], ["Structure", "hard phase in soft matrix"], ["Role", "the sacrificial part"]],
   uses: "Steam and gas turbine journal bearings, large engines, machine tool ways.",
@@ -977,7 +960,6 @@ window.MATERIALS = [
   id: "macor", cat: "ceramic", name: "Macor",
   sub: "machinable glass-ceramic",
   img: "macor",
-  swatch: { pattern: "speckle", colors: ["#ded9d0", "#faf8f4", "#bdb6a9"] },
   hook: "Mica crystals in a glass matrix: the crystals deflect and arrest the cutting edge, so you can drill and tap it on an ordinary mill — then run the finished part at 800 °C.",
   stats: [["Continuous use", "800 °C"], ["Porosity", "zero"], ["Tooling", "standard metalworking"]],
   uses: "Vacuum feedthroughs, laser and plasma fixtures, precision insulators.",
@@ -995,7 +977,6 @@ window.MATERIALS = [
   id: "cordierite", cat: "ceramic", name: "Cordierite",
   sub: "2MgO·2Al₂O₃·5SiO₂",
   img: "cordierite",
-  swatch: { pattern: "honeycomb", colors: ["#b2a085", "#e6dcc8", "#857760"] },
   hook: "Barely expands when heated, so it can go from cold to glowing without cracking. Extruded into a honeycomb, it is the substrate inside essentially every catalytic converter ever fitted.",
   stats: [["CTE", "~1–2 ppm/K"], ["Thermal shock", "excellent"], ["Form", "extruded honeycomb"]],
   uses: "Catalytic converter and diesel filter substrates, kiln furniture, heat shields.",
@@ -1172,7 +1153,6 @@ window.MATERIALS = [
 {
   id: "chalcogenide", cat: "ceramic", name: "Chalcogenide glass",
   sub: "Ge–As–Se / As₂S₃", img: "chalcogenide",
-  swatch: { pattern: "gloss", colors: ["#23262a", "#5b6066", "#0b0c0e"] },
   hook: "Looks like a black mirror and is completely opaque to the eye, yet thermal infrared passes straight through it. It can be moulded like plastic, which is why thermal cameras got cheap enough to clip onto a phone.",
   stats: [["Transmits", "8–12 µm"], ["Visible", "opaque"], ["Forming", "precision moulded"]],
   uses: "Thermal imaging lenses, IR fibre, rewritable optical disc layers, phase-change memory.",
@@ -1181,7 +1161,6 @@ window.MATERIALS = [
 {
   id: "zblan", cat: "ceramic", name: "ZBLAN fluoride glass",
   sub: "ZrF₄–BaF₂–LaF₃–AlF₃–NaF", img: "zblan",
-  swatch: { pattern: "gloss", colors: ["#cfe3e8", "#f2fafc", "#9ab6bf"] },
   hook: "In theory it could carry light a hundred times further than silica fibre. In practice gravity lets crystals nucleate and settle while it cools, ruining it — so it is now being drawn in orbit, where there is nothing to settle.",
   stats: [["Theoretical loss", "~0.001 dB/km"], ["Problem", "crystallises on cooling"], ["Drawn on", "the ISS, since 2017"]],
   uses: "Mid-IR fibre lasers, fibre amplifiers, proposed ultra-long-haul links.",
@@ -1214,7 +1193,6 @@ window.MATERIALS = [
 {
   id: "tib2", cat: "ceramic", name: "Titanium diboride",
   sub: "TiB₂", img: "tib2",
-  swatch: { pattern: "gloss", colors: ["#5a5f63", "#9aa0a5", "#32363a"] },
   hook: "A ceramic that conducts electricity better than titanium metal while being nearly as hard as boron carbide. That combination lets it be cut by EDM — you can spark-erode shapes into a ceramic, which is normally impossible.",
   stats: [["Hardness", "~25 GPa"], ["Resistivity", "~15 µΩ·cm"], ["Melting", "3230 °C"]],
   uses: "Aluminium smelter cathodes, crucibles for molten metal, armour, cutting tools.",
@@ -1223,7 +1201,6 @@ window.MATERIALS = [
 {
   id: "isographite", cat: "ceramic", name: "Isostatic graphite",
   sub: "isotropically pressed fine-grain carbon", img: "isographite",
-  swatch: { pattern: "grain", colors: ["#3a3d40", "#6e7276", "#202224"] },
   hook: "Unlike every other structural material, it gets stronger as it gets hotter, peaking around 2500 °C. It also machines like chalk and conducts electricity, so it is the electrode that burns a shape into hardened steel.",
   stats: [["Strength peak", "~2500 °C"], ["Grain", "<10 µm"], ["Machining", "like dense chalk"]],
   uses: "EDM electrodes, continuous casting dies, crucibles, rocket nozzle throats.",
@@ -1264,7 +1241,6 @@ window.MATERIALS = [
 {
   id: "azs", cat: "ceramic", name: "Fused-cast AZS",
   sub: "alumina–zirconia–silica refractory", img: "azs",
-  swatch: { pattern: "speckle", colors: ["#cdc7b8", "#eee9dc", "#9a9484"] },
   hook: "Melted at over 2000 °C and cast like metal into blocks, rather than pressed and fired. The result stands in molten glass for ten or fifteen years without dissolving into it — a glass furnace is rebuilt around the AZS, not the other way round.",
   stats: [["Cast at", ">2000 °C"], ["Campaign life", "10–15 years"], ["ZrO₂", "33–41%"]],
   uses: "Glass melting furnace linings, throats and feeders.",
@@ -1372,7 +1348,6 @@ window.MATERIALS = [
   id: "nextel", cat: "composite", name: "Nextel ceramic fabric",
   sub: "alumina–boria–silica fibre",
   img: "nextel",
-  swatch: { pattern: "weave", colors: ["#d6d1c7", "#f5f3ed", "#b0a99b"] },
   hook: "A ceramic you can weave, drape and sew. It takes a flame straight on, which is why it forms the outer layers of spacecraft shielding and furnace curtains.",
   stats: [["Continuous use", "1200–1400 °C"], ["Form", "cloth, sleeve, tape"], ["Handling", "like fabric"]],
   uses: "Thermal protection blankets, furnace curtains, CMC preforms, flame barriers."
@@ -1391,7 +1366,8 @@ window.MATERIALS = [
   hook: "A gel with the liquid removed and the structure left standing. Almost all of it is air, held in pores too small for air molecules to carry heat across.",
   stats: [["Density", "from 0.001 g/cm³"], ["Conductivity", "0.012–0.02 W/m·K"], ["Air", "~99.8%"]],
   uses: "Spacecraft and pipeline insulation, comet dust capture, insulating blankets.",
-  link: "https://en.wikipedia.org/wiki/Aerogel"
+  link: "https://en.wikipedia.org/wiki/Aerogel",
+  tags: ["warmth"]
 },
 {
   id: "metalfoam", cat: "composite", name: "Metal foam",
@@ -1468,7 +1444,6 @@ window.MATERIALS = [
 {
   id: "nomexcore", cat: "composite", name: "Nomex honeycomb",
   sub: "phenolic-dipped aramid paper core", img: "nomexcore",
-  swatch: { pattern: "honeycomb", colors: ["#c79a3c", "#e9c877", "#8a6520"] },
   hook: "Aramid paper folded into cells and dipped in phenolic resin until it is rigid. Lighter than aluminium core, does not corrode, does not conduct, and does not take a permanent dent — it springs back where the metal version stays crushed.",
   stats: [["Density", "29–130 kg/m³"], ["Dent", "recovers"], ["Flame", "self-extinguishing"]],
   uses: "Aircraft interior panels, radomes, racing bodywork, skis and snowboards.",
@@ -1533,7 +1508,6 @@ window.MATERIALS = [
 {
   id: "smc", cat: "composite", name: "Sheet moulding compound",
   sub: "SMC, chopped glass in thickened polyester", img: "smc",
-  swatch: { pattern: "speckle", colors: ["#6f756e", "#a4a99f", "#464b45"] },
   hook: "A leathery sheet of resin and chopped fibre that is pressed into a hot steel die and cured in two minutes. It is how a composite body panel gets made at car-plant rate instead of boat-yard rate, and it does not dent or rust.",
   stats: [["Cycle", "1–3 minutes"], ["Glass", "25–30%"], ["Finish", "paintable Class A"]],
   uses: "Truck and car body panels, electrical enclosures, lorry cabs, bathroom units.",
@@ -1542,7 +1516,6 @@ window.MATERIALS = [
 {
   id: "forgedcomposite", cat: "composite", name: "Forged composite",
   sub: "chopped-tow compression moulded CFRP", img: "forgedcomposite",
-  swatch: { pattern: "speckle", colors: ["#2b2e31", "#70757a", "#141618"] },
   hook: "Short random carbon tows squeezed into a die instead of laid up by hand. You lose the directional strength of a laminate and gain the ability to mould ribs, bosses and thick sections in one shot — and a marbled surface nobody can fake.",
   stats: [["Tow length", "~25–50 mm"], ["Cycle", "minutes"], ["Shapes", "3D, not just shells"]],
   uses: "Supercar structural parts, watch cases, bicycle components, tool bodies.",
@@ -1583,7 +1556,6 @@ window.MATERIALS = [
 {
   id: "pvcfoam", cat: "composite", name: "Structural PVC foam core",
   sub: "cross-linked PVC, Divinycell type", img: "pvcfoam",
-  swatch: { pattern: "powder", colors: ["#c8b78f", "#e6dcc0", "#95855f"] },
   hook: "A rigid closed-cell foam engineered to carry shear rather than to insulate. In a sandwich panel the skins take tension and compression and the core's only job is to keep them apart and stop them sliding — and it absorbs no water if the skin is pierced.",
   stats: [["Density", "40–250 kg/m³"], ["Cells", "closed"], ["Carries", "shear, not bending"]],
   uses: "Boat hulls and decks, wind turbine blade shells, rail car panels.",
@@ -1600,7 +1572,6 @@ window.MATERIALS = [
 {
   id: "g10", cat: "composite", name: "G10 / FR-4",
   sub: "woven glass cloth in epoxy", img: "g10",
-  swatch: { pattern: "weave", colors: ["#2f6b3a", "#5ea06b", "#1b3f22"] },
   hook: "The green board every circuit lives on, and a superb structural material in its own right: dimensionally stable, an excellent insulator, and unbothered by water. FR-4 is the same thing with bromine added so it self-extinguishes.",
   stats: [["Dielectric strength", "~20 kV/mm"], ["Water absorption", "<0.1%"], ["Tg", "130–180 °C"]],
   uses: "Printed circuit boards, knife scales, transformer spacers, cryogenic supports.",
@@ -1633,7 +1604,6 @@ window.MATERIALS = [
 {
   id: "fgm", cat: "composite", name: "Functionally graded material",
   sub: "FGM, continuously varying composition", img: "fgm",
-  swatch: { pattern: "laminate", colors: ["#8d6a4a", "#d8d2cc", "#3c4147"] },
   hook: "Instead of bonding ceramic to metal and living with the stress at the interface, the composition is swept gradually from one to the other across a few millimetres. There is no interface left to delaminate — the idea came out of Japanese hypersonic work in the 1980s.",
   stats: [["Interface", "none — a gradient"], ["Made by", "powder grading, DED printing"], ["Origin", "Japan, 1984"]],
   uses: "Thermal barrier layers, rocket nozzles, cutting tools, graded bone implants.",
@@ -1881,7 +1851,8 @@ window.MATERIALS = [
   hook: "Fabric with no weave at all. Wool scales ratchet past each other under heat, moisture and pressure and then cannot slide back, locking into a solid sheet. It has no grain, so it never frays and cuts in any direction.",
   stats: [["Structure", "no weave, no grain"], ["Edges", "never fray"], ["Age", "oldest known fabric"]],
   uses: "Piano hammers and dampers, gaskets and washers, polishing wheels, yurts, hats, acoustic panels.",
-  link: "https://en.wikipedia.org/wiki/Felt"
+  link: "https://en.wikipedia.org/wiki/Felt",
+  tags: ["warmth"]
 },
 {
   id: "paracord", cat: "fibre", name: "Paracord 550",
@@ -1958,7 +1929,6 @@ window.MATERIALS = [
 {
   id: "pprope", cat: "fibre", name: "Polypropylene rope",
   sub: "PP monofilament or split film", img: "pprope",
-  swatch: { pattern: "fiber", colors: ["#d9b321", "#f3dd71", "#9a7c10"] },
   hook: "The only common rope that floats, which is why a throwline is always this garish yellow. The price is sunlight: a few seasons of UV and it turns to powder in your hand, and it melts at a temperature a hand-over-hand descent can reach.",
   stats: [["Density", "0.91 g/cm³ — floats"], ["UV life", "1–3 seasons"], ["Melts", "~165 °C"]],
   uses: "Rescue throwlines, water-ski ropes, barrier rope, agriculture and baling.",
@@ -1983,7 +1953,6 @@ window.MATERIALS = [
 {
   id: "webbing", cat: "fibre", name: "Tubular webbing",
   sub: "flat-woven nylon tube", img: "webbing",
-  swatch: { pattern: "weave", colors: ["#3a3d42", "#6d7278", "#1e2024"] },
   hook: "Woven as a continuous tube on a shuttle loom rather than a strip folded over. There is no seam to abrade, it drapes flat over an edge instead of rolling onto a corner, and a hitch tied in it does not want to slip.",
   stats: [["Strength", "~18 kN in 25 mm"], ["Weave", "seamless tube"], ["Edge load", "spread flat"]],
   uses: "Climbing anchors and slings, rescue harnesses, slacklines, load restraint.",
@@ -2024,7 +1993,6 @@ window.MATERIALS = [
 {
   id: "monofil", cat: "fibre", name: "Nylon monofilament",
   sub: "single-strand extruded line", img: "monofil",
-  swatch: { pattern: "fiber", colors: ["#c3ccd2", "#eef3f6", "#8f9aa2"] },
   hook: "A single smooth strand rather than a bundle, so it is nearly invisible in water and knots bite into themselves. It also absorbs water and stretches, which is forgiving on a strike and infuriating when you need to feel the bottom.",
   stats: [["Stretch", "~20–30%"], ["Refractive index", "close to water"], ["Weakness", "UV, ~1 season"]],
   uses: "Fishing line, string trimmers, surgical suture, brush bristles, netting.",
@@ -2060,7 +2028,8 @@ window.MATERIALS = [
   hook: "Each fibre is crimped and scaled, trapping air so it insulates even soaked, and the scales break down the bacteria that make sweat smell — it is the only common fibre you can wear for a week. Under 19 µm it stops prickling the skin.",
   stats: [["Diameter", "15–24 µm"], ["Moisture held", "~30% of its weight"], ["Odour", "naturally resisted"]],
   uses: "Base layers and socks, suiting, insulation, mattress fill.",
-  link: "https://en.wikipedia.org/wiki/Merino"
+  link: "https://en.wikipedia.org/wiki/Merino",
+  tags: ["warmth"]
 },
 {
   id: "mohair", cat: "fibre", name: "Mohair",
@@ -2068,7 +2037,8 @@ window.MATERIALS = [
   hook: "A hair with almost no crimp and flat scales, so it reflects light like silk and takes dye to a brilliance wool cannot reach. It is also unusually resilient — a mohair plush pile stands back up, which is why cinema seats and teddy bears used it.",
   stats: [["Diameter", "25–45 µm"], ["Lustre", "silk-like"], ["Resilience", "pile recovers"]],
   uses: "Suiting and upholstery, doll and teddy plush, ski climbing skins, violin bow hair substitute.",
-  link: "https://en.wikipedia.org/wiki/Mohair"
+  link: "https://en.wikipedia.org/wiki/Mohair",
+  tags: ["warmth"]
 },
 {
   id: "ramie", cat: "fibre", name: "Ramie",
@@ -2084,7 +2054,8 @@ window.MATERIALS = [
   hook: "Each fibre is a sealed hollow tube, so it floats eight times better than cork by weight and holds thirty times its own weight in water out. It filled every life jacket until foam arrived — but it is too slippery and brittle to spin into yarn.",
   stats: [["Buoyancy", "~5× cork by volume"], ["Density", "~0.03 g/cm³"], ["Spinnable", "no"]],
   uses: "Life jackets historically, pillow and mattress fill, zafu cushions, oil-spill absorbent.",
-  link: "https://en.wikipedia.org/wiki/Kapok_fibre"
+  link: "https://en.wikipedia.org/wiki/Kapok_fibre",
+  tags: ["warmth"]
 },
 {
   id: "rockwool", cat: "fibre", name: "Mineral wool",
@@ -2092,7 +2063,8 @@ window.MATERIALS = [
   hook: "Molten rock thrown off a spinning wheel into fibres, the same way candy floss is made. The result insulates, absorbs sound, and simply does not burn — it stays intact at 1000 °C, so it is the fire-stopping insulation rather than the cheap one.",
   stats: [["Melting", ">1000 °C"], ["λ", "~0.035 W/m·K"], ["Also", "acoustic absorber"]],
   uses: "Building and pipe insulation, fire stopping, acoustic panels, hydroponic growing media.",
-  link: "https://en.wikipedia.org/wiki/Mineral_wool"
+  link: "https://en.wikipedia.org/wiki/Mineral_wool",
+  tags: ["warmth"]
 },
 {
   id: "wiremesh", cat: "fibre", name: "Woven wire cloth",
@@ -2116,21 +2088,21 @@ window.MATERIALS = [
   hook: "Not a fibre but a tiny three-dimensional cluster with no central shaft, so it traps more still air per gram than anything manufactured. Still the best insulation by weight ever measured — and it fails completely when wet, which nothing has fixed.",
   stats: [["Fill power", "550–900 in³/oz"], ["Warmth/weight", "unbeaten"], ["Wet", "collapses"]],
   uses: "Sleeping bags, duvets, expedition clothing.",
-  link: "https://en.wikipedia.org/wiki/Down_feather"
+  link: "https://en.wikipedia.org/wiki/Down_feather",
+  tags: ["warmth"]
 },
 {
   id: "primaloft", cat: "fibre", name: "Synthetic down",
   sub: "fine crimped polyester microfibre", img: "primaloft",
-  swatch: { pattern: "fiber", colors: ["#dfe3e7", "#ffffff", "#b2b8be"] },
   hook: "Developed for the US Army when they wanted something that worked soaked. It gets about 70% of down's warmth per gram and keeps most of it when wet, because polyester holds no water — a straight trade of peak performance for reliability.",
   stats: [["vs down", "~70% warmth/weight"], ["Wet", "retains most loft"], ["Dries", "hours, not days"]],
   uses: "Insulated jackets and sleeping bags, work wear, marine clothing.",
-  link: "https://en.wikipedia.org/wiki/Synthetic_fiber"
+  link: "https://en.wikipedia.org/wiki/Synthetic_fiber",
+  tags: ["warmth"]
 },
 {
   id: "emifabric", cat: "fibre", name: "Conductive fabric",
   sub: "silver- or nickel-plated nylon ripstop", img: "emifabric",
-  swatch: { pattern: "weave", colors: ["#a8aeb4", "#dfe4e8", "#71777d"] },
   hook: "A textile that is also a Faraday cage: metal plated onto each fibre gives a cloth that drapes and sews but blocks 50–80 dB of radio. Silver versions also kill odour-causing bacteria, which is how it ended up in socks.",
   stats: [["Shielding", "50–80 dB"], ["Surface resistance", "<0.1 Ω/sq"], ["Plating", "Ag, Ni or Cu"]],
   uses: "EMI gaskets and shielding bags, ESD garments, touchscreen gloves, medical electrodes.",
@@ -2155,7 +2127,6 @@ window.MATERIALS = [
 {
   id: "technora", cat: "fibre", name: "Technora",
   sub: "para-aramid copolymer", img: "technora",
-  swatch: { pattern: "fiber", colors: ["#c9a63f", "#f0d98a", "#8e7122"] },
   hook: "An aramid built to survive the things that eat aramids. Swapping part of the backbone for an ether link makes it shrug off the steam, acid and seawater that hydrolyse Kevlar, while keeping most of the strength.",
   stats: [["Tensile", "~3.4 GPa"], ["Modulus", "~70 GPa"], ["Hot water", "far better than standard aramid"]],
   uses: "Brake and hydraulic hose reinforcement, timing belt cord, optical cable strength members, racing yacht lines.",
@@ -2164,7 +2135,6 @@ window.MATERIALS = [
 {
   id: "m5fibre", cat: "fibre", name: "M5 (PIPD)",
   sub: "poly(pyridobisimidazole)", img: "m5fibre",
-  swatch: { pattern: "fiber", colors: ["#d8cf9e", "#f4efcf", "#a39a6a"] },
   hook: "The one rigid-rod fibre designed to hold hydrogen bonds sideways between its chains, so it resists being squashed instead of only being pulled. On paper it beat everything. It never left the pilot plant.",
   stats: [["Predicted modulus", "300–450 GPa"], ["Compression", "best of the rigid rods"], ["Status", "never commercialised"]],
   uses: "Armour and cable prototypes only; the benchmark everyone cites and nobody can buy.",
@@ -2173,7 +2143,6 @@ window.MATERIALS = [
 {
   id: "basofil", cat: "fibre", name: "Melamine fibre",
   sub: "melamine-formaldehyde, Basofil", img: "basofil",
-  swatch: { pattern: "fiber", colors: ["#e2ddd2", "#f8f6f1", "#b4ae9f"] },
   hook: "A thermoset spun as a fibre, which means it has no melting point to reach. It chars, holds its shape and keeps heat off the skin for a fraction of the price of aramid. It is simply too weak to be the strength of the garment.",
   stats: [["Limiting oxygen index", "~32%"], ["Continuous use", "190–200 °C"], ["Tenacity", "low, always blended"]],
   uses: "Firefighter hoods and liners, aircraft seat fire blocking, hot gas filter felts, mattress barriers.",
@@ -2182,7 +2151,6 @@ window.MATERIALS = [
 {
   id: "preoxpan", cat: "fibre", name: "Oxidised PAN",
   sub: "stabilised polyacrylonitrile, Panox", img: "preoxpan",
-  swatch: { pattern: "fiber", colors: ["#2a2b2d", "#5e6063", "#131415"] },
   hook: "Carbon fibre stopped halfway. Heat acrylic fibre in air and it cyclises into a black, soft, infusible ladder polymer at about 62% carbon. Carry on and you get carbon fibre; stop here and you get something that stays textile and will not burn.",
   stats: [["Carbon", "~62%"], ["Limiting oxygen index", "~45%"], ["Shrinkage in flame", "almost none"]],
   uses: "Fire blankets, flame barriers under aircraft and vehicle seats, firefighter underlayers, friction material preforms.",
@@ -2191,7 +2159,6 @@ window.MATERIALS = [
 {
   id: "silicafibre", cat: "fibre", name: "High-silica fibre",
   sub: "acid-leached glass fibre, 96–99% SiO₂", img: "silicafibre",
-  swatch: { pattern: "weave", colors: ["#dcdfe2", "#f6f8f9", "#aeb3b8"] },
   hook: "Ordinary glass cloth soaked in acid until everything except the silica has been washed out of it. What is left behaves like quartz but drapes like a textile: it takes a welding spark or a rocket exhaust and stays a cloth.",
   stats: [["Silica", "96–99%"], ["Continuous use", "~1000 °C"], ["Short excursions", "~1600 °C"]],
   uses: "Welding blankets and curtains, furnace gaskets, ablative liners, exhaust wrap.",
@@ -2200,7 +2167,6 @@ window.MATERIALS = [
 {
   id: "ptfethread", cat: "fibre", name: "PTFE thread",
   sub: "expanded PTFE sewing thread, Tenara", img: "ptfethread",
-  swatch: { pattern: "fiber", colors: ["#eef1f3", "#ffffff", "#c2c7cb"] },
   hook: "Awnings used to fail at the stitching, not the cloth, because polyester thread sitting proud of the surface takes the full UV dose. This thread is chemically indifferent to sunlight, chlorine and salt, so the seam now outlives the fabric it holds together.",
   stats: [["UV life", "effectively unlimited"], ["Strength", "below polyester"], ["Handling", "slippery, needs tension tuning"]],
   uses: "Marine canvas, awnings, tensile structures, pool covers, outdoor furniture.",
@@ -2209,7 +2175,6 @@ window.MATERIALS = [
 {
   id: "kuralon", cat: "fibre", name: "PVA fibre",
   sub: "polyvinyl alcohol, Kuralon", img: "kuralon",
-  swatch: { pattern: "fiber", colors: ["#e6e9ec", "#fbfcfd", "#b7bcc1"] },
   hook: "The fibre you can dissolve on purpose. Grades are made to vanish in water at a chosen temperature, so you knit with a sacrificial yarn and wash it out afterwards to leave openwork no loom could make. Other grades are the asbestos replacement in cement board.",
   stats: [["Dissolving grades", "tuned 20–90 °C"], ["Tenacity", "up to ~1.6 GPa"], ["Alkali", "stable in cement"]],
   uses: "Sacrificial yarn in knitting and embroidery, fibre cement sheet, concrete reinforcement, water-soluble packaging.",
@@ -2221,7 +2186,8 @@ window.MATERIALS = [
   hook: "Not the goat's outer hair but the down beneath it, grown for a Mongolian winter and combed out in spring. At 14–19 µm it bends under its own weight, which is why it feels like nothing, and why one goat yields a scarf rather than a coat.",
   stats: [["Diameter", "14–19 µm"], ["Yield", "100–200 g per goat per year"], ["Warmth", "~3× wool by weight"]],
   uses: "Knitwear, shawls, blended suiting, and the overgrazing problem on the Mongolian steppe.",
-  link: "https://en.wikipedia.org/wiki/Cashmere_wool"
+  link: "https://en.wikipedia.org/wiki/Cashmere_wool",
+  tags: ["warmth"]
 },
 {
   id: "qiviut", cat: "fibre", name: "Qiviut",
@@ -2229,7 +2195,8 @@ window.MATERIALS = [
   hook: "The warmest animal fibre anyone harvests, and it is collected rather than shorn: muskoxen shed it in sheets each spring and it is picked off the tundra and the fences. It has almost no scales, so unlike wool it will never felt or shrink.",
   stats: [["Diameter", "11–13 µm"], ["Warmth", "~8× wool by weight"], ["Yield", "~2.5 kg per animal, shed"]],
   uses: "Arctic knitwear, Alaskan and Canadian co-operative cottage industry, very expensive hats.",
-  link: "https://en.wikipedia.org/wiki/Qiviut"
+  link: "https://en.wikipedia.org/wiki/Qiviut",
+  tags: ["warmth"]
 },
 {
   id: "sinew", cat: "fibre", name: "Sinew",
@@ -2242,7 +2209,6 @@ window.MATERIALS = [
 {
   id: "rawhide", cat: "fibre", name: "Rawhide",
   sub: "untanned dehaired hide", img: "rawhide",
-  swatch: { pattern: "grain", colors: ["#c9a870", "#e8d3a8", "#95784a"] },
   hook: "Leather that was never tanned: dehaired and dried hard under tension. Lace a frame with it wet and the drying shrink locks the joint with no knot and no fastener — the material is the clamp. Soak it again and the joint comes apart.",
   stats: [["Shrink", "tightens as it dries"], ["Dry state", "rigid, almost horn-like"], ["Weakness", "water undoes it"]],
   uses: "Snowshoes, drum heads, chair seats, lacrosse sticks, saddle trees, laminated armour.",
@@ -2283,7 +2249,6 @@ window.MATERIALS = [
 {
   id: "laidrope", cat: "fibre", name: "Three-strand laid rope",
   sub: "twisted construction", img: "laidrope",
-  swatch: { pattern: "fiber", colors: ["#b99a62", "#ddc694", "#866c3d"] },
   hook: "Nothing holds this rope together but opposing twist. Fibres are spun one way, yarns laid the other, strands the first way again — each level permanently trying to unwind the one above it, and the standoff is the rope. Let it unbalance and it hockles into a knot by itself.",
   stats: [["Lay", "right-hand by convention"], ["Splice", "strands tucked, no tools"], ["Vice", "torque, twist and hockling"]],
   uses: "Mooring and anchor lines, traditional rigging, hauling rope — the rope every knot book assumes.",
@@ -2292,7 +2257,6 @@ window.MATERIALS = [
 {
   id: "doublebraid", cat: "fibre", name: "Double braid",
   sub: "braided core inside a braided cover", img: "doublebraid",
-  swatch: { pattern: "weave", colors: ["#9aa4ad", "#d2dade", "#67707a"] },
   hook: "Two ropes sharing one job, each taking roughly half the load, and neither one twisting. The clever part is the splice: the core is buried inside its own cover, so pulling harder only locks it tighter — stronger than any knot you could tie in it.",
   stats: [["Load split", "~50/50 core and cover"], ["Splice strength", "95–100% of rope"], ["Torque", "balanced, none"]],
   uses: "Yacht sheets and halyards, arborist climbing lines, winch and rescue rope.",
@@ -2301,7 +2265,6 @@ window.MATERIALS = [
 {
   id: "twelvestrand", cat: "fibre", name: "Twelve-strand hollow braid",
   sub: "single-braid construction", img: "twelvestrand",
-  swatch: { pattern: "weave", colors: ["#cdd4d9", "#f0f4f6", "#99a1a8"] },
   hook: "A rope with nothing inside it, which is the point: a splice can be pushed down the middle of the rope itself. That is what makes a soft shackle possible — a loop of cord stronger than the steel shackle it replaces, that cannot dent a deck or take an eye out when it lets go.",
   stats: [["Carriers", "12, no core"], ["Splice", "buried in its own braid"], ["Soft shackle", "beats steel per gram"]],
   uses: "Soft shackles and lashings, winch lines, arborist rigging, rope-to-rope connections.",
@@ -2310,7 +2273,6 @@ window.MATERIALS = [
 {
   id: "braidedline", cat: "fibre", name: "Braided fishing line",
   sub: "gel-spun UHMWPE, 4–8 carriers", img: "braidedline",
-  swatch: { pattern: "fiber", colors: ["#4b6b55", "#86a892", "#2b4133"] },
   hook: "Near-zero stretch changes what fishing feels like: a fish mouthing the bait forty metres away arrives in your fingertips. It also means nothing absorbs a shock, so the rod and the knot have to, and the line quietly saws grooves in the rod guides.",
   stats: [["Stretch", "~3% or less"], ["Diameter", "about a third of mono"], ["Knots", "slips unless tied for it"]],
   uses: "Spinning and baitcasting mainline, jigging, kite and drone line, cut-resistant cord.",
@@ -2319,7 +2281,6 @@ window.MATERIALS = [
 {
   id: "kineticrope", cat: "fibre", name: "Kinetic recovery rope",
   sub: "double-braid nylon, high stretch", img: "kineticrope",
-  swatch: { pattern: "fiber", colors: ["#b8572f", "#e08a5e", "#7d3519"] },
   hook: "A rope engineered to be stretchy, the opposite of every other rope here. The recovery vehicle takes a run-up, the rope stores that kinetic energy and hands it back, and a stuck truck floats out on a gentle pull where a steel cable would tear a bumper off.",
   stats: [["Stretch", "20–30% working"], ["Energy", "stores it, returns it"], ["Failure", "recoils — the dangerous part"]],
   uses: "Off-road vehicle recovery, agricultural and military towing; replaced snatch straps and steel cable.",
@@ -2394,7 +2355,6 @@ window.MATERIALS = [
 {
   id: "triaxial", cat: "fabric", name: "Triaxial weave",
   sub: "three yarn sets at 60°", img: "triaxial",
-  swatch: { pattern: "weave", colors: ["#2f3337", "#6b7177", "#181a1c"] },
   hook: "Ordinary cloth has two thread directions and no resistance to racking: pull it on the diagonal and the square becomes a parallelogram. Add a third set at sixty degrees and the shear has nowhere to go. The fabric holds its shape in its own plane.",
   stats: [["Yarn directions", "3 at 60°"], ["Shear stiffness", "far above biaxial"], ["Isotropy", "near-equal in plane"]],
   uses: "Sailcloth and kite skins, filter and screen fabric, balloon envelopes, composite reinforcement.",
@@ -2454,7 +2414,8 @@ window.MATERIALS = [
   hook: "A polyester knit brushed until the fibre ends stand up, then shorn level, so the fabric is mostly trapped air. It was deliberately left unpatented in 1979, barely absorbs water, and is often spun from drinks bottles — but it sheds microfibre in every wash.",
   stats: [["Weight", "100–300 g/m²"], ["Water uptake", "~1% of its weight"], ["Problem", "microfibre shedding"]],
   uses: "Midlayers and jackets, blankets, pet bedding, linings.",
-  link: "https://en.wikipedia.org/wiki/Polar_fleece"
+  link: "https://en.wikipedia.org/wiki/Polar_fleece",
+  tags: ["warmth"]
 },
 {
   id: "nonwoven", cat: "fabric", name: "Spunbond-meltblown nonwoven",
@@ -2467,7 +2428,6 @@ window.MATERIALS = [
 {
   id: "needlepunch", cat: "fabric", name: "Needle-punched felt",
   sub: "mechanically entangled web", img: "needlepunch",
-  swatch: { pattern: "fiber", colors: ["#7e838a", "#b6bbc1", "#53585e"] },
   hook: "Thousands of barbed needles stab a loose web of fibre tens of times a second, dragging fibres down through the thickness. Nothing is spun, knitted, glued or melted — the fabric is held together purely by friction between tangled fibres.",
   stats: [["Punches", "up to ~2000 per cm²"], ["Binder", "none, friction only"], ["Thickness", "1–20 mm"]],
   uses: "Automotive carpet and insulation, filter felt, geotextile, papermaker felts, craft felt.",
@@ -2492,7 +2452,6 @@ window.MATERIALS = [
 {
   id: "stitchbond", cat: "fabric", name: "Non-crimp fabric",
   sub: "stitched multiaxial reinforcement", img: "stitchbond",
-  swatch: { pattern: "ribbon", colors: ["#3b3f44", "#787f87", "#1f2225"] },
   hook: "Weaving makes every fibre go over and under, and a bent fibre is a weaker fibre. Here the layers are laid dead straight at whatever angles the part needs and held with a light stitching yarn, so the reinforcement is as strong as the fibre actually is.",
   stats: [["Crimp", "none"], ["Strength gain", "~10–15% over woven"], ["Angles", "0/90/±45 as laid"]],
   uses: "Wind turbine blades, boat hulls, automotive and rail composite panels.",
@@ -2501,7 +2460,6 @@ window.MATERIALS = [
 {
   id: "woven3d", cat: "fabric", name: "3D woven preform",
   sub: "through-thickness yarn architecture", img: "woven3d",
-  swatch: { pattern: "weave", colors: ["#23262a", "#5a5f65", "#101214"] },
   hook: "A stack of flat plies delaminates because there is nothing holding one ply to the next except resin. Weave yarns through the thickness and there is no plane to split along: the part comes off the loom as a shape, and the resin is only filler.",
   stats: [["Yarn directions", "3, including Z"], ["Delamination", "designed out"], ["Form", "near-net shape off the loom"]],
   uses: "Jet engine fan blades and cases, rocket nozzles, stiffened panels, I-beam and joint preforms.",
@@ -2534,7 +2492,6 @@ window.MATERIALS = [
 {
   id: "laminateshell", cat: "fabric", name: "Three-layer laminate",
   sub: "face fabric, membrane, knit backer", img: "laminateshell",
-  swatch: { pattern: "laminate", colors: ["#2d4a63", "#cfd6db", "#1a2a38"] },
   hook: "The waterproof-breathable membrane is the whole point of the jacket and it cannot be either surface: abrasion destroys it from outside and skin oil blocks it from inside. So it is buried between a face fabric and a scrim. The sandwich, not the film, is the invention.",
   stats: [["Layers", "3, bonded"], ["Membrane", "buried, never exposed"], ["Seams", "taped, not just sewn"]],
   uses: "Hardshell jackets and gloves, drysuits, surgical drapes, tent flys.",
@@ -2583,7 +2540,6 @@ window.MATERIALS = [
 {
   id: "etextile", cat: "fabric", name: "E-textile",
   sub: "conductive yarn knitted as circuit", img: "etextile",
-  swatch: { pattern: "weave", colors: ["#9ba3a9", "#dde3e7", "#5f666c"] },
   hook: "Spin a conductor into the yarn and the fabric becomes the sensor: a knitted stripe reads stretch, a woven grid reads touch, an embroidered trace carries the signal. The physics is easy. Surviving forty washes and a tumble dryer is the research problem.",
   stats: [["Conductors", "silver, steel, copper yarn"], ["Sensing", "stretch, touch, ECG"], ["Hard part", "laundering durability"]],
   uses: "Touch-sensitive garments and bags, heated seats and clothing, ECG and respiration shirts, soft robotics.",
@@ -2643,7 +2599,8 @@ window.MATERIALS = [
   hook: "Long floats on both faces step down into a recessed grid, so the cloth ends up all ridges and hollows instead of flat. The hollows hold still air, which is what makes it insulate, and the ridges give a towel far more surface and far more grip on water than a flat weave of the same yarn.",
   stats: [["Structure", "floats stepping into cells"], ["Insulates", "by trapping air"], ["Absorbs", "more than a flat weave"]],
   uses: "Towels and bathrobes, thermal underwear, blankets, kitchen cloths.",
-  link: "https://en.wikipedia.org/wiki/Waffle_fabric"
+  link: "https://en.wikipedia.org/wiki/Waffle_fabric",
+  tags: ["warmth"]
 },
 {
   id: "twill", cat: "fabric", name: "Broken twill",
@@ -2659,7 +2616,8 @@ window.MATERIALS = [
   hook: "The only cloth with its own Act of Parliament: to be called Harris Tweed it must be made from virgin wool dyed and spun in the Outer Hebrides and woven by hand at the weaver's own home, on a treadle loom. The dyeing happens before spinning, so colour is blended inside the yarn rather than printed on the cloth, which is why a plain-looking brown turns out to be eight colours under a lens. Woollen-spun and loosely woven, it is thick and warm and does not hold a crease — the opposite of worsted, by construction rather than by fibre.",
   stats: [["Dyed", "in the wool, before spinning"], ["Woven", "at home, on a treadle loom"], ["Protected", "by the Harris Tweed Act 1993"]],
   uses: "Jackets and coats, caps, upholstery, bags and shoes.",
-  link: "https://en.wikipedia.org/wiki/Harris_Tweed"
+  link: "https://en.wikipedia.org/wiki/Harris_Tweed",
+  tags: ["warmth"]
 },
 {
   id: "satin", cat: "fabric", name: "Satin weave",
@@ -2715,7 +2673,8 @@ window.MATERIALS = [
   hook: "Weave it loose, then beat it in hot soapy water until the scales on every fibre lock into their neighbours and the whole cloth shrinks by a quarter or a third. The weave disappears into a dense matted surface that sheds rain, holds a layer of still air, and — the part tailors care about — can be cut and left raw, because there is no longer anything in it to unravel. Loden, melton, billiard cloth and boiled wool are all the same trick at different severities. The cost is weight: a fulled coat is warm because it is heavy, not in spite of it.",
   stats: [["Shrinks", "a quarter to a third in the fulling"], ["Cut edge", "does not fray, so no hem"], ["Weatherproofing", "mechanical — no coating involved"]],
   uses: "Loden coats and capes, melton jackets and uniform cloth, billiard cloth, blankets, boiled-wool slippers.",
-  link: "https://en.wikipedia.org/wiki/Fulling"
+  link: "https://en.wikipedia.org/wiki/Fulling",
+  tags: ["warmth"]
 },
 {
   id: "waxcotton", cat: "fabric", name: "Waxed cotton",
@@ -2914,7 +2873,6 @@ window.MATERIALS = [
 {
   id: "dea", cat: "exotic", name: "Dielectric elastomer actuator",
   sub: "compliant electrodes on acrylic film", img: "dea",
-  swatch: { pattern: "gloss", colors: ["#6e6a7a", "#b0abc0", "#413e4b"] },
   hook: "A rubber film with stretchy electrodes on both faces. Charge it to a few kilovolts and electrostatic pressure squeezes it thinner and wider — over 100% strain, faster and more efficiently than muscle, which is why they are called artificial muscles.",
   stats: [["Strain", ">100%"], ["Drive", "1–5 kV"], ["Efficiency", "up to ~80%"]],
   uses: "Soft robotics, haptic feedback, tunable optics, energy harvesting from waves.",
@@ -2931,7 +2889,6 @@ window.MATERIALS = [
 {
   id: "erf", cat: "exotic", name: "Electrorheological fluid",
   sub: "polarisable particles in oil", img: "erf",
-  swatch: { pattern: "speckle", colors: ["#6b5e3c", "#a3946a", "#413923"] },
   hook: "Magnetorheological fluid's electrical cousin: apply a few kilovolts per millimetre and the suspended particles chain up into columns, turning the oil into a paste in about a millisecond. Faster than MR fluid, but it needs high voltage and hates water.",
   stats: [["Response", "~1 ms"], ["Field", "1–5 kV/mm"], ["Yield stress", "~5 kPa"]],
   uses: "Fast clutches and valves, haptic devices, vibration dampers, research actuators.",
@@ -2991,7 +2948,8 @@ window.MATERIALS = [
   hook: "Stores heat by melting instead of by warming up, so it soaks up energy at a fixed temperature and hands it back at the same one. A centimetre of the right paraffin in a wall holds as much heat as a brick a foot thick.",
   stats: [["Latent heat", "150–250 kJ/kg"], ["vs sensible", "~10× per kg"], ["Temp", "fixed by the material"]],
   uses: "Building temperature buffering, cold chain packaging, hand warmers, spacecraft and electronics thermal control.",
-  link: "https://en.wikipedia.org/wiki/Phase-change_material"
+  link: "https://en.wikipedia.org/wiki/Phase-change_material",
+  tags: ["warmth"]
 },
 {
   id: "vip", cat: "exotic", name: "Vacuum insulation panel",
@@ -2999,7 +2957,8 @@ window.MATERIALS = [
   hook: "Remove the air and you remove the main way heat crosses an insulator. A 20 mm panel does the job of 200 mm of foam — and if a nail punctures the envelope, it instantly becomes a 20 mm panel of ordinary chalk.",
   stats: [["λ", "0.004 W/m·K"], ["vs foam", "~8× better"], ["Failure", "one puncture ends it"]],
   uses: "Fridge and freezer walls, vaccine shippers, retrofit insulation where thickness is fixed.",
-  link: "https://en.wikipedia.org/wiki/Vacuum_insulated_panel"
+  link: "https://en.wikipedia.org/wiki/Vacuum_insulated_panel",
+  tags: ["warmth"]
 },
 {
   id: "getter", cat: "exotic", name: "Getter material",
@@ -3012,7 +2971,6 @@ window.MATERIALS = [
 {
   id: "strontiumal", cat: "exotic", name: "Strontium aluminate",
   sub: "SrAl₂O₄:Eu,Dy phosphor", img: "strontiumal",
-  swatch: { pattern: "gloss", colors: ["#4fb36a", "#b8f3c4", "#1d6b33"] },
   hook: "The glow-in-the-dark pigment that actually works. It traps the energy of absorbed light in crystal defects and leaks it back out slowly — ten times brighter than the zinc sulfide of old toys and still visible after twelve hours in the dark.",
   stats: [["vs ZnS", "~10× brighter"], ["Afterglow", ">12 hours"], ["Radioactive", "no"]],
   uses: "Emergency exit marking, watch dials, safety signage, pigments and toys.",
@@ -3095,7 +3053,6 @@ window.MATERIALS = [
 {
   id: "spruce", cat: "natural", name: "Spruce tonewood",
   sub: "Picea, quartersawn soundboard stock", img: "spruce",
-  swatch: { pattern: "grain", colors: ["#d9c295", "#f0e2c4", "#a98f63"] },
   hook: "Chosen for one number: stiffness along the grain divided by density, where spruce beats everything. A soundboard must be as light as possible and as stiff as possible at once, and the slow-grown Alpine trees Stradivari used grew in a cold spell that made the rings unusually tight.",
   stats: [["Stiffness/density", "best of woods"], ["Ring spacing", "1–2 mm prized"], ["Cut", "quartersawn only"]],
   uses: "Guitar, violin and piano soundboards, aircraft spars historically, ladders.",
@@ -3241,7 +3198,6 @@ window.MATERIALS = [
 {
   id: "granite", cat: "natural", name: "Granite surface plate",
   sub: "lapped black diabase or granite", img: "granite",
-  swatch: { pattern: "speckle", colors: ["#6f7378", "#b2b7bc", "#42464a"] },
   hook: "The reference flat of the machine shop, and it beats cast iron on every count: it does not rust, a knock raises no burr, it damps vibration, and it barely moves with temperature. Grade AA is flat to about two microns over a metre.",
   stats: [["Flatness", "~2 µm/m, grade AA"], ["Damage mode", "chips, never burrs"], ["Damping", "far better than iron"]],
   uses: "Metrology surface plates, CMM bases, machine tool bedways, optical benches.",
@@ -3364,7 +3320,6 @@ window.MATERIALS = [
 {
   id: "ggg", cat: "electronic", name: "Gadolinium gallium garnet",
   sub: "GGG substrate crystal", img: "ggg",
-  swatch: { pattern: "gloss", colors: ["#d7b7bf", "#f3e2e6", "#a7868f"] },
   hook: "Grown almost entirely to be a surface for something else to grow on: its lattice spacing matches magnetic garnet films to within a fraction of a percent. It carried the bubble memory industry, and now carries magneto-optic isolators. It also makes a convincing fake diamond.",
   stats: [["Lattice match", "<0.1% mismatch"], ["Role", "substrate, not device"], ["Also", "diamond simulant"]],
   uses: "Substrates for magnetic garnet films, optical isolators, laser hosts, cryogenic cooling salts.",
@@ -3381,7 +3336,6 @@ window.MATERIALS = [
 {
   id: "bbo", cat: "electronic", name: "BBO crystal",
   sub: "β-barium borate, nonlinear optic", img: "bbo",
-  swatch: { pattern: "gloss", colors: ["#b9cdd6", "#e9f4f8", "#87a0ab"] },
   hook: "Light goes in at one colour and comes out at double the frequency, because the crystal's response to a strong field is not quite linear. It is how an infrared laser becomes a green pointer, and how entangled photon pairs are made for quantum optics.",
   stats: [["Transparent", "190–3500 nm"], ["Damage threshold", "very high"], ["Does", "frequency doubling, SPDC"]],
   uses: "Frequency doubling and tripling, optical parametric oscillators, entangled photon sources, Pockels cells.",
@@ -3478,7 +3432,6 @@ window.MATERIALS = [
 {
   id: "ga2o3", cat: "electronic", name: "Gallium oxide",
   sub: "β-Ga₂O₃, ultra-wide bandgap", img: "ga2o3",
-  swatch: { pattern: "gloss", colors: ["#9fb6c4", "#dceaf1", "#6d8696"] },
   hook: "A 4.8 eV bandgap, wider than GaN or SiC, so it holds off voltage in a far thinner layer — and unlike them it can be grown from a melt, which makes wafers cheap. It barely conducts heat, which is the one thing standing in its way.",
   stats: [["Bandgap", "4.8 eV"], ["Breakdown field", "8 MV/cm"], ["Problem", "thermal conductivity ~11 W/m·K"]],
   uses: "Emerging high-voltage power devices, solar-blind UV detectors.",
@@ -4043,6 +3996,136 @@ window.MATERIALS = [
   stats: [["Film", "polyester, roughly 0.05–0.25 mm"], ["Works by", "absorbing the rest as heat"], ["Consumable", "it fades, wrinkles, then burns through"]],
   uses: "Stage and studio lanterns, colour washes, correction and diffusion filters.",
   link: "https://en.wikipedia.org/wiki/Color_gel"
+},
+{
+  id: "eiderdown", cat: "warmth", name: "Eiderdown",
+  sub: "hand-gathered eider duck nest down", img: "eiderdown",
+  hook: "The only down whose filaments hook into one another. An eider hen lines her nest with down plucked from her own breast; once the brood has gone the farmer collects it, cleans the hay out, and finds that the barbules cling together as a sheet instead of drifting to the bottom corner of a quilt. No baffles needed. The whole world produces about four tonnes a year, three quarters of it Icelandic, at roughly fifteen grams a nest, which is the entire explanation for the price.",
+  stats: [["Per nest", "about 15 g, gathered after the brood leaves"], ["Fill power", "900-1200, the highest of any fill"], ["Supply", "~4 tonnes a year worldwide"]],
+  uses: "Icelandic and Norwegian duvets, a few Arctic parkas, and museum repairs to historic quilts.",
+  link: "https://en.wikipedia.org/wiki/Eiderdown",
+  src: ["Icelandic Eiderdown", "https://icelandiceiderdown.com/"]
+},
+{
+  id: "shearling", cat: "warmth", name: "Shearling",
+  sub: "sheepskin tanned with the fleece still on", img: "shearling",
+  hook: "One material doing both jobs a cold coat needs. The skin is a windproof membrane and the wool still rooted in it is a 25 mm pile holding still air, and because the two were never joined there is no seam, no delamination and no cold spot. The price is weight, about four kilograms for a flight jacket, and chemistry: the collagen holding it together starts shrinking around sixty degrees, so a shearling cannot be hot washed, tumbled, or dried on a radiator by anyone who wants it back.",
+  stats: [["Pile", "15-30 mm of wool, still rooted in the skin"], ["Two jobs", "windproof membrane plus trapped air"], ["Ruined by", "heat - the collagen shrinks above about 60 C"]],
+  uses: "B-3 flying jackets, Afghan postins, car seat covers, slippers, and medical fleeces for pressure sores.",
+  link: "https://en.wikipedia.org/wiki/Shearling"
+},
+{
+  id: "alpaca", cat: "warmth", name: "Alpaca fibre",
+  sub: "camelid hair, part hollow and grease-free", img: "alpaca",
+  hook: "Wool without the grease. Alpaca carries no lanolin, so it needs no harsh scouring and sets off far fewer wool reactions, and the fibre has a partly hollow medulla that makes it warmer per gram than sheep wool. What it does not have is crimp. Sheep wool springs back because every fibre is a little helix; alpaca is nearly straight, so it drapes beautifully and then keeps whatever shape you left it in. A heavy alpaca jumper hung on a peg grows a shoulder.",
+  stats: [["Fibre", "18-28 µm, partly hollow"], ["No lanolin", "no scouring, little allergy"], ["Weakness", "almost no crimp, so knitwear sags"]],
+  uses: "Andean knitwear, coat cloth, blankets, and socks where the drape does not matter.",
+  link: "https://en.wikipedia.org/wiki/Alpaca_fiber",
+  src: ["Alpaca Owners Association", "https://www.alpacainfo.com/"]
+},
+{
+  id: "angora", cat: "warmth", name: "Angora rabbit hair",
+  sub: "hollow rabbit hair, 12 µm", img: "angora",
+  hook: "Hollow, twelve microns across and nearly weightless, angora is about two and a half times warmer than wool for the same weight and almost useless by itself. The hair has no crimp and barely any scale, so it will not grip its neighbours: spun pure it sheds into everything you own and thins wherever it rubs. Every angora garment on sale is a blend, usually twenty to forty per cent, in which the wool holds the yarn together and the rabbit does the insulating.",
+  stats: [["Fibre", "10-15 µm with a hollow core"], ["Warmth", "about 2.5x wool at equal weight"], ["Catch", "no crimp - it sheds, so it is always blended"]],
+  uses: "Blended knitwear, thermal underwear, and the halo on expensive jumpers.",
+  link: "https://en.wikipedia.org/wiki/Angora_wool",
+  src: ["National Angora Rabbit Breeders", "https://www.nationalangorarabbitbreeders.com/"]
+},
+{
+  id: "camelhair", cat: "warmth", name: "Camel hair",
+  sub: "Bactrian camel undercoat", img: "camelhair",
+  hook: "A camel wears two coats: coarse guard hair outside, fine undercoat beneath, and in spring the undercoat comes away in sheets that can be picked up off the ground rather than shorn. The fine fraction runs 16 to 20 microns, which is cashmere territory, and it is doing that job in a climate that swings between minus thirty and plus forty - a useful reminder that insulation traps air and does not care which way the heat was going. Most of the clip is the coarse stuff, so dehairing is the whole industry.",
+  stats: [["Undercoat", "16-20 µm, 2-4 kg per camel per year"], ["Gathered", "shed in spring, not shorn"], ["Cost", "dehairing - the guard hair has to come out"]],
+  uses: "Overcoats and blazers, Mongolian blankets and ger felt, and artists brushes that are mostly not camel at all.",
+  link: "https://en.wikipedia.org/wiki/Camel_hair"
+},
+{
+  id: "vicuna", cat: "warmth", name: "Vicuna fibre",
+  sub: "wild camelid fleece, 12 µm", img: "vicuna",
+  hook: "The finest fibre in commerce, from an animal nobody has managed to farm. Vicuna live wild on the altiplano and are driven into a funnel every second year in a chaccu, shorn and released, which yields about two hundred grams each. At twelve microns the scales are so delicate that hot dyeing and hard scouring destroy the handle, so most of it is sold in the animal own golden brown. Hunted down to six thousand animals by 1960, protected since, and still worth more by weight than most metals.",
+  stats: [["Fibre", "12-13 µm, the finest in commerce"], ["Yield", "~200 g per animal, every two years"], ["Ruined by", "hot dye and hard scouring"]],
+  uses: "Coats and scarves at the far end of the price list, and Andean ceremonial cloth.",
+  link: "https://en.wikipedia.org/wiki/Vicu%C3%B1a",
+  src: ["IUCN Red List", "https://www.iucnredlist.org/species/22956/145360542"]
+},
+{
+  id: "reindeerhide", cat: "warmth", name: "Reindeer hide",
+  sub: "skin with hollow guard hair", img: "reindeerhide",
+  hook: "Every guard hair on a reindeer is a hollow tube, which is why the animal floats and why a pelt thrown on snow will keep somebody off the ground at minus forty better than most foam mats. The hair is dense enough that the air inside the coat is locked in place instead of circulating. The cost is that hollow hairs snap: a working skin sheds constantly, cannot be washed, and rots if it is rolled up damp. A sleeping skin is a consumable, not an heirloom.",
+  stats: [["Hair", "hollow and air-filled, about 30 mm"], ["Works at", "-40 C, laid straight on snow"], ["Cost", "sheds hair, cannot be washed"]],
+  uses: "Sami sleeping skins and sledge covers, bushcraft sit pads, and a great many Nordic interiors.",
+  link: "https://en.wikipedia.org/wiki/Reindeer",
+  src: ["International Centre for Reindeer Husbandry", "https://reindeerherding.org/"]
+},
+{
+  id: "flannel", cat: "warmth", name: "Flannel",
+  sub: "napped cotton or wool cloth", img: "flannel",
+  hook: "Warmth from a finishing step rather than a fibre. Flannel is ordinary cloth dragged across rollers covered in fine wire until fibre ends are torn out of the yarn and stand up as a nap, which holds still air against the skin. It adds no material and costs perhaps a tenth of the cloth strength, and it wears out in plain sight: the nap pills first, then rubs away at cuffs and elbows, leaving the thin plain weave that was underneath it all along.",
+  stats: [["Made by", "raising a nap on wire-covered rollers"], ["Gains", "loft with no extra yarn"], ["Dies of", "pilling, then bald patches where it rubs"]],
+  uses: "Shirts, pyjamas, bedsheets, and the backing of a tartan picnic rug.",
+  link: "https://en.wikipedia.org/wiki/Flannel"
+},
+{
+  id: "polyfill", cat: "warmth", name: "Polyester fibrefill",
+  sub: "siliconised hollow polyester staple", img: "polyfill",
+  hook: "The cheap answer to down, and refreshingly honest about it. Hollow polyester staple is crimped and then coated with silicone so the fibres slide over each other and spring back rather than matting. It costs a fraction of down, ignores damp - it keeps most of its loft wet, where down collapses into porridge - and needs about twice the volume for the same warmth. It also has a lifespan: every compression takes a little permanent set, and a few hundred washes turn a duvet into a sheet.",
+  stats: [["Fibre", "hollow, 6-15 denier, silicone-coated"], ["Wet", "keeps most of its loft; down keeps almost none"], ["Dies of", "compression set - flat after a few hundred washes"]],
+  uses: "Duvets, pillows, sleeping bags, cheap jackets and every teddy bear.",
+  link: "https://en.wikipedia.org/wiki/Polyester_fiberfill"
+},
+{
+  id: "spaceblanket", cat: "warmth", name: "Rescue blanket",
+  sub: "vacuum-metallised PET film", img: "spaceblanket",
+  hook: "Twelve microns of polyester film with a few hundredths of a micron of aluminium evaporated onto it - the same metallised film NASA flew on the Echo balloons and later all over Apollo. A rescue blanket weighs fifty grams and throws most of your radiated heat back at you. What it does nothing about is the other two routes: it conducts straight through where it touches, convects the moment wind finds an edge, and passes no water vapour at all, so a casualty wrapped in one on cold ground ends up reflected, soaked and still cold. It is a layer, not a system.",
+  stats: [["Film", "12 µm PET plus ~0.03 µm aluminium"], ["Reflects", "most of the infrared a body radiates"], ["Does nothing about", "conduction, wind or sweat"]],
+  uses: "Rescue kits and marathon finish lines, satellite thermal blankets, emergency bivvy liners.",
+  link: "https://en.wikipedia.org/wiki/Space_blanket",
+  src: ["NASA Spinoff", "https://spinoff.nasa.gov/node/10461"]
+},
+{
+  id: "batting", cat: "warmth", name: "Cotton batting",
+  sub: "carded cotton wadding", img: "batting",
+  hook: "The filling in a quilt is carded cotton laid down in crossed layers, and it has exactly one failure mode: it walks. Cotton staple has no crimp to lock it in place, so an unquilted batt migrates to the corners of its cover and leaves cold voids - which is why quilting lines exist at all, and why traditional cotton wadding wants stitching every eighty to a hundred and fifty millimetres. It is also thirstily hygroscopic, and a damp batt is a cold one that stays cold.",
+  stats: [["Weight", "about 200-400 g/m2 of carded cotton"], ["Needs", "quilting every 8-15 cm or it balls up"], ["Weakness", "soaks up moisture and holds it"]],
+  uses: "Quilts, futons, mattresses, upholstery, and anything restored by a textile conservator.",
+  link: "https://en.wikipedia.org/wiki/Batting_(material)"
+},
+{
+  id: "milkweed", cat: "warmth", name: "Milkweed floss",
+  sub: "Asclepias seed hair, hollow and waxed", img: "milkweed",
+  hook: "A hollow, wax-coated seed hair that is mostly air. It is about six times as buoyant as cork, which is why American schoolchildren were sent to collect it by the ton for life jackets in 1943 after the Japanese took the kapok supply. The same hollow makes a decent insulating fill, though tests put it below down for loft and it mats after a wash. What it cannot do is be spun: the staple is short, smooth and uncrimped, so it will not hold a twist. It is a filling or it is nothing.",
+  stats: [["Fibre", "hollow, ~20 µm, wax-coated"], ["Buoyancy", "about 6x cork by volume"], ["Limit", "will not spin - a fill, never a yarn"]],
+  uses: "Jacket and duvet fill, pillow stuffing, oil-spill sorbents, and wartime life vests.",
+  link: "https://en.wikipedia.org/wiki/Asclepias",
+  src: ["Crews et al., University of Nebraska", "https://digitalcommons.unl.edu/textiles_facpub/10/"]
+},
+{
+  id: "possum", cat: "warmth", name: "Brushtail possum fur",
+  sub: "hollow-hair fur blended into merino", img: "possum",
+  hook: "A pest turned into a fibre. New Zealand culls brushtail possums to keep them off its forests, and the fur that comes off has a hollow core much like polar bear hair. Blended twenty to forty per cent into merino it lifts the warmth, suppresses the pilling merino is prone to, and gives a yarn noticeably lighter than it looks. The catch is upstream: the staple is too short to spin alone, so it is always a blend, and the whole supply depends on a government cull carrying on.",
+  stats: [["Hair", "hollow, 14-16 µm"], ["Blend", "typically 20-40% with merino"], ["Supply", "a pest cull, not a flock you can grow"]],
+  uses: "New Zealand knitwear, gloves and socks sold as possum-merino.",
+  link: "https://en.wikipedia.org/wiki/Common_brushtail_possum",
+  src: ["NZ Department of Conservation", "https://www.doc.govt.nz/nature/pests-and-threats/animal-pests-and-threats/possums/"]
+},
+{
+  id: "furfelt", cat: "warmth", name: "Fur felt",
+  sub: "carroted rabbit or beaver underfur", img: "furfelt",
+  hook: "Wool felts because its scales lock together; fur felts better, and for two centuries it took mercury to make it do so. Hatters brushed rabbit and beaver underfur with mercuric nitrate - carroting, named for the orange it left - to roughen the scales, then worked the fibres down with heat, moisture and pressure into a sheet finer and more windproof than any wool felt, dense enough to hold a blocked shape through rain. The bill went to the hatters as chronic mercury poisoning, which is where the mad hatter came from. Banned in the United States in 1941.",
+  stats: [["Fibre", "rabbit or beaver underfur, dehaired"], ["Felting aid", "mercuric nitrate, until 1941"], ["Why bother", "denser and more windproof than wool felt"]],
+  uses: "Fedoras and Stetsons, military dress hats, and any brim expected to survive weather.",
+  link: "https://en.wikipedia.org/wiki/Felt",
+  src: ["Fine Arts Museums of San Francisco", "https://www.famsf.org/stories/poisons-part-i-the-mercurial-world-of-felt"]
+},
+{
+  id: "snow", cat: "warmth", name: "Snow",
+  sub: "sintered wind-packed snow", img: "snow",
+  hook: "Sixty to ninety per cent air, and it conducts about as badly as a mineral wool batt, which is why the inside of a snow house sits near freezing while the night outside is at minus forty. Cut blocks sinter: the crystals bond where they touch, so the shell is stronger in the morning than when it was built. The failure mode is designed in - the warmth inside glazes the roof to ice, ice conducts about a hundred times better than snow, and the shelter you improved by heating it is the one that drips on you.",
+  stats: [["Conductivity", "0.05-0.15 W/mK, in mineral wool territory"], ["Air", "60-90% by volume"], ["Fails by", "glazing - ice conducts ~100x better"]],
+  uses: "Igloos and quinzhees, avalanche burial survival, and the snow on a roof that halves the heating bill.",
+  link: "https://en.wikipedia.org/wiki/Igloo",
+  src: ["NSIDC: the science of snow", "https://nsidc.org/learn/parts-cryosphere/snow/science-snow"]
 }
 
 ];

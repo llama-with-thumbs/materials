@@ -55,6 +55,20 @@ would unblock it.
 | Velvet, corduroy | — | Already covered by `terrypile` | — |
 | ePTFE membrane | — | Already carded as `eptfe` | — |
 
+### Warmth and insulation
+
+| Candidate | Queries tried | Why dropped | Retry with |
+|---|---|---|---|
+| Yak down (khullu) | `yak wool`, `yak fibre` | The one usable photo is a woman at a spinning wheel in Bhaktapur; the white fibre in her hands could be cotton and the description is the only evidence | A combed-down sample, or a Tibetan workshop photo that names the fibre |
+| Ticking (downproof cotton) | `mattress ticking`, `Inlett Bettwaesche`, `cambric` | Everything is a scan of a 1940s instruction page, not a photograph; the one real photo of ticking went to `batting` | A close-up of the woven cloth, or a duvet shell turned inside out |
+| Thinsulate | `Thinsulate` | Four results, all gloves with a label; the batt itself is never shown | A cut-open garment |
+| Electric blanket element | `heated blanket`, `heating element wire` | The blanket is a white pad with a cable: the wire, its insulation and the PTC core are all invisible | A cut-away element, or an X-ray |
+| Silk wadding (mawata) | `mawata`, `silk wadding`, `silk batting`, `silk floss quilt` | Nothing on Commons; the hits are robes stuffed with it, where the filling cannot be seen | Japanese or Chinese quilt-making photographs |
+| Sheep wool building insulation | `sheep wool insulation`, `Schafwolle Daemmung`, `wool insulation batt` | One geograph shot of a building; the CSIRO batt photo is almost certainly glass wool, and mineral wool is already carded as `rockwool` | A labelled wool batt |
+| Cellular (honeycomb) blanket | `cellular blanket` | One 800x600 photograph of hospital linens in a pile | A close-up of the weave |
+| Valenki, loden, melton | `valenki`, `Walkloden` | Real materials, but all three are felted or fulled wool, which `felt` and `fulledwool` already cover | — |
+| Hollow-fibre wadding | `polyester wadding`, `hollow fibre polyester`, `fibrefill`, `Faserball` | Only `pillow stuffing` returned anything; that hit became the `polyfill` card | — |
+
 ## Rejected images
 
 Source photographs that passed the description check and failed when actually looked at.
@@ -69,6 +83,9 @@ Source photographs that passed the description check and failed when actually lo
 | `grillesteel` | Gale Silver Monitor Speaker Grille Front.jpg | Cloth stretched over a frame — the *front* of a grille is fabric | Loudspeaker grille.jpg (a dished perforated disc) |
 | `truss` | Lighting truss 1.JPG | Pure silhouette against a lit cyc; the lattice is a black bar | Traverse (Truss).JPG |
 | `miccable` | Microphone cable structure.jpg | Fine, but the screen is twisted into a tail, not braided as described | Kept, caption corrected, badged `photo` not `structure` |
+| `snow` | Igloo under construction - geograph.org.uk - 1719812.jpg | Two low walls in a big white field, photographed from fifty metres; the blocks are not legible | Building an igloo on Victoria Island (37009).jpg |
+| `ticking` | Cotton mattress making, closing the ticking ... .jpg | A scan of a printed page with two photographs and a caption on it, not a photograph | Card dropped |
+| `batting` | (kept) Mattress making, covering the cotton batting with ticking.jpg | Shows both the batt and the ticking; captioned for the batt, which is the subject | — |
 
 ## Ground already worked
 
@@ -81,6 +98,7 @@ Rounds so far, so the next one can start somewhere else. Details are in git.
 | 2026-10-20 | Twelve woven materials (fibre and fabric); twenty-four more for Sound & music over two rounds |
 | 2026-10-20 | Ten fabrics: finishes and yarn-less cloths |
 | 2026-10-20 | Thirteen stage and PA materials: the gear side of Sound & music |
+| 2026-10-20 | Fifteen cards for the new Warmth & insulation category, plus the warmth theme tag on seventeen older cards |
 
 ## Sources (the `src` field)
 
@@ -99,3 +117,18 @@ ExxonMobil, Celanese, Daicel, ScienceDirect and CAMEO all answer 403 to a script
 polymerdatabase.com is parked. essentialchemicalindustry.org would not resolve at all.
 ACS pages (landmarks, Molecule of the Week) return 200 with an empty JS shell, so the content
 cannot be verified from a script — Science History Institute was used instead.
+
+### Sources for the warmth round, 2026-10-20
+
+Answered a script first time: Alpaca Owners Association, National Angora Rabbit Breeders,
+IUCN Red List, International Centre for Reindeer Husbandry, NZ Department of Conservation,
+NSIDC, NASA Spinoff (`spinoff.nasa.gov/node/<id>`), UNL Digital Commons.
+
+Refused or vanished, don't retry: Britannica (403), CITES (403), Smithsonian MCI (403),
+leather-dictionary.com (no route), encore3 (no route), Trevira (no route), canada.ca
+conservation notes (timeout), cashmere.org (302 loop), Fairfield (520), PubMed Central
+(reCAPTCHA for scripts). The Fine Arts Museums of San Francisco page used for `furfelt`
+answers 403 to a script and opens normally in a browser, the same deal as `nafion`.
+
+Five cards ship without a `src` — shearling, camel hair, flannel, fibrefill and cotton
+batting — because nothing authoritative loaded. Better a missing field than a shop.

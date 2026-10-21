@@ -1,6 +1,6 @@
 # Interesting Materials
 
-A single-page field guide to 486 materials that exist because of one specific trick — a
+A single-page field guide to 501 materials that exist because of one specific trick — a
 polyurethane that carries tons without overheating, a ceramic that clamps its own cracks shut,
 a lashing that tightens itself as it dries, an airbag woven closed so it has no seam to burst.
 
@@ -10,31 +10,44 @@ characteristic numbers, and where you actually run into it.
 ## Viewing it
 
 Open `index.html` in a browser. No build step, no server, no dependencies — plain HTML, CSS and
-one JS file, and it works straight off the filesystem.
+a handful of plain script files, and it works straight off the filesystem.
 
 ## Layout
 
 ```
 index.html     page shell
 style.css      styling, dark by default with a light toggle
-app.js         rendering, search, category filter, sort, lightbox, swatch drawing
-data.js        the catalogue — 486 entries, this is the file to edit
-credits.js     generated: image filenames, photographers, licences, source links
+taxonomy.js    the vocabulary: categories, picture kinds, cross-cutting themes
+app.js         rendering, search, filters, sort, shareable URL state, lightbox
+swatch.js      the drawn fallback used when a material has no photograph
+data.js        the catalogue — 501 entries, this is the file to edit
+credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
-images/        486 images, 900 px wide
+images/        501 images, 900 px wide
+robots.txt     sitemap.xml   for search engines
+LICENSE        MIT for the text and the tools; the photographs keep their own licences
 tools/
+  build.py           one command: rebuild everything, then run every check
   images.txt         id | Commons filename | caption | kind
-  fetch_images.py    downloads the images and regenerates credits.js
+  fetch_images.py    downloads missing images and regenerates credits.js (incremental)
   added.py           rebuilds added.js from the git history of data.js
   add_cards.py       inserts new cards from a JSON file into data.js and images.txt
   search.py          Commons search for candidate photographs
   describe.py        descriptions, sizes and licences of candidate files
   peek.py            downloads candidates somewhere scratch, to be looked at first
   readme_numbers.py  rewrites every count in README.md and index.html from the data
-  check.js           structural check of data.js against credits.js and images/
-  render.js          renders the whole grid in a DOM stub, no browser needed
+  check.js           data.js against taxonomy.js, credits.js, images.txt and images/
+  render.js          renders the grid in a DOM stub and exercises the controls
   searchlog.md       what was searched for and not found, and why
+.github/workflows/check.yml     the same checks on every push
 .claude/skills/add-materials/   the whole routine, written down
+```
+
+One command rebuilds and verifies the lot:
+
+```sh
+python -I tools/build.py          # images, credits, add order, counts, both checks
+python -I tools/build.py --quick  # skip the network and git steps while editing the page
 ```
 
 ## Categories
@@ -52,6 +65,7 @@ tools/
 | `natural` | Natural & biological | 29 |
 | `exotic` | Active & exotic | 32 |
 | `music` | Sound & music | 65 |
+| `warmth` | Warmth & insulation | 15 |
 
 `additive` is a materials category like the rest: each card is a feedstock or the stuff a printed
 part is made of — filament, resin, powder, wire, slurry, bath — and the process that consumes it is
@@ -76,6 +90,24 @@ the pad under a saxophone key, the lacquer disc every record is cut on. Then the
 carries the sound to a room, which is mostly not instrument making at all: a moulded
 polypropylene PA box, perforated grille steel, the rubber surround of a cone, laminated road
 case panel, tolex, grille cloth, aluminium truss, gaffer tape and a sheet of lighting gel.
+
+`warmth` is the newest category and the first one that is a job rather than a chemistry: what
+people put between a body and the cold. Fifteen cards on the materials that do it best —
+eiderdown whose barbules hook into each other so it needs no baffles, hollow hair from rabbits,
+camels, possums and reindeer, a wild camelid fleece at twelve microns, vicuna and alpaca and
+the nap raised on a flannel shirt, the siliconised hollow polyester that replaced all of it,
+milkweed floss out of a wartime kapok shortage, the carroted fur felt that poisoned its hatters,
+and snow, which insulates as well as a mineral wool batt until the heat inside glazes it to ice.
+
+## Themes
+
+A card has exactly one category, which is what the material *is*. A theme is a job it happens
+to do, and a card can carry several — declared as `tags: ["warmth"]` in `data.js` and listed in
+`taxonomy.js`. Filtering on a theme shows its own category plus every card tagged with it, so
+merino wool stays filed under ropes and woven materials and still turns up under *Keeping warm*
+along with down, cashmere, qiviut, kapok, fleece, felt, tweed, mineral wool, EPS, aerogel,
+vacuum panels and phase-change material. One theme exists so far; the mechanism is there for
+the rest.
 
 ## Order
 
@@ -116,7 +148,8 @@ Append an entry to `data.js`:
   stats: [["Property", "value"], ["Property", "value"]],
   uses: "Where you meet it.",
   link: "https://en.wikipedia.org/wiki/...",
-  src: ["Who says so", "https://..."]
+  src: ["Who says so", "https://..."],
+  tags: ["warmth"]
 }
 ```
 
@@ -125,7 +158,11 @@ body, a teaching page, a standards or conservation reference. Anything but Wikip
 source is not a source. Check it actually loads before committing it: manufacturers move pages
 constantly, and a few answer 403 to a script while opening fine in a browser.
 
-All 59 polymer and elastomer cards carry one. The other categories do not yet.
+All 59 polymer and elastomer cards carry one, and the warmth cards carry one wherever a source
+existed that was not a shop. The other categories do not yet.
+
+`tags` is optional and cross-cuts the categories; see *Themes* above. Both the category and
+every tag have to be declared in `taxonomy.js` or `tools/check.js` fails.
 
 For a picture, add a line to `tools/images.txt` as `id|Commons File name.jpg|caption|kind` and run:
 
@@ -144,8 +181,9 @@ something made from the material, how it is made, a close relative, the nearest 
 or a molecular structure, and labels the image in the corner so it is never mistaken for the
 material itself.
 
-Every entry currently carries an image, so no card falls back to a swatch — but the fallback is
-still there. Drop the `img` field and give the entry a `swatch` instead:
+Every entry currently carries an image, so no card falls back to a swatch — the dead `swatch`
+fields that sat unused beside a photograph have been removed. The fallback itself still works
+(`swatch.js`): drop the `img` field and give the entry a `swatch` instead:
 
 ```js
 swatch: { pattern: "brushed", colors: ["#434a52", "#98a3ad", "#2b3137"] }
@@ -164,15 +202,15 @@ starting a round, so the same dead ends are not walked twice.
 
 ## Images and licensing
 
-All 486 entries carry an image from Wikimedia Commons. Each remains under its own licence
+All 501 entries carry an image from Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
 the lightbox. If you redistribute this page, keep those credits. No two cards use the same
 photograph.
 
-278 are photographs of the material itself. 208 are not, and say so in the corner of the image:
+286 are photographs of the material itself. 215 are not, and say so in the corner of the image:
 
-- **154 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **157 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
@@ -188,7 +226,7 @@ photograph.
 - **17 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
   optical calcium fluoride, a superhydrophobic droplet for SLIPS, a printed sand mould for
   furan-bonded sand, a GAGG:Ce scintillator for GGG, and a cut-resistant glove for Vectran.
-- **14 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
+- **18 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
   spraying for Nafion, cold spray mid-deposition for cold-spray powder, hand needle felting for
   needle-punched felt, two Markforged X7 machines for continuous fibre printing, and the loom or
   knitting machine itself for Jacquard weave, warp knitting and whole-garment knitting.

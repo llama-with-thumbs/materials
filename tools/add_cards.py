@@ -21,6 +21,16 @@ import sys, os, json
 sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = os.environ.get("MATERIALS_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# The categories and themes that exist are the ones taxonomy.js declares, so a new
+# category works the moment it is named there: its first card starts a new block at
+# the end of data.js.
+import re
+TAX = open(os.path.join(ROOT, "taxonomy.js"), encoding="utf-8").read()
+def declared(var):
+    body = TAX.split("window.%s = {" % var)[1].split("};")[0]
+    return re.findall(r'^\s*(\w+):', body, re.M)
+CATEGORIES, TOPICS = declared("CATS"), declared("THEMES")
 KINDS = {"photo", "product", "process", "structure", "related", "analog"}
 TEXT = ("name", "sub", "hook", "uses")
 DRY = "--dry" in sys.argv[2:]
@@ -31,10 +41,15 @@ assert isinstance(cards, list) and cards, "expected a non-empty list"
 
 def block(e, comma):
     stats = ", ".join('["%s", "%s"]' % (k, v) for k, v in e["stats"])
+    extra = ""
+    if e.get("src"):
+        extra += ',\n  src: ["%s", "%s"]' % (e["src"][0], e["src"][1])
+    if e.get("tags"):
+        extra += ',\n  tags: [%s]' % ", ".join('"%s"' % t for t in e["tags"])
     return ('{\n  id: "%s", cat: "%s", name: "%s",\n  sub: "%s", img: "%s",\n'
-            '  hook: "%s",\n  stats: [%s],\n  uses: "%s",\n  link: "%s"\n}%s\n'
+            '  hook: "%s",\n  stats: [%s],\n  uses: "%s",\n  link: "%s"%s\n}%s\n'
             % (e["id"], e["cat"], e["name"], e["sub"], e["id"], e["hook"], stats,
-               e["uses"], e["link"], "," if comma else ""))
+               e["uses"], e["link"], extra, "," if comma else ""))
 
 
 data_path = os.path.join(ROOT, "data.js")
@@ -60,12 +75,20 @@ for e in cards:
     assert 'id: "%s"' % e["id"] not in s, ("id already in data.js", e["id"])
     assert e["id"] not in have_ids, ("id already in images.txt", e["id"])
     assert e["file"] not in have_files, ("photo already used", e["file"])
-    assert 'cat: "%s"' % e["cat"] in s, ("unknown category", e["cat"])
+    assert e["cat"] in CATEGORIES, ("category is not declared in taxonomy.js", e["cat"])
+    for t in e.get("tags", []):
+        assert t in TOPICS, ("theme is not declared in taxonomy.js", t)
+    assert not e.get("src") or (len(e["src"]) == 2 and e["src"][1].startswith("http")), e["id"]
     have_files.add(e["file"])
 
 TAIL = "}\n\n];"
 for e in cards:
     key = 'cat: "%s"' % e["cat"]
+    if key not in s:                             # the first card of a brand-new category
+        k = s.rindex("\n" + TAIL)
+        s = s[:k] + "\n},\n" + block(e, False) + "\n];" + s[k + len("\n" + TAIL):]
+        print("%-14s starts the %s block at the end of the file" % (e["id"], e["cat"]))
+        continue
     i = s.rindex(key)
     j = s.find("\n},\n", i)
     k = s.find("\n" + TAIL, i)

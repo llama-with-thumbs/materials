@@ -1,28 +1,11 @@
-/* Interesting Materials - rendering, filtering and the drawn swatches. */
+/* Interesting Materials — filtering, sorting and rendering.
+   Vocabulary lives in taxonomy.js, the drawn fallback swatches in swatch.js, the
+   cards in data.js, the photo credits in credits.js and the add order in added.js. */
 
-const CATS = {
-  polymer: "Polymers & elastomers",
-  metal: "Metals & alloys",
-  ceramic: "Ceramics & glass",
-  electronic: "Semiconductors & optics",
-  composite: "Composites & structures",
-  additive: "3D printing & additive",
-  fibre: "Ropes & woven materials",
-  fabric: "Fabrics & constructions",
-  natural: "Natural & biological",
-  exotic: "Active & exotic",
-  music: "Sound & music"
-};
-
-// What the picture actually shows, when it is not a photograph of the material itself.
-const KINDS = {
-  structure: "molecular structure",
-  product: "something made from it",
-  process: "how it is made",
-  related: "a close relative",
-  analog: "a similar example"
-};
-
+const CATS = window.CATS;
+const CAT_TAGS = window.CAT_TAGS || {};
+const KINDS = window.KINDS;
+const THEMES = window.THEMES || {};
 const CREDITS = window.CREDITS || {};
 const MATERIALS = window.MATERIALS || [];
 const ADDED = window.ADDED || {};
@@ -36,102 +19,29 @@ const seq = m => (ADD_INDEX.has(m.id) ? ADD_INDEX.get(m.id) : ADD_ORDER.length);
 // Label, and how to order the filtered list. A null comparator leaves it in file
 // order, which is category by category.
 const SORTS = {
-  old: ["Added \u2014 new at the bottom", (a, b) => seq(a) - seq(b)],
-  new: ["Added \u2014 newest first", (a, b) => seq(b) - seq(a)],
+  old: ["Added — new at the bottom", (a, b) => seq(a) - seq(b)],
+  new: ["Added — newest first", (a, b) => seq(b) - seq(a)],
   cat: ["Grouped by category", null],
-  az: ["A\u2013Z by name", (a, b) => a.name.localeCompare(b.name)]
+  az: ["A–Z by name", (a, b) => a.name.localeCompare(b.name)]
 };
 
-/* ---------- drawn swatches (used where no free photo exists) ---------- */
+/* ---------- search index ---------- */
 
-// Small deterministic PRNG so a given material always draws the same way.
-function rng(seed) {
-  let s = 0;
-  for (const ch of seed) s = (s * 31 + ch.charCodeAt(0)) >>> 0;
-  return () => {
-    s = (s * 1664525 + 1013904223) >>> 0;
-    return s / 4294967296;
-  };
-}
+// Fold accents away so pina finds Piña and crepe finds crêpe. Built once per card,
+// because doing it per keystroke across 500 cards is how a search box feels slow.
+const fold = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
-function overlay(pattern, id, rand) {
-  const p = [];
-  if (pattern === "fiber") {
-    for (let x = 0; x < 400; x += 5) {
-      p.push(`<rect x="${x}" y="0" width="${1 + rand() * 1.6}" height="300" fill="#fff" opacity="${0.04 + rand() * 0.12}"/>`);
-    }
-  } else if (pattern === "brushed") {
-    for (let y = 0; y < 300; y += 3) {
-      p.push(`<rect x="0" y="${y}" width="400" height="${0.6 + rand()}" fill="#fff" opacity="${0.02 + rand() * 0.09}"/>`);
-    }
-  } else if (pattern === "ribbon") {
-    for (let i = -6; i < 16; i++) {
-      const x = i * 34;
-      p.push(`<rect x="${x}" y="-60" width="16" height="430" fill="#fff" opacity="${0.04 + rand() * 0.1}" transform="rotate(18 200 150)"/>`);
-    }
-  } else if (pattern === "laminate") {
-    let y = 0;
-    while (y < 300) {
-      const h = 5 + rand() * 13;
-      p.push(`<rect x="0" y="${y}" width="400" height="${h}" fill="${rand() > 0.5 ? "#fff" : "#000"}" opacity="${0.04 + rand() * 0.1}"/>`);
-      y += h;
-    }
-  } else if (pattern === "grain" || pattern === "powder" || pattern === "speckle") {
-    const n = pattern === "speckle" ? 260 : 460;
-    const r = pattern === "grain" ? 3.4 : 2.2;
-    for (let i = 0; i < n; i++) {
-      p.push(`<circle cx="${rand() * 400}" cy="${rand() * 300}" r="${0.7 + rand() * r}" fill="${rand() > 0.45 ? "#fff" : "#000"}" opacity="${0.05 + rand() * 0.16}"/>`);
-    }
-  } else if (pattern === "weave") {
-    for (let x = 0; x < 400; x += 16) {
-      p.push(`<rect x="${x}" y="0" width="8" height="300" fill="#000" opacity="0.09"/>`);
-    }
-    for (let y = 0; y < 300; y += 16) {
-      p.push(`<rect x="0" y="${y + 8}" width="400" height="8" fill="#fff" opacity="0.11"/>`);
-    }
-  } else if (pattern === "honeycomb") {
-    const r = 17, dx = r * 1.74, dy = r * 1.5;
-    for (let row = -1; row * dy < 320; row++) {
-      for (let col = -1; col * dx < 420; col++) {
-        const cx = col * dx + (row % 2 ? dx / 2 : 0);
-        const cy = row * dy;
-        const pts = [];
-        for (let k = 0; k < 6; k++) {
-          const a = Math.PI / 180 * (60 * k - 30);
-          pts.push(`${(cx + r * Math.cos(a)).toFixed(1)},${(cy + r * Math.sin(a)).toFixed(1)}`);
-        }
-        p.push(`<polygon points="${pts.join(" ")}" fill="none" stroke="#000" stroke-width="2.4" opacity="0.2"/>`);
-      }
-    }
-  }
-  return p.join("");
-}
+const HAYSTACK = new Map(MATERIALS.map(m => [m.id, fold([
+  m.name, m.sub, m.hook, m.uses,
+  m.stats.map(p => p.join(" ")).join(" "),
+  CATS[m.cat] || "",
+  (m.tags || []).map(t => THEMES[t] || t).join(" ")
+].join(" "))]));
 
-function makeSwatch(mat) {
-  const { pattern, colors } = mat.swatch;
-  const id = "sw-" + mat.id;
-  const rand = rng(mat.id + pattern);
-  return `<svg viewBox="0 0 400 300" role="img" aria-label="Illustration of ${esc(mat.name)}" preserveAspectRatio="xMidYMid slice">
-    <defs>
-      <linearGradient id="${id}-g" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="${colors[1]}"/>
-        <stop offset="0.45" stop-color="${colors[0]}"/>
-        <stop offset="1" stop-color="${colors[2]}"/>
-      </linearGradient>
-      <radialGradient id="${id}-s" cx="0.3" cy="0.22" r="0.75">
-        <stop offset="0" stop-color="#fff" stop-opacity="0.34"/>
-        <stop offset="0.55" stop-color="#fff" stop-opacity="0.05"/>
-        <stop offset="1" stop-color="#000" stop-opacity="0.28"/>
-      </radialGradient>
-      <clipPath id="${id}-c"><rect width="400" height="300"/></clipPath>
-    </defs>
-    <g clip-path="url(#${id}-c)">
-      <rect width="400" height="300" fill="url(#${id}-g)"/>
-      ${overlay(pattern, id, rand)}
-      <rect width="400" height="300" fill="url(#${id}-s)"/>
-    </g>
-  </svg>`;
-}
+// A card is in a theme if it carries the tag; a card is in a category if that is its
+// category. The filter buttons mix both, so one lookup answers either kind.
+const inFilter = (m, key) =>
+  key === "all" || m.cat === key || (m.tags || []).includes(key);
 
 /* ---------- rendering ---------- */
 
@@ -139,15 +49,27 @@ function esc(s) {
   return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 }
 
-function shotFor(mat) {
+function shotFor(mat, eager) {
   const c = CREDITS[mat.id];
   if (mat.img && c) {
-    return `<img src="images/${esc(c.file)}" alt="${esc(c.caption)}" loading="lazy" decoding="async">`;
+    // Width and height come from the file on disk so the grid does not jump about
+    // while the photographs arrive.
+    const dim = c.w && c.h ? ` width="${c.w}" height="${c.h}"` : "";
+    const load = eager ? "" : ' loading="lazy"';
+    return `<img src="images/${esc(c.file)}" alt="${esc(c.caption)}"${dim}${load} decoding="async">`;
   }
   return makeSwatch(mat);
 }
 
+const catTag = cat => CAT_TAGS[cat] || (CATS[cat] || "").split(" ")[0];
+
+// Building a card's HTML is the expensive part, and a card never changes once built,
+// so each one is built at most once and re-used on every later filter or sort.
+const CARD_HTML = new Map();
+
 function cardFor(mat) {
+  let html = CARD_HTML.get(mat.id);
+  if (html) return html;
   const c = CREDITS[mat.id];
   const kind = c && KINDS[c.kind] ? c.kind : null;
   const stats = mat.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
@@ -156,10 +78,12 @@ function cardFor(mat) {
     : `<span>illustration</span>`;
   const more = mat.link ? `<a href="${esc(mat.link)}" target="_blank" rel="noopener">read more</a>` : "";
   const src = mat.src ? `<a href="${esc(mat.src[1])}" target="_blank" rel="noopener">${esc(mat.src[0])}</a>` : "";
-  return `<article class="card" data-cat="${mat.cat}" data-id="${mat.id}">
-    <button class="shot" data-shot="${mat.id}" title="Enlarge">
+  const themes = (mat.tags || []).filter(t => THEMES[t])
+    .map(t => `<button class="theme" data-cat="${esc(t)}">${esc(THEMES[t])}</button>`).join("");
+  html = `<article class="card" id="m-${esc(mat.id)}" data-cat="${esc(mat.cat)}" data-id="${esc(mat.id)}">
+    <button class="shot" data-shot="${esc(mat.id)}" title="Enlarge">
       ${shotFor(mat)}
-      <span class="tag">${esc(CATS[mat.cat].split(" ")[0])}</span>
+      <span class="tag">${esc(catTag(mat.cat))}</span>
       ${kind ? `<span class="tag kind">${esc(KINDS[kind])}</span>` : ""}
     </button>
     <div class="body">
@@ -168,9 +92,11 @@ function cardFor(mat) {
       <p class="hook">${esc(mat.hook)}</p>
       <div class="stats">${stats}</div>
       <p class="uses"><b>Where you meet it:</b> ${esc(mat.uses)}</p>
-      <p class="meta">${source}<span class="links">${src}${more}</span></p>
+      <p class="meta">${source}<span class="links">${themes}${src}${more}</span></p>
     </div>
   </article>`;
+  CARD_HTML.set(mat.id, html);
+  return html;
 }
 
 const grid = document.getElementById("grid");
@@ -179,39 +105,94 @@ const searchEl = document.getElementById("search");
 
 let activeCat = "all";
 let activeSort = "old";
+let activeQuery = "";
 
 function render() {
-  const q = searchEl.value.trim().toLowerCase();
-  const list = MATERIALS.filter(m => {
-    if (activeCat !== "all" && m.cat !== activeCat) return false;
-    if (!q) return true;
-    return (m.name + " " + m.sub + " " + m.hook + " " + m.uses).toLowerCase().includes(q);
-  });
+  const q = fold(activeQuery.trim());
+  const list = MATERIALS.filter(m => inFilter(m, activeCat) && (!q || HAYSTACK.get(m.id).includes(q)));
   const cmp = SORTS[activeSort][1];
   if (cmp) list.sort(cmp);
   grid.innerHTML = list.length
     ? list.map(cardFor).join("")
     : `<p class="empty">Nothing matches that. Try "ceramic", "heat" or "wheel".</p>`;
-  countEl.textContent = `${list.length} of ${MATERIALS.length} materials`
-    + (activeCat === "all" ? "" : ` · ${CATS[activeCat]}`);
+  const where = activeCat === "all" ? "" : ` · ${CATS[activeCat] || THEMES[activeCat] || activeCat}`;
+  countEl.textContent = `${list.length} of ${MATERIALS.length} materials${where}`;
+  jumpState();
+}
+
+/* ---------- shareable state ---------- */
+
+// Filter, search and sort live in the URL hash, so a view can be sent to someone.
+function readHash() {
+  const p = new URLSearchParams(location.hash.replace(/^#/, ""));
+  const cat = p.get("cat");
+  const sort = p.get("sort");
+  if (cat && (cat === "all" || CATS[cat] || THEMES[cat])) activeCat = cat;
+  if (sort && SORTS[sort]) activeSort = sort;
+  if (p.get("q")) activeQuery = p.get("q");
+}
+
+function writeHash() {
+  const p = new URLSearchParams();
+  if (activeCat !== "all") p.set("cat", activeCat);
+  if (activeQuery.trim()) p.set("q", activeQuery.trim());
+  if (activeSort !== "old") p.set("sort", activeSort);
+  const hash = p.toString();
+  history.replaceState(null, "", hash ? "#" + hash : location.pathname + location.search);
 }
 
 /* ---------- controls ---------- */
 
 const filterBar = document.querySelector(".filters");
-filterBar.innerHTML = [["all", "Everything"], ...Object.entries(CATS)]
-  .map(([k, label], i) =>
-    `<button class="pill" data-cat="${k}" aria-pressed="${i === 0}">${esc(label)}</button>`).join("");
+const themeBar = document.querySelector(".themes");
 
-filterBar.addEventListener("click", e => {
-  const btn = e.target.closest(".pill");
-  if (!btn) return;
-  activeCat = btn.dataset.cat;
-  filterBar.querySelectorAll(".pill").forEach(p => p.setAttribute("aria-pressed", String(p === btn)));
+filterBar.innerHTML = [["all", "Everything"], ...Object.entries(CATS)]
+  .map(([k, label]) => `<button class="pill" data-cat="${k}">${esc(label)}</button>`).join("");
+
+// A theme whose key is also a category key already has a button in the row above —
+// clicking that one picks up the tagged cards too, so a second button would do nothing new.
+const LOOSE_THEMES = Object.entries(THEMES).filter(([k]) => !CATS[k]);
+if (themeBar && LOOSE_THEMES.length) {
+  themeBar.innerHTML = '<span class="themes-label">Across the categories:</span>' +
+    LOOSE_THEMES.map(([k, label]) =>
+      `<button class="pill theme" data-cat="${k}">${esc(label)}</button>`).join("");
+}
+
+function setCat(key) {
+  activeCat = key;
+  for (const p of document.querySelectorAll(".pill")) {
+    p.setAttribute("aria-pressed", String(p.dataset.cat === key));
+  }
+  writeHash();
   render();
+}
+
+for (const bar of [filterBar, themeBar]) {
+  if (!bar) continue;
+  bar.addEventListener("click", e => {
+    const btn = e.target.closest(".pill");
+    if (btn) setCat(btn.dataset.cat);
+  });
+}
+
+// A theme button inside a card jumps to that theme's filter.
+grid.addEventListener("click", e => {
+  const btn = e.target.closest(".theme");
+  if (!btn) return;
+  setCat(btn.dataset.cat);
+  scrollTo({ top: 0, behavior: "smooth" });
 });
 
-searchEl.addEventListener("input", render);
+// Typing re-renders the whole grid, so wait for the typist to pause first.
+let typing = null;
+searchEl.addEventListener("input", () => {
+  clearTimeout(typing);
+  typing = setTimeout(() => {
+    activeQuery = searchEl.value;
+    writeHash();
+    render();
+  }, 120);
+});
 
 const sortEl = document.getElementById("sort");
 sortEl.innerHTML = Object.entries(SORTS)
@@ -220,13 +201,26 @@ sortEl.innerHTML = Object.entries(SORTS)
 let savedSort = null;
 try { savedSort = localStorage.getItem("materials-sort"); } catch (_) {}
 if (savedSort && SORTS[savedSort]) activeSort = savedSort;
+
+readHash();                       // the URL wins over the remembered sort
 sortEl.value = activeSort;
+searchEl.value = activeQuery;
 
 sortEl.addEventListener("change", () => {
   activeSort = SORTS[sortEl.value] ? sortEl.value : "old";
   try { localStorage.setItem("materials-sort", activeSort); } catch (_) {}
+  writeHash();
   render();
   scrollTo({ top: 0, behavior: "smooth" });
+});
+
+addEventListener("hashchange", () => {
+  activeCat = "all";
+  activeQuery = "";
+  readHash();
+  sortEl.value = activeSort;
+  searchEl.value = activeQuery;
+  setCat(activeCat);
 });
 
 /* ---------- jump to the top or the bottom ---------- */
@@ -264,12 +258,17 @@ grid.addEventListener("click", e => {
     ? `<span class="credit">${KINDS[c.kind] ? "Shows " + esc(KINDS[c.kind]) + ". " : ""}${esc(c.caption)} — ${esc(c.artist)}, ${esc(c.license)},
          <a href="${esc(c.page)}" target="_blank" rel="noopener">Wikimedia Commons</a></span>`
     : `<span class="credit">Drawn illustration — no freely licensed photograph of this material was available.</span>`;
-  lbInner.innerHTML = `<figure>${shotFor(mat)}
+  lbInner.innerHTML = `<button id="lb-close" type="button" aria-label="Close">×</button>
+    <figure>${shotFor(mat, true)}
     <figcaption><strong>${esc(mat.name)}</strong> · ${esc(mat.sub)}${credit}</figcaption></figure>`;
   lb.showModal();
 });
 
-lb.addEventListener("click", () => lb.close());
+// Close on the backdrop or the button, but not on the photograph or its caption —
+// clicking the thing you came to look at should not throw it away.
+lb.addEventListener("click", e => {
+  if (e.target === lb || e.target.closest("#lb-close")) lb.close();
+});
 
 /* ---------- theme ---------- */
 
@@ -281,9 +280,7 @@ function applyTheme(t) {
   themeBtn.textContent = t === "light" ? "Dark" : "Light";
 }
 
-let saved = null;
-try { saved = localStorage.getItem("materials-theme"); } catch (_) {}
-applyTheme(saved || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"));
+applyTheme(root.getAttribute("data-theme") === "light" ? "light" : "dark");
 
 themeBtn.addEventListener("click", () => {
   const next = root.getAttribute("data-theme") === "light" ? "dark" : "light";
@@ -291,5 +288,8 @@ themeBtn.addEventListener("click", () => {
   try { localStorage.setItem("materials-theme", next); } catch (_) {}
 });
 
+for (const p of document.querySelectorAll(".pill")) {
+  p.setAttribute("aria-pressed", String(p.dataset.cat === activeCat));
+}
 render();
 jumpState();

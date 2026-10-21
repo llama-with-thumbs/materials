@@ -7,7 +7,9 @@ window.CREDITS = {
     "title": "Kryptonics Classic skateboard polyurethane wheel glowing against sunset.jpg",
     "artist": "Adam Rosenberg",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Kryptonics_Classic_skateboard_polyurethane_wheel_glowing_against_sunset.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Kryptonics_Classic_skateboard_polyurethane_wheel_glowing_against_sunset.jpg",
+    "w": 960,
+    "h": 608
   },
   "d3o": {
     "file": "d3o.jpg",
@@ -16,7 +18,9 @@ window.CREDITS = {
     "title": "Hand protection.jpg",
     "artist": "HecltoTrmel2020",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hand_protection.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hand_protection.jpg",
+    "w": 960,
+    "h": 640
   },
   "uhmwpe": {
     "file": "uhmwpe.jpg",
@@ -25,7 +29,9 @@ window.CREDITS = {
     "title": "LIROS Dyneema hollow.jpg",
     "artist": "Justsail",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:LIROS_Dyneema_hollow.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:LIROS_Dyneema_hollow.jpg",
+    "w": 960,
+    "h": 398
   },
   "peek": {
     "file": "peek.jpg",
@@ -34,7 +40,9 @@ window.CREDITS = {
     "title": "PEEK resin.jpg",
     "artist": "Acheolg",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:PEEK_resin.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:PEEK_resin.jpg",
+    "w": 960,
+    "h": 1280
   },
   "vespel": {
     "file": "vespel.jpg",
@@ -43,7 +51,9 @@ window.CREDITS = {
     "title": "Vespel.Werkstueck.P1149524.jpg",
     "artist": "Bautsch",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vespel.Werkstueck.P1149524.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Vespel.Werkstueck.P1149524.jpg",
+    "w": 960,
+    "h": 960
   },
   "ffkm": {
     "file": "ffkm.jpg",
@@ -52,7 +62,9 @@ window.CREDITS = {
     "title": "FFKM FFPM CKD900 plate 80mm 80mm 1mm.jpg",
     "artist": "Johannes Schneider",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:FFKM_FFPM_CKD900_plate_80mm_80mm_1mm.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:FFKM_FFPM_CKD900_plate_80mm_80mm_1mm.jpg",
+    "w": 725,
+    "h": 493
   },
   "nitinol": {
     "file": "nitinol.jpg",
@@ -61,7 +73,9 @@ window.CREDITS = {
     "title": "Nitinol draht.jpg",
     "artist": "Petermaerki",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Nitinol_draht.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nitinol_draht.jpg",
+    "w": 960,
+    "h": 739
   },
   "invar": {
     "file": "invar.jpg",
@@ -70,7 +84,9 @@ window.CREDITS = {
     "title": "Invar 800.jpg",
     "artist": "U.S. Research center",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Invar_800.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Invar_800.jpg",
+    "w": 800,
+    "h": 533
   },
   "kovar": {
     "file": "kovar.jpg",
@@ -79,7 +95,9 @@ window.CREDITS = {
     "title": "Assortment of Kovar metal.jpg",
     "artist": "Unknown authorUnknown author",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Assortment_of_Kovar_metal.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Assortment_of_Kovar_metal.jpg",
+    "w": 468,
+    "h": 518
   },
   "bmg": {
     "file": "bmg.jpg",
@@ -88,7 +106,9 @@ window.CREDITS = {
     "title": "Bulk Metallic Glass Sample.jpg",
     "artist": "George Stobbart",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Bulk_Metallic_Glass_Sample.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bulk_Metallic_Glass_Sample.jpg",
+    "w": 498,
+    "h": 370
   },
   "greyiron": {
     "file": "greyiron.jpg",
@@ -97,7 +117,9 @@ window.CREDITS = {
     "title": "Gusseisen mit Lamellengraphit.jpg",
     "artist": "Hb tuw",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gusseisen_mit_Lamellengraphit.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Gusseisen_mit_Lamellengraphit.jpg",
+    "w": 960,
+    "h": 769
   },
   "becu": {
     "file": "becu.jpg",
@@ -106,7 +128,9 @@ window.CREDITS = {
     "title": "CuBe Tool.jpg",
     "artist": "nicransby",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:CuBe_Tool.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CuBe_Tool.jpg",
+    "w": 960,
+    "h": 526
   },
   "mumetal": {
     "file": "mumetal.jpg",
@@ -115,7 +139,9 @@ window.CREDITS = {
     "title": "Mu-metal assortment 1951.jpg",
     "artist": "Unknown authorUnknown author",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Mu-metal_assortment_1951.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mu-metal_assortment_1951.jpg",
+    "w": 679,
+    "h": 465
   },
   "stellite": {
     "file": "stellite.jpg",
@@ -124,7 +150,9 @@ window.CREDITS = {
     "title": "Unterkiefer Teilprothese 20100112 008.JPG",
     "artist": "Sterilgutassistentin",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Unterkiefer_Teilprothese_20100112_008.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Unterkiefer_Teilprothese_20100112_008.JPG",
+    "w": 960,
+    "h": 640
   },
   "wha": {
     "file": "wha.jpg",
@@ -133,7 +161,9 @@ window.CREDITS = {
     "title": "Wolfram evaporated crystals and 1cm3 cube.jpg",
     "artist": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
     "license": "FAL",
-    "page": "https://commons.wikimedia.org/wiki/File:Wolfram_evaporated_crystals_and_1cm3_cube.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Wolfram_evaporated_crystals_and_1cm3_cube.jpg",
+    "w": 960,
+    "h": 524
   },
   "superalloy": {
     "file": "superalloy.jpg",
@@ -142,7 +172,9 @@ window.CREDITS = {
     "title": "255 GRC 1979 03464 EEE - 2 piece single crystal HTP blade.jpg",
     "artist": "Photographer: JACK DARGINSKY",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:255_GRC_1979_03464_EEE_-_2_piece_single_crystal_HTP_blade.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:255_GRC_1979_03464_EEE_-_2_piece_single_crystal_HTP_blade.jpg",
+    "w": 960,
+    "h": 826
   },
   "galinstan": {
     "file": "galinstan.jpg",
@@ -151,7 +183,9 @@ window.CREDITS = {
     "title": "Galinstan on glass.jpg",
     "artist": "Splarka at English Wikipedia",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Galinstan_on_glass.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Galinstan_on_glass.jpg",
+    "w": 600,
+    "h": 500
   },
   "rhenium": {
     "file": "rhenium.jpg",
@@ -160,7 +194,9 @@ window.CREDITS = {
     "title": "Rhenium single crystal bar and 1cm3 cube.jpg",
     "artist": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
     "license": "FAL",
-    "page": "https://commons.wikimedia.org/wiki/File:Rhenium_single_crystal_bar_and_1cm3_cube.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Rhenium_single_crystal_bar_and_1cm3_cube.jpg",
+    "w": 960,
+    "h": 604
   },
   "ytzp": {
     "file": "ytzp.jpg",
@@ -169,7 +205,9 @@ window.CREDITS = {
     "title": "Zirconium dioxide ZrO2 bearing balls.jpg",
     "artist": "Lucasbosch",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Zirconium_dioxide_ZrO2_bearing_balls.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Zirconium_dioxide_ZrO2_bearing_balls.jpg",
+    "w": 960,
+    "h": 640
   },
   "cbn": {
     "file": "cbn.jpg",
@@ -178,7 +216,9 @@ window.CREDITS = {
     "title": "Cubic Boron Nitride.jpg",
     "artist": "Whodunit244",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cubic_Boron_Nitride.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cubic_Boron_Nitride.jpg",
+    "w": 960,
+    "h": 658
   },
   "b4c": {
     "file": "b4c.jpg",
@@ -187,7 +227,9 @@ window.CREDITS = {
     "title": "Boron carbide.JPG",
     "artist": "Preslav",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Boron_carbide.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Boron_carbide.JPG",
+    "w": 960,
+    "h": 720
   },
   "sic": {
     "file": "sic.jpg",
@@ -196,7 +238,9 @@ window.CREDITS = {
     "title": "SiC p1390066.jpg",
     "artist": "David Monniaux",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:SiC_p1390066.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:SiC_p1390066.jpg",
+    "w": 960,
+    "h": 816
   },
   "zerodur": {
     "file": "zerodur.jpg",
@@ -205,7 +249,9 @@ window.CREDITS = {
     "title": "ELT secondary mirror blank successfully cast.jpg",
     "artist": "SCHOTT/ESO",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:ELT_secondary_mirror_blank_successfully_cast.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:ELT_secondary_mirror_blank_successfully_cast.jpg",
+    "w": 960,
+    "h": 640
   },
   "aln": {
     "file": "aln.jpg",
@@ -214,7 +260,9 @@ window.CREDITS = {
     "title": "Aluminium Nitride.jpg",
     "artist": "en:user:Waprap",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Aluminium_Nitride.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aluminium_Nitride.jpg",
+    "w": 284,
+    "h": 183
   },
   "alon": {
     "file": "alon.jpg",
@@ -223,7 +271,9 @@ window.CREDITS = {
     "title": "TTO Spinel Ceramic.JPG",
     "artist": "Technology Transfer Office. U.S. Navy. Naval Research Laboratory",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:TTO_Spinel_Ceramic.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:TTO_Spinel_Ceramic.JPG",
+    "w": 364,
+    "h": 337
   },
   "pyro": {
     "file": "pyro.jpg",
@@ -232,7 +282,9 @@ window.CREDITS = {
     "title": "Diamagnetic graphite levitation.jpg",
     "artist": "en:User:Splarka",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Diamagnetic_graphite_levitation.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Diamagnetic_graphite_levitation.jpg",
+    "w": 550,
+    "h": 700
   },
   "cc": {
     "file": "cc.jpg",
@@ -241,7 +293,9 @@ window.CREDITS = {
     "title": "Ferrari F430 Challenge Brake.JPG",
     "artist": "The359",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_F430_Challenge_Brake.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_F430_Challenge_Brake.JPG",
+    "w": 960,
+    "h": 720
   },
   "cmc": {
     "file": "cmc.jpg",
@@ -250,7 +304,9 @@ window.CREDITS = {
     "title": "CMC-X38-Bodyflaps.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CMC-X38-Bodyflaps.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CMC-X38-Bodyflaps.jpg",
+    "w": 960,
+    "h": 433
   },
   "cf": {
     "file": "cf.jpg",
@@ -259,7 +315,9 @@ window.CREDITS = {
     "title": "Carbon fiber bundle.jpg",
     "artist": "Acheolg",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Carbon_fiber_bundle.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Carbon_fiber_bundle.jpg",
+    "w": 960,
+    "h": 540
   },
   "syntactic": {
     "file": "syntactic.jpg",
@@ -268,7 +326,9 @@ window.CREDITS = {
     "title": "Syntactic foam sphere.jpg",
     "artist": "Z22",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Syntactic_foam_sphere.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Syntactic_foam_sphere.jpg",
+    "w": 960,
+    "h": 703
   },
   "aerogel": {
     "file": "aerogel.jpg",
@@ -277,7 +337,9 @@ window.CREDITS = {
     "title": "Aerogel hand.jpg",
     "artist": "Courtesy NASA/JPL-Caltech",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Aerogel_hand.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aerogel_hand.jpg",
+    "w": 879,
+    "h": 619
   },
   "metalfoam": {
     "file": "metalfoam.jpg",
@@ -286,7 +348,9 @@ window.CREDITS = {
     "title": "Aluminium foam.jpg",
     "artist": "Stehfun",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Aluminium_foam.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aluminium_foam.jpg",
+    "w": 960,
+    "h": 1280
   },
   "bioglass": {
     "file": "bioglass.png",
@@ -295,7 +359,9 @@ window.CREDITS = {
     "title": "MorphologyofBioglass.png",
     "artist": "X. Wang",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MorphologyofBioglass.png"
+    "page": "https://commons.wikimedia.org/wiki/File:MorphologyofBioglass.png",
+    "w": 960,
+    "h": 486
   },
   "hap": {
     "file": "hap.jpg",
@@ -304,7 +370,9 @@ window.CREDITS = {
     "title": "Hydroxylapatite-338779.jpg",
     "artist": "Robert M. Lavinsky",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hydroxylapatite-338779.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hydroxylapatite-338779.jpg",
+    "w": 460,
+    "h": 432
   },
   "mxene": {
     "file": "mxene.png",
@@ -313,7 +381,9 @@ window.CREDITS = {
     "title": "SEM of MXene.png",
     "artist": "Prussianblue1403",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:SEM_of_MXene.png"
+    "page": "https://commons.wikimedia.org/wiki/File:SEM_of_MXene.png",
+    "w": 817,
+    "h": 697
   },
   "vantablack": {
     "file": "vantablack.jpg",
@@ -322,7 +392,9 @@ window.CREDITS = {
     "title": "Vantablack 02.JPG",
     "artist": "Surrey NanoSystems",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vantablack_02.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Vantablack_02.JPG",
+    "w": 960,
+    "h": 720
   },
   "mrf": {
     "file": "mrf.jpg",
@@ -331,7 +403,9 @@ window.CREDITS = {
     "title": "MRF mit Permanentmagnet.jpg",
     "artist": "INVENTUS Engineering GmbH",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MRF_mit_Permanentmagnet.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:MRF_mit_Permanentmagnet.jpg",
+    "w": 960,
+    "h": 720
   },
   "ferrofluid": {
     "file": "ferrofluid.jpg",
@@ -340,7 +414,9 @@ window.CREDITS = {
     "title": "Ferrofluid Magnet under glass edit.jpg",
     "artist": "Gregory F. Maxwell <gmaxwell@gmail.com> PGP:0xB0413BFA",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ferrofluid_Magnet_under_glass_edit.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrofluid_Magnet_under_glass_edit.jpg",
+    "w": 960,
+    "h": 720
   },
   "twood": {
     "file": "twood.jpg",
@@ -349,7 +425,9 @@ window.CREDITS = {
     "title": "KTH-forskare har uppfunnit genomskinligt trä prov 1.jpg",
     "artist": "Peter Larsson",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:KTH-forskare_har_uppfunnit_genomskinligt_tr%C3%A4_prov_1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:KTH-forskare_har_uppfunnit_genomskinligt_tr%C3%A4_prov_1.jpg",
+    "w": 960,
+    "h": 710
   },
   "mycelium": {
     "file": "mycelium.png",
@@ -358,7 +436,9 @@ window.CREDITS = {
     "title": "Mycelium based composite.png",
     "artist": "Karana et al.",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mycelium_based_composite.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Mycelium_based_composite.png",
+    "w": 960,
+    "h": 688
   },
   "starlite": {
     "file": "starlite.jpg",
@@ -367,7 +447,9 @@ window.CREDITS = {
     "title": "Starlite sample.jpg",
     "artist": "Risilvaa",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Starlite_sample.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Starlite_sample.jpg",
+    "w": 960,
+    "h": 508
   },
   "auxetic": {
     "file": "auxetic.jpg",
@@ -376,7 +458,9 @@ window.CREDITS = {
     "title": "Meta-aux-orange.jpg",
     "artist": "Bigspaggio18",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Meta-aux-orange.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Meta-aux-orange.jpg",
+    "w": 960,
+    "h": 665
   },
   "albemet": {
     "file": "albemet.jpg",
@@ -385,7 +469,9 @@ window.CREDITS = {
     "title": "Be-140g.jpg",
     "artist": "Alchemist-hp = Alchemist-hp (pse-mendelejew.de)",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Be-140g.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Be-140g.jpg",
+    "w": 750,
+    "h": 900
   },
   "ptfe": {
     "file": "ptfe.jpg",
@@ -394,7 +480,9 @@ window.CREDITS = {
     "title": "Teflon-jar hg.jpg",
     "artist": "Hannes Grobe",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Teflon-jar_hg.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Teflon-jar_hg.jpg",
+    "w": 960,
+    "h": 798
   },
   "eptfe": {
     "file": "eptfe.png",
@@ -403,7 +491,9 @@ window.CREDITS = {
     "title": "Goretex photo.png",
     "artist": "Abrev improved picture impression",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Goretex_photo.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Goretex_photo.png",
+    "w": 448,
+    "h": 300
   },
   "aramid": {
     "file": "aramid.jpg",
@@ -412,7 +502,9 @@ window.CREDITS = {
     "title": "Para Aramid Yarns Body Armor.jpg",
     "artist": "Bodyarmor",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Para_Aramid_Yarns_Body_Armor.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Para_Aramid_Yarns_Body_Armor.jpg",
+    "w": 960,
+    "h": 653
   },
   "fkm": {
     "file": "fkm.jpg",
@@ -421,7 +513,9 @@ window.CREDITS = {
     "title": "Fiber optic vacuum viton seal ProtoDUNE.jpg",
     "artist": "Ajheindel",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Fiber_optic_vacuum_viton_seal_ProtoDUNE.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Fiber_optic_vacuum_viton_seal_ProtoDUNE.jpg",
+    "w": 960,
+    "h": 1343
   },
   "silicone": {
     "file": "silicone.jpg",
@@ -430,7 +524,9 @@ window.CREDITS = {
     "title": "Liquid-silicon-rubber-crop.jpg",
     "artist": "By Gmhofmann (Own work) [CC-BY-SA-3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Liquid-silicon-rubber-crop.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Liquid-silicon-rubber-crop.jpg",
+    "w": 900,
+    "h": 676
   },
   "natrubber": {
     "file": "natrubber.jpg",
@@ -439,7 +535,9 @@ window.CREDITS = {
     "title": "Natural rubber.jpg",
     "artist": "LukaszKatlewa",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Natural_rubber.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Natural_rubber.jpg",
+    "w": 960,
+    "h": 720
   },
   "butyl": {
     "file": "butyl.jpg",
@@ -448,7 +546,9 @@ window.CREDITS = {
     "title": "Butyl rubber gloves.JPG",
     "artist": "MatChem121",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Butyl_rubber_gloves.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Butyl_rubber_gloves.JPG",
+    "w": 960,
+    "h": 1280
   },
   "pvdf": {
     "file": "pvdf.png",
@@ -457,7 +557,9 @@ window.CREDITS = {
     "title": "A UPW Installation using PVDF Piping.png",
     "artist": "Wikikart99",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:A_UPW_Installation_using_PVDF_Piping.png"
+    "page": "https://commons.wikimedia.org/wiki/File:A_UPW_Installation_using_PVDF_Piping.png",
+    "w": 650,
+    "h": 430
   },
   "kapton": {
     "file": "kapton.jpg",
@@ -466,7 +568,9 @@ window.CREDITS = {
     "title": "James Webb telescope sunshield.jpg",
     "artist": "Chris Gunn",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:James_Webb_telescope_sunshield.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:James_Webb_telescope_sunshield.jpg",
+    "w": 960,
+    "h": 639
   },
   "delrin": {
     "file": "delrin.jpg",
@@ -475,7 +579,9 @@ window.CREDITS = {
     "title": "Dunlop Delrin 500.jpg",
     "artist": "Urban Versis 32",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Dunlop_Delrin_500.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Dunlop_Delrin_500.jpg",
+    "w": 960,
+    "h": 720
   },
   "pc": {
     "file": "pc.jpg",
@@ -484,7 +590,9 @@ window.CREDITS = {
     "title": "Laboratory protection goggles-blue.jpg",
     "artist": "Lilly_M",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Laboratory_protection_goggles-blue.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Laboratory_protection_goggles-blue.jpg",
+    "w": 960,
+    "h": 680
   },
   "pmma": {
     "file": "pmma.jpg",
@@ -493,7 +601,9 @@ window.CREDITS = {
     "title": "Lichtenberg figure in block of Plexiglas.jpg",
     "artist": "Bert Hickman",
     "license": "Attribution",
-    "page": "https://commons.wikimedia.org/wiki/File:Lichtenberg_figure_in_block_of_Plexiglas.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Lichtenberg_figure_in_block_of_Plexiglas.jpg",
+    "w": 800,
+    "h": 726
   },
   "sap": {
     "file": "sap.jpg",
@@ -502,7 +612,9 @@ window.CREDITS = {
     "title": "Superabsorbent Polymer.jpg",
     "artist": "User:Ritchey",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Superabsorbent_Polymer.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Superabsorbent_Polymer.jpg",
+    "w": 960,
+    "h": 610
   },
   "polyurea": {
     "file": "polyurea.png",
@@ -511,7 +623,9 @@ window.CREDITS = {
     "title": "Spray-bedliner-installed-lg.png",
     "artist": "Abcflorida",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Spray-bedliner-installed-lg.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Spray-bedliner-installed-lg.png",
+    "w": 400,
+    "h": 313
   },
   "alumina": {
     "file": "alumina.jpg",
@@ -520,7 +634,9 @@ window.CREDITS = {
     "title": "Spark plug insulator.jpeg",
     "artist": "User:Industry shill",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Spark_plug_insulator.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Spark_plug_insulator.jpeg",
+    "w": 960,
+    "h": 720
   },
   "sapphire": {
     "file": "sapphire.jpg",
@@ -529,7 +645,9 @@ window.CREDITS = {
     "title": "Sapphire boule, Kyropoulos method.jpg",
     "artist": "WhiteOakTree",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sapphire_boule,_Kyropoulos_method.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Sapphire_boule,_Kyropoulos_method.jpg",
+    "w": 960,
+    "h": 1280
   },
   "fusedsilica": {
     "file": "fusedsilica.jpg",
@@ -538,7 +656,9 @@ window.CREDITS = {
     "title": "Einstein gyro gravity probe b.jpg",
     "artist": "Unknown",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Einstein_gyro_gravity_probe_b.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Einstein_gyro_gravity_probe_b.jpg",
+    "w": 960,
+    "h": 644
   },
   "gorilla": {
     "file": "gorilla.jpg",
@@ -547,7 +667,9 @@ window.CREDITS = {
     "title": "Nokia N8 gorilla glass screen (5083750412).jpg",
     "artist": "Titanas from Athens, Greece",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Nokia_N8_gorilla_glass_screen_(5083750412).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nokia_N8_gorilla_glass_screen_(5083750412).jpg",
+    "w": 960,
+    "h": 720
   },
   "borosilicate": {
     "file": "borosilicate.jpg",
@@ -556,7 +678,9 @@ window.CREDITS = {
     "title": "Beakers.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Beakers.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Beakers.jpg",
+    "w": 960,
+    "h": 948
   },
   "si3n4": {
     "file": "si3n4.jpg",
@@ -565,7 +689,9 @@ window.CREDITS = {
     "title": "Si3N4bearings.jpg",
     "artist": "David W. Richerson and Douglas W. Freitag; Oak Ridge National Laboratory (federal lab.)",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Si3N4bearings.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Si3N4bearings.jpg",
+    "w": 530,
+    "h": 468
   },
   "hbn": {
     "file": "hbn.jpg",
@@ -574,7 +700,9 @@ window.CREDITS = {
     "title": "Hexagonal Boron Nitride.jpg",
     "artist": "SJ879 C",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hexagonal_Boron_Nitride.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hexagonal_Boron_Nitride.jpg",
+    "w": 960,
+    "h": 964
   },
   "pzt": {
     "file": "pzt.jpg",
@@ -583,7 +711,9 @@ window.CREDITS = {
     "title": "Maxim-1-HydrophonPZTinGehäuse.JPG",
     "artist": "Unknown",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Maxim-1-HydrophonPZTinGeh%C3%A4use.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Maxim-1-HydrophonPZTinGeh%C3%A4use.JPG",
+    "w": 960,
+    "h": 720
   },
   "wc": {
     "file": "wc.jpg",
@@ -592,7 +722,9 @@ window.CREDITS = {
     "title": "Tungsten carbide inserts.jpg",
     "artist": "Mauro Cateb",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tungsten_carbide_inserts.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Tungsten_carbide_inserts.jpg",
+    "w": 960,
+    "h": 821
   },
   "uhtc": {
     "file": "uhtc.jpg",
@@ -601,7 +733,9 @@ window.CREDITS = {
     "title": "An UHTC strake composed of three different sections with different UHTC compositions.jpg",
     "artist": "S. M. Johnson, Matt Gasch, J. W. Lawson, M. I. Gusman, M. M. Stackpole",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:An_UHTC_strake_composed_of_three_different_sections_with_different_UHTC_compositions.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:An_UHTC_strake_composed_of_three_different_sections_with_different_UHTC_compositions.jpg",
+    "w": 406,
+    "h": 252
   },
   "li900": {
     "file": "li900.jpg",
@@ -610,7 +744,9 @@ window.CREDITS = {
     "title": "Shuttle tile.jpg",
     "artist": "Greenshed",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Shuttle_tile.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Shuttle_tile.jpg",
+    "w": 960,
+    "h": 1074
   },
   "cvddiamond": {
     "file": "cvddiamond.jpg",
@@ -619,7 +755,9 @@ window.CREDITS = {
     "title": "Single-crystal CVD diamond disc.jpg",
     "artist": "Matthias Schreck, Stefan Gsell, Rosaria Brescia & Martin Fischer",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Single-crystal_CVD_diamond_disc.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Single-crystal_CVD_diamond_disc.jpg",
+    "w": 920,
+    "h": 802
   },
   "quartzxtal": {
     "file": "quartzxtal.jpg",
@@ -628,7 +766,9 @@ window.CREDITS = {
     "title": "32768 Hz quartz crystal resonator.jpg",
     "artist": "Mister rf",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:32768_Hz_quartz_crystal_resonator.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:32768_Hz_quartz_crystal_resonator.jpg",
+    "w": 960,
+    "h": 1446
   },
   "yag": {
     "file": "yag.jpg",
@@ -637,7 +777,9 @@ window.CREDITS = {
     "title": "Yag-rod.jpg",
     "artist": "Unknown authorUnknown author",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Yag-rod.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Yag-rod.jpg",
+    "w": 400,
+    "h": 400
   },
   "batio3": {
     "file": "batio3.jpg",
@@ -646,7 +788,9 @@ window.CREDITS = {
     "title": "BaTiO3ceramics.JPG",
     "artist": "Materialscientist (talk)",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:BaTiO3ceramics.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:BaTiO3ceramics.JPG",
+    "w": 500,
+    "h": 435
   },
   "tbc": {
     "file": "tbc.jpg",
@@ -655,7 +799,9 @@ window.CREDITS = {
     "title": "Coloured ceramic thermal barrier coating on exhaust component.jpg",
     "artist": "http://www.zircotec.com",
     "license": "Attribution",
-    "page": "https://commons.wikimedia.org/wiki/File:Coloured_ceramic_thermal_barrier_coating_on_exhaust_component.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Coloured_ceramic_thermal_barrier_coating_on_exhaust_component.jpg",
+    "w": 450,
+    "h": 293
   },
   "sorbothane": {
     "file": "sorbothane.jpg",
@@ -664,7 +810,9 @@ window.CREDITS = {
     "title": "Motor tower level 1 with grommets and sorbothane - Connoisseur BD1 Kit Replinth (6909790478).jpg",
     "artist": "Jacques from Cape Town, South Africa",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Motor_tower_level_1_with_grommets_and_sorbothane_-_Connoisseur_BD1_Kit_Replinth_(6909790478).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Motor_tower_level_1_with_grommets_and_sorbothane_-_Connoisseur_BD1_Kit_Replinth_(6909790478).jpg",
+    "w": 960,
+    "h": 720
   },
   "zylon": {
     "file": "zylon.jpg",
@@ -673,7 +821,9 @@ window.CREDITS = {
     "title": "NIJ LVLIIIA Kogelvrij vest, BA8001.jpg",
     "artist": "PMullahaa",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:NIJ_LVLIIIA_Kogelvrij_vest,_BA8001.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:NIJ_LVLIIIA_Kogelvrij_vest,_BA8001.jpg",
+    "w": 960,
+    "h": 1449
   },
   "lignostone": {
     "file": "lignostone.jpg",
@@ -682,7 +832,9 @@ window.CREDITS = {
     "title": "Lignoston.jpg",
     "artist": "Mnemosine",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Lignoston.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Lignoston.jpg",
+    "w": 960,
+    "h": 589
   },
   "parylene": {
     "file": "parylene.jpg",
@@ -691,7 +843,9 @@ window.CREDITS = {
     "title": "CPI Microlyth Pacemaker.jpg",
     "artist": "Brian Adducci",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CPI_Microlyth_Pacemaker.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CPI_Microlyth_Pacemaker.jpg",
+    "w": 960,
+    "h": 919
   },
   "vectran": {
     "file": "vectran.jpg",
@@ -700,7 +854,9 @@ window.CREDITS = {
     "title": "Level 3A glove.jpg",
     "artist": "Lsmit301",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Level_3A_glove.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Level_3A_glove.jpg",
+    "w": 960,
+    "h": 1280
   },
   "metglas": {
     "file": "metglas.png",
@@ -709,7 +865,9 @@ window.CREDITS = {
     "title": "MeltSpinner.png",
     "artist": "J3D3",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MeltSpinner.png"
+    "page": "https://commons.wikimedia.org/wiki/File:MeltSpinner.png",
+    "w": 960,
+    "h": 720
   },
   "maraging": {
     "file": "maraging.jpg",
@@ -718,7 +876,9 @@ window.CREDITS = {
     "title": "Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg",
     "artist": "Marie-Lan Nguyen",
     "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Semi-finals_Heinzer-Novosjolov_Masters_epee_2012_n06.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Semi-finals_Heinzer-Novosjolov_Masters_epee_2012_n06.jpg",
+    "w": 960,
+    "h": 638
   },
   "cordierite": {
     "file": "cordierite.jpg",
@@ -727,7 +887,9 @@ window.CREDITS = {
     "title": "Catalytic Converter Interior.jpg",
     "artist": "Cyrogigabyte",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Catalytic_Converter_Interior.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Catalytic_Converter_Interior.jpg",
+    "w": 960,
+    "h": 1280
   },
   "torlon": {
     "file": "torlon.jpg",
@@ -736,7 +898,9 @@ window.CREDITS = {
     "title": "Ruban-capton-adhesif.jpg",
     "artist": "Jérôme",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ruban-capton-adhesif.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ruban-capton-adhesif.jpg",
+    "w": 960,
+    "h": 729
   },
   "fields": {
     "file": "fields.jpg",
@@ -745,7 +909,9 @@ window.CREDITS = {
     "title": "Wood's alloy 2.JPG",
     "artist": "GOKLuLe",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Wood%27s_alloy_2.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Wood%27s_alloy_2.JPG",
+    "w": 960,
+    "h": 720
   },
   "bakelite": {
     "file": "bakelite.jpg",
@@ -754,7 +920,9 @@ window.CREDITS = {
     "title": "Bakelite radio.jpg",
     "artist": "Original uploader was Robneild at en.wikipedia",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Bakelite_radio.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bakelite_radio.jpg",
+    "w": 960,
+    "h": 1280
   },
   "phenolic": {
     "file": "phenolic.jpg",
@@ -763,7 +931,9 @@ window.CREDITS = {
     "title": "Textolite.jpg",
     "artist": "Zureks",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Textolite.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Textolite.jpg",
+    "w": 960,
+    "h": 696
   },
   "neoprene": {
     "file": "neoprene.jpg",
@@ -772,7 +942,9 @@ window.CREDITS = {
     "title": "Diving suit neoprene.jpg",
     "artist": "Mark.murphy",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Diving_suit_neoprene.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Diving_suit_neoprene.jpg",
+    "w": 960,
+    "h": 720
   },
   "epdm": {
     "file": "epdm.jpg",
@@ -781,7 +953,9 @@ window.CREDITS = {
     "title": "EPDM foil.jpg",
     "artist": "KVDP",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:EPDM_foil.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:EPDM_foil.jpg",
+    "w": 960,
+    "h": 1169
   },
   "nbr": {
     "file": "nbr.jpg",
@@ -790,7 +964,9 @@ window.CREDITS = {
     "title": "Disposable nitrile glove.jpg",
     "artist": "Unknown",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Disposable_nitrile_glove.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Disposable_nitrile_glove.jpg",
+    "w": 400,
+    "h": 600
   },
   "br": {
     "file": "br.jpg",
@@ -799,7 +975,9 @@ window.CREDITS = {
     "title": "Golfballinsiderp.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Golfballinsiderp.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Golfballinsiderp.jpg",
+    "w": 701,
+    "h": 517
   },
   "tpu": {
     "file": "tpu.jpg",
@@ -808,7 +986,9 @@ window.CREDITS = {
     "title": "Chips TPU con eurocent.jpg",
     "artist": "Luigi Chiesa",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Chips_TPU_con_eurocent.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chips_TPU_con_eurocent.jpg",
+    "w": 960,
+    "h": 638
   },
   "pps": {
     "file": "pps.jpg",
@@ -817,7 +997,9 @@ window.CREDITS = {
     "title": "Molexddpcsfamily.jpg",
     "artist": "Inaxeon",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Molexddpcsfamily.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Molexddpcsfamily.jpg",
+    "w": 960,
+    "h": 717
   },
   "mylar": {
     "file": "mylar.jpg",
@@ -826,7 +1008,9 @@ window.CREDITS = {
     "title": "Myla32rp.jpg",
     "artist": "Anton",
     "license": "CC BY-SA 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Myla32rp.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Myla32rp.jpg",
+    "w": 519,
+    "h": 450
   },
   "pp": {
     "file": "pp.jpg",
@@ -835,7 +1019,9 @@ window.CREDITS = {
     "title": "Mint box polypropylene lid.JPG",
     "artist": "en:User:Polyparadig",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG",
+    "w": 736,
+    "h": 1020
   },
   "memoryfoam": {
     "file": "memoryfoam.jpg",
@@ -844,7 +1030,9 @@ window.CREDITS = {
     "title": "MemoryFoam-slow.jpg",
     "artist": "Johan",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MemoryFoam-slow.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:MemoryFoam-slow.jpg",
+    "w": 960,
+    "h": 720
   },
   "epoxy": {
     "file": "epoxy.jpg",
@@ -853,7 +1041,9 @@ window.CREDITS = {
     "title": "Aerospace epoxy resin.jpg",
     "artist": "Acheolg",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Aerospace_epoxy_resin.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aerospace_epoxy_resin.jpg",
+    "w": 960,
+    "h": 720
   },
   "eva": {
     "file": "eva.jpg",
@@ -862,7 +1052,9 @@ window.CREDITS = {
     "title": "Eva closeup.jpg",
     "artist": "Rotor DB at en.wikipedia",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Eva_closeup.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Eva_closeup.jpg",
+    "w": 960,
+    "h": 661
   },
   "manila": {
     "file": "manila.jpg",
@@ -871,7 +1063,9 @@ window.CREDITS = {
     "title": "20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg",
     "artist": "BANANATEX",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg",
+    "w": 960,
+    "h": 640
   },
   "hemprope": {
     "file": "hemprope.jpg",
@@ -880,7 +1074,9 @@ window.CREDITS = {
     "title": "Cordage en chanvre.jpg",
     "artist": "Ji-Elle",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cordage_en_chanvre.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cordage_en_chanvre.jpg",
+    "w": 960,
+    "h": 749
   },
   "sisal": {
     "file": "sisal.jpg",
@@ -889,7 +1085,9 @@ window.CREDITS = {
     "title": "Pacas de sisal.jpg",
     "artist": "Comvaser dice: Tomado de Wikipedia en Inglés según referencia señalada en Source.Dotado de licencia de uso de dominio público por el autor misma que se reproduce abajo.",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Pacas_de_sisal.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Pacas_de_sisal.jpg",
+    "w": 960,
+    "h": 720
   },
   "coir": {
     "file": "coir.jpg",
@@ -898,7 +1096,9 @@ window.CREDITS = {
     "title": "Making coir rope in Kerala.JPG",
     "artist": "Bricaniwi",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Making_coir_rope_in_Kerala.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Making_coir_rope_in_Kerala.JPG",
+    "w": 960,
+    "h": 720
   },
   "jute": {
     "file": "jute.jpg",
@@ -907,7 +1107,9 @@ window.CREDITS = {
     "title": "Jute Rope (சணல் கயிறு).jpg",
     "artist": "Thamizhpparithi Maari",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Jute_Rope_(%E0%AE%9A%E0%AE%A3%E0%AE%B2%E0%AF%8D_%E0%AE%95%E0%AE%AF%E0%AE%BF%E0%AE%B1%E0%AF%81).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Jute_Rope_(%E0%AE%9A%E0%AE%A3%E0%AE%B2%E0%AF%8D_%E0%AE%95%E0%AE%AF%E0%AE%BF%E0%AE%B1%E0%AF%81).jpg",
+    "w": 960,
+    "h": 720
   },
   "cottonduck": {
     "file": "cottonduck.jpg",
@@ -916,7 +1118,9 @@ window.CREDITS = {
     "title": "Close up of cotton duck canvas.JPG",
     "artist": "Clescelius",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Close_up_of_cotton_duck_canvas.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Close_up_of_cotton_duck_canvas.JPG",
+    "w": 960,
+    "h": 1285
   },
   "linen": {
     "file": "linen.jpg",
@@ -925,7 +1129,9 @@ window.CREDITS = {
     "title": "Linen cloth.jpg",
     "artist": "Unknown",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Linen_cloth.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Linen_cloth.jpg",
+    "w": 573,
+    "h": 640
   },
   "silk": {
     "file": "silk.jpg",
@@ -934,7 +1140,9 @@ window.CREDITS = {
     "title": "Bombyx mori Cocon 02.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Bombyx_mori_Cocon_02.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bombyx_mori_Cocon_02.jpg",
+    "w": 960,
+    "h": 960
   },
   "spidersilk": {
     "file": "spidersilk.jpg",
@@ -943,7 +1151,9 @@ window.CREDITS = {
     "title": "Artificial Spider Silk Strand.JPG",
     "artist": "K8joc8ohGee9j",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Artificial_Spider_Silk_Strand.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Artificial_Spider_Silk_Strand.JPG",
+    "w": 960,
+    "h": 1548
   },
   "felt": {
     "file": "felt.jpg",
@@ -952,7 +1162,9 @@ window.CREDITS = {
     "title": "Colored felt cloth.jpg",
     "artist": "Bastet78",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Colored_felt_cloth.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Colored_felt_cloth.jpg",
+    "w": 960,
+    "h": 720
   },
   "paracord": {
     "file": "paracord.jpg",
@@ -961,7 +1173,9 @@ window.CREDITS = {
     "title": "MIL-C-5040 Type III 550 Paracord.jpg",
     "artist": "Rawkhopper",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MIL-C-5040_Type_III_550_Paracord.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:MIL-C-5040_Type_III_550_Paracord.jpg",
+    "w": 960,
+    "h": 890
   },
   "polyesterfab": {
     "file": "polyesterfab.jpg",
@@ -970,7 +1184,9 @@ window.CREDITS = {
     "title": "Drop of water on water-resistant textile (100% polyester).jpg",
     "artist": "Petar Milošević",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Drop_of_water_on_water-resistant_textile_(100%25_polyester).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Drop_of_water_on_water-resistant_textile_(100%25_polyester).jpg",
+    "w": 960,
+    "h": 627
   },
   "wirerope": {
     "file": "wirerope.jpg",
@@ -979,7 +1195,9 @@ window.CREDITS = {
     "title": "Lhol wire rope.jpg",
     "artist": "Bernard S. Jansen",
     "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Lhol_wire_rope.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Lhol_wire_rope.jpg",
+    "w": 960,
+    "h": 508
   },
   "glassfibre": {
     "file": "glassfibre.jpg",
@@ -988,7 +1206,9 @@ window.CREDITS = {
     "title": "Glass fiber bundle.jpg",
     "artist": "Acheolg",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Glass_fiber_bundle.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Glass_fiber_bundle.jpg",
+    "w": 960,
+    "h": 720
   },
   "basalt": {
     "file": "basalt.jpg",
@@ -997,7 +1217,9 @@ window.CREDITS = {
     "title": "Basalt fibre and glass fibre.jpg",
     "artist": "Nils Austa",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Basalt_fibre_and_glass_fibre.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Basalt_fibre_and_glass_fibre.jpg",
+    "w": 960,
+    "h": 540
   },
   "nomex": {
     "file": "nomex.jpg",
@@ -1006,7 +1228,9 @@ window.CREDITS = {
     "title": "TFS Nomex Hood.JPG",
     "artist": "The original uploader was Sherurcij at English Wikipedia.",
     "license": "Attribution",
-    "page": "https://commons.wikimedia.org/wiki/File:TFS_Nomex_Hood.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:TFS_Nomex_Hood.JPG",
+    "w": 960,
+    "h": 630
   },
   "ripstop": {
     "file": "ripstop.jpg",
@@ -1015,7 +1239,9 @@ window.CREDITS = {
     "title": "RipStop.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:RipStop.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:RipStop.jpg",
+    "w": 960,
+    "h": 720
   },
   "sailcloth": {
     "file": "sailcloth.jpg",
@@ -1024,7 +1250,9 @@ window.CREDITS = {
     "title": "Bear of Britain spinnaker.jpg",
     "artist": "No machine-readable author provided. Malcolm Morley~commonswiki assumed (based on copyright claims).",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Bear_of_Britain_spinnaker.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bear_of_Britain_spinnaker.jpg",
+    "w": 960,
+    "h": 1108
   },
   "abs": {
     "file": "abs.jpg",
@@ -1033,7 +1261,9 @@ window.CREDITS = {
     "title": "Lego bricks.jpg",
     "artist": "Benjamin D. Esham (bdesham)",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Lego_bricks.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Lego_bricks.jpg",
+    "w": 960,
+    "h": 720
   },
   "pet": {
     "file": "pet.jpg",
@@ -1042,7 +1272,9 @@ window.CREDITS = {
     "title": "Plastic bottles before processing.jpg",
     "artist": "dierk schaefer",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Plastic_bottles_before_processing.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Plastic_bottles_before_processing.jpg",
+    "w": 960,
+    "h": 720
   },
   "pvc": {
     "file": "pvc.jpg",
@@ -1051,7 +1283,9 @@ window.CREDITS = {
     "title": "Pvc cevi.jpg",
     "artist": "Mm.zaletel at Slovenian Wikipedia",
     "license": "GFDL",
-    "page": "https://commons.wikimedia.org/wiki/File:Pvc_cevi.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Pvc_cevi.jpg",
+    "w": 960,
+    "h": 721
   },
   "nylon66": {
     "file": "nylon66.jpg",
@@ -1060,7 +1294,9 @@ window.CREDITS = {
     "title": "Kabelbinder -- 2024 -- 6907.jpg",
     "artist": "Dietmar Rabich",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Kabelbinder_--_2024_--_6907.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Kabelbinder_--_2024_--_6907.jpg",
+    "w": 960,
+    "h": 960
   },
   "hdpe": {
     "file": "hdpe.png",
@@ -1069,7 +1305,9 @@ window.CREDITS = {
     "title": "Diverse Kanisterformen.png",
     "artist": "Thiemo Schuff",
     "license": "CC BY-SA 3.0 de",
-    "page": "https://commons.wikimedia.org/wiki/File:Diverse_Kanisterformen.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Diverse_Kanisterformen.png",
+    "w": 960,
+    "h": 1280
   },
   "pex": {
     "file": "pex.jpg",
@@ -1078,7 +1316,9 @@ window.CREDITS = {
     "title": "PEX piping in basement ceiling.jpg",
     "artist": "Tomwsulcer",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:PEX_piping_in_basement_ceiling.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:PEX_piping_in_basement_ceiling.jpg",
+    "w": 960,
+    "h": 786
   },
   "eps": {
     "file": "eps.jpg",
@@ -1087,7 +1327,9 @@ window.CREDITS = {
     "title": "Expanded Polystyrene (EPS) foam pellets.jpg",
     "artist": "Swoolverton",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Expanded_Polystyrene_(EPS)_foam_pellets.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Expanded_Polystyrene_(EPS)_foam_pellets.jpg",
+    "w": 960,
+    "h": 640
   },
   "pdms": {
     "file": "pdms.jpg",
@@ -1096,7 +1338,9 @@ window.CREDITS = {
     "title": "Рождение микрофлюидного чипа.JPG",
     "artist": "Данилюк Валентина",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%84%D0%BB%D1%8E%D0%B8%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D1%87%D0%B8%D0%BF%D0%B0.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%84%D0%BB%D1%8E%D0%B8%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D1%87%D0%B8%D0%BF%D0%B0.JPG",
+    "w": 960,
+    "h": 640
   },
   "fep": {
     "file": "fep.jpg",
@@ -1105,7 +1349,9 @@ window.CREDITS = {
     "title": "Pfa tubing.jpeg",
     "artist": "Bushytails at English Wikipedia",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Pfa_tubing.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Pfa_tubing.jpeg",
+    "w": 960,
+    "h": 720
   },
   "pvb": {
     "file": "pvb.jpg",
@@ -1114,7 +1360,9 @@ window.CREDITS = {
     "title": "Shattered laminated glass in broken window in railway tram train carriage Close-up Cracks fragments visual effects patterns NORWAY Knust vindu i togvogn med laminert sikkerhetsglass sprekker småbiter lyseffekter 2019-02-11 DSC03363.jpg",
     "artist": "Wolfmann",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Shattered_laminated_glass_in_broken_window_in_railway_tram_train_carriage_Close-up_Cracks_fragments_visual_effects_patterns_NORWAY_Knust_vindu_i_togvogn_med_laminert_sikkerhetsglass_sprekker_sm%C3%A5biter_lyseffekter_2019-02-11_DSC03363.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Shattered_laminated_glass_in_broken_window_in_railway_tram_train_carriage_Close-up_Cracks_fragments_visual_effects_patterns_NORWAY_Knust_vindu_i_togvogn_med_laminert_sikkerhetsglass_sprekker_sm%C3%A5biter_lyseffekter_2019-02-11_DSC03363.jpg",
+    "w": 960,
+    "h": 640
   },
   "surlyn": {
     "file": "surlyn.jpg",
@@ -1123,7 +1371,9 @@ window.CREDITS = {
     "title": "Golf ball by Japanese company Srixon.jpg",
     "artist": "R. Henrik Nilsson",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Golf_ball_by_Japanese_company_Srixon.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Golf_ball_by_Japanese_company_Srixon.jpg",
+    "w": 960,
+    "h": 970
   },
   "pla": {
     "file": "pla.jpg",
@@ -1132,7 +1382,9 @@ window.CREDITS = {
     "title": "3D printing filament.jpg",
     "artist": "westonhighschool library",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:3D_printing_filament.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:3D_printing_filament.jpg",
+    "w": 960,
+    "h": 773
   },
   "melaminefoam": {
     "file": "melaminefoam.jpg",
@@ -1141,7 +1393,9 @@ window.CREDITS = {
     "title": "MagicEraser.jpg",
     "artist": "Whoisjohngalt at English Wikipedia",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MagicEraser.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:MagicEraser.jpg",
+    "w": 960,
+    "h": 717
   },
   "cyanoacrylate": {
     "file": "cyanoacrylate.jpg",
@@ -1150,7 +1404,9 @@ window.CREDITS = {
     "title": "Cianocrilato.JPG",
     "artist": "Schumi4ever",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cianocrilato.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Cianocrilato.JPG",
+    "w": 960,
+    "h": 720
   },
   "pva": {
     "file": "pva.jpg",
@@ -1159,7 +1415,9 @@ window.CREDITS = {
     "title": "Folia PVA z pochodną kumaryny w świetle widzialnym nr 01.jpg",
     "artist": "BogdaChemPol",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Folia_PVA_z_pochodn%C4%85_kumaryny_w_%C5%9Bwietle_widzialnym_nr_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Folia_PVA_z_pochodn%C4%85_kumaryny_w_%C5%9Bwietle_widzialnym_nr_01.jpg",
+    "w": 960,
+    "h": 756
   },
   "nafion": {
     "file": "nafion.jpg",
@@ -1168,7 +1426,9 @@ window.CREDITS = {
     "title": "Patrick Teppor and PEM active layer deposition by ultrasonic spraying.jpg",
     "artist": "Tavoromann",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Patrick_Teppor_and_PEM_active_layer_deposition_by_ultrasonic_spraying.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Patrick_Teppor_and_PEM_active_layer_deposition_by_ultrasonic_spraying.jpg",
+    "w": 960,
+    "h": 557
   },
   "pbi": {
     "file": "pbi.jpg",
@@ -1177,7 +1437,9 @@ window.CREDITS = {
     "title": "Membrana di PBI commerciale.JPG",
     "artist": "Davide Carlo Villa",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Membrana_di_PBI_commerciale.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Membrana_di_PBI_commerciale.JPG",
+    "w": 960,
+    "h": 720
   },
   "ti64": {
     "file": "ti64.jpg",
@@ -1186,7 +1448,9 @@ window.CREDITS = {
     "title": "Hip joint replacement, United States, 1998 Wellcome L0060175.jpg",
     "artist": "Unknown",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hip_joint_replacement,_United_States,_1998_Wellcome_L0060175.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hip_joint_replacement,_United_States,_1998_Wellcome_L0060175.jpg",
+    "w": 960,
+    "h": 639
   },
   "magnesium": {
     "file": "magnesium.jpg",
@@ -1195,7 +1459,9 @@ window.CREDITS = {
     "title": "Mg alloy car engine blocks.jpg",
     "artist": "Mark Fergus",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mg_alloy_car_engine_blocks.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mg_alloy_car_engine_blocks.jpg",
+    "w": 960,
+    "h": 643
   },
   "damascus": {
     "file": "damascus.jpg",
@@ -1204,7 +1470,9 @@ window.CREDITS = {
     "title": "Front and back of blades of hair-cutting shears made from Damascus steel.jpg",
     "artist": "Pittigrilli",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Front_and_back_of_blades_of_hair-cutting_shears_made_from_Damascus_steel.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Front_and_back_of_blades_of_hair-cutting_shears_made_from_Damascus_steel.jpg",
+    "w": 960,
+    "h": 480
   },
   "hadfield": {
     "file": "hadfield.jpg",
@@ -1213,7 +1481,9 @@ window.CREDITS = {
     "title": "Sacramento tram track frog 4036.JPG",
     "artist": "Pedro Xing",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sacramento_tram_track_frog_4036.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Sacramento_tram_track_frog_4036.JPG",
+    "w": 960,
+    "h": 720
   },
   "duplex": {
     "file": "duplex.jpg",
@@ -1222,7 +1492,9 @@ window.CREDITS = {
     "title": "Chemical tanker Ternholm at Skarvikshamnen 2.jpg",
     "artist": "W.carter",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Chemical_tanker_Ternholm_at_Skarvikshamnen_2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chemical_tanker_Ternholm_at_Skarvikshamnen_2.jpg",
+    "w": 960,
+    "h": 540
   },
   "hss": {
     "file": "hss.jpg",
@@ -1231,7 +1503,9 @@ window.CREDITS = {
     "title": "HSS Twist Drill into Aluminium with Lubricant.jpg",
     "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:HSS_Twist_Drill_into_Aluminium_with_Lubricant.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:HSS_Twist_Drill_into_Aluminium_with_Lubricant.jpg",
+    "w": 960,
+    "h": 615
   },
   "phosbronze": {
     "file": "phosbronze.jpg",
@@ -1240,7 +1514,9 @@ window.CREDITS = {
     "title": "Phosphorbronzeguitarstring.jpg",
     "artist": "Badagnani",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Phosphorbronzeguitarstring.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Phosphorbronzeguitarstring.jpg",
+    "w": 960,
+    "h": 650
   },
   "monel": {
     "file": "monel.jpg",
@@ -1249,7 +1525,9 @@ window.CREDITS = {
     "title": "Monel-valves--The-Alloy-Valve-Stockist.JPG",
     "artist": "Heather Smith",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Monel-valves--The-Alloy-Valve-Stockist.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Monel-valves--The-Alloy-Valve-Stockist.JPG",
+    "w": 960,
+    "h": 720
   },
   "hastelloy": {
     "file": "hastelloy.jpg",
@@ -1258,7 +1536,9 @@ window.CREDITS = {
     "title": "Hastelloy Ball valve.jpg",
     "artist": "HS",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hastelloy_Ball_valve.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hastelloy_Ball_valve.jpg",
+    "w": 960,
+    "h": 720
   },
   "zamak": {
     "file": "zamak.jpg",
@@ -1267,7 +1547,9 @@ window.CREDITS = {
     "title": "Zink auto.jpg",
     "artist": "selbst fotografiert",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Zink_auto.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Zink_auto.jpg",
+    "w": 960,
+    "h": 1185
   },
   "sac305": {
     "file": "sac305.jpg",
@@ -1276,7 +1558,9 @@ window.CREDITS = {
     "title": "Solder on spool.jpeg",
     "artist": "Wikideas1",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Solder_on_spool.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Solder_on_spool.jpeg",
+    "w": 960,
+    "h": 535
   },
   "tantalum": {
     "file": "tantalum.jpg",
@@ -1285,7 +1569,9 @@ window.CREDITS = {
     "title": "Tantalum (Element - 73) 1.jpg",
     "artist": "James St. John",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tantalum_(Element_-_73)_1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Tantalum_(Element_-_73)_1.jpg",
+    "w": 960,
+    "h": 822
   },
   "niobium": {
     "file": "niobium.jpg",
@@ -1294,7 +1580,9 @@ window.CREDITS = {
     "title": "Ultrapure niobium bead, slightly oxidized.jpg",
     "artist": "Hi-Res Images of\n\nChemical Elements",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ultrapure_niobium_bead,_slightly_oxidized.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ultrapure_niobium_bead,_slightly_oxidized.jpg",
+    "w": 908,
+    "h": 908
   },
   "nbti": {
     "file": "nbti.jpg",
@@ -1303,7 +1591,9 @@ window.CREDITS = {
     "title": "LHC NbTi superconducting wire.jpg",
     "artist": "Murielvd, who is both the Flickr user and the Commons user",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:LHC_NbTi_superconducting_wire.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:LHC_NbTi_superconducting_wire.jpg",
+    "w": 960,
+    "h": 720
   },
   "bismuth": {
     "file": "bismuth.jpg",
@@ -1312,7 +1602,9 @@ window.CREDITS = {
     "title": "Bismuth crystals and 1cm3 cube.jpg",
     "artist": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
     "license": "FAL",
-    "page": "https://commons.wikimedia.org/wiki/File:Bismuth_crystals_and_1cm3_cube.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bismuth_crystals_and_1cm3_cube.jpg",
+    "w": 960,
+    "h": 648
   },
   "inconel718": {
     "file": "inconel718.jpg",
@@ -1321,7 +1613,9 @@ window.CREDITS = {
     "title": "Inconel 718.JPG",
     "artist": "Ascaron",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Inconel_718.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Inconel_718.JPG",
+    "w": 960,
+    "h": 1455
   },
   "ndfeb": {
     "file": "ndfeb.jpg",
@@ -1330,7 +1624,9 @@ window.CREDITS = {
     "title": "Neodimijski magneti, (Neodymium magnets).JPG",
     "artist": "Suradnik50",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Neodimijski_magneti,_(Neodymium_magnets).JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Neodimijski_magneti,_(Neodymium_magnets).JPG",
+    "w": 960,
+    "h": 793
   },
   "alnico": {
     "file": "alnico.jpg",
@@ -1339,7 +1635,9 @@ window.CREDITS = {
     "title": "Alnico magnet assortment.jpg",
     "artist": "Unknown authorUnknown author",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Alnico_magnet_assortment.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Alnico_magnet_assortment.jpg",
+    "w": 960,
+    "h": 719
   },
   "corten": {
     "file": "corten.jpg",
@@ -1348,7 +1646,9 @@ window.CREDITS = {
     "title": "Weathering steel door.jpg",
     "artist": "Kurt Müllers",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Weathering_steel_door.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Weathering_steel_door.jpg",
+    "w": 800,
+    "h": 800
   },
   "zircaloy": {
     "file": "zircaloy.jpg",
@@ -1357,7 +1657,9 @@ window.CREDITS = {
     "title": "Fuel Rod (26072384441).jpg",
     "artist": "Nuclear Regulatory Commission from US",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Fuel_Rod_(26072384441).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Fuel_Rod_(26072384441).jpg",
+    "w": 960,
+    "h": 844
   },
   "hafnium": {
     "file": "hafnium.jpg",
@@ -1366,7 +1668,9 @@ window.CREDITS = {
     "title": "Hafnium ebeam remelted.jpg",
     "artist": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
     "license": "FAL",
-    "page": "https://commons.wikimedia.org/wiki/File:Hafnium_ebeam_remelted.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hafnium_ebeam_remelted.jpg",
+    "w": 960,
+    "h": 810
   },
   "hea": {
     "file": "hea.jpg",
@@ -1375,7 +1679,9 @@ window.CREDITS = {
     "title": "Microstructure of High-Entropy Alloy AlCoCrFeNi₂.₁.jpg",
     "artist": "OndrejAmbroz",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Microstructure_of_High-Entropy_Alloy_AlCoCrFeNi%E2%82%82.%E2%82%81.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Microstructure_of_High-Entropy_Alloy_AlCoCrFeNi%E2%82%82.%E2%82%81.jpg",
+    "w": 960,
+    "h": 801
   },
   "sodalime": {
     "file": "sodalime.jpg",
@@ -1384,7 +1690,9 @@ window.CREDITS = {
     "title": "Foxton Fizz Bottles.jpg",
     "artist": "Kiwichris",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Foxton_Fizz_Bottles.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Foxton_Fizz_Bottles.jpg",
+    "w": 960,
+    "h": 720
   },
   "leadcrystal": {
     "file": "leadcrystal.jpg",
@@ -1393,7 +1701,9 @@ window.CREDITS = {
     "title": "Cut crystal wine glasses in the Fakiris series by German glassworks Knittel 4.jpg",
     "artist": "Photo: W.carter\nResearch: Aristeas",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cut_crystal_wine_glasses_in_the_Fakiris_series_by_German_glassworks_Knittel_4.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cut_crystal_wine_glasses_in_the_Fakiris_series_by_German_glassworks_Knittel_4.jpg",
+    "w": 960,
+    "h": 721
   },
   "ceran": {
     "file": "ceran.jpg",
@@ -1402,7 +1712,9 @@ window.CREDITS = {
     "title": "Schott Ceran glass-ceramic cooktop.jpg",
     "artist": "SCHOTT",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Schott_Ceran_glass-ceramic_cooktop.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Schott_Ceran_glass-ceramic_cooktop.jpg",
+    "w": 960,
+    "h": 633
   },
   "porcelain": {
     "file": "porcelain.jpg",
@@ -1411,7 +1723,9 @@ window.CREDITS = {
     "title": "Johnny ball strain insulator.JPG",
     "artist": "Chetvorno",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Johnny_ball_strain_insulator.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Johnny_ball_strain_insulator.JPG",
+    "w": 874,
+    "h": 1196
   },
   "steatite": {
     "file": "steatite.jpg",
@@ -1420,7 +1734,9 @@ window.CREDITS = {
     "title": "Lampe Nishapur steatite.JPG",
     "artist": "No machine-readable author provided. Fabos~commonswiki assumed (based on copyright claims).",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Lampe_Nishapur_steatite.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Lampe_Nishapur_steatite.JPG",
+    "w": 960,
+    "h": 720
   },
   "mullite": {
     "file": "mullite.png",
@@ -1429,7 +1745,9 @@ window.CREDITS = {
     "title": "Kiln Furniture Before Glost FIring.png",
     "artist": "Encik Tekateki",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Kiln_Furniture_Before_Glost_FIring.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Kiln_Furniture_Before_Glost_FIring.png",
+    "w": 960,
+    "h": 720
   },
   "glassycarbon": {
     "file": "glassycarbon.jpg",
@@ -1438,7 +1756,9 @@ window.CREDITS = {
     "title": "Glassy Carbon.jpg",
     "artist": "范皓程",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Glassy_Carbon.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Glassy_Carbon.jpg",
+    "w": 960,
+    "h": 821
   },
   "emax": {
     "file": "emax.jpg",
@@ -1447,7 +1767,9 @@ window.CREDITS = {
     "title": "Detached-dental-crown-view-a.jpg",
     "artist": "Wikimpan",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Detached-dental-crown-view-a.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Detached-dental-crown-view-a.jpg",
+    "w": 960,
+    "h": 640
   },
   "zta": {
     "file": "zta.jpg",
@@ -1456,7 +1778,9 @@ window.CREDITS = {
     "title": "Hip replacement Image 3684-PH.jpg",
     "artist": "X-ray Image ID: 3684. Photographer: Unknown.",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Hip_replacement_Image_3684-PH.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hip_replacement_Image_3684-PH.jpg",
+    "w": 960,
+    "h": 772
   },
   "mnznferrite": {
     "file": "mnznferrite.jpg",
@@ -1465,7 +1789,9 @@ window.CREDITS = {
     "title": "T-10 Ferrite Core (1).jpg",
     "artist": "Suyash Dwivedi",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:T-10_Ferrite_Core_(1).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:T-10_Ferrite_Core_(1).jpg",
+    "w": 960,
+    "h": 640
   },
   "ifb": {
     "file": "ifb.jpg",
@@ -1474,7 +1800,9 @@ window.CREDITS = {
     "title": "Refractory bricks lining.jpg",
     "artist": "Alexknight12",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Refractory_bricks_lining.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Refractory_bricks_lining.jpg",
+    "w": 960,
+    "h": 720
   },
   "sialon": {
     "file": "sialon.jpg",
@@ -1483,7 +1811,9 @@ window.CREDITS = {
     "title": "ASiAlONb.jpg",
     "artist": "User:Materialscientist",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:ASiAlONb.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:ASiAlONb.jpg",
+    "w": 960,
+    "h": 819
   },
   "beo": {
     "file": "beo.jpg",
@@ -1492,7 +1822,9 @@ window.CREDITS = {
     "title": "BeO sample.jpg",
     "artist": "Leiem",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:BeO_sample.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:BeO_sample.jpg",
+    "w": 960,
+    "h": 815
   },
   "uraniumglass": {
     "file": "uraniumglass.jpg",
@@ -1501,7 +1833,9 @@ window.CREDITS = {
     "title": "Uranium glass.jpg",
     "artist": "Beeblaine",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Uranium_glass.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Uranium_glass.jpg",
+    "w": 960,
+    "h": 640
   },
   "dichroic": {
     "file": "dichroic.jpg",
@@ -1510,7 +1844,9 @@ window.CREDITS = {
     "title": "Petit Palais Verre dichroïque Noir souriant 13012018 1.jpg",
     "artist": "Vassil",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Petit_Palais_Verre_dichro%C3%AFque_Noir_souriant_13012018_1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Petit_Palais_Verre_dichro%C3%AFque_Noir_souriant_13012018_1.jpg",
+    "w": 960,
+    "h": 1313
   },
   "photochromic": {
     "file": "photochromic.jpg",
@@ -1519,7 +1855,9 @@ window.CREDITS = {
     "title": "Photo Grey glasses, Фото греј наочари.JPG",
     "artist": "Делфина",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Photo_Grey_glasses,_%D0%A4%D0%BE%D1%82%D0%BE_%D0%B3%D1%80%D0%B5%D1%98_%D0%BD%D0%B0%D0%BE%D1%87%D0%B0%D1%80%D0%B8.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Photo_Grey_glasses,_%D0%A4%D0%BE%D1%82%D0%BE_%D0%B3%D1%80%D0%B5%D1%98_%D0%BD%D0%B0%D0%BE%D1%87%D0%B0%D1%80%D0%B8.JPG",
+    "w": 960,
+    "h": 622
   },
   "bonechina": {
     "file": "bonechina.jpg",
@@ -1528,7 +1866,9 @@ window.CREDITS = {
     "title": "BLW Bone China Chocolate Cup.jpg",
     "artist": "David Jackson",
     "license": "CC BY-SA 2.0 uk",
-    "page": "https://commons.wikimedia.org/wiki/File:BLW_Bone_China_Chocolate_Cup.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:BLW_Bone_China_Chocolate_Cup.jpg",
+    "w": 960,
+    "h": 1280
   },
   "enamel": {
     "file": "enamel.jpg",
@@ -1537,7 +1877,9 @@ window.CREDITS = {
     "title": "Vitreous enamel sign of Japan postal mark 001.JPG",
     "artist": "Tennen-Gas",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vitreous_enamel_sign_of_Japan_postal_mark_001.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Vitreous_enamel_sign_of_Japan_postal_mark_001.JPG",
+    "w": 960,
+    "h": 639
   },
   "gfrp": {
     "file": "gfrp.jpg",
@@ -1546,7 +1888,9 @@ window.CREDITS = {
     "title": "Glass reinforced plastic SEM Stereo 200x.JPG",
     "artist": "SecretDisc",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Glass_reinforced_plastic_SEM_Stereo_200x.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Glass_reinforced_plastic_SEM_Stereo_200x.JPG",
+    "w": 960,
+    "h": 772
   },
   "cfrp": {
     "file": "cfrp.jpg",
@@ -1555,7 +1899,9 @@ window.CREDITS = {
     "title": "Carbon fibre weave.jpg",
     "artist": "Christine Twigg",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Carbon_fibre_weave.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Carbon_fibre_weave.jpg",
+    "w": 960,
+    "h": 636
   },
   "alhoneycomb": {
     "file": "alhoneycomb.jpg",
@@ -1564,7 +1910,9 @@ window.CREDITS = {
     "title": "Glare honeycomb.jpg",
     "artist": "NASA",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Glare_honeycomb.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Glare_honeycomb.jpg",
+    "w": 960,
+    "h": 638
   },
   "glare": {
     "file": "glare.jpg",
@@ -1573,7 +1921,9 @@ window.CREDITS = {
     "title": "An exploded view of a GLARE hybrid sheet.jpg",
     "artist": "Jenn-Ming Yang, Thomas H. Hahn, Hyoungseock Seo, Po-Yu Chang, and Po-Ching Yeh \nMechanical and Aerospace Engineering Department \nMaterials Science and Engineering Department \nUniversity of California at Los Angeles \n\nLos Angeles, CA 90024-1597",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:An_exploded_view_of_a_GLARE_hybrid_sheet.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:An_exploded_view_of_a_GLARE_hybrid_sheet.jpg",
+    "w": 960,
+    "h": 451
   },
   "plywood": {
     "file": "plywood.jpg",
@@ -1582,7 +1932,9 @@ window.CREDITS = {
     "title": "Sandakan Sabah Plywood-Factory-35c.jpg",
     "artist": "CEphoto, Uwe Aranas",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sandakan_Sabah_Plywood-Factory-35c.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Sandakan_Sabah_Plywood-Factory-35c.jpg",
+    "w": 960,
+    "h": 640
   },
   "clt": {
     "file": "clt.jpg",
@@ -1591,7 +1943,9 @@ window.CREDITS = {
     "title": "Brettsperrholzkonstruktion.jpg",
     "artist": "RoterRolf",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Brettsperrholzkonstruktion.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brettsperrholzkonstruktion.jpg",
+    "w": 960,
+    "h": 720
   },
   "rcconcrete": {
     "file": "rcconcrete.jpg",
@@ -1600,7 +1954,9 @@ window.CREDITS = {
     "title": "Reinforced concrete foundation.JPG",
     "artist": "Anciv",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Reinforced_concrete_foundation.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Reinforced_concrete_foundation.JPG",
+    "w": 960,
+    "h": 640
   },
   "uhpc": {
     "file": "uhpc.jpg",
@@ -1609,7 +1965,9 @@ window.CREDITS = {
     "title": "Gaertnerplatzbruecke Kassel.JPG",
     "artist": "Betonschaedel",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gaertnerplatzbruecke_Kassel.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Gaertnerplatzbruecke_Kassel.JPG",
+    "w": 960,
+    "h": 720
   },
   "selfhealconcrete": {
     "file": "selfhealconcrete.jpg",
@@ -1618,7 +1976,9 @@ window.CREDITS = {
     "title": "Basilisk self-healing concrete exhibit at science museum.jpg",
     "artist": "Syced",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Basilisk_self-healing_concrete_exhibit_at_science_museum.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Basilisk_self-healing_concrete_exhibit_at_science_museum.jpg",
+    "w": 960,
+    "h": 723
   },
   "fibrecement": {
     "file": "fibrecement.jpg",
@@ -1627,7 +1987,9 @@ window.CREDITS = {
     "title": "Fiber cement siding.jpg",
     "artist": "Wikideas1",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Fiber_cement_siding.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Fiber_cement_siding.jpg",
+    "w": 960,
+    "h": 720
   },
   "alsic": {
     "file": "alsic.jpg",
@@ -1636,7 +1998,9 @@ window.CREDITS = {
     "title": "255-GRC-1988-C-06617 Ceramic fiber metal matrix composite.jpg",
     "artist": "Unknown authorUnknown author",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:255-GRC-1988-C-06617_Ceramic_fiber_metal_matrix_composite.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:255-GRC-1988-C-06617_Ceramic_fiber_metal_matrix_composite.jpg",
+    "w": 960,
+    "h": 768
   },
   "tyre": {
     "file": "tyre.jpg",
@@ -1645,7 +2009,9 @@ window.CREDITS = {
     "title": "Pirelli Cinturato Tire cutaway.jpg",
     "artist": "Pirelli",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Pirelli_Cinturato_Tire_cutaway.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Pirelli_Cinturato_Tire_cutaway.jpg",
+    "w": 960,
+    "h": 394
   },
   "transparentarmour": {
     "file": "transparentarmour.jpg",
@@ -1654,7 +2020,9 @@ window.CREDITS = {
     "title": "IDET2007 bulletproof glass.jpg",
     "artist": "Shaddack",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:IDET2007_bulletproof_glass.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:IDET2007_bulletproof_glass.jpg",
+    "w": 960,
+    "h": 720
   },
   "dyneemahb": {
     "file": "dyneemahb.jpg",
@@ -1663,7 +2031,9 @@ window.CREDITS = {
     "title": "Osprey plates COB2009.jpg",
     "artist": "Coliningrad at English Wikipedia",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Osprey_plates_COB2009.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Osprey_plates_COB2009.jpg",
+    "w": 800,
+    "h": 600
   },
   "gypsum": {
     "file": "gypsum.jpg",
@@ -1672,7 +2042,9 @@ window.CREDITS = {
     "title": "Drywall and tools.jpg",
     "artist": "Timothyjosephwood",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Drywall_and_tools.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Drywall_and_tools.jpg",
+    "w": 960,
+    "h": 696
   },
   "copv": {
     "file": "copv.png",
@@ -1681,7 +2053,9 @@ window.CREDITS = {
     "title": "Copv tank close out prior to flight.png",
     "artist": "NASA",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Copv_tank_close_out_prior_to_flight.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Copv_tank_close_out_prior_to_flight.png",
+    "w": 960,
+    "h": 555
   },
   "pykrete": {
     "file": "pykrete.jpg",
@@ -1690,7 +2064,9 @@ window.CREDITS = {
     "title": "Pykrete.jpg",
     "artist": "CyranoDeWikipedia at English Wikipedia",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Pykrete.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Pykrete.jpg",
+    "w": 640,
+    "h": 480
   },
   "hempcrete": {
     "file": "hempcrete.jpg",
@@ -1699,7 +2075,9 @@ window.CREDITS = {
     "title": "Hempcrete wall.jpg",
     "artist": "Jnzl's Photos",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hempcrete_wall.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hempcrete_wall.jpg",
+    "w": 960,
+    "h": 720
   },
   "nylonrope": {
     "file": "nylonrope.jpg",
@@ -1708,7 +2086,9 @@ window.CREDITS = {
     "title": "Rope 20221203 102029.jpg",
     "artist": "Ka23 13",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Rope_20221203_102029.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Rope_20221203_102029.jpg",
+    "w": 960,
+    "h": 540
   },
   "bungee": {
     "file": "bungee.jpg",
@@ -1717,7 +2097,9 @@ window.CREDITS = {
     "title": "Bungee Cord PICT6882a.jpg",
     "artist": "The original uploader was Jmb at English Wikipedia.",
     "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg",
+    "w": 960,
+    "h": 481
   },
   "kernmantle": {
     "file": "kernmantle.jpg",
@@ -1726,7 +2108,9 @@ window.CREDITS = {
     "title": "Kernmantle climbing rope dynamic Sterling 10.7mm cut end.jpg",
     "artist": "David J. Fred",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Kernmantle_climbing_rope_dynamic_Sterling_10.7mm_cut_end.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Kernmantle_climbing_rope_dynamic_Sterling_10.7mm_cut_end.jpg",
+    "w": 960,
+    "h": 879
   },
   "seatbelt": {
     "file": "seatbelt.jpg",
@@ -1735,7 +2119,9 @@ window.CREDITS = {
     "title": "Female driver buckling seatbelt.jpg",
     "artist": "State Farm",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Female_driver_buckling_seatbelt.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Female_driver_buckling_seatbelt.jpg",
+    "w": 960,
+    "h": 1440
   },
   "velcro": {
     "file": "velcro.jpg",
@@ -1744,7 +2130,9 @@ window.CREDITS = {
     "title": "Hook and loop fastener - macro photograph of \"hooks\".jpg",
     "artist": "Kamranki",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hook_and_loop_fastener_-_macro_photograph_of_%22hooks%22.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hook_and_loop_fastener_-_macro_photograph_of_%22hooks%22.jpg",
+    "w": 960,
+    "h": 540
   },
   "denim": {
     "file": "denim.png",
@@ -1753,7 +2141,9 @@ window.CREDITS = {
     "title": "Denim fabric 05 (Rico Cilliers and colormass via Poly Haven).png",
     "artist": "Rico Cilliers (Processing)\ncolormass (Photography)",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Denim_fabric_05_(Rico_Cilliers_and_colormass_via_Poly_Haven).png"
+    "page": "https://commons.wikimedia.org/wiki/File:Denim_fabric_05_(Rico_Cilliers_and_colormass_via_Poly_Haven).png",
+    "w": 960,
+    "h": 1016
   },
   "cordura": {
     "file": "cordura.jpg",
@@ -1762,7 +2152,9 @@ window.CREDITS = {
     "title": "Blue cordura garment.jpg",
     "artist": "Apapadop",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Blue_cordura_garment.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_cordura_garment.jpg",
+    "w": 960,
+    "h": 720
   },
   "viscose": {
     "file": "viscose.jpg",
@@ -1771,7 +2163,9 @@ window.CREDITS = {
     "title": "Rayon sample.jpg",
     "artist": "Arkirkland",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Rayon_sample.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Rayon_sample.jpg",
+    "w": 960,
+    "h": 720
   },
   "lyocell": {
     "file": "lyocell.jpg",
@@ -1780,7 +2174,9 @@ window.CREDITS = {
     "title": "Lyocell.jpg",
     "artist": "No machine-readable author provided. Nevermind2 assumed (based on copyright claims).",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Lyocell.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Lyocell.jpg",
+    "w": 960,
+    "h": 1050
   },
   "acrylicfibre": {
     "file": "acrylicfibre.jpg",
@@ -1789,7 +2185,9 @@ window.CREDITS = {
     "title": "Acrylic stash -1 (12115250915).jpg",
     "artist": "distelfliege",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Acrylic_stash_-1_(12115250915).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Acrylic_stash_-1_(12115250915).jpg",
+    "w": 960,
+    "h": 1285
   },
   "merino": {
     "file": "merino.jpg",
@@ -1798,7 +2196,9 @@ window.CREDITS = {
     "title": "CSIRO ScienceImage 7663 The structure of a Merino Wool Fibre.jpg",
     "artist": "Textile and Fibre Technology, CSIRO",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_7663_The_structure_of_a_Merino_Wool_Fibre.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_7663_The_structure_of_a_Merino_Wool_Fibre.jpg",
+    "w": 960,
+    "h": 670
   },
   "mohair": {
     "file": "mohair.jpg",
@@ -1807,7 +2207,9 @@ window.CREDITS = {
     "title": "Ull mohair.jpg",
     "artist": "AnnaKika from Gothenburg, Sweden",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ull_mohair.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ull_mohair.jpg",
+    "w": 960,
+    "h": 607
   },
   "ramie": {
     "file": "ramie.jpg",
@@ -1816,7 +2218,9 @@ window.CREDITS = {
     "title": "Ramie fiber exhibited in Yonezawa City Uesugi Museum.jpg",
     "artist": "掬茶",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ramie_fiber_exhibited_in_Yonezawa_City_Uesugi_Museum.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ramie_fiber_exhibited_in_Yonezawa_City_Uesugi_Museum.jpg",
+    "w": 960,
+    "h": 640
   },
   "kapok": {
     "file": "kapok.jpg",
@@ -1825,7 +2229,9 @@ window.CREDITS = {
     "title": "Tunku Sabah Kapok-fibres-01.jpg",
     "artist": "CEphoto, Uwe Aranas",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tunku_Sabah_Kapok-fibres-01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Tunku_Sabah_Kapok-fibres-01.jpg",
+    "w": 960,
+    "h": 640
   },
   "rockwool": {
     "file": "rockwool.jpg",
@@ -1834,7 +2240,9 @@ window.CREDITS = {
     "title": "Arrangement Mineralwolle.jpeg",
     "artist": "FMI Fachverband Mineralwolleindustrie",
     "license": "CC BY-SA 3.0 de",
-    "page": "https://commons.wikimedia.org/wiki/File:Arrangement_Mineralwolle.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Arrangement_Mineralwolle.jpeg",
+    "w": 960,
+    "h": 544
   },
   "wiremesh": {
     "file": "wiremesh.png",
@@ -1843,7 +2251,9 @@ window.CREDITS = {
     "title": "Woven wire mesh.png",
     "artist": "Robinson Wire Cloth Ltd.",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Woven_wire_mesh.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Woven_wire_mesh.png",
+    "w": 960,
+    "h": 720
   },
   "geotextile": {
     "file": "geotextile.jpg",
@@ -1852,7 +2262,9 @@ window.CREDITS = {
     "title": "Geotextile-GSI.JPG",
     "artist": "Marilyn475",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Geotextile-GSI.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Geotextile-GSI.JPG",
+    "w": 960,
+    "h": 720
   },
   "down": {
     "file": "down.jpg",
@@ -1861,7 +2273,9 @@ window.CREDITS = {
     "title": "Hungarian Goose Down.jpg",
     "artist": "Mzperxfl",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hungarian_Goose_Down.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hungarian_Goose_Down.jpg",
+    "w": 960,
+    "h": 720
   },
   "horsehair": {
     "file": "horsehair.jpg",
@@ -1870,7 +2284,9 @@ window.CREDITS = {
     "title": "Bow, violin (AM 1998.60.381-2).jpg",
     "artist": "Unknown authorUnknown author",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Bow,_violin_(AM_1998.60.381-2).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bow,_violin_(AM_1998.60.381-2).jpg",
+    "w": 960,
+    "h": 720
   },
   "catgut": {
     "file": "catgut.jpg",
@@ -1879,7 +2295,9 @@ window.CREDITS = {
     "title": "Catgut Plain 01.JPG",
     "artist": "آرمین",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Catgut_Plain_01.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Catgut_Plain_01.JPG",
+    "w": 960,
+    "h": 720
   },
   "graphene": {
     "file": "graphene.jpg",
@@ -1888,7 +2306,9 @@ window.CREDITS = {
     "title": "Sample of graphene (1~3 layers).jpg",
     "artist": "Leiem",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sample_of_graphene_(1~3_layers).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Sample_of_graphene_(1~3_layers).jpg",
+    "w": 960,
+    "h": 881
   },
   "cntyarn": {
     "file": "cntyarn.jpg",
@@ -1897,7 +2317,9 @@ window.CREDITS = {
     "title": "CSIRO ScienceImage 988 Carbon nanotubes spun to form a yarn.jpg",
     "artist": "division, CSIRO",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_988_Carbon_nanotubes_spun_to_form_a_yarn.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_988_Carbon_nanotubes_spun_to_form_a_yarn.jpg",
+    "w": 960,
+    "h": 648
   },
   "aerographite": {
     "file": "aerographite.png",
@@ -1906,7 +2328,9 @@ window.CREDITS = {
     "title": "TUHH CAU newexampleAerographite Netwok.png",
     "artist": "Free2KnowFree2Think",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:TUHH_CAU_newexampleAerographite_Netwok.png"
+    "page": "https://commons.wikimedia.org/wiki/File:TUHH_CAU_newexampleAerographite_Netwok.png",
+    "w": 960,
+    "h": 720
   },
   "ybco": {
     "file": "ybco.jpg",
@@ -1915,7 +2339,9 @@ window.CREDITS = {
     "title": "Tile levitates by Meissner effect.jpeg",
     "artist": "Garrett Pennell",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tile_levitates_by_Meissner_effect.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Tile_levitates_by_Meissner_effect.jpeg",
+    "w": 960,
+    "h": 640
   },
   "electrochromic": {
     "file": "electrochromic.jpg",
@@ -1924,7 +2350,9 @@ window.CREDITS = {
     "title": "ANA Boeing 787-8 Dreamliner electrochromic window.jpg",
     "artist": "Jun Seita from Palo Alto, CA, U.S.",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:ANA_Boeing_787-8_Dreamliner_electrochromic_window.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:ANA_Boeing_787-8_Dreamliner_electrochromic_window.jpg",
+    "w": 960,
+    "h": 1280
   },
   "vo2": {
     "file": "vo2.jpg",
@@ -1933,7 +2361,9 @@ window.CREDITS = {
     "title": "VO2 crystal.jpg",
     "artist": "Ding-Shyue Yang, Peter Baum, and Ahmed H. Zewail",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:VO2_crystal.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:VO2_crystal.jpg",
+    "w": 960,
+    "h": 670
   },
   "qdot": {
     "file": "qdot.jpg",
@@ -1942,7 +2372,9 @@ window.CREDITS = {
     "title": "Quantum dots 2.jpg",
     "artist": "Marc Vidal",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Quantum_dots_2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Quantum_dots_2.jpg",
+    "w": 960,
+    "h": 720
   },
   "metamaterial": {
     "file": "metamaterial.jpg",
@@ -1951,7 +2383,9 @@ window.CREDITS = {
     "title": "Metamaterial 'Flat Lens' (8889691315).jpg",
     "artist": "National Institute of Standards and Technology",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Metamaterial_%27Flat_Lens%27_(8889691315).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Metamaterial_%27Flat_Lens%27_(8889691315).jpg",
+    "w": 960,
+    "h": 1210
   },
   "acousticmeta": {
     "file": "acousticmeta.jpg",
@@ -1960,7 +2394,9 @@ window.CREDITS = {
     "title": "Órgano, de Eusebio Sempere Juan.JPG",
     "artist": "Asqueladd",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%93rgano,_de_Eusebio_Sempere_Juan.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%93rgano,_de_Eusebio_Sempere_Juan.JPG",
+    "w": 960,
+    "h": 720
   },
   "selfhealpoly": {
     "file": "selfhealpoly.png",
@@ -1969,7 +2405,9 @@ window.CREDITS = {
     "title": "Supramolecular rubber and polymer glass.tif",
     "artist": "Injp20",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Supramolecular_rubber_and_polymer_glass.tif"
+    "page": "https://commons.wikimedia.org/wiki/File:Supramolecular_rubber_and_polymer_glass.tif",
+    "w": 960,
+    "h": 464
   },
   "lce": {
     "file": "lce.png",
@@ -1978,7 +2416,9 @@ window.CREDITS = {
     "title": "Wikipedia pic LCE.png",
     "artist": "Devinjroach",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Wikipedia_pic_LCE.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Wikipedia_pic_LCE.png",
+    "w": 827,
+    "h": 479
   },
   "oobleck": {
     "file": "oobleck.jpg",
@@ -1987,7 +2427,9 @@ window.CREDITS = {
     "title": "Corn speaker.jpg",
     "artist": "Daniel Christensen",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Corn_speaker.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Corn_speaker.jpg",
+    "w": 960,
+    "h": 720
   },
   "thermoelectric": {
     "file": "thermoelectric.jpg",
@@ -1996,7 +2438,9 @@ window.CREDITS = {
     "title": "Thermoelectric Seebeck power module.jpg",
     "artist": "Gerardtv",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Thermoelectric_Seebeck_power_module.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Thermoelectric_Seebeck_power_module.jpg",
+    "w": 960,
+    "h": 731
   },
   "magnetocaloric": {
     "file": "magnetocaloric.jpg",
@@ -2005,7 +2449,9 @@ window.CREDITS = {
     "title": "Gadolinium (Element - 64).jpg",
     "artist": "James St. John",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gadolinium_(Element_-_64).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Gadolinium_(Element_-_64).jpg",
+    "w": 960,
+    "h": 834
   },
   "zeolite": {
     "file": "zeolite.jpg",
@@ -2014,7 +2460,9 @@ window.CREDITS = {
     "title": "Ana's Zeolite (393784940).jpg",
     "artist": "cobalt123",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ana%27s_Zeolite_(393784940).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ana%27s_Zeolite_(393784940).jpg",
+    "w": 960,
+    "h": 720
   },
   "mof": {
     "file": "mof.jpg",
@@ -2023,7 +2471,9 @@ window.CREDITS = {
     "title": "Activated Carbon.jpg",
     "artist": "Ravedave (talk)",
     "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Activated_Carbon.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Activated_Carbon.jpg",
+    "w": 960,
+    "h": 691
   },
   "metalhydride": {
     "file": "metalhydride.jpg",
@@ -2032,7 +2482,9 @@ window.CREDITS = {
     "title": "Metal Hydride Storage Canisters.jpg",
     "artist": "Anjujo",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Metal_Hydride_Storage_Canisters.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Metal_Hydride_Storage_Canisters.jpg",
+    "w": 960,
+    "h": 640
   },
   "pcm": {
     "file": "pcm.jpg",
@@ -2041,7 +2493,9 @@ window.CREDITS = {
     "title": "Bicycle chain in paraffin wax just about to solidify.jpg",
     "artist": "Sauer202",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Bicycle_chain_in_paraffin_wax_just_about_to_solidify.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bicycle_chain_in_paraffin_wax_just_about_to_solidify.jpg",
+    "w": 960,
+    "h": 1280
   },
   "vip": {
     "file": "vip.jpg",
@@ -2050,7 +2504,9 @@ window.CREDITS = {
     "title": "Va-Q-vip 2.jpg",
     "artist": "Va-Q-tec AG",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Va-Q-vip_2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Va-Q-vip_2.jpg",
+    "w": 827,
+    "h": 827
   },
   "getter": {
     "file": "getter.jpg",
@@ -2059,7 +2515,9 @@ window.CREDITS = {
     "title": "6P1P vacuum tube teardown.jpg",
     "artist": "Mister rf",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:6P1P_vacuum_tube_teardown.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:6P1P_vacuum_tube_teardown.jpg",
+    "w": 960,
+    "h": 1200
   },
   "tritium": {
     "file": "tritium.jpg",
@@ -2068,7 +2526,9 @@ window.CREDITS = {
     "title": "Tritium-Glowring - 320s.jpg",
     "artist": "Cgommel",
     "license": "CC BY-SA 2.0 de",
-    "page": "https://commons.wikimedia.org/wiki/File:Tritium-Glowring_-_320s.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Tritium-Glowring_-_320s.jpg",
+    "w": 960,
+    "h": 640
   },
   "slips": {
     "file": "slips.jpg",
@@ -2077,7 +2537,9 @@ window.CREDITS = {
     "title": "Water droplet on a super hydrophobic surface.jpg",
     "artist": "Eskozxz",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Water_droplet_on_a_super_hydrophobic_surface.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Water_droplet_on_a_super_hydrophobic_surface.jpg",
+    "w": 960,
+    "h": 540
   },
   "tio2photo": {
     "file": "tio2photo.jpg",
@@ -2086,7 +2548,9 @@ window.CREDITS = {
     "title": "Titanium dioxide powder dispersing in water.JPG",
     "artist": "Pixelmaniac pictures  (Leave a reply)",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Titanium_dioxide_powder_dispersing_in_water.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Titanium_dioxide_powder_dispersing_in_water.JPG",
+    "w": 960,
+    "h": 638
   },
   "electret": {
     "file": "electret.jpg",
@@ -2095,7 +2559,9 @@ window.CREDITS = {
     "title": "Electret microphone MKE3.JPG",
     "artist": "Kae",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Electret_microphone_MKE3.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Electret_microphone_MKE3.JPG",
+    "w": 960,
+    "h": 626
   },
   "nacre": {
     "file": "nacre.jpg",
@@ -2104,7 +2570,9 @@ window.CREDITS = {
     "title": "Nacre mother of pearl shellB.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Nacre_mother_of_pearl_shellB.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nacre_mother_of_pearl_shellB.jpg",
+    "w": 960,
+    "h": 702
   },
   "bamboo": {
     "file": "bamboo.jpg",
@@ -2113,7 +2581,9 @@ window.CREDITS = {
     "title": "08 Asper 1 - Copy.jpg",
     "artist": "Mr. HarishBoyapati",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:08_Asper_1_-_Copy.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:08_Asper_1_-_Copy.jpg",
+    "w": 960,
+    "h": 1440
   },
   "balsa": {
     "file": "balsa.jpg",
@@ -2122,7 +2592,9 @@ window.CREDITS = {
     "title": "Balsa Wood Texture.jpg",
     "artist": "Joseph Francis",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Balsa_Wood_Texture.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Balsa_Wood_Texture.jpg",
+    "w": 960,
+    "h": 960
   },
   "lignumvitae": {
     "file": "lignumvitae.jpg",
@@ -2131,7 +2603,9 @@ window.CREDITS = {
     "title": "LignumVitaeMallet01.jpg",
     "artist": "Ibbel",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:LignumVitaeMallet01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:LignumVitaeMallet01.jpg",
+    "w": 846,
+    "h": 1627
   },
   "whiteoak": {
     "file": "whiteoak.jpg",
@@ -2140,7 +2614,9 @@ window.CREDITS = {
     "title": "Cooperage wood to make wine barrels.jpg",
     "artist": "davitydave",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cooperage_wood_to_make_wine_barrels.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cooperage_wood_to_make_wine_barrels.jpg",
+    "w": 960,
+    "h": 1280
   },
   "cork": {
     "file": "cork.jpg",
@@ -2149,7 +2625,9 @@ window.CREDITS = {
     "title": "Cork (25753850818).jpg",
     "artist": "pedrik",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cork_(25753850818).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cork_(25753850818).jpg",
+    "w": 960,
+    "h": 620
   },
   "vegleather": {
     "file": "vegleather.jpg",
@@ -2158,7 +2636,9 @@ window.CREDITS = {
     "title": "Tanned leather.JPG",
     "artist": "Donar Reiskoffer",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tanned_leather.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Tanned_leather.JPG",
+    "w": 960,
+    "h": 720
   },
   "bone": {
     "file": "bone.jpg",
@@ -2167,7 +2647,9 @@ window.CREDITS = {
     "title": "Spongy bone - Trabecular bone - Normal trabecular bone Trabecular bone etc -- Smart-Servier (cropped).jpg",
     "artist": "Laboratoires Servier",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Spongy_bone_-_Trabecular_bone_-_Normal_trabecular_bone_Trabecular_bone_etc_--_Smart-Servier_(cropped).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Spongy_bone_-_Trabecular_bone_-_Normal_trabecular_bone_Trabecular_bone_etc_--_Smart-Servier_(cropped).jpg",
+    "w": 960,
+    "h": 540
   },
   "antler": {
     "file": "antler.jpg",
@@ -2176,7 +2658,9 @@ window.CREDITS = {
     "title": "Roe deer antler.jpg",
     "artist": "V8powerage",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Roe_deer_antler.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Roe_deer_antler.jpg",
+    "w": 960,
+    "h": 720
   },
   "horn": {
     "file": "horn.jpg",
@@ -2185,7 +2669,9 @@ window.CREDITS = {
     "title": "Horn hair comb, Ludlow Museum - DSCF2042.JPG",
     "artist": "Rept0n1x",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Horn_hair_comb,_Ludlow_Museum_-_DSCF2042.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Horn_hair_comb,_Ludlow_Museum_-_DSCF2042.JPG",
+    "w": 960,
+    "h": 720
   },
   "baleen": {
     "file": "baleen.jpg",
@@ -2194,7 +2680,9 @@ window.CREDITS = {
     "title": "Gray whale baleen plates.JPG",
     "artist": "Nitahieb",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gray_whale_baleen_plates.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Gray_whale_baleen_plates.JPG",
+    "w": 960,
+    "h": 720
   },
   "amber": {
     "file": "amber.jpg",
@@ -2203,7 +2691,9 @@ window.CREDITS = {
     "title": "Baltic Amber necklace with insects inclusions.jpg",
     "artist": "Brocken Inaglory",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Baltic_Amber_necklace_with_insects_inclusions.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Baltic_Amber_necklace_with_insects_inclusions.jpg",
+    "w": 960,
+    "h": 475
   },
   "shellac": {
     "file": "shellac.jpg",
@@ -2212,7 +2702,9 @@ window.CREDITS = {
     "title": "Shellac flakes closeup.JPG",
     "artist": "Nuberger13 at en.wikipedia",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Shellac_flakes_closeup.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Shellac_flakes_closeup.JPG",
+    "w": 960,
+    "h": 806
   },
   "guttapercha": {
     "file": "guttapercha.jpg",
@@ -2221,7 +2713,9 @@ window.CREDITS = {
     "title": "Caoutchouc Gutta-percha Droguier ISPB Lyon UCBL 1.jpg",
     "artist": "Delphine Montagne",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Caoutchouc_Gutta-percha_Droguier_ISPB_Lyon_UCBL_1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Caoutchouc_Gutta-percha_Droguier_ISPB_Lyon_UCBL_1.jpg",
+    "w": 960,
+    "h": 1280
   },
   "diatomite": {
     "file": "diatomite.jpg",
@@ -2230,7 +2724,9 @@ window.CREDITS = {
     "title": "Diatomaceous Earth BrightField.jpg",
     "artist": "Zephyris",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Diatomaceous_Earth_BrightField.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Diatomaceous_Earth_BrightField.jpg",
+    "w": 960,
+    "h": 582
   },
   "chitin": {
     "file": "chitin.jpg",
@@ -2239,7 +2735,9 @@ window.CREDITS = {
     "title": "Fiddler crab exoskeleton shedding within the marsh (6555236543).jpg",
     "artist": "Pacific Southwest Region USFWS from Sacramento, US",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Fiddler_crab_exoskeleton_shedding_within_the_marsh_(6555236543).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Fiddler_crab_exoskeleton_shedding_within_the_marsh_(6555236543).jpg",
+    "w": 960,
+    "h": 640
   },
   "byssus": {
     "file": "byssus.jpg",
@@ -2248,7 +2746,9 @@ window.CREDITS = {
     "title": "Mussel & Byssal Threads.jpg",
     "artist": "jkirkhart35",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mussel_%26_Byssal_Threads.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mussel_%26_Byssal_Threads.jpg",
+    "w": 960,
+    "h": 637
   },
   "toothenamel": {
     "file": "toothenamel.jpg",
@@ -2257,7 +2757,9 @@ window.CREDITS = {
     "title": "What is Inside Human Tooth (Macro-Anatomy).jpg",
     "artist": "Mohamed A.M. Ahmed",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:What_is_Inside_Human_Tooth_(Macro-Anatomy).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:What_is_Inside_Human_Tooth_(Macro-Anatomy).jpg",
+    "w": 960,
+    "h": 752
   },
   "pumice": {
     "file": "pumice.jpg",
@@ -2266,7 +2768,9 @@ window.CREDITS = {
     "title": "Pumice stones.JPG",
     "artist": "Mauro Cateb",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Pumice_stones.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Pumice_stones.JPG",
+    "w": 960,
+    "h": 709
   },
   "mica": {
     "file": "mica.jpg",
@@ -2275,7 +2779,9 @@ window.CREDITS = {
     "title": "Muscovite mica 6.jpg",
     "artist": "James St. John",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Muscovite_mica_6.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Muscovite_mica_6.jpg",
+    "w": 960,
+    "h": 719
   },
   "asbestos": {
     "file": "asbestos.jpg",
@@ -2284,7 +2790,9 @@ window.CREDITS = {
     "title": "Chrysotile and asbestos (GeoDIL number - 2527).jpg",
     "artist": "Nessa Eull",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Chrysotile_and_asbestos_(GeoDIL_number_-_2527).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chrysotile_and_asbestos_(GeoDIL_number_-_2527).jpg",
+    "w": 960,
+    "h": 981
   },
   "nephrite": {
     "file": "nephrite.jpg",
@@ -2293,7 +2801,9 @@ window.CREDITS = {
     "title": "Amphibole - Nephrite Jade Basic calcium magnesium iron silicate Lander County Wyoming 2077.jpg",
     "artist": "Dave Dyet http://www.shutterstone.com  http://www.dyet.com",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Amphibole_-_Nephrite_Jade_Basic_calcium_magnesium_iron_silicate_Lander_County_Wyoming_2077.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Amphibole_-_Nephrite_Jade_Basic_calcium_magnesium_iron_silicate_Lander_County_Wyoming_2077.jpg",
+    "w": 640,
+    "h": 640
   },
   "washi": {
     "file": "washi.jpg",
@@ -2302,7 +2812,9 @@ window.CREDITS = {
     "title": "Washi(Sugihara paper).JPG",
     "artist": "Tomomarusan",
     "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Washi(Sugihara_paper).JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Washi(Sugihara_paper).JPG",
+    "w": 960,
+    "h": 638
   },
   "vellum": {
     "file": "vellum.jpg",
@@ -2311,7 +2823,9 @@ window.CREDITS = {
     "title": "Ashmolean Parchment AN 1981.940.jpg",
     "artist": "Apapolo",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Ashmolean_Parchment_AN_1981.940.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ashmolean_Parchment_AN_1981.940.jpg",
+    "w": 960,
+    "h": 732
   },
   "beeswax": {
     "file": "beeswax.jpg",
@@ -2320,7 +2834,9 @@ window.CREDITS = {
     "title": "Beeswax blocks.JPG",
     "artist": "Mauro Cateb",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Beeswax_blocks.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Beeswax_blocks.JPG",
+    "w": 960,
+    "h": 719
   },
   "cuttlebone": {
     "file": "cuttlebone.jpg",
@@ -2329,7 +2845,9 @@ window.CREDITS = {
     "title": "Zeeschuim of sepia.jpg",
     "artist": "Agaath",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Zeeschuim_of_sepia.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Zeeschuim_of_sepia.jpg",
+    "w": 960,
+    "h": 540
   },
   "nanocellulose": {
     "file": "nanocellulose.jpg",
@@ -2338,7 +2856,9 @@ window.CREDITS = {
     "title": "Nanocellulose.JPG",
     "artist": "Innventia",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Nanocellulose.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Nanocellulose.JPG",
+    "w": 960,
+    "h": 1086
   },
   "silicon": {
     "file": "silicon.jpg",
@@ -2347,7 +2867,9 @@ window.CREDITS = {
     "title": "Silicon ingot 2019-01-30 064114.jpg",
     "artist": "David290",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Silicon_ingot_2019-01-30_064114.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Silicon_ingot_2019-01-30_064114.jpg",
+    "w": 960,
+    "h": 1280
   },
   "gaas": {
     "file": "gaas.jpg",
@@ -2356,7 +2878,9 @@ window.CREDITS = {
     "title": "Gallium Arsenide (GaAs) 2\" wafer.jpg",
     "artist": "La2O3",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gallium_Arsenide_(GaAs)_2%22_wafer.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Gallium_Arsenide_(GaAs)_2%22_wafer.jpg",
+    "w": 900,
+    "h": 772
   },
   "gan": {
     "file": "gan.jpg",
@@ -2365,7 +2889,9 @@ window.CREDITS = {
     "title": "Silicon vs GaN 30W USB-C chargers.jpg",
     "artist": "4300streetcar",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Silicon_vs_GaN_30W_USB-C_chargers.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Silicon_vs_GaN_30W_USB-C_chargers.jpg",
+    "w": 960,
+    "h": 640
   },
   "germanium": {
     "file": "germanium.jpg",
@@ -2374,7 +2900,9 @@ window.CREDITS = {
     "title": "Germanium crystals.jpg",
     "artist": "Hi-Res Images of\n\nChemical Elements",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Germanium_crystals.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Germanium_crystals.jpg",
+    "w": 941,
+    "h": 941
   },
   "hgcdte": {
     "file": "hgcdte.png",
@@ -2383,7 +2911,9 @@ window.CREDITS = {
     "title": "Detector array on the focal plane of the Infrared Astronomical Satellite (IRAS).png",
     "artist": "NASA",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Detector_array_on_the_focal_plane_of_the_Infrared_Astronomical_Satellite_(IRAS).png"
+    "page": "https://commons.wikimedia.org/wiki/File:Detector_array_on_the_focal_plane_of_the_Infrared_Astronomical_Satellite_(IRAS).png",
+    "w": 960,
+    "h": 1417
   },
   "perovskitepv": {
     "file": "perovskitepv.jpg",
@@ -2392,7 +2922,9 @@ window.CREDITS = {
     "title": "Perovskite solar cell.jpg",
     "artist": "Dennis Schroeder / National Renewable Energy Laboratory",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Perovskite_solar_cell.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Perovskite_solar_cell.jpg",
+    "w": 960,
+    "h": 810
   },
   "ito": {
     "file": "ito.png",
@@ -2401,7 +2933,9 @@ window.CREDITS = {
     "title": "Transparent keypad touchscreen.png",
     "artist": "Ron Binstead",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Transparent_keypad_touchscreen.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Transparent_keypad_touchscreen.png",
+    "w": 960,
+    "h": 768
   },
   "linbo3": {
     "file": "linbo3.jpg",
@@ -2410,7 +2944,9 @@ window.CREDITS = {
     "title": "Lithium Niobate Wafer.jpg",
     "artist": "Smithy71",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Lithium_Niobate_Wafer.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Lithium_Niobate_Wafer.jpg",
+    "w": 960,
+    "h": 720
   },
   "yig": {
     "file": "yig.jpg",
@@ -2419,7 +2955,9 @@ window.CREDITS = {
     "title": "Four Yttrium Iron Garnet spheres filter.jpg",
     "artist": "Lightbulb64",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Four_Yttrium_Iron_Garnet_spheres_filter.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Four_Yttrium_Iron_Garnet_spheres_filter.jpg",
+    "w": 960,
+    "h": 720
   },
   "tisapphire": {
     "file": "tisapphire.jpg",
@@ -2428,7 +2966,9 @@ window.CREDITS = {
     "title": "TiSa crystal.jpg",
     "artist": "No machine-readable author provided. Mathieu Perrin assumed (based on copyright claims).",
     "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:TiSa_crystal.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:TiSa_crystal.jpg",
+    "w": 960,
+    "h": 720
   },
   "calcite": {
     "file": "calcite.jpg",
@@ -2437,7 +2977,9 @@ window.CREDITS = {
     "title": "3310.calcite (Iceland Spar) birefringence.jpg",
     "artist": "Furrfu",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:3310.calcite_(Iceland_Spar)_birefringence.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:3310.calcite_(Iceland_Spar)_birefringence.jpg",
+    "w": 960,
+    "h": 640
   },
   "caf2": {
     "file": "caf2.jpg",
@@ -2446,7 +2988,9 @@ window.CREDITS = {
     "title": "Fluorite crystal.jpg",
     "artist": "Masha Milshina",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Fluorite_crystal.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Fluorite_crystal.jpg",
+    "w": 960,
+    "h": 960
   },
   "znse": {
     "file": "znse.jpg",
@@ -2455,7 +2999,9 @@ window.CREDITS = {
     "title": "2 CVD ZnSe domes and lenses Crystaltechno.jpg",
     "artist": "Crystaltechno",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:2_CVD_ZnSe_domes_and_lenses_Crystaltechno.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:2_CVD_ZnSe_domes_and_lenses_Crystaltechno.jpg",
+    "w": 960,
+    "h": 720
   },
   "yagce": {
     "file": "yagce.png",
@@ -2464,7 +3010,9 @@ window.CREDITS = {
     "title": "White LED.png",
     "artist": "The original uploader was Deglr6328 at English Wikipedia.",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:White_LED.png"
+    "page": "https://commons.wikimedia.org/wiki/File:White_LED.png",
+    "w": 960,
+    "h": 690
   },
   "scintillator": {
     "file": "scintillator.jpg",
@@ -2473,7 +3021,9 @@ window.CREDITS = {
     "title": "RadiaCode-101 dosimeter-spectrometer (front view).jpg",
     "artist": "Siarhei Besarab",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:RadiaCode-101_dosimeter-spectrometer_(front_view).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:RadiaCode-101_dosimeter-spectrometer_(front_view).jpg",
+    "w": 960,
+    "h": 599
   },
   "hfo2": {
     "file": "hfo2.jpg",
@@ -2482,7 +3032,9 @@ window.CREDITS = {
     "title": "Dielectric laser mirror from a dye laser.JPG",
     "artist": "Zaereth (talk)",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Dielectric_laser_mirror_from_a_dye_laser.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Dielectric_laser_mirror_from_a_dye_laser.JPG",
+    "w": 960,
+    "h": 720
   },
   "opticalfibre": {
     "file": "opticalfibre.jpg",
@@ -2491,7 +3043,9 @@ window.CREDITS = {
     "title": "MoST Fiber Optic Cable Display.jpg",
     "artist": "Winver351",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MoST_Fiber_Optic_Cable_Display.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:MoST_Fiber_Optic_Cable_Display.jpg",
+    "w": 960,
+    "h": 1442
   },
   "pcf": {
     "file": "pcf.jpg",
@@ -2500,7 +3054,9 @@ window.CREDITS = {
     "title": "Photonic-crystal-fiber-from-NRL.jpg",
     "artist": "Unknown",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Photonic-crystal-fiber-from-NRL.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Photonic-crystal-fiber-from-NRL.jpg",
+    "w": 960,
+    "h": 540
   },
   "oled": {
     "file": "oled.jpg",
@@ -2509,7 +3065,9 @@ window.CREDITS = {
     "title": "LG gram Pro 16 (2024) 16Z90SPG OLED DISPLAY RGB DOT MATRIX, OLED PANEL MADE BY SAMSUNG DISPLAY.jpg",
     "artist": "Dinkun Chen",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:LG_gram_Pro_16_(2024)_16Z90SPG_OLED_DISPLAY_RGB_DOT_MATRIX,_OLED_PANEL_MADE_BY_SAMSUNG_DISPLAY.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:LG_gram_Pro_16_(2024)_16Z90SPG_OLED_DISPLAY_RGB_DOT_MATRIX,_OLED_PANEL_MADE_BY_SAMSUNG_DISPLAY.jpg",
+    "w": 960,
+    "h": 567
   },
   "eink": {
     "file": "eink.jpg",
@@ -2518,7 +3076,9 @@ window.CREDITS = {
     "title": "Electronic paper display microphotography.jpg",
     "artist": "Nikita Mikheev",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Electronic_paper_display_microphotography.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Electronic_paper_display_microphotography.jpg",
+    "w": 960,
+    "h": 951
   },
   "nematiclc": {
     "file": "nematiclc.jpg",
@@ -2527,7 +3087,9 @@ window.CREDITS = {
     "title": "Nematic liquid crystal.jpg",
     "artist": "Ingo Dierking",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Nematic_liquid_crystal.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nematic_liquid_crystal.jpg",
+    "w": 960,
+    "h": 720
   },
   "mov": {
     "file": "mov.jpg",
@@ -2536,7 +3098,9 @@ window.CREDITS = {
     "title": "Metal Oxide Varistor.jpg",
     "artist": "Soumyapatra13",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Metal_Oxide_Varistor.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Metal_Oxide_Varistor.jpg",
+    "w": 960,
+    "h": 1498
   },
   "ptcpoly": {
     "file": "ptcpoly.jpg",
@@ -2545,7 +3109,9 @@ window.CREDITS = {
     "title": "Disassembled resettable fuse.JPG",
     "artist": "Dmitry G",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Disassembled_resettable_fuse.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Disassembled_resettable_fuse.JPG",
+    "w": 960,
+    "h": 541
   },
   "etchedfoil": {
     "file": "etchedfoil.jpg",
@@ -2554,7 +3120,9 @@ window.CREDITS = {
     "title": "Low-voltage-anode-foil.tif",
     "artist": "Elcap",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Low-voltage-anode-foil.tif"
+    "page": "https://commons.wikimedia.org/wiki/File:Low-voltage-anode-foil.tif",
+    "w": 500,
+    "h": 333
   },
   "tim": {
     "file": "tim.jpg",
@@ -2563,7 +3131,9 @@ window.CREDITS = {
     "title": "Thermal compound Applied.JPG",
     "artist": "Jyothis at ml.wikipedia",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Thermal_compound_Applied.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Thermal_compound_Applied.JPG",
+    "w": 960,
+    "h": 720
   },
   "cashmere": {
     "file": "cashmere.jpg",
@@ -2572,7 +3142,9 @@ window.CREDITS = {
     "title": "CSIRO ScienceImage 6863 Cashmere goat hair fibre.jpg",
     "artist": "division, CSIRO",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_6863_Cashmere_goat_hair_fibre.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_6863_Cashmere_goat_hair_fibre.jpg",
+    "w": 960,
+    "h": 960
   },
   "qiviut": {
     "file": "qiviut.jpg",
@@ -2581,7 +3153,9 @@ window.CREDITS = {
     "title": "Qiviut wool 1.JPG",
     "artist": "Dvortygirl",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Qiviut_wool_1.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Qiviut_wool_1.JPG",
+    "w": 960,
+    "h": 720
   },
   "sinew": {
     "file": "sinew.jpg",
@@ -2590,7 +3164,9 @@ window.CREDITS = {
     "title": "Sinew strings.jpg",
     "artist": "Сергей 6662",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sinew_strings.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Sinew_strings.jpg",
+    "w": 960,
+    "h": 720
   },
   "harakeke": {
     "file": "harakeke.jpg",
@@ -2599,7 +3175,9 @@ window.CREDITS = {
     "title": "Te Pā Harakeke o te Iwi 20230816 082439 02.jpg",
     "artist": "Prosperosity",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Te_P%C4%81_Harakeke_o_te_Iwi_20230816_082439_02.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Te_P%C4%81_Harakeke_o_te_Iwi_20230816_082439_02.jpg",
+    "w": 960,
+    "h": 720
   },
   "esparto": {
     "file": "esparto.jpg",
@@ -2608,7 +3186,9 @@ window.CREDITS = {
     "title": "Stipa tenacissima kz08.jpg",
     "artist": "Krzysztof Ziarnek, Kenraiz",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Stipa_tenacissima_kz08.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Stipa_tenacissima_kz08.jpg",
+    "w": 960,
+    "h": 1280
   },
   "raffia": {
     "file": "raffia.jpg",
@@ -2617,7 +3197,9 @@ window.CREDITS = {
     "title": "Raffia fibers.jpg",
     "artist": "Ragesoss",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Raffia_fibers.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Raffia_fibers.jpg",
+    "w": 960,
+    "h": 641
   },
   "pina": {
     "file": "pina.jpg",
@@ -2626,7 +3208,9 @@ window.CREDITS = {
     "title": "Piña Barong tagalog AklanA.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Pi%C3%B1a_Barong_tagalog_AklanA.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Pi%C3%B1a_Barong_tagalog_AklanA.jpg",
+    "w": 960,
+    "h": 1399
   },
   "pianowire": {
     "file": "pianowire.jpg",
@@ -2635,7 +3219,9 @@ window.CREDITS = {
     "title": "Piano strings.jpg",
     "artist": "Matt Billings",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Piano_strings.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Piano_strings.jpg",
+    "w": 960,
+    "h": 632
   },
   "jacquard": {
     "file": "jacquard.jpg",
@@ -2644,7 +3230,9 @@ window.CREDITS = {
     "title": "A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
     "artist": "Stephencdickson",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg",
+    "w": 960,
+    "h": 639
   },
   "doublecloth": {
     "file": "doublecloth.png",
@@ -2653,7 +3241,9 @@ window.CREDITS = {
     "title": "Blue Double Weave Kimono Close Up.png",
     "artist": "GuitarStv",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Blue_Double_Weave_Kimono_Close_Up.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Double_Weave_Kimono_Close_Up.png",
+    "w": 960,
+    "h": 720
   },
   "warpknit": {
     "file": "warpknit.jpg",
@@ -2662,7 +3252,9 @@ window.CREDITS = {
     "title": "NIM 1910 Warp knitting machine 2522.jpg",
     "artist": "ClemRutter",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:NIM_1910_Warp_knitting_machine_2522.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:NIM_1910_Warp_knitting_machine_2522.jpg",
+    "w": 960,
+    "h": 720
   },
   "jersey": {
     "file": "jersey.jpg",
@@ -2671,7 +3263,9 @@ window.CREDITS = {
     "title": "Gestrick links-rechts rechte Seite.jpeg",
     "artist": "Unknown",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gestrick_links-rechts_rechte_Seite.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Gestrick_links-rechts_rechte_Seite.jpeg",
+    "w": 960,
+    "h": 705
   },
   "seamlessknit": {
     "file": "seamlessknit.jpg",
@@ -2680,7 +3274,9 @@ window.CREDITS = {
     "title": "Computerized Flat Knitting Machine (Jacquard Machine) 07.jpg",
     "artist": "Asivechowdhury",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Computerized_Flat_Knitting_Machine_(Jacquard_Machine)_07.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Computerized_Flat_Knitting_Machine_(Jacquard_Machine)_07.jpg",
+    "w": 960,
+    "h": 720
   },
   "spacerfabric": {
     "file": "spacerfabric.jpg",
@@ -2689,7 +3285,9 @@ window.CREDITS = {
     "title": "Spacer fabric.jpg",
     "artist": "Elkagye",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Spacer_fabric.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Spacer_fabric.jpg",
+    "w": 960,
+    "h": 631
   },
   "electrospun": {
     "file": "electrospun.jpg",
@@ -2698,7 +3296,9 @@ window.CREDITS = {
     "title": "Electrospun polymer nanofibers with bead-fiber morphology.jpg",
     "artist": "Farizat Aidyn",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Electrospun_polymer_nanofibers_with_bead-fiber_morphology.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Electrospun_polymer_nanofibers_with_bead-fiber_morphology.jpg",
+    "w": 960,
+    "h": 769
   },
   "tyvek": {
     "file": "tyvek.jpg",
@@ -2707,7 +3307,9 @@ window.CREDITS = {
     "title": "Tyvek 1056D Envelope 13032009849.jpg",
     "artist": "Newone",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tyvek_1056D_Envelope_13032009849.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Tyvek_1056D_Envelope_13032009849.jpg",
+    "w": 960,
+    "h": 720
   },
   "mercerised": {
     "file": "mercerised.jpg",
@@ -2716,7 +3318,9 @@ window.CREDITS = {
     "title": "Spool of white thread.jpg",
     "artist": "No machine-readable author provided. Dmeranda assumed (based on copyright claims).",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Spool_of_white_thread.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Spool_of_white_thread.jpg",
+    "w": 960,
+    "h": 643
   },
   "ringmesh": {
     "file": "ringmesh.jpg",
@@ -2725,7 +3329,9 @@ window.CREDITS = {
     "title": "Chain mail shirt - Georgian.jpg",
     "artist": "Jonathan Cardy",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Chain_mail_shirt_-_Georgian.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chain_mail_shirt_-_Georgian.jpg",
+    "w": 960,
+    "h": 1280
   },
   "opwairbag": {
     "file": "opwairbag.jpg",
@@ -2734,7 +3340,9 @@ window.CREDITS = {
     "title": "Vauxhall Vectra curtain airbag deployed.jpg",
     "artist": "Janipewter (talk)",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Vauxhall_Vectra_curtain_airbag_deployed.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Vauxhall_Vectra_curtain_airbag_deployed.jpg",
+    "w": 960,
+    "h": 720
   },
   "ptfeglass": {
     "file": "ptfeglass.jpg",
@@ -2743,7 +3351,9 @@ window.CREDITS = {
     "title": "Denver International Airport.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Denver_International_Airport.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Denver_International_Airport.jpg",
+    "w": 960,
+    "h": 720
   },
   "etfefoil": {
     "file": "etfefoil.jpg",
@@ -2752,7 +3362,9 @@ window.CREDITS = {
     "title": "Tropical Biome of the Eden Project - geograph.org.uk - 4456101.jpg",
     "artist": "Gareth James",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tropical_Biome_of_the_Eden_Project_-_geograph.org.uk_-_4456101.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Tropical_Biome_of_the_Eden_Project_-_geograph.org.uk_-_4456101.jpg",
+    "w": 960,
+    "h": 720
   },
   "dwrfinish": {
     "file": "dwrfinish.jpg",
@@ -2761,7 +3373,9 @@ window.CREDITS = {
     "title": "CSIRO ScienceImage 11489 Water droplets on QuickDry merino wollen fabric.jpg",
     "artist": "Bea Lipson, CSIRO",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11489_Water_droplets_on_QuickDry_merino_wollen_fabric.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11489_Water_droplets_on_QuickDry_merino_wollen_fabric.jpg",
+    "w": 960,
+    "h": 711
   },
   "tufted": {
     "file": "tufted.jpg",
@@ -2770,7 +3384,9 @@ window.CREDITS = {
     "title": "Deep Pile Carpet Up Close.jpg",
     "artist": "GHOSTIE134",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Deep_Pile_Carpet_Up_Close.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Deep_Pile_Carpet_Up_Close.jpg",
+    "w": 960,
+    "h": 720
   },
   "terrypile": {
     "file": "terrypile.jpg",
@@ -2779,7 +3395,9 @@ window.CREDITS = {
     "title": "Frottee-Handtuch.jpg",
     "artist": "Anna reg",
     "license": "CC BY-SA 3.0 at",
-    "page": "https://commons.wikimedia.org/wiki/File:Frottee-Handtuch.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Frottee-Handtuch.jpg",
+    "w": 960,
+    "h": 640
   },
   "leno": {
     "file": "leno.jpg",
@@ -2788,7 +3406,9 @@ window.CREDITS = {
     "title": "3611 Bandage rolling.jpg",
     "artist": "Oscar Bernader Bengtsson (b1888)",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:3611_Bandage_rolling.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:3611_Bandage_rolling.jpg",
+    "w": 960,
+    "h": 641
   },
   "fleece": {
     "file": "fleece.png",
@@ -2797,7 +3417,9 @@ window.CREDITS = {
     "title": "Polar fleece (2) (Rico Cilliers and colormass via Poly Haven).png",
     "artist": "Rico Cilliers (Processing)\ncolormass (Photography)",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Polar_fleece_(2)_(Rico_Cilliers_and_colormass_via_Poly_Haven).png"
+    "page": "https://commons.wikimedia.org/wiki/File:Polar_fleece_(2)_(Rico_Cilliers_and_colormass_via_Poly_Haven).png",
+    "w": 960,
+    "h": 1016
   },
   "nonwoven": {
     "file": "nonwoven.jpg",
@@ -2806,7 +3428,9 @@ window.CREDITS = {
     "title": "The front of a blue disposable mask.jpg",
     "artist": "彩色琪子",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:The_front_of_a_blue_disposable_mask.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:The_front_of_a_blue_disposable_mask.jpg",
+    "w": 960,
+    "h": 720
   },
   "weldedseam": {
     "file": "weldedseam.jpg",
@@ -2815,7 +3439,9 @@ window.CREDITS = {
     "title": "Viking pro 1000 drysuit with magnum hood.jpg",
     "artist": "dive90m",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Viking_pro_1000_drysuit_with_magnum_hood.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Viking_pro_1000_drysuit_with_magnum_hood.jpg",
+    "w": 960,
+    "h": 1707
   },
   "waam": {
     "file": "waam.jpg",
@@ -2824,7 +3450,9 @@ window.CREDITS = {
     "title": "Панфилов Александр - Wire Arc Additive Manufacturing (ИФПМ СО РАН).jpg",
     "artist": "Панфилов Александр",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BD%D1%84%D0%B8%D0%BB%D0%BE%D0%B2_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_-_Wire_Arc_Additive_Manufacturing_(%D0%98%D0%A4%D0%9F%D0%9C_%D0%A1%D0%9E_%D0%A0%D0%90%D0%9D).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BD%D1%84%D0%B8%D0%BB%D0%BE%D0%B2_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_-_Wire_Arc_Additive_Manufacturing_(%D0%98%D0%A4%D0%9F%D0%9C_%D0%A1%D0%9E_%D0%A0%D0%90%D0%9D).jpg",
+    "w": 960,
+    "h": 1280
   },
   "metalpowder": {
     "file": "metalpowder.jpg",
@@ -2833,7 +3461,9 @@ window.CREDITS = {
     "title": "SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg",
     "artist": "Michaltoczko",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:SEM_photo_of_316L_Stainless_Steel_metal_powder_atomized_with_ATO_Lab_Plus_ultrasonic_metal_atomizer.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:SEM_photo_of_316L_Stainless_Steel_metal_powder_atomized_with_ATO_Lab_Plus_ultrasonic_metal_atomizer.jpg",
+    "w": 960,
+    "h": 884
   },
   "fff": {
     "file": "fff.jpg",
@@ -2842,7 +3472,9 @@ window.CREDITS = {
     "title": "Universal stand-alone filament spool holder (Fully 3D-printable) v04.jpg",
     "artist": "Creative Tools",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Universal_stand-alone_filament_spool_holder_(Fully_3D-printable)_v04.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Universal_stand-alone_filament_spool_holder_(Fully_3D-printable)_v04.jpg",
+    "w": 960,
+    "h": 539
   },
   "coldspray": {
     "file": "coldspray.jpg",
@@ -2851,7 +3483,9 @@ window.CREDITS = {
     "title": "CSAM 7755 16.jpg",
     "artist": "Lilia Chomoyan",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CSAM_7755_16.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CSAM_7755_16.jpg",
+    "w": 960,
+    "h": 540
   },
   "fourd": {
     "file": "fourd.jpg",
@@ -2860,7 +3494,9 @@ window.CREDITS = {
     "title": "Multishape active composites by 3d printing of digial smps.jpg",
     "artist": "Jiangtao Wu, Chao Yuan, Zhen Ding, Michael Isakov, Yiqi Mao, Tiejun Wang, Martin L. Dunn & H. Jerry Qi",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Multishape_active_composites_by_3d_printing_of_digial_smps.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Multishape_active_composites_by_3d_printing_of_digial_smps.jpg",
+    "w": 960,
+    "h": 823
   },
   "lcmceramic": {
     "file": "lcmceramic.jpg",
@@ -2869,7 +3505,9 @@ window.CREDITS = {
     "title": "Zirconia bridge.jpg",
     "artist": "AmirAttallah",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Zirconia_bridge.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Zirconia_bridge.jpg",
+    "w": 960,
+    "h": 960
   },
   "concreteprint": {
     "file": "concreteprint.jpg",
@@ -2878,7 +3516,9 @@ window.CREDITS = {
     "title": "Eco-sustainable 3D printed house \"Tecla\".jpg",
     "artist": "Video Autor: Alfredo Milano\nDrone views: Italdron\n\n\nProject by:\nWASP: Engineering and 3D printing construction \nMario Cucinella Architects: Architectural design and project management\nIn collaboration with:\nSOS - School of Sustainability: Research partner\nMapei: Materials consultancy and supply\nMilan Ingegneria: Structural consultancy\nCapoferri: Frames engineering and production\nRiceHouse: Bio-materials consultancy and supply\nFrassinago: Landscaping\nLucifero’s: Lighting design\nAriatta: Energy and internal comfort consultancy\nImola Legno: Timber solutions consultancy and supply\nPrimat • Terracruda®: Earthen floor supply\nCefla: Electrical solutions supply\nUnder the patronage of: \nMunicipality of Massa Lombarda \nSponsored by:\n\nTer Costruzioni",
     "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Eco-sustainable_3D_printed_house_%22Tecla%22.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Eco-sustainable_3D_printed_house_%22Tecla%22.jpg",
+    "w": 960,
+    "h": 741
   },
   "bioink": {
     "file": "bioink.png",
@@ -2887,7 +3527,9 @@ window.CREDITS = {
     "title": "Клеточная сеть образованная стволовыми клетками в трехмерном пространстве внутри гидрогелевого скаффолда.png",
     "artist": "Marfaegorihina",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BB%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C_%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2%D1%8B%D0%BC%D0%B8_%D0%BA%D0%BB%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8_%D0%B2_%D1%82%D1%80%D0%B5%D1%85%D0%BC%D0%B5%D1%80%D0%BD%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%B5_%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8_%D0%B3%D0%B8%D0%B4%D1%80%D0%BE%D0%B3%D0%B5%D0%BB%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE_%D1%81%D0%BA%D0%B0%D1%84%D1%84%D0%BE%D0%BB%D0%B4%D0%B0.png"
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BB%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C_%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2%D1%8B%D0%BC%D0%B8_%D0%BA%D0%BB%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8_%D0%B2_%D1%82%D1%80%D0%B5%D1%85%D0%BC%D0%B5%D1%80%D0%BD%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%B5_%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8_%D0%B3%D0%B8%D0%B4%D1%80%D0%BE%D0%B3%D0%B5%D0%BB%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE_%D1%81%D0%BA%D0%B0%D1%84%D1%84%D0%BE%D0%BB%D0%B4%D0%B0.png",
+    "w": 960,
+    "h": 723
   },
   "grcop": {
     "file": "grcop.jpg",
@@ -2896,7 +3538,9 @@ window.CREDITS = {
     "title": "Marshall engineers installed the injector in a subscale RS-25 engine model.jpg",
     "artist": "NASA/MSFC",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Marshall_engineers_installed_the_injector_in_a_subscale_RS-25_engine_model.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Marshall_engineers_installed_the_injector_in_a_subscale_RS-25_engine_model.jpg",
+    "w": 960,
+    "h": 639
   },
   "ebm": {
     "file": "ebm.png",
@@ -2905,7 +3549,9 @@ window.CREDITS = {
     "title": "Xilloc Patient Specific Implant Titanium.png",
     "artist": "Maikel Beerens, Xilloc",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Xilloc_Patient_Specific_Implant_Titanium.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Xilloc_Patient_Specific_Implant_Titanium.png",
+    "w": 960,
+    "h": 360
   },
   "soluble": {
     "file": "soluble.jpg",
@@ -2914,7 +3560,9 @@ window.CREDITS = {
     "title": "Support structure in 3D printing.jpg",
     "artist": "M6oh7z",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Support_structure_in_3D_printing.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Support_structure_in_3D_printing.jpg",
+    "w": 720,
+    "h": 483
   },
   "pa12powder": {
     "file": "pa12powder.jpg",
@@ -2923,7 +3571,9 @@ window.CREDITS = {
     "title": "The Power of Making at the Victoria and Albert Museum, London.jpg",
     "artist": "51% Studios Architecture",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Power_of_Making_at_the_Victoria_and_Albert_Museum,_London.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:The_Power_of_Making_at_the_Victoria_and_Albert_Museum,_London.jpg",
+    "w": 960,
+    "h": 720
   },
   "cellacetate": {
     "file": "cellacetate.jpg",
@@ -2932,7 +3582,9 @@ window.CREDITS = {
     "title": "Cutlery made from Cellulose Acetate Biograde.JPG",
     "artist": "F. Kesselring, FKuR Willich",
     "license": "CC BY-SA 3.0 de",
-    "page": "https://commons.wikimedia.org/wiki/File:Cutlery_made_from_Cellulose_Acetate_Biograde.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Cutlery_made_from_Cellulose_Acetate_Biograde.JPG",
+    "w": 960,
+    "h": 673
   },
   "gummetal": {
     "file": "gummetal.jpg",
@@ -2941,7 +3593,9 @@ window.CREDITS = {
     "title": "Watch balance spring and human hair.jpg",
     "artist": "Sandbachfizzy",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Watch_balance_spring_and_human_hair.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Watch_balance_spring_and_human_hair.jpg",
+    "w": 960,
+    "h": 768
   },
   "al7075": {
     "file": "al7075.jpg",
@@ -2950,7 +3604,9 @@ window.CREDITS = {
     "title": "Black Diamond Carabiners.JPG",
     "artist": "Eric T Gunther",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Black_Diamond_Carabiners.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Black_Diamond_Carabiners.JPG",
+    "w": 960,
+    "h": 720
   },
   "ss316l": {
     "file": "ss316l.jpg",
@@ -2959,7 +3615,9 @@ window.CREDITS = {
     "title": "Orbital Welding 316L Stainless Steel.jpg",
     "artist": "4X4 Blazer 1776",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Orbital_Welding_316L_Stainless_Steel.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Orbital_Welding_316L_Stainless_Steel.jpg",
+    "w": 960,
+    "h": 500
   },
   "cupronickel": {
     "file": "cupronickel.jpg",
@@ -2968,7 +3626,9 @@ window.CREDITS = {
     "title": "Two stacks of half dollars, one silver, one clad - effects of the Coinage Act 1965.jpg",
     "artist": "BrayLockBoy",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Two_stacks_of_half_dollars,_one_silver,_one_clad_-_effects_of_the_Coinage_Act_1965.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Two_stacks_of_half_dollars,_one_silver,_one_clad_-_effects_of_the_Coinage_Act_1965.jpg",
+    "w": 960,
+    "h": 651
   },
   "babbitt": {
     "file": "babbitt.jpg",
@@ -2977,7 +3637,9 @@ window.CREDITS = {
     "title": "Miba Thrust Bearing.jpg",
     "artist": "Miba Industrial Bearings",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Miba_Thrust_Bearing.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Miba_Thrust_Bearing.jpg",
+    "w": 960,
+    "h": 689
   },
   "macor": {
     "file": "macor.jpg",
@@ -2986,7 +3648,9 @@ window.CREDITS = {
     "title": "60kV Feedthrough.jpg",
     "artist": "Kkmurray",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:60kV_Feedthrough.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:60kV_Feedthrough.jpg",
+    "w": 960,
+    "h": 1515
   },
   "chalcogenide": {
     "file": "chalcogenide.jpg",
@@ -2995,7 +3659,9 @@ window.CREDITS = {
     "title": "CD-RW bottom.jpg",
     "artist": "高橋 宗史",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CD-RW_bottom.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CD-RW_bottom.jpg",
+    "w": 960,
+    "h": 720
   },
   "zblan": {
     "file": "zblan.jpg",
@@ -3004,7 +3670,9 @@ window.CREDITS = {
     "title": "Doped glasses.jpg",
     "artist": "Icozmuta",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Doped_glasses.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Doped_glasses.jpg",
+    "w": 960,
+    "h": 720
   },
   "isographite": {
     "file": "isographite.jpg",
@@ -3013,7 +3681,9 @@ window.CREDITS = {
     "title": "Graphite crucibles.jpg",
     "artist": "No machine-readable author provided. Skatebiker assumed (based on copyright claims).",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Graphite_crucibles.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Graphite_crucibles.jpg",
+    "w": 960,
+    "h": 817
   },
   "azs": {
     "file": "azs.jpg",
@@ -3022,7 +3692,9 @@ window.CREDITS = {
     "title": "Lemington Glass Furnace - geograph.org.uk - 498767.jpg",
     "artist": "ivan everett",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Lemington_Glass_Furnace_-_geograph.org.uk_-_498767.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Lemington_Glass_Furnace_-_geograph.org.uk_-_498767.jpg",
+    "w": 640,
+    "h": 480
   },
   "nomexcore": {
     "file": "nomexcore.jpg",
@@ -3031,7 +3703,9 @@ window.CREDITS = {
     "title": "Composite honeycomb exhaust duct (2).jpg",
     "artist": "Olivier Cleynen",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Composite_honeycomb_exhaust_duct_(2).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Composite_honeycomb_exhaust_duct_(2).jpg",
+    "w": 960,
+    "h": 640
   },
   "forgedcomposite": {
     "file": "forgedcomposite.jpg",
@@ -3040,7 +3714,9 @@ window.CREDITS = {
     "title": "Forged Carbon Fiber Mat for Lamborghini HURACAN.jpg",
     "artist": "Own Silent International LLC",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Forged_Carbon_Fiber_Mat_for_Lamborghini_HURACAN.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Forged_Carbon_Fiber_Mat_for_Lamborghini_HURACAN.jpg",
+    "w": 960,
+    "h": 1557
   },
   "pvcfoam": {
     "file": "pvcfoam.jpg",
@@ -3049,7 +3725,9 @@ window.CREDITS = {
     "title": "Begutachtung eines Rotorblattes.JPG",
     "artist": "Markus Bergmann",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Begutachtung_eines_Rotorblattes.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Begutachtung_eines_Rotorblattes.JPG",
+    "w": 960,
+    "h": 713
   },
   "twophoton": {
     "file": "twophoton.jpg",
@@ -3058,7 +3736,9 @@ window.CREDITS = {
     "title": "Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg",
     "artist": "ZEISS Microscopy from Germany",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Nanosize_3D_model_of_a_vintage_ZEISS_microscope,_by_Nanoscribe_(29829841445).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nanosize_3D_model_of_a_vintage_ZEISS_microscope,_by_Nanoscribe_(29829841445).jpg",
+    "w": 960,
+    "h": 639
   },
   "sandprint": {
     "file": "sandprint.jpg",
@@ -3067,7 +3747,9 @@ window.CREDITS = {
     "title": "SandMoldCopeDragCores.jpg",
     "artist": "Photograph taken by Glenn McKechnie",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:SandMoldCopeDragCores.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:SandMoldCopeDragCores.jpg",
+    "w": 960,
+    "h": 648
   },
   "boundmetal": {
     "file": "boundmetal.jpg",
@@ -3076,7 +3758,9 @@ window.CREDITS = {
     "title": "Filamentgedruckte und gesinterte Bauteile aus hochlegiertem Stahl (316L).jpg",
     "artist": "Fraunhofer IFAM",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Filamentgedruckte_und_gesinterte_Bauteile_aus_hochlegiertem_Stahl_(316L).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Filamentgedruckte_und_gesinterte_Bauteile_aus_hochlegiertem_Stahl_(316L).jpg",
+    "w": 800,
+    "h": 1200
   },
   "slaresin": {
     "file": "slaresin.jpg",
@@ -3085,7 +3769,9 @@ window.CREDITS = {
     "title": "SLA produced part.JPG",
     "artist": "Wizard191",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:SLA_produced_part.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:SLA_produced_part.JPG",
+    "w": 960,
+    "h": 569
   },
   "alsi10mg": {
     "file": "alsi10mg.jpg",
@@ -3094,7 +3780,9 @@ window.CREDITS = {
     "title": "Professional MotorSport World Expo 2024, Cologne (P1031209).jpg",
     "artist": "Matti Blume",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Professional_MotorSport_World_Expo_2024,_Cologne_(P1031209).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Professional_MotorSport_World_Expo_2024,_Cologne_(P1031209).jpg",
+    "w": 960,
+    "h": 720
   },
   "printsilicone": {
     "file": "printsilicone.jpg",
@@ -3103,7 +3791,9 @@ window.CREDITS = {
     "title": "Silicone 3d print with support material.jpg",
     "artist": "Obseus",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Silicone_3d_print_with_support_material.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Silicone_3d_print_with_support_material.jpg",
+    "w": 960,
+    "h": 442
   },
   "pprope": {
     "file": "pprope.jpg",
@@ -3112,7 +3802,9 @@ window.CREDITS = {
     "title": "Failedrope1.jpg",
     "artist": "Peterlewis at English Wikipedia",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Failedrope1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Failedrope1.jpg",
+    "w": 960,
+    "h": 467
   },
   "webbing": {
     "file": "webbing.jpg",
@@ -3121,7 +3813,9 @@ window.CREDITS = {
     "title": "Water-knot-webbing-loose-ABOK-296.jpg",
     "artist": "David J. Fred (Dfred)",
     "license": "CC BY-SA 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Water-knot-webbing-loose-ABOK-296.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Water-knot-webbing-loose-ABOK-296.jpg",
+    "w": 960,
+    "h": 638
   },
   "monofil": {
     "file": "monofil.jpg",
@@ -3130,7 +3824,9 @@ window.CREDITS = {
     "title": "String trimmer head-insert style.jpg",
     "artist": "StrangeApparition2011",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:String_trimmer_head-insert_style.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:String_trimmer_head-insert_style.jpg",
+    "w": 960,
+    "h": 540
   },
   "emifabric": {
     "file": "emifabric.jpg",
@@ -3139,7 +3835,9 @@ window.CREDITS = {
     "title": "Isotoner touch gloves BB E86 jeh.jpg",
     "artist": "Jim.henderson",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Isotoner_touch_gloves_BB_E86_jeh.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Isotoner_touch_gloves_BB_E86_jeh.jpg",
+    "w": 960,
+    "h": 997
   },
   "technora": {
     "file": "technora.jpg",
@@ -3148,7 +3846,9 @@ window.CREDITS = {
     "title": "Tandriem BMW F 650 CS02.JPG",
     "artist": "Piero",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tandriem_BMW_F_650_CS02.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Tandriem_BMW_F_650_CS02.JPG",
+    "w": 960,
+    "h": 720
   },
   "preoxpan": {
     "file": "preoxpan.jpg",
@@ -3157,7 +3857,9 @@ window.CREDITS = {
     "title": "Fire-blanket-on-display.jpg",
     "artist": "JonathanLamb",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Fire-blanket-on-display.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Fire-blanket-on-display.jpg",
+    "w": 960,
+    "h": 886
   },
   "ptfethread": {
     "file": "ptfethread.jpg",
@@ -3166,7 +3868,9 @@ window.CREDITS = {
     "title": "Velodrome Marseille Stadium by Taiyo Europe.JPG",
     "artist": "Taiyo Europe",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Velodrome_Marseille_Stadium_by_Taiyo_Europe.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Velodrome_Marseille_Stadium_by_Taiyo_Europe.JPG",
+    "w": 960,
+    "h": 720
   },
   "kuralon": {
     "file": "kuralon.jpg",
@@ -3175,7 +3879,9 @@ window.CREDITS = {
     "title": "Sample of Polyvinyl alcohol.jpg",
     "artist": "LHcheM",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sample_of_Polyvinyl_alcohol.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Sample_of_Polyvinyl_alcohol.jpg",
+    "w": 960,
+    "h": 1303
   },
   "rawhide": {
     "file": "rawhide.jpg",
@@ -3184,7 +3890,9 @@ window.CREDITS = {
     "title": "Rawhide mallet in Tuntorp 3.jpg",
     "artist": "W.carter",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Rawhide_mallet_in_Tuntorp_3.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Rawhide_mallet_in_Tuntorp_3.jpg",
+    "w": 960,
+    "h": 540
   },
   "laidrope": {
     "file": "laidrope.jpg",
@@ -3193,7 +3901,9 @@ window.CREDITS = {
     "title": "Cordage chantier de l'Hermione Rochefort sur Mer.jpg",
     "artist": "Jebulon",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cordage_chantier_de_l%27Hermione_Rochefort_sur_Mer.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cordage_chantier_de_l%27Hermione_Rochefort_sur_Mer.jpg",
+    "w": 960,
+    "h": 960
   },
   "doublebraid": {
     "file": "doublebraid.jpg",
@@ -3202,7 +3912,9 @@ window.CREDITS = {
     "title": "Tree Climbing Arborist.jpg",
     "artist": "TreeMinion15",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tree_Climbing_Arborist.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Tree_Climbing_Arborist.jpg",
+    "w": 960,
+    "h": 640
   },
   "twelvestrand": {
     "file": "twelvestrand.jpg",
@@ -3211,7 +3923,9 @@ window.CREDITS = {
     "title": "Soft shackles.JPG",
     "artist": "White74",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Soft_shackles.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Soft_shackles.JPG",
+    "w": 960,
+    "h": 1280
   },
   "braidedline": {
     "file": "braidedline.jpg",
@@ -3220,7 +3934,9 @@ window.CREDITS = {
     "title": "Fishing lines 2025 G1.jpg",
     "artist": "George Chernilevsky",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Fishing_lines_2025_G1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Fishing_lines_2025_G1.jpg",
+    "w": 960,
+    "h": 768
   },
   "needlepunch": {
     "file": "needlepunch.jpg",
@@ -3229,7 +3945,9 @@ window.CREDITS = {
     "title": "Needle-felt-making-1080204.jpg",
     "artist": "Fabienkhan",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Needle-felt-making-1080204.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Needle-felt-making-1080204.jpg",
+    "w": 960,
+    "h": 720
   },
   "woven3d": {
     "file": "woven3d.jpg",
@@ -3238,7 +3956,9 @@ window.CREDITS = {
     "title": "Paris Air Show 2017 LEAP fan.jpg",
     "artist": "Marc Lacoste",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Paris_Air_Show_2017_LEAP_fan.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_Air_Show_2017_LEAP_fan.jpg",
+    "w": 960,
+    "h": 720
   },
   "laminateshell": {
     "file": "laminateshell.jpg",
@@ -3247,7 +3967,9 @@ window.CREDITS = {
     "title": "Early Gore-Tex hooded rain jacket.jpg",
     "artist": "Joe Mabel",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Early_Gore-Tex_hooded_rain_jacket.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Early_Gore-Tex_hooded_rain_jacket.jpg",
+    "w": 960,
+    "h": 1449
   },
   "etextile": {
     "file": "etextile.jpg",
@@ -3256,7 +3978,9 @@ window.CREDITS = {
     "title": "Wireless electronic textiles.jpg",
     "artist": "MW AHM",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Wireless_electronic_textiles.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Wireless_electronic_textiles.jpg",
+    "w": 960,
+    "h": 640
   },
   "dea": {
     "file": "dea.jpg",
@@ -3265,7 +3989,9 @@ window.CREDITS = {
     "title": "Soft robot locomotion.jpg",
     "artist": "Hdehqani",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Soft_robot_locomotion.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Soft_robot_locomotion.jpg",
+    "w": 960,
+    "h": 720
   },
   "strontiumal": {
     "file": "strontiumal.jpg",
@@ -3274,7 +4000,9 @@ window.CREDITS = {
     "title": "Photoluminescent Exit Sign.jpg",
     "artist": "Aug wiki 1257",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Photoluminescent_Exit_Sign.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Photoluminescent_Exit_Sign.jpg",
+    "w": 960,
+    "h": 720
   },
   "spruce": {
     "file": "spruce.jpg",
@@ -3283,7 +4011,9 @@ window.CREDITS = {
     "title": "Violin Top and back plates.jpg",
     "artist": "Ronaldmoretto",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Violin_Top_and_back_plates.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Violin_Top_and_back_plates.jpg",
+    "w": 960,
+    "h": 768
   },
   "ggg": {
     "file": "ggg.jpg",
@@ -3292,7 +4022,9 @@ window.CREDITS = {
     "title": "GAGG-Ce.jpg",
     "artist": "Thunderblood101",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:GAGG-Ce.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:GAGG-Ce.jpg",
+    "w": 960,
+    "h": 1280
   },
   "bbo": {
     "file": "bbo.jpg",
@@ -3301,7 +4033,9 @@ window.CREDITS = {
     "title": "Beam output from OPA.jpg",
     "artist": "Fauzul Uzul",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Beam_output_from_OPA.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Beam_output_from_OPA.jpg",
+    "w": 960,
+    "h": 1707
   },
   "ga2o3": {
     "file": "ga2o3.png",
@@ -3310,7 +4044,9 @@ window.CREDITS = {
     "title": "Czochralski Gallium Oxide.png",
     "artist": "GalliumGorl",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Czochralski_Gallium_Oxide.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Czochralski_Gallium_Oxide.png",
+    "w": 960,
+    "h": 466
   },
   "pebax": {
     "file": "pebax.jpg",
@@ -3319,7 +4055,9 @@ window.CREDITS = {
     "title": "Ski boots alpin large.jpg",
     "artist": "Chianti90",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Ski_boots_alpin_large.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ski_boots_alpin_large.jpg",
+    "w": 960,
+    "h": 720
   },
   "pei": {
     "file": "pei.jpg",
@@ -3328,7 +4066,9 @@ window.CREDITS = {
     "title": "DG 東莞 DongGuan 南城區 Nancheng 鴻福路 HongFu Road 東莞京東商場 JD Mall Electronics Showroom 3D printers December 2024 R12S 06 (cropped).jpg",
     "artist": "NAS 238 WMMNO",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E6%9D%B1%E8%8E%9E%E4%BA%AC%E6%9D%B1%E5%95%86%E5%A0%B4_JD_Mall_Electronics_Showroom_3D_printers_December_2024_R12S_06_(cropped).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E6%9D%B1%E8%8E%9E%E4%BA%AC%E6%9D%B1%E5%95%86%E5%A0%B4_JD_Mall_Electronics_Showroom_3D_printers_December_2024_R12S_06_(cropped).jpg",
+    "w": 960,
+    "h": 1477
   },
   "terfenol": {
     "file": "terfenol.jpg",
@@ -3337,7 +4077,9 @@ window.CREDITS = {
     "title": "Hydrophone being lowered into the Atlantic.jpg",
     "artist": "Dave Mellinger/Oregon State University",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hydrophone_being_lowered_into_the_Atlantic.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hydrophone_being_lowered_into_the_Atlantic.jpg",
+    "w": 960,
+    "h": 640
   },
   "tib2": {
     "file": "tib2.jpg",
@@ -3346,7 +4088,9 @@ window.CREDITS = {
     "title": "Цех электролизных ванн для выплавки алюминия с силой тока 400 КА в промышленно-инновационном парке \"Юйлянь\" в г. Гунъи (Китай).jpg",
     "artist": "Ischek",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%A6%D0%B5%D1%85_%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BB%D0%B8%D0%B7%D0%BD%D1%8B%D1%85_%D0%B2%D0%B0%D0%BD%D0%BD_%D0%B4%D0%BB%D1%8F_%D0%B2%D1%8B%D0%BF%D0%BB%D0%B0%D0%B2%D0%BA%D0%B8_%D0%B0%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B8%D1%8F_%D1%81_%D1%81%D0%B8%D0%BB%D0%BE%D0%B9_%D1%82%D0%BE%D0%BA%D0%B0_400_%D0%9A%D0%90_%D0%B2_%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE-%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D0%BA%D0%B5_%22%D0%AE%D0%B9%D0%BB%D1%8F%D0%BD%D1%8C%22_%D0%B2_%D0%B3._%D0%93%D1%83%D0%BD%D1%8A%D0%B8_(%D0%9A%D0%B8%D1%82%D0%B0%D0%B9).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A6%D0%B5%D1%85_%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BB%D0%B8%D0%B7%D0%BD%D1%8B%D1%85_%D0%B2%D0%B0%D0%BD%D0%BD_%D0%B4%D0%BB%D1%8F_%D0%B2%D1%8B%D0%BF%D0%BB%D0%B0%D0%B2%D0%BA%D0%B8_%D0%B0%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B8%D1%8F_%D1%81_%D1%81%D0%B8%D0%BB%D0%BE%D0%B9_%D1%82%D0%BE%D0%BA%D0%B0_400_%D0%9A%D0%90_%D0%B2_%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE-%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D0%BA%D0%B5_%22%D0%AE%D0%B9%D0%BB%D1%8F%D0%BD%D1%8C%22_%D0%B2_%D0%B3._%D0%93%D1%83%D0%BD%D1%8A%D0%B8_(%D0%9A%D0%B8%D1%82%D0%B0%D0%B9).jpg",
+    "w": 960,
+    "h": 643
   },
   "nextel": {
     "file": "nextel.jpg",
@@ -3355,7 +4099,9 @@ window.CREDITS = {
     "title": "Industrial furnace equipped with HTIW modules.jpg",
     "artist": "ANDRITZ Maerz GmbH",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Industrial_furnace_equipped_with_HTIW_modules.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Industrial_furnace_equipped_with_HTIW_modules.jpg",
+    "w": 640,
+    "h": 480
   },
   "smc": {
     "file": "smc.jpg",
@@ -3364,7 +4110,9 @@ window.CREDITS = {
     "title": "1979 tvr 3000s.jpg",
     "artist": "ColinMB at English Wikipedia",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:1979_tvr_3000s.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:1979_tvr_3000s.jpg",
+    "w": 960,
+    "h": 629
   },
   "g10": {
     "file": "g10.jpg",
@@ -3373,7 +4121,9 @@ window.CREDITS = {
     "title": "SEG DVD 430 - Printed circuit board-4276.jpg",
     "artist": "Raimond Spekking",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:SEG_DVD_430_-_Printed_circuit_board-4276.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:SEG_DVD_430_-_Printed_circuit_board-4276.jpg",
+    "w": 960,
+    "h": 720
   },
   "fgm": {
     "file": "fgm.jpg",
@@ -3382,7 +4132,9 @@ window.CREDITS = {
     "title": "Repair process for a V2500 high-pressure turbine guide vane (8).jpg",
     "artist": "Olivier Cleynen",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Repair_process_for_a_V2500_high-pressure_turbine_guide_vane_(8).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Repair_process_for_a_V2500_high-pressure_turbine_guide_vane_(8).jpg",
+    "w": 960,
+    "h": 720
   },
   "contfibre": {
     "file": "contfibre.jpg",
@@ -3391,7 +4143,9 @@ window.CREDITS = {
     "title": "U S Marines with 3d Marine Logistics Group showcase 3D Printing Capabilities to the U S Coast Guard at CJLOTS 26 (9832271).jpg",
     "artist": "U.S. Marine Corps photo by Lance Cpl. Marcus Henson",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:U_S_Marines_with_3d_Marine_Logistics_Group_showcase_3D_Printing_Capabilities_to_the_U_S_Coast_Guard_at_CJLOTS_26_(9832271).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:U_S_Marines_with_3d_Marine_Logistics_Group_showcase_3D_Printing_Capabilities_to_the_U_S_Coast_Guard_at_CJLOTS_26_(9832271).jpg",
+    "w": 960,
+    "h": 640
   },
   "lattice": {
     "file": "lattice.jpg",
@@ -3400,7 +4154,9 @@ window.CREDITS = {
     "title": "3D-Printed Biodegradable Human Bone Scaffold 4.jpg",
     "artist": "Donvikro",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:3D-Printed_Biodegradable_Human_Bone_Scaffold_4.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:3D-Printed_Biodegradable_Human_Bone_Scaffold_4.jpg",
+    "w": 960,
+    "h": 720
   },
   "primaloft": {
     "file": "primaloft.jpg",
@@ -3409,7 +4165,9 @@ window.CREDITS = {
     "title": "Adidas belgements primaloft cycling gilet.jpg",
     "artist": "Adenosine Triphosphate",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Adidas_belgements_primaloft_cycling_gilet.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Adidas_belgements_primaloft_cycling_gilet.jpg",
+    "w": 960,
+    "h": 1280
   },
   "m5fibre": {
     "file": "m5fibre.jpg",
@@ -3418,7 +4176,9 @@ window.CREDITS = {
     "title": "Aramid fiber2.jpg",
     "artist": "Cjp24",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Aramid_fiber2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aramid_fiber2.jpg",
+    "w": 960,
+    "h": 1065
   },
   "basofil": {
     "file": "basofil.jpg",
@@ -3427,7 +4187,9 @@ window.CREDITS = {
     "title": "Turnout gear in the Czech Republic.jpg",
     "artist": "Michal Maňas",
     "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Turnout_gear_in_the_Czech_Republic.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Turnout_gear_in_the_Czech_Republic.jpg",
+    "w": 960,
+    "h": 720
   },
   "silicafibre": {
     "file": "silicafibre.jpg",
@@ -3436,7 +4198,9 @@ window.CREDITS = {
     "title": "Glasfaser Roving.jpg",
     "artist": "NoiseD at de.wikipedia",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Glasfaser_Roving.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Glasfaser_Roving.jpg",
+    "w": 773,
+    "h": 1429
   },
   "kineticrope": {
     "file": "kineticrope.jpg",
@@ -3445,7 +4209,9 @@ window.CREDITS = {
     "title": "Maxtrax Fuse Shackle - Recovery Gear.jpg",
     "artist": "Tony Webster",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Maxtrax_Fuse_Shackle_-_Recovery_Gear.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Maxtrax_Fuse_Shackle_-_Recovery_Gear.jpg",
+    "w": 960,
+    "h": 536
   },
   "triaxial": {
     "file": "triaxial.jpg",
@@ -3454,7 +4220,9 @@ window.CREDITS = {
     "title": "Woven Fabric (ST177) - MoMu Antwerp.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Woven_Fabric_(ST177)_-_MoMu_Antwerp.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Woven_Fabric_(ST177)_-_MoMu_Antwerp.jpg",
+    "w": 960,
+    "h": 1396
   },
   "stitchbond": {
     "file": "stitchbond.jpg",
@@ -3463,7 +4231,9 @@ window.CREDITS = {
     "title": "Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg",
     "artist": "Photo: User Cjp24; edited by User Jaybear",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Glass-aramid-hybrid-area_used-for-reinforced-plastics.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Glass-aramid-hybrid-area_used-for-reinforced-plastics.jpg",
+    "w": 960,
+    "h": 588
   },
   "erf": {
     "file": "erf.png",
@@ -3472,7 +4242,9 @@ window.CREDITS = {
     "title": "MRF-Effekt-static-crop.png",
     "artist": "INVENTUS Engineering GmbH",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MRF-Effekt-static-crop.png"
+    "page": "https://commons.wikimedia.org/wiki/File:MRF-Effekt-static-crop.png",
+    "w": 640,
+    "h": 480
   },
   "granite": {
     "file": "granite.jpg",
@@ -3481,7 +4253,9 @@ window.CREDITS = {
     "title": "Surface plate.jpg",
     "artist": "Rrudzik",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Surface_plate.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Surface_plate.jpg",
+    "w": 960,
+    "h": 449
   },
   "byborre": {
     "file": "byborre.jpg",
@@ -3490,7 +4264,9 @@ window.CREDITS = {
     "title": "Double knit structure (weft knitted).jpg",
     "artist": "Elkagye",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Double_knit_structure_(weft_knitted).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Double_knit_structure_(weft_knitted).jpg",
+    "w": 702,
+    "h": 621
   },
   "dcf": {
     "file": "dcf.jpg",
@@ -3499,7 +4275,9 @@ window.CREDITS = {
     "title": "Clew of an AC45 Cuben fiber gennaker.jpg",
     "artist": "HaeB",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Clew_of_an_AC45_Cuben_fiber_gennaker.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Clew_of_an_AC45_Cuben_fiber_gennaker.jpg",
+    "w": 960,
+    "h": 1003
   },
   "seersucker": {
     "file": "seersucker.jpg",
@@ -3508,7 +4286,9 @@ window.CREDITS = {
     "title": "Seersucker-sample1.jpg",
     "artist": "Giftzwerg 88",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Seersucker-sample1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Seersucker-sample1.jpg",
+    "w": 960,
+    "h": 731
   },
   "flyknit": {
     "file": "flyknit.jpg",
@@ -3517,7 +4297,9 @@ window.CREDITS = {
     "title": "Nike flyknit one (8483993132).jpg",
     "artist": "29621165@N03",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Nike_flyknit_one_(8483993132).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Nike_flyknit_one_(8483993132).jpg",
+    "w": 960,
+    "h": 640
   },
   "surgmesh": {
     "file": "surgmesh.jpg",
@@ -3526,7 +4308,9 @@ window.CREDITS = {
     "title": "Hernia mesh 2.JPG",
     "artist": "Doctoroftcm",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hernia_mesh_2.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Hernia_mesh_2.JPG",
+    "w": 960,
+    "h": 720
   },
   "pinatex": {
     "file": "pinatex.jpg",
@@ -3535,7 +4319,9 @@ window.CREDITS = {
     "title": "Piñatex fabric in white.jpg",
     "artist": "Piñatex",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Pi%C3%B1atex_fabric_in_white.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Pi%C3%B1atex_fabric_in_white.jpg",
+    "w": 960,
+    "h": 960
   },
   "waffle": {
     "file": "waffle.jpg",
@@ -3544,7 +4330,9 @@ window.CREDITS = {
     "title": "An example of waffle fabric.jpeg",
     "artist": "Alexandra.birenbaum",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:An_example_of_waffle_fabric.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:An_example_of_waffle_fabric.jpeg",
+    "w": 960,
+    "h": 639
   },
   "twill": {
     "file": "twill.jpg",
@@ -3553,7 +4341,9 @@ window.CREDITS = {
     "title": "Broken twill denim Wrangler 13MWZ jeans (2026-01-21).jpg",
     "artist": "Olgierd Rudak",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Broken_twill_denim_Wrangler_13MWZ_jeans_(2026-01-21).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Broken_twill_denim_Wrangler_13MWZ_jeans_(2026-01-21).jpg",
+    "w": 960,
+    "h": 720
   },
   "bellbronze": {
     "file": "bellbronze.jpg",
@@ -3562,7 +4352,9 @@ window.CREDITS = {
     "title": "San Geremia (Venice) - Bronze bell from 1813.jpg",
     "artist": "Didier Descouens",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:San_Geremia_(Venice)_-_Bronze_bell_from_1813.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:San_Geremia_(Venice)_-_Bronze_bell_from_1813.jpg",
+    "w": 960,
+    "h": 1237
   },
   "singingbowl": {
     "file": "singingbowl.jpg",
@@ -3571,7 +4363,9 @@ window.CREDITS = {
     "title": "Tibetan bowl 14 cm.jpg",
     "artist": "Praewjarat",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tibetan_bowl_14_cm.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Tibetan_bowl_14_cm.jpg",
+    "w": 960,
+    "h": 612
   },
   "pipemetal": {
     "file": "pipemetal.jpg",
@@ -3580,7 +4374,9 @@ window.CREDITS = {
     "title": "Organ pipes.jpg",
     "artist": "Gnumarcoo",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Organ_pipes.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Organ_pipes.jpg",
+    "w": 960,
+    "h": 720
   },
   "pernambuco": {
     "file": "pernambuco.jpg",
@@ -3589,7 +4385,9 @@ window.CREDITS = {
     "title": "Brazilwood Paubrasilia echinata square blank.jpg",
     "artist": "Fopseh",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Brazilwood_Paubrasilia_echinata_square_blank.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brazilwood_Paubrasilia_echinata_square_blank.jpg",
+    "w": 960,
+    "h": 1280
   },
   "ebony": {
     "file": "ebony.jpg",
@@ -3598,7 +4396,9 @@ window.CREDITS = {
     "title": "A piece of ebony wood 1.jpg",
     "artist": "W.carter",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:A_piece_of_ebony_wood_1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:A_piece_of_ebony_wood_1.jpg",
+    "w": 960,
+    "h": 640
   },
   "rosin": {
     "file": "rosin.jpg",
@@ -3607,7 +4407,9 @@ window.CREDITS = {
     "title": "Violin rosin (2).jpg",
     "artist": "Cjp24",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Violin_rosin_(2).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Violin_rosin_(2).jpg",
+    "w": 960,
+    "h": 777
   },
   "fiddleback": {
     "file": "fiddleback.jpg",
@@ -3616,7 +4418,9 @@ window.CREDITS = {
     "title": "Riegelahorn Holz.JPG",
     "artist": "Philipp Zinger",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Riegelahorn_Holz.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Riegelahorn_Holz.JPG",
+    "w": 960,
+    "h": 489
   },
   "instbrass": {
     "file": "instbrass.jpg",
@@ -3625,7 +4429,9 @@ window.CREDITS = {
     "title": "Trumpet Bell.jpg",
     "artist": "Gdk411 at English Wikipedia (\"User:Gdk411 is the author of this photograph.\")",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Trumpet_Bell.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Trumpet_Bell.jpg",
+    "w": 960,
+    "h": 638
   },
   "lithophone": {
     "file": "lithophone.jpg",
@@ -3634,7 +4440,9 @@ window.CREDITS = {
     "title": "Pierre sonore d'un lithophone jade chine 1764 mariemont.JPG",
     "artist": "Chatsam",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Pierre_sonore_d%27un_lithophone_jade_chine_1764_mariemont.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Pierre_sonore_d%27un_lithophone_jade_chine_1764_mariemont.JPG",
+    "w": 960,
+    "h": 640
   },
   "cymbalbronze": {
     "file": "cymbalbronze.jpg",
@@ -3643,7 +4451,9 @@ window.CREDITS = {
     "title": "Crashride cymbal.JPG",
     "artist": "Andrewa",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Crashride_cymbal.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Crashride_cymbal.JPG",
+    "w": 960,
+    "h": 686
   },
   "tuningfork": {
     "file": "tuningfork.jpg",
@@ -3652,7 +4462,9 @@ window.CREDITS = {
     "title": "Diapason Wittner à branches carrées à 440 Hz.jpg",
     "artist": "Édouard Hue (User:EdouardHue)",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Diapason_Wittner_%C3%A0_branches_carr%C3%A9es_%C3%A0_440_Hz.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Diapason_Wittner_%C3%A0_branches_carr%C3%A9es_%C3%A0_440_Hz.jpg",
+    "w": 960,
+    "h": 640
   },
   "singingsand": {
     "file": "singingsand.jpg",
@@ -3661,7 +4473,9 @@ window.CREDITS = {
     "title": "Singing Sand Dunes and Crescent Lake (20230918100733).jpg",
     "artist": "N509FZ",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Singing_Sand_Dunes_and_Crescent_Lake_(20230918100733).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Singing_Sand_Dunes_and_Crescent_Lake_(20230918100733).jpg",
+    "w": 960,
+    "h": 640
   },
   "ringingrock": {
     "file": "ringingrock.jpg",
@@ -3670,7 +4484,9 @@ window.CREDITS = {
     "title": "Boulder field, Ringing Rocks Park, Bridgeton Township, PA.jpg",
     "artist": "Zeete",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Boulder_field,_Ringing_Rocks_Park,_Bridgeton_Township,_PA.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Boulder_field,_Ringing_Rocks_Park,_Bridgeton_Township,_PA.jpg",
+    "w": 960,
+    "h": 640
   },
   "steelpan": {
     "file": "steelpan.jpg",
@@ -3679,7 +4495,9 @@ window.CREDITS = {
     "title": "Steelpan.jpeg",
     "artist": "Aldric B.",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Steelpan.jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Steelpan.jpeg",
+    "w": 960,
+    "h": 1702
   },
   "glassharp": {
     "file": "glassharp.jpg",
@@ -3688,7 +4506,9 @@ window.CREDITS = {
     "title": "Glass Harp.jpg",
     "artist": "Kosboot",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Glass_Harp.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Glass_Harp.jpg",
+    "w": 960,
+    "h": 720
   },
   "handpan": {
     "file": "handpan.jpg",
@@ -3697,7 +4517,9 @@ window.CREDITS = {
     "title": "Handpan 2014.jpg",
     "artist": "Toglenn",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Handpan_2014.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Handpan_2014.jpg",
+    "w": 960,
+    "h": 768
   },
   "springreverb": {
     "file": "springreverb.jpg",
@@ -3706,7 +4528,9 @@ window.CREDITS = {
     "title": "Spring Reverb 8325.jpg",
     "artist": "Ashley Pomeroy",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Spring_Reverb_8325.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Spring_Reverb_8325.jpg",
+    "w": 960,
+    "h": 552
   },
   "thermowood": {
     "file": "thermowood.jpg",
@@ -3715,7 +4539,9 @@ window.CREDITS = {
     "title": "Thermoholz vergleich.JPG",
     "artist": "Anubis100",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Thermoholz_vergleich.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Thermoholz_vergleich.JPG",
+    "w": 960,
+    "h": 390
   },
   "headstock": {
     "file": "headstock.jpg",
@@ -3724,7 +4550,9 @@ window.CREDITS = {
     "title": "Avebury St James - old bell headstock - geograph.org.uk - 7250336.jpg",
     "artist": "Stephen Craven",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Avebury_St_James_-_old_bell_headstock_-_geograph.org.uk_-_7250336.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Avebury_St_James_-_old_bell_headstock_-_geograph.org.uk_-_7250336.jpg",
+    "w": 960,
+    "h": 720
   },
   "clapper": {
     "file": "clapper.jpg",
@@ -3733,7 +4561,9 @@ window.CREDITS = {
     "title": "Glockenklöppel St. Maximilian München.jpg",
     "artist": "Wikitarisch",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Glockenkl%C3%B6ppel_St._Maximilian_M%C3%BCnchen.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Glockenkl%C3%B6ppel_St._Maximilian_M%C3%BCnchen.jpg",
+    "w": 960,
+    "h": 720
   },
   "cymbalfelt": {
     "file": "cymbalfelt.jpg",
@@ -3742,7 +4572,9 @@ window.CREDITS = {
     "title": "Cymbal stand buttons and disassembled bolts.JPG",
     "artist": "Andrewa",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cymbal_stand_buttons_and_disassembled_bolts.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Cymbal_stand_buttons_and_disassembled_bolts.JPG",
+    "w": 960,
+    "h": 720
   },
   "bowlcushion": {
     "file": "bowlcushion.jpg",
@@ -3751,7 +4583,9 @@ window.CREDITS = {
     "title": "Rin gong at Kiyomizu-dera, Kyoto.JPG",
     "artist": "MichaelMaggs",
     "license": "CC BY-SA 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Rin_gong_at_Kiyomizu-dera,_Kyoto.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Rin_gong_at_Kiyomizu-dera,_Kyoto.JPG",
+    "w": 960,
+    "h": 720
   },
   "soundpost": {
     "file": "soundpost.jpg",
@@ -3760,7 +4594,9 @@ window.CREDITS = {
     "title": "Soundpost end.jpg",
     "artist": "No machine-readable author provided. Just plain Bill assumed (based on copyright claims).",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Soundpost_end.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Soundpost_end.jpg",
+    "w": 960,
+    "h": 823
   },
   "violinbridge": {
     "file": "violinbridge.jpg",
@@ -3769,7 +4605,9 @@ window.CREDITS = {
     "title": "Cello bridge.jpg",
     "artist": "Turidoth File uploaded by Phyzome for w:en:User:Turidoth through the File upload service.",
     "license": "CC BY-SA 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Cello_bridge.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cello_bridge.jpg",
+    "w": 960,
+    "h": 833
   },
   "bonesaddle": {
     "file": "bonesaddle.jpg",
@@ -3778,7 +4616,9 @@ window.CREDITS = {
     "title": "Classical Guitar Bridge Bone.jpg",
     "artist": "Dirkjot",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Classical_Guitar_Bridge_Bone.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Classical_Guitar_Bridge_Bone.jpg",
+    "w": 960,
+    "h": 763
   },
   "hideglue": {
     "file": "hideglue.jpg",
@@ -3787,7 +4627,9 @@ window.CREDITS = {
     "title": "Knochenleim Granulat.jpg",
     "artist": "Simon Eugster – Simon / ?! 12:57, 8 May 2008 (UTC)",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Knochenleim_Granulat.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Knochenleim_Granulat.jpg",
+    "w": 960,
+    "h": 638
   },
   "shockmount": {
     "file": "shockmount.jpg",
@@ -3796,7 +4638,9 @@ window.CREDITS = {
     "title": "AKG C214 condenser microphone with H85 shock mount.jpg",
     "artist": "Lucasbosch",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:AKG_C214_condenser_microphone_with_H85_shock_mount.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:AKG_C214_condenser_microphone_with_H85_shock_mount.jpg",
+    "w": 960,
+    "h": 1358
   },
   "endpin": {
     "file": "endpin.jpg",
@@ -3805,7 +4649,9 @@ window.CREDITS = {
     "title": "Cello endpin.JPG",
     "artist": "SMasters",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cello_endpin.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Cello_endpin.JPG",
+    "w": 960,
+    "h": 593
   },
   "nb3sn": {
     "file": "nb3sn.jpg",
@@ -3814,7 +4660,9 @@ window.CREDITS = {
     "title": "ITER Central Solenoid CICC (34860816181).jpg",
     "artist": "Charlie Sanabria",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:ITER_Central_Solenoid_CICC_(34860816181).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:ITER_Central_Solenoid_CICC_(34860816181).jpg",
+    "w": 960,
+    "h": 640
   },
   "wroughtiron": {
     "file": "wroughtiron.jpg",
@@ -3823,7 +4671,9 @@ window.CREDITS = {
     "title": "Iron Pillar of Delhi.jpg",
     "artist": "Rounik Ghosh",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Iron_Pillar_of_Delhi.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Iron_Pillar_of_Delhi.jpg",
+    "w": 960,
+    "h": 720
   },
   "tincoat": {
     "file": "tincoat.jpg",
@@ -3832,7 +4682,9 @@ window.CREDITS = {
     "title": "TiNCoatedPunches NanoShieldPVD Thailand.JPG",
     "artist": "Sunyataburus",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:TiNCoatedPunches_NanoShieldPVD_Thailand.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:TiNCoatedPunches_NanoShieldPVD_Thailand.JPG",
+    "w": 960,
+    "h": 473
   },
   "lfp": {
     "file": "lfp.jpg",
@@ -3841,7 +4693,9 @@ window.CREDITS = {
     "title": "Lithium Iron Phosphate LiFePO4 Cells 400 Ah Amp Hours 3.25 Volts - 1.jpg",
     "artist": "Yo-Co-Man",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Lithium_Iron_Phosphate_LiFePO4_Cells_400_Ah_Amp_Hours_3.25_Volts_-_1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Lithium_Iron_Phosphate_LiFePO4_Cells_400_Ah_Amp_Hours_3.25_Volts_-_1.jpg",
+    "w": 960,
+    "h": 720
   },
   "rattan": {
     "file": "rattan.jpg",
@@ -3850,7 +4704,9 @@ window.CREDITS = {
     "title": "Rattan and Nito.jpg",
     "artist": "Bim24",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Rattan_and_Nito.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Rattan_and_Nito.jpg",
+    "w": 960,
+    "h": 541
   },
   "willow": {
     "file": "willow.jpg",
@@ -3859,7 +4715,9 @@ window.CREDITS = {
     "title": "Weidenkorbflechter Intangible Cultural Heritage of Austria 01.jpg",
     "artist": "Iswoar",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Weidenkorbflechter_Intangible_Cultural_Heritage_of_Austria_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Weidenkorbflechter_Intangible_Cultural_Heritage_of_Austria_01.jpg",
+    "w": 960,
+    "h": 1440
   },
   "tatami": {
     "file": "tatami.jpg",
@@ -3868,7 +4726,9 @@ window.CREDITS = {
     "title": "Tatami being repaired; December 2018 (01).jpg",
     "artist": "Rosewoman",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tatami_being_repaired;_December_2018_(01).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Tatami_being_repaired;_December_2018_(01).jpg",
+    "w": 960,
+    "h": 497
   },
   "toquilla": {
     "file": "toquilla.jpg",
@@ -3877,7 +4737,9 @@ window.CREDITS = {
     "title": "The toquilla straw hat is woven from fibres from a palm tree characteristic of the Ecuadorian coast.jpg",
     "artist": "hatsfromtheheart.ec",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:The_toquilla_straw_hat_is_woven_from_fibres_from_a_palm_tree_characteristic_of_the_Ecuadorian_coast.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:The_toquilla_straw_hat_is_woven_from_fibres_from_a_palm_tree_characteristic_of_the_Ecuadorian_coast.jpg",
+    "w": 960,
+    "h": 640
   },
   "worsted": {
     "file": "worsted.jpg",
@@ -3886,7 +4748,9 @@ window.CREDITS = {
     "title": "Worsted wool yarn.JPG",
     "artist": "Pschemp",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Worsted_wool_yarn.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Worsted_wool_yarn.JPG",
+    "w": 960,
+    "h": 799
   },
   "tweed": {
     "file": "tweed.jpg",
@@ -3895,7 +4759,9 @@ window.CREDITS = {
     "title": "Harris Tweed Macro photography.jpg",
     "artist": "No name",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Harris_Tweed_Macro_photography.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Harris_Tweed_Macro_photography.jpg",
+    "w": 960,
+    "h": 838
   },
   "satin": {
     "file": "satin.png",
@@ -3904,7 +4770,9 @@ window.CREDITS = {
     "title": "Satin Ribbons.png",
     "artist": "Jblayson",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Satin_Ribbons.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Satin_Ribbons.png",
+    "w": 960,
+    "h": 720
   },
   "carbonfab": {
     "file": "carbonfab.jpg",
@@ -3913,7 +4781,9 @@ window.CREDITS = {
     "title": "Woven carbon fiber fabric.jpg",
     "artist": "Acheolg",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Woven_carbon_fiber_fabric.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Woven_carbon_fiber_fabric.jpg",
+    "w": 960,
+    "h": 720
   },
   "fibc": {
     "file": "fibc.jpg",
@@ -3922,7 +4792,9 @@ window.CREDITS = {
     "title": "Flexible intermediate bulk containers-Fertilizer.jpg",
     "artist": "Cjp24",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Flexible_intermediate_bulk_containers-Fertilizer.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Flexible_intermediate_bulk_containers-Fertilizer.jpg",
+    "w": 960,
+    "h": 720
   },
   "machinelace": {
     "file": "machinelace.jpg",
@@ -3931,7 +4803,9 @@ window.CREDITS = {
     "title": "Border (ST293) - Lace-Machine Lace - MoMu Antwerp.jpg",
     "artist": "Unknown",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Border_(ST293)_-_Lace-Machine_Lace_-_MoMu_Antwerp.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Border_(ST293)_-_Lace-Machine_Lace_-_MoMu_Antwerp.jpg",
+    "w": 960,
+    "h": 2284
   },
   "firehose": {
     "file": "firehose.jpg",
@@ -3940,7 +4814,9 @@ window.CREDITS = {
     "title": "Fire hose supply.jpg",
     "artist": "No machine-readable author provided. Jclemens assumed (based on copyright claims).",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Fire_hose_supply.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Fire_hose_supply.jpg",
+    "w": 960,
+    "h": 834
   },
   "wiltoncarpet": {
     "file": "wiltoncarpet.jpg",
@@ -3949,7 +4825,9 @@ window.CREDITS = {
     "title": "Museum of Carpet - Jacquard Wilton loom - geograph.org.uk - 6292683.jpg",
     "artist": "Chris Allen",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Carpet_-_Jacquard_Wilton_loom_-_geograph.org.uk_-_6292683.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Carpet_-_Jacquard_Wilton_loom_-_geograph.org.uk_-_6292683.jpg",
+    "w": 640,
+    "h": 480
   },
   "reedcane": {
     "file": "reedcane.jpg",
@@ -3958,7 +4836,9 @@ window.CREDITS = {
     "title": "B-flat e-flat a-flat reeds.jpg",
     "artist": "Michael Scott Cuthbert",
     "license": "CC BY-SA 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:B-flat_e-flat_a-flat_reeds.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:B-flat_e-flat_a-flat_reeds.jpg",
+    "w": 863,
+    "h": 1183
   },
   "ebonite": {
     "file": "ebonite.jpg",
@@ -3967,7 +4847,9 @@ window.CREDITS = {
     "title": "Mouthpiece tenor saxophone.jpg",
     "artist": "Dbenzhuser",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mouthpiece_tenor_saxophone.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mouthpiece_tenor_saxophone.jpg",
+    "w": 960,
+    "h": 638
   },
   "snarewire": {
     "file": "snarewire.jpg",
@@ -3976,7 +4858,9 @@ window.CREDITS = {
     "title": "Orange county snare wire.jpg",
     "artist": "Ocdp",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Orange_county_snare_wire.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Orange_county_snare_wire.jpg",
+    "w": 960,
+    "h": 638
   },
   "conepulp": {
     "file": "conepulp.jpg",
@@ -3985,7 +4869,9 @@ window.CREDITS = {
     "title": "X5 Paper Pulp Cone.jpg",
     "artist": "Unknown",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:X5_Paper_Pulp_Cone.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:X5_Paper_Pulp_Cone.jpg",
+    "w": 960,
+    "h": 720
   },
   "voicecoil": {
     "file": "voicecoil.jpg",
@@ -3994,7 +4880,9 @@ window.CREDITS = {
     "title": "Loudspeaker voice coil, three inch diameter.jpg",
     "artist": "Daniel Christensen",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Loudspeaker_voice_coil,_three_inch_diameter.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Loudspeaker_voice_coil,_three_inch_diameter.jpg",
+    "w": 960,
+    "h": 717
   },
   "marimbarose": {
     "file": "marimbarose.jpg",
@@ -4003,7 +4891,9 @@ window.CREDITS = {
     "title": "San Domingo-Palisander Holz.JPG",
     "artist": "Philipp Zinger",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:San_Domingo-Palisander_Holz.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:San_Domingo-Palisander_Holz.JPG",
+    "w": 960,
+    "h": 489
   },
   "rhodestine": {
     "file": "rhodestine.jpg",
@@ -4012,7 +4902,9 @@ window.CREDITS = {
     "title": "1975 Rhodes Mark I Stage Piano 73-key (serial no.300???) with Dyna Rhodes modification - tines (2005-01-07 20.42.58 by Daniel Spils).jpg",
     "artist": "Daniel Spils from Seattle, USA",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:1975_Rhodes_Mark_I_Stage_Piano_73-key_(serial_no.300%3F%3F%3F)_with_Dyna_Rhodes_modification_-_tines_(2005-01-07_20.42.58_by_Daniel_Spils).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:1975_Rhodes_Mark_I_Stage_Piano_73-key_(serial_no.300%3F%3F%3F)_with_Dyna_Rhodes_modification_-_tines_(2005-01-07_20.42.58_by_Daniel_Spils).jpg",
+    "w": 960,
+    "h": 1280
   },
   "metaldome": {
     "file": "metaldome.jpg",
@@ -4021,7 +4913,9 @@ window.CREDITS = {
     "title": "Tweeter with Titanium membrane of loudspeaker box JBL TI 5000, 1990s.jpg",
     "artist": "Pittigrilli",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tweeter_with_Titanium_membrane_of_loudspeaker_box_JBL_TI_5000,_1990s.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Tweeter_with_Titanium_membrane_of_loudspeaker_box_JBL_TI_5000,_1990s.jpg",
+    "w": 960,
+    "h": 923
   },
   "recordvinyl": {
     "file": "recordvinyl.jpg",
@@ -4030,7 +4924,9 @@ window.CREDITS = {
     "title": "Vinyl groove macro.jpg",
     "artist": "Shane Gavin",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vinyl_groove_macro.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Vinyl_groove_macro.jpg",
+    "w": 960,
+    "h": 640
   },
   "woodwool": {
     "file": "woodwool.jpg",
@@ -4039,7 +4935,9 @@ window.CREDITS = {
     "title": "Holzfaserbeton groß.jpg",
     "artist": "Florian Gerlach (Nawaro); improved by WinfriedSchneider (talk) 20:36, 6 May 2010 (UTC)",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Holzfaserbeton_gro%C3%9F.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Holzfaserbeton_gro%C3%9F.jpg",
+    "w": 960,
+    "h": 720
   },
   "drumshell": {
     "file": "drumshell.jpg",
@@ -4048,7 +4946,9 @@ window.CREDITS = {
     "title": "Solid Shell Maple, Matte Black Laquer with Maple Inlay.jpg",
     "artist": "Pframstad",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Solid_Shell_Maple,_Matte_Black_Laquer_with_Maple_Inlay.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Solid_Shell_Maple,_Matte_Black_Laquer_with_Maple_Inlay.jpg",
+    "w": 960,
+    "h": 960
   },
   "goss": {
     "file": "goss.jpg",
@@ -4057,7 +4957,9 @@ window.CREDITS = {
     "title": "Grain-oriented electrical steel (grains).jpg",
     "artist": "Zureks",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Grain-oriented_electrical_steel_(grains).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Grain-oriented_electrical_steel_(grains).jpg",
+    "w": 960,
+    "h": 765
   },
   "fulledwool": {
     "file": "fulledwool.jpg",
@@ -4066,7 +4968,9 @@ window.CREDITS = {
     "title": "Jagdhorn auf Loden 1.jpg",
     "artist": "Frank Behnsen",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Jagdhorn_auf_Loden_1.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Jagdhorn_auf_Loden_1.jpg",
+    "w": 960,
+    "h": 1280
   },
   "waxcotton": {
     "file": "waxcotton.jpg",
@@ -4075,7 +4979,9 @@ window.CREDITS = {
     "title": "Martexin Waxed Canvas Water Resistance.jpg",
     "artist": "David kss7",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Martexin_Waxed_Canvas_Water_Resistance.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Martexin_Waxed_Canvas_Water_Resistance.jpg",
+    "w": 960,
+    "h": 639
   },
   "crepe": {
     "file": "crepe.jpg",
@@ -4084,7 +4990,9 @@ window.CREDITS = {
     "title": "Chirimen gaufré.JPG",
     "artist": "Naooan",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Chirimen_gaufr%C3%A9.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Chirimen_gaufr%C3%A9.JPG",
+    "w": 960,
+    "h": 720
   },
   "knitmesh": {
     "file": "knitmesh.jpg",
@@ -4093,7 +5001,9 @@ window.CREDITS = {
     "title": "OldMeshDemisterAcidProduction.jpg",
     "artist": "PennyBrowns23651",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:OldMeshDemisterAcidProduction.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:OldMeshDemisterAcidProduction.jpg",
+    "w": 960,
+    "h": 720
   },
   "barkcloth": {
     "file": "barkcloth.jpg",
@@ -4102,7 +5012,9 @@ window.CREDITS = {
     "title": "PNG Turtle Tapa Cloth QM r.jpg",
     "artist": "Queensland Museum",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:PNG_Turtle_Tapa_Cloth_QM_r.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:PNG_Turtle_Tapa_Cloth_QM_r.jpg",
+    "w": 960,
+    "h": 720
   },
   "flock": {
     "file": "flock.jpg",
@@ -4111,7 +5023,9 @@ window.CREDITS = {
     "title": "Flock-foil golden-yellow.jpg",
     "artist": "Stefan Nagy",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Flock-foil_golden-yellow.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Flock-foil_golden-yellow.jpg",
+    "w": 960,
+    "h": 720
   },
   "aluminised": {
     "file": "aluminised.jpg",
@@ -4120,7 +5034,9 @@ window.CREDITS = {
     "title": "Fire proximity suit detail.jpg",
     "artist": "Michal Maňas",
     "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Fire_proximity_suit_detail.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Fire_proximity_suit_detail.jpg",
+    "w": 960,
+    "h": 720
   },
   "ikat": {
     "file": "ikat.jpg",
@@ -4129,7 +5045,9 @@ window.CREDITS = {
     "title": "Antique Patan Patola Double Ikat Trade Textile courtesy Wovensouls Collection, Singapore.jpg",
     "artist": "Jainamishra",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Antique_Patan_Patola_Double_Ikat_Trade_Textile_courtesy_Wovensouls_Collection,_Singapore.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Antique_Patan_Patola_Double_Ikat_Trade_Textile_courtesy_Wovensouls_Collection,_Singapore.jpg",
+    "w": 960,
+    "h": 1280
   },
   "pvctarp": {
     "file": "pvctarp.jpg",
@@ -4138,7 +5056,9 @@ window.CREDITS = {
     "title": "Old truck with a loose tarpaulin. Vibrant colors (51170247859).jpg",
     "artist": "Ivan Radic",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Old_truck_with_a_loose_tarpaulin._Vibrant_colors_(51170247859).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Old_truck_with_a_loose_tarpaulin._Vibrant_colors_(51170247859).jpg",
+    "w": 960,
+    "h": 719
   },
   "pleat": {
     "file": "pleat.jpg",
@@ -4147,7 +5067,9 @@ window.CREDITS = {
     "title": "CSIRO ScienceImage 2162 Skirt with Siroset and Skirt Without Siroset.jpg",
     "artist": "division, CSIRO",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2162_Skirt_with_Siroset_and_Skirt_Without_Siroset.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2162_Skirt_with_Siroset_and_Skirt_Without_Siroset.jpg",
+    "w": 960,
+    "h": 1458
   },
   "hammerfelt": {
     "file": "hammerfelt.jpg",
@@ -4156,7 +5078,9 @@ window.CREDITS = {
     "title": "Piano hammer 2101-0006.jpg",
     "artist": "Mozzihh",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Piano_hammer_2101-0006.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Piano_hammer_2101-0006.jpg",
+    "w": 960,
+    "h": 641
   },
   "ribbonmic": {
     "file": "ribbonmic.jpg",
@@ -4165,7 +5089,9 @@ window.CREDITS = {
     "title": "Royer R-122 Active Ribbon Microphone (clip).jpg",
     "artist": "Alex Regan",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Royer_R-122_Active_Ribbon_Microphone_(clip).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Royer_R-122_Active_Ribbon_Microphone_(clip).jpg",
+    "w": 960,
+    "h": 960
   },
   "drumhead": {
     "file": "drumhead.png",
@@ -4174,7 +5100,9 @@ window.CREDITS = {
     "title": "Drumhead Coated on Tom Drum 01.png",
     "artist": "Edrocked",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Drumhead_Coated_on_Tom_Drum_01.png"
+    "page": "https://commons.wikimedia.org/wiki/File:Drumhead_Coated_on_Tom_Drum_01.png",
+    "w": 960,
+    "h": 960
   },
   "accordionreed": {
     "file": "accordionreed.jpg",
@@ -4183,7 +5111,9 @@ window.CREDITS = {
     "title": "Stimmplatte.jpg",
     "artist": "Johann Pascher;",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Stimmplatte.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Stimmplatte.jpg",
+    "w": 960,
+    "h": 704
   },
   "nickelsilver": {
     "file": "nickelsilver.jpg",
@@ -4192,7 +5122,9 @@ window.CREDITS = {
     "title": "Flute (AM 1998.60.225-3).jpg",
     "artist": "Rudall Carte & Co",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Flute_(AM_1998.60.225-3).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Flute_(AM_1998.60.225-3).jpg",
+    "w": 960,
+    "h": 720
   },
   "vibebars": {
     "file": "vibebars.jpg",
@@ -4201,7 +5133,9 @@ window.CREDITS = {
     "title": "Vibraphone bar.jpg",
     "artist": "Why? I Ask",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vibraphone_bar.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Vibraphone_bar.jpg",
+    "w": 960,
+    "h": 720
   },
   "lacquermaster": {
     "file": "lacquermaster.jpg",
@@ -4210,7 +5144,9 @@ window.CREDITS = {
     "title": "Reference acetates by Neumann VMS-70 Cutting Lathe, SAE Mastering, Phoenix, AZ.jpg",
     "artist": "VACANT  FEVER",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Reference_acetates_by_Neumann_VMS-70_Cutting_Lathe,_SAE_Mastering,_Phoenix,_AZ.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Reference_acetates_by_Neumann_VMS-70_Cutting_Lathe,_SAE_Mastering,_Phoenix,_AZ.jpg",
+    "w": 960,
+    "h": 718
   },
   "cabinetmdf": {
     "file": "cabinetmdf.jpg",
@@ -4219,7 +5155,9 @@ window.CREDITS = {
     "title": "MDF Sample.jpg",
     "artist": "Vaderluck at English Wikipedia",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MDF_Sample.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:MDF_Sample.jpg",
+    "w": 960,
+    "h": 720
   },
   "pickupwire": {
     "file": "pickupwire.jpg",
@@ -4228,7 +5166,9 @@ window.CREDITS = {
     "title": "Electric Guitar Single Coil Pickup (New Winding) (3511734489).jpg",
     "artist": "Roadside Guitars",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Electric_Guitar_Single_Coil_Pickup_(New_Winding)_(3511734489).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Electric_Guitar_Single_Coil_Pickup_(New_Winding)_(3511734489).jpg",
+    "w": 960,
+    "h": 720
   },
   "woodpipe": {
     "file": "woodpipe.jpg",
@@ -4237,7 +5177,9 @@ window.CREDITS = {
     "title": "Large wooden organ pipes, Hereford Cathedral - geograph.org.uk - 2701066.jpg",
     "artist": "Julian P Guffogg",
     "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Large_wooden_organ_pipes,_Hereford_Cathedral_-_geograph.org.uk_-_2701066.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Large_wooden_organ_pipes,_Hereford_Cathedral_-_geograph.org.uk_-_2701066.jpg",
+    "w": 960,
+    "h": 637
   },
   "valvepiston": {
     "file": "valvepiston.jpg",
@@ -4246,7 +5188,9 @@ window.CREDITS = {
     "title": "Trompette - premier piston - perspective.JPG",
     "artist": "Eusebius",
     "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Trompette_-_premier_piston_-_perspective.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Trompette_-_premier_piston_-_perspective.JPG",
+    "w": 960,
+    "h": 1440
   },
   "saxpad": {
     "file": "saxpad.jpg",
@@ -4255,7 +5199,9 @@ window.CREDITS = {
     "title": "AltoSaxRolledToneHoles.JPG",
     "artist": "Nabokov (talk) at en.wikipedia. \n\nRequired citation is \"Photo by Tom Oates, 2012\".",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:AltoSaxRolledToneHoles.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:AltoSaxRolledToneHoles.JPG",
+    "w": 960,
+    "h": 720
   },
   "moldedcab": {
     "file": "moldedcab.jpg",
@@ -4264,7 +5210,9 @@ window.CREDITS = {
     "title": "Behringer Eurolive B212D Loudspeaker.jpg",
     "artist": "TaurusEmerald",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Behringer_Eurolive_B212D_Loudspeaker.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Behringer_Eurolive_B212D_Loudspeaker.jpg",
+    "w": 960,
+    "h": 1352
   },
   "grillesteel": {
     "file": "grillesteel.jpg",
@@ -4273,7 +5221,9 @@ window.CREDITS = {
     "title": "Loudspeaker grille.jpg",
     "artist": "Angie from Sawara, Chiba-ken, Japan",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Loudspeaker_grille.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Loudspeaker_grille.jpg",
+    "w": 960,
+    "h": 960
   },
   "surround": {
     "file": "surround.jpg",
@@ -4282,7 +5232,9 @@ window.CREDITS = {
     "title": "Midrange loudspeaker of JBL TI 5000 loudspeaker box, 130 mm diameter.jpg",
     "artist": "Pittigrilli",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Midrange_loudspeaker_of_JBL_TI_5000_loudspeaker_box,_130_mm_diameter.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Midrange_loudspeaker_of_JBL_TI_5000_loudspeaker_box,_130_mm_diameter.jpg",
+    "w": 960,
+    "h": 720
   },
   "roadcase": {
     "file": "roadcase.jpg",
@@ -4291,7 +5243,9 @@ window.CREDITS = {
     "title": "Road-case-removable-lid-vol-case.jpg",
     "artist": "VCCmatt",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Road-case-removable-lid-vol-case.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Road-case-removable-lid-vol-case.jpg",
+    "w": 960,
+    "h": 720
   },
   "tolex": {
     "file": "tolex.jpg",
@@ -4300,7 +5254,9 @@ window.CREDITS = {
     "title": "1977 Rhodes Mark I Suitcase Piano 73-key (serial no. K610578) - tolex wear spot 1 (2005-01-29 10.00.30 by Daniel Spils).jpg",
     "artist": "Daniel Spils from Seattle, USA",
     "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:1977_Rhodes_Mark_I_Suitcase_Piano_73-key_(serial_no._K610578)_-_tolex_wear_spot_1_(2005-01-29_10.00.30_by_Daniel_Spils).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:1977_Rhodes_Mark_I_Suitcase_Piano_73-key_(serial_no._K610578)_-_tolex_wear_spot_1_(2005-01-29_10.00.30_by_Daniel_Spils).jpg",
+    "w": 960,
+    "h": 720
   },
   "grillecloth": {
     "file": "grillecloth.jpg",
@@ -4309,7 +5265,9 @@ window.CREDITS = {
     "title": "Fender Twin Reverb Blonde.jpg",
     "artist": "Paulus 2",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Fender_Twin_Reverb_Blonde.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Fender_Twin_Reverb_Blonde.jpg",
+    "w": 960,
+    "h": 771
   },
   "woundstring": {
     "file": "woundstring.jpg",
@@ -4318,7 +5276,9 @@ window.CREDITS = {
     "title": "Guitar string manufacturing at Cleartone Strings.jpg",
     "artist": "ScottS1998",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Guitar_string_manufacturing_at_Cleartone_Strings.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Guitar_string_manufacturing_at_Cleartone_Strings.jpg",
+    "w": 960,
+    "h": 723
   },
   "pick": {
     "file": "pick.jpg",
@@ -4327,7 +5287,9 @@ window.CREDITS = {
     "title": "26 Assorted Guitar Picks.jpg",
     "artist": "Urban Versis 32",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:26_Assorted_Guitar_Picks.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:26_Assorted_Guitar_Picks.jpg",
+    "w": 960,
+    "h": 720
   },
   "gaffer": {
     "file": "gaffer.jpg",
@@ -4336,7 +5298,9 @@ window.CREDITS = {
     "title": "Gaffer Tape, Black, White and Gray.jpg",
     "artist": "Robert.Harker",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gaffer_Tape,_Black,_White_and_Gray.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Gaffer_Tape,_Black,_White_and_Gray.jpg",
+    "w": 960,
+    "h": 911
   },
   "drumstick": {
     "file": "drumstick.jpg",
@@ -4345,7 +5309,9 @@ window.CREDITS = {
     "title": "2006-07-05 sticks.jpg",
     "artist": "Stephan Czuratis (Jazz-face)",
     "license": "CC BY-SA 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:2006-07-05_sticks.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:2006-07-05_sticks.jpg",
+    "w": 960,
+    "h": 1066
   },
   "truss": {
     "file": "truss.jpg",
@@ -4354,7 +5320,9 @@ window.CREDITS = {
     "title": "Traverse (Truss).JPG",
     "artist": "Gleiten 10:49, 17. Sep. 2012 (CEST)",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Traverse_(Truss).JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Traverse_(Truss).JPG",
+    "w": 932,
+    "h": 700
   },
   "miccable": {
     "file": "miccable.jpg",
@@ -4363,7 +5331,9 @@ window.CREDITS = {
     "title": "Microphone cable structure.jpg",
     "artist": "Kreuzschnabel",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Microphone_cable_structure.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Microphone_cable_structure.jpg",
+    "w": 960,
+    "h": 640
   },
   "gel": {
     "file": "gel.jpg",
@@ -4372,6 +5342,173 @@ window.CREDITS = {
     "title": "Many color gels.jpg",
     "artist": "User:KeepOnTruckin",
     "license": "Attribution",
-    "page": "https://commons.wikimedia.org/wiki/File:Many_color_gels.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Many_color_gels.jpg",
+    "w": 960,
+    "h": 768
+  },
+  "eiderdown": {
+    "file": "eiderdown.jpg",
+    "caption": "A farmer in Skaleyjar cleaning and drying eiderdown, still full of hay",
+    "kind": "process",
+    "title": "Dunhreinsun2.jpg",
+    "artist": "Salvör Gissurardóttir",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Dunhreinsun2.jpg",
+    "w": 800,
+    "h": 1000
+  },
+  "shearling": {
+    "file": "shearling.jpg",
+    "caption": "The collar of a shearling coat, wool pile inside and tanned skin out",
+    "kind": "product",
+    "title": "Shearling Coat for Men Hood Detail.jpg",
+    "artist": "Cici water",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shearling_Coat_for_Men_Hood_Detail.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "alpaca": {
+    "file": "alpaca.jpg",
+    "caption": "A whole alpaca fleece at a wool show",
+    "kind": "photo",
+    "title": "Alpaca fleece.JPG",
+    "artist": "Cgoodwin",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alpaca_fleece.JPG",
+    "w": 960,
+    "h": 1150
+  },
+  "angora": {
+    "file": "angora.jpg",
+    "caption": "Plucked angora rabbit fur and the yarn spun from it",
+    "kind": "photo",
+    "title": "Satinangora rot Garn und Flocke.jpg",
+    "artist": "Lanafactum -- http://www.lanafactum.at",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Satinangora_rot_Garn_und_Flocke.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "camelhair": {
+    "file": "camelhair.jpg",
+    "caption": "A camel being shorn at the Pushkar fair, the clipped hair lying on the sand",
+    "kind": "process",
+    "title": "A camels hair being shorn at Pushkar..jpg",
+    "artist": "Rudolph.A.furtado",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:A_camels_hair_being_shorn_at_Pushkar..jpg",
+    "w": 960,
+    "h": 664
+  },
+  "vicuna": {
+    "file": "vicuna.jpg",
+    "caption": "Vicuna fleece, yarn and woven cloth laid out on a display table",
+    "kind": "photo",
+    "title": "Diferentes lanas de vicuña - Conversatorio Las Manos que Piensan (Textiles).jpg",
+    "artist": "Ministerio de Cultura de la Nación",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Diferentes_lanas_de_vicu%C3%B1a_-_Conversatorio_Las_Manos_que_Piensan_(Textiles).jpg",
+    "w": 960,
+    "h": 640
+  },
+  "reindeerhide": {
+    "file": "reindeerhide.jpg",
+    "caption": "Reindeer hides on a market stall in Helsinki",
+    "kind": "photo",
+    "title": "Reindeer hides.jpg",
+    "artist": "TheGoodEndedHappily",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Reindeer_hides.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "flannel": {
+    "file": "flannel.jpg",
+    "caption": "A flannel shirt photographed close enough to show the raised nap",
+    "kind": "photo",
+    "title": "Flannel fabric red.jpg",
+    "artist": "Lisa Zins",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flannel_fabric_red.jpg",
+    "w": 960,
+    "h": 724
+  },
+  "polyfill": {
+    "file": "polyfill.jpg",
+    "caption": "A handful of siliconised hollow polyester fibrefill",
+    "kind": "photo",
+    "title": "Polyfill.jpg",
+    "artist": "KamillaŚ",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Polyfill.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "spaceblanket": {
+    "file": "spaceblanket.jpg",
+    "caption": "A rescue blanket opened out, gold on one face and silver on the other",
+    "kind": "photo",
+    "title": "RescueFoil.jpg",
+    "artist": "No machine-readable author provided. Firetwister assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:RescueFoil.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "batting": {
+    "file": "batting.jpg",
+    "caption": "Farm women drawing striped ticking over a cotton batt, 1940",
+    "kind": "process",
+    "title": "Mattress making, covering the cotton batting with ticking.jpg",
+    "artist": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mattress_making,_covering_the_cotton_batting_with_ticking.jpg",
+    "w": 960,
+    "h": 641
+  },
+  "milkweed": {
+    "file": "milkweed.jpg",
+    "caption": "Milkweed pods split open, the floss blowing out",
+    "kind": "photo",
+    "title": "Milkweed Seed Pod Floss PLT-FL-WD-MW-2.jpg",
+    "artist": "Shadowmeld Photography",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Milkweed_Seed_Pod_Floss_PLT-FL-WD-MW-2.jpg",
+    "w": 960,
+    "h": 643
+  },
+  "possum": {
+    "file": "possum.jpg",
+    "caption": "A cloth coat lined with brushtail possum fur",
+    "kind": "product",
+    "title": "Possum fur lining, front side.jpg",
+    "artist": "Kürschner (talk) 07:42, 20 July 2023 (UTC)",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Possum_fur_lining,_front_side.jpg",
+    "w": 960,
+    "h": 1158
+  },
+  "furfelt": {
+    "file": "furfelt.jpg",
+    "caption": "Rabbit fur being blown clean in a British hat factory, 1940",
+    "kind": "process",
+    "title": "Workers at a British hat factory prepare rabbit fur ready for its transformation into felt, 1940. D1259.jpg",
+    "artist": "Richard Stone",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Workers_at_a_British_hat_factory_prepare_rabbit_fur_ready_for_its_transformation_into_felt,_1940._D1259.jpg",
+    "w": 960,
+    "h": 1467
+  },
+  "snow": {
+    "file": "snow.jpg",
+    "caption": "A snow house of cut blocks, southwest Victoria Island",
+    "kind": "product",
+    "title": "Building an igloo on Victoria Island (37009).jpg",
+    "artist": "Diamond Jenness",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Building_an_igloo_on_Victoria_Island_(37009).jpg",
+    "w": 960,
+    "h": 579
   }
 };

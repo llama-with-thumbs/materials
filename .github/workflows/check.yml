@@ -1,0 +1,37 @@
+# Every push gets the same checks a round gets locally: the data has to be
+# consistent, the page has to render, and the counts in the prose have to be
+# the counts in the data.
+name: check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: structure, credits and images
+        run: node tools/check.js
+
+      - name: render every card and exercise the controls
+        run: node tools/render.js /tmp/render.html
+
+      - name: counts in README.md and index.html are current
+        run: |
+          python -I tools/readme_numbers.py
+          git diff --exit-code -- README.md index.html
+
+      - name: no stray secrets
+        run: |
+          ! grep -rInE 'gh[pousr]_[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY' \
+            --exclude-dir=.git --exclude-dir=images .

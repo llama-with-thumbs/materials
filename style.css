@@ -136,6 +136,10 @@ h1 .dot { color: var(--accent); }
 
 .filters { display: flex; flex-wrap: wrap; gap: 8px; }
 
+.themes { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.themes-label { color: var(--text-faint); font-size: 12px; }
+.pill.theme { border-style: dashed; }
+
 .pill {
   background: transparent;
   border: 1px solid var(--line);
@@ -173,6 +177,10 @@ main { padding: 28px 0 56px; }
 }
 
 .card {
+  /* 500 cards is a lot of layout. Let the browser skip the ones nobody is looking at;
+     the placeholder height keeps the scrollbar honest while it does. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 560px;
   display: flex;
   flex-direction: column;
   background: var(--bg-raised);
@@ -283,7 +291,17 @@ main { padding: 28px 0 56px; }
   color: var(--text-faint);
 }
 
-.meta .links { display: flex; gap: 10px; margin-left: auto; }
+.meta .links { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.meta .theme {
+  background: none;
+  border: 0;
+  border-bottom: 1px dotted var(--text-faint);
+  padding: 0;
+  font: inherit;
+  color: var(--text-faint);
+  cursor: pointer;
+}
+.meta .theme:hover { color: var(--accent); border-color: var(--accent); }
 .meta a { color: var(--text-faint); text-decoration: none; border-bottom: 1px dotted var(--text-faint); }
 .meta a:hover { color: var(--accent); border-color: var(--accent); }
 
@@ -337,6 +355,22 @@ dialog#lb::backdrop { background: rgba(0, 0, 0, 0.82); }
 
 #lb figure { margin: 0; }
 
+#lb-close {
+  position: absolute;
+  top: -34px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: 0;
+  color: #c7ccd1;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+}
+#lb-close:hover { color: #fff; }
+#lb-inner { position: relative; }
+
 #lb img, #lb svg {
   display: block;
   width: 100%;
@@ -369,4 +403,30 @@ footer p { max-width: 70ch; }
 @media (max-width: 560px) {
   .masthead { padding: 28px 0 20px; }
   .grid { grid-template-columns: 1fr; }
+}
+
+/* ---------- skip link ---------- */
+
+.skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 10;
+  padding: 10px 14px;
+  background: var(--bg-raised);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 0 0 8px 0;
+}
+
+.skip:focus { left: 0; }
+
+/* ---------- on paper ---------- */
+
+@media print {
+  header .controls, .jump, #theme, .skip, dialog#lb { display: none; }
+  body { background: #fff; color: #000; }
+  .card { break-inside: avoid; content-visibility: visible; border-color: #bbb; box-shadow: none; }
+  .grid { grid-template-columns: 1fr 1fr; }
+  a { color: #000; }
 }

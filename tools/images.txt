@@ -484,3 +484,18 @@ drumstick|2006-07-05 sticks.jpg|A matched pair of drumsticks, lacquered black|pr
 truss|Traverse (Truss).JPG|Loaded lighting trusses under a marquee roof, chords and diagonals in view|product
 miccable|Microphone cable structure.jpg|A microphone cable opened up: two insulated cores and the screen twisted into a tail|photo
 gel|Many color gels.jpg|Lighting gels, loose sheets and some taped into frames|product
+eiderdown|Dunhreinsun2.jpg|A farmer in Skaleyjar cleaning and drying eiderdown, still full of hay|process
+shearling|Shearling Coat for Men Hood Detail.jpg|The collar of a shearling coat, wool pile inside and tanned skin out|product
+alpaca|Alpaca fleece.JPG|A whole alpaca fleece at a wool show|photo
+angora|Satinangora rot Garn und Flocke.jpg|Plucked angora rabbit fur and the yarn spun from it|photo
+camelhair|A camels hair being shorn at Pushkar..jpg|A camel being shorn at the Pushkar fair, the clipped hair lying on the sand|process
+vicuna|Diferentes lanas de vicuña - Conversatorio Las Manos que Piensan (Textiles).jpg|Vicuna fleece, yarn and woven cloth laid out on a display table|photo
+reindeerhide|Reindeer hides.jpg|Reindeer hides on a market stall in Helsinki|photo
+flannel|Flannel fabric red.jpg|A flannel shirt photographed close enough to show the raised nap|photo
+polyfill|Polyfill.jpg|A handful of siliconised hollow polyester fibrefill|photo
+spaceblanket|RescueFoil.jpg|A rescue blanket opened out, gold on one face and silver on the other|photo
+batting|Mattress making, covering the cotton batting with ticking.jpg|Farm women drawing striped ticking over a cotton batt, 1940|process
+milkweed|Milkweed Seed Pod Floss PLT-FL-WD-MW-2.jpg|Milkweed pods split open, the floss blowing out|photo
+possum|Possum fur lining, front side.jpg|A cloth coat lined with brushtail possum fur|product
+furfelt|Workers at a British hat factory prepare rabbit fur ready for its transformation into felt, 1940. D1259.jpg|Rabbit fur being blown clean in a British hat factory, 1940|process
+snow|Building an igloo on Victoria Island (37009).jpg|A snow house of cut blocks, southwest Victoria Island|product
