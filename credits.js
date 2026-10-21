@@ -5587,5 +5587,38 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Seaweed_roof_at_L%C3%A6s%C3%B8,_%27Hedvigs_Hus%27,_DK.jpg",
     "w": 960,
     "h": 720
+  },
+  "chambray": {
+    "file": "chambray.jpg",
+    "caption": "Washed cotton chambray, with a millimetre scale",
+    "kind": "photo",
+    "title": "Blue chambray cloth.JPG",
+    "artist": "Edward G. FitzGerald",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_chambray_cloth.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "oxfordcloth": {
+    "file": "oxfordcloth.jpg",
+    "caption": "Oxford shirting, the paired warp ends visible at the left",
+    "kind": "photo",
+    "title": "Oxford cloth.jpg",
+    "artist": "Chris Hoare",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oxford_cloth.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "gingham": {
+    "file": "gingham.jpg",
+    "caption": "Gingham hemmed as a pocket square, both faces alike",
+    "kind": "product",
+    "title": "Greengingham.jpg",
+    "artist": "Kent Wang",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Greengingham.jpg",
+    "w": 960,
+    "h": 768
   }
 };

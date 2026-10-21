@@ -172,3 +172,31 @@ no contact URL, which Wikimedia's policy requires and its throttle enforces. Cha
 `MaterialsCatalogue/1.0 (https://github.com/llama-with-thumbs/materials; static site build)`
 in `search.py`, `describe.py`, `peek.py` and `fetch_images.py` cleared the block on the next
 request. If the searches start failing again, check the User-Agent before blaming the volume.
+
+### Duvet, third pass — re-run after an internet outage, 2026-10-21
+
+The second round's dead ends were collected while the connection was dropping, so all twenty
+queries were run again on a verified connection. **They were real dead ends, not network
+failures.** `duvet baffle`, `baffle box duvet`, `quilt baffle`, `hollow fibre polyester`,
+`siliconised fibre`, `buckwheat hull pillow` and `duvet cross section` return literally
+nothing. `Kassettendecke` returns coffered ceilings, `down cluster` and `feather cluster`
+return galaxies and tube worms, `tog rating` returns churches in Göd. `duvet filling` returns
+one photograph of poplar fruit. The duvet stays mined out; this is now confirmed twice.
+
+The sweep did turn up three shirting cloths missing from `fabric`, which is what the round
+shipped instead: chambray, Oxford cloth and gingham.
+
+Rejected after looking at the file:
+
+| File | Why |
+|---|---|
+| `Fetvadd - JM.56815 16.jpg` | An unopened brown paper parcel of civil-defence wadding. The material is sealed inside it, same failure as the cellulose blowing truck |
+| `Crumpled duvet covered with a white cotton duvet cover 1.jpg` | A made bed in monochrome. A duvet cover is a product, not a material, and the five cover cloths already carded cover the job |
+| `Gingham pattern.jpg` | A vector graphic of a check. No cloth in it at all. `Greengingham.jpg` used instead |
+| `Moleskin.jpg` | Labelled moleskin, shows an unnapped beige basket weave. Moleskin is defined by its sueded face, which is not in the frame |
+| `Textile Samples - Fustian, Linen and Moleskin.jpg` | A museum handling board shot at an angle, moleskin swatch half out of frame |
+| `Buckram variety.jpg` | Colour swatches, and only 800 px wide — under the 960 the page fetches |
+
+Still open, no usable photograph found: moleskin, fustian, poplin, buckram, organdy, voile,
+huckaback, dimity, horsehair canvas, percale, batiste, cambric. Searched on 2026-10-21; the
+hits are costume museums and fashion plates, where the cloth is a dress, not a material.

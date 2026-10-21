@@ -509,5 +509,8 @@ window.ADDED = {
   ticking: "2026-10-21",
   cellulosefill: "2026-10-21",
   flaxinsul: "2026-10-21",
-  eelgrass: "2026-10-21"
+  eelgrass: "2026-10-21",
+  chambray: "2026-10-21",
+  oxfordcloth: "2026-10-21",
+  gingham: "2026-10-21"
 };

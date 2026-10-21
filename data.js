@@ -2751,6 +2751,33 @@ window.MATERIALS = [
   uses: "Pleated skirts and trousers, uniform creases, kilts, heat-pleated polyester garments.",
   link: "https://en.wikipedia.org/wiki/Wrinkle-resistant_fabric"
 },
+{
+  id: "chambray", cat: "fabric", name: "Chambray",
+  sub: "plain weave, coloured warp and white weft", img: "chambray",
+  hook: "Every second yarn is white, and that is the whole trick. A chambray is a plain weave with a dyed warp crossing an undyed weft, so the surface is a fine mix of colour and white that reads as a soft, faded blue from arm's length and as a chequerboard under a loupe. It looks like denim and behaves nothing like it: denim is a heavy twill that fades where it creases, while chambray is light, nearly square at about eighty by seventy-six threads to the inch, and fades evenly all over because there is nowhere for the dye to hide.",
+  stats: [["Weave", "plain, one over one"], ["Count", "about 80 x 76 per inch"], ["Mistaken for", "denim, which is a twill"]],
+  uses: "Work shirts and summer shirting, dresses, heavier grades for uniforms and chore coats.",
+  link: "https://en.wikipedia.org/wiki/Cambric",
+  src: ["Textile School, chambray", "https://www.textileschool.com/452/chambray-fabric-the-plain-weave-denim-look-alike/"]
+},
+{
+  id: "oxfordcloth", cat: "fabric", name: "Oxford cloth",
+  sub: "two-over-one modified basket weave", img: "oxfordcloth",
+  hook: "Two warp ends are lifted together against one thick weft, which gives a basket weave coarse enough to see and soft enough to wear straight off the loom. The doubled ends make a cloth that breathes and that forgives a bad iron, and they are also its weakness: paired floats slip against each other, so oxford shrinks more than a plain weave and frays where a cuff rubs. The dyed warp against a white weft is the same arrangement as chambray, one step heavier.",
+  stats: [["Weave", "2 x 1 modified basket"], ["Gains", "softness and air, no finishing needed"], ["Costs", "yarn slippage and shrinkage"]],
+  uses: "Button-down shirts, pyjamas, light jackets; the heavier royal oxfords in formal shirting.",
+  link: "https://en.wikipedia.org/wiki/Oxford_(cloth)",
+  src: ["Textile School, weave patterns", "https://www.textileschool.com/270/major-fabric-weaving-patterns/"]
+},
+{
+  id: "gingham", cat: "fabric", name: "Gingham",
+  sub: "yarn-dyed check in plain weave", img: "gingham",
+  hook: "The check is not printed on the cloth, it is the cloth. Dyed and white yarns alternate in blocks along both warp and weft, so a coloured warp crossing a coloured weft makes the solid squares, colour crossing white makes the pale ones, and white on white leaves the gaps. Because the colour is in the yarn before weaving there is no right or wrong side, and no print to crack or wash off; the pattern survives as long as the threads do. The cost is at the loom, where every stripe has to be counted into the warp.",
+  stats: [["Colour", "in the yarn, not on the surface"], ["Sides", "two, identical"], ["Costs", "a warp counted block by block"]],
+  uses: "Shirting and summer dresses, school uniforms, tablecloths and tea towels, picnic cloth.",
+  link: "https://en.wikipedia.org/wiki/Gingham",
+  src: ["Textile School, fabric types", "https://www.textileschool.com/171/textile-fabric-types-comprehensive-list-of-textile-fabrics/"]
+},
 
 /* ---------- ACTIVE & EXOTIC ---------- */
 {

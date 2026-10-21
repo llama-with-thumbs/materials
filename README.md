@@ -1,6 +1,6 @@
 # Interesting Materials
 
-A single-page field guide to 508 materials that exist because of one specific trick — a
+A single-page field guide to 511 materials that exist because of one specific trick — a
 polyurethane that carries tons without overheating, a ceramic that clamps its own cracks shut,
 a lashing that tightens itself as it dries, an airbag woven closed so it has no seam to burst.
 
@@ -20,10 +20,10 @@ style.css      styling, dark by default with a light toggle
 taxonomy.js    the vocabulary: categories, picture kinds, cross-cutting themes
 app.js         rendering, search, filters, sort, shareable URL state, lightbox
 swatch.js      the drawn fallback used when a material has no photograph
-data.js        the catalogue — 508 entries, this is the file to edit
+data.js        the catalogue — 511 entries, this is the file to edit
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
-images/        508 images, 900 px wide
+images/        511 images, 900 px wide
 robots.txt     sitemap.xml   for search engines
 LICENSE        MIT for the text and the tools; the photographs keep their own licences
 tools/
@@ -61,7 +61,7 @@ python -I tools/build.py --quick  # skip the network and git steps while editing
 | `composite` | Composites & structures | 36 |
 | `additive` | 3D printing & additive | 20 |
 | `fibre` | Ropes & woven materials | 69 |
-| `fabric` | Fabrics & constructions | 51 |
+| `fabric` | Fabrics & constructions | 54 |
 | `natural` | Natural & biological | 29 |
 | `exotic` | Active & exotic | 32 |
 | `music` | Sound & music | 65 |
@@ -157,6 +157,14 @@ together, which is why a weave or a knit with no new material in it still gets i
 why `fabric` also holds the finishes and the cloths made with no yarn at all: fulling, flocking,
 permanent pleating, beaten barkcloth.
 
+The shirting cloths are a small family inside it, and worth reading together: chambray, Oxford
+cloth and gingham are all cotton, all built on the plain weave or one step off it, and all get
+their appearance from dyed yarn rather than from anything applied afterwards. Chambray crosses a
+coloured warp with a white weft; Oxford lifts the warp in pairs for a coarser, softer basket;
+gingham blocks the colour along both directions and gets a check with two identical faces. None
+of them is printed, which is why none of them wears out its pattern before it wears out its
+cloth.
+
 ## Adding a material
 
 Append an entry to `data.js`:
@@ -223,15 +231,15 @@ starting a round, so the same dead ends are not walked twice.
 
 ## Images and licensing
 
-All 508 entries carry an image from Wikimedia Commons. Each remains under its own licence
+All 511 entries carry an image from Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
 the lightbox. If you redistribute this page, keep those credits. No two cards use the same
 photograph.
 
-289 are photographs of the material itself. 219 are not, and say so in the corner of the image:
+291 are photographs of the material itself. 220 are not, and say so in the corner of the image:
 
-- **159 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **160 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a

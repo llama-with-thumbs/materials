@@ -506,3 +506,6 @@ ticking|Inlett 1.jpg|A feather pillow in its downproof ticking; the cloth is the
 cellulosefill|Bulk recycled cellulose scan.jpg|A clump of milled newsprint insulation on squared paper, coloured ink still visible|photo
 flaxinsul|Linfiberisolasjon i himling.JPG|Flax fibre mats fitted between ceiling joists|photo
 eelgrass|Seaweed roof at Læsø, 'Hedvigs Hus', DK.jpg|Eelgrass thatch on the gable of a Læsø farmhouse, bulging over the frame|product
+chambray|Blue chambray cloth.JPG|Washed cotton chambray, with a millimetre scale|photo
+oxfordcloth|Oxford cloth.jpg|Oxford shirting, the paired warp ends visible at the left|photo
+gingham|Greengingham.jpg|Gingham hemmed as a pocket square, both faces alike|product
