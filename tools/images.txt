@@ -499,3 +499,10 @@ milkweed|Milkweed Seed Pod Floss PLT-FL-WD-MW-2.jpg|Milkweed pods split open, th
 possum|Possum fur lining, front side.jpg|A cloth coat lined with brushtail possum fur|product
 furfelt|Workers at a British hat factory prepare rabbit fur ready for its transformation into felt, 1940. D1259.jpg|Rabbit fur being blown clean in a British hat factory, 1940|process
 snow|Building an igloo on Victoria Island (37009).jpg|A snow house of cut blocks, southwest Victoria Island|product
+featherdown|Bettfedernreinigung L.H.Lorch Abfüllen der gereinigten Federn und Daunen in das Kissen mittels Federnfüllwaage.jpg|Cleaned feather and down being blown into a ticking shell on a filling scale|process
+silkfloss|MulberrySilk.JPG|Stacked layers of hand-pulled mulberry silk floss, the filling of a silk duvet|photo
+threadlattice|Quilt making 13.JPG|Quilt makers laying a thread lattice over a cotton batt in Haikou, Hainan|process
+ticking|Inlett 1.jpg|A feather pillow in its downproof ticking; the cloth is the subject|product
+cellulosefill|Bulk recycled cellulose scan.jpg|A clump of milled newsprint insulation on squared paper, coloured ink still visible|photo
+flaxinsul|Linfiberisolasjon i himling.JPG|Flax fibre mats fitted between ceiling joists|photo
+eelgrass|Seaweed roof at Læsø, 'Hedvigs Hus', DK.jpg|Eelgrass thatch on the gable of a Læsø farmhouse, bulging over the frame|product

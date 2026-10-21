@@ -9,7 +9,7 @@ Commons full-text search ANDs every word, so short single-concept queries win:
 """
 import sys, os, json, time, urllib.request, urllib.parse
 sys.stdout.reconfigure(encoding="utf-8")
-UA = {"User-Agent": "MaterialsStaticSite/1.0 (personal static page; contact via github)"}
+UA = {"User-Agent": "MaterialsCatalogue/1.0 (https://github.com/llama-with-thumbs/materials; static site build)"}
 
 
 def api(params):

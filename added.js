@@ -502,5 +502,12 @@ window.ADDED = {
   milkweed: "2026-10-20",
   possum: "2026-10-20",
   furfelt: "2026-10-20",
-  snow: "2026-10-20"
+  snow: "2026-10-20",
+  featherdown: "2026-10-21",
+  silkfloss: "2026-10-21",
+  threadlattice: "2026-10-21",
+  ticking: "2026-10-21",
+  cellulosefill: "2026-10-21",
+  flaxinsul: "2026-10-21",
+  eelgrass: "2026-10-21"
 };

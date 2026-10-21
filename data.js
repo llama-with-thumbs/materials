@@ -4126,6 +4126,65 @@ window.MATERIALS = [
   uses: "Igloos and quinzhees, avalanche burial survival, and the snow on a roof that halves the heating bill.",
   link: "https://en.wikipedia.org/wiki/Igloo",
   src: ["NSIDC: the science of snow", "https://nsidc.org/learn/parts-cryosphere/snow/science-snow"]
+},
+{
+  id: "featherdown", cat: "warmth", name: "Feather and down blend",
+  sub: "goose or duck feather cut with a down fraction", img: "featherdown",
+  hook: "A duvet is sold by the ratio on its label, and the ratio is an argument about shafts. A down cluster has none, so it holds air in three dimensions; a feather has a quill, which gives springiness, weight and a path for heat to run along. Ninety parts down to ten of feather lofts and costs; fifteen to eighty-five packs into a pillow that keeps its shape under a head. The fill goes in by weighing machine, because warmth here is sold by the gram rather than by thickness. Quills eventually work their way out through the seams.",
+  stats: [["Sold as", "a down/feather ratio by mass"], ["Down cluster", "no shaft, holds air in 3D"], ["Failure", "quills migrate out at the seams"]],
+  uses: "Duvets, pillows and seat cushions, and the reason a cheap pillow feels crunchy.",
+  link: "https://en.wikipedia.org/wiki/Feather",
+  src: ["American Down and Feather Council", "https://downandfeathercouncil.com/what-is-down-feather/"]
+},
+{
+  id: "silkfloss", cat: "warmth", name: "Silk wadding",
+  sub: "hand-pulled mulberry silk floss", img: "silkfloss",
+  hook: "Silk wadding is neither carded nor blown. A boiled-off cocoon is opened over a frame and drawn by hand into a sheet the size of the quilt, and twenty or thirty sheets are stacked on each other. Every strand in it is continuous and kilometres long, so the filling cannot ball up or walk into a corner and needs no quilting at all. What it cannot do is loft. It warms by lying against the sleeper instead of by holding air, which makes it heavy for its warmth and thin comfort on a cold night.",
+  stats: [["Filament", "continuous, 10-15 um"], ["Needs", "no quilting, it cannot migrate"], ["Ruined by", "washing, which mats the layers"]],
+  uses: "Silk duvets and summer quilts across east Asia, and the lightest layer in layered bedding.",
+  link: "https://en.wikipedia.org/wiki/Silk"
+},
+{
+  id: "threadlattice", cat: "warmth", name: "Thread lattice",
+  sub: "cotton net laid over a loose batt", img: "threadlattice",
+  hook: "Before a quilt has a cover it is a loose cotton batt with nothing holding it together. The Hainan answer is a net rather than a seam: thread is run from peg to peg around the frame and laid across the batt in a diagonal lattice, the whole thing is turned, and it is netted again on the other face, so the cotton is caged instead of stitched through. It costs a reel of thread, and it can be unpicked, which is how a batt gets opened and re-carded every few years rather than thrown away.",
+  stats: [["Holds", "a loose batt with no stitch through it"], ["Laid", "diagonally, both faces, every few cm"], ["Cost", "the quilt can be aired but not washed"]],
+  uses: "Hand-made cotton quilts in southern China, and any batt meant to be re-carded rather than replaced.",
+  link: "https://en.wikipedia.org/wiki/Quilting"
+},
+{
+  id: "ticking", cat: "warmth", name: "Downproof ticking",
+  sub: "calendered plain-weave cotton inlet", img: "ticking",
+  hook: "The fill gets the credit and the shell does the work. Ticking is plain cotton driven to three hundred threads in ten centimetres and then calendered flat, so the gaps left are smaller than the tip of a quill; without it a feather duvet quietly empties itself into the bed over one winter. The price of a cloth that down cannot get through is that air cannot get through it either. It drapes stiffly, it breathes badly, and the wax or resin finish that closes the last pores washes out long before the fill is worn out.",
+  stats: [["Weave", "plain cotton, 300+ threads per 10 cm"], ["Tested by", "EN 12132, rubbing for feather escape"], ["Wears out", "the downproof finish, not the cloth"]],
+  uses: "The inner shells of duvets, pillows and feather beds, and the striped cloth on an old mattress.",
+  link: "https://en.wikipedia.org/wiki/Ticking"
+},
+{
+  id: "cellulosefill", cat: "warmth", name: "Cellulose insulation",
+  sub: "milled newsprint dosed with borate", img: "cellulosefill",
+  hook: "Newspaper milled back to fibre and dosed with about fifteen percent borate, then blown down a hose into whatever shape the building offers. That is the whole advantage over a batt: it packs around pipes, cables and awkward joists instead of being cut to fit them badly. The borate earns its keep three times over, as fire retardant, rot inhibitor and insecticide. The catch is density. Blown loose it settles, and a wall that settles a tenth of its depth has a cold stripe along the top of it for good, which is why dense packing exists.",
+  stats: [["Conductivity", "0.038-0.040 W/mK"], ["Borate", "about 15% by mass"], ["Failure", "settling where it is blown too loose"]],
+  uses: "Loft decks, timber-frame walls and retrofit cavity fills.",
+  link: "https://en.wikipedia.org/wiki/Cellulose_insulation",
+  src: ["Cellulose Insulation Manufacturers Association", "https://cellulose.org/why-cellulose/"]
+},
+{
+  id: "flaxinsul", cat: "warmth", name: "Flax insulation",
+  sub: "scutching tow bonded with polyester", img: "flaxinsul",
+  hook: "The short tow left over when flax is scutched for linen, carded into a mat and held together by about fifteen percent polyester, with a mineral salt added against fire and beetles. Its conductivity is no better than glass wool, which is the usual disappointment of the natural insulations. What it has instead is heat capacity, roughly sixteen hundred joules per kilogram-kelvin against mineral wool's thousand, so a roof built with it takes most of a summer afternoon to warm through. It cuts with a bread knife and it does not itch. It costs about three times as much.",
+  stats: [["Conductivity", "0.038-0.040 W/mK"], ["Heat capacity", "about 1600 J/kgK"], ["Price", "roughly 3x mineral wool"]],
+  uses: "Roofs and timber frames in northern Europe, where the summer overheating argument sells it.",
+  link: "https://en.wikipedia.org/wiki/Flax"
+},
+{
+  id: "eelgrass", cat: "warmth", name: "Eelgrass thatch",
+  sub: "salt-cured Zostera marina", img: "eelgrass",
+  hook: "Eelgrass washes up on the beaches of Læsø, dries on the dunes and is twisted into bundles that go on the roof half a metre thick and more. The salt and silica left in the leaves make it rot-proof, vermin-proof and very hard to set alight, and roofs built this way have stood two and three hundred years with no maintenance to speak of. It is also the only insulation here that was ended by an epidemic: a wasting disease took most of the Atlantic eelgrass in the 1930s, and the surviving roofs are re-thatched out of a seaweed bank.",
+  stats: [["Laid", "0.5 to 1 m thick"], ["Life", "200-300 years"], ["Killed by", "the 1930s eelgrass wasting disease"]],
+  uses: "Farmhouse roofs on Læsø in Denmark, and a recent run of prefabricated seaweed panels.",
+  link: "https://en.wikipedia.org/wiki/Seaweed_roofs_on_L%C3%A6s%C3%B8",
+  src: ["IIBEC", "https://iibec.org/seaweed-thatching/"]
 }
 
 ];

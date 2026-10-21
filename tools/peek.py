@@ -6,7 +6,7 @@ Writes OUTDIR/peek0.jpg, peek1.jpg ... in the order of the names file.
 """
 import sys, os, urllib.request, urllib.parse
 sys.stdout.reconfigure(encoding="utf-8")
-UA = {"User-Agent": "MaterialsStaticSite/1.0 (personal static page; contact via github)"}
+UA = {"User-Agent": "MaterialsCatalogue/1.0 (https://github.com/llama-with-thumbs/materials; static site build)"}
 
 names = [l.strip() for l in open(sys.argv[1], encoding="utf-8") if l.strip()]
 outdir = sys.argv[2]

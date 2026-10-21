@@ -1,6 +1,6 @@
 # Interesting Materials
 
-A single-page field guide to 501 materials that exist because of one specific trick — a
+A single-page field guide to 508 materials that exist because of one specific trick — a
 polyurethane that carries tons without overheating, a ceramic that clamps its own cracks shut,
 a lashing that tightens itself as it dries, an airbag woven closed so it has no seam to burst.
 
@@ -20,10 +20,10 @@ style.css      styling, dark by default with a light toggle
 taxonomy.js    the vocabulary: categories, picture kinds, cross-cutting themes
 app.js         rendering, search, filters, sort, shareable URL state, lightbox
 swatch.js      the drawn fallback used when a material has no photograph
-data.js        the catalogue — 501 entries, this is the file to edit
+data.js        the catalogue — 508 entries, this is the file to edit
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
-images/        501 images, 900 px wide
+images/        508 images, 900 px wide
 robots.txt     sitemap.xml   for search engines
 LICENSE        MIT for the text and the tools; the photographs keep their own licences
 tools/
@@ -65,7 +65,7 @@ python -I tools/build.py --quick  # skip the network and git steps while editing
 | `natural` | Natural & biological | 29 |
 | `exotic` | Active & exotic | 32 |
 | `music` | Sound & music | 65 |
-| `warmth` | Warmth & insulation | 15 |
+| `warmth` | Warmth & insulation | 22 |
 
 `additive` is a materials category like the rest: each card is a feedstock or the stuff a printed
 part is made of — filament, resin, powder, wire, slurry, bath — and the process that consumes it is
@@ -92,12 +92,21 @@ polypropylene PA box, perforated grille steel, the rubber surround of a cone, la
 case panel, tolex, grille cloth, aluminium truss, gaffer tape and a sheet of lighting gel.
 
 `warmth` is the newest category and the first one that is a job rather than a chemistry: what
-people put between a body and the cold. Fifteen cards on the materials that do it best —
+people put between a body and the cold. The first round was the fibres that do it best —
 eiderdown whose barbules hook into each other so it needs no baffles, hollow hair from rabbits,
 camels, possums and reindeer, a wild camelid fleece at twelve microns, vicuna and alpaca and
 the nap raised on a flannel shirt, the siliconised hollow polyester that replaced all of it,
 milkweed floss out of a wartime kapok shortage, the carroted fur felt that poisoned its hatters,
 and snow, which insulates as well as a mineral wool batt until the heat inside glazes it to ice.
+
+The second round takes a duvet apart, because a duvet is an argument between four materials
+rather than one thing: the fill, sold as a down-to-feather ratio because a feather has a shaft
+and a down cluster has not; silk wadding, pulled by hand into continuous sheets and therefore
+needing no quilting at all; the thread lattice that cages a loose cotton batt instead of
+stitching through it; and the downproof ticking that stops any of them escaping, at the price
+of a cloth that barely breathes. Three more do the same job for buildings — milled newsprint
+blown into a cavity, flax tow carded into mats, and the eelgrass that has kept the roofs of
+Læsø warm for three hundred years.
 
 ## Themes
 
@@ -202,15 +211,15 @@ starting a round, so the same dead ends are not walked twice.
 
 ## Images and licensing
 
-All 501 entries carry an image from Wikimedia Commons. Each remains under its own licence
+All 508 entries carry an image from Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
 the lightbox. If you redistribute this page, keep those credits. No two cards use the same
 photograph.
 
-286 are photographs of the material itself. 215 are not, and say so in the corner of the image:
+289 are photographs of the material itself. 219 are not, and say so in the corner of the image:
 
-- **157 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **159 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
@@ -226,7 +235,7 @@ photograph.
 - **17 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
   optical calcium fluoride, a superhydrophobic droplet for SLIPS, a printed sand mould for
   furan-bonded sand, a GAGG:Ce scintillator for GGG, and a cut-resistant glove for Vectran.
-- **18 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
+- **20 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
   spraying for Nafion, cold spray mid-deposition for cold-spray powder, hand needle felting for
   needle-punched felt, two Markforged X7 machines for continuous fibre printing, and the loom or
   knitting machine itself for Jacquard weave, warp knitting and whole-garment knitting.

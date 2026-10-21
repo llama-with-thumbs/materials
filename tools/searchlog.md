@@ -69,6 +69,19 @@ would unblock it.
 | Valenki, loden, melton | `valenki`, `Walkloden` | Real materials, but all three are felted or fulled wool, which `felt` and `fulledwool` already cover | — |
 | Hollow-fibre wadding | `polyester wadding`, `hollow fibre polyester`, `fibrefill`, `Faserball` | Only `pillow stuffing` returned anything; that hit became the `polyfill` card | — |
 
+### Duvet materials
+
+| Candidate | Queries tried | Why dropped | Retry with |
+|---|---|---|---|
+| Baffle box / karo-step | `sleeping bag baffle`, `Schlafsack Daunen`, `Kassettendecke`, `Daunenjacke Kammern`, `down jacket baffle` | Nothing at all; `Kassettendecke` returns coffered ceilings, which is the same word for the same idea in plaster | A cut-open duvet or sleeping bag, or a maker's cross-section |
+| Percale | `percale`, `percale sheet`, `bed linen weave` | 1940s magazine adverts and museum bed sheets; no close-up of the cloth | A macro of the weave, or a thread-count comparison |
+| Wool duvet batt | `wool batt`, `wool quilt`, `Schafwolle Vlies`, `sheep wool duvet`, `wool fleece bedding`, `wool wadding`, `Wollvlies` | Finished quilts and spinning wool; the one batt photo is the CSIRO shot already rejected as glass wool | A labelled wool quilt batt, or a wool duvet opened up |
+| Microfibre fill | `microfibre duvet`, `Mikrofaser Decke` | No results in either language | A cut-open synthetic duvet |
+| Buckwheat hulls | `buckwheat pillow`, `Buchweizenkissen` | Generic pillow photos, and the hull is a support filling rather than a warm one, so it is out of this category anyway | — |
+| Wood fibre and cork board | `wood fibre insulation`, `cork insulation board` | No results at all for either phrase | German and Norwegian terms (`Holzfaserdaemmplatte`, `trefiberisolasjon`) |
+| Hemp insulation | `hemp insulation`, `Hanfdaemmung` | A silica-treatment research figure and one mattress cross-section with four layers in it; neither has hemp as its subject | A labelled hemp batt |
+| Silk floss, the making of | `silk floss` | The MET hit is a woodblock print, not a photograph | — the finished wadding was found instead, see `silkfloss` |
+
 ## Rejected images
 
 Source photographs that passed the description check and failed when actually looked at.
@@ -86,6 +99,8 @@ Source photographs that passed the description check and failed when actually lo
 | `snow` | Igloo under construction - geograph.org.uk - 1719812.jpg | Two low walls in a big white field, photographed from fifty metres; the blocks are not legible | Building an igloo on Victoria Island (37009).jpg |
 | `ticking` | Cotton mattress making, closing the ticking ... .jpg | A scan of a printed page with two photographs and a caption on it, not a photograph | Card dropped |
 | `batting` | (kept) Mattress making, covering the cotton batting with ticking.jpg | Shows both the batt and the ticking; captioned for the batt, which is the subject | — |
+| `cellulosefill` | Cellulose insulation200.JPG | A blowing truck seen from behind: the insulation is inside sealed bags, nothing of the material visible | Bulk recycled cellulose scan.jpg |
+| (duvet, generic) | Duvet Dormeo.jpg | A stock advertising photograph - a model with a mug, the duvet a prop behind her | Card dropped; no generic duvet card exists |
 
 ## Ground already worked
 
@@ -99,6 +114,7 @@ Rounds so far, so the next one can start somewhere else. Details are in git.
 | 2026-10-20 | Ten fabrics: finishes and yarn-less cloths |
 | 2026-10-20 | Thirteen stage and PA materials: the gear side of Sound & music |
 | 2026-10-20 | Fifteen cards for the new Warmth & insulation category, plus the warmth theme tag on seventeen older cards |
+| 2026-10-21 | Seven more for Warmth & insulation: four that take a duvet apart, three that insulate buildings |
 
 ## Sources (the `src` field)
 
@@ -132,3 +148,13 @@ answers 403 to a script and opens normally in a browser, the same deal as `nafio
 
 Five cards ship without a `src` — shearling, camel hair, flannel, fibrefill and cotton
 batting — because nothing authoritative loaded. Better a missing field than a shop.
+
+## Commons rate limiting, and the fix
+
+On 2026-10-21 every Wikimedia API call started answering `HTTP 429 Please try again later`
+after a few dozen searches, and stayed refused through a five minute backoff. The cause was
+the User-Agent: `MaterialsStaticSite/1.0 (personal static page; contact via github)` carries
+no contact URL, which Wikimedia's policy requires and its throttle enforces. Changing it to
+`MaterialsCatalogue/1.0 (https://github.com/llama-with-thumbs/materials; static site build)`
+in `search.py`, `describe.py`, `peek.py` and `fetch_images.py` cleared the block on the next
+request. If the searches start failing again, check the User-Agent before blaming the volume.

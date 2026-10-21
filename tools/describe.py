@@ -8,7 +8,7 @@ anyway, because descriptions lie by omission more often than you would think.
 """
 import json, urllib.request, urllib.parse, re, html, sys, time
 sys.stdout.reconfigure(encoding="utf-8")
-UA = {"User-Agent": "MaterialsStaticSite/1.0 (personal static page; contact via github)"}
+UA = {"User-Agent": "MaterialsCatalogue/1.0 (https://github.com/llama-with-thumbs/materials; static site build)"}
 
 
 def api(p):

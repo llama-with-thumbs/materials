@@ -5510,5 +5510,82 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Building_an_igloo_on_Victoria_Island_(37009).jpg",
     "w": 960,
     "h": 579
+  },
+  "featherdown": {
+    "file": "featherdown.jpg",
+    "caption": "Cleaned feather and down being blown into a ticking shell on a filling scale",
+    "kind": "process",
+    "title": "Bettfedernreinigung L.H.Lorch Abfüllen der gereinigten Federn und Daunen in das Kissen mittels Federnfüllwaage.jpg",
+    "artist": "Betten-24",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bettfedernreinigung_L.H.Lorch_Abf%C3%BCllen_der_gereinigten_Federn_und_Daunen_in_das_Kissen_mittels_Federnf%C3%BCllwaage.jpg",
+    "w": 960,
+    "h": 1194
+  },
+  "silkfloss": {
+    "file": "silkfloss.jpg",
+    "caption": "Stacked layers of hand-pulled mulberry silk floss, the filling of a silk duvet",
+    "kind": "photo",
+    "title": "MulberrySilk.JPG",
+    "artist": "Lauraappletonsilkconcept",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MulberrySilk.JPG",
+    "w": 960,
+    "h": 640
+  },
+  "threadlattice": {
+    "file": "threadlattice.jpg",
+    "caption": "Quilt makers laying a thread lattice over a cotton batt in Haikou, Hainan",
+    "kind": "process",
+    "title": "Quilt making 13.JPG",
+    "artist": "Anna Frodesiak",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quilt_making_13.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "ticking": {
+    "file": "ticking.jpg",
+    "caption": "A feather pillow in its downproof ticking; the cloth is the subject",
+    "kind": "product",
+    "title": "Inlett 1.jpg",
+    "artist": "http://commons.wikimedia.org/wiki/User:Ryj",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Inlett_1.jpg",
+    "w": 960,
+    "h": 814
+  },
+  "cellulosefill": {
+    "file": "cellulosefill.jpg",
+    "caption": "A clump of milled newsprint insulation on squared paper, coloured ink still visible",
+    "kind": "photo",
+    "title": "Bulk recycled cellulose scan.jpg",
+    "artist": "Okram",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bulk_recycled_cellulose_scan.jpg",
+    "w": 960,
+    "h": 820
+  },
+  "flaxinsul": {
+    "file": "flaxinsul.jpg",
+    "caption": "Flax fibre mats fitted between ceiling joists",
+    "kind": "photo",
+    "title": "Linfiberisolasjon i himling.JPG",
+    "artist": "Øyvind Holmstad",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Linfiberisolasjon_i_himling.JPG",
+    "w": 960,
+    "h": 640
+  },
+  "eelgrass": {
+    "file": "eelgrass.jpg",
+    "caption": "Eelgrass thatch on the gable of a Læsø farmhouse, bulging over the frame",
+    "kind": "product",
+    "title": "Seaweed roof at Læsø, 'Hedvigs Hus', DK.jpg",
+    "artist": "Hartmut Schmidt Heidelberg",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seaweed_roof_at_L%C3%A6s%C3%B8,_%27Hedvigs_Hus%27,_DK.jpg",
+    "w": 960,
+    "h": 720
   }
 };
