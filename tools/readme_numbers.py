@@ -51,7 +51,7 @@ print("categories:", dict(cats))
 p = os.path.join(ROOT, "index.html")
 s = open(p, encoding="utf-8").read()
 # The sentence appears twice now: in the lede and in the og:description.
-s2, k = re.subn(r"A field guide to \d+ substances", "A field guide to %d substances" % total, s)
+s2, k = re.subn(r"A field guide to \d+ materials", "A field guide to %d materials" % total, s)
 assert k == 2, k
 open(p, "w", encoding="utf-8", newline="\n").write(s2)
 print("index.html updated")

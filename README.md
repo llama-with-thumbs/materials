@@ -1,8 +1,10 @@
 # Interesting Materials
 
-A single-page field guide to 539 materials that exist because of one specific trick — a
-polyurethane that carries tons without overheating, a ceramic that clamps its own cracks shut,
-a lashing that tightens itself as it dries, an airbag woven closed so it has no seam to burst.
+A single-page field guide to 539 materials, each here for a reason of its own — a polyurethane
+that carries tons without overheating, a ceramic that clamps its own cracks shut, a lashing that
+tightens itself as it dries, an airbag woven closed so it has no seam to burst, a film base that
+eats itself. Some are here for what they do, some for how they are made, some for how they fail,
+and a few because nobody designed them and they ring, boom or insulate anyway.
 
 Each card gives the material's name and chemistry, what makes it interesting, two or three
 characteristic numbers, and where you actually run into it.
@@ -191,7 +193,7 @@ Append an entry to `data.js`:
 {
   id: "shortname", cat: "ceramic", name: "Display name",
   sub: "chemistry or trade name", img: "shortname",
-  hook: "Why it is interesting — the one thing it does that nothing else does.",
+  hook: "Why it is interesting — what it does, how it is made, or how it fails.",
   stats: [["Property", "value"], ["Property", "value"]],
   uses: "Where you meet it.",
   link: "https://en.wikipedia.org/wiki/...",
