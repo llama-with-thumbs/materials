@@ -200,3 +200,60 @@ Rejected after looking at the file:
 Still open, no usable photograph found: moleskin, fustian, poplin, buckram, organdy, voile,
 huckaback, dimity, horsehair canvas, percale, batiste, cambric. Searched on 2026-10-21; the
 hits are costume museums and fashion plates, where the cloth is a dress, not a material.
+
+### Films & foils, first round, 2026-10-22
+
+A new category: anything made and sold as a sheet thin enough to roll. Fifty-odd candidates
+searched, twenty-eight shipped. The ones that failed, and why:
+
+| Candidate | Queries tried | Why dropped | Retry with |
+|---|---|---|---|
+| Retort pouch (PET/Al/PP laminate) | `retort pouch`, `MRE pouch` | `Retortable Pouch.png` is a pencil sketch of the layers; the MRE photo shows bread, not the pouch; the Japanese curry photos show printed cartons | A torn-open pouch showing the foil layer |
+| EVOH barrier film | `EVOH`, `barrier film packaging` | Structural formulae and an embolisation agent. The film is invisible inside every laminate it is in | — |
+| Microporous breathable film (diaper backsheet) | `diaper backsheet`, `breathable film` | Nothing; `breathable film` returns a 1924 silent movie | `atmungsaktive Folie`, a nappy taken apart |
+| Battery separator (shutdown polyolefin) | `battery separator`, `lithium battery separator`, `Separator Akku` | Patent drawings, egg separators, a dendrite diagram. `CR2032 disassembled.jpg` shows the cell, not the membrane | A pouch cell teardown with the white separator lifted |
+| Electrodeposited copper foil | `copper foil`, `electrodeposited copper foil`, `Kupferfolie` | Only stained-glass copper foil tape and galvanic demos; `CopperFoil.jpg` is 640 px | A PCB laminate maker's photo of a foil roll with the matte side showing |
+| Thin-film polariser (laser optics) | `polarizing film` | `Thin film polarizer.jpg` is a good photo but of a dielectric coating on a glass plate, not a film. Belongs in optics, not here | — |
+| Dichroic and cholesteric film | `dichroic film`, `iridescent film`, `cholesteric film` | Bacterial films on ponds, soap bubbles, hafnium pellets | `Radiant Light Film`, `Effektfolie` |
+| Vacuum bagging film | `vacuum bagging composite`, `vacuum bag film` | One repair-manual diagram and a lot of vacuum cleaners | — |
+| Window tint and low-E film | `window film tint`, `window tinting car`, `solar control film`, `Fensterfolie` | Only tinted cars from across the road; nothing shows the film as a film, and the card had nothing to teach that `ito` and `spaceblanket` do not | A peel-back photo on a glazier's bench |
+| Water-soluble PVA film | `water soluble film`, `laundry pod` | Good pod photos, but `pva` (polymer) is already that card, hook and all | — |
+| Tetra Pak laminate | `Tetra Pak`, `Tetra Pak layers`, `aseptic carton laminate`, `beverage carton` | Only finished cartons and egg boxes; the six layers never pictured | A cut edge under a loupe |
+| Goldbeater's skin | `goldbeater's skin`, `Goldschlägerhaut`, `airship gas cell goldbeater` | Nothing at all. The Cooper Hewitt hits are medieval textiles | A Zeppelin museum gas-cell fragment |
+| Dialysis tubing (regenerated cellulose) | `dialysis tubing` | Diagrams and a 1940s machine | — |
+| Glassine | `glassine`, `Pergamin` | `Pergamin Dokumentenhuellen.jpg` is a good photo, but glassine is a supercalendered paper, not a film. Parked for a paper category | — |
+| Foil balloon, tin foil, lead foil | `foil balloon`, `mylar balloon`, `tin foil`, `lead foil` | Birthday parties, tin-foil hats and stained-glass came. Nothing to add to `mylar` and `spaceblanket` | — |
+| Edible film (oblate) | `oblaat`, `edible film` | Product shots of pouches and a birthday cake | — |
+| Liquid crystal sheet (wind tunnel) | `liquid crystal sheet` | NASA 1980 monochrome of a vane cascade; the sheet is not legible. Covered by the `lcfilm` card's uses line | — |
+
+Rejected after looking at the file:
+
+| File | Why |
+|---|---|
+| `Bubble Wrap.jpg` | Carries a printed copyright watermark along the bottom edge. `Square-shaped bubble wrap (126wiki).jpg` used instead |
+| `Enfardadora automatica.jpg` | A manufacturer's catalogue render of a wrapping machine on a gradient backdrop, not a photograph of film. FEMA warehouse photo used instead |
+| `Cellofan.jpg` | Biscuits in a wrapper; the cellophane is the least visible thing in it. `Cellophane.JPG` (rolls) used instead |
+| `Retortable Pouch.png` | A pencil drawing |
+| `MRE pouched bread - commonwealth zk51xh600.jpg` | Six loaves on a white table, pouch nowhere in frame |
+| `Wrapped silage bales - geograph.org.uk - 5047328.jpg` | The bales are a white speck on a hillside a quarter of a mile away. `Wrapped bales - geograph.org.uk - 7568052.jpg` used instead |
+| `Silage bale snowman in Germany.jpg` | A snowman. Charming, not a material |
+| `Mulch film Bio-Flex biodegraded.JPG` | Honest but illegible: scraps of dark film in mud. The Homs strawberry field shows the mulch in use |
+| `LightSail 2 Deployment Test.jpg` | Sail still folded in the bus; only the booms show. NASA Plum Brook 20 m sail used instead |
+| `Kanazawa Gold Factory.jpg` vs `Small gold nugget 5mm dia and corresponding foil surface of half sq meter.jpg` | Both honest. The nugget-and-foil museum shot is a flat gold square behind glass with the nugget barely visible; the workshop photo shows the leaf as a leaf, being lifted on tongs |
+| `Antistatic bag with conductive grid.jpg` | A carbon-grid conductive bag, a different and rarer construction from the metallised shielding bag the card is about. The two-bag photo used instead because it shows the pink and silver kinds side by side |
+| `Thin film polarizer.jpg` | See the dropped table: a coated glass plate |
+
+Sources that answered a script this round: Edmund Optics application notes, Kurz, Orafol,
+Vishay, Society of Gilders, US National Archives, Library of Congress, NASA mission pages,
+ESD Association, Geosynthetic Institute, Futamura, Amcor, Gauzy, Macrogalleria. Refused or
+dead: FHWA (403), 3M (403), Sealed Air (403), BPF Plastipedia (403), NEDCC (403), WIMA (404),
+National Film Preservation Foundation (404), Penn State and UMass extension fact sheets
+(404), Teagasc silage page (404), Kanazawa gold-leaf museum (TLS handshake fails), Hakuichi
+(503), V&A gilding article (404).
+
+Also this round: the monthly link audit the roadmap asks for was run by hand. Twelve `link`
+targets had been deleted or moved on Wikipedia and were 404: SiAlON, Two-photon lithography,
+Wire arc additive manufacturing, Lattice material, Ultra-high-performance concrete, Melamine
+fiber, Woven wire mesh, Spacer fabric, Triaxial weave, Kinetic recovery rope, Slippery
+Liquid-Infused Porous Surfaces, Liquid crystal elastomer. Each was repointed to the nearest
+live article. Twenty-four more are redirects that still resolve and were left alone.

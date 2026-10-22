@@ -15,7 +15,8 @@ window.CATS = {
   natural: "Natural & biological",
   exotic: "Active & exotic",
   music: "Sound & music",
-  warmth: "Warmth & insulation"
+  warmth: "Warmth & insulation",
+  film: "Films & foils"
 };
 
 // The short word stamped on the corner of each photograph. Taken from the category

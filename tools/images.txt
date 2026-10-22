@@ -509,3 +509,31 @@ eelgrass|Seaweed roof at Læsø, 'Hedvigs Hus', DK.jpg|Eelgrass thatch on the ga
 chambray|Blue chambray cloth.JPG|Washed cotton chambray, with a millimetre scale|photo
 oxfordcloth|Oxford cloth.jpg|Oxford shirting, the paired warp ends visible at the left|photo
 gingham|Greengingham.jpg|Gingham hemmed as a pocket square, both faces alike|product
+polarfilm|Polarizer sheet perpendicular.jpg|Two polarising sheets overlapping at right angles|photo
+cellophane|Cellophane.JPG|Rolls of coloured cellophane|photo
+retrosheet|Reflective tape on a parking lot gate.jpg|Micro-prismatic reflective tape on a car-park barrier, Washington DC|photo
+holofoil|Holographic Hot Stamping Foil From Karul Holo Science India Ltd.jpg|Rolls of holographic hot-stamping foil|photo
+lenticular|Close up of the surface of a lenticular print.jpg|The ridged face of a lenticular print, close up|photo
+fresnelsheet|Flat flexible plastic sheet lens.JPG|A flexible plastic Fresnel sheet lens|photo
+goldleaf|Kanazawa Gold Factory.jpg|Gold leaf being lifted with bamboo tongs at a Kanazawa workshop|photo
+alufoil|A sample of aluminium foil on a piece of paper.jpg|Crumpled pieces of household aluminium foil|photo
+clingfilm|Clingfilm.jpg|A roll of cling film in its box|photo
+stretchwrap|FEMA - 37688 - Pallets of disaster suppllies in a warehouse in Louisiana.jpg|Stretch-wrapped pallets of relief supplies, Louisiana, 2008|photo
+bubblewrap|Square-shaped bubble wrap (126wiki).jpg|Bubble wrap with square pockets|photo
+shrinkfilm|Heat shrinkable polyethylene film.jpg|A roll of heat-shrinkable polyethylene film|photo
+ldpefilm|Film extrusion.jpg|A blown-film line, with the inflated bubble rising from the die|process
+pdlcfilm|VITSWELL PDLC FILM.jpg|A sheet of PDLC switchable film with its leads|photo
+capfilm|Wiki-Folkos-P1090317-1.jpg|Plastic film capacitors, axial and radial|product
+nitratefilm|Nitrate Deterioration.jpg|A cellulose nitrate negative in the late stages of decay, the image gone|photo
+sailfilm|Solar sail tests.jpg|A 20 m test solar sail deployed in a NASA vacuum chamber|photo
+ptfetape|PTFEpaska.jpg|A spool of PTFE thread seal tape with the end unwound|photo
+parafilm|Parafilm roll.jpg|A roll of Parafilm|photo
+esdbag|Antistatic Bags.jpg|A pink antistatic bag and a silver static-shielding bag|photo
+geomembrane|Geomembrane installation.jpg|An HDPE geomembrane being laid as a landfill base liner|photo
+mulchfilm|Strawberry field using black mulch in Umm Haratayn al-Gharbiyah, Homs.jpg|Strawberries planted through black plastic mulch, Homs countryside, Syria|photo
+balewrap|Wrapped bales - geograph.org.uk - 7568052.jpg|Stacked silage bales wrapped in white and black film|photo
+microfilm|Microfilm roll.jpg|A roll of 16 mm microfilm unspooling|photo
+shrinkart|Shrinky Dinks (2652714573).jpg|Shrunk pieces of biaxially oriented polystyrene sheet|photo
+lcfilm|Thermochromic thermometer.jpg|A liquid crystal thermometer strip reading 24 °C|photo
+feelerstock|Parallel feeler gauge (imperial and metric)-92397.jpg|A feeler gauge fanned open|product
+greenhousefilm|Interior view of strawberry high tunnel greenhouse with garlic intercropping in Umm Haratayn al-Gharbiyah, Syria.jpg|Inside a polyethylene high tunnel of strawberries, Homs countryside, Syria|photo

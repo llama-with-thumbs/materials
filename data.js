@@ -1260,7 +1260,7 @@ window.MATERIALS = [
   hook: "Silicon nitride with aluminium and oxygen substituted into the lattice, which lets it be sintered without a glassy grain-boundary phase to soften at temperature. Molten aluminium will not wet it, so it survives in a job that destroys steel.",
   stats: [["Hardness", "~1600 HV"], ["Thermal shock", "excellent"], ["Molten Al", "non-wetting"]],
   uses: "Welding nozzles, thermocouple sheaths in aluminium melts, cutting inserts for nickel alloys.",
-  link: "https://en.wikipedia.org/wiki/SiAlON"
+  link: "https://en.wikipedia.org/wiki/Sialon"
 },
 {
   id: "beo", cat: "ceramic", name: "Beryllia",
@@ -1487,7 +1487,7 @@ window.MATERIALS = [
   hook: "Packed with particles of every size from a centimetre down to a tenth of a micron so there is no space left for voids, plus steel fibres to carry tension. It is eight times stronger than structural concrete and does not need rebar.",
   stats: [["Compressive", "120–250 MPa"], ["Water/cement", "<0.25"], ["Rebar", "often none"]],
   uses: "Thin-shell footbridges, façade panels, bridge deck joints, security bollards.",
-  link: "https://en.wikipedia.org/wiki/Ultra-high-performance_concrete"
+  link: "https://en.wikipedia.org/wiki/Types_of_concrete"
 },
 {
   id: "selfhealconcrete", cat: "composite", name: "Self-healing concrete",
@@ -1615,7 +1615,7 @@ window.MATERIALS = [
   hook: "A material whose properties come from its architecture rather than its chemistry: relative density sets the stiffness, and the cell type sets how it scales — a stretch-dominated octet truss falls off roughly linearly with density, a bending-dominated foam far faster. Printing is what made the inside of a part designable at all.",
   stats: [["Mass saving", "50–80%"], ["Cell size", "1–10 mm"], ["Octet", "stiffness linear with density"]],
   uses: "Aerospace brackets, heat exchangers, bone-ingrowth implants, impact liners.",
-  link: "https://en.wikipedia.org/wiki/Lattice_material"
+  link: "https://en.wikipedia.org/wiki/Mechanical_metamaterial"
 },
 
 /* ---------- 3D PRINTING & ADDITIVE ---------- */
@@ -1641,7 +1641,7 @@ window.MATERIALS = [
   hook: "Ordinary welding wire off a spool, laid down by the kilogram an hour rather than the gram. What you get is weld metal — coarse, columnar, sound once machined back — and the build volume is simply the reach of the robot arm, which is the only reason a ship's propeller or a rocket tank can be printed at all.",
   stats: [["Rate", "1–10 kg/h"], ["Build volume", "the robot's reach"], ["Finish", "rough, machine after"]],
   uses: "Rocket tanks, ship propellers, large brackets, repair and feature addition on big castings.",
-  link: "https://en.wikipedia.org/wiki/Wire_arc_additive_manufacturing"
+  link: "https://en.wikipedia.org/wiki/3D_printing_processes"
 },
 {
   id: "coldspray", cat: "additive", name: "Cold-spray powder",
@@ -1657,7 +1657,7 @@ window.MATERIALS = [
   hook: "A resist formulated so that curing takes two infrared photons arriving at the same instant, which happens only inside the focal volume. That nonlinearity beats the diffraction limit: features land around 100–200 nm, smaller than the light writing them, anywhere inside the drop. Cure shrinkage is what fights you at that scale.",
   stats: [["Feature size", "~100–200 nm"], ["Mechanism", "two-photon absorption"], ["Catch", "a few % cure shrinkage"]],
   uses: "Microlenses printed on fibre tips, microfluidic parts, mechanical metamaterials, micro-robots.",
-  link: "https://en.wikipedia.org/wiki/Two-photon_lithography"
+  link: "https://en.wikipedia.org/wiki/Multiphoton_lithography"
 },
 {
   id: "concreteprint", cat: "additive", name: "Printable mortar",
@@ -2073,7 +2073,7 @@ window.MATERIALS = [
   hook: "A plain square weave filters down to about 25 µm and no further. Dutch weave uses coarse wires one way and very fine wires packed tight the other, so the holes become triangular slots — 2 µm filtration in a cloth you can still clean and reuse.",
   stats: [["Plain weave", "to ~25 µm"], ["Dutch weave", "to ~2 µm"], ["Reusable", "backflush and reuse"]],
   uses: "Hydraulic and polymer melt filters, sieve analysis, EMI screening, security grilles.",
-  link: "https://en.wikipedia.org/wiki/Woven_wire_mesh"
+  link: "https://en.wikipedia.org/wiki/Mesh"
 },
 {
   id: "geotextile", cat: "fibre", name: "Geotextile",
@@ -2147,7 +2147,7 @@ window.MATERIALS = [
   hook: "A thermoset spun as a fibre, which means it has no melting point to reach. It chars, holds its shape and keeps heat off the skin for a fraction of the price of aramid. It is simply too weak to be the strength of the garment.",
   stats: [["Limiting oxygen index", "~32%"], ["Continuous use", "190–200 °C"], ["Tenacity", "low, always blended"]],
   uses: "Firefighter hoods and liners, aircraft seat fire blocking, hot gas filter felts, mattress barriers.",
-  link: "https://en.wikipedia.org/wiki/Melamine_fiber"
+  link: "https://en.wikipedia.org/wiki/Melamine_resin"
 },
 {
   id: "preoxpan", cat: "fibre", name: "Oxidised PAN",
@@ -2285,7 +2285,7 @@ window.MATERIALS = [
   hook: "A rope engineered to be stretchy, the opposite of every other rope here. The recovery vehicle takes a run-up, the rope stores that kinetic energy and hands it back, and a stuck truck floats out on a gentle pull where a steel cable would tear a bumper off.",
   stats: [["Stretch", "20–30% working"], ["Energy", "stores it, returns it"], ["Failure", "recoils — the dangerous part"]],
   uses: "Off-road vehicle recovery, agricultural and military towing; replaced snatch straps and steel cable.",
-  link: "https://en.wikipedia.org/wiki/Kinetic_recovery_rope"
+  link: "https://en.wikipedia.org/wiki/Snatch_strap"
 },
 {
   id: "pianowire", cat: "fibre", name: "Music wire",
@@ -2359,7 +2359,7 @@ window.MATERIALS = [
   hook: "Ordinary cloth has two thread directions and no resistance to racking: pull it on the diagonal and the square becomes a parallelogram. Add a third set at sixty degrees and the shear has nowhere to go. The fabric holds its shape in its own plane.",
   stats: [["Yarn directions", "3 at 60°"], ["Shear stiffness", "far above biaxial"], ["Isotropy", "near-equal in plane"]],
   uses: "Sailcloth and kite skins, filter and screen fabric, balloon envelopes, composite reinforcement.",
-  link: "https://en.wikipedia.org/wiki/Triaxial_weave"
+  link: "https://en.wikipedia.org/wiki/Weaving"
 },
 {
   id: "doublecloth", cat: "fabric", name: "Double cloth",
@@ -2407,7 +2407,7 @@ window.MATERIALS = [
   hook: "Two knitted faces made at the same time and held apart by monofilaments standing between them. It cushions like foam but is open to air and water, springs back instead of taking a permanent dent, and goes through a washing machine.",
   stats: [["Thickness", "2–20 mm knitted in"], ["Recovery", "no permanent set"], ["Airflow", "open through the core"]],
   uses: "Mattress and car-seat tops, backpack straps, shoe uppers, orthopaedic padding, pressure-sore mattresses.",
-  link: "https://en.wikipedia.org/wiki/Spacer_fabric"
+  link: "https://en.wikipedia.org/wiki/Warp_knitting"
 },
 {
   id: "fleece", cat: "fabric", name: "Polar fleece",
@@ -2914,7 +2914,7 @@ window.MATERIALS = [
   hook: "A rubber whose molecules are aligned like a liquid crystal. Heat it and the alignment collapses, so the strip contracts along one axis — up to 40%, reversibly, with the direction and shape written in during manufacture.",
   stats: [["Contraction", "to 40%"], ["Trigger", "heat, light or solvent"], ["Shape", "programmed in the mould"]],
   uses: "Artificial muscle research, micro-grippers, morphing optics, haptics.",
-  link: "https://en.wikipedia.org/wiki/Liquid_crystal_elastomer"
+  link: "https://en.wikipedia.org/wiki/Liquid_crystalline_elastomer"
 },
 {
   id: "erf", cat: "exotic", name: "Electrorheological fluid",
@@ -3020,7 +3020,7 @@ window.MATERIALS = [
   hook: "Copied from the pitcher plant: a nanoporous surface holds a layer of lubricant by capillary action, so what a droplet touches is liquid, not solid. Nothing sticks — not blood, not ice, not ketchup — and a scratch heals as the liquid flows back in.",
   stats: [["Contact angle hysteresis", "<2.5°"], ["Repels", "water, oil, blood, ice"], ["Self-healing", "liquid reflows"]],
   uses: "Anti-fouling and anti-icing coatings, medical tubing, condenser surfaces, bottles that empty.",
-  link: "https://en.wikipedia.org/wiki/Slippery_Liquid-Infused_Porous_Surfaces"
+  link: "https://en.wikipedia.org/wiki/Liquid-impregnated_surface"
 },
 {
   id: "tio2photo", cat: "exotic", name: "Photocatalytic titania",
@@ -4224,6 +4224,249 @@ window.MATERIALS = [
   uses: "Farmhouse roofs on Læsø in Denmark, and a recent run of prefabricated seaweed panels.",
   link: "https://en.wikipedia.org/wiki/Seaweed_roofs_on_L%C3%A6s%C3%B8",
   src: ["IIBEC", "https://iibec.org/seaweed-thatching/"]
+},
+{
+  id: "polarfilm", cat: "film", name: "Polarising film",
+  sub: "iodine-stained stretched polyvinyl alcohol", img: "polarfilm",
+  hook: "Edwin Land made the first sheet polariser in 1929 by lining up microscopic crystals in a film; the modern one is simpler and better. A sheet of polyvinyl alcohol is soaked in iodine and stretched to several times its length, which drags the chains and the iodine into parallel lines. Light vibrating along the lines is absorbed, light across them passes, so two sheets crossed at right angles go nearly black. It is the first and last layer of every LCD. It is also hygroscopic and fragile, so it is glued between two skins of cellulose triacetate, and it still dies of damp in old laptops, going grey in streaks that follow the stretch.",
+  stats: [["Construction", "stretched PVA with iodine, between TAC skins"], ["Transmits", "about 40% of unpolarised light"], ["Crossed pair", "well under 0.1% gets through"]],
+  uses: "Every LCD screen, polarised sunglasses, camera filters, 3D cinema glasses, stress analysis of clear plastics.",
+  link: "https://en.wikipedia.org/wiki/Polarizer",
+  src: ["Edmund Optics: introduction to polarisation", "https://www.edmundoptics.com/knowledge-center/application-notes/optics/introduction-to-polarization/"]
+},
+{
+  id: "cellophane", cat: "film", name: "Cellophane",
+  sub: "regenerated cellulose film, from viscose", img: "cellophane",
+  hook: "Invented in 1908 by a Swiss chemist trying to make a tablecloth that shrugged off wine, and made the same way as viscose rayon: wood pulp dissolved and squeezed out as a sheet into an acid bath that turns it back into cellulose. It is not a plastic. It passes water vapour, which is why bare cellophane keeps bread crusty and cigars from sweating, and it is a far better barrier to oxygen and grease than polyethylene. It also composts, crackles, and dies of brittleness as its glycerol plasticiser leaves, which is why the clear wrap on most things is now polypropylene wearing its name.",
+  stats: [["Base", "wood pulp, regenerated from viscose"], ["Barrier", "oxygen and grease, not water vapour"], ["Ages by", "losing its plasticiser and going brittle"]],
+  uses: "Sweet twists, cigar and tea packaging, florist wrap, and the adhesive tape that still carries the name in several languages.",
+  link: "https://en.wikipedia.org/wiki/Cellophane",
+  src: ["Futamura: cellulose films", "https://www.futamuragroup.com/"]
+},
+{
+  id: "retrosheet", cat: "film", name: "Retroreflective sheeting",
+  sub: "glass beads or micro-prisms under a clear film", img: "retrosheet",
+  hook: "A road sign does not glow; it throws your own headlights straight back at you. The older sheeting does it with a layer of tiny glass beads, each one a lens that focuses light onto a mirror behind it and sends it back along the same line, give or take a degree. The newer kind does it with cube-corner prisms moulded into the back of an acrylic film, which return several times as much light and are why a modern sign reads from half a mile away. Both return light only towards its source, so a passenger sees a dimmer sign than the driver, and both fade: the standards give them seven to twelve years.",
+  stats: [["Optics", "glass beads, or cube-corner micro-prisms"], ["Returns", "most light to within a degree of its source"], ["Rated life", "7-12 years, then replaced"]],
+  uses: "Road signs and lane markers, high-visibility clothing, vehicle conspicuity tape, number plates.",
+  link: "https://en.wikipedia.org/wiki/Retroreflective_sheeting",
+  src: ["Orafol: reflective solutions", "https://www.orafol.com/en/americas/products/reflective-solutions/overview"]
+},
+{
+  id: "holofoil", cat: "film", name: "Holographic foil",
+  sub: "embossed diffraction grating, metallised and transferred by heat", img: "holofoil",
+  hook: "The rainbow on a banknote is not printed and holds no ink. A master hologram is recorded as a relief a fraction of a micron deep, electroformed into a nickel shim, and pressed into a thin lacquer on a polyester carrier at a few hundred metres a minute. A few tens of nanometres of aluminium go on behind it so the grooves reflect, and a hot die then transfers the whole stack onto paper or card, leaving the polyester behind. The result costs almost nothing per square metre, which is why it is on crisp packets as well as passports; what makes the security grade different is the master, not the foil.",
+  stats: [["Relief", "well under a micron deep"], ["Metal", "aluminium, a few tens of nanometres"], ["Transfer", "heat and pressure, carrier peeled away"]],
+  uses: "Banknotes and passports, credit cards, cosmetics cartons, tamper-evident seals, wrapping paper.",
+  link: "https://en.wikipedia.org/wiki/Security_hologram",
+  src: ["Kurz: hot stamping and transfer foils", "https://www.kurz-world.com/en/"]
+},
+{
+  id: "lenticular", cat: "film", name: "Lenticular sheet",
+  sub: "extruded ribs of cylindrical lens on PET or PVC", img: "lenticular",
+  hook: "A sheet of clear plastic with a face made of parallel ridges, each one a tiny cylindrical lens, pressed hot from a roller. Behind each ridge sits a printed strip carrying slices of two or more images, and the lens shows a different slice as your eye moves across it: a wink, a flip, or, with the ridges vertical and the slices arranged for each eye, depth. The pitch matters to a few microns, because the print and the lenses have to stay in register across the whole sheet, and a change in humidity on paper is enough to put them out. It is the same trick as the glasses-free 3D on handheld consoles.",
+  stats: [["Lens pitch", "about 10 to 100 lenses per inch"], ["Effect", "flip, motion or stereo depth"], ["Enemy", "registration drift of a few microns"]],
+  uses: "Postcards and badges, packaging, glasses-free 3D displays, bus-shelter posters.",
+  link: "https://en.wikipedia.org/wiki/Lenticular_lens"
+},
+{
+  id: "fresnelsheet", cat: "film", name: "Fresnel sheet lens",
+  sub: "acrylic or PVC film with concentric lens steps", img: "fresnelsheet",
+  hook: "A lens three millimetres thick doing the job of one as thick as a brick, because only the curved surface bends the light and the glass between is dead weight. Fresnel worked that out for lighthouses in 1822; the plastic version is pressed from a diamond-turned master with the curve chopped into hundreds of concentric steps, each a fraction of a millimetre high. It is cheap, light and flexible enough to roll up, and it makes a poor image, with every step scattering a little light into the next. That is fine for a rear-projection screen, a page magnifier or a solar cooker, and no good at all for a camera.",
+  stats: [["Thickness", "a few millimetres for a page-sized lens"], ["Groove pitch", "fractions of a millimetre"], ["Image", "poor, every step scatters"]],
+  uses: "Overhead projectors and rear-projection TVs, page magnifiers, solar concentrators, the wide-angle sticker on a van rear window.",
+  link: "https://en.wikipedia.org/wiki/Fresnel_lens",
+  src: ["Edmund Optics: advantages of Fresnel lenses", "https://www.edmundoptics.com/knowledge-center/application-notes/optics/advantages-of-fresnel-lenses/"]
+},
+{
+  id: "goldleaf", cat: "film", name: "Gold leaf",
+  sub: "gold beaten to a tenth of a micron", img: "goldleaf",
+  hook: "The thinnest thing made by hand. A gram of gold, which would sit on a fingernail as a bead, is rolled to ribbon, cut into squares, stacked between sheets of skin or paper and hammered for hours until it covers about half a square metre and is a few hundred atoms thick. At that point it is translucent and green when held against the light, it tears at a breath, and it cannot be picked up with fingers at all, only lifted on a static-charged brush or a cushion of air. It is laid over a size and burnished, and it does not tarnish, which is why gilding from the Bronze Age is still bright.",
+  stats: [["Thickness", "about 0.1 µm"], ["One gram", "covers roughly half a square metre"], ["Handling", "lifted on a brush, never with fingers"]],
+  uses: "Gilded frames and domes, illuminated manuscripts, sign writing, sushi and sweets, the cross on a cathedral.",
+  link: "https://en.wikipedia.org/wiki/Gold_leaf",
+  src: ["Society of Gilders", "https://societyofgilders.org/"]
+},
+{
+  id: "alufoil", cat: "film", name: "Aluminium foil",
+  sub: "rolled 8011 or 1235 alloy, 6-25 µm", img: "alufoil",
+  hook: "The last pass of a foil mill rolls two sheets at once, because a single sheet that thin would tear; that is why one side of kitchen foil is shiny and the other matt, and the difference does nothing to its performance. At twenty microns it is a complete barrier to light, oxygen, water vapour and smell, which nothing else that cheap can claim, and it survives an oven and a freezer in the same afternoon. The cost is that it has no strength to speak of, pinholes below about seventeen microns, and reacts with salt and acid, so the foil on a yoghurt lid is lacquered and the one in a drinks carton is buried between plastic films.",
+  stats: [["Thickness", "6-25 µm for packaging"], ["Barrier", "complete above about 17 µm"], ["Two faces", "from rolling two sheets at once"]],
+  uses: "Kitchen foil, blister packs and lids, drinks cartons, insulation facings, capacitors, the shielding inside a cable.",
+  link: "https://en.wikipedia.org/wiki/Aluminium_foil",
+  src: ["European Aluminium Foil Association", "https://www.alufoil.org/"]
+},
+{
+  id: "clingfilm", cat: "film", name: "Cling film",
+  sub: "PVC or polyethylene, 8-12 µm, with a tackifier", img: "clingfilm",
+  hook: "The original was an accident: a Dow chemist in 1933 found a film of polyvinylidene chloride that would not wash off glassware, and it became Saran. Cling film sticks to bowls and to itself by a mixture of static and a plasticiser or tackifier that blooms to the surface; the PVC kind clings best and stretches furthest, the polyethylene kind is cheaper and does not leach plasticiser into fatty food, which is why most household rolls quietly switched. None of them is a true barrier: oxygen goes through polyethylene film about as if it were not there, so cling film keeps things from drying out, not from going stale.",
+  stats: [["Thickness", "about 10 µm"], ["Clings by", "static charge plus a surface tackifier"], ["Oxygen", "passes through, in the PE kind especially"]],
+  uses: "Kitchens, cafeterias, pallets of fresh produce, dressings in a hospital, a painter keeping a brush wet overnight.",
+  link: "https://en.wikipedia.org/wiki/Plastic_wrap",
+  src: ["Macrogalleria: PVC", "https://pslc.ws/macrog/pvc.htm"]
+},
+{
+  id: "stretchwrap", cat: "film", name: "Stretch wrap",
+  sub: "linear low-density polyethylene, cast or blown, 12-25 µm", img: "stretchwrap",
+  hook: "The film around a pallet is not shrunk on; it is stretched on, and it is the stretch that holds the load. Linear low-density polyethylene can be pulled to two or three times its length and spends the rest of its life trying to recover, so a wrapping machine pre-stretches it over a pair of rollers and lays it on under tension like a very wide rubber band. The layers cling to each other through a few percent of polyisobutylene that migrates to one surface, and only to each other, so the film comes off a carton clean. A pallet wrapped well uses a few hundred grams of film to hold a tonne together through a lorry journey.",
+  stats: [["Pre-stretch", "200-300% on a machine"], ["Cling", "polyisobutylene on one face"], ["Per pallet", "a few hundred grams holds a tonne"]],
+  uses: "Every pallet in every warehouse, hay bales, boats and machinery in storage, furniture removals.",
+  link: "https://en.wikipedia.org/wiki/Stretch_wrap",
+  src: ["Macrogalleria: polyethylene", "https://pslc.ws/macrog/pe.htm"]
+},
+{
+  id: "bubblewrap", cat: "film", name: "Bubble wrap",
+  sub: "two polyethylene films, one vacuum-formed into pockets", img: "bubblewrap",
+  hook: "Two engineers in 1957 sealed two shower curtains together with air trapped between them and tried to sell the result as textured wallpaper, then as greenhouse insulation. It became packaging in 1960 when IBM needed to ship a computer. The film is low-density polyethylene run over a drum of vacuum pockets while hot and laminated to a flat sheet while the bubbles are still full; a barrier layer of nylon in the better grades keeps the air in over months, which the plain kind does not. It cushions by letting a bubble deform and spring back, and it cushions only once hard: pop the bubbles and what is left is two thin films.",
+  stats: [["Invented", "1957, as wallpaper"], ["Bubble", "from 6 to 25 mm across"], ["Weakness", "air leaks out of the cheap grades"]],
+  uses: "Parcels, moving house, greenhouse glazing, insulation on a pond pump in winter, a bit of stress relief.",
+  link: "https://en.wikipedia.org/wiki/Bubble_wrap"
+},
+{
+  id: "shrinkfilm", cat: "film", name: "Shrink film",
+  sub: "biaxially oriented polyolefin or PVC, cross-linked", img: "shrinkfilm",
+  hook: "A film with a memory. Polyolefin or PVC is stretched in both directions while warm and then chilled, which freezes the molecules in their stretched state and stores the energy of the stretch; for the polyolefin kind an electron beam cross-links the chains first so they cannot slide apart when heated. Pass it through a hot tunnel and it tries to return to its unstretched size, shrinking by half or more and pulling tight around whatever is inside. PVC shrinks hard and fast and gives off hydrogen chloride while it does; polyolefin is tougher, cleaner and what food is wrapped in. The same trick in a tube is the heat-shrink on a wire.",
+  stats: [["Shrink", "up to 50-70% in each direction"], ["Trigger", "hot air, roughly 120-180 °C"], ["Cross-linked by", "electron beam, for the polyolefin grade"]],
+  uses: "Multipacks and boxed software, bottle labels, boats in winter storage, heat-shrink tubing on wiring.",
+  link: "https://en.wikipedia.org/wiki/Shrink_wrap"
+},
+{
+  id: "ldpefilm", cat: "film", name: "Blown polyethylene film",
+  sub: "low-density polyethylene, inflated from a ring die", img: "ldpefilm",
+  hook: "Most of the plastic bags in the world are made by blowing a bubble. Molten polyethylene comes up through a ring-shaped die, air is blown into the middle, and a tube of film several storeys high rises through a cooling ring before a pair of rollers flattens it at the top. The bubble stretches the film in both directions at once, which is what gives a bag its toughness, and the whole thing is held in a balance of air pressure, melt strength and roller speed that an operator watches by eye. Low-density polyethylene is used because its branched chains give the melt the strength to stand up as a bubble at all.",
+  stats: [["Film", "from about 10 to 250 µm"], ["Bubble", "up to several metres across"], ["Why LDPE", "branched chains give melt strength"]],
+  uses: "Carrier bags and bin liners, bread bags, agricultural sheet, the liner inside a cereal box.",
+  link: "https://en.wikipedia.org/wiki/Low-density_polyethylene",
+  src: ["Macrogalleria: polyethylene", "https://pslc.ws/macrog/pe.htm"]
+},
+{
+  id: "pdlcfilm", cat: "film", name: "PDLC switchable film",
+  sub: "liquid crystal droplets in a polymer, between conductive PET", img: "pdlcfilm",
+  hook: "A sheet that goes from frosted to clear when you switch on a current. Microscopic droplets of liquid crystal are cured into a polymer layer a few hundredths of a millimetre thick between two transparent conductive films; with no field the molecules in each droplet point every which way, their refractive index does not match the polymer, and light scatters. Apply about sixty volts and the molecules line up, the indices match and the film turns clear. It uses power to stay transparent, not to stay opaque, it does not block light so much as blur it, and the switch takes milliseconds either way.",
+  stats: [["Clear at", "roughly 48-65 V AC"], ["Power", "only while transparent"], ["Switch", "a few milliseconds"]],
+  uses: "Meeting-room glass, hospital partitions, rear-projection shop windows, car sunroofs, aircraft cabin dividers.",
+  link: "https://en.wikipedia.org/wiki/Smart_glass",
+  src: ["Gauzy: PDLC", "https://www.gauzy.com/pdlc/"]
+},
+{
+  id: "capfilm", cat: "film", name: "Metallised capacitor film",
+  sub: "polypropylene with a few nanometres of aluminium or zinc", img: "capfilm",
+  hook: "A capacitor that repairs its own failures. The dielectric is polypropylene film a few microns thick, carrying an electrode of evaporated metal so thin, tens of nanometres, that it is almost not there. When a weak spot in the film breaks down, the arc vaporises the metal around the hole faster than it can carry current, the fault is cut out of the circuit in microseconds, and the capacitor goes on working with a little less capacitance. Thousands of such clearings can happen over a life. A foil electrode would hold the arc and short the part for good; the thin metal fails safe by failing first.",
+  stats: [["Film", "polypropylene, about 2-10 µm"], ["Electrode", "aluminium or zinc, tens of nanometres"], ["Self-healing", "a clearing takes microseconds"]],
+  uses: "Mains filters, motor-run and lighting capacitors, inverters, the snubbers in every switch-mode supply.",
+  link: "https://en.wikipedia.org/wiki/Film_capacitor",
+  src: ["Vishay: film capacitors", "https://www.vishay.com/en/capacitors/film/"]
+},
+{
+  id: "nitratefilm", cat: "film", name: "Nitrate film base",
+  sub: "cellulose nitrate, camphor-plasticised", img: "nitratefilm",
+  hook: "The first flexible film base, and the reason cinema archives are built like bunkers. Cellulose nitrate is chemically close to guncotton; it burns fiercely, carries its own oxygen so water does not put it out, and can ignite on its own in a hot can. Worse for the archivist, it decomposes slowly from the day it is made, giving off nitrogen dioxide that attacks the gelatin image, then the base itself, until a reel is a sticky brown mass and finally a rust-coloured powder. The decay is self-catalysing, so every reel in a sealed can speeds the next one. Manufacture stopped in 1951 in favour of acetate, which has a slower disaster of its own.",
+  stats: [["Used", "1889 to about 1951"], ["Burns", "self-oxidising, cannot be smothered"], ["Decay", "self-catalysing, feeds on its own fumes"]],
+  uses: "Early cinema and still negatives, now stored cold in vaults; the survivors are copied, the rest dissolve.",
+  link: "https://en.wikipedia.org/wiki/Nitrocellulose",
+  src: ["Library of Congress: care of film", "https://www.loc.gov/preservation/care/film.html"]
+},
+{
+  id: "sailfilm", cat: "film", name: "Solar sail film",
+  sub: "aluminised polyimide or polyester, 2-8 µm", img: "sailfilm",
+  hook: "A spacecraft pushed by light, which weighs nothing, needs a sail that weighs almost nothing. The film is polyimide or polyester, a tenth the thickness of kitchen foil and twenty times thinner than a hair, carrying a coat of aluminium a hundred nanometres thick to reflect sunlight and, on the back, chromium or a black layer to shed heat. Sunlight pushes on it with about nine micronewtons per square metre at Earth, so a sail the size of a tennis court accelerates a small satellite the way a snail does; what it never does is run out of fuel. Folding it so it unpacks without tearing is the hard part.",
+  stats: [["Film", "2-8 µm, aluminised"], ["Thrust", "about 9 µN per square metre at Earth"], ["Packing", "folded flat, unfurled on booms"]],
+  uses: "IKAROS, LightSail 2, NASA ACS3; proposed for station-keeping and for drag sails that de-orbit dead satellites.",
+  link: "https://en.wikipedia.org/wiki/Solar_sail",
+  src: ["NASA: Advanced Composite Solar Sail System", "https://www.nasa.gov/mission/acs3/"]
+},
+{
+  id: "ptfetape", cat: "film", name: "Thread seal tape",
+  sub: "unsintered PTFE, calendered to 0.075 mm", img: "ptfetape",
+  hook: "The white tape on a pipe thread is PTFE that was never fully made. Sintered PTFE is the hard, slippery solid of a frying pan; this is the raw powder pasted with a lubricant and squeezed through rollers into a ribbon, then dried but not baked, so the particles are only lightly fused and the film tears, stretches and smears at a touch. Wrapped round a thread it does not seal by sticking or setting. The thread crushes it into the gaps and it cold-flows to fill them, and it lubricates the joint so the taper pulls up further. Wrap it against the direction of tightening and the thread unwinds it; put it on a parallel thread and it does nothing much at all.",
+  stats: [["Thickness", "about 0.075 mm"], ["Works by", "cold flow into the thread, plus lubrication"], ["Wrong way round", "the thread peels it off"]],
+  uses: "Plumbing, gas fittings with the yellow grade, air lines, the laboratory and the oxygen bottle.",
+  link: "https://en.wikipedia.org/wiki/Thread_seal_tape"
+},
+{
+  id: "parafilm", cat: "film", name: "Parafilm",
+  sub: "paraffin wax and polyolefin, 0.13 mm", img: "parafilm",
+  hook: "A lab film that seals by being stretched over the mouth of a flask, and nowhere else is anything sealed that way. It is paraffin wax blended with a polyolefin, which gives it the waxy self-cling of the one and the stretch of the other; pulled to twice its length it thins, clings to glass and to itself, and stays put, keeping water vapour out of a sample and solvent in, well enough to hold a flask for weeks. It is cheap, it leaves no residue, and it fails in the ways wax does: above about 50 °C it softens and sags, a solvent that dissolves paraffin walks straight through it, and it is not sterile.",
+  stats: [["Stretch", "to about 200%"], ["Seals against", "water vapour, not solvents"], ["Dies at", "about 50 °C"]],
+  uses: "Flasks, test tubes and Petri dishes in every laboratory, grafting tape in orchards, a quick cork.",
+  link: "https://en.wikipedia.org/wiki/Parafilm",
+  src: ["Amcor: sealing films and wraps", "https://www.amcor.com/products/technical-applications/sealing-films-wraps"]
+},
+{
+  id: "esdbag", cat: "film", name: "Static shielding bag",
+  sub: "metallised polyester over polyethylene, with a dissipative coat", img: "esdbag",
+  hook: "A circuit board shipped in an ordinary polythene bag can arrive dead from a spark it never saw. The silver bag is a Faraday cage you can heat-seal: a layer of aluminium a few tens of nanometres thick, buried between polyester and polyethylene, that spreads any charge around the outside instead of letting the field through, with a coating on both faces that bleeds static away slowly instead of letting it build. The pink bag beside it is only antistatic, meaning it will not generate a charge itself; it shields nothing, and the difference is about a thousand volts of protection. The metal layer is why the bag is translucent rather than clear.",
+  stats: [["Shield", "a few tens of nanometres of aluminium"], ["Surface", "dissipative, 10^8 to 10^11 ohms"], ["Pink bag", "antistatic only, no shielding"]],
+  uses: "Every memory module, drive and graphics card in transit, service spares, the inside of a repair kit.",
+  link: "https://en.wikipedia.org/wiki/Antistatic_bag",
+  src: ["ESD Association: ESD overview", "https://www.esda.org/esd-overview/"]
+},
+{
+  id: "geomembrane", cat: "film", name: "HDPE geomembrane",
+  sub: "high-density polyethylene sheet, 1-2.5 mm, carbon black", img: "geomembrane",
+  hook: "The floor under a landfill is a sheet of plastic. High-density polyethylene is extruded as flat sheet one to two and a half millimetres thick and up to eight metres wide, rolled out over a prepared clay bed, and welded along every seam with a hot wedge that leaves a double track with an air channel between, so each seam can be pressure-tested before the first lorry of waste arrives. It is chosen because nothing in leachate attacks it and because, with two percent carbon black, it survives sun on an open slope for decades. Its failure is stress cracking at a wrinkle or a weld, which is why the installation is inspected more closely than the material.",
+  stats: [["Thickness", "1-2.5 mm, rolls up to 8 m wide"], ["Seams", "hot-wedge welded, air-tested"], ["Weakness", "stress cracking at folds and seams"]],
+  uses: "Landfill liners and caps, mine heap-leach pads, reservoirs and canals, garden ponds in the thinner grades.",
+  link: "https://en.wikipedia.org/wiki/Geomembrane",
+  src: ["Geosynthetic Institute", "https://geosynthetic-institute.org/"]
+},
+{
+  id: "mulchfilm", cat: "film", name: "Plastic mulch",
+  sub: "black or clear polyethylene film, 15-30 µm, laid by machine", img: "mulchfilm",
+  hook: "A strawberry field in stripes of black plastic. The film warms the soil by a few degrees, which brings a crop forward by weeks, stops weeds by denying them light, keeps the fruit off wet earth and holds in the water from the drip line under it. Clear film warms the soil more but grows weeds under it; black blocks them; white-on-black cools the roots in summer; silver confuses aphids. The problem is at the end of the season, when a few hundred kilograms per hectare of soil-caked film has to be pulled up and has nowhere to go, which is why mulch of PBAT and starch that ploughs in and rots is the thing growers are watching.",
+  stats: [["Thickness", "15-30 µm"], ["Soil warming", "a few degrees, a crop weeks earlier"], ["Afterwards", "hundreds of kg per hectare to dispose of"]],
+  uses: "Strawberries, melons and peppers, tomato fields, vineyards; biodegradable grades for crops that are ploughed in.",
+  link: "https://en.wikipedia.org/wiki/Plastic_mulch"
+},
+{
+  id: "balewrap", cat: "film", name: "Bale wrap",
+  sub: "linear low-density polyethylene stretch film, 25 µm, UV-stabilised", img: "balewrap",
+  hook: "A wrapped bale is a silo for one. Grass cut and baled while still wet is wound in four to six overlapping layers of stretch film, which excludes air; the bacteria inside then ferment the sugars into lactic acid, the pH falls, and the grass pickles itself into silage. The film has to stay airtight for a year outdoors, so it carries a UV stabiliser and is pigmented white or pale green to keep the bale cool, and it clings to itself so the layers seal without glue. One puncture lets oxygen in and the bale moulds from that spot. The old alternative was a clamp of grass under a weighted sheet; this costs more film per tonne and fewer trips.",
+  stats: [["Layers", "4-6, overlapping by half"], ["Film", "25 µm LLDPE with UV stabiliser"], ["One hole", "mould spreads from it"]],
+  uses: "Grass and maize silage on livestock farms from Ireland to New Zealand.",
+  link: "https://en.wikipedia.org/wiki/Silage"
+},
+{
+  id: "microfilm", cat: "film", name: "Microfilm",
+  sub: "silver-gelatin emulsion on polyester base, 16 or 35 mm", img: "microfilm",
+  hook: "A storage medium with a rated life of five hundred years and a reader that is a lamp and a lens. Pages are photographed at a reduction of twenty to forty times onto silver-halide emulsion on a polyester base; the silver image is metal in gelatin, which does not fade, and the polyester, unlike the acetate it replaced, neither shrinks nor turns to vinegar. Stored cool and dry it is the only format a library can put on a shelf and trust to be readable when every current disc, drive and file format has been obsolete for centuries. The costs are that it cannot be searched, a roll takes an afternoon to read, and the colour versions do not last.",
+  stats: [["Reduction", "20-40 times"], ["Rated life", "LE-500, five centuries"], ["Reader needed", "a lamp and a lens"]],
+  uses: "Newspaper and census archives, land registries, engineering drawing vaults, the granite vault outside Salt Lake City.",
+  link: "https://en.wikipedia.org/wiki/Microform",
+  src: ["US National Archives: microfilming", "https://www.archives.gov/preservation/formats/microfilming.html"]
+},
+{
+  id: "shrinkart", cat: "film", name: "Shrink art sheet",
+  sub: "biaxially oriented polystyrene, 0.25 mm", img: "shrinkart",
+  hook: "The toy that teaches orientation. A sheet of polystyrene is stretched in both directions while warm and cooled while stretched, which locks the chains in a flattened state and makes a sheet you can draw on with pencils. In an oven at about 160 °C the chains relax to their coiled shape and the sheet shrinks to about a third of its size in each direction, curling violently on the way, and ends up nine times smaller in area and nine times thicker, with the drawing shrunk and sharpened along with it. It is the same physics as shrink film and heat-shrink tubing, and the reason a polystyrene cup from a drinks machine turns into a thick button in the same oven.",
+  stats: [["Shrinks", "to about a third in each direction"], ["Oven", "about 160 °C"], ["Thickens", "by the same factor, roughly nine"]],
+  uses: "Shrinky Dinks, jewellery and keyring craft, a classroom demonstration of polymer orientation.",
+  link: "https://en.wikipedia.org/wiki/Shrinky_Dinks",
+  src: ["Macrogalleria: polystyrene", "https://pslc.ws/macrog/styrene.htm"]
+},
+{
+  id: "lcfilm", cat: "film", name: "Liquid crystal thermometer",
+  sub: "cholesteric liquid crystal microcapsules on black polyester", img: "lcfilm",
+  hook: "A strip that reads temperature in colour with no sensor and no battery. Each number sits over a patch of cholesteric liquid crystal, a helix of rod molecules whose pitch changes with temperature and reflects the colour of light that matches it, so each patch is dark until its own band arrives and then runs red, green and blue over about a degree before going dark again. The crystal is microencapsulated and printed on a black background so the reflected colour shows. It is accurate to about half a degree, costs almost nothing, and is wrong the moment a hand or a lamp warms the strip rather than the thing it is stuck to.",
+  stats: [["Reads by", "helix pitch selecting a reflected colour"], ["Resolution", "about 1 °C per patch"], ["Fooled by", "anything that warms the strip itself"]],
+  uses: "Aquariums and fermenters, fridge strips, forehead thermometers, mood rings, mapping airflow over a wing in a wind tunnel.",
+  link: "https://en.wikipedia.org/wiki/Liquid_crystal_thermometer"
+},
+{
+  id: "feelerstock", cat: "film", name: "Feeler stock",
+  sub: "hardened and tempered carbon steel strip, 0.04-1 mm", img: "feelerstock",
+  hook: "A measuring instrument whose whole content is a material held to a tolerance. Feeler stock is spring steel rolled to a stated thickness and hardened, so a leaf stamped 0.10 mm is 0.10 mm along its whole length and stays that way after ten thousand slides into a spark-plug gap; the same strip is sold by the metre as shim stock for packing a bearing or truing a machine. The thin leaves will not stand up on their own and measure by feel, a light drag between two faces, which is where the name comes from. It rusts if you look at it, and a kinked leaf is scrap, because the kink is thicker than the leaf.",
+  stats: [["Thickness", "0.04-1 mm, held to a few microns"], ["Steel", "hardened and tempered carbon spring steel"], ["Scrap if", "kinked, rusted or burred"]],
+  uses: "Valve clearances and plug gaps, bearing shims, machine alignment, the slide in a luthier's nut file.",
+  link: "https://en.wikipedia.org/wiki/Feeler_gauge"
+},
+{
+  id: "greenhousefilm", cat: "film", name: "Greenhouse film",
+  sub: "UV-stabilised polyethylene or EVA, 150-200 µm, three-layer", img: "greenhousefilm",
+  hook: "A glasshouse for the price of the plastic. Polytunnel film is polyethylene blown as a tube up to sixteen metres wide, two hundred microns thick, and made to last three or four summers in full sun by a hindered-amine stabiliser that scavenges the radicals ultraviolet knocks loose; without it the sheet goes brittle and shreds in a season. The middle layer of a modern film is EVA, which absorbs the infrared the ground radiates at night and holds a few degrees of warmth, and the inside face carries an anti-drip additive so condensation runs down instead of falling as cold rain on the plants. The same chemistry is why a sulphur-based pesticide can kill a greenhouse cover.",
+  stats: [["Thickness", "150-200 µm, often three layers"], ["Life", "3-4 seasons, set by the stabiliser"], ["Killed by", "sulphur and chlorine pesticides"]],
+  uses: "Polytunnels and high tunnels worldwide, nursery cold frames, the winter cover on a strawberry field.",
+  link: "https://en.wikipedia.org/wiki/Polytunnel"
 }
 
 ];

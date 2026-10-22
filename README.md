@@ -1,6 +1,6 @@
 # Interesting Materials
 
-A single-page field guide to 511 materials that exist because of one specific trick — a
+A single-page field guide to 539 materials that exist because of one specific trick — a
 polyurethane that carries tons without overheating, a ceramic that clamps its own cracks shut,
 a lashing that tightens itself as it dries, an airbag woven closed so it has no seam to burst.
 
@@ -20,10 +20,10 @@ style.css      styling, dark by default with a light toggle
 taxonomy.js    the vocabulary: categories, picture kinds, cross-cutting themes
 app.js         rendering, search, filters, sort, shareable URL state, lightbox
 swatch.js      the drawn fallback used when a material has no photograph
-data.js        the catalogue — 511 entries, this is the file to edit
+data.js        the catalogue — 539 entries, this is the file to edit
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
-images/        511 images, 900 px wide
+images/        539 images, 960 px wide
 robots.txt     sitemap.xml   for search engines
 LICENSE        MIT for the text and the tools; the photographs keep their own licences
 tools/
@@ -66,6 +66,7 @@ python -I tools/build.py --quick  # skip the network and git steps while editing
 | `exotic` | Active & exotic | 32 |
 | `music` | Sound & music | 65 |
 | `warmth` | Warmth & insulation | 22 |
+| `film` | Films & foils | 28 |
 
 `additive` is a materials category like the rest: each card is a feedstock or the stuff a printed
 part is made of — filament, resin, powder, wire, slurry, bath — and the process that consumes it is
@@ -107,6 +108,23 @@ stitching through it; and the downproof ticking that stops any of them escaping,
 of a cloth that barely breathes. Three more do the same job for buildings — milled newsprint
 blown into a cavity, flax tow carded into mats, and the eelgrass that has kept the roofs of
 Læsø warm for three hundred years.
+
+`film` is a shape rather than a chemistry: anything made and sold as a sheet thin enough to roll,
+whatever it is made of. The category exists because a film is interesting for reasons the bulk
+material is not — stretching a sheet lines its molecules up, and most of these cards are about what
+that buys. Polarising film is polyvinyl alcohol pulled until its iodine sits in parallel lines;
+shrink film and the shrink-art sheet are the same orientation frozen in and released by heat;
+stretch wrap and bale wrap are polyethylene that never stops trying to recover; a blown bag is
+tough because it was inflated. Others are about thinness itself: gold leaf at a tenth of a micron,
+a solar sail at a few microns, a capacitor electrode so thin it burns itself out of a fault,
+aluminium foil with two different faces because the mill rolls it in pairs. The surface tricks are
+here too — retroreflective sheeting, holographic foil, lenticular and Fresnel sheets, a liquid
+crystal strip that reads temperature in colour, a sheet that turns from frosted to clear at sixty
+volts — and the ones that are famous for failing: nitrate film base, which eats itself, and
+cellophane, which is not a plastic at all. The agricultural and civil films at the end are the
+largest tonnages in the category and the least photographed: mulch, polytunnel cover, landfill
+liner. Feeler stock is the one metal that is not a foil in the packaging sense; it is here because a
+feeler gauge is nothing but a strip of steel held to a tolerance.
 
 ## Themes
 
@@ -187,8 +205,8 @@ body, a teaching page, a standards or conservation reference. Anything but Wikip
 source is not a source. Check it actually loads before committing it: manufacturers move pages
 constantly, and a few answer 403 to a script while opening fine in a browser.
 
-All 59 polymer and elastomer cards carry one, and the warmth cards carry one wherever a source
-existed that was not a shop. The other categories do not yet.
+All 59 polymer and elastomer cards carry one, and the warmth and film cards carry one wherever a
+source existed that was not a shop. The other categories do not yet.
 
 `tags` is optional and cross-cuts the categories; see *Themes* above. Both the category and
 every tag have to be declared in `taxonomy.js` or `tools/check.js` fails.
@@ -231,15 +249,15 @@ starting a round, so the same dead ends are not walked twice.
 
 ## Images and licensing
 
-All 511 entries carry an image from Wikimedia Commons. Each remains under its own licence
+All 539 entries carry an image from Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
 the lightbox. If you redistribute this page, keep those credits. No two cards use the same
 photograph.
 
-291 are photographs of the material itself. 220 are not, and say so in the corner of the image:
+316 are photographs of the material itself. 223 are not, and say so in the corner of the image:
 
-- **160 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **162 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
@@ -255,7 +273,7 @@ photograph.
 - **17 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
   optical calcium fluoride, a superhydrophobic droplet for SLIPS, a printed sand mould for
   furan-bonded sand, a GAGG:Ce scintillator for GGG, and a cut-resistant glove for Vectran.
-- **20 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
+- **21 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
   spraying for Nafion, cold spray mid-deposition for cold-spray powder, hand needle felting for
   needle-punched felt, two Markforged X7 machines for continuous fibre printing, and the loom or
   knitting machine itself for Jacquard weave, warp knitting and whole-garment knitting.
