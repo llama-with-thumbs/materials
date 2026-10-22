@@ -18,7 +18,7 @@ a handful of plain script files, and it works straight off the filesystem.
 
 ```
 index.html     page shell
-style.css      styling, dark by default with a light toggle
+style.css      the design system: paper by default, a dark toggle, Jost
 taxonomy.js    the vocabulary: categories, picture kinds, cross-cutting themes
 app.js         rendering, search, filters, sort, shareable URL state, lightbox
 swatch.js      the drawn fallback used when a material has no photograph
@@ -26,6 +26,7 @@ data.js        the catalogue — 539 entries, this is the file to edit
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
 images/        539 images, 960 px wide
+fonts/         Jost, variable weight, latin and latin-ext, with its OFL licence
 robots.txt     sitemap.xml   for search engines
 LICENSE        MIT for the text and the tools; the photographs keep their own licences
 tools/
@@ -52,23 +53,73 @@ python -I tools/build.py          # images, credits, add order, counts, both che
 python -I tools/build.py --quick  # skip the network and git steps while editing the page
 ```
 
+## Design
+
+The page is set as a continuation of the Bauhaus preliminary course. Itten, then Moholy-Nagy
+and Albers, sent every student to the workshop before the drawing board: a term of handling
+metal, wood, paper and cloth, with simple tools and no end product, to learn what each material
+will do and what it refuses to do. Albers called it a school of invention and aimed at the most
+effect from the least material, energy and time. A catalogue of what materials do, how they are
+made and how they fail is that exercise carried on, so the page borrows the school's print
+manner as well: Bayer's lowercase sans and red bars, Schmidt's asymmetric grid, Kandinsky's
+three primaries kept for the three primary forms.
+
+The rules, so the next change has something to be consistent with:
+
+- One typeface: Jost, Futura's open-licence successor, bundled in `fonts/`. Fallback is Futura,
+  then Century Gothic, then the system sans.
+- Paper ground, white panels, near-black type, one working colour: red. It marks the active
+  filter, the title's full stop, the bar over the title, a hovered link, and the stamp that says
+  a picture is not the material itself. Blue and yellow appear in exactly two places: the circle
+  and triangle on the two cross-category themes, and the favicon.
+- Every radius is 0. No shadow, gradient, blur or transition. Structure is drawn with rules:
+  3 px under the masthead and over the footer, 2 px between a picture and its text, 1 px
+  hairlines everywhere else, including the three-row table the stats are set in.
+- The page speaks in lowercase: title, labels, buttons, pills, count, footer. The data keeps
+  its own case, because PTFE is not ptfe and Kevlar is a name. Lowercase is written into the
+  source strings, never applied with `text-transform`, so copy and paste gets what is shown.
+- The workshop is stamped in black on the top-left of every picture; when the picture is not the
+  material itself, what it shows is stamped in red at the bottom-right.
+- Every card carries its number in add order, `no. 1` to `no. 539`.
+- The dark theme is the same page with ink and paper swapped, nothing else.
+
+The categories are named after the workshop each descends from. The keys in `data.js` never
+change; only the label the filter button shows. Where the school had no such workshop, the
+table says so rather than pretending.
+
+| key | shown as | descends from |
+|---|---|---|
+| `polymer` | plastics | none: the school closed in 1933 before plastics had a workshop of their own |
+| `metal` | metal | the metal workshop (Moholy-Nagy; Brandt, Wagenfeld) |
+| `ceramic` | clay and glass | the pottery at Dornburg (Marcks, Bogler, Lindig) and the glass-painting workshop (Albers) |
+| `electronic` | light and current | none: the nearest is Moholy-Nagy's light studies and the Light-Space Modulator |
+| `composite` | building | the building department, from 1927 under Meyer |
+| `additive` | printing in three dimensions | none: the printing and advertising workshop (Bayer) was two dimensions short |
+| `fibre` | yarn and rope | the weaving workshop (Stölzl, Albers), the yarn side |
+| `fabric` | cloth | the weaving workshop, the cloth side |
+| `natural` | wood, bone and horn | the cabinet-making workshop (Breuer) and the wood and stone sculpture workshop |
+| `exotic` | the preliminary course | the Vorkurs itself: material studies with no product in mind |
+| `music` | stage and sound | the stage workshop (Schlemmer); the Bauhaus band had no workshop |
+| `warmth` | warmth | none as a workshop; the weavers made the blankets |
+| `film` | film and foil | none: photography (Peterhans, from 1929) is the nearest, with the Vorkurs paper exercises |
+
 ## Categories
 
 | `cat` | Shown as | Entries |
 |---|---|---|
-| `polymer` | Polymers & elastomers | 59 |
-| `metal` | Metals & alloys | 46 |
-| `ceramic` | Ceramics & glass | 50 |
-| `electronic` | Semiconductors & optics | 29 |
-| `composite` | Composites & structures | 36 |
-| `additive` | 3D printing & additive | 20 |
-| `fibre` | Ropes & woven materials | 69 |
-| `fabric` | Fabrics & constructions | 54 |
-| `natural` | Natural & biological | 29 |
-| `exotic` | Active & exotic | 32 |
-| `music` | Sound & music | 65 |
-| `warmth` | Warmth & insulation | 22 |
-| `film` | Films & foils | 28 |
+| `polymer` | plastics | 59 |
+| `metal` | metal | 46 |
+| `ceramic` | clay and glass | 50 |
+| `electronic` | light and current | 29 |
+| `composite` | building | 36 |
+| `additive` | printing in three dimensions | 20 |
+| `fibre` | yarn and rope | 69 |
+| `fabric` | cloth | 54 |
+| `natural` | wood, bone and horn | 29 |
+| `exotic` | the preliminary course | 32 |
+| `music` | stage and sound | 65 |
+| `warmth` | warmth | 22 |
+| `film` | film and foil | 28 |
 
 `additive` is a materials category like the rest: each card is a feedstock or the stuff a printed
 part is made of — filament, resin, powder, wire, slurry, bath — and the process that consumes it is
@@ -133,11 +184,11 @@ feeler gauge is nothing but a strip of steel held to a tolerance.
 A card has exactly one category, which is what the material *is*. A theme is a job it happens
 to do, and a card can carry several — declared as `tags: ["warmth"]` in `data.js` and listed in
 `taxonomy.js`. Filtering on a theme shows its own category plus every card tagged with it, so
-merino wool stays filed under ropes and woven materials and still turns up under *Keeping warm*
+merino wool stays filed under yarn and rope and still turns up under *keeping warm*
 along with down, cashmere, qiviut, kapok, fleece, felt, tweed, mineral wool, EPS, aerogel,
 vacuum panels and phase-change material.
 
-*Inside a duvet* is the second theme, and it is deliberately narrow: fifteen cards that are
+*inside a duvet* is the second theme, and it is deliberately narrow: fifteen cards that are
 either the filling, the cloth around it, or the thing that stops the filling moving. A card
 is only tagged with it if its own `uses` line says it goes into bedding, which is why camel
 hair and alpaca are not in it even though both are sold as duvets somewhere.
@@ -255,9 +306,10 @@ All 539 entries carry an image from Wikimedia Commons. Each remains under its ow
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
 the lightbox. If you redistribute this page, keep those credits. No two cards use the same
-photograph.
+photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
+in `fonts/OFL.txt`.
 
-316 are photographs of the material itself. 223 are not, and say so in the corner of the image:
+316 are photographs of the material itself. 223 are not, and say so in red on the corner of the image:
 
 - **162 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for

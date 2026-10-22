@@ -122,9 +122,11 @@ PIL work: `python -I` excludes user site-packages and PIL is not found under it.
 
 A category exists when `taxonomy.js` says it does. In order:
 
-1. add it to `window.CATS` in `taxonomy.js`, last, with the label the filter button shows;
-2. if the first word of that label is uninformative on its own, add a short badge word to
-   `window.CAT_TAGS` — the corner of every photograph uses it;
+1. add it to `window.CATS` in `taxonomy.js`, last, with the label the filter button shows.
+   Labels are lowercase and named after the workshop the category descends from (see the
+   README under Design); keys never change;
+2. add a short lowercase badge word to `window.CAT_TAGS` — the corner of every photograph
+   uses it, and every key has one;
 3. write the cards as usual and run `add_cards.py`: the first card of an undeclared-in-`data.js`
    category starts its block at the end of the file, and the rest stack after it;
 4. add a row to the Categories table in `README.md` with any number in it — `readme_numbers.py`

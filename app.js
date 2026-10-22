@@ -1,4 +1,6 @@
 /* Interesting Materials — filtering, sorting and rendering.
+   Labels are lowercase on purpose (the page is set in the Bauhaus manner); the data
+   keeps its own case.
    Vocabulary lives in taxonomy.js, the drawn fallback swatches in swatch.js, the
    cards in data.js, the photo credits in credits.js and the add order in added.js. */
 
@@ -19,10 +21,10 @@ const seq = m => (ADD_INDEX.has(m.id) ? ADD_INDEX.get(m.id) : ADD_ORDER.length);
 // Label, and how to order the filtered list. A null comparator leaves it in file
 // order, which is category by category.
 const SORTS = {
-  old: ["Added — new at the bottom", (a, b) => seq(a) - seq(b)],
-  new: ["Added — newest first", (a, b) => seq(b) - seq(a)],
-  cat: ["Grouped by category", null],
-  az: ["A–Z by name", (a, b) => a.name.localeCompare(b.name)]
+  old: ["added — new at the bottom", (a, b) => seq(a) - seq(b)],
+  new: ["added — newest first", (a, b) => seq(b) - seq(a)],
+  cat: ["grouped by workshop", null],
+  az: ["a–z by name", (a, b) => a.name.localeCompare(b.name)]
 };
 
 /* ---------- search index ---------- */
@@ -81,17 +83,18 @@ function cardFor(mat) {
   const themes = (mat.tags || []).filter(t => THEMES[t])
     .map(t => `<button class="theme" data-cat="${esc(t)}">${esc(THEMES[t])}</button>`).join("");
   html = `<article class="card" id="m-${esc(mat.id)}" data-cat="${esc(mat.cat)}" data-id="${esc(mat.id)}">
-    <button class="shot" data-shot="${esc(mat.id)}" title="Enlarge">
+    <button class="shot" data-shot="${esc(mat.id)}" title="enlarge">
       ${shotFor(mat)}
       <span class="tag">${esc(catTag(mat.cat))}</span>
       ${kind ? `<span class="tag kind">${esc(KINDS[kind])}</span>` : ""}
     </button>
     <div class="body">
+      <p class="no">no. ${seq(mat) + 1}</p>
       <h2>${esc(mat.name)}</h2>
       <p class="sub">${esc(mat.sub)}</p>
       <p class="hook">${esc(mat.hook)}</p>
       <div class="stats">${stats}</div>
-      <p class="uses"><b>Where you meet it:</b> ${esc(mat.uses)}</p>
+      <p class="uses"><b>where you meet it:</b> ${esc(mat.uses)}</p>
       <p class="meta">${source}<span class="links">${themes}${src}${more}</span></p>
     </div>
   </article>`;
@@ -114,7 +117,7 @@ function render() {
   if (cmp) list.sort(cmp);
   grid.innerHTML = list.length
     ? list.map(cardFor).join("")
-    : `<p class="empty">Nothing matches that. Try "ceramic", "heat" or "wheel".</p>`;
+    : `<p class="empty">nothing matches that. try "glass", "heat" or "wheel".</p>`;
   const where = activeCat === "all" ? "" : ` · ${CATS[activeCat] || THEMES[activeCat] || activeCat}`;
   countEl.textContent = `${list.length} of ${MATERIALS.length} materials${where}`;
   jumpState();
@@ -146,14 +149,14 @@ function writeHash() {
 const filterBar = document.querySelector(".filters");
 const themeBar = document.querySelector(".themes");
 
-filterBar.innerHTML = [["all", "Everything"], ...Object.entries(CATS)]
+filterBar.innerHTML = [["all", "all"], ...Object.entries(CATS)]
   .map(([k, label]) => `<button class="pill" data-cat="${k}">${esc(label)}</button>`).join("");
 
 // A theme whose key is also a category key already has a button in the row above —
 // clicking that one picks up the tagged cards too, so a second button would do nothing new.
 const LOOSE_THEMES = Object.entries(THEMES).filter(([k]) => !CATS[k]);
 if (themeBar && LOOSE_THEMES.length) {
-  themeBar.innerHTML = '<span class="themes-label">Across the categories:</span>' +
+  themeBar.innerHTML = '<span class="themes-label">across the workshops:</span>' +
     LOOSE_THEMES.map(([k, label]) =>
       `<button class="pill theme" data-cat="${k}">${esc(label)}</button>`).join("");
 }
@@ -255,10 +258,10 @@ grid.addEventListener("click", e => {
   const mat = MATERIALS.find(m => m.id === btn.dataset.shot);
   const c = CREDITS[mat.id];
   const credit = c
-    ? `<span class="credit">${KINDS[c.kind] ? "Shows " + esc(KINDS[c.kind]) + ". " : ""}${esc(c.caption)} — ${esc(c.artist)}, ${esc(c.license)},
+    ? `<span class="credit">${KINDS[c.kind] ? "shows " + esc(KINDS[c.kind]) + ". " : ""}${esc(c.caption)} — ${esc(c.artist)}, ${esc(c.license)},
          <a href="${esc(c.page)}" target="_blank" rel="noopener">Wikimedia Commons</a></span>`
-    : `<span class="credit">Drawn illustration — no freely licensed photograph of this material was available.</span>`;
-  lbInner.innerHTML = `<button id="lb-close" type="button" aria-label="Close">×</button>
+    : `<span class="credit">drawn illustration — no freely licensed photograph of this material was available.</span>`;
+  lbInner.innerHTML = `<button id="lb-close" type="button" aria-label="close">×</button>
     <figure>${shotFor(mat, true)}
     <figcaption><strong>${esc(mat.name)}</strong> · ${esc(mat.sub)}${credit}</figcaption></figure>`;
   lb.showModal();
@@ -277,7 +280,7 @@ const root = document.documentElement;
 
 function applyTheme(t) {
   root.setAttribute("data-theme", t);
-  themeBtn.textContent = t === "light" ? "Dark" : "Light";
+  themeBtn.textContent = t === "dark" ? "paper" : "dark";
 }
 
 applyTheme(root.getAttribute("data-theme") === "light" ? "light" : "dark");

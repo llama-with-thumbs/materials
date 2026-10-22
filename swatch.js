@@ -1,6 +1,8 @@
 /* The drawn swatches, used where no freely licensed photograph of a material exists.
    Every card in the catalogue currently has a photograph, so this is a fallback — but a
-   deterministic one: a given id always draws the same way, so the page never flickers. */
+   deterministic one: a given id always draws the same way, so the page never flickers.
+   Flat fill plus one pattern; no gradient, no sheen, to match the page. The three
+   colours are mid, highlight and shadow; only the first is used for the ground now. */
 
 // Small deterministic PRNG so a given material always draws the same way.
 function rng(seed) {
@@ -69,24 +71,14 @@ function makeSwatch(mat) {
   const { pattern, colors } = mat.swatch;
   const id = "sw-" + mat.id;
   const rand = rng(mat.id + pattern);
-  return `<svg viewBox="0 0 400 300" role="img" aria-label="Illustration of ${esc(mat.name)}" preserveAspectRatio="xMidYMid slice">
+  // A flat fill and one pattern: no gradient and no sheen, to match the page.
+  return `<svg viewBox="0 0 400 300" role="img" aria-label="illustration of ${esc(mat.name)}" preserveAspectRatio="xMidYMid slice">
     <defs>
-      <linearGradient id="${id}-g" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="${colors[1]}"/>
-        <stop offset="0.45" stop-color="${colors[0]}"/>
-        <stop offset="1" stop-color="${colors[2]}"/>
-      </linearGradient>
-      <radialGradient id="${id}-s" cx="0.3" cy="0.22" r="0.75">
-        <stop offset="0" stop-color="#fff" stop-opacity="0.34"/>
-        <stop offset="0.55" stop-color="#fff" stop-opacity="0.05"/>
-        <stop offset="1" stop-color="#000" stop-opacity="0.28"/>
-      </radialGradient>
       <clipPath id="${id}-c"><rect width="400" height="300"/></clipPath>
     </defs>
     <g clip-path="url(#${id}-c)">
-      <rect width="400" height="300" fill="url(#${id}-g)"/>
+      <rect width="400" height="300" fill="${colors[0]}"/>
       ${overlay(pattern, id, rand)}
-      <rect width="400" height="300" fill="url(#${id}-s)"/>
     </g>
   </svg>`;
 }

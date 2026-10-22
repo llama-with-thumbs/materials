@@ -1,31 +1,42 @@
 /* The catalogue's vocabulary, in one place: categories, picture kinds and themes.
    The page reads it, and tools/check.js reads it to validate data.js — so a category
    or a theme that is not declared here is a hard error rather than a silent typo.
-   Order matters: it is the order of the filter buttons and of the blocks in data.js. */
+   Order matters: it is the order of the filter buttons and of the blocks in data.js.
+   Labels are lowercase and named after the workshop a category descends from, in the
+   Bauhaus manner; the keys are the stable names and never change. */
 
 window.CATS = {
-  polymer: "Polymers & elastomers",
-  metal: "Metals & alloys",
-  ceramic: "Ceramics & glass",
-  electronic: "Semiconductors & optics",
-  composite: "Composites & structures",
-  additive: "3D printing & additive",
-  fibre: "Ropes & woven materials",
-  fabric: "Fabrics & constructions",
-  natural: "Natural & biological",
-  exotic: "Active & exotic",
-  music: "Sound & music",
-  warmth: "Warmth & insulation",
-  film: "Films & foils"
+  polymer: "plastics",
+  metal: "metal",
+  ceramic: "clay and glass",
+  electronic: "light and current",
+  composite: "building",
+  additive: "printing in three dimensions",
+  fibre: "yarn and rope",
+  fabric: "cloth",
+  natural: "wood, bone and horn",
+  exotic: "the preliminary course",
+  music: "stage and sound",
+  warmth: "warmth",
+  film: "film and foil"
 };
 
-// The short word stamped on the corner of each photograph. Taken from the category
-// name, except where the first word is uninformative on its own.
+// The single word stamped on the corner of each photograph. Every category gets one,
+// because the first word of a label like "the preliminary course" says nothing on its own.
 window.CAT_TAGS = {
-  electronic: "Semiconductors",
-  additive: "Additive",
-  fibre: "Rope",
-  warmth: "Warmth"
+  polymer: "plastics",
+  metal: "metal",
+  ceramic: "clay",
+  electronic: "light",
+  composite: "building",
+  additive: "printing",
+  fibre: "rope",
+  fabric: "cloth",
+  natural: "grown",
+  exotic: "vorkurs",
+  music: "stage",
+  warmth: "warmth",
+  film: "film"
 };
 
 // What the picture actually shows, when it is not a photograph of the material itself.
@@ -40,8 +51,8 @@ window.KINDS = {
 // Themes cut across the categories. A card belongs to exactly one category, which is
 // what it *is*; a theme is a job it happens to do, and it can hold several. Filtering
 // on a theme shows its own category plus every card tagged with it, so merino wool
-// stays filed under ropes and woven materials and still turns up under Keeping warm.
+// stays filed under yarn and rope and still turns up under keeping warm.
 window.THEMES = {
-  warmth: "Keeping warm",
-  duvet: "Inside a duvet"
+  warmth: "keeping warm",
+  duvet: "inside a duvet"
 };

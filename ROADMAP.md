@@ -23,6 +23,7 @@ Ordered by payoff per hour, not by how interesting it is to build.
 | CI on every push | `check.js`, `render.js`, a counts-are-current check and a secret scan. |
 | `LICENSE`, `robots.txt`, `sitemap.xml`, Open Graph tags | The site is public now. MIT for the text and tools; the photographs keep their own licences, which is spelled out. |
 | Skip link, `aria-live` count, lightbox close button, print stylesheet | The small accessibility debts. |
+| Bauhaus redesign (2026-10-22) | Paper by default, Jost bundled, lowercase chrome, one working red, stats as a hairline table, a running card number, categories named after the workshops they descend from. The rules and the lineage are in the README under Design, so the next change has something to be consistent with. |
 
 ## Next, in order
 

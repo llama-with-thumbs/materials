@@ -1,43 +1,65 @@
-:root {
-  --bg: #0f1113;
-  --bg-raised: #171a1d;
-  --bg-sunken: #0a0c0d;
-  --line: #262b30;
-  --line-soft: #1d2126;
-  --text: #e8eaec;
-  --text-dim: #9aa3ab;
-  --text-faint: #6b747c;
-  --accent: #d9a441;
-  --accent-soft: rgba(217, 164, 65, 0.14);
-  --radius: 10px;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.3);
+/* Interesting Materials — the page, set in the manner of the Bauhaus.
+   One typeface, one working colour, square corners, rules instead of shadows, and
+   lowercase everywhere the page speaks for itself. Every rule here does a job; the
+   reasons are in the README under Design. Paper is the default, dark is the inverse. */
+
+/* ---------- type ---------- */
+
+@font-face {
+  font-family: "Jost";
+  src: url("fonts/jost-latin.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-:root[data-theme="light"] {
-  --bg: #f6f5f2;
-  --bg-raised: #ffffff;
-  --bg-sunken: #ecebe7;
-  --line: #ddd9d2;
-  --line-soft: #e8e5e0;
-  --text: #1b1d1f;
-  --text-dim: #5c646c;
-  --text-faint: #8a9199;
-  --accent: #9a6b11;
-  --accent-soft: rgba(154, 107, 17, 0.1);
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 6px 20px rgba(0, 0, 0, 0.07);
+@font-face {
+  font-family: "Jost";
+  src: url("fonts/jost-latin-ext.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
+/* ---------- tokens ---------- */
+
+:root {
+  --paper: #f5f2eb;   /* the ground */
+  --panel: #ffffff;   /* a card */
+  --ink: #111111;     /* type and rules */
+  --dim: #5f5b54;     /* secondary type */
+  --line: #d9d4c9;    /* hairlines */
+  --red: #d1261c;     /* the one working colour */
+  --blue: #2448a8;    /* the circle: inside a duvet; the favicon */
+  --yellow: #f2c400;  /* the triangle: keeping warm; the favicon */
+  --font: "Jost", Futura, "Century Gothic", "Avenir Next", "Segoe UI", sans-serif;
+}
+
+:root[data-theme="dark"] {
+  --paper: #111111;
+  --panel: #191919;
+  --ink: #f2efe8;
+  --dim: #a7a399;
+  --line: #2e2e2e;
+}
+
+/* ---------- base ---------- */
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
-  background: var(--bg);
-  color: var(--text);
-  font: 16px/1.6 ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 16px/1.5 var(--font);
   -webkit-font-smoothing: antialiased;
 }
 
 a { color: inherit; }
+
+button, input, select { font: inherit; }
 
 .wrap {
   max-width: 1240px;
@@ -47,155 +69,154 @@ a { color: inherit; }
 
 /* ---------- header ---------- */
 
-header {
-  border-bottom: 1px solid var(--line);
-  background: linear-gradient(180deg, var(--bg-raised), var(--bg));
-}
+header { border-bottom: 3px solid var(--ink); }
 
+/* Title left, lede in a narrow column to the right, the theme switch in the corner. */
 .masthead {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 44px 0 28px;
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 4fr) auto;
+  column-gap: 32px;
+  align-items: start;
+  padding: 40px 0 24px;
 }
 
 h1 {
-  margin: 0 0 10px;
-  font-size: clamp(28px, 5vw, 42px);
-  letter-spacing: -0.02em;
-  line-height: 1.1;
+  margin: 0;
+  font-size: clamp(34px, 6vw, 64px);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.01em;
 }
 
-h1 .dot { color: var(--accent); }
+/* The bar over the title. */
+h1::before {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 10px;
+  margin-bottom: 18px;
+  background: var(--red);
+}
+
+h1 .dot { color: var(--red); }
 
 .lede {
   margin: 0;
-  max-width: 62ch;
-  color: var(--text-dim);
-  font-size: 16px;
+  padding-top: 28px;
+  max-width: 40ch;
+  font-size: 15px;
+  color: var(--dim);
 }
 
 #theme {
-  flex: none;
-  background: transparent;
-  border: 1px solid var(--line);
-  color: var(--text-dim);
-  border-radius: 999px;
-  padding: 7px 14px;
-  font: inherit;
-  font-size: 13px;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid var(--ink);
+  padding: 4px 0;
+  font-size: 14px;
+  color: var(--ink);
   cursor: pointer;
 }
-
-#theme:hover { color: var(--text); border-color: var(--text-faint); }
 
 /* ---------- controls ---------- */
 
 .controls {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px 24px;
+  align-items: end;
+}
+
+#search, #sort {
+  min-width: 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--ink);
+  padding: 8px 0;
+  color: var(--ink);
+}
+
+#search { font-size: 15px; }
+#sort { font-size: 14px; cursor: pointer; }
+#search:focus, #sort:focus { outline: 0; border-bottom-color: var(--red); }
+#search::placeholder { color: var(--dim); }
+
+.filters, .themes {
+  grid-column: 1 / -1;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
   align-items: center;
-  padding-bottom: 20px;
+  gap: 0 20px;
+  padding: 2px 0;
+  border-bottom: 1px solid var(--line);
 }
 
-#search {
-  flex: 1 1 220px;
-  min-width: 0;
-  background: var(--bg-sunken);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: var(--text);
-  font: inherit;
-  font-size: 14px;
-  padding: 9px 16px;
-}
-
-#search:focus {
-  outline: none;
-  border-color: var(--accent);
-}
-
-#search::placeholder { color: var(--text-faint); }
-
-#sort {
-  flex: none;
-  background: var(--bg-sunken);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: var(--text-dim);
-  font: inherit;
-  font-size: 13px;
-  padding: 8px 12px;
-  cursor: pointer;
-}
-
-#sort:hover { color: var(--text); }
-#sort:focus { outline: none; border-color: var(--accent); }
-
-.filters { display: flex; flex-wrap: wrap; gap: 8px; }
-
-.themes { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
-.themes-label { color: var(--text-faint); font-size: 12px; }
-.pill.theme { border-style: dashed; }
+.filters { border-top: 1px solid var(--line); }
+.themes:empty { display: none; }
+.themes-label { font-size: 13px; color: var(--dim); }
 
 .pill {
-  background: transparent;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: var(--text-dim);
-  font: inherit;
-  font-size: 13px;
-  padding: 7px 14px;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  padding: 8px 0 6px;
+  font-size: 14px;
+  color: var(--dim);
   cursor: pointer;
   white-space: nowrap;
 }
 
-.pill:hover { color: var(--text); }
+.pill:hover { color: var(--ink); }
+.pill[aria-pressed="true"] { color: var(--ink); border-bottom-color: var(--red); }
 
-.pill[aria-pressed="true"] {
-  background: var(--accent-soft);
-  border-color: var(--accent);
-  color: var(--accent);
+/* The two themes carry Kandinsky's forms: a yellow triangle for keeping warm,
+   a blue circle for inside a duvet. The only blue and yellow on the page. */
+.pill.theme::before, .meta .theme::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
 }
+
+.theme[data-cat="warmth"]::before { background: var(--yellow); clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.theme[data-cat="duvet"]::before { background: var(--blue); clip-path: circle(50%); }
 
 /* ---------- grid ---------- */
 
-main { padding: 28px 0 56px; }
+main { padding: 20px 0 64px; }
 
 #count {
-  color: var(--text-faint);
+  margin: 0 0 16px;
   font-size: 13px;
-  margin: 0 0 18px;
+  color: var(--dim);
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-  gap: 20px;
+  gap: 24px;
 }
 
 .card {
   /* 500 cards is a lot of layout. Let the browser skip the ones nobody is looking at;
      the placeholder height keeps the scrollbar honest while it does. */
   content-visibility: auto;
-  contain-intrinsic-size: auto 560px;
+  contain-intrinsic-size: auto 600px;
   display: flex;
   flex-direction: column;
-  background: var(--bg-raised);
-  border: 1px solid var(--line-soft);
-  border-radius: var(--radius);
+  background: var(--panel);
+  border: 1px solid var(--line);
   overflow: hidden;
-  box-shadow: var(--shadow);
 }
 
 .shot {
   position: relative;
   display: block;
   aspect-ratio: 4 / 3;
-  background: var(--bg-sunken);
+  background: var(--line);
   border: 0;
+  border-bottom: 2px solid var(--ink);
   padding: 0;
   cursor: zoom-in;
   overflow: hidden;
@@ -208,104 +229,101 @@ main { padding: 28px 0 56px; }
   display: block;
 }
 
+/* The workshop, stamped on the picture. Fixed colours: it sits on a photograph. */
+.shot .tag {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #111;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 8px;
+}
+
+/* When the picture is not the material itself, it says so, in red. */
 .shot .tag.kind {
   left: auto;
   top: auto;
-  right: 10px;
-  bottom: 10px;
-  text-transform: none;
-  letter-spacing: 0;
-  font-size: 11px;
-  background: rgba(10, 12, 13, 0.6);
-  color: #cfd4d8;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  right: 0;
+  bottom: 0;
+  background: var(--red);
 }
 
-.shot .tag {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  background: rgba(10, 12, 13, 0.72);
-  color: #e8eaec;
-  backdrop-filter: blur(4px);
-  border-radius: 999px;
-  font-size: 11px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 4px 9px;
+/* ---------- card body ---------- */
+
+.body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 14px 16px 16px;
 }
 
-.body { padding: 16px 18px 18px; display: flex; flex-direction: column; flex: 1; }
+.no { margin: 0 0 2px; font-size: 12px; color: var(--dim); }
 
 .card h2 {
   margin: 0;
-  font-size: 19px;
-  letter-spacing: -0.01em;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.15;
 }
 
-.sub {
-  margin: 3px 0 10px;
-  color: var(--text-faint);
-  font-size: 13px;
-  font-style: italic;
-}
+.sub { margin: 2px 0 10px; font-size: 13px; color: var(--dim); }
 
-.hook { margin: 0 0 14px; font-size: 14.5px; color: var(--text-dim); }
+.hook { margin: 0 0 12px; font-size: 14.5px; }
 
-.stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin: 0 0 14px;
-}
+/* The three numbers, as a table of hairlines. */
+.stats { margin: 0 0 12px; border-top: 1px solid var(--line); }
 
 .stat {
-  background: var(--bg-sunken);
-  border: 1px solid var(--line-soft);
-  border-radius: 6px;
-  padding: 5px 9px;
-  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
   line-height: 1.35;
 }
 
-.stat b { display: block; color: var(--text-faint); font-weight: 500; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em; }
-.stat span { color: var(--text); }
+.stat b { font-weight: 400; font-size: 12px; color: var(--dim); }
+.stat span { font-weight: 600; text-align: right; }
 
 .uses {
   margin: auto 0 0;
-  padding-top: 12px;
-  border-top: 1px solid var(--line-soft);
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
   font-size: 13px;
-  color: var(--text-dim);
+  color: var(--dim);
 }
 
-.uses b { color: var(--text-faint); font-weight: 500; }
+.uses b { font-weight: 400; }
 
 .meta {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 4px 10px;
-  margin-top: 10px;
-  font-size: 11.5px;
-  color: var(--text-faint);
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--dim);
 }
 
 .meta .links { display: flex; align-items: center; gap: 10px; margin-left: auto; }
-.meta .theme {
+
+.meta a, .meta .theme {
   background: none;
   border: 0;
-  border-bottom: 1px dotted var(--text-faint);
   padding: 0;
-  font: inherit;
-  color: var(--text-faint);
+  color: var(--dim);
   cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
-.meta .theme:hover { color: var(--accent); border-color: var(--accent); }
-.meta a { color: var(--text-faint); text-decoration: none; border-bottom: 1px dotted var(--text-faint); }
-.meta a:hover { color: var(--accent); border-color: var(--accent); }
 
-.empty { color: var(--text-faint); padding: 40px 0; }
+.meta a:hover, .meta .theme:hover { color: var(--red); }
+
+.empty { padding: 40px 0; color: var(--dim); }
 
 /* ---------- jump buttons ---------- */
 
@@ -316,94 +334,81 @@ main { padding: 28px 0 56px; }
   z-index: 5;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
 }
 
 .jump[hidden] { display: none; }
 
 .jump button {
-  background: var(--bg-raised);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  box-shadow: var(--shadow);
-  color: var(--text-dim);
-  font: inherit;
-  font-size: 13px;
-  padding: 9px 14px;
+  width: 44px;
+  height: 44px;
+  background: var(--ink);
+  color: var(--paper);
+  border: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 1;
   cursor: pointer;
 }
 
-.jump button:hover { color: var(--accent); border-color: var(--accent); }
-
-.jump button:disabled {
-  opacity: 0.3;
-  cursor: default;
-  color: var(--text-faint);
-}
+.jump button:disabled { opacity: 0.25; cursor: default; }
 
 /* ---------- lightbox ---------- */
 
 dialog#lb {
   border: 0;
   padding: 0;
-  background: transparent;
+  background: #000;
+  color: #fff;
   max-width: min(1100px, 94vw);
-  color: var(--text);
 }
 
-dialog#lb::backdrop { background: rgba(0, 0, 0, 0.82); }
+dialog#lb::backdrop { background: rgba(0, 0, 0, 0.9); }
 
 #lb figure { margin: 0; }
+#lb-inner { position: relative; }
 
 #lb-close {
   position: absolute;
-  top: -34px;
+  top: 0;
   right: 0;
-  width: 30px;
-  height: 30px;
-  background: none;
+  width: 40px;
+  height: 40px;
+  background: var(--red);
+  color: #fff;
   border: 0;
-  color: #c7ccd1;
   font-size: 26px;
   line-height: 1;
   cursor: pointer;
 }
-#lb-close:hover { color: #fff; }
-#lb-inner { position: relative; }
 
 #lb img, #lb svg {
   display: block;
   width: 100%;
   max-height: 76vh;
   object-fit: contain;
-  border-radius: 8px;
   background: #000;
 }
 
 #lb figcaption {
-  padding: 12px 2px 0;
+  padding: 12px 16px 16px;
   font-size: 13px;
-  color: #c7ccd1;
+  color: #fff;
 }
 
-#lb figcaption .credit { display: block; margin-top: 4px; color: #8b9299; font-size: 11.5px; }
-#lb figcaption a { color: #c7ccd1; }
+#lb figcaption .credit { display: block; margin-top: 4px; font-size: 12px; color: #bbb; }
+#lb figcaption a { color: #fff; }
 
 /* ---------- footer ---------- */
 
 footer {
-  border-top: 1px solid var(--line);
-  padding: 28px 0 60px;
-  color: var(--text-faint);
+  border-top: 3px solid var(--ink);
+  padding: 24px 0 64px;
   font-size: 13px;
+  color: var(--dim);
 }
 
 footer p { max-width: 70ch; }
-
-@media (max-width: 560px) {
-  .masthead { padding: 28px 0 20px; }
-  .grid { grid-template-columns: 1fr; }
-}
 
 /* ---------- skip link ---------- */
 
@@ -413,20 +418,30 @@ footer p { max-width: 70ch; }
   top: 0;
   z-index: 10;
   padding: 10px 14px;
-  background: var(--bg-raised);
-  color: var(--text);
-  border: 1px solid var(--line);
-  border-radius: 0 0 8px 0;
+  background: var(--panel);
+  color: var(--ink);
+  border: 1px solid var(--ink);
 }
 
 .skip:focus { left: 0; }
 
+/* ---------- narrow ---------- */
+
+@media (max-width: 560px) {
+  .masthead { grid-template-columns: 1fr; row-gap: 12px; padding: 28px 0 20px; }
+  .lede { padding-top: 0; max-width: none; }
+  #theme { justify-self: start; }
+  .controls { grid-template-columns: 1fr; }
+  .grid { grid-template-columns: 1fr; }
+}
+
 /* ---------- on paper ---------- */
 
 @media print {
+  :root, :root[data-theme="dark"] { --paper: #fff; --panel: #fff; --ink: #000; --dim: #444; --line: #999; }
   header .controls, .jump, #theme, .skip, dialog#lb { display: none; }
-  body { background: #fff; color: #000; }
-  .card { break-inside: avoid; content-visibility: visible; border-color: #bbb; box-shadow: none; }
+  .card { break-inside: avoid; content-visibility: visible; }
   .grid { grid-template-columns: 1fr 1fr; }
+  .shot .tag.kind { background: #000; }
   a { color: #000; }
 }
