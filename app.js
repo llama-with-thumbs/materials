@@ -226,6 +226,43 @@ addEventListener("hashchange", () => {
   setCat(activeCat);
 });
 
+/* ---------- material of the week ---------- */
+
+// One card a week, chosen by the calendar and nothing else. The ISO week number seeds a
+// pick over the catalogue, so everyone who opens the page in the same week sees the same
+// card, with no server to remember it and nobody's hand on the scale. A new card changes
+// the count and therefore the pick, which is fine: it is a week, not a contract.
+function isoWeek(d) {
+  const t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+  const day = t.getUTCDay() || 7;
+  t.setUTCDate(t.getUTCDate() + 4 - day);
+  const jan1 = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
+  return [t.getUTCFullYear(), Math.ceil(((t - jan1) / 864e5 + 1) / 7)];
+}
+
+const weekEl = document.getElementById("week");
+if (weekEl && MATERIALS.length) {
+  const [y, w] = isoWeek(new Date());
+  const h = Math.imul(y * 53 + w, 2654435761) >>> 0;
+  const pick = MATERIALS[h % MATERIALS.length];
+  weekEl.innerHTML = `<span class="week-label">this week</span>
+    <a href="#m-${esc(pick.id)}" data-week="${esc(pick.id)}">no. ${seq(pick) + 1}, ${esc(pick.name)}</a>
+    <span class="week-sub">${esc(pick.sub)}</span>`;
+  // The card may be filtered out of view; clear the filters, then go to it.
+  weekEl.addEventListener("click", e => {
+    const a = e.target.closest("[data-week]");
+    if (!a) return;
+    e.preventDefault();
+    activeQuery = "";
+    searchEl.value = "";
+    setCat("all");
+    const card = document.getElementById("m-" + a.dataset.week);
+    if (!card) return;
+    card.classList.add("picked");
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
+  });
+}
+
 /* ---------- jump to the top or the bottom ---------- */
 
 const topBtn = document.getElementById("to-top");

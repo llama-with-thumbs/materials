@@ -29,6 +29,7 @@ images/        539 images, 960 px wide
 fonts/         Jost, variable weight, latin and latin-ext, with its OFL licence
 robots.txt     sitemap.xml   for search engines
 LICENSE        MIT for the text and the tools; the photographs keep their own licences
+SOURCES.md     generated: every second source grouped by site, and which ones answer
 tools/
   build.py           one command: rebuild everything, then run every check
   images.txt         id | Commons filename | caption | kind
@@ -39,6 +40,7 @@ tools/
   describe.py        descriptions, sizes and licences of candidate files
   peek.py            downloads candidates somewhere scratch, to be looked at first
   readme_numbers.py  rewrites every count in README.md and index.html from the data
+  sources.py         writes SOURCES.md, the register of second sources, grouped by site
   check.js           data.js against taxonomy.js, credits.js, images.txt and images/
   render.js          renders the grid in a DOM stub and exercises the controls
   searchlog.md       what was searched for and not found, and why
@@ -201,6 +203,14 @@ The three jobs, and why each material is chosen for one of them:
 | Lining and cover | downproof ticking, satin weave, seersucker, flannel, lyocell | Whether the filling stays in, and what the cloth does against skin. Ticking is woven tight enough to stop a quill and is therefore nearly airproof; seersucker lifts off the skin; flannel's nap holds a layer of still air; lyocell moves moisture |
 | Holding it together | thread lattice | Whether the filling can move inside its cover. Quilting lines, baffle walls and the Hainan thread lattice are three answers to one problem: an unrestrained batt migrates to the corners and leaves cold voids |
 
+## Material of the week
+
+A red square under the filters names one card. It is chosen by arithmetic: the ISO week
+number, hashed over the catalogue, so everyone who opens the page in the same week sees the
+same card and nobody chooses it. Clicking it clears the filters, scrolls to the card and
+outlines it in red. Adding a card changes the count and so the pick; that is fine, it is a
+week, not a contract.
+
 ## Order
 
 The cards are sorted by when each one was added, oldest first, so the newest are at the bottom of
@@ -256,7 +266,9 @@ Append an entry to `data.js`:
 `link` is the encyclopaedia entry; `src` is the second opinion — a maker's datasheet, a trade
 body, a teaching page, a standards or conservation reference. Anything but Wikipedia, because one
 source is not a source. Check it actually loads before committing it: manufacturers move pages
-constantly, and a few answer 403 to a script while opening fine in a browser.
+constantly, and a few answer 403 to a script while opening fine in a browser. `SOURCES.md` lists
+every source already in the catalogue by site, the families that have held up and the ones that
+refuse scripts; `python -I tools/sources.py --check` fetches them all and dates the failures.
 
 All 59 polymer and elastomer cards carry one, and the warmth and film cards carry one wherever a
 source existed that was not a shop. The other categories do not yet.

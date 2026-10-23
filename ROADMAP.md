@@ -3,6 +3,62 @@
 Written 2026-10-20, after the refactor that came with the Warmth & insulation category.
 Ordered by payoff per hour, not by how interesting it is to build.
 
+## Where the platform goes, 2026-10-22
+
+Three tracks, chosen because each one makes the catalogue more trustworthy or more
+re-visitable without adding a server, a framework or an account. The constraint stays:
+five scripts, works off a USB stick.
+
+### 1. Material of the week — built
+
+A red square under the filters names one card, chosen by the ISO week number hashed over
+the catalogue. Everyone who opens the page the same week sees the same card; nobody picks
+it; there is nothing to maintain. Clicking it clears the filters, scrolls to the card and
+outlines it in red.
+
+Next steps, in order of cost:
+- An `#week` link people can share, and an `og:image` that follows the pick. Needs a tiny
+  Action that rewrites two meta tags every Monday, which is the first thing on this site
+  that would not be static. Half a day. Odds it ships cleanly: 80%.
+- A short note on *why this one*, written per week, as a `weekly.js` with one line per
+  ISO week. That is editorial work, 10 minutes a week, and the thing that would make
+  people come back. Odds the habit survives a month: 50%.
+
+### 2. Trusted sources — register built, audit next
+
+`tools/sources.py` writes `SOURCES.md`: every second source in the catalogue grouped by
+site, the families that have held up, the sites that refuse scripts, and, with `--check`,
+a dated table of which URLs no longer answer. This is the memory the source hunt lacked.
+
+Next:
+- The scheduled link audit from item 3 below, now with a tool to run. Monthly Action,
+  reports to an issue, never fails the build. Two hours. Odds: 90%.
+- A second source for the 440 cards that lack one, one category per session, starting
+  with metals (makers' datasheets are plentiful and stable) and ending with music
+  (where the honest source is often a luthier's page that will move). The register
+  tells the next session which families to try first. Twelve sessions. Odds of finishing
+  every category: 40%; of finishing metals, ceramics and composites: 85%.
+
+### 3. Papers — designed, not built
+
+A card whose best evidence is a paper should say so. Design:
+- An optional `refs` field: `refs: [["Short title, journal, year", "https://doi.org/..."]]`,
+  one to three per card, DOIs only. `check.js` validates the shape and the `doi.org` prefix.
+- Rendered in the meta row as `paper` with the title on hover, after the source and before
+  read more. No abstracts, no PDFs: the card already says what the paper found.
+- Crossref's API answers a script and returns title, journal and year for a DOI, so a
+  `tools/refs.py` can verify every DOI and flag retractions. That is the MCP candidate the
+  roadmap already lists.
+- Where to start: the cards that are already a paper in disguise — milkweed floss,
+  self-healing concrete, two-photon resist, graphene, aerographite, MXenes, the
+  magnetocaloric and electrocaloric work, the liquid crystal elastomer, SLIPS, Vantablack,
+  the shutdown separator if it ever gets a photo. Twenty cards, one session. Odds: 75%.
+- What it must not become: a bibliography. A paper earns its place the same way a photo
+  does, by being the thing the card's claim actually rests on.
+
+Not doing: comments, accounts, votes, a newsletter, analytics of any kind. The week's card
+is the only thing that changes without a commit, and it changes by arithmetic.
+
 ## Just done
 
 | Change | Why it mattered |
@@ -23,6 +79,7 @@ Ordered by payoff per hour, not by how interesting it is to build.
 | CI on every push | `check.js`, `render.js`, a counts-are-current check and a secret scan. |
 | `LICENSE`, `robots.txt`, `sitemap.xml`, Open Graph tags | The site is public now. MIT for the text and tools; the photographs keep their own licences, which is spelled out. |
 | Skip link, `aria-live` count, lightbox close button, print stylesheet | The small accessibility debts. |
+| Material of the week, sources register (2026-10-22) | A weekly pick by arithmetic, and `SOURCES.md` generated from the cards so the source hunt starts from what worked. See the tracks above. |
 | Bauhaus redesign (2026-10-22) | Paper by default, Jost bundled, lowercase chrome, one working red, stats as a hairline table, a running card number, categories named after the workshops they descend from. The rules and the lineage are in the README under Design, so the next change has something to be consistent with. |
 
 ## Next, in order

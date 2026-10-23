@@ -182,6 +182,33 @@ h1 .dot { color: var(--red); }
 .theme[data-cat="warmth"]::before { background: var(--yellow); clip-path: polygon(50% 0, 100% 100%, 0 100%); }
 .theme[data-cat="duvet"]::before { background: var(--blue); clip-path: circle(50%); }
 
+/* The week's card: a red square, a number and a name, on its own hairline row. */
+.week {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 8px 0;
+  font-size: 14px;
+  color: var(--dim);
+}
+
+.week:empty { display: none; }
+
+.week::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  background: var(--red);
+}
+
+.week a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.week a:hover { color: var(--red); }
+.week-label { margin-right: 6px; }
+.week-sub { margin-left: 6px; }
+
+.card.picked { border: 2px solid var(--red); }
+
 /* ---------- grid ---------- */
 
 main { padding: 20px 0 64px; }
