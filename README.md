@@ -39,6 +39,7 @@ tools/
   fetch_images.py    downloads missing images and regenerates credits.js (incremental)
   added.py           rebuilds added.js from the git history of data.js
   add_cards.py       inserts new cards from a JSON file into data.js and images.txt
+  papers.py          checks every paper in papers.js against Crossref; --fix takes the exact title
   search.py          Commons search for candidate photographs
   describe.py        descriptions, sizes and licences of candidate files
   peek.py            downloads candidates somewhere scratch, to be looked at first
@@ -240,7 +241,12 @@ touches (`cards`), and appears among them with its own running number; the year 
 the photograph would be. *the papers* in the row across the workshops shows them alone.
 
 Papers live in `papers.js`; `tools/check.js` refuses one without a DOI of the right shape, a
-year, a workshop that is declared, or a card that does not exist.
+year, a workshop that is declared, or a card that does not exist, and `tools/papers.py` resolves
+every DOI through Crossref and compares the title and year. The first 48 are half founding
+papers (Kistler's aerogel, Duwez's metallic glass, Buehler's Nitinol, Kroto's C60, Novoselov's
+graphene, Cantor's and Yeh's high-entropy alloys) and half from 2019 to 2024 (a two-dimensional
+polymer, glassy gels, ultrawhite paint, a cooling metafabric, diamond grown at one atmosphere,
+the paper that put LK-99 to rest), each hedged where the result is still a claim.
 
 ## Material of the week
 

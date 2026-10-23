@@ -1430,15 +1430,15 @@ window.CREDITS = {
   },
   "pex": {
     "file": "pex.jpg",
-    "caption": "PEX plumbing runs",
+    "caption": "PEX tubing laid out for underfloor heating",
     "kind": "product",
-    "title": "PEX piping in basement ceiling.jpg",
-    "artist": "Tomwsulcer",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:PEX_piping_in_basement_ceiling.jpg",
-    "w": 960,
-    "h": 786,
-    "site": "Wikimedia"
+    "title": "https://live.staticflickr.com/8117/8630561101_19000ee64f_b.jpg",
+    "site": "Flickr",
+    "artist": "dane brian",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/12955651@N07/8630561101",
+    "w": 768,
+    "h": 1024
   },
   "eps": {
     "file": "eps.jpg",
@@ -1514,15 +1514,15 @@ window.CREDITS = {
   },
   "melaminefoam": {
     "file": "melaminefoam.jpg",
-    "caption": "A melamine foam cleaning sponge",
+    "caption": "Profiled melamine foam, cut for acoustic panels",
     "kind": "product",
-    "title": "MagicEraser.jpg",
-    "artist": "Whoisjohngalt at English Wikipedia",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MagicEraser.jpg",
+    "title": "https://live.staticflickr.com/7623/16845294825_42eef15d71_b.jpg",
+    "site": "Flickr",
+    "artist": "Trevor Cox Salford",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/61944720@N05/16845294825",
     "w": 960,
-    "h": 717,
-    "site": "Wikimedia"
+    "h": 640
   },
   "cyanoacrylate": {
     "file": "cyanoacrylate.jpg",

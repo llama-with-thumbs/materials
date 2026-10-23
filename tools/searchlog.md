@@ -257,3 +257,36 @@ Wire arc additive manufacturing, Lattice material, Ultra-high-performance concre
 fiber, Woven wire mesh, Spacer fabric, Triaxial weave, Kinetic recovery rope, Slippery
 Liquid-Infused Porous Surfaces, Liquid crystal elastomer. Each was repointed to the nearest
 live article. Twenty-four more are redirects that still resolve and were left alone.
+
+
+## Pictures off Commons, round one (2026-10-22)
+
+Policy: Commons is the research tool and the last resort; the picture shown comes from the
+photographer's own page, an agency, a museum or a maker wherever one exists.
+
+What answered a script: Flickr oEmbed (licence and author, no key), Openverse
+(`api.openverse.org`, 200 anonymous queries a day, 20 a minute; `excluded_source=wikimedia`;
+responses take 10–70 s), NASA images API, Cleveland Museum of Art open access (`cc0=1`),
+the Met collection API (hits, but nothing that was a material), Art Institute of Chicago,
+DVIDS (og:image), energy.gov, Poly Haven (`cdn.polyhaven.com/asset_img/primary/<id>.png`),
+`cdn.eso.org/images/large/<id>.jpg` (certificate chain unverifiable from Python, fetched
+unverified), GeoDIL, pxhere (`!d` suffix for the full file).
+
+Refused a script, don't retry: Geograph (403 on pages and oEmbed alike), Auckland Museum
+API (403), mindat (403), NRL techtransfer (403), MDPI (403), Wellcome Images (old URLs 403;
+use the collection API if ever). Dead: scienceimage.csiro.au (domain gone; six CSIRO
+pictures stay on Commons), ballistics.grc.nasa.gov, mynewsdesk KTH transparent wood,
+IWM media URL, momu.be study collection.
+
+Flickr pages that vanished since the Commons import (keep the Commons copy): abs (the
+old one), seatbelt, acrylicfibre, metamaterial, twophoton, ribbonmic, grillesteel.
+Flickr licences that changed since import: recordvinyl and gingham now All Rights
+Reserved, oxfordcloth now CC BY-NC. The CC grant is irrevocable, but the page no longer
+says so, so those stay on Commons where the grant is recorded.
+
+Rejected after looking: rhenium — a Flickr re-upload of Alchemist-hp's photograph under
+a different licence (licence-washing); uhmwpe — watermarked ballistic shields; epdm and
+pp — candidates under 640 px; eps — overexposed; aerogel — NASA's current page carries
+an artist's rendering, not the hand photograph; kapton tape rolls were fine but the NASA
+sunshield re-cite already covers it; nbr, tpu, mylar (Spider-Man balloon: a licensed
+character), magnesium (a camera body, unverifiable alloy).

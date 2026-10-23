@@ -122,14 +122,14 @@ pet|Flickr|https://live.staticflickr.com/3261/2629301274_8f41b9afd0_b.jpg|PET bo
 pvc|Flickr|https://live.staticflickr.com/2195/2269567444_6a61e07287_b.jpg|A stack of PVC pressure pipe|product|CC BY-SA 2.0|Pam_Broviak|https://www.flickr.com/photos/23870457@N06/2269567444
 nylon66|commons|Kabelbinder -- 2024 -- 6907.jpg|Nylon 6/6 cable ties|product
 hdpe|Flickr|https://live.staticflickr.com/65535/51849066566_a6b3775c46_b.jpg|Reels of orange HDPE innerduct for cables|product|CC0|joncutrer|https://www.flickr.com/photos/47121680@N00/51849066566
-pex|commons|PEX piping in basement ceiling.jpg|PEX plumbing runs|product
+pex|Flickr|https://live.staticflickr.com/8117/8630561101_19000ee64f_b.jpg|PEX tubing laid out for underfloor heating|product|CC BY-SA 2.0|dane brian|https://www.flickr.com/photos/12955651@N07/8630561101
 eps|commons|Expanded Polystyrene (EPS) foam pellets.jpg|Expanded polystyrene beads|photo
 pdms|commons|Рождение микрофлюидного чипа.JPG|A PDMS microfluidic chip|product
 fep|commons|Pfa tubing.jpeg|PFA tubing — the same melt-processible fluoropolymer family as FEP|related
 pvb|commons|Shattered laminated glass in broken window in railway tram train carriage Close-up Cracks fragments visual effects patterns NORWAY Knust vindu i togvogn med laminert sikkerhetsglass sprekker småbiter lyseffekter 2019-02-11 DSC03363.jpg|Shattered laminated glass, every fragment still held by the PVB interlayer|product
 surlyn|commons|Golf ball by Japanese company Srixon.jpg|A golf ball — the cover is an ionomer|product
 pla|Flickr|https://live.staticflickr.com/7582/15760663749_6f445d6535_b.jpg|PLA filament|photo|CC BY-SA 2.0|westonhighschoollibrary|https://www.flickr.com/photos/124105511@N08/15760663749
-melaminefoam|commons|MagicEraser.jpg|A melamine foam cleaning sponge|product
+melaminefoam|Flickr|https://live.staticflickr.com/7623/16845294825_42eef15d71_b.jpg|Profiled melamine foam, cut for acoustic panels|product|CC BY-SA 2.0|Trevor Cox Salford|https://www.flickr.com/photos/61944720@N05/16845294825
 cyanoacrylate|commons|Cianocrilato.JPG|Cyanoacrylate adhesive|product
 pva|commons|Folia PVA z pochodną kumaryny w świetle widzialnym nr 01.jpg|Polyvinyl alcohol film|photo
 nafion|commons|Patrick Teppor and PEM active layer deposition by ultrasonic spraying.jpg|Spraying a catalyst layer onto a proton exchange membrane|process

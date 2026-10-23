@@ -43,7 +43,10 @@ for b in blocks:
     issued = (w.get("published-print") or w.get("published-online") or w.get("issued") or {}).get("date-parts", [[None]])[0][0]
     ours = field(b, "title")
     problems = []
-    if norm(ours) != norm(title):
+    # Subscripts and formulae come back from Crossref as markup; compare letters only
+    # as a last resort, so Ti3AlC2 and Ti₃AlC₂ are the same title.
+    letters = lambda t: re.sub(r"[^a-z]", "", norm(t))
+    if norm(ours) != norm(title) and letters(ours) != letters(title):
         if norm(title) and norm(ours) not in norm(title) and norm(title) not in norm(ours):
             problems.append("title differs: crossref says '%s'" % title)
     if issued and year and abs(issued - year) > 1:
