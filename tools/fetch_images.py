@@ -17,7 +17,7 @@ a licence on Commons has changed.
 Swapping a photograph means deleting images/<id>.<ext> first — a file already on disk
 is never re-downloaded.
 """
-import sys, os, re, json, time, html, struct, subprocess, urllib.request, urllib.parse
+import sys, os, re, json, time, html, ssl, struct, subprocess, urllib.request, urllib.parse
 sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -35,10 +35,7 @@ p = sys.argv[1]; w = int(sys.argv[2])
 im = ImageOps.exif_transpose(Image.open(p))
 if im.width > w:
     im = im.resize((w, round(im.height * w / im.width)), Image.LANCZOS)
-if p.lower().endswith(".png"):
-    im.save(p, optimize=True)
-else:
-    im.convert("RGB").save(p, "JPEG", quality=86, optimize=True, progressive=True)
+im.convert("RGB").save(p, "JPEG", quality=86, optimize=True, progressive=True)
 """
 def resize(path):
     r = subprocess.run([sys.executable, "-c", RESIZE, path, str(WIDTH)], capture_output=True, text=True)
@@ -92,11 +89,14 @@ def imagesize(path):
     return None, None
 
 def download(src, dest):
-    """Fetch one file, backing off politely when Commons rate-limits us."""
+    """Fetch one file, backing off politely when a site rate-limits us. A site whose
+    certificate chain this Python cannot verify (cdn.eso.org, for one) is fetched a second
+    time without verification, and says so: it is a picture, not a secret."""
     req = urllib.request.Request(src, headers=UA)
+    ctx = None
     for attempt in range(6):
         try:
-            with urllib.request.urlopen(req, timeout=120) as r:
+            with urllib.request.urlopen(req, timeout=120, context=ctx) as r:
                 blob = r.read()
             with open(dest, "wb") as out:
                 out.write(blob)
@@ -104,6 +104,12 @@ def download(src, dest):
         except urllib.error.HTTPError as e:
             if e.code in (429, 503):
                 time.sleep(8 * (attempt + 1)); continue
+            raise
+        except urllib.error.URLError as e:
+            if "CERTIFICATE_VERIFY_FAILED" in str(e) and ctx is None:
+                print("ssl: certificate chain not verifiable, fetching unverified: " + src.split("/")[2])
+                ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE
+                continue
             raise
     raise SystemExit("download gave up: " + src)
 
@@ -152,7 +158,7 @@ print("%d rows: %d reused, %d to fetch%s"
 # Rows from elsewhere: one direct download each, scaled to WIDTH, credited from the row.
 for r in [r for r in todo if r["source"] != COMMONS]:
     mid, src = r["id"], r["ref"]
-    ext = ".png" if src.lower().split("?")[0].endswith(".png") else ".jpg"
+    ext = ".jpg"                      # the resize re-encodes as JPEG: a photograph, whatever it was served as
     dest = os.path.join(ROOT, "images", mid + ext)
     if not os.path.exists(dest) or os.path.getsize(dest) == 0:
         download(src, dest)

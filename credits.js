@@ -74,15 +74,15 @@ window.CREDITS = {
   },
   "nitinol": {
     "file": "nitinol.jpg",
-    "caption": "Nitinol wire",
-    "kind": "photo",
-    "title": "Nitinol draht.jpg",
-    "artist": "Petermaerki",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Nitinol_draht.jpg",
+    "caption": "Spoons cut from Nitinol sheet, the classic shape-memory demonstration piece",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/113/299640093_82de232245_b.jpg",
+    "site": "Flickr",
+    "artist": "jeanbaptisteparis",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/49503077999@N01/299640093",
     "w": 960,
-    "h": 739,
-    "site": "Wikimedia"
+    "h": 685
   },
   "invar": {
     "file": "invar.jpg",
@@ -110,15 +110,15 @@ window.CREDITS = {
   },
   "bmg": {
     "file": "bmg.jpg",
-    "caption": "Bulk metallic glass sample, note the mirror-smooth as-cast surface",
-    "kind": "photo",
-    "title": "Bulk Metallic Glass Sample.jpg",
-    "artist": "George Stobbart",
+    "caption": "Bulk metallic glass gearbox parts from NASA's BMGG project, in test at Kennedy's Swamp Works",
+    "kind": "product",
+    "title": "https://images-assets.nasa.gov/image/KSC-20210617-PH-KLS01_0044/KSC-20210617-PH-KLS01_0044~medium.jpg",
+    "site": "NASA",
+    "artist": "KSC",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Bulk_Metallic_Glass_Sample.jpg",
-    "w": 498,
-    "h": 370,
-    "site": "Wikimedia"
+    "page": "https://images.nasa.gov/details/KSC-20210617-PH-KLS01_0044",
+    "w": 960,
+    "h": 640
   },
   "greyiron": {
     "file": "greyiron.jpg",
@@ -268,13 +268,13 @@ window.CREDITS = {
     "file": "zerodur.jpg",
     "caption": "A cast Zerodur mirror blank (ELT secondary, 4.2 m)",
     "kind": "photo",
-    "title": "ELT secondary mirror blank successfully cast.jpg",
-    "artist": "SCHOTT/ESO",
+    "title": "https://cdn.eso.org/images/large/eso1715a.jpg",
+    "site": "ESO",
+    "artist": "ESO",
     "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:ELT_secondary_mirror_blank_successfully_cast.jpg",
+    "page": "https://www.eso.org/public/images/eso1715a/",
     "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "h": 640
   },
   "aln": {
     "file": "aln.jpg",
@@ -518,15 +518,15 @@ window.CREDITS = {
   },
   "ptfe": {
     "file": "ptfe.jpg",
-    "caption": "PTFE — the slipperiest solid in common use",
-    "kind": "photo",
-    "title": "Teflon-jar hg.jpg",
-    "artist": "Hannes Grobe",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Teflon-jar_hg.jpg",
+    "caption": "A machined PTFE bearing cage",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/2228/2363587972_e1fcd0cdb0_b.jpg",
+    "site": "Flickr",
+    "artist": "oskay",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/17425845@N00/2363587972",
     "w": 960,
-    "h": 798,
-    "site": "Wikimedia"
+    "h": 720
   },
   "eptfe": {
     "file": "eptfe.png",
@@ -616,13 +616,13 @@ window.CREDITS = {
     "file": "kapton.jpg",
     "caption": "JWST's sunshield — five tensioned layers of Kapton",
     "kind": "photo",
-    "title": "James Webb telescope sunshield.jpg",
-    "artist": "Chris Gunn",
+    "title": "https://www.nasa.gov/wp-content/uploads/2023/03/sunshieldstackup-photo_3.jpg",
+    "site": "NASA",
+    "artist": "NASA/Chris Gunn",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:James_Webb_telescope_sunshield.jpg",
+    "page": "https://www.nasa.gov/image-article/nasas-webb-sunshield-stacks-up-test/",
     "w": 960,
-    "h": 639,
-    "site": "Wikimedia"
+    "h": 639
   },
   "delrin": {
     "file": "delrin.jpg",
@@ -1718,15 +1718,15 @@ window.CREDITS = {
   },
   "niobium": {
     "file": "niobium.jpg",
-    "caption": "An ultrapure niobium bead",
-    "kind": "photo",
-    "title": "Ultrapure niobium bead, slightly oxidized.jpg",
-    "artist": "Hi-Res Images of\n\nChemical Elements",
-    "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ultrapure_niobium_bead,_slightly_oxidized.jpg",
-    "w": 908,
-    "h": 908,
-    "site": "Wikimedia"
+    "caption": "Anodised niobium rings, pink from the thickness of their oxide film, woven with silver",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/5011/5560087101_2275157f38_b.jpg",
+    "site": "Flickr",
+    "artist": "The ChainMaille Lady",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/26800041@N04/5560087101",
+    "w": 960,
+    "h": 617
   },
   "nbti": {
     "file": "nbti.jpg",
@@ -1742,15 +1742,15 @@ window.CREDITS = {
   },
   "bismuth": {
     "file": "bismuth.jpg",
-    "caption": "Bismuth hopper crystals and a 1 cm³ cube",
+    "caption": "A bismuth hopper crystal grown from the melt; the colours are a thin oxide film",
     "kind": "photo",
-    "title": "Bismuth crystals and 1cm3 cube.jpg",
-    "artist": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
-    "license": "FAL",
-    "page": "https://commons.wikimedia.org/wiki/File:Bismuth_crystals_and_1cm3_cube.jpg",
+    "title": "https://live.staticflickr.com/2876/13751480883_628be095b3_b.jpg",
+    "site": "Flickr",
+    "artist": "Kurayba",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/48503330@N08/13751480883",
     "w": 960,
-    "h": 648,
-    "site": "Wikimedia"
+    "h": 678
   },
   "inconel718": {
     "file": "inconel718.jpg",
@@ -1766,39 +1766,39 @@ window.CREDITS = {
   },
   "ndfeb": {
     "file": "ndfeb.jpg",
-    "caption": "Sintered neodymium magnets",
-    "kind": "photo",
-    "title": "Neodimijski magneti, (Neodymium magnets).JPG",
-    "artist": "Suradnik50",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Neodimijski_magneti,_(Neodymium_magnets).JPG",
+    "caption": "Neodymium magnet spheres holding themselves in a lattice",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/5191/5804419692_4bdd11df2d_b.jpg",
+    "site": "Flickr",
+    "artist": "Brett Jordan",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/55497864@N00/5804419692",
     "w": 960,
-    "h": 793,
-    "site": "Wikimedia"
+    "h": 917
   },
   "alnico": {
     "file": "alnico.jpg",
-    "caption": "Assorted Alnico magnets",
-    "kind": "photo",
-    "title": "Alnico magnet assortment.jpg",
-    "artist": "Unknown authorUnknown author",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Alnico_magnet_assortment.jpg",
+    "caption": "A humbucker pickup, wound around Alnico bar magnets",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/2426/3854438766_17dd00cacb_b.jpg",
+    "site": "Flickr",
+    "artist": "Roadside Guitars",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/32742419@N04/3854438766",
     "w": 960,
-    "h": 719,
-    "site": "Wikimedia"
+    "h": 720
   },
   "corten": {
     "file": "corten.jpg",
-    "caption": "Weathering steel with its stable patina",
-    "kind": "photo",
-    "title": "Weathering steel door.jpg",
-    "artist": "Kurt Müllers",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Weathering_steel_door.jpg",
-    "w": 800,
-    "h": 800,
-    "site": "Wikimedia"
+    "caption": "A weathering steel door, the rust skin fully formed and stable",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/4089/5014715316_a30872ba4c_b.jpg",
+    "site": "Flickr",
+    "artist": "Newtown grafitti",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/28713775@N02/5014715316",
+    "w": 768,
+    "h": 1024
   },
   "zircaloy": {
     "file": "zircaloy.jpg",
@@ -2233,16 +2233,16 @@ window.CREDITS = {
     "site": "Wikimedia"
   },
   "copv": {
-    "file": "copv.png",
-    "caption": "A composite overwrapped pressure vessel",
+    "file": "copv.jpg",
+    "caption": "A composite overwrapped pressure vessel under inspection at NASA White Sands",
     "kind": "product",
-    "title": "Copv tank close out prior to flight.png",
-    "artist": "NASA",
+    "title": "https://images-assets.nasa.gov/image/wstf2019e04644/wstf2019e04644~medium.jpg",
+    "site": "NASA",
+    "artist": "NASA/WSTF",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Copv_tank_close_out_prior_to_flight.png",
-    "w": 960,
-    "h": 555,
-    "site": "Wikimedia"
+    "page": "https://images.nasa.gov/details/wstf2019e04644",
+    "w": 853,
+    "h": 1280
   },
   "pykrete": {
     "file": "pykrete.jpg",
@@ -2329,16 +2329,16 @@ window.CREDITS = {
     "site": "Wikimedia"
   },
   "denim": {
-    "file": "denim.png",
-    "caption": "Denim, woven as a right-hand twill",
+    "file": "denim.jpg",
+    "caption": "Denim, woven as a right-hand twill: a scanned swatch rendered by Poly Haven",
     "kind": "photo",
-    "title": "Denim fabric 05 (Rico Cilliers and colormass via Poly Haven).png",
-    "artist": "Rico Cilliers (Processing)\ncolormass (Photography)",
+    "title": "https://cdn.polyhaven.com/asset_img/primary/denim_fabric_05.png?width=1024",
+    "site": "Poly Haven",
+    "artist": "Poly Haven",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Denim_fabric_05_(Rico_Cilliers_and_colormass_via_Poly_Haven).png",
+    "page": "https://polyhaven.com/a/denim_fabric_05",
     "w": 960,
-    "h": 1016,
-    "site": "Wikimedia"
+    "h": 480
   },
   "cordura": {
     "file": "cordura.jpg",
@@ -3040,13 +3040,13 @@ window.CREDITS = {
     "file": "asbestos.jpg",
     "caption": "Chrysotile asbestos",
     "kind": "photo",
-    "title": "Chrysotile and asbestos (GeoDIL number - 2527).jpg",
-    "artist": "Nessa Eull",
+    "title": "https://geodil.dperkins.org/i/2527.jpg",
+    "site": "GeoDIL",
+    "artist": "Dexter Perkins, GeoDIL",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Chrysotile_and_asbestos_(GeoDIL_number_-_2527).jpg",
+    "page": "https://geodil.dperkins.org/h/2527.html",
     "w": 960,
-    "h": 981,
-    "site": "Wikimedia"
+    "h": 981
   },
   "nephrite": {
     "file": "nephrite.jpg",
@@ -3184,13 +3184,13 @@ window.CREDITS = {
     "file": "perovskitepv.jpg",
     "caption": "A perovskite solar cell",
     "kind": "photo",
-    "title": "Perovskite solar cell.jpg",
-    "artist": "Dennis Schroeder / National Renewable Energy Laboratory",
+    "title": "https://www.energy.gov/sites/default/files/2022-05/Perovskite-Hand-2-64514.jpg",
+    "site": "US Department of Energy",
+    "artist": "US Department of Energy, Solar Energy Technologies Office",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Perovskite_solar_cell.jpg",
+    "page": "https://www.energy.gov/eere/solar/perovskite-solar-cells",
     "w": 960,
-    "h": 810,
-    "site": "Wikimedia"
+    "h": 1440
   },
   "ito": {
     "file": "ito.png",
@@ -3721,16 +3721,16 @@ window.CREDITS = {
     "site": "Wikimedia"
   },
   "fleece": {
-    "file": "fleece.png",
-    "caption": "Polar fleece — napped and shorn level",
+    "file": "fleece.jpg",
+    "caption": "Polar fleece, napped and shorn level: a scanned swatch rendered by Poly Haven",
     "kind": "photo",
-    "title": "Polar fleece (2) (Rico Cilliers and colormass via Poly Haven).png",
-    "artist": "Rico Cilliers (Processing)\ncolormass (Photography)",
+    "title": "https://cdn.polyhaven.com/asset_img/primary/polar_fleece.png?width=1024",
+    "site": "Poly Haven",
+    "artist": "Poly Haven",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Polar_fleece_(2)_(Rico_Cilliers_and_colormass_via_Poly_Haven).png",
+    "page": "https://polyhaven.com/a/polar_fleece",
     "w": 960,
-    "h": 1016,
-    "site": "Wikimedia"
+    "h": 480
   },
   "nonwoven": {
     "file": "nonwoven.jpg",
@@ -3926,15 +3926,15 @@ window.CREDITS = {
   },
   "al7075": {
     "file": "al7075.jpg",
-    "caption": "Climbing carabiners — hot-forged 7075 is the standard alloy",
+    "caption": "A forged 7075 aluminium bicycle stem, Zipp Service Course SL",
     "kind": "product",
-    "title": "Black Diamond Carabiners.JPG",
-    "artist": "Eric T Gunther",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Black_Diamond_Carabiners.JPG",
+    "title": "https://live.staticflickr.com/8741/17101043315_4f12362b98_b.jpg",
+    "site": "Flickr",
+    "artist": "Glory Cycles",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/29558127@N06/17101043315",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 684
   },
   "ss316l": {
     "file": "ss316l.jpg",
@@ -3950,15 +3950,15 @@ window.CREDITS = {
   },
   "cupronickel": {
     "file": "cupronickel.jpg",
-    "caption": "Clad half dollars beside silver ones — the reddish copper core shows at the edge of every post-1965 coin",
+    "caption": "British 50 pence coins, struck in cupronickel",
     "kind": "product",
-    "title": "Two stacks of half dollars, one silver, one clad - effects of the Coinage Act 1965.jpg",
-    "artist": "BrayLockBoy",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Two_stacks_of_half_dollars,_one_silver,_one_clad_-_effects_of_the_Coinage_Act_1965.jpg",
+    "title": "https://live.staticflickr.com/4145/5089714818_9e5b4d545d_b.jpg",
+    "site": "Flickr",
+    "artist": "ell brown",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/39415781@N06/5089714818",
     "w": 960,
-    "h": 651,
-    "site": "Wikimedia"
+    "h": 833
   },
   "babbitt": {
     "file": "babbitt.jpg",
@@ -4516,13 +4516,13 @@ window.CREDITS = {
     "file": "contfibre.jpg",
     "caption": "Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell",
     "kind": "process",
-    "title": "U S Marines with 3d Marine Logistics Group showcase 3D Printing Capabilities to the U S Coast Guard at CJLOTS 26 (9832271).jpg",
-    "artist": "U.S. Marine Corps photo by Lance Cpl. Marcus Henson",
+    "title": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9832271/1000w_q95.jpg",
+    "site": "DVIDS",
+    "artist": "US Army, DVIDS",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:U_S_Marines_with_3d_Marine_Logistics_Group_showcase_3D_Printing_Capabilities_to_the_U_S_Coast_Guard_at_CJLOTS_26_(9832271).jpg",
+    "page": "https://www.dvidshub.net/image/9832271",
     "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "h": 640
   },
   "lattice": {
     "file": "lattice.jpg",
@@ -5090,15 +5090,15 @@ window.CREDITS = {
   },
   "wroughtiron": {
     "file": "wroughtiron.jpg",
-    "caption": "The iron pillar of Delhi, forged about sixteen centuries ago and barely rusted",
+    "caption": "A wrought iron gate of about 1840, forged and scrolled before mild steel existed",
     "kind": "product",
-    "title": "Iron Pillar of Delhi.jpg",
-    "artist": "Rounik Ghosh",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Iron_Pillar_of_Delhi.jpg",
-    "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "title": "https://live.staticflickr.com/1950/31440405118_bcf4c59f1d_b.jpg",
+    "site": "Flickr",
+    "artist": "Spencer Means",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/28643687@N08/31440405118",
+    "w": 793,
+    "h": 1024
   },
   "tincoat": {
     "file": "tincoat.jpg",
@@ -5188,13 +5188,13 @@ window.CREDITS = {
     "file": "tweed.jpg",
     "caption": "Harris Tweed cloth under a macro lens",
     "kind": "photo",
-    "title": "Harris Tweed Macro photography.jpg",
-    "artist": "No name",
+    "title": "https://c.pxhere.com/photos/82/fa/fabric_detail_harris_tweed_coarse_plant_dyes_natural_colours-750549.jpg!d",
+    "site": "pxhere",
+    "artist": "pxhere",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Harris_Tweed_Macro_photography.jpg",
+    "page": "https://pxhere.com/en/photo/750549",
     "w": 960,
-    "h": 838,
-    "site": "Wikimedia"
+    "h": 838
   },
   "satin": {
     "file": "satin.png",
@@ -6326,15 +6326,15 @@ window.CREDITS = {
   },
   "sailfilm": {
     "file": "sailfilm.jpg",
-    "caption": "A 20 m test solar sail deployed in a NASA vacuum chamber",
-    "kind": "photo",
-    "title": "Solar sail tests.jpg",
-    "artist": "NASA/Marshall Space Flight Center",
+    "caption": "The NEA Scout solar sail, aluminised polyimide film, deployed for test",
+    "kind": "product",
+    "title": "https://images-assets.nasa.gov/image/MSFC-1601350/MSFC-1601350~medium.jpg",
+    "site": "NASA",
+    "artist": "NASA/MSFC",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Solar_sail_tests.jpg",
+    "page": "https://images.nasa.gov/details/MSFC-1601350",
     "w": 960,
-    "h": 626,
-    "site": "Wikimedia"
+    "h": 640
   },
   "ptfetape": {
     "file": "ptfetape.jpg",

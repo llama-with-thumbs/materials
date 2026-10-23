@@ -9,10 +9,10 @@ uhmwpe|commons|LIROS Dyneema hollow.jpg|Hollow-braid Dyneema (UHMWPE) rope|photo
 peek|commons|PEEK resin.jpg|PEEK granulate, the characteristic tan colour|photo
 vespel|commons|Vespel.Werkstueck.P1149524.jpg|Machined Vespel polyimide part|photo
 ffkm|commons|FFKM FFPM CKD900 plate 80mm 80mm 1mm.jpg|FFKM perfluoroelastomer sheet|photo
-nitinol|commons|Nitinol draht.jpg|Nitinol wire|photo
+nitinol|Flickr|https://live.staticflickr.com/113/299640093_82de232245_b.jpg|Spoons cut from Nitinol sheet, the classic shape-memory demonstration piece|product|CC BY-SA 2.0|jeanbaptisteparis|https://www.flickr.com/photos/49503077999@N01/299640093
 invar|commons|Invar 800.jpg|Invar 36 stock|photo
 kovar|commons|Assortment of Kovar metal.jpg|Assorted Kovar parts|photo
-bmg|commons|Bulk Metallic Glass Sample.jpg|Bulk metallic glass sample, note the mirror-smooth as-cast surface|photo
+bmg|NASA|https://images-assets.nasa.gov/image/KSC-20210617-PH-KLS01_0044/KSC-20210617-PH-KLS01_0044~medium.jpg|Bulk metallic glass gearbox parts from NASA's BMGG project, in test at Kennedy's Swamp Works|product|Public domain|KSC|https://images.nasa.gov/details/KSC-20210617-PH-KLS01_0044
 greyiron|commons|Gusseisen mit Lamellengraphit.jpg|Grey iron micrograph — the dark graphite flakes that damp vibration|photo
 becu|commons|CuBe Tool.jpg|Beryllium-copper non-sparking tool|photo
 mumetal|commons|Mu-metal assortment 1951.jpg|Mu-metal shielding cans|photo
@@ -25,7 +25,7 @@ ytzp|commons|Zirconium dioxide ZrO2 bearing balls.jpg|Y-TZP zirconia bearing bal
 cbn|commons|Cubic Boron Nitride.jpg|Cubic boron nitride crystals|photo
 b4c|commons|Boron carbide.JPG|Boron carbide, sintered and as powder|photo
 sic|commons|SiC p1390066.jpg|Silicon carbide crystals with their iridescent oxide film|photo
-zerodur|commons|ELT secondary mirror blank successfully cast.jpg|A cast Zerodur mirror blank (ELT secondary, 4.2 m)|photo
+zerodur|ESO|https://cdn.eso.org/images/large/eso1715a.jpg|A cast Zerodur mirror blank (ELT secondary, 4.2 m)|photo|CC BY 4.0|ESO|https://www.eso.org/public/images/eso1715a/
 aln|commons|Aluminium Nitride.jpg|Aluminium nitride — an insulator that conducts heat like metal|photo
 alon|commons|TTO Spinel Ceramic.JPG|Transparent spinel ceramic — AlON's close cousin, same trick: a polycrystalline ceramic you can see through|photo
 pyro|commons|Diamagnetic graphite levitation.jpg|Pyrolytic graphite levitating over permanent magnets at room temperature|photo
@@ -46,7 +46,7 @@ mycelium|commons|Mycelium based composite.png|Mycelium composite grown on substr
 starlite|commons|Starlite sample.jpg|A surviving Starlite sample|photo
 auxetic|commons|Meta-aux-orange.jpg|Auxetic lattice — gets thinner when stretched|photo
 albemet|commons|Be-140g.jpg|Pure beryllium, the stiffening phase in AlBeMet|photo
-ptfe|commons|Teflon-jar hg.jpg|PTFE — the slipperiest solid in common use|photo
+ptfe|Flickr|https://live.staticflickr.com/2228/2363587972_e1fcd0cdb0_b.jpg|A machined PTFE bearing cage|product|CC BY 2.0|oskay|https://www.flickr.com/photos/17425845@N00/2363587972
 eptfe|commons|Goretex photo.png|Expanded PTFE under the microscope — the node-and-fibril structure that passes vapour but not droplets|photo
 aramid|commons|Para Aramid Yarns Body Armor.jpg|Para-aramid yarn woven for ballistic panels|photo
 fkm|commons|Fiber optic vacuum viton seal ProtoDUNE.jpg|An FKM (Viton) seal on a vacuum feedthrough|photo
@@ -54,7 +54,7 @@ silicone|commons|Liquid-silicon-rubber-crop.jpg|Liquid silicone rubber before cu
 natrubber|commons|Natural rubber.jpg|Natural rubber, still unbeaten at resisting fatigue|photo
 butyl|commons|Butyl rubber gloves.JPG|Butyl rubber gloves — the polymer gas does not get through|photo
 pvdf|commons|A UPW Installation using PVDF Piping.png|PVDF pipework in an ultrapure water plant|photo
-kapton|commons|James Webb telescope sunshield.jpg|JWST's sunshield — five tensioned layers of Kapton|photo
+kapton|NASA|https://www.nasa.gov/wp-content/uploads/2023/03/sunshieldstackup-photo_3.jpg|JWST's sunshield — five tensioned layers of Kapton|photo|Public domain|NASA/Chris Gunn|https://www.nasa.gov/image-article/nasas-webb-sunshield-stacks-up-test/
 delrin|commons|Dunlop Delrin 500.jpg|Acetal (Delrin) picks — the material holds its dimensions|photo
 pc|commons|Laboratory protection goggles-blue.jpg|Polycarbonate eye protection|photo
 pmma|commons|Lichtenberg figure in block of Plexiglas.jpg|A Lichtenberg figure frozen inside a PMMA block|photo
@@ -146,13 +146,13 @@ hastelloy|commons|Hastelloy Ball valve.jpg|A Hastelloy ball valve|product
 zamak|commons|Zink auto.jpg|A zinc die-cast model car — detail straight out of the die|product
 sac305|commons|Solder on spool.jpeg|Solder wire on a spool|product
 tantalum|Flickr|https://live.staticflickr.com/65535/54041464509_22cba30bfa_b.jpg|Tantalum metal|photo|CC BY 2.0|James St. John|https://www.flickr.com/photos/47445767@N05/54041464509
-niobium|commons|Ultrapure niobium bead, slightly oxidized.jpg|An ultrapure niobium bead|photo
+niobium|Flickr|https://live.staticflickr.com/5011/5560087101_2275157f38_b.jpg|Anodised niobium rings, pink from the thickness of their oxide film, woven with silver|product|CC BY 2.0|The ChainMaille Lady|https://www.flickr.com/photos/26800041@N04/5560087101
 nbti|Flickr|https://live.staticflickr.com/3019/2544000149_a81f59288f_b.jpg|Nb-Ti superconducting cable from the LHC|photo|CC BY-SA 2.0|ÂµÂµ|https://www.flickr.com/photos/muriel_vd/2544000149/in/set-72157605393246803
-bismuth|commons|Bismuth crystals and 1cm3 cube.jpg|Bismuth hopper crystals and a 1 cm³ cube|photo
+bismuth|Flickr|https://live.staticflickr.com/2876/13751480883_628be095b3_b.jpg|A bismuth hopper crystal grown from the melt; the colours are a thin oxide film|photo|CC BY-SA 2.0|Kurayba|https://www.flickr.com/photos/48503330@N08/13751480883
 inconel718|commons|Inconel 718.JPG|Inconel 718|photo
-ndfeb|commons|Neodimijski magneti, (Neodymium magnets).JPG|Sintered neodymium magnets|photo
-alnico|commons|Alnico magnet assortment.jpg|Assorted Alnico magnets|photo
-corten|commons|Weathering steel door.jpg|Weathering steel with its stable patina|photo
+ndfeb|Flickr|https://live.staticflickr.com/5191/5804419692_4bdd11df2d_b.jpg|Neodymium magnet spheres holding themselves in a lattice|product|CC BY 2.0|Brett Jordan|https://www.flickr.com/photos/55497864@N00/5804419692
+alnico|Flickr|https://live.staticflickr.com/2426/3854438766_17dd00cacb_b.jpg|A humbucker pickup, wound around Alnico bar magnets|product|CC BY-SA 2.0|Roadside Guitars|https://www.flickr.com/photos/32742419@N04/3854438766
+corten|Flickr|https://live.staticflickr.com/4089/5014715316_a30872ba4c_b.jpg|A weathering steel door, the rust skin fully formed and stable|product|CC BY 2.0|Newtown grafitti|https://www.flickr.com/photos/28713775@N02/5014715316
 zircaloy|Flickr|https://live.staticflickr.com/1540/26072384441_7faf9bf9f9_b.jpg|A nuclear fuel rod — the cladding tube is Zircaloy|product|CC BY 2.0|NRCgov|https://www.flickr.com/photos/nrcgov/26072384441
 hafnium|commons|Hafnium ebeam remelted.jpg|Electron-beam remelted hafnium|photo
 hea|commons|Microstructure of High-Entropy Alloy AlCoCrFeNi₂.₁.jpg|High-entropy alloy microstructure|photo
@@ -189,7 +189,7 @@ tyre|commons|Pirelli Cinturato Tire cutaway.jpg|A radial tyre cut away — belts
 transparentarmour|commons|IDET2007 bulletproof glass.jpg|Transparent armour, layered glass and polycarbonate|product
 dyneemahb|commons|Osprey plates COB2009.jpg|Ballistic plates|product
 gypsum|commons|Drywall and tools.jpg|Gypsum board|product
-copv|commons|Copv tank close out prior to flight.png|A composite overwrapped pressure vessel|product
+copv|NASA|https://images-assets.nasa.gov/image/wstf2019e04644/wstf2019e04644~medium.jpg|A composite overwrapped pressure vessel under inspection at NASA White Sands|product|Public domain|NASA/WSTF|https://images.nasa.gov/details/wstf2019e04644
 pykrete|commons|Pykrete.jpg|Pykrete — ice with wood pulp mixed into it|photo
 hempcrete|Flickr|https://live.staticflickr.com/3746/11221285985_cac4e86ef0_b.jpg|A hempcrete wall|product|CC BY 2.0|Jnzl's Photos|https://www.flickr.com/photos/102748040@N03/11221285985
 nylonrope|commons|Rope 20221203 102029.jpg|Braided synthetic rope|photo
@@ -197,7 +197,7 @@ bungee|commons|Bungee Cord PICT6882a.jpg|Shock cord — rubber strands in a brai
 kernmantle|commons|Kernmantle climbing rope dynamic Sterling 10.7mm cut end.jpg|Kernmantle rope cut open — load-bearing core, protective sheath|photo
 seatbelt|commons|Female driver buckling seatbelt.jpg|Seat-belt webbing in use|product
 velcro|commons|Hook and loop fastener - macro photograph of "hooks".jpg|The hooks of a hook-and-loop fastener, magnified|photo
-denim|commons|Denim fabric 05 (Rico Cilliers and colormass via Poly Haven).png|Denim, woven as a right-hand twill|photo
+denim|Poly Haven|https://cdn.polyhaven.com/asset_img/primary/denim_fabric_05.png?width=1024|Denim, woven as a right-hand twill: a scanned swatch rendered by Poly Haven|photo|CC0|Poly Haven|https://polyhaven.com/a/denim_fabric_05
 cordura|commons|Blue cordura garment.jpg|Cordura fabric|photo
 viscose|commons|Rayon sample.jpg|Viscose rayon|photo
 lyocell|commons|Lyocell.jpg|Lyocell fibre|photo
@@ -256,7 +256,7 @@ byssus|commons|Mussel & Byssal Threads.jpg|Mussel byssus threads|photo
 toothenamel|commons|What is Inside Human Tooth (Macro-Anatomy).jpg|A sectioned tooth — enamel is the outer shell|photo
 pumice|commons|Pumice stones.JPG|Pumice|photo
 mica|Flickr|https://live.staticflickr.com/555/31738996790_c22e49b401_b.jpg|Muscovite mica|photo|CC BY 2.0|James St. John|https://www.flickr.com/photos/47445767@N05/31738996790
-asbestos|commons|Chrysotile and asbestos (GeoDIL number - 2527).jpg|Chrysotile asbestos|photo
+asbestos|GeoDIL|https://geodil.dperkins.org/i/2527.jpg|Chrysotile asbestos|photo|CC0|Dexter Perkins, GeoDIL|https://geodil.dperkins.org/h/2527.html
 nephrite|commons|Amphibole - Nephrite Jade Basic calcium magnesium iron silicate Lander County Wyoming 2077.jpg|Nephrite jade|photo
 washi|commons|Washi(Sugihara paper).JPG|Washi paper|photo
 vellum|commons|Ashmolean Parchment AN 1981.940.jpg|Parchment|photo
@@ -268,7 +268,7 @@ gaas|commons|Gallium Arsenide (GaAs) 2" wafer.jpg|A gallium arsenide wafer|photo
 gan|commons|Silicon vs GaN 30W USB-C chargers.jpg|Two 30 W chargers — silicon on the left, GaN on the right|product
 germanium|commons|Germanium crystals.jpg|Germanium crystals|photo
 hgcdte|commons|Detector array on the focal plane of the Infrared Astronomical Satellite (IRAS).png|An infrared focal plane detector array|product
-perovskitepv|commons|Perovskite solar cell.jpg|A perovskite solar cell|photo
+perovskitepv|US Department of Energy|https://www.energy.gov/sites/default/files/2022-05/Perovskite-Hand-2-64514.jpg|A perovskite solar cell|photo|Public domain|US Department of Energy, Solar Energy Technologies Office|https://www.energy.gov/eere/solar/perovskite-solar-cells
 ito|commons|Transparent keypad touchscreen.png|A transparent ITO-coated touch keypad|product
 linbo3|commons|Lithium Niobate Wafer.jpg|A lithium niobate wafer|photo
 yig|commons|Four Yttrium Iron Garnet spheres filter.jpg|YIG spheres inside a tunable microwave filter|product
@@ -313,7 +313,7 @@ dwrfinish|commons|CSIRO ScienceImage 11489 Water droplets on QuickDry merino wol
 tufted|commons|Deep Pile Carpet Up Close.jpg|Deep carpet pile, close up|product
 terrypile|commons|Frottee-Handtuch.jpg|Terry towelling — the loops left uncut|photo
 leno|commons|3611 Bandage rolling.jpg|Gauze bandage being rolled|product
-fleece|commons|Polar fleece (2) (Rico Cilliers and colormass via Poly Haven).png|Polar fleece — napped and shorn level|photo
+fleece|Poly Haven|https://cdn.polyhaven.com/asset_img/primary/polar_fleece.png?width=1024|Polar fleece, napped and shorn level: a scanned swatch rendered by Poly Haven|photo|CC0|Poly Haven|https://polyhaven.com/a/polar_fleece
 nonwoven|commons|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
 weldedseam|commons|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
 waam|commons|Панфилов Александр - Wire Arc Additive Manufacturing (ИФПМ СО РАН).jpg|Wire arc deposition in progress|photo
@@ -330,9 +330,9 @@ soluble|commons|Support structure in 3D printing.jpg|Support structure on a prin
 pa12powder|Flickr|https://live.staticflickr.com/6209/6123908690_17e3b89de7_b.jpg|A laser-sintered nylon bicycle — the first workable one, grown in fused powder|product|CC BY-SA 2.0|51% Studios Architecture|https://www.flickr.com/photos/51pct/6123908690
 cellacetate|commons|Cutlery made from Cellulose Acetate Biograde.JPG|Cutlery moulded in cellulose acetate|product
 gummetal|commons|Watch balance spring and human hair.jpg|A watch balance spring beside a human hair — Gum Metal is one of the alloys wound into these|related
-al7075|commons|Black Diamond Carabiners.JPG|Climbing carabiners — hot-forged 7075 is the standard alloy|product
+al7075|Flickr|https://live.staticflickr.com/8741/17101043315_4f12362b98_b.jpg|A forged 7075 aluminium bicycle stem, Zipp Service Course SL|product|CC BY 2.0|Glory Cycles|https://www.flickr.com/photos/29558127@N06/17101043315
 ss316l|Flickr|https://live.staticflickr.com/7511/27964588231_b90529058e_b.jpg|Orbital welding 316L tube — the low-carbon grade exists so a weld like this does not sensitise|product|CC BY 2.0|fourbyfourblazer|https://www.flickr.com/photos/chrisyarzab/27964588231
-cupronickel|commons|Two stacks of half dollars, one silver, one clad - effects of the Coinage Act 1965.jpg|Clad half dollars beside silver ones — the reddish copper core shows at the edge of every post-1965 coin|product
+cupronickel|Flickr|https://live.staticflickr.com/4145/5089714818_9e5b4d545d_b.jpg|British 50 pence coins, struck in cupronickel|product|CC BY 2.0|ell brown|https://www.flickr.com/photos/39415781@N06/5089714818
 babbitt|commons|Miba Thrust Bearing.jpg|A fluid-film thrust bearing for a gas turbine — the pads carry a Babbitt lining|product
 macor|commons|60kV Feedthrough.jpg|A 60 kV vacuum feedthrough — the insulator is the kind of part Macor gets machined into|related
 chalcogenide|commons|CD-RW bottom.jpg|The underside of a CD-RW — the recording layer is a chalcogenide that switches between glass and crystal|product
@@ -379,7 +379,7 @@ nextel|commons|Industrial furnace equipped with HTIW modules.jpg|A furnace lined
 smc|commons|1979 tvr 3000s.jpg|A TVR 3000S — its body is hand-laid glass-reinforced plastic; sheet moulding compound is the same idea pressed out by the minute|analog
 g10|commons|SEG DVD 430 - Printed circuit board-4276.jpg|A DVD player's circuit board — boards like this are cut from glass-cloth epoxy laminate, the electrical grade of G10|analog
 fgm|commons|Repair process for a V2500 high-pressure turbine guide vane (8).jpg|A V2500 turbine guide vane, its thermal barrier just plasma-sprayed on — coatings like this are where graded composition earns its keep|analog
-contfibre|commons|U S Marines with 3d Marine Logistics Group showcase 3D Printing Capabilities to the U S Coast Guard at CJLOTS 26 (9832271).jpg|Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell|process
+contfibre|DVIDS|https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9832271/1000w_q95.jpg|Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell|process|Public domain|US Army, DVIDS|https://www.dvidshub.net/image/9832271
 lattice|commons|3D-Printed Biodegradable Human Bone Scaffold 4.jpg|A printed biodegradable bone scaffold going in, in Assam — the open structure is there for bone to grow into|analog
 primaloft|commons|Adidas belgements primaloft cycling gilet.jpg|An insulated cycling gilet — PrimaLoft wadding under a windproof shell|product
 m5fibre|commons|Aramid fiber2.jpg|Aramid filaments about 10 µm across — M5 is the rigid-rod fibre that was meant to beat these|analog
@@ -427,7 +427,7 @@ hideglue|commons|Knochenleim Granulat.jpg|Animal glue granules, ready to be soak
 shockmount|commons|AKG C214 condenser microphone with H85 shock mount.jpg|A condenser microphone slung in an elastic shock mount|photo
 endpin|commons|Cello endpin.JPG|A cello endpin — the steel spike, with its rubber cap beside it|photo
 nb3sn|Flickr|https://live.staticflickr.com/4202/34860816181_5e2e163cfc_b.jpg|An exploded view of ITER's central solenoid conductor, cabled from niobium-tin|product|CC BY-SA 2.0|ChaSanabria|https://www.flickr.com/photos/98777507@N04/34860816181
-wroughtiron|commons|Iron Pillar of Delhi.jpg|The iron pillar of Delhi, forged about sixteen centuries ago and barely rusted|product
+wroughtiron|Flickr|https://live.staticflickr.com/1950/31440405118_bcf4c59f1d_b.jpg|A wrought iron gate of about 1840, forged and scrolled before mild steel existed|product|CC BY-SA 2.0|Spencer Means|https://www.flickr.com/photos/28643687@N08/31440405118
 tincoat|commons|TiNCoatedPunches NanoShieldPVD Thailand.JPG|Punches coated with titanium nitride by cathodic arc deposition|photo
 lfp|commons|Lithium Iron Phosphate LiFePO4 Cells 400 Ah Amp Hours 3.25 Volts - 1.jpg|400 Ah lithium iron phosphate cells wired into a house battery|product
 rattan|commons|Rattan and Nito.jpg|Rattan and nito woven into baskets and trays, in a Philippine craft display|product
@@ -435,7 +435,7 @@ willow|commons|Weidenkorbflechter Intangible Cultural Heritage of Austria 01.jpg
 tatami|Flickr|https://live.staticflickr.com/7829/47196268132_d9e187bfde_b.jpg|Tatami under repair, the rush facing lifted off its core|photo|CC BY 2.0|Rosewoman|https://www.flickr.com/photos/45873442@N04/47196268132
 toquilla|commons|The toquilla straw hat is woven from fibres from a palm tree characteristic of the Ecuadorian coast.jpg|Cenovio, a master weaver, working toquilla straw on the Ecuadorian coast|process
 worsted|commons|Worsted wool yarn.JPG|Worsted wool yarn, the plied structure visible|photo
-tweed|commons|Harris Tweed Macro photography.jpg|Harris Tweed cloth under a macro lens|photo
+tweed|pxhere|https://c.pxhere.com/photos/82/fa/fabric_detail_harris_tweed_coarse_plant_dyes_natural_colours-750549.jpg!d|Harris Tweed cloth under a macro lens|photo|CC0|pxhere|https://pxhere.com/en/photo/750549
 satin|commons|Satin Ribbons.png|Rolls of satin ribbon, the float surface catching the light|photo
 carbonfab|commons|Woven carbon fiber fabric.jpg|Woven carbon fibre fabric, tow crossing tow|photo
 fibc|commons|Flexible intermediate bulk containers-Fertilizer.jpg|Woven polypropylene big bags holding 600 kg of fertiliser each|product
@@ -530,7 +530,7 @@ ldpefilm|commons|Film extrusion.jpg|A blown-film line, with the inflated bubble 
 pdlcfilm|commons|VITSWELL PDLC FILM.jpg|A sheet of PDLC switchable film with its leads|photo
 capfilm|commons|Wiki-Folkos-P1090317-1.jpg|Plastic film capacitors, axial and radial|product
 nitratefilm|commons|Nitrate Deterioration.jpg|A cellulose nitrate negative in the late stages of decay, the image gone|photo
-sailfilm|commons|Solar sail tests.jpg|A 20 m test solar sail deployed in a NASA vacuum chamber|photo
+sailfilm|NASA|https://images-assets.nasa.gov/image/MSFC-1601350/MSFC-1601350~medium.jpg|The NEA Scout solar sail, aluminised polyimide film, deployed for test|product|Public domain|NASA/MSFC|https://images.nasa.gov/details/MSFC-1601350
 ptfetape|commons|PTFEpaska.jpg|A spool of PTFE thread seal tape with the end unwound|photo
 parafilm|commons|Parafilm roll.jpg|A roll of Parafilm|photo
 esdbag|commons|Antistatic Bags.jpg|A pink antistatic bag and a silver static-shielding bag|photo

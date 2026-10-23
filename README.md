@@ -370,9 +370,9 @@ the lightbox. If you redistribute this page, keep those credits. No two cards us
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 
-316 are photographs of the material itself. 223 are not, and say so in red on the corner of the image:
+308 are photographs of the material itself. 231 are not, and say so in red on the corner of the image:
 
-- **162 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **170 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
