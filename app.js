@@ -13,7 +13,7 @@ const MATERIALS = window.MATERIALS || [];
 const PLATES = window.PLATES || [];
 for (const p of PLATES) p.plate = true;
 const PAPERS = window.PAPERS || [];
-for (const p of PAPERS) p.paper = true;
+for (const p of PAPERS) { p.paper = true; p.name = p.name || p.material; }   // sorts by name
 // Cards, plates and papers render in one grid; a plate or a paper belongs to every
 // workshop it lists. The shelf keys show one kind on its own.
 const ALL = MATERIALS.concat(PLATES, PAPERS);
