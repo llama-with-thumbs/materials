@@ -24,11 +24,11 @@ rhenium|commons|Rhenium single crystal bar and 1cm3 cube.jpg|Rhenium single-crys
 ytzp|commons|Zirconium dioxide ZrO2 bearing balls.jpg|Y-TZP zirconia bearing balls|photo
 cbn|commons|Cubic Boron Nitride.jpg|Cubic boron nitride crystals|photo
 b4c|commons|Boron carbide.JPG|Boron carbide, sintered and as powder|photo
-sic|commons|SiC p1390066.jpg|Silicon carbide crystals with their iridescent oxide film|photo
+sic|Geocollections of Estonia|https://files.geocollections.info/large/1a/ea/1aea3945-a467-49ed-83d5-a546527cfacc.jpg|A lump of synthetic silicon carbide, carborundum, from a geology collection|photo|CC BY-SA 4.0|Geocollections of Estonia|https://geocollections.info/file/144567
 zerodur|ESO|https://cdn.eso.org/images/large/eso1715a.jpg|A cast Zerodur mirror blank (ELT secondary, 4.2 m)|photo|CC BY 4.0|ESO|https://www.eso.org/public/images/eso1715a/
 aln|commons|Aluminium Nitride.jpg|Aluminium nitride — an insulator that conducts heat like metal|photo
 alon|commons|TTO Spinel Ceramic.JPG|Transparent spinel ceramic — AlON's close cousin, same trick: a polycrystalline ceramic you can see through|photo
-pyro|commons|Diamagnetic graphite levitation.jpg|Pyrolytic graphite levitating over permanent magnets at room temperature|photo
+pyro|Flickr|https://live.staticflickr.com/4072/4674344608_5165891d65_b.jpg|Pyrolytic graphite floating over a magnet array: diamagnetic levitation|photo|CC BY 2.0|yellowcloud|https://www.flickr.com/photos/63794141@N00/4674344608
 cc|commons|Ferrari F430 Challenge Brake.JPG|Carbon-carbon / carbon-ceramic racing brake|photo
 cmc|commons|CMC-X38-Bodyflaps.jpg|SiC/SiC ceramic matrix composite body flaps (X-38)|photo
 cf|commons|Carbon fiber bundle.jpg|Carbon fibre tow|photo
@@ -83,7 +83,7 @@ parylene|commons|CPI Microlyth Pacemaker.jpg|A cardiac pacemaker — parylene C 
 vectran|commons|Level 3A glove.jpg|A cut-resistant glove — Vectran is one of the yarns knitted into this class|related
 metglas|commons|MeltSpinner.png|Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise|process
 maraging|commons|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Competition épée blades are maraging steel — it bends far before it breaks|product
-cordierite|commons|Catalytic Converter Interior.jpg|Inside a catalytic converter: the extruded cordierite honeycomb|product
+cordierite|Flickr|https://live.staticflickr.com/3815/11185998225_f48065e822_b.jpg|Cordierite as a mineral; the kiln-shelf ceramic is the same magnesium aluminosilicate, fired|related|CC BY 2.0|Juhele_CZ|https://www.flickr.com/photos/96541566@N06/11185998225
 torlon|commons|Ruban-capton-adhesif.jpg|A roll of Kapton tape — polyimide, the amber chemical neighbour Torlon's amide-imide sits beside|analog
 fields|commons|Wood's alloy 2.JPG|Wood's metal, Field's older cadmium-bearing cousin, melting in hot water|related
 bakelite|Flickr|https://live.staticflickr.com/5765/20967111954_7ff274c261_b.jpg|A Bakelite telephone, the housing moulded in one black piece|product|CC BY 2.0|wwarby|https://www.flickr.com/photos/26782864@N00/20967111954
@@ -319,13 +319,13 @@ weldedseam|commons|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — it
 waam|commons|Панфилов Александр - Wire Arc Additive Manufacturing (ИФПМ СО РАН).jpg|Wire arc deposition in progress|photo
 metalpowder|commons|SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg|Electron micrograph of gas-atomised steel powder|photo
 fff|Flickr|https://live.staticflickr.com/3945/15591161602_45e12b004d_b.jpg|Spools of 1.75 mm filament on a printed stand|photo|CC BY 2.0|Creative Tools|https://www.flickr.com/photos/33907867@N02/15591161602
-coldspray|commons|CSAM 7755 16.jpg|Cold spray in progress — powder arriving fast enough to weld without melting|process
+coldspray|Flickr|https://live.staticflickr.com/5182/5725947299_2c7feb8b42_b.jpg|Aluminium and titanium powder blended as cold-spray feedstock, under the electron microscope|photo|CC BY 2.0|CORE-Materials|https://www.flickr.com/photos/41639353@N08/5725947299
 fourd|commons|Multishape active composites by 3d printing of digial smps.jpg|Printed shape-memory composites, folded and recovered|photo
 lcmceramic|commons|Zirconia bridge.jpg|A zirconia dental bridge — the kind of part a ceramic slurry resin makes|product
 concreteprint|commons|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a house printed in raw earth — the same thixotropic trick, with clay in place of cement|product
-bioink|commons|Клеточная сеть образованная стволовыми клетками в трехмерном пространстве внутри гидрогелевого скаффолда.png|Stem cells spreading through a hydrogel scaffold|photo
+bioink|NASA|https://images-assets.nasa.gov/image/jsc2022e072969/jsc2022e072969~medium.jpg|The BioFabrication Facility, the bioprinter flown to the space station to lay down cell-laden ink|process|Public domain|JSC|https://images.nasa.gov/details/jsc2022e072969
 grcop|commons|Marshall engineers installed the injector in a subscale RS-25 engine model.jpg|A printed fuel injector going into a subscale RS-25 engine — hot-fire tested near 3300 °C|product
-ebm|commons|Xilloc Patient Specific Implant Titanium.png|A patient-specific titanium implant|product
+ebm|Flickr|https://live.staticflickr.com/7015/6790413239_05b51c6b63_b.jpg|A titanium lattice gauntlet grown by electron-beam melting at Oak Ridge|product|CC BY 2.0|oakridgelabnews|https://www.flickr.com/photos/37940997@N05/6790413239
 soluble|commons|Support structure in 3D printing.jpg|Support structure on a printed part; soluble versions wash off|related
 pa12powder|Flickr|https://live.staticflickr.com/6209/6123908690_17e3b89de7_b.jpg|A laser-sintered nylon bicycle — the first workable one, grown in fused powder|product|CC BY-SA 2.0|51% Studios Architecture|https://www.flickr.com/photos/51pct/6123908690
 cellacetate|commons|Cutlery made from Cellulose Acetate Biograde.JPG|Cutlery moulded in cellulose acetate|product

@@ -254,15 +254,15 @@ window.CREDITS = {
   },
   "sic": {
     "file": "sic.jpg",
-    "caption": "Silicon carbide crystals with their iridescent oxide film",
+    "caption": "A lump of synthetic silicon carbide, carborundum, from a geology collection",
     "kind": "photo",
-    "title": "SiC p1390066.jpg",
-    "artist": "David Monniaux",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:SiC_p1390066.jpg",
+    "title": "https://files.geocollections.info/large/1a/ea/1aea3945-a467-49ed-83d5-a546527cfacc.jpg",
+    "site": "Geocollections of Estonia",
+    "artist": "Geocollections of Estonia",
+    "license": "CC BY-SA 4.0",
+    "page": "https://geocollections.info/file/144567",
     "w": 960,
-    "h": 816,
-    "site": "Wikimedia"
+    "h": 726
   },
   "zerodur": {
     "file": "zerodur.jpg",
@@ -302,15 +302,15 @@ window.CREDITS = {
   },
   "pyro": {
     "file": "pyro.jpg",
-    "caption": "Pyrolytic graphite levitating over permanent magnets at room temperature",
+    "caption": "Pyrolytic graphite floating over a magnet array: diamagnetic levitation",
     "kind": "photo",
-    "title": "Diamagnetic graphite levitation.jpg",
-    "artist": "en:User:Splarka",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Diamagnetic_graphite_levitation.jpg",
-    "w": 550,
-    "h": 700,
-    "site": "Wikimedia"
+    "title": "https://live.staticflickr.com/4072/4674344608_5165891d65_b.jpg",
+    "site": "Flickr",
+    "artist": "yellowcloud",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/63794141@N00/4674344608",
+    "w": 960,
+    "h": 722
   },
   "cc": {
     "file": "cc.jpg",
@@ -962,15 +962,15 @@ window.CREDITS = {
   },
   "cordierite": {
     "file": "cordierite.jpg",
-    "caption": "Inside a catalytic converter: the extruded cordierite honeycomb",
-    "kind": "product",
-    "title": "Catalytic Converter Interior.jpg",
-    "artist": "Cyrogigabyte",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Catalytic_Converter_Interior.jpg",
+    "caption": "Cordierite as a mineral; the kiln-shelf ceramic is the same magnesium aluminosilicate, fired",
+    "kind": "related",
+    "title": "https://live.staticflickr.com/3815/11185998225_f48065e822_b.jpg",
+    "site": "Flickr",
+    "artist": "Juhele_CZ",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/96541566@N06/11185998225",
     "w": 960,
-    "h": 1280,
-    "site": "Wikimedia"
+    "h": 720
   },
   "torlon": {
     "file": "torlon.jpg",
@@ -3794,15 +3794,15 @@ window.CREDITS = {
   },
   "coldspray": {
     "file": "coldspray.jpg",
-    "caption": "Cold spray in progress — powder arriving fast enough to weld without melting",
-    "kind": "process",
-    "title": "CSAM 7755 16.jpg",
-    "artist": "Lilia Chomoyan",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CSAM_7755_16.jpg",
+    "caption": "Aluminium and titanium powder blended as cold-spray feedstock, under the electron microscope",
+    "kind": "photo",
+    "title": "https://live.staticflickr.com/5182/5725947299_2c7feb8b42_b.jpg",
+    "site": "Flickr",
+    "artist": "CORE-Materials",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/41639353@N08/5725947299",
     "w": 960,
-    "h": 540,
-    "site": "Wikimedia"
+    "h": 960
   },
   "fourd": {
     "file": "fourd.jpg",
@@ -3841,16 +3841,16 @@ window.CREDITS = {
     "site": "Wikimedia"
   },
   "bioink": {
-    "file": "bioink.png",
-    "caption": "Stem cells spreading through a hydrogel scaffold",
-    "kind": "photo",
-    "title": "Клеточная сеть образованная стволовыми клетками в трехмерном пространстве внутри гидрогелевого скаффолда.png",
-    "artist": "Marfaegorihina",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BB%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C_%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2%D1%8B%D0%BC%D0%B8_%D0%BA%D0%BB%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8_%D0%B2_%D1%82%D1%80%D0%B5%D1%85%D0%BC%D0%B5%D1%80%D0%BD%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%B5_%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8_%D0%B3%D0%B8%D0%B4%D1%80%D0%BE%D0%B3%D0%B5%D0%BB%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE_%D1%81%D0%BA%D0%B0%D1%84%D1%84%D0%BE%D0%BB%D0%B4%D0%B0.png",
+    "file": "bioink.jpg",
+    "caption": "The BioFabrication Facility, the bioprinter flown to the space station to lay down cell-laden ink",
+    "kind": "process",
+    "title": "https://images-assets.nasa.gov/image/jsc2022e072969/jsc2022e072969~medium.jpg",
+    "site": "NASA",
+    "artist": "JSC",
+    "license": "Public domain",
+    "page": "https://images.nasa.gov/details/jsc2022e072969",
     "w": 960,
-    "h": 723,
-    "site": "Wikimedia"
+    "h": 640
   },
   "grcop": {
     "file": "grcop.jpg",
@@ -3865,16 +3865,16 @@ window.CREDITS = {
     "site": "Wikimedia"
   },
   "ebm": {
-    "file": "ebm.png",
-    "caption": "A patient-specific titanium implant",
+    "file": "ebm.jpg",
+    "caption": "A titanium lattice gauntlet grown by electron-beam melting at Oak Ridge",
     "kind": "product",
-    "title": "Xilloc Patient Specific Implant Titanium.png",
-    "artist": "Maikel Beerens, Xilloc",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Xilloc_Patient_Specific_Implant_Titanium.png",
-    "w": 960,
-    "h": 360,
-    "site": "Wikimedia"
+    "title": "https://live.staticflickr.com/7015/6790413239_05b51c6b63_b.jpg",
+    "site": "Flickr",
+    "artist": "oakridgelabnews",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/37940997@N05/6790413239",
+    "w": 692,
+    "h": 1024
   },
   "soluble": {
     "file": "soluble.jpg",

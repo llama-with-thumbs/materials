@@ -376,9 +376,9 @@ the lightbox. If you redistribute this page, keep those credits. No two cards us
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 
-291 are photographs of the material itself. 248 are not, and say so in red on the corner of the image:
+285 are photographs of the material itself. 254 are not, and say so in red on the corner of the image:
 
-- **187 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **192 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
@@ -391,7 +391,7 @@ in `fonts/OFL.txt`.
   magnetorheological fluid for the electrorheological one, aramid filaments for M5, turnout gear for
   melamine fibre, and a hand-laid glass-reinforced body for sheet moulding compound. The caption
   always says what the picture actually is.
-- **18 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
+- **19 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
   optical calcium fluoride, a superhydrophobic droplet for SLIPS, a printed sand mould for
   furan-bonded sand, a GAGG:Ce scintillator for GGG, and a cut-resistant glove for Vectran.
 - **20 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
