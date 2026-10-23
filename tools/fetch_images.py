@@ -1,8 +1,12 @@
-"""Download material photos from Wikimedia Commons into images/ and write credits.js.
+"""Download the material photographs into images/ and write credits.js.
 
 Usage: python -I tools/fetch_images.py [--all]
-Reads tools/images.txt  ->  id|Commons File name|caption[|kind]
-kind is photo (default), structure, product, process, related or analog.
+Reads tools/images.txt  ->  id|source|ref|caption|kind[|licence|credit|page]
+source is `commons`, in which case ref is the File name and the licence, credit and source
+page are read from the Commons API, or the name of the site the picture is shown as coming
+from (Flickr, NASA, Geograph, a maker...), in which case ref is the direct image URL and the
+licence, credit and page are given in the row. Anything wider than WIDTH is scaled down to
+WIDTH on the way in. kind is photo, structure, product, process, related or analog.
 
 By default this is incremental: a row whose image is already on disk and whose credit
 in credits.js still matches the line in images.txt is reused without touching the API,
@@ -13,13 +17,33 @@ a licence on Commons has changed.
 Swapping a photograph means deleting images/<id>.<ext> first — a file already on disk
 is never re-downloaded.
 """
-import sys, os, re, json, time, html, struct, urllib.request, urllib.parse
+import sys, os, re, json, time, html, struct, subprocess, urllib.request, urllib.parse
 sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = {"User-Agent": "MaterialsCatalogue/1.0 (https://github.com/llama-with-thumbs/materials; static site build)"}
-WIDTH = 900
+WIDTH = 960
 FULL = "--all" in sys.argv[1:]
+COMMONS = "commons"
+
+# Scale a downloaded picture to WIDTH wide. PIL is not importable under python -I (it lives
+# in the user site-packages), so the resize runs in a child interpreter without -I.
+RESIZE = """
+import sys
+from PIL import Image, ImageOps
+p = sys.argv[1]; w = int(sys.argv[2])
+im = ImageOps.exif_transpose(Image.open(p))
+if im.width > w:
+    im = im.resize((w, round(im.height * w / im.width)), Image.LANCZOS)
+if p.lower().endswith(".png"):
+    im.save(p, optimize=True)
+else:
+    im.convert("RGB").save(p, "JPEG", quality=86, optimize=True, progressive=True)
+"""
+def resize(path):
+    r = subprocess.run([sys.executable, "-c", RESIZE, path, str(WIDTH)], capture_output=True, text=True)
+    if r.returncode:
+        raise SystemExit("resize failed on %s:\n%s" % (path, r.stderr))
 
 def api(params):
     url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)
@@ -88,10 +112,16 @@ with open(os.path.join(ROOT, "tools", "images.txt"), encoding="utf-8") as fh:
     for line in fh:
         line = line.strip()
         if line and not line.startswith("#"):
-            parts = line.split("|")
-            mid, fname, caption = parts[0], parts[1], parts[2]
-            kind = parts[3] if len(parts) > 3 else "photo"
-            rows.append((mid, fname, caption, kind))
+            p = line.split("|")
+            if p[1] == COMMONS:
+                if len(p) != 5:
+                    raise SystemExit("a commons row has five columns: " + line)
+                rows.append(dict(id=p[0], source=COMMONS, ref=p[2], caption=p[3], kind=p[4]))
+            else:
+                if len(p) != 8:
+                    raise SystemExit("a row from elsewhere has eight columns: " + line)
+                rows.append(dict(id=p[0], source=p[1], ref=p[2], caption=p[3], kind=p[4],
+                                 license=p[5], artist=p[6], page=p[7]))
 
 # What we already know, so a routine run only asks Commons about what changed.
 old = {}
@@ -102,24 +132,43 @@ if os.path.exists(cpath) and not FULL:
 
 credits = {}
 todo = []
-for mid, fname, caption, kind in rows:
+for r in rows:
+    mid = r["id"]
     c = old.get(mid)
     on_disk = c and os.path.exists(os.path.join(ROOT, "images", c.get("file", "")))
-    if c and on_disk and c.get("title") == fname and c.get("page") and c.get("artist"):
-        c = dict(c, caption=caption, kind=kind)
+    if c and on_disk and c.get("title") == r["ref"] and c.get("page") and c.get("artist"):
+        c = dict(c, caption=r["caption"], kind=r["kind"], site=c.get("site") or "Wikimedia")
+        if r["source"] != COMMONS:
+            c.update(site=r["source"], license=r["license"], artist=r["artist"], page=r["page"])
         if not c.get("w"):
             c["w"], c["h"] = imagesize(os.path.join(ROOT, "images", c["file"]))
         credits[mid] = c
     else:
-        todo.append((mid, fname, caption, kind))
+        todo.append(r)
 
 print("%d rows: %d reused, %d to fetch%s"
       % (len(rows), len(credits), len(todo), " (--all)" if FULL else ""))
 
+# Rows from elsewhere: one direct download each, scaled to WIDTH, credited from the row.
+for r in [r for r in todo if r["source"] != COMMONS]:
+    mid, src = r["id"], r["ref"]
+    ext = ".png" if src.lower().split("?")[0].endswith(".png") else ".jpg"
+    dest = os.path.join(ROOT, "images", mid + ext)
+    if not os.path.exists(dest) or os.path.getsize(dest) == 0:
+        download(src, dest)
+        resize(dest)
+        time.sleep(0.5)
+    w, h = imagesize(dest)
+    credits[mid] = {"file": mid + ext, "caption": r["caption"], "kind": r["kind"], "title": src,
+                    "site": r["source"], "artist": r["artist"], "license": r["license"],
+                    "page": r["page"], "w": w, "h": h}
+    print(f"ok  {mid:12s} {os.path.getsize(dest)//1024:5d} KB  {r['license']}  from {r['source']}")
+
+todo = [r for r in todo if r["source"] == COMMONS]
 for i in range(0, len(todo), 10):
     chunk = todo[i:i + 10]
     data = api({"action": "query", "format": "json", "formatversion": "2",
-                "titles": "|".join("File:" + f for _, f, _, _ in chunk),
+                "titles": "|".join("File:" + r["ref"] for r in chunk),
                 "prop": "imageinfo", "iiprop": "url|extmetadata|mime",
                 "iiurlwidth": str(WIDTH)})
     byname = {}
@@ -127,7 +176,8 @@ for i in range(0, len(todo), 10):
         if p.get("missing"):
             print("MISSING " + p.get("title", "?")); continue
         byname[p["title"].replace("File:", "")] = p["imageinfo"][0]
-    for mid, fname, caption, kind in chunk:
+    for r in chunk:
+        mid, fname, caption, kind = r["id"], r["ref"], r["caption"], r["kind"]
         ii = byname.get(fname)
         if not ii:
             print("no imageinfo: " + fname); continue
@@ -144,6 +194,7 @@ for i in range(0, len(todo), 10):
             "caption": caption,
             "kind": kind,
             "title": fname,
+            "site": "Wikimedia",
             "artist": strip_html(em.get("Artist", {}).get("value", "")) or "Unknown",
             "license": strip_html(em.get("LicenseShortName", {}).get("value", "")) or "see source",
             "page": ii.get("descriptionurl", ""),
@@ -154,9 +205,10 @@ for i in range(0, len(todo), 10):
     time.sleep(1.0)
 
 # Keep credits.js in the order of images.txt, whatever order the fetching happened in.
-credits = {mid: credits[mid] for mid, _, _, _ in rows if mid in credits}
+credits = {r["id"]: credits[r["id"]] for r in rows if r["id"] in credits}
 
 with open(cpath, "w", encoding="utf-8") as fh:
-    fh.write("// Generated by tools/fetch_images.py - image provenance from Wikimedia Commons\n")
+    fh.write("// Generated by tools/fetch_images.py - where every picture came from, and under what licence\n")
     fh.write("window.CREDITS = " + json.dumps(credits, indent=2, ensure_ascii=False) + ";\n")
-print(f"\n{len(credits)}/{len(rows)} images written")
+still = sum(1 for c in credits.values() if c.get("site") == "Wikimedia")
+print(f"\n{len(credits)}/{len(rows)} images written; {still} still from Wikimedia Commons")

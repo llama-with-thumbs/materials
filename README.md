@@ -24,6 +24,7 @@ app.js         rendering, search, filters, sort, shareable URL state, lightbox
 swatch.js      the drawn fallback used when a material has no photograph
 data.js        the catalogue — 539 entries, this is the file to edit
 plates.js      the plates: diagrams that explain several cards, drawn from data or credited
+papers.js      the papers: the paper behind a material, or one that promises something
 figures.js     draws a plate's figure from its data and runs the readout under the pointer
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
@@ -34,7 +35,7 @@ LICENSE        MIT for the text and the tools; the photographs keep their own li
 SOURCES.md     generated: every second source grouped by site, and which ones answer
 tools/
   build.py           one command: rebuild everything, then run every check
-  images.txt         id | Commons filename | caption | kind
+  images.txt         id | source | file or URL | caption | kind [| licence | credit | page]
   fetch_images.py    downloads missing images and regenerates credits.js (incremental)
   added.py           rebuilds added.js from the git history of data.js
   add_cards.py       inserts new cards from a JSON file into data.js and images.txt
@@ -227,6 +228,20 @@ axes.
 Plates live in `plates.js`, go through `tools/added.py` for their date like the cards, and are
 counted separately: the count line says `539 materials, 1 plate` when both are showing.
 
+## Papers
+
+A paper is the third kind of entry. It is not a material and not a figure: it is the paper
+that introduced a material on a card (Kistler's aerogel, Novoselov's graphene), or a recent
+one whose result promises something and has not yet become a material anyone can buy. Each
+carries the material it is about, the citation, the DOI, a free full text where one exists,
+two or three sentences on what it showed and one on what it implies, hedged where the result
+is still unconfirmed. A paper names the workshops it belongs to (`cats`) and the cards it
+touches (`cards`), and appears among them with its own running number; the year stands where
+the photograph would be. *the papers* in the row across the workshops shows them alone.
+
+Papers live in `papers.js`; `tools/check.js` refuses one without a DOI of the right shape, a
+year, a workshop that is declared, or a card that does not exist.
+
 ## Material of the week
 
 A red square under the filters names one card. It is chosen by arithmetic: the ISO week
@@ -300,16 +315,25 @@ source existed that was not a shop. The other categories do not yet.
 `tags` is optional and cross-cuts the categories; see *Themes* above. Both the category and
 every tag have to be declared in `taxonomy.js` or `tools/check.js` fails.
 
-For a picture, add a line to `tools/images.txt` as `id|Commons File name.jpg|caption|kind` and run:
+For a picture, add a line to `tools/images.txt` and run:
 
 ```sh
 python -I tools/fetch_images.py
 ```
 
-That downloads anything missing into `images/` and rewrites `credits.js` with the photographer
-and licence. It skips files already on disk and backs off when Commons rate-limits it. If one
-file keeps returning HTTP 429 the script aborts before writing `credits.js` — pick a different
-Commons file for that entry and run it again.
+A row is `id|source|ref|caption|kind`, and the source decides the rest. `commons` means ref is
+a Wikimedia Commons File name and the photographer, licence and source page are read from the
+API. Any other source is the name of the site the picture is shown as coming from — `Flickr`,
+`NASA`, `Geograph`, a maker — and the row carries three more columns, `|licence|credit|page`,
+with ref the direct image URL. The script downloads anything missing into `images/`, scales it
+to 960 px wide, and rewrites `credits.js`. It skips files already on disk and backs off when
+Commons rate-limits it. If one file keeps returning HTTP 429 the script aborts before writing
+`credits.js` — pick a different file for that entry and run it again.
+
+Commons is the last resort, not the first: it stays the research tool (`search.py`, `peek.py`,
+`describe.py` all work on it), but a picture is shown from the photographer's own page, an
+agency, a museum or a maker wherever one exists, and `check.js` prints how many cards still
+show a Commons picture so the number is visible and goes down.
 
 `kind` is optional and defaults to `photo`. The other values — `product`, `process`, `related`,
 `analog` and `structure` — are for materials nobody has photographed: the card then shows
@@ -338,7 +362,8 @@ starting a round, so the same dead ends are not walked twice.
 
 ## Images and licensing
 
-All 539 entries carry an image from Wikimedia Commons. Each remains under its own licence
+All 539 entries carry an image, credited to where it came from — a photographer's Flickr
+page, an agency, a museum, a maker, or Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
 the lightbox. If you redistribute this page, keep those credits. No two cards use the same

@@ -6,7 +6,11 @@ description: Add cards to the Materials catalogue — research candidates on Wik
 # Adding materials to the catalogue
 
 The catalogue is a static page: `data.js` holds the cards, `tools/images.txt` maps each card to
-one Commons photograph, `credits.js` and `added.js` are generated. There is no build step.
+one photograph and says where it comes from, `credits.js` and `added.js` are generated. There
+is no build step. Commons is the research tool, not the preferred source of the picture shown:
+if the photograph is a Flickr import, an agency or museum picture, or a maker's, cite it there
+(row `id|Flickr|image-url|caption|kind|licence|credit|page`); use `id|commons|File|caption|kind`
+only when nothing else exists. `node tools/check.js` prints how many cards still show Commons.
 
 Work through the Bash tool. Long Python goes in the session scratchpad, not in the repo.
 

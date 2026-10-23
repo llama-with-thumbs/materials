@@ -18,7 +18,7 @@ for line in open(os.path.join(ROOT, "tools", "images.txt"), encoding="utf-8"):
     line = line.strip()
     if line and not line.startswith("#"):
         p = line.split("|")
-        kinds[p[3] if len(p) > 3 else "photo"] += 1
+        kinds[p[4]] += 1
 plates = kinds.pop("plate", 0)        # plates have images too, but they are not materials
 assert sum(kinds.values()) == total, (sum(kinds.values()), total)
 

@@ -1,539 +1,544 @@
-vulkollan|Kryptonics Classic skateboard polyurethane wheel glowing against sunset.jpg|Cast polyurethane skate wheel — same NDI/MDI cast-elastomer family, representative of Vulkollan's look
-d3o|Hand protection.jpg|D3O impact padding in a protective glove
-uhmwpe|LIROS Dyneema hollow.jpg|Hollow-braid Dyneema (UHMWPE) rope
-peek|PEEK resin.jpg|PEEK granulate, the characteristic tan colour
-vespel|Vespel.Werkstueck.P1149524.jpg|Machined Vespel polyimide part
-ffkm|FFKM FFPM CKD900 plate 80mm 80mm 1mm.jpg|FFKM perfluoroelastomer sheet
-nitinol|Nitinol draht.jpg|Nitinol wire
-invar|Invar 800.jpg|Invar 36 stock
-kovar|Assortment of Kovar metal.jpg|Assorted Kovar parts
-bmg|Bulk Metallic Glass Sample.jpg|Bulk metallic glass sample, note the mirror-smooth as-cast surface
-greyiron|Gusseisen mit Lamellengraphit.jpg|Grey iron micrograph — the dark graphite flakes that damp vibration
-becu|CuBe Tool.jpg|Beryllium-copper non-sparking tool
-mumetal|Mu-metal assortment 1951.jpg|Mu-metal shielding cans
-stellite|Unterkiefer Teilprothese 20100112 008.JPG|Cast cobalt-chrome (Stellite-type) framework
-wha|Wolfram evaporated crystals and 1cm3 cube.jpg|Tungsten crystals and a 1 cm³ cube — 19.3 g in that cube
-superalloy|255 GRC 1979 03464 EEE - 2 piece single crystal HTP blade.jpg|Single-crystal high-pressure turbine blade
-galinstan|Galinstan on glass.jpg|Galinstan, liquid at room temperature
-rhenium|Rhenium single crystal bar and 1cm3 cube.jpg|Rhenium single-crystal bar and cube
-ytzp|Zirconium dioxide ZrO2 bearing balls.jpg|Y-TZP zirconia bearing balls
-cbn|Cubic Boron Nitride.jpg|Cubic boron nitride crystals
-b4c|Boron carbide.JPG|Boron carbide, sintered and as powder
-sic|SiC p1390066.jpg|Silicon carbide crystals with their iridescent oxide film
-zerodur|ELT secondary mirror blank successfully cast.jpg|A cast Zerodur mirror blank (ELT secondary, 4.2 m)
-aln|Aluminium Nitride.jpg|Aluminium nitride — an insulator that conducts heat like metal
-alon|TTO Spinel Ceramic.JPG|Transparent spinel ceramic — AlON's close cousin, same trick: a polycrystalline ceramic you can see through
-pyro|Diamagnetic graphite levitation.jpg|Pyrolytic graphite levitating over permanent magnets at room temperature
-cc|Ferrari F430 Challenge Brake.JPG|Carbon-carbon / carbon-ceramic racing brake
-cmc|CMC-X38-Bodyflaps.jpg|SiC/SiC ceramic matrix composite body flaps (X-38)
-cf|Carbon fiber bundle.jpg|Carbon fibre tow
-syntactic|Syntactic foam sphere.jpg|Syntactic foam — glass microballoons in resin
-aerogel|Aerogel hand.jpg|Silica aerogel, about 0.001 g/cm³
-metalfoam|Aluminium foam.jpg|Closed-cell aluminium foam
-bioglass|MorphologyofBioglass.png|Bioglass 45S5 surface morphology
-hap|Hydroxylapatite-338779.jpg|Hydroxyapatite, the mineral phase of bone
-mxene|SEM of MXene.png|MXene flakes under the electron microscope
-vantablack|Vantablack 02.JPG|Vantablack-coated foil — the crumpled surface is invisible
-mrf|MRF mit Permanentmagnet.jpg|Magnetorheological fluid standing up on a permanent magnet
-ferrofluid|Ferrofluid Magnet under glass edit.jpg|Ferrofluid spiking along field lines
-twood|KTH-forskare har uppfunnit genomskinligt trä prov 1.jpg|Transparent wood sample (KTH)
-mycelium|Mycelium based composite.png|Mycelium composite grown on substrate
-starlite|Starlite sample.jpg|A surviving Starlite sample
-auxetic|Meta-aux-orange.jpg|Auxetic lattice — gets thinner when stretched
-albemet|Be-140g.jpg|Pure beryllium, the stiffening phase in AlBeMet
-ptfe|Teflon-jar hg.jpg|PTFE — the slipperiest solid in common use
-eptfe|Goretex photo.png|Expanded PTFE under the microscope — the node-and-fibril structure that passes vapour but not droplets
-aramid|Para Aramid Yarns Body Armor.jpg|Para-aramid yarn woven for ballistic panels
-fkm|Fiber optic vacuum viton seal ProtoDUNE.jpg|An FKM (Viton) seal on a vacuum feedthrough
-silicone|Liquid-silicon-rubber-crop.jpg|Liquid silicone rubber before cure
-natrubber|Natural rubber.jpg|Natural rubber, still unbeaten at resisting fatigue
-butyl|Butyl rubber gloves.JPG|Butyl rubber gloves — the polymer gas does not get through
-pvdf|A UPW Installation using PVDF Piping.png|PVDF pipework in an ultrapure water plant
-kapton|James Webb telescope sunshield.jpg|JWST's sunshield — five tensioned layers of Kapton
-delrin|Dunlop Delrin 500.jpg|Acetal (Delrin) picks — the material holds its dimensions
-pc|Laboratory protection goggles-blue.jpg|Polycarbonate eye protection
-pmma|Lichtenberg figure in block of Plexiglas.jpg|A Lichtenberg figure frozen inside a PMMA block
-sap|Superabsorbent Polymer.jpg|Superabsorbent polymer beads, before and after water
-polyurea|Spray-bedliner-installed-lg.png|Sprayed polyurea lining, cured within seconds
-alumina|Spark plug insulator.jpeg|A spark plug insulator — alumina’s highest-volume job
-sapphire|Sapphire boule, Kyropoulos method.jpg|A synthetic sapphire boule pulled from the melt
-fusedsilica|Einstein gyro gravity probe b.jpg|A Gravity Probe B fused-quartz rotor — among the roundest objects ever made
-gorilla|Nokia N8 gorilla glass screen (5083750412).jpg|Chemically strengthened cover glass
-borosilicate|Beakers.jpg|Borosilicate labware
-si3n4|Si3N4bearings.jpg|Silicon nitride bearing balls
-hbn|Hexagonal Boron Nitride.jpg|Hexagonal boron nitride crystals — "white graphite", soft enough to machine
-pzt|Maxim-1-HydrophonPZTinGehäuse.JPG|A PZT piezoelectric element in a hydrophone
-wc|Tungsten carbide inserts.jpg|Tungsten carbide cutting inserts
-uhtc|An UHTC strake composed of three different sections with different UHTC compositions.jpg|An ultra-high-temperature ceramic leading-edge strake
-li900|Shuttle tile.jpg|A Shuttle silica tile — 94% air, held by the edges while glowing
-cvddiamond|Single-crystal CVD diamond disc.jpg|A single-crystal CVD diamond disc
-quartzxtal|32768 Hz quartz crystal resonator.jpg|A 32,768 Hz quartz tuning fork, the heart of every quartz watch
-yag|Yag-rod.jpg|An Nd:YAG laser rod
-batio3|BaTiO3ceramics.JPG|Barium titanate ceramic — the dielectric inside billions of capacitors
-tbc|Coloured ceramic thermal barrier coating on exhaust component.jpg|A ceramic thermal barrier coating on an exhaust component
-sorbothane|Motor tower level 1 with grommets and sorbothane - Connoisseur BD1 Kit Replinth (6909790478).jpg|Sorbothane grommets isolating a turntable motor|product
-zylon|NIJ LVLIIIA Kogelvrij vest, BA8001.jpg|A Level IIIA vest — Zylon was woven into vests like this until it was found to lose strength as it aged|analog
-lignostone|Lignoston.jpg|Densified beech laminate|photo
-parylene|CPI Microlyth Pacemaker.jpg|A cardiac pacemaker — parylene C is the standard conformal coating on implanted electronics|product
-vectran|Level 3A glove.jpg|A cut-resistant glove — Vectran is one of the yarns knitted into this class|related
-metglas|MeltSpinner.png|Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise|process
-maraging|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Competition épée blades are maraging steel — it bends far before it breaks|product
-cordierite|Catalytic Converter Interior.jpg|Inside a catalytic converter: the extruded cordierite honeycomb|product
-torlon|Ruban-capton-adhesif.jpg|A roll of Kapton tape — polyimide, the amber chemical neighbour Torlon's amide-imide sits beside|analog
-fields|Wood's alloy 2.JPG|Wood's metal, Field's older cadmium-bearing cousin, melting in hot water|related
-bakelite|Bakelite radio.jpg|A Bakelite radio cabinet|product
-phenolic|Textolite.jpg|Phenolic cotton laminate — cloth and resin pressed into a solid|photo
-neoprene|Diving suit neoprene.jpg|Neoprene foam in a diving suit|product
-epdm|EPDM foil.jpg|EPDM membrane|photo
-nbr|Disposable nitrile glove.jpg|Nitrile gloves|product
-br|Golfballinsiderp.jpg|A golf ball core — polybutadiene, chosen purely for rebound|product
-tpu|Chips TPU con eurocent.jpg|TPU pellets, with a coin for scale|photo
-pps|Molexddpcsfamily.jpg|Connector housings and crimp terminals — PPS is one of the resins moulded into parts that must survive a solder oven|analog
-mylar|Myla32rp.jpg|Aluminised BoPET film|photo
-pp|Mint box polypropylene lid.JPG|A living hinge moulded in one piece with the box|product
-memoryfoam|MemoryFoam-slow.jpg|Viscoelastic foam returning slowly after a hand is lifted|photo
-epoxy|Aerospace epoxy resin.jpg|Aerospace epoxy resin|photo
-eva|Eva closeup.jpg|EVA foam|photo
-manila|20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg|Abacá fibre, stripped and dried|photo
-hemprope|Cordage en chanvre.jpg|Hemp cordage|photo
-sisal|Pacas de sisal.jpg|Baled sisal fibre|photo
-coir|Making coir rope in Kerala.JPG|Coir rope being twisted by hand in Kerala|product
-jute|Jute Rope (சணல் கயிறு).jpg|Jute rope|photo
-cottonduck|Close up of cotton duck canvas.JPG|Cotton duck, woven tight enough to shed water|photo
-linen|Linen cloth.jpg|Linen cloth|photo
-silk|Bombyx mori Cocon 02.jpg|Bombyx mori cocoons — one continuous filament each|photo
-spidersilk|Artificial Spider Silk Strand.JPG|A strand of artificial spider silk|photo
-felt|Colored felt cloth.jpg|Wool felt — fabric with no weave at all|photo
-paracord|MIL-C-5040 Type III 550 Paracord.jpg|550 paracord, sheath opened to show the core yarns|photo
-polyesterfab|Drop of water on water-resistant textile (100% polyester).jpg|Water beading on woven polyester|photo
-wirerope|Lhol wire rope.jpg|Steel wire rope, laid left-hand ordinary|photo
-glassfibre|Glass fiber bundle.jpg|A glass fibre bundle|photo
-basalt|Basalt fibre and glass fibre.jpg|Basalt fibre (dark) beside glass fibre|photo
-nomex|TFS Nomex Hood.JPG|A Nomex firefighting hood|product
-ripstop|RipStop.jpg|Ripstop: a grid of heavier yarns that stops a tear spreading|photo
-sailcloth|Bear of Britain spinnaker.jpg|A modern laminate spinnaker under load|product
-abs|Lego bricks.jpg|Lego bricks — ABS moulded to a tolerance of about a hundredth of a millimetre|product
-pet|Plastic bottles before processing.jpg|PET bottles, blown and biaxially stretched|product
-pvc|Pvc cevi.jpg|PVC pipe
-nylon66|Kabelbinder -- 2024 -- 6907.jpg|Nylon 6/6 cable ties|product
-hdpe|Diverse Kanisterformen.png|HDPE jerrycans|product
-pex|PEX piping in basement ceiling.jpg|PEX plumbing runs|product
-eps|Expanded Polystyrene (EPS) foam pellets.jpg|Expanded polystyrene beads
-pdms|Рождение микрофлюидного чипа.JPG|A PDMS microfluidic chip|product
-fep|Pfa tubing.jpeg|PFA tubing — the same melt-processible fluoropolymer family as FEP|related
-pvb|Shattered laminated glass in broken window in railway tram train carriage Close-up Cracks fragments visual effects patterns NORWAY Knust vindu i togvogn med laminert sikkerhetsglass sprekker småbiter lyseffekter 2019-02-11 DSC03363.jpg|Shattered laminated glass, every fragment still held by the PVB interlayer|product
-surlyn|Golf ball by Japanese company Srixon.jpg|A golf ball — the cover is an ionomer|product
-pla|3D printing filament.jpg|PLA filament
-melaminefoam|MagicEraser.jpg|A melamine foam cleaning sponge|product
-cyanoacrylate|Cianocrilato.JPG|Cyanoacrylate adhesive|product
-pva|Folia PVA z pochodną kumaryny w świetle widzialnym nr 01.jpg|Polyvinyl alcohol film
-nafion|Patrick Teppor and PEM active layer deposition by ultrasonic spraying.jpg|Spraying a catalyst layer onto a proton exchange membrane|process
-pbi|Membrana di PBI commerciale.JPG|A commercial PBI membrane
-ti64|Hip joint replacement, United States, 1998 Wellcome L0060175.jpg|A titanium hip prosthesis — the stem is this alloy|product
-magnesium|Mg alloy car engine blocks.jpg|Magnesium alloy engine blocks|product
-damascus|Front and back of blades of hair-cutting shears made from Damascus steel.jpg|Pattern-welded blades, etched to bring out the layers|product
-hadfield|Sacramento tram track frog 4036.JPG|A track frog — the crossing casting is manganese steel|product
-duplex|Chemical tanker Ternholm at Skarvikshamnen 2.jpg|A chemical tanker — duplex stainless is the standard for cargo tanks that carry acid|product
-hss|HSS Twist Drill into Aluminium with Lubricant.jpg|An HSS twist drill cutting aluminium|product
-phosbronze|Phosphorbronzeguitarstring.jpg|Phosphor bronze guitar string|product
-monel|Monel-valves--The-Alloy-Valve-Stockist.JPG|Monel valves|product
-hastelloy|Hastelloy Ball valve.jpg|A Hastelloy ball valve|product
-zamak|Zink auto.jpg|A zinc die-cast model car — detail straight out of the die|product
-sac305|Solder on spool.jpeg|Solder wire on a spool|product
-tantalum|Tantalum (Element - 73) 1.jpg|Tantalum metal
-niobium|Ultrapure niobium bead, slightly oxidized.jpg|An ultrapure niobium bead
-nbti|LHC NbTi superconducting wire.jpg|Nb-Ti superconducting cable from the LHC
-bismuth|Bismuth crystals and 1cm3 cube.jpg|Bismuth hopper crystals and a 1 cm³ cube
-inconel718|Inconel 718.JPG|Inconel 718
-ndfeb|Neodimijski magneti, (Neodymium magnets).JPG|Sintered neodymium magnets
-alnico|Alnico magnet assortment.jpg|Assorted Alnico magnets
-corten|Weathering steel door.jpg|Weathering steel with its stable patina
-zircaloy|Fuel Rod (26072384441).jpg|A nuclear fuel rod — the cladding tube is Zircaloy|product
-hafnium|Hafnium ebeam remelted.jpg|Electron-beam remelted hafnium
-hea|Microstructure of High-Entropy Alloy AlCoCrFeNi₂.₁.jpg|High-entropy alloy microstructure
-sodalime|Foxton Fizz Bottles.jpg|Soda-lime glass bottles|product
-leadcrystal|Cut crystal wine glasses in the Fakiris series by German glassworks Knittel 4.jpg|Cut lead crystal|product
-ceran|Schott Ceran glass-ceramic cooktop.jpg|A glass-ceramic cooktop|product
-porcelain|Johnny ball strain insulator.JPG|A porcelain strain insulator|product
-steatite|Lampe Nishapur steatite.JPG|Carved steatite — soapstone in the soft state, before firing hardens it
-mullite|Kiln Furniture Before Glost FIring.png|Kiln furniture — mullite-bonded refractory props|product
-glassycarbon|Glassy Carbon.jpg|Glassy carbon
-emax|Detached-dental-crown-view-a.jpg|A pressed ceramic dental crown|product
-zta|Hip replacement Image 3684-PH.jpg|A hip replacement — the ball is a toughened alumina ceramic|product
-mnznferrite|T-10 Ferrite Core (1).jpg|A MnZn ferrite core
-ifb|Refractory bricks lining.jpg|Refractory brick lining|product
-sialon|ASiAlONb.jpg|Sialon ceramic
-beo|BeO sample.jpg|A beryllium oxide ceramic sample
-uraniumglass|Uranium glass.jpg|Uranium glass under ultraviolet light
-dichroic|Petit Palais Verre dichroïque Noir souriant 13012018 1.jpg|Dichroic glass|product
-photochromic|Photo Grey glasses, Фото греј наочари.JPG|Photochromic spectacle lenses|product
-bonechina|BLW Bone China Chocolate Cup.jpg|A bone china cup|product
-enamel|Vitreous enamel sign of Japan postal mark 001.JPG|A vitreous enamel sign|product
-gfrp|Glass reinforced plastic SEM Stereo 200x.JPG|Glass-reinforced plastic under the electron microscope — fibres embedded in resin
-cfrp|Carbon fibre weave.jpg|Carbon fibre fabric
-alhoneycomb|Glare honeycomb.jpg|Honeycomb core bonded between thin skins|product
-glare|An exploded view of a GLARE hybrid sheet.jpg|GLARE, exploded — alloy sheets alternating with glass-fibre prepreg
-plywood|Sandakan Sabah Plywood-Factory-35c.jpg|Plywood, veneers laid crosswise
-clt|Brettsperrholzkonstruktion.jpg|Cross-laminated timber construction|product
-rcconcrete|Reinforced concrete foundation.JPG|Reinforced concrete going in|product
-uhpc|Gaertnerplatzbruecke Kassel.JPG|The Gärtnerplatz bridge in Kassel, built from UHPC|product
-selfhealconcrete|Basilisk self-healing concrete exhibit at science museum.jpg|Self-healing concrete on display
-fibrecement|Fiber cement siding.jpg|Fibre cement siding|product
-alsic|255-GRC-1988-C-06617 Ceramic fiber metal matrix composite.jpg|A metal matrix composite — ceramic reinforcement inside metal
-tyre|Pirelli Cinturato Tire cutaway.jpg|A radial tyre cut away — belts, plies and bead|product
-transparentarmour|IDET2007 bulletproof glass.jpg|Transparent armour, layered glass and polycarbonate|product
-dyneemahb|Osprey plates COB2009.jpg|Ballistic plates|product
-gypsum|Drywall and tools.jpg|Gypsum board|product
-copv|Copv tank close out prior to flight.png|A composite overwrapped pressure vessel|product
-pykrete|Pykrete.jpg|Pykrete — ice with wood pulp mixed into it
-hempcrete|Hempcrete wall.jpg|A hempcrete wall|product
-nylonrope|Rope 20221203 102029.jpg|Braided synthetic rope
-bungee|Bungee Cord PICT6882a.jpg|Shock cord — rubber strands in a braided jacket
-kernmantle|Kernmantle climbing rope dynamic Sterling 10.7mm cut end.jpg|Kernmantle rope cut open — load-bearing core, protective sheath
-seatbelt|Female driver buckling seatbelt.jpg|Seat-belt webbing in use|product
-velcro|Hook and loop fastener - macro photograph of "hooks".jpg|The hooks of a hook-and-loop fastener, magnified
-denim|Denim fabric 05 (Rico Cilliers and colormass via Poly Haven).png|Denim, woven as a right-hand twill
-cordura|Blue cordura garment.jpg|Cordura fabric
-viscose|Rayon sample.jpg|Viscose rayon
-lyocell|Lyocell.jpg|Lyocell fibre
-acrylicfibre|Acrylic stash -1 (12115250915).jpg|Acrylic yarn
-merino|CSIRO ScienceImage 7663 The structure of a Merino Wool Fibre.jpg|A merino wool fibre, showing its scales
-mohair|Ull mohair.jpg|Mohair
-ramie|Ramie fiber exhibited in Yonezawa City Uesugi Museum.jpg|Ramie fibre
-kapok|Tunku Sabah Kapok-fibres-01.jpg|Kapok floss
-rockwool|Arrangement Mineralwolle.jpeg|Mineral wool
-wiremesh|Woven wire mesh.png|Woven wire mesh
-geotextile|Geotextile-GSI.JPG|Geotextile
-down|Hungarian Goose Down.jpg|Goose down clusters
-horsehair|Bow, violin (AM 1998.60.381-2).jpg|A violin bow — the ribbon is horsehair|product
-catgut|Catgut Plain 01.JPG|Catgut
-graphene|Sample of graphene (1~3 layers).jpg|A commercial graphene sample — one to three layers, 98% carbon|photo
-cntyarn|CSIRO ScienceImage 988 Carbon nanotubes spun to form a yarn.jpg|Carbon nanotubes being spun into a yarn|process
-aerographite|TUHH CAU newexampleAerographite Netwok.png|Aerographite's network of hollow carbon tubes
-ybco|Tile levitates by Meissner effect.jpeg|A high-temperature superconductor levitating over a magnet track
-electrochromic|ANA Boeing 787-8 Dreamliner electrochromic window.jpg|A 787 cabin window, electrochromically dimmed|product
-vo2|VO2 crystal.jpg|A vanadium dioxide crystal
-qdot|Quantum dots 2.jpg|Quantum dots fluorescing — the colour is set by particle size
-metamaterial|Metamaterial 'Flat Lens' (8889691315).jpg|A metamaterial flat lens
-acousticmeta|Órgano, de Eusebio Sempere Juan.JPG|Eusebio Sempere's sculpture — the rod array that turned out to be the first proven sonic crystal|related
-selfhealpoly|Supramolecular rubber and polymer glass.tif|Supramolecular rubber, which re-forms its own broken bonds
-lce|Wikipedia pic LCE.png|A liquid crystal elastomer
-oobleck|Corn speaker.jpg|A cornstarch suspension standing up on a speaker cone
-thermoelectric|Thermoelectric Seebeck power module.jpg|A thermoelectric module
-magnetocaloric|Gadolinium (Element - 64).jpg|Gadolinium
-zeolite|Ana's Zeolite (393784940).jpg|Zeolite crystals
-mof|Activated Carbon.jpg|Activated carbon, powder and block — the adsorbent a MOF is built to out-perform, surface area for surface area|analog
-metalhydride|Metal Hydride Storage Canisters.jpg|Metal hydride hydrogen storage canisters|product
-pcm|Bicycle chain in paraffin wax just about to solidify.jpg|Paraffin wax at the moment of freezing
-vip|Va-Q-vip 2.jpg|A vacuum insulation panel
-getter|6P1P vacuum tube teardown.jpg|A vacuum tube — the silver mirror on the glass is the flashed getter|product
-tritium|Tritium-Glowring - 320s.jpg|A tritium glow ring|product
-slips|Water droplet on a super hydrophobic surface.jpg|A droplet on a water-repellent surface — the same non-wetting idea|related
-tio2photo|Titanium dioxide powder dispersing in water.JPG|Titanium dioxide powder
-electret|Electret microphone MKE3.JPG|An electret microphone|product
-nacre|Nacre mother of pearl shellB.jpg|Nacre
-bamboo|08 Asper 1 - Copy.jpg|Bamboo culms
-balsa|Balsa Wood Texture.jpg|Balsa
-lignumvitae|LignumVitaeMallet01.jpg|A lignum vitae mallet|product
-whiteoak|Cooperage wood to make wine barrels.jpg|Oak staves in a cooperage|product
-cork|Cork (25753850818).jpg|Cork
-vegleather|Tanned leather.JPG|Tanned leather
-bone|Spongy bone - Trabecular bone - Normal trabecular bone Trabecular bone etc -- Smart-Servier (cropped).jpg|Trabecular bone
-antler|Roe deer antler.jpg|A roe deer antler
-horn|Horn hair comb, Ludlow Museum - DSCF2042.JPG|A horn comb|product
-baleen|Gray whale baleen plates.JPG|Baleen plates
-amber|Baltic Amber necklace with insects inclusions.jpg|Baltic amber with insect inclusions
-shellac|Shellac flakes closeup.JPG|Shellac flakes
-guttapercha|Caoutchouc Gutta-percha Droguier ISPB Lyon UCBL 1.jpg|Gutta-percha in a pharmacy specimen collection
-diatomite|Diatomaceous Earth BrightField.jpg|Diatomaceous earth under the microscope — fossil diatom skeletons
-chitin|Fiddler crab exoskeleton shedding within the marsh (6555236543).jpg|A moulted crab exoskeleton
-byssus|Mussel & Byssal Threads.jpg|Mussel byssus threads
-toothenamel|What is Inside Human Tooth (Macro-Anatomy).jpg|A sectioned tooth — enamel is the outer shell
-pumice|Pumice stones.JPG|Pumice
-mica|Muscovite mica 6.jpg|Muscovite mica
-asbestos|Chrysotile and asbestos (GeoDIL number - 2527).jpg|Chrysotile asbestos
-nephrite|Amphibole - Nephrite Jade Basic calcium magnesium iron silicate Lander County Wyoming 2077.jpg|Nephrite jade
-washi|Washi(Sugihara paper).JPG|Washi paper
-vellum|Ashmolean Parchment AN 1981.940.jpg|Parchment
-beeswax|Beeswax blocks.JPG|Beeswax blocks
-cuttlebone|Zeeschuim of sepia.jpg|Cuttlebone
-nanocellulose|Nanocellulose.JPG|Nanocellulose
-silicon|Silicon ingot 2019-01-30 064114.jpg|A monocrystalline silicon ingot
-gaas|Gallium Arsenide (GaAs) 2" wafer.jpg|A gallium arsenide wafer
-gan|Silicon vs GaN 30W USB-C chargers.jpg|Two 30 W chargers — silicon on the left, GaN on the right|product
-germanium|Germanium crystals.jpg|Germanium crystals
-hgcdte|Detector array on the focal plane of the Infrared Astronomical Satellite (IRAS).png|An infrared focal plane detector array|product
-perovskitepv|Perovskite solar cell.jpg|A perovskite solar cell
-ito|Transparent keypad touchscreen.png|A transparent ITO-coated touch keypad|product
-linbo3|Lithium Niobate Wafer.jpg|A lithium niobate wafer
-yig|Four Yttrium Iron Garnet spheres filter.jpg|YIG spheres inside a tunable microwave filter|product
-tisapphire|TiSa crystal.jpg|A Ti:sapphire laser crystal
-calcite|3310.calcite (Iceland Spar) birefringence.jpg|Iceland spar doubling the lines beneath it
-caf2|Fluorite crystal.jpg|Fluorite — calcium fluoride in its mineral form|related
-znse|2 CVD ZnSe domes and lenses Crystaltechno.jpg|CVD zinc selenide optics
-yagce|White LED.png|A white LED — a blue chip under a dot of YAG:Ce phosphor|product
-scintillator|RadiaCode-101 dosimeter-spectrometer (front view).jpg|A scintillation spectrometer — crystal coupled to a photodetector|product
-hfo2|Dielectric laser mirror from a dye laser.JPG|A dye-laser mirror, over 99% reflective at 550 nm — hafnium oxide is one of the standard high-index layers in coatings like this|analog
-opticalfibre|MoST Fiber Optic Cable Display.jpg|Optical fibre carrying light|product
-pcf|Photonic-crystal-fiber-from-NRL.jpg|Photonic crystal fibre in cross-section — the lattice of air holes
-oled|LG gram Pro 16 (2024) 16Z90SPG OLED DISPLAY RGB DOT MATRIX, OLED PANEL MADE BY SAMSUNG DISPLAY.jpg|OLED subpixels, magnified|product
-eink|Electronic paper display microphotography.jpg|E-ink microcapsules under the microscope
-nematiclc|Nematic liquid crystal.jpg|A nematic liquid crystal texture
-mov|Metal Oxide Varistor.jpg|A metal oxide varistor|product
-ptcpoly|Disassembled resettable fuse.JPG|A polymer resettable fuse, opened up|product
-etchedfoil|Low-voltage-anode-foil.tif|Etched anode foil in cross-section — the tunnels that multiply its area
-tim|Thermal compound Applied.JPG|Thermal compound spread on a processor lid|product
-cashmere|CSIRO ScienceImage 6863 Cashmere goat hair fibre.jpg|Cashmere down, combed from a goat's undercoat|photo
-qiviut|Qiviut wool 1.JPG|Raw qiviut, shed by a muskox and picked up by hand|photo
-sinew|Sinew strings.jpg|Sinew twisted into cordage|photo
-harakeke|Te Pā Harakeke o te Iwi 20230816 082439 02.jpg|A pā harakeke — the stand the leaves are cut from|photo
-esparto|Stipa tenacissima kz08.jpg|Esparto grass growing on dry ground|photo
-raffia|Raffia fibers.jpg|Raffia, peeled off the leaf as flat ribbon|photo
-pina|Piña Barong tagalog AklanA.jpg|A barong tagalog woven from piña|product
-pianowire|Piano strings.jpg|Music wire strung in a grand piano|product
-jacquard|A Jacquard loom showing information punchcards, National Museum of Scotland.jpg|A Jacquard loom and its chain of punched cards|process
-doublecloth|Blue Double Weave Kimono Close Up.png|Double-weave cloth, close up|photo
-warpknit|NIM 1910 Warp knitting machine 2522.jpg|A warp knitting machine — one needle per warp end|process
-jersey|Gestrick links-rechts rechte Seite.jpeg|Weft-knit fabric, face side|photo
-seamlessknit|Computerized Flat Knitting Machine (Jacquard Machine) 07.jpg|A computerised flat knitting machine|process
-spacerfabric|Spacer fabric.jpg|Spacer fabric — two faces held apart by monofilament|photo
-electrospun|Electrospun polymer nanofibers with bead-fiber morphology.jpg|Electron micrograph of electrospun nanofibres|photo
-tyvek|Tyvek 1056D Envelope 13032009849.jpg|A Tyvek envelope|product
-mercerised|Spool of white thread.jpg|Spooled cotton thread — mercerising gives it the sheen|product
-ringmesh|Chain mail shirt - Georgian.jpg|A riveted mail shirt|product
-opwairbag|Vauxhall Vectra curtain airbag deployed.jpg|A curtain airbag deployed in a car|product
-ptfeglass|Denver International Airport.jpg|Denver airport roof — PTFE-coated glass fibre on cables|product
-etfefoil|Tropical Biome of the Eden Project - geograph.org.uk - 4456101.jpg|The Eden Project biomes, clad in inflated ETFE pillows|product
-dwrfinish|CSIRO ScienceImage 11489 Water droplets on QuickDry merino wollen fabric.jpg|Water beading on treated fabric|photo
-tufted|Deep Pile Carpet Up Close.jpg|Deep carpet pile, close up|product
-terrypile|Frottee-Handtuch.jpg|Terry towelling — the loops left uncut|photo
-leno|3611 Bandage rolling.jpg|Gauze bandage being rolled|product
-fleece|Polar fleece (2) (Rico Cilliers and colormass via Poly Haven).png|Polar fleece — napped and shorn level|photo
-nonwoven|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
-weldedseam|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
-waam|Панфилов Александр - Wire Arc Additive Manufacturing (ИФПМ СО РАН).jpg|Wire arc deposition in progress|photo
-metalpowder|SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg|Electron micrograph of gas-atomised steel powder|photo
-fff|Universal stand-alone filament spool holder (Fully 3D-printable) v04.jpg|Spools of 1.75 mm filament on a printed stand|photo
-coldspray|CSAM 7755 16.jpg|Cold spray in progress — powder arriving fast enough to weld without melting|process
-fourd|Multishape active composites by 3d printing of digial smps.jpg|Printed shape-memory composites, folded and recovered|photo
-lcmceramic|Zirconia bridge.jpg|A zirconia dental bridge — the kind of part a ceramic slurry resin makes|product
-concreteprint|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a house printed in raw earth — the same thixotropic trick, with clay in place of cement|product
-bioink|Клеточная сеть образованная стволовыми клетками в трехмерном пространстве внутри гидрогелевого скаффолда.png|Stem cells spreading through a hydrogel scaffold|photo
-grcop|Marshall engineers installed the injector in a subscale RS-25 engine model.jpg|A printed fuel injector going into a subscale RS-25 engine — hot-fire tested near 3300 °C|product
-ebm|Xilloc Patient Specific Implant Titanium.png|A patient-specific titanium implant|product
-soluble|Support structure in 3D printing.jpg|Support structure on a printed part; soluble versions wash off|related
-pa12powder|The Power of Making at the Victoria and Albert Museum, London.jpg|A laser-sintered nylon bicycle — the first workable one, grown in fused powder|product
-cellacetate|Cutlery made from Cellulose Acetate Biograde.JPG|Cutlery moulded in cellulose acetate|product
-gummetal|Watch balance spring and human hair.jpg|A watch balance spring beside a human hair — Gum Metal is one of the alloys wound into these|related
-al7075|Black Diamond Carabiners.JPG|Climbing carabiners — hot-forged 7075 is the standard alloy|product
-ss316l|Orbital Welding 316L Stainless Steel.jpg|Orbital welding 316L tube — the low-carbon grade exists so a weld like this does not sensitise|product
-cupronickel|Two stacks of half dollars, one silver, one clad - effects of the Coinage Act 1965.jpg|Clad half dollars beside silver ones — the reddish copper core shows at the edge of every post-1965 coin|product
-babbitt|Miba Thrust Bearing.jpg|A fluid-film thrust bearing for a gas turbine — the pads carry a Babbitt lining|product
-macor|60kV Feedthrough.jpg|A 60 kV vacuum feedthrough — the insulator is the kind of part Macor gets machined into|related
-chalcogenide|CD-RW bottom.jpg|The underside of a CD-RW — the recording layer is a chalcogenide that switches between glass and crystal|product
-zblan|Doped glasses.jpg|ZBLAN samples: praseodymium-doped, erbium-doped and undoped|photo
-isographite|Graphite crucibles.jpg|Graphite crucibles, good to about 1500 °C|product
-azs|Lemington Glass Furnace - geograph.org.uk - 498767.jpg|The Lemington glass furnace, the last of its type working in Britain — fused-cast AZS lines the tank that holds molten glass|related
-nomexcore|Composite honeycomb exhaust duct (2).jpg|A sectioned composite exhaust duct, showing the honeycomb core between its skins|product
-forgedcomposite|Forged Carbon Fiber Mat for Lamborghini HURACAN.jpg|Forged composite — a mat of chopped carbon tow, pressed to shape|photo
-pvcfoam|Begutachtung eines Rotorblattes.JPG|A wind turbine blade under inspection — the shells are foam-cored sandwich|product
-twophoton|Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg|A 2 mm model of an 1871 microscope, written by two-photon lithography|product
-sandprint|SandMoldCopeDragCores.jpg|Cope, drag and cores of a sand mould — printing makes these without a pattern|related
-boundmetal|Filamentgedruckte und gesinterte Bauteile aus hochlegiertem Stahl (316L).jpg|Capsule, helix and tetrapod — filament-printed in 316L, then sintered|product
-slaresin|SLA produced part.JPG|A part grown in a vat of photopolymer|product
-alsi10mg|Professional MotorSport World Expo 2024, Cologne (P1031209).jpg|Prototype turbochargers grown in a laser powder bed — the same powder route, though a housing this hot wants nickel rather than aluminium|analog
-printsilicone|Silicone 3d print with support material.jpg|A pneumatic actuator printed in liquid silicone, still in its clear support|photo
-pprope|Failedrope1.jpg|A polypropylene rope after UV exposure, beside a new one — sunlight is this fibre's weakness|product
-webbing|Water-knot-webbing-loose-ABOK-296.jpg|Tubular webbing joined with a water knot|photo
-monofil|String trimmer head-insert style.jpg|A fixed-line trimmer head — nylon monofilament doing the cutting|product
-emifabric|Isotoner touch gloves BB E86 jeh.jpg|Touchscreen gloves — conductive yarn knitted into the fingertips|product
-technora|Tandriem BMW F 650 CS02.JPG|A toothed belt final drive — aramid cords carry the load inside the rubber|product
-preoxpan|Fire-blanket-on-display.jpg|A fire blanket — oxidised PAN felt is one of the two cloths used for these, glass the other|related
-ptfethread|Velodrome Marseille Stadium by Taiyo Europe.JPG|A stadium membrane roof — seams this size are sewn with PTFE thread|product
-kuralon|Sample of Polyvinyl alcohol.jpg|Polyvinyl alcohol resin — Kuralon is this polymer, wet-spun into fibre|related
-rawhide|Rawhide mallet in Tuntorp 3.jpg|A rawhide mallet — a face that strikes hard without marking|product
-laidrope|Cordage chantier de l'Hermione Rochefort sur Mer.jpg|Three-strand hemp rope at the Hermione dockyard|photo
-doublebraid|Tree Climbing Arborist.jpg|An arborist on a climbing line, the job double braid was made for|product
-twelvestrand|Soft shackles.JPG|Soft shackles — a loop of hollow braid spliced into itself|product
-braidedline|Fishing lines 2025 G1.jpg|Eight-strand braided line, 0.15 mm|photo
-needlepunch|Needle-felt-making-1080204.jpg|Needle felting by hand in Kyrgyzstan — barbed needles tangling fibre into cloth|process
-woven3d|Paris Air Show 2017 LEAP fan.jpg|A LEAP engine fan — each blade is a 3D-woven preform, injected with resin|product
-laminateshell|Early Gore-Tex hooded rain jacket.jpg|An MSR Gore-Tex jacket from about 1976, one of the first laminate shells|product
-etextile|Wireless electronic textiles.jpg|Inductors printed straight onto fabric, powering circuits without a wire|photo
-dea|Soft robot locomotion.jpg|A soft robot built for colonoscopy — the job DEAs are aimed at; this one runs on air, not volts|related
-strontiumal|Photoluminescent Exit Sign.jpg|A photoluminescent exit sign, charged by room light|product
-spruce|Violin Top and back plates.jpg|A carved violin top in spruce, beside its maple back|product
-ggg|GAGG-Ce.jpg|A GAGG:Ce scintillator crystal — a garnet grown the same way as GGG|related
-bbo|Beam output from OPA.jpg|The output of an optical parametric amplifier — BBO is the crystal that splits the beam|related
-ga2o3|Czochralski Gallium Oxide.png|Pulling gallium oxide from the melt by the Czochralski method|process
-pebax|Ski boots alpin large.jpg|Alpine ski boots — Pebax is one of the shell plastics boots like these are moulded in|analog
-pei|DG 東莞 DongGuan 南城區 Nancheng 鴻福路 HongFu Road 東莞京東商場 JD Mall Electronics Showroom 3D printers December 2024 R12S 06 (cropped).jpg|A 3D printer's build plate, powder-coated in PEI — prints grip it hot and let go cold|product
-terfenol|Hydrophone being lowered into the Atlantic.jpg|A hydrophone going into the North Atlantic — this one is piezoelectric; Terfenol-D does the same job by stretching in a magnetic field|analog
-tib2|Цех электролизных ванн для выплавки алюминия с силой тока 400 КА в промышленно-инновационном парке "Юйлянь" в г. Гунъи (Китай).jpg|A 400 kA aluminium reduction cell hall — titanium diboride is what the cathode surface is made of|analog
-nextel|Industrial furnace equipped with HTIW modules.jpg|A furnace lined with high-temperature insulation wool — Nextel's woven alumina cloth does this job where the lining must also be strong|analog
-smc|1979 tvr 3000s.jpg|A TVR 3000S — its body is hand-laid glass-reinforced plastic; sheet moulding compound is the same idea pressed out by the minute|analog
-g10|SEG DVD 430 - Printed circuit board-4276.jpg|A DVD player's circuit board — boards like this are cut from glass-cloth epoxy laminate, the electrical grade of G10|analog
-fgm|Repair process for a V2500 high-pressure turbine guide vane (8).jpg|A V2500 turbine guide vane, its thermal barrier just plasma-sprayed on — coatings like this are where graded composition earns its keep|analog
-contfibre|U S Marines with 3d Marine Logistics Group showcase 3D Printing Capabilities to the U S Coast Guard at CJLOTS 26 (9832271).jpg|Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell|process
-lattice|3D-Printed Biodegradable Human Bone Scaffold 4.jpg|A printed biodegradable bone scaffold going in, in Assam — the open structure is there for bone to grow into|analog
-primaloft|Adidas belgements primaloft cycling gilet.jpg|An insulated cycling gilet — PrimaLoft wadding under a windproof shell|product
-m5fibre|Aramid fiber2.jpg|Aramid filaments about 10 µm across — M5 is the rigid-rod fibre that was meant to beat these|analog
-basofil|Turnout gear in the Czech Republic.jpg|Firefighters' turnout gear — melamine fibre goes into liners and hoods of kit like this|analog
-silicafibre|Glasfaser Roving.jpg|A bobbin of glass roving — high-silica fibre starts as glass like this, then is leached until almost nothing but silica is left|analog
-kineticrope|Maxtrax Fuse Shackle - Recovery Gear.jpg|A fuse shackle for vehicle recovery, built to break first — the weak link that goes in line with a kinetic rope|analog
-triaxial|Woven Fabric (ST177) - MoMu Antwerp.jpg|An open leno-type weave — triaxial takes the idea further, with three yarn sets at 60°|analog
-stitchbond|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A glass–aramid hybrid reinforcement, 580 g/m² — non-crimp fabric is this job with the yarns kept dead straight|analog
-erf|MRF-Effekt-static-crop.png|Magnetorheological fluid stiffening in a field — the electric cousin behaves the same way, with volts instead of magnets|analog
-granite|Surface plate.jpg|A cast-iron surface plate, 250 × 250 mm — the older material for the same lapped reference surface|analog
-byborre|Double knit structure (weft knitted).jpg|A two-faced weft-knit structure — the kind of double knit this cloth is built from|analog
-dcf|Clew of an AC45 Cuben fiber gennaker.jpg|The clew of an AC45 catamaran's gennaker, cut from Cuben fibre|photo
-seersucker|Seersucker-sample1.jpg|A seersucker sample — the puckered stripes are woven in, not pressed|photo
-flyknit|Nike flyknit one (8483993132).jpg|A Flyknit shoe — the upper is a single knitted piece|product
-surgmesh|Hernia mesh 2.JPG|Polypropylene hernia mesh, knitted open|photo
-pinatex|Piñatex fabric in white.jpg|Piñatex in white — pineapple-leaf fibre, needled into a web and coated|photo
-waffle|An example of waffle fabric.jpeg|A close-up of waffle weave — floats stepping down into cells|photo
-twill|Broken twill denim Wrangler 13MWZ jeans (2026-01-21).jpg|Broken twill denim, face and back — the diagonal reverses across the warp|photo
-bellbronze|San Geremia (Venice) - Bronze bell from 1813.jpg|A bronze bell cast in 1813, in San Geremia, Venice|product
-singingbowl|Tibetan bowl 14 cm.jpg|A Himalayan standing bowl, 14 cm across|photo
-pipemetal|Organ pipes.jpg|Open bass pipes in an organ, cast from tin and lead|product
-pernambuco|Brazilwood Paubrasilia echinata square blank.jpg|A squared blank of pernambuco, cut in 1987 and kept for bows|photo
-ebony|A piece of ebony wood 1.jpg|A block of ebony, polished on one face|photo
-rosin|Violin rosin (2).jpg|A cake of violin rosin|photo
-fiddleback|Riegelahorn Holz.JPG|Sliced fiddleback maple veneer — the stripes are waves in the grain|photo
-instbrass|Trumpet Bell.jpg|The bell of a trumpet, spun from brass sheet|product
-lithophone|Pierre sonore d'un lithophone jade chine 1764 mariemont.JPG|A jade sounding stone from a Chinese lithophone, dated 1764|product
-cymbalbronze|Crashride cymbal.JPG|A deeply hammered B8 crash-ride cymbal|product
-tuningfork|Diapason Wittner à branches carrées à 440 Hz.jpg|A chromed steel tuning fork cut for 440 Hz|product
-singingsand|Singing Sand Dunes and Crescent Lake (20230918100733).jpg|The Mingsha singing dunes at Dunhuang|photo
-ringingrock|Boulder field, Ringing Rocks Park, Bridgeton Township, PA.jpg|The boulder field at Ringing Rocks Park, Pennsylvania|photo
-steelpan|Steelpan.jpeg|A tenor steelpan, sunk and tuned from a barrel end|product
-glassharp|Glass Harp.jpg|A glass harp built in Brussels around 1850|product
-handpan|Handpan 2014.jpg|A handpan being played — nitrided sheet steel|product
-springreverb|Spring Reverb 8325.jpg|A spring reverb tank with the lid off|photo
-thermowood|Thermoholz vergleich.JPG|Ash before and after thermal modification|photo
-headstock|Avebury St James - old bell headstock - geograph.org.uk - 7250336.jpg|An old wooden bell headstock, taken out of the tower at Avebury|photo
-clapper|Glockenklöppel St. Maximilian München.jpg|The clapper of a bell at St Maximilian in Munich|photo
-cymbalfelt|Cymbal stand buttons and disassembled bolts.JPG|Cymbal stand tops taken apart — felts, plastic sleeves, washers and nuts|photo
-bowlcushion|Rin gong at Kiyomizu-dera, Kyoto.JPG|A temple rin resting on its brocade ring cushion, Kiyomizu-dera in Kyoto|photo
-soundpost|Soundpost end.jpg|The foot of a soundpost, seen through the treble f-hole|photo
-violinbridge|Cello bridge.jpg|The bridge of a cello, standing on string pressure alone|photo
-bonesaddle|Classical Guitar Bridge Bone.jpg|The bridge of a classical guitar with its bone saddle|photo
-hideglue|Knochenleim Granulat.jpg|Animal glue granules, ready to be soaked and melted|photo
-shockmount|AKG C214 condenser microphone with H85 shock mount.jpg|A condenser microphone slung in an elastic shock mount|photo
-endpin|Cello endpin.JPG|A cello endpin — the steel spike, with its rubber cap beside it|photo
-nb3sn|ITER Central Solenoid CICC (34860816181).jpg|An exploded view of ITER's central solenoid conductor, cabled from niobium-tin|product
-wroughtiron|Iron Pillar of Delhi.jpg|The iron pillar of Delhi, forged about sixteen centuries ago and barely rusted|product
-tincoat|TiNCoatedPunches NanoShieldPVD Thailand.JPG|Punches coated with titanium nitride by cathodic arc deposition|photo
-lfp|Lithium Iron Phosphate LiFePO4 Cells 400 Ah Amp Hours 3.25 Volts - 1.jpg|400 Ah lithium iron phosphate cells wired into a house battery|product
-rattan|Rattan and Nito.jpg|Rattan and nito woven into baskets and trays, in a Philippine craft display|product
-willow|Weidenkorbflechter Intangible Cultural Heritage of Austria 01.jpg|A giant jug woven from willow rods, outside an Austrian basket maker|product
-tatami|Tatami being repaired; December 2018 (01).jpg|Tatami under repair, the rush facing lifted off its core|photo
-toquilla|The toquilla straw hat is woven from fibres from a palm tree characteristic of the Ecuadorian coast.jpg|Cenovio, a master weaver, working toquilla straw on the Ecuadorian coast|process
-worsted|Worsted wool yarn.JPG|Worsted wool yarn, the plied structure visible|photo
-tweed|Harris Tweed Macro photography.jpg|Harris Tweed cloth under a macro lens|photo
-satin|Satin Ribbons.png|Rolls of satin ribbon, the float surface catching the light|photo
-carbonfab|Woven carbon fiber fabric.jpg|Woven carbon fibre fabric, tow crossing tow|photo
-fibc|Flexible intermediate bulk containers-Fertilizer.jpg|Woven polypropylene big bags holding 600 kg of fertiliser each|product
-machinelace|Border (ST293) - Lace-Machine Lace - MoMu Antwerp.jpg|A machine-made lace border, from the MoMu collection in Antwerp|photo
-firehose|Fire hose supply.jpg|Rolled supply hose in a water tender, the woven jacket uppermost|photo
-wiltoncarpet|Museum of Carpet - Jacquard Wilton loom - geograph.org.uk - 6292683.jpg|A Jacquard Wilton carpet loom at the Museum of Carpet, Kidderminster|process
-reedcane|B-flat e-flat a-flat reeds.jpg|Clarinet and saxophone reeds in three sizes, cut from cane|product
-ebonite|Mouthpiece tenor saxophone.jpg|Two tenor saxophone mouthpieces, the Selmer in hard rubber and the Dukoff in metal|product
-snarewire|Orange county snare wire.jpg|A snare drum with its snare wire lifted clear of the head|photo
-conepulp|X5 Paper Pulp Cone.jpg|A paper pulp loudspeaker cone|photo
-voicecoil|Loudspeaker voice coil, three inch diameter.jpg|A three-inch dual voice coil from a subwoofer driver|photo
-marimbarose|San Domingo-Palisander Holz.JPG|Sliced veneer of the same wood, labelled San Domingo palisander and Honduras rosewood|related
-rhodestine|1975 Rhodes Mark I Stage Piano 73-key (serial no.300???) with Dyna Rhodes modification - tines (2005-01-07 20.42.58 by Daniel Spils).jpg|The tines of a 1975 Rhodes Mark I, with the pickups facing them|photo
-metaldome|Tweeter with Titanium membrane of loudspeaker box JBL TI 5000, 1990s.jpg|A JBL tweeter with a 25 mm titanium membrane|photo
-recordvinyl|Vinyl groove macro.jpg|Record grooves under a macro lens, the modulation visible|photo
-woodwool|Holzfaserbeton groß.jpg|The surface of a wood-wool cement board|photo
-drumshell|Solid Shell Maple, Matte Black Laquer with Maple Inlay.jpg|A solid maple drum shell with a maple inlay|photo
-goss|Grain-oriented electrical steel (grains).jpg|Uncoated grain-oriented electrical steel, the aligned grains visible across 6 cm|photo
-fulledwool|Jagdhorn auf Loden 1.jpg|A dark grey loden cape, with a pocket hunting horn laid on it|photo
-waxcotton|Martexin Waxed Canvas Water Resistance.jpg|Water beading on waxed canvas|photo
-crepe|Chirimen gaufré.JPG|Chirimen, a finely crinkled cotton crêpe|photo
-knitmesh|OldMeshDemisterAcidProduction.jpg|A used demister pad in alloy 20 mesh, from sulphuric acid production|photo
-barkcloth|PNG Turtle Tapa Cloth QM r.jpg|Tapa from Domara Village in Papua New Guinea, beaten from inner bark|photo
-flock|Flock-foil golden-yellow.jpg|Cotton with a golden-yellow flock print, close enough to see the pile|photo
-aluminised|Fire proximity suit detail.jpg|Detail of a fire proximity suit in the Czech Republic|product
-ikat|Antique Patan Patola Double Ikat Trade Textile courtesy Wovensouls Collection, Singapore.jpg|An antique double ikat patolu woven in Patan, Gujarat, for the Indonesian market|photo
-pvctarp|Old truck with a loose tarpaulin. Vibrant colors (51170247859).jpg|A loose tarpaulin over an old truck|product
-pleat|CSIRO ScienceImage 2162 Skirt with Siroset and Skirt Without Siroset.jpg|Two wool skirts, the right one pleated by the Siroset process and the left one not|product
-hammerfelt|Piano hammer 2101-0006.jpg|Piano hammers in their rest position under the strings|photo
-ribbonmic|Royer R-122 Active Ribbon Microphone (clip).jpg|A Royer R-122, with the ribbon hidden behind its grille|product
-drumhead|Drumhead Coated on Tom Drum 01.png|A coated drumhead fitted to a tom|photo
-accordionreed|Stimmplatte.jpg|A bass reed plate from a DIX accordion|photo
-nickelsilver|Flute (AM 1998.60.225-3).jpg|A simple-system flute of nickel silver, France, about 1900|product
-vibebars|Vibraphone bar.jpg|The underside of a vibraphone bar, showing the arch cut into it|photo
-lacquermaster|Reference acetates by Neumann VMS-70 Cutting Lathe, SAE Mastering, Phoenix, AZ.jpg|A Neumann VMS-70 lathe, where the lacquer is cut|process
-cabinetmdf|MDF Sample.jpg|Samples of medium-density fibreboard, cut to show the core|photo
-pickupwire|Electric Guitar Single Coil Pickup (New Winding) (3511734489).jpg|A single-coil guitar pickup, freshly rewound|product
-woodpipe|Large wooden organ pipes, Hereford Cathedral - geograph.org.uk - 2701066.jpg|Large wooden pipes in the organ at Hereford Cathedral|photo
-valvepiston|Trompette - premier piston - perspective.JPG|The first piston valve of a Yamaha trumpet, out of its casing|photo
-saxpad|AltoSaxRolledToneHoles.JPG|Rolled tone holes on a 1938 alto saxophone, with resonator pads in the key cups|photo
-moldedcab|Behringer Eurolive B212D Loudspeaker.jpg|A Behringer Eurolive B212D, a moulded powered PA top|product
-grillesteel|Loudspeaker grille.jpg|A round perforated grille, dished to stiffen it|product
-surround|Midrange loudspeaker of JBL TI 5000 loudspeaker box, 130 mm diameter.jpg|The 130 mm midrange of a JBL TI 5000, with its surround rolled around the rim|photo
-roadcase|Road-case-removable-lid-vol-case.jpg|A road case with a removable lid, laminate over plywood in aluminium edging|product
-tolex|1977 Rhodes Mark I Suitcase Piano 73-key (serial no. K610578) - tolex wear spot 1 (2005-01-29 10.00.30 by Daniel Spils).jpg|A worn-through patch of tolex on a 1977 Rhodes suitcase piano|photo
-grillecloth|Fender Twin Reverb Blonde.jpg|The gold grille cloth of a 1965 Fender Twin Reverb|product
-woundstring|Guitar string manufacturing at Cleartone Strings.jpg|A worker at a string winding machine, finished strings in hand|process
-pick|26 Assorted Guitar Picks.jpg|Twenty-six assorted plectra, in several plastics and gauges|product
-gaffer|Gaffer Tape, Black, White and Gray.jpg|Shelves of gaffer tape in a film expendables shop|product
-drumstick|2006-07-05 sticks.jpg|A matched pair of drumsticks, lacquered black|product
-truss|Traverse (Truss).JPG|Loaded lighting trusses under a marquee roof, chords and diagonals in view|product
-miccable|Microphone cable structure.jpg|A microphone cable opened up: two insulated cores and the screen twisted into a tail|photo
-gel|Many color gels.jpg|Lighting gels, loose sheets and some taped into frames|product
-eiderdown|Dunhreinsun2.jpg|A farmer in Skaleyjar cleaning and drying eiderdown, still full of hay|process
-shearling|Shearling Coat for Men Hood Detail.jpg|The collar of a shearling coat, wool pile inside and tanned skin out|product
-alpaca|Alpaca fleece.JPG|A whole alpaca fleece at a wool show|photo
-angora|Satinangora rot Garn und Flocke.jpg|Plucked angora rabbit fur and the yarn spun from it|photo
-camelhair|A camels hair being shorn at Pushkar..jpg|A camel being shorn at the Pushkar fair, the clipped hair lying on the sand|process
-vicuna|Diferentes lanas de vicuña - Conversatorio Las Manos que Piensan (Textiles).jpg|Vicuna fleece, yarn and woven cloth laid out on a display table|photo
-reindeerhide|Reindeer hides.jpg|Reindeer hides on a market stall in Helsinki|photo
-flannel|Flannel fabric red.jpg|A flannel shirt photographed close enough to show the raised nap|photo
-polyfill|Polyfill.jpg|A handful of siliconised hollow polyester fibrefill|photo
-spaceblanket|RescueFoil.jpg|A rescue blanket opened out, gold on one face and silver on the other|photo
-batting|Mattress making, covering the cotton batting with ticking.jpg|Farm women drawing striped ticking over a cotton batt, 1940|process
-milkweed|Milkweed Seed Pod Floss PLT-FL-WD-MW-2.jpg|Milkweed pods split open, the floss blowing out|photo
-possum|Possum fur lining, front side.jpg|A cloth coat lined with brushtail possum fur|product
-furfelt|Workers at a British hat factory prepare rabbit fur ready for its transformation into felt, 1940. D1259.jpg|Rabbit fur being blown clean in a British hat factory, 1940|process
-snow|Building an igloo on Victoria Island (37009).jpg|A snow house of cut blocks, southwest Victoria Island|product
-featherdown|Bettfedernreinigung L.H.Lorch Abfüllen der gereinigten Federn und Daunen in das Kissen mittels Federnfüllwaage.jpg|Cleaned feather and down being blown into a ticking shell on a filling scale|process
-silkfloss|MulberrySilk.JPG|Stacked layers of hand-pulled mulberry silk floss, the filling of a silk duvet|photo
-threadlattice|Quilt making 13.JPG|Quilt makers laying a thread lattice over a cotton batt in Haikou, Hainan|process
-ticking|Inlett 1.jpg|A feather pillow in its downproof ticking; the cloth is the subject|product
-cellulosefill|Bulk recycled cellulose scan.jpg|A clump of milled newsprint insulation on squared paper, coloured ink still visible|photo
-flaxinsul|Linfiberisolasjon i himling.JPG|Flax fibre mats fitted between ceiling joists|photo
-eelgrass|Seaweed roof at Læsø, 'Hedvigs Hus', DK.jpg|Eelgrass thatch on the gable of a Læsø farmhouse, bulging over the frame|product
-chambray|Blue chambray cloth.JPG|Washed cotton chambray, with a millimetre scale|photo
-oxfordcloth|Oxford cloth.jpg|Oxford shirting, the paired warp ends visible at the left|photo
-gingham|Greengingham.jpg|Gingham hemmed as a pocket square, both faces alike|product
-polarfilm|Polarizer sheet perpendicular.jpg|Two polarising sheets overlapping at right angles|photo
-cellophane|Cellophane.JPG|Rolls of coloured cellophane|photo
-retrosheet|Reflective tape on a parking lot gate.jpg|Micro-prismatic reflective tape on a car-park barrier, Washington DC|photo
-holofoil|Holographic Hot Stamping Foil From Karul Holo Science India Ltd.jpg|Rolls of holographic hot-stamping foil|photo
-lenticular|Close up of the surface of a lenticular print.jpg|The ridged face of a lenticular print, close up|photo
-fresnelsheet|Flat flexible plastic sheet lens.JPG|A flexible plastic Fresnel sheet lens|photo
-goldleaf|Kanazawa Gold Factory.jpg|Gold leaf being lifted with bamboo tongs at a Kanazawa workshop|photo
-alufoil|A sample of aluminium foil on a piece of paper.jpg|Crumpled pieces of household aluminium foil|photo
-clingfilm|Clingfilm.jpg|A roll of cling film in its box|photo
-stretchwrap|FEMA - 37688 - Pallets of disaster suppllies in a warehouse in Louisiana.jpg|Stretch-wrapped pallets of relief supplies, Louisiana, 2008|photo
-bubblewrap|Square-shaped bubble wrap (126wiki).jpg|Bubble wrap with square pockets|photo
-shrinkfilm|Heat shrinkable polyethylene film.jpg|A roll of heat-shrinkable polyethylene film|photo
-ldpefilm|Film extrusion.jpg|A blown-film line, with the inflated bubble rising from the die|process
-pdlcfilm|VITSWELL PDLC FILM.jpg|A sheet of PDLC switchable film with its leads|photo
-capfilm|Wiki-Folkos-P1090317-1.jpg|Plastic film capacitors, axial and radial|product
-nitratefilm|Nitrate Deterioration.jpg|A cellulose nitrate negative in the late stages of decay, the image gone|photo
-sailfilm|Solar sail tests.jpg|A 20 m test solar sail deployed in a NASA vacuum chamber|photo
-ptfetape|PTFEpaska.jpg|A spool of PTFE thread seal tape with the end unwound|photo
-parafilm|Parafilm roll.jpg|A roll of Parafilm|photo
-esdbag|Antistatic Bags.jpg|A pink antistatic bag and a silver static-shielding bag|photo
-geomembrane|Geomembrane installation.jpg|An HDPE geomembrane being laid as a landfill base liner|photo
-mulchfilm|Strawberry field using black mulch in Umm Haratayn al-Gharbiyah, Homs.jpg|Strawberries planted through black plastic mulch, Homs countryside, Syria|photo
-balewrap|Wrapped bales - geograph.org.uk - 7568052.jpg|Stacked silage bales wrapped in white and black film|photo
-microfilm|Microfilm roll.jpg|A roll of 16 mm microfilm unspooling|photo
-shrinkart|Shrinky Dinks (2652714573).jpg|Shrunk pieces of biaxially oriented polystyrene sheet|photo
-lcfilm|Thermochromic thermometer.jpg|A liquid crystal thermometer strip reading 24 °C|photo
-feelerstock|Parallel feeler gauge (imperial and metric)-92397.jpg|A feeler gauge fanned open|product
-greenhousefilm|Interior view of strawberry high tunnel greenhouse with garlic intercropping in Umm Haratayn al-Gharbiyah, Syria.jpg|Inside a polyethylene high tunnel of strawberries, Homs countryside, Syria|photo
+# id|source|ref|caption|kind[|licence|credit|page]
+# source is `commons` (ref = the File name; licence, credit and page come from the API) or the
+# name of the site the picture is shown as coming from (Flickr, NASA, Geograph, a maker), in
+# which case ref is the direct image URL and licence, credit and page are given here.
+# kind is photo, structure, product, process, related or analog.
+vulkollan|Flickr|https://live.staticflickr.com/3302/5783130712_7c4e7e2183_b.jpg|Cast polyurethane skate wheel — same NDI/MDI cast-elastomer family, representative of Vulkollan's look|photo|CC BY-SA 2.0|MR.ADAM.ROSENBERG|https://www.flickr.com/photos/adamrosenberg/5783130712
+d3o|commons|Hand protection.jpg|D3O impact padding in a protective glove|photo
+uhmwpe|commons|LIROS Dyneema hollow.jpg|Hollow-braid Dyneema (UHMWPE) rope|photo
+peek|commons|PEEK resin.jpg|PEEK granulate, the characteristic tan colour|photo
+vespel|commons|Vespel.Werkstueck.P1149524.jpg|Machined Vespel polyimide part|photo
+ffkm|commons|FFKM FFPM CKD900 plate 80mm 80mm 1mm.jpg|FFKM perfluoroelastomer sheet|photo
+nitinol|commons|Nitinol draht.jpg|Nitinol wire|photo
+invar|commons|Invar 800.jpg|Invar 36 stock|photo
+kovar|commons|Assortment of Kovar metal.jpg|Assorted Kovar parts|photo
+bmg|commons|Bulk Metallic Glass Sample.jpg|Bulk metallic glass sample, note the mirror-smooth as-cast surface|photo
+greyiron|commons|Gusseisen mit Lamellengraphit.jpg|Grey iron micrograph — the dark graphite flakes that damp vibration|photo
+becu|commons|CuBe Tool.jpg|Beryllium-copper non-sparking tool|photo
+mumetal|commons|Mu-metal assortment 1951.jpg|Mu-metal shielding cans|photo
+stellite|commons|Unterkiefer Teilprothese 20100112 008.JPG|Cast cobalt-chrome (Stellite-type) framework|photo
+wha|commons|Wolfram evaporated crystals and 1cm3 cube.jpg|Tungsten crystals and a 1 cm³ cube — 19.3 g in that cube|photo
+superalloy|commons|255 GRC 1979 03464 EEE - 2 piece single crystal HTP blade.jpg|Single-crystal high-pressure turbine blade|photo
+galinstan|commons|Galinstan on glass.jpg|Galinstan, liquid at room temperature|photo
+rhenium|commons|Rhenium single crystal bar and 1cm3 cube.jpg|Rhenium single-crystal bar and cube|photo
+ytzp|commons|Zirconium dioxide ZrO2 bearing balls.jpg|Y-TZP zirconia bearing balls|photo
+cbn|commons|Cubic Boron Nitride.jpg|Cubic boron nitride crystals|photo
+b4c|commons|Boron carbide.JPG|Boron carbide, sintered and as powder|photo
+sic|commons|SiC p1390066.jpg|Silicon carbide crystals with their iridescent oxide film|photo
+zerodur|commons|ELT secondary mirror blank successfully cast.jpg|A cast Zerodur mirror blank (ELT secondary, 4.2 m)|photo
+aln|commons|Aluminium Nitride.jpg|Aluminium nitride — an insulator that conducts heat like metal|photo
+alon|commons|TTO Spinel Ceramic.JPG|Transparent spinel ceramic — AlON's close cousin, same trick: a polycrystalline ceramic you can see through|photo
+pyro|commons|Diamagnetic graphite levitation.jpg|Pyrolytic graphite levitating over permanent magnets at room temperature|photo
+cc|commons|Ferrari F430 Challenge Brake.JPG|Carbon-carbon / carbon-ceramic racing brake|photo
+cmc|commons|CMC-X38-Bodyflaps.jpg|SiC/SiC ceramic matrix composite body flaps (X-38)|photo
+cf|commons|Carbon fiber bundle.jpg|Carbon fibre tow|photo
+syntactic|commons|Syntactic foam sphere.jpg|Syntactic foam — glass microballoons in resin|photo
+aerogel|commons|Aerogel hand.jpg|Silica aerogel, about 0.001 g/cm³|photo
+metalfoam|commons|Aluminium foam.jpg|Closed-cell aluminium foam|photo
+bioglass|commons|MorphologyofBioglass.png|Bioglass 45S5 surface morphology|photo
+hap|commons|Hydroxylapatite-338779.jpg|Hydroxyapatite, the mineral phase of bone|photo
+mxene|commons|SEM of MXene.png|MXene flakes under the electron microscope|photo
+vantablack|commons|Vantablack 02.JPG|Vantablack-coated foil — the crumpled surface is invisible|photo
+mrf|commons|MRF mit Permanentmagnet.jpg|Magnetorheological fluid standing up on a permanent magnet|photo
+ferrofluid|commons|Ferrofluid Magnet under glass edit.jpg|Ferrofluid spiking along field lines|photo
+twood|commons|KTH-forskare har uppfunnit genomskinligt trä prov 1.jpg|Transparent wood sample (KTH)|photo
+mycelium|commons|Mycelium based composite.png|Mycelium composite grown on substrate|photo
+starlite|commons|Starlite sample.jpg|A surviving Starlite sample|photo
+auxetic|commons|Meta-aux-orange.jpg|Auxetic lattice — gets thinner when stretched|photo
+albemet|commons|Be-140g.jpg|Pure beryllium, the stiffening phase in AlBeMet|photo
+ptfe|commons|Teflon-jar hg.jpg|PTFE — the slipperiest solid in common use|photo
+eptfe|commons|Goretex photo.png|Expanded PTFE under the microscope — the node-and-fibril structure that passes vapour but not droplets|photo
+aramid|commons|Para Aramid Yarns Body Armor.jpg|Para-aramid yarn woven for ballistic panels|photo
+fkm|commons|Fiber optic vacuum viton seal ProtoDUNE.jpg|An FKM (Viton) seal on a vacuum feedthrough|photo
+silicone|commons|Liquid-silicon-rubber-crop.jpg|Liquid silicone rubber before cure|photo
+natrubber|commons|Natural rubber.jpg|Natural rubber, still unbeaten at resisting fatigue|photo
+butyl|commons|Butyl rubber gloves.JPG|Butyl rubber gloves — the polymer gas does not get through|photo
+pvdf|commons|A UPW Installation using PVDF Piping.png|PVDF pipework in an ultrapure water plant|photo
+kapton|commons|James Webb telescope sunshield.jpg|JWST's sunshield — five tensioned layers of Kapton|photo
+delrin|commons|Dunlop Delrin 500.jpg|Acetal (Delrin) picks — the material holds its dimensions|photo
+pc|commons|Laboratory protection goggles-blue.jpg|Polycarbonate eye protection|photo
+pmma|commons|Lichtenberg figure in block of Plexiglas.jpg|A Lichtenberg figure frozen inside a PMMA block|photo
+sap|commons|Superabsorbent Polymer.jpg|Superabsorbent polymer beads, before and after water|photo
+polyurea|commons|Spray-bedliner-installed-lg.png|Sprayed polyurea lining, cured within seconds|photo
+alumina|commons|Spark plug insulator.jpeg|A spark plug insulator — alumina’s highest-volume job|photo
+sapphire|commons|Sapphire boule, Kyropoulos method.jpg|A synthetic sapphire boule pulled from the melt|photo
+fusedsilica|commons|Einstein gyro gravity probe b.jpg|A Gravity Probe B fused-quartz rotor — among the roundest objects ever made|photo
+gorilla|Flickr|https://live.staticflickr.com/4130/5083750412_4d69cec42b_b.jpg|Chemically strengthened cover glass|photo|CC BY-SA 2.0|Titanas|https://www.flickr.com/photos/titanas/5083750412
+borosilicate|commons|Beakers.jpg|Borosilicate labware|photo
+si3n4|commons|Si3N4bearings.jpg|Silicon nitride bearing balls|photo
+hbn|commons|Hexagonal Boron Nitride.jpg|Hexagonal boron nitride crystals — "white graphite", soft enough to machine|photo
+pzt|commons|Maxim-1-HydrophonPZTinGehäuse.JPG|A PZT piezoelectric element in a hydrophone|photo
+wc|commons|Tungsten carbide inserts.jpg|Tungsten carbide cutting inserts|photo
+uhtc|commons|An UHTC strake composed of three different sections with different UHTC compositions.jpg|An ultra-high-temperature ceramic leading-edge strake|photo
+li900|commons|Shuttle tile.jpg|A Shuttle silica tile — 94% air, held by the edges while glowing|photo
+cvddiamond|commons|Single-crystal CVD diamond disc.jpg|A single-crystal CVD diamond disc|photo
+quartzxtal|commons|32768 Hz quartz crystal resonator.jpg|A 32,768 Hz quartz tuning fork, the heart of every quartz watch|photo
+yag|commons|Yag-rod.jpg|An Nd:YAG laser rod|photo
+batio3|commons|BaTiO3ceramics.JPG|Barium titanate ceramic — the dielectric inside billions of capacitors|photo
+tbc|commons|Coloured ceramic thermal barrier coating on exhaust component.jpg|A ceramic thermal barrier coating on an exhaust component|photo
+sorbothane|Flickr|https://live.staticflickr.com/7183/6909790478_98ec83fdeb_b.jpg|Sorbothane grommets isolating a turntable motor|product|CC BY 2.0|Turntable Guy|https://www.flickr.com/photos/alternativeroute/6909790478
+zylon|commons|NIJ LVLIIIA Kogelvrij vest, BA8001.jpg|A Level IIIA vest — Zylon was woven into vests like this until it was found to lose strength as it aged|analog
+lignostone|commons|Lignoston.jpg|Densified beech laminate|photo
+parylene|commons|CPI Microlyth Pacemaker.jpg|A cardiac pacemaker — parylene C is the standard conformal coating on implanted electronics|product
+vectran|commons|Level 3A glove.jpg|A cut-resistant glove — Vectran is one of the yarns knitted into this class|related
+metglas|commons|MeltSpinner.png|Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise|process
+maraging|commons|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Competition épée blades are maraging steel — it bends far before it breaks|product
+cordierite|commons|Catalytic Converter Interior.jpg|Inside a catalytic converter: the extruded cordierite honeycomb|product
+torlon|commons|Ruban-capton-adhesif.jpg|A roll of Kapton tape — polyimide, the amber chemical neighbour Torlon's amide-imide sits beside|analog
+fields|commons|Wood's alloy 2.JPG|Wood's metal, Field's older cadmium-bearing cousin, melting in hot water|related
+bakelite|commons|Bakelite radio.jpg|A Bakelite radio cabinet|product
+phenolic|commons|Textolite.jpg|Phenolic cotton laminate — cloth and resin pressed into a solid|photo
+neoprene|commons|Diving suit neoprene.jpg|Neoprene foam in a diving suit|product
+epdm|commons|EPDM foil.jpg|EPDM membrane|photo
+nbr|commons|Disposable nitrile glove.jpg|Nitrile gloves|product
+br|commons|Golfballinsiderp.jpg|A golf ball core — polybutadiene, chosen purely for rebound|product
+tpu|commons|Chips TPU con eurocent.jpg|TPU pellets, with a coin for scale|photo
+pps|commons|Molexddpcsfamily.jpg|Connector housings and crimp terminals — PPS is one of the resins moulded into parts that must survive a solder oven|analog
+mylar|commons|Myla32rp.jpg|Aluminised BoPET film|photo
+pp|commons|Mint box polypropylene lid.JPG|A living hinge moulded in one piece with the box|product
+memoryfoam|commons|MemoryFoam-slow.jpg|Viscoelastic foam returning slowly after a hand is lifted|photo
+epoxy|commons|Aerospace epoxy resin.jpg|Aerospace epoxy resin|photo
+eva|commons|Eva closeup.jpg|EVA foam|photo
+manila|commons|20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg|Abacá fibre, stripped and dried|photo
+hemprope|commons|Cordage en chanvre.jpg|Hemp cordage|photo
+sisal|commons|Pacas de sisal.jpg|Baled sisal fibre|photo
+coir|commons|Making coir rope in Kerala.JPG|Coir rope being twisted by hand in Kerala|product
+jute|commons|Jute Rope (சணல் கயிறு).jpg|Jute rope|photo
+cottonduck|commons|Close up of cotton duck canvas.JPG|Cotton duck, woven tight enough to shed water|photo
+linen|commons|Linen cloth.jpg|Linen cloth|photo
+silk|commons|Bombyx mori Cocon 02.jpg|Bombyx mori cocoons — one continuous filament each|photo
+spidersilk|commons|Artificial Spider Silk Strand.JPG|A strand of artificial spider silk|photo
+felt|commons|Colored felt cloth.jpg|Wool felt — fabric with no weave at all|photo
+paracord|commons|MIL-C-5040 Type III 550 Paracord.jpg|550 paracord, sheath opened to show the core yarns|photo
+polyesterfab|commons|Drop of water on water-resistant textile (100% polyester).jpg|Water beading on woven polyester|photo
+wirerope|commons|Lhol wire rope.jpg|Steel wire rope, laid left-hand ordinary|photo
+glassfibre|commons|Glass fiber bundle.jpg|A glass fibre bundle|photo
+basalt|commons|Basalt fibre and glass fibre.jpg|Basalt fibre (dark) beside glass fibre|photo
+nomex|commons|TFS Nomex Hood.JPG|A Nomex firefighting hood|product
+ripstop|commons|RipStop.jpg|Ripstop: a grid of heavier yarns that stops a tear spreading|photo
+sailcloth|commons|Bear of Britain spinnaker.jpg|A modern laminate spinnaker under load|product
+abs|commons|Lego bricks.jpg|Lego bricks — ABS moulded to a tolerance of about a hundredth of a millimetre|product
+pet|Flickr|https://live.staticflickr.com/3261/2629301274_8f41b9afd0_b.jpg|PET bottles, blown and biaxially stretched|product|CC BY 2.0|dierk schaefer|https://www.flickr.com/photos/dierkschaefer/2629301274
+pvc|commons|Pvc cevi.jpg|PVC pipe|photo
+nylon66|commons|Kabelbinder -- 2024 -- 6907.jpg|Nylon 6/6 cable ties|product
+hdpe|commons|Diverse Kanisterformen.png|HDPE jerrycans|product
+pex|commons|PEX piping in basement ceiling.jpg|PEX plumbing runs|product
+eps|commons|Expanded Polystyrene (EPS) foam pellets.jpg|Expanded polystyrene beads|photo
+pdms|commons|Рождение микрофлюидного чипа.JPG|A PDMS microfluidic chip|product
+fep|commons|Pfa tubing.jpeg|PFA tubing — the same melt-processible fluoropolymer family as FEP|related
+pvb|commons|Shattered laminated glass in broken window in railway tram train carriage Close-up Cracks fragments visual effects patterns NORWAY Knust vindu i togvogn med laminert sikkerhetsglass sprekker småbiter lyseffekter 2019-02-11 DSC03363.jpg|Shattered laminated glass, every fragment still held by the PVB interlayer|product
+surlyn|commons|Golf ball by Japanese company Srixon.jpg|A golf ball — the cover is an ionomer|product
+pla|Flickr|https://live.staticflickr.com/7582/15760663749_6f445d6535_b.jpg|PLA filament|photo|CC BY-SA 2.0|westonhighschoollibrary|https://www.flickr.com/photos/124105511@N08/15760663749
+melaminefoam|commons|MagicEraser.jpg|A melamine foam cleaning sponge|product
+cyanoacrylate|commons|Cianocrilato.JPG|Cyanoacrylate adhesive|product
+pva|commons|Folia PVA z pochodną kumaryny w świetle widzialnym nr 01.jpg|Polyvinyl alcohol film|photo
+nafion|commons|Patrick Teppor and PEM active layer deposition by ultrasonic spraying.jpg|Spraying a catalyst layer onto a proton exchange membrane|process
+pbi|commons|Membrana di PBI commerciale.JPG|A commercial PBI membrane|photo
+ti64|commons|Hip joint replacement, United States, 1998 Wellcome L0060175.jpg|A titanium hip prosthesis — the stem is this alloy|product
+magnesium|commons|Mg alloy car engine blocks.jpg|Magnesium alloy engine blocks|product
+damascus|commons|Front and back of blades of hair-cutting shears made from Damascus steel.jpg|Pattern-welded blades, etched to bring out the layers|product
+hadfield|commons|Sacramento tram track frog 4036.JPG|A track frog — the crossing casting is manganese steel|product
+duplex|commons|Chemical tanker Ternholm at Skarvikshamnen 2.jpg|A chemical tanker — duplex stainless is the standard for cargo tanks that carry acid|product
+hss|commons|HSS Twist Drill into Aluminium with Lubricant.jpg|An HSS twist drill cutting aluminium|product
+phosbronze|commons|Phosphorbronzeguitarstring.jpg|Phosphor bronze guitar string|product
+monel|commons|Monel-valves--The-Alloy-Valve-Stockist.JPG|Monel valves|product
+hastelloy|commons|Hastelloy Ball valve.jpg|A Hastelloy ball valve|product
+zamak|commons|Zink auto.jpg|A zinc die-cast model car — detail straight out of the die|product
+sac305|commons|Solder on spool.jpeg|Solder wire on a spool|product
+tantalum|Flickr|https://live.staticflickr.com/65535/54041464509_22cba30bfa_b.jpg|Tantalum metal|photo|CC BY 2.0|James St. John|https://www.flickr.com/photos/47445767@N05/54041464509
+niobium|commons|Ultrapure niobium bead, slightly oxidized.jpg|An ultrapure niobium bead|photo
+nbti|Flickr|https://live.staticflickr.com/3019/2544000149_a81f59288f_b.jpg|Nb-Ti superconducting cable from the LHC|photo|CC BY-SA 2.0|ÂµÂµ|https://www.flickr.com/photos/muriel_vd/2544000149/in/set-72157605393246803
+bismuth|commons|Bismuth crystals and 1cm3 cube.jpg|Bismuth hopper crystals and a 1 cm³ cube|photo
+inconel718|commons|Inconel 718.JPG|Inconel 718|photo
+ndfeb|commons|Neodimijski magneti, (Neodymium magnets).JPG|Sintered neodymium magnets|photo
+alnico|commons|Alnico magnet assortment.jpg|Assorted Alnico magnets|photo
+corten|commons|Weathering steel door.jpg|Weathering steel with its stable patina|photo
+zircaloy|Flickr|https://live.staticflickr.com/1540/26072384441_7faf9bf9f9_b.jpg|A nuclear fuel rod — the cladding tube is Zircaloy|product|CC BY 2.0|NRCgov|https://www.flickr.com/photos/nrcgov/26072384441
+hafnium|commons|Hafnium ebeam remelted.jpg|Electron-beam remelted hafnium|photo
+hea|commons|Microstructure of High-Entropy Alloy AlCoCrFeNi₂.₁.jpg|High-entropy alloy microstructure|photo
+sodalime|commons|Foxton Fizz Bottles.jpg|Soda-lime glass bottles|product
+leadcrystal|commons|Cut crystal wine glasses in the Fakiris series by German glassworks Knittel 4.jpg|Cut lead crystal|product
+ceran|commons|Schott Ceran glass-ceramic cooktop.jpg|A glass-ceramic cooktop|product
+porcelain|commons|Johnny ball strain insulator.JPG|A porcelain strain insulator|product
+steatite|commons|Lampe Nishapur steatite.JPG|Carved steatite — soapstone in the soft state, before firing hardens it|photo
+mullite|commons|Kiln Furniture Before Glost FIring.png|Kiln furniture — mullite-bonded refractory props|product
+glassycarbon|commons|Glassy Carbon.jpg|Glassy carbon|photo
+emax|commons|Detached-dental-crown-view-a.jpg|A pressed ceramic dental crown|product
+zta|commons|Hip replacement Image 3684-PH.jpg|A hip replacement — the ball is a toughened alumina ceramic|product
+mnznferrite|commons|T-10 Ferrite Core (1).jpg|A MnZn ferrite core|photo
+ifb|commons|Refractory bricks lining.jpg|Refractory brick lining|product
+sialon|commons|ASiAlONb.jpg|Sialon ceramic|photo
+beo|commons|BeO sample.jpg|A beryllium oxide ceramic sample|photo
+uraniumglass|commons|Uranium glass.jpg|Uranium glass under ultraviolet light|photo
+dichroic|commons|Petit Palais Verre dichroïque Noir souriant 13012018 1.jpg|Dichroic glass|product
+photochromic|commons|Photo Grey glasses, Фото греј наочари.JPG|Photochromic spectacle lenses|product
+bonechina|commons|BLW Bone China Chocolate Cup.jpg|A bone china cup|product
+enamel|commons|Vitreous enamel sign of Japan postal mark 001.JPG|A vitreous enamel sign|product
+gfrp|commons|Glass reinforced plastic SEM Stereo 200x.JPG|Glass-reinforced plastic under the electron microscope — fibres embedded in resin|photo
+cfrp|commons|Carbon fibre weave.jpg|Carbon fibre fabric|photo
+alhoneycomb|commons|Glare honeycomb.jpg|Honeycomb core bonded between thin skins|product
+glare|commons|An exploded view of a GLARE hybrid sheet.jpg|GLARE, exploded — alloy sheets alternating with glass-fibre prepreg|photo
+plywood|commons|Sandakan Sabah Plywood-Factory-35c.jpg|Plywood, veneers laid crosswise|photo
+clt|commons|Brettsperrholzkonstruktion.jpg|Cross-laminated timber construction|product
+rcconcrete|commons|Reinforced concrete foundation.JPG|Reinforced concrete going in|product
+uhpc|commons|Gaertnerplatzbruecke Kassel.JPG|The Gärtnerplatz bridge in Kassel, built from UHPC|product
+selfhealconcrete|commons|Basilisk self-healing concrete exhibit at science museum.jpg|Self-healing concrete on display|photo
+fibrecement|commons|Fiber cement siding.jpg|Fibre cement siding|product
+alsic|commons|255-GRC-1988-C-06617 Ceramic fiber metal matrix composite.jpg|A metal matrix composite — ceramic reinforcement inside metal|photo
+tyre|commons|Pirelli Cinturato Tire cutaway.jpg|A radial tyre cut away — belts, plies and bead|product
+transparentarmour|commons|IDET2007 bulletproof glass.jpg|Transparent armour, layered glass and polycarbonate|product
+dyneemahb|commons|Osprey plates COB2009.jpg|Ballistic plates|product
+gypsum|commons|Drywall and tools.jpg|Gypsum board|product
+copv|commons|Copv tank close out prior to flight.png|A composite overwrapped pressure vessel|product
+pykrete|commons|Pykrete.jpg|Pykrete — ice with wood pulp mixed into it|photo
+hempcrete|Flickr|https://live.staticflickr.com/3746/11221285985_cac4e86ef0_b.jpg|A hempcrete wall|product|CC BY 2.0|Jnzl's Photos|https://www.flickr.com/photos/102748040@N03/11221285985
+nylonrope|commons|Rope 20221203 102029.jpg|Braided synthetic rope|photo
+bungee|commons|Bungee Cord PICT6882a.jpg|Shock cord — rubber strands in a braided jacket|photo
+kernmantle|commons|Kernmantle climbing rope dynamic Sterling 10.7mm cut end.jpg|Kernmantle rope cut open — load-bearing core, protective sheath|photo
+seatbelt|commons|Female driver buckling seatbelt.jpg|Seat-belt webbing in use|product
+velcro|commons|Hook and loop fastener - macro photograph of "hooks".jpg|The hooks of a hook-and-loop fastener, magnified|photo
+denim|commons|Denim fabric 05 (Rico Cilliers and colormass via Poly Haven).png|Denim, woven as a right-hand twill|photo
+cordura|commons|Blue cordura garment.jpg|Cordura fabric|photo
+viscose|commons|Rayon sample.jpg|Viscose rayon|photo
+lyocell|commons|Lyocell.jpg|Lyocell fibre|photo
+acrylicfibre|commons|Acrylic stash -1 (12115250915).jpg|Acrylic yarn|photo
+merino|commons|CSIRO ScienceImage 7663 The structure of a Merino Wool Fibre.jpg|A merino wool fibre, showing its scales|photo
+mohair|Flickr|https://live.staticflickr.com/2235/2366086549_a794cd4214_b.jpg|Mohair|photo|CC BY 2.0|AnnaKika|https://www.flickr.com/photos/ullkika/2366086549
+ramie|commons|Ramie fiber exhibited in Yonezawa City Uesugi Museum.jpg|Ramie fibre|photo
+kapok|commons|Tunku Sabah Kapok-fibres-01.jpg|Kapok floss|photo
+rockwool|commons|Arrangement Mineralwolle.jpeg|Mineral wool|photo
+wiremesh|commons|Woven wire mesh.png|Woven wire mesh|photo
+geotextile|commons|Geotextile-GSI.JPG|Geotextile|photo
+down|commons|Hungarian Goose Down.jpg|Goose down clusters|photo
+horsehair|commons|Bow, violin (AM 1998.60.381-2).jpg|A violin bow — the ribbon is horsehair|product
+catgut|commons|Catgut Plain 01.JPG|Catgut|photo
+graphene|commons|Sample of graphene (1~3 layers).jpg|A commercial graphene sample — one to three layers, 98% carbon|photo
+cntyarn|commons|CSIRO ScienceImage 988 Carbon nanotubes spun to form a yarn.jpg|Carbon nanotubes being spun into a yarn|process
+aerographite|commons|TUHH CAU newexampleAerographite Netwok.png|Aerographite's network of hollow carbon tubes|photo
+ybco|commons|Tile levitates by Meissner effect.jpeg|A high-temperature superconductor levitating over a magnet track|photo
+electrochromic|Flickr|https://live.staticflickr.com/6232/6381369959_14fe4d9c68_b.jpg|A 787 cabin window, electrochromically dimmed|product|CC BY 2.0|Jun Seita|https://www.flickr.com/photos/jseita/6381369959
+vo2|commons|VO2 crystal.jpg|A vanadium dioxide crystal|photo
+qdot|commons|Quantum dots 2.jpg|Quantum dots fluorescing — the colour is set by particle size|photo
+metamaterial|commons|Metamaterial 'Flat Lens' (8889691315).jpg|A metamaterial flat lens|photo
+acousticmeta|commons|Órgano, de Eusebio Sempere Juan.JPG|Eusebio Sempere's sculpture — the rod array that turned out to be the first proven sonic crystal|related
+selfhealpoly|commons|Supramolecular rubber and polymer glass.tif|Supramolecular rubber, which re-forms its own broken bonds|photo
+lce|commons|Wikipedia pic LCE.png|A liquid crystal elastomer|photo
+oobleck|commons|Corn speaker.jpg|A cornstarch suspension standing up on a speaker cone|photo
+thermoelectric|commons|Thermoelectric Seebeck power module.jpg|A thermoelectric module|photo
+magnetocaloric|Flickr|https://live.staticflickr.com/65535/54041141131_993af738ca_b.jpg|Gadolinium|photo|CC BY 2.0|James St. John|https://www.flickr.com/photos/47445767@N05/54041141131
+zeolite|Flickr|https://live.staticflickr.com/176/393784940_f8ce143280_b.jpg|Zeolite crystals|photo|CC BY-SA 2.0|cobalt123|https://www.flickr.com/photos/cobalt/393784940
+mof|commons|Activated Carbon.jpg|Activated carbon, powder and block — the adsorbent a MOF is built to out-perform, surface area for surface area|analog
+metalhydride|commons|Metal Hydride Storage Canisters.jpg|Metal hydride hydrogen storage canisters|product
+pcm|commons|Bicycle chain in paraffin wax just about to solidify.jpg|Paraffin wax at the moment of freezing|photo
+vip|commons|Va-Q-vip 2.jpg|A vacuum insulation panel|photo
+getter|commons|6P1P vacuum tube teardown.jpg|A vacuum tube — the silver mirror on the glass is the flashed getter|product
+tritium|commons|Tritium-Glowring - 320s.jpg|A tritium glow ring|product
+slips|commons|Water droplet on a super hydrophobic surface.jpg|A droplet on a water-repellent surface — the same non-wetting idea|related
+tio2photo|commons|Titanium dioxide powder dispersing in water.JPG|Titanium dioxide powder|photo
+electret|commons|Electret microphone MKE3.JPG|An electret microphone|product
+nacre|commons|Nacre mother of pearl shellB.jpg|Nacre|photo
+bamboo|commons|08 Asper 1 - Copy.jpg|Bamboo culms|photo
+balsa|Flickr|https://live.staticflickr.com/3354/3446321630_08013cc137_b.jpg|Balsa|photo|CC BY 2.0|jfrancis|https://www.flickr.com/photos/80895244@N00/3446321630
+lignumvitae|commons|LignumVitaeMallet01.jpg|A lignum vitae mallet|product
+whiteoak|Flickr|https://live.staticflickr.com/6134/6039449508_f045c7224e_b.jpg|Oak staves in a cooperage|product|CC BY 2.0|davitydave|https://www.flickr.com/photos/79781814@N00/6039449508
+cork|Flickr|https://live.staticflickr.com/4628/25753850818_d37190dd84_b.jpg|Cork|photo|CC BY 2.0|pedrik|https://www.flickr.com/photos/pedrik/25753850818
+vegleather|commons|Tanned leather.JPG|Tanned leather|photo
+bone|commons|Spongy bone - Trabecular bone - Normal trabecular bone Trabecular bone etc -- Smart-Servier (cropped).jpg|Trabecular bone|photo
+antler|commons|Roe deer antler.jpg|A roe deer antler|photo
+horn|commons|Horn hair comb, Ludlow Museum - DSCF2042.JPG|A horn comb|product
+baleen|commons|Gray whale baleen plates.JPG|Baleen plates|photo
+amber|commons|Baltic Amber necklace with insects inclusions.jpg|Baltic amber with insect inclusions|photo
+shellac|commons|Shellac flakes closeup.JPG|Shellac flakes|photo
+guttapercha|commons|Caoutchouc Gutta-percha Droguier ISPB Lyon UCBL 1.jpg|Gutta-percha in a pharmacy specimen collection|photo
+diatomite|commons|Diatomaceous Earth BrightField.jpg|Diatomaceous earth under the microscope — fossil diatom skeletons|photo
+chitin|Flickr|https://live.staticflickr.com/7029/6555236543_8136048e40_b.jpg|A moulted crab exoskeleton|photo|CC BY 2.0|USFWS Pacific Southwest Region|https://www.flickr.com/photos/usfws_pacificsw/6555236543
+byssus|commons|Mussel & Byssal Threads.jpg|Mussel byssus threads|photo
+toothenamel|commons|What is Inside Human Tooth (Macro-Anatomy).jpg|A sectioned tooth — enamel is the outer shell|photo
+pumice|commons|Pumice stones.JPG|Pumice|photo
+mica|Flickr|https://live.staticflickr.com/555/31738996790_c22e49b401_b.jpg|Muscovite mica|photo|CC BY 2.0|James St. John|https://www.flickr.com/photos/47445767@N05/31738996790
+asbestos|commons|Chrysotile and asbestos (GeoDIL number - 2527).jpg|Chrysotile asbestos|photo
+nephrite|commons|Amphibole - Nephrite Jade Basic calcium magnesium iron silicate Lander County Wyoming 2077.jpg|Nephrite jade|photo
+washi|commons|Washi(Sugihara paper).JPG|Washi paper|photo
+vellum|commons|Ashmolean Parchment AN 1981.940.jpg|Parchment|photo
+beeswax|commons|Beeswax blocks.JPG|Beeswax blocks|photo
+cuttlebone|commons|Zeeschuim of sepia.jpg|Cuttlebone|photo
+nanocellulose|commons|Nanocellulose.JPG|Nanocellulose|photo
+silicon|commons|Silicon ingot 2019-01-30 064114.jpg|A monocrystalline silicon ingot|photo
+gaas|commons|Gallium Arsenide (GaAs) 2" wafer.jpg|A gallium arsenide wafer|photo
+gan|commons|Silicon vs GaN 30W USB-C chargers.jpg|Two 30 W chargers — silicon on the left, GaN on the right|product
+germanium|commons|Germanium crystals.jpg|Germanium crystals|photo
+hgcdte|commons|Detector array on the focal plane of the Infrared Astronomical Satellite (IRAS).png|An infrared focal plane detector array|product
+perovskitepv|commons|Perovskite solar cell.jpg|A perovskite solar cell|photo
+ito|commons|Transparent keypad touchscreen.png|A transparent ITO-coated touch keypad|product
+linbo3|commons|Lithium Niobate Wafer.jpg|A lithium niobate wafer|photo
+yig|commons|Four Yttrium Iron Garnet spheres filter.jpg|YIG spheres inside a tunable microwave filter|product
+tisapphire|commons|TiSa crystal.jpg|A Ti:sapphire laser crystal|photo
+calcite|commons|3310.calcite (Iceland Spar) birefringence.jpg|Iceland spar doubling the lines beneath it|photo
+caf2|commons|Fluorite crystal.jpg|Fluorite — calcium fluoride in its mineral form|related
+znse|commons|2 CVD ZnSe domes and lenses Crystaltechno.jpg|CVD zinc selenide optics|photo
+yagce|commons|White LED.png|A white LED — a blue chip under a dot of YAG:Ce phosphor|product
+scintillator|commons|RadiaCode-101 dosimeter-spectrometer (front view).jpg|A scintillation spectrometer — crystal coupled to a photodetector|product
+hfo2|commons|Dielectric laser mirror from a dye laser.JPG|A dye-laser mirror, over 99% reflective at 550 nm — hafnium oxide is one of the standard high-index layers in coatings like this|analog
+opticalfibre|commons|MoST Fiber Optic Cable Display.jpg|Optical fibre carrying light|product
+pcf|commons|Photonic-crystal-fiber-from-NRL.jpg|Photonic crystal fibre in cross-section — the lattice of air holes|photo
+oled|commons|LG gram Pro 16 (2024) 16Z90SPG OLED DISPLAY RGB DOT MATRIX, OLED PANEL MADE BY SAMSUNG DISPLAY.jpg|OLED subpixels, magnified|product
+eink|commons|Electronic paper display microphotography.jpg|E-ink microcapsules under the microscope|photo
+nematiclc|commons|Nematic liquid crystal.jpg|A nematic liquid crystal texture|photo
+mov|commons|Metal Oxide Varistor.jpg|A metal oxide varistor|product
+ptcpoly|commons|Disassembled resettable fuse.JPG|A polymer resettable fuse, opened up|product
+etchedfoil|commons|Low-voltage-anode-foil.tif|Etched anode foil in cross-section — the tunnels that multiply its area|photo
+tim|commons|Thermal compound Applied.JPG|Thermal compound spread on a processor lid|product
+cashmere|commons|CSIRO ScienceImage 6863 Cashmere goat hair fibre.jpg|Cashmere down, combed from a goat's undercoat|photo
+qiviut|commons|Qiviut wool 1.JPG|Raw qiviut, shed by a muskox and picked up by hand|photo
+sinew|commons|Sinew strings.jpg|Sinew twisted into cordage|photo
+harakeke|commons|Te Pā Harakeke o te Iwi 20230816 082439 02.jpg|A pā harakeke — the stand the leaves are cut from|photo
+esparto|commons|Stipa tenacissima kz08.jpg|Esparto grass growing on dry ground|photo
+raffia|commons|Raffia fibers.jpg|Raffia, peeled off the leaf as flat ribbon|photo
+pina|commons|Piña Barong tagalog AklanA.jpg|A barong tagalog woven from piña|product
+pianowire|Flickr|https://live.staticflickr.com/13/14232121_c20a01a398_b.jpg|Music wire strung in a grand piano|product|CC BY 2.0|easement|https://www.flickr.com/photos/44046918@N00/14232121
+jacquard|commons|A Jacquard loom showing information punchcards, National Museum of Scotland.jpg|A Jacquard loom and its chain of punched cards|process
+doublecloth|commons|Blue Double Weave Kimono Close Up.png|Double-weave cloth, close up|photo
+warpknit|commons|NIM 1910 Warp knitting machine 2522.jpg|A warp knitting machine — one needle per warp end|process
+jersey|commons|Gestrick links-rechts rechte Seite.jpeg|Weft-knit fabric, face side|photo
+seamlessknit|commons|Computerized Flat Knitting Machine (Jacquard Machine) 07.jpg|A computerised flat knitting machine|process
+spacerfabric|commons|Spacer fabric.jpg|Spacer fabric — two faces held apart by monofilament|photo
+electrospun|commons|Electrospun polymer nanofibers with bead-fiber morphology.jpg|Electron micrograph of electrospun nanofibres|photo
+tyvek|Flickr|https://live.staticflickr.com/3458/3350958206_db48d7665f_b.jpg|A Tyvek envelope|product|CC BY-SA 2.0|Newone1970|https://www.flickr.com/photos/32147839@N07/3350958206
+mercerised|commons|Spool of white thread.jpg|Spooled cotton thread — mercerising gives it the sheen|product
+ringmesh|commons|Chain mail shirt - Georgian.jpg|A riveted mail shirt|product
+opwairbag|commons|Vauxhall Vectra curtain airbag deployed.jpg|A curtain airbag deployed in a car|product
+ptfeglass|commons|Denver International Airport.jpg|Denver airport roof — PTFE-coated glass fibre on cables|product
+etfefoil|commons|Tropical Biome of the Eden Project - geograph.org.uk - 4456101.jpg|The Eden Project biomes, clad in inflated ETFE pillows|product
+dwrfinish|commons|CSIRO ScienceImage 11489 Water droplets on QuickDry merino wollen fabric.jpg|Water beading on treated fabric|photo
+tufted|commons|Deep Pile Carpet Up Close.jpg|Deep carpet pile, close up|product
+terrypile|commons|Frottee-Handtuch.jpg|Terry towelling — the loops left uncut|photo
+leno|commons|3611 Bandage rolling.jpg|Gauze bandage being rolled|product
+fleece|commons|Polar fleece (2) (Rico Cilliers and colormass via Poly Haven).png|Polar fleece — napped and shorn level|photo
+nonwoven|commons|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
+weldedseam|commons|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
+waam|commons|Панфилов Александр - Wire Arc Additive Manufacturing (ИФПМ СО РАН).jpg|Wire arc deposition in progress|photo
+metalpowder|commons|SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg|Electron micrograph of gas-atomised steel powder|photo
+fff|Flickr|https://live.staticflickr.com/3945/15591161602_45e12b004d_b.jpg|Spools of 1.75 mm filament on a printed stand|photo|CC BY 2.0|Creative Tools|https://www.flickr.com/photos/33907867@N02/15591161602
+coldspray|commons|CSAM 7755 16.jpg|Cold spray in progress — powder arriving fast enough to weld without melting|process
+fourd|commons|Multishape active composites by 3d printing of digial smps.jpg|Printed shape-memory composites, folded and recovered|photo
+lcmceramic|commons|Zirconia bridge.jpg|A zirconia dental bridge — the kind of part a ceramic slurry resin makes|product
+concreteprint|commons|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a house printed in raw earth — the same thixotropic trick, with clay in place of cement|product
+bioink|commons|Клеточная сеть образованная стволовыми клетками в трехмерном пространстве внутри гидрогелевого скаффолда.png|Stem cells spreading through a hydrogel scaffold|photo
+grcop|commons|Marshall engineers installed the injector in a subscale RS-25 engine model.jpg|A printed fuel injector going into a subscale RS-25 engine — hot-fire tested near 3300 °C|product
+ebm|commons|Xilloc Patient Specific Implant Titanium.png|A patient-specific titanium implant|product
+soluble|commons|Support structure in 3D printing.jpg|Support structure on a printed part; soluble versions wash off|related
+pa12powder|Flickr|https://live.staticflickr.com/6209/6123908690_17e3b89de7_b.jpg|A laser-sintered nylon bicycle — the first workable one, grown in fused powder|product|CC BY-SA 2.0|51% Studios Architecture|https://www.flickr.com/photos/51pct/6123908690
+cellacetate|commons|Cutlery made from Cellulose Acetate Biograde.JPG|Cutlery moulded in cellulose acetate|product
+gummetal|commons|Watch balance spring and human hair.jpg|A watch balance spring beside a human hair — Gum Metal is one of the alloys wound into these|related
+al7075|commons|Black Diamond Carabiners.JPG|Climbing carabiners — hot-forged 7075 is the standard alloy|product
+ss316l|Flickr|https://live.staticflickr.com/7511/27964588231_b90529058e_b.jpg|Orbital welding 316L tube — the low-carbon grade exists so a weld like this does not sensitise|product|CC BY 2.0|fourbyfourblazer|https://www.flickr.com/photos/chrisyarzab/27964588231
+cupronickel|commons|Two stacks of half dollars, one silver, one clad - effects of the Coinage Act 1965.jpg|Clad half dollars beside silver ones — the reddish copper core shows at the edge of every post-1965 coin|product
+babbitt|commons|Miba Thrust Bearing.jpg|A fluid-film thrust bearing for a gas turbine — the pads carry a Babbitt lining|product
+macor|commons|60kV Feedthrough.jpg|A 60 kV vacuum feedthrough — the insulator is the kind of part Macor gets machined into|related
+chalcogenide|commons|CD-RW bottom.jpg|The underside of a CD-RW — the recording layer is a chalcogenide that switches between glass and crystal|product
+zblan|commons|Doped glasses.jpg|ZBLAN samples: praseodymium-doped, erbium-doped and undoped|photo
+isographite|commons|Graphite crucibles.jpg|Graphite crucibles, good to about 1500 °C|product
+azs|commons|Lemington Glass Furnace - geograph.org.uk - 498767.jpg|The Lemington glass furnace, the last of its type working in Britain — fused-cast AZS lines the tank that holds molten glass|related
+nomexcore|commons|Composite honeycomb exhaust duct (2).jpg|A sectioned composite exhaust duct, showing the honeycomb core between its skins|product
+forgedcomposite|commons|Forged Carbon Fiber Mat for Lamborghini HURACAN.jpg|Forged composite — a mat of chopped carbon tow, pressed to shape|photo
+pvcfoam|commons|Begutachtung eines Rotorblattes.JPG|A wind turbine blade under inspection — the shells are foam-cored sandwich|product
+twophoton|commons|Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg|A 2 mm model of an 1871 microscope, written by two-photon lithography|product
+sandprint|commons|SandMoldCopeDragCores.jpg|Cope, drag and cores of a sand mould — printing makes these without a pattern|related
+boundmetal|commons|Filamentgedruckte und gesinterte Bauteile aus hochlegiertem Stahl (316L).jpg|Capsule, helix and tetrapod — filament-printed in 316L, then sintered|product
+slaresin|commons|SLA produced part.JPG|A part grown in a vat of photopolymer|product
+alsi10mg|commons|Professional MotorSport World Expo 2024, Cologne (P1031209).jpg|Prototype turbochargers grown in a laser powder bed — the same powder route, though a housing this hot wants nickel rather than aluminium|analog
+printsilicone|commons|Silicone 3d print with support material.jpg|A pneumatic actuator printed in liquid silicone, still in its clear support|photo
+pprope|commons|Failedrope1.jpg|A polypropylene rope after UV exposure, beside a new one — sunlight is this fibre's weakness|product
+webbing|commons|Water-knot-webbing-loose-ABOK-296.jpg|Tubular webbing joined with a water knot|photo
+monofil|commons|String trimmer head-insert style.jpg|A fixed-line trimmer head — nylon monofilament doing the cutting|product
+emifabric|commons|Isotoner touch gloves BB E86 jeh.jpg|Touchscreen gloves — conductive yarn knitted into the fingertips|product
+technora|commons|Tandriem BMW F 650 CS02.JPG|A toothed belt final drive — aramid cords carry the load inside the rubber|product
+preoxpan|commons|Fire-blanket-on-display.jpg|A fire blanket — oxidised PAN felt is one of the two cloths used for these, glass the other|related
+ptfethread|commons|Velodrome Marseille Stadium by Taiyo Europe.JPG|A stadium membrane roof — seams this size are sewn with PTFE thread|product
+kuralon|commons|Sample of Polyvinyl alcohol.jpg|Polyvinyl alcohol resin — Kuralon is this polymer, wet-spun into fibre|related
+rawhide|commons|Rawhide mallet in Tuntorp 3.jpg|A rawhide mallet — a face that strikes hard without marking|product
+laidrope|commons|Cordage chantier de l'Hermione Rochefort sur Mer.jpg|Three-strand hemp rope at the Hermione dockyard|photo
+doublebraid|commons|Tree Climbing Arborist.jpg|An arborist on a climbing line, the job double braid was made for|product
+twelvestrand|commons|Soft shackles.JPG|Soft shackles — a loop of hollow braid spliced into itself|product
+braidedline|commons|Fishing lines 2025 G1.jpg|Eight-strand braided line, 0.15 mm|photo
+needlepunch|commons|Needle-felt-making-1080204.jpg|Needle felting by hand in Kyrgyzstan — barbed needles tangling fibre into cloth|process
+woven3d|commons|Paris Air Show 2017 LEAP fan.jpg|A LEAP engine fan — each blade is a 3D-woven preform, injected with resin|product
+laminateshell|commons|Early Gore-Tex hooded rain jacket.jpg|An MSR Gore-Tex jacket from about 1976, one of the first laminate shells|product
+etextile|commons|Wireless electronic textiles.jpg|Inductors printed straight onto fabric, powering circuits without a wire|photo
+dea|commons|Soft robot locomotion.jpg|A soft robot built for colonoscopy — the job DEAs are aimed at; this one runs on air, not volts|related
+strontiumal|commons|Photoluminescent Exit Sign.jpg|A photoluminescent exit sign, charged by room light|product
+spruce|commons|Violin Top and back plates.jpg|A carved violin top in spruce, beside its maple back|product
+ggg|commons|GAGG-Ce.jpg|A GAGG:Ce scintillator crystal — a garnet grown the same way as GGG|related
+bbo|commons|Beam output from OPA.jpg|The output of an optical parametric amplifier — BBO is the crystal that splits the beam|related
+ga2o3|commons|Czochralski Gallium Oxide.png|Pulling gallium oxide from the melt by the Czochralski method|process
+pebax|commons|Ski boots alpin large.jpg|Alpine ski boots — Pebax is one of the shell plastics boots like these are moulded in|analog
+pei|commons|DG 東莞 DongGuan 南城區 Nancheng 鴻福路 HongFu Road 東莞京東商場 JD Mall Electronics Showroom 3D printers December 2024 R12S 06 (cropped).jpg|A 3D printer's build plate, powder-coated in PEI — prints grip it hot and let go cold|product
+terfenol|Flickr|https://live.staticflickr.com/2228/3542186251_54d5c3fec0_b.jpg|A hydrophone going into the North Atlantic — this one is piezoelectric; Terfenol-D does the same job by stretching in a magnetic field|analog|CC BY-SA 2.0|Oregon State University|https://www.flickr.com/photos/oregonstateuniversity/3542186251
+tib2|commons|Цех электролизных ванн для выплавки алюминия с силой тока 400 КА в промышленно-инновационном парке "Юйлянь" в г. Гунъи (Китай).jpg|A 400 kA aluminium reduction cell hall — titanium diboride is what the cathode surface is made of|analog
+nextel|commons|Industrial furnace equipped with HTIW modules.jpg|A furnace lined with high-temperature insulation wool — Nextel's woven alumina cloth does this job where the lining must also be strong|analog
+smc|commons|1979 tvr 3000s.jpg|A TVR 3000S — its body is hand-laid glass-reinforced plastic; sheet moulding compound is the same idea pressed out by the minute|analog
+g10|commons|SEG DVD 430 - Printed circuit board-4276.jpg|A DVD player's circuit board — boards like this are cut from glass-cloth epoxy laminate, the electrical grade of G10|analog
+fgm|commons|Repair process for a V2500 high-pressure turbine guide vane (8).jpg|A V2500 turbine guide vane, its thermal barrier just plasma-sprayed on — coatings like this are where graded composition earns its keep|analog
+contfibre|commons|U S Marines with 3d Marine Logistics Group showcase 3D Printing Capabilities to the U S Coast Guard at CJLOTS 26 (9832271).jpg|Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell|process
+lattice|commons|3D-Printed Biodegradable Human Bone Scaffold 4.jpg|A printed biodegradable bone scaffold going in, in Assam — the open structure is there for bone to grow into|analog
+primaloft|commons|Adidas belgements primaloft cycling gilet.jpg|An insulated cycling gilet — PrimaLoft wadding under a windproof shell|product
+m5fibre|commons|Aramid fiber2.jpg|Aramid filaments about 10 µm across — M5 is the rigid-rod fibre that was meant to beat these|analog
+basofil|commons|Turnout gear in the Czech Republic.jpg|Firefighters' turnout gear — melamine fibre goes into liners and hoods of kit like this|analog
+silicafibre|commons|Glasfaser Roving.jpg|A bobbin of glass roving — high-silica fibre starts as glass like this, then is leached until almost nothing but silica is left|analog
+kineticrope|Flickr|https://live.staticflickr.com/65535/53832951206_5e50292625_b.jpg|A fuse shackle for vehicle recovery, built to break first — the weak link that goes in line with a kinetic rope|analog|CC BY 2.0|Tony Webster|https://www.flickr.com/photos/diversey/53832951206
+triaxial|commons|Woven Fabric (ST177) - MoMu Antwerp.jpg|An open leno-type weave — triaxial takes the idea further, with three yarn sets at 60°|analog
+stitchbond|commons|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A glass–aramid hybrid reinforcement, 580 g/m² — non-crimp fabric is this job with the yarns kept dead straight|analog
+erf|commons|MRF-Effekt-static-crop.png|Magnetorheological fluid stiffening in a field — the electric cousin behaves the same way, with volts instead of magnets|analog
+granite|commons|Surface plate.jpg|A cast-iron surface plate, 250 × 250 mm — the older material for the same lapped reference surface|analog
+byborre|commons|Double knit structure (weft knitted).jpg|A two-faced weft-knit structure — the kind of double knit this cloth is built from|analog
+dcf|commons|Clew of an AC45 Cuben fiber gennaker.jpg|The clew of an AC45 catamaran's gennaker, cut from Cuben fibre|photo
+seersucker|commons|Seersucker-sample1.jpg|A seersucker sample — the puckered stripes are woven in, not pressed|photo
+flyknit|Flickr|https://live.staticflickr.com/8097/8483993132_4714f8e173_b.jpg|A Flyknit shoe — the upper is a single knitted piece|product|CC BY 2.0|Yanki01|https://www.flickr.com/photos/29621165@N03/8483993132
+surgmesh|commons|Hernia mesh 2.JPG|Polypropylene hernia mesh, knitted open|photo
+pinatex|commons|Piñatex fabric in white.jpg|Piñatex in white — pineapple-leaf fibre, needled into a web and coated|photo
+waffle|commons|An example of waffle fabric.jpeg|A close-up of waffle weave — floats stepping down into cells|photo
+twill|commons|Broken twill denim Wrangler 13MWZ jeans (2026-01-21).jpg|Broken twill denim, face and back — the diagonal reverses across the warp|photo
+bellbronze|commons|San Geremia (Venice) - Bronze bell from 1813.jpg|A bronze bell cast in 1813, in San Geremia, Venice|product
+singingbowl|commons|Tibetan bowl 14 cm.jpg|A Himalayan standing bowl, 14 cm across|photo
+pipemetal|commons|Organ pipes.jpg|Open bass pipes in an organ, cast from tin and lead|product
+pernambuco|commons|Brazilwood Paubrasilia echinata square blank.jpg|A squared blank of pernambuco, cut in 1987 and kept for bows|photo
+ebony|commons|A piece of ebony wood 1.jpg|A block of ebony, polished on one face|photo
+rosin|commons|Violin rosin (2).jpg|A cake of violin rosin|photo
+fiddleback|commons|Riegelahorn Holz.JPG|Sliced fiddleback maple veneer — the stripes are waves in the grain|photo
+instbrass|commons|Trumpet Bell.jpg|The bell of a trumpet, spun from brass sheet|product
+lithophone|commons|Pierre sonore d'un lithophone jade chine 1764 mariemont.JPG|A jade sounding stone from a Chinese lithophone, dated 1764|product
+cymbalbronze|commons|Crashride cymbal.JPG|A deeply hammered B8 crash-ride cymbal|product
+tuningfork|commons|Diapason Wittner à branches carrées à 440 Hz.jpg|A chromed steel tuning fork cut for 440 Hz|product
+singingsand|commons|Singing Sand Dunes and Crescent Lake (20230918100733).jpg|The Mingsha singing dunes at Dunhuang|photo
+ringingrock|commons|Boulder field, Ringing Rocks Park, Bridgeton Township, PA.jpg|The boulder field at Ringing Rocks Park, Pennsylvania|photo
+steelpan|commons|Steelpan.jpeg|A tenor steelpan, sunk and tuned from a barrel end|product
+glassharp|commons|Glass Harp.jpg|A glass harp built in Brussels around 1850|product
+handpan|commons|Handpan 2014.jpg|A handpan being played — nitrided sheet steel|product
+springreverb|commons|Spring Reverb 8325.jpg|A spring reverb tank with the lid off|photo
+thermowood|commons|Thermoholz vergleich.JPG|Ash before and after thermal modification|photo
+headstock|commons|Avebury St James - old bell headstock - geograph.org.uk - 7250336.jpg|An old wooden bell headstock, taken out of the tower at Avebury|photo
+clapper|commons|Glockenklöppel St. Maximilian München.jpg|The clapper of a bell at St Maximilian in Munich|photo
+cymbalfelt|commons|Cymbal stand buttons and disassembled bolts.JPG|Cymbal stand tops taken apart — felts, plastic sleeves, washers and nuts|photo
+bowlcushion|commons|Rin gong at Kiyomizu-dera, Kyoto.JPG|A temple rin resting on its brocade ring cushion, Kiyomizu-dera in Kyoto|photo
+soundpost|commons|Soundpost end.jpg|The foot of a soundpost, seen through the treble f-hole|photo
+violinbridge|commons|Cello bridge.jpg|The bridge of a cello, standing on string pressure alone|photo
+bonesaddle|commons|Classical Guitar Bridge Bone.jpg|The bridge of a classical guitar with its bone saddle|photo
+hideglue|commons|Knochenleim Granulat.jpg|Animal glue granules, ready to be soaked and melted|photo
+shockmount|commons|AKG C214 condenser microphone with H85 shock mount.jpg|A condenser microphone slung in an elastic shock mount|photo
+endpin|commons|Cello endpin.JPG|A cello endpin — the steel spike, with its rubber cap beside it|photo
+nb3sn|Flickr|https://live.staticflickr.com/4202/34860816181_5e2e163cfc_b.jpg|An exploded view of ITER's central solenoid conductor, cabled from niobium-tin|product|CC BY-SA 2.0|ChaSanabria|https://www.flickr.com/photos/98777507@N04/34860816181
+wroughtiron|commons|Iron Pillar of Delhi.jpg|The iron pillar of Delhi, forged about sixteen centuries ago and barely rusted|product
+tincoat|commons|TiNCoatedPunches NanoShieldPVD Thailand.JPG|Punches coated with titanium nitride by cathodic arc deposition|photo
+lfp|commons|Lithium Iron Phosphate LiFePO4 Cells 400 Ah Amp Hours 3.25 Volts - 1.jpg|400 Ah lithium iron phosphate cells wired into a house battery|product
+rattan|commons|Rattan and Nito.jpg|Rattan and nito woven into baskets and trays, in a Philippine craft display|product
+willow|commons|Weidenkorbflechter Intangible Cultural Heritage of Austria 01.jpg|A giant jug woven from willow rods, outside an Austrian basket maker|product
+tatami|Flickr|https://live.staticflickr.com/7829/47196268132_d9e187bfde_b.jpg|Tatami under repair, the rush facing lifted off its core|photo|CC BY 2.0|Rosewoman|https://www.flickr.com/photos/45873442@N04/47196268132
+toquilla|commons|The toquilla straw hat is woven from fibres from a palm tree characteristic of the Ecuadorian coast.jpg|Cenovio, a master weaver, working toquilla straw on the Ecuadorian coast|process
+worsted|commons|Worsted wool yarn.JPG|Worsted wool yarn, the plied structure visible|photo
+tweed|commons|Harris Tweed Macro photography.jpg|Harris Tweed cloth under a macro lens|photo
+satin|commons|Satin Ribbons.png|Rolls of satin ribbon, the float surface catching the light|photo
+carbonfab|commons|Woven carbon fiber fabric.jpg|Woven carbon fibre fabric, tow crossing tow|photo
+fibc|commons|Flexible intermediate bulk containers-Fertilizer.jpg|Woven polypropylene big bags holding 600 kg of fertiliser each|product
+machinelace|commons|Border (ST293) - Lace-Machine Lace - MoMu Antwerp.jpg|A machine-made lace border, from the MoMu collection in Antwerp|photo
+firehose|commons|Fire hose supply.jpg|Rolled supply hose in a water tender, the woven jacket uppermost|photo
+wiltoncarpet|commons|Museum of Carpet - Jacquard Wilton loom - geograph.org.uk - 6292683.jpg|A Jacquard Wilton carpet loom at the Museum of Carpet, Kidderminster|process
+reedcane|commons|B-flat e-flat a-flat reeds.jpg|Clarinet and saxophone reeds in three sizes, cut from cane|product
+ebonite|commons|Mouthpiece tenor saxophone.jpg|Two tenor saxophone mouthpieces, the Selmer in hard rubber and the Dukoff in metal|product
+snarewire|commons|Orange county snare wire.jpg|A snare drum with its snare wire lifted clear of the head|photo
+conepulp|commons|X5 Paper Pulp Cone.jpg|A paper pulp loudspeaker cone|photo
+voicecoil|commons|Loudspeaker voice coil, three inch diameter.jpg|A three-inch dual voice coil from a subwoofer driver|photo
+marimbarose|commons|San Domingo-Palisander Holz.JPG|Sliced veneer of the same wood, labelled San Domingo palisander and Honduras rosewood|related
+rhodestine|Flickr|https://live.staticflickr.com/23/34831520_95e88b3c4b_b.jpg|The tines of a 1975 Rhodes Mark I, with the pickups facing them|photo|CC BY 2.0|daniel spils|https://www.flickr.com/photos/danielspils/34831520
+metaldome|commons|Tweeter with Titanium membrane of loudspeaker box JBL TI 5000, 1990s.jpg|A JBL tweeter with a 25 mm titanium membrane|photo
+recordvinyl|commons|Vinyl groove macro.jpg|Record grooves under a macro lens, the modulation visible|photo
+woodwool|commons|Holzfaserbeton groß.jpg|The surface of a wood-wool cement board|photo
+drumshell|commons|Solid Shell Maple, Matte Black Laquer with Maple Inlay.jpg|A solid maple drum shell with a maple inlay|photo
+goss|commons|Grain-oriented electrical steel (grains).jpg|Uncoated grain-oriented electrical steel, the aligned grains visible across 6 cm|photo
+fulledwool|commons|Jagdhorn auf Loden 1.jpg|A dark grey loden cape, with a pocket hunting horn laid on it|photo
+waxcotton|commons|Martexin Waxed Canvas Water Resistance.jpg|Water beading on waxed canvas|photo
+crepe|commons|Chirimen gaufré.JPG|Chirimen, a finely crinkled cotton crêpe|photo
+knitmesh|commons|OldMeshDemisterAcidProduction.jpg|A used demister pad in alloy 20 mesh, from sulphuric acid production|photo
+barkcloth|commons|PNG Turtle Tapa Cloth QM r.jpg|Tapa from Domara Village in Papua New Guinea, beaten from inner bark|photo
+flock|commons|Flock-foil golden-yellow.jpg|Cotton with a golden-yellow flock print, close enough to see the pile|photo
+aluminised|commons|Fire proximity suit detail.jpg|Detail of a fire proximity suit in the Czech Republic|product
+ikat|commons|Antique Patan Patola Double Ikat Trade Textile courtesy Wovensouls Collection, Singapore.jpg|An antique double ikat patolu woven in Patan, Gujarat, for the Indonesian market|photo
+pvctarp|Flickr|https://live.staticflickr.com/65535/51170247859_908ab7d3a8_b.jpg|A loose tarpaulin over an old truck|product|CC BY 2.0|Ivan Radic|https://www.flickr.com/photos/26344495@N05/51170247859
+pleat|commons|CSIRO ScienceImage 2162 Skirt with Siroset and Skirt Without Siroset.jpg|Two wool skirts, the right one pleated by the Siroset process and the left one not|product
+hammerfelt|commons|Piano hammer 2101-0006.jpg|Piano hammers in their rest position under the strings|photo
+ribbonmic|commons|Royer R-122 Active Ribbon Microphone (clip).jpg|A Royer R-122, with the ribbon hidden behind its grille|product
+drumhead|commons|Drumhead Coated on Tom Drum 01.png|A coated drumhead fitted to a tom|photo
+accordionreed|commons|Stimmplatte.jpg|A bass reed plate from a DIX accordion|photo
+nickelsilver|commons|Flute (AM 1998.60.225-3).jpg|A simple-system flute of nickel silver, France, about 1900|product
+vibebars|commons|Vibraphone bar.jpg|The underside of a vibraphone bar, showing the arch cut into it|photo
+lacquermaster|Flickr|https://live.staticflickr.com/5130/5377502526_5ee195fddf_b.jpg|A Neumann VMS-70 lathe, where the lacquer is cut|process|CC BY-SA 2.0|\ \ \ V A C A N T F E V E R|https://www.flickr.com/photos/31649343@N02/5377502526
+cabinetmdf|commons|MDF Sample.jpg|Samples of medium-density fibreboard, cut to show the core|photo
+pickupwire|Flickr|https://live.staticflickr.com/3613/3511734489_7a8608f228_b.jpg|A single-coil guitar pickup, freshly rewound|product|CC BY-SA 2.0|Roadside Guitars|https://www.flickr.com/photos/roadsideguitars/3511734489
+woodpipe|commons|Large wooden organ pipes, Hereford Cathedral - geograph.org.uk - 2701066.jpg|Large wooden pipes in the organ at Hereford Cathedral|photo
+valvepiston|commons|Trompette - premier piston - perspective.JPG|The first piston valve of a Yamaha trumpet, out of its casing|photo
+saxpad|commons|AltoSaxRolledToneHoles.JPG|Rolled tone holes on a 1938 alto saxophone, with resonator pads in the key cups|photo
+moldedcab|commons|Behringer Eurolive B212D Loudspeaker.jpg|A Behringer Eurolive B212D, a moulded powered PA top|product
+grillesteel|commons|Loudspeaker grille.jpg|A round perforated grille, dished to stiffen it|product
+surround|commons|Midrange loudspeaker of JBL TI 5000 loudspeaker box, 130 mm diameter.jpg|The 130 mm midrange of a JBL TI 5000, with its surround rolled around the rim|photo
+roadcase|commons|Road-case-removable-lid-vol-case.jpg|A road case with a removable lid, laminate over plywood in aluminium edging|product
+tolex|Flickr|https://live.staticflickr.com/3/3952411_55609c552d_b.jpg|A worn-through patch of tolex on a 1977 Rhodes suitcase piano|photo|CC BY 2.0|daniel spils|https://www.flickr.com/photos/danielspils/3952411
+grillecloth|commons|Fender Twin Reverb Blonde.jpg|The gold grille cloth of a 1965 Fender Twin Reverb|product
+woundstring|commons|Guitar string manufacturing at Cleartone Strings.jpg|A worker at a string winding machine, finished strings in hand|process
+pick|commons|26 Assorted Guitar Picks.jpg|Twenty-six assorted plectra, in several plastics and gauges|product
+gaffer|commons|Gaffer Tape, Black, White and Gray.jpg|Shelves of gaffer tape in a film expendables shop|product
+drumstick|commons|2006-07-05 sticks.jpg|A matched pair of drumsticks, lacquered black|product
+truss|commons|Traverse (Truss).JPG|Loaded lighting trusses under a marquee roof, chords and diagonals in view|product
+miccable|commons|Microphone cable structure.jpg|A microphone cable opened up: two insulated cores and the screen twisted into a tail|photo
+gel|commons|Many color gels.jpg|Lighting gels, loose sheets and some taped into frames|product
+eiderdown|commons|Dunhreinsun2.jpg|A farmer in Skaleyjar cleaning and drying eiderdown, still full of hay|process
+shearling|commons|Shearling Coat for Men Hood Detail.jpg|The collar of a shearling coat, wool pile inside and tanned skin out|product
+alpaca|commons|Alpaca fleece.JPG|A whole alpaca fleece at a wool show|photo
+angora|commons|Satinangora rot Garn und Flocke.jpg|Plucked angora rabbit fur and the yarn spun from it|photo
+camelhair|commons|A camels hair being shorn at Pushkar..jpg|A camel being shorn at the Pushkar fair, the clipped hair lying on the sand|process
+vicuna|Flickr|https://live.staticflickr.com/65535/52359920912_1b88e8443a_b.jpg|Vicuna fleece, yarn and woven cloth laid out on a display table|photo|CC BY-SA 2.0|SecretarÃ­a de Cultura - Argentina|https://www.flickr.com/photos/culturaargentina/52359920912
+reindeerhide|commons|Reindeer hides.jpg|Reindeer hides on a market stall in Helsinki|photo
+flannel|Flickr|https://live.staticflickr.com/7812/46846780662_15f23e121b_b.jpg|A flannel shirt photographed close enough to show the raised nap|photo|CC BY 2.0|Lisa Zins|https://www.flickr.com/photos/lisazins/46846780662
+polyfill|commons|Polyfill.jpg|A handful of siliconised hollow polyester fibrefill|photo
+spaceblanket|commons|RescueFoil.jpg|A rescue blanket opened out, gold on one face and silver on the other|photo
+batting|commons|Mattress making, covering the cotton batting with ticking.jpg|Farm women drawing striped ticking over a cotton batt, 1940|process
+milkweed|commons|Milkweed Seed Pod Floss PLT-FL-WD-MW-2.jpg|Milkweed pods split open, the floss blowing out|photo
+possum|commons|Possum fur lining, front side.jpg|A cloth coat lined with brushtail possum fur|product
+furfelt|commons|Workers at a British hat factory prepare rabbit fur ready for its transformation into felt, 1940. D1259.jpg|Rabbit fur being blown clean in a British hat factory, 1940|process
+snow|commons|Building an igloo on Victoria Island (37009).jpg|A snow house of cut blocks, southwest Victoria Island|product
+featherdown|commons|Bettfedernreinigung L.H.Lorch Abfüllen der gereinigten Federn und Daunen in das Kissen mittels Federnfüllwaage.jpg|Cleaned feather and down being blown into a ticking shell on a filling scale|process
+silkfloss|commons|MulberrySilk.JPG|Stacked layers of hand-pulled mulberry silk floss, the filling of a silk duvet|photo
+threadlattice|commons|Quilt making 13.JPG|Quilt makers laying a thread lattice over a cotton batt in Haikou, Hainan|process
+ticking|commons|Inlett 1.jpg|A feather pillow in its downproof ticking; the cloth is the subject|product
+cellulosefill|commons|Bulk recycled cellulose scan.jpg|A clump of milled newsprint insulation on squared paper, coloured ink still visible|photo
+flaxinsul|commons|Linfiberisolasjon i himling.JPG|Flax fibre mats fitted between ceiling joists|photo
+eelgrass|commons|Seaweed roof at Læsø, 'Hedvigs Hus', DK.jpg|Eelgrass thatch on the gable of a Læsø farmhouse, bulging over the frame|product
+chambray|commons|Blue chambray cloth.JPG|Washed cotton chambray, with a millimetre scale|photo
+oxfordcloth|commons|Oxford cloth.jpg|Oxford shirting, the paired warp ends visible at the left|photo
+gingham|commons|Greengingham.jpg|Gingham hemmed as a pocket square, both faces alike|product
+polarfilm|commons|Polarizer sheet perpendicular.jpg|Two polarising sheets overlapping at right angles|photo
+cellophane|commons|Cellophane.JPG|Rolls of coloured cellophane|photo
+retrosheet|commons|Reflective tape on a parking lot gate.jpg|Micro-prismatic reflective tape on a car-park barrier, Washington DC|photo
+holofoil|commons|Holographic Hot Stamping Foil From Karul Holo Science India Ltd.jpg|Rolls of holographic hot-stamping foil|photo
+lenticular|commons|Close up of the surface of a lenticular print.jpg|The ridged face of a lenticular print, close up|photo
+fresnelsheet|commons|Flat flexible plastic sheet lens.JPG|A flexible plastic Fresnel sheet lens|photo
+goldleaf|commons|Kanazawa Gold Factory.jpg|Gold leaf being lifted with bamboo tongs at a Kanazawa workshop|photo
+alufoil|commons|A sample of aluminium foil on a piece of paper.jpg|Crumpled pieces of household aluminium foil|photo
+clingfilm|commons|Clingfilm.jpg|A roll of cling film in its box|photo
+stretchwrap|commons|FEMA - 37688 - Pallets of disaster suppllies in a warehouse in Louisiana.jpg|Stretch-wrapped pallets of relief supplies, Louisiana, 2008|photo
+bubblewrap|commons|Square-shaped bubble wrap (126wiki).jpg|Bubble wrap with square pockets|photo
+shrinkfilm|commons|Heat shrinkable polyethylene film.jpg|A roll of heat-shrinkable polyethylene film|photo
+ldpefilm|commons|Film extrusion.jpg|A blown-film line, with the inflated bubble rising from the die|process
+pdlcfilm|commons|VITSWELL PDLC FILM.jpg|A sheet of PDLC switchable film with its leads|photo
+capfilm|commons|Wiki-Folkos-P1090317-1.jpg|Plastic film capacitors, axial and radial|product
+nitratefilm|commons|Nitrate Deterioration.jpg|A cellulose nitrate negative in the late stages of decay, the image gone|photo
+sailfilm|commons|Solar sail tests.jpg|A 20 m test solar sail deployed in a NASA vacuum chamber|photo
+ptfetape|commons|PTFEpaska.jpg|A spool of PTFE thread seal tape with the end unwound|photo
+parafilm|commons|Parafilm roll.jpg|A roll of Parafilm|photo
+esdbag|commons|Antistatic Bags.jpg|A pink antistatic bag and a silver static-shielding bag|photo
+geomembrane|commons|Geomembrane installation.jpg|An HDPE geomembrane being laid as a landfill base liner|photo
+mulchfilm|commons|Strawberry field using black mulch in Umm Haratayn al-Gharbiyah, Homs.jpg|Strawberries planted through black plastic mulch, Homs countryside, Syria|photo
+balewrap|commons|Wrapped bales - geograph.org.uk - 7568052.jpg|Stacked silage bales wrapped in white and black film|photo
+microfilm|commons|Microfilm roll.jpg|A roll of 16 mm microfilm unspooling|photo
+shrinkart|Flickr|https://live.staticflickr.com/3230/2652714573_d645b61cc2_b.jpg|Shrunk pieces of biaxially oriented polystyrene sheet|photo|CC BY-SA 2.0|Nucho|https://www.flickr.com/photos/nucho/2652714573
+lcfilm|commons|Thermochromic thermometer.jpg|A liquid crystal thermometer strip reading 24 °C|photo
+feelerstock|commons|Parallel feeler gauge (imperial and metric)-92397.jpg|A feeler gauge fanned open|product
+greenhousefilm|commons|Interior view of strawberry high tunnel greenhouse with garlic intercropping in Umm Haratayn al-Gharbiyah, Syria.jpg|Inside a polyethylene high tunnel of strawberries, Homs countryside, Syria|photo

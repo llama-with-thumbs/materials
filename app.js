@@ -12,8 +12,12 @@ const CREDITS = window.CREDITS || {};
 const MATERIALS = window.MATERIALS || [];
 const PLATES = window.PLATES || [];
 for (const p of PLATES) p.plate = true;
-// Cards and plates render in one grid; a plate belongs to every workshop it lists.
-const ALL = MATERIALS.concat(PLATES);
+const PAPERS = window.PAPERS || [];
+for (const p of PAPERS) p.paper = true;
+// Cards, plates and papers render in one grid; a plate or a paper belongs to every
+// workshop it lists. The shelf keys show one kind on its own.
+const ALL = MATERIALS.concat(PLATES, PAPERS);
+const SHELF = { plates: "the plates", papers: "the papers" };
 const ADDED = window.ADDED || {};
 const FIGURES = window.FIGURES;
 
@@ -39,16 +43,18 @@ const SORTS = {
 const fold = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 const HAYSTACK = new Map(ALL.map(m => [m.id, fold([
-  m.name, m.sub, m.hook, m.uses || "",
-  m.stats.map(p => p.join(" ")).join(" "),
-  m.plate ? "plate " + m.cats.map(c => CATS[c] || c).join(" ") : CATS[m.cat] || "",
+  m.name || "", m.sub || "", m.hook || "", m.uses || "",
+  (m.stats || []).map(p => p.join(" ")).join(" "),
+  m.paper ? ["paper", m.material, m.title, m.authors, m.journal, m.year, m.why, m.implies].join(" ") : "",
+  m.cat ? CATS[m.cat] || "" : (m.plate ? "plate " : "") + (m.cats || []).map(c => CATS[c] || c).join(" "),
   (m.tags || []).map(t => THEMES[t] || t).join(" ")
 ].join(" "))]));
 
 // A card is in a theme if it carries the tag; a card is in a category if that is its
 // category. The filter buttons mix both, so one lookup answers either kind.
 const inFilter = (m, key) =>
-  key === "all" || m.cat === key || (m.cats || []).includes(key) || (m.tags || []).includes(key);
+  key === "all" || m.cat === key || (m.cats || []).includes(key) || (m.tags || []).includes(key)
+  || (key === "plates" && !!m.plate) || (key === "papers" && !!m.paper);
 
 /* ---------- rendering ---------- */
 
@@ -86,7 +92,7 @@ function plateFor(p) {
   const explains = (p.cards || []).map(id => ALL.find(m => m.id === id)).filter(Boolean)
     .map(m => `<a href="#m-${esc(m.id)}" data-goto="${esc(m.id)}">${esc(m.name)}</a>`).join(", ");
   const source = c
-    ? `<a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.kind || "photo")}: Wikimedia (${esc(c.license)})</a>`
+    ? `<a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.kind || "photo")}: ${esc(c.site || "Wikimedia")} (${esc(c.license)})</a>`
     : `<span>drawn for this page from published values</span>`;
   const more = p.link ? `<a href="${esc(p.link)}" target="_blank" rel="noopener">read more</a>` : "";
   const src = p.src ? `<a href="${esc(p.src[1])}" target="_blank" rel="noopener">${esc(p.src[0])}</a>` : "";
@@ -104,15 +110,39 @@ function plateFor(p) {
   </article>`;
 }
 
+// A paper: the material it is about, the citation, what it showed and what it implies.
+// No photograph; the card is set in type alone, with the year where the picture would be.
+function paperFor(p) {
+  const no = PAPERS.indexOf(p) + 1;
+  const about = (p.cards || []).map(id => ALL.find(m => m.id === id)).filter(Boolean)
+    .map(m => `<a href="#m-${esc(m.id)}" data-goto="${esc(m.id)}">${esc(m.name)}</a>`).join(", ");
+  const doi = `<a href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">doi ${esc(p.doi)}</a>`;
+  const oa = p.oa ? `<a href="${esc(p.oa)}" target="_blank" rel="noopener">read it free</a>` : "";
+  return `<article class="card paper" id="m-${esc(p.id)}" data-cat="${esc((p.cats || [])[0] || "")}" data-id="${esc(p.id)}">
+    <div class="year"><span>${esc(p.year)}</span><span class="tag">${esc(p.kind === "founding" ? "founding paper" : "recent paper")}</span></div>
+    <div class="body">
+      <p class="no">paper ${no}</p>
+      <h2>${esc(p.material)}</h2>
+      <p class="sub">${esc(p.authors)}, ${esc(p.journal)} ${esc(p.year)}</p>
+      <p class="title">${esc(p.title)}</p>
+      <p class="hook">${esc(p.why)}</p>
+      <div class="stats"><div class="stat"><b>implies</b><span>${esc(p.implies)}</span></div></div>
+      ${about ? `<p class="uses"><b>on the cards:</b> ${about}</p>` : ""}
+      <p class="meta">${doi}<span class="links">${oa}</span></p>
+    </div>
+  </article>`;
+}
+
 function cardFor(mat) {
   let html = CARD_HTML.get(mat.id);
   if (html) return html;
   if (mat.plate) { html = plateFor(mat); CARD_HTML.set(mat.id, html); return html; }
+  if (mat.paper) { html = paperFor(mat); CARD_HTML.set(mat.id, html); return html; }
   const c = CREDITS[mat.id];
   const kind = c && KINDS[c.kind] ? c.kind : null;
   const stats = mat.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
   const source = c
-    ? `<a href="${esc(c.page)}" target="_blank" rel="noopener">${kind ? esc(c.kind) : "photo"}: Wikimedia (${esc(c.license)})</a>`
+    ? `<a href="${esc(c.page)}" target="_blank" rel="noopener">${kind ? esc(c.kind) : "photo"}: ${esc(c.site || "Wikimedia")} (${esc(c.license)})</a>`
     : `<span>illustration</span>`;
   const more = mat.link ? `<a href="${esc(mat.link)}" target="_blank" rel="noopener">read more</a>` : "";
   const src = mat.src ? `<a href="${esc(mat.src[1])}" target="_blank" rel="noopener">${esc(mat.src[0])}</a>` : "";
@@ -154,10 +184,11 @@ function render() {
   grid.innerHTML = list.length
     ? list.map(cardFor).join("")
     : `<p class="empty">nothing matches that. try "glass", "heat" or "wheel".</p>`;
-  const where = activeCat === "all" ? "" : ` · ${CATS[activeCat] || THEMES[activeCat] || activeCat}`;
-  const np = list.filter(m => m.plate).length;
+  const where = activeCat === "all" ? "" : ` · ${CATS[activeCat] || THEMES[activeCat] || SHELF[activeCat] || activeCat}`;
+  const np = list.filter(m => m.plate).length, nr = list.filter(m => m.paper).length;
   const plates = np ? `, ${np} of ${PLATES.length} plate${PLATES.length === 1 ? "" : "s"}` : "";
-  countEl.textContent = `${list.length - np} of ${MATERIALS.length} materials${plates}${where}`;
+  const papers = nr ? `, ${nr} of ${PAPERS.length} paper${PAPERS.length === 1 ? "" : "s"}` : "";
+  countEl.textContent = `${list.length - np - nr} of ${MATERIALS.length} materials${plates}${papers}${where}`;
   jumpState();
 }
 
@@ -168,7 +199,7 @@ function readHash() {
   const p = new URLSearchParams(location.hash.replace(/^#/, ""));
   const cat = p.get("cat");
   const sort = p.get("sort");
-  if (cat && (cat === "all" || CATS[cat] || THEMES[cat])) activeCat = cat;
+  if (cat && (cat === "all" || CATS[cat] || THEMES[cat] || SHELF[cat])) activeCat = cat;
   if (sort && SORTS[sort]) activeSort = sort;
   if (p.get("q")) activeQuery = p.get("q");
 }
@@ -193,10 +224,13 @@ filterBar.innerHTML = [["all", "all"], ...Object.entries(CATS)]
 // A theme whose key is also a category key already has a button in the row above —
 // clicking that one picks up the tagged cards too, so a second button would do nothing new.
 const LOOSE_THEMES = Object.entries(THEMES).filter(([k]) => !CATS[k]);
-if (themeBar && LOOSE_THEMES.length) {
+const SHELVES = Object.entries(SHELF).filter(([k]) => (k === "plates" ? PLATES : PAPERS).length);
+if (themeBar && (LOOSE_THEMES.length || SHELVES.length)) {
   themeBar.innerHTML = '<span class="themes-label">across the workshops:</span>' +
     LOOSE_THEMES.map(([k, label]) =>
-      `<button class="pill theme" data-cat="${k}">${esc(label)}</button>`).join("");
+      `<button class="pill theme" data-cat="${k}">${esc(label)}</button>`).join("") +
+    SHELVES.map(([k, label]) =>
+      `<button class="pill shelf" data-cat="${k}">${esc(label)}</button>`).join("");
 }
 
 function setCat(key) {
@@ -347,7 +381,7 @@ grid.addEventListener("click", e => {
   const c = CREDITS[mat.id];
   const credit = c
     ? `<span class="credit">${KINDS[c.kind] ? "shows " + esc(KINDS[c.kind]) + ". " : ""}${esc(c.caption)} — ${esc(c.artist)}, ${esc(c.license)},
-         <a href="${esc(c.page)}" target="_blank" rel="noopener">Wikimedia Commons</a></span>`
+         <a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.site === "Wikimedia" || !c.site ? "Wikimedia Commons" : c.site)}</a></span>`
     : `<span class="credit">drawn illustration — no freely licensed photograph of this material was available.</span>`;
   lbInner.innerHTML = `<button id="lb-close" type="button" aria-label="close">×</button>
     <figure>${shotFor(mat, true)}

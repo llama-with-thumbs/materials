@@ -226,6 +226,26 @@ h1 .dot { color: var(--red); }
   border-bottom: 2px solid var(--ink);
 }
 
+/* A paper has no photograph. The year stands where the picture would be, set large,
+   with the kind of paper stamped on it the way the workshop is stamped on a photograph. */
+.card.paper .year {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 120px;
+  padding: 16px 18px 10px;
+  background: var(--paper);
+  border-bottom: 2px solid var(--ink);
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.card.paper .year .tag { position: absolute; left: 0; top: 0; background: #111; color: #fff; font-size: 12px; font-weight: 500; padding: 3px 8px; }
+.card.paper .title { margin: 0 0 10px; color: var(--dim); font-size: 14px; }
+.card.paper .title::before { content: "\201C"; }
+.card.paper .title::after { content: "\201D"; }
+
 .figure .tag { position: absolute; right: 0; top: 0; background: #111; color: #fff; font-size: 12px; font-weight: 500; padding: 3px 8px; }
 
 svg.fig { display: block; width: 100%; height: auto; font-family: var(--font); touch-action: none; }

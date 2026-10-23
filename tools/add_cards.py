@@ -57,7 +57,7 @@ img_path = os.path.join(ROOT, "tools", "images.txt")
 s = open(data_path, encoding="utf-8").read()
 img_lines = open(img_path, encoding="utf-8").read().rstrip("\n").split("\n")
 have_ids = {l.split("|")[0] for l in img_lines}
-have_files = {l.split("|")[1] for l in img_lines if "|" in l}
+have_files = {l.split("|")[2] for l in img_lines if l.count("|") >= 2}
 before = s.count('\n  id: "')
 
 seen = set()
@@ -102,7 +102,7 @@ for e in cards:
     print("%-14s %s" % (e["id"], where))
 
 assert s.count('\n  id: "') == before + len(cards)
-img_lines += ["%s|%s|%s|%s" % (e["id"], e["file"], e["caption"], e.get("kind", "photo")) for e in cards]
+img_lines += ["%s|commons|%s|%s|%s" % (e["id"], e["file"], e["caption"], e.get("kind", "photo")) for e in cards]
 
 if DRY:
     print("dry run: data.js %d -> %d entries, images.txt -> %d lines"
