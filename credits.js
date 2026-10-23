@@ -578,15 +578,15 @@ window.CREDITS = {
   },
   "natrubber": {
     "file": "natrubber.jpg",
-    "caption": "Natural rubber, still unbeaten at resisting fatigue",
-    "kind": "photo",
-    "title": "Natural rubber.jpg",
-    "artist": "LukaszKatlewa",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Natural_rubber.jpg",
+    "caption": "Latex running from a tapped rubber tree into its cup",
+    "kind": "process",
+    "title": "https://live.staticflickr.com/3521/3844921160_363bee9886_b.jpg",
+    "site": "Flickr",
+    "artist": "chinogypsie",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/61178524@N00/3844921160",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
   },
   "butyl": {
     "file": "butyl.jpg",
@@ -626,15 +626,15 @@ window.CREDITS = {
   },
   "delrin": {
     "file": "delrin.jpg",
-    "caption": "Acetal (Delrin) picks — the material holds its dimensions",
-    "kind": "photo",
-    "title": "Dunlop Delrin 500.jpg",
-    "artist": "Urban Versis 32",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Dunlop_Delrin_500.jpg",
+    "caption": "A collar machined from Delrin acetal",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/4137/4779530203_90ebbaa2cb_b.jpg",
+    "site": "Flickr",
+    "artist": "jabella",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/31954184@N00/4779530203",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
   },
   "pc": {
     "file": "pc.jpg",
@@ -673,16 +673,16 @@ window.CREDITS = {
     "site": "Wikimedia"
   },
   "polyurea": {
-    "file": "polyurea.png",
-    "caption": "Sprayed polyurea lining, cured within seconds",
-    "kind": "photo",
-    "title": "Spray-bedliner-installed-lg.png",
-    "artist": "Abcflorida",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Spray-bedliner-installed-lg.png",
-    "w": 400,
-    "h": 313,
-    "site": "Wikimedia"
+    "file": "polyurea.jpg",
+    "caption": "Two-part polyurea coating in the pail, before spraying",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/3493/4040639508_28a1a9a93f_b.jpg",
+    "site": "Flickr",
+    "artist": "John Loo",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/8510225@N07/4040639508",
+    "w": 960,
+    "h": 640
   },
   "alumina": {
     "file": "alumina.jpg",
@@ -998,15 +998,15 @@ window.CREDITS = {
   },
   "bakelite": {
     "file": "bakelite.jpg",
-    "caption": "A Bakelite radio cabinet",
+    "caption": "A Bakelite telephone, the housing moulded in one black piece",
     "kind": "product",
-    "title": "Bakelite radio.jpg",
-    "artist": "Original uploader was Robneild at en.wikipedia",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Bakelite_radio.jpg",
+    "title": "https://live.staticflickr.com/5765/20967111954_7ff274c261_b.jpg",
+    "site": "Flickr",
+    "artist": "wwarby",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/26782864@N00/20967111954",
     "w": 960,
-    "h": 1280,
-    "site": "Wikimedia"
+    "h": 720
   },
   "phenolic": {
     "file": "phenolic.jpg",
@@ -1022,27 +1022,27 @@ window.CREDITS = {
   },
   "neoprene": {
     "file": "neoprene.jpg",
-    "caption": "Neoprene foam in a diving suit",
+    "caption": "Rolls of neoprene foam gasket tape",
     "kind": "product",
-    "title": "Diving suit neoprene.jpg",
-    "artist": "Mark.murphy",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Diving_suit_neoprene.jpg",
+    "title": "https://live.staticflickr.com/6167/6165824543_4a5419cd60_b.jpg",
+    "site": "Flickr",
+    "artist": "Hardcast65",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/66958833@N05/6165824543",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 600
   },
   "epdm": {
     "file": "epdm.jpg",
     "caption": "EPDM membrane",
     "kind": "photo",
     "title": "EPDM foil.jpg",
+    "site": "Wikimedia",
     "artist": "KVDP",
     "license": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:EPDM_foil.jpg",
     "w": 960,
-    "h": 1169,
-    "site": "Wikimedia"
+    "h": 1169
   },
   "nbr": {
     "file": "nbr.jpg",
@@ -1094,27 +1094,27 @@ window.CREDITS = {
   },
   "mylar": {
     "file": "mylar.jpg",
-    "caption": "Aluminised BoPET film",
-    "kind": "photo",
-    "title": "Myla32rp.jpg",
-    "artist": "Anton",
-    "license": "CC BY-SA 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Myla32rp.jpg",
-    "w": 519,
-    "h": 450,
-    "site": "Wikimedia"
+    "caption": "A foil balloon, metallised BoPET, snagged in a bush",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/8657/16675621682_5d5542f51a_b.jpg",
+    "site": "Flickr",
+    "artist": "Joshua Tree National Park",
+    "license": "Public domain",
+    "page": "https://www.flickr.com/photos/115357548@N08/16675621682",
+    "w": 960,
+    "h": 697
   },
   "pp": {
     "file": "pp.jpg",
     "caption": "A living hinge moulded in one piece with the box",
     "kind": "product",
     "title": "Mint box polypropylene lid.JPG",
+    "site": "Wikimedia",
     "artist": "en:User:Polyparadig",
     "license": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG",
     "w": 736,
-    "h": 1020,
-    "site": "Wikimedia"
+    "h": 1020
   },
   "memoryfoam": {
     "file": "memoryfoam.jpg",
@@ -1130,27 +1130,27 @@ window.CREDITS = {
   },
   "epoxy": {
     "file": "epoxy.jpg",
-    "caption": "Aerospace epoxy resin",
-    "kind": "photo",
-    "title": "Aerospace epoxy resin.jpg",
-    "artist": "Acheolg",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Aerospace_epoxy_resin.jpg",
+    "caption": "An epoxy floor coating with colour flakes broadcast into the wet resin",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/65535/52085107501_90a876b1dc_b.jpg",
+    "site": "Flickr",
+    "artist": "Decorative Concrete Kingdom",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/38041294@N05/52085107501",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
   },
   "eva": {
     "file": "eva.jpg",
-    "caption": "EVA foam",
-    "kind": "photo",
-    "title": "Eva closeup.jpg",
-    "artist": "Rotor DB at en.wikipedia",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Eva_closeup.jpg",
+    "caption": "A closed-cell EVA foam camping mat",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/8231/29185027553_8595d2db11_b.jpg",
+    "site": "Flickr",
+    "artist": "MIKI Yoshihito. (#mikiyoshihito)",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/7940758@N07/29185027553",
     "w": 960,
-    "h": 661,
-    "site": "Wikimedia"
+    "h": 540
   },
   "manila": {
     "file": "manila.jpg",
@@ -1226,39 +1226,39 @@ window.CREDITS = {
   },
   "linen": {
     "file": "linen.jpg",
-    "caption": "Linen cloth",
+    "caption": "Mummy linen: flax in a plain weave, thousands of years old and still cloth",
     "kind": "photo",
-    "title": "Linen cloth.jpg",
-    "artist": "Unknown",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Linen_cloth.jpg",
-    "w": 573,
-    "h": 640,
-    "site": "Wikimedia"
+    "title": "https://openaccess-cdn.clevelandart.org/1921.1026/1921.1026_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1921.1026",
+    "w": 900,
+    "h": 223
   },
   "silk": {
     "file": "silk.jpg",
-    "caption": "Bombyx mori cocoons — one continuous filament each",
-    "kind": "photo",
-    "title": "Bombyx mori Cocon 02.jpg",
-    "artist": "Unknown",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Bombyx_mori_Cocon_02.jpg",
-    "w": 960,
-    "h": 960,
-    "site": "Wikimedia"
+    "caption": "A silk curtain woven for the Alhambra palace",
+    "kind": "product",
+    "title": "https://openaccess-cdn.clevelandart.org/1982.16/1982.16_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1982.16",
+    "w": 573,
+    "h": 900
   },
   "spidersilk": {
     "file": "spidersilk.jpg",
-    "caption": "A strand of artificial spider silk",
-    "kind": "photo",
-    "title": "Artificial Spider Silk Strand.JPG",
-    "artist": "K8joc8ohGee9j",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Artificial_Spider_Silk_Strand.JPG",
+    "caption": "A golden silk orb-weaver on its web; the dragline is the fibre everyone wants to copy",
+    "kind": "related",
+    "title": "https://images-assets.nasa.gov/image/KSC-06pd2059/KSC-06pd2059~medium.jpg",
+    "site": "NASA",
+    "artist": "KSC",
+    "license": "Public domain",
+    "page": "https://images.nasa.gov/details/KSC-06pd2059",
     "w": 960,
-    "h": 1548,
-    "site": "Wikimedia"
+    "h": 638
   },
   "felt": {
     "file": "felt.jpg",
@@ -1370,15 +1370,15 @@ window.CREDITS = {
   },
   "abs": {
     "file": "abs.jpg",
-    "caption": "Lego bricks — ABS moulded to a tolerance of about a hundredth of a millimetre",
+    "caption": "3DBenchy test prints in ABS filament",
     "kind": "product",
-    "title": "Lego bricks.jpg",
-    "artist": "Benjamin D. Esham (bdesham)",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Lego_bricks.jpg",
+    "title": "https://live.staticflickr.com/317/19709520299_6e2089a6e1_b.jpg",
+    "site": "Flickr",
+    "artist": "Creative Tools",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/33907867@N02/19709520299",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 711
   },
   "pet": {
     "file": "pet.jpg",
@@ -1394,15 +1394,15 @@ window.CREDITS = {
   },
   "pvc": {
     "file": "pvc.jpg",
-    "caption": "PVC pipe",
-    "kind": "photo",
-    "title": "Pvc cevi.jpg",
-    "artist": "Mm.zaletel at Slovenian Wikipedia",
-    "license": "GFDL",
-    "page": "https://commons.wikimedia.org/wiki/File:Pvc_cevi.jpg",
+    "caption": "A stack of PVC pressure pipe",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/2195/2269567444_6a61e07287_b.jpg",
+    "site": "Flickr",
+    "artist": "Pam_Broviak",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/23870457@N06/2269567444",
     "w": 960,
-    "h": 721,
-    "site": "Wikimedia"
+    "h": 718
   },
   "nylon66": {
     "file": "nylon66.jpg",
@@ -1417,16 +1417,16 @@ window.CREDITS = {
     "site": "Wikimedia"
   },
   "hdpe": {
-    "file": "hdpe.png",
-    "caption": "HDPE jerrycans",
+    "file": "hdpe.jpg",
+    "caption": "Reels of orange HDPE innerduct for cables",
     "kind": "product",
-    "title": "Diverse Kanisterformen.png",
-    "artist": "Thiemo Schuff",
-    "license": "CC BY-SA 3.0 de",
-    "page": "https://commons.wikimedia.org/wiki/File:Diverse_Kanisterformen.png",
+    "title": "https://live.staticflickr.com/65535/51849066566_a6b3775c46_b.jpg",
+    "site": "Flickr",
+    "artist": "joncutrer",
+    "license": "CC0",
+    "page": "https://www.flickr.com/photos/47121680@N00/51849066566",
     "w": 960,
-    "h": 1280,
-    "site": "Wikimedia"
+    "h": 720
   },
   "pex": {
     "file": "pex.jpg",
@@ -1886,15 +1886,15 @@ window.CREDITS = {
   },
   "steatite": {
     "file": "steatite.jpg",
-    "caption": "Carved steatite — soapstone in the soft state, before firing hardens it",
-    "kind": "photo",
-    "title": "Lampe Nishapur steatite.JPG",
-    "artist": "No machine-readable author provided. Fabos~commonswiki assumed (based on copyright claims).",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Lampe_Nishapur_steatite.JPG",
-    "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "caption": "An Indus seal carved in steatite and fired hard",
+    "kind": "product",
+    "title": "https://openaccess-cdn.clevelandart.org/1973.161/1973.161_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1973.161",
+    "w": 900,
+    "h": 785
   },
   "mullite": {
     "file": "mullite.png",
@@ -2102,15 +2102,15 @@ window.CREDITS = {
   },
   "plywood": {
     "file": "plywood.jpg",
-    "caption": "Plywood, veneers laid crosswise",
+    "caption": "Plywood under a CNC router in a NASA fabrication shop",
     "kind": "photo",
-    "title": "Sandakan Sabah Plywood-Factory-35c.jpg",
-    "artist": "CEphoto, Uwe Aranas",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sandakan_Sabah_Plywood-Factory-35c.jpg",
+    "title": "https://images-assets.nasa.gov/image/AFRC2024-0127-32/AFRC2024-0127-32~medium.jpg",
+    "site": "NASA",
+    "artist": "AFRC",
+    "license": "Public domain",
+    "page": "https://images.nasa.gov/details/AFRC2024-0127-32",
     "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "h": 640
   },
   "clt": {
     "file": "clt.jpg",
@@ -2798,27 +2798,27 @@ window.CREDITS = {
   },
   "nacre": {
     "file": "nacre.jpg",
-    "caption": "Nacre",
-    "kind": "photo",
-    "title": "Nacre mother of pearl shellB.jpg",
-    "artist": "Unknown",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Nacre_mother_of_pearl_shellB.jpg",
-    "w": 960,
-    "h": 702,
-    "site": "Wikimedia"
+    "caption": "A lacquer wine ewer inlaid with nacre",
+    "kind": "product",
+    "title": "https://openaccess-cdn.clevelandart.org/1971.1065/1971.1065_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1971.1065",
+    "w": 900,
+    "h": 728
   },
   "bamboo": {
     "file": "bamboo.jpg",
-    "caption": "Bamboo culms",
-    "kind": "photo",
-    "title": "08 Asper 1 - Copy.jpg",
-    "artist": "Mr. HarishBoyapati",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:08_Asper_1_-_Copy.jpg",
-    "w": 960,
-    "h": 1440,
-    "site": "Wikimedia"
+    "caption": "A brush holder carved from a single bamboo culm",
+    "kind": "product",
+    "title": "https://openaccess-cdn.clevelandart.org/1988.75/1988.75_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Wang Meilin (Chinese, active c. 1825)",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1988.75",
+    "w": 823,
+    "h": 893
   },
   "balsa": {
     "file": "balsa.jpg",
@@ -2882,15 +2882,15 @@ window.CREDITS = {
   },
   "bone": {
     "file": "bone.jpg",
-    "caption": "Trabecular bone",
+    "caption": "A bone kept as a relic",
     "kind": "photo",
-    "title": "Spongy bone - Trabecular bone - Normal trabecular bone Trabecular bone etc -- Smart-Servier (cropped).jpg",
-    "artist": "Laboratoires Servier",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Spongy_bone_-_Trabecular_bone_-_Normal_trabecular_bone_Trabecular_bone_etc_--_Smart-Servier_(cropped).jpg",
-    "w": 960,
-    "h": 540,
-    "site": "Wikimedia"
+    "title": "https://openaccess-cdn.clevelandart.org/1931.462.l/1931.462.l_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1931.462.l",
+    "w": 900,
+    "h": 673
   },
   "antler": {
     "file": "antler.jpg",
@@ -2906,15 +2906,15 @@ window.CREDITS = {
   },
   "horn": {
     "file": "horn.jpg",
-    "caption": "A horn comb",
+    "caption": "A hair comb carved from horn and set with enamel",
     "kind": "product",
-    "title": "Horn hair comb, Ludlow Museum - DSCF2042.JPG",
-    "artist": "Rept0n1x",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Horn_hair_comb,_Ludlow_Museum_-_DSCF2042.JPG",
-    "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "title": "https://openaccess-cdn.clevelandart.org/1981.49/1981.49_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "René Lalique (French, 1860–1945)",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1981.49",
+    "w": 639,
+    "h": 893
   },
   "baleen": {
     "file": "baleen.jpg",
@@ -2930,15 +2930,15 @@ window.CREDITS = {
   },
   "amber": {
     "file": "amber.jpg",
-    "caption": "Baltic amber with insect inclusions",
-    "kind": "photo",
-    "title": "Baltic Amber necklace with insects inclusions.jpg",
-    "artist": "Brocken Inaglory",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Baltic_Amber_necklace_with_insects_inclusions.jpg",
-    "w": 960,
-    "h": 475,
-    "site": "Wikimedia"
+    "caption": "A statuette carved from a single piece of amber",
+    "kind": "product",
+    "title": "https://openaccess-cdn.clevelandart.org/1964.418/1964.418_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1964.418",
+    "w": 900,
+    "h": 657
   },
   "shellac": {
     "file": "shellac.jpg",
@@ -3518,15 +3518,15 @@ window.CREDITS = {
   },
   "jacquard": {
     "file": "jacquard.jpg",
-    "caption": "A Jacquard loom and its chain of punched cards",
-    "kind": "process",
-    "title": "A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
-    "artist": "Stephencdickson",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg",
-    "w": 960,
-    "h": 639,
-    "site": "Wikimedia"
+    "caption": "Violet and Columbine, a wool and mohair cloth woven on a Jacquard loom",
+    "kind": "product",
+    "title": "https://openaccess-cdn.clevelandart.org/1953.329/1953.329_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "William Morris (British, 1834–1896)",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1953.329",
+    "w": 900,
+    "h": 620
   },
   "doublecloth": {
     "file": "doublecloth.png",
@@ -3626,15 +3626,15 @@ window.CREDITS = {
   },
   "ringmesh": {
     "file": "ringmesh.jpg",
-    "caption": "A riveted mail shirt",
+    "caption": "A riveted mail hauberk of steel and brass rings",
     "kind": "product",
-    "title": "Chain mail shirt - Georgian.jpg",
-    "artist": "Jonathan Cardy",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Chain_mail_shirt_-_Georgian.jpg",
-    "w": 960,
-    "h": 1280,
-    "site": "Wikimedia"
+    "title": "https://openaccess-cdn.clevelandart.org/1923.1120/1923.1120_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1923.1120",
+    "w": 731,
+    "h": 900
   },
   "opwairbag": {
     "file": "opwairbag.jpg",
@@ -3698,15 +3698,15 @@ window.CREDITS = {
   },
   "terrypile": {
     "file": "terrypile.jpg",
-    "caption": "Terry towelling — the loops left uncut",
-    "kind": "photo",
-    "title": "Frottee-Handtuch.jpg",
-    "artist": "Anna reg",
-    "license": "CC BY-SA 3.0 at",
-    "page": "https://commons.wikimedia.org/wiki/File:Frottee-Handtuch.jpg",
-    "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "caption": "Two-colour velvet with gold: a cut pile weave",
+    "kind": "product",
+    "title": "https://openaccess-cdn.clevelandart.org/1929.82/1929.82_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1929.82",
+    "w": 531,
+    "h": 893
   },
   "leno": {
     "file": "leno.jpg",
@@ -4742,15 +4742,15 @@ window.CREDITS = {
   },
   "bellbronze": {
     "file": "bellbronze.jpg",
-    "caption": "A bronze bell cast in 1813, in San Geremia, Venice",
+    "caption": "A Chinese bo zhong bell, cast in high-tin bronze",
     "kind": "product",
-    "title": "San Geremia (Venice) - Bronze bell from 1813.jpg",
-    "artist": "Didier Descouens",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:San_Geremia_(Venice)_-_Bronze_bell_from_1813.jpg",
-    "w": 960,
-    "h": 1237,
-    "site": "Wikimedia"
+    "title": "https://openaccess-cdn.clevelandart.org/1962.44/1962.44_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1962.44",
+    "w": 690,
+    "h": 893
   },
   "singingbowl": {
     "file": "singingbowl.jpg",
@@ -4790,15 +4790,15 @@ window.CREDITS = {
   },
   "ebony": {
     "file": "ebony.jpg",
-    "caption": "A block of ebony, polished on one face",
-    "kind": "photo",
-    "title": "A piece of ebony wood 1.jpg",
-    "artist": "W.carter",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:A_piece_of_ebony_wood_1.jpg",
-    "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "caption": "A statuette carved in ebony",
+    "kind": "product",
+    "title": "https://openaccess-cdn.clevelandart.org/1983.98/1983.98_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1983.98",
+    "w": 583,
+    "h": 893
   },
   "rosin": {
     "file": "rosin.jpg",
@@ -5197,16 +5197,16 @@ window.CREDITS = {
     "h": 838
   },
   "satin": {
-    "file": "satin.png",
-    "caption": "Rolls of satin ribbon, the float surface catching the light",
-    "kind": "photo",
-    "title": "Satin Ribbons.png",
-    "artist": "Jblayson",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Satin_Ribbons.png",
-    "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "file": "satin.jpg",
+    "caption": "A Chinese rank badge embroidered on a silk satin ground",
+    "kind": "product",
+    "title": "https://openaccess-cdn.clevelandart.org/1948.69/1948.69_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1948.69",
+    "w": 856,
+    "h": 893
   },
   "carbonfab": {
     "file": "carbonfab.jpg",
@@ -5858,15 +5858,15 @@ window.CREDITS = {
   },
   "alpaca": {
     "file": "alpaca.jpg",
-    "caption": "A whole alpaca fleece at a wool show",
-    "kind": "photo",
-    "title": "Alpaca fleece.JPG",
-    "artist": "Cgoodwin",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Alpaca_fleece.JPG",
-    "w": 960,
-    "h": 1150,
-    "site": "Wikimedia"
+    "caption": "A tunic woven from alpaca wool, plain weave with embroidery",
+    "kind": "product",
+    "title": "https://openaccess-cdn.clevelandart.org/1946.227/1946.227_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1946.227",
+    "w": 753,
+    "h": 893
   },
   "angora": {
     "file": "angora.jpg",
@@ -5882,15 +5882,15 @@ window.CREDITS = {
   },
   "camelhair": {
     "file": "camelhair.jpg",
-    "caption": "A camel being shorn at the Pushkar fair, the clipped hair lying on the sand",
-    "kind": "process",
-    "title": "A camels hair being shorn at Pushkar..jpg",
-    "artist": "Rudolph.A.furtado",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:A_camels_hair_being_shorn_at_Pushkar..jpg",
-    "w": 960,
-    "h": 664,
-    "site": "Wikimedia"
+    "caption": "A knotted carpet of wool, cotton and camel hair",
+    "kind": "product",
+    "title": "https://openaccess-cdn.clevelandart.org/1961.385/1961.385_web.jpg",
+    "site": "Cleveland Museum of Art",
+    "artist": "Cleveland Museum of Art",
+    "license": "CC0",
+    "page": "https://clevelandart.org/art/1961.385",
+    "w": 573,
+    "h": 900
   },
   "vicuna": {
     "file": "vicuna.jpg",

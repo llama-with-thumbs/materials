@@ -51,15 +51,15 @@ eptfe|commons|Goretex photo.png|Expanded PTFE under the microscope — the node-
 aramid|commons|Para Aramid Yarns Body Armor.jpg|Para-aramid yarn woven for ballistic panels|photo
 fkm|commons|Fiber optic vacuum viton seal ProtoDUNE.jpg|An FKM (Viton) seal on a vacuum feedthrough|photo
 silicone|commons|Liquid-silicon-rubber-crop.jpg|Liquid silicone rubber before cure|photo
-natrubber|commons|Natural rubber.jpg|Natural rubber, still unbeaten at resisting fatigue|photo
+natrubber|Flickr|https://live.staticflickr.com/3521/3844921160_363bee9886_b.jpg|Latex running from a tapped rubber tree into its cup|process|CC BY 2.0|chinogypsie|https://www.flickr.com/photos/61178524@N00/3844921160
 butyl|commons|Butyl rubber gloves.JPG|Butyl rubber gloves — the polymer gas does not get through|photo
 pvdf|commons|A UPW Installation using PVDF Piping.png|PVDF pipework in an ultrapure water plant|photo
 kapton|NASA|https://www.nasa.gov/wp-content/uploads/2023/03/sunshieldstackup-photo_3.jpg|JWST's sunshield — five tensioned layers of Kapton|photo|Public domain|NASA/Chris Gunn|https://www.nasa.gov/image-article/nasas-webb-sunshield-stacks-up-test/
-delrin|commons|Dunlop Delrin 500.jpg|Acetal (Delrin) picks — the material holds its dimensions|photo
+delrin|Flickr|https://live.staticflickr.com/4137/4779530203_90ebbaa2cb_b.jpg|A collar machined from Delrin acetal|product|CC BY 2.0|jabella|https://www.flickr.com/photos/31954184@N00/4779530203
 pc|commons|Laboratory protection goggles-blue.jpg|Polycarbonate eye protection|photo
 pmma|commons|Lichtenberg figure in block of Plexiglas.jpg|A Lichtenberg figure frozen inside a PMMA block|photo
 sap|commons|Superabsorbent Polymer.jpg|Superabsorbent polymer beads, before and after water|photo
-polyurea|commons|Spray-bedliner-installed-lg.png|Sprayed polyurea lining, cured within seconds|photo
+polyurea|Flickr|https://live.staticflickr.com/3493/4040639508_28a1a9a93f_b.jpg|Two-part polyurea coating in the pail, before spraying|product|CC BY 2.0|John Loo|https://www.flickr.com/photos/8510225@N07/4040639508
 alumina|commons|Spark plug insulator.jpeg|A spark plug insulator — alumina’s highest-volume job|photo
 sapphire|commons|Sapphire boule, Kyropoulos method.jpg|A synthetic sapphire boule pulled from the melt|photo
 fusedsilica|commons|Einstein gyro gravity probe b.jpg|A Gravity Probe B fused-quartz rotor — among the roundest objects ever made|photo
@@ -86,28 +86,28 @@ maraging|commons|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Compet
 cordierite|commons|Catalytic Converter Interior.jpg|Inside a catalytic converter: the extruded cordierite honeycomb|product
 torlon|commons|Ruban-capton-adhesif.jpg|A roll of Kapton tape — polyimide, the amber chemical neighbour Torlon's amide-imide sits beside|analog
 fields|commons|Wood's alloy 2.JPG|Wood's metal, Field's older cadmium-bearing cousin, melting in hot water|related
-bakelite|commons|Bakelite radio.jpg|A Bakelite radio cabinet|product
+bakelite|Flickr|https://live.staticflickr.com/5765/20967111954_7ff274c261_b.jpg|A Bakelite telephone, the housing moulded in one black piece|product|CC BY 2.0|wwarby|https://www.flickr.com/photos/26782864@N00/20967111954
 phenolic|commons|Textolite.jpg|Phenolic cotton laminate — cloth and resin pressed into a solid|photo
-neoprene|commons|Diving suit neoprene.jpg|Neoprene foam in a diving suit|product
+neoprene|Flickr|https://live.staticflickr.com/6167/6165824543_4a5419cd60_b.jpg|Rolls of neoprene foam gasket tape|product|CC BY 2.0|Hardcast65|https://www.flickr.com/photos/66958833@N05/6165824543
 epdm|commons|EPDM foil.jpg|EPDM membrane|photo
 nbr|commons|Disposable nitrile glove.jpg|Nitrile gloves|product
 br|commons|Golfballinsiderp.jpg|A golf ball core — polybutadiene, chosen purely for rebound|product
 tpu|commons|Chips TPU con eurocent.jpg|TPU pellets, with a coin for scale|photo
 pps|commons|Molexddpcsfamily.jpg|Connector housings and crimp terminals — PPS is one of the resins moulded into parts that must survive a solder oven|analog
-mylar|commons|Myla32rp.jpg|Aluminised BoPET film|photo
+mylar|Flickr|https://live.staticflickr.com/8657/16675621682_5d5542f51a_b.jpg|A foil balloon, metallised BoPET, snagged in a bush|product|Public domain|Joshua Tree National Park|https://www.flickr.com/photos/115357548@N08/16675621682
 pp|commons|Mint box polypropylene lid.JPG|A living hinge moulded in one piece with the box|product
 memoryfoam|commons|MemoryFoam-slow.jpg|Viscoelastic foam returning slowly after a hand is lifted|photo
-epoxy|commons|Aerospace epoxy resin.jpg|Aerospace epoxy resin|photo
-eva|commons|Eva closeup.jpg|EVA foam|photo
+epoxy|Flickr|https://live.staticflickr.com/65535/52085107501_90a876b1dc_b.jpg|An epoxy floor coating with colour flakes broadcast into the wet resin|product|CC BY 2.0|Decorative Concrete Kingdom|https://www.flickr.com/photos/38041294@N05/52085107501
+eva|Flickr|https://live.staticflickr.com/8231/29185027553_8595d2db11_b.jpg|A closed-cell EVA foam camping mat|product|CC BY 2.0|MIKI Yoshihito. (#mikiyoshihito)|https://www.flickr.com/photos/7940758@N07/29185027553
 manila|commons|20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg|Abacá fibre, stripped and dried|photo
 hemprope|commons|Cordage en chanvre.jpg|Hemp cordage|photo
 sisal|commons|Pacas de sisal.jpg|Baled sisal fibre|photo
 coir|commons|Making coir rope in Kerala.JPG|Coir rope being twisted by hand in Kerala|product
 jute|commons|Jute Rope (சணல் கயிறு).jpg|Jute rope|photo
 cottonduck|commons|Close up of cotton duck canvas.JPG|Cotton duck, woven tight enough to shed water|photo
-linen|commons|Linen cloth.jpg|Linen cloth|photo
-silk|commons|Bombyx mori Cocon 02.jpg|Bombyx mori cocoons — one continuous filament each|photo
-spidersilk|commons|Artificial Spider Silk Strand.JPG|A strand of artificial spider silk|photo
+linen|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1921.1026/1921.1026_web.jpg|Mummy linen: flax in a plain weave, thousands of years old and still cloth|photo|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1921.1026
+silk|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1982.16/1982.16_web.jpg|A silk curtain woven for the Alhambra palace|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1982.16
+spidersilk|NASA|https://images-assets.nasa.gov/image/KSC-06pd2059/KSC-06pd2059~medium.jpg|A golden silk orb-weaver on its web; the dragline is the fibre everyone wants to copy|related|Public domain|KSC|https://images.nasa.gov/details/KSC-06pd2059
 felt|commons|Colored felt cloth.jpg|Wool felt — fabric with no weave at all|photo
 paracord|commons|MIL-C-5040 Type III 550 Paracord.jpg|550 paracord, sheath opened to show the core yarns|photo
 polyesterfab|commons|Drop of water on water-resistant textile (100% polyester).jpg|Water beading on woven polyester|photo
@@ -117,11 +117,11 @@ basalt|commons|Basalt fibre and glass fibre.jpg|Basalt fibre (dark) beside glass
 nomex|commons|TFS Nomex Hood.JPG|A Nomex firefighting hood|product
 ripstop|commons|RipStop.jpg|Ripstop: a grid of heavier yarns that stops a tear spreading|photo
 sailcloth|commons|Bear of Britain spinnaker.jpg|A modern laminate spinnaker under load|product
-abs|commons|Lego bricks.jpg|Lego bricks — ABS moulded to a tolerance of about a hundredth of a millimetre|product
+abs|Flickr|https://live.staticflickr.com/317/19709520299_6e2089a6e1_b.jpg|3DBenchy test prints in ABS filament|product|CC BY 2.0|Creative Tools|https://www.flickr.com/photos/33907867@N02/19709520299
 pet|Flickr|https://live.staticflickr.com/3261/2629301274_8f41b9afd0_b.jpg|PET bottles, blown and biaxially stretched|product|CC BY 2.0|dierk schaefer|https://www.flickr.com/photos/dierkschaefer/2629301274
-pvc|commons|Pvc cevi.jpg|PVC pipe|photo
+pvc|Flickr|https://live.staticflickr.com/2195/2269567444_6a61e07287_b.jpg|A stack of PVC pressure pipe|product|CC BY-SA 2.0|Pam_Broviak|https://www.flickr.com/photos/23870457@N06/2269567444
 nylon66|commons|Kabelbinder -- 2024 -- 6907.jpg|Nylon 6/6 cable ties|product
-hdpe|commons|Diverse Kanisterformen.png|HDPE jerrycans|product
+hdpe|Flickr|https://live.staticflickr.com/65535/51849066566_a6b3775c46_b.jpg|Reels of orange HDPE innerduct for cables|product|CC0|joncutrer|https://www.flickr.com/photos/47121680@N00/51849066566
 pex|commons|PEX piping in basement ceiling.jpg|PEX plumbing runs|product
 eps|commons|Expanded Polystyrene (EPS) foam pellets.jpg|Expanded polystyrene beads|photo
 pdms|commons|Рождение микрофлюидного чипа.JPG|A PDMS microfluidic chip|product
@@ -160,7 +160,7 @@ sodalime|commons|Foxton Fizz Bottles.jpg|Soda-lime glass bottles|product
 leadcrystal|commons|Cut crystal wine glasses in the Fakiris series by German glassworks Knittel 4.jpg|Cut lead crystal|product
 ceran|commons|Schott Ceran glass-ceramic cooktop.jpg|A glass-ceramic cooktop|product
 porcelain|commons|Johnny ball strain insulator.JPG|A porcelain strain insulator|product
-steatite|commons|Lampe Nishapur steatite.JPG|Carved steatite — soapstone in the soft state, before firing hardens it|photo
+steatite|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1973.161/1973.161_web.jpg|An Indus seal carved in steatite and fired hard|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1973.161
 mullite|commons|Kiln Furniture Before Glost FIring.png|Kiln furniture — mullite-bonded refractory props|product
 glassycarbon|commons|Glassy Carbon.jpg|Glassy carbon|photo
 emax|commons|Detached-dental-crown-view-a.jpg|A pressed ceramic dental crown|product
@@ -178,7 +178,7 @@ gfrp|commons|Glass reinforced plastic SEM Stereo 200x.JPG|Glass-reinforced plast
 cfrp|commons|Carbon fibre weave.jpg|Carbon fibre fabric|photo
 alhoneycomb|commons|Glare honeycomb.jpg|Honeycomb core bonded between thin skins|product
 glare|commons|An exploded view of a GLARE hybrid sheet.jpg|GLARE, exploded — alloy sheets alternating with glass-fibre prepreg|photo
-plywood|commons|Sandakan Sabah Plywood-Factory-35c.jpg|Plywood, veneers laid crosswise|photo
+plywood|NASA|https://images-assets.nasa.gov/image/AFRC2024-0127-32/AFRC2024-0127-32~medium.jpg|Plywood under a CNC router in a NASA fabrication shop|photo|Public domain|AFRC|https://images.nasa.gov/details/AFRC2024-0127-32
 clt|commons|Brettsperrholzkonstruktion.jpg|Cross-laminated timber construction|product
 rcconcrete|commons|Reinforced concrete foundation.JPG|Reinforced concrete going in|product
 uhpc|commons|Gaertnerplatzbruecke Kassel.JPG|The Gärtnerplatz bridge in Kassel, built from UHPC|product
@@ -236,18 +236,18 @@ tritium|commons|Tritium-Glowring - 320s.jpg|A tritium glow ring|product
 slips|commons|Water droplet on a super hydrophobic surface.jpg|A droplet on a water-repellent surface — the same non-wetting idea|related
 tio2photo|commons|Titanium dioxide powder dispersing in water.JPG|Titanium dioxide powder|photo
 electret|commons|Electret microphone MKE3.JPG|An electret microphone|product
-nacre|commons|Nacre mother of pearl shellB.jpg|Nacre|photo
-bamboo|commons|08 Asper 1 - Copy.jpg|Bamboo culms|photo
+nacre|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1971.1065/1971.1065_web.jpg|A lacquer wine ewer inlaid with nacre|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1971.1065
+bamboo|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1988.75/1988.75_web.jpg|A brush holder carved from a single bamboo culm|product|CC0|Wang Meilin (Chinese, active c. 1825)|https://clevelandart.org/art/1988.75
 balsa|Flickr|https://live.staticflickr.com/3354/3446321630_08013cc137_b.jpg|Balsa|photo|CC BY 2.0|jfrancis|https://www.flickr.com/photos/80895244@N00/3446321630
 lignumvitae|commons|LignumVitaeMallet01.jpg|A lignum vitae mallet|product
 whiteoak|Flickr|https://live.staticflickr.com/6134/6039449508_f045c7224e_b.jpg|Oak staves in a cooperage|product|CC BY 2.0|davitydave|https://www.flickr.com/photos/79781814@N00/6039449508
 cork|Flickr|https://live.staticflickr.com/4628/25753850818_d37190dd84_b.jpg|Cork|photo|CC BY 2.0|pedrik|https://www.flickr.com/photos/pedrik/25753850818
 vegleather|commons|Tanned leather.JPG|Tanned leather|photo
-bone|commons|Spongy bone - Trabecular bone - Normal trabecular bone Trabecular bone etc -- Smart-Servier (cropped).jpg|Trabecular bone|photo
+bone|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1931.462.l/1931.462.l_web.jpg|A bone kept as a relic|photo|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1931.462.l
 antler|commons|Roe deer antler.jpg|A roe deer antler|photo
-horn|commons|Horn hair comb, Ludlow Museum - DSCF2042.JPG|A horn comb|product
+horn|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1981.49/1981.49_web.jpg|A hair comb carved from horn and set with enamel|product|CC0|René Lalique (French, 1860–1945)|https://clevelandart.org/art/1981.49
 baleen|commons|Gray whale baleen plates.JPG|Baleen plates|photo
-amber|commons|Baltic Amber necklace with insects inclusions.jpg|Baltic amber with insect inclusions|photo
+amber|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1964.418/1964.418_web.jpg|A statuette carved from a single piece of amber|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1964.418
 shellac|commons|Shellac flakes closeup.JPG|Shellac flakes|photo
 guttapercha|commons|Caoutchouc Gutta-percha Droguier ISPB Lyon UCBL 1.jpg|Gutta-percha in a pharmacy specimen collection|photo
 diatomite|commons|Diatomaceous Earth BrightField.jpg|Diatomaceous earth under the microscope — fossil diatom skeletons|photo
@@ -296,7 +296,7 @@ esparto|commons|Stipa tenacissima kz08.jpg|Esparto grass growing on dry ground|p
 raffia|commons|Raffia fibers.jpg|Raffia, peeled off the leaf as flat ribbon|photo
 pina|commons|Piña Barong tagalog AklanA.jpg|A barong tagalog woven from piña|product
 pianowire|Flickr|https://live.staticflickr.com/13/14232121_c20a01a398_b.jpg|Music wire strung in a grand piano|product|CC BY 2.0|easement|https://www.flickr.com/photos/44046918@N00/14232121
-jacquard|commons|A Jacquard loom showing information punchcards, National Museum of Scotland.jpg|A Jacquard loom and its chain of punched cards|process
+jacquard|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1953.329/1953.329_web.jpg|Violet and Columbine, a wool and mohair cloth woven on a Jacquard loom|product|CC0|William Morris (British, 1834–1896)|https://clevelandart.org/art/1953.329
 doublecloth|commons|Blue Double Weave Kimono Close Up.png|Double-weave cloth, close up|photo
 warpknit|commons|NIM 1910 Warp knitting machine 2522.jpg|A warp knitting machine — one needle per warp end|process
 jersey|commons|Gestrick links-rechts rechte Seite.jpeg|Weft-knit fabric, face side|photo
@@ -305,13 +305,13 @@ spacerfabric|commons|Spacer fabric.jpg|Spacer fabric — two faces held apart by
 electrospun|commons|Electrospun polymer nanofibers with bead-fiber morphology.jpg|Electron micrograph of electrospun nanofibres|photo
 tyvek|Flickr|https://live.staticflickr.com/3458/3350958206_db48d7665f_b.jpg|A Tyvek envelope|product|CC BY-SA 2.0|Newone1970|https://www.flickr.com/photos/32147839@N07/3350958206
 mercerised|commons|Spool of white thread.jpg|Spooled cotton thread — mercerising gives it the sheen|product
-ringmesh|commons|Chain mail shirt - Georgian.jpg|A riveted mail shirt|product
+ringmesh|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1923.1120/1923.1120_web.jpg|A riveted mail hauberk of steel and brass rings|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1923.1120
 opwairbag|commons|Vauxhall Vectra curtain airbag deployed.jpg|A curtain airbag deployed in a car|product
 ptfeglass|commons|Denver International Airport.jpg|Denver airport roof — PTFE-coated glass fibre on cables|product
 etfefoil|commons|Tropical Biome of the Eden Project - geograph.org.uk - 4456101.jpg|The Eden Project biomes, clad in inflated ETFE pillows|product
 dwrfinish|commons|CSIRO ScienceImage 11489 Water droplets on QuickDry merino wollen fabric.jpg|Water beading on treated fabric|photo
 tufted|commons|Deep Pile Carpet Up Close.jpg|Deep carpet pile, close up|product
-terrypile|commons|Frottee-Handtuch.jpg|Terry towelling — the loops left uncut|photo
+terrypile|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1929.82/1929.82_web.jpg|Two-colour velvet with gold: a cut pile weave|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1929.82
 leno|commons|3611 Bandage rolling.jpg|Gauze bandage being rolled|product
 fleece|Poly Haven|https://cdn.polyhaven.com/asset_img/primary/polar_fleece.png?width=1024|Polar fleece, napped and shorn level: a scanned swatch rendered by Poly Haven|photo|CC0|Poly Haven|https://polyhaven.com/a/polar_fleece
 nonwoven|commons|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
@@ -398,11 +398,11 @@ surgmesh|commons|Hernia mesh 2.JPG|Polypropylene hernia mesh, knitted open|photo
 pinatex|commons|Piñatex fabric in white.jpg|Piñatex in white — pineapple-leaf fibre, needled into a web and coated|photo
 waffle|commons|An example of waffle fabric.jpeg|A close-up of waffle weave — floats stepping down into cells|photo
 twill|commons|Broken twill denim Wrangler 13MWZ jeans (2026-01-21).jpg|Broken twill denim, face and back — the diagonal reverses across the warp|photo
-bellbronze|commons|San Geremia (Venice) - Bronze bell from 1813.jpg|A bronze bell cast in 1813, in San Geremia, Venice|product
+bellbronze|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1962.44/1962.44_web.jpg|A Chinese bo zhong bell, cast in high-tin bronze|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1962.44
 singingbowl|commons|Tibetan bowl 14 cm.jpg|A Himalayan standing bowl, 14 cm across|photo
 pipemetal|commons|Organ pipes.jpg|Open bass pipes in an organ, cast from tin and lead|product
 pernambuco|commons|Brazilwood Paubrasilia echinata square blank.jpg|A squared blank of pernambuco, cut in 1987 and kept for bows|photo
-ebony|commons|A piece of ebony wood 1.jpg|A block of ebony, polished on one face|photo
+ebony|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1983.98/1983.98_web.jpg|A statuette carved in ebony|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1983.98
 rosin|commons|Violin rosin (2).jpg|A cake of violin rosin|photo
 fiddleback|commons|Riegelahorn Holz.JPG|Sliced fiddleback maple veneer — the stripes are waves in the grain|photo
 instbrass|commons|Trumpet Bell.jpg|The bell of a trumpet, spun from brass sheet|product
@@ -436,7 +436,7 @@ tatami|Flickr|https://live.staticflickr.com/7829/47196268132_d9e187bfde_b.jpg|Ta
 toquilla|commons|The toquilla straw hat is woven from fibres from a palm tree characteristic of the Ecuadorian coast.jpg|Cenovio, a master weaver, working toquilla straw on the Ecuadorian coast|process
 worsted|commons|Worsted wool yarn.JPG|Worsted wool yarn, the plied structure visible|photo
 tweed|pxhere|https://c.pxhere.com/photos/82/fa/fabric_detail_harris_tweed_coarse_plant_dyes_natural_colours-750549.jpg!d|Harris Tweed cloth under a macro lens|photo|CC0|pxhere|https://pxhere.com/en/photo/750549
-satin|commons|Satin Ribbons.png|Rolls of satin ribbon, the float surface catching the light|photo
+satin|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1948.69/1948.69_web.jpg|A Chinese rank badge embroidered on a silk satin ground|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1948.69
 carbonfab|commons|Woven carbon fiber fabric.jpg|Woven carbon fibre fabric, tow crossing tow|photo
 fibc|commons|Flexible intermediate bulk containers-Fertilizer.jpg|Woven polypropylene big bags holding 600 kg of fertiliser each|product
 machinelace|commons|Border (ST293) - Lace-Machine Lace - MoMu Antwerp.jpg|A machine-made lace border, from the MoMu collection in Antwerp|photo
@@ -491,9 +491,9 @@ miccable|commons|Microphone cable structure.jpg|A microphone cable opened up: tw
 gel|commons|Many color gels.jpg|Lighting gels, loose sheets and some taped into frames|product
 eiderdown|commons|Dunhreinsun2.jpg|A farmer in Skaleyjar cleaning and drying eiderdown, still full of hay|process
 shearling|commons|Shearling Coat for Men Hood Detail.jpg|The collar of a shearling coat, wool pile inside and tanned skin out|product
-alpaca|commons|Alpaca fleece.JPG|A whole alpaca fleece at a wool show|photo
+alpaca|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1946.227/1946.227_web.jpg|A tunic woven from alpaca wool, plain weave with embroidery|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1946.227
 angora|commons|Satinangora rot Garn und Flocke.jpg|Plucked angora rabbit fur and the yarn spun from it|photo
-camelhair|commons|A camels hair being shorn at Pushkar..jpg|A camel being shorn at the Pushkar fair, the clipped hair lying on the sand|process
+camelhair|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1961.385/1961.385_web.jpg|A knotted carpet of wool, cotton and camel hair|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1961.385
 vicuna|Flickr|https://live.staticflickr.com/65535/52359920912_1b88e8443a_b.jpg|Vicuna fleece, yarn and woven cloth laid out on a display table|photo|CC BY-SA 2.0|SecretarÃ­a de Cultura - Argentina|https://www.flickr.com/photos/culturaargentina/52359920912
 reindeerhide|commons|Reindeer hides.jpg|Reindeer hides on a market stall in Helsinki|photo
 flannel|Flickr|https://live.staticflickr.com/7812/46846780662_15f23e121b_b.jpg|A flannel shirt photographed close enough to show the raised nap|photo|CC BY 2.0|Lisa Zins|https://www.flickr.com/photos/lisazins/46846780662
