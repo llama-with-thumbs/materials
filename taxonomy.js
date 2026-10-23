@@ -40,12 +40,15 @@ window.CAT_TAGS = {
 };
 
 // What the picture actually shows, when it is not a photograph of the material itself.
+// "plate" is the kind every plate's image has: a diagram, by definition not a photograph,
+// and the card says so in its stamp rather than with a badge.
 window.KINDS = {
   structure: "molecular structure",
   product: "something made from it",
   process: "how it is made",
   related: "a close relative",
-  analog: "a similar example"
+  analog: "a similar example",
+  plate: "a diagram"
 };
 
 // Themes cut across the categories. A card belongs to exactly one category, which is

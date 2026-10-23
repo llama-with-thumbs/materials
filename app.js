@@ -10,7 +10,12 @@ const KINDS = window.KINDS;
 const THEMES = window.THEMES || {};
 const CREDITS = window.CREDITS || {};
 const MATERIALS = window.MATERIALS || [];
+const PLATES = window.PLATES || [];
+for (const p of PLATES) p.plate = true;
+// Cards and plates render in one grid; a plate belongs to every workshop it lists.
+const ALL = MATERIALS.concat(PLATES);
 const ADDED = window.ADDED || {};
+const FIGURES = window.FIGURES;
 
 // added.js lists every id in the order the catalogue grew, so its key order is the
 // sort order. An id missing from it is newer than everything in it.
@@ -33,17 +38,17 @@ const SORTS = {
 // because doing it per keystroke across 500 cards is how a search box feels slow.
 const fold = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
-const HAYSTACK = new Map(MATERIALS.map(m => [m.id, fold([
-  m.name, m.sub, m.hook, m.uses,
+const HAYSTACK = new Map(ALL.map(m => [m.id, fold([
+  m.name, m.sub, m.hook, m.uses || "",
   m.stats.map(p => p.join(" ")).join(" "),
-  CATS[m.cat] || "",
+  m.plate ? "plate " + m.cats.map(c => CATS[c] || c).join(" ") : CATS[m.cat] || "",
   (m.tags || []).map(t => THEMES[t] || t).join(" ")
 ].join(" "))]));
 
 // A card is in a theme if it carries the tag; a card is in a category if that is its
 // category. The filter buttons mix both, so one lookup answers either kind.
 const inFilter = (m, key) =>
-  key === "all" || m.cat === key || (m.tags || []).includes(key);
+  key === "all" || m.cat === key || (m.cats || []).includes(key) || (m.tags || []).includes(key);
 
 /* ---------- rendering ---------- */
 
@@ -69,9 +74,40 @@ const catTag = cat => CAT_TAGS[cat] || (CATS[cat] || "").split(" ")[0];
 // so each one is built at most once and re-used on every later filter or sort.
 const CARD_HTML = new Map();
 
+// A plate: a figure, the paragraph that reads it, three facts, and the cards it explains.
+function plateFor(p) {
+  const c = CREDITS[p.id];
+  const no = PLATES.indexOf(p) + 1;
+  const figure = p.figure
+    ? `<div class="figure">${FIGURES.svg(p.id, p.figure)}<span class="tag">plate</span>
+         <div class="readout">${FIGURES.readoutHTML(p.figure, null)}</div></div>`
+    : `<button class="shot" data-shot="${esc(p.id)}" title="enlarge">${shotFor(p)}<span class="tag">plate</span></button>`;
+  const stats = p.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
+  const explains = (p.cards || []).map(id => ALL.find(m => m.id === id)).filter(Boolean)
+    .map(m => `<a href="#m-${esc(m.id)}" data-goto="${esc(m.id)}">${esc(m.name)}</a>`).join(", ");
+  const source = c
+    ? `<a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.kind || "photo")}: Wikimedia (${esc(c.license)})</a>`
+    : `<span>drawn for this page from published values</span>`;
+  const more = p.link ? `<a href="${esc(p.link)}" target="_blank" rel="noopener">read more</a>` : "";
+  const src = p.src ? `<a href="${esc(p.src[1])}" target="_blank" rel="noopener">${esc(p.src[0])}</a>` : "";
+  return `<article class="card plate" id="m-${esc(p.id)}" data-cat="${esc((p.cats || [])[0] || "")}" data-id="${esc(p.id)}">
+    ${figure}
+    <div class="body">
+      <p class="no">plate ${no}</p>
+      <h2>${esc(p.name)}</h2>
+      <p class="sub">${esc(p.sub)}</p>
+      <p class="hook">${esc(p.hook)}</p>
+      <div class="stats">${stats}</div>
+      <p class="uses"><b>explains:</b> ${explains}</p>
+      <p class="meta">${source}<span class="links">${src}${more}</span></p>
+    </div>
+  </article>`;
+}
+
 function cardFor(mat) {
   let html = CARD_HTML.get(mat.id);
   if (html) return html;
+  if (mat.plate) { html = plateFor(mat); CARD_HTML.set(mat.id, html); return html; }
   const c = CREDITS[mat.id];
   const kind = c && KINDS[c.kind] ? c.kind : null;
   const stats = mat.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
@@ -112,14 +148,16 @@ let activeQuery = "";
 
 function render() {
   const q = fold(activeQuery.trim());
-  const list = MATERIALS.filter(m => inFilter(m, activeCat) && (!q || HAYSTACK.get(m.id).includes(q)));
+  const list = ALL.filter(m => inFilter(m, activeCat) && (!q || HAYSTACK.get(m.id).includes(q)));
   const cmp = SORTS[activeSort][1];
   if (cmp) list.sort(cmp);
   grid.innerHTML = list.length
     ? list.map(cardFor).join("")
     : `<p class="empty">nothing matches that. try "glass", "heat" or "wheel".</p>`;
   const where = activeCat === "all" ? "" : ` · ${CATS[activeCat] || THEMES[activeCat] || activeCat}`;
-  countEl.textContent = `${list.length} of ${MATERIALS.length} materials${where}`;
+  const np = list.filter(m => m.plate).length;
+  const plates = np ? `, ${np} of ${PLATES.length} plate${PLATES.length === 1 ? "" : "s"}` : "";
+  countEl.textContent = `${list.length - np} of ${MATERIALS.length} materials${plates}${where}`;
   jumpState();
 }
 
@@ -248,20 +286,33 @@ if (weekEl && MATERIALS.length) {
   weekEl.innerHTML = `<span class="week-label">this week</span>
     <a href="#m-${esc(pick.id)}" data-week="${esc(pick.id)}">no. ${seq(pick) + 1}, ${esc(pick.name)}</a>
     <span class="week-sub">${esc(pick.sub)}</span>`;
-  // The card may be filtered out of view; clear the filters, then go to it.
   weekEl.addEventListener("click", e => {
     const a = e.target.closest("[data-week]");
     if (!a) return;
     e.preventDefault();
-    activeQuery = "";
-    searchEl.value = "";
-    setCat("all");
-    const card = document.getElementById("m-" + a.dataset.week);
-    if (!card) return;
-    card.classList.add("picked");
-    card.scrollIntoView({ behavior: "smooth", block: "center" });
+    goTo(a.dataset.week);
   });
 }
+
+// Go to one card wherever it is: clear the filters, scroll to it, outline it in red.
+function goTo(id) {
+  activeQuery = "";
+  searchEl.value = "";
+  setCat("all");
+  const card = document.getElementById("m-" + id);
+  if (!card || !card.classList) return;
+  card.classList.add("picked");
+  card.scrollIntoView({ behavior: "smooth", block: "center" });
+}
+
+// A plate's "explains" links go to the cards; the figures answer the pointer.
+grid.addEventListener("click", e => {
+  const a = e.target.closest("[data-goto]");
+  if (!a) return;
+  e.preventDefault();
+  goTo(a.dataset.goto);
+});
+if (PLATES.some(p => p.figure)) FIGURES.bind(grid, PLATES);
 
 /* ---------- jump to the top or the bottom ---------- */
 
@@ -292,7 +343,7 @@ const lbInner = document.getElementById("lb-inner");
 grid.addEventListener("click", e => {
   const btn = e.target.closest("[data-shot]");
   if (!btn) return;
-  const mat = MATERIALS.find(m => m.id === btn.dataset.shot);
+  const mat = ALL.find(m => m.id === btn.dataset.shot);
   const c = CREDITS[mat.id];
   const credit = c
     ? `<span class="credit">${KINDS[c.kind] ? "shows " + esc(KINDS[c.kind]) + ". " : ""}${esc(c.caption)} — ${esc(c.artist)}, ${esc(c.license)},

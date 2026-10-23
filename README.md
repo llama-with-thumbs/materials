@@ -23,6 +23,8 @@ taxonomy.js    the vocabulary: categories, picture kinds, cross-cutting themes
 app.js         rendering, search, filters, sort, shareable URL state, lightbox
 swatch.js      the drawn fallback used when a material has no photograph
 data.js        the catalogue — 539 entries, this is the file to edit
+plates.js      the plates: diagrams that explain several cards, drawn from data or credited
+figures.js     draws a plate's figure from its data and runs the readout under the pointer
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
 images/        539 images, 960 px wide
@@ -202,6 +204,28 @@ The three jobs, and why each material is chosen for one of them:
 | Filling | goose down, eiderdown, feather-and-down blend, silk wadding, polyester fibrefill, cotton batting, kapok, milkweed floss, merino | Warmth per gram, what happens when it gets wet, and whether it can be washed. Down wins on warmth and loses completely when damp; polyester survives the wash and dies of compression; cotton is heavy and walks; silk cannot migrate but has no loft at all |
 | Lining and cover | downproof ticking, satin weave, seersucker, flannel, lyocell | Whether the filling stays in, and what the cloth does against skin. Ticking is woven tight enough to stop a quill and is therefore nearly airproof; seersucker lifts off the skin; flannel's nap holds a layer of still air; lyocell moves moisture |
 | Holding it together | thread lattice | Whether the filling can move inside its cover. Quilting lines, baffle walls and the Hainan thread lattice are three answers to one problem: an unrestrained batt migrates to the corners and leaves cold voids |
+
+## Plates
+
+A card is one material. A plate is a figure that explains several, the way the plates in the
+Bauhaus books sat between the chapters: the iron–carbon diagram is the first. A plate is not
+filed under a category, because it is not a material; it names the workshops it belongs to
+(`cats`) and appears among their cards, twice as wide, with its own running number. It also
+names the cards it explains, and those are links.
+
+A plate carries either a credited image, through `tools/images.txt` like any card, or a
+figure drawn from data. A drawn figure is a set of fields on two axes — polygons in axis
+units, with a name, the phases present, the crystal structure and a note for each — plus
+the rules, labels and ticks to draw. `figures.js` scales and draws it as flat polygons in the
+page's own ink and paper, and keeps a readout under it that follows the pointer: which field,
+which phases, what structure, and the two coordinates under the cursor. Touch works the same
+way, by tapping. Nothing in the renderer knows about iron; the next phase diagram, TTT curve
+or Ashby chart is the same code with different data. The shape of the data is documented at
+the top of `plates.js`, and `tools/check.js` refuses a zone that is incomplete or leaves the
+axes.
+
+Plates live in `plates.js`, go through `tools/added.py` for their date like the cards, and are
+counted separately: the count line says `539 materials, 1 plate` when both are showing.
 
 ## Material of the week
 

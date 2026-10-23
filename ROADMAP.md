@@ -56,6 +56,51 @@ A card whose best evidence is a paper should say so. Design:
 - What it must not become: a bibliography. A paper earns its place the same way a photo
   does, by being the thing the card's claim actually rests on.
 
+### 4. Plates — built, one so far
+
+A plate is a figure that explains several cards (see the README). The iron–carbon diagram is
+drawn from data and answers the pointer with the field, phases, crystal structure and the
+coordinates. Candidates, each an afternoon of data entry against a published diagram:
+- the stable iron–graphite diagram beside the metastable one, for grey iron
+- a TTT or CCT diagram for a eutectoid steel: time on a log axis, the same renderer
+- copper–zinc (brass), copper–tin (bronze), aluminium–silicon, lead–tin (solder)
+- the water phase diagram, with ice Ih and the pressure axis on a log scale
+- an Ashby chart, stiffness against density, with the cards plotted as points: needs a
+  `points` layer in `figures.js`, the one extension the renderer wants
+- the galvanic series as a one-axis plate; Mohs; the glass transition against crystallinity
+Odds a second plate lands within a month: 85%. Odds of the Ashby chart with points: 60%.
+
+### 5. Photographs from somewhere other than Wikimedia — policy, not yet done
+
+Decided 2026-10-22: the page should not display images taken from Wikipedia and Commons
+where any other honest source exists. Commons stays the research tool (search, describe,
+peek); what the page shows comes from elsewhere, and Commons is the last resort, used only
+when nothing else exists.
+
+Sources that allow display, in the order to try them:
+1. the maker: a press image with written permission, or an image released under a licence
+   that permits reuse (several makers publish CC BY press kits)
+2. public-domain agencies, cited as themselves rather than through Commons: NASA, NIST,
+   USGS, FEMA, the US Army, the National Archives, the Library of Congress
+3. open-access museums: the Met, Smithsonian Open Access, the Rijksmuseum, the Science
+   Museum Group, Cooper Hewitt, the Wellcome Collection, all CC0 or CC BY
+4. Flickr under CC BY or CC BY-SA, with the photographer named
+5. photographs taken for the site, which is the Bauhaus answer and the slowest
+6. Commons, only when the five above produce nothing, and recorded as such
+
+What it needs:
+- `tools/images.txt` grows a source column: `id|source|file-or-url|caption|kind|licence|credit|page`,
+  so a row can come from any of the six; `fetch_images.py` fetches by source and
+  `credits.js` records the origin honestly
+- a per-category migration, one session each, same bar as the first round: look at every
+  photograph before it goes in
+- `check.js` reports how many cards still show a Commons image, so the number is visible
+  and goes down
+Cost: 539 photographs at roughly fifteen a session is a season's work. Odds the tooling
+lands in one session: 90%. Odds every category is migrated within three months: 30%; the
+honest target is the categories with makers behind them first (plastics, metal, film and
+foil, additive), where press images exist.
+
 Not doing: comments, accounts, votes, a newsletter, analytics of any kind. The week's card
 is the only thing that changes without a commit, and it changes by arithmetic.
 
@@ -79,6 +124,7 @@ is the only thing that changes without a commit, and it changes by arithmetic.
 | CI on every push | `check.js`, `render.js`, a counts-are-current check and a secret scan. |
 | `LICENSE`, `robots.txt`, `sitemap.xml`, Open Graph tags | The site is public now. MIT for the text and tools; the photographs keep their own licences, which is spelled out. |
 | Skip link, `aria-live` count, lightbox close button, print stylesheet | The small accessibility debts. |
+| Plates (2026-10-22) | A new entity for figures that explain several cards, with a data-driven renderer and a pointer readout. The iron–carbon diagram is plate 1. |
 | Material of the week, sources register (2026-10-22) | A weekly pick by arithmetic, and `SOURCES.md` generated from the cards so the source hunt starts from what worked. See the tracks above. |
 | Bauhaus redesign (2026-10-22) | Paper by default, Jost bundled, lowercase chrome, one working red, stats as a hairline table, a running card number, categories named after the workshops they descend from. The rules and the lineage are in the README under Design, so the next change has something to be consistent with. |
 

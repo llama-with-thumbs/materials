@@ -209,6 +209,46 @@ h1 .dot { color: var(--red); }
 
 .card.picked { border: 2px solid var(--red); }
 
+/* ---------- plates ---------- */
+
+/* A plate is twice as wide as a card where the grid has the room, and its figure is
+   never cropped: a diagram has to be seen whole. */
+@media (min-width: 640px) {
+  .card.plate { grid-column: span 2; }
+}
+
+.card.plate .shot { aspect-ratio: auto; background: var(--panel); }
+.card.plate .shot img { height: auto; max-height: 540px; object-fit: contain; }
+
+.figure {
+  position: relative;
+  background: var(--panel);
+  border-bottom: 2px solid var(--ink);
+}
+
+.figure .tag { position: absolute; right: 0; top: 0; background: #111; color: #fff; font-size: 12px; font-weight: 500; padding: 3px 8px; }
+
+svg.fig { display: block; width: 100%; height: auto; font-family: var(--font); touch-action: none; }
+svg.fig .zone { stroke: var(--ink); stroke-width: 1.2; stroke-linejoin: round; cursor: crosshair; }
+svg.fig .zone.one { fill: var(--panel); }
+svg.fig .zone.two { fill: var(--paper); }
+svg.fig .zone.hot { fill: var(--red); fill-opacity: 0.22; }
+svg.fig .rule { fill: none; stroke: var(--ink); stroke-width: 1.2; pointer-events: none; }
+svg.fig .rule.red { stroke: var(--red); stroke-width: 2; }
+svg.fig .rule.dashed { stroke-dasharray: 4 4; }
+svg.fig .frame { fill: none; stroke: var(--ink); stroke-width: 1.5; pointer-events: none; }
+svg.fig .tick { stroke: var(--ink); stroke-width: 1.2; }
+svg.fig .tk, svg.fig .ax, svg.fig .lab { fill: var(--ink); font-size: 13px; pointer-events: none; }
+svg.fig .lab { font-size: 14px; }
+svg.fig .ax { fill: var(--dim); }
+
+.readout { padding: 6px 16px 10px; border-top: 1px solid var(--line); font-size: 13px; }
+.readout .ro { display: flex; gap: 12px; padding: 4px 0; border-bottom: 1px solid var(--line); }
+.readout .ro:last-child { border-bottom: 0; }
+.readout .ro b { flex: 0 0 56px; font-weight: 400; font-size: 12px; color: var(--dim); }
+.readout .ro span { flex: 1; }
+.readout .ro:first-child span { font-weight: 600; }
+
 /* ---------- grid ---------- */
 
 main { padding: 20px 0 64px; }

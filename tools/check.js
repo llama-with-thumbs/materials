@@ -4,9 +4,9 @@
 const fs = require('fs'), path = require('path');
 const root = path.join(__dirname, "..");
 global.window = {};
-for (const f of ["taxonomy.js", "credits.js", "data.js"])
+for (const f of ["taxonomy.js", "credits.js", "data.js", "plates.js"])
   new Function(fs.readFileSync(path.join(root, f), "utf8"))();
-const M = window.MATERIALS, C = window.CREDITS;
+const M = window.MATERIALS, C = window.CREDITS, P = window.PLATES || [];
 const CATS = window.CATS, KINDS = window.KINDS, THEMES = window.THEMES || {};
 let bad = 0;
 const fail = msg => { console.log(msg); bad++; };
@@ -36,7 +36,35 @@ for (const m of M) {
     if (typeof m[f] === "string" && m[f].includes('"')) fail("double quote in " + f + " on " + m.id);
 }
 
-const ids = M.map(m => m.id);
+// Plates: a figure or a credited image, the workshops it belongs to, the cards it explains.
+const mids = new Set(M.map(m => m.id));
+for (const p of P) {
+  for (const f of ["id", "name", "sub", "hook", "stats", "cats", "cards"])
+    if (!p[f]) fail("MISSING " + f + " on plate " + p.id);
+  if (!/^[a-z0-9]+$/.test(p.id)) fail("plate id is not lower-case alphanumeric: " + p.id);
+  if (mids.has(p.id)) fail("plate id collides with a card: " + p.id);
+  if (!(Array.isArray(p.stats) && p.stats.length === 3 && p.stats.every(s => s.length === 2))) fail("stats should be three pairs on plate " + p.id);
+  for (const c of p.cats || []) if (!CATS[c]) fail("unknown category on plate " + p.id + ": " + c);
+  for (const t of p.tags || []) if (!THEMES[t]) fail("unknown theme tag on plate " + p.id + ": " + t);
+  for (const c of p.cards || []) if (!mids.has(c)) fail("plate " + p.id + " explains a card that does not exist: " + c);
+  if (p.link && !/^https?:\/\//.test(p.link)) fail("link is not a URL on plate " + p.id);
+  if (p.src && !(Array.isArray(p.src) && p.src.length === 2 && /^https?:\/\//.test(p.src[1]))) fail("src should be [label, url] on plate " + p.id);
+  for (const f of ["name", "sub", "hook"]) if (p[f].includes('"')) fail("double quote in " + f + " on plate " + p.id);
+  if (p.figure) {
+    const f = p.figure;
+    if (!(f.x && f.y && Array.isArray(f.zones) && f.zones.length)) fail("figure on plate " + p.id + " needs x, y and zones");
+    for (const z of f.zones || []) {
+      if (!(z.name && z.phases && z.structure && z.pts && z.pts.length >= 3)) fail("zone " + z.id + " on plate " + p.id + " is incomplete");
+      for (const [x, y] of z.pts || [])
+        if (x < f.x[0] || x > f.x[1] || y < f.y[0] || y > f.y[1]) fail("zone " + z.id + " on plate " + p.id + " leaves the axes at " + x + "," + y);
+    }
+  } else if (p.img) {
+    if (!C[p.img]) fail("no credit: plate " + p.id);
+    else if (!fs.existsSync(path.join(root, "images", C[p.img].file))) fail("no file: " + C[p.img].file);
+  } else fail("plate " + p.id + " has neither a figure nor an image");
+}
+
+const ids = M.map(m => m.id).concat(P.map(p => p.id));
 const dup = ids.filter((x, i) => ids.indexOf(x) !== i);
 if (dup.length) fail("DUPLICATE ids: " + dup);
 const dupNames = Object.entries(names).filter(([, v]) => v.length > 1);
@@ -64,7 +92,8 @@ const lines = fs.readFileSync(path.join(root, "tools", "images.txt"), "utf8")
 const imgIds = lines.map(l => l.split("|")[0]);
 const imgDup = imgIds.filter((x, i) => imgIds.indexOf(x) !== i);
 if (imgDup.length) fail("duplicate ids in images.txt: " + imgDup);
-const missingLine = ids.filter(i => M.find(m => m.id === i).img && !imgIds.includes(i));
+const withImg = new Set(M.filter(m => m.img).map(m => m.id).concat(P.filter(p => p.img).map(p => p.id)));
+const missingLine = ids.filter(i => withImg.has(i) && !imgIds.includes(i));
 if (missingLine.length) fail("no images.txt line for: " + missingLine.join(", "));
 const strayLine = imgIds.filter(i => !ids.includes(i));
 if (strayLine.length) fail("images.txt lines for cards that no longer exist: " + strayLine.join(", "));
@@ -77,7 +106,7 @@ if (stray.length) console.log("image files nothing references: " + stray.join(",
 const tagged = {};
 for (const m of M) for (const t of m.tags || []) tagged[t] = (tagged[t] || 0) + 1;
 
-console.log("total:", M.length, "| photos:", M.filter(m => m.img).length,
+console.log("total:", M.length, "| plates:", P.length, "| photos:", M.filter(m => m.img).length,
             "| swatches:", M.filter(m => m.swatch).length,
             "| with a second source:", M.filter(m => m.src).length);
 console.log("by category:", JSON.stringify(cats));

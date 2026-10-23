@@ -137,6 +137,22 @@ A theme is the same but in `window.THEMES`, and then `tags: ["name"]` on the car
 If a theme's key matches a category's key, the page shows one button, not two, and it returns
 the union.
 
+## Adding a plate
+
+A plate is a figure that explains several cards, not a material. It goes in `plates.js`, not
+`data.js`, with `cats` (the workshops it appears among), `cards` (the ids it explains, which
+must exist), three stats, a hook, a link and a src, and either:
+
+- `figure`: fields as polygons in axis units, each with `name`, `phases`, `structure`, `note`
+  and `one` (single-phase or not), plus `lines`, `labels`, `xticks`, `yticks`. Zones must tile
+  the field without overlap; the readout picks the first zone containing the pointer. Share
+  boundary point lists between neighbouring zones so they meet exactly. Values from a
+  published diagram, rounded, with the source in `src`. `check.js` validates the shape.
+- or `img`: a row in `tools/images.txt` with kind `plate`, fetched like any photograph.
+
+Then `python -I tools/build.py --quick`, and probe the readout in headless Chrome by
+dispatching `pointermove` events at known coordinates (see the session that added `fec`).
+
 ## Log the dead ends
 
 Before committing, append to `tools/searchlog.md`:
