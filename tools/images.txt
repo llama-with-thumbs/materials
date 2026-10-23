@@ -516,14 +516,14 @@ oxfordcloth|commons|Oxford cloth.jpg|Oxford shirting, the paired warp ends visib
 gingham|commons|Greengingham.jpg|Gingham hemmed as a pocket square, both faces alike|product
 polarfilm|commons|Polarizer sheet perpendicular.jpg|Two polarising sheets overlapping at right angles|photo
 cellophane|commons|Cellophane.JPG|Rolls of coloured cellophane|photo
-retrosheet|commons|Reflective tape on a parking lot gate.jpg|Micro-prismatic reflective tape on a car-park barrier, Washington DC|photo
+retrosheet|Flickr|https://live.staticflickr.com/3173/2927497238_23b7a0a23d_b.jpg|Retroreflective vinyl in daylight, and lit by a flash beside the lens|product|CC BY-SA 2.0|mandiberg|https://www.flickr.com/photos/42586873@N00/2927497238
 holofoil|commons|Holographic Hot Stamping Foil From Karul Holo Science India Ltd.jpg|Rolls of holographic hot-stamping foil|photo
 lenticular|commons|Close up of the surface of a lenticular print.jpg|The ridged face of a lenticular print, close up|photo
 fresnelsheet|commons|Flat flexible plastic sheet lens.JPG|A flexible plastic Fresnel sheet lens|photo
 goldleaf|commons|Kanazawa Gold Factory.jpg|Gold leaf being lifted with bamboo tongs at a Kanazawa workshop|photo
-alufoil|commons|A sample of aluminium foil on a piece of paper.jpg|Crumpled pieces of household aluminium foil|photo
+alufoil|Flickr|https://live.staticflickr.com/8528/8609668552_a264112975_b.jpg|Crumpled aluminium foil|photo|CC BY 2.0|Martin Pettitt|https://www.flickr.com/photos/95012874@N00/8609668552
 clingfilm|commons|Clingfilm.jpg|A roll of cling film in its box|photo
-stretchwrap|commons|FEMA - 37688 - Pallets of disaster suppllies in a warehouse in Louisiana.jpg|Stretch-wrapped pallets of relief supplies, Louisiana, 2008|photo
+stretchwrap|Flickr|https://live.staticflickr.com/65535/49465232058_40ac8efb8e_b.jpg|A roll of hand stretch wrap|product|CC BY 2.0|hireahelper|https://www.flickr.com/photos/158517012@N07/49465232058
 bubblewrap|commons|Square-shaped bubble wrap (126wiki).jpg|Bubble wrap with square pockets|photo
 shrinkfilm|commons|Heat shrinkable polyethylene film.jpg|A roll of heat-shrinkable polyethylene film|photo
 ldpefilm|commons|Film extrusion.jpg|A blown-film line, with the inflated bubble rising from the die|process
@@ -531,13 +531,13 @@ pdlcfilm|commons|VITSWELL PDLC FILM.jpg|A sheet of PDLC switchable film with its
 capfilm|commons|Wiki-Folkos-P1090317-1.jpg|Plastic film capacitors, axial and radial|product
 nitratefilm|commons|Nitrate Deterioration.jpg|A cellulose nitrate negative in the late stages of decay, the image gone|photo
 sailfilm|NASA|https://images-assets.nasa.gov/image/MSFC-1601350/MSFC-1601350~medium.jpg|The NEA Scout solar sail, aluminised polyimide film, deployed for test|product|Public domain|NASA/MSFC|https://images.nasa.gov/details/MSFC-1601350
-ptfetape|commons|PTFEpaska.jpg|A spool of PTFE thread seal tape with the end unwound|photo
+ptfetape|Flickr|https://live.staticflickr.com/3483/3951457964_c49dc6e614_b.jpg|A roll of PTFE thread seal tape|product|CC BY-SA 2.0|suzyq212|https://www.flickr.com/photos/88722241@N00/3951457964
 parafilm|commons|Parafilm roll.jpg|A roll of Parafilm|photo
 esdbag|commons|Antistatic Bags.jpg|A pink antistatic bag and a silver static-shielding bag|photo
 geomembrane|commons|Geomembrane installation.jpg|An HDPE geomembrane being laid as a landfill base liner|photo
-mulchfilm|commons|Strawberry field using black mulch in Umm Haratayn al-Gharbiyah, Homs.jpg|Strawberries planted through black plastic mulch, Homs countryside, Syria|photo
-balewrap|commons|Wrapped bales - geograph.org.uk - 7568052.jpg|Stacked silage bales wrapped in white and black film|photo
-microfilm|commons|Microfilm roll.jpg|A roll of 16 mm microfilm unspooling|photo
+mulchfilm|Flickr|https://live.staticflickr.com/65535/48857227113_d1fae4d3c9_b.jpg|Strawberries on plastic mulch with drip irrigation under it|product|CC BY 2.0|water.alternatives|https://www.flickr.com/photos/143925215@N04/48857227113
+balewrap|Flickr|https://live.staticflickr.com/2467/3787178174_afc0ac95a9_b.jpg|Hay bales wrapped in stretch film|product|CC BY 2.0|Bobolink|https://www.flickr.com/photos/24854893@N00/3787178174
+microfilm|Flickr|https://live.staticflickr.com/5497/9957207095_108d7fa8ac_b.jpg|Boxes of microfilm on archive shelves|product|CC BY-SA 2.0|Luke McKernan|https://www.flickr.com/photos/33718942@N07/9957207095
 shrinkart|Flickr|https://live.staticflickr.com/3230/2652714573_d645b61cc2_b.jpg|Shrunk pieces of biaxially oriented polystyrene sheet|photo|CC BY-SA 2.0|Nucho|https://www.flickr.com/photos/nucho/2652714573
 lcfilm|commons|Thermochromic thermometer.jpg|A liquid crystal thermometer strip reading 24 °C|photo
 feelerstock|commons|Parallel feeler gauge (imperial and metric)-92397.jpg|A feeler gauge fanned open|product

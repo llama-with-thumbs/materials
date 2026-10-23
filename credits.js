@@ -6158,15 +6158,15 @@ window.CREDITS = {
   },
   "retrosheet": {
     "file": "retrosheet.jpg",
-    "caption": "Micro-prismatic reflective tape on a car-park barrier, Washington DC",
-    "kind": "photo",
-    "title": "Reflective tape on a parking lot gate.jpg",
-    "artist": "Ser Amantio di Nicolao",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Reflective_tape_on_a_parking_lot_gate.jpg",
+    "caption": "Retroreflective vinyl in daylight, and lit by a flash beside the lens",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/3173/2927497238_23b7a0a23d_b.jpg",
+    "site": "Flickr",
+    "artist": "mandiberg",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/42586873@N00/2927497238",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
   },
   "holofoil": {
     "file": "holofoil.jpg",
@@ -6209,24 +6209,24 @@ window.CREDITS = {
     "caption": "Gold leaf being lifted with bamboo tongs at a Kanazawa workshop",
     "kind": "photo",
     "title": "Kanazawa Gold Factory.jpg",
+    "site": "Wikimedia",
     "artist": "Eckhard Pecher",
     "license": "CC BY 2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Kanazawa_Gold_Factory.jpg",
     "w": 960,
-    "h": 683,
-    "site": "Wikimedia"
+    "h": 683
   },
   "alufoil": {
     "file": "alufoil.jpg",
-    "caption": "Crumpled pieces of household aluminium foil",
+    "caption": "Crumpled aluminium foil",
     "kind": "photo",
-    "title": "A sample of aluminium foil on a piece of paper.jpg",
-    "artist": "Vitaium",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:A_sample_of_aluminium_foil_on_a_piece_of_paper.jpg",
-    "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "title": "https://live.staticflickr.com/8528/8609668552_a264112975_b.jpg",
+    "site": "Flickr",
+    "artist": "Martin Pettitt",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/95012874@N00/8609668552",
+    "w": 680,
+    "h": 1024
   },
   "clingfilm": {
     "file": "clingfilm.jpg",
@@ -6242,39 +6242,39 @@ window.CREDITS = {
   },
   "stretchwrap": {
     "file": "stretchwrap.jpg",
-    "caption": "Stretch-wrapped pallets of relief supplies, Louisiana, 2008",
-    "kind": "photo",
-    "title": "FEMA - 37688 - Pallets of disaster suppllies in a warehouse in Louisiana.jpg",
-    "artist": "Jacinta Quesada",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:FEMA_-_37688_-_Pallets_of_disaster_suppllies_in_a_warehouse_in_Louisiana.jpg",
+    "caption": "A roll of hand stretch wrap",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/65535/49465232058_40ac8efb8e_b.jpg",
+    "site": "Flickr",
+    "artist": "hireahelper",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/158517012@N07/49465232058",
     "w": 960,
-    "h": 1440,
-    "site": "Wikimedia"
+    "h": 640
   },
   "bubblewrap": {
     "file": "bubblewrap.jpg",
     "caption": "Bubble wrap with square pockets",
     "kind": "photo",
     "title": "Square-shaped bubble wrap (126wiki).jpg",
+    "site": "Wikimedia",
     "artist": "Easysayg",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Square-shaped_bubble_wrap_(126wiki).jpg",
     "w": 960,
-    "h": 768,
-    "site": "Wikimedia"
+    "h": 768
   },
   "shrinkfilm": {
     "file": "shrinkfilm.jpg",
     "caption": "A roll of heat-shrinkable polyethylene film",
     "kind": "photo",
     "title": "Heat shrinkable polyethylene film.jpg",
+    "site": "Wikimedia",
     "artist": "Suyash Dwivedi",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Heat_shrinkable_polyethylene_film.jpg",
     "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "h": 640
   },
   "ldpefilm": {
     "file": "ldpefilm.jpg",
@@ -6338,15 +6338,15 @@ window.CREDITS = {
   },
   "ptfetape": {
     "file": "ptfetape.jpg",
-    "caption": "A spool of PTFE thread seal tape with the end unwound",
-    "kind": "photo",
-    "title": "PTFEpaska.jpg",
-    "artist": "Bbarda",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:PTFEpaska.jpg",
+    "caption": "A roll of PTFE thread seal tape",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/3483/3951457964_c49dc6e614_b.jpg",
+    "site": "Flickr",
+    "artist": "suzyq212",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/88722241@N00/3951457964",
     "w": 960,
-    "h": 588,
-    "site": "Wikimedia"
+    "h": 726
   },
   "parafilm": {
     "file": "parafilm.jpg",
@@ -6386,39 +6386,39 @@ window.CREDITS = {
   },
   "mulchfilm": {
     "file": "mulchfilm.jpg",
-    "caption": "Strawberries planted through black plastic mulch, Homs countryside, Syria",
-    "kind": "photo",
-    "title": "Strawberry field using black mulch in Umm Haratayn al-Gharbiyah, Homs.jpg",
-    "artist": "Hayan Alhasan",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Strawberry_field_using_black_mulch_in_Umm_Haratayn_al-Gharbiyah,_Homs.jpg",
+    "caption": "Strawberries on plastic mulch with drip irrigation under it",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/65535/48857227113_d1fae4d3c9_b.jpg",
+    "site": "Flickr",
+    "artist": "water.alternatives",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/143925215@N04/48857227113",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
   },
   "balewrap": {
     "file": "balewrap.jpg",
-    "caption": "Stacked silage bales wrapped in white and black film",
-    "kind": "photo",
-    "title": "Wrapped bales - geograph.org.uk - 7568052.jpg",
-    "artist": "N Chadwick",
-    "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Wrapped_bales_-_geograph.org.uk_-_7568052.jpg",
+    "caption": "Hay bales wrapped in stretch film",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/2467/3787178174_afc0ac95a9_b.jpg",
+    "site": "Flickr",
+    "artist": "Bobolink",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/24854893@N00/3787178174",
     "w": 960,
-    "h": 641,
-    "site": "Wikimedia"
+    "h": 640
   },
   "microfilm": {
     "file": "microfilm.jpg",
-    "caption": "A roll of 16 mm microfilm unspooling",
-    "kind": "photo",
-    "title": "Microfilm roll.jpg",
-    "artist": "이강민",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Microfilm_roll.jpg",
+    "caption": "Boxes of microfilm on archive shelves",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/5497/9957207095_108d7fa8ac_b.jpg",
+    "site": "Flickr",
+    "artist": "Luke McKernan",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/33718942@N07/9957207095",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
   },
   "shrinkart": {
     "file": "shrinkart.jpg",
