@@ -62,12 +62,12 @@ sap|commons|Superabsorbent Polymer.jpg|Superabsorbent polymer beads, before and 
 polyurea|Flickr|https://live.staticflickr.com/3493/4040639508_28a1a9a93f_b.jpg|Two-part polyurea coating in the pail, before spraying|product|CC BY 2.0|John Loo|https://www.flickr.com/photos/8510225@N07/4040639508
 alumina|commons|Spark plug insulator.jpeg|A spark plug insulator — alumina’s highest-volume job|photo
 sapphire|commons|Sapphire boule, Kyropoulos method.jpg|A synthetic sapphire boule pulled from the melt|photo
-fusedsilica|commons|Einstein gyro gravity probe b.jpg|A Gravity Probe B fused-quartz rotor — among the roundest objects ever made|photo
+fusedsilica|Flickr|https://live.staticflickr.com/3572/4567498923_cb29327d38_b.jpg|The fused silica window of a UV-erasable EPROM; ordinary glass would block the ultraviolet|product|CC BY 2.0|sumeet basak|https://www.flickr.com/photos/9037890@N05/4567498923
 gorilla|Flickr|https://live.staticflickr.com/4130/5083750412_4d69cec42b_b.jpg|Chemically strengthened cover glass|photo|CC BY-SA 2.0|Titanas|https://www.flickr.com/photos/titanas/5083750412
 borosilicate|commons|Beakers.jpg|Borosilicate labware|photo
 si3n4|commons|Si3N4bearings.jpg|Silicon nitride bearing balls|photo
 hbn|commons|Hexagonal Boron Nitride.jpg|Hexagonal boron nitride crystals — "white graphite", soft enough to machine|photo
-pzt|commons|Maxim-1-HydrophonPZTinGehäuse.JPG|A PZT piezoelectric element in a hydrophone|photo
+pzt|Flickr|https://live.staticflickr.com/3828/13848755775_c08dab1a00_b.jpg|Ferroelectric domains meeting at a grain boundary in PZT, under the microscope|photo|CC BY 2.0|oakridgelabnews|https://www.flickr.com/photos/37940997@N05/13848755775
 wc|commons|Tungsten carbide inserts.jpg|Tungsten carbide cutting inserts|photo
 uhtc|commons|An UHTC strake composed of three different sections with different UHTC compositions.jpg|An ultra-high-temperature ceramic leading-edge strake|photo
 li900|commons|Shuttle tile.jpg|A Shuttle silica tile — 94% air, held by the edges while glowing|photo
@@ -75,7 +75,7 @@ cvddiamond|commons|Single-crystal CVD diamond disc.jpg|A single-crystal CVD diam
 quartzxtal|commons|32768 Hz quartz crystal resonator.jpg|A 32,768 Hz quartz tuning fork, the heart of every quartz watch|photo
 yag|commons|Yag-rod.jpg|An Nd:YAG laser rod|photo
 batio3|commons|BaTiO3ceramics.JPG|Barium titanate ceramic — the dielectric inside billions of capacitors|photo
-tbc|commons|Coloured ceramic thermal barrier coating on exhaust component.jpg|A ceramic thermal barrier coating on an exhaust component|photo
+tbc|NASA|https://images-assets.nasa.gov/image/GRC-1999-C-02488/GRC-1999-C-02488~medium.jpg|A coated specimen in a burner rig at NASA Glenn, the test every thermal barrier coating faces|process|Public domain|GRC|https://images.nasa.gov/details/GRC-1999-C-02488
 sorbothane|Flickr|https://live.staticflickr.com/7183/6909790478_98ec83fdeb_b.jpg|Sorbothane grommets isolating a turntable motor|product|CC BY 2.0|Turntable Guy|https://www.flickr.com/photos/alternativeroute/6909790478
 zylon|commons|NIJ LVLIIIA Kogelvrij vest, BA8001.jpg|A Level IIIA vest — Zylon was woven into vests like this until it was found to lose strength as it aged|analog
 lignostone|commons|Lignoston.jpg|Densified beech laminate|photo
@@ -169,11 +169,11 @@ mnznferrite|commons|T-10 Ferrite Core (1).jpg|A MnZn ferrite core|photo
 ifb|commons|Refractory bricks lining.jpg|Refractory brick lining|product
 sialon|commons|ASiAlONb.jpg|Sialon ceramic|photo
 beo|commons|BeO sample.jpg|A beryllium oxide ceramic sample|photo
-uraniumglass|commons|Uranium glass.jpg|Uranium glass under ultraviolet light|photo
+uraniumglass|Flickr|https://live.staticflickr.com/3820/13877095484_5fe755a9be_b.jpg|Uranium glass under ultraviolet light; the uranium makes it fluoresce green|product|CC BY 2.0|larry.nutt|https://www.flickr.com/photos/123119224@N04/13877095484
 dichroic|commons|Petit Palais Verre dichroïque Noir souriant 13012018 1.jpg|Dichroic glass|product
 photochromic|commons|Photo Grey glasses, Фото греј наочари.JPG|Photochromic spectacle lenses|product
 bonechina|commons|BLW Bone China Chocolate Cup.jpg|A bone china cup|product
-enamel|commons|Vitreous enamel sign of Japan postal mark 001.JPG|A vitreous enamel sign|product
+enamel|Flickr|https://live.staticflickr.com/5545/14622677165_532efd3675_b.jpg|A cloisonne bowl: coloured glass fused onto metal between wire cells, the oldest trick in vitreous enamel|product|CC BY 2.0|Scott 97006|https://www.flickr.com/photos/29487672@N07/14622677165
 gfrp|commons|Glass reinforced plastic SEM Stereo 200x.JPG|Glass-reinforced plastic under the electron microscope — fibres embedded in resin|photo
 cfrp|commons|Carbon fibre weave.jpg|Carbon fibre fabric|photo
 alhoneycomb|commons|Glare honeycomb.jpg|Honeycomb core bonded between thin skins|product
@@ -336,7 +336,7 @@ cupronickel|Flickr|https://live.staticflickr.com/4145/5089714818_9e5b4d545d_b.jp
 babbitt|commons|Miba Thrust Bearing.jpg|A fluid-film thrust bearing for a gas turbine — the pads carry a Babbitt lining|product
 macor|commons|60kV Feedthrough.jpg|A 60 kV vacuum feedthrough — the insulator is the kind of part Macor gets machined into|related
 chalcogenide|commons|CD-RW bottom.jpg|The underside of a CD-RW — the recording layer is a chalcogenide that switches between glass and crystal|product
-zblan|commons|Doped glasses.jpg|ZBLAN samples: praseodymium-doped, erbium-doped and undoped|photo
+zblan|NASA|https://images-assets.nasa.gov/image/0003771/0003771~medium.jpg|Sections of ZBLAN fibre, crystallised where it was drawn on the ground, clear where it was drawn in microgravity|photo|Public domain|MSFC|https://images.nasa.gov/details/0003771
 isographite|commons|Graphite crucibles.jpg|Graphite crucibles, good to about 1500 °C|product
 azs|commons|Lemington Glass Furnace - geograph.org.uk - 498767.jpg|The Lemington glass furnace, the last of its type working in Britain — fused-cast AZS lines the tank that holds molten glass|related
 nomexcore|commons|Composite honeycomb exhaust duct (2).jpg|A sectioned composite exhaust duct, showing the honeycomb core between its skins|product

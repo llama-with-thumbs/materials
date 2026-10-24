@@ -710,15 +710,15 @@ window.CREDITS = {
   },
   "fusedsilica": {
     "file": "fusedsilica.jpg",
-    "caption": "A Gravity Probe B fused-quartz rotor — among the roundest objects ever made",
-    "kind": "photo",
-    "title": "Einstein gyro gravity probe b.jpg",
-    "artist": "Unknown",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Einstein_gyro_gravity_probe_b.jpg",
+    "caption": "The fused silica window of a UV-erasable EPROM; ordinary glass would block the ultraviolet",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/3572/4567498923_cb29327d38_b.jpg",
+    "site": "Flickr",
+    "artist": "sumeet basak",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/9037890@N05/4567498923",
     "w": 960,
-    "h": 644,
-    "site": "Wikimedia"
+    "h": 638
   },
   "gorilla": {
     "file": "gorilla.jpg",
@@ -749,12 +749,12 @@ window.CREDITS = {
     "caption": "Silicon nitride bearing balls",
     "kind": "photo",
     "title": "Si3N4bearings.jpg",
+    "site": "Wikimedia",
     "artist": "David W. Richerson and Douglas W. Freitag; Oak Ridge National Laboratory (federal lab.)",
     "license": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Si3N4bearings.jpg",
     "w": 530,
-    "h": 468,
-    "site": "Wikimedia"
+    "h": 468
   },
   "hbn": {
     "file": "hbn.jpg",
@@ -770,15 +770,15 @@ window.CREDITS = {
   },
   "pzt": {
     "file": "pzt.jpg",
-    "caption": "A PZT piezoelectric element in a hydrophone",
+    "caption": "Ferroelectric domains meeting at a grain boundary in PZT, under the microscope",
     "kind": "photo",
-    "title": "Maxim-1-HydrophonPZTinGehäuse.JPG",
-    "artist": "Unknown",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Maxim-1-HydrophonPZTinGeh%C3%A4use.JPG",
+    "title": "https://live.staticflickr.com/3828/13848755775_c08dab1a00_b.jpg",
+    "site": "Flickr",
+    "artist": "oakridgelabnews",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/37940997@N05/13848755775",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 960
   },
   "wc": {
     "file": "wc.jpg",
@@ -866,15 +866,15 @@ window.CREDITS = {
   },
   "tbc": {
     "file": "tbc.jpg",
-    "caption": "A ceramic thermal barrier coating on an exhaust component",
-    "kind": "photo",
-    "title": "Coloured ceramic thermal barrier coating on exhaust component.jpg",
-    "artist": "http://www.zircotec.com",
-    "license": "Attribution",
-    "page": "https://commons.wikimedia.org/wiki/File:Coloured_ceramic_thermal_barrier_coating_on_exhaust_component.jpg",
-    "w": 450,
-    "h": 293,
-    "site": "Wikimedia"
+    "caption": "A coated specimen in a burner rig at NASA Glenn, the test every thermal barrier coating faces",
+    "kind": "process",
+    "title": "https://images-assets.nasa.gov/image/GRC-1999-C-02488/GRC-1999-C-02488~medium.jpg",
+    "site": "NASA",
+    "artist": "GRC",
+    "license": "Public domain",
+    "page": "https://images.nasa.gov/details/GRC-1999-C-02488",
+    "w": 960,
+    "h": 1200
   },
   "sorbothane": {
     "file": "sorbothane.jpg",
@@ -1994,15 +1994,15 @@ window.CREDITS = {
   },
   "uraniumglass": {
     "file": "uraniumglass.jpg",
-    "caption": "Uranium glass under ultraviolet light",
-    "kind": "photo",
-    "title": "Uranium glass.jpg",
-    "artist": "Beeblaine",
-    "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Uranium_glass.jpg",
+    "caption": "Uranium glass under ultraviolet light; the uranium makes it fluoresce green",
+    "kind": "product",
+    "title": "https://live.staticflickr.com/3820/13877095484_5fe755a9be_b.jpg",
+    "site": "Flickr",
+    "artist": "larry.nutt",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/123119224@N04/13877095484",
     "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "h": 640
   },
   "dichroic": {
     "file": "dichroic.jpg",
@@ -2042,15 +2042,15 @@ window.CREDITS = {
   },
   "enamel": {
     "file": "enamel.jpg",
-    "caption": "A vitreous enamel sign",
+    "caption": "A cloisonne bowl: coloured glass fused onto metal between wire cells, the oldest trick in vitreous enamel",
     "kind": "product",
-    "title": "Vitreous enamel sign of Japan postal mark 001.JPG",
-    "artist": "Tennen-Gas",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vitreous_enamel_sign_of_Japan_postal_mark_001.JPG",
+    "title": "https://live.staticflickr.com/5545/14622677165_532efd3675_b.jpg",
+    "site": "Flickr",
+    "artist": "Scott 97006",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/29487672@N07/14622677165",
     "w": 960,
-    "h": 639,
-    "site": "Wikimedia"
+    "h": 583
   },
   "gfrp": {
     "file": "gfrp.jpg",
@@ -3998,15 +3998,15 @@ window.CREDITS = {
   },
   "zblan": {
     "file": "zblan.jpg",
-    "caption": "ZBLAN samples: praseodymium-doped, erbium-doped and undoped",
+    "caption": "Sections of ZBLAN fibre, crystallised where it was drawn on the ground, clear where it was drawn in microgravity",
     "kind": "photo",
-    "title": "Doped glasses.jpg",
-    "artist": "Icozmuta",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Doped_glasses.jpg",
+    "title": "https://images-assets.nasa.gov/image/0003771/0003771~medium.jpg",
+    "site": "NASA",
+    "artist": "MSFC",
+    "license": "Public domain",
+    "page": "https://images.nasa.gov/details/0003771",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 1075
   },
   "isographite": {
     "file": "isographite.jpg",

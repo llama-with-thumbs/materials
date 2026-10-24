@@ -75,7 +75,7 @@ coordinates. Candidates, each an afternoon of data entry against a published dia
 - the galvanic series as a one-axis plate; Mohs; the glass transition against crystallinity
 Odds a second plate lands within a month: 85%. Odds of the Ashby chart with points: 60%.
 
-### 5. Photographs from somewhere other than Wikimedia — tooling done, 86 moved on 2026-10-22
+### 5. Photographs from somewhere other than Wikimedia — tooling done, 107 moved by 2026-10-23
 
 Decided 2026-10-22: the page should not display images taken from Wikipedia and Commons
 where any other honest source exists. Commons stays the research tool (search, describe,
@@ -93,16 +93,16 @@ Sources that allow display, in the order to try them:
 5. photographs taken for the site, which is the Bauhaus answer and the slowest
 6. Commons, only when the five above produce nothing, and recorded as such
 
-Where it stands (2026-10-22): the tooling is in (`images.txt` source column, fetch by
-source, `check.js` count), and 86 of 539 pictures now come from somewhere else: 36
+Where it stands (2026-10-23): the tooling is in (`images.txt` source column, fetch by
+source, `check.js` count), and 107 of 539 pictures now come from somewhere else: 36
 Flickr imports re-cited at Flickr after checking each page and licence, eleven re-cited
-at NASA, the Department of Energy, DVIDS, ESO, Poly Haven, GeoDIL and pxhere, and 39
+at NASA, the Department of Energy, DVIDS, ESO, Poly Haven, GeoDIL and pxhere, and 60
 replaced after looking at every candidate from Openverse (Flickr, CC only), NASA's image
 library and the Cleveland Museum of Art's CC0 collection. What did not work: Geograph
 answers 403 to any script, so its six stay on Commons; the Met and Chicago APIs returned
-nothing usable for material names; Openverse anonymous is 200 queries a day and most hits
+nothing usable for material names; Openverse anonymous is 200 queries a day (194 cards queried so far, 345 not yet) and most hits
 for alloy names are people and places called the same thing. The museum route is the one
-that pays for cloth, fibre, wood, bone, horn and instruments. The remaining 453 are mostly
+that pays for cloth, fibre, wood, bone, horn and instruments. The remaining 432 are mostly
 Commons users' own photographs of samples, which no museum or agency has; those need
 makers or our own camera.
 
