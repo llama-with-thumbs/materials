@@ -257,6 +257,8 @@ svg.fig .rule { fill: none; stroke: var(--ink); stroke-width: 1.2; pointer-event
 svg.fig .rule.red { stroke: var(--red); stroke-width: 2; }
 svg.fig .rule.dashed { stroke-dasharray: 4 4; }
 svg.fig .frame { fill: none; stroke: var(--ink); stroke-width: 1.5; pointer-events: none; }
+svg.fig .pt { fill: var(--panel); stroke: var(--ink); stroke-width: 1.3; cursor: pointer; }
+svg.fig .pt.hot { fill: var(--red); stroke: var(--red); }
 svg.fig .tick { stroke: var(--ink); stroke-width: 1.2; }
 svg.fig .tk, svg.fig .ax, svg.fig .lab { fill: var(--ink); font-size: 13px; pointer-events: none; }
 svg.fig .lab { font-size: 14px; }

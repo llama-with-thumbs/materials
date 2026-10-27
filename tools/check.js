@@ -52,11 +52,19 @@ for (const p of P) {
   for (const f of ["name", "sub", "hook"]) if (p[f].includes('"')) fail("double quote in " + f + " on plate " + p.id);
   if (p.figure) {
     const f = p.figure;
-    if (!(f.x && f.y && Array.isArray(f.zones) && f.zones.length)) fail("figure on plate " + p.id + " needs x, y and zones");
+    const hasZones = Array.isArray(f.zones) && f.zones.length;
+    const hasPoints = Array.isArray(f.points) && f.points.length;
+    if (!(f.x && f.y && (hasZones || hasPoints))) fail("figure on plate " + p.id + " needs x, y and zones or points");
     for (const z of f.zones || []) {
       if (!(z.name && z.phases && z.structure && z.pts && z.pts.length >= 3)) fail("zone " + z.id + " on plate " + p.id + " is incomplete");
       for (const [x, y] of z.pts || [])
         if (x < f.x[0] || x > f.x[1] || y < f.y[0] || y > f.y[1]) fail("zone " + z.id + " on plate " + p.id + " leaves the axes at " + x + "," + y);
+    }
+    for (const pt of f.points || []) {
+      if (!(pt.name && typeof pt.x === "number" && typeof pt.y === "number")) fail("point on plate " + p.id + " needs a name and numeric x, y");
+      else if (pt.x < f.x[0] || pt.x > f.x[1] || pt.y < f.y[0] || pt.y > f.y[1]) fail("point " + pt.name + " on plate " + p.id + " leaves the axes");
+      if (pt.id && !mids.has(pt.id)) fail("point " + pt.name + " on plate " + p.id + " links to a card that does not exist: " + pt.id);
+      if (/"/.test(pt.name || "")) fail("double quote in a point name on plate " + p.id);
     }
   } else if (p.img) {
     if (!C[p.img]) fail("no credit: plate " + p.id);

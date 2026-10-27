@@ -211,24 +211,28 @@ The three jobs, and why each material is chosen for one of them:
 ## Plates
 
 A card is one material. A plate is a figure that explains several, the way the plates in the
-Bauhaus books sat between the chapters: the iron–carbon diagram is the first. A plate is not
+Bauhaus books sat between the chapters: the iron–carbon diagram was the first, the Ashby chart
+of stiffness against density the second. A plate is not
 filed under a category, because it is not a material; it names the workshops it belongs to
 (`cats`) and appears among their cards, twice as wide, with its own running number. It also
 names the cards it explains, and those are links.
 
 A plate carries either a credited image, through `tools/images.txt` like any card, or a
-figure drawn from data. A drawn figure is a set of fields on two axes — polygons in axis
-units, with a name, the phases present, the crystal structure and a note for each — plus
-the rules, labels and ticks to draw. `figures.js` scales and draws it as flat polygons in the
-page's own ink and paper, and keeps a readout under it that follows the pointer: which field,
-which phases, what structure, and the two coordinates under the cursor. Touch works the same
-way, by tapping. Nothing in the renderer knows about iron; the next phase diagram, TTT curve
-or Ashby chart is the same code with different data. The shape of the data is documented at
-the top of `plates.js`, and `tools/check.js` refuses a zone that is incomplete or leaves the
-axes.
+figure drawn from data. A drawn figure is one of two kinds. A **field diagram** is a set of
+zones on two axes — polygons in axis units, each with a name, the phases, the crystal structure
+and a note — and the readout under it names the field, the phases, the structure and the two
+coordinates under the pointer; the iron–carbon diagram is one. A **scatter** is a layer of
+`points` instead, each a material placed by two of its properties, and the readout names the
+material, its family and where it sits; the Ashby chart is one, and its points carry the id of
+a card, so a dot is a link. Either axis can be marked `log` for a quantity that runs over many
+powers of ten. `figures.js` scales and draws it all in the page's own ink and paper, and touch
+works the same way, by tapping. Nothing in the renderer knows about iron or about stiffness; the
+next TTT curve or property chart is the same code with different data. The shape of the data is
+documented at the top of `plates.js`, and `tools/check.js` refuses a zone or a point that is
+incomplete or leaves the axes, or a point that links to a card that is not there.
 
 Plates live in `plates.js`, go through `tools/added.py` for their date like the cards, and are
-counted separately: the count line says `539 materials, 1 plate` when both are showing.
+counted separately: the count line says `539 materials, 2 plates` when they are showing.
 
 ## Papers
 

@@ -40,7 +40,7 @@ standing, not a grade.
 | **Sourcing honesty** | **lead** | Every image licensed and credited, every founding claim tied to a paper, the library linking out to the primary text. Stronger than AZoM, on a par with the best journalism |
 | **Access and cost** | **lead** | Free, open, works with JavaScript off. Spectrum, MatWeb, Material ConneXion all wall something |
 | **Depth per item** | **behind** | A card is a paragraph; Spectrum and Quanta give 3,000 words. The papers and plates are the first step toward depth on demand |
-| **Interactivity / data-viz** | **behind** | One plate so far. Quanta and Spectrum ship bespoke interactives; the Materials Project ships data |
+| **Interactivity / data-viz** | **behind** | Two plates now, a phase diagram and an Ashby chart; still behind Quanta's and Spectrum's bespoke interactives and the Materials Project's live data |
 | **Property search** | **behind** | Search is text only. MatWeb and the Materials Project filter by density, modulus, temperature *ranges*; this portal cannot answer "show me everything stiffer than steel" |
 | **Authority signals** | **behind** | The page is anonymous. Spectrum has bylines, AZoM has expert profiles. The principles and credits exist but are not surfaced on the page |
 | **Cadence / freshness** | **par** | "Material of the week" and the growing count are the heartbeat; magazines publish continually, databases update silently. No feed or newsletter yet |

@@ -61,19 +61,19 @@ A card whose best evidence is a paper should say so. Design:
 - What it must not become: a bibliography. A paper earns its place the same way a photo
   does, by being the thing the card's claim actually rests on.
 
-### 4. Plates — built, one so far
+### 4. Plates — built, two so far
 
-A plate is a figure that explains several cards (see the README). The iron–carbon diagram is
-drawn from data and answers the pointer with the field, phases, crystal structure and the
-coordinates. Candidates, each an afternoon of data entry against a published diagram:
+A plate is a figure that explains several cards (see the README). The iron–carbon diagram is a
+field diagram; the Ashby chart of stiffness against density (added 2026-10-27) is a scatter — the
+`points` layer and the log axes the renderer was always said to want, now built, with each dot
+linking to its card. Candidates still open, each an afternoon of data entry against a published one:
 - the stable iron–graphite diagram beside the metastable one, for grey iron
 - a TTT or CCT diagram for a eutectoid steel: time on a log axis, the same renderer
 - copper–zinc (brass), copper–tin (bronze), aluminium–silicon, lead–tin (solder)
 - the water phase diagram, with ice Ih and the pressure axis on a log scale
-- an Ashby chart, stiffness against density, with the cards plotted as points: needs a
-  `points` layer in `figures.js`, the one extension the renderer wants
+- a second Ashby chart on the same engine: strength against density, or toughness against modulus
 - the galvanic series as a one-axis plate; Mohs; the glass transition against crystallinity
-Odds a second plate lands within a month: 85%. Odds of the Ashby chart with points: 60%.
+Odds a third plate lands within a month: 80%.
 
 ### 5. Photographs from somewhere other than Wikimedia — tooling done, 107 moved by 2026-10-23
 
@@ -206,9 +206,9 @@ Materials Project and the UCL Institute of Making. The portal leads on curation,
 sourcing and cost; it lags on depth, interactivity, property search and visible authority. The gaps,
 each mapped to the neighbour that shows the way, highest value for the effort first:
 
-1. **An Ashby chart as a plate** — stiffness against density, the cards as points (needs a `points`
-   layer in `figures.js`; the one extension the renderer already wanted). Borrows from the Materials
-   Project and Quanta. Odds 70%.
+1. **An Ashby chart as a plate** — ✓ done 2026-10-27. Stiffness against density, 39 materials as
+   points, log axes, each dot linking to its card; the `points` layer the renderer always wanted is
+   built. Borrowed from the Materials Project and Quanta.
 2. **A compare view** — two or three cards' stats side by side. Borrows from MatWeb. Wants (7). Odds 65%.
 3. **An on-page about / method page** — surface `PRINCIPLES.md`, the credits and the sourcing rules, so
    the trust the site earns is visible. Borrows from Spectrum bylines. Small, high value. Odds 90%.
