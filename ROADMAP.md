@@ -199,6 +199,29 @@ Actions deploy so `check.js` and `render.js` gate the deploy.
 - A service worker: cache the shell and visited images, and the field guide works in the field.
 - Generated social cards per category, so a shared link shows something.
 
+## From the magazine comparison (2026-10-26)
+
+Drawn from `COMPARISON.md`, which sets the portal against IEEE Spectrum, Quanta, AZoM, MatWeb, the
+Materials Project and the UCL Institute of Making. The portal leads on curation, browsability, design,
+sourcing and cost; it lags on depth, interactivity, property search and visible authority. The gaps,
+each mapped to the neighbour that shows the way, highest value for the effort first:
+
+1. **An Ashby chart as a plate** — stiffness against density, the cards as points (needs a `points`
+   layer in `figures.js`; the one extension the renderer already wanted). Borrows from the Materials
+   Project and Quanta. Odds 70%.
+2. **A compare view** — two or three cards' stats side by side. Borrows from MatWeb. Wants (7). Odds 65%.
+3. **An on-page about / method page** — surface `PRINCIPLES.md`, the credits and the sourcing rules, so
+   the trust the site earns is visible. Borrows from Spectrum bylines. Small, high value. Odds 90%.
+4. **Related materials on each card** — two or three near neighbours from shared workshop, theme or
+   paper. Borrows from Wikipedia. Odds 80%.
+5. **A recently-added feed and per-card Open Graph images** — from `added.js`. Borrows from the magazine
+   newsletters. Overlaps the generated-social-cards note above. Odds 75%.
+6. **More plates** — TTT/CCT, copper–zinc, the galvanic series (already in §4). Odds 85%.
+7. **A structured property schema for `stats`** — ranges and units behind the free-text pairs; the
+   foundation under (1), (2) and any numeric filter. Large. Odds 55%.
+8. **A long-read layer** — a card expands to a fuller essay only where it earns one, depth kept opt-in.
+   Borrows from Spectrum and Quanta; guard against breaking the economy-of-means principle. Odds 50%.
+
 ## Deliberately not doing
 
 - **No framework, no bundler, no npm.** The page is five scripts and works off the filesystem.
