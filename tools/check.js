@@ -4,9 +4,9 @@
 const fs = require('fs'), path = require('path');
 const root = path.join(__dirname, "..");
 global.window = {};
-for (const f of ["taxonomy.js", "credits.js", "data.js", "plates.js", "papers.js"])
+for (const f of ["taxonomy.js", "credits.js", "data.js", "plates.js", "papers.js", "library.js"])
   new Function(fs.readFileSync(path.join(root, f), "utf8"))();
-const M = window.MATERIALS, C = window.CREDITS, P = window.PLATES || [], R = window.PAPERS || [];
+const M = window.MATERIALS, C = window.CREDITS, P = window.PLATES || [], R = window.PAPERS || [], L = window.LIBRARY || [];
 const CATS = window.CATS, KINDS = window.KINDS, THEMES = window.THEMES || {};
 let bad = 0;
 const fail = msg => { console.log(msg); bad++; };
@@ -82,7 +82,25 @@ for (const r of R) {
 const dupDoi = R.map(r => r.doi).filter((x, i, a) => a.indexOf(x) !== i);
 if (dupDoi.length) fail("the same DOI twice in papers.js: " + dupDoi);
 
-const ids = M.map(m => m.id).concat(P.map(p => p.id), R.map(r => r.id));
+// The library: a Bauhaus primary text, a citation with a reading link, not a material.
+const KINDS_TEXT = ["manifesto", "Bauhaus book", "essay", "book", "journal", "diary", "lecture", "catalogue"];
+for (const t of L) {
+  for (const f of ["id", "author", "role", "title", "year", "kind", "what", "cats"])
+    if (t[f] == null || t[f] === "") fail("library text " + (t.id || "?") + " is missing " + f);
+  if (!/^[a-z0-9]+$/.test(t.id || "")) fail("library id is not [a-z0-9]+: " + t.id);
+  if (!Number.isInteger(t.year) || t.year < 1900 || t.year > 2000) fail("library year is not a Bauhaus-era year: " + t.id);
+  if (!KINDS_TEXT.includes(t.kind)) fail("library " + t.id + " has an unknown kind: " + t.kind);
+  if (typeof t.pd !== "boolean") fail("library " + t.id + " needs pd: true or false");
+  if (t.read && !/^https?:\/\//.test(t.read)) fail("library read is not a URL: " + t.id);
+  if (t.pd && !t.read && !t.held) fail("library " + t.id + " is public domain but has no reading link or holding institution");
+  for (const c of t.cats || []) if (!CATS[c]) fail("library " + t.id + " names an undeclared workshop: " + c);
+  for (const id of t.cards || []) if (!M.some(m => m.id === id)) fail("library " + t.id + " names a card that does not exist: " + id);
+  for (const f of ["author", "role", "title", "english", "what", "held"])
+    if (/"/.test(t[f] || "")) fail("double quote in " + f + " of library text " + t.id);
+  if ((t.what || "").length < 40) fail("library " + t.id + ": what is too short to say anything");
+}
+
+const ids = M.map(m => m.id).concat(P.map(p => p.id), R.map(r => r.id), L.map(t => t.id));
 const dup = ids.filter((x, i) => ids.indexOf(x) !== i);
 if (dup.length) fail("DUPLICATE ids: " + dup);
 const dupNames = Object.entries(names).filter(([, v]) => v.length > 1);
@@ -132,7 +150,7 @@ const tagged = {};
 for (const m of M) for (const t of m.tags || []) tagged[t] = (tagged[t] || 0) + 1;
 
 console.log("still on Wikimedia Commons:", onCommons, "of", lines.length, "pictures");
-console.log("total:", M.length, "| plates:", P.length, "| papers:", R.length, "| photos:", M.filter(m => m.img).length,
+console.log("total:", M.length, "| plates:", P.length, "| papers:", R.length, "| library:", L.length, "| photos:", M.filter(m => m.img).length,
             "| swatches:", M.filter(m => m.swatch).length,
             "| with a second source:", M.filter(m => m.src).length);
 console.log("by category:", JSON.stringify(cats));

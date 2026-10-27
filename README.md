@@ -25,6 +25,7 @@ swatch.js      the drawn fallback used when a material has no photograph
 data.js        the catalogue — 539 entries, this is the file to edit
 plates.js      the plates: diagrams that explain several cards, drawn from data or credited
 papers.js      the papers: the paper behind a material, or one that promises something
+library.js     the library: primary Bauhaus texts, each linking out to a public-domain copy
 figures.js     draws a plate's figure from its data and runs the readout under the pointer
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
@@ -247,6 +248,27 @@ papers (Kistler's aerogel, Duwez's metallic glass, Buehler's Nitinol, Kroto's C6
 graphene, Cantor's and Yeh's high-entropy alloys) and half from 2019 to 2024 (a two-dimensional
 polymer, glassy gels, ultrawhite paint, a cooling metafabric, diamond grown at one atmosphere,
 the paper that put LK-99 to rest), each hedged where the result is still a claim.
+
+## The library
+
+A text is the fourth kind of entry. The catalogue calls itself the preliminary course continued,
+so the library is the course's own writing: the primary texts of the people who ran the Bauhaus and
+taught its *Vorkurs* — Gropius's manifesto, the fourteen *Bauhausbücher*, Klee's *Pedagogical
+Sketchbook*, Kandinsky's *Point and Line to Plane*, Moholy-Nagy's *Von Material zu Architektur* —
+and of the students who stayed to teach it. A text carries its author and their place at the
+Bauhaus, the title in its first language and in English, the year, and one sentence on what it is;
+the year stands where the photograph would be, as on a paper.
+
+The page hosts no text it has no licence to. Each entry links *out* — to a public-domain full copy
+on the Internet Archive, Project Gutenberg, Wikisource or a museum library where the work is old
+enough, and to the publisher where it is still in copyright — and says which with *public domain* or
+*in copyright*. That is the same honesty the images keep about their licence and the papers about
+their DOI.
+
+Texts live in `library.js`; `tools/check.js` refuses one without a declared workshop, a bad year or
+kind, a public-domain claim with no reading link, or a card that does not exist. They are counted
+separately, like the plates and papers: *the library* in the row across the workshops shows them
+alone. The principles these texts are the source of are written out in [`PRINCIPLES.md`](PRINCIPLES.md).
 
 ## Material of the week
 

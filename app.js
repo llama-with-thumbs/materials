@@ -14,10 +14,13 @@ const PLATES = window.PLATES || [];
 for (const p of PLATES) p.plate = true;
 const PAPERS = window.PAPERS || [];
 for (const p of PAPERS) { p.paper = true; p.name = p.name || p.material; }   // sorts by name
-// Cards, plates and papers render in one grid; a plate or a paper belongs to every
-// workshop it lists. The shelf keys show one kind on its own.
-const ALL = MATERIALS.concat(PLATES, PAPERS);
-const SHELF = { plates: "the plates", papers: "the papers" };
+const LIBRARY = window.LIBRARY || [];
+for (const p of LIBRARY) { p.text = true; p.name = p.name || p.title; }   // a Bauhaus primary text; sorts by title
+// Cards, plates, papers and texts render in one grid; a plate, paper or text belongs to
+// every workshop it lists. The shelf keys show one kind on its own.
+const ALL = MATERIALS.concat(PLATES, PAPERS, LIBRARY);
+const SHELF = { plates: "the plates", papers: "the papers", library: "the library" };
+const SHELF_SETS = { plates: PLATES, papers: PAPERS, library: LIBRARY };
 const ADDED = window.ADDED || {};
 const FIGURES = window.FIGURES;
 
@@ -46,6 +49,7 @@ const HAYSTACK = new Map(ALL.map(m => [m.id, fold([
   m.name || "", m.sub || "", m.hook || "", m.uses || "",
   (m.stats || []).map(p => p.join(" ")).join(" "),
   m.paper ? ["paper", m.material, m.title, m.authors, m.journal, m.year, m.why, m.implies].join(" ") : "",
+  m.text ? ["text library bauhaus", m.title, m.english, m.author, m.role, m.kind, m.year, m.what].join(" ") : "",
   m.cat ? CATS[m.cat] || "" : (m.plate ? "plate " : "") + (m.cats || []).map(c => CATS[c] || c).join(" "),
   (m.tags || []).map(t => THEMES[t] || t).join(" ")
 ].join(" "))]));
@@ -54,7 +58,8 @@ const HAYSTACK = new Map(ALL.map(m => [m.id, fold([
 // category. The filter buttons mix both, so one lookup answers either kind.
 const inFilter = (m, key) =>
   key === "all" || m.cat === key || (m.cats || []).includes(key) || (m.tags || []).includes(key)
-  || (key === "plates" && !!m.plate) || (key === "papers" && !!m.paper);
+  || (key === "plates" && !!m.plate) || (key === "papers" && !!m.paper)
+  || (key === "library" && !!m.text);
 
 /* ---------- rendering ---------- */
 
@@ -133,11 +138,41 @@ function paperFor(p) {
   </article>`;
 }
 
+// A text: a primary source from the Bauhaus, set in type alone like a paper, the year
+// where the picture would be. A free reading link where the work is in the public domain;
+// otherwise a link to the publisher, marked, because the page hosts no text it cannot licence.
+function textFor(p) {
+  const no = LIBRARY.indexOf(p) + 1;
+  const about = (p.cards || []).map(id => ALL.find(m => m.id === id)).filter(Boolean)
+    .map(m => `<a href="#m-${esc(m.id)}" data-goto="${esc(m.id)}">${esc(m.name)}</a>`).join(", ");
+  const read = p.read
+    ? `<a href="${esc(p.read)}" target="_blank" rel="noopener">${p.pd ? "read it free" : "find a copy"}</a>`
+    : "";
+  // Legal status on the left; a public-domain work with no free scan names where it is held.
+  const status = p.pd
+    ? (!p.read && p.held ? "public domain · held at " + p.held : "public domain")
+    : "in copyright";
+  const eng = p.english && p.english !== p.title ? `<p class="title">${esc(p.english)}</p>` : "";
+  return `<article class="card paper text" id="m-${esc(p.id)}" data-cat="${esc((p.cats || [])[0] || "")}" data-id="${esc(p.id)}">
+    <div class="year"><span>${esc(p.year)}</span><span class="tag">${esc(p.kind)}</span></div>
+    <div class="body">
+      <p class="no">library ${no}</p>
+      <h2>${esc(p.title)}</h2>
+      <p class="sub">${esc(p.author)}${p.role ? " · " + esc(p.role) : ""}</p>
+      ${eng}
+      <p class="hook">${esc(p.what)}</p>
+      ${about ? `<p class="uses"><b>on the cards:</b> ${about}</p>` : ""}
+      <p class="meta">${esc(status)}<span class="links">${read}</span></p>
+    </div>
+  </article>`;
+}
+
 function cardFor(mat) {
   let html = CARD_HTML.get(mat.id);
   if (html) return html;
   if (mat.plate) { html = plateFor(mat); CARD_HTML.set(mat.id, html); return html; }
   if (mat.paper) { html = paperFor(mat); CARD_HTML.set(mat.id, html); return html; }
+  if (mat.text) { html = textFor(mat); CARD_HTML.set(mat.id, html); return html; }
   const c = CREDITS[mat.id];
   const kind = c && KINDS[c.kind] ? c.kind : null;
   const stats = mat.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
@@ -185,10 +220,11 @@ function render() {
     ? list.map(cardFor).join("")
     : `<p class="empty">nothing matches that. try "glass", "heat" or "wheel".</p>`;
   const where = activeCat === "all" ? "" : ` · ${CATS[activeCat] || THEMES[activeCat] || SHELF[activeCat] || activeCat}`;
-  const np = list.filter(m => m.plate).length, nr = list.filter(m => m.paper).length;
+  const np = list.filter(m => m.plate).length, nr = list.filter(m => m.paper).length, nt = list.filter(m => m.text).length;
   const plates = np ? `, ${np} of ${PLATES.length} plate${PLATES.length === 1 ? "" : "s"}` : "";
   const papers = nr ? `, ${nr} of ${PAPERS.length} paper${PAPERS.length === 1 ? "" : "s"}` : "";
-  countEl.textContent = `${list.length - np - nr} of ${MATERIALS.length} materials${plates}${papers}${where}`;
+  const texts = nt ? `, ${nt} of ${LIBRARY.length} in the library` : "";
+  countEl.textContent = `${list.length - np - nr - nt} of ${MATERIALS.length} materials${plates}${papers}${texts}${where}`;
   jumpState();
 }
 
@@ -224,7 +260,7 @@ filterBar.innerHTML = [["all", "all"], ...Object.entries(CATS)]
 // A theme whose key is also a category key already has a button in the row above —
 // clicking that one picks up the tagged cards too, so a second button would do nothing new.
 const LOOSE_THEMES = Object.entries(THEMES).filter(([k]) => !CATS[k]);
-const SHELVES = Object.entries(SHELF).filter(([k]) => (k === "plates" ? PLATES : PAPERS).length);
+const SHELVES = Object.entries(SHELF).filter(([k]) => (SHELF_SETS[k] || []).length);
 if (themeBar && (LOOSE_THEMES.length || SHELVES.length)) {
   themeBar.innerHTML = '<span class="themes-label">across the workshops:</span>' +
     LOOSE_THEMES.map(([k, label]) =>

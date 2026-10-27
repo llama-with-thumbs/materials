@@ -145,6 +145,7 @@ is the only thing that changes without a commit, and it changes by arithmetic.
 | Plates (2026-10-22) | A new entity for figures that explain several cards, with a data-driven renderer and a pointer readout. The iron–carbon diagram is plate 1. |
 | Material of the week, sources register (2026-10-22) | A weekly pick by arithmetic, and `SOURCES.md` generated from the cards so the source hunt starts from what worked. See the tracks above. |
 | Bauhaus redesign (2026-10-22) | Paper by default, Jost bundled, lowercase chrome, one working red, stats as a hairline table, a running card number, categories named after the workshops they descend from. The rules and the lineage are in the README under Design, so the next change has something to be consistent with. |
+| The library and the principles (2026-10-26) | A fourth entity (`library.js`): 16 primary Bauhaus texts by the masters and the students who stayed to teach — Gropius's manifesto, the Bauhausbücher, Klee, Kandinsky, Moholy-Nagy, Itten, the Alberses, Stölzl, Brandt — each linking out to a public-domain copy or, where still in copyright, a place to find one, and saying which. `PRINCIPLES.md` writes down the house rules those texts are the source of, and the re-evaluation that checks the portal against them. `check.js` now refuses a text that claims the public domain with no reading link. |
 
 ## Next, in order
 
