@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>among the magazines and the databases · interesting materials</title>
+<meta name="description" content="where interesting materials sits against IEEE Spectrum, Quanta, AZoM, MatWeb and the Materials Project — a scorecard, and the upgrades the comparison implies.">
+<link rel="canonical" href="https://llama-with-thumbs.github.io/materials/comparison.html">
+<meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f2eb" media="(prefers-color-scheme: light)">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="interesting materials">
+<meta property="og:title" content="among the magazines and the databases">
+<meta property="og:description" content="interesting materials measured against IEEE Spectrum, Quanta, AZoM, MatWeb and the Materials Project — where it leads, where it lags, and the upgrades that follow.">
+<meta property="og:url" content="https://llama-with-thumbs.github.io/materials/comparison.html">
+<meta property="og:image" content="https://llama-with-thumbs.github.io/materials/card-comparison.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="interesting materials — among the magazines and the databases">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="among the magazines and the databases">
+<meta name="twitter:description" content="interesting materials measured against the magazines and the databases — where it leads, where it lags, and what to build next.">
+<meta name="twitter:image" content="https://llama-with-thumbs.github.io/materials/card-comparison.png">
+<script>
+  try {
+    var t = localStorage.getItem("materials-theme");
+    document.documentElement.setAttribute("data-theme", t === "dark" ? "dark" : "light");
+  } catch (e) {}
+</script>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='2' y='2' width='13' height='13' fill='%23d1261c'/><circle cx='23.5' cy='8.5' r='6.5' fill='%232448a8'/><path d='M2 30L16 15l14 15z' fill='%23f2c400'/></svg>">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  .doc { max-width: 820px; margin: 0 auto; padding: 0 20px 80px; }
+  .back { display: inline-block; margin: 28px 0 0; color: var(--dim); font-size: 15px; }
+  .back b { color: var(--ink); font-weight: 500; }
+  .doc h1 { font-size: clamp(34px, 6vw, 58px); line-height: 1.04; font-weight: 500; margin: 30px 0 0; letter-spacing: -.01em; }
+  .doc .dek { font-size: 19px; color: var(--dim); margin: 16px 0 34px; max-width: 60ch; }
+  .doc h2 { font-size: 24px; font-weight: 500; margin: 48px 0 14px; }
+  .doc p { font-size: 17px; line-height: 1.6; margin: 0 0 16px; }
+  .doc .lead { font-size: 19px; }
+  .doc table { width: 100%; border-collapse: collapse; margin: 8px 0 24px; font-size: 14.5px; }
+  .doc th, .doc td { text-align: left; vertical-align: top; padding: 9px 12px 9px 0; border-bottom: 1px solid var(--line); }
+  .doc th { color: var(--dim); font-weight: 500; border-bottom: 2px solid var(--line); }
+  .doc td:first-child, .doc th:first-child { font-weight: 500; }
+  .verdict { font-weight: 600; }
+  .verdict.lead { color: var(--red); }
+  .doc strong { font-weight: 600; }
+  .doc .foot { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 14px; color: var(--dim); }
+  .doc .foot a { color: inherit; }
+  @media (max-width: 620px) {
+    .doc table, .doc thead, .doc tbody, .doc tr, .doc th, .doc td { display: block; }
+    .doc thead { display: none; }
+    .doc tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
+    .doc td { border: 0; padding: 2px 0; }
+    .doc td:first-child { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+<main class="doc">
+  <a class="back" href="./">← <b>interesting materials</b><span class="dot" style="color:var(--red)">.</span></a>
+  <h1>among the magazines and the databases</h1>
+  <p class="dek">where this portal sits in the landscape of materials publishing, what the neighbours
+    do better, and the fixes that fall out of the comparison.</p>
+
+  <h2>the short version</h2>
+  <p class="lead">Interesting Materials is neither a magazine nor a database, and that is its whole
+    position. A magazine like IEEE Spectrum publishes a few deep, authored stories a week; a database
+    like the Materials Project holds a hundred thousand computed compounds nobody reads for pleasure.
+    This portal is the thing in between: a <strong>curated field guide</strong> of 539 materials, each
+    kept for one nameable reason, browsable like a catalogue and written like an explainer, in a single
+    design system, free. Against the magazines it wins on browsability, honesty of sourcing and cost,
+    and loses on depth, authority signals and interactive polish. The upgrades at the end come straight
+    from that second list.</p>
+
+  <h2>the landscape</h2>
+  <table>
+    <thead><tr><th>neighbour</th><th>what it is</th><th>its strength</th><th>what this portal can borrow</th></tr></thead>
+    <tbody>
+      <tr><td>IEEE Spectrum</td><td>engineering magazine</td><td>deep authored features, special-report packages, interactive infographics, a strong visual identity</td><td>interactive packages; a full-width treatment for a standout card</td></tr>
+      <tr><td>Quanta Magazine</td><td>explanatory science magazine</td><td>best-in-class explanatory writing and hand-built interactive graphics, all free</td><td>interactive diagrams as a first-class format — the plates are the start</td></tr>
+      <tr><td>AZoM</td><td>materials-science news site</td><td>huge volume, an A–Z materials index, a supplier directory, free</td><td>the A–Z index idea; none of the commerce or volume-over-care</td></tr>
+      <tr><td>MatWeb / Matmatch</td><td>property databases</td><td>hundreds of thousands of datasheets, filterable by property number</td><td>structured, comparable properties — the enabler for a compare view</td></tr>
+      <tr><td>Materials Project</td><td>computational database</td><td>~150k+ computed materials, an open API, built for researchers</td><td>property-space thinking — an Ashby chart with the cards plotted</td></tr>
+      <tr><td>Institute of Making, UCL</td><td>a physical materials library</td><td>a curated handling collection you can pick up; playful, tactile, expert</td><td>the curator's voice and the one-reason selection — the closest sibling in spirit</td></tr>
+      <tr><td>Wikipedia</td><td>the encyclopedia</td><td>comprehensive, free, linked</td><td>dense cross-linking between related entries</td></tr>
+    </tbody>
+  </table>
+
+  <h2>the scorecard</h2>
+  <p>How the portal rates against the field, axis by axis. The verdict is the portal's standing, not a grade.</p>
+  <table>
+    <thead><tr><th>axis</th><th>standing</th><th>note</th></tr></thead>
+    <tbody>
+      <tr><td>curation (one reason per item)</td><td class="verdict lead">lead</td><td>the defining move; only the Institute of Making curates <em>things</em> this way, and it is not online</td></tr>
+      <tr><td>browsability</td><td class="verdict lead">lead</td><td>539 cards, one grid, instant filter and search, shareable URL state</td></tr>
+      <tr><td>design coherence</td><td class="verdict lead">lead</td><td>one typeface, one colour, a dark theme that only swaps ink and paper</td></tr>
+      <tr><td>sourcing honesty</td><td class="verdict lead">lead</td><td>every image licensed, every founding claim tied to a paper, the library linking to the primary text</td></tr>
+      <tr><td>access and cost</td><td class="verdict lead">lead</td><td>free, open, works with JavaScript off; the others wall something</td></tr>
+      <tr><td>depth per item</td><td class="verdict">behind</td><td>a card is a paragraph; Spectrum and Quanta give 3,000 words</td></tr>
+      <tr><td>interactivity / data-viz</td><td class="verdict">behind</td><td>one plate so far, against bespoke interactives and live data</td></tr>
+      <tr><td>property search</td><td class="verdict">behind</td><td>search is text only; it cannot answer "show me everything stiffer than steel"</td></tr>
+      <tr><td>authority signals</td><td class="verdict">behind</td><td>the page is anonymous; the principles and credits exist but are not surfaced</td></tr>
+      <tr><td>cadence / freshness</td><td class="verdict">par</td><td>"material of the week" is the heartbeat; no feed or newsletter yet</td></tr>
+      <tr><td>breadth</td><td class="verdict">by choice</td><td>539 curated against millions; smallness is the point</td></tr>
+      <tr><td>accessibility / performance</td><td class="verdict lead">lead</td><td>lightweight, keyboard-reachable, degrades to readable data</td></tr>
+    </tbody>
+  </table>
+
+  <h2>where it wins, where it lags</h2>
+  <p><strong>It wins</strong> by doing the one thing none of the others does at once: choosing the
+    materials, saying why each is interesting, and showing the source, inside a design that treats the
+    reader's attention as the scarce resource. A magazine cannot be browsed; a database cannot be read;
+    the Institute of Making cannot be opened in a tab. This portal is all three at a small size.</p>
+  <p><strong>It lags</strong> wherever a reader wants to go deeper or compare: no long read when a card
+    earns one, no way to plot stiffness against density, no filter by a number, no visible author to
+    trust. These are not flaws in the idea; they are the next rooms to build, and every one has a
+    neighbour who has shown how.</p>
+
+  <h2>the upgrades that fall out of this</h2>
+  <p>Ranked by value for the effort. "Borrow from" names the neighbour whose strength each closes the
+    gap to; the odds are the chance it lands well if attempted.</p>
+  <table>
+    <thead><tr><th>upgrade</th><th>borrow from</th><th>effort</th><th>odds</th></tr></thead>
+    <tbody>
+      <tr><td>An Ashby chart as a plate — stiffness against density, the cards as points</td><td>Materials Project, Quanta</td><td>medium</td><td>70%</td></tr>
+      <tr><td>A compare view — two or three cards' stats side by side</td><td>MatWeb</td><td>medium–large</td><td>65%</td></tr>
+      <tr><td>An on-page about / method page — surface the principles and the sourcing</td><td>Spectrum bylines</td><td>small</td><td>90%</td></tr>
+      <tr><td>Related materials on each card — near neighbours by workshop or paper</td><td>Wikipedia</td><td>medium</td><td>80%</td></tr>
+      <tr><td>A recently-added feed and per-card share images</td><td>magazine newsletters</td><td>medium</td><td>75%</td></tr>
+      <tr><td>More plates — a TTT/CCT curve, copper–zinc, the galvanic series</td><td>Quanta, Spectrum</td><td>medium</td><td>85%</td></tr>
+      <tr><td>A structured property schema behind the stats — the foundation under the first two</td><td>Materials Project</td><td>large</td><td>55%</td></tr>
+      <tr><td>A long-read layer — a card expands to an essay only where it earns one</td><td>Spectrum, Quanta</td><td>large</td><td>50%</td></tr>
+    </tbody>
+  </table>
+  <p><strong>Deliberately not borrowed:</strong> the supplier directory (the portal is not a
+    marketplace), the volume-over-care model (smallness is the thesis), video and podcast (they fail the
+    economy-of-means test), and any registration wall (the page stays free and open).</p>
+
+  <p class="foot">Written 2026-10-26, set in Jost after Futura, in the manner of the Staatliches Bauhaus.
+    Sources: the <a href="https://advertise.ieee.org/wp-content/uploads/2025/01/2025-Spectrum-Media-Kit.pdf" target="_blank" rel="noopener">IEEE Spectrum media kit</a>,
+    the <a href="https://www.instituteofmaking.org.uk/materials-library" target="_blank" rel="noopener">UCL Institute of Making</a>,
+    <a href="https://www.azom.com/aboutus.aspx" target="_blank" rel="noopener">AZoM</a> and the
+    <a href="https://materialsproject.org" target="_blank" rel="noopener">Materials Project</a>.
+    <a href="./">Back to the field guide →</a></p>
+</main>
+</body>
+</html>
