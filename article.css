@@ -1,0 +1,42 @@
+/* Shared styling for the prose pages (comparison.html, about.html): the field guide's
+   type and colour from style.css, laid out for reading rather than for the grid. */
+
+.doc { max-width: 820px; margin: 0 auto; padding: 0 20px 90px; }
+
+.back { display: inline-block; margin: 28px 0 0; color: var(--dim); font-size: 15px; text-decoration: none; }
+.back:hover { color: var(--ink); }
+.back b { color: var(--ink); font-weight: 500; }
+
+.doc h1 { font-size: clamp(34px, 6vw, 58px); line-height: 1.04; font-weight: 500; margin: 30px 0 0; letter-spacing: -.01em; }
+.doc .dek { font-size: 19px; color: var(--dim); margin: 16px 0 36px; max-width: 60ch; }
+
+.doc h2 { font-size: 24px; font-weight: 500; margin: 48px 0 14px; }
+.doc h3 { font-size: 17px; font-weight: 600; margin: 24px 0 4px; }
+.doc p { font-size: 17px; line-height: 1.6; margin: 0 0 16px; }
+.doc .lead { font-size: 19px; }
+.doc strong { font-weight: 600; }
+.doc em { font-style: italic; }
+.doc a { color: inherit; }
+
+/* A rule, its source, and the practice — used on the about page. */
+.doc .src { color: var(--dim); font-size: 14.5px; font-style: italic; margin: 0 0 4px; }
+.doc ul { margin: 0 0 16px; padding-left: 20px; }
+.doc li { font-size: 17px; line-height: 1.55; margin: 0 0 8px; }
+
+/* Hairline tables — the stats look, carried to full width. */
+.doc table { width: 100%; border-collapse: collapse; margin: 8px 0 24px; font-size: 14.5px; }
+.doc th, .doc td { text-align: left; vertical-align: top; padding: 9px 12px 9px 0; border-bottom: 1px solid var(--line); }
+.doc th { color: var(--dim); font-weight: 500; border-bottom: 2px solid var(--line); }
+.doc td:first-child, .doc th:first-child { font-weight: 500; }
+.verdict { font-weight: 600; }
+.verdict.lead { color: var(--red); }
+
+.doc .foot { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 14px; color: var(--dim); line-height: 1.6; }
+
+@media (max-width: 620px) {
+  .doc table, .doc thead, .doc tbody, .doc tr, .doc th, .doc td { display: block; }
+  .doc thead { display: none; }
+  .doc tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
+  .doc td { border: 0; padding: 2px 0; }
+  .doc td:first-child { font-size: 16px; }
+}

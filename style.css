@@ -496,6 +496,9 @@ footer {
 }
 
 footer p { max-width: 70ch; }
+footer .pages { font-size: 15px; margin-bottom: 16px; }
+footer .pages a { color: var(--ink); text-decoration: none; border-bottom: 2px solid var(--red); }
+footer .pages a:hover { background: var(--red); color: var(--panel); }
 
 /* ---------- skip link ---------- */
 
