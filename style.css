@@ -414,6 +414,28 @@ main { padding: 20px 0 64px; }
 
 .empty { padding: 40px 0; color: var(--dim); }
 
+/* The band that separates the reference cards (plates, papers, the library) from the
+   materials: a full-width rule in the heavy weight the header and footer use. */
+.band {
+  grid-column: 1 / -1;
+  margin: 24px 0 0;
+  padding-top: 14px;
+  border-top: 3px solid var(--ink);
+  font-size: 14px;
+  color: var(--dim);
+}
+
+.band b { font-weight: 500; color: var(--ink); }
+
+.band b::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  background: var(--red);
+}
+
 /* ---------- jump buttons ---------- */
 
 .jump {

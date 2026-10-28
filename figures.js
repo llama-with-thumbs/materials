@@ -93,7 +93,7 @@ window.FIGURES = (() => {
     if (f.points && f.points.length) return pointReadoutHTML(f, null);
     const at = x == null ? "" : `${fmt(x, f.x[1] - f.x[0])} ${esc(f.x[2])}, ${fmt(y, f.y[1] - f.y[0])} ${esc(f.y[2])}`;
     const v = z ? { zone: z.name, at, phases: z.phases, structure: z.structure, note: z.note }
-                : { zone: "point at a field", at: "", phases: "", structure: "", note: "the readout follows the pointer: which field, which phases, what crystal structure, and the temperature and carbon under the cursor" };
+                : { zone: "point at a field", at: "", phases: "", structure: "", note: "the readout follows the pointer: which field, which phases, what crystal structure, and the " + axName(f.y[2]) + " and " + axName(f.x[2]) + " under the cursor" };
     return rows.map(([label, k]) => `<div class="ro"><b>${label}</b><span>${esc(v[k] || "")}</span></div>`).join("");
   }
 

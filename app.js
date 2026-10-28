@@ -211,20 +211,46 @@ let activeCat = "all";
 let activeSort = "old";
 let activeQuery = "";
 
+// A reference card is a plate, a paper or a library text — something that is not a material.
+const isRef = m => m.plate || m.paper || m.text;
+
 function render() {
   const q = fold(activeQuery.trim());
   const list = ALL.filter(m => inFilter(m, activeCat) && (!q || HAYSTACK.get(m.id).includes(q)));
   const cmp = SORTS[activeSort][1];
-  if (cmp) list.sort(cmp);
-  grid.innerHTML = list.length
-    ? list.map(cardFor).join("")
-    : `<p class="empty">nothing matches that. try "glass", "heat" or "wheel".</p>`;
+
+  // The materials fill the grid and answer the sort; the reference cards gather after them
+  // in a fixed order (plates, papers, then the library) under a labelled band, so they never
+  // scatter among the materials. A shelf view is all one kind, so it needs no band.
+  const shelf = !!SHELF[activeCat];
+  const mats = list.filter(m => !isRef(m));
+  const refs = list.filter(isRef);
+  if (cmp) mats.sort(cmp);
+
+  let html;
+  if (!list.length) {
+    html = `<p class="empty">nothing matches that. try "glass", "heat" or "wheel".</p>`;
+  } else if (shelf) {
+    html = refs.map(cardFor).join("");
+  } else {
+    html = mats.map(cardFor).join("");
+    if (refs.length) {
+      const band = mats.length
+        ? `<div class="band"><b>reference</b> — plates, papers and the library: the things that are not materials</div>`
+        : "";
+      html += band + refs.map(cardFor).join("");
+    }
+  }
+  grid.innerHTML = html;
+
   const where = activeCat === "all" ? "" : ` · ${CATS[activeCat] || THEMES[activeCat] || SHELF[activeCat] || activeCat}`;
-  const np = list.filter(m => m.plate).length, nr = list.filter(m => m.paper).length, nt = list.filter(m => m.text).length;
-  const plates = np ? `, ${np} of ${PLATES.length} plate${PLATES.length === 1 ? "" : "s"}` : "";
-  const papers = nr ? `, ${nr} of ${PAPERS.length} paper${PAPERS.length === 1 ? "" : "s"}` : "";
-  const texts = nt ? `, ${nt} of ${LIBRARY.length} in the library` : "";
-  countEl.textContent = `${list.length - np - nr - nt} of ${MATERIALS.length} materials${plates}${papers}${texts}${where}`;
+  const np = refs.filter(m => m.plate).length, nr = refs.filter(m => m.paper).length, nt = refs.filter(m => m.text).length;
+  const parts = [];
+  if (!shelf) parts.push(`${mats.length} of ${MATERIALS.length} materials`);
+  if (np) parts.push(`${np} of ${PLATES.length} plate${PLATES.length === 1 ? "" : "s"}`);
+  if (nr) parts.push(`${nr} of ${PAPERS.length} paper${PAPERS.length === 1 ? "" : "s"}`);
+  if (nt) parts.push(`${nt} of ${LIBRARY.length} in the library`);
+  countEl.textContent = (parts.join(", ") || `0 of ${MATERIALS.length} materials`) + where;
   jumpState();
 }
 
@@ -262,11 +288,17 @@ filterBar.innerHTML = [["all", "all"], ...Object.entries(CATS)]
 const LOOSE_THEMES = Object.entries(THEMES).filter(([k]) => !CATS[k]);
 const SHELVES = Object.entries(SHELF).filter(([k]) => (SHELF_SETS[k] || []).length);
 if (themeBar && (LOOSE_THEMES.length || SHELVES.length)) {
-  themeBar.innerHTML = '<span class="themes-label">across the workshops:</span>' +
-    LOOSE_THEMES.map(([k, label]) =>
-      `<button class="pill theme" data-cat="${k}">${esc(label)}</button>`).join("") +
-    SHELVES.map(([k, label]) =>
-      `<button class="pill shelf" data-cat="${k}">${esc(label)}</button>`).join("");
+  // Two groups, each with its own label: themes are jobs that cut across the workshops;
+  // shelves are the separate collections (the plates, the papers, the library).
+  const themes = LOOSE_THEMES.length
+    ? '<span class="themes-label">across the workshops:</span>' +
+      LOOSE_THEMES.map(([k, label]) => `<button class="pill theme" data-cat="${k}">${esc(label)}</button>`).join("")
+    : "";
+  const shelves = SHELVES.length
+    ? '<span class="themes-label shelf-label">collections:</span>' +
+      SHELVES.map(([k, label]) => `<button class="pill shelf" data-cat="${k}">${esc(label)}</button>`).join("")
+    : "";
+  themeBar.innerHTML = themes + shelves;
 }
 
 function setCat(key) {
@@ -371,6 +403,7 @@ function goTo(id) {
   setCat("all");
   const card = document.getElementById("m-" + id);
   if (!card || !card.classList) return;
+  for (const was of grid.querySelectorAll(".picked")) was.classList.remove("picked");
   card.classList.add("picked");
   card.scrollIntoView({ behavior: "smooth", block: "center" });
 }
