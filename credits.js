@@ -6467,5 +6467,53 @@ window.CREDITS = {
     "w": 960,
     "h": 1280,
     "site": "Wikimedia"
+  },
+  "aerogel2": {
+    "file": "aerogel2.jpg",
+    "caption": "A slab of silica aerogel supporting a brick — the JPL demonstration of how much it holds for its own slight weight",
+    "kind": "photo",
+    "title": "Brick of aerogel.jpg",
+    "site": "Wikimedia",
+    "artist": "Courtesy NASA/JPL-Caltech",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Brick_of_aerogel.jpg",
+    "w": 752,
+    "h": 794
+  },
+  "nitinol2": {
+    "file": "nitinol2.jpg",
+    "caption": "Nitinol in its raw form as drawn wire, before it is shaped and trained to remember",
+    "kind": "photo",
+    "title": "Nitinol draht.jpg",
+    "site": "Wikimedia",
+    "artist": "Petermaerki",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nitinol_draht.jpg",
+    "w": 960,
+    "h": 739
+  },
+  "nacre2": {
+    "file": "nacre2.jpg",
+    "caption": "The iridescent inside of an abalone shell — nacre itself, the layered material the inlay is cut from",
+    "kind": "photo",
+    "title": "AbaloneInside.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AbaloneInside.jpg",
+    "w": 640,
+    "h": 480
+  },
+  "cork2": {
+    "file": "cork2.jpg",
+    "caption": "Cork oaks after the harvest — the outer bark is stripped and grows back over about nine years",
+    "kind": "process",
+    "title": "Cork oak forest with harvested bark.jpg",
+    "site": "Wikimedia",
+    "artist": "Omar Hoftun",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cork_oak_forest_with_harvested_bark.jpg",
+    "w": 960,
+    "h": 603
   }
 };

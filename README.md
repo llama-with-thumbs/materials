@@ -429,6 +429,14 @@ No entry falls back to a drawn swatch, and none shows a molecular or crystal str
 material itself has never been photographed freely, the card carries the closest real object
 instead.
 
+A few cards carry a second view, paged in the lightbox — 4 so far: the raw material beside the
+finished part (Nitinol wire and the cut spoons), the shell beside the inlay (nacre), the harvest
+beside the bark (cork), the property beside the thing (a brick resting on a slab of aerogel). A
+card with more than one view says so, bottom-left, and the lightbox pages with arrows, dots or the
+arrow keys. Each extra view is a credit id of its own with its own line in `tools/images.txt`, so
+it is sourced and licensed exactly like the rest; add one by listing its id in a material's
+`extra` and running `tools/fetch_images.py`.
+
 Three photographs are representative rather than exact and say so in their captions: the Vulkollan
 card shows a cast polyurethane wheel of the same family, the AlON card shows transparent
 spinel, the closely related ceramic, and the graphene card shows a commercial one-to-three-layer

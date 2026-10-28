@@ -39,7 +39,7 @@ Checked off as each is done. Started 2026-10-27.*
 
 ## Reach
 
-- [ ] **7. One picture per card, and 257 of them are stand-ins.** 257 of the 539 cards show a
+- [x] **7. One picture per card, and 257 of them are stand-ins.** 257 of the 539 cards show a
   product, a process, a relative or a similar example rather than the material itself, and many
   materials have a second genuinely informative view — the raw form beside the finished part, the
   structure beside the use. There is no way to show more than one. **Fix:** a gallery capability

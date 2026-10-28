@@ -67,16 +67,25 @@ function esc(s) {
   return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 }
 
+// One photograph from a credit id. Width and height come from the file on disk so the
+// grid does not jump about while the pictures arrive.
+function imgFrom(creditId, eager) {
+  const c = CREDITS[creditId];
+  if (!c) return "";
+  const dim = c.w && c.h ? ` width="${c.w}" height="${c.h}"` : "";
+  const load = eager ? "" : ' loading="lazy"';
+  return `<img src="images/${esc(c.file)}" alt="${esc(c.caption)}"${dim}${load} decoding="async">`;
+}
+
 function shotFor(mat, eager) {
-  const c = CREDITS[mat.id];
-  if (mat.img && c) {
-    // Width and height come from the file on disk so the grid does not jump about
-    // while the photographs arrive.
-    const dim = c.w && c.h ? ` width="${c.w}" height="${c.h}"` : "";
-    const load = eager ? "" : ' loading="lazy"';
-    return `<img src="images/${esc(c.file)}" alt="${esc(c.caption)}"${dim}${load} decoding="async">`;
-  }
+  if (mat.img && CREDITS[mat.id]) return imgFrom(mat.id, eager);
   return makeSwatch(mat);
+}
+
+// The photographs for a card's lightbox: the main one, then any extra views, each a credit
+// id of its own. A card with no photograph (a drawn swatch) has an empty gallery.
+function galleryOf(mat) {
+  return [mat.id, ...(mat.extra || [])].filter(id => CREDITS[id]);
 }
 
 const catTag = cat => CAT_TAGS[cat] || (CATS[cat] || "").split(" ")[0];
@@ -184,10 +193,11 @@ function cardFor(mat) {
   const themes = (mat.tags || []).filter(t => THEMES[t])
     .map(t => `<button class="theme" data-cat="${esc(t)}">${esc(THEMES[t])}</button>`).join("");
   html = `<article class="card" id="m-${esc(mat.id)}" data-cat="${esc(mat.cat)}" data-id="${esc(mat.id)}">
-    <button class="shot" data-shot="${esc(mat.id)}" title="enlarge">
+    <button class="shot" data-shot="${esc(mat.id)}" title="${mat.extra && mat.extra.length ? "enlarge — " + (mat.extra.length + 1) + " views" : "enlarge"}">
       ${shotFor(mat)}
       <span class="tag">${esc(catTag(mat.cat))}</span>
       ${kind ? `<span class="tag kind">${esc(KINDS[kind])}</span>` : ""}
+      ${mat.extra && mat.extra.length ? `<span class="tag more">+${mat.extra.length} more</span>` : ""}
     </button>
     <div class="body">
       <p class="no">no. ${seq(mat) + 1}</p>
@@ -443,23 +453,68 @@ addEventListener("resize", jumpState);
 const lb = document.getElementById("lb");
 const lbInner = document.getElementById("lb-inner");
 
+// The open lightbox: a gallery of one or more views of one material, paged in place.
+let lbGal = [], lbI = 0, lbName = "", lbSub = "", lbSwatch = "";
+
+// The credit line for one image; the drawn-swatch case when the card has no photograph.
+function lbCredit(id) {
+  const c = CREDITS[id];
+  if (!c) return `<span class="credit">drawn illustration — no freely licensed photograph of this material was available.</span>`;
+  return `<span class="credit">${KINDS[c.kind] ? "shows " + esc(KINDS[c.kind]) + ". " : ""}${esc(c.caption)} — ${esc(c.artist)}, ${esc(c.license)},
+       <a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.site === "Wikimedia" || !c.site ? "Wikimedia Commons" : c.site)}</a></span>`;
+}
+
+function lbShow() {
+  const n = lbGal.length;
+  const id = n ? lbGal[lbI] : null;
+  const pic = id ? imgFrom(id, true) : lbSwatch;
+  // With more than one view: arrows over the picture, a counter, and a dot per view.
+  const nav = n > 1
+    ? `<button class="lb-nav prev" type="button" aria-label="previous view">‹</button>
+       <button class="lb-nav next" type="button" aria-label="next view">›</button>
+       <span class="lb-count">${lbI + 1} / ${n}</span>` : "";
+  const dots = n > 1
+    ? `<div class="lb-dots">${lbGal.map((_, i) => `<button class="lb-dot${i === lbI ? " on" : ""}" type="button" data-i="${i}" aria-label="view ${i + 1}"></button>`).join("")}</div>` : "";
+  lbInner.innerHTML = `<button id="lb-close" type="button" aria-label="close">×</button>
+    <figure>${pic}${nav}
+    <figcaption><strong>${esc(lbName)}</strong> · ${esc(lbSub)}${lbCredit(id)}${dots}</figcaption></figure>`;
+}
+
 grid.addEventListener("click", e => {
   const btn = e.target.closest("[data-shot]");
   if (!btn) return;
   const mat = ALL.find(m => m.id === btn.dataset.shot);
-  const c = CREDITS[mat.id];
-  const credit = c
-    ? `<span class="credit">${KINDS[c.kind] ? "shows " + esc(KINDS[c.kind]) + ". " : ""}${esc(c.caption)} — ${esc(c.artist)}, ${esc(c.license)},
-         <a href="${esc(c.page)}" target="_blank" rel="noopener">${esc(c.site === "Wikimedia" || !c.site ? "Wikimedia Commons" : c.site)}</a></span>`
-    : `<span class="credit">drawn illustration — no freely licensed photograph of this material was available.</span>`;
-  lbInner.innerHTML = `<button id="lb-close" type="button" aria-label="close">×</button>
-    <figure>${shotFor(mat, true)}
-    <figcaption><strong>${esc(mat.name)}</strong> · ${esc(mat.sub)}${credit}</figcaption></figure>`;
+  lbGal = galleryOf(mat);
+  lbI = 0;
+  lbName = mat.name;
+  lbSub = mat.sub;
+  lbSwatch = lbGal.length ? "" : makeSwatch(mat);
+  lbShow();
   lb.showModal();
 });
 
-// Close on the backdrop or the button, but not on the photograph or its caption —
-// clicking the thing you came to look at should not throw it away.
+// Page the gallery on the arrows or the dots, without closing the dialog.
+lbInner.addEventListener("click", e => {
+  const nav = e.target.closest(".lb-nav");
+  const dot = e.target.closest(".lb-dot");
+  if (nav && lbGal.length > 1) {
+    lbI = (lbI + (nav.classList.contains("next") ? 1 : -1) + lbGal.length) % lbGal.length;
+    lbShow();
+  } else if (dot) {
+    lbI = +dot.dataset.i;
+    lbShow();
+  }
+});
+
+// The arrow keys page the gallery; the dialog's own Escape still closes it.
+lb.addEventListener("keydown", e => {
+  if (lbGal.length < 2) return;
+  if (e.key === "ArrowRight") { lbI = (lbI + 1) % lbGal.length; lbShow(); }
+  else if (e.key === "ArrowLeft") { lbI = (lbI - 1 + lbGal.length) % lbGal.length; lbShow(); }
+});
+
+// Close on the backdrop or the button, but not on the photograph, the caption or the
+// paging controls — clicking the thing you came to look at should not throw it away.
 lb.addEventListener("click", e => {
   if (e.target === lb || e.target.closest("#lb-close")) lb.close();
 });

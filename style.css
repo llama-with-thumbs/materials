@@ -339,6 +339,15 @@ main { padding: 20px 0 64px; }
   background: var(--red);
 }
 
+/* A card with more than one view says how many, bottom-left, so the reader knows the
+   enlarge holds a small gallery. */
+.shot .tag.more {
+  left: 0;
+  top: auto;
+  bottom: 0;
+  background: var(--ink);
+}
+
 /* ---------- card body ---------- */
 
 .body {
@@ -509,6 +518,49 @@ dialog#lb::backdrop { background: rgba(0, 0, 0, 0.9); }
 
 #lb figcaption .credit { display: block; margin-top: 4px; font-size: 12px; color: #bbb; }
 #lb figcaption a { color: #fff; }
+
+/* Paging a gallery of views: arrows over the picture, a counter, a dot per view.
+   Fixed colours — these sit on the black lightbox, not on the themed page. */
+.lb-nav {
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+  width: 46px;
+  height: 64px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 0;
+  font-size: 34px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lb-nav:hover { background: var(--red); }
+.lb-nav.prev { left: 0; }
+.lb-nav.next { right: 0; }
+
+.lb-count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3px 8px;
+  background: #111;
+  color: #fff;
+  font-size: 12px;
+}
+
+.lb-dots { display: flex; gap: 8px; margin-top: 10px; }
+
+.lb-dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  background: none;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.lb-dot.on { background: var(--red); border-color: var(--red); }
 
 /* ---------- footer ---------- */
 

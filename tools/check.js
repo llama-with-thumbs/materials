@@ -25,6 +25,13 @@ for (const m of M) {
     if (!C[m.img]) fail("no credit: " + m.id);
     else if (!fs.existsSync(path.join(root, "images", C[m.img].file))) fail("no file: " + C[m.img].file);
   } else if (!m.swatch) fail("no image or swatch: " + m.id);
+  // Extra views: each is a credit id of its own, with its own file and images.txt line.
+  if (m.extra && !Array.isArray(m.extra)) fail("extra should be a list on " + m.id);
+  for (const e of m.extra || []) {
+    if (typeof e !== "string") fail("extra image id is not a string on " + m.id);
+    else if (!C[e]) fail("no credit for extra image " + e + " on " + m.id);
+    else if (!fs.existsSync(path.join(root, "images", C[e].file))) fail("no file for extra image " + e + " on " + m.id);
+  }
   if (!Array.isArray(m.stats) || m.stats.length !== 3) fail("stats should be three pairs on " + m.id);
   if (m.stats.some(s => s.length !== 2)) fail("bad stat on " + m.id);
   if (m.link && !/^https?:\/\//.test(m.link)) fail("link is not a URL on " + m.id);
@@ -111,10 +118,15 @@ for (const t of L) {
 const ids = M.map(m => m.id).concat(P.map(p => p.id), R.map(r => r.id), L.map(t => t.id));
 const dup = ids.filter((x, i) => ids.indexOf(x) !== i);
 if (dup.length) fail("DUPLICATE ids: " + dup);
+const extraIds = M.flatMap(m => m.extra || []);
+const extraDup = extraIds.filter((x, i) => extraIds.indexOf(x) !== i);
+if (extraDup.length) fail("the same extra image id on two cards: " + extraDup);
+for (const e of extraIds) if (ids.includes(e)) fail("extra image id collides with a card id: " + e);
 const dupNames = Object.entries(names).filter(([, v]) => v.length > 1);
 if (dupNames.length) fail("duplicate names: " + JSON.stringify(dupNames));
 
-const unused = Object.keys(C).filter(k => !ids.includes(k));
+const credited = new Set(ids.concat(extraIds));
+const unused = Object.keys(C).filter(k => !credited.has(k));
 if (unused.length) console.log("credits not used by any card: " + unused.join(", "));
 
 const titles = {};
@@ -143,10 +155,10 @@ for (const l of lines) {
 const onCommons = lines.filter(l => l.split("|")[1] === "commons").length;
 const imgDup = imgIds.filter((x, i) => imgIds.indexOf(x) !== i);
 if (imgDup.length) fail("duplicate ids in images.txt: " + imgDup);
-const withImg = new Set(M.filter(m => m.img).map(m => m.id).concat(P.filter(p => p.img).map(p => p.id)));
-const missingLine = ids.filter(i => withImg.has(i) && !imgIds.includes(i));
+const withImg = new Set(M.filter(m => m.img).map(m => m.id).concat(P.filter(p => p.img).map(p => p.id), extraIds));
+const missingLine = [...withImg].filter(i => !imgIds.includes(i));
 if (missingLine.length) fail("no images.txt line for: " + missingLine.join(", "));
-const strayLine = imgIds.filter(i => !ids.includes(i));
+const strayLine = imgIds.filter(i => !withImg.has(i) && !ids.includes(i));
 if (strayLine.length) fail("images.txt lines for cards that no longer exist: " + strayLine.join(", "));
 
 // Files on disk that nothing points at: dead weight in a 97 MB repository.

@@ -542,3 +542,7 @@ shrinkart|Flickr|https://live.staticflickr.com/3230/2652714573_d645b61cc2_b.jpg|
 lcfilm|commons|Thermochromic thermometer.jpg|A liquid crystal thermometer strip reading 24 °C|photo
 feelerstock|commons|Parallel feeler gauge (imperial and metric)-92397.jpg|A feeler gauge fanned open|product
 greenhousefilm|commons|Interior view of strawberry high tunnel greenhouse with garlic intercropping in Umm Haratayn al-Gharbiyah, Syria.jpg|Inside a polyethylene high tunnel of strawberries, Homs countryside, Syria|photo
+aerogel2|commons|Brick of aerogel.jpg|A slab of silica aerogel supporting a brick — the JPL demonstration of how much it holds for its own slight weight|photo
+nitinol2|commons|Nitinol draht.jpg|Nitinol in its raw form as drawn wire, before it is shaped and trained to remember|photo
+nacre2|commons|AbaloneInside.jpg|The iridescent inside of an abalone shell — nacre itself, the layered material the inlay is cut from|photo
+cork2|commons|Cork oak forest with harvested bark.jpg|Cork oaks after the harvest — the outer bark is stripped and grows back over about nine years|process

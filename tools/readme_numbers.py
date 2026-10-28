@@ -13,11 +13,18 @@ ROOT = os.environ.get("MATERIALS_ROOT") or os.path.dirname(os.path.dirname(os.pa
 data = open(os.path.join(ROOT, "data.js"), encoding="utf-8").read()
 total = data.count('\n  id: "')
 cats = collections.Counter(re.findall(r'cat: "([^"]+)"', data))
+# Extra views are additional images.txt lines keyed by their own id, not a material's own
+# card picture, so they are left out of the per-material image breakdown below.
+extra_ids = set(re.findall(r'"([a-z0-9]+)"', " ".join(re.findall(r'extra:\s*\[([^\]]*)\]', data))))
 kinds = collections.Counter()
+extra_n = 0
 for line in open(os.path.join(ROOT, "tools", "images.txt"), encoding="utf-8"):
     line = line.strip()
     if line and not line.startswith("#"):
         p = line.split("|")
+        if p[0] in extra_ids:
+            extra_n += 1
+            continue
         kinds[p[4]] += 1
 plates = kinds.pop("plate", 0)        # plates have images too, but they are not materials
 assert sum(kinds.values()) == total, (sum(kinds.values()), total)
@@ -45,6 +52,8 @@ sub1(r"- \*\*\d+ show something made from it\*\*", "- **%d show something made f
 sub1(r"- \*\*\d+ show a similar example\*\*", "- **%d show a similar example**" % kinds["analog"])
 sub1(r"- \*\*\d+ show a close relative\*\*", "- **%d show a close relative**" % kinds["related"])
 sub1(r"- \*\*\d+ show how it is made\*\*", "- **%d show how it is made**" % kinds["process"])
+sub1(r"A few cards carry a second view, paged in the lightbox — \d+ so far",
+     "A few cards carry a second view, paged in the lightbox — %d so far" % extra_n)
 open(p, "w", encoding="utf-8", newline="\n").write(s)
 print("README: %d substitutions | total %d | %s" % (n, total, dict(kinds)))
 print("categories:", dict(cats))

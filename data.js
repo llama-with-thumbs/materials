@@ -543,7 +543,7 @@ window.MATERIALS = [
 /* ---------- METALS & ALLOYS ---------- */
 {
   id: "nitinol", cat: "metal", name: "Nitinol",
-  sub: "NiTi shape-memory alloy", img: "nitinol",
+  sub: "NiTi shape-memory alloy", img: "nitinol", extra: ["nitinol2"],
   hook: "Bend it cold and it stays bent; warm it and it snaps back to the shape it was trained into. Shift the composition slightly and it becomes superelastic at room temperature instead.",
   stats: [["Recoverable strain", "~8%"], ["Transition", "−20 to 110 °C"], ["Mix", "~55% Ni, 45% Ti"]],
   uses: "Self-expanding stents, eyeglass frames, actuators, orthodontic wire.",
@@ -1362,7 +1362,7 @@ window.MATERIALS = [
 },
 {
   id: "aerogel", cat: "composite", name: "Silica aerogel",
-  sub: "“frozen smoke”", img: "aerogel",
+  sub: "“frozen smoke”", img: "aerogel", extra: ["aerogel2"],
   hook: "A gel with the liquid removed and the structure left standing. Almost all of it is air, held in pores too small for air molecules to carry heat across.",
   stats: [["Density", "from 0.001 g/cm³"], ["Conductivity", "0.012–0.02 W/m·K"], ["Air", "~99.8%"]],
   uses: "Spacecraft and pipeline insulation, comet dust capture, insulating blankets.",
@@ -3042,7 +3042,7 @@ window.MATERIALS = [
 /* ---------- NATURAL & BIOLOGICAL ---------- */
 {
   id: "nacre", cat: "natural", name: "Nacre",
-  sub: "mother of pearl, aragonite and conchiolin", img: "nacre",
+  sub: "mother of pearl, aragonite and conchiolin", img: "nacre", extra: ["nacre2"],
   hook: "95% chalk, and three thousand times tougher than chalk. Microscopic aragonite tiles are laid like brickwork with a protein mortar between them; a crack cannot run straight, it has to go around every tile, and it runs out of energy trying.",
   stats: [["Mineral", "~95% aragonite"], ["Toughness", "~3000× the mineral"], ["Tile", "~0.5 µm thick"]],
   uses: "Inlay and buttons, pearls; the structural template for a generation of tough composites.",
@@ -3090,7 +3090,7 @@ window.MATERIALS = [
 },
 {
   id: "cork", cat: "natural", name: "Cork",
-  sub: "suberised bark of Quercus suber", img: "cork",
+  sub: "suberised bark of Quercus suber", img: "cork", extra: ["cork2"],
   hook: "Fourteen-sided closed cells full of air, and almost uniquely among materials it has a Poisson's ratio of zero — squeeze it and it does not bulge sideways. That is the only reason a cork can be pushed into a bottle neck at all. Harvested without felling the tree.",
   stats: [["Poisson's ratio", "~0"], ["Cells", "~40 million/cm³"], ["Harvest", "every 9 years, tree lives"]],
   uses: "Wine closures, flooring, gaskets, cricket and baseball cores, spacecraft ablative layers.",
