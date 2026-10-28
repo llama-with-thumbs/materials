@@ -546,3 +546,9 @@ aerogel2|commons|Brick of aerogel.jpg|A slab of silica aerogel supporting a bric
 nitinol2|commons|Nitinol draht.jpg|Nitinol in its raw form as drawn wire, before it is shaped and trained to remember|photo
 nacre2|commons|AbaloneInside.jpg|The iridescent inside of an abalone shell — nacre itself, the layered material the inlay is cut from|photo
 cork2|commons|Cork oak forest with harvested bark.jpg|Cork oaks after the harvest — the outer bark is stripped and grows back over about nine years|process
+galalith|commons|Haarkam van galalith met half ronde rug met een ajour gesneden draak in het midden, BK-1977-231.jpg|A galalith hair comb carved with a dragon, in imitation of ivory|product
+celluloid|commons|Old celluloid film rolls (5201105455).jpg|Rolls of old celluloid cine film at a restoration studio|product
+melamine|commons|Melamine dinnerware.JPG|Melamine tableware, the pattern printed under a clear resin layer|product
+urearesin|commons|Beetleware jelly moulds.JPG|Mottled Beetleware jelly moulds in urea-formaldehyde|product
+pcl|commons|PCL beads.jpg|Polycaprolactone beads about 3.5 mm across, which soften in hot water|photo
+psu|commons|Polysulfone food pans.jpg|Amber polysulfone food pans, the colour natural to the resin|product

@@ -1,6 +1,6 @@
 # Interesting Materials
 
-A single-page field guide to 539 materials, each here for a reason of its own — a polyurethane
+A single-page field guide to 545 materials, each here for a reason of its own — a polyurethane
 that carries tons without overheating, a ceramic that clamps its own cracks shut, a lashing that
 tightens itself as it dries, an airbag woven closed so it has no seam to burst, a film base that
 eats itself. Some are here for what they do, some for how they are made, some for how they fail,
@@ -22,14 +22,14 @@ style.css      the design system: paper by default, a dark toggle, Jost
 taxonomy.js    the vocabulary: categories, picture kinds, cross-cutting themes
 app.js         rendering, search, filters, sort, shareable URL state, lightbox
 swatch.js      the drawn fallback used when a material has no photograph
-data.js        the catalogue — 539 entries, this is the file to edit
+data.js        the catalogue — 545 entries, this is the file to edit
 plates.js      the plates: diagrams that explain several cards, drawn from data or credited
 papers.js      the papers: the paper behind a material, or one that promises something
 library.js     the library: primary Bauhaus texts, each linking out to a public-domain copy
 figures.js     draws a plate's figure from its data and runs the readout under the pointer
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
-images/        539 images, 960 px wide
+images/        545 images, 960 px wide
 fonts/         Jost, variable weight, latin and latin-ext, with its OFL licence
 robots.txt     sitemap.xml   for search engines
 LICENSE        MIT for the text and the tools; the photographs keep their own licences
@@ -114,7 +114,7 @@ table says so rather than pretending.
 
 | `cat` | Shown as | Entries |
 |---|---|---|
-| `polymer` | plastics | 59 |
+| `polymer` | plastics | 65 |
 | `metal` | metal | 46 |
 | `ceramic` | clay and glass | 50 |
 | `electronic` | light and current | 29 |
@@ -394,7 +394,7 @@ starting a round, so the same dead ends are not walked twice.
 
 ## Images and licensing
 
-All 539 entries carry an image, credited to where it came from — a photographer's Flickr
+All 545 entries carry an image, credited to where it came from — a photographer's Flickr
 page, an agency, a museum, a maker, or Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
@@ -402,9 +402,9 @@ the lightbox. If you redistribute this page, keep those credits. No two cards us
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 
-282 are photographs of the material itself. 257 are not, and say so in red on the corner of the image:
+283 are photographs of the material itself. 262 are not, and say so in red on the corner of the image:
 
-- **194 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **199 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a

@@ -539,6 +539,55 @@ window.MATERIALS = [
   link: "https://en.wikipedia.org/wiki/Polybenzimidazole_fiber",
   src: ["Boedeker: Celazole", "https://www.boedeker.com/Family/Celazole"]
 },
+{
+  id: "galalith", cat: "polymer", name: "Galalith",
+  sub: "casein formaldehyde, milk-protein plastic", img: "galalith",
+  hook: "Made by soaking the protein from skimmed milk in formaldehyde until it hardens into something close to ivory or horn. It was the first plastic convincing enough to counterfeit both, so it took over the button and comb trade for a generation. Because the formaldehyde cure is one-way it can only be carved and cut, never moulded a second time, and it swells and warps if it stays wet.",
+  stats: [["From", "skim-milk casein"], ["Set by", "formaldehyde soak"], ["Weakness", "swells in water"]],
+  uses: "Buttons, combs, knitting needles, fountain-pen trim, Art Deco jewellery.",
+  link: "https://en.wikipedia.org/wiki/Galalith"
+},
+{
+  id: "celluloid", cat: "polymer", name: "Celluloid",
+  sub: "cellulose nitrate, camphor-plasticised", img: "celluloid",
+  hook: "The first true thermoplastic: cotton cellulose nitrated and softened with camphor into a clear horn that could be moulded into combs, collars, dice and cine film. It opened the plastics age in the 1860s, but it carries its own oxidiser built in. Celluloid burns ferociously, and decaying film stock has set fire to archives and projection booths. That flammability is why nearly every job it once held moved to a safer plastic.",
+  stats: [["First thermoplastic", "1860s"], ["Plasticiser", "camphor"], ["Flaw", "burns fiercely"]],
+  uses: "Vintage combs and spectacle frames, dice, guitar picks, table-tennis balls, early cine film.",
+  link: "https://en.wikipedia.org/wiki/Celluloid"
+},
+{
+  id: "melamine", cat: "polymer", name: "Melamine resin",
+  sub: "melamine formaldehyde thermoset", img: "melamine",
+  hook: "A hard thermoset cured from melamine and formaldehyde, prized because it is almost odourless and tasteless, carries a printed pattern sealed under a clear top layer, and resists scratches and heat far better than the urea resin it replaced. That is why unbreakable picnic and canteen plates are made of it. The catch is the same formaldehyde bond: it cannot be remelted, it chips rather than flexes, and it must never go in a microwave.",
+  stats: [["Cure", "irreversible thermoset"], ["Surface", "hard, scratch-proof"], ["Never", "microwave it"]],
+  uses: "Unbreakable tableware, laminate worktops (Formica), whiteboards, moulded handles and knobs.",
+  link: "https://en.wikipedia.org/wiki/Melamine_resin"
+},
+{
+  id: "urearesin", cat: "polymer", name: "Urea-formaldehyde",
+  sub: "urea formaldehyde, Beetleware", img: "urearesin",
+  hook: "The thermoset that put colour on the inter-war table. Urea cured with formaldehyde sets hard, pale and translucent, so unlike dark Bakelite it would take bright pastel and mottled dyes. Sold as Beetleware and Bandalasta it made cups, picnic ware and electrical fittings. Melamine soon pushed it aside, because urea-formaldehyde cracks and crazes where water and heat reach it, and slowly gives off formaldehyde as it ages.",
+  stats: [["Cure", "irreversible thermoset"], ["Over Bakelite", "takes pale colours"], ["Flaw", "crazes, off-gasses"]],
+  uses: "1920s-30s mottled tableware, bottle caps, electrical fittings, cavity-wall foam, wood glue.",
+  link: "https://en.wikipedia.org/wiki/Urea-formaldehyde"
+},
+{
+  id: "pcl", cat: "polymer", name: "Polycaprolactone",
+  sub: "PCL, low-melt biodegradable polyester", img: "pcl",
+  hook: "A biodegradable polyester that melts at only about sixty degrees, so a handful of beads turns clear and mouldable in a mug of hot water and sets hard as it cools. That makes it the hobby plastic you shape by hand, and the slow-dissolving matrix in drug implants and sutures. The low melting point is also the ceiling: leave a part in a hot car and it slumps.",
+  stats: [["Melts", "~60 °C"], ["Mouldable", "in hot water"], ["Limit", "creeps when warm"]],
+  uses: "Hand-mouldable hobby plastic, 3D-printing supports, drug-release implants, resorbable sutures.",
+  link: "https://en.wikipedia.org/wiki/Polycaprolactone"
+},
+{
+  id: "psu", cat: "polymer", name: "Polysulfone",
+  sub: "PSU, Udel, transparent high-temp amber", img: "psu",
+  hook: "A transparent amber engineering plastic stiffened by sulphone groups in its backbone, so it keeps its shape in boiling water and survives repeated steam-autoclaving without clouding or cracking. That buys it the jobs where polycarbonate softens: medical trays, membrane housings, hot-food pans. The amber tint is natural and permanent, it costs several times a commodity plastic, and strong solvents or long sun exposure will craze it.",
+  stats: [["Service", "-40 to 190 °C"], ["Steam", "autoclavable"], ["Colour", "natural amber"]],
+  uses: "Autoclavable medical ware, hot-food pans, membrane supports, former baby bottles.",
+  link: "https://en.wikipedia.org/wiki/Polysulfone",
+  src: ["Boedeker: polysulfone", "https://www.boedeker.com/Family/Polysulfone"]
+},
 
 /* ---------- METALS & ALLOYS ---------- */
 {

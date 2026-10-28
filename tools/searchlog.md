@@ -95,6 +95,24 @@ Commons is made beds, museum quilts and advertising. The four duvet cards that e
 the only four honest photographs there are. Do not spend another session searching for a fifth
 without a new source of pictures.
 
+### Plastics (polymer)
+
+The catalogue files a plastic under the workshop it belongs to, not under `polymer`, so several
+obvious candidates were already carded elsewhere — **check every category, not just `polymer`,
+before researching.** Already present: ebonite (as `ebonite` in *music*, the mouthpiece rubber),
+ETFE (as `etfefoil` in *fabric*, the architectural cushion), gutta-percha (as `guttapercha` in
+*natural*), shellac (as `shellac` in *natural*).
+
+| Candidate | Queries tried | Why dropped | Retry with |
+|---|---|---|---|
+| SBR (styrene-butadiene rubber) | `styrene butadiene rubber`, `SBR` | Only plant-dedication ceremonies and sulphur/peroxide cure diagrams; no honest photo of the rubber itself | A raw bale, or a crumb-rubber close-up |
+| COC / COP (cyclic olefin, Topas, Zeonor) | `cyclic olefin`, `COC`, `COP` | "COC" returns Continental Cup ski-jumping; no material photo at all | Named pellets or a clear moulded optic |
+| PBT (polybutylene terephthalate) | `polybutylene terephthalate`, `PBT connector`, `PBT pellets` | Only a 1910s magazine titled *PBT*; nothing of the resin | Named pellets or a moulded connector |
+| Hypalon (CSM) | `Hypalon boat`, `Hypalon fabric` | Inflatable-boat shots where the coating is not legible; no close-up of the coated cloth | A cut sample of the fabric |
+| PCTFE (Kel-F) | `Kel-F`, `PCTFE` | "Kelly" people and places; no material photo | Named film or a machined part |
+| Cast nylon 6, PET-G | `cast nylon`, `PETG sheet` | Nothing on Commons for either phrase | — |
+| PFA (perfluoroalkoxy) | `PFA tubing`, `perfluoroalkoxy`, `PFA beaker`, `PFA labware`, `PFA film` | Real and distinct (melt-processable PTFE), but the one clean photo, `Pfa tubing.jpeg`, is already used on the `fep` card as a `related` image, and no second PFA photo exists — only chemistry diagrams and PFAS-pollution figures | A distinct PFA photo: a beaker, labware, or clear film |
+
 ## Rejected images
 
 Source photographs that passed the description check and failed when actually looked at.
@@ -114,6 +132,7 @@ Source photographs that passed the description check and failed when actually lo
 | `batting` | (kept) Mattress making, covering the cotton batting with ticking.jpg | Shows both the batt and the ticking; captioned for the batt, which is the subject | — |
 | `cellulosefill` | Cellulose insulation200.JPG | A blowing truck seen from behind: the insulation is inside sealed bags, nothing of the material visible | Bulk recycled cellulose scan.jpg |
 | (duvet, generic) | Duvet Dormeo.jpg | A stock advertising photograph - a model with a mug, the duvet a prop behind her | Card dropped; no generic duvet card exists |
+| TPV / Santoprene | TPV granules.jpg | A pallet of branded "Rosehill TPV" bags on a job site; the granules are sealed inside printed plastic and the brand dominates the frame — same failure as the cellulose blowing truck | Card dropped; retry with loose granules in a hand |
 
 ## Ground already worked
 
@@ -129,6 +148,7 @@ Rounds so far, so the next one can start somewhere else. Details are in git.
 | 2026-10-20 | Fifteen cards for the new Warmth & insulation category, plus the warmth theme tag on seventeen older cards |
 | 2026-10-21 | Seven more for Warmth & insulation: four that take a duvet apart, three that insulate buildings |
 | 2026-10-21 | Duvet searched out a second time; no new cards, so the findings became the Inside a duvet theme |
+| 2026-10-28 | Six early and specialty plastics for the polymer category: galalith, celluloid, melamine, urea-formaldehyde, polycaprolactone, polysulfone |
 
 ## Sources (the `src` field)
 

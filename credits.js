@@ -6515,5 +6515,77 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Cork_oak_forest_with_harvested_bark.jpg",
     "w": 960,
     "h": 603
+  },
+  "galalith": {
+    "file": "galalith.jpg",
+    "caption": "A galalith hair comb carved with a dragon, in imitation of ivory",
+    "kind": "product",
+    "title": "Haarkam van galalith met half ronde rug met een ajour gesneden draak in het midden, BK-1977-231.jpg",
+    "site": "Wikimedia",
+    "artist": "Rijksmuseum",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Haarkam_van_galalith_met_half_ronde_rug_met_een_ajour_gesneden_draak_in_het_midden,_BK-1977-231.jpg",
+    "w": 960,
+    "h": 719
+  },
+  "celluloid": {
+    "file": "celluloid.jpg",
+    "caption": "Rolls of old celluloid cine film at a restoration studio",
+    "kind": "product",
+    "title": "Old celluloid film rolls (5201105455).jpg",
+    "site": "Wikimedia",
+    "artist": "Marcel Oosterwijk from Amsterdam, The Netherlands",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_celluloid_film_rolls_(5201105455).jpg",
+    "w": 960,
+    "h": 640
+  },
+  "melamine": {
+    "file": "melamine.jpg",
+    "caption": "Melamine tableware, the pattern printed under a clear resin layer",
+    "kind": "product",
+    "title": "Melamine dinnerware.JPG",
+    "site": "Wikimedia",
+    "artist": "Dwight Burdette",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Melamine_dinnerware.JPG",
+    "w": 960,
+    "h": 508
+  },
+  "urearesin": {
+    "file": "urearesin.jpg",
+    "caption": "Mottled Beetleware jelly moulds in urea-formaldehyde",
+    "kind": "product",
+    "title": "Beetleware jelly moulds.JPG",
+    "site": "Wikimedia",
+    "artist": "Geni",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beetleware_jelly_moulds.JPG",
+    "w": 960,
+    "h": 1049
+  },
+  "pcl": {
+    "file": "pcl.jpg",
+    "caption": "Polycaprolactone beads about 3.5 mm across, which soften in hot water",
+    "kind": "photo",
+    "title": "PCL beads.jpg",
+    "site": "Wikimedia",
+    "artist": "Prosthetic Head",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PCL_beads.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "psu": {
+    "file": "psu.jpg",
+    "caption": "Amber polysulfone food pans, the colour natural to the resin",
+    "kind": "product",
+    "title": "Polysulfone food pans.jpg",
+    "site": "Wikimedia",
+    "artist": "Zzorse",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Polysulfone_food_pans.jpg",
+    "w": 960,
+    "h": 628
   }
 };
