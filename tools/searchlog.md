@@ -310,3 +310,40 @@ pp — candidates under 640 px; eps — overexposed; aerogel — NASA's current 
 an artist's rendering, not the hand photograph; kapton tape rolls were fine but the NASA
 sunshield re-cite already covers it; nbr, tpu, mylar (Spider-Man balloon: a licensed
 character), magnesium (a camera body, unverifiable alloy).
+
+### Glues (glue), 2026-10-31
+
+The round that opened the category. Nineteen added; these were searched and dropped.
+
+- **Polyurethane glue** (Gorilla, PU wood glue) — `PU glue`, `polyurethane adhesive`, `PUR Klebstoff`,
+  `Gorilla Glue bottle`: nothing but Bugattis, railway stations and cannabis. The Gorilla *wood*
+  glue bottle that came up is PVA and went to `pvaglue`. Retry with `foaming glue`, `Schaum Leim`.
+- **Resorcinol glue** (the purple boat-building line) — `resorcinol glue`, `resorcinol`, `Aerodux`:
+  only structural formulae. Retry via a boat-building or glulam photograph with a visible dark glue line.
+- **Sticky-rice lime mortar** (the Great Wall) — `sticky rice mortar`, `glutinous rice mortar`,
+  `糯米灰浆`: mochi pounding, nothing else. Would sit better under building anyway.
+- **Sodium silicate (water glass)** — `sodium silicate`, `water glass`, `Wasserglas`, `Natriumsilikat`:
+  drinking glasses and chemical gardens. The one honest photo is a firestop caulk shot with yellow
+  annotations burned into it. Retry with `foundry core sodium silicate`, `Wasserglas Flasche`.
+- **Dextrin and envelope gum** — `dextrin`, `envelope gum`: stamp-gumming machines of 1910, no gum.
+- **Fibrin sealant** — `fibrin sealant`: one 720 px surgical figure, under the floor.
+- **Methacrylate structural adhesive (MMA)** — `methacrylate adhesive`: a blackboard formula.
+- **Tile adhesive, mastic** — `tile adhesive`, `mastic tile adhesive`: trowels and medieval tiles.
+- **Pearl glue** as its own card — folded into `boneglue`, which is what the pearls are.
+- **Spray adhesive** (3M Spray Mount) — `spray adhesive`, `Sprühkleber`: a good can photo exists
+  (`Can of Spray Mount Adhesive.jpg`), but 3M answers scripts with 403 and the only reachable source
+  was a retailer; dropped for want of a maker's page, not a picture. Retry when a 3M page loads.
+- **Dermabond, skin glue** — a usable photo of a closed incision on a child's arm exists; passed on
+  it as not a card anyone wants on the page. Cyanoacrylate already has its card under plastics.
+- **Mucilage** — `mucilage`: the Marmara Sea mucilage bloom, every result.
+- **Hafting resin** — `hafting resin`: Auckland Museum nephrite axes whose description says no resin
+  is visible. `spinifex` covers the subject with a resin bead actually in frame.
+
+| rejected after looking | why | replaced by |
+|---|---|---|
+| `Pva wood glue.jpg` | a shop shelf of bottles, the glue is a label | `Wood glue (6612809401).jpg` |
+| `Sticky Note on a white background.jpg` | one flat red square, honest but says nothing | `Stack of four sticky notes.jpg` |
+| `Metacaulk sodium silicate paste.jpg` | annotations burned into the picture | nothing, card dropped |
+| `Usos de la pez.jpg` | a museum bucket of pitch beside branding irons, pitch unreadable | nothing, card dropped |
+| `Isinglass.jpg` | a racehorse of that name | `Colla di pesce.JPG` (800 px, the one honest sheet photo) |
+| `Axe, hafted (AM 1936.271-8).jpg` | description says no resin visible | `Triodia resin.jpg` |

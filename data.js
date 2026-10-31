@@ -4516,6 +4516,177 @@ window.MATERIALS = [
   stats: [["Thickness", "150-200 µm, often three layers"], ["Life", "3-4 seasons, set by the stabiliser"], ["Killed by", "sulphur and chlorine pesticides"]],
   uses: "Polytunnels and high tunnels worldwide, nursery cold frames, the winter cover on a strawberry field.",
   link: "https://en.wikipedia.org/wiki/Polytunnel"
+},
+{
+  id: "pvaglue", cat: "glue", name: "PVA wood glue",
+  sub: "polyvinyl acetate emulsion, white and yellow glue", img: "pvaglue",
+  hook: "White glue is a water emulsion of polyvinyl acetate droplets. As the wood drinks the water the droplets coalesce into a film, so it only sets on porous surfaces and only where the water has somewhere to go: two sheets of glass never bond. The joint is stronger than the wood in shear, but it creeps under a steady load and softens in heat and damp; the yellow aliphatic grades push that a little, the cross-linking Type I grades further. Full strength takes a day, and a joint clamped too hard fails for lack of glue, not excess.",
+  stats: [["Shear strength", "20 to 27 MPa"], ["Full strength", "24 h"], ["Weakness", "creep under load, softens above 60 °C"]],
+  uses: "Furniture, bookbinding, school craft, every workshop drawer.",
+  link: "https://en.wikipedia.org/wiki/Polyvinyl_acetate",
+  src: ["Macrogalleria", "https://pslc.ws/macrog/pva.htm"]
+},
+{
+  id: "hotmelt", cat: "glue", name: "Hot-melt glue",
+  sub: "ethylene-vinyl acetate with tackifier and wax", img: "hotmelt",
+  hook: "Nothing cures. A stick of EVA copolymer melts at 120 to 190 °C, is pushed out, and bonds the moment it cools, which is why a glue-gun joint holds in seconds and a box plant can close thousands of cartons a minute. The price is that the bond is only as strong as the solid plastic and it remembers heat: a sunny window un-sticks it, and it never wets a cold surface, so a bead on cold steel peels off clean. Polyamide grades raise the heat limit, and polyurethane-reactive grades cure with moisture after cooling.",
+  stats: [["Applied at", "120 to 190 °C"], ["Sets in", "about 10 s"], ["Fails above", "60 to 80 °C"]],
+  uses: "Cartons, book spines, crafts, cable potting, the inside of a shoe.",
+  link: "https://en.wikipedia.org/wiki/Hot-melt_adhesive",
+  src: ["Power Adhesives", "https://www.poweradhesives.com/"]
+},
+{
+  id: "wheatpaste", cat: "glue", name: "Wheat starch paste",
+  sub: "cooked wheat starch and water, nothing else", img: "wheatpaste",
+  hook: "Bookbinders and paper conservators cook wheat starch in water into a translucent paste and use little else, because it is reversible: a hinge laid in starch paste fifty years ago lifts again with a damp swab, and the paste neither yellows nor out-strengthens the paper it joins, so a failing repair tears the paste, not the page. On the street it is the poster glue, brushed on the wall, the poster over, another coat over that. The failure is biology: it is food, so it moulds in a damp wall, insects eat it, and a batch lasts days.",
+  stats: [["Cooked at", "about 80 °C"], ["Shelf life", "days, in the fridge"], ["Reversible", "with water, always"]],
+  uses: "Paper repair, hinging prints, box making, street posters, papier-mâché.",
+  link: "https://en.wikipedia.org/wiki/Wheatpaste",
+  src: ["AIC Book and Paper Group", "https://www.conservation-wiki.com/wiki/BPG_Adhesives"]
+},
+{
+  id: "contactcement", cat: "glue", name: "Contact cement",
+  sub: "polychloroprene rubber in solvent, Butapren, Weldwood", img: "contactcement",
+  hook: "Contact cement goes on both parts, is left until dry to the touch, and then the parts are pressed together. That is the whole trick: two dry neoprene films grab each other instantly and completely, with no clamp and no open time, which is how laminate goes on a worktop and a sole goes on a shoe, where a wet glue could never be held. The cost is that there is no second chance: the parts bond where they first touch, so worktops are laid on dowels and slid out one at a time, and the toluene is the smell of every shoe repair shop.",
+  stats: [["Bonds", "on contact, pressure only"], ["Window", "15 to 60 min after touch-dry"], ["Heat limit", "about 70 °C"]],
+  uses: "Laminate worktops, shoe soles, veneer, leather, foam upholstery.",
+  link: "https://en.wikipedia.org/wiki/Impact_glue",
+  src: ["DAP", "https://www.dap.com/"]
+},
+{
+  id: "rubbercement", cat: "glue", name: "Rubber cement",
+  sub: "natural rubber dissolved in heptane", img: "rubbercement",
+  hook: "Rubber cement is raw rubber in a solvent, and it bonds like contact cement when both sides are coated and like a removable glue when only one is: paste-up artists laid type with it for decades because a dry film peels off paper without a mark and the excess rubs away in crumbs. The wartime picture shows a Goodyear worker brushing it onto rubberised fabric to build an inflatable assault boat, the same solvent-welded seam as a bicycle puncture patch. It yellows paper within years, which is why conservators hate it, and the heptane makes a pot of it a fire waiting to happen.",
+  stats: [["Solvent", "heptane, flash point -4 °C"], ["Removable", "from paper, one-sided"], ["Ages", "yellows and stains"]],
+  uses: "Paste-up, puncture repair, leather, balloons, masking.",
+  link: "https://en.wikipedia.org/wiki/Rubber_cement",
+  src: ["Bestine", "https://www.bestine.com/"]
+},
+{
+  id: "rabbitskin", cat: "glue", name: "Rabbit-skin glue",
+  sub: "collagen from rabbit hide, in granules", img: "rabbitskin",
+  hook: "Rabbit-skin glue is the painter's size: soaked, warmed to 60 °C, brushed on raw canvas or a panel to seal it, then mixed with chalk into gesso itself. It is chosen over its hide and bone cousins for being paler and more elastic, and chosen at all because oil paint on unsized canvas rots the cloth. The trouble is that it never stops being a hygroscopic animal protein: the film swells in damp and shrinks in dry air, so a canvas sized with it pulls and relaxes with the weather, which is where the cracks in old paintings come from.",
+  stats: [["Working temp", "about 60 °C"], ["Film", "swells and shrinks with the weather"], ["Mould", "yes, once damp"]],
+  uses: "Canvas sizing, gesso, gilding, book restoration.",
+  link: "https://en.wikipedia.org/wiki/Rabbit-skin_glue",
+  src: ["Gamblin", "https://gamblincolors.com/rabbit-skin-glue/"]
+},
+{
+  id: "boneglue", cat: "glue", name: "Bone glue",
+  sub: "collagen from boiled bone, sold as pearls", img: "boneglue",
+  hook: "Bone glue is the cheap end of the collagen glues: degreased bone, boiled, the broth dried into pearls. It is weaker and darker than hide glue, runs thinner and gels faster, so bookbinders, cabinetmakers and gummed-tape makers used it where the joint is large and the loads small. Like every hot animal glue it is reversible with heat and water, which conservators love, and it sets by gelling as it cools, so the work must be warm and quick: in a cold shop the brush gels before the parts meet, and a pot kept hot all day cooks itself weak.",
+  stats: [["Gels at", "about 50 °C"], ["Bloom strength", "100 to 200 g"], ["Enemy", "damp, and a cold shop"]],
+  uses: "Bookbinding, veneering, gummed tape, abrasive paper, matches.",
+  link: "https://en.wikipedia.org/wiki/Animal_glue",
+  src: ["AIC Book and Paper Group", "https://www.conservation-wiki.com/wiki/BPG_Adhesives"]
+},
+{
+  id: "caseinglue", cat: "glue", name: "Casein glue",
+  sub: "milk curd, lime and a little sodium salt", img: "caseinglue",
+  hook: "Casein is milk protein; dried curd ground with lime and sodium salts becomes a powder that, mixed with water, glues wood with a joint that shrugs off damp far better than any animal glue. That was enough to build aircraft with it: the plywood of the First World War and the laminated spars of the 1920s were casein-glued, and it was the first strong wood joint that needed no hot pot. The lime in it stains oak and other tannin woods a dark line, mould grows on it when wet, and the urea and phenol resins of the 1930s took the aircraft work away.",
+  stats: [["Water", "damp-proof, not waterproof"], ["Sets at", "room temperature"], ["Stains", "oak, mahogany, any tannin wood"]],
+  uses: "Early plywood and aircraft, beer-bottle labels, furniture, wine fining.",
+  link: "https://en.wikipedia.org/wiki/Casein",
+  src: ["AIC Book and Paper Group", "https://www.conservation-wiki.com/wiki/BPG_Adhesives"]
+},
+{
+  id: "gumarabic", cat: "glue", name: "Gum arabic",
+  sub: "dried sap of Acacia senegal and seyal", img: "gumarabic",
+  hook: "Gum arabic is the dried sap of acacia trees, collected in lumps and dissolved in water to a clear sticky syrup. It is edible, which is why it gums postage stamps and envelope flaps, binds watercolour and sets gummy sweets; it is a weak glue, soluble in water forever, which is exactly what a stamp needs. In lithography a thin film of it on the stone is the water-loving layer that refuses ink. The supply is one crop from the Sahel, Sudan above all, and drought or war there has rationed printers and confectioners more than once.",
+  stats: [["Dissolves", "in cold water, fully"], ["Film", "brittle, re-wets"], ["Source", "Sudan, most of the world supply"]],
+  uses: "Stamp gum, watercolour binder, lithography, sweets and soft drinks, pastels.",
+  link: "https://en.wikipedia.org/wiki/Gum_arabic",
+  src: ["AIC Book and Paper Group", "https://www.conservation-wiki.com/wiki/BPG_Adhesives"]
+},
+{
+  id: "postit", cat: "glue", name: "Repositionable adhesive",
+  sub: "acrylate microspheres, the Post-it glue", img: "postit",
+  hook: "Spencer Silver at 3M made it in 1968 by overdoing the monomer in an acrylate polymerisation and got microspheres, tiny solid balls of tacky polymer, instead of a film. Printed thinly, only the tops of the spheres touch the paper, so the adhesive holds with a fraction of its strength and lets go without tearing, and sticks again, because the spheres do not deform. The company saw no use for it for six years, until Art Fry wanted a bookmark that stayed in his hymnal. The limits are the point: it holds no weight, dust kills it, and a note on a wall for a year falls.",
+  stats: [["Microspheres", "tens of micrometres"], ["Re-sticks", "until it picks up dust"], ["Peel strength", "a fraction of tape"]],
+  uses: "Sticky notes, removable labels, repositionable mounting sprays and graphics.",
+  link: "https://en.wikipedia.org/wiki/Post-it_note",
+  src: ["National Inventors Hall of Fame", "https://www.invent.org/inductees/spencer-silver"]
+},
+{
+  id: "threadlocker", cat: "glue", name: "Anaerobic threadlocker",
+  sub: "dimethacrylate ester, Loctite 243", img: "threadlocker",
+  hook: "A drop stays liquid in the bottle because air keeps it that way; screwed into a steel thread, the oxygen is gone and the metal ions start it curing into a hard plastic that fills the clearance, so the bolt cannot vibrate loose. Vernon Krieble found the chemistry in 1953; the trick is the bottle, half full of air with a wall that breathes. Blue grades break with a spanner, red grades need heat to about 250 °C. It will not cure on plastics, nor on passive metals like stainless and zinc plate without a primer, and a bottle sealed too well cures itself solid.",
+  stats: [["Cures", "without air, on metal ions"], ["Break-away, M10", "about 26 N·m, blue grade"], ["Stainless", "needs an activator"]],
+  uses: "Engine bolts, bicycles, rifle scopes, bearings pressed into housings.",
+  link: "https://en.wikipedia.org/wiki/Thread-locking_compound",
+  src: ["Loctite", "https://www.loctiteproducts.com/"]
+},
+{
+  id: "rtvsilicone", cat: "glue", name: "Silicone sealant",
+  sub: "RTV acetoxy-cure polysiloxane", img: "rtvsilicone",
+  hook: "Silicone sealant cures at room temperature by taking water from the air and giving off acetic acid, the vinegar smell: a bead skins in ten minutes and cures about 2 mm a day inward, so a thick fill takes a week. The cured rubber sticks to glass, tile and metal and does what no hard glue can, stretching and compressing with a joint that moves a quarter of its width through twenty years of sun and frost. The flip side is that nothing sticks to silicone, not paint and not a second bead once the first has cured, so a failed joint is cut out to bare substrate.",
+  stats: [["Cure rate", "about 2 mm a day"], ["Movement", "±25% of joint width"], ["Paintable", "no"]],
+  uses: "Shower and window joints, aquaria, car gaskets, potting electronics.",
+  link: "https://en.wikipedia.org/wiki/Silicone_rubber",
+  src: ["GE Sealants", "https://www.gesealants.com/"]
+},
+{
+  id: "birchtar", cat: "glue", name: "Birch bark tar",
+  sub: "dry-distilled birch bark, the oldest glue", img: "birchtar",
+  hook: "Birch bark heated with the air kept out sweats a black tar that is the oldest synthetic material known: a flint found on a Dutch beach carries a lump of it that Neanderthals made about 50,000 years ago to haft the tool. It is a thermoplastic, soft at body heat, hard in the cold, re-usable by warming, and the archaeologists' argument is how a people without pots managed a sealed distillation; the answer is that a bark roll in embers gives a little and a bark cone in a pit gives more. It goes brittle below freezing, and a hafted blade comes off in a hard strike.",
+  stats: [["Made at", "250 to 400 °C, no air"], ["Oldest find", "about 50,000 years"], ["Softens", "in the hand"]],
+  uses: "Hafting stone tools, mending pots, waterproofing, Mesolithic chewing gum.",
+  link: "https://en.wikipedia.org/wiki/Birch_bark_tar",
+  src: ["Kozowyk et al., Scientific Reports 2017", "https://www.nature.com/articles/s41598-017-08106-7"]
+},
+{
+  id: "gluestick", cat: "glue", name: "Glue stick",
+  sub: "PVP or modified starch, in a lipstick case", img: "gluestick",
+  hook: "Henkel launched the Pritt stick in 1969 after an engineer watched a woman apply lipstick on a flight: a solid, twist-up adhesive that could be given to a child. The stick is a water-based glue thickened into a gel with a stearate soap so it holds its shape, polyvinylpyrrolidone at first and a modified starch since 2000; it dries by losing water into the paper, so it only works on paper and card and barely holds anything heavier. The bond is weak, wet paper wrinkles, and a stick left uncapped dries to a crumb, which is also why it is the safest glue in the building.",
+  stats: [["Launched", "1969"], ["Sets", "by drying into the paper"], ["Holds", "paper and card, nothing heavier"]],
+  uses: "Schools, offices, envelopes, scrapbooks, temporary masking.",
+  link: "https://en.wikipedia.org/wiki/Glue_stick",
+  src: ["Pritt", "https://prittworld.ca/ca-en/about-pritt/history.html"]
+},
+{
+  id: "isinglass", cat: "glue", name: "Isinglass",
+  sub: "collagen from sturgeon swim bladders", img: "isinglass",
+  hook: "Isinglass is the dried swim bladder of the sturgeon, split into papery sheets, and it is the purest of the animal glues: nearly colourless, flexible when dry, and strong at concentrations so low the film is invisible. That is why gilders lay gold leaf with it, why icon painters and parchment conservators use it to lay down flaking paint, and why a brewer drops it into a cask of ale: the collagen strands net the yeast and drag it to the bottom in hours. The price of the real thing is the sturgeon; fish glue boiled from cod skins does the cheap work.",
+  stats: [["Source", "sturgeon, Caspian and Volga"], ["Working strength", "1 to 3% in water"], ["Clears cask ale", "in hours"]],
+  uses: "Gilding, consolidating flaking paint, cask-ale finings, parchment repair.",
+  link: "https://en.wikipedia.org/wiki/Isinglass",
+  src: ["Murphy and Son, brewing finings", "https://www.murphyandson.co.uk/products/finings/"]
+},
+{
+  id: "wallpaperpaste", cat: "glue", name: "Wallpaper paste",
+  sub: "methyl cellulose or modified starch, flakes into water", img: "wallpaperpaste",
+  hook: "Wallpaper paste is almost all water: a few grams of methyl cellulose, a wood-pulp derivative, or of modified starch thicken a litre into a clear slippery gel. The slip is the design. It lets the paper slide into place and match a pattern, the gel keeps water in the paper long enough for it to relax and expand before it is hung, and the glue itself is weak, which is why old paper comes off with a steam stripper. Cellulose paste neither moulds nor stains and makes a fine conservation adhesive; starch paste is cheaper and feeds mould behind a damp wall.",
+  stats: [["Solids", "2 to 4% in water"], ["Strength", "low, by design"], ["Reversible", "with warm water"]],
+  uses: "Wallpaper, lining paper, paper conservation, papier-mâché.",
+  link: "https://en.wikipedia.org/wiki/Wallpaper_paste",
+  src: ["Metylan", "https://www.metylan.de/de/produkte.html"]
+},
+{
+  id: "foamtape", cat: "glue", name: "Acrylic foam tape",
+  sub: "closed-cell acrylic foam that is adhesive all the way through, VHB", img: "foamtape",
+  hook: "A double-sided tape is a carrier with pressure-sensitive adhesive on both faces, and on the thin tissue kind the carrier is the weak layer. The acrylic foam tapes of the 1980s dropped the carrier: the whole tape is a solid acrylic adhesive, foamed, so it bonds, stretches and swallows vibration through its full thickness. Car makers hang trim and badges on it, sign makers hang signs, and glass curtain walls have been held on with it since the 1990s. It needs a clean surface, firm pressure and a day to wet out, hates polyethylene without a primer, and comes off only by stretching it out of the joint.",
+  stats: [["Thickness", "0.4 to 3 mm"], ["Full strength", "about 72 h"], ["Enemy", "polyethylene, dust, a cold day"]],
+  uses: "Car trim and badges, signs, curtain-wall glazing, phone screens.",
+  link: "https://en.wikipedia.org/wiki/Double-sided_tape",
+  src: ["tesa", "https://www.tesa.com/en"]
+},
+{
+  id: "spinifex", cat: "glue", name: "Spinifex resin",
+  sub: "Triodia grass resin, winnowed, heated and filled", img: "spinifex",
+  hook: "The hummock grasses of inland Australia exude a resin that beads at the base of the leaves. Threshed or burned out of the tussocks, winnowed clean, melted gently and worked with sand or ash, it hafted stone points to spear shafts and axe heads to handles across half the continent. It is a true thermoplastic: warm it and it flows, cool it and it is a hard cement, warm it again and it is reusable, though some resins go brittle on reheating. The failure is the asset: a blade set in it comes free in heat or a hard strike, and the skill was in not overcooking it.",
+  stats: [["Collected", "by burning or threshing the tussock"], ["Worked", "with gentle heat; overheating ruins it"], ["Filler", "sand, ash, charcoal"]],
+  uses: "Hafting spear points and axes, mending wooden dishes, waterproofing.",
+  link: "https://en.wikipedia.org/wiki/Spinifex_resin",
+  src: ["Queensland Museum", "https://blog.qm.qld.gov.au/2022/05/18/resin-an-essential-piece-of-kit/"]
+},
+{
+  id: "epoxyputty", cat: "glue", name: "Epoxy putty",
+  sub: "two-part kneadable epoxy, mineral-filled", img: "epoxyputty",
+  hook: "Epoxy putty is the resin and hardener of an ordinary epoxy, each loaded with so much mineral filler that it is a clay, not a liquid; the two colours are kneaded until the marbling is gone and an hour later it drills, taps and files like soft aluminium. The filler is why it holds its shape on a vertical pipe, fills a hole rather than running out of it and sets under water, and why plumbers and sculptors keep a stick of it. It is also why it is weak beside liquid epoxy: the bond is a grip on a roughened surface, and it is brittle and useless as a thin film.",
+  stats: [["Work time", "5 to 20 min"], ["Cured", "drills and taps"], ["Strength", "a filler, not a structural glue"]],
+  uses: "Pipe repair, model making, sculpture, car and boat fixes.",
+  link: "https://en.wikipedia.org/wiki/Epoxy_putty",
+  src: ["J-B Weld", "https://www.jbweld.com/product/j-b-weld-twin-tube"]
 }
 
 ];

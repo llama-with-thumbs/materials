@@ -552,3 +552,22 @@ melamine|commons|Melamine dinnerware.JPG|Melamine tableware, the pattern printed
 urearesin|commons|Beetleware jelly moulds.JPG|Mottled Beetleware jelly moulds in urea-formaldehyde|product
 pcl|commons|PCL beads.jpg|Polycaprolactone beads about 3.5 mm across, which soften in hot water|photo
 psu|commons|Polysulfone food pans.jpg|Amber polysulfone food pans, the colour natural to the resin|product
+pvaglue|commons|Wood glue (6612809401).jpg|A bottle of wood glue, the yellow aliphatic kind|product
+hotmelt|commons|Hot glue gun pro.jpg|A glue gun with a stick of the adhesive beside it|photo
+wheatpaste|commons|Wheat paste valencia.jpg|Posters wheat-pasted to a wall in Valencia|product
+contactcement|commons|2023 Butapren.jpg|A tube of Butapren, the Polish contact adhesive|product
+rubbercement|commons|Closeup photograph shows balloon room worker applying rubber cement.jpg|Goodyear, 1942: brushing rubber cement onto the fabric of an assault boat|process
+rabbitskin|commons|Rabbit-skin glue top view.jpeg|Rabbit-skin glue as granules and soaked in water|photo
+boneglue|commons|Dissolving Bone glue 1.jpeg|Bone glue pearls soaking before the water bath|photo
+caseinglue|commons|Ca 1940s CASCO casein glue by Swedish company AB Lauxein Casco.jpg|A 1940s tin of CASCO casein glue from Stockholm|product
+gumarabic|commons|Gum Arabic.jpg|Lumps of raw gum arabic|photo
+postit|commons|Stack of four sticky notes.jpg|Four sticky notes; the adhesive is the strip under the top edge|product
+threadlocker|commons|Thread locking fluid Loctite 243.jpg|A bottle of Loctite 243, the medium-strength blue grade|product
+rtvsilicone|commons|Caulking.jpg|A bead of silicone leaving the gun|photo
+birchtar|commons|Birkenpech.JPG|Birch bark tar made in a single pot|photo
+gluestick|commons|Glue stick (46244472364).jpg|A glue stick, the common pencil-case kind|product
+isinglass|commons|Colla di pesce.JPG|Isinglass in sheets, as sold for tempera and gilding|photo
+wallpaperpaste|commons|Wallpaper paste flakes.JPG|Wallpaper paste flakes before they meet the water|photo
+foamtape|commons|Двухсторонний скотч f001.jpg|Double-sided tapes: a black foam one and a thin tissue one|photo
+spinifex|commons|Triodia resin.jpg|A spinifex stem with a bead of resin in the leaf axil|photo
+epoxyputty|commons|Epoxy putty.jpg|The two parts of an epoxy putty before kneading|photo

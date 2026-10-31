@@ -1,6 +1,6 @@
 # Interesting Materials
 
-A single-page field guide to 545 materials, each here for a reason of its own — a polyurethane
+A single-page field guide to 564 materials, each here for a reason of its own — a polyurethane
 that carries tons without overheating, a ceramic that clamps its own cracks shut, a lashing that
 tightens itself as it dries, an airbag woven closed so it has no seam to burst, a film base that
 eats itself. Some are here for what they do, some for how they are made, some for how they fail,
@@ -22,14 +22,14 @@ style.css      the design system: paper by default, a dark toggle, Jost
 taxonomy.js    the vocabulary: categories, picture kinds, cross-cutting themes
 app.js         rendering, search, filters, sort, shareable URL state, lightbox
 swatch.js      the drawn fallback used when a material has no photograph
-data.js        the catalogue — 545 entries, this is the file to edit
+data.js        the catalogue — 564 entries, this is the file to edit
 plates.js      the plates: diagrams that explain several cards, drawn from data or credited
 papers.js      the papers: the paper behind a material, or one that promises something
 library.js     the library: primary Bauhaus texts, each linking out to a public-domain copy
 figures.js     draws a plate's figure from its data and runs the readout under the pointer
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
-images/        545 images, 960 px wide
+images/        564 images, 960 px wide
 fonts/         Jost, variable weight, latin and latin-ext, with its OFL licence
 robots.txt     sitemap.xml   for search engines
 LICENSE        MIT for the text and the tools; the photographs keep their own licences
@@ -133,6 +133,7 @@ table says so rather than pretending.
 | `music` | stage and sound | 65 |
 | `warmth` | warmth | 22 |
 | `film` | film and foil | 28 |
+| `glue` | glues | 19 |
 
 `additive` is a materials category like the rest: each card is a feedstock or the stuff a printed
 part is made of — filament, resin, powder, wire, slurry, bath — and the process that consumes it is
@@ -191,6 +192,17 @@ cellophane, which is not a plastic at all. The agricultural and civil films at t
 largest tonnages in the category and the least photographed: mulch, polytunnel cover, landfill
 liner. Feeler stock is the one metal that is not a foil in the packaging sense; it is here because a
 feeler gauge is nothing but a strip of steel held to a tolerance.
+
+`glue` is the newest workshop and the one the Bauhaus never had, because its glues were a pot of
+hide glue and a jar of paste. The cards cover what holds the rest of the catalogue
+together: the collagen glues (rabbit skin for the painter, bone for the bookbinder, isinglass for
+the gilder and the brewer), the plant glues (wheat starch, gum arabic, wallpaper paste), the
+rubbers (contact cement, rubber cement), the thermoplastics (hot-melt, birch bark tar, spinifex
+resin: the oldest glue and the first Australian one), the synthetics that cure (anaerobic
+threadlocker, silicone sealant, epoxy putty) and the ones that are a trick of form rather than
+chemistry (the Post-it microspheres, the glue stick, acrylic foam tape). The hook of every card is
+the same question: what makes it let go. Epoxy, cyanoacrylate and hot hide glue keep their cards
+where they were, under plastics and the stage.
 
 ## Themes
 
@@ -400,7 +412,7 @@ starting a round, so the same dead ends are not walked twice.
 
 ## Images and licensing
 
-All 545 entries carry an image, credited to where it came from — a photographer's Flickr
+All 564 entries carry an image, credited to where it came from — a photographer's Flickr
 page, an agency, a museum, a maker, or Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown on the card and in
@@ -408,9 +420,9 @@ the lightbox. If you redistribute this page, keep those credits. No two cards us
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 
-283 are photographs of the material itself. 262 are not, and say so in red on the corner of the image:
+294 are photographs of the material itself. 270 are not, and say so in red on the corner of the image:
 
-- **199 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **206 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
@@ -426,7 +438,7 @@ in `fonts/OFL.txt`.
 - **19 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
   optical calcium fluoride, a superhydrophobic droplet for SLIPS, a printed sand mould for
   furan-bonded sand, a GAGG:Ce scintillator for GGG, and a cut-resistant glove for Vectran.
-- **21 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
+- **22 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
   spraying for Nafion, cold spray mid-deposition for cold-spray powder, hand needle felting for
   needle-punched felt, two Markforged X7 machines for continuous fibre printing, and the loom or
   knitting machine itself for Jacquard weave, warp knitting and whole-garment knitting.

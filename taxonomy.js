@@ -18,7 +18,8 @@ window.CATS = {
   exotic: "the preliminary course",
   music: "stage and sound",
   warmth: "warmth",
-  film: "film and foil"
+  film: "film and foil",
+  glue: "glues"
 };
 
 // The single word stamped on the corner of each photograph. Every category gets one,
@@ -36,7 +37,8 @@ window.CAT_TAGS = {
   exotic: "vorkurs",
   music: "stage",
   warmth: "warmth",
-  film: "film"
+  film: "film",
+  glue: "glue"
 };
 
 // What the picture actually shows, when it is not a photograph of the material itself.
