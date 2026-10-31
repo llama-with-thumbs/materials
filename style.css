@@ -32,8 +32,8 @@
   --dim: #5f5b54;     /* secondary type */
   --line: #d9d4c9;    /* hairlines */
   --red: #d1261c;     /* the one working colour */
-  --blue: #2448a8;    /* the circle: inside a duvet; the favicon */
-  --yellow: #f2c400;  /* the triangle: keeping warm; the favicon */
+  --blue: #2448a8;    /* the circle: inside a duvet */
+  --yellow: #f2c400;  /* the triangle: keeping warm */
   --font: "Jost", Futura, "Century Gothic", "Avenir Next", "Segoe UI", sans-serif;
 }
 
@@ -88,15 +88,12 @@ h1 {
   letter-spacing: -0.01em;
 }
 
-/* The bar over the title. */
-h1::before {
-  content: "";
-  display: block;
-  width: 72px;
-  height: 10px;
-  margin-bottom: 18px;
-  background: var(--red);
-}
+/* The mark over the title: a crumpled sheet, brush-drawn, red with ink creases. The dark
+   twin has paper creases, because black lines vanish on black; the two swap with the theme. */
+h1 .mark { display: block; width: 88px; height: 88px; margin-bottom: 14px; }
+h1 .mark.dark { display: none; }
+:root[data-theme="dark"] h1 .mark { display: none; }
+:root[data-theme="dark"] h1 .mark.dark { display: block; }
 
 h1 .dot { color: var(--red); }
 

@@ -6,6 +6,10 @@
 .back { display: inline-block; margin: 28px 0 0; color: var(--dim); font-size: 15px; text-decoration: none; }
 .back:hover { color: var(--ink); }
 .back b { color: var(--ink); font-weight: 500; }
+.back .mark { width: 26px; height: 26px; vertical-align: -7px; margin-right: 10px; }
+.back .mark.dark { display: none; }
+:root[data-theme="dark"] .back .mark { display: none; }
+:root[data-theme="dark"] .back .mark.dark { display: inline; }
 
 .doc h1 { font-size: clamp(34px, 6vw, 58px); line-height: 1.04; font-weight: 500; margin: 30px 0 0; letter-spacing: -.01em; }
 .doc .dek { font-size: 19px; color: var(--dim); margin: 16px 0 36px; max-width: 60ch; }

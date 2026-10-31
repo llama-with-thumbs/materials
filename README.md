@@ -76,9 +76,15 @@ The rules, so the next change has something to be consistent with:
 - One typeface: Jost, Futura's open-licence successor, bundled in `fonts/`. Fallback is Futura,
   then Century Gothic, then the system sans.
 - Paper ground, white panels, near-black type, one working colour: red. It marks the active
-  filter, the title's full stop, the bar over the title, a hovered link, and the stamp that says
-  a picture is not the material itself. Blue and yellow appear in exactly two places: the circle
-  and triangle on the two cross-category themes, and the favicon.
+  filter, the title's full stop, the mark over the title, a hovered link, and the stamp that says
+  a picture is not the material itself. Blue and yellow appear in exactly one place: the circle
+  and triangle on the two cross-category themes.
+- The mark is a crumpled sheet of paper, drawn with a brush in one go and traced to `mark.svg`:
+  red fill, ink creases; `mark-dark.svg` has paper creases for the dark theme, and `favicon.svg`
+  flips between the two on the system scheme. A crumpled sheet is the catalogue's argument in one
+  object: chaotic, still paper, and yet a different material from the flat sheet, rounder, stiffer,
+  more predictable in the air, with room in it for something new. `tools/brand.py` sets the mark
+  on paper for the app icons and the share cards; nothing redraws it.
 - Every radius is 0. No shadow, gradient, blur or transition. Structure is drawn with rules:
   3 px under the masthead and over the footer, 2 px between a picture and its text, 1 px
   hairlines everywhere else, including the three-row table the stats are set in.
