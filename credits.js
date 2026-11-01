@@ -1526,8 +1526,8 @@ window.CREDITS = {
   },
   "cyanoacrylate": {
     "file": "cyanoacrylate.jpg",
-    "caption": "Cyanoacrylate adhesive",
-    "kind": "product",
+    "caption": "A block of superglue, set solid",
+    "kind": "photo",
     "title": "Cianocrilato.JPG",
     "artist": "Schumi4ever",
     "license": "CC BY-SA 4.0",

@@ -504,15 +504,6 @@ window.MATERIALS = [
   src: ["BASF Basotect", "https://plastics-rubber.basf.com/global/en/performance_polymers/products/basotect"]
 },
 {
-  id: "cyanoacrylate", cat: "polymer", name: "Cyanoacrylate",
-  sub: "ethyl 2-cyanoacrylate", img: "cyanoacrylate",
-  hook: "It does not dry — it polymerises, and the trigger is the trace of water on almost any surface. Discovered twice by accident while people were trying to make gunsights, and dismissed both times for sticking to everything.",
-  stats: [["Cure trigger", "surface moisture"], ["Set", "seconds"], ["Also", "fingerprint fuming"]],
-  uses: "Superglue, surgical skin adhesive, model making, crime-scene fingerprinting.",
-  link: "https://en.wikipedia.org/wiki/Cyanoacrylate",
-  src: ["Permabond", "https://permabond.com/products/cyanoacrylate-adhesives/"]
-},
-{
   id: "pva", cat: "polymer", name: "Polyvinyl alcohol",
   sub: "PVOH", img: "pva",
   hook: "A plastic designed to fail. The film around a detergent pod is strong enough to survive shipping and a dry hand, then dissolves completely in cold water in under a minute.",
@@ -4687,6 +4678,15 @@ window.MATERIALS = [
   uses: "Pipe repair, model making, sculpture, car and boat fixes.",
   link: "https://en.wikipedia.org/wiki/Epoxy_putty",
   src: ["J-B Weld", "https://www.jbweld.com/product/j-b-weld-twin-tube"]
+},
+{
+  id: "cyanoacrylate", cat: "glue", name: "Superglue",
+  sub: "ethyl 2-cyanoacrylate", img: "cyanoacrylate",
+  hook: "Superglue does not dry, it polymerises, and the trigger is the film of water on almost any surface, which is why it grabs skin before it grabs the job. Harry Coover found it twice while chasing gunsight plastics and threw it out both times for sticking to everything. The speed is the catch: a thin film sets in seconds, but the bond is glassy and brittle, peels off with a flick, cannot fill a gap, lets go in boiling water and blooms white wherever the vapour lands. Fingerprint examiners use that bloom on purpose.",
+  stats: [["Cure trigger", "surface moisture"], ["Set", "seconds, thin film only"], ["Weak in", "peel, gaps, heat"]],
+  uses: "Model making, surgical skin adhesive, quick fixes, crime-scene fingerprint fuming.",
+  link: "https://en.wikipedia.org/wiki/Cyanoacrylate",
+  src: ["Permabond", "https://permabond.com/products/cyanoacrylate-adhesives/"]
 }
 
 ];

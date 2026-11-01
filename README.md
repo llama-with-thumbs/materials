@@ -120,7 +120,7 @@ table says so rather than pretending.
 
 | `cat` | Shown as | Entries |
 |---|---|---|
-| `polymer` | plastics | 65 |
+| `polymer` | plastics | 64 |
 | `metal` | metal | 46 |
 | `ceramic` | clay and glass | 50 |
 | `electronic` | light and current | 29 |
@@ -133,7 +133,7 @@ table says so rather than pretending.
 | `music` | stage and sound | 65 |
 | `warmth` | warmth | 22 |
 | `film` | film and foil | 28 |
-| `glue` | glues | 19 |
+| `glue` | glues | 20 |
 
 `additive` is a materials category like the rest: each card is a feedstock or the stuff a printed
 part is made of — filament, resin, powder, wire, slurry, bath — and the process that consumes it is
@@ -199,10 +199,10 @@ together: the collagen glues (rabbit skin for the painter, bone for the bookbind
 the gilder and the brewer), the plant glues (wheat starch, gum arabic, wallpaper paste), the
 rubbers (contact cement, rubber cement), the thermoplastics (hot-melt, birch bark tar, spinifex
 resin: the oldest glue and the first Australian one), the synthetics that cure (anaerobic
-threadlocker, silicone sealant, epoxy putty) and the ones that are a trick of form rather than
+threadlocker, silicone sealant, epoxy putty, superglue) and the ones that are a trick of form rather than
 chemistry (the Post-it microspheres, the glue stick, acrylic foam tape). The hook of every card is
-the same question: what makes it let go. Epoxy, cyanoacrylate and hot hide glue keep their cards
-where they were, under plastics and the stage.
+the same question: what makes it let go. Superglue moved here from plastics; epoxy and hot hide glue keep
+their cards where they were, under plastics and the stage.
 
 ## Themes
 
@@ -420,9 +420,9 @@ the lightbox. If you redistribute this page, keep those credits. No two cards us
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 
-294 are photographs of the material itself. 270 are not, and say so in red on the corner of the image:
+295 are photographs of the material itself. 269 are not, and say so in red on the corner of the image:
 
-- **206 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **205 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a

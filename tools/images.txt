@@ -130,7 +130,7 @@ pvb|commons|Shattered laminated glass in broken window in railway tram train car
 surlyn|commons|Golf ball by Japanese company Srixon.jpg|A golf ball — the cover is an ionomer|product
 pla|Flickr|https://live.staticflickr.com/7582/15760663749_6f445d6535_b.jpg|PLA filament|photo|CC BY-SA 2.0|westonhighschoollibrary|https://www.flickr.com/photos/124105511@N08/15760663749
 melaminefoam|Flickr|https://live.staticflickr.com/7623/16845294825_42eef15d71_b.jpg|Profiled melamine foam, cut for acoustic panels|product|CC BY-SA 2.0|Trevor Cox Salford|https://www.flickr.com/photos/61944720@N05/16845294825
-cyanoacrylate|commons|Cianocrilato.JPG|Cyanoacrylate adhesive|product
+cyanoacrylate|commons|Cianocrilato.JPG|A block of superglue, set solid|photo
 pva|commons|Folia PVA z pochodną kumaryny w świetle widzialnym nr 01.jpg|Polyvinyl alcohol film|photo
 nafion|commons|Patrick Teppor and PEM active layer deposition by ultrasonic spraying.jpg|Spraying a catalyst layer onto a proton exchange membrane|process
 pbi|commons|Membrana di PBI commerciale.JPG|A commercial PBI membrane|photo
