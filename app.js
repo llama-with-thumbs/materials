@@ -88,6 +88,9 @@ function galleryOf(mat) {
   return [mat.id, ...(mat.extra || [])].filter(id => CREDITS[id]);
 }
 
+// The carousel arrow: a shaft and a triangle, nothing else. The prev one is mirrored in CSS.
+const ARROW = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 8.5h10V3l10 9-10 9v-5.5H2z"/></svg>`;
+
 const catTag = cat => CAT_TAGS[cat] || (CATS[cat] || "").split(" ")[0];
 
 // Building a card's HTML is the expensive part, and a card never changes once built,
@@ -198,7 +201,7 @@ function cardFor(mat) {
     ? `<div class="track">${views.map(id => `<figure class="view" title="${esc(creditOf(id))}">${imgFrom(id)}${kindTag(id)}</figure>`).join("")}</div>`
     : makeSwatch(mat);
   const reel = views.length > 1
-    ? `<button class="arrow prev" aria-label="previous view">\u2190</button><button class="arrow next" aria-label="next view">\u2192</button><span class="tag count">1/${views.length}</span>`
+    ? `<button class="arrow prev" aria-label="previous view">${ARROW}</button><button class="arrow next" aria-label="next view">${ARROW}</button><span class="tag count">1/${views.length}</span>`
     : "";
   // The long text unrolls over the grid from the card's foot, so the row never reflows.
   const more = mat.more ? `<button class="unroll" aria-expanded="false">read more</button>` : "";
