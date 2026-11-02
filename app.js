@@ -201,7 +201,7 @@ function cardFor(mat) {
     ? `<div class="track">${views.map(id => `<figure class="view" title="${esc(creditOf(id))}">${imgFrom(id)}${kindTag(id)}</figure>`).join("")}</div>`
     : makeSwatch(mat);
   const reel = views.length > 1
-    ? `<button class="arrow prev" aria-label="previous view">${ARROW}</button><button class="arrow next" aria-label="next view">${ARROW}</button><span class="tag count">1/${views.length}</span>`
+    ? `<button class="arrow prev" aria-label="previous view" hidden>${ARROW}</button><button class="arrow next" aria-label="next view">${ARROW}</button><span class="tag count">1/${views.length}</span>`
     : "";
   // The long text unrolls over the grid from the card's foot, so the row never reflows.
   const more = mat.more ? `<button class="unroll" aria-expanded="false">read more</button>` : "";
@@ -353,15 +353,18 @@ grid.addEventListener("click", e => {
   scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// The arrows slide the track one view at a time, round the end, and the counter follows.
+// The arrows slide the track one view at a time and the counter follows. The track does not
+// wrap: on the first view only the right arrow shows, on the last only the left.
 grid.addEventListener("click", e => {
   const a = e.target.closest(".arrow");
   if (!a) return;
   const shot = a.closest(".shot");
   const track = shot.querySelector(".track");
   const n = track.children.length;
-  const i = ((+shot.dataset.i || 0) + (a.classList.contains("next") ? 1 : -1) + n) % n;
+  const i = Math.min(n - 1, Math.max(0, (+shot.dataset.i || 0) + (a.classList.contains("next") ? 1 : -1)));
   shot.dataset.i = i;
+  shot.querySelector(".arrow.prev").hidden = i === 0;
+  shot.querySelector(".arrow.next").hidden = i === n - 1;
   track.style.transform = `translateX(-${i * 100}%)`;
   shot.querySelector(".tag.count").textContent = `${i + 1}/${n}`;
   shot.querySelector(".tag").title = track.children[i].title;

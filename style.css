@@ -335,6 +335,7 @@ main { padding: 20px 0 64px; }
   place-items: center;
 }
 .shot .arrow svg { width: 24px; height: 24px; fill: #111; stroke: #f5f2eb; stroke-width: 1.5; stroke-linejoin: round; paint-order: stroke; }
+.shot .arrow[hidden] { display: none; }
 .shot .arrow.prev svg { transform: scaleX(-1); }
 .shot .arrow:hover svg, .shot .arrow:focus-visible svg { fill: var(--red); }
 .shot .arrow.prev { left: 2px; }
