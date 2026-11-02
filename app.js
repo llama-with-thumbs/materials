@@ -88,9 +88,10 @@ function galleryOf(mat) {
   return [mat.id, ...(mat.extra || [])].filter(id => CREDITS[id]);
 }
 
-// The carousel arrow: a triangle and, a little apart from it, a bar. Hovering brings the bar
-// closer; pressing docks it. The prev one is mirrored in CSS.
-const ARROW = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 3l9 9-9 9z"/><path class="bar" d="M1 9.5h9v5H1z"/></svg>`;
+// The carousel arrow: a triangle and, a little apart from it, a bar, drawn in the inner half
+// of a wide box so it has room to grow. Under the pointer the bar stretches and the head moves
+// out toward the edge of the picture; pressing pushes it a step further. Prev is mirrored in CSS.
+const ARROW = `<svg viewBox="0 0 48 24" aria-hidden="true"><path class="head" d="M25 3l9 9-9 9z"/><path class="bar" d="M14 9.5h9v5h-9z"/></svg>`;
 
 const catTag = cat => CAT_TAGS[cat] || (CATS[cat] || "").split(" ")[0];
 

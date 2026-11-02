@@ -321,8 +321,8 @@ main { padding: 20px 0 64px; }
 
 /* The arrows: a solid triangle with a bar set a little apart from it, in plain ink. No edge,
    no box behind it. Each is a full-height strip down its side of the picture, so coming near
-   is enough: the arrow turns blue and the bar moves up to the head. Pressing docks the bar
-   and nudges the whole arrow its way. */
+   is enough: the arrow turns blue and grows toward the edge, the bar stretching and the head
+   moving out. Pressing pushes it one step further. */
 .shot .arrow {
   position: absolute;
   top: 0;
@@ -335,15 +335,16 @@ main { padding: 20px 0 64px; }
   display: grid;
   place-items: center;
 }
-.shot .arrow svg { width: 24px; height: 24px; fill: #111; transition: transform 0.15s ease, fill 0.15s ease; }
-.shot .arrow svg .bar { transition: transform 0.2s cubic-bezier(.2,.7,.2,1); }
+.shot .arrow svg { width: 48px; height: 24px; fill: #111; transition: fill 0.2s ease; }
+.shot .arrow svg .head, .shot .arrow svg .bar { transition: transform 0.35s cubic-bezier(.2,.8,.2,1); }
+.shot .arrow svg .bar { transform-box: fill-box; transform-origin: left center; }
 .shot .arrow[hidden] { display: none; }
 .shot .arrow.prev svg { transform: scaleX(-1); }
 .shot .arrow:hover svg, .shot .arrow:focus-visible svg { fill: var(--blue); }
-.shot .arrow:hover svg .bar, .shot .arrow:focus-visible svg .bar { transform: translateX(2px); }
-.shot .arrow:active svg .bar { transform: translateX(3px); }
-.shot .arrow.next:active svg { transform: translateX(3px); }
-.shot .arrow.prev:active svg { transform: scaleX(-1) translateX(3px); }
+.shot .arrow:hover svg .head, .shot .arrow:focus-visible svg .head { transform: translateX(11px); }
+.shot .arrow:hover svg .bar, .shot .arrow:focus-visible svg .bar { transform: scaleX(2.22); }
+.shot .arrow:active svg .head { transform: translateX(13px); transition-duration: 0.1s; }
+.shot .arrow:active svg .bar { transform: scaleX(2.45); transition-duration: 0.1s; }
 .shot .arrow:focus-visible { outline: 3px solid var(--blue); outline-offset: -3px; }
 .shot .arrow.prev { left: 0; }
 .shot .arrow.next { right: 0; }
