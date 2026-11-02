@@ -314,6 +314,32 @@ main { padding: 20px 0 64px; }
   display: block;
 }
 
+/* The views sit side by side in a track and slide one width at a time. */
+.shot .track { display: flex; height: 100%; transition: transform 0.35s ease; }
+.shot .view { flex: 0 0 100%; position: relative; height: 100%; margin: 0; }
+@media (prefers-reduced-motion: reduce) { .shot .track { transition: none; } }
+
+/* The arrows: two black blocks on the picture, like the badges. */
+.shot .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 34px;
+  height: 34px;
+  border: 0;
+  padding: 0;
+  background: rgba(17, 17, 17, 0.72);
+  color: #fff;
+  font: 500 18px/1 inherit;
+  font-family: inherit;
+  cursor: pointer;
+  opacity: 0.75;
+  transition: opacity 0.15s;
+}
+.shot .arrow:hover, .shot .arrow:focus-visible { opacity: 1; background: var(--red); }
+.shot .arrow.prev { left: 0; }
+.shot .arrow.next { right: 0; }
+
 /* The workshop, stamped on the picture. Fixed colours: it sits on a photograph. */
 .shot .tag {
   position: absolute;
@@ -335,18 +361,13 @@ main { padding: 20px 0 64px; }
   background: var(--red);
 }
 
-/* A card with more than one view says how many, bottom-left; that badge is the only way
-   into the small gallery, since the picture itself no longer enlarges. */
-.shot .tag.more {
+/* A card with more than one view counts them, bottom-left, and the arrows page through. */
+.shot .tag.count {
   left: 0;
   top: auto;
   bottom: 0;
   background: var(--ink);
-  border: 0;
-  font: inherit;
-  font-size: 12px;
-  font-weight: 500;
-  cursor: pointer;
+  font-variant-numeric: tabular-nums;
 }
 
 /* ---------- card body ---------- */

@@ -52,8 +52,8 @@ sub1(r"- \*\*\d+ show something made from it\*\*", "- **%d show something made f
 sub1(r"- \*\*\d+ show a similar example\*\*", "- **%d show a similar example**" % kinds["analog"])
 sub1(r"- \*\*\d+ show a close relative\*\*", "- **%d show a close relative**" % kinds["related"])
 sub1(r"- \*\*\d+ show how it is made\*\*", "- **%d show how it is made**" % kinds["process"])
-sub1(r"A few cards carry a second view, paged in the lightbox — \d+ so far",
-     "A few cards carry a second view, paged in the lightbox — %d so far" % extra_n)
+sub1(r"A few cards carry more than one view, paged on the card itself — \d+ extra views so far",
+     "A few cards carry more than one view, paged on the card itself — %d extra views so far" % extra_n)
 open(p, "w", encoding="utf-8", newline="\n").write(s)
 print("README: %d substitutions | total %d | %s" % (n, total, dict(kinds)))
 print("categories:", dict(cats))

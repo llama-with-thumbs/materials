@@ -185,10 +185,21 @@ function cardFor(mat) {
   const c = CREDITS[mat.id];
   const kind = c && KINDS[c.kind] ? c.kind : null;
   const stats = mat.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
-  // The credit lives in the badge's tooltip; the full list is credits.js and the about page.
-  const credit = c
-    ? `${kind ? c.kind : "photo"}: ${c.site || "Wikimedia"} (${c.license})${c.artist ? ", " + c.artist : ""}`
-    : "illustration";
+  // The credit lives in the tooltip of each view; the full list is credits.js and the about page.
+  const creditOf = id => {
+    const k = CREDITS[id];
+    return `${KINDS[k.kind] ? k.kind : "photo"}: ${k.site || "Wikimedia"} (${k.license})${k.artist ? ", " + k.artist : ""}`;
+  };
+  const kindTag = id => KINDS[CREDITS[id].kind] ? `<span class="tag kind">${esc(KINDS[CREDITS[id].kind])}</span>` : "";
+  // The views: the photograph, then the extra ones, in a track that slides sideways. A card
+  // with a drawn swatch has no track.
+  const views = galleryOf(mat);
+  const shot = views.length
+    ? `<div class="track">${views.map(id => `<figure class="view" title="${esc(creditOf(id))}">${imgFrom(id)}${kindTag(id)}</figure>`).join("")}</div>`
+    : makeSwatch(mat);
+  const reel = views.length > 1
+    ? `<button class="arrow prev" aria-label="previous view">\u2190</button><button class="arrow next" aria-label="next view">\u2192</button><span class="tag count">1/${views.length}</span>`
+    : "";
   // The long text unrolls over the grid from the card's foot, so the row never reflows.
   const more = mat.more ? `<button class="unroll" aria-expanded="false">read more</button>` : "";
   const panel = mat.more ? `<div class="more"><div><p>${esc(mat.more)}</p></div></div>` : "";
@@ -196,11 +207,10 @@ function cardFor(mat) {
   const themes = (mat.tags || []).filter(t => THEMES[t])
     .map(t => `<button class="theme" data-cat="${esc(t)}">${esc(THEMES[t])}</button>`).join("");
   html = `<article class="card" id="m-${esc(mat.id)}" data-cat="${esc(mat.cat)}" data-id="${esc(mat.id)}">
-    <div class="shot" title="${esc(credit)}">
-      ${shotFor(mat)}
-      <span class="tag" title="${esc(credit)}">${esc(catTag(mat.cat))}</span>
-      ${kind ? `<span class="tag kind">${esc(KINDS[kind])}</span>` : ""}
-      ${mat.extra && mat.extra.length ? `<button class="tag more" data-shot="${esc(mat.id)}" title="${mat.extra.length + 1} views">+${mat.extra.length} more</button>` : ""}
+    <div class="shot${views.length > 1 ? " reel" : ""}"${views.length ? "" : ' title="illustration"'}>
+      ${shot}
+      <span class="tag" title="${views.length ? esc(creditOf(views[0])) : "illustration"}">${esc(catTag(mat.cat))}</span>
+      ${reel}
     </div>
     <div class="body">
       <p class="no">no. ${seq(mat) + 1}</p>
@@ -338,6 +348,20 @@ grid.addEventListener("click", e => {
   if (!btn) return;
   setCat(btn.dataset.cat);
   scrollTo({ top: 0, behavior: "smooth" });
+});
+
+// The arrows slide the track one view at a time, round the end, and the counter follows.
+grid.addEventListener("click", e => {
+  const a = e.target.closest(".arrow");
+  if (!a) return;
+  const shot = a.closest(".shot");
+  const track = shot.querySelector(".track");
+  const n = track.children.length;
+  const i = ((+shot.dataset.i || 0) + (a.classList.contains("next") ? 1 : -1) + n) % n;
+  shot.dataset.i = i;
+  track.style.transform = `translateX(-${i * 100}%)`;
+  shot.querySelector(".tag.count").textContent = `${i + 1}/${n}`;
+  shot.querySelector(".tag").title = track.children[i].title;
 });
 
 // "read more" unrolls the long text over the cards beneath. One open at a time; a click

@@ -571,3 +571,5 @@ wallpaperpaste|commons|Wallpaper paste flakes.JPG|Wallpaper paste flakes before 
 foamtape|commons|Двухсторонний скотч f001.jpg|Double-sided tapes: a black foam one and a thin tissue one|photo
 spinifex|commons|Triodia resin.jpg|A spinifex stem with a bead of resin in the leaf axil|photo
 epoxyputty|commons|Epoxy putty.jpg|The two parts of an epoxy putty before kneading|photo
+epoxyputty2|commons|Del Toro's Pinocchio by Lizardi Saucedo.jpg|A Pinocchio puppet built up in epoxy putty over cast resin, by Lizardi Saucedo|product
+epoxyputty3|commons|Park staff work carefully to add an epoxy putty gum line to the cast teeth. (fa99507d-1dd8-b71c-07e1-91cd400f3101).JPG|Museum staff pressing an epoxy putty gum line onto the cast teeth of a whale skull|process

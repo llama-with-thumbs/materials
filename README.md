@@ -20,7 +20,7 @@ a handful of plain script files, and it works straight off the filesystem.
 index.html     page shell
 style.css      the design system: paper by default, a dark toggle, Jost
 taxonomy.js    the vocabulary: categories, picture kinds, cross-cutting themes
-app.js         rendering, search, filters, sort, shareable URL state, lightbox
+app.js         rendering, search, filters, sort, shareable URL state, view carousel
 swatch.js      the drawn fallback used when a material has no photograph
 data.js        the catalogue — 564 entries, this is the file to edit
 plates.js      the plates: diagrams that explain several cards, drawn from data or credited
@@ -416,7 +416,7 @@ All 564 entries carry an image, credited to where it came from — a photographe
 page, an agency, a museum, a maker, or Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown in the tooltip of
-the badge on every card and in the gallery. If you redistribute this page, keep those credits. No two cards use the same
+the picture and its badge on every card. If you redistribute this page, keep those credits. No two cards use the same
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 
@@ -447,11 +447,12 @@ No entry falls back to a drawn swatch, and none shows a molecular or crystal str
 material itself has never been photographed freely, the card carries the closest real object
 instead.
 
-A few cards carry a second view, paged in the lightbox — 4 so far: the raw material beside the
-finished part (Nitinol wire and the cut spoons), the shell beside the inlay (nacre), the harvest
-beside the bark (cork), the property beside the thing (a brick resting on a slab of aerogel). A
-card with more than one view says so, bottom-left, and the lightbox pages with arrows, dots or the
-arrow keys. Each extra view is a credit id of its own with its own line in `tools/images.txt`, so
+A few cards carry more than one view, paged on the card itself — 6 extra views so far: the raw material
+beside the finished part (Nitinol wire and the cut spoons), the shell beside the inlay (nacre),
+the harvest beside the bark (cork), the property beside the thing (a brick resting on a slab of
+aerogel), the two unmixed sticks beside what a sculptor and a museum made of them (epoxy putty).
+A card with more than one view counts them bottom-left, and two arrows on the picture slide
+through them, round the end. Each extra view is a credit id of its own with its own line in `tools/images.txt`, so
 it is sourced and licensed exactly like the rest; add one by listing its id in a material's
 `extra` and running `tools/fetch_images.py`.
 

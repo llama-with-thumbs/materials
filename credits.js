@@ -6815,5 +6815,29 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg",
     "w": 960,
     "h": 748
+  },
+  "epoxyputty2": {
+    "file": "epoxyputty2.jpg",
+    "caption": "A Pinocchio puppet built up in epoxy putty over cast resin, by Lizardi Saucedo",
+    "kind": "product",
+    "title": "Del Toro's Pinocchio by Lizardi Saucedo.jpg",
+    "site": "Wikimedia",
+    "artist": "Lizardi Saucedo",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Del_Toro%27s_Pinocchio_by_Lizardi_Saucedo.jpg",
+    "w": 960,
+    "h": 1438
+  },
+  "epoxyputty3": {
+    "file": "epoxyputty3.jpg",
+    "caption": "Museum staff pressing an epoxy putty gum line onto the cast teeth of a whale skull",
+    "kind": "process",
+    "title": "Park staff work carefully to add an epoxy putty gum line to the cast teeth. (fa99507d-1dd8-b71c-07e1-91cd400f3101).JPG",
+    "site": "Wikimedia",
+    "artist": "NPS Photo",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Park_staff_work_carefully_to_add_an_epoxy_putty_gum_line_to_the_cast_teeth._(fa99507d-1dd8-b71c-07e1-91cd400f3101).JPG",
+    "w": 960,
+    "h": 720
   }
 };
