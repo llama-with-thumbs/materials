@@ -343,7 +343,8 @@ Append an entry to `data.js`:
 {
   id: "shortname", cat: "ceramic", name: "Display name",
   sub: "chemistry or trade name", img: "shortname",
-  hook: "Why it is interesting — what it does, how it is made, or how it fails.",
+  hook: "Why it is interesting, in about 200 characters.",
+  more: "The longer story, about 600 to 750 characters: who, where, when; the mechanism; what it replaced; what replaced it; the cost.",
   stats: [["Property", "value"], ["Property", "value"]],
   uses: "Where you meet it.",
   link: "https://en.wikipedia.org/wiki/...",
@@ -351,6 +352,10 @@ Append an entry to `data.js`:
   tags: ["warmth"]
 }
 ```
+
+`more` is optional and opens from the read-more button on the card. The glue cards carry it;
+the older categories still have the long hook on the face and no `more`, and will move over
+category by category.
 
 `link` is the encyclopaedia entry; `src` is the second opinion — a maker's datasheet, a trade
 body, a teaching page, a standards or conservation reference. Anything but Wikipedia, because one
@@ -447,7 +452,7 @@ No entry falls back to a drawn swatch, and none shows a molecular or crystal str
 material itself has never been photographed freely, the card carries the closest real object
 instead.
 
-A few cards carry more than one view, paged on the card itself — 6 extra views so far: the raw material
+A few cards carry more than one view, paged on the card itself — 34 extra views so far: the raw material
 beside the finished part (Nitinol wire and the cut spoons), the shell beside the inlay (nacre),
 the harvest beside the bark (cork), the property beside the thing (a brick resting on a slab of
 aerogel), the two unmixed sticks beside what a sculptor and a museum made of them (epoxy putty).

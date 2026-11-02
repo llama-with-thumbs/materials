@@ -76,9 +76,15 @@ duplicate ids, duplicate photographs, bad stats and unknown categories.
 ## Writing the card
 
 - `sub` — the chemistry, the trade name or the build, lower case, a few words.
-- `hook` — one paragraph, 60–110 words, no double quotes (the file is JS). Lead with the thing
-  that is surprising, then the cost of it. Catalogue voice: plain, specific, dry; no marketing,
-  no "revolutionary", no exclamation marks.
+- `hook` — about 200 characters, no double quotes (the file is JS): the one reason the material
+  is interesting. Catalogue voice: plain, specific, dry; no marketing, no "revolutionary", no
+  exclamation marks.
+- `more` — about 600 to 750 characters, opened by the read-more button: who found it, where and
+  when; the mechanism in a sentence or two; one number; what it replaced; the cost; what replaced
+  it or where it survives. The humour is in the construction, never a bolted-on quip: if a
+  sentence still reads fine with the joke deleted, delete the joke. Then audit sentence by
+  sentence and cut anything that is merely true. Report both character counts.
+  (Older categories still carry a 60–110 word hook and no `more`; new cards get the pair.)
 - `stats` — exactly three pairs, label and value, each a fact you could check. The third is
   usually the trade-off or the failure mode ("Foam rot", "Killed by", "Ruined by").
 - `uses` — one sentence of real places you meet it.

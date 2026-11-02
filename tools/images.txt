@@ -573,3 +573,31 @@ spinifex|commons|Triodia resin.jpg|A spinifex stem with a bead of resin in the l
 epoxyputty|commons|Epoxy putty.jpg|The two parts of an epoxy putty before kneading|photo
 epoxyputty2|commons|Del Toro's Pinocchio by Lizardi Saucedo.jpg|A Pinocchio puppet built up in epoxy putty over cast resin, by Lizardi Saucedo|product
 epoxyputty3|commons|Park staff work carefully to add an epoxy putty gum line to the cast teeth. (fa99507d-1dd8-b71c-07e1-91cd400f3101).JPG|Museum staff pressing an epoxy putty gum line onto the cast teeth of a whale skull|process
+pvaglue2|commons|Wood glue and clamping the pieces before screwing them together.jpg|A PVA joint clamped while the water leaves the glue line|process
+hotmelt2|commons|Student of Baozhong Junior High School using hot glue gun in class 20130308.jpg|A glue gun in a school workshop, the bead setting as it cools|process
+hotmelt3|commons|1111-1 Hot Glue Gun intern - Interna einer Heißklebepstole.jpg|Inside a glue gun: the stick, the heater block and the trigger that pushes it through|process
+wheatpaste2|commons|Pasteup wall in Marl, Germany, 2025.jpg|A paste-up wall: posters brushed on with wheat paste, layer over layer|product
+wheatpaste3|commons|Wheatpaste (29785625473).jpg|A paper cut-out wheat-pasted to a wall, the paste runs still showing|product
+contactcement2|commons|KOntaktkleber Druck (1).jpg|Contact adhesive in a pressure tank with a spray gun, for flat-roof upstands|product
+rubbercement2|commons|Puncture-repaire-kit.jpg|A bicycle puncture kit: rubber solution, patches, sandpaper and tyre levers|product
+rabbitskin2|commons|Cold Rabbit Glue one piece.jpg|Rabbit-skin glue gelled in its jar and pulled out whole|photo
+rabbitskin3|commons|Glutinleime-warm.jpg|Bone, hide and rabbit-skin glue, soaked one to one in water and warmed liquid|photo
+boneglue2|commons|Glutinleime-kalt.jpg|Bone, hide and rabbit-skin glue soaked cold, one to one in water: swollen, not yet liquid|photo
+boneglue3|commons|Old hot hide glue pot (51879504851).jpg|Old cast-iron glue pots, the inner pot sitting in the water of the outer|process
+caseinglue2|commons|Casein ( Milk Protein) Precipitation.jpg|Casein curd pressed from whole milk, before the lime goes in|process
+gumarabic2|commons|Gum Arabic exuding.jpg|Gum exuding from a wounded acacia branch|photo
+gumarabic3|commons|Arabic Gum Handpick Factory.jpg|Hand-sorting gum arabic in a cleaning hall|process
+postit2|commons|Wall of sticky note are seen in cafe.png|A cafe wall of sticky notes, each held by one strip of microspheres|product
+threadlocker2|commons|Thread-locking fluid.jpg|The red grade, Loctite 271: permanent until heated|product
+rtvsilicone2|commons|Schimmelfuge2 SR.jpg|A bathroom silicone joint black with mould: the sealant holds, the mould does not care|photo
+rtvsilicone3|commons|2009-01-11 Silikonfuge bei Fenster.jpg|A silicone joint at a window frame|photo
+birchtar2|commons|Vuurstenen werktuig met berkenpek.jpg|The Zandmotor flint: a flake half covered in birch tar, about 50,000 years old|photo
+birchtar3|commons|Birkenpechdestille Eintopfverfahren.JPG|Making birch tar in one pot: bark in a sealed tin, heated in the embers|process
+gluestick2|commons|Pritt Sticks.JPG|Three Pritt sticks, the original twist-up|product
+gluestick3|commons|Elmer's Office Glue Stick in action.JPG|A glue stick on paper|process
+isinglass2|commons|Adding isinglass to rolling tank.JPG|Isinglass finings poured into a wine tank|process
+wallpaperpaste2|commons|Tapetenkleister falsch gemacht.JPG|Paste stirred the wrong way: a lump of dry flakes in a bucket of water|photo
+wallpaperpaste3|commons|2278410706 wallpapering.jpg|Pasting a length on the table before it goes up|process
+spinifex2|commons|Triodia hummock grassland.jpg|Spinifex hummocks at Karijini, soft and hard species together|related
+cyanoacrylate2|commons|СУПЕР-КЛЕЙ (cyanoacrylate). Склеивание детали (1).jpg|A tube of superglue beside a broken plastic fitting|process
+cyanoacrylate3|commons|Super Glue (8560816706).jpg|A tube of Krazy Glue|product

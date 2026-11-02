@@ -5,7 +5,8 @@ Usage: python -I tools/add_cards.py newcards.json [--dry]
 newcards.json is a list of objects:
   {"id": "gel", "cat": "music", "name": "Lighting gel",
    "sub": "deep-dyed polyester filter film",
-   "hook": "One paragraph. No double quotes.",
+   "hook": "About 200 characters. No double quotes.",
+   "more": "Optional. About 600 to 750 characters, opened by the read-more button.",
    "stats": [["Film", "0.05-0.25 mm"], ["Works by", "absorbing the rest as heat"]],
    "uses": "Stage and studio lanterns.",
    "link": "https://en.wikipedia.org/wiki/Color_gel",
@@ -32,7 +33,7 @@ def declared(var):
     return re.findall(r'^\s*(\w+):', body, re.M)
 CATEGORIES, TOPICS = declared("CATS"), declared("THEMES")
 KINDS = {"photo", "product", "process", "structure", "related", "analog"}
-TEXT = ("name", "sub", "hook", "uses")
+TEXT = ("name", "sub", "hook", "more", "uses")
 DRY = "--dry" in sys.argv[2:]
 
 cards = json.load(open(sys.argv[1], encoding="utf-8"))
@@ -42,13 +43,14 @@ assert isinstance(cards, list) and cards, "expected a non-empty list"
 def block(e, comma):
     stats = ", ".join('["%s", "%s"]' % (k, v) for k, v in e["stats"])
     extra = ""
+    more = '  more: "%s",\n' % e["more"] if e.get("more") else ""
     if e.get("src"):
         extra += ',\n  src: ["%s", "%s"]' % (e["src"][0], e["src"][1])
     if e.get("tags"):
         extra += ',\n  tags: [%s]' % ", ".join('"%s"' % t for t in e["tags"])
     return ('{\n  id: "%s", cat: "%s", name: "%s",\n  sub: "%s", img: "%s",\n'
-            '  hook: "%s",\n  stats: [%s],\n  uses: "%s",\n  link: "%s"%s\n}%s\n'
-            % (e["id"], e["cat"], e["name"], e["sub"], e["id"], e["hook"], stats,
+            '  hook: "%s",\n%s  stats: [%s],\n  uses: "%s",\n  link: "%s"%s\n}%s\n'
+            % (e["id"], e["cat"], e["name"], e["sub"], e["id"], e["hook"], more, stats,
                e["uses"], e["link"], extra, "," if comma else ""))
 
 

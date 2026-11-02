@@ -347,3 +347,26 @@ The round that opened the category. Nineteen added; these were searched and drop
 | `Usos de la pez.jpg` | a museum bucket of pitch beside branding irons, pitch unreadable | nothing, card dropped |
 | `Isinglass.jpg` | a racehorse of that name | `Colla di pesce.JPG` (800 px, the one honest sheet photo) |
 | `Axe, hafted (AM 1936.271-8).jpg` | description says no resin visible | `Triodia resin.jpg` |
+
+### Glues, extra views, 2026-11-01
+
+Every glue card was given a short hook, a long `more` text and, where Commons had an honest
+one, extra views. Found nothing worth adding for:
+
+- **Acrylic foam tape** — `VHB tape`, `foam tape`, `double sided foam tape`, `Doppelklebeband`:
+  a drone with a phone taped to it (tape invisible), a paediatric foot bandage, a tape trade stand.
+- **Hot-melt sticks** as a product shot — `NewOne - Hot-melt adhesive KN.jpg` has a shop watermark
+  burned into the corner; the gun interior and a school workshop went in instead.
+- **Epoxy putty** micrograph — `epoxy filler SEM`, `filled epoxy cross section`: thin sections of
+  sandstone. No micrograph of a filled epoxy exists on Commons.
+- **Post-it microspheres** — no SEM of the spheres on Commons; a wall of notes stands in.
+- **Isinglass** sheets or sturgeon — the swim-bladder queries return a German railway signal
+  maker (WSSB); the wine-fining series was the only honest process picture.
+
+| rejected after looking | why |
+|---|---|
+| `J-B-Weld.jpg` | liquid twin-tube epoxy, not putty |
+| `Superglue .jpg` | a tin of brown liquid in a hand; nothing says superglue |
+| `LoctiteCure.JPG` | a UV curing wand, which is a different chemistry |
+| `Industries of War - Oilcloth ... NARA 45488742.jpg` | a scanned index card with a thumbnail on it |
+| `Trial foam tape.jpg` | a bandaged foot; the tape is medical |
