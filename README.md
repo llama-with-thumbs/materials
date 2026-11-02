@@ -415,8 +415,8 @@ starting a round, so the same dead ends are not walked twice.
 All 564 entries carry an image, credited to where it came from — a photographer's Flickr
 page, an agency, a museum, a maker, or Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
-photographer, licence and source page are recorded in `credits.js` and shown on the card and in
-the lightbox. If you redistribute this page, keep those credits. No two cards use the same
+photographer, licence and source page are recorded in `credits.js` and shown in the tooltip of
+the badge on every card and in the gallery. If you redistribute this page, keep those credits. No two cards use the same
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 

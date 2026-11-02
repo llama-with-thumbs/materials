@@ -185,10 +185,10 @@ function cardFor(mat) {
   const c = CREDITS[mat.id];
   const kind = c && KINDS[c.kind] ? c.kind : null;
   const stats = mat.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
-  const source = c
-    ? `<a href="${esc(c.page)}" target="_blank" rel="noopener">${kind ? esc(c.kind) : "photo"}: ${esc(c.site || "Wikimedia")} (${esc(c.license)})</a>`
-    : `<span>illustration</span>`;
-  const wiki = mat.link ? `<a href="${esc(mat.link)}" target="_blank" rel="noopener">wikipedia</a>` : "";
+  // The credit lives in the badge's tooltip; the full list is credits.js and the about page.
+  const credit = c
+    ? `${kind ? c.kind : "photo"}: ${c.site || "Wikimedia"} (${c.license})${c.artist ? ", " + c.artist : ""}`
+    : "illustration";
   // The long text unrolls over the grid from the card's foot, so the row never reflows.
   const more = mat.more ? `<button class="unroll" aria-expanded="false">read more</button>` : "";
   const panel = mat.more ? `<div class="more"><div><p>${esc(mat.more)}</p></div></div>` : "";
@@ -196,12 +196,12 @@ function cardFor(mat) {
   const themes = (mat.tags || []).filter(t => THEMES[t])
     .map(t => `<button class="theme" data-cat="${esc(t)}">${esc(THEMES[t])}</button>`).join("");
   html = `<article class="card" id="m-${esc(mat.id)}" data-cat="${esc(mat.cat)}" data-id="${esc(mat.id)}">
-    <button class="shot" data-shot="${esc(mat.id)}" title="${mat.extra && mat.extra.length ? "enlarge — " + (mat.extra.length + 1) + " views" : "enlarge"}">
+    <div class="shot" title="${esc(credit)}">
       ${shotFor(mat)}
-      <span class="tag">${esc(catTag(mat.cat))}</span>
+      <span class="tag" title="${esc(credit)}">${esc(catTag(mat.cat))}</span>
       ${kind ? `<span class="tag kind">${esc(KINDS[kind])}</span>` : ""}
-      ${mat.extra && mat.extra.length ? `<span class="tag more">+${mat.extra.length} more</span>` : ""}
-    </button>
+      ${mat.extra && mat.extra.length ? `<button class="tag more" data-shot="${esc(mat.id)}" title="${mat.extra.length + 1} views">+${mat.extra.length} more</button>` : ""}
+    </div>
     <div class="body">
       <p class="no">no. ${seq(mat) + 1}</p>
       <h2>${esc(mat.name)}</h2>
@@ -209,7 +209,7 @@ function cardFor(mat) {
       <p class="hook">${esc(mat.hook)}</p>
       <div class="stats">${stats}</div>
       <p class="uses"><b>where you meet it:</b> ${esc(mat.uses)}</p>
-      <p class="meta">${source}<span class="links">${themes}${src}${wiki}${more}</span></p>
+      ${themes || more ? `<p class="meta"><span class="links">${themes}${more}</span></p>` : ""}
     </div>
     ${panel}
   </article>`;

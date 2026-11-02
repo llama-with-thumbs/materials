@@ -304,7 +304,6 @@ main { padding: 20px 0 64px; }
   border: 0;
   border-bottom: 2px solid var(--ink);
   padding: 0;
-  cursor: zoom-in;
   overflow: hidden;
 }
 
@@ -336,13 +335,18 @@ main { padding: 20px 0 64px; }
   background: var(--red);
 }
 
-/* A card with more than one view says how many, bottom-left, so the reader knows the
-   enlarge holds a small gallery. */
+/* A card with more than one view says how many, bottom-left; that badge is the only way
+   into the small gallery, since the picture itself no longer enlarges. */
 .shot .tag.more {
   left: 0;
   top: auto;
   bottom: 0;
   background: var(--ink);
+  border: 0;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 /* ---------- card body ---------- */
