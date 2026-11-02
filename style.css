@@ -32,7 +32,7 @@
   --dim: #5f5b54;     /* secondary type */
   --line: #d9d4c9;    /* hairlines */
   --red: #d1261c;     /* the one working colour */
-  --blue: #2448a8;    /* the circle: inside a duvet */
+  --blue: #2759bc;    /* Bayer's blue, from the Kraus poster: the hand colour, under the pointer */
   --yellow: #f2c400;  /* the triangle: keeping warm */
   --font: "Jost", Futura, "Century Gothic", "Avenir Next", "Segoe UI", sans-serif;
 }
@@ -320,13 +320,14 @@ main { padding: 20px 0 64px; }
 @media (prefers-reduced-motion: reduce) { .shot .track { transition: none; } }
 
 /* The arrows: a solid triangle with a bar set a little apart from it, in plain ink. No edge,
-   no box behind it. */
+   no box behind it. Each is a full-height strip down its side of the picture, so coming near
+   is enough: the arrow turns blue and the bar moves up to the head. Pressing docks the bar
+   and nudges the whole arrow its way. */
 .shot .arrow {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
+  top: 0;
+  bottom: 0;
+  width: 56px;
   border: 0;
   padding: 0;
   background: none;
@@ -334,18 +335,26 @@ main { padding: 20px 0 64px; }
   display: grid;
   place-items: center;
 }
-.shot .arrow svg { width: 24px; height: 24px; fill: #111; }
+.shot .arrow svg { width: 24px; height: 24px; fill: #111; transition: transform 0.15s ease, fill 0.15s ease; }
+.shot .arrow svg .bar { transition: transform 0.2s cubic-bezier(.2,.7,.2,1); }
 .shot .arrow[hidden] { display: none; }
 .shot .arrow.prev svg { transform: scaleX(-1); }
-.shot .arrow:hover svg, .shot .arrow:focus-visible svg { fill: var(--red); }
-.shot .arrow.prev { left: 2px; }
-.shot .arrow.next { right: 2px; }
+.shot .arrow:hover svg, .shot .arrow:focus-visible svg { fill: var(--blue); }
+.shot .arrow:hover svg .bar, .shot .arrow:focus-visible svg .bar { transform: translateX(2px); }
+.shot .arrow:active svg .bar { transform: translateX(3px); }
+.shot .arrow.next:active svg { transform: translateX(3px); }
+.shot .arrow.prev:active svg { transform: scaleX(-1) translateX(3px); }
+.shot .arrow:focus-visible { outline: 3px solid var(--blue); outline-offset: -3px; }
+.shot .arrow.prev { left: 0; }
+.shot .arrow.next { right: 0; }
+@media (prefers-reduced-motion: reduce) { .shot .arrow svg, .shot .arrow svg .bar { transition: none; } }
 
 /* The workshop, stamped on the picture. Fixed colours: it sits on a photograph. */
 .shot .tag {
   position: absolute;
   left: 0;
   top: 0;
+  z-index: 1;            /* above the arrow strips, so the tooltip still answers */
   background: #111;
   color: #fff;
   font-size: 12px;
@@ -362,12 +371,13 @@ main { padding: 20px 0 64px; }
   background: var(--red);
 }
 
-/* A card with more than one view counts them, bottom-left, and the arrows page through. */
+/* A card with more than one view counts them, bottom-left, on the poster's blue band, and the
+   arrows page through. */
 .shot .tag.count {
   left: 0;
   top: auto;
   bottom: 0;
-  background: var(--ink);
+  background: var(--blue);
   font-variant-numeric: tabular-nums;
 }
 
@@ -456,6 +466,7 @@ main { padding: 20px 0 64px; }
   cursor: pointer;
   border-bottom: 2px solid var(--red);
 }
+.meta .unroll:hover, .meta .unroll:focus-visible { color: var(--blue); border-color: var(--blue); outline: none; }
 .card { position: relative; }
 .card.open, .card.closing { overflow: visible; content-visibility: visible; z-index: 6; }
 .more {

@@ -77,8 +77,10 @@ The rules, so the next change has something to be consistent with:
   then Century Gothic, then the system sans.
 - Paper ground, white panels, near-black type, one working colour: red. It marks the active
   filter, the title's full stop, the mark over the title, a hovered link, and the stamp that says
-  a picture is not the material itself. Blue and yellow appear in exactly one place: the circle
-  and triangle on the two cross-category themes.
+  a picture is not the material itself. Blue is the hand colour, taken from Herbert Bayer's 1923
+  Kraus poster: it is what the pointer brings out, on the carousel arrows and the read-more
+  button, and it carries the view counter on a card with several views. Yellow appears in exactly
+  one place, the triangle on the warmth theme; blue also draws the duvet circle.
 - The mark is a crumpled sheet of paper, drawn with a brush in one go and traced to `mark.svg`:
   red fill, ink creases; `mark-dark.svg` has paper creases for the dark theme, and `favicon.svg`
   flips between the two on the system scheme. A crumpled sheet is the catalogue's argument in one
