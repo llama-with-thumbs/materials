@@ -4673,7 +4673,8 @@ window.MATERIALS = [
 {
   id: "epoxyputty", cat: "glue", name: "Epoxy putty",
   sub: "two-part kneadable epoxy, mineral-filled", img: "epoxyputty",
-  hook: "Epoxy putty is the resin and hardener of an ordinary epoxy, each loaded with so much mineral filler that it is a clay, not a liquid; the two colours are kneaded until the marbling is gone and an hour later it drills, taps and files like soft aluminium. The filler is why it holds its shape on a vertical pipe, fills a hole rather than running out of it and sets under water, and why plumbers and sculptors keep a stick of it. It is also why it is weak beside liquid epoxy: the bond is a grip on a roughened surface, and it is brittle and useless as a thin film.",
+  hook: "Epoxy with so much mineral filler that it is a clay. Knead the two colours until the marbling goes; an hour later it drills and taps like soft aluminium, holds on a vertical pipe, and has set under water.",
+  more: "Two sticks of ordinary epoxy, resin and hardener, each loaded with so much mineral filler that it has given up being a liquid. Knead the two colours until the marbling is gone and the clock starts: five to twenty minutes to shape it, an hour to a block that drills, taps and files like soft aluminium. The filler is the whole point. It holds its shape on a vertical pipe, fills a hole instead of running out of it and cures under water, which is why a stick lives in the plumber's van and the sculptor's drawer. The filler is also the weakness: the bond is a grip on a roughened surface, not a chemical one, it is brittle, and spread thin it is no use at all. Liquid epoxy is stronger in every way except the ones that matter at the bottom of a wet sink.",
   stats: [["Work time", "5 to 20 min"], ["Cured", "drills and taps"], ["Strength", "a filler, not a structural glue"]],
   uses: "Pipe repair, model making, sculpture, car and boat fixes.",
   link: "https://en.wikipedia.org/wiki/Epoxy_putty",

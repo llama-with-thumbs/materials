@@ -188,7 +188,10 @@ function cardFor(mat) {
   const source = c
     ? `<a href="${esc(c.page)}" target="_blank" rel="noopener">${kind ? esc(c.kind) : "photo"}: ${esc(c.site || "Wikimedia")} (${esc(c.license)})</a>`
     : `<span>illustration</span>`;
-  const more = mat.link ? `<a href="${esc(mat.link)}" target="_blank" rel="noopener">read more</a>` : "";
+  const wiki = mat.link ? `<a href="${esc(mat.link)}" target="_blank" rel="noopener">wikipedia</a>` : "";
+  // The long text unrolls over the grid from the card's foot, so the row never reflows.
+  const more = mat.more ? `<button class="unroll" aria-expanded="false">read more</button>` : "";
+  const panel = mat.more ? `<div class="more"><div><p>${esc(mat.more)}</p></div></div>` : "";
   const src = mat.src ? `<a href="${esc(mat.src[1])}" target="_blank" rel="noopener">${esc(mat.src[0])}</a>` : "";
   const themes = (mat.tags || []).filter(t => THEMES[t])
     .map(t => `<button class="theme" data-cat="${esc(t)}">${esc(THEMES[t])}</button>`).join("");
@@ -206,8 +209,9 @@ function cardFor(mat) {
       <p class="hook">${esc(mat.hook)}</p>
       <div class="stats">${stats}</div>
       <p class="uses"><b>where you meet it:</b> ${esc(mat.uses)}</p>
-      <p class="meta">${source}<span class="links">${themes}${src}${more}</span></p>
+      <p class="meta">${source}<span class="links">${themes}${src}${wiki}${more}</span></p>
     </div>
+    ${panel}
   </article>`;
   CARD_HTML.set(mat.id, html);
   return html;
@@ -335,6 +339,35 @@ grid.addEventListener("click", e => {
   setCat(btn.dataset.cat);
   scrollTo({ top: 0, behavior: "smooth" });
 });
+
+// "read more" unrolls the long text over the cards beneath. One open at a time; a click
+// anywhere else, or Escape, folds it. The card keeps its z-index until the fold has finished.
+function foldCard(card) {
+  if (!card) return;
+  card.classList.remove("open");
+  card.classList.add("closing");
+  card.querySelector(".unroll").setAttribute("aria-expanded", "false");
+  card.querySelector(".unroll").textContent = "read more";
+  const panel = card.querySelector(".more");
+  panel.addEventListener("transitionend", () => card.classList.remove("closing"), { once: true });
+}
+grid.addEventListener("click", e => {
+  const btn = e.target.closest(".unroll");
+  if (!btn) return;
+  const card = btn.closest(".card");
+  const open = grid.querySelector(".card.open");
+  if (open && open !== card) foldCard(open);
+  if (card.classList.contains("open")) { foldCard(card); return; }
+  card.classList.remove("closing");
+  card.classList.add("open");
+  btn.setAttribute("aria-expanded", "true");
+  btn.textContent = "fold";
+});
+addEventListener("click", e => {
+  const open = grid.querySelector(".card.open");
+  if (open && !open.contains(e.target)) foldCard(open);
+});
+addEventListener("keydown", e => { if (e.key === "Escape") foldCard(grid.querySelector(".card.open")); });
 
 // Typing re-renders the whole grid, so wait for the typist to pause first.
 let typing = null;
