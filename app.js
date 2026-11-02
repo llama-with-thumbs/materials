@@ -88,8 +88,8 @@ function galleryOf(mat) {
   return [mat.id, ...(mat.extra || [])].filter(id => CREDITS[id]);
 }
 
-// The carousel arrow: a shaft and a triangle, nothing else. The prev one is mirrored in CSS.
-const ARROW = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 8.5h10V3l10 9-10 9v-5.5H2z"/></svg>`;
+// The carousel arrow: a triangle and, a little apart from it, a bar. The prev one is mirrored in CSS.
+const ARROW = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 3l9 9-9 9z"/><path d="M2 9.5h9v5H2z"/></svg>`;
 
 const catTag = cat => CAT_TAGS[cat] || (CATS[cat] || "").split(" ")[0];
 

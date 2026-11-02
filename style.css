@@ -319,8 +319,8 @@ main { padding: 20px 0 64px; }
 .shot .view { flex: 0 0 100%; position: relative; height: 100%; margin: 0; }
 @media (prefers-reduced-motion: reduce) { .shot .track { transition: none; } }
 
-/* The arrows: a solid shaft-and-triangle in ink, edged in paper so it reads on any photograph.
-   No box behind it. */
+/* The arrows: a solid triangle with a bar set a little apart from it, in plain ink. No edge,
+   no box behind it. */
 .shot .arrow {
   position: absolute;
   top: 50%;
@@ -334,7 +334,7 @@ main { padding: 20px 0 64px; }
   display: grid;
   place-items: center;
 }
-.shot .arrow svg { width: 24px; height: 24px; fill: #111; stroke: #f5f2eb; stroke-width: 1.5; stroke-linejoin: round; paint-order: stroke; }
+.shot .arrow svg { width: 24px; height: 24px; fill: #111; }
 .shot .arrow[hidden] { display: none; }
 .shot .arrow.prev svg { transform: scaleX(-1); }
 .shot .arrow:hover svg, .shot .arrow:focus-visible svg { fill: var(--red); }
