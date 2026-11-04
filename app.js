@@ -88,10 +88,16 @@ function galleryOf(mat) {
   return [mat.id, ...(mat.extra || [])].filter(id => CREDITS[id]);
 }
 
-// The carousel arrow: a triangle and, a little apart from it, a bar, drawn in the inner half
-// of a wide box so it has room to grow. Under the pointer the bar stretches and the head moves
-// out toward the edge of the picture; pressing pushes it a step further. Prev is mirrored in CSS.
-const ARROW = `<svg viewBox="0 0 48 24" aria-hidden="true"><path class="head" d="M25 3l9 9-9 9z"/><path class="bar" d="M14 9.5h9v5h-9z"/></svg>`;
+// The carousel arrow, after Klee's chapter on the arrow. At rest only the point shows. Near
+// the pointer the shaft slides in behind it, the fletching follows, and a blue charge runs up
+// from tail to point; the two fins steer a little toward the pointer's height. Pressing heats
+// it red; it cools once released. The second set of paths is the charge, clipped by CSS. Prev
+// is mirrored in CSS.
+const ARROW = `<svg viewBox="0 0 48 24" aria-hidden="true">
+  <path class="fin up" d="M19.5 12V3l9 9z"/><path class="fin down" d="M19.5 12v9l9-9z"/>
+  <path class="bar" d="M8.5 9.5h9v5h-9z"/><path class="fletch" d="M8.5 9.5l-5-4v4zM8.5 14.5l-5 4v-4z"/>
+  <path class="bar fill" d="M8.5 9.5h9v5h-9z"/><path class="fin up fill" d="M19.5 12V3l9 9z"/><path class="fin down fill" d="M19.5 12v9l9-9z"/>
+</svg>`;
 
 const catTag = cat => CAT_TAGS[cat] || (CATS[cat] || "").split(" ")[0];
 
@@ -203,7 +209,7 @@ function cardFor(mat) {
     ? `<div class="track">${views.map(id => `<figure class="view" title="${esc(creditOf(id))}">${imgFrom(id)}${kindTag(id)}</figure>`).join("")}</div>`
     : makeSwatch(mat);
   const reel = views.length > 1
-    ? `<button class="arrow prev" aria-label="previous view" hidden>${ARROW}</button><button class="arrow next" aria-label="next view">${ARROW}</button><span class="tag count">1/${views.length}</span>`
+    ? `<button class="arrow prev" aria-label="previous view" hidden>${ARROW}</button><button class="arrow next" aria-label="next view">${ARROW}</button><i class="edge l"></i><i class="edge r"></i>`
     : "";
   // The long text unrolls over the grid from the card's foot, so the row never reflows.
   const more = mat.more ? `<button class="unroll" aria-expanded="false">read more</button>` : "";
@@ -355,8 +361,8 @@ grid.addEventListener("click", e => {
   scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// The arrows slide the track one view at a time and the counter follows. The track does not
-// wrap: on the first view only the right arrow shows, on the last only the left.
+// The arrows slide the track one view at a time. The track does not wrap: on the first view
+// only the right arrow shows, on the last only the left.
 grid.addEventListener("click", e => {
   const a = e.target.closest(".arrow");
   if (!a) return;
@@ -368,8 +374,19 @@ grid.addEventListener("click", e => {
   shot.querySelector(".arrow.prev").hidden = i === 0;
   shot.querySelector(".arrow.next").hidden = i === n - 1;
   track.style.transform = `translateX(-${i * 100}%)`;
-  shot.querySelector(".tag.count").textContent = `${i + 1}/${n}`;
   shot.querySelector(".tag").title = track.children[i].title;
+});
+
+// The pointer's height inside an arrow's strip steers the fins: -1 at the top, 1 at the bottom.
+grid.addEventListener("pointermove", e => {
+  const a = e.target.closest(".arrow");
+  if (!a) return;
+  const r = a.getBoundingClientRect();
+  a.style.setProperty("--t", Math.max(-1, Math.min(1, ((e.clientY - r.top) / r.height - 0.5) * 2.4)).toFixed(2));
+});
+grid.addEventListener("pointerout", e => {
+  const a = e.target.closest(".arrow");
+  if (a && !a.contains(e.relatedTarget)) a.style.setProperty("--t", 0);
 });
 
 // "read more" unrolls the long text over the cards beneath. One open at a time; a click

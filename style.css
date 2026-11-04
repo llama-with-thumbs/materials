@@ -319,10 +319,12 @@ main { padding: 20px 0 64px; }
 .shot .view { flex: 0 0 100%; position: relative; height: 100%; margin: 0; }
 @media (prefers-reduced-motion: reduce) { .shot .track { transition: none; } }
 
-/* The arrows: a solid triangle with a bar set a little apart from it, in plain ink. No edge,
-   no box behind it. Each is a full-height strip down its side of the picture, so coming near
-   is enough: the arrow turns blue and grows toward the edge, the bar stretching and the head
-   moving out. Pressing pushes it one step further. */
+/* The arrows, after Klee. Each is a full-height strip down its side of the picture, so coming
+   near is enough. At rest only the point shows, its centre 22px in from the edge; the rest of
+   the arrow assembles behind it, toward the middle of the picture: the shaft slides in, the
+   fletching follows, and the blue charge runs tail to point. The pointer's height sets --t,
+   which steers the fins and leans the arrow a little. Pressing heats the charge red; it cools
+   once released. A blue band stands up along the edge the next picture comes in from. */
 .shot .arrow {
   position: absolute;
   top: 0;
@@ -332,23 +334,44 @@ main { padding: 20px 0 64px; }
   padding: 0;
   background: none;
   cursor: pointer;
-  display: grid;
-  place-items: center;
+  z-index: 2;
 }
-.shot .arrow svg { width: 48px; height: 24px; fill: #111; transition: fill 0.2s ease; }
-.shot .arrow svg .head, .shot .arrow svg .bar { transition: transform 0.35s cubic-bezier(.2,.8,.2,1); }
-.shot .arrow svg .bar { transform-box: fill-box; transform-origin: left center; }
 .shot .arrow[hidden] { display: none; }
-.shot .arrow.prev svg { transform: scaleX(-1); }
-.shot .arrow:hover svg, .shot .arrow:focus-visible svg { fill: var(--blue); }
-.shot .arrow:hover svg .head, .shot .arrow:focus-visible svg .head { transform: translateX(11px); }
-.shot .arrow:hover svg .bar, .shot .arrow:focus-visible svg .bar { transform: scaleX(2.22); }
-.shot .arrow:active svg .head { transform: translateX(13px); transition-duration: 0.1s; }
-.shot .arrow:active svg .bar { transform: scaleX(2.45); transition-duration: 0.1s; }
+.shot .arrow svg {
+  position: absolute;
+  top: calc(50% - 12px);
+  width: 48px;
+  height: 24px;
+  fill: #111;
+  overflow: visible;
+  transform-origin: 8.5px 12px;
+  transition: transform 0.25s cubic-bezier(.2,.8,.2,1);
+}
+.shot .arrow.next svg { right: -2px; transform: rotate(calc(var(--t, 0) * 8deg)); }
+.shot .arrow.prev svg { left: -2px; transform: scaleX(-1) rotate(calc(var(--t, 0) * 8deg)); }
+.shot .arrow .fin { transform-box: fill-box; transition: transform 0.25s cubic-bezier(.2,.8,.2,1); }
+.shot .arrow .fin.up { transform-origin: left bottom; transform: scaleY(calc(1 + var(--t, 0) * 0.3)); }
+.shot .arrow .fin.down { transform-origin: left top; transform: scaleY(calc(1 - var(--t, 0) * 0.3)); }
+.shot .arrow .bar { transform-box: fill-box; transform-origin: right center; transform: scaleX(0); transition: transform 0.3s cubic-bezier(.2,.8,.2,1); }
+.shot .arrow .fletch { opacity: 0; transform-box: fill-box; transform-origin: right center; transform: scaleX(0.3); transition: opacity 0.15s, transform 0.25s cubic-bezier(.2,.8,.2,1); }
+.shot .arrow .fill { fill: var(--blue); clip-path: inset(0 100% 0 0); transition: clip-path 0.4s cubic-bezier(.2,.8,.2,1), fill 1.2s ease-out; }
+.shot .arrow:hover .bar, .shot .arrow:focus-visible .bar { transform: scaleX(1); }
+.shot .arrow:hover .fletch, .shot .arrow:focus-visible .fletch { opacity: 1; transform: scaleX(1); transition-delay: 0.22s; }
+.shot .arrow:hover .bar.fill, .shot .arrow:focus-visible .bar.fill { clip-path: inset(0 0 0 0); transition-delay: 0.35s; }
+.shot .arrow:hover .fin.fill, .shot .arrow:focus-visible .fin.fill { clip-path: inset(0 0 0 0); transition-delay: 0.6s; }
+.shot .arrow:active svg { transform: rotate(0deg) translateX(6px); transition-duration: 0.1s; }
+.shot .arrow.prev:active svg { transform: scaleX(-1) translateX(6px); }
+.shot .arrow:active .fin { transform: none; }
+.shot .arrow:active .fill { fill: var(--red); clip-path: inset(0 0 0 0); transition: none; }
 .shot .arrow:focus-visible { outline: 3px solid var(--blue); outline-offset: -3px; }
 .shot .arrow.prev { left: 0; }
 .shot .arrow.next { right: 0; }
-@media (prefers-reduced-motion: reduce) { .shot .arrow svg, .shot .arrow svg .bar { transition: none; } }
+.shot .edge { position: absolute; top: 0; bottom: 0; width: 3px; background: var(--blue); transform: scaleY(0); transition: transform 0.35s cubic-bezier(.2,.8,.2,1); z-index: 1; pointer-events: none; }
+.shot .edge.l { left: 0; }
+.shot .edge.r { right: 0; }
+.shot .arrow.next:hover ~ .edge.r, .shot .arrow.next:focus-visible ~ .edge.r,
+.shot .arrow.prev:hover ~ .edge.l, .shot .arrow.prev:focus-visible ~ .edge.l { transform: scaleY(1); }
+@media (prefers-reduced-motion: reduce) { .shot .arrow svg, .shot .arrow svg *, .shot .edge { transition: none; } }
 
 /* The workshop, stamped on the picture. Fixed colours: it sits on a photograph. */
 .shot .tag {
@@ -370,16 +393,6 @@ main { padding: 20px 0 64px; }
   right: 0;
   bottom: 0;
   background: var(--red);
-}
-
-/* A card with more than one view counts them, bottom-left, on the poster's blue band, and the
-   arrows page through. */
-.shot .tag.count {
-  left: 0;
-  top: auto;
-  bottom: 0;
-  background: var(--blue);
-  font-variant-numeric: tabular-nums;
 }
 
 /* ---------- card body ---------- */

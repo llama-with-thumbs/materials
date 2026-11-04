@@ -78,9 +78,14 @@ The rules, so the next change has something to be consistent with:
 - Paper ground, white panels, near-black type, one working colour: red. It marks the active
   filter, the title's full stop, the mark over the title, a hovered link, and the stamp that says
   a picture is not the material itself. Blue is the hand colour, taken from Herbert Bayer's 1923
-  Kraus poster: it is what the pointer brings out, on the carousel arrows and the read-more
-  button, and it carries the view counter on a card with several views. Yellow appears in exactly
-  one place, the triangle on the warmth theme; blue also draws the duvet circle.
+  Kraus poster: it is what the pointer brings out, on the carousel arrows, the band along the
+  edge the next picture comes in from, and the read-more button. Yellow appears in exactly one
+  place, the triangle on the warmth theme; blue also draws the duvet circle.
+- The carousel arrow follows Klee's chapter on the arrow in the Pedagogical Sketchbook. At rest
+  only the point shows. Near the pointer the shaft slides in behind it, the fletching follows and
+  a blue charge runs from tail to point; the two fins steer a little toward the pointer's height.
+  Pressing heats it red. The track does not wrap: the first view has only the right arrow, the
+  last only the left, and a card with one view has none.
 - The mark is a crumpled sheet of paper, drawn with a brush in one go and traced to `mark.svg`:
   red fill, ink creases; `mark-dark.svg` has paper creases for the dark theme, and `favicon.svg`
   flips between the two on the system scheme. A crumpled sheet is the catalogue's argument in one
