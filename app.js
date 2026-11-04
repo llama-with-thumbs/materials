@@ -209,7 +209,8 @@ function cardFor(mat) {
     ? `<div class="track">${views.map(id => `<figure class="view" title="${esc(creditOf(id))}">${imgFrom(id)}${kindTag(id)}</figure>`).join("")}</div>`
     : makeSwatch(mat);
   const reel = views.length > 1
-    ? `<button class="arrow prev" aria-label="previous view" hidden>${ARROW}</button><button class="arrow next" aria-label="next view">${ARROW}</button><i class="edge l"></i><i class="edge r"></i>`
+    ? `<button class="arrow prev" aria-label="previous view" hidden>${ARROW}</button><button class="arrow next" aria-label="next view">${ARROW}</button><i class="edge l"></i><i class="edge r"></i>
+      <span class="dots">${views.map((_, i) => `<button class="dot${i ? "" : " on"}" data-i="${i}" aria-label="view ${i + 1} of ${views.length}"></button>`).join("")}</span>`
     : "";
   // The long text unrolls over the grid from the card's foot, so the row never reflows.
   const more = mat.more ? `<button class="unroll" aria-expanded="false">read more</button>` : "";
@@ -361,18 +362,22 @@ grid.addEventListener("click", e => {
   scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// The arrows slide the track one view at a time. The track does not wrap: on the first view
-// only the right arrow shows, on the last only the left.
+// The arrows slide the track one view at a time, and the squares at the foot of the picture
+// jump to a view. The track does not wrap: on the first view only the right arrow shows, on
+// the last only the left.
 grid.addEventListener("click", e => {
-  const a = e.target.closest(".arrow");
+  const a = e.target.closest(".arrow, .dot");
   if (!a) return;
   const shot = a.closest(".shot");
   const track = shot.querySelector(".track");
   const n = track.children.length;
-  const i = Math.min(n - 1, Math.max(0, (+shot.dataset.i || 0) + (a.classList.contains("next") ? 1 : -1)));
+  const i = a.classList.contains("dot")
+    ? +a.dataset.i
+    : Math.min(n - 1, Math.max(0, (+shot.dataset.i || 0) + (a.classList.contains("next") ? 1 : -1)));
   shot.dataset.i = i;
   shot.querySelector(".arrow.prev").hidden = i === 0;
   shot.querySelector(".arrow.next").hidden = i === n - 1;
+  shot.querySelectorAll(".dot").forEach((d, k) => d.classList.toggle("on", k === i));
   track.style.transform = `translateX(-${i * 100}%)`;
   shot.querySelector(".tag").title = track.children[i].title;
 });

@@ -372,6 +372,14 @@ main { padding: 20px 0 64px; }
 .shot .arrow.prev:hover ~ .edge.l, .shot .arrow.prev:focus-visible ~ .edge.l { transform: scaleY(1); }
 @media (prefers-reduced-motion: reduce) { .shot .arrow svg, .shot .arrow svg *, .shot .edge { transition: none; } }
 
+/* A card with several views counts them in small squares at the foot of the picture: the one
+   showing is ink, the rest paper. Each is a button that jumps to its view. Fixed colours, as
+   they sit on a photograph. A card with one view has none. */
+.shot .dots { position: absolute; left: 0; right: 0; bottom: 8px; display: flex; justify-content: center; gap: 5px; z-index: 1; pointer-events: none; }
+.shot .dot { width: 8px; height: 8px; padding: 0; border: 1px solid #111; background: #f5f2eb; cursor: pointer; pointer-events: auto; transition: background 0.2s, border-color 0.2s; }
+.shot .dot.on { background: #111; border-color: #f5f2eb; }
+.shot .dot:hover, .shot .dot:focus-visible { background: var(--blue); border-color: #f5f2eb; outline: none; }
+
 /* The workshop, stamped on the picture. Fixed colours: it sits on a photograph. */
 .shot .tag {
   position: absolute;

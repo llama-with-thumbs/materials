@@ -85,7 +85,8 @@ The rules, so the next change has something to be consistent with:
   only the point shows. Near the pointer the shaft slides in behind it, the fletching follows and
   a blue charge runs from tail to point; the two fins steer a little toward the pointer's height.
   Pressing heats it red. The track does not wrap: the first view has only the right arrow, the
-  last only the left, and a card with one view has none.
+  last only the left, and a card with one view has none. Small squares at the foot of the picture
+  count the views, the one showing in ink; each jumps to its view.
 - The mark is a crumpled sheet of paper, drawn with a brush in one go and traced to `mark.svg`:
   red fill, ink creases; `mark-dark.svg` has paper creases for the dark theme, and `favicon.svg`
   flips between the two on the system scheme. A crumpled sheet is the catalogue's argument in one
