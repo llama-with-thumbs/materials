@@ -579,6 +579,106 @@ window.MATERIALS = [
   link: "https://en.wikipedia.org/wiki/Polysulfone",
   src: ["Boedeker: polysulfone", "https://www.boedeker.com/Family/Polysulfone"]
 },
+{
+  id: "polystyrene", cat: "polymer", name: "Polystyrene",
+  sub: "general-purpose and high-impact grades, the glassy one and the opaque one", img: "polystyrene", extra: ["polystyrene2", "polystyrene3"],
+  hook: "The brittle clear plastic of the CD case and, with a little rubber stirred in, the model kit on its sprue. Cheap, glassy, easy to mould, and it cracks rather than bends.",
+  more: "Eduard Simon distilled it from storax resin in Berlin in 1839 and set it aside as a curiosity; IG Farben made it in bulk from 1931 and Dow followed. Pure polystyrene is a glass at room temperature, clear, stiff and brittle, with a glass transition near 100 C, which is why a cup lid comes out of the dishwasher a different shape. Grafting a few per cent of polybutadiene rubber into it gives high-impact polystyrene, opaque and tough enough for a yoghurt pot or a model kit, at the cost of the clarity. It took the radio cabinet from Bakelite and the cheap tumbler from glass. Its weakness is slow: it crazes under a steady load and dissolves in orange peel oil. Polypropylene and PET have most of the packaging now; the CD case and the kit sprue remain.",
+  stats: [["Glass transition", "about 100 C"], ["Clear grade", "stiff, brittle, 2 to 3 per cent strain to break"], ["Ruined by", "orange peel oil, steady load"]],
+  uses: "Model kits, CD cases, yoghurt pots, cup lids, lab disposables, the foam of the other card.",
+  link: "https://en.wikipedia.org/wiki/Polystyrene",
+  src: ["Macrogalleria", "https://www.pslc.ws/macrog/styrene.htm"]
+},
+{
+  id: "catalin", cat: "polymer", name: "Catalin",
+  sub: "cast phenolic resin, unfilled, poured into lead moulds", img: "catalin",
+  hook: "Bakelite without the filler: phenolic resin poured clear into lead moulds, cured for days, then carved and polished into radios the colour of butterscotch. It shrinks, darkens and keeps selling at auction.",
+  more: "The American Catalin Corporation took up the phenolic patents when they ran out in 1927 and left out the wood flour. Without the filler the resin stayed translucent and took dye, so it was cast in lead moulds, cured in ovens for days, then cut, drilled and polished by hand like a stone. Radios, bangles and cutlery handles came out in marbled blues and greens that no moulded Bakelite could manage. The chemistry never quite finishes: the resin keeps condensing, so every Catalin radio has shrunk a few per cent, cracked around its screws and turned from cream to butterscotch. Injection-moulded polystyrene undercut it by 1950. A Fada Bullet cost about forty dollars new; a blue one now fetches several thousand, cracks included.",
+  stats: [["Made", "1927 to about 1950"], ["Cure", "days in an oven, then hand finishing"], ["Ages by", "shrinking, cracking, going amber"]],
+  uses: "Table radios, jewellery, cutlery handles, chess sets, the collector trade.",
+  link: "https://en.wikipedia.org/wiki/Catalin",
+  src: ["Plastics Historical Society", "https://plastiquarian.com/?page_id=14317"]
+},
+{
+  id: "boisdurci", cat: "polymer", name: "Bois Durci",
+  sub: "sawdust and blood albumen, hot-pressed, 1855", img: "boisdurci",
+  hook: "Fine sawdust bound with blood albumen from the Paris slaughterhouses, pressed hot in a steel die into inkstands and portrait medallions. One of the first mouldable plastics; warm, it smells faintly of the abattoir.",
+  more: "Francois Charles Lepage patented it in Paris in 1855: rosewood or ebony sawdust mixed with albumen, which was blood from the slaughterhouses or egg white for the pale grades, dried to a powder, then pressed in a heated steel die and left to cool under load. The protein sets and the result is a dense, jet-black moulding with a polish like ebony that takes the finest detail of the die. Medallions of emperors and popes, inkstands and frames came out until production stopped in 1875. It wanted nothing but heat and pressure, forty years before Bakelite, and it has the fault of any protein: damp swells it. Celluloid and then phenolic resin took the trade, and the medallions survive mostly because nobody wanted them enough to throw them away.",
+  stats: [["Binder", "blood albumen, or egg white for pale grades"], ["Pressed", "hot steel die, cooled under load"], ["Ruined by", "damp, as any protein is"]],
+  uses: "Portrait medallions, inkstands, frames, mourning jewellery; museum cases now.",
+  link: "https://www.modip.ac.uk/projects/curators-guide/plastics-materials/bois-durci",
+  src: ["Plastics Historical Society", "https://plastiquarian.com/?page_id=14216"]
+},
+{
+  id: "phema", cat: "polymer", name: "Hydrogel (pHEMA)",
+  sub: "poly(2-hydroxyethyl methacrylate), two-fifths water", img: "phema", extra: ["phema2"],
+  hook: "A plastic that is nearly two-fifths water and holds its shape: the soft contact lens. Dry it is a brittle button; wet it is a clear jelly that lets oxygen through to the cornea.",
+  more: "Otto Wichterle made it in Prague in 1961, on a spinning mould built from a child's construction set and driven by a bicycle dynamo. The polymer is a methacrylate with a hydroxyl on every unit, lightly cross-linked, so it swells in water to about 38 per cent and stops there. Dry it is a hard button that can be lathed; soaked it is soft, clear, and passes enough oxygen for a day's wear. Bausch and Lomb licensed it in 1965, and the hard PMMA lens, which passed no oxygen at all, was gone within a decade. The water is also the limit: oxygen travels only through it, so more means thinner or wetter, and both tear. Silicone hydrogels, from 1999, carry the oxygen through the silicone instead, and are what most people now wear.",
+  stats: [["Water", "about 38 per cent, swollen"], ["Dry", "hard enough to lathe"], ["Limit", "oxygen only travels through the water"]],
+  uses: "Soft contact lenses, wound dressings, drug-release implants, the first artificial corneas.",
+  link: "https://en.wikipedia.org/wiki/Polyhydroxyethylmethacrylate",
+  src: ["American Academy of Ophthalmology", "https://www.aao.org/eye-health/glasses-contacts/contact-lens-102"]
+},
+{
+  id: "pga", cat: "polymer", name: "Polyglycolic acid",
+  sub: "PGA, the first synthetic absorbable suture, 1970", img: "pga", extra: ["pga2"],
+  hook: "A polyester the body takes apart on its own schedule: water cuts the chain, the pieces are glycolic acid, and the thread is gone in three months. The first synthetic stitch that did not have to be pulled out.",
+  more: "Davis and Geck sold it as Dexon in 1970, after catgut had held the job for two thousand years. Glycolide is ring-opened into a stiff, highly crystalline polyester that melts near 225 C spun and braided into a thread stronger than silk. Water gets in slowly, hydrolysis cuts the ester links, and the fragments are glycolic acid, which the body already knows how to burn. The schedule is set by the chemistry, not the patient: about half the strength is gone at three weeks and the thread has vanished by ninety days. Catgut, which was sheep intestine and dissolved whenever the enzymes felt like it, lost the market within a decade. The lactide copolymer, Vicryl, braids softer and holds longer; the same chemistry makes screws that leave the bone on their own.",
+  stats: [["Strength", "half gone at 3 weeks"], ["Gone", "about 90 days"], ["Ends as", "glycolic acid, burnt by the body"]],
+  uses: "Absorbable sutures, bone screws and plates, surgical mesh, drug depots.",
+  link: "https://en.wikipedia.org/wiki/Polyglycolide",
+  src: ["StatPearls, Suture Materials", "https://www.ncbi.nlm.nih.gov/books/NBK539891/"]
+},
+{
+  id: "nylon11", cat: "polymer", name: "Nylon 11 (Rilsan)",
+  sub: "polyamide 11, from castor oil", img: "nylon11",
+  hook: "A nylon grown in a field: the monomer comes from castor beans, not oil. It takes up little water and shrugs off fuel and cold, so it makes the broom bristle, the air-brake line and the gas main.",
+  more: "Joseph Zeltner at Organico had the route in 1944 and the Rilsan plant at Marseille started in 1955. Castor oil is cracked to 11-aminoundecanoic acid, which polymerises to a nylon with eleven carbons between amides, nearly twice the spacing of nylon 6/6, and far fewer places to hold water. Under 2 per cent water at saturation, where 6/6 takes 8, so it keeps its size in the damp and stays tough in the dry. It is tough at minus 40 C and indifferent to petrol. Hence the yellow gas pipe, the truck's air-brake tubing, the flagged broom filament and the coated supermarket trolley. The cost is the crop: India grows most of the castor, and the price follows the monsoon. Nylon 12, from butadiene, does nearly the same job, and the two have argued over it since.",
+  stats: [["Water uptake", "under 2 per cent, nylon 6/6 takes 8"], ["Cold", "tough at minus 40 C"], ["Price follows", "the Indian castor crop"]],
+  uses: "Gas distribution pipe, air-brake tubing, broom and brush filament, powder coatings, fuel lines.",
+  link: "https://en.wikipedia.org/wiki/Nylon_11",
+  src: ["Arkema, Rilsan", "https://hpp.arkema.com/en/product-families/rilsan-polyamide-11-resins/"]
+},
+{
+  id: "tps", cat: "polymer", name: "Thermoplastic starch",
+  sub: "starch plasticised with water and glycerol, foamed", img: "tps",
+  hook: "Packing chips made of corn starch: the same foam shape as polystyrene, but they dissolve on the tongue and go down the drain. Starch melts into a plastic if it is given enough water and glycerol.",
+  more: "Native starch does not melt; it chars. Cook it in an extruder with a little water and glycerol and the granules come apart into a thermoplastic that flows and can be foamed or blown into film. Novamont's Mater-Bi, from 1990, blends it with a biodegradable polyester to get something a bag can be made of; the loose-fill chip needs no blending, only the extruder and a drying oven. The chip weighs about the same as the polystyrene one, cushions nearly as well, and is gone in a bucket of water in a minute. The virtue is the limit: it is hygroscopic, goes soft in a humid warehouse, and tastes faintly of popcorn, and the mice agree. It has taken most of the loose-fill trade from expanded polystyrene; for films it needs the polyester, and the price of that.",
+  stats: [["Plasticiser", "water and glycerol"], ["Dissolves", "in water, in about a minute"], ["Ruined by", "a humid warehouse, and mice"]],
+  uses: "Loose-fill packing, compostable bags with a polyester blend, water-soluble film, edible packaging.",
+  link: "https://en.wikipedia.org/wiki/Bioplastic",
+  src: ["European Bioplastics", "https://www.european-bioplastics.org/bioplastics/materials/"]
+},
+{
+  id: "corian", cat: "polymer", name: "Solid surface (Corian)",
+  sub: "PMMA filled two-thirds with alumina trihydrate", img: "corian",
+  hook: "A worktop that is a filled acrylic: two parts of alumina trihydrate in one of PMMA. It joins with no visible seam, sands out its own scratches, and scorches under a hot pan.",
+  more: "Donald Slocum at DuPont, 1967, chasing an ivory for sinks. Methyl methacrylate is poured with about 65 per cent of alumina trihydrate and cured in sheets 12 mm thick. The filler gives it the weight and the feel of stone; the acrylic gives it the workability of a dense hardwood: it cuts, routs and thermoforms, and two pieces joined with the same resin and sanded show no seam, so a sink can be part of the counter. A scratch or a cigarette burn is sanded out, which no laminate allows. It is not stone: it softens near 150 C, so a pan straight off the hob leaves a mark, and it costs about what granite does. Quartz composite, the same idea with polyester and crushed quartz, has the top of the market now.",
+  stats: [["Filler", "about 65 per cent alumina trihydrate"], ["Repair", "sand it out"], ["Softens", "near 150 C, a hot pan marks it"]],
+  uses: "Kitchen and lab worktops, integral sinks, hospital surfaces, thermoformed reception desks.",
+  link: "https://en.wikipedia.org/wiki/Corian",
+  src: ["Corian Design", "https://www.corian.com/"]
+},
+{
+  id: "plastisol", cat: "polymer", name: "PVC plastisol",
+  sub: "PVC powder dispersed in plasticiser, fused by heat", img: "plastisol",
+  hook: "A liquid that becomes a rubbery solid with nothing but heat: PVC particles suspended in plasticiser, which they drink when warmed to 180 C. Dip a pair of pliers in it and the handle is made.",
+  more: "A plastisol is emulsion-grade PVC, particles about a micron across, stirred into enough phthalate or adipate plasticiser to make a cream. At room temperature the two ignore each other and the mix keeps for months. Past about 160 C the PVC swallows the plasticiser, the particles fuse, and on cooling there is a soft, tough rubber with nothing lost: no solvent, no water, no curing agent. Hence the dip-coated tool handle and dish rack, the rotationally moulded doll, the raised ink on a printed T-shirt, the soft fishing lure, the seal inside a jar lid. The plasticiser is the whole argument: it migrates, so old plastisol goes stiff and greasy, and the phthalates that did the job best are the ones now restricted.",
+  stats: [["Particles", "about 1 micron, emulsion PVC"], ["Fuses", "160 to 180 C"], ["Ages by", "plasticiser migrating out"]],
+  uses: "Dip-coated tool handles, dish racks, soft lures, jar-lid seals, screen-print ink, slush-moulded dolls.",
+  link: "https://en.wikipedia.org/wiki/Plastisol",
+  src: ["Macrogalleria, dip and slush moulding", "https://pslc.ws/macrog/mpm/composit/fiber/process/sipslush.htm"]
+},
+{
+  id: "pufoam", cat: "polymer", name: "Flexible polyurethane foam",
+  sub: "open-cell polyether urethane, 20 to 50 kg per cubic metre", img: "pufoam",
+  hook: "The foam in every sofa, mattress and car seat: a polyol and an isocyanate that blow themselves up with the carbon dioxide they make while they set. Ninety-seven per cent air; after a few decades it yellows and crumbles.",
+  more: "Otto Bayer's group had the urethane chemistry by 1937; the foam came from a batch that frothed when water got into it, and Bayer sold it from 1952. A polyether polyol and toluene diisocyanate are mixed with a little water and a tin catalyst; water and isocyanate give carbon dioxide, which blows the mass while the rest cross-links into rubber. Ninety seconds later there is a slab of open cells, 97 per cent air, that springs back from a thumb and from a decade of sitting. Within fifteen years it had replaced horsehair and springs in upholstery; it is the most made polymer foam by weight. Its failure is slow and well known: light and oxygen cut the chains, the foam yellows, then crumbles, and the flame retardants added since the 1970s are the dust in the house.",
+  stats: [["Density", "20 to 50 kg per cubic metre"], ["Blown by", "its own carbon dioxide"], ["Ages by", "yellowing, then crumbling"]],
+  uses: "Mattresses, sofa cushions, car seats, carpet underlay, sponges, packaging.",
+  link: "https://en.wikipedia.org/wiki/Polyurethane_foam",
+  src: ["Polyurethane Foam Association", "https://pfa.org/what-is-polyurethane-foam/"]
+},
 
 /* ---------- METALS & ALLOYS ---------- */
 {

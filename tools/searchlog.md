@@ -149,6 +149,7 @@ Rounds so far, so the next one can start somewhere else. Details are in git.
 | 2026-10-21 | Seven more for Warmth & insulation: four that take a duvet apart, three that insulate buildings |
 | 2026-10-21 | Duvet searched out a second time; no new cards, so the findings became the Inside a duvet theme |
 | 2026-10-28 | Six early and specialty plastics for the polymer category: galalith, celluloid, melamine, urea-formaldehyde, polycaprolactone, polysulfone |
+| 2026-11-04 | Ten plastics in roles: polystyrene, Catalin, Bois Durci, pHEMA hydrogel, PGA, nylon 11, thermoplastic starch, Corian, plastisol, flexible PU foam |
 
 ## Sources (the `src` field)
 
@@ -370,3 +371,35 @@ one, extra views. Found nothing worth adding for:
 | `LoctiteCure.JPG` | a UV curing wand, which is a different chemistry |
 | `Industries of War - Oilcloth ... NARA 45488742.jpg` | a scanned index card with a thumbnail on it |
 | `Trial foam tape.jpg` | a bandaged foot; the tape is medical |
+
+### Plastics, third round, 2026-11-04
+
+Ten added: polystyrene, Catalin, Bois Durci, hydrogel (pHEMA), polyglycolic acid, nylon 11,
+thermoplastic starch, solid surface (Corian), PVC plastisol, flexible polyurethane foam. Searched
+and not added:
+
+| Candidate | Queries tried | Why dropped | Retry with |
+|---|---|---|---|
+| Polybutylene pipe (PB-1) | `polybutylene pipe`, `polybutylene plumbing`, `polybutene pipe`, `PB-1` | Nothing at all on Commons; `PB-1` is a Boeing flying boat | A grey PB pipe with an Acetal fitting, the American lawsuit material |
+| PPSU (Radel) | `polyphenylsulfone`, `PPSU`, `Radel` | Nothing; `Radel` is people | A baby bottle or a sterilisation tray with the resin named |
+| PEF (polyethylene furanoate) | `polyethylene furanoate`, `Avantium` | Nothing; `PEF` is the Palestine Exploration Fund | A bottle, when one exists on Commons |
+| Santoprene / TPV | `Santoprene` | `TPV` is a Citroën; the branded pallet from the last round is still the only granule photo | Loose granules in a hand |
+| TPE (SEBS compounds) | `thermoplastic elastomer`, `SEBS`, `TPE granules`, `overmolded grip`, `TPE toothbrush` | Only a Kraiburg pellet bag with the brand across it, a 3D-printed lattice pillow, and a schematic | A toothbrush or razor grip with the soft part legible |
+| ASA | `acrylonitrile styrene acrylate`, `ASA plastic` | Place names and a politician | A named outdoor moulding |
+| SAN | `styrene acrylonitrile` | Only ABS pictures and tree resin | A clear SAN kitchen item named as such |
+| Parkesine | `Parkesine`, `Parkes plastic` | Celluloid objects and Alexander Parkes's blue plaques; no Parkesine object on Commons | The Science Museum pieces, if ever uploaded |
+| Unsaturated polyester resin | `polyester resin`, `fiberglass resin`, `gelcoat`, `polyester resin casting`, `chopped strand mat`, `MEKP` | A staff-moulding diagram, finished boats, chemistry; the laminate is already `Glass-fibre laminate` under building | A tin and a wet layup, not a hull |
+| XPS (extruded polystyrene) | `extruded polystyrene`, `XPS insulation` | Good board photos (`Styrofoam-grey-board.jpg`, `Styrodur.jpg`) but the brand is printed across the face; it is also a warmth card, not a plastics one | Put it under warmth from a cut edge |
+| Bone cement (PMMA) | `bone cement`, `PMMA cement`, `cemented hip`, `Palacos` | Bone glue (the animal kind), and X-rays where the cement mantle is a thin white line; no photo of the cement itself | A mixing bowl of dough, or a cut femur section |
+| PHB / PHA | `polyhydroxyalkanoate`, `polyhydroxybutyrate`, `PHB granules`, `PHA bioplastic`, `biopolymer pellets` | One honest picture, a spherulite micrograph (`Micrografia di cristalli sferulitici ... (PHB).jpg`, CC BY 4.0, 1307 px); held, because a card whose only view is a micrograph says nothing about the material in the hand | The micrograph as the structure view once a pellet or object photo exists |
+| PMP / TPX | `polymethylpentene`, `TPX beaker`, `PMP labware` | `PMP beaker.jpg` is right and honest but 864 px wide; held | A larger photo of PMP labware |
+| CPVC | `CPVC pipe`, `CPVC` | Two usable photos (`CPVC tees.jpg`, the Blazemaster sprinkler mock-up) but the card would be a footnote to PVC; held for a plumbing round | — |
+
+| rejected after looking | why |
+|---|---|
+| `Polistirolo.JPG` | expanded packaging foam, which is the `eps` card |
+| `FADA Bullet Catalin radio.webp` | the iconic marbled blue, CC0, but webp: the fetcher reads only JPEG and PNG, so the Emerson 520 from Flickr went in instead |
+| `Pillow made from thermoplastic elastomer.jpg` | a printed lattice; says 3D printing, not TPE |
+| `Hip replacement Image 3684-PH.jpg` | an X-ray; the cement is a thin line, and an X-ray is not a photograph of anything |
+| `Moulage en stratifié polyester.jpg` | a line drawing from a staff-moulding manual |
+| `Interboot 2023, Friedrichshafen (P1120545).jpg` | a finished gelcoat hull; nothing says polyester |

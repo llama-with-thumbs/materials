@@ -1,6 +1,6 @@
 # Interesting Materials
 
-A single-page field guide to 564 materials, each here for a reason of its own — a polyurethane
+A single-page field guide to 574 materials, each here for a reason of its own — a polyurethane
 that carries tons without overheating, a ceramic that clamps its own cracks shut, a lashing that
 tightens itself as it dries, an airbag woven closed so it has no seam to burst, a film base that
 eats itself. Some are here for what they do, some for how they are made, some for how they fail,
@@ -22,14 +22,14 @@ style.css      the design system: paper by default, a dark toggle, Jost
 taxonomy.js    the vocabulary: categories, picture kinds, cross-cutting themes
 app.js         rendering, search, filters, sort, shareable URL state, view carousel
 swatch.js      the drawn fallback used when a material has no photograph
-data.js        the catalogue — 564 entries, this is the file to edit
+data.js        the catalogue — 574 entries, this is the file to edit
 plates.js      the plates: diagrams that explain several cards, drawn from data or credited
 papers.js      the papers: the paper behind a material, or one that promises something
 library.js     the library: primary Bauhaus texts, each linking out to a public-domain copy
 figures.js     draws a plate's figure from its data and runs the readout under the pointer
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
-images/        564 images, 960 px wide
+images/        574 images, 960 px wide
 fonts/         Jost, variable weight, latin and latin-ext, with its OFL licence
 robots.txt     sitemap.xml   for search engines
 LICENSE        MIT for the text and the tools; the photographs keep their own licences
@@ -127,7 +127,7 @@ table says so rather than pretending.
 
 | `cat` | Shown as | Entries |
 |---|---|---|
-| `polymer` | plastics | 64 |
+| `polymer` | plastics | 74 |
 | `metal` | metal | 46 |
 | `ceramic` | clay and glass | 50 |
 | `electronic` | light and current | 29 |
@@ -141,6 +141,15 @@ table says so rather than pretending.
 | `warmth` | warmth | 22 |
 | `film` | film and foil | 28 |
 | `glue` | glues | 20 |
+
+`polymer` is the broadest block and the one that gets revisited. The first pass took the
+engineering plastics and the elastomers; the second added the early plastics that came before oil
+(galalith, celluloid, melamine, urea-formaldehyde); the third, on 2026-11-04, filled the gaps a
+materials engineer notices on a walk round the house: the two polystyrenes, cast Catalin beside
+moulded Bakelite, Bois Durci pressed from sawdust and blood, the hydrogel of the soft contact lens,
+the suture the body dissolves, castor-oil nylon, the starch packing chip, the filled acrylic of a
+worktop, PVC plastisol, and the polyurethane foam in every sofa. Each of those is a material in a
+role, and the card says what the role asks of it.
 
 `additive` is a materials category like the rest: each card is a feedstock or the stuff a printed
 part is made of — filament, resin, powder, wire, slurry, bath — and the process that consumes it is
@@ -371,7 +380,7 @@ constantly, and a few answer 403 to a script while opening fine in a browser. `S
 every source already in the catalogue by site, the families that have held up and the ones that
 refuse scripts; `python -I tools/sources.py --check` fetches them all and dates the failures.
 
-All 59 polymer and elastomer cards carry one, and the warmth and film cards carry one wherever a
+69 of the 74 polymer and elastomer cards carry one, and the warmth and film cards carry one wherever a
 source existed that was not a shop. The other categories do not yet.
 
 `tags` is optional and cross-cuts the categories; see *Themes* above. Both the category and
@@ -424,7 +433,7 @@ starting a round, so the same dead ends are not walked twice.
 
 ## Images and licensing
 
-All 564 entries carry an image, credited to where it came from — a photographer's Flickr
+All 574 entries carry an image, credited to where it came from — a photographer's Flickr
 page, an agency, a museum, a maker, or Wikimedia Commons. Each remains under its own licence
 (CC0, CC BY, CC BY-SA in several versions, FAL, GFDL, "Attribution" or public domain); the
 photographer, licence and source page are recorded in `credits.js` and shown in the tooltip of
@@ -432,9 +441,9 @@ the picture and its badge on every card. If you redistribute this page, keep tho
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 
-295 are photographs of the material itself. 269 are not, and say so in red on the corner of the image:
+296 are photographs of the material itself. 278 are not, and say so in red on the corner of the image:
 
-- **205 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **212 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
@@ -447,10 +456,10 @@ in `fonts/OFL.txt`.
   magnetorheological fluid for the electrorheological one, aramid filaments for M5, turnout gear for
   melamine fibre, and a hand-laid glass-reinforced body for sheet moulding compound. The caption
   always says what the picture actually is.
-- **19 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
+- **20 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
   optical calcium fluoride, a superhydrophobic droplet for SLIPS, a printed sand mould for
   furan-bonded sand, a GAGG:Ce scintillator for GGG, and a cut-resistant glove for Vectran.
-- **22 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
+- **23 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
   spraying for Nafion, cold spray mid-deposition for cold-spray powder, hand needle felting for
   needle-punched felt, two Markforged X7 machines for continuous fibre printing, and the loom or
   knitting machine itself for Jacquard weave, warp knitting and whole-garment knitting.
@@ -459,7 +468,7 @@ No entry falls back to a drawn swatch, and none shows a molecular or crystal str
 material itself has never been photographed freely, the card carries the closest real object
 instead.
 
-A few cards carry more than one view, paged on the card itself — 34 extra views so far: the raw material
+A few cards carry more than one view, paged on the card itself — 38 extra views so far: the raw material
 beside the finished part (Nitinol wire and the cut spoons), the shell beside the inlay (nacre),
 the harvest beside the bark (cork), the property beside the thing (a brick resting on a slab of
 aerogel), the two unmixed sticks beside what a sculptor and a museum made of them (epoxy putty).

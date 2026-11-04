@@ -615,5 +615,15 @@ window.ADDED = {
   wallpaperpaste: "2026-10-31",
   foamtape: "2026-10-31",
   spinifex: "2026-10-31",
-  epoxyputty: "2026-10-31"
+  epoxyputty: "2026-10-31",
+  polystyrene: "2026-11-04",
+  catalin: "2026-11-04",
+  boisdurci: "2026-11-04",
+  phema: "2026-11-04",
+  pga: "2026-11-04",
+  nylon11: "2026-11-04",
+  tps: "2026-11-04",
+  corian: "2026-11-04",
+  plastisol: "2026-11-04",
+  pufoam: "2026-11-04"
 };

@@ -601,3 +601,17 @@ wallpaperpaste3|commons|2278410706 wallpapering.jpg|Pasting a length on the tabl
 spinifex2|commons|Triodia hummock grassland.jpg|Spinifex hummocks at Karijini, soft and hard species together|related
 cyanoacrylate2|commons|СУПЕР-КЛЕЙ (cyanoacrylate). Склеивание детали (1).jpg|A tube of superglue beside a broken plastic fitting|process
 cyanoacrylate3|commons|Super Glue (8560816706).jpg|A tube of Krazy Glue|product
+polystyrene|commons|Gunpla model sprues.jpg|Model kit parts still on their sprues, high-impact polystyrene straight from the mould|product
+catalin|Flickr|https://live.staticflickr.com/3880/33294484065_be49ea7c0c_b.jpg|An Emerson 520 of about 1946: the cream Catalin has gone to butterscotch, as it all does|product|CC BY-SA 2.0|Joe Haupt|https://www.flickr.com/photos/51764518@N02/33294484065/
+boisdurci|commons|PIUS IX.jpg|A Bois Durci medallion of Pius IX, pressed from sawdust and blood albumen|product
+phema|commons|Corrective soft contact lenses, with high oxigen permeability.jpg|Soft contact lenses, the silicone-hydrogel kind that followed pHEMA|related
+pga|commons|Polyglycolic acid suture ( PGA-Dexon).JPG|A braided polyglycolic acid suture on its needle|product
+nylon11|commons|Botte de fibres polyamides (rilsan).jpg|A bundle of flagged Rilsan filament, dressed for broom heads|product
+tps|commons|Stärke-Packstoff Pömpel CG.jpg|Loose-fill packing chips extruded from thermoplastic starch|product
+corian|commons|Corian samples.jpg|Colour and pattern samples of Corian, the filler showing as the speckle|product
+plastisol|commons|Plastisol, liquid and cure in film and tablet.jpg|Plastisol poured liquid, and the same stuff fused into a film and a tablet|process
+pufoam|commons|Porolon.jpg|A block of flexible polyurethane foam, the open cells visible on the cut face|photo
+polystyrene2|commons|Photoelasticity - Clear CD case centre.jpg|The centre of a clear CD case between crossed polarisers: the moulding stress drawn in colour, and a crack at the bottom|photo
+polystyrene3|commons|Polystyrene cup lid.JPG|A drinks-machine cup lid, the other everyday polystyrene|product
+phema2|commons|Eye with contact lens.jpg|A soft lens in place on the eye|product
+pga2|commons|VICRYL.Violet braided absorbable suture.3-0.70cm.JPG|Vicryl, the lactide copolymer, in its pack|related
