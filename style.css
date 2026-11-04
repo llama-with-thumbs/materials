@@ -385,13 +385,19 @@ main { padding: 20px 0 64px; }
   padding: 3px 8px;
 }
 
-/* When the picture is not the material itself, it says so, in red. */
+/* When the picture is not the material itself, it says so: a paper strip up the left edge,
+   ink type reading bottom to top. Quieter than the workshop stamp, since the picture is still
+   the point. The left arrow strip passes over it on a card with several views. */
 .shot .tag.kind {
-  left: auto;
   top: auto;
-  right: 0;
   bottom: 0;
-  background: var(--red);
+  background: #f5f2eb;
+  color: #111;
+  font-size: 11px;
+  padding: 8px 5px;
+  letter-spacing: 0.02em;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
 
 /* ---------- card body ---------- */
@@ -694,6 +700,6 @@ footer .pages a:hover { background: var(--red); color: var(--panel); }
   header .controls, .jump, #theme, .skip, dialog#lb { display: none; }
   .card { break-inside: avoid; content-visibility: visible; }
   .grid { grid-template-columns: 1fr 1fr; }
-  .shot .tag.kind { background: #000; }
+  .shot .tag.kind { background: #fff; border: 1px solid #000; }
   a { color: #000; }
 }

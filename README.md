@@ -99,7 +99,7 @@ The rules, so the next change has something to be consistent with:
   its own case, because PTFE is not ptfe and Kevlar is a name. Lowercase is written into the
   source strings, never applied with `text-transform`, so copy and paste gets what is shown.
 - The workshop is stamped in black on the top-left of every picture; when the picture is not the
-  material itself, what it shows is stamped in red at the bottom-right.
+  material itself, what it shows runs up the left edge in a paper strip, ink on paper.
 - Every card carries its number in add order, `no. 1` to `no. 539`.
 - The dark theme is the same page with ink and paper swapped, nothing else.
 
@@ -441,7 +441,7 @@ the picture and its badge on every card. If you redistribute this page, keep tho
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 
-296 are photographs of the material itself. 278 are not, and say so in red on the corner of the image:
+296 are photographs of the material itself. 278 are not, and say so on a paper strip up the left edge of the image:
 
 - **212 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
