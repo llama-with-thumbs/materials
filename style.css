@@ -347,8 +347,8 @@ main { padding: 20px 0 64px; }
   transform-origin: 8.5px 12px;
   transition: transform 0.25s cubic-bezier(.2,.8,.2,1);
 }
-.shot .arrow.next svg { right: -2px; transform: rotate(calc(var(--t, 0) * 8deg)); }
-.shot .arrow.prev svg { left: -2px; transform: scaleX(-1) rotate(calc(var(--t, 0) * 8deg)); }
+.shot .arrow svg { right: -2px; transform: rotate(calc(var(--t, 0) * 8deg)); }
+.shot .arrow.prev { transform: scaleX(-1); }   /* the whole strip mirrored, so the svg's own transforms stay simple */
 .shot .arrow .fin { transform-box: fill-box; transition: transform 0.25s cubic-bezier(.2,.8,.2,1); }
 .shot .arrow .fin.up { transform-origin: left bottom; transform: scaleY(calc(1 + var(--t, 0) * 0.3)); }
 .shot .arrow .fin.down { transform-origin: left top; transform: scaleY(calc(1 - var(--t, 0) * 0.3)); }
@@ -360,7 +360,6 @@ main { padding: 20px 0 64px; }
 .shot .arrow:hover .bar.fill, .shot .arrow:focus-visible .bar.fill { clip-path: inset(0 0 0 0); transition-delay: 0.35s; }
 .shot .arrow:hover .fin.fill, .shot .arrow:focus-visible .fin.fill { clip-path: inset(0 0 0 0); transition-delay: 0.6s; }
 .shot .arrow:active svg { transform: rotate(0deg) translateX(6px); transition-duration: 0.1s; }
-.shot .arrow.prev:active svg { transform: scaleX(-1) translateX(6px); }
 .shot .arrow:active .fin { transform: none; }
 .shot .arrow:active .fill { fill: var(--red); clip-path: inset(0 0 0 0); transition: none; }
 .shot .arrow:focus-visible { outline: 3px solid var(--blue); outline-offset: -3px; }
