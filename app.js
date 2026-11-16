@@ -207,32 +207,50 @@ function reelFor(n) {
 // numbers; two cells each way with a sphere on every point, so the packing shows; one
 // point and its nearest neighbours. Then the rule for the edges and angles, three facts,
 // who lives in it. The Pearson letters stand where the workshop is stamped on a photograph.
-const LATTICE_VIEWS = [
-  ["cell", "the unit cell: points at the corners, centring points in red"],
-  ["packing", "two cells each way, a sphere on every point, each touching its nearest neighbours; centring points red"],
-  ["neighbours", "one point, red, and every point at the nearest distance from it"]
-];
+const LATTICE_VIEWS = {
+  intro: [["table", "the seven systems and the fourteen lattices, centring points in red"]],
+  key: [["centrings", "the five centrings: P, C, I, F on a cube, R a rhombohedron"]],
+  lattice: [
+    ["cell", "the unit cell: points at the corners, centring points in red"],
+    ["packing", "two cells each way, a sphere on every point, each touching its nearest neighbours; centring points red"],
+    ["neighbours", "one point, red, and every point at the nearest distance from it"]
+  ],
+  structure: [
+    ["hardcell", "the cell with its atoms drawn full size, touching"],
+    ["packing", "two cells each way; the atoms that are not on corners are red"],
+    ["neighbours", "one atom, red, and every atom touching it"],
+    ["stacking", "the close-packed layers from above: A in ink, B red, the third layer small"]
+  ],
+  groups: [["hierarchy", "how the 230 come about"], ["glide", "a glide plane and a screw axis, in commas"]]
+};
+const LATTICE_NO = l => {
+  const same = LATTICES.filter(x => x.kind === l.kind), n = same.indexOf(l) + 1;
+  if (l.kind === "lattice") return `lattice ${n} of ${same.length} · ${l.system}, ${l.centring}`;
+  if (l.kind === "structure") return `structure ${n} of ${same.length} · the metals`;
+  return { intro: "the system", key: "the key", groups: "the groups" }[l.kind];
+};
 function latticeFor(l) {
-  const no = LATTICES.indexOf(l) + 1;
-  const views = LATTICE_VIEWS.map(([k, t]) => `<figure class="view" title="${esc(t)}">${DRAWINGS[k](l)}</figure>`).join("");
+  const kind = l.kind || "lattice";
+  const views = LATTICE_VIEWS[kind].filter(([k]) => k !== "stacking" || l.stacking)
+    .map(([k, t]) => `<figure class="view" title="${esc(t)}">${k === "table" ? DRAWINGS.table(LATTICES.filter(x => x.kind === "lattice")) : DRAWINGS[k](l)}</figure>`);
   const stats = l.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
   const links = (l.cards || []).map(id => ALL.find(m => m.id === id)).filter(Boolean)
     .map(m => `<a href="#m-${esc(m.id)}" data-goto="${esc(m.id)}">${esc(m.name)}</a>`).join(", ");
   const more = l.link ? `<a href="${esc(l.link)}" target="_blank" rel="noopener">read more</a>` : "";
   const src = l.src ? `<a href="${esc(l.src[1])}" target="_blank" rel="noopener">${esc(l.src[0])}</a>` : "";
-  return `<article class="card lattice" id="m-${esc(l.id)}" data-cat="" data-id="${esc(l.id)}">
-    <div class="shot reel">
-      <div class="track">${views}</div>
-      <span class="tag" title="${esc(LATTICE_VIEWS[0][1])}">${esc(l.symbol)}</span>
-      ${reelFor(LATTICE_VIEWS.length)}
+  return `<article class="card lattice ${esc(kind)}" id="m-${esc(l.id)}" data-cat="" data-id="${esc(l.id)}">
+    <div class="shot${views.length > 1 ? " reel" : ""}">
+      <div class="track">${views.join("")}</div>
+      <span class="tag" title="${esc(LATTICE_VIEWS[kind][0][1])}">${esc(l.symbol)}</span>
+      ${reelFor(views.length)}
     </div>
     <div class="body">
-      <p class="no">lattice ${no} of 14 · ${esc(l.system)}, ${esc(l.centring)}</p>
+      <p class="no">${esc(LATTICE_NO(l))}</p>
       <h2>${esc(l.name)}</h2>
       <p class="sub">${esc(l.sub)}</p>
       <p class="hook">${esc(l.hook)}</p>
       <div class="stats">${stats}</div>
-      <p class="uses"><b>keeps it:</b> ${esc(l.found)}${links ? ` <b>on the cards:</b> ${links}` : ""}</p>
+      ${l.found || links ? `<p class="uses">${l.found ? `<b>keeps it:</b> ${esc(l.found)}` : ""}${links ? ` <b>on the cards:</b> ${links}` : ""}</p>` : ""}
       <p class="meta"><span>drawn for this page</span><span class="links">${src}${more}</span></p>
     </div>
   </article>`;
@@ -360,7 +378,7 @@ function render() {
   const parts = [];
   if (!shelf) parts.push(`${mats.length} of ${MATERIALS.length} materials`);
   if (nk) parts.push(`${nk} of ${CLASSES.length} classes`);
-  if (nl) parts.push(`${nl} of ${LATTICES.length} lattices`);
+  if (nl) parts.push(`${nl} of ${LATTICES.length} on the lattices shelf`);
   if (np) parts.push(`${np} of ${PLATES.length} plate${PLATES.length === 1 ? "" : "s"}`);
   if (nr) parts.push(`${nr} of ${PAPERS.length} paper${PAPERS.length === 1 ? "" : "s"}`);
   if (nt) parts.push(`${nt} of ${LIBRARY.length} in the library`);

@@ -325,16 +325,28 @@ alone. The principles these texts are the source of are written out in [`PRINCIP
 
 ## The lattices
 
-The fifth kind of entry is not a material but the fourteen ways a crystal can repeat in space,
-Bravais's list of 1848, on their own shelf, *the lattices*, in the textbook order from the box
-with no symmetry to the close-packed cube. Each card carries three drawn views in the same
+The fifth kind of entry is not a material but how a crystal repeats in space, on its own
+shelf, *the lattices*. The shelf opens wide, with the system itself: the seven crystal systems
+and the fourteen Bravais lattices laid out the way the MIT solid-state course draws them
+(3.091, lecture notes 4), each system with its rule for the edges and angles and its lattices
+beside it as wire cells with a sphere on every point, turned on its side so the table can sit
+next to its paragraph. A key to the centring letters follows, P, C, I, F and R on one cube and
+one rhombohedron. Then the fourteen one by one, in the textbook order from the box with no
+symmetry to the close-packed cube. Each of those cards carries three drawn views in the same
 reel a photograph gets, all from six numbers in `lattices.js` (`drawings.js` does the
 projection: an orthographic view turned 35° and seen from 22° above). First the unit cell,
 the three hidden edges dashed, the corner points in ink and the centring points in red, since
 the centring is what the card is about, the hexagonal cell inside its faint prism. Then the
 packing: two cells each way with a sphere on every point, each touching its nearest
 neighbours and drawn back to front, which is where the close-packed cube earns its name.
-Then one point and every point at the nearest distance from it, counted. The text says what the shape is, who lives in it and what that costs or gives:
+Then one point and every point at the nearest distance from it, counted. After the fourteen
+come the three structures nearly every metal takes, face-centred cubic, body-centred cubic and
+hexagonal close-packed, with the cell drawn in full-size touching spheres, the packing, the
+neighbours and, for the two close-packed ones, the layers seen from above, ABCABC against ABAB;
+hexagonal close-packed is a lattice with a two-atom basis, and the card says so. The shelf ends
+with what a space group is, the 230 built from the fourteen lattices and the thirty-two point
+groups plus the screw axis and the glide plane, drawn with the crystallographer's comma, and
+the Hermann-Mauguin names of the half-dozen a reader will meet, without the list. The text says what the shape is, who lives in it and what that costs or gives:
 why the body-centred metals go brittle in the cold, why the hexagonal ones are formed hot, why
 martensite is a cube pulled out of true. Each names the materials that keep it, on the cards
 and off them, and links to the system's article and to the AFLOW prototype encyclopedia.

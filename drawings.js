@@ -32,9 +32,11 @@ window.DRAWINGS = (() => {
   const mul = (p, k) => [p[0] * k, p[1] * k, p[2] * k];
   const frac = (A, [u, v, w]) => add(add(mul(A[0], u), mul(A[1], v)), mul(A[2], w));
 
-  // The cell as an SVG string: the twelve edges, the three hidden ones dashed, the corner
-  // points in ink, the centring points in red, and a, b, c on the edges from the origin.
-  function cell(l) {
+  // The cell drawn into a box {x, y, w, h}: the twelve edges, the three hidden ones dashed,
+  // the corner points in ink, the centring points in red, and a, b, c on the edges from the
+  // origin. opt.r is the point radius, opt.font the letter size, opt.labels false drops them.
+  function cellInto(l, box, opt = {}) {
+    const BW = box.w, BH = box.h, R = opt.r || 7, FS = opt.font || 18, PAD = opt.pad == null ? 0.17 : opt.pad;
     const A = axes(l.cell);
     const corners = [];
     for (const u of [0, 1]) for (const v of [0, 1]) for (const w of [0, 1]) corners.push([u, v, w]);
@@ -49,8 +51,8 @@ window.DRAWINGS = (() => {
     const pts = all.concat(prism);
     const xs = pts.map(p => p[0]), ys = pts.map(p => p[1]);
     const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
-    const s = Math.min((W - 120) / (x1 - x0), (H - 90) / (y1 - y0));
-    const ox = (W - s * (x1 - x0)) / 2 - s * x0, oy = (H - s * (y1 - y0)) / 2 - s * y0;
+    const s = Math.min(BW * (1 - PAD) / (x1 - x0), BH * (1 - PAD) / (y1 - y0));
+    const ox = box.x + (BW - s * (x1 - x0)) / 2 - s * x0, oy = box.y + (BH - s * (y1 - y0)) / 2 - s * y0;
     const S = p => [ox + s * p[0], oy + s * p[1], p[2]];
     const C = corners.map((p, i) => S(all[i]));
     const E = extra.map((p, i) => S(all[corners.length + i]));
@@ -83,17 +85,72 @@ window.DRAWINGS = (() => {
     const label = (p, t) => {
       const mx = (o[0] + p[0]) / 2, my = (o[1] + p[1]) / 2;
       const dx = mx - cx, dy = my - cy, d = Math.hypot(dx, dy) || 1;
-      return `<text class="ax" x="${f1(mx + 16 * dx / d)}" y="${f1(my + 16 * dy / d + 5)}" text-anchor="middle">${t}</text>`;
+      return `<text class="ax" style="font-size:${FS}px" x="${f1(mx + FS * 0.9 * dx / d)}" y="${f1(my + FS * 0.9 * dy / d + FS * 0.3)}" text-anchor="middle">${t}</text>`;
     };
-    const labels = label(C[idx(1, 0, 0)], "a") + label(C[idx(0, 1, 0)], "b") + label(C[idx(0, 0, 1)], "c");
+    const labels = opt.labels === false ? "" : label(C[idx(1, 0, 0)], "a") + label(C[idx(0, 1, 0)], "b") + label(C[idx(0, 0, 1)], "c");
 
-    const dot = (p, cls) => `<circle class="${cls}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="7"/>`;
+    const dot = (p, cls) => `<circle class="${cls}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${R}"/>`;
     // Points drawn back to front so a near point covers a far edge, as it should.
     const points = C.map(p => [p, "pt"]).concat(E.map(p => [p, "pt centre"]))
       .sort((x, y) => y[0][2] - x[0][2]).map(([p, cls]) => dot(p, cls)).join("");
 
+    return `${prismSvg}${hidden}${shown}${labels}${points}`;
+  }
+
+  function cell(l) {
     return `<svg class="cell" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} cell">
-      ${prismSvg}${hidden}${shown}${labels}${points}</svg>`;
+      ${cellInto(l, { x: 0, y: 0, w: W, h: H })}</svg>`;
+  }
+
+  // The fourteen as MIT draws them, turned on its side so the card can be wide: each system
+  // in a column with its name and its rule, and its lattices under it, each a wire cell with
+  // a sphere on every point and the centring points red. A blank is a lattice that would
+  // only repeat a smaller cell of another letter.
+  const SYSTEMS = [
+    ["cubic", "a = b = c", "all 90°"], ["tetragonal", "a = b ≠ c", "all 90°"], ["orthorhombic", "a ≠ b ≠ c", "all 90°"],
+    ["trigonal", "a = b = c", "all equal, not 90°"], ["hexagonal", "a = b ≠ c", "90°, 90°, 120°"],
+    ["monoclinic", "a ≠ b ≠ c", "90°, β, 90°"], ["triclinic", "a ≠ b ≠ c", "none 90°"]
+  ];
+  const ORDER = ["primitive", "base-centred", "body-centred", "face-centred", "rhombohedral"];
+  function table(lattices) {
+    const TW = 1000, TH = 640, top = 78, colW = TW / 7, rowH = (TH - top) / 4;
+    let s = "";
+    SYSTEMS.forEach(([name, edges, angles], i) => {
+      const x = i * colW;
+      s += `<text class="th" x="${f1(x + colW / 2)}" y="24" text-anchor="middle">${name}</text>` +
+           `<text class="td" x="${f1(x + colW / 2)}" y="44" text-anchor="middle">${edges}</text>` +
+           `<text class="td" x="${f1(x + colW / 2)}" y="62" text-anchor="middle">${angles}</text>`;
+      if (i) s += `<line class="grid" x1="${f1(x)}" y1="8" x2="${f1(x)}" y2="${TH - 8}"/>`;
+      const mine = lattices.filter(l => l.system === name).sort((p, q) => ORDER.indexOf(p.centring) - ORDER.indexOf(q.centring));
+      mine.forEach((l, k) => {
+        const box = { x: x + 6, y: top + k * rowH, w: colW - 12, h: rowH - 18 };
+        const draw = Object.assign({}, l, { prism: false });
+        s += cellInto(draw, box, { r: 5.5, labels: false, pad: 0.22 }) +
+             `<text class="td" x="${f1(x + colW / 2)}" y="${f1(top + (k + 1) * rowH - 8)}" text-anchor="middle">${l.symbol}</text>`;
+      });
+    });
+    return `<svg class="cell table" viewBox="0 0 ${TW} ${TH}" role="img" aria-label="the seven systems and the fourteen lattices">${s}</svg>`;
+  }
+
+  // The five centrings on one cube and one rhombohedron, letters beneath.
+  function centrings() {
+    const cube = { a: 1, b: 1, c: 1, alpha: 90, beta: 90, gamma: 90 };
+    const five = [
+      ["P", "primitive", cube, []],
+      ["C", "base-centred", cube, [[0.5, 0.5, 0], [0.5, 0.5, 1]]],
+      ["I", "body-centred", cube, [[0.5, 0.5, 0.5]]],
+      ["F", "face-centred", cube, [[0.5, 0.5, 0], [0.5, 0.5, 1], [0.5, 0, 0.5], [0.5, 1, 0.5], [0, 0.5, 0.5], [1, 0.5, 0.5]]],
+      ["R", "rhombohedral", { a: 1, b: 1, c: 1, alpha: 75, beta: 75, gamma: 75 }, []]
+    ];
+    const colW = W / 5;
+    let s = "";
+    five.forEach(([letter, word, c, extra], i) => {
+      s += cellInto({ cell: c, extra }, { x: i * colW, y: 40, w: colW, h: H - 170 }, { r: 7, labels: false, pad: 0.2 }) +
+           `<text class="big" x="${f1((i + 0.5) * colW)}" y="${H - 72}" text-anchor="middle">${letter}</text>` +
+           `<text class="td" x="${f1((i + 0.5) * colW)}" y="${H - 44}" text-anchor="middle">${word}</text>` +
+           `<text class="td" x="${f1((i + 0.5) * colW)}" y="${H - 24}" text-anchor="middle">${["1 per cell", "2 per cell", "2 per cell", "4 per cell", "1, or 3 hexagonal"][i]}</text>`;
+    });
+    return `<svg class="cell centrings" viewBox="0 0 ${W} ${H}" role="img" aria-label="the five centrings">${s}</svg>`;
   }
 
   // Every lattice point of a block of n cells each way, in fractional coordinates, each
@@ -142,8 +199,8 @@ window.DRAWINGS = (() => {
   // Two cells each way with a sphere on every point, each touching its nearest neighbours,
   // drawn back to front so the near ones cover the far ones. The centring points stay red,
   // so it shows where they nestle between the corner ones.
-  function packing(l) {
-    const A = axes(l.cell), n = 2;
+  function packing(l, n = 2) {
+    const A = axes(l.cell);
     const { d } = nearest(l);
     const pts = block(l, n).map(([p, c]) => [view(frac(A, p)), c]);
     const { s, S } = fit(pts.map(p => p[0]), d / 2);
@@ -160,7 +217,72 @@ window.DRAWINGS = (() => {
     }
     const spheres = pts.map(([p, c]) => [S(p), c]).sort((x, y) => y[0][2] - x[0][2])
       .map(([p, c]) => `<circle class="sphere${c ? " centre" : ""}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${f1(r)}"/>`).join("");
-    return `<svg class="cell packing" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} packing">${edges}${spheres}</svg>`;
+    return `<svg class="cell packing" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} ${n === 1 ? "cell of spheres" : "packing"}">${edges}${spheres}</svg>`;
+  }
+  const hardcell = l => packing(l, 1);
+
+  // Close-packed layers seen from above: the A layer as circles, the B layer red in the
+  // hollows, and the third layer either in the hollows left over (C, the cube) or back
+  // over A (the hexagonal stack).
+  function stacking(l) {
+    const abc = l.stacking === "abc";
+    const r = 34, dx = 2 * r, dy = r * Math.sqrt(3);
+    let s = "";
+    const A = [], B = [], Cc = [];
+    for (let j = 0; j < 6; j++) for (let i = 0; i < 10; i++) {
+      const x = 40 + i * dx + (j % 2 ? r : 0), y = 50 + j * dy;
+      if (x > W - 30 || y > H - 80) continue;
+      A.push([x, y]);
+      if (j < 5) { B.push([x + r, y + dy / 3]); Cc.push([x, y + 2 * dy / 3]); }
+    }
+    for (const [x, y] of A) s += `<circle class="layer a" cx="${f1(x)}" cy="${f1(y)}" r="${r}"/>`;
+    for (const [x, y] of B) if (x < W - 30) s += `<circle class="layer b" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.55}"/>`;
+    if (abc) { for (const [x, y] of Cc) s += `<circle class="layer c" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.32}"/>`; }
+    else { for (const [x, y] of A) s += `<circle class="layer c" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.32}"/>`; }
+    s += `<text class="count" x="24" y="${H - 24}">${abc
+      ? "A, then B in its hollows, then C in the hollows both left: the cube"
+      : "A, then B in its hollows, then back over A: the hexagonal stack"}</text>`;
+    return `<svg class="cell stacking" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} stacking">${s}</svg>`;
+  }
+
+  // How the 230 come about: systems, lattices, point groups, and the two operations that
+  // only an endless pattern allows.
+  function hierarchy() {
+    const rows = [["7", "crystal systems", "the shape of the box"], ["14", "Bravais lattices", "where the points sit"],
+                  ["32", "point groups", "rotations, mirrors, inversion"], ["230", "space groups", "add screw axes and glide planes"]];
+    let s = "";
+    rows.forEach(([n, name, note], i) => {
+      const y = 36 + i * 112;
+      s += `<rect class="hbox" x="90" y="${y}" width="540" height="76"/>` +
+           `<text class="big" x="130" y="${y + 50}">${n}</text>` +
+           `<text class="hname" x="250" y="${y + 36}">${name}</text>` +
+           `<text class="td" x="250" y="${y + 60}">${note}</text>`;
+      if (i < 3) s += `<line class="harrow" x1="360" y1="${y + 76}" x2="360" y2="${y + 112}"/><path class="hhead" d="M352 ${y + 104}l8 8 8-8"/>`;
+    });
+    return `<svg class="cell hierarchy" viewBox="0 0 ${W} ${H}" role="img" aria-label="how the space groups are built">${s}</svg>`;
+  }
+
+  // The glide plane and the screw axis, drawn with the crystallographer's comma: a glide
+  // reflects and slides half a step; a two-fold screw turns and climbs half a step.
+  function glide() {
+    // sx, sy of -1 mirror the comma: a glide mirrors it top to bottom, a two-fold screw seen
+    // from the side mirrors it left to right (the half turn about the axis).
+    const comma = (x, y, sx, sy) =>
+      `<path class="comma" transform="translate(${x} ${y}) scale(${sx} ${sy})" d="M0 0c10-16 26-10 20 6c-5 12-16 20-28 24c7-9 8-18 8-30z"/>`;
+    let s = `<line class="gline" x1="30" y1="150" x2="${W / 2 - 30}" y2="150"/>`;
+    for (let i = 0; i < 4; i++) {
+      s += comma(60 + i * 72, 110, 1, 1) + comma(96 + i * 72, 190, 1, -1);
+    }
+    s += `<text class="count" x="30" y="${H - 160}">glide: reflect, then slide half a step</text>`;
+    const ax = W * 0.75;
+    s += `<line class="gline" x1="${ax}" y1="30" x2="${ax}" y2="${H - 120}"/>`;
+    for (let i = 0; i < 5; i++) {
+      const y = 60 + i * 64, left = i % 2;
+      s += comma(ax + (left ? -50 : 50), y, left ? -1 : 1, 1);
+    }
+    s += `<text class="count" x="${W / 2 + 20}" y="${H - 160}">2₁ screw: turn half round, climb half a step</text>`;
+    s += `<text class="td" x="30" y="${H - 120}">neither leaves any point fixed, which a mirror or an axis would; only a pattern that goes on for ever can have them</text>`;
+    return `<svg class="cell glide" viewBox="0 0 ${W} ${H}" role="img" aria-label="a glide plane and a screw axis">${s}</svg>`;
   }
 
   // One point, red, and every point at the nearest distance from it, joined to it, with the
@@ -288,5 +410,5 @@ window.DRAWINGS = (() => {
     return `<svg class="sketch ${c.sketch}" viewBox="0 0 ${W} ${H}" role="img" aria-label="a sketch of a ${c.name.toLowerCase()}">${body}</svg>`;
   }
 
-  return { cell, packing, neighbours, sketch };
+  return { cell, packing, hardcell, neighbours, stacking, table, centrings, hierarchy, glide, sketch };
 })();

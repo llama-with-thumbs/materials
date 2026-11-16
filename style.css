@@ -277,6 +277,29 @@ svg.cell .sphere { fill: var(--panel); stroke: var(--ink); stroke-width: 1.6; }
 svg.cell .sphere.centre { fill: var(--red); stroke: var(--red); }
 svg.cell .bond { stroke: var(--ink); stroke-width: 2.5; stroke-linecap: round; }
 svg.cell .count { fill: var(--ink); font-size: 18px; }
+svg.cell .th { fill: var(--ink); font-size: 17px; font-weight: 500; }
+svg.cell .td { fill: var(--dim); font-size: 13px; }
+svg.cell .big { fill: var(--ink); font-size: 34px; font-weight: 300; }
+svg.cell .grid { stroke: var(--line); stroke-width: 1; }
+svg.cell .layer.a { fill: var(--panel); stroke: var(--ink); stroke-width: 1.6; }
+svg.cell .layer.b { fill: var(--red); }
+svg.cell .layer.c { fill: none; stroke: var(--ink); stroke-width: 1.4; stroke-dasharray: 3 3; }
+svg.cell .hbox { fill: var(--panel); stroke: var(--ink); stroke-width: 2; }
+svg.cell .hname { fill: var(--ink); font-size: 20px; font-weight: 500; }
+svg.cell .harrow { stroke: var(--ink); stroke-width: 2; }
+svg.cell .hhead { fill: none; stroke: var(--ink); stroke-width: 2; }
+svg.cell .gline { stroke: var(--dim); stroke-width: 1.5; stroke-dasharray: 6 6; }
+svg.cell .comma { fill: var(--ink); }
+
+/* The opening card of the lattices shelf is wide: the table on the left, the text beside it,
+   and one under the other on a narrow screen. */
+.card.lattice.intro { grid-column: 1 / -1; flex-direction: row; }
+.card.lattice.intro .shot { flex: 0 0 58%; aspect-ratio: 1000 / 640; border-bottom: 0; border-right: 2px solid var(--ink); }
+.card.lattice.intro .body { flex: 1; }
+@media (max-width: 760px) {
+  .card.lattice.intro { flex-direction: column; }
+  .card.lattice.intro .shot { flex: none; border-right: 0; border-bottom: 2px solid var(--ink); }
+}
 svg.cell .side { stroke: var(--ink); stroke-width: 2.2; stroke-linecap: round; }
 svg.cell .side.hidden { stroke: var(--dim); stroke-width: 1.5; stroke-dasharray: 6 6; }
 svg.cell .prism { fill: none; stroke: var(--line); stroke-width: 1.5; }

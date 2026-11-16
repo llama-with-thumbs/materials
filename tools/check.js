@@ -116,21 +116,24 @@ for (const t of L) {
   if ((t.what || "").length < 40) fail("library " + t.id + ": what is too short to say anything");
 }
 
-// The lattices: Bravais's fourteen, each drawn from its cell and naming who keeps it.
-if (LAT.length && LAT.length !== 14) fail("there are fourteen Bravais lattices, not " + LAT.length);
+// The lattices shelf: the system, the key, Bravais's fourteen, the metal structures, the groups.
+const KINDS_LAT = { intro: [], key: [], lattice: ["system", "centring", "found", "cell"], structure: ["found", "cell"], groups: [] };
+const fourteen = LAT.filter(l => l.kind === "lattice");
+if (LAT.length && fourteen.length !== 14) fail("there are fourteen Bravais lattices, not " + fourteen.length);
 for (const l of LAT) {
-  for (const f of ["id", "symbol", "system", "centring", "name", "sub", "hook", "stats", "found", "cell", "link"])
+  if (!KINDS_LAT[l.kind]) fail("lattice card " + (l.id || "?") + " has an unknown kind: " + l.kind);
+  for (const f of ["id", "symbol", "name", "sub", "hook", "stats", "link"].concat(KINDS_LAT[l.kind] || []))
     if (l[f] == null || l[f] === "") fail("lattice " + (l.id || "?") + " is missing " + f);
   if (!/^[a-z0-9]+$/.test(l.id || "")) fail("lattice id is not [a-z0-9]+: " + l.id);
   if (!Array.isArray(l.stats) || l.stats.length !== 3) fail("lattice " + l.id + " needs exactly three stats");
-  for (const k of ["a", "b", "c", "alpha", "beta", "gamma"]) if (!(l.cell && l.cell[k] > 0)) fail("lattice " + l.id + " cell lacks " + k);
+  if (l.cell) for (const k of ["a", "b", "c", "alpha", "beta", "gamma"]) if (!(l.cell[k] > 0)) fail("lattice " + l.id + " cell lacks " + k);
   for (const p of l.extra || []) if (p.length !== 3 || p.some(v => v < 0 || v > 1)) fail("lattice " + l.id + " has a centring point outside the cell");
   for (const id of l.cards || []) if (!M.some(m => m.id === id)) fail("lattice " + l.id + " names a card that does not exist: " + id);
   if (!/^https:\/\/en\.wikipedia\.org\/wiki\//.test(l.link || "")) fail("lattice " + l.id + " link is not English Wikipedia");
   for (const f of ["name", "sub", "hook", "found"]) if (/"/.test(l[f] || "")) fail("double quote in " + f + " of lattice " + l.id);
   if ((l.hook || "").length < 200) fail("lattice " + l.id + ": hook is too short to teach anything");
 }
-const dupSym = LAT.map(l => l.symbol).filter((x, i, a) => a.indexOf(x) !== i);
+const dupSym = fourteen.map(l => l.symbol).filter((x, i, a) => a.indexOf(x) !== i);
 if (dupSym.length) fail("the same Pearson symbol twice in lattices.js: " + dupSym);
 
 // The classes: metal, ceramic and the rest, each with its sketch and its workshops.
