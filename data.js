@@ -1054,6 +1054,106 @@ window.MATERIALS = [
   uses: "Historic chain, gates and railings; blacksmithing; conservation and restoration work.",
   link: "https://en.wikipedia.org/wiki/Wrought_iron"
 },
+{
+  id: "gallium", cat: "metal", name: "Gallium",
+  sub: "Ga, the metal that melts in the hand", img: "gallium", extra: ["gallium2"],
+  hook: "Solid on the shelf, liquid in a closed hand: it melts at 29.8 °C, and like water it expands when it freezes. A drop of it left on aluminium runs along the grain boundaries and the aluminium falls apart.",
+  more: "Lecoq de Boisbaudran found it in 1875 by two violet lines in a spectrum, and Mendeleev had already written down its density. It is one of the few metals that expand on freezing, by about 3 per cent, so it ships in plastic and not glass, and it supercools so readily that a melted sample sits liquid for days unless seeded. Its own uses are small: the low-melting liquid alloys, galinstan among them, and the gallium arsenide and gallium nitride of the electronic cards, where nearly all of it goes. The thing to know is what it does to aluminium. Liquid gallium wets the grain boundaries and runs along them within minutes, and a solid bar can be crumbled by hand afterwards, which is why airlines will not carry it.",
+  stats: [["Melting point", "29.8 °C"], ["On freezing", "expands about 3 per cent"], ["Never near", "aluminium"]],
+  uses: "GaAs and GaN wafers, low-melting alloys, high-temperature thermometers, the classroom spoon.",
+  link: "https://en.wikipedia.org/wiki/Gallium",
+  src: ["WebElements", "https://www.webelements.com/gallium/"]
+},
+{
+  id: "tin", cat: "metal", name: "Tin",
+  sub: "Sn, white tin, and the grey powder it becomes in the cold", img: "tin", extra: ["tin2"],
+  hook: "Below 13 °C white tin slowly becomes grey tin, a brittle non-metal a fifth less dense, and a pure tin object turns to powder from one spot outward. It cries when bent and does not rust, which is why the can.",
+  more: "Bend a bar of pure tin near the ear and it creaks: the crystals twinning, the tin cry. Below 13.2 °C the metallic white form is unstable against grey tin, a non-metal with the diamond structure of silicon, and once a grain nucleates the change spreads as warts and then as dust, fastest around minus 30 °C. Organ pipes in unheated churches have crumbled this way, and it has been blamed, probably wrongly, for Napoleon's buttons and Scott's fuel cans. Lead, antimony or bismuth in the alloy stop it, which is why pewter and old solder never caught it, and why the lead-free solders of the last twenty years had to be checked for it again. Tin itself is soft, low-melting and harmless, and most of it goes into solder and the coating on steel cans.",
+  stats: [["Melting point", "232 °C"], ["Tin pest", "below 13 °C, fastest near −30 °C"], ["Stopped by", "a little lead, antimony or bismuth"]],
+  uses: "Solder, tinplate, pewter and bronze, the bath that float glass is made on, organ pipes.",
+  link: "https://en.wikipedia.org/wiki/Tin_pest",
+  src: ["WebElements", "https://www.webelements.com/tin/"]
+},
+{
+  id: "wootz", cat: "metal", name: "Wootz",
+  sub: "crucible steel from southern India, the metal of Damascus blades", img: "wootz", extra: ["wootz2"],
+  hook: "Steel melted in a sealed crucible, 1.5 per cent carbon, forged slow into a blade with a watered pattern. Nobody made it after 1900: the pattern needed a trace of vanadium nobody knew was in the ore.",
+  more: "Indian smiths had it by the first centuries AD: wrought iron, charcoal and plant matter sealed in a crucible and held molten for a day, then cooled slow to a cake. Forged at a dull red and never hotter, the cementite that a steel so rich in carbon throws out gathers into bands, and when the blade is etched the bands show as the watered pattern Europeans named for Damascus. Pattern-welded steel imitates it by folding; wootz is one melt. The art died with the ore. Verhoeven and Pendray showed in 1998 that the banding needs a few hundredths of a per cent of vanadium or molybdenum to form on, and the ore that had it ran out; smiths who bought other iron lost the pattern and did not know why. It is made again now, with the impurity put in on purpose.",
+  stats: [["Carbon", "1.5 to 2 per cent"], ["Forged at", "under about 850 °C, or the pattern goes"], ["Needs", "a trace of vanadium in the ore"]],
+  uses: "Swords and daggers from Persia to Spain; now reproductions by a handful of smiths.",
+  link: "https://en.wikipedia.org/wiki/Wootz_steel",
+  src: ["Verhoeven, Pendray and Dauksch, JOM 1998", "https://doi.org/10.1007/s11837-998-0419-y"]
+},
+{
+  id: "kanthal", cat: "metal", name: "Kanthal",
+  sub: "iron-chromium-aluminium resistance wire", img: "kanthal",
+  hook: "The wire in a toaster or a kiln: iron with 22 per cent chromium and 5 aluminium that grows its own skin of alumina when hot, and so runs red for years in air. It is brittle after its first heating.",
+  more: "Hans von Kantzow in Hallstahammar patented it in 1931 as a cheaper rival to nichrome, and it turned out to go hotter: nichrome protects itself with a chromia scale good to about 1200 °C, FeCrAl with an alumina scale good to 1400, and alumina neither evaporates nor grows as fast. It is ferritic, magnetic, and resistive enough that a short coil does the job. Its vice is that the first heating coarsens the grains, and the wire that was ductile off the spool is glass-brittle ever after, so an element is formed once and left alone, and a kiln element that has been knocked is dead. The alumina scale also takes the aluminium out of the wire, a little each time it spalls and regrows; an element dies when there is none left to make skin with.",
+  stats: [["Service", "to about 1400 °C in air"], ["Resistivity", "1.45 µΩ·m"], ["After first heating", "brittle, do not bend"]],
+  uses: "Toasters, hair dryers, pottery kilns, furnace elements, the coils in e-cigarettes.",
+  link: "https://en.wikipedia.org/wiki/Kanthal_(alloy)",
+  src: ["Kanthal A-1 datasheet", "https://www.kanthal.com/en/products/material-datasheets/wire/resistance-heating-wire-and-resistance-wire/kanthal-a-1/"]
+},
+{
+  id: "galvanised", cat: "metal", name: "Galvanised steel",
+  sub: "steel dipped in molten zinc, which then rusts in its place", img: "galvanised", extra: ["galvanised2"],
+  hook: "Steel pulled through zinc at 450 °C comes out with a coat that corrodes instead of the steel, even at a scratch, and the crystals of it show as spangle. It lasts about as many years as the coat is micrometres thick.",
+  more: "The name honours Galvani; the thing is Sorel's patent of 1837: clean the steel in acid, flux it, dip it, and the zinc alloys with the iron at the interface in layers harder than the steel, with pure zinc on top. Zinc is more active than iron, so wherever both meet water the zinc dissolves first and the steel is a cathode, which is why a cut edge or a scratch stays sound for years. The flat spangle crystals are zinc that froze slowly on the way out of the bath; modern strip lines quench it to a fine grain that takes paint. The coating goes at about a micrometre a year in clean country air and several times that beside the sea, and nothing happens to the steel until it is gone. Welding burns it off, and the zinc fume gives the welder a day of fever.",
+  stats: [["Bath", "about 450 °C"], ["Coating", "45 to 100 µm hot dip, 7 to 25 µm on strip"], ["Lasts", "roughly 1 µm a year in clean air"]],
+  uses: "Guard rails, pylons, roofing, nails and bolts, car body strip, buckets.",
+  link: "https://en.wikipedia.org/wiki/Hot-dip_galvanization",
+  src: ["American Galvanizers Association", "https://galvanizeit.org/hot-dip-galvanizing/what-is-hot-dip-galvanizing-hdg/hdg-process"]
+},
+{
+  id: "tinplate", cat: "metal", name: "Tinplate",
+  sub: "steel sheet under a micron of tin, the can", img: "tinplate",
+  hook: "A quarter-millimetre of steel under 0.1 to 1.5 micrometres of tin a side, electroplated, and the can is lacquered inside anyway. The tin is for solder and shine; the steel is the can.",
+  more: "Dipped tinplate came out of Bohemia in the 1600s and Wales made most of the world's by 1890; the electrolytic lines of the 1930s cut the tin to a tenth and made the modern can possible. Tin is not sacrificial to steel in air, so a scratch rusts, and a coat that thin has pores; the can is protected by its lacquer and by the fact that inside a sealed can, with fruit acid and no oxygen, the polarity reverses and the tin becomes the anode and dissolves slowly instead of the steel. That is why a can of tomatoes has a shelf life rather than a hole. Tinplate solders and welds well, takes print, and is drawn and ironed into a two-piece can at hundreds a minute. It is also the most recycled packaging there is, because a magnet pulls it out of anything.",
+  stats: [["Steel", "0.15 to 0.5 mm"], ["Tin", "0.1 to 1.5 µm a side, electroplated"], ["Inside", "lacquer, or the tin goes"]],
+  uses: "Food cans, paint tins, aerosol cans, bottle caps, toy trains.",
+  link: "https://en.wikipedia.org/wiki/Tinplate",
+  src: ["ArcelorMittal Packaging", "https://packaging.arcelormittal.com/"]
+},
+{
+  id: "ductileiron", cat: "metal", name: "Ductile iron",
+  sub: "cast iron with its graphite rolled into balls", img: "ductileiron", extra: ["ductileiron2", "ductileiron3"],
+  hook: "Grey iron with a pinch of magnesium in the ladle: the graphite freezes as spheres instead of the flakes that made cast iron snap, and the casting stretches 18 per cent before it breaks. Every manhole cover since 1950.",
+  more: "Keith Millis at INCO found it in 1943 looking for a wartime substitute for chromium, and it was on sale by 1949. Flake graphite in grey iron is a network of internal cracks, which is why that iron is strong in compression and brittle in everything else. Add about 0.04 per cent magnesium just before pouring, and the graphite grows as nodules in a matrix of ferrite or pearlite; the matrix carries the load and the nodules stop nothing. It casts as easily as grey iron, machines nearly as well, and has the strength and ductility of mild steel at a fraction of the price of a steel casting. The magnesium boils off violently and fades in minutes, so the pour cannot wait. A pipe of it survives falling off the lorry; grey iron does not.",
+  stats: [["Elongation", "up to 18 per cent; grey iron under 1"], ["Magnesium", "about 0.04 per cent, added at the ladle"], ["Fades", "in about ten minutes"]],
+  uses: "Water mains, manhole covers, crankshafts, wind turbine hubs, pump housings.",
+  link: "https://en.wikipedia.org/wiki/Ductile_iron",
+  src: ["Ductile Iron Pipe Research Association", "https://www.dipra.org/ductile-iron-pipe-resources/technical-publications"]
+},
+{
+  id: "tungsten", cat: "metal", name: "Tungsten filament",
+  sub: "drawn tungsten wire, coiled twice, in the lamp", img: "tungsten", extra: ["tungsten2"],
+  hook: "A wire of the metal with the highest melting point, 3422 °C, run at 2700 and thinner than a hair, coiled and coiled again. It was made ductile in 1909 by a trick with potassium, and it evaporates until it breaks.",
+  more: "No furnace melts it; it is pressed from powder, sintered by current through the bar, then swaged and drawn hot until it will draw cold. Coolidge got that far in 1909; the next problem was sag: a pure wire run white-hot recrystallises, the grains slide and the coil droops. The cure, found by accident, was a trace of potassium in the powder, which ends up as rows of bubbles that pin the grain boundaries so the grains grow long and interlocking. A 60-watt filament is 46 micrometres across and half a metre long, coiled into a coiled coil 2 centimetres long, in argon to slow the evaporation; the halogen lamp puts the tungsten back by a chemical cycle and runs hotter. The thin spot that evaporates fastest gets hotter still, and that is where it breaks.",
+  stats: [["Melting point", "3422 °C"], ["Runs at", "about 2700 °C, 2 per cent of the power as light"], ["Dies by", "evaporation, at the thinnest point"]],
+  uses: "Incandescent and halogen lamps, electron-gun cathodes, vacuum furnace elements, TIG electrodes.",
+  link: "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
+  src: ["Edison Tech Center", "https://edisontechcenter.org/incandescent.html"]
+},
+{
+  id: "zincanode", cat: "metal", name: "Zinc anode",
+  sub: "a lump of zinc bolted on to corrode instead of the hull", img: "zincanode", extra: ["zincanode2"],
+  hook: "A block of zinc bolted to the shaft or hull dissolves in the seawater so that the steel and bronze do not. Replaced when half gone; if it looks new after a season, something is wrong with the wiring.",
+  more: "Davy proposed it for the copper sheathing of Navy ships in 1824 and it worked too well: the protected copper fouled with weed, since copper only stays clean by poisoning what lands on it. Zinc sits below steel, bronze and aluminium in the galvanic series, so when all are wet and connected the zinc is the anode and the rest cathodes, and the current, a few milliamps per square metre of steel, is the corrosion of the zinc and nothing else. The alloy matters: a few thousandths of a per cent of iron make the zinc passivate under its own white crust and stop working, so anode zinc is held purer than that, with a little aluminium and cadmium to keep it active. Aluminium anodes give more amp-hours a kilo; magnesium is for fresh water, where zinc goes to sleep.",
+  stats: [["Potential", "about −1.05 V against Ag/AgCl in seawater"], ["Capacity", "about 780 Ah per kg"], ["Iron", "a few thousandths of a per cent at most, or it passivates"]],
+  uses: "Boat hulls and shafts, outboard legs, pipelines, pier piles, water heater tanks.",
+  link: "https://en.wikipedia.org/wiki/Galvanic_anode",
+  src: ["AMPP", "https://www.ampp.org/technical-research/what-is-corrosion/cathodic-protection"]
+},
+{
+  id: "indium", cat: "metal", name: "Indium",
+  sub: "In, the metal that wets glass", img: "indium", extra: ["indium2", "indium3"],
+  hook: "Dents under a fingernail and wets glass, which no other metal does: a wire of it crushed between two flanges seals a vacuum at liquid helium temperature. Most of it goes into the clear electrode of every screen.",
+  more: "Reich and Richter found it in zinc ore in 1863 by an indigo spectral line. It melts at 157 °C, stays ductile down to absolute zero, and cold-welds to itself under finger pressure, so a seal is made by laying a wire in a groove, bolting down, and not minding the squeeze. Where rubber goes glassy and metal gaskets need tonnes, an indium wire takes a few hundred kilograms of force and seals helium at 4 K; it is also the solder for things that cannot stand heat, joining gold without dissolving it and glass without flux. There is no indium mine. It comes as a by-product of zinc refining, about 900 tonnes a year, and most of it is sputtered as indium tin oxide onto glass for displays and touch screens, and lost when the screen is. It too cries when bent.",
+  stats: [["Melting point", "157 °C"], ["Hardness", "about 1 on Mohs, cut with a knife"], ["Supply", "a by-product of zinc, no mine of its own"]],
+  uses: "Vacuum and cryogenic seals, low-temperature solder, ITO on every screen, bearings in aero engines.",
+  link: "https://en.wikipedia.org/wiki/Indium",
+  src: ["Chemicool", "https://www.chemicool.com/elements/indium.html"]
+},
 
 /* ---------- CERAMICS & GLASS ---------- */
 {

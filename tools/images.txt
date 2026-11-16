@@ -615,3 +615,23 @@ polystyrene2|commons|Photoelasticity - Clear CD case centre.jpg|The centre of a 
 polystyrene3|commons|Polystyrene cup lid.JPG|A drinks-machine cup lid, the other everyday polystyrene|product
 phema2|commons|Eye with contact lens.jpg|A soft lens in place on the eye|product
 pga2|commons|VICRYL.Violet braided absorbable suture.3-0.70cm.JPG|Vicryl, the lactide copolymer, in its pack|related
+gallium|commons|Gallium crystals.jpg|Crystals of five-nines gallium|photo
+tin|commons|Tin crystals.jpg|Crystals grown from smelted high-purity tin|photo
+wootz|commons|Crucible steel button.jpg|A button of crucible steel, smelted from iron sand in a graphite crucible|related
+kanthal|commons|Kanthal - drut oporowy.JPG|A spool of Kanthal resistance wire|photo
+galvanised|commons|Galvanized surface.jpg|Spangle on a hot-dipped tie plate: the zinc froze as flat crystals|photo
+tinplate|commons|Inside of a tin platted can.jpg|The inside of a steel can, tinned and unlacquered|product
+ductileiron|commons|Ductile iron rainwater manhole cover.jpg|A ductile iron manhole cover|product
+tungsten|commons|Glowing bulb filament - Flickr - SyamAstro (750,000 views - thank you^).jpg|The coiled coil of a lamp, lit, through the glass|product
+zincanode|commons|2022-01-18 sacrificial galvanic anode.jpg|A shaft anode on a yacht after a season: the zinc goes, the shaft stays|product
+indium|commons|Indium wetting glass.jpg|Indium wetting the inside of a glass test tube|photo
+gallium2|commons|Liquid gallium pouring.png|Liquid gallium poured into a hand, which is warm enough to keep it that way|photo
+tin2|commons|Re-melted tin affected with tin pest is poured into ingot molds at Rock Island Arsenal Joint Manufacturing and Technology Center, DVIDS3878892.jpg|Tin that had caught the pest, remelted and poured back into ingots at Rock Island Arsenal|process
+wootz2|commons|South Indian Wootz Steel Sword.jpg|A 17th or 18th century tulwar with a signed Persian wootz blade|product
+galvanised2|commons|Hot-dip galvanization process.jpg|Tubes coming up out of the zinc bath|process
+ductileiron2|commons|Gusseisen mit Kugelgraphit.jpg|Under the microscope: graphite nodules in a matrix of ferrite|structure
+ductileiron3|commons|Ductile cast iron pipes.JPG|Ductile iron mains going into a trench in Norway|product
+tungsten2|commons|TungstenFilamentHalogenH7Lamp.JPG|A halogen car lamp after five years: tungsten that evaporated and grew back as crystals on the cold support wires|product
+zincanode2|commons|Galvanic-anode-used hg.jpg|Spent anodes, done|product
+indium2|commons|Indium wire.jpg|Indium wire, about 3 mm, the gasket stock|photo
+indium3|commons|Ingot of 40 grams of indium.jpg|A 40 gram ingot and a molten drop|photo
