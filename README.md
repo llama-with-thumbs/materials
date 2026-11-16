@@ -338,7 +338,10 @@ projection: an orthographic view turned 35° and seen from 22° above). First th
 the three hidden edges dashed, the corner points in ink and the centring points in red, since
 the centring is what the card is about, the hexagonal cell inside its faint prism. Then the
 packing: two cells each way with a sphere on every point, each touching its nearest
-neighbours and drawn back to front, which is where the close-packed cube earns its name.
+neighbours and drawn back to front, which is where the close-packed cube earns its name, with
+one unit cell, the one nearest the viewer, outlined over the spheres so the eye can find it.
+Every drawn view carries a line of signs along its foot saying what its points, spheres and
+edges stand for.
 Then one point and every point at the nearest distance from it, counted. After the fourteen
 come the three structures nearly every metal takes, face-centred cubic, body-centred cubic and
 hexagonal close-packed, with the cell drawn in full-size touching spheres, the packing, the

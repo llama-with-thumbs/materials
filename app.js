@@ -212,12 +212,12 @@ const LATTICE_VIEWS = {
   key: [["centrings", "the five centrings: P, C, I, F on a cube, R a rhombohedron; turns under the pointer"]],
   lattice: [
     ["cell", "the unit cell: points at the corners, centring points in red; turns under the pointer"],
-    ["packing", "two cells each way, a sphere on every point, each touching its nearest neighbours; centring points red; turns under the pointer"],
+    ["packing", "two cells each way, a sphere on every point, each touching its nearest neighbours; centring points red; one unit cell outlined; turns under the pointer"],
     ["neighbours", "one point, red, and every point at the nearest distance from it; turns under the pointer"]
   ],
   structure: [
     ["hardcell", "the cell with its atoms drawn full size, touching; turns under the pointer"],
-    ["packing", "two cells each way; the atoms that are not on corners are red; turns under the pointer"],
+    ["packing", "two cells each way; the atoms that are not on corners are red; one unit cell outlined; turns under the pointer"],
     ["neighbours", "one atom, red, and every atom touching it; turns under the pointer"],
     ["stacking", "the close-packed layers from above: A in ink, B red, the third layer small"]
   ],

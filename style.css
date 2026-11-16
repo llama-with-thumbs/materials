@@ -276,7 +276,9 @@ svg.cell .box { stroke: var(--line); stroke-width: 1.5; stroke-dasharray: 6 6; }
 svg.cell .sphere { fill: var(--panel); stroke: var(--ink); stroke-width: 1.6; }
 svg.cell .sphere.centre { fill: var(--red); stroke: var(--red); }
 svg.cell .bond { stroke: var(--ink); stroke-width: 2.5; stroke-linecap: round; }
-svg.cell .count { fill: var(--ink); font-size: 18px; }
+svg.cell .count { fill: var(--ink); font-size: 20px; }
+svg.cell .legend .key { fill: var(--dim); font-size: 15px; }
+svg.cell .side.one { stroke-width: 2.6; }
 svg.cell .th { fill: var(--ink); font-size: 17px; font-weight: 500; }
 svg.cell .td { fill: var(--dim); font-size: 13px; }
 svg.cell .big { fill: var(--ink); font-size: 34px; font-weight: 300; }
@@ -317,6 +319,7 @@ svg.table .mini:hover .hit, svg.table .mini:focus-visible .hit { stroke: var(--b
 .view.on svg.cell .layer.c { animation-delay: calc(1500ms + var(--i, 0) * 12ms); }
 .view.on svg.cell .hrow { transform-box: fill-box; animation: land 0.5s ease-out both; animation-delay: calc(var(--i, 0) * 300ms); }
 .view.on svg.cell .comma { animation-delay: calc(var(--i, 0) * 110ms); }
+.view.on svg.cell .legend * { animation: none !important; stroke-dashoffset: 0 !important; }
 svg.cell.still, svg.cell.still * { animation: none !important; stroke-dashoffset: 0 !important; }
 @media (prefers-reduced-motion: reduce) { .view.on svg.cell * { animation: none !important; stroke-dashoffset: 0 !important; } }
 

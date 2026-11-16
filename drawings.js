@@ -31,6 +31,62 @@ window.DRAWINGS = (() => {
     return [X, -(z * Math.cos(PH) + Y * Math.sin(PH)), Y * Math.cos(PH) - z * Math.sin(PH)];
   }
 
+  // Which end of each axis faces away from the viewer: for each pair of opposite faces, 1 if
+  // the face at the far end of that axis has its outward normal along the view direction.
+  // The three hidden edges of a cell meet at the corner these three pick out. (The deepest
+  // corner is only right for boxes.)
+  function backFaces(A) {
+    const dir = [Math.sin(VIEW.th) * Math.cos(VIEW.ph), Math.cos(VIEW.th) * Math.cos(VIEW.ph), -Math.sin(VIEW.ph)];
+    const dot3 = (p, q) => p[0] * q[0] + p[1] * q[1] + p[2] * q[2];
+    const cross3 = (p, q) => [p[1] * q[2] - p[2] * q[1], p[2] * q[0] - p[0] * q[2], p[0] * q[1] - p[1] * q[0]];
+    return [0, 1, 2].map(i => {
+      let n = cross3(A[(i + 1) % 3], A[(i + 2) % 3]);
+      if (dot3(n, A[i]) < 0) n = n.map(x => -x);
+      return dot3(dir, n) > 0 ? 1 : 0;
+    });
+  }
+  const idx = (u, v, w) => u * 4 + v * 2 + w;
+
+  // The twelve edges of a cell whose eight projected corners are C (indexed by idx), the three
+  // at the far corner dashed, drawn in the order a pencil would take them from the origin.
+  // cls is added to every edge; from offsets the --i that times the drawing.
+  function cellEdges(C, far, cls = "", from = 0) {
+    const edges = [];
+    for (const u of [0, 1]) for (const v of [0, 1]) for (const w of [0, 1]) {
+      const i = idx(u, v, w);
+      if (!u) edges.push([i, idx(1, v, w)]);
+      if (!v) edges.push([i, idx(u, 1, w)]);
+      if (!w) edges.push([i, idx(u, v, 1)]);
+    }
+    const line = ([i, j], c, k) => `<line class="${c}" style="--i:${k}" x1="${f1(C[i][0])}" y1="${f1(C[i][1])}" x2="${f1(C[j][0])}" y2="${f1(C[j][1])}"/>`;
+    const hidden = edges.filter(e => e.includes(far)).map((e, k) => line(e, `side hidden ${cls}`.trim(), from + k)).join("");
+    const shown = edges.filter(e => !e.includes(far)).sort((p, q) => Math.min(...p) - Math.min(...q)).map((e, k) => line(e, `side ${cls}`.trim(), from + k)).join("");
+    return hidden + shown;
+  }
+
+  // A line of signs along the foot of a drawing: what the points, spheres and edges stand for.
+  // Each item is [glyph, words]; the glyphs reuse the drawing's own classes, so they match.
+  function legend(items, y = H - 20) {
+    let x = 24, s = "";
+    for (const [g, t] of items) {
+      const cy = y - 5;
+      if (g === "pt" || g === "centre") s += `<circle class="pt${g === "centre" ? " centre" : ""}" cx="${x + 6}" cy="${cy}" r="6"/>`;
+      else if (g === "sphere" || g === "red") s += `<circle class="sphere${g === "red" ? " centre" : ""}" cx="${x + 7}" cy="${cy}" r="7"/>`;
+      else if (g === "ring") s += `<circle class="layer c" cx="${x + 7}" cy="${cy}" r="6"/>`;
+      else if (g === "line") s += `<line class="side" x1="${x}" y1="${cy}" x2="${x + 20}" y2="${cy}"/>`;
+      else if (g === "dash") s += `<line class="side hidden" x1="${x}" y1="${cy}" x2="${x + 20}" y2="${cy}"/>`;
+      else if (g === "box") s += `<rect class="box" x="${x + 1}" y="${cy - 7}" width="16" height="14" fill="none"/>`;
+      else if (g === "one") s += `<rect class="side one" x="${x + 1}" y="${cy - 7}" width="16" height="14" fill="none"/>`;
+      else if (g === "bond") s += `<line class="bond" x1="${x}" y1="${cy}" x2="${x + 20}" y2="${cy}"/>`;
+      s += `<text class="key" x="${x + 26}" y="${y}">${t}</text>`;
+      x += 26 + t.length * 7.5 + 22;
+    }
+    return `<g class="legend">${s}</g>`;
+  }
+  // The words for a point, by what the card is about.
+  const pointWord = l => l.kind === "structure" ? "atom" : "lattice point";
+  const centreWord = l => l.kind === "structure" ? (l.stacking === "ab" ? "second atom of the basis" : "atom off the corners") : "centring point";
+
   const add = (p, q) => [p[0] + q[0], p[1] + q[1], p[2] + q[2]];
   const mul = (p, k) => [p[0] * k, p[1] * k, p[2] * k];
   const frac = (A, [u, v, w]) => add(add(mul(A[0], u), mul(A[1], v)), mul(A[2], w));
@@ -61,30 +117,9 @@ window.DRAWINGS = (() => {
     const E = extra.map((p, i) => S(all[corners.length + i]));
     const P = prism.map(S);
 
-    // Edges join corners that differ in one index. The three hidden ones meet at the corner
-    // whose three faces all face away: for each pair of opposite faces, the one whose outward
-    // normal points along the view direction. (The deepest corner is only right for boxes.)
-    const idx = (u, v, w) => u * 4 + v * 2 + w;
-    const dir = [Math.sin(VIEW.th) * Math.cos(VIEW.ph), Math.cos(VIEW.th) * Math.cos(VIEW.ph), -Math.sin(VIEW.ph)];
-    const dot3 = (p, q) => p[0] * q[0] + p[1] * q[1] + p[2] * q[2];
-    const cross3 = (p, q) => [p[1] * q[2] - p[2] * q[1], p[2] * q[0] - p[0] * q[2], p[0] * q[1] - p[1] * q[0]];
-    const back = [0, 1, 2].map(i => {
-      let n = cross3(A[(i + 1) % 3], A[(i + 2) % 3]);
-      if (dot3(n, A[i]) < 0) n = n.map(x => -x);          // outward from the face at 1
-      return dot3(dir, n) > 0 ? 1 : 0;
-    });
+    const back = backFaces(A);
     const far = idx(back[0], back[1], back[2]);
-    const edges = [];
-    for (const u of [0, 1]) for (const v of [0, 1]) for (const w of [0, 1]) {
-      const i = idx(u, v, w);
-      if (!u) edges.push([i, idx(1, v, w)]);
-      if (!v) edges.push([i, idx(u, 1, w)]);
-      if (!w) edges.push([i, idx(u, v, 1)]);
-    }
-    // Edges in the order a pencil would draw them: from the origin outward, by index.
-    const line = ([i, j], cls, k) => `<line class="${cls}" style="--i:${k}" x1="${f1(C[i][0])}" y1="${f1(C[i][1])}" x2="${f1(C[j][0])}" y2="${f1(C[j][1])}"/>`;
-    const hidden = edges.filter(e => e.includes(far)).map((e, k) => line(e, "side hidden", k)).join("");
-    const shown = edges.filter(e => !e.includes(far)).sort((p, q) => Math.min(...p) - Math.min(...q)).map((e, k) => line(e, "side", k)).join("");
+    const sides = cellEdges(C, far);
 
     let prismSvg = "";
     if (P.length) {
@@ -109,12 +144,14 @@ window.DRAWINGS = (() => {
       .concat(E.map(p => [p, "pt centre"]).sort((x, y) => y[0][2] - x[0][2]))
       .map(([p, cls], k) => dot(p, cls, k)).join("");
 
-    return `${prismSvg}${hidden}${shown}${labels}${points}`;
+    return `${prismSvg}${sides}${labels}${points}`;
   }
 
   function cell(l) {
+    const key = legend([["pt", pointWord(l)]].concat(l.extra && l.extra.length ? [["centre", centreWord(l)]] : [])
+      .concat([["line", "edge of the cell"], ["dash", "edge behind"]]));
     return `<svg class="cell" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} cell">
-      ${cellInto(l, { x: 0, y: 0, w: W, h: H })}</svg>`;
+      ${cellInto(l, { x: 0, y: 0, w: W, h: H - 30 })}${key}</svg>`;
   }
 
   // The fourteen as MIT draws them, turned on its side so the card can be wide: each system
@@ -147,7 +184,8 @@ window.DRAWINGS = (() => {
              `<text class="td" x="${f1(x + colW / 2)}" y="${f1(top + (k + 1) * rowH - 8)}" text-anchor="middle">${l.symbol}</text></a>`;
       });
     });
-    s += `<text class="td" x="${TW - 12}" y="${TH - 12}" text-anchor="end">each cell is a card below: click it</text>`;
+    s += `<text class="td" x="${TW - 12}" y="${TH - 12}" text-anchor="end">each cell is a card below: click it</text>` +
+         legend([["pt", "lattice point"], ["centre", "centring point"]], TH - 10);
     return `<svg class="cell table" viewBox="0 0 ${TW} ${TH}" role="img" aria-label="the seven systems and the fourteen lattices">${s}</svg>`;
   }
 
@@ -164,11 +202,12 @@ window.DRAWINGS = (() => {
     const colW = W / 5;
     let s = "";
     five.forEach(([letter, word, c, extra], i) => {
-      s += cellInto({ cell: c, extra }, { x: i * colW, y: 40, w: colW, h: H - 170 }, { r: 7, labels: false, pad: 0.2 }) +
-           `<text class="big" x="${f1((i + 0.5) * colW)}" y="${H - 72}" text-anchor="middle">${letter}</text>` +
-           `<text class="td" x="${f1((i + 0.5) * colW)}" y="${H - 44}" text-anchor="middle">${word}</text>` +
-           `<text class="td" x="${f1((i + 0.5) * colW)}" y="${H - 24}" text-anchor="middle">${["1 per cell", "2 per cell", "2 per cell", "4 per cell", "1, or 3 hexagonal"][i]}</text>`;
+      s += cellInto({ cell: c, extra }, { x: i * colW, y: 30, w: colW, h: H - 190 }, { r: 7, labels: false, pad: 0.2 }) +
+           `<text class="big" x="${f1((i + 0.5) * colW)}" y="${H - 94}" text-anchor="middle">${letter}</text>` +
+           `<text class="td" x="${f1((i + 0.5) * colW)}" y="${H - 68}" text-anchor="middle">${word}</text>` +
+           `<text class="td" x="${f1((i + 0.5) * colW)}" y="${H - 48}" text-anchor="middle">${["1 per cell", "2 per cell", "2 per cell", "4 per cell", "1, or 3 hexagonal"][i]}</text>`;
     });
+    s += legend([["pt", "corner point, shared by eight cells"], ["centre", "centring point, the one the letter names"]], H - 16);
     return `<svg class="cell centrings" viewBox="0 0 ${W} ${H}" role="img" aria-label="the five centrings">${s}</svg>`;
   }
 
@@ -210,8 +249,9 @@ window.DRAWINGS = (() => {
   function fit(pts, r) {
     const xs = pts.map(p => p[0]), ys = pts.map(p => p[1]);
     const x0 = Math.min(...xs) - r, x1 = Math.max(...xs) + r, y0 = Math.min(...ys) - r, y1 = Math.max(...ys) + r;
-    const s = Math.min((W - 40) / (x1 - x0), (H - 40) / (y1 - y0));
-    const ox = (W - s * (x1 - x0)) / 2 - s * x0, oy = (H - s * (y1 - y0)) / 2 - s * y0;
+    const HH = H - 74;   // 20 above, and room for the legend line below
+    const s = Math.min((W - 40) / (x1 - x0), HH / (y1 - y0));
+    const ox = (W - s * (x1 - x0)) / 2 - s * x0, oy = 20 + (HH - s * (y1 - y0)) / 2 - s * y0;
     return { s, S: p => [ox + s * p[0], oy + s * p[1], p[2]] };
   }
 
@@ -227,7 +267,6 @@ window.DRAWINGS = (() => {
     // The outline of the block, faint, so the eye has the box the spheres fill.
     const box = [];
     for (const u of [0, 1]) for (const v of [0, 1]) for (const w of [0, 1]) box.push(S(view(frac(A, [u * n, v * n, w * n]))));
-    const idx = (u, v, w) => u * 4 + v * 2 + w;
     let edges = "";
     for (const u of [0, 1]) for (const v of [0, 1]) for (const w of [0, 1]) {
       const p = box[idx(u, v, w)];
@@ -236,7 +275,19 @@ window.DRAWINGS = (() => {
     }
     const spheres = pts.map(([p, c]) => [S(p), c]).sort((x, y) => y[0][2] - x[0][2])
       .map(([p, c], k) => `<circle class="sphere${c ? " centre" : ""}" style="--i:${k}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${f1(r)}"/>`).join("");
-    return `<svg class="cell packing" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} ${n === 1 ? "cell of spheres" : "packing"}">${edges}${spheres}</svg>`;
+    // One unit cell outlined over the spheres, the one nearest the viewer, so the eye can find
+    // the cell inside the block. Its edges come after the spheres when the view assembles.
+    let one = "";
+    if (n > 1) {
+      const back = backFaces(A), o = back.map(b => b ? 0 : n - 1);
+      const Cc = [];
+      for (const u of [0, 1]) for (const v of [0, 1]) for (const w of [0, 1]) Cc.push(S(view(frac(A, [o[0] + u, o[1] + v, o[2] + w]))));
+      one = cellEdges(Cc, idx(back[0], back[1], back[2]), "one", Math.ceil(pts.length * 22 / 45));
+    }
+    const key = n === 1
+      ? legend([["sphere", pointWord(l)], ["red", centreWord(l)], ["box", "the cell"]].filter(([g]) => g !== "red" || (l.extra || []).length))
+      : legend([["sphere", l.kind === "structure" ? "an atom" : "a lattice point"], ["red", centreWord(l)], ["one", "one unit cell"], ["box", "the block"]].filter(([g]) => g !== "red" || (l.extra || []).length));
+    return `<svg class="cell packing" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} ${n === 1 ? "cell of spheres" : "packing"}">${edges}${spheres}${one}${key}</svg>`;
   }
   const hardcell = l => packing(l, 1);
 
@@ -257,6 +308,7 @@ window.DRAWINGS = (() => {
     A.forEach(([x, y], k) => { s += `<circle class="layer a" style="--i:${k}" cx="${f1(x)}" cy="${f1(y)}" r="${r}"/>`; });
     B.forEach(([x, y], k) => { if (x < W - 30) s += `<circle class="layer b" style="--i:${k}" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.55}"/>`; });
     (abc ? Cc : A).forEach(([x, y], k) => { s += `<circle class="layer c" style="--i:${k}" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.32}"/>`; });
+    s += legend([["sphere", "layer A"], ["red", "layer B, in the hollows of A"], ["ring", abc ? "layer C, in the hollows left" : "the third layer, over A again"]]);
     s += `<text class="count" x="24" y="${H - 48}">${abc
       ? "A, then B in its hollows, then C in the hollows both left: the cube"
       : "A, then B in its hollows, then back over A: the hexagonal stack"}</text>`;
@@ -316,8 +368,10 @@ window.DRAWINGS = (() => {
     const bonds = N.map((p, k) => `<line class="bond" style="--i:${k}" x1="${f1(c[0])}" y1="${f1(c[1])}" x2="${f1(p[0])}" y2="${f1(p[1])}"/>`).join("");
     const dots = N.map((p, k) => [p, "pt", k]).concat([[c, "pt centre", 0]]).sort((x, y) => y[0][2] - x[0][2])
       .map(([p, cls, k]) => `<circle class="${cls}" style="--i:${k}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${cls.includes("centre") ? 12 : 10}"/>`).join("");
-    const label = `<text class="count" x="24" y="${H - 24}">${N.length} nearest neighbours</text>`;
-    return `<svg class="cell neighbours" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} neighbours">${bonds}${dots}${label}</svg>`;
+    const label = `<text class="count" x="24" y="${H - 48}">${N.length} nearest neighbours</text>`;
+    const pw = pointWord(l);
+    const key = legend([["centre", "one " + pw], ["pt", "the " + pw + "s touching it"], ["bond", "the nearest distance"]]);
+    return `<svg class="cell neighbours" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} neighbours">${bonds}${dots}${label}${key}</svg>`;
   }
 
   /* ---------- sketches for the classes ---------- */
