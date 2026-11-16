@@ -331,8 +331,8 @@ and the fourteen Bravais lattices laid out the way the MIT solid-state course dr
 (3.091, lecture notes 4), each system with its rule for the edges and angles and its lattices
 beside it as wire cells with a sphere on every point, turned on its side so the table can sit
 next to its paragraph. A key to the centring letters follows, P, C, I, F and R on one cube and
-one rhombohedron. Then the fourteen one by one, in the textbook order from the box with no
-symmetry to the close-packed cube. Each of those cards carries three drawn views in the same
+one rhombohedron. Each cell of the table is a link to its card. Then the fourteen one by one, cubic first, the
+order the table reads. Each of those cards carries three drawn views in the same
 reel a photograph gets, all from six numbers in `lattices.js` (`drawings.js` does the
 projection: an orthographic view turned 35° and seen from 22° above). First the unit cell,
 the three hidden edges dashed, the corner points in ink and the centring points in red, since
@@ -346,7 +346,15 @@ neighbours and, for the two close-packed ones, the layers seen from above, ABCAB
 hexagonal close-packed is a lattice with a two-atom basis, and the card says so. The shelf ends
 with what a space group is, the 230 built from the fourteen lattices and the thirty-two point
 groups plus the screw axis and the glide plane, drawn with the crystallographer's comma, and
-the Hermann-Mauguin names of the half-dozen a reader will meet, without the list. The text says what the shape is, who lives in it and what that costs or gives:
+the Hermann-Mauguin names of the half-dozen a reader will meet, without the list. The shelf
+reads under four bands, the idea, the fourteen, the metals, the symmetry, so the order is the
+argument. Every drawn cell, packing and neighbour view turns under the pointer, left and right
+about the vertical and up and down to tip it, and swings back when the pointer leaves; the
+drawing is made again at the new angles and swapped into the page. A view assembles when it
+comes on, in the order a hand would draw it: edges from the origin, points back to front,
+spheres from the back, bonds out from the centre, layers one after another, the hierarchy top
+down, the commas in step; a turned drawing is redrawn still, and reduced-motion settings stop
+all of it. The text says what the shape is, who lives in it and what that costs or gives:
 why the body-centred metals go brittle in the cold, why the hexagonal ones are formed hot, why
 martensite is a cube pulled out of true. Each names the materials that keep it, on the cards
 and off them, and links to the system's article and to the AFLOW prototype encyclopedia.

@@ -19,10 +19,13 @@ window.DRAWINGS = (() => {
     return [[a, 0, 0], [b * cg, b * sg, 0], [c * cb, c * (ca - cb * cg) / sg, c * cz]];
   }
 
-  // An orthographic view: turned 35° about the vertical, then seen from 22° above. Returns
-  // screen x, screen y (down) and a depth, larger meaning farther away.
-  const TH = rad(-35), PH = rad(22);
+  // An orthographic view: at rest turned 35° about the vertical, then seen from 22° above.
+  // Returns screen x, screen y (down) and a depth, larger meaning farther away. The pointer
+  // can turn it (inner, below), so the angles live in a variable.
+  const REST = { th: -35, ph: 22 };
+  let VIEW = { th: rad(REST.th), ph: rad(REST.ph) };
   function view([x, y, z]) {
+    const TH = VIEW.th, PH = VIEW.ph;
     const X = x * Math.cos(TH) - y * Math.sin(TH);
     const Y = x * Math.sin(TH) + y * Math.cos(TH);
     return [X, -(z * Math.cos(PH) + Y * Math.sin(PH)), Y * Math.cos(PH) - z * Math.sin(PH)];
@@ -69,9 +72,10 @@ window.DRAWINGS = (() => {
       if (!v) edges.push([i, idx(u, 1, w)]);
       if (!w) edges.push([i, idx(u, v, 1)]);
     }
-    const line = ([i, j], cls) => `<line class="${cls}" x1="${f1(C[i][0])}" y1="${f1(C[i][1])}" x2="${f1(C[j][0])}" y2="${f1(C[j][1])}"/>`;
-    const hidden = edges.filter(e => e.includes(far)).map(e => line(e, "side hidden")).join("");
-    const shown = edges.filter(e => !e.includes(far)).map(e => line(e, "side")).join("");
+    // Edges in the order a pencil would draw them: from the origin outward, by index.
+    const line = ([i, j], cls, k) => `<line class="${cls}" style="--i:${k}" x1="${f1(C[i][0])}" y1="${f1(C[i][1])}" x2="${f1(C[j][0])}" y2="${f1(C[j][1])}"/>`;
+    const hidden = edges.filter(e => e.includes(far)).map((e, k) => line(e, "side hidden", k)).join("");
+    const shown = edges.filter(e => !e.includes(far)).sort((p, q) => Math.min(...p) - Math.min(...q)).map((e, k) => line(e, "side", k)).join("");
 
     let prismSvg = "";
     if (P.length) {
@@ -89,10 +93,12 @@ window.DRAWINGS = (() => {
     };
     const labels = opt.labels === false ? "" : label(C[idx(1, 0, 0)], "a") + label(C[idx(0, 1, 0)], "b") + label(C[idx(0, 0, 1)], "c");
 
-    const dot = (p, cls) => `<circle class="${cls}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${R}"/>`;
-    // Points drawn back to front so a near point covers a far edge, as it should.
-    const points = C.map(p => [p, "pt"]).concat(E.map(p => [p, "pt centre"]))
-      .sort((x, y) => y[0][2] - x[0][2]).map(([p, cls]) => dot(p, cls)).join("");
+    const dot = (p, cls, k) => `<circle class="${cls}" style="--i:${k}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${R}"/>`;
+    // Points drawn back to front so a near point covers a far edge, as it should; the
+    // centring points last, so they arrive after the corners when the view assembles.
+    const points = C.map(p => [p, "pt"]).sort((x, y) => y[0][2] - x[0][2])
+      .concat(E.map(p => [p, "pt centre"]).sort((x, y) => y[0][2] - x[0][2]))
+      .map(([p, cls], k) => dot(p, cls, k)).join("");
 
     return `${prismSvg}${hidden}${shown}${labels}${points}`;
   }
@@ -125,10 +131,14 @@ window.DRAWINGS = (() => {
       mine.forEach((l, k) => {
         const box = { x: x + 6, y: top + k * rowH, w: colW - 12, h: rowH - 18 };
         const draw = Object.assign({}, l, { prism: false });
-        s += cellInto(draw, box, { r: 5.5, labels: false, pad: 0.22 }) +
-             `<text class="td" x="${f1(x + colW / 2)}" y="${f1(top + (k + 1) * rowH - 8)}" text-anchor="middle">${l.symbol}</text>`;
+        // Each cell is a link to its card: a group with data-goto, which app.js answers.
+        s += `<g class="mini" data-goto="${l.id}" role="link" tabindex="0"><title>${l.name}: go to its card</title>` +
+             `<rect class="hit" x="${f1(box.x)}" y="${f1(box.y)}" width="${f1(box.w)}" height="${f1(box.h + 18)}"/>` +
+             cellInto(draw, box, { r: 5.5, labels: false, pad: 0.22 }) +
+             `<text class="td" x="${f1(x + colW / 2)}" y="${f1(top + (k + 1) * rowH - 8)}" text-anchor="middle">${l.symbol}</text></g>`;
       });
     });
+    s += `<text class="td" x="${TW - 12}" y="${TH - 12}" text-anchor="end">each cell is a card below: click it</text>`;
     return `<svg class="cell table" viewBox="0 0 ${TW} ${TH}" role="img" aria-label="the seven systems and the fourteen lattices">${s}</svg>`;
   }
 
@@ -216,7 +226,7 @@ window.DRAWINGS = (() => {
         edges += `<line class="box" x1="${f1(p[0])}" y1="${f1(p[1])}" x2="${f1(q[0])}" y2="${f1(q[1])}"/>`;
     }
     const spheres = pts.map(([p, c]) => [S(p), c]).sort((x, y) => y[0][2] - x[0][2])
-      .map(([p, c]) => `<circle class="sphere${c ? " centre" : ""}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${f1(r)}"/>`).join("");
+      .map(([p, c], k) => `<circle class="sphere${c ? " centre" : ""}" style="--i:${k}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${f1(r)}"/>`).join("");
     return `<svg class="cell packing" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} ${n === 1 ? "cell of spheres" : "packing"}">${edges}${spheres}</svg>`;
   }
   const hardcell = l => packing(l, 1);
@@ -235,10 +245,9 @@ window.DRAWINGS = (() => {
       A.push([x, y]);
       if (j < 5) { B.push([x + r, y + dy / 3]); Cc.push([x, y + 2 * dy / 3]); }
     }
-    for (const [x, y] of A) s += `<circle class="layer a" cx="${f1(x)}" cy="${f1(y)}" r="${r}"/>`;
-    for (const [x, y] of B) if (x < W - 30) s += `<circle class="layer b" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.55}"/>`;
-    if (abc) { for (const [x, y] of Cc) s += `<circle class="layer c" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.32}"/>`; }
-    else { for (const [x, y] of A) s += `<circle class="layer c" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.32}"/>`; }
+    A.forEach(([x, y], k) => { s += `<circle class="layer a" style="--i:${k}" cx="${f1(x)}" cy="${f1(y)}" r="${r}"/>`; });
+    B.forEach(([x, y], k) => { if (x < W - 30) s += `<circle class="layer b" style="--i:${k}" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.55}"/>`; });
+    (abc ? Cc : A).forEach(([x, y], k) => { s += `<circle class="layer c" style="--i:${k}" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.32}"/>`; });
     s += `<text class="count" x="24" y="${H - 24}">${abc
       ? "A, then B in its hollows, then C in the hollows both left: the cube"
       : "A, then B in its hollows, then back over A: the hexagonal stack"}</text>`;
@@ -253,11 +262,11 @@ window.DRAWINGS = (() => {
     let s = "";
     rows.forEach(([n, name, note], i) => {
       const y = 36 + i * 112;
-      s += `<rect class="hbox" x="90" y="${y}" width="540" height="76"/>` +
+      s += `<g class="hrow" style="--i:${i}"><rect class="hbox" x="90" y="${y}" width="540" height="76"/>` +
            `<text class="big" x="130" y="${y + 50}">${n}</text>` +
            `<text class="hname" x="250" y="${y + 36}">${name}</text>` +
-           `<text class="td" x="250" y="${y + 60}">${note}</text>`;
-      if (i < 3) s += `<line class="harrow" x1="360" y1="${y + 76}" x2="360" y2="${y + 112}"/><path class="hhead" d="M352 ${y + 104}l8 8 8-8"/>`;
+           `<text class="td" x="250" y="${y + 60}">${note}</text>` +
+           (i < 3 ? `<line class="harrow" x1="360" y1="${y + 76}" x2="360" y2="${y + 112}"/><path class="hhead" d="M352 ${y + 104}l8 8 8-8"/>` : "") + `</g>`;
     });
     return `<svg class="cell hierarchy" viewBox="0 0 ${W} ${H}" role="img" aria-label="how the space groups are built">${s}</svg>`;
   }
@@ -267,8 +276,9 @@ window.DRAWINGS = (() => {
   function glide() {
     // sx, sy of -1 mirror the comma: a glide mirrors it top to bottom, a two-fold screw seen
     // from the side mirrors it left to right (the half turn about the axis).
+    let k = 0;
     const comma = (x, y, sx, sy) =>
-      `<path class="comma" transform="translate(${x} ${y}) scale(${sx} ${sy})" d="M0 0c10-16 26-10 20 6c-5 12-16 20-28 24c7-9 8-18 8-30z"/>`;
+      `<g class="comma" style="--i:${k++}"><path transform="translate(${x} ${y}) scale(${sx} ${sy})" d="M0 0c10-16 26-10 20 6c-5 12-16 20-28 24c7-9 8-18 8-30z"/></g>`;
     let s = `<line class="gline" x1="30" y1="150" x2="${W / 2 - 30}" y2="150"/>`;
     for (let i = 0; i < 4; i++) {
       s += comma(60 + i * 72, 110, 1, 1) + comma(96 + i * 72, 190, 1, -1);
@@ -294,9 +304,9 @@ window.DRAWINGS = (() => {
     const { S } = fit(all, 0.18);
     const c = S(all[0]);
     const N = all.slice(1).map(S);
-    const bonds = N.map(p => `<line class="bond" x1="${f1(c[0])}" y1="${f1(c[1])}" x2="${f1(p[0])}" y2="${f1(p[1])}"/>`).join("");
-    const dots = N.map(p => [p, "pt"]).concat([[c, "pt centre"]]).sort((x, y) => y[0][2] - x[0][2])
-      .map(([p, cls]) => `<circle class="${cls}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${cls.includes("centre") ? 12 : 10}"/>`).join("");
+    const bonds = N.map((p, k) => `<line class="bond" style="--i:${k}" x1="${f1(c[0])}" y1="${f1(c[1])}" x2="${f1(p[0])}" y2="${f1(p[1])}"/>`).join("");
+    const dots = N.map((p, k) => [p, "pt", k]).concat([[c, "pt centre", 0]]).sort((x, y) => y[0][2] - x[0][2])
+      .map(([p, cls, k]) => `<circle class="${cls}" style="--i:${k}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${cls.includes("centre") ? 12 : 10}"/>`).join("");
     const label = `<text class="count" x="24" y="${H - 24}">${N.length} nearest neighbours</text>`;
     return `<svg class="cell neighbours" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} neighbours">${bonds}${dots}${label}</svg>`;
   }
@@ -410,5 +420,17 @@ window.DRAWINGS = (() => {
     return `<svg class="sketch ${c.sketch}" viewBox="0 0 ${W} ${H}" role="img" aria-label="a sketch of a ${c.name.toLowerCase()}">${body}</svg>`;
   }
 
-  return { cell, packing, hardcell, neighbours, stacking, table, centrings, hierarchy, glide, sketch };
+  // The same drawing turned to other angles, as inner SVG markup, for redrawing under the
+  // pointer: app.js swaps it into the svg that is already on the page.
+  const TURNABLE = { cell, packing, hardcell, neighbours, centrings };
+  function inner(kind, l, th, ph) {
+    const fn = TURNABLE[kind];
+    if (!fn) return null;
+    const keep = VIEW;
+    VIEW = { th: rad(th), ph: rad(ph) };
+    try { return fn(l).replace(/^<svg[^>]*>/, "").replace(/<\/svg>\s*$/, ""); }
+    finally { VIEW = keep; }
+  }
+
+  return { cell, packing, hardcell, neighbours, stacking, table, centrings, hierarchy, glide, sketch, inner, REST, turnable: kind => !!TURNABLE[kind] };
 })();

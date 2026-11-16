@@ -208,17 +208,17 @@ function reelFor(n) {
 // point and its nearest neighbours. Then the rule for the edges and angles, three facts,
 // who lives in it. The Pearson letters stand where the workshop is stamped on a photograph.
 const LATTICE_VIEWS = {
-  intro: [["table", "the seven systems and the fourteen lattices, centring points in red"]],
-  key: [["centrings", "the five centrings: P, C, I, F on a cube, R a rhombohedron"]],
+  intro: [["table", "the seven systems and the fourteen lattices, centring points in red; each cell is a card below, click it"]],
+  key: [["centrings", "the five centrings: P, C, I, F on a cube, R a rhombohedron; turns under the pointer"]],
   lattice: [
-    ["cell", "the unit cell: points at the corners, centring points in red"],
-    ["packing", "two cells each way, a sphere on every point, each touching its nearest neighbours; centring points red"],
-    ["neighbours", "one point, red, and every point at the nearest distance from it"]
+    ["cell", "the unit cell: points at the corners, centring points in red; turns under the pointer"],
+    ["packing", "two cells each way, a sphere on every point, each touching its nearest neighbours; centring points red; turns under the pointer"],
+    ["neighbours", "one point, red, and every point at the nearest distance from it; turns under the pointer"]
   ],
   structure: [
-    ["hardcell", "the cell with its atoms drawn full size, touching"],
-    ["packing", "two cells each way; the atoms that are not on corners are red"],
-    ["neighbours", "one atom, red, and every atom touching it"],
+    ["hardcell", "the cell with its atoms drawn full size, touching; turns under the pointer"],
+    ["packing", "two cells each way; the atoms that are not on corners are red; turns under the pointer"],
+    ["neighbours", "one atom, red, and every atom touching it; turns under the pointer"],
     ["stacking", "the close-packed layers from above: A in ink, B red, the third layer small"]
   ],
   groups: [["hierarchy", "how the 230 come about"], ["glide", "a glide plane and a screw axis, in commas"]]
@@ -232,7 +232,7 @@ const LATTICE_NO = l => {
 function latticeFor(l) {
   const kind = l.kind || "lattice";
   const views = LATTICE_VIEWS[kind].filter(([k]) => k !== "stacking" || l.stacking)
-    .map(([k, t]) => `<figure class="view" title="${esc(t)}">${k === "table" ? DRAWINGS.table(LATTICES.filter(x => x.kind === "lattice")) : DRAWINGS[k](l)}</figure>`);
+    .map(([k, t], i) => `<figure class="view${i ? "" : " on"}" data-draw="${k}" title="${esc(t)}">${k === "table" ? DRAWINGS.table(LATTICES.filter(x => x.kind === "lattice")) : DRAWINGS[k](l)}</figure>`);
   const stats = l.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
   const links = (l.cards || []).map(id => ALL.find(m => m.id === id)).filter(Boolean)
     .map(m => `<a href="#m-${esc(m.id)}" data-goto="${esc(m.id)}">${esc(m.name)}</a>`).join(", ");
@@ -340,6 +340,29 @@ let activeCat = "all";
 let activeSort = "old";
 let activeQuery = "";
 
+// The lattices shelf reads in four parts, each under its own band, so the order is the
+// argument: what a lattice is, the fourteen, what metals do with them, then the symmetry
+// beyond the lattice. The key shares the first band with the system.
+const LATTICE_BANDS = {
+  intro: ["1 · the idea", "what a lattice is, and the letters for where its extra points sit"],
+  lattice: ["2 · the fourteen", "Bravais's list, cubic first, the way the table reads; three views each, and the cell turns under the pointer"],
+  structure: ["3 · the metals", "what metals do with those lattices: three structures cover nearly all of them"],
+  groups: ["4 · the symmetry", "beyond the lattice: every way a whole crystal can repeat"]
+};
+function latticeShelf(refs) {
+  let html = "", band = null;
+  for (const l of refs) {
+    const key = l.kind === "key" ? "intro" : l.kind;
+    if (LATTICE_BANDS[key] && key !== band) {
+      band = key;
+      const [title, text] = LATTICE_BANDS[key];
+      html += `<div class="band"><b>${esc(title)}</b> — ${esc(text)}</div>`;
+    }
+    html += cardFor(l);
+  }
+  return html;
+}
+
 // A reference card is a plate, a paper or a library text — something that is not a material.
 const isRef = m => m.plate || m.paper || m.text || m.lattice || m.klass;
 
@@ -360,7 +383,7 @@ function render() {
   if (!list.length) {
     html = `<p class="empty">nothing matches that. try "glass", "heat" or "wheel".</p>`;
   } else if (shelf) {
-    html = refs.map(cardFor).join("");
+    html = activeCat === "lattices" ? latticeShelf(refs) : refs.map(cardFor).join("");
   } else {
     html = mats.map(cardFor).join("");
     if (refs.length) {
@@ -474,9 +497,53 @@ grid.addEventListener("click", e => {
   shot.querySelector(".arrow.prev").hidden = i === 0;
   shot.querySelector(".arrow.next").hidden = i === n - 1;
   shot.querySelectorAll(".dot").forEach((d, k) => d.classList.toggle("on", k === i));
+  // The view that is on is the one whose drawing assembles (style.css animates .view.on).
+  [...track.children].forEach((v, k) => v.classList.toggle("on", k === i));
   track.style.transform = `translateX(-${i * 100}%)`;
   shot.querySelector(".tag").title = track.children[i].title;
 });
+
+// A drawn cell turns under the pointer: left and right turn it about the vertical, up and
+// down tip it, and it swings back to rest when the pointer leaves. The drawing is made
+// again at the new angles and swapped into the svg already on the page; a turned drawing
+// is marked still, so it does not assemble again at every move.
+const turning = new Map();   // shot -> { th, ph, raf, back }
+function turnTo(shot, th, ph) {
+  const fig = shot.querySelector(".view.on") || shot.querySelector(".view");
+  const kind = fig && fig.dataset.draw;
+  if (!kind || !DRAWINGS.turnable(kind)) return;
+  const l = LATTICES.find(x => x.id === shot.closest(".card").dataset.id);
+  const svg = fig.querySelector("svg");
+  if (!l || !svg) return;
+  svg.classList.add("still");
+  svg.innerHTML = DRAWINGS.inner(kind, l, th, ph);
+}
+grid.addEventListener("pointermove", e => {
+  const shot = e.target.closest(".card.lattice .shot");
+  if (!shot || e.target.closest(".arrow, .dot") || e.pointerType === "touch") return;
+  const r = shot.getBoundingClientRect();
+  const st = turning.get(shot) || {};
+  if (st.back) { cancelAnimationFrame(st.back); st.back = 0; }
+  st.th = DRAWINGS.REST.th + ((e.clientX - r.left) / r.width - 0.5) * 80;
+  st.ph = DRAWINGS.REST.ph + ((e.clientY - r.top) / r.height - 0.5) * 36;
+  turning.set(shot, st);
+  if (!st.raf) st.raf = requestAnimationFrame(() => { st.raf = 0; turnTo(shot, st.th, st.ph); });
+});
+grid.addEventListener("pointerleave", e => {
+  const shot = e.target.closest && e.target.closest(".card.lattice .shot");
+  const st = shot && e.target === shot && turning.get(shot);
+  if (!st) return;
+  // Swing back over a third of a second, eased, then stop redrawing.
+  const from = { th: st.th, ph: st.ph }, t0 = performance.now();
+  const step = now => {
+    const k = Math.min(1, (now - t0) / 350), e2 = 1 - Math.pow(1 - k, 3);
+    st.th = from.th + (DRAWINGS.REST.th - from.th) * e2;
+    st.ph = from.ph + (DRAWINGS.REST.ph - from.ph) * e2;
+    turnTo(shot, st.th, st.ph);
+    st.back = k < 1 ? requestAnimationFrame(step) : 0;
+  };
+  st.back = requestAnimationFrame(step);
+}, true);
 
 // The pointer's height inside an arrow's strip steers the fins: -1 at the top, 1 at the bottom.
 grid.addEventListener("pointermove", e => {
@@ -591,9 +658,14 @@ if (weekEl && MATERIALS.length) {
 
 // Go to one card wherever it is: clear the filters, scroll to it, outline it in red.
 function goTo(id) {
-  activeQuery = "";
-  searchEl.value = "";
-  setCat("all");
+  // Stay on the current filter when the card is in it (a lattice from the table, say);
+  // otherwise go to all, where everything is.
+  const target = ALL.find(m => m.id === id);
+  if (activeQuery.trim() || !target || !inFilter(target, activeCat)) {
+    activeQuery = "";
+    searchEl.value = "";
+    setCat("all");
+  }
   const card = document.getElementById("m-" + id);
   if (!card || !card.classList) return;
   for (const was of grid.querySelectorAll(".picked")) was.classList.remove("picked");

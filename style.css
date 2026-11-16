@@ -290,15 +290,46 @@ svg.cell .harrow { stroke: var(--ink); stroke-width: 2; }
 svg.cell .hhead { fill: none; stroke: var(--ink); stroke-width: 2; }
 svg.cell .gline { stroke: var(--dim); stroke-width: 1.5; stroke-dasharray: 6 6; }
 svg.cell .comma { fill: var(--ink); }
+svg.table .mini { cursor: pointer; outline: none; }
+svg.table .mini .hit { fill: transparent; }
+svg.table .mini:hover .side, svg.table .mini:focus-visible .side { stroke: var(--blue); }
+svg.table .mini:hover .pt, svg.table .mini:focus-visible .pt, svg.table .mini:hover .td, svg.table .mini:focus-visible .td { fill: var(--blue); }
+svg.table .mini:hover .hit, svg.table .mini:focus-visible .hit { stroke: var(--blue); stroke-width: 1.5; }
 
-/* The opening card of the lattices shelf is wide: the table on the left, the text beside it,
-   and one under the other on a narrow screen. */
-.card.lattice.intro { grid-column: 1 / -1; flex-direction: row; }
-.card.lattice.intro .shot { flex: 0 0 58%; aspect-ratio: 1000 / 640; border-bottom: 0; border-right: 2px solid var(--ink); }
-.card.lattice.intro .body { flex: 1; }
+/* The drawn views assemble when they come on: edges draw in from the origin, points and
+   spheres arrive back to front, bonds grow from the centre, the layers land one after the
+   other, the boxes of the hierarchy fall into place, the commas step along. A drawing that
+   has been turned under the pointer is redrawn as it stands, still. */
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes fade { from { opacity: 0; } }
+@keyframes pop { from { opacity: 0; transform: scale(0.2); } to { opacity: 1; transform: scale(1); } }
+@keyframes land { from { opacity: 0; transform: translateY(-14px); } to { opacity: 1; transform: none; } }
+.view.on svg.cell .side { stroke-dasharray: 700; stroke-dashoffset: 700; animation: draw 0.5s ease-out forwards; animation-delay: calc(var(--i, 0) * 45ms); }
+.view.on svg.cell .side.hidden { stroke-dasharray: 6 6; stroke-dashoffset: 0; animation: fade 0.4s both; animation-delay: calc(450ms + var(--i, 0) * 60ms); }
+.view.on svg.cell .pt, .view.on svg.cell .sphere, .view.on svg.cell .comma, .view.on svg.cell .layer { transform-box: fill-box; transform-origin: center; animation: pop 0.35s cubic-bezier(.2,.8,.2,1) both; }
+.view.on svg.cell .pt { animation-delay: calc(400ms + var(--i, 0) * 40ms); }
+.view.on svg.cell .sphere { animation-delay: calc(var(--i, 0) * 22ms); }
+.view.on svg.cell .bond { stroke-dasharray: 500; stroke-dashoffset: 500; animation: draw 0.45s ease-out forwards; animation-delay: calc(250ms + var(--i, 0) * 60ms); }
+.view.on svg.neighbours .pt { animation-delay: calc(450ms + var(--i, 0) * 60ms); }
+.view.on svg.neighbours .pt.centre { animation-delay: 0ms; }
+.view.on svg.cell .layer.a { animation-delay: calc(var(--i, 0) * 10ms); }
+.view.on svg.cell .layer.b { animation-delay: calc(700ms + var(--i, 0) * 12ms); }
+.view.on svg.cell .layer.c { animation-delay: calc(1500ms + var(--i, 0) * 12ms); }
+.view.on svg.cell .hrow { transform-box: fill-box; animation: land 0.5s ease-out both; animation-delay: calc(var(--i, 0) * 300ms); }
+.view.on svg.cell .comma { animation-delay: calc(var(--i, 0) * 110ms); }
+svg.cell.still, svg.cell.still * { animation: none !important; stroke-dashoffset: 0 !important; }
+@media (prefers-reduced-motion: reduce) { .view.on svg.cell * { animation: none !important; stroke-dashoffset: 0 !important; } }
+
+/* The two opening cards of the lattices shelf are wide: the drawing on the left, the text
+   beside it, and one under the other on a narrow screen. */
+.card.lattice.intro, .card.lattice.key { grid-column: 1 / -1; flex-direction: row; }
+.card.lattice.intro .shot, .card.lattice.key .shot { flex: 0 0 58%; border-bottom: 0; border-right: 2px solid var(--ink); }
+.card.lattice.intro .shot { aspect-ratio: 1000 / 640; }
+.card.lattice.key .shot { aspect-ratio: 36 / 20; align-self: stretch; }
+.card.lattice.intro .body, .card.lattice.key .body { flex: 1; }
 @media (max-width: 760px) {
-  .card.lattice.intro { flex-direction: column; }
-  .card.lattice.intro .shot { flex: none; border-right: 0; border-bottom: 2px solid var(--ink); }
+  .card.lattice.intro, .card.lattice.key { flex-direction: column; }
+  .card.lattice.intro .shot, .card.lattice.key .shot { flex: none; border-right: 0; border-bottom: 2px solid var(--ink); aspect-ratio: 36 / 25; }
 }
 svg.cell .side { stroke: var(--ink); stroke-width: 2.2; stroke-linecap: round; }
 svg.cell .side.hidden { stroke: var(--dim); stroke-width: 1.5; stroke-dasharray: 6 6; }
