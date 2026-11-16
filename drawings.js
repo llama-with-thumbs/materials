@@ -61,10 +61,19 @@ window.DRAWINGS = (() => {
     const E = extra.map((p, i) => S(all[corners.length + i]));
     const P = prism.map(S);
 
-    // Edges join corners that differ in one index. The three at the farthest corner are hidden.
+    // Edges join corners that differ in one index. The three hidden ones meet at the corner
+    // whose three faces all face away: for each pair of opposite faces, the one whose outward
+    // normal points along the view direction. (The deepest corner is only right for boxes.)
     const idx = (u, v, w) => u * 4 + v * 2 + w;
-    let far = 0;
-    C.forEach((p, i) => { if (p[2] > C[far][2]) far = i; });
+    const dir = [Math.sin(VIEW.th) * Math.cos(VIEW.ph), Math.cos(VIEW.th) * Math.cos(VIEW.ph), -Math.sin(VIEW.ph)];
+    const dot3 = (p, q) => p[0] * q[0] + p[1] * q[1] + p[2] * q[2];
+    const cross3 = (p, q) => [p[1] * q[2] - p[2] * q[1], p[2] * q[0] - p[0] * q[2], p[0] * q[1] - p[1] * q[0]];
+    const back = [0, 1, 2].map(i => {
+      let n = cross3(A[(i + 1) % 3], A[(i + 2) % 3]);
+      if (dot3(n, A[i]) < 0) n = n.map(x => -x);          // outward from the face at 1
+      return dot3(dir, n) > 0 ? 1 : 0;
+    });
+    const far = idx(back[0], back[1], back[2]);
     const edges = [];
     for (const u of [0, 1]) for (const v of [0, 1]) for (const w of [0, 1]) {
       const i = idx(u, v, w);
@@ -114,7 +123,7 @@ window.DRAWINGS = (() => {
   // only repeat a smaller cell of another letter.
   const SYSTEMS = [
     ["cubic", "a = b = c", "all 90°"], ["tetragonal", "a = b ≠ c", "all 90°"], ["orthorhombic", "a ≠ b ≠ c", "all 90°"],
-    ["trigonal", "a = b = c", "all equal, not 90°"], ["hexagonal", "a = b ≠ c", "90°, 90°, 120°"],
+    ["rhombohedral", "a = b = c", "all equal, not 90°"], ["hexagonal", "a = b ≠ c", "90°, 90°, 120°"],
     ["monoclinic", "a ≠ b ≠ c", "90°, β, 90°"], ["triclinic", "a ≠ b ≠ c", "none 90°"]
   ];
   const ORDER = ["primitive", "base-centred", "body-centred", "face-centred", "rhombohedral"];
@@ -132,10 +141,10 @@ window.DRAWINGS = (() => {
         const box = { x: x + 6, y: top + k * rowH, w: colW - 12, h: rowH - 18 };
         const draw = Object.assign({}, l, { prism: false });
         // Each cell is a link to its card: a group with data-goto, which app.js answers.
-        s += `<g class="mini" data-goto="${l.id}" role="link" tabindex="0"><title>${l.name}: go to its card</title>` +
+        s += `<a class="mini" href="#m-${l.id}" data-goto="${l.id}"><title>${l.name}: go to its card</title>` +
              `<rect class="hit" x="${f1(box.x)}" y="${f1(box.y)}" width="${f1(box.w)}" height="${f1(box.h + 18)}"/>` +
              cellInto(draw, box, { r: 5.5, labels: false, pad: 0.22 }) +
-             `<text class="td" x="${f1(x + colW / 2)}" y="${f1(top + (k + 1) * rowH - 8)}" text-anchor="middle">${l.symbol}</text></g>`;
+             `<text class="td" x="${f1(x + colW / 2)}" y="${f1(top + (k + 1) * rowH - 8)}" text-anchor="middle">${l.symbol}</text></a>`;
       });
     });
     s += `<text class="td" x="${TW - 12}" y="${TH - 12}" text-anchor="end">each cell is a card below: click it</text>`;
@@ -248,7 +257,7 @@ window.DRAWINGS = (() => {
     A.forEach(([x, y], k) => { s += `<circle class="layer a" style="--i:${k}" cx="${f1(x)}" cy="${f1(y)}" r="${r}"/>`; });
     B.forEach(([x, y], k) => { if (x < W - 30) s += `<circle class="layer b" style="--i:${k}" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.55}"/>`; });
     (abc ? Cc : A).forEach(([x, y], k) => { s += `<circle class="layer c" style="--i:${k}" cx="${f1(x)}" cy="${f1(y)}" r="${r * 0.32}"/>`; });
-    s += `<text class="count" x="24" y="${H - 24}">${abc
+    s += `<text class="count" x="24" y="${H - 48}">${abc
       ? "A, then B in its hollows, then C in the hollows both left: the cube"
       : "A, then B in its hollows, then back over A: the hexagonal stack"}</text>`;
     return `<svg class="cell stacking" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} stacking">${s}</svg>`;

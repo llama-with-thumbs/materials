@@ -225,7 +225,7 @@ const LATTICE_VIEWS = {
 };
 const LATTICE_NO = l => {
   const same = LATTICES.filter(x => x.kind === l.kind), n = same.indexOf(l) + 1;
-  if (l.kind === "lattice") return `lattice ${n} of ${same.length} · ${l.system}, ${l.centring}`;
+  if (l.kind === "lattice") return `lattice ${n} of ${same.length} · ${l.system}${l.centring === l.system ? "" : ", " + l.centring}`;
   if (l.kind === "structure") return `structure ${n} of ${same.length} · the metals`;
   return { intro: "the system", key: "the key", groups: "the groups" }[l.kind];
 };
@@ -497,6 +497,8 @@ grid.addEventListener("click", e => {
   shot.querySelector(".arrow.prev").hidden = i === 0;
   shot.querySelector(".arrow.next").hidden = i === n - 1;
   shot.querySelectorAll(".dot").forEach((d, k) => d.classList.toggle("on", k === i));
+  // A drawn view that was turned is put back to rest before it leaves, and forgotten.
+  if (shot.querySelector(".view.on svg.still")) { turnTo(shot, DRAWINGS.REST.th, DRAWINGS.REST.ph); turning.delete(shot); }
   // The view that is on is the one whose drawing assembles (style.css animates .view.on).
   [...track.children].forEach((v, k) => v.classList.toggle("on", k === i));
   track.style.transform = `translateX(-${i * 100}%)`;
@@ -532,7 +534,8 @@ grid.addEventListener("pointermove", e => {
 grid.addEventListener("pointerleave", e => {
   const shot = e.target.closest && e.target.closest(".card.lattice .shot");
   const st = shot && e.target === shot && turning.get(shot);
-  if (!st) return;
+  // Only a view that was actually turned swings back; one paged to after a hover is left alone.
+  if (!st || !shot.querySelector(".view.on svg.still")) return;
   // Swing back over a third of a second, eased, then stop redrawing.
   const from = { th: st.th, ph: st.ph }, t0 = performance.now();
   const step = now => {
