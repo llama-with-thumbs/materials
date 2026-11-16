@@ -274,7 +274,7 @@ svg.fig .tk, svg.fig .ax, svg.fig .lab { fill: var(--ink); font-size: 13px; poin
 svg.cell, svg.sketch { display: block; width: 100%; height: auto; }
 svg.cell .box { stroke: var(--line); stroke-width: 1.5; stroke-dasharray: 6 6; }
 svg.cell .sphere { fill: var(--panel); stroke: var(--ink); stroke-width: 1.6; }
-svg.cell .sphere.centre { fill: var(--red); stroke: var(--red); }
+svg.cell .sphere.centre { fill: var(--red); stroke: var(--ink); }   /* outlined in ink, so each red sphere reads on its own */
 svg.cell .bond { stroke: var(--ink); stroke-width: 2.5; stroke-linecap: round; }
 svg.cell .count { fill: var(--ink); font-size: 20px; }
 svg.cell .legend .key { fill: var(--dim); font-size: 15px; }
