@@ -258,6 +258,38 @@ svg.fig .pt { fill: var(--panel); stroke: var(--ink); stroke-width: 1.3; cursor:
 svg.fig .pt.hot { fill: var(--red); stroke: var(--red); }
 svg.fig .tick { stroke: var(--ink); stroke-width: 1.2; }
 svg.fig .tk, svg.fig .ax, svg.fig .lab { fill: var(--ink); font-size: 13px; pointer-events: none; }
+
+/* A lattice card draws its cell; a class card draws a sketch (drawings.js). Ink and paper,
+   and red for the one thing the card is about: the centring points, the free electrons,
+   the ties of an elastomer, the crack in a composite. */
+.card.lattice .figure, .card.klass .figure { background: var(--paper); }
+svg.cell, svg.sketch { display: block; width: 100%; height: auto; }
+svg.cell .edge { stroke: var(--ink); stroke-width: 2.2; stroke-linecap: round; }
+svg.cell .edge.hidden { stroke: var(--dim); stroke-width: 1.5; stroke-dasharray: 6 6; }
+svg.cell .prism { fill: none; stroke: var(--line); stroke-width: 1.5; }
+svg.cell .pt { fill: var(--ink); }
+svg.cell .pt.centre { fill: var(--red); }
+svg.cell .ax { fill: var(--dim); font-size: 18px; font-style: italic; }
+svg.sketch .ion { fill: var(--panel); stroke: var(--ink); stroke-width: 2; }
+svg.sketch .small { fill: var(--ink); }
+svg.sketch .free, svg.sketch .knot { fill: var(--red); }
+svg.sketch .hole { fill: none; stroke: var(--red); stroke-width: 2.5; }
+svg.sketch .bond { stroke: var(--ink); stroke-width: 2; }
+svg.sketch .node { fill: var(--ink); }
+svg.sketch .chain { fill: none; stroke: var(--ink); stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+svg.sketch .chain.one { stroke: var(--red); }
+svg.sketch .tie { stroke: var(--red); stroke-width: 3; }
+svg.sketch .matrix { fill: var(--paper); }
+svg.sketch .fibre { stroke: var(--ink); stroke-width: 9; }
+svg.sketch .crack { fill: none; stroke: var(--red); stroke-width: 3; stroke-linejoin: round; }
+svg.sketch .band { stroke: var(--ink); stroke-width: 2; }
+svg.sketch .band.filled { fill: var(--ink); }
+svg.sketch .band.empty { fill: var(--panel); }
+svg.sketch .gapline { stroke: var(--dim); stroke-width: 1.5; stroke-dasharray: 5 5; }
+svg.sketch .lab { fill: var(--ink); font-size: 16px; }
+.meta .theme.shop::before { display: none; }
+.uses .shop { background: none; border: 0; padding: 0; font: inherit; color: var(--dim); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.uses .shop:hover { color: var(--red); }
 svg.fig .lab { font-size: 14px; }
 svg.fig .ax { fill: var(--dim); }
 

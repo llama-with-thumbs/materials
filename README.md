@@ -26,7 +26,10 @@ data.js        the catalogue — 574 entries, this is the file to edit
 plates.js      the plates: diagrams that explain several cards, drawn from data or credited
 papers.js      the papers: the paper behind a material, or one that promises something
 library.js     the library: primary Bauhaus texts, each linking out to a public-domain copy
+lattices.js    the lattices: the fourteen Bravais lattices, each drawn from its six numbers
+classes.js     the classes: metal, ceramic, glass, polymer, elastomer, composite, semiconductor
 figures.js     draws a plate's figure from its data and runs the readout under the pointer
+drawings.js    draws a lattice's cell and a class's sketch, in ink, paper and one red
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
 images/        574 images, 960 px wide
@@ -308,6 +311,37 @@ Texts live in `library.js`; `tools/check.js` refuses one without a declared work
 kind, a public-domain claim with no reading link, or a card that does not exist. They are counted
 separately, like the plates and papers: *the library* in the row across the workshops shows them
 alone. The principles these texts are the source of are written out in [`PRINCIPLES.md`](PRINCIPLES.md).
+
+## The lattices
+
+The fifth kind of entry is not a material but the fourteen ways a crystal can repeat in space,
+Bravais's list of 1848, on their own shelf, *the lattices*, in the textbook order from the box
+with no symmetry to the close-packed cube. Each card draws its unit cell from six numbers in
+`lattices.js` (`drawings.js` does the projection: an orthographic view turned 35° and seen
+from 22° above, the three hidden edges dashed, the corner points in ink and the centring points
+in red, since the centring is what the card is about; the hexagonal cell is drawn inside its
+faint prism). The text says what the shape is, who lives in it and what that costs or gives:
+why the body-centred metals go brittle in the cold, why the hexagonal ones are formed hot, why
+martensite is a cube pulled out of true. Each names the materials that keep it, on the cards
+and off them, and links to the system's article and to the AFLOW prototype encyclopedia.
+`tools/check.js` insists on fourteen, three stats each, a cell with six positive numbers,
+centring points inside the cell, and cards that exist.
+
+## The classes
+
+The sixth kind of entry is the handful of words the science sorts every material into, said
+plainly: metal, ceramic, glass, polymer, elastomer, composite, semiconductor. The workshops of
+this catalogue are organised by trade; the classes are organised by bond, and each card says
+what holds the thing together, how to tell one in the hand, and how it fails, in sentences a
+reader with no chemistry can follow. Where the photograph would be, each draws a sketch of what
+its atoms are doing (`drawings.js`): ions in a sea of red electrons, two kinds of ion locked in
+a grid, a network with the order shaken out of it, tangled chains with one of them red so it
+can be followed, coiled chains tied at red knots, fibres with a crack that has to stop at each
+one, two bands and the gap between them. Each card carries buttons onto the workshops where its
+materials live and a few example cards, and links to the Wikipedia article and to a DoITPoMS
+teaching page from Cambridge. They sit on their own shelf, *the classes*, first in the row,
+because they are where a reader who wants to know why a plastic bends and a plate breaks
+should start.
 
 ## Material of the week
 

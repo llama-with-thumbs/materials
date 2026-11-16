@@ -16,11 +16,17 @@ const PAPERS = window.PAPERS || [];
 for (const p of PAPERS) { p.paper = true; p.name = p.name || p.material; }   // sorts by name
 const LIBRARY = window.LIBRARY || [];
 for (const p of LIBRARY) { p.text = true; p.name = p.name || p.title; }   // a Bauhaus primary text; sorts by title
-// Cards, plates, papers and texts render in one grid; a plate, paper or text belongs to
-// every workshop it lists. The shelf keys show one kind on its own.
-const ALL = MATERIALS.concat(PLATES, PAPERS, LIBRARY);
-const SHELF = { plates: "the plates", papers: "the papers", library: "the library" };
-const SHELF_SETS = { plates: PLATES, papers: PAPERS, library: LIBRARY };
+const LATTICES = window.LATTICES || [];
+for (const p of LATTICES) p.lattice = true;   // one of the fourteen Bravais lattices, drawn
+const CLASSES = window.CLASSES || [];
+for (const p of CLASSES) p.klass = true;      // metal, ceramic, polymer... said plainly
+// Cards, plates, papers, texts, lattices and classes render in one grid; a plate, paper or
+// text or class belongs to every workshop it lists, a lattice to none; the lattices show
+// only on their shelf. The shelf keys show one kind on its own.
+const ALL = MATERIALS.concat(PLATES, PAPERS, LIBRARY, LATTICES, CLASSES);
+const SHELF = { classes: "the classes", lattices: "the lattices", plates: "the plates", papers: "the papers", library: "the library" };
+const SHELF_SETS = { classes: CLASSES, lattices: LATTICES, plates: PLATES, papers: PAPERS, library: LIBRARY };
+const DRAWINGS = window.DRAWINGS;
 const ADDED = window.ADDED || {};
 const FIGURES = window.FIGURES;
 
@@ -50,6 +56,8 @@ const HAYSTACK = new Map(ALL.map(m => [m.id, fold([
   (m.stats || []).map(p => p.join(" ")).join(" "),
   m.paper ? ["paper", m.material, m.title, m.authors, m.journal, m.year, m.why, m.implies].join(" ") : "",
   m.text ? ["text library bauhaus", m.title, m.english, m.author, m.role, m.kind, m.year, m.what].join(" ") : "",
+  m.lattice ? ["lattice crystal bravais cell", m.symbol, m.system, m.centring, m.found].join(" ") : "",
+  m.klass ? ["class", (m.cats || []).map(c => CATS[c] || c).join(" ")].join(" ") : "",
   m.cat ? CATS[m.cat] || "" : (m.plate ? "plate " : "") + (m.cats || []).map(c => CATS[c] || c).join(" "),
   (m.tags || []).map(t => THEMES[t] || t).join(" ")
 ].join(" "))]));
@@ -59,7 +67,7 @@ const HAYSTACK = new Map(ALL.map(m => [m.id, fold([
 const inFilter = (m, key) =>
   key === "all" || m.cat === key || (m.cats || []).includes(key) || (m.tags || []).includes(key)
   || (key === "plates" && !!m.plate) || (key === "papers" && !!m.paper)
-  || (key === "library" && !!m.text);
+  || (key === "library" && !!m.text) || (key === "lattices" && !!m.lattice) || (key === "classes" && !!m.klass);
 
 /* ---------- rendering ---------- */
 
@@ -187,9 +195,59 @@ function textFor(p) {
   </article>`;
 }
 
+// A lattice: its cell drawn from six numbers, the rule for the edges and angles, three facts,
+// who lives in it. The Pearson letters stand in the corner where a plate says "plate".
+function latticeFor(l) {
+  const no = LATTICES.indexOf(l) + 1;
+  const stats = l.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
+  const links = (l.cards || []).map(id => ALL.find(m => m.id === id)).filter(Boolean)
+    .map(m => `<a href="#m-${esc(m.id)}" data-goto="${esc(m.id)}">${esc(m.name)}</a>`).join(", ");
+  const more = l.link ? `<a href="${esc(l.link)}" target="_blank" rel="noopener">read more</a>` : "";
+  const src = l.src ? `<a href="${esc(l.src[1])}" target="_blank" rel="noopener">${esc(l.src[0])}</a>` : "";
+  return `<article class="card lattice" id="m-${esc(l.id)}" data-cat="" data-id="${esc(l.id)}">
+    <div class="figure">${DRAWINGS.cell(l)}<span class="tag">${esc(l.symbol)}</span></div>
+    <div class="body">
+      <p class="no">lattice ${no} of 14 · ${esc(l.system)}, ${esc(l.centring)}</p>
+      <h2>${esc(l.name)}</h2>
+      <p class="sub">${esc(l.sub)}</p>
+      <p class="hook">${esc(l.hook)}</p>
+      <div class="stats">${stats}</div>
+      <p class="uses"><b>keeps it:</b> ${esc(l.found)}${links ? ` <b>on the cards:</b> ${links}` : ""}</p>
+      <p class="meta"><span>drawn for this page</span><span class="links">${src}${more}</span></p>
+    </div>
+  </article>`;
+}
+
+// A class: a sketch of what its atoms are doing, the plain account, three facts, and the
+// workshops where its materials live, each a button onto that filter.
+function classFor(c) {
+  const no = CLASSES.indexOf(c) + 1;
+  const stats = c.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
+  const shops = (c.cats || []).filter(k => CATS[k])
+    .map(k => `<button class="theme shop" data-cat="${esc(k)}">${esc(CATS[k])}</button>`).join(", ");
+  const links = (c.cards || []).map(id => ALL.find(m => m.id === id)).filter(Boolean)
+    .map(m => `<a href="#m-${esc(m.id)}" data-goto="${esc(m.id)}">${esc(m.name)}</a>`).join(", ");
+  const more = c.link ? `<a href="${esc(c.link)}" target="_blank" rel="noopener">read more</a>` : "";
+  const src = c.src ? `<a href="${esc(c.src[1])}" target="_blank" rel="noopener">${esc(c.src[0])}</a>` : "";
+  return `<article class="card klass" id="m-${esc(c.id)}" data-cat="" data-id="${esc(c.id)}">
+    <div class="figure">${DRAWINGS.sketch(c)}<span class="tag">class</span></div>
+    <div class="body">
+      <p class="no">class ${no} of ${CLASSES.length}</p>
+      <h2>${esc(c.name)}</h2>
+      <p class="sub">${esc(c.sub)}</p>
+      <p class="hook">${esc(c.hook)}</p>
+      <div class="stats">${stats}</div>
+      <p class="uses"><b>in the workshops:</b> ${shops}${links ? ` <b>for example:</b> ${links}` : ""}</p>
+      <p class="meta"><span>drawn for this page</span><span class="links">${src}${more}</span></p>
+    </div>
+  </article>`;
+}
+
 function cardFor(mat) {
   let html = CARD_HTML.get(mat.id);
   if (html) return html;
+  if (mat.lattice) { html = latticeFor(mat); CARD_HTML.set(mat.id, html); return html; }
+  if (mat.klass) { html = classFor(mat); CARD_HTML.set(mat.id, html); return html; }
   if (mat.plate) { html = plateFor(mat); CARD_HTML.set(mat.id, html); return html; }
   if (mat.paper) { html = paperFor(mat); CARD_HTML.set(mat.id, html); return html; }
   if (mat.text) { html = textFor(mat); CARD_HTML.set(mat.id, html); return html; }
@@ -248,7 +306,7 @@ let activeSort = "old";
 let activeQuery = "";
 
 // A reference card is a plate, a paper or a library text — something that is not a material.
-const isRef = m => m.plate || m.paper || m.text;
+const isRef = m => m.plate || m.paper || m.text || m.lattice || m.klass;
 
 function render() {
   const q = fold(activeQuery.trim());
@@ -281,8 +339,11 @@ function render() {
 
   const where = activeCat === "all" ? "" : ` · ${CATS[activeCat] || THEMES[activeCat] || SHELF[activeCat] || activeCat}`;
   const np = refs.filter(m => m.plate).length, nr = refs.filter(m => m.paper).length, nt = refs.filter(m => m.text).length;
+  const nl = refs.filter(m => m.lattice).length, nk = refs.filter(m => m.klass).length;
   const parts = [];
   if (!shelf) parts.push(`${mats.length} of ${MATERIALS.length} materials`);
+  if (nk) parts.push(`${nk} of ${CLASSES.length} classes`);
+  if (nl) parts.push(`${nl} of ${LATTICES.length} lattices`);
   if (np) parts.push(`${np} of ${PLATES.length} plate${PLATES.length === 1 ? "" : "s"}`);
   if (nr) parts.push(`${nr} of ${PAPERS.length} paper${PAPERS.length === 1 ? "" : "s"}`);
   if (nt) parts.push(`${nt} of ${LIBRARY.length} in the library`);

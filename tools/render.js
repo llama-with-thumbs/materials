@@ -44,7 +44,7 @@ global.addEventListener = () => {};
 global.location = { hash: "", pathname: "/", search: "" };
 global.history = { replaceState(_s, _t, url) { global.location.hash = String(url).startsWith("#") ? url : ""; } };
 
-for (const f of ["taxonomy.js", "credits.js", "data.js", "plates.js", "papers.js", "library.js", "added.js", "swatch.js", "figures.js", "app.js"])
+for (const f of ["taxonomy.js", "credits.js", "data.js", "plates.js", "papers.js", "library.js", "lattices.js", "classes.js", "added.js", "swatch.js", "figures.js", "drawings.js", "app.js"])
   new Function(fs.readFileSync(path.join(root, f), "utf8"))();
 
 const html = nodes.grid.innerHTML;
@@ -92,9 +92,12 @@ const click = (bar, cat) => {
 
 (async () => {
   const M = global.window.MATERIALS, P = global.window.PLATES || [], R = global.window.PAPERS || [], L = global.window.LIBRARY || [];
+  const LAT = global.window.LATTICES || [], KL = global.window.CLASSES || [];
   want("every plate renders", P.every(p => html.includes(`data-id="${p.id}"`)), P.length);
   want("every paper renders", R.every(r => html.includes(`data-id="${r.id}"`) && html.includes(`doi.org/${r.doi}`)), R.length);
   want("every library text renders", L.every(t => html.includes(`data-id="${t.id}"`)), L.length);
+  want("every lattice renders with its cell", LAT.every(l => html.includes(`data-id="${l.id}"`) && html.includes(`aria-label="the ${l.name.toLowerCase()} cell"`)), LAT.length);
+  want("every class renders with its sketch", KL.every(k => html.includes(`data-id="${k.id}"`) && html.includes(`class="sketch ${k.sketch}"`)), KL.length);
   want("a drawn plate carries its readout", P.filter(p => p.figure).every(p => html.includes(`data-fig="${p.id}"`) && html.includes('class="readout"')));
   const plain = await search("rope");
   want("search finds something for rope", plain.length > 5, plain.length);
@@ -110,7 +113,8 @@ const click = (bar, cat) => {
   const expect = key => M.filter(m => m.cat === key || (m.tags || []).includes(key)).length
     + P.filter(p => (p.cats || []).includes(key) || (p.tags || []).includes(key)).length
     + R.filter(r => (r.cats || []).includes(key)).length
-    + L.filter(t => (t.cats || []).includes(key)).length;
+    + L.filter(t => (t.cats || []).includes(key)).length
+    + KL.filter(k => (k.cats || []).includes(key)).length;   // a class sits under its workshops too
   for (const [cat] of Object.entries(global.window.CATS)) {
     const got = click(filters, cat);
     want(`filter ${cat}`, got.length === expect(cat), `${got.length} of ${expect(cat)}`);

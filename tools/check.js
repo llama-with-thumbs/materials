@@ -4,9 +4,10 @@
 const fs = require('fs'), path = require('path');
 const root = path.join(__dirname, "..");
 global.window = {};
-for (const f of ["taxonomy.js", "credits.js", "data.js", "plates.js", "papers.js", "library.js"])
+for (const f of ["taxonomy.js", "credits.js", "data.js", "plates.js", "papers.js", "library.js", "lattices.js", "classes.js"])
   new Function(fs.readFileSync(path.join(root, f), "utf8"))();
 const M = window.MATERIALS, C = window.CREDITS, P = window.PLATES || [], R = window.PAPERS || [], L = window.LIBRARY || [];
+const LAT = window.LATTICES || [], KL = window.CLASSES || [];
 const CATS = window.CATS, KINDS = window.KINDS, THEMES = window.THEMES || {};
 let bad = 0;
 const fail = msg => { console.log(msg); bad++; };
@@ -115,7 +116,37 @@ for (const t of L) {
   if ((t.what || "").length < 40) fail("library " + t.id + ": what is too short to say anything");
 }
 
-const ids = M.map(m => m.id).concat(P.map(p => p.id), R.map(r => r.id), L.map(t => t.id));
+// The lattices: Bravais's fourteen, each drawn from its cell and naming who keeps it.
+if (LAT.length && LAT.length !== 14) fail("there are fourteen Bravais lattices, not " + LAT.length);
+for (const l of LAT) {
+  for (const f of ["id", "symbol", "system", "centring", "name", "sub", "hook", "stats", "found", "cell", "link"])
+    if (l[f] == null || l[f] === "") fail("lattice " + (l.id || "?") + " is missing " + f);
+  if (!/^[a-z0-9]+$/.test(l.id || "")) fail("lattice id is not [a-z0-9]+: " + l.id);
+  if (!Array.isArray(l.stats) || l.stats.length !== 3) fail("lattice " + l.id + " needs exactly three stats");
+  for (const k of ["a", "b", "c", "alpha", "beta", "gamma"]) if (!(l.cell && l.cell[k] > 0)) fail("lattice " + l.id + " cell lacks " + k);
+  for (const p of l.extra || []) if (p.length !== 3 || p.some(v => v < 0 || v > 1)) fail("lattice " + l.id + " has a centring point outside the cell");
+  for (const id of l.cards || []) if (!M.some(m => m.id === id)) fail("lattice " + l.id + " names a card that does not exist: " + id);
+  if (!/^https:\/\/en\.wikipedia\.org\/wiki\//.test(l.link || "")) fail("lattice " + l.id + " link is not English Wikipedia");
+  for (const f of ["name", "sub", "hook", "found"]) if (/"/.test(l[f] || "")) fail("double quote in " + f + " of lattice " + l.id);
+  if ((l.hook || "").length < 200) fail("lattice " + l.id + ": hook is too short to teach anything");
+}
+const dupSym = LAT.map(l => l.symbol).filter((x, i, a) => a.indexOf(x) !== i);
+if (dupSym.length) fail("the same Pearson symbol twice in lattices.js: " + dupSym);
+
+// The classes: metal, ceramic and the rest, each with its sketch and its workshops.
+for (const k of KL) {
+  for (const f of ["id", "name", "sub", "hook", "stats", "cats", "cards", "sketch", "link"])
+    if (k[f] == null || k[f] === "") fail("class " + (k.id || "?") + " is missing " + f);
+  if (!/^[a-z0-9]+$/.test(k.id || "")) fail("class id is not [a-z0-9]+: " + k.id);
+  if (!Array.isArray(k.stats) || k.stats.length !== 3) fail("class " + k.id + " needs exactly three stats");
+  for (const c of k.cats || []) if (!CATS[c]) fail("class " + k.id + " names an undeclared workshop: " + c);
+  for (const id of k.cards || []) if (!M.some(m => m.id === id)) fail("class " + k.id + " names a card that does not exist: " + id);
+  if (!/^https:\/\/en\.wikipedia\.org\/wiki\//.test(k.link || "")) fail("class " + k.id + " link is not English Wikipedia");
+  for (const f of ["name", "sub", "hook"]) if (/"/.test(k[f] || "")) fail("double quote in " + f + " of class " + k.id);
+  if ((k.hook || "").length < 300) fail("class " + k.id + ": hook is too short to explain anything");
+}
+
+const ids = M.map(m => m.id).concat(P.map(p => p.id), R.map(r => r.id), L.map(t => t.id), LAT.map(l => l.id), KL.map(k => k.id));
 const dup = ids.filter((x, i) => ids.indexOf(x) !== i);
 if (dup.length) fail("DUPLICATE ids: " + dup);
 const extraIds = M.flatMap(m => m.extra || []);
@@ -170,7 +201,7 @@ const tagged = {};
 for (const m of M) for (const t of m.tags || []) tagged[t] = (tagged[t] || 0) + 1;
 
 console.log("still on Wikimedia Commons:", onCommons, "of", lines.length, "pictures");
-console.log("total:", M.length, "| plates:", P.length, "| papers:", R.length, "| library:", L.length, "| photos:", M.filter(m => m.img).length,
+console.log("total:", M.length, "| plates:", P.length, "| papers:", R.length, "| library:", L.length, "| lattices:", LAT.length, "| classes:", KL.length, "| photos:", M.filter(m => m.img).length,
             "| swatches:", M.filter(m => m.swatch).length,
             "| with a second source:", M.filter(m => m.src).length);
 console.log("by category:", JSON.stringify(cats));
