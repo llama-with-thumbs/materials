@@ -625,5 +625,15 @@ window.ADDED = {
   tps: "2026-11-04",
   corian: "2026-11-04",
   plastisol: "2026-11-04",
-  pufoam: "2026-11-04"
+  pufoam: "2026-11-04",
+  gallium: "2026-11-16",
+  tin: "2026-11-16",
+  wootz: "2026-11-16",
+  kanthal: "2026-11-16",
+  galvanised: "2026-11-16",
+  tinplate: "2026-11-16",
+  ductileiron: "2026-11-16",
+  tungsten: "2026-11-16",
+  zincanode: "2026-11-16",
+  indium: "2026-11-16"
 };

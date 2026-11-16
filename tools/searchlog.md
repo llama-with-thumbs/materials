@@ -403,3 +403,41 @@ and not added:
 | `Hip replacement Image 3684-PH.jpg` | an X-ray; the cement is a thin line, and an X-ray is not a photograph of anything |
 | `Moulage en stratifié polyester.jpg` | a line drawing from a staff-moulding manual |
 | `Interboot 2023, Friedrichshafen (P1120545).jpg` | a finished gelcoat hull; nothing says polyester |
+
+### Metals, second round, 2026-11-16
+
+Ten added: gallium, tin (the pest), wootz, Kanthal, galvanised steel, tinplate, ductile iron, the
+tungsten filament, the zinc anode, indium. Searched and not added:
+
+| Candidate | Queries tried | Why dropped | Retry with |
+|---|---|---|---|
+| Elinvar | `elinvar`, `hairspring watch` | Rolex product shots and one alarm-clock balance wheel whose spring is not identified; nothing says Elinvar | A hairspring with the alloy named, a museum movement |
+| Permalloy | `permalloy` | Good photos (`Permalloy strip.jpg`, Elmen at the furnace), but Mu-metal is already a card and the two would say the same thing | A tape-wound core, as a second view on `mumetal` |
+| Titanium aluminide | `titanium aluminide`, `TiAl blade` | One lamellar micrograph and no blade; held, a micrograph alone says nothing in the hand | A GEnx or LEAP low-pressure turbine blade |
+| Aluminium bronze | `aluminium bronze`, `nickel aluminium bronze`, `Nibral propeller`, `bronze propeller ship` | Propellers whose alloy is not stated, a corrosion-test board, coins | A ship propeller or a valve body with the alloy in the description |
+| Lithium metal | `lithium metal`, `lithium element`, `lithium paraffin`, `lithium sample ampoule` | Price charts and mine maps; the element photos (`Lithium (Element - 3)`) are usable but the card would duplicate `lfp` on the battery side | A fresh-cut lump under oil, for a sodium-and-lithium pair |
+| Molybdenum | `molybdenum`, `molybdenum electrode glass`, `molybdenum boat evaporation` | A good crystal-and-cube photo and one evaporation boat; nothing shows what it is for, and the card would be a list of uses | A glass-furnace electrode or a moly wire heating element |
+| Mercury | `mercury metal`, `liquid mercury` | Plenty of honest pictures; passed over because the amalgam card below is the better way in, and this round had its liquid metal in gallium | Together with dental amalgam |
+| Sodium | `sodium metal`, `sodium filled valve`, `sodium cooled valve` | `Na (Sodium).jpg` is good; held for a round with room, since the story is the reactor coolant and the exhaust valve and neither has a photo on Commons beyond a whole Wright J-5 | A cutaway sodium-filled valve |
+| Osmium | `osmium`, `osmium crystals`, `osmium sample` | Excellent crystal photos (FAL); held, because the card would be density and a smell and this round wanted working metals | Next round, as the densest thing in the catalogue |
+| Speculum metal | `speculum metal`, `speculum mirror telescope`, `Herschel mirror` | Herschel's 40-foot mirror in the Science Museum is a fine picture; held for a round with the optics | With the glass cards: the mirror before silvered glass |
+| Mokume-gane | `mokume gane`, `mokume-gane` | Mauro Cateb's sheets and forks are good and free; held, the diffusion-bonding story fits a round on joining | A joining or jewellery round |
+| Electrum | `electrum coin`, `electrum nugget` | Lydian coin photos are good; held, since the card is history more than material | A coinage round with sterling and nickel silver |
+| Type metal | `type metal`, `movable type lead`, `Linotype slug`, `Monotype caster` | Type-case photos are good; the antimony-expands story is already told on the bismuth card | A printing round |
+| Dental amalgam | `dental amalgam`, `amalgam filling`, `amalgam capsule` | `Filling.jpg` is honest; held for a round with mercury, see above | With mercury |
+| Pewter | `pewter`, `pewter tankard`, `Zinn Teller`, `pewter casting` | Good tankard and plate photos; held, the tin card carries the tin-pest point that makes pewter interesting | A tableware round with Britannia metal |
+| Shakudo | `shakudo`, `tsuba shakudo` | The tsuba is good; the only photo named shakudo shows the bar before patination, which is the wrong colour | With mokume-gane, in a jewellery round |
+
+| rejected after looking | why |
+|---|---|
+| `Gallium metal.jpg` | a lump melting in a plastic bag on a palm; the crystals and the pour say more |
+| `Tin allotropy.jpg` | a drawing of the two unit cells, not a photograph |
+| `PSM V83 D032 Organ pipes that have been attacked by tin disease.png` and the medal | 1913 halftones; too coarse at card size |
+| `Nichrome wire heating element.jpg` | a home-made heat-press frame; the wire is a few pixels. The Kanthal spool went in instead and the card became Kanthal |
+| `Resistance coil 001.jpg` | a coil in a glass tube, unidentified alloy |
+| `Wootz Steel Detail.jpg` | the watered pattern under a pink cast and soft focus; the whole sword went in as the second view, and the crucible-steel button, which is honest about being a relative, as the first |
+| `Watered pattern on sword blade1.Iran.JPG` | the best pattern photo, 806 px wide |
+| `SHAKUDO.jpg` | a copper-coloured bar with the word written on it; shakudo is black |
+| `Weissblech verpackungsstahl.jpg` | coils of tinplate, fine, but licensed as bare Attribution and the can interior said more |
+| `Cast iron tensile test.JPG` | the description itself says the brittle fracture is not representative of ductile iron |
+
