@@ -114,7 +114,7 @@ window.LATTICES = [
   stats: [["edges", "two equal, one different"], ["angles", "all right"], ["points per cell", "1"]],
   found: "Rutile and cassiterite; CuAu; lead titanate; many ferroelectric perovskites.",
   cards: ["batio3"],
-  cell: { a: 1, b: 1, c: 1.4, alpha: 90, beta: 90, gamma: 90 }, extra: [],
+  cell: { a: 1, b: 1, c: 1.3, alpha: 90, beta: 90, gamma: 90 }, extra: [],
   link: "https://en.wikipedia.org/wiki/Tetragonal_crystal_system",
   src: ["AFLOW prototype encyclopedia", "https://aflow.org/p/tetragonal_lattice.html"]
 },
@@ -126,7 +126,7 @@ window.LATTICES = [
   stats: [["edges", "two equal, one different"], ["angles", "all right"], ["points per cell", "2"]],
   found: "White tin; martensite in quenched steel; zircon; anatase; indium; the room-temperature halide perovskite.",
   cards: ["pipemetal", "hss", "perovskitepv"],
-  cell: { a: 1, b: 1, c: 1.4, alpha: 90, beta: 90, gamma: 90 }, extra: [[0.5, 0.5, 0.5]],
+  cell: { a: 1, b: 1, c: 1.3, alpha: 90, beta: 90, gamma: 90 }, extra: [[0.5, 0.5, 0.5]],
   link: "https://en.wikipedia.org/wiki/Tetragonal_crystal_system",
   src: ["AFLOW prototype encyclopedia", "https://aflow.org/p/tetragonal_lattice.html"]
 },

@@ -143,8 +143,8 @@ h1 .dot { color: var(--red); }
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0 20px;
-  padding: 2px 0;
+  gap: 8px 8px;
+  padding: 10px 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -152,19 +152,25 @@ h1 .dot { color: var(--red); }
 .themes:empty { display: none; }
 .themes-label { font-size: 13px; color: var(--dim); }
 
+/* A filter is a small boxed button, so it reads as something to press: a hairline box at
+   rest, the hand colour when the pointer is on it, and inverted, ink on paper swapped, when
+   it is the one pressed. The labels before the themes and the collections are not buttons
+   and stay bare. */
 .pill {
   background: none;
-  border: 0;
-  border-bottom: 2px solid transparent;
-  padding: 8px 0 6px;
+  border: 1px solid var(--line);
+  padding: 5px 10px;
   font-size: 14px;
-  color: var(--dim);
+  color: var(--ink);
   cursor: pointer;
   white-space: nowrap;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
 
-.pill:hover { color: var(--ink); }
-.pill[aria-pressed="true"] { color: var(--ink); border-bottom-color: var(--red); }
+.pill:hover, .pill:focus-visible { border-color: var(--blue); color: var(--blue); outline: none; }
+.pill[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.themes-label { margin-right: 4px; }
+.themes-label.shelf-label { margin-left: 16px; }
 
 /* The two themes carry Kandinsky's forms: a yellow triangle for keeping warm,
    a blue circle for inside a duvet. The only blue and yellow on the page. */
@@ -262,10 +268,17 @@ svg.fig .tk, svg.fig .ax, svg.fig .lab { fill: var(--ink); font-size: 13px; poin
 /* A lattice card draws its cell; a class card draws a sketch (drawings.js). Ink and paper,
    and red for the one thing the card is about: the centring points, the free electrons,
    the ties of an elastomer, the crack in a composite. */
-.card.lattice .figure, .card.klass .figure { background: var(--paper); }
+.card.klass .figure { background: var(--paper); }
+.card.lattice .shot { aspect-ratio: 36 / 25; background: var(--paper); }
+.card.lattice .shot svg { object-fit: contain; }
 svg.cell, svg.sketch { display: block; width: 100%; height: auto; }
-svg.cell .edge { stroke: var(--ink); stroke-width: 2.2; stroke-linecap: round; }
-svg.cell .edge.hidden { stroke: var(--dim); stroke-width: 1.5; stroke-dasharray: 6 6; }
+svg.cell .box { stroke: var(--line); stroke-width: 1.5; stroke-dasharray: 6 6; }
+svg.cell .sphere { fill: var(--panel); stroke: var(--ink); stroke-width: 1.6; }
+svg.cell .sphere.centre { fill: var(--red); stroke: var(--red); }
+svg.cell .bond { stroke: var(--ink); stroke-width: 2.5; stroke-linecap: round; }
+svg.cell .count { fill: var(--ink); font-size: 18px; }
+svg.cell .side { stroke: var(--ink); stroke-width: 2.2; stroke-linecap: round; }
+svg.cell .side.hidden { stroke: var(--dim); stroke-width: 1.5; stroke-dasharray: 6 6; }
 svg.cell .prism { fill: none; stroke: var(--line); stroke-width: 1.5; }
 svg.cell .pt { fill: var(--ink); }
 svg.cell .pt.centre { fill: var(--red); }

@@ -195,17 +195,37 @@ function textFor(p) {
   </article>`;
 }
 
-// A lattice: its cell drawn from six numbers, the rule for the edges and angles, three facts,
-// who lives in it. The Pearson letters stand in the corner where a plate says "plate".
+// The arrows, edge bands and view squares of a card with several views; nothing for one.
+function reelFor(n) {
+  return n > 1
+    ? `<button class="arrow prev" aria-label="previous view" hidden>${ARROW}</button><button class="arrow next" aria-label="next view">${ARROW}</button><i class="edge l"></i><i class="edge r"></i>
+      <span class="dots">${Array.from({ length: n }, (_, i) => `<button class="dot${i ? "" : " on"}" data-i="${i}" aria-label="view ${i + 1} of ${n}"></button>`).join("")}</span>`
+    : "";
+}
+
+// A lattice: three drawn views in the same reel a photograph gets. The cell from its six
+// numbers; two cells each way with a sphere on every point, so the packing shows; one
+// point and its nearest neighbours. Then the rule for the edges and angles, three facts,
+// who lives in it. The Pearson letters stand where the workshop is stamped on a photograph.
+const LATTICE_VIEWS = [
+  ["cell", "the unit cell: points at the corners, centring points in red"],
+  ["packing", "two cells each way, a sphere on every point, each touching its nearest neighbours; centring points red"],
+  ["neighbours", "one point, red, and every point at the nearest distance from it"]
+];
 function latticeFor(l) {
   const no = LATTICES.indexOf(l) + 1;
+  const views = LATTICE_VIEWS.map(([k, t]) => `<figure class="view" title="${esc(t)}">${DRAWINGS[k](l)}</figure>`).join("");
   const stats = l.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
   const links = (l.cards || []).map(id => ALL.find(m => m.id === id)).filter(Boolean)
     .map(m => `<a href="#m-${esc(m.id)}" data-goto="${esc(m.id)}">${esc(m.name)}</a>`).join(", ");
   const more = l.link ? `<a href="${esc(l.link)}" target="_blank" rel="noopener">read more</a>` : "";
   const src = l.src ? `<a href="${esc(l.src[1])}" target="_blank" rel="noopener">${esc(l.src[0])}</a>` : "";
   return `<article class="card lattice" id="m-${esc(l.id)}" data-cat="" data-id="${esc(l.id)}">
-    <div class="figure">${DRAWINGS.cell(l)}<span class="tag">${esc(l.symbol)}</span></div>
+    <div class="shot reel">
+      <div class="track">${views}</div>
+      <span class="tag" title="${esc(LATTICE_VIEWS[0][1])}">${esc(l.symbol)}</span>
+      ${reelFor(LATTICE_VIEWS.length)}
+    </div>
     <div class="body">
       <p class="no">lattice ${no} of 14 · ${esc(l.system)}, ${esc(l.centring)}</p>
       <h2>${esc(l.name)}</h2>
@@ -266,10 +286,7 @@ function cardFor(mat) {
   const shot = views.length
     ? `<div class="track">${views.map(id => `<figure class="view" title="${esc(creditOf(id))}">${imgFrom(id)}${kindTag(id)}</figure>`).join("")}</div>`
     : makeSwatch(mat);
-  const reel = views.length > 1
-    ? `<button class="arrow prev" aria-label="previous view" hidden>${ARROW}</button><button class="arrow next" aria-label="next view">${ARROW}</button><i class="edge l"></i><i class="edge r"></i>
-      <span class="dots">${views.map((_, i) => `<button class="dot${i ? "" : " on"}" data-i="${i}" aria-label="view ${i + 1} of ${views.length}"></button>`).join("")}</span>`
-    : "";
+  const reel = reelFor(views.length);
   // The long text unrolls over the grid from the card's foot, so the row never reflows.
   const more = mat.more ? `<button class="unroll" aria-expanded="false">read more</button>` : "";
   const panel = mat.more ? `<div class="more"><div><p>${esc(mat.more)}</p></div></div>` : "";

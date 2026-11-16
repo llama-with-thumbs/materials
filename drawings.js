@@ -68,8 +68,8 @@ window.DRAWINGS = (() => {
       if (!w) edges.push([i, idx(u, v, 1)]);
     }
     const line = ([i, j], cls) => `<line class="${cls}" x1="${f1(C[i][0])}" y1="${f1(C[i][1])}" x2="${f1(C[j][0])}" y2="${f1(C[j][1])}"/>`;
-    const hidden = edges.filter(e => e.includes(far)).map(e => line(e, "edge hidden")).join("");
-    const shown = edges.filter(e => !e.includes(far)).map(e => line(e, "edge")).join("");
+    const hidden = edges.filter(e => e.includes(far)).map(e => line(e, "side hidden")).join("");
+    const shown = edges.filter(e => !e.includes(far)).map(e => line(e, "side")).join("");
 
     let prismSvg = "";
     if (P.length) {
@@ -94,6 +94,89 @@ window.DRAWINGS = (() => {
 
     return `<svg class="cell" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} cell">
       ${prismSvg}${hidden}${shown}${labels}${points}</svg>`;
+  }
+
+  // Every lattice point of a block of n cells each way, in fractional coordinates, each
+  // marked as a corner or a centring point. Shared points are counted once.
+  function block(l, n) {
+    const seen = new Map();
+    const base = [[0, 0, 0]].map(p => [p, false]).concat((l.extra || []).map(p => [p, true]));
+    for (let i = 0; i <= n; i++) for (let j = 0; j <= n; j++) for (let k = 0; k <= n; k++)
+      for (const [[u, v, w], c] of base) {
+        const p = [i + u, j + v, k + w];
+        if (p.some(x => x > n + 1e-9)) continue;
+        const key = p.map(x => x.toFixed(3)).join(",");
+        if (!seen.has(key)) seen.set(key, [p, c]);
+      }
+    return [...seen.values()];
+  }
+
+  // The nearest-neighbour distance and the neighbours of the origin, searched two cells out.
+  function nearest(l) {
+    const A = axes(l.cell);
+    const base = [[0, 0, 0]].concat(l.extra || []);
+    const found = [], seen = new Set();
+    for (let i = -2; i <= 2; i++) for (let j = -2; j <= 2; j++) for (let k = -2; k <= 2; k++)
+      for (const [u, v, w] of base) {
+        // The same point can be reached from two cells (a face centre is on two faces).
+        const key = [i + u, j + v, k + w].map(x => x.toFixed(3)).join(",");
+        if (seen.has(key)) continue;
+        seen.add(key);
+        const p = frac(A, [i + u, j + v, k + w]);
+        const d = Math.hypot(...p);
+        if (d > 1e-6) found.push([d, p]);
+      }
+    const d = Math.min(...found.map(f => f[0]));
+    return { d, pts: found.filter(f => f[0] < d * 1.02).map(f => f[1]) };
+  }
+
+  // Fit projected points, each with a radius in model units, into the box.
+  function fit(pts, r) {
+    const xs = pts.map(p => p[0]), ys = pts.map(p => p[1]);
+    const x0 = Math.min(...xs) - r, x1 = Math.max(...xs) + r, y0 = Math.min(...ys) - r, y1 = Math.max(...ys) + r;
+    const s = Math.min((W - 40) / (x1 - x0), (H - 40) / (y1 - y0));
+    const ox = (W - s * (x1 - x0)) / 2 - s * x0, oy = (H - s * (y1 - y0)) / 2 - s * y0;
+    return { s, S: p => [ox + s * p[0], oy + s * p[1], p[2]] };
+  }
+
+  // Two cells each way with a sphere on every point, each touching its nearest neighbours,
+  // drawn back to front so the near ones cover the far ones. The centring points stay red,
+  // so it shows where they nestle between the corner ones.
+  function packing(l) {
+    const A = axes(l.cell), n = 2;
+    const { d } = nearest(l);
+    const pts = block(l, n).map(([p, c]) => [view(frac(A, p)), c]);
+    const { s, S } = fit(pts.map(p => p[0]), d / 2);
+    const r = s * d / 2;
+    // The outline of the block, faint, so the eye has the box the spheres fill.
+    const box = [];
+    for (const u of [0, 1]) for (const v of [0, 1]) for (const w of [0, 1]) box.push(S(view(frac(A, [u * n, v * n, w * n]))));
+    const idx = (u, v, w) => u * 4 + v * 2 + w;
+    let edges = "";
+    for (const u of [0, 1]) for (const v of [0, 1]) for (const w of [0, 1]) {
+      const p = box[idx(u, v, w)];
+      for (const q of [!u && box[idx(1, v, w)], !v && box[idx(u, 1, w)], !w && box[idx(u, v, 1)]]) if (q)
+        edges += `<line class="box" x1="${f1(p[0])}" y1="${f1(p[1])}" x2="${f1(q[0])}" y2="${f1(q[1])}"/>`;
+    }
+    const spheres = pts.map(([p, c]) => [S(p), c]).sort((x, y) => y[0][2] - x[0][2])
+      .map(([p, c]) => `<circle class="sphere${c ? " centre" : ""}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${f1(r)}"/>`).join("");
+    return `<svg class="cell packing" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} packing">${edges}${spheres}</svg>`;
+  }
+
+  // One point, red, and every point at the nearest distance from it, joined to it, with the
+  // count written in the corner. For a metal with one atom on each point this is its
+  // coordination; a two-atom basis adds neighbours the lattice alone does not show.
+  function neighbours(l) {
+    const { pts } = nearest(l);
+    const all = [[0, 0, 0]].concat(pts).map(view);
+    const { S } = fit(all, 0.18);
+    const c = S(all[0]);
+    const N = all.slice(1).map(S);
+    const bonds = N.map(p => `<line class="bond" x1="${f1(c[0])}" y1="${f1(c[1])}" x2="${f1(p[0])}" y2="${f1(p[1])}"/>`).join("");
+    const dots = N.map(p => [p, "pt"]).concat([[c, "pt centre"]]).sort((x, y) => y[0][2] - x[0][2])
+      .map(([p, cls]) => `<circle class="${cls}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${cls.includes("centre") ? 12 : 10}"/>`).join("");
+    const label = `<text class="count" x="24" y="${H - 24}">${N.length} nearest neighbours</text>`;
+    return `<svg class="cell neighbours" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} neighbours">${bonds}${dots}${label}</svg>`;
   }
 
   /* ---------- sketches for the classes ---------- */
@@ -205,5 +288,5 @@ window.DRAWINGS = (() => {
     return `<svg class="sketch ${c.sketch}" viewBox="0 0 ${W} ${H}" role="img" aria-label="a sketch of a ${c.name.toLowerCase()}">${body}</svg>`;
   }
 
-  return { cell, sketch };
+  return { cell, packing, neighbours, sketch };
 })();

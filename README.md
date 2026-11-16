@@ -84,6 +84,9 @@ The rules, so the next change has something to be consistent with:
   Kraus poster: it is what the pointer brings out, on the carousel arrows, the band along the
   edge the next picture comes in from, and the read-more button. Yellow appears in exactly one
   place, the triangle on the warmth theme; blue also draws the duvet circle.
+- A filter is a small boxed button: a hairline box at rest, blue under the pointer, and
+  inverted, ink and paper swapped, when it is the one pressed. The labels before the themes
+  and the collections are bare, because they are not buttons.
 - The carousel arrow follows Klee's chapter on the arrow in the Pedagogical Sketchbook. At rest
   only the point shows. Near the pointer the shaft slides in behind it, the fletching follows and
   a blue charge runs from tail to point; the two fins steer a little toward the pointer's height.
@@ -324,11 +327,14 @@ alone. The principles these texts are the source of are written out in [`PRINCIP
 
 The fifth kind of entry is not a material but the fourteen ways a crystal can repeat in space,
 Bravais's list of 1848, on their own shelf, *the lattices*, in the textbook order from the box
-with no symmetry to the close-packed cube. Each card draws its unit cell from six numbers in
-`lattices.js` (`drawings.js` does the projection: an orthographic view turned 35° and seen
-from 22° above, the three hidden edges dashed, the corner points in ink and the centring points
-in red, since the centring is what the card is about; the hexagonal cell is drawn inside its
-faint prism). The text says what the shape is, who lives in it and what that costs or gives:
+with no symmetry to the close-packed cube. Each card carries three drawn views in the same
+reel a photograph gets, all from six numbers in `lattices.js` (`drawings.js` does the
+projection: an orthographic view turned 35° and seen from 22° above). First the unit cell,
+the three hidden edges dashed, the corner points in ink and the centring points in red, since
+the centring is what the card is about, the hexagonal cell inside its faint prism. Then the
+packing: two cells each way with a sphere on every point, each touching its nearest
+neighbours and drawn back to front, which is where the close-packed cube earns its name.
+Then one point and every point at the nearest distance from it, counted. The text says what the shape is, who lives in it and what that costs or gives:
 why the body-centred metals go brittle in the cold, why the hexagonal ones are formed hot, why
 martensite is a cube pulled out of true. Each names the materials that keep it, on the cards
 and off them, and links to the system's article and to the AFLOW prototype encyclopedia.
