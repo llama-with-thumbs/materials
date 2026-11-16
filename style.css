@@ -282,7 +282,7 @@ svg.cell .side.hidden { stroke: var(--dim); stroke-width: 1.5; stroke-dasharray:
 svg.cell .prism { fill: none; stroke: var(--line); stroke-width: 1.5; }
 svg.cell .pt { fill: var(--ink); }
 svg.cell .pt.centre { fill: var(--red); }
-svg.cell .ax { fill: var(--dim); font-size: 18px; font-style: italic; }
+svg.cell .ax { fill: var(--dim); font-size: 18px; }
 svg.sketch .ion { fill: var(--panel); stroke: var(--ink); stroke-width: 2; }
 svg.sketch .small { fill: var(--ink); }
 svg.sketch .free, svg.sketch .knot { fill: var(--red); }
