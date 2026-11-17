@@ -99,6 +99,14 @@ const click = (bar, cat) => {
   want("every lattice card renders", LAT.every(l => html.includes(`data-id="${l.id}"`)), LAT.length);
   want("every Bravais lattice draws its cell", LAT.filter(l => l.kind === "lattice").every(l => html.includes(`aria-label="the ${l.name.toLowerCase()} cell"`)));
   want("the table and the commas draw", html.includes('class="cell table"') && html.includes('class="cell glide"'));
+  const packed = LAT.filter(l => l.kind === "lattice" || l.kind === "structure");
+  want("every packing view carries its centre marks and ties, and the card its two switches", packed.every(l => {
+    const card = html.slice(html.indexOf(`data-id="${l.id}"`));
+    const art = card.slice(0, card.indexOf("</article>"));
+    return (art.match(/<g class="mids"><circle/g) || []).length >= 1 && (art.match(/<g class="ties"><line/g) || []).length >= 1
+      && art.includes('data-opt="mids"') && art.includes('data-opt="ties"')
+      && (l.kind !== "lattice" || (art.includes('<g class="balls"><circle') && art.includes('data-opt="balls"')));
+  }), packed.length);
   want("every class renders with its sketch", KL.every(k => html.includes(`data-id="${k.id}"`) && html.includes(`class="sketch ${k.sketch}"`)), KL.length);
   want("a drawn plate carries its readout", P.filter(p => p.figure).every(p => html.includes(`data-fig="${p.id}"`) && html.includes('class="readout"')));
   const plain = await search("rope");

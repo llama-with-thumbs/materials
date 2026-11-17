@@ -340,6 +340,9 @@ the centring is what the card is about, the hexagonal cell inside its faint pris
 packing: two cells each way with a sphere on every point, each touching its nearest
 neighbours and drawn back to front, which is where the close-packed cube earns its name, with
 one unit cell, the one nearest the viewer, outlined over the spheres so the eye can find it.
+Switches at the top of a drawn view add what it leaves out: on the unit cell a sphere on every
+point at about a third of the touching size; on a packing a mark at the centre of every sphere, and a tie from
+each centre to the ones it touches, with the spheres faded so the frame they sit on reads through.
 Every drawn view carries a line of signs along its foot saying what its points, spheres and
 edges stand for.
 Then one point and every point at the nearest distance from it, counted. After the fourteen

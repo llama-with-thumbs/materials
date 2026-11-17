@@ -211,8 +211,8 @@ const LATTICE_VIEWS = {
   intro: [["table", "the seven systems and the fourteen lattices, centring points in red; each cell is a card below, click it"]],
   key: [["centrings", "the five centrings: P, C, I, F on a cube, R a rhombohedron; turns under the pointer"]],
   lattice: [
-    ["cell", "the unit cell: points at the corners, centring points in red; turns under the pointer"],
-    ["packing", "two cells each way, a sphere on every point, each touching its nearest neighbours; centring points red; one unit cell outlined; turns under the pointer"],
+    ["cell", "the unit cell: points at the corners, centring points in red; the switch draws a sphere on every point, small; turns under the pointer"],
+    ["packing", "two cells each way, a sphere on every point, each touching its nearest neighbours; centring points red; one unit cell outlined; the switches mark the centres and tie the ones that touch; turns under the pointer"],
     ["neighbours", "one point, red, and every point at the nearest distance from it; turns under the pointer"]
   ],
   structure: [
@@ -223,6 +223,16 @@ const LATTICE_VIEWS = {
   ],
   groups: [["hierarchy", "how the 230 come about"], ["glide", "a glide plane and a screw axis, in commas"]]
 };
+// The switches on the drawn views, each shown with the view it belongs to: on the unit cell a
+// small sphere on every point; on a packing a mark at the centre of every sphere, and a tie from
+// each centre to the ones it touches. They set .balls, .mids and .ties on the shot; style.css
+// shows the overlays the drawings already hold.
+const OPT = (view, opt, title, glyph, word) =>
+  `<button class="opt ${view}" data-opt="${opt}" aria-pressed="false" title="${title}"><svg viewBox="0 0 14 10" aria-hidden="true">${glyph}</svg>${word}</button>`;
+const OPTS = views => `<span class="opts">` +
+  (views.some(([k]) => k === "cell") ? OPT("unit", "balls", "draw a sphere on every point, small", '<circle cx="7" cy="5" r="4.5" fill="none" stroke="currentColor" stroke-width="1.4"/>', "spheres") : "") +
+  (views.some(([k]) => k === "packing") ? OPT("packing", "mids", "mark the centre of every sphere", '<circle cx="7" cy="5" r="3"/>', "centres") +
+    OPT("packing", "ties", "join each centre to the centres it touches", '<line x1="1" y1="8" x2="13" y2="2"/>', "ties") : "") + `</span>`;
 const LATTICE_NO = l => {
   const same = LATTICES.filter(x => x.kind === l.kind), n = same.indexOf(l) + 1;
   if (l.kind === "lattice") return `lattice ${n} of ${same.length} · ${l.system}${l.centring === l.system ? "" : ", " + l.centring}`;
@@ -242,7 +252,7 @@ function latticeFor(l) {
     <div class="shot${views.length > 1 ? " reel" : ""}">
       <div class="track">${views.join("")}</div>
       <span class="tag" title="${esc(LATTICE_VIEWS[kind][0][1])}">${esc(l.symbol)}</span>
-      ${reelFor(views.length)}
+      ${reelFor(views.length)}${OPTS(LATTICE_VIEWS[kind])}
     </div>
     <div class="body">
       <p class="no">${esc(LATTICE_NO(l))}</p>
@@ -485,6 +495,13 @@ grid.addEventListener("click", e => {
 // jump to a view. The track does not wrap: on the first view only the right arrow shows, on
 // the last only the left.
 grid.addEventListener("click", e => {
+  const o = e.target.closest(".shot .opt");
+  if (o) {
+    const on = o.getAttribute("aria-pressed") !== "true";
+    o.setAttribute("aria-pressed", on);
+    o.closest(".shot").classList.toggle(o.dataset.opt, on);
+    return;
+  }
   const a = e.target.closest(".arrow, .dot");
   if (!a) return;
   const shot = a.closest(".shot");
@@ -522,7 +539,7 @@ function turnTo(shot, th, ph) {
 }
 grid.addEventListener("pointermove", e => {
   const shot = e.target.closest(".card.lattice .shot");
-  if (!shot || e.target.closest(".arrow, .dot") || e.pointerType === "touch") return;
+  if (!shot || e.target.closest(".arrow, .dot, .opts") || e.pointerType === "touch") return;
   const r = shot.getBoundingClientRect();
   const st = turning.get(shot) || {};
   if (st.back) { cancelAnimationFrame(st.back); st.back = 0; }

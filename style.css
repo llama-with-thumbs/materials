@@ -276,6 +276,25 @@ svg.cell .box { stroke: var(--line); stroke-width: 1.5; stroke-dasharray: 6 6; }
 svg.cell .sphere { fill: var(--panel); stroke: var(--ink); stroke-width: 1.6; }
 svg.cell .sphere.centre { fill: var(--red); stroke: var(--ink); }   /* outlined in ink, so each red sphere reads on its own */
 svg.cell .bond { stroke: var(--ink); stroke-width: 2.5; stroke-linecap: round; }
+/* The two overlays a packing view can switch on: centre marks, and ties between touching spheres. */
+svg.cell .mids, svg.cell .ties, svg.cell .balls { opacity: 0; transition: opacity 0.25s; pointer-events: none; }
+.shot.mids svg.cell .mids, .shot.ties svg.cell .ties, .shot.balls svg.cell .balls { opacity: 1; }
+svg.cell .ball { fill: var(--panel); stroke: var(--ink); stroke-width: 1.4; }
+svg.cell .ball.centre { fill: var(--red); }
+svg.cell .mid { fill: var(--ink); }
+svg.cell .mid.centre { fill: var(--red); stroke: var(--ink); stroke-width: 1; }
+svg.cell .tie { stroke: var(--ink); stroke-width: 1.4; stroke-linecap: round; }
+.shot.ties svg.cell .sphere { fill-opacity: 0.08; stroke-opacity: 0.3; transition: fill-opacity 0.25s, stroke-opacity 0.25s; }   /* ghosts, so the frame reads */
+.shot .opts { position: absolute; right: 64px; top: 8px; display: flex; gap: 4px; z-index: 3; }
+.shot .opt { display: none; }   /* each switch shows with the view it belongs to */
+.shot:has(.view.on svg.packing) .opt.packing, .shot:has(.view.on svg.unit) .opt.unit { display: inline-flex; }
+.shot .opt { align-items: center; align-items: center; gap: 5px; padding: 2px 8px; font: inherit; font-size: 12px; line-height: 1.5; color: var(--ink); background: var(--paper); border: 1px solid var(--line); cursor: pointer; transition: border-color 0.2s, background 0.2s, color 0.2s; }
+.shot .opt svg { width: 14px; height: 10px; display: block; }
+.shot .opt circle { fill: currentColor; }
+.shot .opt line { stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+.shot .opt:hover, .shot .opt:focus-visible { border-color: var(--blue); color: var(--blue); outline: none; }
+.shot .opt[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+@media (prefers-reduced-motion: reduce) { svg.cell .mids, svg.cell .ties, .shot.ties svg.cell .sphere, .shot .opt { transition: none; } }
 svg.cell .count { fill: var(--ink); font-size: 20px; }
 svg.cell .legend .key { fill: var(--dim); font-size: 15px; }
 svg.cell .side.one { stroke-width: 2.6; }
@@ -480,6 +499,7 @@ main { padding: 20px 0 64px; }
 .shot .dots { position: absolute; left: 0; right: 0; bottom: 8px; display: flex; justify-content: center; gap: 5px; z-index: 1; pointer-events: none; }
 .shot .dot { width: 8px; height: 8px; padding: 0; border: 1px solid #111; background: #f5f2eb; cursor: pointer; pointer-events: auto; transition: background 0.2s, border-color 0.2s; }
 .shot .dot.on { background: #111; border-color: #f5f2eb; }
+.card.lattice .shot .dots { top: 8px; bottom: auto; left: 70px; right: auto; justify-content: flex-start; }   /* beside the symbol; the foot of a drawn view holds its signs */
 .shot .dot:hover, .shot .dot:focus-visible { background: var(--blue); border-color: #f5f2eb; outline: none; }
 
 /* The workshop, stamped on the picture. Fixed colours: it sits on a photograph. */

@@ -143,15 +143,23 @@ window.DRAWINGS = (() => {
     const points = C.map(p => [p, "pt"]).sort((x, y) => y[0][2] - x[0][2])
       .concat(E.map(p => [p, "pt centre"]).sort((x, y) => y[0][2] - x[0][2]))
       .map(([p, cls], k) => dot(p, cls, k)).join("");
+    // opt.balls adds a sphere on every point at about a third of the touching size, back to front, hidden
+    // by style.css until the shot carries .balls: the atoms seen, without swallowing the cell.
+    let balls = "";
+    if (opt.balls) {
+      const rb = s * nearest(l).d * 0.18;   // a bit over a third of the touching size
+      balls = `<g class="balls">` + C.map(p => [p, "ball"]).concat(E.map(p => [p, "ball centre"])).sort((x, y) => y[0][2] - x[0][2])
+        .map(([p, cls]) => `<circle class="${cls}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${f1(rb)}"/>`).join("") + `</g>`;
+    }
 
-    return `${prismSvg}${sides}${labels}${points}`;
+    return `${prismSvg}${sides}${labels}${balls}${points}`;
   }
 
   function cell(l) {
     const key = legend([["pt", pointWord(l)]].concat(l.extra && l.extra.length ? [["centre", centreWord(l)]] : [])
       .concat([["line", "edge of the cell"], ["dash", "edge behind"]]));
-    return `<svg class="cell" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} cell">
-      ${cellInto(l, { x: 0, y: 0, w: W, h: H - 30 })}${key}</svg>`;
+    return `<svg class="cell unit" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} cell">
+      ${cellInto(l, { x: 0, y: 0, w: W, h: H - 30 }, { balls: true })}${key}</svg>`;
   }
 
   // The fourteen as MIT draws them, turned on its side so the card can be wide: each system
@@ -275,6 +283,24 @@ window.DRAWINGS = (() => {
     }
     const spheres = pts.map(([p, c]) => [S(p), c]).sort((x, y) => y[0][2] - x[0][2])
       .map(([p, c], k) => `<circle class="sphere${c ? " centre" : ""}" style="--i:${k}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${f1(r)}"/>`).join("");
+    // Two overlays the card can switch on: a mark at the centre of every sphere, and a tie
+    // from each centre to the ones it touches, so the frame the spheres sit on can be read.
+    // Both stay in the drawing, hidden by style.css until the shot carries .mids or .ties.
+    const placed = pts.map(([p, c]) => [S(p), c]);
+    const mids = placed.slice().sort((x, y) => y[0][2] - x[0][2])
+      .map(([p, c]) => `<circle class="mid${c ? " centre" : ""}" cx="${f1(p[0])}" cy="${f1(p[1])}" r="${f1(Math.max(3.5, r * 0.16))}"/>`).join("");
+    // Distances are measured before scaling, where all three axes agree. A tie fades with
+    // depth, so the near frame reads first and the far one stays behind it.
+    const zs = pts.map(([p]) => p[2]), z0 = Math.min(...zs), z1 = Math.max(...zs) || 1;
+    const pairs = [];
+    for (let i = 0; i < pts.length; i++) for (let j = i + 1; j < pts.length; j++) {
+      const p = pts[i][0], q = pts[j][0];
+      if (Math.hypot(p[0] - q[0], p[1] - q[1], p[2] - q[2]) <= d * 1.02) pairs.push([i, j, (p[2] + q[2]) / 2]);
+    }
+    const ties = pairs.sort((x, y) => y[2] - x[2]).map(([i, j, z]) => {
+      const P = placed[i][0], Q = placed[j][0], near = 1 - (z - z0) / (z1 - z0);
+      return `<line class="tie" opacity="${(0.25 + 0.75 * near).toFixed(2)}" x1="${f1(P[0])}" y1="${f1(P[1])}" x2="${f1(Q[0])}" y2="${f1(Q[1])}"/>`;
+    }).join("");
     // One unit cell outlined over the spheres, the one nearest the viewer, so the eye can find
     // the cell inside the block. Its edges come after the spheres when the view assembles.
     let one = "";
@@ -287,7 +313,7 @@ window.DRAWINGS = (() => {
     const key = n === 1
       ? legend([["sphere", pointWord(l)], ["red", centreWord(l)], ["box", "the cell"]].filter(([g]) => g !== "red" || (l.extra || []).length))
       : legend([["sphere", l.kind === "structure" ? "an atom" : "a lattice point"], ["red", centreWord(l)], ["one", "one unit cell"], ["box", "the block"]].filter(([g]) => g !== "red" || (l.extra || []).length));
-    return `<svg class="cell packing" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} ${n === 1 ? "cell of spheres" : "packing"}">${edges}${spheres}${one}${key}</svg>`;
+    return `<svg class="cell packing" viewBox="0 0 ${W} ${H}" role="img" aria-label="the ${l.name.toLowerCase()} ${n === 1 ? "cell of spheres" : "packing"}">${edges}${spheres}<g class="ties">${ties}</g><g class="mids">${mids}</g>${one}${key}</svg>`;
   }
   const hardcell = l => packing(l, 1);
 
