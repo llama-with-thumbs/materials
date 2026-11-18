@@ -611,6 +611,7 @@ feelerstock|commons|Parallel feeler gauge (imperial and metric)-92397.jpg|A feel
 greenhousefilm|commons|Interior view of strawberry high tunnel greenhouse with garlic intercropping in Umm Haratayn al-Gharbiyah, Syria.jpg|Inside a polyethylene high tunnel of strawberries, Homs countryside, Syria|photo
 aerogel2|commons|Brick of aerogel.jpg|A slab of silica aerogel supporting a brick — the JPL demonstration of how much it holds for its own slight weight|photo
 nitinol2|commons|Nitinol draht.jpg|Nitinol in its raw form as drawn wire, before it is shaped and trained to remember|photo
+nitinol3|commons|Nitinol bueroklammer verbogen.jpg|The paperclip demonstration: a nitinol clip bent cold, before hot water straightens it again|process
 nacre2|commons|AbaloneInside.jpg|The iridescent inside of an abalone shell — nacre itself, the layered material the inlay is cut from|photo
 cork2|commons|Cork oak forest with harvested bark.jpg|Cork oaks after the harvest — the outer bark is stripped and grows back over about nine years|process
 galalith|commons|Haarkam van galalith met half ronde rug met een ajour gesneden draak in het midden, BK-1977-231.jpg|A galalith hair comb carved with a dragon, in imitation of ivory|product
@@ -619,7 +620,11 @@ celluloid|commons|Old celluloid film rolls (5201105455).jpg|Rolls of old cellulo
 celluloid2|commons|Celluloid dresser vanity set-01.jpg|A dresser set in imitation-ivory celluloid, the job it took from the elephant|product
 celluloid3|commons|40mm table tennis ball Celluloid.jpg|A 40 mm celluloid table tennis ball, the rule until 2014, when the fire risk in shipping ended it|product
 melamine|commons|Melamine dinnerware.JPG|Melamine tableware, the pattern printed under a clear resin layer|product
+melamine2|commons|Decorative laminate 07827.jpg|High-pressure laminate samples: a printed decor paper under a melamine skin on a phenolic core|product
+melamine3|commons|Picnic set (AM 1999.41.1-1).jpg|A speckled Duperite picnic set in moulded melamine, the unbreakable tableware of the 1950s|product
 urearesin|commons|Beetleware jelly moulds.JPG|Mottled Beetleware jelly moulds in urea-formaldehyde|product
+urearesin2|commons|Vintage General Electric Table Radio (Beetle Plastic), Model CL-500, AM Band Only, Made In Canada, 5 Tubes, Measures 9.25 x 6 x 5.25 Inches, Circa 1940 (19203993066).jpg|A 1940 General Electric radio in marbled Beetle urea-formaldehyde, the pale cabinet Bakelite could not be|product
+urearesin3|commons|Urea-formaldehyde insulation.jpg|Urea-formaldehyde foam found in a wall during a renovation: banned in the 1980s for the formaldehyde it gave off|photo
 pcl|commons|PCL beads.jpg|Polycaprolactone beads about 3.5 mm across, which soften in hot water|photo
 psu|commons|Polysulfone food pans.jpg|Amber polysulfone food pans, the colour natural to the resin|product
 pvaglue|commons|Wood glue (6612809401).jpg|A bottle of wood glue, the yellow aliphatic kind|product

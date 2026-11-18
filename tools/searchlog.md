@@ -698,3 +698,28 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Photograph of Fire Test of Nitrate Film - DPLA` | a black-and-white yard of burning cans, unreadable small |
 | `Bébé celluloïd.jpg` | a doll in a dress, the material invisible |
 | `Celluloid Picks.jpg` | a handful of picks, fine but the vanity set and the ball say more |
+
+
+## Restyle batch, 18 November 2026: melamine, urearesin, pcl, psu, nitinol
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Melamine, a whiteboard or a worktop edge | `whiteboard melamine`, `laminate worktop sample`, `high pressure laminate`, `melamine foam board` | nothing; the Formica store series is speckle close-ups | a cut worktop edge showing the brown core under the skin |
+| Urea-formaldehyde, Bandalasta or a chipboard press | `Beetleware`, `Bandalasta`, `urea formaldehyde`, `Bakelite picnic set`, `plywood glue urea formaldehyde`, `MDF particleboard glue`, `urea formaldehyde foam` | the English queries return nothing; `Harnstoffharz` found the radio and the wall foam | a Bandalasta set photographed in colour, or a chipboard line |
+| PCL, a Polymorph repair or a splint | `Polymorph plastic`, `hand mouldable plastic`, `InstaMorph`, `Plastimake`, `thermoplastic splint`, `PCL scaffold`, `PCL filament` | only the bead macros already on the card and a 700 px electrospinning micrograph | a hand-moulded part or a splint named as PCL |
+| Polysulfone, a dialyser or a membrane | `Udel`, `hollow fiber membrane dialyzer`, `dialyzer`, `polysulfone membrane`, `hemodialysis filter`, `autoclave tray`, `baby bottle polysulfone` | the 1980 dialysis filter is probably cellulose; the membrane images are 860 px micrographs; `Udel` returns Delaware | a modern dialyser labelled polysulfone |
+| Nitinol, a stent or an archwire named as such | `nitinol stent`, `self-expanding stent`, `orthodontic archwire`, `nitinol spring`, `nitinol actuator`, `Nitinol glasses` | the stents are cobalt-chrome or unspecified, the archwire photo is 840 px, the bridge rebar is an iron-based memory steel | a self-expanding stent or a Flexon frame named as nitinol |
+
+| rejected after looking | why |
+|---|---|
+| `Filtro per emodialisi.JPG` | a 1980 dialyser in a cabinet; the fibre is more likely cuprophan than polysulfone |
+| `Stent4 (fcm).jpg` | two stents on a ruler, alloy unstated |
+| `PCL beads in tub.jpg` | a cup of beads; the macro on the card says more |
+| `Melaware cookwares.jpg`, `Servies Mosalite...` | black bowls on a shop shelf, and dishes in a vitrine |
+| `Formica Laminate for Countertops 12.jpg` | a speckle close-up |
+| `Plastlaminat.jpg`, `Resopal.jpg` | a second chip fan, and a 1024 px white texture |
+| `A selection of urea formaldehyde objects at the science museum.JPG` | scattered small objects, unreadable at card size |
+| `DIN 49491 Kupplung Aminoplast Gerätestecker alt.jpg` | a white plug |
+| `Biegeverstärkung einer Brückenplatte mit Memorystahl.jpg` | iron-based shape memory steel, not nitinol |
+| `NASA Armstrong ... PTERA Testbed` | an aircraft taking off; the alloy is inside the wing |
+| `Beladungsmuster für Sterilisation Zahnarztinstrumente 02.JPG` | a steel tray |

@@ -7296,6 +7296,18 @@ window.CREDITS = {
     "w": 960,
     "h": 739
   },
+  "nitinol3": {
+    "file": "nitinol3.jpg",
+    "caption": "The paperclip demonstration: a nitinol clip bent cold, before hot water straightens it again",
+    "kind": "process",
+    "title": "Nitinol bueroklammer verbogen.jpg",
+    "site": "Wikimedia",
+    "artist": "Petermaerki",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nitinol_bueroklammer_verbogen.jpg",
+    "w": 960,
+    "h": 1464
+  },
   "nacre2": {
     "file": "nacre2.jpg",
     "caption": "The iridescent inside of an abalone shell — nacre itself, the layered material the inlay is cut from",
@@ -7392,6 +7404,30 @@ window.CREDITS = {
     "w": 960,
     "h": 508
   },
+  "melamine2": {
+    "file": "melamine2.jpg",
+    "caption": "High-pressure laminate samples: a printed decor paper under a melamine skin on a phenolic core",
+    "kind": "product",
+    "title": "Decorative laminate 07827.jpg",
+    "site": "Wikimedia",
+    "artist": "Андрей Перцев 1967",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Decorative_laminate_07827.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "melamine3": {
+    "file": "melamine3.jpg",
+    "caption": "A speckled Duperite picnic set in moulded melamine, the unbreakable tableware of the 1950s",
+    "kind": "product",
+    "title": "Picnic set (AM 1999.41.1-1).jpg",
+    "site": "Wikimedia",
+    "artist": "Duperite; Moulded Products (Australasia) Pty Ltd",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Picnic_set_(AM_1999.41.1-1).jpg",
+    "w": 960,
+    "h": 658
+  },
   "urearesin": {
     "file": "urearesin.jpg",
     "caption": "Mottled Beetleware jelly moulds in urea-formaldehyde",
@@ -7403,6 +7439,30 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Beetleware_jelly_moulds.JPG",
     "w": 960,
     "h": 1049
+  },
+  "urearesin2": {
+    "file": "urearesin2.jpg",
+    "caption": "A 1940 General Electric radio in marbled Beetle urea-formaldehyde, the pale cabinet Bakelite could not be",
+    "kind": "product",
+    "title": "Vintage General Electric Table Radio (Beetle Plastic), Model CL-500, AM Band Only, Made In Canada, 5 Tubes, Measures 9.25 x 6 x 5.25 Inches, Circa 1940 (19203993066).jpg",
+    "site": "Wikimedia",
+    "artist": "Joe Haupt from USA",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vintage_General_Electric_Table_Radio_(Beetle_Plastic),_Model_CL-500,_AM_Band_Only,_Made_In_Canada,_5_Tubes,_Measures_9.25_x_6_x_5.25_Inches,_Circa_1940_(19203993066).jpg",
+    "w": 960,
+    "h": 742
+  },
+  "urearesin3": {
+    "file": "urearesin3.jpg",
+    "caption": "Urea-formaldehyde foam found in a wall during a renovation: banned in the 1980s for the formaldehyde it gave off",
+    "kind": "photo",
+    "title": "Urea-formaldehyde insulation.jpg",
+    "site": "Wikimedia",
+    "artist": "TomKonrad",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Urea-formaldehyde_insulation.jpg",
+    "w": 960,
+    "h": 643
   },
   "pcl": {
     "file": "pcl.jpg",

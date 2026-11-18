@@ -608,16 +608,18 @@ window.MATERIALS = [
 },
 {
   id: "melamine", cat: "polymer", name: "Melamine resin",
-  sub: "melamine formaldehyde thermoset", img: "melamine",
-  hook: "A hard thermoset cured from melamine and formaldehyde, prized because it is almost odourless and tasteless, carries a printed pattern sealed under a clear top layer, and resists scratches and heat far better than the urea resin it replaced. That is why unbreakable picnic and canteen plates are made of it. The catch is the same formaldehyde bond: it cannot be remelted, it chips rather than flexes, and it must never go in a microwave.",
+  sub: "melamine formaldehyde thermoset", img: "melamine", extra: ["melamine2", "melamine3"],
+  hook: "Liebig's melamine of 1834 cured with formaldehyde: an aminoplast hard enough to take a knife and pale enough to carry a print under a clear skin. The picnic plate, the worktop, the whiteboard; never the microwave.",
+  more: "American Cyanamid moulded it as Melmac from 1938, and Formica put a melamine-soaked decor paper on its phenolic board the same year, which is why a worktop can have a pattern: the phenolic core is brown, the melamine skin is water-clear and harder than the urea resin it replaced, and the print sits between them. Filled with cellulose and compression-moulded it is the plate that bounced off the canteen floor and the knob on the cooker; as a thin skin it is the whiteboard, the laminate floor and the face of every flat-pack chipboard. The costs: a thermoset, so it chips and never remelts; a knife scores the surface and tea stains the scores; a microwave heats the resin itself, which crazes and sheds formaldehyde.",
   stats: [["Cure", "irreversible thermoset"], ["Surface", "hard, scratch-proof"], ["Never", "microwave it"]],
   uses: "Unbreakable tableware, laminate worktops (Formica), whiteboards, moulded handles and knobs.",
   link: "https://en.wikipedia.org/wiki/Melamine_resin"
 },
 {
   id: "urearesin", cat: "polymer", name: "Urea-formaldehyde",
-  sub: "urea formaldehyde, Beetleware", img: "urearesin",
-  hook: "The thermoset that put colour on the inter-war table. Urea cured with formaldehyde sets hard, pale and translucent, so unlike dark Bakelite it would take bright pastel and mottled dyes. Sold as Beetleware and Bandalasta it made cups, picnic ware and electrical fittings. Melamine soon pushed it aside, because urea-formaldehyde cracks and crazes where water and heat reach it, and slowly gives off formaldehyde as it ages.",
+  sub: "urea formaldehyde, Beetleware", img: "urearesin", extra: ["urearesin2", "urearesin3"],
+  hook: "Pollak's Pollopas of 1924, Beetle in Britain: urea and formaldehyde set to a pale thermoset that took the pastels Bakelite could not. Still the glue in every sheet of chipboard, and the formaldehyde comes back out.",
+  more: "Pollak in Vienna sold the clear resin as Pollopas in 1924; the British Cyanides Company filled it with cellulose and moulded it as Beetle from 1928, and Bandalasta picnic sets in mottled pink and green sold to a public tired of brown. It took the white light switch, the toilet seat and the bottle cap, and lost the table to melamine because hot tea crazed it. Its real career is invisible: it is the cheapest wood glue there is, the binder in chipboard, MDF and indoor plywood, set in a hot press in a minute. The bond hydrolyses in the damp, so the board swells and the glue gives, and the resin keeps shedding formaldehyde for years; the cavity-wall foam of the 1970s was banned for it, and the E1 class limits every board sold.",
   stats: [["Cure", "irreversible thermoset"], ["Over Bakelite", "takes pale colours"], ["Flaw", "crazes, off-gasses"]],
   uses: "1920s-30s mottled tableware, bottle caps, electrical fittings, cavity-wall foam, wood glue.",
   link: "https://en.wikipedia.org/wiki/Urea-formaldehyde"
@@ -625,7 +627,8 @@ window.MATERIALS = [
 {
   id: "pcl", cat: "polymer", name: "Polycaprolactone",
   sub: "PCL, low-melt biodegradable polyester", img: "pcl",
-  hook: "A biodegradable polyester that melts at only about sixty degrees, so a handful of beads turns clear and mouldable in a mug of hot water and sets hard as it cools. That makes it the hobby plastic you shape by hand, and the slow-dissolving matrix in drug implants and sutures. The low melting point is also the ceiling: leave a part in a hot car and it slumps.",
+  hook: "A polyester from a seven-membered ring that melts at 60 °C: a handful of pellets goes clear in a mug of hot water and sets hard in your hand. The body takes two or three years to dissolve it, right for an implant.",
+  more: "Ring-open caprolactone and you get five methylenes between each ester, a chain flexible enough to melt in hot tap water, with a glass transition of minus 60 so it never goes brittle. Sold as Polymorph and InstaMorph it is the repair you mould by thumb, the dental splint shaped in the mouth and the low-heat 3D print. Implanted, water cuts the esters slowly, two to four years against months for a glycolide, so it is a quarter of the Monocryl suture, the slow-release implant, and the scaffold that cells colonise before it leaves. It also makes the polyols for the toughest polyurethanes. The costs: at 60 °C a part slumps, in a hot car or dishwasher; it is weak, about 20 MPa; it creeps; and it degrades only with water and time, not in a garden heap.",
   stats: [["Melts", "~60 °C"], ["Mouldable", "in hot water"], ["Limit", "creeps when warm"]],
   uses: "Hand-mouldable hobby plastic, 3D-printing supports, drug-release implants, resorbable sutures.",
   link: "https://en.wikipedia.org/wiki/Polycaprolactone"
@@ -633,7 +636,8 @@ window.MATERIALS = [
 {
   id: "psu", cat: "polymer", name: "Polysulfone",
   sub: "PSU, Udel, transparent high-temp amber", img: "psu",
-  hook: "A transparent amber engineering plastic stiffened by sulphone groups in its backbone, so it keeps its shape in boiling water and survives repeated steam-autoclaving without clouding or cracking. That buys it the jobs where polycarbonate softens: medical trays, membrane housings, hot-food pans. The amber tint is natural and permanent, it costs several times a commodity plastic, and strong solvents or long sun exposure will craze it.",
+  hook: "Union Carbide's Udel of 1965: bisphenol A and diphenyl sulphone, rings all along the chain, an amber glass that holds its shape to 170 °C in steam. The hot-food pan, the autoclave tray, the fibre in most dialysers.",
+  more: "The sulphone is the stiffest link a chain can carry and the ether beside it lets it move enough to be tough: amorphous, transparent, glassy to 185 °C, so a part keeps its size in boiling water and comes out of a thousand autoclave cycles clear. It is the hot-food pan under a heat lamp, the coffee-machine boiler, the medical tray and, cast from solution into a skin with nanometre pores, the ultrafiltration membrane and the hollow fibre of the dialyser, Fresenius first in 1983 and most since. The costs: a stressed corner cracks when ketones, esters or chlorinated solvents touch it; sunlight yellows it; it must be dried before moulding; it costs several times polycarbonate; and where it is not stiff or clean enough its cousins PES and PPSU take over.",
   stats: [["Service", "-40 to 190 °C"], ["Steam", "autoclavable"], ["Colour", "natural amber"]],
   uses: "Autoclavable medical ware, hot-food pans, membrane supports, former baby bottles.",
   link: "https://en.wikipedia.org/wiki/Polysulfone",
@@ -743,8 +747,9 @@ window.MATERIALS = [
 /* ---------- METALS & ALLOYS ---------- */
 {
   id: "nitinol", cat: "metal", name: "Nitinol",
-  sub: "NiTi shape-memory alloy", img: "nitinol", extra: ["nitinol2"],
-  hook: "Bend it cold and it stays bent; warm it and it snaps back to the shape it was trained into. Shift the composition slightly and it becomes superelastic at room temperature instead.",
+  sub: "NiTi shape-memory alloy", img: "nitinol", extra: ["nitinol2", "nitinol3"],
+  hook: "Buehler's alloy of 1959, nickel and titanium one to one: cool, it folds into a soft crystal; warm, it snaps back to the hard one and its old shape. A tenth of a per cent of nickel moves the switch 10 °C.",
+  more: "Buehler at the Naval Ordnance Laboratory wanted a nose-cone alloy; a colleague warmed a folded strip with his pipe lighter and it sprang flat. Cool, it is martensite, which bends 8 per cent by shuffling twins; warm, the austenite re-forms and the shape with it. Set the transition below body heat and the shuffle happens under load and undoes itself after: superelasticity, ten times the stretch of steel, which is the archwire that pulls teeth gently for months, the glasses you sit on, the guidewire that will not kink and the stent crushed into a catheter that opens itself in the artery. The costs: dear, hard on tools, unweldable to steel, nickel leaches from a bad surface, and every melt is a lottery of a tenth of a per cent.",
   stats: [["Recoverable strain", "~8%"], ["Transition", "−20 to 110 °C"], ["Mix", "~55% Ni, 45% Ti"]],
   uses: "Self-expanding stents, eyeglass frames, actuators, orthodontic wire.",
   link: "https://en.wikipedia.org/wiki/Nickel_titanium"
