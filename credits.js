@@ -312,17 +312,41 @@ window.CREDITS = {
     "h": 526,
     "site": "Wikimedia"
   },
+  "becu2": {
+    "file": "becu2.jpg",
+    "caption": "A 46 mm beryllium copper spanner, the non-sparking tool for a refinery or a gas plant",
+    "kind": "product",
+    "title": "Clef cuprobéryllium.JPG",
+    "site": "Wikimedia",
+    "artist": "Orezybedivid",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Clef_cuprob%C3%A9ryllium.JPG",
+    "w": 960,
+    "h": 571
+  },
   "mumetal": {
     "file": "mumetal.jpg",
-    "caption": "Mu-metal shielding cans",
+    "caption": "A zero-gauss chamber: three nested mu-metal cans with air between, each taking the field the last one let through",
+    "kind": "product",
+    "title": "MuMETAL Zero Gauss Chamber.jpg",
+    "site": "Wikimedia",
+    "artist": "MuMETAL",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MuMETAL_Zero_Gauss_Chamber.jpg",
+    "w": 960,
+    "h": 629
+  },
+  "mumetal2": {
+    "file": "mumetal2.jpg",
+    "caption": "Mu-metal shielding cans and screens from a 1951 catalogue",
     "kind": "photo",
     "title": "Mu-metal assortment 1951.jpg",
+    "site": "Wikimedia",
     "artist": "Unknown authorUnknown author",
     "license": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Mu-metal_assortment_1951.jpg",
     "w": 679,
-    "h": 465,
-    "site": "Wikimedia"
+    "h": 465
   },
   "stellite": {
     "file": "stellite.jpg",
@@ -335,6 +359,30 @@ window.CREDITS = {
     "w": 960,
     "h": 640,
     "site": "Wikimedia"
+  },
+  "stellite2": {
+    "file": "stellite2.jpg",
+    "caption": "Casting Stellite at the Haynes works in Kokomo, 1918",
+    "kind": "process",
+    "title": "Workers casting Stellite at the Haynes Stellite Company, 10 October 1918.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Workers_casting_Stellite_at_the_Haynes_Stellite_Company,_10_October_1918.jpg",
+    "w": 960,
+    "h": 1161
+  },
+  "stellite3": {
+    "file": "stellite3.jpg",
+    "caption": "Hardfacing an extruder screw: a wear alloy laid down by weld overlay, the way most Stellite is applied",
+    "kind": "related",
+    "title": "Hardface Welding.jpg",
+    "site": "Wikimedia",
+    "artist": "Lreames",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hardface_Welding.jpg",
+    "w": 960,
+    "h": 636
   },
   "wha": {
     "file": "wha.jpg",
@@ -1333,16 +1381,40 @@ window.CREDITS = {
     "h": 539
   },
   "metglas": {
-    "file": "metglas.png",
-    "caption": "Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise",
+    "file": "metglas.jpg",
+    "caption": "Melt spinning at the Naval Research Laboratory: the melt hits the wheel and leaves as ribbon in a shower of sparks",
+    "kind": "process",
+    "title": "US Navy melt spinning.jpg",
+    "site": "Wikimedia",
+    "artist": "Michael Savell, Department of Defense Navy",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_melt_spinning.jpg",
+    "w": 960,
+    "h": 752
+  },
+  "metglas2": {
+    "file": "metglas2.jpg",
+    "caption": "The melt spinner at Ames Laboratory: a copper wheel in a chamber, the whole machine",
+    "kind": "process",
+    "title": "U.S. Department of Energy - Science - 408 052 001 (9568528731).jpg",
+    "site": "Wikimedia",
+    "artist": "U.S. Department of Energy from United States",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:U.S._Department_of_Energy_-_Science_-_408_052_001_(9568528731).jpg",
+    "w": 960,
+    "h": 736
+  },
+  "metglas3": {
+    "file": "metglas3.png",
+    "caption": "The diagram: the molten jet hits a chilled wheel and freezes before it can crystallise",
     "kind": "process",
     "title": "MeltSpinner.png",
+    "site": "Wikimedia",
     "artist": "J3D3",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:MeltSpinner.png",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
   },
   "maraging": {
     "file": "maraging.jpg",
@@ -5342,6 +5414,18 @@ window.CREDITS = {
   },
   "terfenol": {
     "file": "terfenol.jpg",
+    "caption": "A Soviet magnetostrictive transducer of 1983, a nickel-alloy core in its coils: the family Terfenol-D belongs to, fifty times weaker",
+    "kind": "related",
+    "title": "FEM2-018-500-3V-1 magnetostrictive transducer details 03.jpg",
+    "site": "Wikimedia",
+    "artist": "Mister rf",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FEM2-018-500-3V-1_magnetostrictive_transducer_details_03.jpg",
+    "w": 960,
+    "h": 775
+  },
+  "terfenol2": {
+    "file": "terfenol2.jpg",
     "caption": "A hydrophone going into the North Atlantic — this one is piezoelectric; Terfenol-D does the same job by stretching in a magnetic field",
     "kind": "analog",
     "title": "https://live.staticflickr.com/2228/3542186251_54d5c3fec0_b.jpg",

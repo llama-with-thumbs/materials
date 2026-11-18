@@ -29,8 +29,12 @@ greyiron|commons|In-stream inoculation addition while molten cast iron is poured
 greyiron2|commons|Gusseisen mit Lamellengraphit.jpg|The micrograph: dark graphite flakes threading the iron, the cracks that damp vibration and start fractures|structure
 greyiron3|commons|Griswold cast iron skillet.jpg|A Griswold skillet: grey iron, poured cheap, holding heat and never bending|product
 becu|commons|CuBe Tool.jpg|Beryllium-copper non-sparking tool|photo
-mumetal|commons|Mu-metal assortment 1951.jpg|Mu-metal shielding cans|photo
+becu2|commons|Clef cuprobéryllium.JPG|A 46 mm beryllium copper spanner, the non-sparking tool for a refinery or a gas plant|product
+mumetal|commons|MuMETAL Zero Gauss Chamber.jpg|A zero-gauss chamber: three nested mu-metal cans with air between, each taking the field the last one let through|product
+mumetal2|commons|Mu-metal assortment 1951.jpg|Mu-metal shielding cans and screens from a 1951 catalogue|photo
 stellite|commons|Unterkiefer Teilprothese 20100112 008.JPG|Cast cobalt-chrome (Stellite-type) framework|photo
+stellite2|commons|Workers casting Stellite at the Haynes Stellite Company, 10 October 1918.jpg|Casting Stellite at the Haynes works in Kokomo, 1918|process
+stellite3|commons|Hardface Welding.jpg|Hardfacing an extruder screw: a wear alloy laid down by weld overlay, the way most Stellite is applied|related
 wha|commons|Wolfram evaporated crystals and 1cm3 cube.jpg|Tungsten crystals and a 1 cm³ cube — 19.3 g in that cube|photo
 superalloy|commons|255 GRC 1979 03464 EEE - 2 piece single crystal HTP blade.jpg|Single-crystal high-pressure turbine blade|photo
 galinstan|commons|Galinstan on glass.jpg|Galinstan, liquid at room temperature|photo
@@ -114,7 +118,9 @@ lignostone2|commons|Lignoston.jpg|Lignostone itself, as the scale on a knife han
 parylene|commons|CPI Microlyth Pacemaker.jpg|A cardiac pacemaker — parylene C is the standard conformal coating on implanted electronics|product
 vectran|commons|Spirit-airbag2.jpg|A test model of the Mars Exploration Rover landing airbags: the cloth is Vectran, chosen because it does not creep or crack in the cold|product
 vectran2|commons|BEAM in September 2016 (ISS049-E-007628).jpg|The Bigelow expandable module on the space station, held in shape by a Vectran restraint layer|product
-metglas|commons|MeltSpinner.png|Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise|process
+metglas|commons|US Navy melt spinning.jpg|Melt spinning at the Naval Research Laboratory: the melt hits the wheel and leaves as ribbon in a shower of sparks|process
+metglas2|commons|U.S. Department of Energy - Science - 408 052 001 (9568528731).jpg|The melt spinner at Ames Laboratory: a copper wheel in a chamber, the whole machine|process
+metglas3|commons|MeltSpinner.png|The diagram: the molten jet hits a chilled wheel and freezes before it can crystallise|process
 maraging|commons|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Competition épée blades are maraging steel — it bends far before it breaks|product
 cordierite|Flickr|https://live.staticflickr.com/3815/11185998225_f48065e822_b.jpg|Cordierite as a mineral; the kiln-shelf ceramic is the same magnesium aluminosilicate, fired|related|CC BY 2.0|Juhele_CZ|https://www.flickr.com/photos/96541566@N06/11185998225
 torlon|commons|Ruban-capton-adhesif.jpg|A roll of Kapton tape — polyimide, the amber chemical neighbour Torlon's amide-imide sits beside|analog
@@ -448,7 +454,8 @@ pebax|commons|Nike Vaporfly Cut in Half.png|A Vaporfly cut in half: the white fo
 pebax2|commons|Ski boots alpin large.jpg|Alpine ski boots: Pebax took the race shell from polyurethane because its stiffness holds in the cold|analog
 pei|commons|COSMIC-2 Cafeteria Cups Radio Occultation Antenna Array.png|A satellite antenna array 3D printed in Ultem 9085 at JPL, the grade that flies|product
 pei2|commons|DG 東莞 DongGuan 南城區 Nancheng 鴻福路 HongFu Road 東莞京東商場 JD Mall Electronics Showroom 3D printers December 2024 R12S 06 (cropped).jpg|A 3D printer's build plate, a sheet of PEI: prints grip it hot and let go cold|product
-terfenol|Flickr|https://live.staticflickr.com/2228/3542186251_54d5c3fec0_b.jpg|A hydrophone going into the North Atlantic — this one is piezoelectric; Terfenol-D does the same job by stretching in a magnetic field|analog|CC BY-SA 2.0|Oregon State University|https://www.flickr.com/photos/oregonstateuniversity/3542186251
+terfenol|commons|FEM2-018-500-3V-1 magnetostrictive transducer details 03.jpg|A Soviet magnetostrictive transducer of 1983, a nickel-alloy core in its coils: the family Terfenol-D belongs to, fifty times weaker|related
+terfenol2|Flickr|https://live.staticflickr.com/2228/3542186251_54d5c3fec0_b.jpg|A hydrophone going into the North Atlantic — this one is piezoelectric; Terfenol-D does the same job by stretching in a magnetic field|analog|CC BY-SA 2.0|Oregon State University|https://www.flickr.com/photos/oregonstateuniversity/3542186251
 tib2|commons|Цех электролизных ванн для выплавки алюминия с силой тока 400 КА в промышленно-инновационном парке "Юйлянь" в г. Гунъи (Китай).jpg|A 400 kA aluminium reduction cell hall — titanium diboride is what the cathode surface is made of|analog
 nextel|commons|Industrial furnace equipped with HTIW modules.jpg|A furnace lined with high-temperature insulation wool — Nextel's woven alumina cloth does this job where the lining must also be strong|analog
 smc|commons|1979 tvr 3000s.jpg|A TVR 3000S — its body is hand-laid glass-reinforced plastic; sheet moulding compound is the same idea pressed out by the minute|analog

@@ -748,3 +748,28 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Cast iron grey.jpg` | a second micrograph |
 | `Disc break wheel.jpg` | a Mercedes wheel; the disc is behind the spokes |
 | `Big bore 14 inch ... Pipe Threading Lathe.jpg` | a watermarked vendor photo |
+
+
+## Restyle batch, 18 November 2026: becu, mumetal, metglas, terfenol, stellite
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Beryllium copper, a spring or connector | `beryllium copper spring`, `beryllium copper connector`, `mould insert beryllium copper`, `BeCu` | nothing; `BeCu` returns Madame du Barry | a connector contact strip or a Belleville washer named as BeCu |
+| Mu-metal, a photomultiplier shield or a shielded room | `photomultiplier tube shield`, `magnetically shielded room`, `magnetic shield` | the shielded rooms are RF Faraday cages; `magnetic shield` is the magnetosphere | a MEG room under construction or a PMT in its can |
+| Metglas, a wound core or a tag | `amorphous transformer core`, `amorphous metal distribution transformer`, `anti-theft tag acoustomagnetic`, `EAS tag` | nothing; `EAS tag` returns a Scottish waterfall and Corsairs | a cut amorphous core or an opened AM tag |
+| Terfenol-D, anything named | `Terfenol-D`, `Terfenol`, `magnetostrictive actuator`, `giant magnetostrictive`, `sonar transducer` | nothing named; the sonar photos are towfish housings | a Terfenol rod or a flat-panel speaker puck named as such |
+| Stellite, a valve or saw tip | `cobalt chrome valve seat`, `Stellite valve`, `stellite tipped saw`, `hardfacing weld overlay` | the Holden engine photos do not show the seats; `Stellite 1914` is a Wolseley car | a sectioned exhaust valve with the Stellite face visible |
+
+| rejected after looking | why |
+|---|---|
+| `Mu-metal assortment 1951.jpg` as the mu-metal face | a 679 px catalogue plate; kept as second view, the zero-gauss chamber is the face |
+| `MeltSpinner.png` as the Metglas face | a diagram; kept as third view, the NRL spinning photo is the face |
+| the OSU hydrophone as the Terfenol face | an analog, a tube over the side of a ship; kept second, the magnetostrictive transducer is the face as a related view |
+| `Alloy and metal samples - Beryllium-Copper, Inconel...` | a row of grey discs |
+| `Mumetal strip process from xi'an gangyan...` | a vendor's mill photo |
+| `MagSchirm.jpg`, `Negra.JPG` | a transformer with wires, and white blocks |
+| `7. 1979 Observing an early melt spinning process.jpg` | a man watching a window |
+| `Memoria a Magnetostrizione auditronic L.M.S. Olivetti foto1.jpg` | a circuit board in a frame |
+| `FEM2-018-500-3V-1 magnetostrictive transducers details 18.jpg` | a row of filters, abstract small |
+| `Stellite 1914.JPG` | a yellow car in a museum |
+| `FlameSpraying.jpg` | flame spraying, a different process |

@@ -802,16 +802,18 @@ window.MATERIALS = [
 },
 {
   id: "becu", cat: "metal", name: "Beryllium copper",
-  sub: "C17200", img: "becu",
-  hook: "Age-hardens to steel-like strength while staying conductive and completely non-magnetic — and it will not throw a spark, which is why it goes into refineries and minefields.",
+  sub: "C17200", img: "becu", extra: ["becu2"],
+  hook: "Copper with two per cent beryllium, aged at 315 °C to the strength of a spring steel while it stays conductive, non-magnetic and spark-shy. The refinery wrench and the connector spring; its dust scars lungs.",
+  more: "Beryllium dissolves in hot copper and falls out of it cold, so it is quenched soft, formed, and aged at 315 °C while a fog of precipitates locks the lattice: 1,300 MPa from a metal that started at 500, with a fifth of copper's conductivity left. Struck on steel it throws almost no spark, so it is the wrench in a refinery and the tool that defuses a mine; and it is the Belleville washer, the connector spring in every phone and the mould insert that pulls heat out of a plastic part. The costs: beryllium is dear, and its dust and fume cause berylliosis, a scarring of the lungs with no cure, so it is machined wet and never ground dry; it is stubborn to form once aged; and it is hard to recycle apart from plain copper.",
   stats: [["UTS", "~1300 MPa"], ["Conductivity", "~22% IACS"], ["Sparks", "none"]],
   uses: "Non-sparking tools, springs and contacts, mould inserts, EOD tooling.",
   link: "https://en.wikipedia.org/wiki/Beryllium_copper"
 },
 {
   id: "mumetal", cat: "metal", name: "Mu-metal",
-  sub: "Ni–Fe–Cu–Cr", img: "mumetal",
-  hook: "It does not block magnetic fields; it offers them an easier path and lets them flow around whatever is inside. Bend a finished shield and you ruin it until it is annealed again.",
+  sub: "Ni–Fe–Cu–Cr", img: "mumetal", extra: ["mumetal2"],
+  hook: "Smith's alloy of 1923: nickel with iron, copper and chromium, annealed until a field finds it 100,000 times easier to cross than air. It does not block a field, it swallows it. Drop a shield and it stops working.",
+  more: "It was meant as a tape to load a submarine cable with inductance, and turned out the softest magnetic alloy there was: near-zero magnetostriction and anisotropy, so domain walls move at a whisper. A can of it round a photomultiplier or a SQUID offers the Earth's field a path a hundred thousand times easier than the space inside, and the field goes round; three nested cans with air between take a brain-scanning room down to a nanotesla. The catches are built into the softness: it saturates at 0.8 tesla, so a steel outer shell takes the first bite of a strong field; every bend, cut or drop strains the lattice and the permeability collapses until the part is annealed again at 1,100 °C in hydrogen; and it is mostly nickel, priced like it.",
   stats: [["Rel. permeability", "to ~400,000"], ["Catch", "anneal after forming"], ["Saturates", "early, by design"]],
   uses: "Magnetometer and SQUID shielding, photomultiplier cans, MRI rooms.",
   link: "https://en.wikipedia.org/wiki/Mu-metal"
@@ -819,8 +821,9 @@ window.MATERIALS = [
 {
   id: "metglas", cat: "metal", name: "Metglas",
   sub: "amorphous Fe–Si–B ribbon",
-  img: "metglas",
-  hook: "Molten alloy squirted onto a spinning chilled wheel and frozen into a glassy ribbon 25 µm thick. With no crystal structure there is almost no hysteresis loss.",
+  img: "metglas", extra: ["metglas2", "metglas3"],
+  hook: "Iron, boron and silicon squirted onto a spinning copper wheel: it freezes a million degrees a second as a ribbon 25 microns thick with no crystals. A transformer core that wastes a quarter of what steel did.",
+  more: "Allied Chemical made it by the kilometre in the 1970s, pouring the melt through a slot onto the rim of a chilled wheel, and ribbon is still the only form it comes in. With no lattice there is nothing to pin a domain wall, so the hysteresis loop is a sliver and a distribution transformer wound from it loses 70 per cent less at idle, which across a million poles is a power station. The same ribbon, cut to a strip ringing at 58 kilohertz, is the anti-theft tag inside a book, and it cores current sensors and pulse transformers. The costs: it is thin, so a core runs bigger; it saturates at 1.56 tesla against steel's 2; it is brittle once annealed; its magnetostriction hums; and it costs more than the steel it replaces.",
   stats: [["Thickness", "~25 µm"], ["Core loss", "~70–80% below Si steel"], ["Quench", "~10⁶ K/s"]],
   uses: "Distribution transformer cores, current sensors, anti-theft tags.",
   link: "https://en.wikipedia.org/wiki/Amorphous_metal"
@@ -828,16 +831,18 @@ window.MATERIALS = [
 {
   id: "terfenol", cat: "metal", name: "Terfenol-D",
   sub: "Tb–Dy–Fe",
-  img: "terfenol",
-  hook: "Put it in a magnetic field and it physically grows. The strain is small, but the force is enormous and the response is instant — an actuator with no moving parts.",
+  img: "terfenol", extra: ["terfenol2"],
+  hook: "Clark's alloy, 1971: terbium, dysprosium and iron that grow a fifth of a per cent in a magnetic field, pushing with kilonewtons in microseconds. The Navy wanted louder sonar; it got an actuator with no moving parts.",
+  more: "Terbium and dysprosium stretch enormously when magnetised, but only near absolute zero; Clark at the Naval Ordnance Laboratory alloyed both with iron, seven dysprosium to three terbium so their anisotropies cancel, and kept the effect at room temperature: 1,000 to 2,000 parts per million, fifty times nickel, ten times the energy density of a piezoelectric. A rod of it in a coil is a sonar projector, a stack that trims a mirror by a micron and the puck that turns a window pane into a loudspeaker. The costs: a brittle intermetallic that must be kept in compression and biased with a magnet to work at all; rare earths, priced like them; eddy currents heat it above a few kilohertz; and it hystereses, so a position is never quite where it was.",
   stats: [["Strain", "~1000–2000 ppm"], ["Response", "microseconds"], ["Downside", "brittle, costly"]],
   uses: "Sonar projectors, precision positioning, ultrasonic machining, active damping.",
   link: "https://en.wikipedia.org/wiki/Terfenol-D"
 },
 {
   id: "stellite", cat: "metal", name: "Stellite",
-  sub: "cobalt–chromium–tungsten", img: "stellite",
-  hook: "A cobalt alloy that holds its hardness glowing red, resists galling against itself, and is usually deposited as a weld overlay onto something cheaper.",
+  sub: "cobalt–chromium–tungsten", img: "stellite", extra: ["stellite2", "stellite3"],
+  hook: "Haynes's cobalt-chromium of 1907 with tungsten carbides: hard at red heat, it will not gall on itself and does not rust. Too dear and brittle for a whole part, so it is welded onto steel wherever steel would wear.",
+  more: "Haynes wanted tarnish-free cutlery and found an alloy that held an edge at red heat; with tungsten and carbon it outran high-speed steel in 1910, and carbides in a cobalt matrix that work-hardens under a blow is still the recipe. Cobalt stays strong where nickel and iron soften, so Stellite 6 is the face of an exhaust valve, the leading edge of a steam-turbine blade, the flight of an extruder screw and the tip on a saw, nearly always a few millimetres of weld on a cheaper body. Vitallium, a cousin, is the denture frame and the hip stem. The costs: cobalt is dear and comes from Congo, the deposit cracks on cooling unless preheated, it can only be ground, the dust is toxic, and in a reactor it turns to cobalt-60, so nuclear plants pay to be rid of it.",
   stats: [["Hardness", "~40–60 HRC"], ["Hot hardness", "holds to red heat"], ["Form", "usually hardfacing"]],
   uses: "Valve seats, extruder screws, turbine erosion shields, cast dental frameworks.",
   link: "https://en.wikipedia.org/wiki/Stellite"

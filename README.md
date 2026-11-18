@@ -516,22 +516,22 @@ the picture and its badge on every card. If you redistribute this page, keep tho
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 
-293 are photographs of the material itself. 291 are not, and say so on a paper strip up the left edge of the image:
+292 are photographs of the material itself. 292 are not, and say so on a paper strip up the left edge of the image:
 
-- **223 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **224 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
   chemical tanker for duplex stainless, and a 2 mm model of an 1871 microscope for the two-photon
   resist.
-- **22 show a similar example** — the nearest comparable thing, where neither the material nor
+- **21 show a similar example** — the nearest comparable thing, where neither the material nor
   anything made from it has been photographed freely: a piezoelectric hydrophone for Terfenol-D, a
   Level IIIA vest for Zylon, a roll of Kapton tape for Torlon, activated carbon for MOF-5, a
   dye-laser mirror for hafnium oxide, a cast-iron surface plate for the granite one, a
   magnetorheological fluid for the electrorheological one, aramid filaments for M5, turnout gear for
   melamine fibre, and a hand-laid glass-reinforced body for sheet moulding compound. The caption
   always says what the picture actually is.
-- **22 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
+- **23 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
   optical calcium fluoride, a superhydrophobic droplet for SLIPS, a printed sand mould for
   furan-bonded sand, a GAGG:Ce scintillator for GGG, and a cut-resistant glove for Vectran.
 - **24 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
@@ -543,7 +543,7 @@ No entry falls back to a drawn swatch, and none shows a molecular or crystal str
 material itself has never been photographed freely, the card carries the closest real object
 instead.
 
-A few cards carry more than one view, paged on the card itself — 131 extra views so far: the raw material
+A few cards carry more than one view, paged on the card itself — 138 extra views so far: the raw material
 beside the finished part (Nitinol wire and the cut spoons), the shell beside the inlay (nacre),
 the harvest beside the bark (cork), the property beside the thing (a brick resting on a slab of
 aerogel), the two unmixed sticks beside what a sculptor and a museum made of them (epoxy putty).
