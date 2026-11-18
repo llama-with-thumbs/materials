@@ -938,13 +938,25 @@ window.CREDITS = {
   },
   "polyurea": {
     "file": "polyurea.jpg",
-    "caption": "Two-part polyurea coating in the pail, before spraying",
+    "caption": "A pickup bed freshly sprayed by a Line-X shop: a polyurea hybrid, seamless and set within the hour",
     "kind": "product",
-    "title": "https://live.staticflickr.com/3493/4040639508_28a1a9a93f_b.jpg",
-    "site": "Flickr",
-    "artist": "John Loo",
+    "title": "Spray-on bedliner.jpg",
+    "site": "Wikimedia",
+    "artist": "simonov",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spray-on_bedliner.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "polyurea2": {
+    "file": "polyurea2.jpg",
+    "caption": "Spraying a bed liner in a full air-fed suit, the two parts meeting hot inside the gun",
+    "kind": "process",
+    "title": "Spraying truck bed liners.jpg",
+    "site": "Wikimedia",
+    "artist": "National Institute for Occupational Safety and Health (NIOSH) from USA",
     "license": "CC BY 2.0",
-    "page": "https://www.flickr.com/photos/8510225@N07/4040639508",
+    "page": "https://commons.wikimedia.org/wiki/File:Spraying_truck_bed_liners.jpg",
     "w": 960,
     "h": 640
   },
@@ -1296,6 +1308,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720
   },
+  "bakelite2": {
+    "file": "bakelite2.jpg",
+    "caption": "The Ekco AD65 of 1932, Wells Coates: a round cabinet that only a moulded plastic could make cheaply",
+    "kind": "product",
+    "title": "Radio, Model AD 65, designed by Wells Coates, Ekco USA, 1932, Bakelite case - Museum für Angewandte Kunst Köln - Cologne, Germany - DSC09649.jpg",
+    "site": "Wikimedia",
+    "artist": "Daderot",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Radio,_Model_AD_65,_designed_by_Wells_Coates,_Ekco_USA,_1932,_Bakelite_case_-_Museum_f%C3%BCr_Angewandte_Kunst_K%C3%B6ln_-_Cologne,_Germany_-_DSC09649.jpg",
+    "w": 960,
+    "h": 924
+  },
+  "bakelite3": {
+    "file": "bakelite3.jpg",
+    "caption": "Cast phenolic bangles, the unfilled resin in the colours wood flour would not allow",
+    "kind": "product",
+    "title": "Bakelite bangles.jpg",
+    "site": "Wikimedia",
+    "artist": "Izzy from Montreal, Canada",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bakelite_bangles.jpg",
+    "w": 960,
+    "h": 1283
+  },
   "phenolic": {
     "file": "phenolic.jpg",
     "caption": "Phenolic cotton laminate — cloth and resin pressed into a solid",
@@ -1320,6 +1356,30 @@ window.CREDITS = {
     "w": 960,
     "h": 600
   },
+  "neoprene2": {
+    "file": "neoprene2.jpg",
+    "caption": "A camera case in foamed neoprene, the wetsuit material in its everyday job",
+    "kind": "product",
+    "title": "Camera case neoprene.jpg",
+    "site": "Wikimedia",
+    "artist": "Tiia Monto",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Camera_case_neoprene.jpg",
+    "w": 960,
+    "h": 749
+  },
+  "neoprene3": {
+    "file": "neoprene3.jpg",
+    "caption": "The neck seal, zip and valves of a neoprene drysuit",
+    "kind": "product",
+    "title": "Diving suit neoprene.jpg",
+    "site": "Wikimedia",
+    "artist": "Mark.murphy",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Diving_suit_neoprene.jpg",
+    "w": 960,
+    "h": 720
+  },
   "epdm": {
     "file": "epdm.jpg",
     "caption": "EPDM membrane",
@@ -1331,6 +1391,30 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:EPDM_foil.jpg",
     "w": 960,
     "h": 1169
+  },
+  "epdm2": {
+    "file": "epdm2.jpg",
+    "caption": "A flat roof finished in EPDM membrane over an old bitumen layer",
+    "kind": "product",
+    "title": "FinishedEPDMcoveredRoof.jpg",
+    "site": "Wikimedia",
+    "artist": "KVDP",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:FinishedEPDMcoveredRoof.jpg",
+    "w": 960,
+    "h": 799
+  },
+  "epdm3": {
+    "file": "epdm3.jpg",
+    "caption": "Foamed EPDM tube for lagging pipes",
+    "kind": "product",
+    "title": "EPDM rubber tube.jpg",
+    "site": "Wikimedia",
+    "artist": "Redboston",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EPDM_rubber_tube.jpg",
+    "w": 960,
+    "h": 861
   },
   "nbr": {
     "file": "nbr.jpg",

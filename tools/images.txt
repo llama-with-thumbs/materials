@@ -81,7 +81,8 @@ pmma|commons|Lichtenberg figure in block of Plexiglas.jpg|A Lichtenberg figure f
 pmma2|commons|Al Mahara Burj al Araba Dubai March 2008.jpg|The aquarium wall of a restaurant in Dubai, a single cast acrylic panel|product
 sap|commons|Superabsorbent Polymer.jpg|Superabsorbent polymer beads, before and after water|photo
 sap2|commons|Water beads (42106).jpg|Decorative water beads: the same polymer, swollen into spheres|product
-polyurea|Flickr|https://live.staticflickr.com/3493/4040639508_28a1a9a93f_b.jpg|Two-part polyurea coating in the pail, before spraying|product|CC BY 2.0|John Loo|https://www.flickr.com/photos/8510225@N07/4040639508
+polyurea|commons|Spray-on bedliner.jpg|A pickup bed freshly sprayed by a Line-X shop: a polyurea hybrid, seamless and set within the hour|product
+polyurea2|commons|Spraying truck bed liners.jpg|Spraying a bed liner in a full air-fed suit, the two parts meeting hot inside the gun|process
 alumina|commons|Spark plug insulator.jpeg|A spark plug insulator — alumina’s highest-volume job|photo
 sapphire|commons|Sapphire boule, Kyropoulos method.jpg|A synthetic sapphire boule pulled from the melt|photo
 fusedsilica|Flickr|https://live.staticflickr.com/3572/4567498923_cb29327d38_b.jpg|The fused silica window of a UV-erasable EPROM; ordinary glass would block the ultraviolet|product|CC BY 2.0|sumeet basak|https://www.flickr.com/photos/9037890@N05/4567498923
@@ -111,9 +112,15 @@ cordierite|Flickr|https://live.staticflickr.com/3815/11185998225_f48065e822_b.jp
 torlon|commons|Ruban-capton-adhesif.jpg|A roll of Kapton tape — polyimide, the amber chemical neighbour Torlon's amide-imide sits beside|analog
 fields|commons|Wood's alloy 2.JPG|Wood's metal, Field's older cadmium-bearing cousin, melting in hot water|related
 bakelite|Flickr|https://live.staticflickr.com/5765/20967111954_7ff274c261_b.jpg|A Bakelite telephone, the housing moulded in one black piece|product|CC BY 2.0|wwarby|https://www.flickr.com/photos/26782864@N00/20967111954
+bakelite2|commons|Radio, Model AD 65, designed by Wells Coates, Ekco USA, 1932, Bakelite case - Museum für Angewandte Kunst Köln - Cologne, Germany - DSC09649.jpg|The Ekco AD65 of 1932, Wells Coates: a round cabinet that only a moulded plastic could make cheaply|product
+bakelite3|commons|Bakelite bangles.jpg|Cast phenolic bangles, the unfilled resin in the colours wood flour would not allow|product
 phenolic|commons|Textolite.jpg|Phenolic cotton laminate — cloth and resin pressed into a solid|photo
 neoprene|Flickr|https://live.staticflickr.com/6167/6165824543_4a5419cd60_b.jpg|Rolls of neoprene foam gasket tape|product|CC BY 2.0|Hardcast65|https://www.flickr.com/photos/66958833@N05/6165824543
+neoprene2|commons|Camera case neoprene.jpg|A camera case in foamed neoprene, the wetsuit material in its everyday job|product
+neoprene3|commons|Diving suit neoprene.jpg|The neck seal, zip and valves of a neoprene drysuit|product
 epdm|commons|EPDM foil.jpg|EPDM membrane|photo
+epdm2|commons|FinishedEPDMcoveredRoof.jpg|A flat roof finished in EPDM membrane over an old bitumen layer|product
+epdm3|commons|EPDM rubber tube.jpg|Foamed EPDM tube for lagging pipes|product
 nbr|commons|Disposable nitrile glove.jpg|Nitrile gloves|product
 br|commons|Golfballinsiderp.jpg|A golf ball core — polybutadiene, chosen purely for rebound|product
 tpu|commons|Chips TPU con eurocent.jpg|TPU pellets, with a coin for scale|photo

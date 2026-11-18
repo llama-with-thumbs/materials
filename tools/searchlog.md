@@ -534,3 +534,21 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Bottom of 18.9 Liter (5 Gallon) jug made by GREIF` | embossed recycling marks, nothing to see |
 | `POM-Granulat.JPG` | white pellets, indistinguishable from any other resin |
 | `Sodium polyacrylate.jpg` and `Gel Water Beads (6477584337).jpg` | coloured beads much like the vase photo; one view of them is enough |
+
+
+## Restyle batch, 18 November 2026: polyurea, bakelite, phenolic, neoprene, epdm
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Polyurea, a tank or tunnel lining | `polyurea`, `spray polyurea coating` | only chemical diagrams and the Pueblo chemical-weapons plant bioreactor tanks, where the lining is not visible | a photo of a lining being sprayed in a tank |
+| Phenolic laminate, a gear or a bearing | `Tufnol`, `Micarta`, `phenolic laminate`, `Textolite`, `Pertinax`, `paxolin` | nothing but knife handles; Pertinax returns a Roman emperor | a photo of a Tufnol gear or a stern-tube bearing |
+| Neoprene, a bridge bearing | `neoprene bridge bearing` | nothing | an elastomeric bearing under a bridge deck, named |
+| EPDM, a door seal or hose | `car door rubber seal`, `radiator hose`, `pond liner EPDM`, `EPDM granules playground` | nothing named; radiator hose returns radiators | a weatherstrip photo that names the rubber |
+
+| rejected after looking | why |
+|---|---|
+| the Flickr polyurea pail as the face | a pail among rags and bottles on a doorstep; replaced by the sprayed bed, the pail dropped |
+| `Micarta knife handle.jpg`, `Couteau bushcraft.JPG` | a dark brown blur and a knife where the Micarta is a sliver |
+| `Bakelite Cocktail Shaker.jpg` | marbled grey, reads as pottery at card size |
+| `Neoprene.jpg` | a black sheet with holes, no scale |
+| `EPDM rubber roof - Halifax.jpg` | a grey roof against grey sky |
