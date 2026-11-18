@@ -224,10 +224,18 @@ ti643|commons|Xilloc Patient Specific Implant Titanium.png|A cranial plate 3D pr
 magnesium|commons|Nikon D500 magnesium-alloy carbon chassis front-right 2016 China P&E.jpg|The magnesium chassis of a Nikon D500, die-cast in thin walls and ribs|product
 magnesium2|commons|Handtmann-metallgusswerk-pkw-getriebegehaeuse-magnesium.jpg|A car gearbox housing die-cast in magnesium|product
 magnesium3|commons|Mg alloy car engine blocks.jpg|A stack of magnesium alloy engine blocks|product
-damascus|commons|Front and back of blades of hair-cutting shears made from Damascus steel.jpg|Pattern-welded blades, etched to bring out the layers|product
-hadfield|commons|Sacramento tram track frog 4036.JPG|A track frog — the crossing casting is manganese steel|product
-duplex|commons|Chemical tanker Ternholm at Skarvikshamnen 2.jpg|A chemical tanker — duplex stainless is the standard for cargo tanks that carry acid|product
+damascus|commons|Solicut knife.jpg|A German pattern-welded kitchen knife: the layers etched up, the edge a harder core|product
+damascus2|commons|Front and back of blades of hair-cutting shears made from Damascus steel.jpg|Hair-cutting shears in pattern-welded steel, etched to bring out the layers|product
+damascus3|commons|Knife by Bob Kramer (17970647591).jpg|A Kramer chef's knife: pattern-welded cladding wrapped round a plain hard core|product
+hadfield|commons|2016-02-29 Nürnberg-Südbahnhof - Herzstück - Weichenbau - 3886.jpg|The nose of a railway crossing, the piece every wheel hammers, the classic manganese steel casting|product
+hadfield2|commons|Jaw Plates.jpg|Crusher jaw plates cast in manganese steel, soft until the first rock hits them|product
+hadfield3|commons|Bowl Liner.jpg|A cone-crusher bowl liner in manganese steel: a wear part that hardens in service|product
+duplex|commons|Singapore (SG), Helix Bridge -- 2019 -- 4459.jpg|The Helix Bridge, Singapore: 650 tonnes of duplex 2205 that will not pit in the harbour air|product
+duplex2|commons|Microstructures of four kinds of duplex stainless steel in each direction.jpg|Four duplex grades under the microscope: light austenite islands in dark ferrite, half and half|structure
+duplex3|commons|Chemical tanker Ternholm at Skarvikshamnen 2.jpg|A chemical tanker: duplex stainless is the standard for cargo tanks that carry acid|product
 hss|commons|HSS Twist Drill into Aluminium with Lubricant.jpg|An HSS twist drill cutting aluminium|product
+hss2|commons|Narex M6 high speed steel 6 g tolerance threading die.jpg|An M6 threading die with HSS stamped on it: four cutting edges that must not chip|product
+hss3|commons|Electrite Uranium HSS advert in American Machinist v53 n1 1920.png|A 1920 advert for a high-speed steel with uranium in it, when every maker had a secret addition|related
 phosbronze|commons|Phosphorbronzeguitarstring.jpg|Phosphor bronze guitar string|product
 monel|commons|Monel-valves--The-Alloy-Valve-Stockist.JPG|Monel valves|product
 hastelloy|commons|Hastelloy Ball valve.jpg|A Hastelloy ball valve|product
@@ -423,6 +431,7 @@ gummetal|commons|Watch balance spring and human hair.jpg|A watch balance spring 
 al7075|Flickr|https://live.staticflickr.com/8741/17101043315_4f12362b98_b.jpg|A forged 7075 aluminium bicycle stem, Zipp Service Course SL|product|CC BY 2.0|Glory Cycles|https://www.flickr.com/photos/29558127@N06/17101043315
 al70752|commons|Bicycle rear derailleur pulley wheels.JPG|Derailleur pulley wheels machined from 7075, 11.6 grams the pair|product
 ss316l|Flickr|https://live.staticflickr.com/7511/27964588231_b90529058e_b.jpg|Orbital welding 316L tube — the low-carbon grade exists so a weld like this does not sensitise|product|CC BY 2.0|fourbyfourblazer|https://www.flickr.com/photos/chrisyarzab/27964588231
+ss316l2|commons|SCC of stainless steel UNS S31603.jpg|A stress-corrosion crack through 316L after 500 hours of evaporating seawater at 110 °C: not immune|structure
 cupronickel|Flickr|https://live.staticflickr.com/4145/5089714818_9e5b4d545d_b.jpg|British 50 pence coins, struck in cupronickel|product|CC BY 2.0|ell brown|https://www.flickr.com/photos/39415781@N06/5089714818
 babbitt|commons|Miba Thrust Bearing.jpg|A fluid-film thrust bearing for a gas turbine — the pads carry a Babbitt lining|product
 macor|commons|60kV Feedthrough.jpg|A 60 kV vacuum feedthrough — the insulator is the kind of part Macor gets machined into|related

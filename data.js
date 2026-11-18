@@ -941,40 +941,45 @@ window.MATERIALS = [
 },
 {
   id: "damascus", cat: "metal", name: "Pattern-welded steel",
-  sub: "folded laminate, 'Damascus'", img: "damascus",
-  hook: "Two steels with different alloy content folded together a few hundred times, then etched so one layer darkens and the other stays bright. Modern versions are decorative; the original wootz used carbide bands that genuinely sharpened the edge.",
+  sub: "folded laminate, 'Damascus'", img: "damascus", extra: ["damascus2", "damascus3"],
+  hook: "Two steels folded and forge-welded into a few hundred layers, then etched so one darkens: the pattern is proof of the weld, not a sharper edge. The old wootz was another thing, one crucible steel with carbide bands.",
+  more: "Modern Damascus is pattern welding: a billet of two steels, one with nickel so it stays bright in acid, is drawn out, cut, stacked and welded again until the layers run to hundreds, then twisted or ground so they surface as a figure. The edge is only as good as the harder steel, which is why the serious knife carries a plain high-carbon core and wears the pattern as cladding. The wootz of the Indian swords was a single crucible steel whose carbides gathered into bands as it cooled slowly, and the trick was lost around 1800 when the ore ran out. The costs: a flaw in one of three hundred welds is a crack waiting; the etch is cosmetic and polishes off on the cutting board; and the name sells more steel than the metallurgy earns.",
   stats: [["Layers", "100s–1000s"], ["Pattern", "revealed by acid etch"], ["Original", "wootz, ~300 BC"]],
   uses: "Knives, jewellery, watch cases, gun barrels historically.",
   link: "https://en.wikipedia.org/wiki/Pattern_welding"
 },
 {
   id: "hadfield", cat: "metal", name: "Hadfield manganese steel",
-  sub: "~12% Mn austenitic steel", img: "hadfield",
-  hook: "Arrives soft enough to cut, then transforms under impact: the surface work-hardens to three times its original hardness while the core stays tough. The harder you hit it, the better it gets, which is why it is still used where rails cross.",
+  sub: "~12% Mn austenitic steel", img: "hadfield", extra: ["hadfield2", "hadfield3"],
+  hook: "Hadfield's steel of 1882: 13 per cent manganese, so soft from the quench that no tool cuts it, yet every blow hardens the skin to three times its start while the core stays tough. The crossing nose, the crusher jaw.",
+  more: "Quench it from 1,000 °C and the manganese keeps the carbon in austenite, a soft lattice at 200 Brinell that stretches 40 per cent before it breaks. Hit it and the lattice twins and tangles faster than any other steel, so the skin climbs past 500 Brinell while the metal a millimetre down is still soft, and a crack cannot run. That is the railway crossing nose cast in one piece, the jaw plate and cone liner of a rock crusher, the digger tooth and the prison bar that eats the hacksaw. The costs: it cannot be machined, only cast to shape and ground; a part that is never hammered stays soft and wears; and heat it past 300 °C and carbides creep out along the grain boundaries and it goes brittle, so it is welded cold and never flame-cut near an edge.",
   stats: [["Manganese", "11–14%"], ["As-cast", "~200 HB"], ["Worked surface", "~550 HB"]],
   uses: "Railway crossings, rock crusher jaws, excavator teeth, prison bars.",
   link: "https://en.wikipedia.org/wiki/Mangalloy"
 },
 {
   id: "duplex", cat: "metal", name: "Duplex stainless 2205",
-  sub: "half ferrite, half austenite", img: "duplex",
-  hook: "Two crystal structures in one alloy, deliberately balanced fifty-fifty. The mixture is twice as strong as ordinary 316 and far harder to crack in chloride, so you use less of it on an offshore platform.",
+  sub: "half ferrite, half austenite", img: "duplex", extra: ["duplex2", "duplex3"],
+  hook: "Half ferrite, half austenite, and the mix beats both parents: twice the yield strength of 316 and far harder to crack in chloride, so a tank wall is half as thick. Weld it too hot and a third phase embrittles it.",
+  more: "2205 holds 22 per cent chromium, 5 nickel, 3 molybdenum and a little nitrogen, so it freezes as ferrite and half turns to austenite on cooling. Ferrite brings the yield strength, 450 MPa against 200, and shrugs off stress-corrosion cracking; austenite brings toughness and weldability; and the fine two-phase grain stops a pit from growing. So the chemical tanker's cargo tanks, the platform pipework, the desalination plant and the 650 tonnes of Singapore's Helix Bridge are duplex, thinner and cheaper per year than 316. The costs: between 700 and 950 °C the sigma phase forms in minutes and kills toughness, so weld heat is metered to the kilojoule; below minus 50 °C the ferrite goes brittle; and it work-hardens, so it fights the bender and the drill.",
   stats: [["Yield", "~450 MPa"], ["Phases", "~50/50 α + γ"], ["PREN", "~35"]],
   uses: "Offshore piping, desalination plant, chemical tankers, bridge rebar.",
   link: "https://en.wikipedia.org/wiki/Duplex_stainless_steel"
 },
 {
   id: "ss316l", cat: "metal", name: "316L stainless",
-  sub: "Fe–18Cr–10Ni–2Mo, low carbon", img: "ss316l",
-  hook: "The default when something has to be clean, welded and left alone. The 2% molybdenum is what buys chloride resistance, and the L — carbon under 0.03% — stops chromium carbides forming at the weld and eating the corrosion resistance there.",
+  sub: "Fe–18Cr–10Ni–2Mo, low carbon", img: "ss316l", extra: ["ss316l2"],
+  hook: "The 2 per cent molybdenum buys chloride resistance; the L buys a weld that stays stainless: under 0.03 per cent carbon, so no carbides form by the bead. The default for anything clean, welded and left alone.",
+  more: "Hold 316 between 500 and 800 °C, as every weld does beside the bead, and carbon pulls chromium into grain-boundary carbides, leaving a starved band that rusts first: weld decay. Cut the carbon to 0.03 per cent and there is not enough to matter, so the low-carbon grade is welded without an anneal and the molybdenum keeps the pits away in brine and brewery acid. It is the pharma vessel, the orbital-welded gas line in a chip fab, the dairy pipe, the piercing stud and the bone plate, and its atomised powder is the most printed steel. The costs: it is not immune, and in warm chloride under stress it still cracks; it is dearer and softer than 304; it galls, so a stainless bolt seizes in a stainless nut; and a magnet tells it from steel but not from 304.",
   stats: [["Molybdenum", "2–3%"], ["Carbon", "<0.03%"], ["Magnetic", "no, until cold-worked"]],
   uses: "Food and pharma plant, marine fittings, surgical instruments, exhausts.",
   link: "https://en.wikipedia.org/wiki/SAE_316L_stainless_steel"
 },
 {
   id: "hss", cat: "metal", name: "High-speed steel",
-  sub: "M2 / T1 tool steel", img: "hss",
-  hook: "The alloy that doubled factory output overnight in 1900: tungsten and molybdenum carbides keep it hard even when the cutting edge glows dull red. Carbide has taken the high end, but HSS still wins wherever the tool has to survive a flex.",
+  sub: "M2 / T1 tool steel", img: "hss", extra: ["hss2", "hss3"],
+  hook: "Taylor and White's steel of 1900: quenched from a yellow heat, its carbides hold an edge at a dull red, so the lathe ran three times faster. Carbide took the high end; HSS still wins where the tool has to flex.",
+  more: "At the 1900 Paris Exposition a Bethlehem lathe cut steel with a tool glowing red, and shop output doubled in a decade. The trick is secondary hardening: 18 per cent tungsten, or the 6 tungsten and 5 molybdenum of the M2 that replaced it, dissolves at 1,250 °C, and a temper at 550 °C precipitates carbides fine enough to hold 65 Rockwell up to 600 °C. It is the twist drill, the tap, the die, the gear hob, the bandsaw tooth and the planer blade. Cemented carbide is twice as hard and cuts five times faster, but it shatters at a shock or a flex, so HSS keeps the long, thin and hand-held tools. The costs: tungsten and cobalt prices; a hardening at 1,250 °C that wants a salt bath or a vacuum furnace; and it is blunt at 700 °C where carbide is still cutting.",
   stats: [["Red hardness", "to ~600 °C"], ["Hardness", "62–67 HRC"], ["Beats carbide at", "toughness"]],
   uses: "Drill bits, taps, milling cutters, hacksaw and bandsaw blades.",
   link: "https://en.wikipedia.org/wiki/High-speed_steel"

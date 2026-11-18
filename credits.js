@@ -2654,39 +2654,111 @@ window.CREDITS = {
   },
   "damascus": {
     "file": "damascus.jpg",
-    "caption": "Pattern-welded blades, etched to bring out the layers",
+    "caption": "A German pattern-welded kitchen knife: the layers etched up, the edge a harder core",
+    "kind": "product",
+    "title": "Solicut knife.jpg",
+    "site": "Wikimedia",
+    "artist": "Designer of the knife is unknown",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Solicut_knife.jpg",
+    "w": 960,
+    "h": 208
+  },
+  "damascus2": {
+    "file": "damascus2.jpg",
+    "caption": "Hair-cutting shears in pattern-welded steel, etched to bring out the layers",
     "kind": "product",
     "title": "Front and back of blades of hair-cutting shears made from Damascus steel.jpg",
+    "site": "Wikimedia",
     "artist": "Pittigrilli",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Front_and_back_of_blades_of_hair-cutting_shears_made_from_Damascus_steel.jpg",
     "w": 960,
-    "h": 480,
-    "site": "Wikimedia"
+    "h": 480
+  },
+  "damascus3": {
+    "file": "damascus3.jpg",
+    "caption": "A Kramer chef's knife: pattern-welded cladding wrapped round a plain hard core",
+    "kind": "product",
+    "title": "Knife by Bob Kramer (17970647591).jpg",
+    "site": "Wikimedia",
+    "artist": "Didriks from Cambridge, MA, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Knife_by_Bob_Kramer_(17970647591).jpg",
+    "w": 960,
+    "h": 640
   },
   "hadfield": {
     "file": "hadfield.jpg",
-    "caption": "A track frog — the crossing casting is manganese steel",
+    "caption": "The nose of a railway crossing, the piece every wheel hammers, the classic manganese steel casting",
     "kind": "product",
-    "title": "Sacramento tram track frog 4036.JPG",
-    "artist": "Pedro Xing",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sacramento_tram_track_frog_4036.JPG",
+    "title": "2016-02-29 Nürnberg-Südbahnhof - Herzstück - Weichenbau - 3886.jpg",
+    "site": "Wikimedia",
+    "artist": "Sven Teschke",
+    "license": "CC BY-SA 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:2016-02-29_N%C3%BCrnberg-S%C3%BCdbahnhof_-_Herzst%C3%BCck_-_Weichenbau_-_3886.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 620
+  },
+  "hadfield2": {
+    "file": "hadfield2.jpg",
+    "caption": "Crusher jaw plates cast in manganese steel, soft until the first rock hits them",
+    "kind": "product",
+    "title": "Jaw Plates.jpg",
+    "site": "Wikimedia",
+    "artist": "Precisioncrushers",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jaw_Plates.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "hadfield3": {
+    "file": "hadfield3.jpg",
+    "caption": "A cone-crusher bowl liner in manganese steel: a wear part that hardens in service",
+    "kind": "product",
+    "title": "Bowl Liner.jpg",
+    "site": "Wikimedia",
+    "artist": "Precisioncrushers",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bowl_Liner.jpg",
+    "w": 960,
+    "h": 720
   },
   "duplex": {
     "file": "duplex.jpg",
-    "caption": "A chemical tanker — duplex stainless is the standard for cargo tanks that carry acid",
+    "caption": "The Helix Bridge, Singapore: 650 tonnes of duplex 2205 that will not pit in the harbour air",
+    "kind": "product",
+    "title": "Singapore (SG), Helix Bridge -- 2019 -- 4459.jpg",
+    "site": "Wikimedia",
+    "artist": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_Helix_Bridge_--_2019_--_4459.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "duplex2": {
+    "file": "duplex2.jpg",
+    "caption": "Four duplex grades under the microscope: light austenite islands in dark ferrite, half and half",
+    "kind": "structure",
+    "title": "Microstructures of four kinds of duplex stainless steel in each direction.jpg",
+    "site": "Wikimedia",
+    "artist": "Tiago Felipe de Abreu Santosa, Edwar Andrés Torres Lópezd, Eduardo Bertoni da Fonsecaa & Antonio Jose Ramireza",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Microstructures_of_four_kinds_of_duplex_stainless_steel_in_each_direction.jpg",
+    "w": 960,
+    "h": 1493
+  },
+  "duplex3": {
+    "file": "duplex3.jpg",
+    "caption": "A chemical tanker: duplex stainless is the standard for cargo tanks that carry acid",
     "kind": "product",
     "title": "Chemical tanker Ternholm at Skarvikshamnen 2.jpg",
+    "site": "Wikimedia",
     "artist": "W.carter",
     "license": "CC0",
     "page": "https://commons.wikimedia.org/wiki/File:Chemical_tanker_Ternholm_at_Skarvikshamnen_2.jpg",
     "w": 960,
-    "h": 540,
-    "site": "Wikimedia"
+    "h": 540
   },
   "hss": {
     "file": "hss.jpg",
@@ -2699,6 +2771,30 @@ window.CREDITS = {
     "w": 960,
     "h": 615,
     "site": "Wikimedia"
+  },
+  "hss2": {
+    "file": "hss2.jpg",
+    "caption": "An M6 threading die with HSS stamped on it: four cutting edges that must not chip",
+    "kind": "product",
+    "title": "Narex M6 high speed steel 6 g tolerance threading die.jpg",
+    "site": "Wikimedia",
+    "artist": "R. Henrik Nilsson",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Narex_M6_high_speed_steel_6_g_tolerance_threading_die.jpg",
+    "w": 960,
+    "h": 970
+  },
+  "hss3": {
+    "file": "hss3.png",
+    "caption": "A 1920 advert for a high-speed steel with uranium in it, when every maker had a secret addition",
+    "kind": "related",
+    "title": "Electrite Uranium HSS advert in American Machinist v53 n1 1920.png",
+    "site": "Wikimedia",
+    "artist": "Latrobe Electric Steel Company",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Electrite_Uranium_HSS_advert_in_American_Machinist_v53_n1_1920.png",
+    "w": 960,
+    "h": 656
   },
   "phosbronze": {
     "file": "phosbronze.jpg",
@@ -5039,6 +5135,18 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/chrisyarzab/27964588231",
     "w": 960,
     "h": 501
+  },
+  "ss316l2": {
+    "file": "ss316l2.jpg",
+    "caption": "A stress-corrosion crack through 316L after 500 hours of evaporating seawater at 110 °C: not immune",
+    "kind": "structure",
+    "title": "SCC of stainless steel UNS S31603.jpg",
+    "site": "Wikimedia",
+    "artist": "Henrique Boschetti Pereiraa, Zehbour Panossiana, Ilson Palmieri Baptistab, & Cesar Roberto de Farias Azevedoc  (Cropped by the uploader)",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SCC_of_stainless_steel_UNS_S31603.jpg",
+    "w": 960,
+    "h": 3005
   },
   "cupronickel": {
     "file": "cupronickel.jpg",

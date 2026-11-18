@@ -818,3 +818,33 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Wills Wing Talon 150` | a hang glider on a museum ceiling |
 | `Inside of a Lenovo ThinkPad X220 magnesium alloy bottom case.jpg` | a good casting but a grey rectangle at card size |
 | `Magnesium body of PENTAX K-1.JPG`, `Magnesium die casting machine.jpg` | a second camera chassis, and a machine hall |
+
+
+## Restyle batch, 18 November 2026: damascus, hadfield, duplex, ss316l, hss
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Pattern welding in progress, a billet or a twist | `pattern welded billet forging`, `mokume damascus billet`, `damascus steel blade etched`, `wootz ingot` | nothing; Commons has finished knives and museum swords only | a smith's billet at welding heat or a wootz cake |
+| Hadfield steel named as such | `manganese steel frog`, `Manganhartstahl`, `Herzstück Weiche Manganstahl`, `crusher hammer manganese` | only 1890s journal scans; the Nürnberg crossing nose is the nearest modern photo and does not name the steel | a foundry shot of a cast crossing or a dragline tooth labelled manganese |
+| Duplex pipework or a tank interior | `duplex stainless pipe`, `offshore platform stainless piping`, `chemical tanker cargo tank stainless`, `stainless steel flange pipe spool`, `desalination plant pipes` | nothing; `desalination` returns a fort in Liwa | a duplex pipe spool or tank bulkhead named as such |
+| 316L in a clean plant | `stainless steel sanitary fitting`, `pharmaceutical stainless vessel`, `stainless steel tri-clamp`, `dairy stainless piping`, `316 stainless marine fitting`, `sensitization weld decay` | nothing named; brewery tanks are 304 and unlabelled | a tri-clamp fitting or a pharma vessel named 316L |
+| An HSS lathe bit or end mill | `HSS lathe tool`, `Drehmeißel HSS`, `HSS end mill`, `twist drill set HSS`, `reamer HSS`, `lathe tool bit grinding` | nothing; `tap and die set` returns the Mandelbrot set | a ground lathe tool bit or an end mill named HSS |
+
+| rejected after looking | why |
+|---|---|
+| `Front and back of blades of hair-cutting shears made from Damascus steel.jpg` as the face | the pattern vanishes at card size; kept as second view, the Solicut blade is the face |
+| `Wootz Steel Detail.jpg`, `South Indian Wootz Steel Sword.jpg` | a brown blur and two thin curves on pink at card size |
+| `GE Lewis centrefire double barrel cartridge shotgun` | Damascus barrels, but shot from the muzzle; no pattern visible |
+| `Neck knife aus Damaszener Stahl von Holger Müller.jpg` | 1000 px, dark, handle dominates |
+| `Sacramento tram track frog 4036.JPG` as the hadfield face | a street crossing from across the road; dropped for the Nürnberg crossing nose |
+| `Common railroad crossing.jpg`, `Münster, Speicherstadt, Gleise` | portrait and distant; the frog is a thin line |
+| `Marion 7400 walking dragline excavator bucket` | a rusty monument, teeth not readable |
+| `Pierces Railway Frog and Crossing.jpg` | an 1860s cast-iron advert, pre-Hadfield |
+| `Chemical tanker Ternholm at Skarvikshamnen 2.jpg` as the duplex face | a ship at a quay; kept as third view, the Helix Bridge is the face |
+| `Pitting corrosion on duplex stainless steel specimens.jpg` | four grey panels of pits, says nothing at card size |
+| `Stainless Steel Reinforcing Bars VT` | rebar bundles, grade unstated |
+| `Orbital Welding 316L Stainless Steel.jpg` on Commons | the same Flickr photograph the card already shows |
+| `SEM photo of 316L Stainless Steel metal powder...` | already the metal-powder card's photograph; the structure check caught it |
+| `HSS-E Bohrer.jpg` | GFDL only, and duplicates the drill face |
+| `Wälzfräser und gefräste Verzahnung.JPG`, `Spline hobs.JPG` | good hobs, but coated and unlabelled; two extras are enough |
+| `4X-HSS Micha.jpg` | an aircraft registration |
