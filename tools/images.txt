@@ -53,10 +53,16 @@ starlite|commons|Starlite sample.jpg|A surviving Starlite sample|photo
 auxetic|commons|Meta-aux-orange.jpg|Auxetic lattice — gets thinner when stretched|photo
 albemet|commons|Be-140g.jpg|Pure beryllium, the stiffening phase in AlBeMet|photo
 ptfe|Flickr|https://live.staticflickr.com/2228/2363587972_e1fcd0cdb0_b.jpg|A machined PTFE bearing cage|product|CC BY 2.0|oskay|https://www.flickr.com/photos/17425845@N00/2363587972
+ptfe2|commons|PTFEpaska.jpg|Thread seal tape: unsintered PTFE, skived thin, the form most people have handled|product
 eptfe|commons|Goretex photo.png|Expanded PTFE under the microscope — the node-and-fibril structure that passes vapour but not droplets|photo
 aramid|commons|Para Aramid Yarns Body Armor.jpg|Para-aramid yarn woven for ballistic panels|photo
-fkm|commons|Fiber optic vacuum viton seal ProtoDUNE.jpg|An FKM (Viton) seal on a vacuum feedthrough|photo
-silicone|commons|Liquid-silicon-rubber-crop.jpg|Liquid silicone rubber before cure|photo
+aramid2|commons|ATV shielding after impact test ESA313132.jpg|Kevlar and Nextel debris shielding for ESA's ATV freighter after a hypervelocity test shot: the fabric is through, the pressure hull behind it was not|product
+fkm|commons|Chemikalien-Schutzhandschuhe Vitoject.jpg|Chemical-protection gloves dipped in Viton, for solvents that go through nitrile|product
+fkm2|commons|Tecnoflon.jpg|A 200 g lump of raw fluoroelastomer gum, Solvay's Tecnoflon, before it is compounded and cured|photo
+fkm3|commons|Fiber optic vacuum viton seal ProtoDUNE.jpg|An FKM seal on a vacuum feedthrough at CERN's ProtoDUNE|photo
+silicone|commons|Eiswuerfelform-silikon.jpg|Silicone ice-cube trays: flexible at freezer temperature and safe in the oven the same afternoon|product
+silicone2|commons|Liquid-silicon-rubber-crop.jpg|Liquid silicone rubber before cure|photo
+silicone3|commons|Silastic Silicone Rubber- Molded Parts Resist Weather Aging - DPLA - 35ed76e4b1553fb04d228117fdf8b95c.jpg|A 1950s Dow Corning advertisement: Silastic bellows, picked out in red, on the rotor head of a Sikorsky S-55|related
 natrubber|Flickr|https://live.staticflickr.com/3521/3844921160_363bee9886_b.jpg|Latex running from a tapped rubber tree into its cup|process|CC BY 2.0|chinogypsie|https://www.flickr.com/photos/61178524@N00/3844921160
 butyl|commons|Butyl rubber gloves.JPG|Butyl rubber gloves — the polymer gas does not get through|photo
 pvdf|commons|A UPW Installation using PVDF Piping.png|PVDF pipework in an ultrapure water plant|photo

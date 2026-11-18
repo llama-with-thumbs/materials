@@ -600,6 +600,18 @@ window.CREDITS = {
     "w": 960,
     "h": 720
   },
+  "ptfe2": {
+    "file": "ptfe2.jpg",
+    "caption": "Thread seal tape: unsintered PTFE, skived thin, the form most people have handled",
+    "kind": "product",
+    "title": "PTFEpaska.jpg",
+    "site": "Wikimedia",
+    "artist": "Bbarda",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PTFEpaska.jpg",
+    "w": 960,
+    "h": 588
+  },
   "eptfe": {
     "file": "eptfe.png",
     "caption": "Expanded PTFE under the microscope — the node-and-fibril structure that passes vapour but not droplets",
@@ -624,29 +636,89 @@ window.CREDITS = {
     "h": 653,
     "site": "Wikimedia"
   },
+  "aramid2": {
+    "file": "aramid2.jpg",
+    "caption": "Kevlar and Nextel debris shielding for ESA's ATV freighter after a hypervelocity test shot: the fabric is through, the pressure hull behind it was not",
+    "kind": "product",
+    "title": "ATV shielding after impact test ESA313132.jpg",
+    "site": "Wikimedia",
+    "artist": "European Space Agency",
+    "license": "CC BY-SA 3.0 igo",
+    "page": "https://commons.wikimedia.org/wiki/File:ATV_shielding_after_impact_test_ESA313132.jpg",
+    "w": 960,
+    "h": 638
+  },
   "fkm": {
     "file": "fkm.jpg",
-    "caption": "An FKM (Viton) seal on a vacuum feedthrough",
+    "caption": "Chemical-protection gloves dipped in Viton, for solvents that go through nitrile",
+    "kind": "product",
+    "title": "Chemikalien-Schutzhandschuhe Vitoject.jpg",
+    "site": "Wikimedia",
+    "artist": "Hexaacetatodihydroxotrieeisen(III)acetat",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chemikalien-Schutzhandschuhe_Vitoject.jpg",
+    "w": 960,
+    "h": 721
+  },
+  "fkm2": {
+    "file": "fkm2.jpg",
+    "caption": "A 200 g lump of raw fluoroelastomer gum, Solvay's Tecnoflon, before it is compounded and cured",
+    "kind": "photo",
+    "title": "Tecnoflon.jpg",
+    "site": "Wikimedia",
+    "artist": "Gmhofmann",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tecnoflon.jpg",
+    "w": 908,
+    "h": 708
+  },
+  "fkm3": {
+    "file": "fkm3.jpg",
+    "caption": "An FKM seal on a vacuum feedthrough at CERN's ProtoDUNE",
     "kind": "photo",
     "title": "Fiber optic vacuum viton seal ProtoDUNE.jpg",
+    "site": "Wikimedia",
     "artist": "Ajheindel",
     "license": "CC BY 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Fiber_optic_vacuum_viton_seal_ProtoDUNE.jpg",
     "w": 960,
-    "h": 1343,
-    "site": "Wikimedia"
+    "h": 1343
   },
   "silicone": {
     "file": "silicone.jpg",
+    "caption": "Silicone ice-cube trays: flexible at freezer temperature and safe in the oven the same afternoon",
+    "kind": "product",
+    "title": "Eiswuerfelform-silikon.jpg",
+    "site": "Wikimedia",
+    "artist": "Gmhofmann",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eiswuerfelform-silikon.jpg",
+    "w": 960,
+    "h": 583
+  },
+  "silicone2": {
+    "file": "silicone2.jpg",
     "caption": "Liquid silicone rubber before cure",
     "kind": "photo",
     "title": "Liquid-silicon-rubber-crop.jpg",
+    "site": "Wikimedia",
     "artist": "By Gmhofmann (Own work) [CC-BY-SA-3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Liquid-silicon-rubber-crop.jpg",
     "w": 900,
-    "h": 676,
-    "site": "Wikimedia"
+    "h": 676
+  },
+  "silicone3": {
+    "file": "silicone3.jpg",
+    "caption": "A 1950s Dow Corning advertisement: Silastic bellows, picked out in red, on the rotor head of a Sikorsky S-55",
+    "kind": "related",
+    "title": "Silastic Silicone Rubber- Molded Parts Resist Weather Aging - DPLA - 35ed76e4b1553fb04d228117fdf8b95c.jpg",
+    "site": "Wikimedia",
+    "artist": "Dow Corning Corporation",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Silastic_Silicone_Rubber-_Molded_Parts_Resist_Weather_Aging_-_DPLA_-_35ed76e4b1553fb04d228117fdf8b95c.jpg",
+    "w": 960,
+    "h": 1336
   },
   "natrubber": {
     "file": "natrubber.jpg",

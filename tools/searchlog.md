@@ -472,3 +472,26 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Hercules.propeller.arp.jpg` | a C-130J, composite blades |
 | `584c Image of Curatorial Object (54689337931).jpg` | a Dowty Rotol four-blade, described as metal |
 | `S03 233 Isolierlasche.jpg` | an insulated rail joint; the fishplates were once densified wood but these are described as glass fibre |
+
+
+## Restyle batch, 18 November 2026: ptfe, eptfe, aramid, fkm, silicone
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| FKM, a bare O-ring | `Viton O-ring`, `fluoroelastomer O-ring`, `FKM seal`, `Viton`, `fluororubber` | the only ring assortments are mixed materials from a seal vendor; `Viton` returns an island, a crane and a grave | a photo of brown or black Viton rings labelled as such |
+| Silicone, moulded parts or tubing | `silicone rubber tubing`, `silicone keypad`, `silicone rubber mould`, `silicone spatula`, `silicone baking mould` | nothing usable: hose photos are a computer restoration, moulds are of sculptures | a photo of a silicone keypad or peristaltic tubing |
+| PTFE, a lined vessel or a sheet | `PTFE sheet` | nothing | a photo of PTFE lining or a skived sheet |
+| ePTFE, a vascular graft | `ePTFE vascular graft` | nothing on Commons | a surgical or teaching photo of a graft |
+| Aramid, a honeycomb | `aramid honeycomb` | nothing; Nomex honeycomb would be meta-aramid in any case | a photo of Nomex honeycomb core |
+
+| rejected after looking | why |
+|---|---|
+| `Fiber optic vacuum viton seal ProtoDUNE.jpg` as the face | a brown cap on a black tube at card size, unidentifiable; kept as the third view, the Viton gloves are the face |
+| `Liquid-silicon-rubber-crop.jpg` as the face | a smear on a brown table; kept as the second view, the ice-cube trays are the face |
+| `Assortment of oil seals.jpg` | a vendor's mixed bag, only some of it FKM |
+| `Comparison of rubber and silicone grommet plugs for drainag.jpg` | three small plugs on a desk, too small at card size |
+| `Silicone 3d print with support material.jpg` | a printer nozzle; the silicone is a black blur under it |
+| `Exposició TAPAS. Spanish Design For Food - 04.jpg` | museum vitrine of Lékué kitchenware, mostly labels |
+| `NIJ LVLIIIA Kogelvrij vest, BA8001.jpg` | a vendor's product shot of a vest; the ESA shield after the test shot says more |
+| `Early Gore-Tex hooded rain jacket.jpg` as an ePTFE view | already the face of the laminated shell card; the Navy flight-deck photo replaced it |
+| the US Navy flight-deck Gore-Tex photo (070130-N-0555B-129) | a helmet and a catapult lamp at card crop; the jacket is camouflage and could be anything, so ePTFE keeps only its micrograph |
