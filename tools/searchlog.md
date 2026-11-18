@@ -673,3 +673,28 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Cellulose Acetate disposable syringe filter.jpg` | a labelled packet, honest but a packet |
 | `MagicEraser 240708 024642.png` | an owl logo |
 | `Ski base structure.jpg` | 800 px of black strip |
+
+
+## Restyle batch, 18 November 2026: pva, nafion, pbi, galalith, celluloid
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| PVOH, a soluble print support or embroidery stabiliser | `dissolvable support 3D print`, `PVA support material`, `soluble support 3D printing`, `water soluble embroidery stabilizer`, `PVA film water soluble` | nothing; `PVA` returns Prague exhibition grounds and a Korean war | a two-head print with the support half dissolved |
+| Nafion, the bare membrane or a chlor-alkali cell | `Nafion membrane`, `Nafion`, `membrane electrode assembly`, `chlor-alkali cell membrane`, `Nafion tubing`, `fuel cell bipolar plate membrane` | one diagram, one process photo (the face) and nothing of the membrane itself | a roll or sheet of Nafion, or an MEA before assembly |
+| PBI, a hood or turnout shell named as such | `PBI hood firefighter`, `firefighter hood`, `Celazole`, `flash hood`, `turnout gear fire`, `PBI fabric`, `PBI Gold`, `firefighter balaclava` | the Toronto hood is Nomex, the Navy hood is unspecified, `PBI` returns aircraft registrations | a PBI Gold coat or a hood labelled as PBI |
+| Galalith, buttons or Bengel jewellery | `Galalith buttons`, `casein buttons`, `galalith jewelry`, `Galalith Schmuck`, `Knöpfe Galalith`, `knitting needles casein` | the RAAF buttons are 835 px, the Larousse engraving is a halftone, the needle set has one casein needle among twenty | a Bengel necklace or a tray of galalith buttons |
+| Celluloid, a decayed nitrate reel | `nitrate film decomposition`, `nitrate film fire`, `celluloid dice` | only a 1930s fire-test print, murky at card size | a reel gone to powder in its can |
+
+| rejected after looking | why |
+|---|---|
+| `Folia PVA z pochodną kumaryny...` as the PVOH face | a yellow petri dish, reads as nothing; replaced by the detergent pods, the dish dropped |
+| `Sample of Polyvinyl alcohol.jpg` | white granules in a jar |
+| `Fuel cell membrane (15954011223).jpg` | a good membrane photo, but an anion-exchange membrane for alkaline cells, not Nafion |
+| `Toyota Mirai fuel cell stack and hydrogen tank SAO 2016 9026.jpg` | the whole car cutaway; the stack is a box in the corner |
+| `PBI Membrane HT-PEM.jpg` | 1020 px and duplicates the face |
+| `Objets en galalithe.jpg` | a 1921 Larousse halftone |
+| `Straight knitting needles.JPG` | twenty needles, one of them casein |
+| `Comb, hair (2) (AM 1970.201-2).jpg` | a tortoiseshell comb much like the acetate view two cards along |
+| `Photograph of Fire Test of Nitrate Film - DPLA` | a black-and-white yard of burning cans, unreadable small |
+| `Bébé celluloïd.jpg` | a doll in a dress, the material invisible |
+| `Celluloid Picks.jpg` | a handful of picks, fine but the vanity set and the ball say more |

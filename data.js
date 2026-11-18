@@ -560,8 +560,9 @@ window.MATERIALS = [
 },
 {
   id: "pva", cat: "polymer", name: "Polyvinyl alcohol",
-  sub: "PVOH", img: "pva",
-  hook: "A plastic designed to fail. The film around a detergent pod is strong enough to survive shipping and a dry hand, then dissolves completely in cold water in under a minute.",
+  sub: "PVOH", img: "pva", extra: ["pva2"],
+  hook: "Made from polyvinyl acetate because the alcohol monomer does not exist. A hydroxyl on every other carbon, so it dissolves in water, and how many acetates are left sets how cold: the pod skin goes in the cold fill.",
+  more: "Herrmann and Haehnel made it in 1924 by saponifying polyvinyl acetate, and the acetates left behind are the dial: 12 per cent left and it goes in a cold wash, 1 per cent and it needs water near the boil, because the hydroxyls lock into crystals only heat breaks. Most of it sizes warp yarn and washes out after weaving. The rest is the film of the detergent pod and dishwasher tablet, the support a two-head printer dissolves off a PLA part, the laundry bag that opens in the hospital wash and, stretched and stained with iodine, the polariser in every LCD. Dry, nothing stops oxygen like it; damp, it swells and lets everything through. Whether the pod skin degrades in a sewer is argued, humid air makes it tacky, and its glycerol plasticiser sweats out.",
   stats: [["Solubility", "cold or hot grades"], ["Oxygen barrier", "excellent, when dry"], ["Residue", "dissolves away"]],
   uses: "Detergent pods, dissolvable 3D-print supports, embroidery backing, release film.",
   link: "https://en.wikipedia.org/wiki/Polyvinyl_alcohol",
@@ -569,8 +570,9 @@ window.MATERIALS = [
 },
 {
   id: "nafion", cat: "polymer", name: "Nafion",
-  sub: "sulfonated tetrafluoroethylene ionomer", img: "nafion",
-  hook: "A PTFE backbone with sulfonic acid groups hanging off it. The fluorine keeps it chemically immortal while the acid channels ferry protons through — it lets hydrogen ions cross and blocks everything else, which is what makes a fuel cell a cell.",
+  sub: "sulfonated tetrafluoroethylene ionomer", img: "nafion", extra: ["nafion2"],
+  hook: "Grot's membrane of 1966: a Teflon backbone with sulphonic acid tails that cluster into wet channels, passing protons and nothing else. It made the chlor-alkali cell mercury-free and the hydrogen fuel cell possible.",
+  more: "Grot at DuPont copolymerised tetrafluoroethylene with a vinyl ether ending in a sulphonyl group, and the two halves of the chain refuse to mix: the fluorocarbon forms a tough, inert matrix and the acid groups gather into channels that fill with water. Protons hop through the water; chloride, hydroxide and gases barely cross. So it replaced mercury and asbestos in the chlorine cell, and it is the electrolyte of the PEM fuel cell, 330 of them in a Mirai stack, and of the green-hydrogen electrolyser. The costs: it works only wet, so a cell runs below 80 °C on humidified gas; it needs platinum on both faces; it costs hundreds of dollars a metre; it sheds fluoride with age; and it is a PFAS, made with the GenX surfactant that fouled the Cape Fear River.",
   stats: [["Conductivity", "~0.1 S/cm, hydrated"], ["Thickness", "25–180 µm"], ["Needs", "water to work"]],
   uses: "PEM fuel cells, chlor-alkali cells, electrolysers, flow batteries.",
   link: "https://en.wikipedia.org/wiki/Nafion",
@@ -579,7 +581,8 @@ window.MATERIALS = [
 {
   id: "pbi", cat: "polymer", name: "PBI",
   sub: "polybenzimidazole", img: "pbi",
-  hook: "The polymer that will not burn and will not melt. It has no melting point at all — it chars at around 500 °C — so a firefighter's hood made of it stays intact in flashover where aramid alone would shrink away.",
+  hook: "Marvel's polymer of 1961, spun after the Apollo 1 fire: fused imidazole and benzene rings, no melting point, char at 500 °C. The firefighter's hood that holds in flashover, and the stiffest unfilled plastic sold.",
+  more: "Marvel and Vogel made it at Illinois in 1961, and after Apollo 1 burned in 1967 the Air Force paid Celanese to spin it: a gold fibre that will not melt, drip or keep burning, with an oxygen index of 41 against 21 in air. Alone it is limp and wears badly, so it goes 40 per cent into a Kevlar blend, PBI Gold, the outer shell of a turnout coat and the knit hood under the helmet that holds in a flashover where aramid alone shrinks and cracks. The same rings, hot-pressed because nothing melts them, are Celazole, the stiffest and strongest unfilled plastic sold, machined into seals that sit at 300 °C. The costs: several times the price of aramid, it drinks 15 per cent water, sunlight weakens it, and the resin is sintered and machined, never moulded.",
   stats: [["Tg", "427 °C"], ["Melting", "none"], ["LOI", ">41%"]],
   uses: "Firefighter hoods and turnout gear, high-temp seals and bushings, glove liners.",
   link: "https://en.wikipedia.org/wiki/Polybenzimidazole_fiber",
@@ -587,16 +590,18 @@ window.MATERIALS = [
 },
 {
   id: "galalith", cat: "polymer", name: "Galalith",
-  sub: "casein formaldehyde, milk-protein plastic", img: "galalith",
-  hook: "Made by soaking the protein from skimmed milk in formaldehyde until it hardens into something close to ivory or horn. It was the first plastic convincing enough to counterfeit both, so it took over the button and comb trade for a generation. Because the formaldehyde cure is one-way it can only be carved and cut, never moulded a second time, and it swells and warps if it stays wet.",
+  sub: "casein formaldehyde, milk-protein plastic", img: "galalith", extra: ["galalith2"],
+  hook: "Spitteler and Krische's milk-stone of 1897: skimmed-milk curd pressed into sheet and left in formaldehyde until it sets hard as horn. It took the button and the comb from ivory, and lost them to the washing machine.",
+  more: "A litre of skimmed milk gives 30 g of casein; pressed warm into sheet and rod, it goes into formaldehyde that cross-links the protein from the outside in, a millimetre a day, so a thick rod took months. Out of the bath it is dense, takes any dye, marbled to pass for horn, tortoiseshell or ivory, and it polishes beautifully, so it was the button of every coat from 1900 to the 1960s, the comb, the pen barrel and, from the Bengel works in Idar-Oberstein, the Art Deco necklace Chanel sold. The cure is one-way, so it is cut, never moulded, and it is still a protein. It swells and warps in water, so the button cracked in the twin-tub, it dulls when dry, it will not take a hot iron, and the polyester button of the 1950s finished it, bar one Italian maker.",
   stats: [["From", "skim-milk casein"], ["Set by", "formaldehyde soak"], ["Weakness", "swells in water"]],
   uses: "Buttons, combs, knitting needles, fountain-pen trim, Art Deco jewellery.",
   link: "https://en.wikipedia.org/wiki/Galalith"
 },
 {
   id: "celluloid", cat: "polymer", name: "Celluloid",
-  sub: "cellulose nitrate, camphor-plasticised", img: "celluloid",
-  hook: "The first true thermoplastic: cotton cellulose nitrated and softened with camphor into a clear horn that could be moulded into combs, collars, dice and cine film. It opened the plastics age in the 1860s, but it carries its own oxidiser built in. Celluloid burns ferociously, and decaying film stock has set fire to archives and projection booths. That flammability is why nearly every job it once held moved to a safer plastic.",
+  sub: "cellulose nitrate, camphor-plasticised", img: "celluloid", extra: ["celluloid2", "celluloid3"],
+  hook: "Hyatt's horn of 1869: cotton nitrated, kneaded with camphor and pressed, the first plastic moulded hot, cut cold. It gave the world the comb, the movie and the ping-pong ball, and it brings its own oxygen to a fire.",
+  more: "Parkes showed it in 1862 and went bankrupt on it; Hyatt, chasing a prize for an ivory substitute, found in 1869 that camphor turns cellulose nitrate into a solid that softens at 90 °C and can be rolled, pressed and blown, sliced into sheet for combs that passed for tortoiseshell, dolls, dice and, from 1889, the film that made cinema possible. The nitrate groups are the problem: it burns at fifteen times the rate of wood and keeps burning under water, having its own oxygen, and as it ages it gives off nitric acid that eats the image, glues the reel into a puck and lowers the ignition point to 40 °C. Seventy-one children died at the Glen Cinema, Paisley, in 1929. It survives where feel matters: the guitar pick and the table tennis ball until 2014.",
   stats: [["First thermoplastic", "1860s"], ["Plasticiser", "camphor"], ["Flaw", "burns fiercely"]],
   uses: "Vintage combs and spectacle frames, dice, guitar picks, table-tennis balls, early cine film.",
   link: "https://en.wikipedia.org/wiki/Celluloid"

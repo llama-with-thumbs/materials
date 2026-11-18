@@ -2270,15 +2270,27 @@ window.CREDITS = {
   },
   "pva": {
     "file": "pva.jpg",
-    "caption": "Polyvinyl alcohol film",
-    "kind": "photo",
-    "title": "Folia PVA z pochodną kumaryny w świetle widzialnym nr 01.jpg",
-    "artist": "BogdaChemPol",
-    "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Folia_PVA_z_pochodn%C4%85_kumaryny_w_%C5%9Bwietle_widzialnym_nr_01.jpg",
+    "caption": "Detergent pods: liquid sealed in a skin of PVOH film that dissolves in the cold fill",
+    "kind": "product",
+    "title": "Laundry detergent pods.jpg",
+    "site": "Wikimedia",
+    "artist": "ajcespedes",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laundry_detergent_pods.jpg",
     "w": 960,
-    "h": 756,
-    "site": "Wikimedia"
+    "h": 640
+  },
+  "pva2": {
+    "file": "pva2.jpg",
+    "caption": "One pod close up: three chambers of liquid behind a film a few hundredths of a millimetre thick",
+    "kind": "product",
+    "title": "Tide Pod (29694766644).jpg",
+    "site": "Wikimedia",
+    "artist": "Pete from Liverpool, UK",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tide_Pod_(29694766644).jpg",
+    "w": 960,
+    "h": 667
   },
   "nafion": {
     "file": "nafion.jpg",
@@ -2291,6 +2303,18 @@ window.CREDITS = {
     "w": 960,
     "h": 557,
     "site": "Wikimedia"
+  },
+  "nafion2": {
+    "file": "nafion2.jpg",
+    "caption": "The fuel cell stack of a Toyota Mirai: hundreds of membrane cells in one block under the bonnet",
+    "kind": "product",
+    "title": "Toyota Mirai fuel cell stack SAO 2016 9034.jpg",
+    "site": "Wikimedia",
+    "artist": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Toyota_Mirai_fuel_cell_stack_SAO_2016_9034.jpg",
+    "w": 960,
+    "h": 640
   },
   "pbi": {
     "file": "pbi.jpg",
@@ -7308,6 +7332,18 @@ window.CREDITS = {
     "w": 960,
     "h": 719
   },
+  "galalith2": {
+    "file": "galalith2.png",
+    "caption": "A tavli board with galalith checkers, turned and polished from the cured sheet",
+    "kind": "product",
+    "title": "Tavli Board with slots – Isolated.png",
+    "site": "Wikimedia",
+    "artist": "Nikos Kitsakis",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tavli_Board_with_slots_%E2%80%93_Isolated.png",
+    "w": 960,
+    "h": 687
+  },
   "celluloid": {
     "file": "celluloid.jpg",
     "caption": "Rolls of old celluloid cine film at a restoration studio",
@@ -7319,6 +7355,30 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Old_celluloid_film_rolls_(5201105455).jpg",
     "w": 960,
     "h": 640
+  },
+  "celluloid2": {
+    "file": "celluloid2.jpg",
+    "caption": "A dresser set in imitation-ivory celluloid, the job it took from the elephant",
+    "kind": "product",
+    "title": "Celluloid dresser vanity set-01.jpg",
+    "site": "Wikimedia",
+    "artist": "Heritage Preservation Department - MNHS",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Celluloid_dresser_vanity_set-01.jpg",
+    "w": 960,
+    "h": 649
+  },
+  "celluloid3": {
+    "file": "celluloid3.jpg",
+    "caption": "A 40 mm celluloid table tennis ball, the rule until 2014, when the fire risk in shipping ended it",
+    "kind": "product",
+    "title": "40mm table tennis ball Celluloid.jpg",
+    "site": "Wikimedia",
+    "artist": "Jü",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:40mm_table_tennis_ball_Celluloid.jpg",
+    "w": 960,
+    "h": 280
   },
   "melamine": {
     "file": "melamine.jpg",

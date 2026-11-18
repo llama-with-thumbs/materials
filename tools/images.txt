@@ -192,8 +192,10 @@ pla3|commons|Dualprint version of -3DBenchy made of PLA filament - 3DBenchy.com 
 melaminefoam|commons|MagicEraser.jpg|A melamine foam cleaning block: open cells with hard, brittle walls that scour as they crumble|product
 melaminefoam2|Flickr|https://live.staticflickr.com/7623/16845294825_42eef15d71_b.jpg|Profiled melamine foam cut for acoustic panels, the job it was made for|product|CC BY-SA 2.0|Trevor Cox Salford|https://www.flickr.com/photos/61944720@N05/16845294825
 cyanoacrylate|commons|Cianocrilato.JPG|A block of superglue, set solid|photo
-pva|commons|Folia PVA z pochodną kumaryny w świetle widzialnym nr 01.jpg|Polyvinyl alcohol film|photo
+pva|commons|Laundry detergent pods.jpg|Detergent pods: liquid sealed in a skin of PVOH film that dissolves in the cold fill|product
+pva2|commons|Tide Pod (29694766644).jpg|One pod close up: three chambers of liquid behind a film a few hundredths of a millimetre thick|product
 nafion|commons|Patrick Teppor and PEM active layer deposition by ultrasonic spraying.jpg|Spraying a catalyst layer onto a proton exchange membrane|process
+nafion2|commons|Toyota Mirai fuel cell stack SAO 2016 9034.jpg|The fuel cell stack of a Toyota Mirai: hundreds of membrane cells in one block under the bonnet|product
 pbi|commons|Membrana di PBI commerciale.JPG|A commercial PBI membrane|photo
 ti64|commons|Hip joint replacement, United States, 1998 Wellcome L0060175.jpg|A titanium hip prosthesis — the stem is this alloy|product
 magnesium|commons|Mg alloy car engine blocks.jpg|Magnesium alloy engine blocks|product
@@ -612,7 +614,10 @@ nitinol2|commons|Nitinol draht.jpg|Nitinol in its raw form as drawn wire, before
 nacre2|commons|AbaloneInside.jpg|The iridescent inside of an abalone shell — nacre itself, the layered material the inlay is cut from|photo
 cork2|commons|Cork oak forest with harvested bark.jpg|Cork oaks after the harvest — the outer bark is stripped and grows back over about nine years|process
 galalith|commons|Haarkam van galalith met half ronde rug met een ajour gesneden draak in het midden, BK-1977-231.jpg|A galalith hair comb carved with a dragon, in imitation of ivory|product
+galalith2|commons|Tavli Board with slots – Isolated.png|A tavli board with galalith checkers, turned and polished from the cured sheet|product
 celluloid|commons|Old celluloid film rolls (5201105455).jpg|Rolls of old celluloid cine film at a restoration studio|product
+celluloid2|commons|Celluloid dresser vanity set-01.jpg|A dresser set in imitation-ivory celluloid, the job it took from the elephant|product
+celluloid3|commons|40mm table tennis ball Celluloid.jpg|A 40 mm celluloid table tennis ball, the rule until 2014, when the fire risk in shipping ended it|product
 melamine|commons|Melamine dinnerware.JPG|Melamine tableware, the pattern printed under a clear resin layer|product
 urearesin|commons|Beetleware jelly moulds.JPG|Mottled Beetleware jelly moulds in urea-formaldehyde|product
 pcl|commons|PCL beads.jpg|Polycaprolactone beads about 3.5 mm across, which soften in hot water|photo
