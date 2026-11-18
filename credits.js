@@ -840,6 +840,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720
   },
+  "delrin2": {
+    "file": "delrin2.jpg",
+    "caption": "A 2 mm Dunlop plectrum, moulded in Delrin for its stiffness and the way it wears",
+    "kind": "product",
+    "title": "Dunlop Delrin 500.jpg",
+    "site": "Wikimedia",
+    "artist": "Urban Versis 32",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dunlop_Delrin_500.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "delrin3": {
+    "file": "delrin3.jpg",
+    "caption": "Keck clips for laboratory glassware, moulded in acetal",
+    "kind": "product",
+    "title": "Keck clips.jpg",
+    "site": "Wikimedia",
+    "artist": "Edgar181",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Keck_clips.jpg",
+    "w": 960,
+    "h": 436
+  },
   "pc": {
     "file": "pc.jpg",
     "caption": "Polycarbonate eye protection",
@@ -851,6 +875,18 @@ window.CREDITS = {
     "w": 960,
     "h": 680,
     "site": "Wikimedia"
+  },
+  "pc2": {
+    "file": "pc2.jpg",
+    "caption": "The data side of a compact disc: a polycarbonate blank, moulded with its pits in one shot",
+    "kind": "product",
+    "title": "Reverso de CD.JPG",
+    "site": "Wikimedia",
+    "artist": "Hispalois",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Reverso_de_CD.JPG",
+    "w": 960,
+    "h": 805
   },
   "pmma": {
     "file": "pmma.jpg",
@@ -864,6 +900,18 @@ window.CREDITS = {
     "h": 726,
     "site": "Wikimedia"
   },
+  "pmma2": {
+    "file": "pmma2.jpg",
+    "caption": "The aquarium wall of a restaurant in Dubai, a single cast acrylic panel",
+    "kind": "product",
+    "title": "Al Mahara Burj al Araba Dubai March 2008.jpg",
+    "site": "Wikimedia",
+    "artist": "Gryffindor",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Al_Mahara_Burj_al_Araba_Dubai_March_2008.jpg",
+    "w": 960,
+    "h": 1191
+  },
   "sap": {
     "file": "sap.jpg",
     "caption": "Superabsorbent polymer beads, before and after water",
@@ -875,6 +923,18 @@ window.CREDITS = {
     "w": 960,
     "h": 610,
     "site": "Wikimedia"
+  },
+  "sap2": {
+    "file": "sap2.jpg",
+    "caption": "Decorative water beads: the same polymer, swollen into spheres",
+    "kind": "product",
+    "title": "Water beads (42106).jpg",
+    "site": "Wikimedia",
+    "artist": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Water_beads_(42106).jpg",
+    "w": 960,
+    "h": 791
   },
   "polyurea": {
     "file": "polyurea.jpg",
@@ -1142,15 +1202,27 @@ window.CREDITS = {
   },
   "vectran": {
     "file": "vectran.jpg",
-    "caption": "A cut-resistant glove — Vectran is one of the yarns knitted into this class",
-    "kind": "related",
-    "title": "Level 3A glove.jpg",
-    "artist": "Lsmit301",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Level_3A_glove.jpg",
+    "caption": "A test model of the Mars Exploration Rover landing airbags: the cloth is Vectran, chosen because it does not creep or crack in the cold",
+    "kind": "product",
+    "title": "Spirit-airbag2.jpg",
+    "site": "Wikimedia",
+    "artist": "NASA/JPL-Caltech",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Spirit-airbag2.jpg",
+    "w": 800,
+    "h": 1066
+  },
+  "vectran2": {
+    "file": "vectran2.jpg",
+    "caption": "The Bigelow expandable module on the space station, held in shape by a Vectran restraint layer",
+    "kind": "product",
+    "title": "BEAM in September 2016 (ISS049-E-007628).jpg",
+    "site": "Wikimedia",
+    "artist": "NASA",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:BEAM_in_September_2016_(ISS049-E-007628).jpg",
     "w": 960,
-    "h": 1280,
-    "site": "Wikimedia"
+    "h": 539
   },
   "metglas": {
     "file": "metglas.png",

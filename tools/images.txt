@@ -73,9 +73,14 @@ kapton|NASA|https://www.nasa.gov/wp-content/uploads/2023/03/sunshieldstackup-pho
 kapton2|commons|Kapton tapes, three rolls of different widths.jpg|Three rolls of Kapton tape, the form it takes on a workbench|product
 kapton3|commons|Huygens thermal multilayer insulation.jpg|Sewing aluminised Kapton blankets onto the Huygens probe before launch, 1997|process
 delrin|Flickr|https://live.staticflickr.com/4137/4779530203_90ebbaa2cb_b.jpg|A collar machined from Delrin acetal|product|CC BY 2.0|jabella|https://www.flickr.com/photos/31954184@N00/4779530203
+delrin2|commons|Dunlop Delrin 500.jpg|A 2 mm Dunlop plectrum, moulded in Delrin for its stiffness and the way it wears|product
+delrin3|commons|Keck clips.jpg|Keck clips for laboratory glassware, moulded in acetal|product
 pc|commons|Laboratory protection goggles-blue.jpg|Polycarbonate eye protection|photo
+pc2|commons|Reverso de CD.JPG|The data side of a compact disc: a polycarbonate blank, moulded with its pits in one shot|product
 pmma|commons|Lichtenberg figure in block of Plexiglas.jpg|A Lichtenberg figure frozen inside a PMMA block|photo
+pmma2|commons|Al Mahara Burj al Araba Dubai March 2008.jpg|The aquarium wall of a restaurant in Dubai, a single cast acrylic panel|product
 sap|commons|Superabsorbent Polymer.jpg|Superabsorbent polymer beads, before and after water|photo
+sap2|commons|Water beads (42106).jpg|Decorative water beads: the same polymer, swollen into spheres|product
 polyurea|Flickr|https://live.staticflickr.com/3493/4040639508_28a1a9a93f_b.jpg|Two-part polyurea coating in the pail, before spraying|product|CC BY 2.0|John Loo|https://www.flickr.com/photos/8510225@N07/4040639508
 alumina|commons|Spark plug insulator.jpeg|A spark plug insulator — alumina’s highest-volume job|photo
 sapphire|commons|Sapphire boule, Kyropoulos method.jpg|A synthetic sapphire boule pulled from the melt|photo
@@ -98,7 +103,8 @@ zylon|commons|NIJ LVLIIIA Kogelvrij vest, BA8001.jpg|A Level IIIA vest — Zylon
 lignostone|commons|Royal Air Force 1939-1945- Fighter Command CH18184.jpg|A Spitfire XIV refuelling in 1944: the five Rotol blades are densified birch laminate, Jablo, the wartime cousin of Lignostone|related
 lignostone2|commons|Lignoston.jpg|Lignostone itself, as the scale on a knife handle|photo
 parylene|commons|CPI Microlyth Pacemaker.jpg|A cardiac pacemaker — parylene C is the standard conformal coating on implanted electronics|product
-vectran|commons|Level 3A glove.jpg|A cut-resistant glove — Vectran is one of the yarns knitted into this class|related
+vectran|commons|Spirit-airbag2.jpg|A test model of the Mars Exploration Rover landing airbags: the cloth is Vectran, chosen because it does not creep or crack in the cold|product
+vectran2|commons|BEAM in September 2016 (ISS049-E-007628).jpg|The Bigelow expandable module on the space station, held in shape by a Vectran restraint layer|product
 metglas|commons|MeltSpinner.png|Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise|process
 maraging|commons|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Competition épée blades are maraging steel — it bends far before it breaks|product
 cordierite|Flickr|https://live.staticflickr.com/3815/11185998225_f48065e822_b.jpg|Cordierite as a mineral; the kiln-shelf ceramic is the same magnesium aluminosilicate, fired|related|CC BY 2.0|Juhele_CZ|https://www.flickr.com/photos/96541566@N06/11185998225

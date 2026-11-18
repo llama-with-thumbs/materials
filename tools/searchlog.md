@@ -513,3 +513,24 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Vurrkaetud PVdF membraan.jpg` | a failed spin-coat, abstract |
 | `Kapton tape in Samsung phone.jpg` | a phone battery bay; the tape is a sliver |
 | `Inflated PVDF membrane at New Xingsheng Project construction site (20240814173842).jpg` | a street with taxis; the dome is a white blob behind the trees |
+
+
+## Restyle batch, 18 November 2026: vectran, delrin, pc, pmma, sap
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Vectran, the fibre or a rope | `Vectran`, `liquid crystal polymer fibre` | only synthesis diagrams and a Dyneema rope | a Kuraray spool or a labelled Vectran line |
+| Acetal, a gear | `acetal gear`, `POM plastic gear` | nothing named | a photo of a POM gear train named as such |
+| Polycarbonate, a riot shield or canopy | `polycarbonate riot shield`, `aircraft canopy polycarbonate`, `polycarbonate granulate` | nothing, or a 640 px wildlife photo | a canopy or shield photo that names the material |
+| PMMA, a thick aquarium panel seen edge-on | `acrylic aquarium window`, `acrylic submarine window`, `cast acrylic sheet` | only the Dubai restaurant and a 1950s display board | a Churaumi or Georgia Aquarium panel photo |
+| SAP, the nappy core | `diaper absorbent core`, `hydrogel soil` | nothing | a cut-open nappy |
+
+| rejected after looking | why |
+|---|---|
+| `Level 3A glove.jpg` as the Vectran face | a generic grey glove, the fibre one of several it might contain; dropped, the MER airbag test model is the face |
+| `Airbags.jpg` | an artist's concept of airbags bouncing on Mars, a rendering |
+| `Display board featuring Plexiglas windows for airliners` | a grey exhibition board, mostly text |
+| `Twinwall Polycarbonate Sheet.jpg` | a grey corrugated blur at card size |
+| `Bottom of 18.9 Liter (5 Gallon) jug made by GREIF` | embossed recycling marks, nothing to see |
+| `POM-Granulat.JPG` | white pellets, indistinguishable from any other resin |
+| `Sodium polyacrylate.jpg` and `Gel Water Beads (6477584337).jpg` | coloured beads much like the vase photo; one view of them is enough |
