@@ -2090,27 +2090,63 @@ window.CREDITS = {
   },
   "eps": {
     "file": "eps.jpg",
-    "caption": "Expanded polystyrene beads",
+    "caption": "Insulation board in plain white and in grey, with graphite in the bead to cut radiant heat",
+    "kind": "product",
+    "title": "EPS insulation board.jpg",
+    "site": "Wikimedia",
+    "artist": "Energieeffiziente Dämmstoffe",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:EPS_insulation_board.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "eps2": {
+    "file": "eps2.jpg",
+    "caption": "The beads before expansion, each holding a little pentane",
     "kind": "photo",
     "title": "Expanded Polystyrene (EPS) foam pellets.jpg",
+    "site": "Wikimedia",
     "artist": "Swoolverton",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Expanded_Polystyrene_(EPS)_foam_pellets.jpg",
     "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "h": 640
+  },
+  "eps3": {
+    "file": "eps3.jpg",
+    "caption": "A moulded packaging corner: the beads fused to the shape of the mould",
+    "kind": "product",
+    "title": "Expanded polystyrene foam dunnage.jpg",
+    "site": "Wikimedia",
+    "artist": "User:Acdx",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Expanded_polystyrene_foam_dunnage.jpg",
+    "w": 960,
+    "h": 866
   },
   "pdms": {
     "file": "pdms.jpg",
-    "caption": "A PDMS microfluidic chip",
+    "caption": "A PDMS microfluidic device on a dish at NIST, steel needles feeding channels the width of a hair",
     "kind": "product",
-    "title": "Рождение микрофлюидного чипа.JPG",
-    "artist": "Данилюк Валентина",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%84%D0%BB%D1%8E%D0%B8%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D1%87%D0%B8%D0%BF%D0%B0.JPG",
+    "title": "Lab on a Chip (7788250170).jpg",
+    "site": "Wikimedia",
+    "artist": "National Institute of Standards and Technology",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lab_on_a_Chip_(7788250170).jpg",
     "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "h": 678
+  },
+  "pdms2": {
+    "file": "pdms2.jpg",
+    "caption": "The lung-on-a-chip from the Wyss Institute: two channels of cells either side of a PDMS membrane that breathes",
+    "kind": "product",
+    "title": "Lung-on-a-chip-wyss.jpg",
+    "site": "Wikimedia",
+    "artist": "Wyss Institute for Biologically Inspired Engineering, Harvard University",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lung-on-a-chip-wyss.jpg",
+    "w": 960,
+    "h": 640
   },
   "fep": {
     "file": "fep.jpg",
@@ -5065,28 +5101,52 @@ window.CREDITS = {
     "site": "Wikimedia"
   },
   "pebax": {
-    "file": "pebax.jpg",
-    "caption": "Alpine ski boots — Pebax is one of the shell plastics boots like these are moulded in",
+    "file": "pebax.png",
+    "caption": "A Vaporfly cut in half: the white foam is Pebax, blown with gas, around the dark carbon plate",
+    "kind": "product",
+    "title": "Nike Vaporfly Cut in Half.png",
+    "site": "Wikimedia",
+    "artist": "Seth James DeMoor",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nike_Vaporfly_Cut_in_Half.png",
+    "w": 960,
+    "h": 554
+  },
+  "pebax2": {
+    "file": "pebax2.jpg",
+    "caption": "Alpine ski boots: Pebax took the race shell from polyurethane because its stiffness holds in the cold",
     "kind": "analog",
     "title": "Ski boots alpin large.jpg",
+    "site": "Wikimedia",
     "artist": "Chianti90",
     "license": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Ski_boots_alpin_large.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
   },
   "pei": {
-    "file": "pei.jpg",
-    "caption": "A 3D printer's build plate, powder-coated in PEI — prints grip it hot and let go cold",
+    "file": "pei.png",
+    "caption": "A satellite antenna array 3D printed in Ultem 9085 at JPL, the grade that flies",
+    "kind": "product",
+    "title": "COSMIC-2 Cafeteria Cups Radio Occultation Antenna Array.png",
+    "site": "Wikimedia",
+    "artist": "Dmitry Turbiner",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:COSMIC-2_Cafeteria_Cups_Radio_Occultation_Antenna_Array.png",
+    "w": 960,
+    "h": 720
+  },
+  "pei2": {
+    "file": "pei2.jpg",
+    "caption": "A 3D printer's build plate, a sheet of PEI: prints grip it hot and let go cold",
     "kind": "product",
     "title": "DG 東莞 DongGuan 南城區 Nancheng 鴻福路 HongFu Road 東莞京東商場 JD Mall Electronics Showroom 3D printers December 2024 R12S 06 (cropped).jpg",
+    "site": "Wikimedia",
     "artist": "NAS 238 WMMNO",
     "license": "CC0",
     "page": "https://commons.wikimedia.org/wiki/File:DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E6%9D%B1%E8%8E%9E%E4%BA%AC%E6%9D%B1%E5%95%86%E5%A0%B4_JD_Mall_Electronics_Showroom_3D_printers_December_2024_R12S_06_(cropped).jpg",
     "w": 960,
-    "h": 1477,
-    "site": "Wikimedia"
+    "h": 1477
   },
   "terfenol": {
     "file": "terfenol.jpg",

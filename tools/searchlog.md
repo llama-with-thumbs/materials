@@ -618,3 +618,29 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Orange and Yellow HDPE Pipe.jpg` | duplicates the orange reels already on the face |
 | `PEX installation tools and fittings.jpg` | a numbered tool layout, fine for a manual, cluttered on a card |
 | `XLPE powder in mold used in Rotational Molding` | white powder in a grey mould |
+
+
+## Restyle batch, 18 November 2026: eps, pdms, pebax, pei, fep
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| EPS, a cut helmet liner | `bicycle helmet cut EPS`, `bicycle helmet cross section`, `surfboard blank EPS`, `geofoam embankment`, `polystyrene void former` | nothing; the helmet query returns a gorge in Taiwan | a sectioned helmet showing the liner |
+| PDMS, a stamp or a cast in progress | `soft lithography PDMS`, `PDMS stamp`, `Sylgard 184`, `PDMS membrane` | postage stamps and a 640 px cylinder; the one process photo is a dish of dark slabs | a photo of PDMS being peeled from a wafer |
+| Pebax, a catheter or a boot named as such | `catheter balloon`, `ski boot shell plastic` | catheters are unspecified grey tubes; the broken boot is polyurethane | a catheter or soleplate photo that names Pebax |
+| PEI, cabin parts or a sterilisation tray | `aircraft cabin interior panel`, `sterilization tray plastic`, `thermoformed aircraft tray table`, `Ultem lens eyeglasses` | nothing named; `Ultem` and `PEI` return people, dogs and licence plates | an airliner tray table or an autoclave tray named as PEI |
+| FEP, anything at all | `FEP tubing`, `FEP film`, `fluorinated ethylene propylene`, `FEP heat shrink`, `FEP wire insulation`, `Teflon FEP`, `fluoropolymer tubing`, `Teflon tubing laboratory`, `fluoropolymer film greenhouse` | a structure diagram, politicians of Benin and a crop-duster; the PFA tubing stays as a related view | any photograph of FEP tubing or film labelled as such |
+
+| rejected after looking | why |
+|---|---|
+| `Expanded Polystyrene (EPS) foam pellets.jpg` as the face | dark beads in a palm, unidentifiable at card size; kept as second view, the insulation board is the face |
+| the pipette-rack microfluidic photo as the PDMS face | a desk scene, the chip a sliver; replaced by the NIST device |
+| `Ski boots alpin large.jpg` as the Pebax face | an analog; kept as second view, the cut Vaporfly is the face |
+| the JD Mall printer photo as the PEI face | a printer; the plate is a dark rectangle; kept as second view, the Ultem antenna is the face |
+| `Styrofoam Coolers (9431862366).jpg` | a man carrying a white box across a car park |
+| `Thermocol blocks.jpg` | a ruler against a broken edge, mostly ruler |
+| `Microscopic Section of Thermocol block` | an abstract micrograph |
+| `Рождение микрофлюидного чипа 2.JPG` | a dish of dark slabs |
+| `Microfluidic chip for point-of-care medical devices.jpg` | a second clear chip much like the NIST one |
+| `HK clothing NIKE brand Vaporfly Next sneakers ... 05 (cropped).jpg` | white shoes on feet, the foam invisible |
+| `Materialermüdung Skischuh Polyurethan.jpg` | a cracked boot, and polyurethane |
+| `Tip of dilatation catheter with balloon.png` | a grey tube against a ruler |

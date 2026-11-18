@@ -177,8 +177,11 @@ hdpe3|commons|Plastic bottle hdpe.jpg|A washing-up liquid bottle of about 1999, 
 pex|Flickr|https://live.staticflickr.com/8117/8630561101_19000ee64f_b.jpg|PEX tubing laid out for underfloor heating|product|CC BY-SA 2.0|dane brian|https://www.flickr.com/photos/12955651@N07/8630561101
 pex2|commons|Col.lector terra radiant.JPG|An underfloor heating manifold with its PEX loops, the job the pipe was invented for in 1972|product
 pex3|commons|20 kV cables manufactured by General Cable (4).jpg|A reel of 20 kV cable: the insulation is cross-linked polyethylene, the same chemistry as the pipe|related
-eps|commons|Expanded Polystyrene (EPS) foam pellets.jpg|Expanded polystyrene beads|photo
-pdms|commons|Рождение микрофлюидного чипа.JPG|A PDMS microfluidic chip|product
+eps|commons|EPS insulation board.jpg|Insulation board in plain white and in grey, with graphite in the bead to cut radiant heat|product
+eps2|commons|Expanded Polystyrene (EPS) foam pellets.jpg|The beads before expansion, each holding a little pentane|photo
+eps3|commons|Expanded polystyrene foam dunnage.jpg|A moulded packaging corner: the beads fused to the shape of the mould|product
+pdms|commons|Lab on a Chip (7788250170).jpg|A PDMS microfluidic device on a dish at NIST, steel needles feeding channels the width of a hair|product
+pdms2|commons|Lung-on-a-chip-wyss.jpg|The lung-on-a-chip from the Wyss Institute: two channels of cells either side of a PDMS membrane that breathes|product
 fep|commons|Pfa tubing.jpeg|PFA tubing — the same melt-processible fluoropolymer family as FEP|related
 pvb|commons|Shattered laminated glass in broken window in railway tram train carriage Close-up Cracks fragments visual effects patterns NORWAY Knust vindu i togvogn med laminert sikkerhetsglass sprekker småbiter lyseffekter 2019-02-11 DSC03363.jpg|Shattered laminated glass, every fragment still held by the PVB interlayer|product
 surlyn|commons|Golf ball by Japanese company Srixon.jpg|A golf ball — the cover is an ionomer|product
@@ -425,8 +428,10 @@ spruce|commons|Violin Top and back plates.jpg|A carved violin top in spruce, bes
 ggg|commons|GAGG-Ce.jpg|A GAGG:Ce scintillator crystal — a garnet grown the same way as GGG|related
 bbo|commons|Beam output from OPA.jpg|The output of an optical parametric amplifier — BBO is the crystal that splits the beam|related
 ga2o3|commons|Czochralski Gallium Oxide.png|Pulling gallium oxide from the melt by the Czochralski method|process
-pebax|commons|Ski boots alpin large.jpg|Alpine ski boots — Pebax is one of the shell plastics boots like these are moulded in|analog
-pei|commons|DG 東莞 DongGuan 南城區 Nancheng 鴻福路 HongFu Road 東莞京東商場 JD Mall Electronics Showroom 3D printers December 2024 R12S 06 (cropped).jpg|A 3D printer's build plate, powder-coated in PEI — prints grip it hot and let go cold|product
+pebax|commons|Nike Vaporfly Cut in Half.png|A Vaporfly cut in half: the white foam is Pebax, blown with gas, around the dark carbon plate|product
+pebax2|commons|Ski boots alpin large.jpg|Alpine ski boots: Pebax took the race shell from polyurethane because its stiffness holds in the cold|analog
+pei|commons|COSMIC-2 Cafeteria Cups Radio Occultation Antenna Array.png|A satellite antenna array 3D printed in Ultem 9085 at JPL, the grade that flies|product
+pei2|commons|DG 東莞 DongGuan 南城區 Nancheng 鴻福路 HongFu Road 東莞京東商場 JD Mall Electronics Showroom 3D printers December 2024 R12S 06 (cropped).jpg|A 3D printer's build plate, a sheet of PEI: prints grip it hot and let go cold|product
 terfenol|Flickr|https://live.staticflickr.com/2228/3542186251_54d5c3fec0_b.jpg|A hydrophone going into the North Atlantic — this one is piezoelectric; Terfenol-D does the same job by stretching in a magnetic field|analog|CC BY-SA 2.0|Oregon State University|https://www.flickr.com/photos/oregonstateuniversity/3542186251
 tib2|commons|Цех электролизных ванн для выплавки алюминия с силой тока 400 КА в промышленно-инновационном парке "Юйлянь" в г. Гунъи (Китай).jpg|A 400 kA aluminium reduction cell hall — titanium diboride is what the cathode surface is made of|analog
 nextel|commons|Industrial furnace equipped with HTIW modules.jpg|A furnace lined with high-temperature insulation wool — Nextel's woven alumina cloth does this job where the lining must also be strong|analog
