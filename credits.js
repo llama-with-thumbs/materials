@@ -386,15 +386,39 @@ window.CREDITS = {
   },
   "wha": {
     "file": "wha.jpg",
-    "caption": "Tungsten crystals and a 1 cm³ cube — 19.3 g in that cube",
-    "kind": "photo",
+    "caption": "Balance weights machined from Densimet, a tungsten heavy alloy: mass where there is no room for it",
+    "kind": "product",
+    "title": "Ausgleichsgewichte aus Densimet.jpg",
+    "site": "Wikimedia",
+    "artist": "Andreas Mayr",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ausgleichsgewichte_aus_Densimet.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "wha2": {
+    "file": "wha2.jpg",
+    "caption": "Three 26-gram dart barrels in 80, 90 and 95 per cent tungsten: the more tungsten, the slimmer the barrel",
+    "kind": "product",
+    "title": "26g barrels.jpg",
+    "site": "Wikimedia",
+    "artist": "Ykraps",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:26g_barrels.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "wha3": {
+    "file": "wha3.jpg",
+    "caption": "Pure tungsten crystals and a 1 cm³ cube, 19.3 g: the density the alloy borrows",
+    "kind": "related",
     "title": "Wolfram evaporated crystals and 1cm3 cube.jpg",
+    "site": "Wikimedia",
     "artist": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
     "license": "FAL",
     "page": "https://commons.wikimedia.org/wiki/File:Wolfram_evaporated_crystals_and_1cm3_cube.jpg",
     "w": 960,
-    "h": 524,
-    "site": "Wikimedia"
+    "h": 524
   },
   "superalloy": {
     "file": "superalloy.jpg",
@@ -408,6 +432,30 @@ window.CREDITS = {
     "h": 826,
     "site": "Wikimedia"
   },
+  "superalloy2": {
+    "file": "superalloy2.jpg",
+    "caption": "Trent high-pressure turbine blades in their disc, each pierced with cooling holes to live above its melting point",
+    "kind": "product",
+    "title": "2013-09-18 TrentTurbineBlades.jpg",
+    "site": "Wikimedia",
+    "artist": "Michael32710",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2013-09-18_TrentTurbineBlades.jpg",
+    "w": 960,
+    "h": 662
+  },
+  "superalloy3": {
+    "file": "superalloy3.jpg",
+    "caption": "The pigtail cut from a single-crystal casting: the spiral that lets one grain through and stops the rest",
+    "kind": "process",
+    "title": "Pigtail from Single Crystal Blade Casting shown with Kennedy Half Dollar for size comparison.jpg",
+    "site": "Wikimedia",
+    "artist": "Lee Langston",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pigtail_from_Single_Crystal_Blade_Casting_shown_with_Kennedy_Half_Dollar_for_size_comparison.jpg",
+    "w": 960,
+    "h": 1280
+  },
   "galinstan": {
     "file": "galinstan.jpg",
     "caption": "Galinstan, liquid at room temperature",
@@ -419,6 +467,18 @@ window.CREDITS = {
     "w": 600,
     "h": 500,
     "site": "Wikimedia"
+  },
+  "galinstan2": {
+    "file": "galinstan2.jpg",
+    "caption": "A Geratherm clinical thermometer filled with galinstan, the mercury-free one",
+    "kind": "product",
+    "title": "Galinstan-Fieberthermometer.jpg",
+    "site": "Wikimedia",
+    "artist": "Gelegenheitsautor",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Galinstan-Fieberthermometer.jpg",
+    "w": 960,
+    "h": 340
   },
   "rhenium": {
     "file": "rhenium.jpg",
@@ -1463,6 +1523,18 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "fields2": {
+    "file": "fields2.jpg",
+    "caption": "A boiler fusible plug: a low-melting alloy core that lets go when the water runs low, the job fusible alloys were invented for",
+    "kind": "related",
+    "title": "Fusible plug, view 1.jpg",
+    "site": "Wikimedia",
+    "artist": "Bkell",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Fusible_plug,_view_1.jpg",
+    "w": 960,
+    "h": 720
   },
   "bakelite": {
     "file": "bakelite.jpg",

@@ -849,16 +849,18 @@ window.MATERIALS = [
 },
 {
   id: "wha", cat: "metal", name: "Tungsten heavy alloy",
-  sub: "90–97% W, Ni–Fe binder", img: "wha",
-  hook: "Pure tungsten is brittle and effectively unmachinable. Liquid-phase sinter it with a little nickel and iron and you get something far denser than lead that turns on a lathe.",
+  sub: "90–97% W, Ni–Fe binder", img: "wha", extra: ["wha2", "wha3"],
+  hook: "Tungsten powder with a little nickel and iron, sintered until the binder melts and glues the grains: half again as dense as lead, and it turns on a lathe. Racing-car ballast, the dart barrel, the syringe shield.",
+  more: "Pure tungsten is brittle below 400 °C, so for anything that just wants weight the trade packs tungsten powder with 3 to 10 per cent nickel, iron or copper and sinters above the binder's melting point: the liquid wets the grains, pulls them together and freezes into a ductile matrix round the spheres. It machines like a tough steel at 17 to 18.5 grams a cubic centimetre and goes wherever mass must fit a small space: the aileron balance weight, the ballast under a racing car, the dart barrel that lets 26 grams be slim, the syringe shield that replaced lead, and the rod inside an armour-piercing round. The costs: tungsten is dear and mostly Chinese; the nickel-iron grades are magnetic; it will not weld; and a penetrator mushrooms where uranium sharpens.",
   stats: [["Density", "17–18.5 g/cm³"], ["Lead", "11.3 g/cm³"], ["Machinable", "yes"]],
   uses: "Balance weights, radiation collimators, damped boring bars, darts.",
   link: "https://en.wikipedia.org/wiki/Tungsten"
 },
 {
   id: "superalloy", cat: "metal", name: "Single-crystal superalloy",
-  sub: "CMSX-4, René N5", img: "superalloy",
-  hook: "A turbine blade grown as one continuous crystal, because grain boundaries are where creep starts. It then runs in gas hotter than its own melting point, saved by film cooling and a ceramic coating.",
+  sub: "CMSX-4, René N5", img: "superalloy", extra: ["superalloy2", "superalloy3"],
+  hook: "A turbine blade cast as one crystal, grown up a spiral that lets only one grain through: no grain boundaries, so nothing to slide at 1,100 °C. It runs in gas hotter than its own melting point, cooled from inside.",
+  more: "Creep is grain boundaries sliding, so Pratt and Whitney removed them: the mould is drawn slowly from the furnace, the grains race upward, and a pigtail spiral lets one through to fill the whole blade. Without boundaries the carbon and boron that pinned them can go, and the alloy is packed to 70 per cent gamma prime, Ni3Al cubes that strengthen as they heat; CMSX-4 adds rhenium to slow diffusion. The blade still sits in gas above its own melting point, so it is cast hollow, bled with cooling air through hundreds of holes and coated in ceramic, while pulling ten tonnes. The costs: rhenium is rarer than gold and engines take most of it; a dent recrystallises into a grain boundary and scraps it; and over thousands of hours the cubes raft into plates.",
   stats: [["Grain boundaries", "zero"], ["Gas path", "above its melting point"], ["Casting", "one seed crystal"]],
   uses: "High-pressure turbine blades and vanes in jet and industrial gas turbines.",
   link: "https://en.wikipedia.org/wiki/Superalloy"
@@ -867,15 +869,17 @@ window.MATERIALS = [
   id: "maraging", cat: "metal", name: "Maraging steel",
   sub: "18Ni(250), 18Ni(300)",
   img: "maraging",
-  hook: "Takes its strength from intermetallic precipitates during a gentle 480 °C age, not from quenching. Almost nothing moves, so you can machine it complete and harden it afterwards.",
+  hook: "Bieber's steel, 1958: carbon out, 18 per cent nickel in, so it quenches soft enough to machine, then ages at 480 °C and gains a gigapascal without moving. The rocket case, the épée, the rotor nobody may ship.",
+  more: "Ordinary steel hardens by trapping carbon in a quench, which warps it; this one has none, so its martensite is soft, and the strength comes later from nickel-molybdenum and nickel-titanium precipitates formed at 480 °C, shrinking it five hundredths of a per cent. So a die is machined finished and then hardened, a motor case is welded and aged whole, and Grade 300 carries 2,000 MPa and stays tough. It is the Minuteman motor case, the uranium-centrifuge rotor, export-controlled to the kilo, and, since a broken blade killed a fencer in 1982, the épée that bends without snapping. The costs: 18 per cent nickel and 8 cobalt is a dear steel; it rusts and must be plated; hydrogen embrittles it; and the strongest grade is brittle at a notch.",
   stats: [["UTS", "1700–2400 MPa"], ["Aging", "~480 °C"], ["Distortion", "minimal"]],
   uses: "Rocket motor cases, tooling and dies, fencing blades, centrifuge rotors.",
   link: "https://en.wikipedia.org/wiki/Maraging_steel"
 },
 {
   id: "galinstan", cat: "metal", name: "Galinstan",
-  sub: "Ga–In–Sn eutectic", img: "galinstan",
-  hook: "A liquid metal that stays liquid below room temperature without being toxic like mercury. It also wets and attacks aluminium alarmingly well, which limits where you can put it.",
+  sub: "Ga–In–Sn eutectic", img: "galinstan", extra: ["galinstan2"],
+  hook: "Gallium, indium and tin, liquid to minus 19 °C: mercury's job without the poison. It wets glass, so the thermometer bore needs a coating, and it eats aluminium, so keep it off the heatsink it was sold for.",
+  more: "Gallium melts in the hand; add indium and tin and the melting point drops below a winter night, with no vapour and a third of copper's conductance. Geratherm put it in a glass thermometer in the 1990s as mercury was banned, the bore coated so the metal would not cling; overclockers squeeze it between a processor and its cooler, where it beats any paste; and soft-robotics labs run it through silicone channels as a wire that stretches double and still conducts. The habits are the catch. In air it grows an oxide skin in a millisecond, so a drop sits like a slug and smears grey on everything; it soaks into aluminium along the grain boundaries until the metal crumbles like biscuit, so one drop on a heatsink is the end of it; and indium is dear.",
   stats: [["Melting point", "≈ −19 °C"], ["Density", "6.4 g/cm³"], ["Caution", "destroys aluminium"]],
   uses: "Mercury-free thermometers, liquid metal cooling, stretchable circuitry.",
   link: "https://en.wikipedia.org/wiki/Galinstan"
@@ -883,8 +887,9 @@ window.MATERIALS = [
 {
   id: "fields", cat: "metal", name: "Field's metal",
   sub: "Bi–In–Sn eutectic",
-  img: "fields",
-  hook: "A non-toxic alloy that melts in hot water. Handy for casting at kitchen temperatures, and for fusible links that are meant to fail at a known number.",
+  img: "fields", extra: ["fields2"],
+  hook: "Bismuth, indium and tin: a metal that melts at 62 °C, in a mug of tea, and poisons nobody. It does what Wood's metal did, casting in silicone and letting go at a known temperature, without the cadmium and lead.",
+  more: "Wood's metal of 1860 melted at 70 °C and held the sprinkler and the radiotherapy shield for a century, but it is half lead and an eighth cadmium; Simon Field, a science writer, swapped both for indium, and his metal turns up in school labs and kitchens, poured from a cup of hot water into silicone. Bismuth expands as it freezes, so a casting fills every corner and comes out crisp; the same metal fills a thin tube before bending, holds a lens for grinding, and solders to parts that cannot take heat. A link of it parts at a temperature you can trust to a degree, the family's job in a fusible plug. The costs: indium is half the weight and most of the price, a dollar a gram; it is soft; a part left in a sunny car slumps; and it melts in the dishwasher.",
   stats: [["Melting point", "62 °C"], ["Toxicity", "no lead or cadmium"], ["Mix", "Bi 32.5 / In 51 / Sn 16.5"]],
   uses: "Low-temperature casting, prototyping, fusible safety links, demonstrations.",
   link: "https://en.wikipedia.org/wiki/Field%27s_metal"

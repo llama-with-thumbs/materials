@@ -35,9 +35,14 @@ mumetal2|commons|Mu-metal assortment 1951.jpg|Mu-metal shielding cans and screen
 stellite|commons|Unterkiefer Teilprothese 20100112 008.JPG|Cast cobalt-chrome (Stellite-type) framework|photo
 stellite2|commons|Workers casting Stellite at the Haynes Stellite Company, 10 October 1918.jpg|Casting Stellite at the Haynes works in Kokomo, 1918|process
 stellite3|commons|Hardface Welding.jpg|Hardfacing an extruder screw: a wear alloy laid down by weld overlay, the way most Stellite is applied|related
-wha|commons|Wolfram evaporated crystals and 1cm3 cube.jpg|Tungsten crystals and a 1 cm³ cube — 19.3 g in that cube|photo
+wha|commons|Ausgleichsgewichte aus Densimet.jpg|Balance weights machined from Densimet, a tungsten heavy alloy: mass where there is no room for it|product
+wha2|commons|26g barrels.jpg|Three 26-gram dart barrels in 80, 90 and 95 per cent tungsten: the more tungsten, the slimmer the barrel|product
+wha3|commons|Wolfram evaporated crystals and 1cm3 cube.jpg|Pure tungsten crystals and a 1 cm³ cube, 19.3 g: the density the alloy borrows|related
 superalloy|commons|255 GRC 1979 03464 EEE - 2 piece single crystal HTP blade.jpg|Single-crystal high-pressure turbine blade|photo
+superalloy2|commons|2013-09-18 TrentTurbineBlades.jpg|Trent high-pressure turbine blades in their disc, each pierced with cooling holes to live above its melting point|product
+superalloy3|commons|Pigtail from Single Crystal Blade Casting shown with Kennedy Half Dollar for size comparison.jpg|The pigtail cut from a single-crystal casting: the spiral that lets one grain through and stops the rest|process
 galinstan|commons|Galinstan on glass.jpg|Galinstan, liquid at room temperature|photo
+galinstan2|commons|Galinstan-Fieberthermometer.jpg|A Geratherm clinical thermometer filled with galinstan, the mercury-free one|product
 rhenium|commons|Rhenium single crystal bar and 1cm3 cube.jpg|Rhenium single-crystal bar and cube|photo
 ytzp|commons|Zirconium dioxide ZrO2 bearing balls.jpg|Y-TZP zirconia bearing balls|photo
 cbn|commons|Cubic Boron Nitride.jpg|Cubic boron nitride crystals|photo
@@ -125,6 +130,7 @@ maraging|commons|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Compet
 cordierite|Flickr|https://live.staticflickr.com/3815/11185998225_f48065e822_b.jpg|Cordierite as a mineral; the kiln-shelf ceramic is the same magnesium aluminosilicate, fired|related|CC BY 2.0|Juhele_CZ|https://www.flickr.com/photos/96541566@N06/11185998225
 torlon|commons|Ruban-capton-adhesif.jpg|A roll of Kapton tape — polyimide, the amber chemical neighbour Torlon's amide-imide sits beside|analog
 fields|commons|Wood's alloy 2.JPG|Wood's metal, Field's older cadmium-bearing cousin, melting in hot water|related
+fields2|commons|Fusible plug, view 1.jpg|A boiler fusible plug: a low-melting alloy core that lets go when the water runs low, the job fusible alloys were invented for|related
 bakelite|Flickr|https://live.staticflickr.com/5765/20967111954_7ff274c261_b.jpg|A Bakelite telephone, the housing moulded in one black piece|product|CC BY 2.0|wwarby|https://www.flickr.com/photos/26782864@N00/20967111954
 bakelite2|commons|Radio, Model AD 65, designed by Wells Coates, Ekco USA, 1932, Bakelite case - Museum für Angewandte Kunst Köln - Cologne, Germany - DSC09649.jpg|The Ekco AD65 of 1932, Wells Coates: a round cabinet that only a moulded plastic could make cheaply|product
 bakelite3|commons|Bakelite bangles.jpg|Cast phenolic bangles, the unfilled resin in the colours wood flour would not allow|product

@@ -773,3 +773,24 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `FEM2-018-500-3V-1 magnetostrictive transducers details 18.jpg` | a row of filters, abstract small |
 | `Stellite 1914.JPG` | a yellow car in a museum |
 | `FlameSpraying.jpg` | flame spraying, a different process |
+
+
+## Restyle batch, 18 November 2026: wha, superalloy, maraging, galinstan, fields
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Tungsten heavy alloy, a counterweight in place or a penetrator | `tungsten counterweight`, `tungsten alloy penetrator`, `tungsten bucking bar`, `tungsten sinker`, `tungsten golf weight`, `Wolfram Schwermetall` | nothing; `WSM` is a radio station and an airline | an aileron balance weight or a sectioned APFSDS rod |
+| Single-crystal superalloy, CMSX-4 named | `CMSX-4`, `turbine blade superalloy`, `directionally solidified blade` | only a micrograph and 1950s lab shots | a blade with the grain-etched single crystal visible |
+| Maraging steel, a motor case or centrifuge rotor named | `maraging steel`, `rocket motor case`, `centrifuge rotor uranium`, `gas centrifuge rotor`, `Minuteman motor case`, `maraging steel bar`, `fencing blade maraging` | `maraging` is a town in Iran; the LPC 156-inch case photos do not name the steel; `Cyber WMD` is an art piece; the fencer stays | a Minuteman case section or a centrifuge rotor named as maraging |
+| Galinstan, cooling or stretchable circuits | `liquid metal cooling`, `EGaIn`, `gallium liquid metal drop`, `liquid metal droplet` | breeder reactors, a graphics card standard and raindrops on a gate | a CPU with liquid-metal paste or a stretchable circuit |
+| Field's metal itself | `Field's metal`, `Fields metal`, `bismuth indium tin`, `low melting alloy casting`, `Rose's metal`, `Cerrobend` | field gates and a rock festival; only Wood's metal is photographed | a Field's metal casting in a silicone mould |
+
+| rejected after looking | why |
+|---|---|
+| `Wolfram evaporated crystals and 1cm3 cube.jpg` as the heavy alloy face | pure tungsten, not the alloy; kept as a related view, the Densimet weights are the face |
+| `Collimator Tungsten 2-...jpg` | a calliper reading a grid, pure tungsten |
+| `CFM56 High Pressure Turbine Blade.JPG` | a blade on a table, duplicates the plaque face |
+| `CAST TURBINE BLADES - NARA - 17470242.jpg` | three blades on grey, unlabelled |
+| `Catalog 26 0006140 ... LPC 156 Rocket Motor Case Entering Autoclave` | a 1964 case, steel unnamed; a static firing shows a rocket, not a material |
+| `Fusable link sprinkler head.jpg` | a dim fitting on a ceiling |
+| `Wood's alloy.JPG` | a second shot of the same melt as the face |
