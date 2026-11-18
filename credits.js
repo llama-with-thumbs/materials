@@ -1920,6 +1920,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720
   },
+  "pet2": {
+    "file": "pet2.jpg",
+    "caption": "A preform beside the bottle it becomes: the thick glassy tube is reheated and blown, and the stretch is what makes the wall strong and clear",
+    "kind": "process",
+    "title": "20220807 PET preform 3.jpg",
+    "site": "Wikimedia",
+    "artist": "01x07x2022000",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:20220807_PET_preform_3.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "pet3": {
+    "file": "pet3.jpg",
+    "caption": "A bale of crushed PET bottles at a recycling plant in San Jose: the most recycled plastic there is",
+    "kind": "photo",
+    "title": "Bales of PET bottles closeup.jpg",
+    "site": "Wikimedia",
+    "artist": "Grendelkhan",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_closeup.jpg",
+    "w": 960,
+    "h": 720
+  },
   "pvc": {
     "file": "pvc.jpg",
     "caption": "A stack of PVC pressure pipe",
@@ -1932,17 +1956,65 @@ window.CREDITS = {
     "w": 960,
     "h": 718
   },
+  "pvc2": {
+    "file": "pvc2.jpg",
+    "caption": "An inflatable boat in plasticised PVC, the same polymer as the pipe with half its weight in plasticiser",
+    "kind": "product",
+    "title": "Inflatable boat-001.jpg",
+    "site": "Wikimedia",
+    "artist": "NJR ZA",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Inflatable_boat-001.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "pvc3": {
+    "file": "pvc3.jpg",
+    "caption": "A 12-inch LP: rigid PVC with a little vinyl acetate, pressed since the Columbia record of 1948",
+    "kind": "product",
+    "title": "12in-Vinyl-LP-Record-Angle.jpg",
+    "site": "Wikimedia",
+    "artist": "Evan-Amos",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:12in-Vinyl-LP-Record-Angle.jpg",
+    "w": 960,
+    "h": 960
+  },
   "nylon66": {
     "file": "nylon66.jpg",
-    "caption": "Nylon 6/6 cable ties",
+    "caption": "A heap of nylon 6/6 cable ties: the ratchet pawl only works because the material is tough once it has taken up water",
     "kind": "product",
-    "title": "Kabelbinder -- 2024 -- 6907.jpg",
-    "artist": "Dietmar Rabich",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Kabelbinder_--_2024_--_6907.jpg",
+    "title": "100x Nylon Cable Zip 10cm Tie Wraps (2USD on eBay ) (8925594504).jpg",
+    "site": "Wikimedia",
+    "artist": "Artem M.",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:100x_Nylon_Cable_Zip_10cm_Tie_Wraps_(2USD_on_eBay_)_(8925594504).jpg",
     "w": 960,
-    "h": 960,
-    "site": "Wikimedia"
+    "h": 551
+  },
+  "nylon662": {
+    "file": "nylon662.jpg",
+    "caption": "Nylon rope: it stretches under load, which is why a climbing rope catches a fall instead of breaking a back",
+    "kind": "product",
+    "title": "Nylon Rope.JPG",
+    "site": "Wikimedia",
+    "artist": "Angelsharum",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nylon_Rope.JPG",
+    "w": 960,
+    "h": 949
+  },
+  "nylon663": {
+    "file": "nylon663.jpg",
+    "caption": "The classroom nylon rope trick: a diamine in water under a diacid chloride in solvent, and the polymer forms at the interface and is pulled out as a thread; the pink is an indicator",
+    "kind": "process",
+    "title": "Nailoni süntees 1.JPG",
+    "site": "Wikimedia",
+    "artist": "Thctamm",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nailoni_s%C3%BCntees_1.JPG",
+    "w": 960,
+    "h": 640
   },
   "hdpe": {
     "file": "hdpe.jpg",
@@ -1956,6 +2028,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720
   },
+  "hdpe2": {
+    "file": "hdpe2.jpg",
+    "caption": "Jerry cans baled for recycling: blow-moulded HDPE, the chemical container that nothing attacks",
+    "kind": "photo",
+    "title": "HDPE Jerry Can Bales.jpg",
+    "site": "Wikimedia",
+    "artist": "ScrapManagement",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HDPE_Jerry_Can_Bales.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "hdpe3": {
+    "file": "hdpe3.jpg",
+    "caption": "A washing-up liquid bottle of about 1999, the stress-cracking test every HDPE grade had to pass",
+    "kind": "product",
+    "title": "Plastic bottle hdpe.jpg",
+    "site": "Wikimedia",
+    "artist": "Neil Cummings",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plastic_bottle_hdpe.jpg",
+    "w": 960,
+    "h": 1440
+  },
   "pex": {
     "file": "pex.jpg",
     "caption": "PEX tubing laid out for underfloor heating",
@@ -1967,6 +2063,30 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/12955651@N07/8630561101",
     "w": 768,
     "h": 1024
+  },
+  "pex2": {
+    "file": "pex2.jpg",
+    "caption": "An underfloor heating manifold with its PEX loops, the job the pipe was invented for in 1972",
+    "kind": "product",
+    "title": "Col.lector terra radiant.JPG",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Col.lector_terra_radiant.JPG",
+    "w": 960,
+    "h": 820
+  },
+  "pex3": {
+    "file": "pex3.jpg",
+    "caption": "A reel of 20 kV cable: the insulation is cross-linked polyethylene, the same chemistry as the pipe",
+    "kind": "related",
+    "title": "20 kV cables manufactured by General Cable (4).jpg",
+    "site": "Wikimedia",
+    "artist": "Cjp24",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20_kV_cables_manufactured_by_General_Cable_(4).jpg",
+    "w": 960,
+    "h": 720
   },
   "eps": {
     "file": "eps.jpg",

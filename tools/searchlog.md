@@ -594,3 +594,27 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Memory foam from ear-plugs.jpg`, `Foam and Viscoelastic Foam.JPG` | a yellow macro with no scale, and a yellow pad on a floor |
 | `Pink Crocs (1001349).jpg` | a worn shoe on a bathroom floor |
 | `Danmarks Tekniske Museum - Lego bricks.jpg` | a model in a vitrine; the bricks are tiny |
+
+
+## Restyle batch, 18 November 2026: pet, pvc, nylon66, hdpe, pex
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| PET, the fibre or the blow-moulding machine | `polyester fibre staple`, `PET bottle blow moulding`, `fleece recycled bottles` | nothing | a photo of a stretch-blow machine or a fleece named as rPET |
+| PVC, a window profile or a floor | `PVC window frame profile`, `vinyl flooring roll` | nothing; flooring returns gyms and HABS surveys | a cut uPVC profile section |
+| Nylon 6/6, a gear or the 1940 stockings | `nylon gear`, `nylon stockings 1940`, `Carothers nylon`, `nylon 66 pellets` | gears are an unspecified breadboard pair; the DuPont archive scans are pamphlets and sample books | a labelled nylon gear or a 1940 queue photograph |
+| HDPE, a butt-fusion joint or a cutting board | `HDPE pipe butt fusion`, `HDPE cutting board`, `HDPE milk jug` | nothing; the milk jug query returns maple sap | a photo of a fusion machine on a gas main |
+| PEX, an expansion joint or a manifold close-up | `PEX manifold`, `PEX crimp fitting` | only 680 px vendor shots of brass fittings | an expansion tool on a pipe end |
+
+| rejected after looking | why |
+|---|---|
+| `Kabelbinder -- 2024 -- 6907.jpg` as the nylon face (and 6911, 6917) | light-painted art shots of cable ties: a rainbow streak on black, unreadable; replaced by the eBay heap |
+| `Bridas de nylon blancas y negras.jpg` | 720 px and four ties on a desk; the heap says more |
+| `Gears 5625.JPG` | a brass and a grey gear on a breadboard; which one is nylon is anyone's guess |
+| `Nylon Hosiery Sample Books - DPLA` | a pamphlet cover, text |
+| `20220807 PET preform 1.jpg` | preforms with caps on a dark table; the hand-held one beside a bottle neck explains the process |
+| `Fitting motor.JPG` | a motor in a cut pipe, the pipe incidental |
+| `Geosynthetic materials.jpg` | a black-and-white stack of textiles; the geomembrane is a dark band |
+| `Orange and Yellow HDPE Pipe.jpg` | duplicates the orange reels already on the face |
+| `PEX installation tools and fittings.jpg` | a numbered tool layout, fine for a manual, cluttered on a card |
+| `XLPE powder in mold used in Rotational Molding` | white powder in a grey mould |

@@ -163,10 +163,20 @@ sailcloth|commons|Bear of Britain spinnaker.jpg|A modern laminate spinnaker unde
 abs|Flickr|https://live.staticflickr.com/317/19709520299_6e2089a6e1_b.jpg|3DBenchy test prints in ABS filament|product|CC BY 2.0|Creative Tools|https://www.flickr.com/photos/33907867@N02/19709520299
 abs2|commons|Lego bricks.jpg|Lego bricks, ABS since 1963: the clutch depends on a tolerance of a hundredth of a millimetre|product
 pet|Flickr|https://live.staticflickr.com/3261/2629301274_8f41b9afd0_b.jpg|PET bottles, blown and biaxially stretched|product|CC BY 2.0|dierk schaefer|https://www.flickr.com/photos/dierkschaefer/2629301274
+pet2|commons|20220807 PET preform 3.jpg|A preform beside the bottle it becomes: the thick glassy tube is reheated and blown, and the stretch is what makes the wall strong and clear|process
+pet3|commons|Bales of PET bottles closeup.jpg|A bale of crushed PET bottles at a recycling plant in San Jose: the most recycled plastic there is|photo
 pvc|Flickr|https://live.staticflickr.com/2195/2269567444_6a61e07287_b.jpg|A stack of PVC pressure pipe|product|CC BY-SA 2.0|Pam_Broviak|https://www.flickr.com/photos/23870457@N06/2269567444
-nylon66|commons|Kabelbinder -- 2024 -- 6907.jpg|Nylon 6/6 cable ties|product
+pvc2|commons|Inflatable boat-001.jpg|An inflatable boat in plasticised PVC, the same polymer as the pipe with half its weight in plasticiser|product
+pvc3|commons|12in-Vinyl-LP-Record-Angle.jpg|A 12-inch LP: rigid PVC with a little vinyl acetate, pressed since the Columbia record of 1948|product
+nylon66|commons|100x Nylon Cable Zip 10cm Tie Wraps (2USD on eBay ) (8925594504).jpg|A heap of nylon 6/6 cable ties: the ratchet pawl only works because the material is tough once it has taken up water|product
+nylon662|commons|Nylon Rope.JPG|Nylon rope: it stretches under load, which is why a climbing rope catches a fall instead of breaking a back|product
+nylon663|commons|Nailoni süntees 1.JPG|The classroom nylon rope trick: a diamine in water under a diacid chloride in solvent, and the polymer forms at the interface and is pulled out as a thread; the pink is an indicator|process
 hdpe|Flickr|https://live.staticflickr.com/65535/51849066566_a6b3775c46_b.jpg|Reels of orange HDPE innerduct for cables|product|CC0|joncutrer|https://www.flickr.com/photos/47121680@N00/51849066566
+hdpe2|commons|HDPE Jerry Can Bales.jpg|Jerry cans baled for recycling: blow-moulded HDPE, the chemical container that nothing attacks|photo
+hdpe3|commons|Plastic bottle hdpe.jpg|A washing-up liquid bottle of about 1999, the stress-cracking test every HDPE grade had to pass|product
 pex|Flickr|https://live.staticflickr.com/8117/8630561101_19000ee64f_b.jpg|PEX tubing laid out for underfloor heating|product|CC BY-SA 2.0|dane brian|https://www.flickr.com/photos/12955651@N07/8630561101
+pex2|commons|Col.lector terra radiant.JPG|An underfloor heating manifold with its PEX loops, the job the pipe was invented for in 1972|product
+pex3|commons|20 kV cables manufactured by General Cable (4).jpg|A reel of 20 kV cable: the insulation is cross-linked polyethylene, the same chemistry as the pipe|related
 eps|commons|Expanded Polystyrene (EPS) foam pellets.jpg|Expanded polystyrene beads|photo
 pdms|commons|Рождение микрофлюидного чипа.JPG|A PDMS microfluidic chip|product
 fep|commons|Pfa tubing.jpeg|PFA tubing — the same melt-processible fluoropolymer family as FEP|related
