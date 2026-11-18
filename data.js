@@ -756,16 +756,18 @@ window.MATERIALS = [
 },
 {
   id: "invar", cat: "metal", name: "Invar 36",
-  sub: "Fe–36Ni", img: "invar",
-  hook: "A magnetic accident: thermal expansion is almost exactly cancelled by magnetostriction, leaving an alloy that barely changes size over normal temperature swings.",
+  sub: "Fe–36Ni", img: "invar", extra: ["invar2", "invar3"],
+  hook: "Guillaume's accident of 1896: at 36 per cent nickel the iron shrinks as it loses its magnetism at the rate heat expands it, and the metre bar stops breathing. A Nobel in 1920, and the shadow mask in every colour TV.",
+  more: "Guillaume was hunting a cheap substitute for platinum-iridium metre bars when a nickel steel refused to expand: the alloy is magnetic, the magnetism shrinks it, and warming it loses the magnetism at just the rate ordinary expansion grows, so to 100 °C it moves a tenth as much as steel. It became the pendulum rod of the Riefler and Shortt clocks that kept a second a year, the surveyor's tape, the shadow mask behind every colour television, the 0.7 mm membrane of an LNG tank at minus 163 °C, and the mould a carbon wing is cured on, so it comes out the size drawn. The costs: it is soft, weak and heavy; it rusts; it creeps a few parts per million a year unless stabilised; the trick fails above 230 °C; and a point of carbon or a cold bend spoils it.",
   stats: [["CTE", "~1.2 ppm/K"], ["Steel", "~12 ppm/K"], ["Found", "1896, Guillaume"]],
   uses: "Metrology frames, telescope structures, LNG membrane tanks, composite moulds.",
   link: "https://en.wikipedia.org/wiki/Invar"
 },
 {
   id: "kovar", cat: "metal", name: "Kovar",
-  sub: "Fe–29Ni–17Co", img: "kovar",
-  hook: "Not low expansion — matched expansion. Its curve tracks borosilicate glass closely enough that the two can be fused into a seal that survives thermal cycling.",
+  sub: "Fe–29Ni–17Co", img: "kovar", extra: ["kovar2", "kovar3"],
+  hook: "Scott's alloy at Westinghouse, 1936: iron with 29 nickel and 17 cobalt, its expansion curve lying on top of borosilicate glass's the whole way. Oxidise it, fuse glass on, and the seal holds vacuum for decades.",
+  more: "A glass-to-metal seal cools from 500 °C, and whichever shrinks more cracks it; Howard Scott tuned the nickel and cobalt until the alloy's curve, kinked by its loss of magnetism at 435 °C, followed Corning 7052 down. The metal is oxidised to a film thin enough to show straw colours, because glass wets the oxide and not the bare alloy, then the glass is melted on: the pin header of every valve and transistor can, the window on a laser and an X-ray tube, the feedthrough in a pacemaker, the lid frame of a chip package. The costs: it is magnetic, it conducts heat and current badly so leads are plated gold over nickel, it rusts, cobalt makes it dear, it does not match soda-lime glass, and an oxide a shade too thick peels the seal.",
   stats: [["CTE", "~5 ppm/K"], ["Matched to", "borosilicate"], ["Seal", "hermetic glass-to-metal"]],
   uses: "Vacuum tube and IC packages, laser windows, hermetic feedthroughs.",
   link: "https://en.wikipedia.org/wiki/Kovar"
@@ -774,23 +776,26 @@ window.MATERIALS = [
   id: "gummetal", cat: "metal", name: "Gum Metal",
   sub: "Ti–Nb–Ta–Zr–O",
   img: "gummetal",
-  hook: "A titanium alloy that breaks the usual rules: very low stiffness, large elastic strain, and it can be cold-worked enormously without work-hardening the way metals are supposed to.",
+  hook: "Saito's titanium of 2003, Toyota: niobium, tantalum, zirconium and a trace of oxygen, rolled nine tenths flat. It springs 2.5 per cent, has half titanium's stiffness, barely expands hot and will not work-harden.",
+  more: "The recipe came from electron counting, 4.24 per atom, numbers the team called magic, and the result sits where the body-centred lattice is about to collapse. Deform it and it does not slip and pile up dislocations as metals do; it shears in broad faults, so it takes 90 per cent cold work without hardening, stretches 2.5 per cent against 0.5 for steel, and its stiffness and size barely change from minus 200 to 250 °C. It went into spectacle frames and precision screws, and into trials as a hip stem soft enough not to waste the bone around it. The costs: tantalum and niobium make it dear, the oxygen must be held to a tenth of a per cent, one anneal undoes the magic, it is no stronger than Ti-6-4, and the mechanism is still argued.",
   stats: [["Elastic strain", "~2.5%"], ["Modulus", "~55–65 GPa"], ["Cold work", "90%+"]],
   uses: "Watch springs, eyeglass frames, medical devices, research curiosities.",
   link: "https://en.wikipedia.org/wiki/Gum_metal"
 },
 {
   id: "bmg", cat: "metal", name: "Bulk metallic glass",
-  sub: "Vitreloy, Liquidmetal", img: "bmg",
-  hook: "Cooled fast enough that the atoms never find their lattice. No grains, no slip planes, no grain boundaries to corrode — and it can be blow-moulded like a thermoplastic.",
+  sub: "Vitreloy, Liquidmetal", img: "bmg", extra: ["bmg2", "bmg3"],
+  hook: "Johnson and Peker's Vitreloy of 1993: five metals so badly matched the melt cannot find a lattice, so at a degree a second it freezes as a glass centimetres thick. Twice titanium's strength, and it snaps like glass.",
+  more: "Duwez splat-cooled the first in 1960, and for thirty years metallic glass was a ribbon, the transformer core that cut losses two thirds. Caltech's zirconium, titanium, copper, nickel and beryllium crowd each other so badly that a casting centimetres across stays amorphous: no grains, no dislocations, so it holds 1.9 GPa, bends 2 per cent and gives the energy back, hence the first product, a golf club face. Above its glass transition it softens like a thermoplastic and blow-moulds thin; Liquidmetal cased a flash drive, Apple a SIM tool, and NASA cut gears that run dry at minus 200 °C. The costs: no ductility, one shear band and it is in two pieces; poor fatigue; a few centimetres at most; beryllium; and held hot it crystallises back into a metal.",
   stats: [["Elastic limit", "~2%"], ["Strength", "~1.9 GPa"], ["Structure", "amorphous"]],
   uses: "Phone hinges and SIM tools, watch cases, golf heads, surgical blades.",
   link: "https://en.wikipedia.org/wiki/Amorphous_metal"
 },
 {
   id: "greyiron", cat: "metal", name: "Grey cast iron",
-  sub: "flake-graphite iron", img: "greyiron",
-  hook: "The oldest material here and still unbeaten at one job. Graphite flakes interrupt the matrix and turn vibration into heat, which is why precision machine bases are cast rather than fabricated.",
+  sub: "flake-graphite iron", img: "greyiron", extra: ["greyiron2", "greyiron3"],
+  hook: "Iron with three per cent carbon that freezes as graphite flakes: the oldest cast metal, fluid enough to fill a lathe bed in one pour and full of cracks that turn vibration into heat. Weak pulled, immortal pushed.",
+  more: "Carbon above two per cent will not stay in solution, and with a little silicon it freezes out as graphite flakes threading the iron like cracked mica. The flakes are voids, so it tears at 150 to 400 MPa and never bends, yet carries three times that in compression, and they soak up vibration ten times better than steel, so a lathe bed and a piano frame are cast, not fabricated. The graphite also lubricates the tool and breaks the chip, cools a brake disc, and makes the melt fluid and almost shrink-free, so a skillet and an engine block pour cheap. The costs: brittle, a weld cracks beside the bead, it rusts and cannot be forged; the magnesium treatment of 1943 rolled the flakes into spheres and made ductile iron, for the jobs that had to bend.",
   stats: [["Damping", "~10–20× steel"], ["Tensile", "150–400 MPa"], ["Cost", "cheap"]],
   uses: "Machine tool beds, engine blocks, brake discs, stationary bases.",
   link: "https://en.wikipedia.org/wiki/Gray_iron"

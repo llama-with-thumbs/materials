@@ -17,9 +17,17 @@ vespel|commons|Vespel.Werkstueck.P1149524.jpg|Machined Vespel polyimide part|pho
 ffkm|commons|FFKM FFPM CKD900 plate 80mm 80mm 1mm.jpg|FFKM perfluoroelastomer sheet|photo
 nitinol|Flickr|https://live.staticflickr.com/113/299640093_82de232245_b.jpg|Spoons cut from Nitinol sheet, the classic shape-memory demonstration piece|product|CC BY-SA 2.0|jeanbaptisteparis|https://www.flickr.com/photos/49503077999@N01/299640093
 invar|commons|Invar 800.jpg|Invar 36 stock|photo
-kovar|commons|Assortment of Kovar metal.jpg|Assorted Kovar parts|photo
-bmg|NASA|https://images-assets.nasa.gov/image/KSC-20210617-PH-KLS01_0044/KSC-20210617-PH-KLS01_0044~medium.jpg|Bulk metallic glass gearbox parts from NASA's BMGG project, in test at Kennedy's Swamp Works|product|Public domain|KSC|https://images.nasa.gov/details/KSC-20210617-PH-KLS01_0044
-greyiron|commons|Gusseisen mit Lamellengraphit.jpg|Grey iron micrograph — the dark graphite flakes that damp vibration|photo
+invar2|commons|Shortt Synchronome free pendulum clock.jpg|A Shortt-Synchronome clock at NIST: the pendulum rod is Invar, and it kept time to a second a year|product
+invar3|commons|Theb1664 - Flickr - NOAA Photo Library.jpg|Surveyors measuring a baseline on the Georgia coast with an Invar tape, which does not change length with the weather|photo
+kovar|commons|Matched glass-to-metal seals.JPG|Matched glass-to-metal seals: Kovar headers and pins fused into borosilicate, gold-plated for soldering|product
+kovar2|commons|Assortment of Kovar metal.jpg|A Westinghouse advertisement for Kovar in sheet, rod, wire and tube|related
+kovar3|commons|EA52 vacuum tube diode.jpg|A 1950s disc-seal UHF diode: metal discs fused through the glass envelope, the joint Kovar was made for|product
+bmg|commons|Metalic Glas Vitreloy4.jpg|Pieces of Vitreloy 4, a zirconium glass: the cylinder is a centimetre across and has no grains at all|photo
+bmg2|NASA|https://images-assets.nasa.gov/image/KSC-20210617-PH-KLS01_0044/KSC-20210617-PH-KLS01_0044~medium.jpg|Bulk metallic glass gearbox parts from NASA's BMGG project under test at Kennedy's Swamp Works, to run dry in the cold|product|Public domain|KSC|https://images.nasa.gov/details/KSC-20210617-PH-KLS01_0044
+bmg3|commons|SanDisk Cruzer Titanium 02.jpg|A SanDisk Cruzer Titanium of 2005: the case is Liquidmetal, a zirconium glass cast thin|product
+greyiron|commons|In-stream inoculation addition while molten cast iron is poured to a green sand mold in a foundry in Bangladesh.jpg|Grey iron poured into a green-sand mould in a Bangladeshi foundry, inoculant blown into the stream to seed the graphite|process
+greyiron2|commons|Gusseisen mit Lamellengraphit.jpg|The micrograph: dark graphite flakes threading the iron, the cracks that damp vibration and start fractures|structure
+greyiron3|commons|Griswold cast iron skillet.jpg|A Griswold skillet: grey iron, poured cheap, holding heat and never bending|product
 becu|commons|CuBe Tool.jpg|Beryllium-copper non-sparking tool|photo
 mumetal|commons|Mu-metal assortment 1951.jpg|Mu-metal shielding cans|photo
 stellite|commons|Unterkiefer Teilprothese 20100112 008.JPG|Cast cobalt-chrome (Stellite-type) framework|photo

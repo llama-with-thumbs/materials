@@ -723,3 +723,28 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Biegeverstärkung einer Brückenplatte mit Memorystahl.jpg` | iron-based shape memory steel, not nitinol |
 | `NASA Armstrong ... PTERA Testbed` | an aircraft taking off; the alloy is inside the wing |
 | `Beladungsmuster für Sterilisation Zahnarztinstrumente 02.JPG` | a steel tray |
+
+
+## Restyle batch, 18 November 2026: invar, kovar, gummetal, bmg, greyiron
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Invar, an LNG membrane or a composite mould | `LNG membrane tank Invar`, `composite mould Invar`, `Invar rod` | nothing; the levelling staff photo is a hi-vis vest and a pole | a Gaztransport membrane corrugation or a 787 tool |
+| Kovar, a chip package or a feedthrough named as such | `Kovar`, `hermetic feedthrough`, `TO-5 transistor can`, `dual in-line package ceramic` | `Kovar` is a town in Texas; the compressor feedthroughs are compression seals in steel; the HP ceramic DIP does not name its leads | a TO header or a ceramic package named Kovar |
+| Gum Metal, anything | `Gum Metal`, `titanium eyeglass frames`, `beta titanium alloy`, `titanium alloy spring` | chewing-gum bins and bicycle racks; the JINS frame has a beta-titanium hinge, not Gum Metal; the balance spring stays as related | a Gum Metal frame or screw named as such |
+| Bulk metallic glass, a ribbon or a transformer core | `metallic glass ribbon`, `amorphous metal transformer core`, `Liquidmetal` | handbags and fans; the only ribbon is a 1024 px DOE photo | a Metglas core or a ribbon spool |
+| Grey iron, a machine bed or surface plate | `cast iron machine bed`, `lathe bed cast iron`, `surface plate cast iron`, `engine block cast iron` | the oil-field lathe is a vendor shot with a watermark; the surface plate is 706 px; the rest is bridges and locomotives | a cast lathe bed before paint, or a scraped surface plate |
+
+| rejected after looking | why |
+|---|---|
+| `Assortment of Kovar metal.jpg` as the Kovar face | a vintage advertisement; kept as a related view, the matched seals are the face |
+| the NASA BMGG hands photo as the BMG face | gloved hands and a cylinder; kept second, the Vitreloy 4 pieces are the face |
+| `Gusseisen mit Lamellengraphit.jpg` as the grey iron face | a micrograph, honest but abstract; kept as the structure view, the pour is the face |
+| `Glass-to-metal compression seals.JPG` | compression seals, which use steel, not Kovar |
+| `LeicaStaff01.JPG` | a hi-vis vest and a pole |
+| `HP 1820-0250.jpg` | a ceramic DIP, the Kovar unproven |
+| `Bulk-metallic-glass matrix composite.jpg` | a 3D render of dendrites |
+| `Black Titanium Frame Eyeglasses, JINS MTF-16S-151B, 1.jpg` | a titanium frame, not Gum Metal |
+| `Cast iron grey.jpg` | a second micrograph |
+| `Disc break wheel.jpg` | a Mercedes wheel; the disc is behind the spokes |
+| `Big bore 14 inch ... Pipe Threading Lathe.jpg` | a watermarked vendor photo |
