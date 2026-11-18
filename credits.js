@@ -1428,6 +1428,18 @@ window.CREDITS = {
     "h": 600,
     "site": "Wikimedia"
   },
+  "nbr2": {
+    "file": "nbr2.jpg",
+    "caption": "Raw NBR as it reaches the compounder: 25 kg bales of a 33 per cent acrylonitrile grade, wrapped against the light",
+    "kind": "photo",
+    "title": "Nitrile rubber balles.jpg",
+    "site": "Wikimedia",
+    "artist": "Cjp24",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nitrile_rubber_balles.jpg",
+    "w": 960,
+    "h": 607
+  },
   "br": {
     "file": "br.jpg",
     "caption": "A golf ball core — polybutadiene, chosen purely for rebound",
@@ -1440,6 +1452,18 @@ window.CREDITS = {
     "h": 517,
     "site": "Wikimedia"
   },
+  "br2": {
+    "file": "br2.jpg",
+    "caption": "A bale of raw polybutadiene, translucent before it is compounded",
+    "kind": "photo",
+    "title": "Polybutadiene rubber 02.jpg",
+    "site": "Wikimedia",
+    "artist": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Polybutadiene_rubber_02.jpg",
+    "w": 960,
+    "h": 663
+  },
   "tpu": {
     "file": "tpu.jpg",
     "caption": "TPU pellets, with a coin for scale",
@@ -1451,6 +1475,18 @@ window.CREDITS = {
     "w": 960,
     "h": 638,
     "site": "Wikimedia"
+  },
+  "tpu2": {
+    "file": "tpu2.jpg",
+    "caption": "A TPU bicycle inner tube, the pink coil, beside the butyl one it replaces at a third of the weight",
+    "kind": "product",
+    "title": "TPU vs. butyl inner tubes 06.jpg",
+    "site": "Wikimedia",
+    "artist": "MaligneRange",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TPU_vs._butyl_inner_tubes_06.jpg",
+    "w": 960,
+    "h": 720
   },
   "pps": {
     "file": "pps.jpg",
@@ -1466,15 +1502,39 @@ window.CREDITS = {
   },
   "mylar": {
     "file": "mylar.jpg",
-    "caption": "A foil balloon, metallised BoPET, snagged in a bush",
+    "caption": "Echo 1 inflated in a hangar before its 1960 launch: 30 metres of aluminised Mylar half the thickness of a hair",
     "kind": "product",
-    "title": "https://live.staticflickr.com/8657/16675621682_5d5542f51a_b.jpg",
-    "site": "Flickr",
-    "artist": "Joshua Tree National Park",
+    "title": "Echo - A Passive Communications Satellite - GPN-2002-000122.jpg",
+    "site": "Wikimedia",
+    "artist": "NASA",
     "license": "Public domain",
-    "page": "https://www.flickr.com/photos/115357548@N08/16675621682",
+    "page": "https://commons.wikimedia.org/wiki/File:Echo_-_A_Passive_Communications_Satellite_-_GPN-2002-000122.jpg",
     "w": 960,
-    "h": 697
+    "h": 729
+  },
+  "mylar2": {
+    "file": "mylar2.jpg",
+    "caption": "An emergency blanket, gold one side and silver the other, sewn into a Greek flag by an artist for the refugee volunteers of 2015",
+    "kind": "product",
+    "title": "Emergency Thermal Blanket, 160x100cm, Dionisis Christofilogiannis, 2015.jpg",
+    "site": "Wikimedia",
+    "artist": "Dionisis Christofilogiannis",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Emergency_Thermal_Blanket,_160x100cm,_Dionisis_Christofilogiannis,_2015.jpg",
+    "w": 960,
+    "h": 619
+  },
+  "mylar3": {
+    "file": "mylar3.jpg",
+    "caption": "A polyester film capacitor: the dielectric is BoPET a few microns thick, wound with foil",
+    "kind": "product",
+    "title": "Polyester film capacitor.jpg",
+    "site": "Wikimedia",
+    "artist": "Mataresephotos",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Polyester_film_capacitor.jpg",
+    "w": 960,
+    "h": 611
   },
   "pp": {
     "file": "pp.jpg",

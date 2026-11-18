@@ -552,3 +552,23 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Bakelite Cocktail Shaker.jpg` | marbled grey, reads as pottery at card size |
 | `Neoprene.jpg` | a black sheet with holes, no scale |
 | `EPDM rubber roof - Halifax.jpg` | a grey roof against grey sky |
+
+
+## Restyle batch, 18 November 2026: nbr, br, tpu, pps, mylar
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| NBR, an O-ring or oil seal named as nitrile | `nitrile O-ring`, `nitrile rubber seal`, `oil seal rubber lip`, `hydraulic cylinder seal`, `rubber O-rings assortment` | nothing named; the seal assortments are a vendor's mixed bag | a photo of black nitrile rings labelled as such |
+| Polybutadiene, a Super Ball or a tyre compound | `bouncing ball polybutadiene`, `tyre tread rubber compound` | nothing | a Super Ball photo that names the rubber |
+| TPU, a moulded part | `TPU phone case`, `clear phone case`, `TPU filament`, `3D printed TPU`, `TPU shoe sole`, `inline skate wheel`, `polyurethane hose pneumatic` | phone cases are unspecified, skate wheels and the caster are cast polyurethane, not TPU | a Ninjaflex print or a labelled TPU case |
+| PPS, anything photographic | `polyphenylene sulfide`, `PPS plastic`, `Ryton`, `Fortron`, `PPS resin`, `PPS filter bag`, `PPS fiber`, `baghouse filter bags`, `high temperature plastic pump impeller` | only crystal-structure renders; `Ryton` is a village, `Fortron` a Celanese plant; the Molex connectors stay alone | a Ryton pump housing or a PPS filter bag named as such |
+
+| rejected after looking | why |
+|---|---|
+| the Flickr foil balloon in a bush as the Mylar face | a desert hillside with a small bright blob; replaced by Echo 1 in its hangar |
+| `T. Keith Glennan Shows LBJ Aluminized Mylar Flim...` | two men in suits; the film is a crumple in their hands |
+| `STS082-357-022 ... Multilayer Insulation (MLI) patches` | silver crinkle with no scale |
+| `Mylar speaker (5622156948).jpg` | a speaker on a desk; the cone is a grey disc |
+| `Swivel Caster with Poly Brake.jpg` | phenolic wheel, polyurethane brake only; neither is TPU |
+| `Nitrile Gloves holder 20230316 110111.jpg` | a wall dispenser, mostly printed cardboard |
+| `Ozonecr1.jpg` as a second NBR view | a dark dimpled disc at card size; the cracks only show at full size, so it was dropped after fetching |

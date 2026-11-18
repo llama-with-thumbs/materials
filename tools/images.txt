@@ -122,10 +122,15 @@ epdm|commons|EPDM foil.jpg|EPDM membrane|photo
 epdm2|commons|FinishedEPDMcoveredRoof.jpg|A flat roof finished in EPDM membrane over an old bitumen layer|product
 epdm3|commons|EPDM rubber tube.jpg|Foamed EPDM tube for lagging pipes|product
 nbr|commons|Disposable nitrile glove.jpg|Nitrile gloves|product
+nbr2|commons|Nitrile rubber balles.jpg|Raw NBR as it reaches the compounder: 25 kg bales of a 33 per cent acrylonitrile grade, wrapped against the light|photo
 br|commons|Golfballinsiderp.jpg|A golf ball core — polybutadiene, chosen purely for rebound|product
+br2|commons|Polybutadiene rubber 02.jpg|A bale of raw polybutadiene, translucent before it is compounded|photo
 tpu|commons|Chips TPU con eurocent.jpg|TPU pellets, with a coin for scale|photo
+tpu2|commons|TPU vs. butyl inner tubes 06.jpg|A TPU bicycle inner tube, the pink coil, beside the butyl one it replaces at a third of the weight|product
 pps|commons|Molexddpcsfamily.jpg|Connector housings and crimp terminals — PPS is one of the resins moulded into parts that must survive a solder oven|analog
-mylar|Flickr|https://live.staticflickr.com/8657/16675621682_5d5542f51a_b.jpg|A foil balloon, metallised BoPET, snagged in a bush|product|Public domain|Joshua Tree National Park|https://www.flickr.com/photos/115357548@N08/16675621682
+mylar|commons|Echo - A Passive Communications Satellite - GPN-2002-000122.jpg|Echo 1 inflated in a hangar before its 1960 launch: 30 metres of aluminised Mylar half the thickness of a hair|product
+mylar2|commons|Emergency Thermal Blanket, 160x100cm, Dionisis Christofilogiannis, 2015.jpg|An emergency blanket, gold one side and silver the other, sewn into a Greek flag by an artist for the refugee volunteers of 2015|product
+mylar3|commons|Polyester film capacitor.jpg|A polyester film capacitor: the dielectric is BoPET a few microns thick, wound with foil|product
 pp|commons|Mint box polypropylene lid.JPG|A living hinge moulded in one piece with the box|product
 memoryfoam|commons|MemoryFoam-slow.jpg|Viscoelastic foam returning slowly after a hand is lifted|photo
 epoxy|Flickr|https://live.staticflickr.com/65535/52085107501_90a876b1dc_b.jpg|An epoxy floor coating with colour flakes broadcast into the wet resin|product|CC BY 2.0|Decorative Concrete Kingdom|https://www.flickr.com/photos/38041294@N05/52085107501
