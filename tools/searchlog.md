@@ -495,3 +495,21 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `NIJ LVLIIIA Kogelvrij vest, BA8001.jpg` | a vendor's product shot of a vest; the ESA shield after the test shot says more |
 | `Early Gore-Tex hooded rain jacket.jpg` as an ePTFE view | already the face of the laminated shell card; the Navy flight-deck photo replaced it |
 | the US Navy flight-deck Gore-Tex photo (070130-N-0555B-129) | a helmet and a catapult lamp at card crop; the jacket is camouflage and could be anything, so ePTFE keeps only its micrograph |
+
+
+## Restyle batch, 18 November 2026: natrubber, butyl, pvdf, kapton, parylene
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Parylene, anything photographic | `parylene`, `conformal coating`, `coated circuit board`, `cochlear implant electrode array`, `vapor deposition polymer coating`, `Gorham parylene` | only repeat-unit diagrams; the pacemaker stays alone | a photo of a coating chamber or a coated board with the masking still on |
+| Butyl, a vial stopper or a CBRN glove | `pharmaceutical rubber stopper`, `rubber stopper vial`, `chemical protective gloves butyl` | nothing that names the material; the one glove photo is unspecified | a labelled pharmaceutical stopper photo |
+| PVDF, a piezo film or a Kynar facade | `PVDF film piezoelectric`, `piezoelectric film sensor`, `PVDF coating facade`, `Kynar 500`, `hydrophone` | the piezo strand photos are 640 px microscope shots; hydrophones are steel housings | a photo of a PVDF film sensor or a Kynar-coated panel named as such |
+
+| rejected after looking | why |
+|---|---|
+| `Butyl rubber gloves.JPG` as the face | a dark grey smear at card size; kept as the second view, the Barum inner tube is the face |
+| `RSS rubber drying.jpg` | a forest with washing lines; the sheets are invisible at card size |
+| `TPU vs. butyl inner tubes 01.jpg` and `04.jpg` | the pink TPU tube is the eye-catcher, the butyl one is the black coil behind it |
+| `Vurrkaetud PVdF membraan.jpg` | a failed spin-coat, abstract |
+| `Kapton tape in Samsung phone.jpg` | a phone battery bay; the tape is a sliver |
+| `Inflated PVDF membrane at New Xingsheng Project construction site (20240814173842).jpg` | a street with taxis; the dome is a white blob behind the trees |

@@ -732,17 +732,53 @@ window.CREDITS = {
     "w": 960,
     "h": 720
   },
+  "natrubber2": {
+    "file": "natrubber2.jpg",
+    "caption": "Ribbed smoked sheet, the coagulated and smoked latex, loaded on a truck in Kerala",
+    "kind": "photo",
+    "title": "RSS rubber sheets 03.jpg",
+    "site": "Wikimedia",
+    "artist": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:RSS_rubber_sheets_03.jpg",
+    "w": 960,
+    "h": 721
+  },
+  "natrubber3": {
+    "file": "natrubber3.jpg",
+    "caption": "Laminated rubber base isolators under the Utah State Capitol: the building floats on natural rubber",
+    "kind": "product",
+    "title": "Base isolators under the Utah State Capitol.jpg",
+    "site": "Wikimedia",
+    "artist": "Mike Renlund",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Base_isolators_under_the_Utah_State_Capitol.jpg",
+    "w": 960,
+    "h": 643
+  },
   "butyl": {
     "file": "butyl.jpg",
-    "caption": "Butyl rubber gloves — the polymer gas does not get through",
+    "caption": "A bicycle inner tube, the everyday butyl part: it holds its air for weeks",
+    "kind": "product",
+    "title": "Barum bicycle inner tube.jpg",
+    "site": "Wikimedia",
+    "artist": "Oostblokblik",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barum_bicycle_inner_tube.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "butyl2": {
+    "file": "butyl2.jpg",
+    "caption": "Butyl rubber gloves for a glovebox: the polymer gas does not get through",
     "kind": "photo",
     "title": "Butyl rubber gloves.JPG",
+    "site": "Wikimedia",
     "artist": "MatChem121",
     "license": "CC BY 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Butyl_rubber_gloves.JPG",
     "w": 960,
-    "h": 1280,
-    "site": "Wikimedia"
+    "h": 1280
   },
   "pvdf": {
     "file": "pvdf.png",
@@ -767,6 +803,30 @@ window.CREDITS = {
     "page": "https://www.nasa.gov/image-article/nasas-webb-sunshield-stacks-up-test/",
     "w": 960,
     "h": 639
+  },
+  "kapton2": {
+    "file": "kapton2.jpg",
+    "caption": "Three rolls of Kapton tape, the form it takes on a workbench",
+    "kind": "product",
+    "title": "Kapton tapes, three rolls of different widths.jpg",
+    "site": "Wikimedia",
+    "artist": "Dsimic",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kapton_tapes,_three_rolls_of_different_widths.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "kapton3": {
+    "file": "kapton3.jpg",
+    "caption": "Sewing aluminised Kapton blankets onto the Huygens probe before launch, 1997",
+    "kind": "process",
+    "title": "Huygens thermal multilayer insulation.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Huygens_thermal_multilayer_insulation.jpg",
+    "w": 960,
+    "h": 649
   },
   "delrin": {
     "file": "delrin.jpg",

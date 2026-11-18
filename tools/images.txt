@@ -64,9 +64,14 @@ silicone|commons|Eiswuerfelform-silikon.jpg|Silicone ice-cube trays: flexible at
 silicone2|commons|Liquid-silicon-rubber-crop.jpg|Liquid silicone rubber before cure|photo
 silicone3|commons|Silastic Silicone Rubber- Molded Parts Resist Weather Aging - DPLA - 35ed76e4b1553fb04d228117fdf8b95c.jpg|A 1950s Dow Corning advertisement: Silastic bellows, picked out in red, on the rotor head of a Sikorsky S-55|related
 natrubber|Flickr|https://live.staticflickr.com/3521/3844921160_363bee9886_b.jpg|Latex running from a tapped rubber tree into its cup|process|CC BY 2.0|chinogypsie|https://www.flickr.com/photos/61178524@N00/3844921160
-butyl|commons|Butyl rubber gloves.JPG|Butyl rubber gloves — the polymer gas does not get through|photo
+natrubber2|commons|RSS rubber sheets 03.jpg|Ribbed smoked sheet, the coagulated and smoked latex, loaded on a truck in Kerala|photo
+natrubber3|commons|Base isolators under the Utah State Capitol.jpg|Laminated rubber base isolators under the Utah State Capitol: the building floats on natural rubber|product
+butyl|commons|Barum bicycle inner tube.jpg|A bicycle inner tube, the everyday butyl part: it holds its air for weeks|product
+butyl2|commons|Butyl rubber gloves.JPG|Butyl rubber gloves for a glovebox: the polymer gas does not get through|photo
 pvdf|commons|A UPW Installation using PVDF Piping.png|PVDF pipework in an ultrapure water plant|photo
 kapton|NASA|https://www.nasa.gov/wp-content/uploads/2023/03/sunshieldstackup-photo_3.jpg|JWST's sunshield — five tensioned layers of Kapton|photo|Public domain|NASA/Chris Gunn|https://www.nasa.gov/image-article/nasas-webb-sunshield-stacks-up-test/
+kapton2|commons|Kapton tapes, three rolls of different widths.jpg|Three rolls of Kapton tape, the form it takes on a workbench|product
+kapton3|commons|Huygens thermal multilayer insulation.jpg|Sewing aluminised Kapton blankets onto the Huygens probe before launch, 1997|process
 delrin|Flickr|https://live.staticflickr.com/4137/4779530203_90ebbaa2cb_b.jpg|A collar machined from Delrin acetal|product|CC BY 2.0|jabella|https://www.flickr.com/photos/31954184@N00/4779530203
 pc|commons|Laboratory protection goggles-blue.jpg|Polycarbonate eye protection|photo
 pmma|commons|Lichtenberg figure in block of Plexiglas.jpg|A Lichtenberg figure frozen inside a PMMA block|photo
