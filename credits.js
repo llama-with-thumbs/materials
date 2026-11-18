@@ -974,15 +974,27 @@ window.CREDITS = {
   },
   "lignostone": {
     "file": "lignostone.jpg",
-    "caption": "Densified beech laminate",
+    "caption": "A Spitfire XIV refuelling in 1944: the five Rotol blades are densified birch laminate, Jablo, the wartime cousin of Lignostone",
+    "kind": "related",
+    "title": "Royal Air Force 1939-1945- Fighter Command CH18184.jpg",
+    "site": "Wikimedia",
+    "artist": "Royal Air Force official photographer",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Royal_Air_Force_1939-1945-_Fighter_Command_CH18184.jpg",
+    "w": 800,
+    "h": 595
+  },
+  "lignostone2": {
+    "file": "lignostone2.jpg",
+    "caption": "Lignostone itself, as the scale on a knife handle",
     "kind": "photo",
     "title": "Lignoston.jpg",
+    "site": "Wikimedia",
     "artist": "Mnemosine",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Lignoston.jpg",
     "w": 960,
-    "h": 589,
-    "site": "Wikimedia"
+    "h": 589
   },
   "parylene": {
     "file": "parylene.jpg",

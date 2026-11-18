@@ -455,3 +455,20 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Karbonfaserverstärkter Hochleistungs-Kunststoff (PEEK).jpg` | a rendering of a cut tube, not a photograph |
 | `UHMWPE Dyneema, Polyamide, PolyAcryl en Polyethyleen.jpg` | a museum sample box, mostly labels at card size |
 | `PEEK resin.jpg` kept, caption corrected | the granules are black, a filled grade; the old caption called them tan |
+
+
+## Restyle batch, 17 November 2026: vespel, torlon, ffkm, zylon, lignostone
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Vespel, a second view | `Vespel seal`, `polyimide seal ring`, `SP-1 polyimide`, `polyimide bushing` | only the one CC0 machined piece already on the card | a maker's or NASA photo of a Vespel bushing |
+| Torlon, a real photograph | `Torlon`, `polyamide-imide`, `PAI plastic`, `thrust washer polymer`, `compressor vane plastic` | nothing; the Kapton tape stays as the labelled chemical neighbour | any PAI part on Commons or Flickr |
+| FFKM, an O-ring | `Kalrez`, `perfluoroelastomer`, `FFKM O-ring`, `Chemraz`, `perfluoro O-ring` | only the sheet already on the card | a photo of Kalrez rings in a semiconductor tool |
+| Zylon, the fibre or a panel | `Zylon`, `PBO fiber`, `polybenzoxazole`, `Zylon panel`, `cockpit side protection Formula One` | matches were unrelated; the Halo is titanium, not Zylon | a Toyobo spool, or a cockpit side panel photographed off the car |
+
+| rejected after looking | why |
+|---|---|
+| `Lignoston.jpg` as the face | a close-up of a knife-handle scale that reads as a brown blur at card size; kept as the second view, the Spitfire XIV with its Jablo propeller blades is the face |
+| `Hercules.propeller.arp.jpg` | a C-130J, composite blades |
+| `584c Image of Curatorial Object (54689337931).jpg` | a Dowty Rotol four-blade, described as metal |
+| `S03 233 Isolierlasche.jpg` | an insulated rail joint; the fishplates were once densified wood but these are described as glass fibre |

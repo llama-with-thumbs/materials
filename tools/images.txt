@@ -84,7 +84,8 @@ batio3|commons|BaTiO3ceramics.JPG|Barium titanate ceramic — the dielectric ins
 tbc|NASA|https://images-assets.nasa.gov/image/GRC-1999-C-02488/GRC-1999-C-02488~medium.jpg|A coated specimen in a burner rig at NASA Glenn, the test every thermal barrier coating faces|process|Public domain|GRC|https://images.nasa.gov/details/GRC-1999-C-02488
 sorbothane|Flickr|https://live.staticflickr.com/7183/6909790478_98ec83fdeb_b.jpg|Sorbothane grommets isolating a turntable motor|product|CC BY 2.0|Turntable Guy|https://www.flickr.com/photos/alternativeroute/6909790478
 zylon|commons|NIJ LVLIIIA Kogelvrij vest, BA8001.jpg|A Level IIIA vest — Zylon was woven into vests like this until it was found to lose strength as it aged|analog
-lignostone|commons|Lignoston.jpg|Densified beech laminate|photo
+lignostone|commons|Royal Air Force 1939-1945- Fighter Command CH18184.jpg|A Spitfire XIV refuelling in 1944: the five Rotol blades are densified birch laminate, Jablo, the wartime cousin of Lignostone|related
+lignostone2|commons|Lignoston.jpg|Lignostone itself, as the scale on a knife handle|photo
 parylene|commons|CPI Microlyth Pacemaker.jpg|A cardiac pacemaker — parylene C is the standard conformal coating on implanted electronics|product
 vectran|commons|Level 3A glove.jpg|A cut-resistant glove — Vectran is one of the yarns knitted into this class|related
 metglas|commons|MeltSpinner.png|Melt spinning: the molten jet hits a chilled wheel and freezes before it can crystallise|process
