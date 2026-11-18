@@ -2172,6 +2172,18 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "pvb2": {
+    "file": "pvb2.jpg",
+    "caption": "A windscreen after an impact: the glass crazes into a star and the interlayer keeps every piece in place",
+    "kind": "product",
+    "title": "Windshield-spiderweb.jpg",
+    "site": "Wikimedia",
+    "artist": "Tysto",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Windshield-spiderweb.jpg",
+    "w": 960,
+    "h": 466
+  },
   "surlyn": {
     "file": "surlyn.jpg",
     "caption": "A golf ball — the cover is an ionomer",
@@ -2196,9 +2208,45 @@ window.CREDITS = {
     "w": 960,
     "h": 772
   },
+  "pla2": {
+    "file": "pla2.jpg",
+    "caption": "Cold-drink cups in PLA: clear as PET, compostable only at 58 °C, and no use for coffee",
+    "kind": "product",
+    "title": "Cmglee PLA cups.jpg",
+    "site": "Wikimedia",
+    "artist": "Cmglee",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cmglee_PLA_cups.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "pla3": {
+    "file": "pla3.jpg",
+    "caption": "A two-colour Benchy printed in PLA, the filament that prints on a cold bed without warping",
+    "kind": "product",
+    "title": "Dualprint version of -3DBenchy made of PLA filament - 3DBenchy.com (19118501499).jpg",
+    "site": "Wikimedia",
+    "artist": "3DBenchy",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dualprint_version_of_-3DBenchy_made_of_PLA_filament_-_3DBenchy.com_(19118501499).jpg",
+    "w": 960,
+    "h": 710
+  },
   "melaminefoam": {
     "file": "melaminefoam.jpg",
-    "caption": "Profiled melamine foam, cut for acoustic panels",
+    "caption": "A melamine foam cleaning block: open cells with hard, brittle walls that scour as they crumble",
+    "kind": "product",
+    "title": "MagicEraser.jpg",
+    "site": "Wikimedia",
+    "artist": "Whoisjohngalt at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MagicEraser.jpg",
+    "w": 960,
+    "h": 717
+  },
+  "melaminefoam2": {
+    "file": "melaminefoam2.jpg",
+    "caption": "Profiled melamine foam cut for acoustic panels, the job it was made for",
     "kind": "product",
     "title": "https://live.staticflickr.com/7623/16845294825_42eef15d71_b.jpg",
     "site": "Flickr",
@@ -4586,15 +4634,39 @@ window.CREDITS = {
   },
   "cellacetate": {
     "file": "cellacetate.jpg",
-    "caption": "Cutlery moulded in cellulose acetate",
+    "caption": "A Wayfarer frame milled from a block of cellulose acetate, the colour through the thickness",
     "kind": "product",
-    "title": "Cutlery made from Cellulose Acetate Biograde.JPG",
-    "artist": "F. Kesselring, FKuR Willich",
-    "license": "CC BY-SA 3.0 de",
-    "page": "https://commons.wikimedia.org/wiki/File:Cutlery_made_from_Cellulose_Acetate_Biograde.JPG",
+    "title": "Ray-Ban Classic Wayfarer RB5121 47-22.jpg",
+    "site": "Wikimedia",
+    "artist": "Amin",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ray-Ban_Classic_Wayfarer_RB5121_47-22.jpg",
     "w": 960,
-    "h": 673,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "cellacetate2": {
+    "file": "cellacetate2.jpg",
+    "caption": "A tortoiseshell pattern made of coloured acetate chips pressed into the slab, not printed on it",
+    "kind": "product",
+    "title": "Ombraz Classic Tortoise Grey.jpg",
+    "site": "Wikimedia",
+    "artist": "Jensen Brehm",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ombraz_Classic_Tortoise_Grey.jpg",
+    "w": 960,
+    "h": 824
+  },
+  "cellacetate3": {
+    "file": "cellacetate3.jpg",
+    "caption": "An 8 mm reel of Kodak safety film: the acetate base that replaced nitrate, and the one that smells of vinegar as it goes",
+    "kind": "product",
+    "title": "8 mm Kodak safety film reel 01.jpg",
+    "site": "Wikimedia",
+    "artist": "Coyau",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:8_mm_Kodak_safety_film_reel_01.jpg",
+    "w": 960,
+    "h": 640
   },
   "gummetal": {
     "file": "gummetal.jpg",

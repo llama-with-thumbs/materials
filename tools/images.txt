@@ -184,9 +184,13 @@ pdms|commons|Lab on a Chip (7788250170).jpg|A PDMS microfluidic device on a dish
 pdms2|commons|Lung-on-a-chip-wyss.jpg|The lung-on-a-chip from the Wyss Institute: two channels of cells either side of a PDMS membrane that breathes|product
 fep|commons|Pfa tubing.jpeg|PFA tubing — the same melt-processible fluoropolymer family as FEP|related
 pvb|commons|Shattered laminated glass in broken window in railway tram train carriage Close-up Cracks fragments visual effects patterns NORWAY Knust vindu i togvogn med laminert sikkerhetsglass sprekker småbiter lyseffekter 2019-02-11 DSC03363.jpg|Shattered laminated glass, every fragment still held by the PVB interlayer|product
+pvb2|commons|Windshield-spiderweb.jpg|A windscreen after an impact: the glass crazes into a star and the interlayer keeps every piece in place|product
 surlyn|commons|Golf ball by Japanese company Srixon.jpg|A golf ball — the cover is an ionomer|product
 pla|Flickr|https://live.staticflickr.com/7582/15760663749_6f445d6535_b.jpg|PLA filament|photo|CC BY-SA 2.0|westonhighschoollibrary|https://www.flickr.com/photos/124105511@N08/15760663749
-melaminefoam|Flickr|https://live.staticflickr.com/7623/16845294825_42eef15d71_b.jpg|Profiled melamine foam, cut for acoustic panels|product|CC BY-SA 2.0|Trevor Cox Salford|https://www.flickr.com/photos/61944720@N05/16845294825
+pla2|commons|Cmglee PLA cups.jpg|Cold-drink cups in PLA: clear as PET, compostable only at 58 °C, and no use for coffee|product
+pla3|commons|Dualprint version of -3DBenchy made of PLA filament - 3DBenchy.com (19118501499).jpg|A two-colour Benchy printed in PLA, the filament that prints on a cold bed without warping|product
+melaminefoam|commons|MagicEraser.jpg|A melamine foam cleaning block: open cells with hard, brittle walls that scour as they crumble|product
+melaminefoam2|Flickr|https://live.staticflickr.com/7623/16845294825_42eef15d71_b.jpg|Profiled melamine foam cut for acoustic panels, the job it was made for|product|CC BY-SA 2.0|Trevor Cox Salford|https://www.flickr.com/photos/61944720@N05/16845294825
 cyanoacrylate|commons|Cianocrilato.JPG|A block of superglue, set solid|photo
 pva|commons|Folia PVA z pochodną kumaryny w świetle widzialnym nr 01.jpg|Polyvinyl alcohol film|photo
 nafion|commons|Patrick Teppor and PEM active layer deposition by ultrasonic spraying.jpg|Spraying a catalyst layer onto a proton exchange membrane|process
@@ -385,7 +389,9 @@ grcop|commons|Marshall engineers installed the injector in a subscale RS-25 engi
 ebm|Flickr|https://live.staticflickr.com/7015/6790413239_05b51c6b63_b.jpg|A titanium lattice gauntlet grown by electron-beam melting at Oak Ridge|product|CC BY 2.0|oakridgelabnews|https://www.flickr.com/photos/37940997@N05/6790413239
 soluble|commons|Support structure in 3D printing.jpg|Support structure on a printed part; soluble versions wash off|related
 pa12powder|Flickr|https://live.staticflickr.com/6209/6123908690_17e3b89de7_b.jpg|A laser-sintered nylon bicycle — the first workable one, grown in fused powder|product|CC BY-SA 2.0|51% Studios Architecture|https://www.flickr.com/photos/51pct/6123908690
-cellacetate|commons|Cutlery made from Cellulose Acetate Biograde.JPG|Cutlery moulded in cellulose acetate|product
+cellacetate|commons|Ray-Ban Classic Wayfarer RB5121 47-22.jpg|A Wayfarer frame milled from a block of cellulose acetate, the colour through the thickness|product
+cellacetate2|commons|Ombraz Classic Tortoise Grey.jpg|A tortoiseshell pattern made of coloured acetate chips pressed into the slab, not printed on it|product
+cellacetate3|commons|8 mm Kodak safety film reel 01.jpg|An 8 mm reel of Kodak safety film: the acetate base that replaced nitrate, and the one that smells of vinegar as it goes|product
 gummetal|commons|Watch balance spring and human hair.jpg|A watch balance spring beside a human hair — Gum Metal is one of the alloys wound into these|related
 al7075|Flickr|https://live.staticflickr.com/8741/17101043315_4f12362b98_b.jpg|A forged 7075 aluminium bicycle stem, Zipp Service Course SL|product|CC BY 2.0|Glory Cycles|https://www.flickr.com/photos/29558127@N06/17101043315
 ss316l|Flickr|https://live.staticflickr.com/7511/27964588231_b90529058e_b.jpg|Orbital welding 316L tube — the low-carbon grade exists so a weld like this does not sensitise|product|CC BY 2.0|fourbyfourblazer|https://www.flickr.com/photos/chrisyarzab/27964588231

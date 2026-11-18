@@ -644,3 +644,32 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `HK clothing NIKE brand Vaporfly Next sneakers ... 05 (cropped).jpg` | white shoes on feet, the foam invisible |
 | `Materialermüdung Skischuh Polyurethan.jpg` | a cracked boot, and polyurethane |
 | `Tip of dilatation catheter with balloon.png` | a grey tube against a ruler |
+
+
+## Restyle batch, 18 November 2026: pvb, surlyn, pla, cellacetate, melaminefoam
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| PVB, the bare sheet or an edge view | `laminated glass edge`, `PVB interlayer`, `polyvinyl butyral`, `windscreen replacement` | only the Norwegian tram series, one diagram and garages; the Jaguar fitting shot is a car with suction cups | a roll of interlayer or a cut edge of laminated glass |
+| Surlyn, anything but a golf ball | `golf ball cut in half`, `golf ball cross section`, `Surlyn`, `ionomer`, `perfume bottle cap plastic`, `ski base` | a dozen golf balls photographed like the face, a 700 px sectioned ball, ski resorts | a sectioned two-piece ball, a perfume cap or a bowling pin named as Surlyn |
+| PLA, pellets or the lactide plant | `PLA pellets`, `polylactic acid`, `compostable cutlery PLA` | a Roman coin, structure diagrams and an art piece | pellets or the Blair plant |
+| Cellulose acetate, a frame being made or a tortoiseshell slab | `cellulose acetate glasses`, `acetate eyeglass frames`, `spectacle frame manufacturing`, `Brille Acetat`, `occhiali acetato` | one riveting photo, a Hercules brochure, buckles | a Mazzucchelli slab or a frame on the mill |
+| Melamine foam, a panel installed | `melamine sponge`, `Basotect`, `Melaminharzschaum`, `acoustic foam studio` | only the eraser block; studio foam is unspecified and probably polyurethane | a Basotect ceiling or pipe lagging named as such |
+
+| rejected after looking | why |
+|---|---|
+| `Cutlery made from Cellulose Acetate Biograde.JPG` as the acetate face | white plastic cutlery, could be anything; replaced by the Wayfarer frame |
+| the Flickr profiled acoustic panel as the melamine foam face | reads as a plaster cornice; kept as second view, the cleaning block is the face |
+| `Nieten einer Acetat Brille.jpg` | a good process shot of riveting a hinge, but the frame is a sliver under the hand; third slot went to safety film |
+| `Laminated safety glas vandalised 20060407 340.jpg` | a chunk of crazed glass with no scale |
+| `Jag having new windscreen fitted`, `Rolls Royce Ghost Front Windscreen Replacement.jpg` | a car with suction cups, and a garage |
+| `2025 Surlyn cover Slazenger VSeries Distance golf ball` | a second golf ball, labelled but the same picture as the face |
+| `Charmander PLA print.jpg`, `PLA White filament.jpg` | a dark blurry print, and a spool label |
+| `Battle of the Cups Bioplastic vs. Petroleum-Based Plastic` | a poster |
+| `MakerBot Manufacturing (9279729584).jpg` | a filament line, but a man and a long machine at card size |
+| `Horn rimmed spectacles, 4 types. Wellcome M0007428.jpg` | horn and early plastics, unspecified, black and white |
+| `Buddys Glasses 1, Buddy Holly Center` | a dim museum case |
+| `Film with early vinegar syndrome.jpg`, `Film tin with vinegar syndrome.jpg` | a reel and a tin much like the Kodak reel, less readable |
+| `Cellulose Acetate disposable syringe filter.jpg` | a labelled packet, honest but a packet |
+| `MagicEraser 240708 024642.png` | an owl logo |
+| `Ski base structure.jpg` | 800 px of black strip |
