@@ -897,39 +897,44 @@ window.MATERIALS = [
 {
   id: "rhenium", cat: "metal", name: "Rhenium",
   sub: "element 75", img: "rhenium",
-  hook: "One of the rarest stable elements and among the highest melting. A few percent in a nickel superalloy measurably slows creep, which is why jet engines consume a large share of world supply.",
+  hook: "The last stable element found, in 1925, and one of the scarcest: fifty tonnes a year, scrubbed from molybdenum roaster gas. Three per cent in a turbine blade slows creep, so jet engines take most of it.",
+  more: "A byproduct of a byproduct: it follows molybdenum through copper ore and leaves the roaster as a volatile oxide that Chile, Kazakhstan and a Polish smelter catch. It melts at 3,186 °C, second only to tungsten, and unlike tungsten it stays ductile cold. In a nickel superalloy it diffuses slower than anything else in the lattice, so 3 per cent, then 6, held the gamma prime cubes in shape for thousands more hours, and when the price touched 10,000 dollars a kilo in 2008 GE designed a blade alloy to use less. The rest is the reforming catalyst behind high-octane petrol, the thermocouple that reads 2,300 °C and the satellite thruster. The costs: tenfold price swings, three supplier countries, and scrapped blades worth more than silver.",
   stats: [["Melting point", "3186 °C"], ["Density", "21.0 g/cm³"], ["In blades", "~3–6%"]],
   uses: "Superalloy blades, rocket thrusters, high-temperature thermocouples, catalysts.",
   link: "https://en.wikipedia.org/wiki/Rhenium"
 },
 {
   id: "albemet", cat: "metal", name: "AlBeMet",
-  sub: "62% Be / 38% Al", img: "albemet",
-  hook: "Beryllium's absurd stiffness-to-weight, made machinable by blending it with aluminium. Nothing else in billet form comes close — at the cost of toxic dust and a licensed shop.",
+  sub: "62% Be / 38% Al", img: "albemet", extra: ["albemet2"],
+  hook: "Beryllium is the stiffest light metal and nearly unworkable; mixed with 38 per cent aluminium as powder, it machines like aluminium at three times the stiffness. The gimbal, the satellite frame; dust is the price.",
+  more: "The metals barely dissolve in each other, so the billet is a mix: beryllium particles for stiffness, aluminium round them for ductility, pressed from powder and extruded. A modulus of 193 GPa at 2.07 grams a cubic centimetre is three and a half times the specific stiffness of aluminium, titanium or steel, and it holds its shape when the temperature swings, so it carries the gyros of an inertial platform, the mirrors of an airborne sight and the avionics of a fighter. Pure beryllium does the same where money is no object: the gilded hexagons of the Webb telescope. The costs: the dust causes an incurable lung disease, so it is machined wet under licence; it stretches 2 per cent and hates a notch; it will not fusion-weld; and it comes from one company.",
   stats: [["Modulus", "~193 GPa"], ["Density", "2.07 g/cm³"], ["Specific stiffness", "~3× aluminium"]],
   uses: "Optical benches, inertial guidance platforms, satellite structures.",
   link: "https://en.wikipedia.org/wiki/Beryllium"
 },
 {
   id: "ti64", cat: "metal", name: "Ti-6Al-4V",
-  sub: "titanium grade 5", img: "ti64",
-  hook: "Half the density of steel at similar strength, and the oxide film reforms instantly wherever it is scratched — including inside a body, which is why bone grows straight onto it. It also hates being machined, galling and work-hardening against the tool.",
+  sub: "titanium grade 5", img: "ti64", extra: ["ti642", "ti643"],
+  hook: "Half of all titanium: six aluminium, four vanadium, steel's strength at half the weight. Its oxide heals itself in a scratch, in seawater and in a femur, where bone grows onto it. It fights the lathe.",
+  more: "Aluminium stiffens the hexagonal alpha phase and vanadium holds a little cubic beta between the grains, and the mix forges into the fan blade, the compressor disc, the landing-gear beam and most of the bolts on an airliner, a seventh of a 787. The oxide that forms in milliseconds is what the body sees: no ions, no reaction, and bone cells build on it, so the hip stem, the dental screw and the printed skull patch are this alloy in its low-oxygen grade. The costs: the Kroll sponge is energy-hungry and the metal costs ten times steel; it machines at a crawl, holding heat in the tool and welding to it; it must be welded under argon; it is five times stiffer than bone, which wastes beside it; and a rubbing blade in an engine can catch fire.",
   stats: [["Tensile", "~950 MPa"], ["Density", "4.43 g/cm³"], ["Share", "~half of all Ti used"]],
   uses: "Airframe and engine parts, implants, fasteners, bike frames.",
   link: "https://en.wikipedia.org/wiki/Ti-6Al-4V"
 },
 {
   id: "al7075", cat: "metal", name: "7075 aluminium",
-  sub: "Al–Zn–Mg–Cu, T6 temper", img: "al7075",
-  hook: "An aluminium as strong as mild steel, invented in secret in Japan in the 1930s and flown on the Zero. The strength comes from zinc precipitates grown by baking, and it is bought at the price of weldability and corrosion resistance.",
+  sub: "Al–Zn–Mg–Cu, T6 temper", img: "al7075", extra: ["al70752"],
+  hook: "Igarashi's Extra Super Duralumin of 1936, flown in the Zero and copied by Alcoa as 7075: aluminium with zinc, magnesium and copper, aged to the strength of mild steel. It will not weld and cracks in salt under load.",
+  more: "Quench and age at 120 °C for a day: MgZn2 particles a few nanometres across pin every dislocation, and the T6 temper reaches 570 MPa at a third of steel's weight. Sumitomo got there first for a fighter that had to cross the Pacific; Alcoa's version became the upper wing skin of most aircraft since, the AR-15 receiver, the carabiner, the bicycle stem, the mould plate and the hang-glider tube. The costs are the zinc: the alloy cracks when fusion-welded, so it is riveted or friction-stir joined; in the T6 temper it cracks slowly across the grain under load in salt air, so aircraft moved to the weaker T73; it corrodes faster than any other aluminium and is sold clad in pure metal; and above 120 °C the precipitates coarsen and the strength goes.",
   stats: [["Tensile, T6", "~570 MPa"], ["Density", "2.81 g/cm³"], ["Welding", "essentially not"]],
   uses: "Aircraft spars, rifle receivers, climbing hardware, mould plate.",
   link: "https://en.wikipedia.org/wiki/7075_aluminium_alloy"
 },
 {
   id: "magnesium", cat: "metal", name: "Magnesium alloy",
-  sub: "AZ91 / AZ31", img: "magnesium",
-  hook: "The lightest structural metal in use — two thirds the density of aluminium — and the best damper of the lot, which is why camera bodies and steering wheel cores are cast from it. Fine chips really do burn, cast parts really do not.",
+  sub: "AZ91 / AZ31", img: "magnesium", extra: ["magnesium2", "magnesium3"],
+  hook: "Two thirds the weight of aluminium and the best damper among metals: it die-casts into a laptop lid a millimetre thick in seconds. Chips burn; the casting does not. It rots in salt, and China makes nearly all of it.",
+  more: "Magnesium with 9 per cent aluminium, AZ91, is the die-caster's metal: it flows into thin ribs and does not weld to the steel die as aluminium does, so the die lasts and the cycle is seconds, and the part weighs 1.8 grams a cubic centimetre. That is the camera chassis, the laptop case, the steering-wheel armature, the gearbox case and, in the Beetle, 20 kilos of crankcase. It damps vibration ten times better than aluminium. The costs: a steel bolt eats it galvanically, so every part is coated; above 120 °C it creeps unless rare earths are added; chips and powder burn white-hot and water feeds the fire; the melt is blanketed with sulphur hexafluoride, a fierce greenhouse gas; and nine tenths of it comes from Chinese coal-fired retorts.",
   stats: [["Density", "1.74 g/cm³"], ["Damping", "best of structural metals"], ["Casting", "thin walls, fast cycles"]],
   uses: "Laptop and camera bodies, gearbox housings, steering-wheel armatures, drone frames.",
   link: "https://en.wikipedia.org/wiki/Magnesium_alloy"

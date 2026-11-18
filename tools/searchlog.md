@@ -794,3 +794,27 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Catalog 26 0006140 ... LPC 156 Rocket Motor Case Entering Autoclave` | a 1964 case, steel unnamed; a static firing shows a rocket, not a material |
 | `Fusable link sprinkler head.jpg` | a dim fitting on a ceiling |
 | `Wood's alloy.JPG` | a second shot of the same melt as the face |
+
+
+## Restyle batch, 18 November 2026: rhenium, albemet, ti64, al7075, magnesium
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Rhenium, a thermocouple, thruster or catalyst | `rhenium pellets`, `rhenium thermocouple`, `iridium rhenium thruster`, `molybdenite rhenium`, `rhenium filament mass spectrometer` | nothing; the element photos are a vial, a flake and a museum case | an apogee thruster or a W-Re thermocouple named as such |
+| AlBeMet, anything named | `AlBeMet`, `beryllium aluminium alloy`, `beryllium optical bench`, `beryllium gyroscope`, `beryllium satellite structure` | `AlBeMet` returns the Met museum; only pure beryllium and the Webb mirrors exist | an AlBeMet housing or gimbal named as such |
+| Ti-6Al-4V, a forging or a bolt | `titanium forging aircraft`, `titanium bolt aerospace`, `titanium 3D printed bracket`, `SR-71 titanium`, `titanium bicycle frame` | the F-15 bulkhead is a HAER tif; the bike frames are 3Al-2.5V tubing; the SR-71 is an aircraft | the F-15 bulkhead as a jpg, or a bare forging |
+| 7075, a spar or a carabiner | `aluminium wing spar`, `climbing carabiner aluminium`, `AR-15 receiver forging`, `Zero fighter wing spar`, `aluminium billet CNC` | nothing named; the hang glider does not name its tubes | a carabiner or receiver named as 7075 |
+| Magnesium, a wheel or a steering wheel | `magnesium alloy wheel`, `magnesium steering wheel`, `magnesium gearbox housing`, `Elektron magnesium` | the wheels are unnamed alloys, `Elektron` is a synthesiser, the Triumph photo is a car | a magnesium wheel or armature named as such |
+
+| rejected after looking | why |
+|---|---|
+| `Mg alloy car engine blocks.jpg` as the magnesium face | a jumbled stack; kept as third view, the Nikon chassis is the face |
+| `Yes, the James Webb Space Telescope Mirrors 'Can'` | mirror domes in canisters, less readable than the gilded hexagons |
+| `Rhenium (Element - 75) 1.jpg`, `Rhenium metal.jpg`, the Baiyin museum bar | a vial, a flake, a museum case |
+| `Sifco Industries - Cleveland.jpg` | a factory from across the road |
+| `Titanium-frame-gravel-bicycle.jpg` | a bicycle, tubing alloy unstated |
+| `Implant 5.jpg` | a dental implant render-like close-up; the cranial plate says more |
+| `7075 AL FSP.jpg` | friction stir processing, 1066 px, a weld bead |
+| `Wills Wing Talon 150` | a hang glider on a museum ceiling |
+| `Inside of a Lenovo ThinkPad X220 magnesium alloy bottom case.jpg` | a good casting but a grey rectangle at card size |
+| `Magnesium body of PENTAX K-1.JPG`, `Magnesium die casting machine.jpg` | a second camera chassis, and a machine hall |

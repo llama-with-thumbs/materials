@@ -792,6 +792,18 @@ window.CREDITS = {
     "h": 900,
     "site": "Wikimedia"
   },
+  "albemet2": {
+    "file": "albemet2.jpg",
+    "caption": "Webb telescope mirror segments: pure beryllium ground to nanometres and gilded, the metal doing what the alloy does more cheaply",
+    "kind": "related",
+    "title": "James Webb Space Telescope Mirror38.jpg",
+    "site": "Wikimedia",
+    "artist": "NASA/MSFC/David Higginbotham/Emmett Given",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Mirror38.jpg",
+    "w": 960,
+    "h": 639
+  },
   "ptfe": {
     "file": "ptfe.jpg",
     "caption": "A machined PTFE bearing cage",
@@ -2580,17 +2592,65 @@ window.CREDITS = {
     "h": 639,
     "site": "Wikimedia"
   },
+  "ti642": {
+    "file": "ti642.jpg",
+    "caption": "A titanium alloy fan blisk demonstrator, blades and disc machined from one forging",
+    "kind": "product",
+    "title": "ILA Berlin 2012 PD 038.JPG",
+    "site": "Wikimedia",
+    "artist": "Bin im Garten",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ILA_Berlin_2012_PD_038.JPG",
+    "w": 960,
+    "h": 1440
+  },
+  "ti643": {
+    "file": "ti643.png",
+    "caption": "A cranial plate 3D printed in titanium from the patient's own CT scan",
+    "kind": "product",
+    "title": "Xilloc Patient Specific Implant Titanium.png",
+    "site": "Wikimedia",
+    "artist": "Maikel Beerens, Xilloc",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Xilloc_Patient_Specific_Implant_Titanium.png",
+    "w": 960,
+    "h": 360
+  },
   "magnesium": {
     "file": "magnesium.jpg",
-    "caption": "Magnesium alloy engine blocks",
+    "caption": "The magnesium chassis of a Nikon D500, die-cast in thin walls and ribs",
+    "kind": "product",
+    "title": "Nikon D500 magnesium-alloy carbon chassis front-right 2016 China P&E.jpg",
+    "site": "Wikimedia",
+    "artist": "Morio",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nikon_D500_magnesium-alloy_carbon_chassis_front-right_2016_China_P%26E.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "magnesium2": {
+    "file": "magnesium2.jpg",
+    "caption": "A car gearbox housing die-cast in magnesium",
+    "kind": "product",
+    "title": "Handtmann-metallgusswerk-pkw-getriebegehaeuse-magnesium.jpg",
+    "site": "Wikimedia",
+    "artist": "Handtmann01",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Handtmann-metallgusswerk-pkw-getriebegehaeuse-magnesium.jpg",
+    "w": 960,
+    "h": 960
+  },
+  "magnesium3": {
+    "file": "magnesium3.jpg",
+    "caption": "A stack of magnesium alloy engine blocks",
     "kind": "product",
     "title": "Mg alloy car engine blocks.jpg",
+    "site": "Wikimedia",
     "artist": "Mark Fergus",
     "license": "CC BY 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Mg_alloy_car_engine_blocks.jpg",
     "w": 960,
-    "h": 643,
-    "site": "Wikimedia"
+    "h": 643
   },
   "damascus": {
     "file": "damascus.jpg",
@@ -4955,6 +5015,18 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/29558127@N06/17101043315",
     "w": 960,
     "h": 684
+  },
+  "al70752": {
+    "file": "al70752.jpg",
+    "caption": "Derailleur pulley wheels machined from 7075, 11.6 grams the pair",
+    "kind": "product",
+    "title": "Bicycle rear derailleur pulley wheels.JPG",
+    "site": "Wikimedia",
+    "artist": "Sam Sailor",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bicycle_rear_derailleur_pulley_wheels.JPG",
+    "w": 960,
+    "h": 640
   },
   "ss316l": {
     "file": "ss316l.jpg",

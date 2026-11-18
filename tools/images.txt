@@ -69,6 +69,7 @@ mycelium|commons|Mycelium based composite.png|Mycelium composite grown on substr
 starlite|commons|Starlite sample.jpg|A surviving Starlite sample|photo
 auxetic|commons|Meta-aux-orange.jpg|Auxetic lattice — gets thinner when stretched|photo
 albemet|commons|Be-140g.jpg|Pure beryllium, the stiffening phase in AlBeMet|photo
+albemet2|commons|James Webb Space Telescope Mirror38.jpg|Webb telescope mirror segments: pure beryllium ground to nanometres and gilded, the metal doing what the alloy does more cheaply|related
 ptfe|Flickr|https://live.staticflickr.com/2228/2363587972_e1fcd0cdb0_b.jpg|A machined PTFE bearing cage|product|CC BY 2.0|oskay|https://www.flickr.com/photos/17425845@N00/2363587972
 ptfe2|commons|PTFEpaska.jpg|Thread seal tape: unsintered PTFE, skived thin, the form most people have handled|product
 eptfe|commons|Goretex photo.png|Expanded PTFE under the microscope — the node-and-fibril structure that passes vapour but not droplets|photo
@@ -218,7 +219,11 @@ nafion|commons|Patrick Teppor and PEM active layer deposition by ultrasonic spra
 nafion2|commons|Toyota Mirai fuel cell stack SAO 2016 9034.jpg|The fuel cell stack of a Toyota Mirai: hundreds of membrane cells in one block under the bonnet|product
 pbi|commons|Membrana di PBI commerciale.JPG|A commercial PBI membrane|photo
 ti64|commons|Hip joint replacement, United States, 1998 Wellcome L0060175.jpg|A titanium hip prosthesis — the stem is this alloy|product
-magnesium|commons|Mg alloy car engine blocks.jpg|Magnesium alloy engine blocks|product
+ti642|commons|ILA Berlin 2012 PD 038.JPG|A titanium alloy fan blisk demonstrator, blades and disc machined from one forging|product
+ti643|commons|Xilloc Patient Specific Implant Titanium.png|A cranial plate 3D printed in titanium from the patient's own CT scan|product
+magnesium|commons|Nikon D500 magnesium-alloy carbon chassis front-right 2016 China P&E.jpg|The magnesium chassis of a Nikon D500, die-cast in thin walls and ribs|product
+magnesium2|commons|Handtmann-metallgusswerk-pkw-getriebegehaeuse-magnesium.jpg|A car gearbox housing die-cast in magnesium|product
+magnesium3|commons|Mg alloy car engine blocks.jpg|A stack of magnesium alloy engine blocks|product
 damascus|commons|Front and back of blades of hair-cutting shears made from Damascus steel.jpg|Pattern-welded blades, etched to bring out the layers|product
 hadfield|commons|Sacramento tram track frog 4036.JPG|A track frog — the crossing casting is manganese steel|product
 duplex|commons|Chemical tanker Ternholm at Skarvikshamnen 2.jpg|A chemical tanker — duplex stainless is the standard for cargo tanks that carry acid|product
@@ -416,6 +421,7 @@ cellacetate2|commons|Ombraz Classic Tortoise Grey.jpg|A tortoiseshell pattern ma
 cellacetate3|commons|8 mm Kodak safety film reel 01.jpg|An 8 mm reel of Kodak safety film: the acetate base that replaced nitrate, and the one that smells of vinegar as it goes|product
 gummetal|commons|Watch balance spring and human hair.jpg|A watch balance spring beside a human hair — Gum Metal is one of the alloys wound into these|related
 al7075|Flickr|https://live.staticflickr.com/8741/17101043315_4f12362b98_b.jpg|A forged 7075 aluminium bicycle stem, Zipp Service Course SL|product|CC BY 2.0|Glory Cycles|https://www.flickr.com/photos/29558127@N06/17101043315
+al70752|commons|Bicycle rear derailleur pulley wheels.JPG|Derailleur pulley wheels machined from 7075, 11.6 grams the pair|product
 ss316l|Flickr|https://live.staticflickr.com/7511/27964588231_b90529058e_b.jpg|Orbital welding 316L tube — the low-carbon grade exists so a weld like this does not sensitise|product|CC BY 2.0|fourbyfourblazer|https://www.flickr.com/photos/chrisyarzab/27964588231
 cupronickel|Flickr|https://live.staticflickr.com/4145/5089714818_9e5b4d545d_b.jpg|British 50 pence coins, struck in cupronickel|product|CC BY 2.0|ell brown|https://www.flickr.com/photos/39415781@N06/5089714818
 babbitt|commons|Miba Thrust Bearing.jpg|A fluid-film thrust bearing for a gas turbine — the pads carry a Babbitt lining|product
