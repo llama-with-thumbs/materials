@@ -3,10 +3,16 @@
 # name of the site the picture is shown as coming from (Flickr, NASA, Geograph, a maker), in
 # which case ref is the direct image URL and licence, credit and page are given here.
 # kind is photo, structure, product, process, related or analog.
-vulkollan|Flickr|https://live.staticflickr.com/3302/5783130712_7c4e7e2183_b.jpg|Cast polyurethane skate wheel — same NDI/MDI cast-elastomer family, representative of Vulkollan's look|photo|CC BY-SA 2.0|MR.ADAM.ROSENBERG|https://www.flickr.com/photos/adamrosenberg/5783130712
-d3o|commons|Hand protection.jpg|D3O impact padding in a protective glove|photo
+vulkollan|commons|Radsatz (Antriebsrad und Lenkrollen) Hochhubwagen.jpg|A pallet stacker's drive wheel and two castors, retreaded in cast polyurethane of 80 Shore A: the job Vulkollan was made for, the brand of this set unrecorded|related
+vulkollan2|commons|Rodillo de Poliuretano Industrial.jpg|An industrial polyurethane roller on the lathe, its tread ground true after casting|related
+d3o|commons|D3o example.jpg|A moulded D3O pad, soft until it is struck|photo
+d3o2|commons|Hand protection.jpg|D3O impact padding across the knuckles of a work glove|product
+d3o3|commons|The D3O testing laboratory.jpg|A phone case on the drop rig in D3O's test laboratory|process
 uhmwpe|commons|LIROS Dyneema hollow.jpg|Hollow-braid Dyneema (UHMWPE) rope|photo
-peek|commons|PEEK resin.jpg|PEEK granulate, the characteristic tan colour|photo
+uhmwpe2|commons|Stainless steel and ultra high molecular weight polythene hip replacement (9672239334).jpg|A hip replacement: the white cup is UHMWPE, the stem and ball stainless steel|product
+uhmwpe3|commons|Climbing gear made of dyneema.jpg|Climbing slings and quickdraw tape woven from Dyneema|product
+peek|commons|PEEK resin.jpg|PEEK granulate, a black filled grade; the natural resin is tan|photo
+peek2|commons|Peek GF30 Insulator Component.jpg|A glass-filled PEEK insulator casing machined for an oil-well logging tool|product
 vespel|commons|Vespel.Werkstueck.P1149524.jpg|Machined Vespel polyimide part|photo
 ffkm|commons|FFKM FFPM CKD900 plate 80mm 80mm 1mm.jpg|FFKM perfluoroelastomer sheet|photo
 nitinol|Flickr|https://live.staticflickr.com/113/299640093_82de232245_b.jpg|Spoons cut from Nitinol sheet, the classic shape-memory demonstration piece|product|CC BY-SA 2.0|jeanbaptisteparis|https://www.flickr.com/photos/49503077999@N01/299640093

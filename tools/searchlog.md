@@ -441,3 +441,17 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Weissblech verpackungsstahl.jpg` | coils of tinplate, fine, but licensed as bare Attribution and the can interior said more |
 | `Cast iron tensile test.JPG` | the description itself says the brittle fracture is not representative of ductile iron |
 
+
+
+## Restyle batch, 17 November 2026: vulkollan, sorbothane, d3o, uhmwpe, peek
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Sorbothane, a better face | `Sorbothane`, `viscoelastic polymer`, `vibration isolation feet` | Commons has only the Flickr import already on the card (grommets on a turntable plinth, dark) and DMA graphs | a Flickr CC photo of the sheet or the feet, if one turns up |
+
+| rejected after looking | why |
+|---|---|
+| `Kryptonics Classic skateboard polyurethane wheel glowing against sunset.jpg` | a backlit skateboard wheel, not Vulkollan and not its job; the pallet-stacker wheel set, retreaded in 80 Shore A polyurethane, replaced it |
+| `Karbonfaserverstärkter Hochleistungs-Kunststoff (PEEK).jpg` | a rendering of a cut tube, not a photograph |
+| `UHMWPE Dyneema, Polyamide, PolyAcryl en Polyethyleen.jpg` | a museum sample box, mostly labels at card size |
+| `PEEK resin.jpg` kept, caption corrected | the granules are black, a filled grade; the old caption called them tan |

@@ -2,27 +2,63 @@
 window.CREDITS = {
   "vulkollan": {
     "file": "vulkollan.jpg",
-    "caption": "Cast polyurethane skate wheel — same NDI/MDI cast-elastomer family, representative of Vulkollan's look",
-    "kind": "photo",
-    "title": "https://live.staticflickr.com/3302/5783130712_7c4e7e2183_b.jpg",
-    "site": "Flickr",
-    "artist": "MR.ADAM.ROSENBERG",
-    "license": "CC BY-SA 2.0",
-    "page": "https://www.flickr.com/photos/adamrosenberg/5783130712",
+    "caption": "A pallet stacker's drive wheel and two castors, retreaded in cast polyurethane of 80 Shore A: the job Vulkollan was made for, the brand of this set unrecorded",
+    "kind": "related",
+    "title": "Radsatz (Antriebsrad und Lenkrollen) Hochhubwagen.jpg",
+    "site": "Wikimedia",
+    "artist": "Hess BSH",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Radsatz_(Antriebsrad_und_Lenkrollen)_Hochhubwagen.jpg",
     "w": 960,
-    "h": 608
+    "h": 720
+  },
+  "vulkollan2": {
+    "file": "vulkollan2.jpg",
+    "caption": "An industrial polyurethane roller on the lathe, its tread ground true after casting",
+    "kind": "related",
+    "title": "Rodillo de Poliuretano Industrial.jpg",
+    "site": "Wikimedia",
+    "artist": "Poliuretanoindustrial",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rodillo_de_Poliuretano_Industrial.jpg",
+    "w": 960,
+    "h": 640
   },
   "d3o": {
     "file": "d3o.jpg",
-    "caption": "D3O impact padding in a protective glove",
+    "caption": "A moulded D3O pad, soft until it is struck",
     "kind": "photo",
+    "title": "D3o example.jpg",
+    "site": "Wikimedia",
+    "artist": "KeyboardSpellbounder",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:D3o_example.jpg",
+    "w": 816,
+    "h": 800
+  },
+  "d3o2": {
+    "file": "d3o2.jpg",
+    "caption": "D3O impact padding across the knuckles of a work glove",
+    "kind": "product",
     "title": "Hand protection.jpg",
+    "site": "Wikimedia",
     "artist": "HecltoTrmel2020",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Hand_protection.jpg",
     "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "h": 640
+  },
+  "d3o3": {
+    "file": "d3o3.jpg",
+    "caption": "A phone case on the drop rig in D3O's test laboratory",
+    "kind": "process",
+    "title": "The D3O testing laboratory.jpg",
+    "site": "Wikimedia",
+    "artist": "HecltoTrmel2020",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_D3O_testing_laboratory.jpg",
+    "w": 960,
+    "h": 640
   },
   "uhmwpe": {
     "file": "uhmwpe.jpg",
@@ -36,9 +72,33 @@ window.CREDITS = {
     "h": 398,
     "site": "Wikimedia"
   },
+  "uhmwpe2": {
+    "file": "uhmwpe2.jpg",
+    "caption": "A hip replacement: the white cup is UHMWPE, the stem and ball stainless steel",
+    "kind": "product",
+    "title": "Stainless steel and ultra high molecular weight polythene hip replacement (9672239334).jpg",
+    "site": "Wikimedia",
+    "artist": "Science Museum London / Science and Society Picture Library",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stainless_steel_and_ultra_high_molecular_weight_polythene_hip_replacement_(9672239334).jpg",
+    "w": 960,
+    "h": 720
+  },
+  "uhmwpe3": {
+    "file": "uhmwpe3.jpg",
+    "caption": "Climbing slings and quickdraw tape woven from Dyneema",
+    "kind": "product",
+    "title": "Climbing gear made of dyneema.jpg",
+    "site": "Wikimedia",
+    "artist": "Gohnarch",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Climbing_gear_made_of_dyneema.jpg",
+    "w": 960,
+    "h": 640
+  },
   "peek": {
     "file": "peek.jpg",
-    "caption": "PEEK granulate, the characteristic tan colour",
+    "caption": "PEEK granulate, a black filled grade; the natural resin is tan",
     "kind": "photo",
     "title": "PEEK resin.jpg",
     "artist": "Acheolg",
@@ -47,6 +107,18 @@ window.CREDITS = {
     "w": 960,
     "h": 1280,
     "site": "Wikimedia"
+  },
+  "peek2": {
+    "file": "peek2.jpg",
+    "caption": "A glass-filled PEEK insulator casing machined for an oil-well logging tool",
+    "kind": "product",
+    "title": "Peek GF30 Insulator Component.jpg",
+    "site": "Wikimedia",
+    "artist": "Keward Plastics",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Peek_GF30_Insulator_Component.jpg",
+    "w": 800,
+    "h": 800
   },
   "vespel": {
     "file": "vespel.jpg",
