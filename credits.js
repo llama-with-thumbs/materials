@@ -1538,7 +1538,19 @@ window.CREDITS = {
   },
   "pp": {
     "file": "pp.jpg",
-    "caption": "A living hinge moulded in one piece with the box",
+    "caption": "The Monobloc chair, one shot of polypropylene and the most common chair on earth",
+    "kind": "product",
+    "title": "White Monobloc chair.jpg",
+    "site": "Wikimedia",
+    "artist": "Seniju",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:White_Monobloc_chair.jpg",
+    "w": 960,
+    "h": 1236
+  },
+  "pp2": {
+    "file": "pp2.jpg",
+    "caption": "A living hinge moulded in one piece with the box: the crystals line up across the fold the first time it closes",
     "kind": "product",
     "title": "Mint box polypropylene lid.JPG",
     "site": "Wikimedia",
@@ -1547,6 +1559,18 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG",
     "w": 736,
     "h": 1020
+  },
+  "pp3": {
+    "file": "pp3.jpg",
+    "caption": "Robin Day's Polyprop shell of 1963 as stadium seating at the 1968 Mexico Olympics",
+    "kind": "product",
+    "title": "Polypropylene chair, Robin Day, Hille, 1964, used as stadium seating in Sports Stadium, Mexico Olympics, 1968.jpg",
+    "site": "Wikimedia",
+    "artist": "Robin & Lucienne Day Foundation",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Polypropylene_chair,_Robin_Day,_Hille,_1964,_used_as_stadium_seating_in_Sports_Stadium,_Mexico_Olympics,_1968.jpg",
+    "w": 960,
+    "h": 1169
   },
   "memoryfoam": {
     "file": "memoryfoam.jpg",
@@ -1560,17 +1584,53 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "memoryfoam2": {
+    "file": "memoryfoam2.jpg",
+    "caption": "Foam earplugs: rolled thin, they take their time expanding back, which is the point",
+    "kind": "product",
+    "title": "A pair of orange foam earplugs.jpg",
+    "site": "Wikimedia",
+    "artist": "Sokolikmawwer0",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_pair_of_orange_foam_earplugs.jpg",
+    "w": 960,
+    "h": 916
+  },
   "epoxy": {
     "file": "epoxy.jpg",
-    "caption": "An epoxy floor coating with colour flakes broadcast into the wet resin",
+    "caption": "A two-part syringe of five-minute epoxy: resin on one side, amine hardener on the other",
     "kind": "product",
-    "title": "https://live.staticflickr.com/65535/52085107501_90a876b1dc_b.jpg",
-    "site": "Flickr",
-    "artist": "Decorative Concrete Kingdom",
-    "license": "CC BY 2.0",
-    "page": "https://www.flickr.com/photos/38041294@N05/52085107501",
+    "title": "FiveMinEpoxy.jpg",
+    "site": "Wikimedia",
+    "artist": "Taktoa",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg",
     "w": 960,
-    "h": 720
+    "h": 297
+  },
+  "epoxy2": {
+    "file": "epoxy2.jpg",
+    "caption": "Laying glass cloth wetted with epoxy onto a boat hull, with peel ply going on over it",
+    "kind": "process",
+    "title": "Coque en préparation fibre de verre epoxy du Trait d'Union.jpg",
+    "site": "Wikimedia",
+    "artist": "Aeroceanaute",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coque_en_pr%C3%A9paration_fibre_de_verre_epoxy_du_Trait_d%27Union.jpg",
+    "w": 960,
+    "h": 540
+  },
+  "epoxy3": {
+    "file": "epoxy3.jpg",
+    "caption": "A circuit board: the green laminate under the copper is glass cloth in epoxy, FR-4",
+    "kind": "related",
+    "title": "Radar Horn Receiver PCB.jpg",
+    "site": "Wikimedia",
+    "artist": "Alex Udanis",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Radar_Horn_Receiver_PCB.jpg",
+    "w": 960,
+    "h": 640
   },
   "eva": {
     "file": "eva.jpg",
@@ -1581,6 +1641,30 @@ window.CREDITS = {
     "artist": "MIKI Yoshihito. (#mikiyoshihito)",
     "license": "CC BY 2.0",
     "page": "https://www.flickr.com/photos/7940758@N07/29185027553",
+    "w": 960,
+    "h": 540
+  },
+  "eva2": {
+    "file": "eva2.jpg",
+    "caption": "A pair of Crocs: a closed-cell foam resin of the EVA family, moulded in one piece",
+    "kind": "product",
+    "title": "Paar oranje Jackson Pollock Crocs, objectnr 91281-A.1-2.JPG",
+    "site": "Wikimedia",
+    "artist": "Crocs Inc.",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paar_oranje_Jackson_Pollock_Crocs,_objectnr_91281-A.1-2.JPG",
+    "w": 960,
+    "h": 707
+  },
+  "eva3": {
+    "file": "eva3.png",
+    "caption": "Rolls of EVA foam sheet, the craft and orthotic form",
+    "kind": "product",
+    "title": "EVA sheet.png",
+    "site": "Wikimedia",
+    "artist": "Sultan Salahuddin -chemist",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EVA_sheet.png",
     "w": 960,
     "h": 540
   },
@@ -1811,6 +1895,18 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/33907867@N02/19709520299",
     "w": 960,
     "h": 711
+  },
+  "abs2": {
+    "file": "abs2.jpg",
+    "caption": "Lego bricks, ABS since 1963: the clutch depends on a tolerance of a hundredth of a millimetre",
+    "kind": "product",
+    "title": "Lego bricks.jpg",
+    "site": "Wikimedia",
+    "artist": "Benjamin D. Esham (bdesham)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lego_bricks.jpg",
+    "w": 960,
+    "h": 720
   },
   "pet": {
     "file": "pet.jpg",

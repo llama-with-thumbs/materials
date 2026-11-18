@@ -572,3 +572,25 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Swivel Caster with Poly Brake.jpg` | phenolic wheel, polyurethane brake only; neither is TPU |
 | `Nitrile Gloves holder 20230316 110111.jpg` | a wall dispenser, mostly printed cardboard |
 | `Ozonecr1.jpg` as a second NBR view | a dark dimpled disc at card size; the cracks only show at full size, so it was dropped after fetching |
+
+
+## Restyle batch, 18 November 2026: pp, memoryfoam, epoxy, eva, abs
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| PP, a meltblown mask or a bumper | `polypropylene nonwoven mask`, `polypropylene bumper`, `polypropylene rope` | nothing named; rope returns bungee cords | a photo of a mask web or a bare bumper beam named as PP |
+| Memory foam, a mattress or cushion in use | `memory foam mattress`, `memory foam pillow`, `viscoelastic foam` | shop fronts and a yellow seat cushion without scale | a cut section of a mattress showing the layers |
+| Epoxy, a carbon layup or a river table | `carbon fibre epoxy layup`, `epoxy river table`, `epoxy potting electronics` | nothing | a vacuum-bagged carbon part or a potted module |
+| EVA, a midsole or a floor mat | `EVA midsole`, `foam floor mat puzzle`, `flip flops foam` | nothing named | a cut running shoe showing the midsole |
+| ABS, a plated part or a vacuum forming | `ABS pipe`, `vacuum formed ABS` | nothing relevant | a chrome-plated ABS badge or tap |
+
+| rejected after looking | why |
+|---|---|
+| `Mint box polypropylene lid.JPG` as the PP face | a white blob at card size; kept as the second view, the Monobloc chair is the face |
+| the Flickr epoxy floor as the face | grey speckle, reads as terrazzo; replaced by the two-part syringe |
+| `Mix of Epoxy Resin and Hardener.jpg`, `Epoxy.jpg` | a pour into a yoghurt pot, and a vendor-style shot of Devcon bottles |
+| `PE and PP objects.jpg` | recycling-coded bottles, mostly PE |
+| `Polypropylene Pellets - DPLA`, `ABS granule.jpg` | white pellets, indistinguishable from any other resin |
+| `Memory foam from ear-plugs.jpg`, `Foam and Viscoelastic Foam.JPG` | a yellow macro with no scale, and a yellow pad on a floor |
+| `Pink Crocs (1001349).jpg` | a worn shoe on a bathroom floor |
+| `Danmarks Tekniske Museum - Lego bricks.jpg` | a model in a vitrine; the bricks are tiny |

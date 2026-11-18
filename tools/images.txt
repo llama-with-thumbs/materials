@@ -131,10 +131,17 @@ pps|commons|Molexddpcsfamily.jpg|Connector housings and crimp terminals — PPS 
 mylar|commons|Echo - A Passive Communications Satellite - GPN-2002-000122.jpg|Echo 1 inflated in a hangar before its 1960 launch: 30 metres of aluminised Mylar half the thickness of a hair|product
 mylar2|commons|Emergency Thermal Blanket, 160x100cm, Dionisis Christofilogiannis, 2015.jpg|An emergency blanket, gold one side and silver the other, sewn into a Greek flag by an artist for the refugee volunteers of 2015|product
 mylar3|commons|Polyester film capacitor.jpg|A polyester film capacitor: the dielectric is BoPET a few microns thick, wound with foil|product
-pp|commons|Mint box polypropylene lid.JPG|A living hinge moulded in one piece with the box|product
+pp|commons|White Monobloc chair.jpg|The Monobloc chair, one shot of polypropylene and the most common chair on earth|product
+pp2|commons|Mint box polypropylene lid.JPG|A living hinge moulded in one piece with the box: the crystals line up across the fold the first time it closes|product
+pp3|commons|Polypropylene chair, Robin Day, Hille, 1964, used as stadium seating in Sports Stadium, Mexico Olympics, 1968.jpg|Robin Day's Polyprop shell of 1963 as stadium seating at the 1968 Mexico Olympics|product
 memoryfoam|commons|MemoryFoam-slow.jpg|Viscoelastic foam returning slowly after a hand is lifted|photo
-epoxy|Flickr|https://live.staticflickr.com/65535/52085107501_90a876b1dc_b.jpg|An epoxy floor coating with colour flakes broadcast into the wet resin|product|CC BY 2.0|Decorative Concrete Kingdom|https://www.flickr.com/photos/38041294@N05/52085107501
+memoryfoam2|commons|A pair of orange foam earplugs.jpg|Foam earplugs: rolled thin, they take their time expanding back, which is the point|product
+epoxy|commons|FiveMinEpoxy.jpg|A two-part syringe of five-minute epoxy: resin on one side, amine hardener on the other|product
+epoxy2|commons|Coque en préparation fibre de verre epoxy du Trait d'Union.jpg|Laying glass cloth wetted with epoxy onto a boat hull, with peel ply going on over it|process
+epoxy3|commons|Radar Horn Receiver PCB.jpg|A circuit board: the green laminate under the copper is glass cloth in epoxy, FR-4|related
 eva|Flickr|https://live.staticflickr.com/8231/29185027553_8595d2db11_b.jpg|A closed-cell EVA foam camping mat|product|CC BY 2.0|MIKI Yoshihito. (#mikiyoshihito)|https://www.flickr.com/photos/7940758@N07/29185027553
+eva2|commons|Paar oranje Jackson Pollock Crocs, objectnr 91281-A.1-2.JPG|A pair of Crocs: a closed-cell foam resin of the EVA family, moulded in one piece|product
+eva3|commons|EVA sheet.png|Rolls of EVA foam sheet, the craft and orthotic form|product
 manila|commons|20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg|Abacá fibre, stripped and dried|photo
 hemprope|commons|Cordage en chanvre.jpg|Hemp cordage|photo
 sisal|commons|Pacas de sisal.jpg|Baled sisal fibre|photo
@@ -154,6 +161,7 @@ nomex|commons|TFS Nomex Hood.JPG|A Nomex firefighting hood|product
 ripstop|commons|RipStop.jpg|Ripstop: a grid of heavier yarns that stops a tear spreading|photo
 sailcloth|commons|Bear of Britain spinnaker.jpg|A modern laminate spinnaker under load|product
 abs|Flickr|https://live.staticflickr.com/317/19709520299_6e2089a6e1_b.jpg|3DBenchy test prints in ABS filament|product|CC BY 2.0|Creative Tools|https://www.flickr.com/photos/33907867@N02/19709520299
+abs2|commons|Lego bricks.jpg|Lego bricks, ABS since 1963: the clutch depends on a tolerance of a hundredth of a millimetre|product
 pet|Flickr|https://live.staticflickr.com/3261/2629301274_8f41b9afd0_b.jpg|PET bottles, blown and biaxially stretched|product|CC BY 2.0|dierk schaefer|https://www.flickr.com/photos/dierkschaefer/2629301274
 pvc|Flickr|https://live.staticflickr.com/2195/2269567444_6a61e07287_b.jpg|A stack of PVC pressure pipe|product|CC BY-SA 2.0|Pam_Broviak|https://www.flickr.com/photos/23870457@N06/2269567444
 nylon66|commons|Kabelbinder -- 2024 -- 6907.jpg|Nylon 6/6 cable ties|product
