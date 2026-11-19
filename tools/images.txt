@@ -250,11 +250,21 @@ zamak3|commons|Zinc pest Zinkpest Zamac Radsatz Maerklin Spur 0.JPG|A pre-war M�
 sac305|commons|Solder on spool.jpeg|Solder wire on a spool|product
 sac3052|commons|Tin whisker ESA385984.jpg|A tin whisker under the electron microscope, the single crystal that grows out of lead-free tin and shorts the next pin|structure
 sac3053|commons|SMD circuit on a wave soldered PCB.JPG|A wave-soldered board with its solder-thief pads: the matte lead-free joint that is sound even when it looks dull|product
-tantalum|Flickr|https://live.staticflickr.com/65535/54041464509_22cba30bfa_b.jpg|Tantalum metal|photo|CC BY 2.0|James St. John|https://www.flickr.com/photos/47445767@N05/54041464509
-niobium|Flickr|https://live.staticflickr.com/5011/5560087101_2275157f38_b.jpg|Anodised niobium rings, pink from the thickness of their oxide film, woven with silver|product|CC BY 2.0|The ChainMaille Lady|https://www.flickr.com/photos/26800041@N04/5560087101
-nbti|Flickr|https://live.staticflickr.com/3019/2544000149_a81f59288f_b.jpg|Nb-Ti superconducting cable from the LHC|photo|CC BY-SA 2.0|ÂµÂµ|https://www.flickr.com/photos/muriel_vd/2544000149/in/set-72157605393246803
+tantalum|commons|Tantalum capacitors.jpg|Tantalum capacitors, 10 microfarads each: a sintered pellet of the metal under its own oxide|product
+tantalum2|commons|Coltán en filón de cuarzo.011 - Río Sor.jpg|Coltan in a quartz vein in Galicia: the ore, here from a mine with a paper trail|related
+tantalum3|Flickr|https://live.staticflickr.com/65535/54041464509_22cba30bfa_b.jpg|A sample of tantalum metal|photo|CC BY 2.0|James St. John|https://www.flickr.com/photos/47445767@N05/54041464509
+niobium|commons|A 1.3 GHz nine-cell superconducting radio frequency.JPG|A nine-cell niobium cavity at Fermilab: at 2 K it carries a microwave field with almost no loss|product
+niobium2|commons|Anodized niobium.JPG|Anodised niobium: no dye, the colour is the thickness of the oxide|product
+niobium3|commons|Niobium crystals and 1cm3 cube.jpg|Electrolytic niobium crystals and an anodised cube|photo
+nbti|commons|CERN-cables-p1030764.jpg|Two cables for 12,500 amperes at CERN: copper for LEP above, niobium-titanium for the LHC below|product
+nbti2|commons|LHC magnet cross section-IMG 5737-white.jpg|An LHC dipole in section: the two beam pipes wrapped in niobium-titanium coil|product
+nbti3|commons|W7-X exhibit superconductor-cable.jpg|A Wendelstein 7-X cable splayed open: niobium-titanium strands in their copper|product
 bismuth|Flickr|https://live.staticflickr.com/2876/13751480883_628be095b3_b.jpg|A bismuth hopper crystal grown from the melt; the colours are a thin oxide film|photo|CC BY-SA 2.0|Kurayba|https://www.flickr.com/photos/48503330@N08/13751480883
-inconel718|commons|Inconel 718.JPG|Inconel 718|photo
+bismuth2|commons|Native bismuth1.jpg|Native bismuth in quartz from Córdoba, 5 cm across|related
+bismuth3|commons|BrokenBismuthIngot.jpg|A broken bismuth ingot: the crystals inside, and the brittleness that broke it|photo
+inconel718|commons|Astra Rocket Engine — Delphin 3.0.jpg|An Astra Delphin engine printed in Inconel, cooling channels and all|product
+inconel7182|commons|Inconel 718 microstructure.png|Inconel 718 under the electron microscope after a sour-service heat treatment|structure
+inconel7183|commons|Inconel 718.JPG|A bar of Inconel 718|photo
 ndfeb|Flickr|https://live.staticflickr.com/5191/5804419692_4bdd11df2d_b.jpg|Neodymium magnet spheres holding themselves in a lattice|product|CC BY 2.0|Brett Jordan|https://www.flickr.com/photos/55497864@N00/5804419692
 alnico|Flickr|https://live.staticflickr.com/2426/3854438766_17dd00cacb_b.jpg|A humbucker pickup, wound around Alnico bar magnets|product|CC BY-SA 2.0|Roadside Guitars|https://www.flickr.com/photos/32742419@N04/3854438766
 corten|Flickr|https://live.staticflickr.com/4089/5014715316_a30872ba4c_b.jpg|A weathering steel door, the rust skin fully formed and stable|product|CC BY 2.0|Newtown grafitti|https://www.flickr.com/photos/28713775@N02/5014715316

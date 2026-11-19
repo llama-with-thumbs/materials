@@ -1031,40 +1031,45 @@ window.MATERIALS = [
 },
 {
   id: "tantalum", cat: "metal", name: "Tantalum",
-  sub: "Ta, refractory metal", img: "tantalum",
-  hook: "Its oxide film is so stable that the body ignores it entirely and so thin and even that a speck of tantalum powder becomes a capacitor. Nearly immune to acid, and it melts at 3017 °C.",
+  sub: "Ta, refractory metal", img: "tantalum", extra: ["tantalum2", "tantalum3"],
+  hook: "Its oxide grows so thin and even that a sintered speck of powder becomes a capacitor, and so inert that bone grows into it. It melts at 3,017 °C and shrugs off every acid but one. Much of it came out of a war.",
+  more: "Anodise tantalum and the oxide stops itself at a few nanometres a volt, a dielectric with no pinholes; sinter the powder into a porous pellet, grow that film over every grain, fill the pores with manganese dioxide, and the capacitor packs more microfarads into a millimetre than anything else, which is why phones and pacemakers are full of them. The same inertness makes it the lining of a hydrochloric acid heat exchanger, the surgical clip and the porous hip cup that bone threads through. The costs: a tantalum capacitor fails short and burns if run near its rated voltage, so it is derated by half; the ore, coltan, funded a war in the Congo and now carries a paper trail; hydrofluoric acid dissolves it; and it is heavy and dear.",
   stats: [["Melting", "3017 °C"], ["Oxide", "Ta₂O₅, self-healing"], ["Body response", "inert"]],
   uses: "Capacitors in every phone, cranial plates, acid-plant heat exchangers, crucibles.",
   link: "https://en.wikipedia.org/wiki/Tantalum"
 },
 {
   id: "niobium", cat: "metal", name: "Niobium",
-  sub: "Nb, superconducting below 9.2 K", img: "niobium",
-  hook: "Cool it with liquid helium and a niobium cavity carries a radio-frequency field with almost no loss, so particle accelerators are built from it. It also anodises into saturated colours with no dye at all — the colour is film interference.",
+  sub: "Nb, superconducting below 9.2 K", img: "niobium", extra: ["niobium2", "niobium3"],
+  hook: "At 2 K a niobium cavity carries a radio-frequency field with almost no loss, so accelerators are made of it. Anodised, it shows colours with no dye, from the thickness of its oxide. Nine tenths goes into steel.",
+  more: "It has the highest critical temperature of any element, 9.2 K, so a pure niobium cavity in superfluid helium holds a microwave field for a billion cycles and pushes a beam with watts where copper would need megawatts: Jefferson Lab, the European XFEL and the LHC run on it. The oxide is the other trick: a few volts grow a transparent film a few hundred atoms thick, and the colour is interference, so a jeweller dials blue or gold with a power supply. Most niobium sees neither job; a tenth of a per cent in pipeline steel pins the grain and doubles the strength. The costs: a cavity wants metal of absurd purity, then electropolishing and a bake to drive out hydrogen; the helium plant costs more than the cavities; and Brazil mines most of it.",
   stats: [["Tc", "9.2 K"], ["Cavity Q", ">10¹⁰"], ["Anodising", "colour by film thickness"]],
   uses: "Accelerator cavities, MRI magnet wire (as Nb-Ti), HSLA steel, body jewellery.",
   link: "https://en.wikipedia.org/wiki/Niobium"
 },
 {
   id: "nbti", cat: "metal", name: "Nb-Ti superconductor",
-  sub: "niobium–titanium filaments in copper", img: "nbti",
-  hook: "Thousands of filaments thinner than a hair, drawn inside a copper matrix and twisted. Below 9 K it carries current with no resistance; the copper is there to take over for a few milliseconds if a patch warms up, so the magnet does not destroy itself.",
+  sub: "niobium–titanium filaments in copper", img: "nbti", extra: ["nbti2", "nbti3"],
+  hook: "Niobium with 47 per cent titanium, drawn into thousands of filaments finer than a hair inside copper and twisted. Below 9 K the filaments carry the current; the copper is for the millisecond one of them warms up.",
+  more: "Found in 1961 and still the only superconductor ductile enough to draw: a billet of alloy rods in a copper can is extruded and pulled to a wire of six thousand filaments six microns across, then heat-treated so titanium precipitates pin the flux. Every MRI magnet is a few hundred kilometres of it; the LHC used 1,200 tonnes for 8.3 tesla at 1.9 K. The copper is the insurance: when a filament flickers normal, the current steps into the copper and the magnet dumps its energy into a resistor instead of a hole. The costs: liquid helium and a vacuum vessel round each coil; a quench that boils off the helium in seconds; a ceiling near 10 tesla, above which the brittle niobium-tin takes over; and a joint that must be superconducting too, or the field decays.",
   stats: [["Tc", "9.2 K"], ["Field", "to ~10 T"], ["Filaments", "<10 µm each"]],
   uses: "Every MRI scanner, the LHC dipoles, research magnets.",
   link: "https://en.wikipedia.org/wiki/Niobium%E2%80%93titanium"
 },
 {
   id: "bismuth", cat: "metal", name: "Bismuth",
-  sub: "Bi, the benign heavy metal", img: "bismuth",
-  hook: "Heavy as lead and essentially non-toxic, so it has quietly replaced lead in shot, solder and plumbing fittings. It expands as it freezes — useful in type metal — and grows hopper crystals in rainbow oxide colours.",
+  sub: "Bi, the benign heavy metal", img: "bismuth", extra: ["bismuth2", "bismuth3"],
+  hook: "Heavy as lead and harmless enough to swallow, so it has quietly replaced lead in shot, solder and taps. It expands as it freezes, like water, and grows stepped hopper crystals under a rainbow of oxide. Brittle.",
+  more: "It is a by-product of lead and copper refining, mostly in China; its first job is the stomach medicine, and the rest replaces lead wherever lead is banned. Shot for waterfowl since the 1990s, the 138 °C tin-bismuth solder for a board that hates heat, the free-machining brass of a tap and the sprinkler link. Freezing, it grows 3 per cent, so a bismuth alloy casting fills every corner, and a slow-cooled melt throws the hollow stepped crystals collectors buy, their colours an oxide film a few hundred atoms thick. It is the most diamagnetic metal; a chip floats over a magnet. The costs: it is brittle and breaks like glass; it conducts heat worse than any metal but mercury; its supply rides on lead smelting; and it melts at 271 °C, so nothing structural.",
   stats: [["Density", "9.8 g/cm³"], ["On freezing", "expands ~3%"], ["Diamagnetism", "strongest of all metals"]],
   uses: "Lead-free solder and brass, fusible alloys, pigments, Pepto-Bismol.",
   link: "https://en.wikipedia.org/wiki/Bismuth"
 },
 {
   id: "inconel718", cat: "metal", name: "Inconel 718",
-  sub: "Ni–Cr–Nb–Mo age-hardening superalloy", img: "inconel718",
-  hook: "A nickel alloy that is actually weldable, because the niobium-bearing strengthening phase forms slowly enough that the weld does not crack while it cools. That one property made it the default for rocket engine parts, and now for metal 3D printing.",
+  sub: "Ni–Cr–Nb–Mo age-hardening superalloy", img: "inconel718", extra: ["inconel7182", "inconel7183"],
+  hook: "Eiselstein's nickel alloy of 1962: the niobium phase that hardens it forms so slowly that a weld cools before it cracks. That made it the default for the rocket engine and the turbine disc, and now for 3D printing.",
+  more: "Most nickel superalloys harden with aluminium and titanium, and the gamma prime forms so fast that the heat of a weld or the strain of an age cracks them. This one carries 5 per cent niobium instead, and its gamma double prime takes hours to appear, so the part is welded or printed soft and aged afterwards to 1,200 MPa, good to 650 °C. That is half the weight of a jet engine, discs, shafts, casings and bolts, the Shuttle main engine's powerhead, the printed SuperDraco thruster and the first wholly printed rocket chambers. The costs: it kills carbide tooling, work-hardening under the cutter and holding the heat in the edge; above 650 °C the double prime slumps into a useless delta phase; and the age is a two-step cycle of eighteen hours per batch.",
   stats: [["Service", "to ~700 °C"], ["Tensile", "~1375 MPa aged"], ["Weldable", "unusually, yes"]],
   uses: "Rocket turbopumps, turbine casings, downhole tools, additive-manufactured parts.",
   link: "https://en.wikipedia.org/wiki/Inconel"

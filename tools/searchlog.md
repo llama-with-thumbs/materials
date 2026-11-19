@@ -878,3 +878,31 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Valvo OC171 Whiskers dead.jpg`, `Tin Whiskers.jpg` | whiskers on a tinned can and a pot cover, both pre-date lead-free; the ESA micrograph is clearer |
 | `Reflow oven.jpg`, `Soldering a 0805.jpg` | a machine hall and a pair of tweezers |
 | `Late 20th century Multicore Ersin 5 core` | 60/40 tin-lead, the thing this card replaced |
+
+
+## Restyle batch, 18 November 2026: tantalum, niobium, nbti, bismuth, inconel718
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Tantalum in a plant or a body | `tantalum crucible`, `tantalum implant`, `tantalum sputtering target` | nothing | a porous tantalum hip cup or a lined heat exchanger |
+| A niobium coin | `niobium coin` | the Austrian 25 euro photos are 880 px | a larger scan of one |
+| Nb-Ti filaments in section | `superconducting cable cross section`, `superconducting wire filaments`, `LHC dipole cable`, `MRI magnet coil` | the preform sections are 800 px; `MRI magnet coil` returns a fusion investor call | a micrograph of the filament array |
+| Bismuth shot or solder | `bismuth shot`, `bismuth subsalicylate` | shot returns crystals; the medicine returns molecules and a 1957 advert | a cartridge of bismuth shot or a reel of tin-bismuth |
+| Inconel 718 as a turbine disc or bolt | `turbine disc nickel alloy`, `RS-25 engine powerhead`, `Inconel exhaust`, `SpaceX Merlin engine` | the powerhead is a diagram, the exhaust a car, the Merlins are engines with people | a 718 disc forging or a named engine part |
+
+| rejected after looking | why |
+|---|---|
+| the Flickr tantalum sample as the face | a grey square in a box beside a periodic tile; kept as third view, the capacitors are the face |
+| `Tantal-P1100196c.jpg`, `Polymer Tantalum Capacitor Cross Section.jpg`, `Burnt tantalum capacitor` | 1024 px catalogue of shapes, a grey slab, and a board with a brown spot |
+| the Flickr anodised rings as the niobium face | pink chainmail, pretty but it says jewellery; dropped for the cavity |
+| `2024 Artsy Niobium Cavity`, `Superconducting Radio Frequency.JPG` | a red light trail, and a hall of racks |
+| `Anodizing a niobium ring.jpg`, `Anodized niobium cube.jpg` | a bench with a power supply, and a cube that is a periodic tile |
+| the Flickr LHC cable end as the Nb-Ti face | a brown tube on a flange; dropped for the CERN copper-versus-superconductor pair |
+| `LHC NbTi superconducting wire.jpg` | the wires are a tangle behind a label |
+| `ITER Central Solenoid CICC` | niobium-tin, not this card |
+| `Bismuth crystals and 1cm3 cube.jpg`, `Bismuth Crystals.JPG`, `Bismuth crystal macro1.jpg` | more hopper crystals; the face already has one |
+| `Bismuth slag from pepto bismol.jpg` | two brown lumps on a ruler |
+| `Inconel 718.JPG` as the face | a grey bar with pen marks; kept as third view, the printed engine is the face |
+| `3-D Printed Rocket Part Blazes to Life.jpg`, `Marshall engineers installed the injector...` | a flame in a yard, and a test stand; the alloy is not named |
+| `Cladding-Auftragschweißung in einem Rohr mit Inconel 625.jpg` | 625, the other Inconel |
+| `Orbex Prime rocket engine.jpg` | a bell in a purple light show |
