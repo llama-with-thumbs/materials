@@ -1268,40 +1268,45 @@ window.MATERIALS = [
 /* ---------- CERAMICS & GLASS ---------- */
 {
   id: "ytzp", cat: "ceramic", name: "Zirconia (Y-TZP)",
-  sub: "yttria-stabilised ZrO₂", img: "ytzp",
-  hook: "A ceramic that fights back against cracks: the stress field at a crack tip triggers a phase change that expands and clamps the crack shut. The 1975 paper announcing it was titled “Ceramic steel?”",
+  sub: "yttria-stabilised ZrO₂", img: "ytzp", extra: ["ytzp2", "ytzp3"],
+  hook: "Zirconia with 3 per cent yttria, a ceramic that fights back: the stress at a crack tip flips the grains into a bulkier phase, and the swelling clamps the crack shut. The 1975 paper on it was titled Ceramic steel?",
+  more: "Pure zirconia changes structure on cooling and shatters itself; a little yttria freezes the fine grains in the hot tetragonal form, poised but unable to change. A crack's tip lets them go: each grain swells 4 per cent as it turns monoclinic, and the crowd of swollen grains squeezes the crack closed. Hence a ceramic with the toughness of cast iron, white and polishable: the bearing ball, the dental crown milled from a block and sintered, the knife that holds an edge for years, the lambda sensor in the exhaust, where the same oxide conducts oxygen ions. The costs: steam at 150 to 300 °C triggers the transformation slowly from the surface, so a hip ball can crumble in the body; it is heavy for a ceramic; and a knife of it chips if dropped.",
   stats: [["Flexural strength", "900–1200 MPa"], ["Toughness", "5–10 MPa·m½"], ["Mechanism", "transformation toughening"]],
   uses: "Bearing balls, knives and scissors, dental crowns, oxygen sensors.",
   link: "https://en.wikipedia.org/wiki/Yttria-stabilized_zirconia"
 },
 {
   id: "cbn", cat: "ceramic", name: "Cubic boron nitride",
-  sub: "cBN, borazon", img: "cbn",
-  hook: "Second only to diamond in hardness, and better than diamond for the job that matters most: carbon dissolves into hot steel, boron nitride does not. So cBN is what cuts hardened steel.",
+  sub: "cBN, borazon", img: "cbn", extra: ["cbn2", "cbn3"],
+  hook: "Boron nitride pressed into the diamond lattice: second only to diamond in hardness, and better for the job that matters. Carbon dissolves into hot steel; boron nitride does not. So it cuts hardened steel.",
+  more: "Wentorf made it at General Electric in 1957, two years after the first synthetic diamond, by the same press-and-catalyst trick with hexagonal boron nitride for graphite. A diamond tool on steel above 700 °C dissolves, its carbon diffusing into the iron; cubic boron nitride holds to 1,300 °C and stays inert, so a tip of it brazed on a carbide insert turns a hardened gear or bearing race at 60 Rockwell to a finish that used to need grinding. The grinding wheel is the other half of the trade: grit in a metal or resin bond, outlasting alumina a hundredfold on tool steel. The costs: a tip the size of a rice grain costs more than the insert under it; it is brittle, so an interrupted cut chips it; and below 45 Rockwell, carbide is cheaper and just as good.",
   stats: [["Hardness", "~45 GPa"], ["Stable in steel to", "~1300 °C"], ["Diamond in steel", "chemically fails"]],
   uses: "Hard-turning inserts, grinding wheels, finishing hardened gears and bearings.",
   link: "https://en.wikipedia.org/wiki/Boron_nitride"
 },
 {
   id: "b4c", cat: "ceramic", name: "Boron carbide",
-  sub: "B₄C", img: "b4c",
-  hook: "The third-hardest material known and remarkably light with it. Boron-10 also swallows thermal neutrons, so the same powder turns up in rifle plates and in reactor control rods.",
+  sub: "B₄C", img: "b4c", extra: ["b4c2", "b4c3"],
+  hook: "The third-hardest material known, lighter than aluminium, and boron-10 swallows neutrons, so the same black powder turns up in rifle plates and control rods. Hit it hard enough and it goes soft; that is the catch.",
+  more: "It leaves the electric furnace as a black boule, crushed to grit or pressed into tiles, and at 2.5 grams a cubic centimetre it is the lightest thing that stops a bullet: a hot-pressed plate on a fibre backing shatters the round and spreads the load, which is why body armour left steel for this. The boron-10 isotope has a cross-section of 3,800 barns, so the pellets in a control rod or the sheet round a neutron experiment are the same stuff by another route. The costs: above a threshold near 20 GPa the crystal collapses into amorphous bands and the plate goes soft, so armour-piercing rounds get through where slower ones do not; it is hard to sinter, so dense tiles need pressing at 2,100 °C; and it is dearer than silicon carbide, its rival in armour.",
   stats: [["Hardness", "~30 GPa"], ["Density", "2.52 g/cm³"], ["Bonus", "neutron absorber"]],
   uses: "Armour plate, blast nozzles, control rods, lapping abrasive.",
   link: "https://en.wikipedia.org/wiki/Boron_carbide"
 },
 {
   id: "sic", cat: "ceramic", name: "Silicon carbide",
-  sub: "SiC", img: "sic",
-  hook: "Hard, stiff, chemically inert and a good conductor of heat — a rare combination. It polishes to an optical mirror, survives a brake disc's life, and now switches power in electric cars.",
+  sub: "SiC", img: "sic", extra: ["sic2", "sic3"],
+  hook: "Acheson's accident of 1891: coke and sand fused into crystals that grind anything short of diamond. Hard, stiff, inert, and carries heat. It polishes to a mirror, outlasts a brake disc and switches power in cars.",
+  more: "Carbon and silicon bond like diamond, so the solid is hard, light and stiff, and unlike most ceramics it carries heat, so a mirror of it holds its figure and a seal face does not crack. It is also a wide-gap semiconductor, so a transistor of it switches a thousand volts and runs hot, and an electric car's inverter lost half its losses moving to it from silicon. The grit is in sandpaper and the brake disc, the sintered body in the pump seal, the kiln furniture and the Gaia and ELT mirrors; carborundum built Acheson's fortune. The costs: a crystal grows from vapour at 2,400 °C over weeks, so a wafer costs tens of times silicon; it is brittle and hard to machine, so the shape is made before sintering; and it burns slowly in air above 1,000 °C to silica.",
   stats: [["Conductivity", "120–270 W/m·K"], ["Hardness", "~25 GPa"], ["Sublimes", "~2700 °C"]],
   uses: "Telescope mirrors, carbon-ceramic brakes, mechanical seals, power semiconductors.",
   link: "https://en.wikipedia.org/wiki/Silicon_carbide"
 },
 {
   id: "zerodur", cat: "ceramic", name: "Zerodur",
-  sub: "lithium-aluminosilicate glass-ceramic", img: "zerodur",
-  hook: "A glass seeded with crystals that shrink as the surrounding glass expands. The two cancel, leaving a material whose size barely notices temperature — the only way a four-metre mirror holds its figure.",
+  sub: "lithium-aluminosilicate glass-ceramic", img: "zerodur", extra: ["zerodur2", "zerodur3"],
+  hook: "A glass seeded with crystals that shrink as the glass round them expands. The two cancel, leaving a size that ignores temperature, the only way a four-metre mirror holds its figure. Cast by Schott since 1968.",
+  more: "Melt a lithium aluminosilicate glass, cast a block, then heat it for months at 800 °C while titania seeds nucleate crystals a tenth of a micron across, until three quarters of the block is crystal that shrinks on heating and the rest glass that grows. Tuned, the two cancel to a few parts per billion per kelvin from 0 to 50 °C, so the mirror keeps its figure as the night cools, polishes to a nanometre and never creeps. That is the VLT's four 8.2-metre mirrors, the ELT's 798 segments, the ring laser gyro and the lithography stage. The costs: a four-metre blank takes a year to anneal and a lorry to move; it is brittle glass, dropped it is gone; the expansion is zero only at the temperature it was tuned for; and it is dearer per kilo than most metals.",
   stats: [["CTE", "≈ 0 ± 0.02 ppm/K"], ["Polish", "sub-nanometre"], ["Blanks", "4 m+"]],
   uses: "Telescope mirror blanks, lithography stages, gyroscope and metrology bodies.",
   link: "https://en.wikipedia.org/wiki/Zerodur"

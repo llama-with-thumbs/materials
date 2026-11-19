@@ -963,3 +963,31 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | the Delhi pillar | a dark post between arches at card size; it is in the text instead |
 | `Anchor at Ravenglass`, `Post-Medieval Iron Chain Link` | a rusty anchor on mud, and three small links on a scale |
 | the puddling-furnace woodcuts | 1,300 px engravings; the metallography shows the fibre better |
+
+
+## Restyle batch, 19 November 2026: ytzp, cbn, b4c, sic, zerodur
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| A zirconia knife or scissors | `zirconia knife`, `zirconia scissors`, `zirconia ceramic`, `zirconia bearing` | nothing but a dental glossary graphic | a white ceramic blade on a board |
+| cBN in the cut | `hard turning`, `CBN grinding wheel` (beyond the one catalogue shot), `kubisches Bornitrid` | the lathes are Iranian workshops, the rest are lattice renders | a hard-turned bearing race with its insert |
+| Boron carbide armour named as such | `boron carbide armor`, `sandblasting nozzle boron carbide` | nothing; the SAPI plates do not name the ceramic | a plate cross-section or a nozzle |
+| A silicon carbide heater or Acheson furnace | `silicon carbide heating element`, `Acheson furnace`, `silicon carbide sandpaper` | a portrait of Acheson and 1914 papers | a glowing SiC rod, or the furnace itself |
+| A Zerodur gyro or lithography stage | `ring laser gyroscope` | the gyros are sealed boxes at an airshow | an opened ring-laser block |
+
+| rejected after looking | why |
+|---|---|
+| `Single Unit Zirconia Anterior Dental Crown.jpg`, `Zirconia bridge.jpg` | a tooth on a plinth, and a mouth |
+| `New oxygen sensor (4145545072).jpg` | the greasy underside of a car; the sensor is a nut |
+| `SEM zirconia surface treatments 100x Lee2026.png` | a four-panel figure, no texture at card size |
+| the lattice render as the cBN face | a diagram; kept as third view with an honest caption, the tipped insert is the face |
+| `Cubic Boron Nitride 20251211.jpg` | the same lattice drawn again |
+| `Ranger Body Armor - SAPI plates.jpg` | a title bar burned into the frame; the plain pair is used instead |
+| `Boron carbide in passing ultraviolet light.jpg`, `Plastic with boron carbide.jpg` | blue mottle, and a grey sheet |
+| `Rounded Silicon Carbide Ingot (cropped).jpg`, `Silicon carbide - mesh 60.jpg` | a grey puck, and a pile of grit |
+| `Silicon Carbide.jpg` | a second iridescent lump, the face already is one |
+| `AMG Carbon Ceramic brake..JPG`, `Carbon ceramic brake surface detail` | a grey disc with holes, and a close-up of the same; the mirror and the wafer say more |
+| `Temp-3000 SiC armor plates.jpg` | a trade-show table of camouflage |
+| the Deutsche Carborundum whetstone | a red box in a field |
+| `Schott Ceran glass-ceramic cooktop.jpg` | already the face of the ceran card |
+| `The last ELT M1 segment blanks leaving SCHOTT`, `Arrival of ELT secondary at SCHOTT` | a container on a lorry, twice |

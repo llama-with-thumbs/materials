@@ -504,17 +504,65 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "ytzp2": {
+    "file": "ytzp2.jpg",
+    "caption": "A zirconia bridge on its model: milled from a soft block, then sintered to size",
+    "kind": "product",
+    "title": "Zirkonoxid Zahnersatz.jpg",
+    "site": "Wikimedia",
+    "artist": "Partynia",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zirkonoxid_Zahnersatz.jpg",
+    "w": 960,
+    "h": 675
+  },
+  "ytzp3": {
+    "file": "ytzp3.jpg",
+    "caption": "A crown being milled from a zirconia block in a navy dental lab: the blank is soft, the sintering comes after",
+    "kind": "process",
+    "title": "USMC-12400.jpg",
+    "site": "Wikimedia",
+    "artist": "Cpl. Brian Lewis",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:USMC-12400.jpg",
+    "w": 960,
+    "h": 640
+  },
   "cbn": {
     "file": "cbn.jpg",
-    "caption": "Cubic boron nitride crystals",
-    "kind": "photo",
+    "caption": "A facing insert with a cubic boron nitride tip brazed into the corner: the only part that touches the steel",
+    "kind": "product",
+    "title": "CBN-WSP-PD.jpg",
+    "site": "Wikimedia",
+    "artist": "Raizy",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CBN-WSP-PD.jpg",
+    "w": 960,
+    "h": 797
+  },
+  "cbn2": {
+    "file": "cbn2.png",
+    "caption": "Metal-bond grinding wheels: diamond and cubic boron nitride grit sintered into a bronze matrix",
+    "kind": "product",
+    "title": "Sintered metal-bond diamond and CBN grinding wheels.png",
+    "site": "Wikimedia",
+    "artist": "Vijesh Gogia",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sintered_metal-bond_diamond_and_CBN_grinding_wheels.png",
+    "w": 960,
+    "h": 540
+  },
+  "cbn3": {
+    "file": "cbn3.jpg",
+    "caption": "A ball-and-stick model of the lattice: the diamond structure with boron and nitrogen alternating",
+    "kind": "structure",
     "title": "Cubic Boron Nitride.jpg",
+    "site": "Wikimedia",
     "artist": "Whodunit244",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Cubic_Boron_Nitride.jpg",
     "w": 960,
-    "h": 658,
-    "site": "Wikimedia"
+    "h": 658
   },
   "b4c": {
     "file": "b4c.jpg",
@@ -528,6 +576,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "b4c2": {
+    "file": "b4c2.jpg",
+    "caption": "Boron carbide pellets for a fast-reactor control rod, made in 1967, 18 by 20 mm",
+    "kind": "product",
+    "title": "Boron carbide pellets.jpg",
+    "site": "Wikimedia",
+    "artist": "Tomes, Gilbert",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boron_carbide_pellets.jpg",
+    "w": 960,
+    "h": 605
+  },
+  "b4c3": {
+    "file": "b4c3.jpg",
+    "caption": "Two SAPI body-armour inserts, strike face out: under the wrap the ceramic is usually boron carbide",
+    "kind": "related",
+    "title": "Sapi plates.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sapi_plates.jpg",
+    "w": 960,
+    "h": 720
+  },
   "sic": {
     "file": "sic.jpg",
     "caption": "A lump of synthetic silicon carbide, carborundum, from a geology collection",
@@ -540,6 +612,30 @@ window.CREDITS = {
     "w": 960,
     "h": 726
   },
+  "sic2": {
+    "file": "sic2.jpg",
+    "caption": "Two 150 mm silicon carbide wafers in their box, half transparent: the substrate of a power transistor",
+    "kind": "product",
+    "title": "SiC wafers 6inch.jpg",
+    "site": "Wikimedia",
+    "artist": "FDominec",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SiC_wafers_6inch.jpg",
+    "w": 886,
+    "h": 638
+  },
+  "sic3": {
+    "file": "sic3.jpg",
+    "caption": "The ELT's M5 mirror blank in sintered silicon carbide, inspected before polishing",
+    "kind": "product",
+    "title": "The M5 blank being inspected at Mersen Boostec (ann24008a).jpg",
+    "site": "Wikimedia",
+    "artist": "ESO",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_M5_blank_being_inspected_at_Mersen_Boostec_(ann24008a).jpg",
+    "w": 960,
+    "h": 540
+  },
   "zerodur": {
     "file": "zerodur.jpg",
     "caption": "A cast Zerodur mirror blank (ELT secondary, 4.2 m)",
@@ -551,6 +647,30 @@ window.CREDITS = {
     "page": "https://www.eso.org/public/images/eso1715a/",
     "w": 960,
     "h": 640
+  },
+  "zerodur2": {
+    "file": "zerodur2.jpg",
+    "caption": "Peeling the protective film off a polished 8.2-metre VLT mirror after its journey from Paris",
+    "kind": "process",
+    "title": "8 2-m zerodur mirror (eso9950a).jpg",
+    "site": "Wikimedia",
+    "artist": "ESO/P. Gray",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:8_2-m_zerodur_mirror_(eso9950a).jpg",
+    "w": 960,
+    "h": 720
+  },
+  "zerodur3": {
+    "file": "zerodur3.jpg",
+    "caption": "An ELT segment blank glowing from the mould at Schott in Mainz: cast round, cut hexagonal later, 798 in all",
+    "kind": "process",
+    "title": "First ELT Main Mirror Segments Successfully Cast.jpg",
+    "site": "Wikimedia",
+    "artist": "SCHOTT/ESO",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:First_ELT_Main_Mirror_Segments_Successfully_Cast.jpg",
+    "w": 960,
+    "h": 527
   },
   "aln": {
     "file": "aln.jpg",
