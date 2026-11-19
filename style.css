@@ -223,13 +223,21 @@ h1 .dot { color: var(--red); }
 .card.plate .shot { aspect-ratio: auto; background: var(--panel); }
 .card.plate .shot img { height: auto; max-height: 540px; object-fit: contain; }
 
-/* A wide plate takes the whole row: the figure on the left with its readout under it,
-   the text beside it, the two parted by a rule, so the eye never leaves the diagram to
-   read it. Below 900 px it stacks like any card. */
+/* A wide plate takes the whole row: the figure the full width of the page, and under it
+   the readout on the left and the text on the right, parted by a rule. Below 900 px it
+   stacks like any card. */
+.card.plate.wide { grid-column: 1 / -1; }
 @media (min-width: 900px) {
-  .card.plate.wide { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); align-items: stretch; }
-  .card.plate.wide .figure { border-bottom: 0; border-right: 2px solid var(--ink); }
+  .card.plate.wide { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: stretch; }
+  .card.plate.wide .figure { grid-column: 1 / -1; }
+  .card.plate.wide .readout { border-top: 0; border-right: 1px solid var(--line); padding-top: 10px; }
 }
+.card.plate.wide .readout { font-size: 13.5px; }
+.card.plate.wide .readout .ro b { flex-basis: 60px; }
+svg.fig .hair { stroke: var(--blue); stroke-width: 1; stroke-dasharray: 2 3; pointer-events: none; }
+svg.fig .tie { stroke: var(--blue); stroke-width: 2.2; pointer-events: none; }
+svg.fig .tie-end { fill: var(--blue); pointer-events: none; }
+svg.fig .tie-pt { fill: var(--panel); stroke: var(--blue); stroke-width: 2; pointer-events: none; }
 .figure .fig-opts { position: absolute; right: 64px; top: 8px; display: flex; gap: 4px; z-index: 3; }
 
 .figure {

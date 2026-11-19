@@ -117,9 +117,10 @@ const CARD_HTML = new Map();
 function plateFor(p) {
   const c = CREDITS[p.id];
   const no = PLATES.indexOf(p) + 1;
+  const wide = !!(p.figure && p.figure.wide);
+  const readout = p.figure ? `<div class="readout">${FIGURES.readoutHTML(p.figure, null, null, null, FIGURES.state(p.id))}</div>` : "";
   const figure = p.figure
-    ? `<div class="figure">${FIGURES.svg(p.id, p.figure)}${FIGURES.controlsHTML(p.id, p.figure)}<span class="tag">plate</span>
-         <div class="readout">${FIGURES.readoutHTML(p.figure, null, null, null, FIGURES.state(p.id))}</div></div>`
+    ? `<div class="figure">${FIGURES.svg(p.id, p.figure)}${FIGURES.controlsHTML(p.id, p.figure)}<span class="tag">plate</span>${wide ? "" : readout}</div>${wide ? readout : ""}`
     : `<button class="shot" data-shot="${esc(p.id)}" title="enlarge">${shotFor(p)}<span class="tag">plate</span></button>`;
   const stats = p.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
   const explains = (p.cards || []).map(id => ALL.find(m => m.id === id)).filter(Boolean)
@@ -129,7 +130,7 @@ function plateFor(p) {
     : `<span>drawn for this page from published values</span>`;
   const more = p.link ? `<a href="${esc(p.link)}" target="_blank" rel="noopener">read more</a>` : "";
   const src = p.src ? `<a href="${esc(p.src[1])}" target="_blank" rel="noopener">${esc(p.src[0])}</a>` : "";
-  return `<article class="card plate${p.figure && p.figure.wide ? " wide" : ""}" id="m-${esc(p.id)}" data-cat="${esc((p.cats || [])[0] || "")}" data-id="${esc(p.id)}">
+  return `<article class="card plate${wide ? " wide" : ""}" id="m-${esc(p.id)}" data-cat="${esc((p.cats || [])[0] || "")}" data-id="${esc(p.id)}">
     ${figure}
     <div class="body">
       <p class="no">plate ${no}</p>

@@ -21,7 +21,7 @@ window.FIGURES = (() => {
 
   // The viewBox and margins: a wide plate draws a longer figure.
   const dims = f => f.wide
-    ? { W: 1080, H: 560, ML: 64, MR: 16, MT: 18, MB: 52 }
+    ? { W: 1240, H: 560, ML: 64, MR: 16, MT: 18, MB: 52 }
     : { W: 720, H: 500, ML: 58, MR: 14, MT: 18, MB: 50 };
 
   // What the reader has done to each figure: which zoom is showing and where the pin is.
@@ -109,6 +109,7 @@ window.FIGURES = (() => {
       <rect class="frame" x="${ML}" y="${MT}" width="${W - ML - MR}" height="${H - MT - MB}"/>
       ${xt}${yt}<g class="points">${points}</g><g class="labels" clip-path="url(#${clip})">${labels}</g>
       <g class="marks" clip-path="url(#${clip})">${marks}</g><g class="alloys">${alloys}</g>${pin}
+      <g class="hover" clip-path="url(#${clip})"></g>
       <text class="ax" x="${(ML + (W - MR)) / 2}" y="${H - 8}" text-anchor="middle">${esc(f.x[2])}</text>
       <text class="ax" x="14" y="${(MT + H - MB) / 2}" text-anchor="middle" transform="rotate(-90 14 ${(MT + H - MB) / 2})">${esc(f.y[2])}</text>
     </svg>`;
@@ -242,11 +243,28 @@ window.FIGURES = (() => {
     return [ux(x), uy(y)];
   }
 
+  // The hover lines: hairlines from the pointer to both axes and, in a two-phase field,
+  // the tie line across it with its two ends, which are the compositions the lever rule reads.
+  function hoverSVG(f, s, u, z) {
+    if (!u) return "";
+    const { W, H, ML, MR, MT, MB } = dims(f);
+    const { sx, sy } = scales(f, s);
+    const qx = sx(u[0]).toFixed(1), qy = sy(u[1]).toFixed(1);
+    let out = `<line class="hair" x1="${ML}" y1="${qy}" x2="${W - MR}" y2="${qy}"/><line class="hair" x1="${qx}" y1="${MT}" x2="${qx}" y2="${H - MB}"/>`;
+    const L = z ? lever(z, u[0], u[1]) : null;
+    if (L) out += `<line class="tie" x1="${sx(L.left).toFixed(1)}" y1="${qy}" x2="${sx(L.right).toFixed(1)}" y2="${qy}"/>` +
+      `<circle class="tie-end" cx="${sx(L.left).toFixed(1)}" cy="${qy}" r="3.6"/><circle class="tie-end" cx="${sx(L.right).toFixed(1)}" cy="${qy}" r="3.6"/>`;
+    return out + `<circle class="tie-pt" cx="${qx}" cy="${qy}" r="3.2"/>`;
+  }
+
+  // The readout belongs to the plate, beside or under the figure.
+  const outFor = svgEl => (svgEl.closest(".card") || svgEl.parentNode).querySelector(".readout");
+
   // Draw the figure again in place, after a zoom or a pin, and refresh the readout.
   function redraw(fig, p) {
     const svgEl = fig.querySelector("svg.fig");
     if (svgEl) svgEl.outerHTML = svg(p.id, p.figure);
-    const out = fig.querySelector(".readout");
+    const out = outFor(fig.querySelector("svg.fig"));
     if (out) out.innerHTML = readoutHTML(p.figure, null, null, null, state(p.id));
     const s = state(p.id);
     for (const b of fig.querySelectorAll("[data-zoom]")) b.setAttribute("aria-pressed", String(+b.dataset.zoom === s.zoom));
@@ -256,13 +274,16 @@ window.FIGURES = (() => {
   // so nothing may be bound to the figures themselves.
   function bind(container, plates) {
     const byId = new Map(plates.map(p => [p.id, p]));
-    let hot = null;
-    const clear = () => { if (hot) { hot.classList.remove("hot"); hot = null; } };
+    let hot = null, lines = null;
+    const clear = () => {
+      if (hot) { hot.classList.remove("hot"); hot = null; }
+      if (lines) { lines.innerHTML = ""; lines = null; }
+    };
     const move = e => {
       const svgEl = e.target.closest && e.target.closest("svg.fig");
       if (!svgEl) return;
       const p = byId.get(svgEl.dataset.fig);
-      const out = svgEl.parentNode.querySelector(".readout");
+      const out = outFor(svgEl);
       if (!p || !out) return;
       const f = p.figure, s = state(p.id);
       clear();
@@ -289,6 +310,8 @@ window.FIGURES = (() => {
       });
       const u = at(svgEl, f, e.clientX, e.clientY, s);
       const z = u ? hit(f, u[0], u[1]) : null;
+      lines = svgEl.querySelector(".hover");
+      if (lines) lines.innerHTML = hoverSVG(f, s, u, z);
       if (mi >= 0) {
         hot = svgEl.querySelector(`[data-mark="${mi}"]`);
         if (hot) hot.classList.add("hot");
