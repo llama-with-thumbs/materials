@@ -1310,3 +1310,29 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Honeycomb structure (6248780733).jpg`, `Ali1234.jpg` | bees' wax, and a shop of saucepans |
 | `Flown SpaceX DM-2 Dragon Delta Panel` | a scorched white panel that reads as a tile |
 | `Tränken der Glasfasermatte mit multi PL-Harz.jpg` | fetched as the gfrp face, then dropped: at card crop it is a white stream and a cardboard box, the mat is out of frame; the blade footbridge is the face |
+
+
+## Restyle batch, 19 November 2026: nomexcore, glare, plywood, clt, rcconcrete
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Nomex honeycomb by name, or any aramid core | `Nomex honeycomb core`, `aramid honeycomb`, `Aramidwabe`, `kevlar honeycomb`, `radome honeycomb`, `rotor blade honeycomb`, `snowboard core honeycomb`, `honeycomb sandwich cut section`, `aircraft interior panel honeycomb` | nothing at all; the MAVEN structure is aluminium and the MH370 map is a map | a block of the buff paper core, or a cabin panel cut through |
+| GLARE as a panel or in production | `GLARE`, `fibre metal laminate`, `A380 fuselage panel`, `A380 fuselage production`, `A380 Stade`, `Faser-Metall-Laminat`, `ARALL laminate` | a professor named Glare, a band, Italian shrines, Welsh signs; the fuselage transports show painted sections | a panel at Stork Fokker, or a cut edge |
+| A veneer lathe at work, modern | `veneer peeling lathe`, `rotary veneer`, `Furnierschälmaschine` | the CSIRO 1930s ceremony and the Sabah factory; Sabah used | a ribbon coming off the knife, close |
+| CLT being craned or in a fire test | `CLT construction site`, `CLT crane`, `CLT fire test`, `mass timber building` | Helsinki lobby, a 1677 house, a Belgian steam railway | a panel on the hook, or a charred test specimen |
+| Concrete cancer | `concrete cancer`, `rebar corrosion`, `Betonstahl Korrosion` | alkali-silica cracking at a Canadian gallery, which is a different disease; the Funchal spall is the picture | a map-cracked column photographed close, for its own card |
+
+| rejected after looking | why |
+|---|---|
+| the old GLARE diagram as the face | the card crop cuts the labels to `minium` and `eg`; kept as second view |
+| `Singapore Airlines Airbus A380.jpg` | the same aircraft, daylight, smaller in frame |
+| the old NASA router photo as the plywood face | a spindle and sawdust; the sheet itself was out of frame |
+| `Plywood.jpg`, `Birch-plywood kitchen ...` | a block end that reads as a brick, and a kitchen |
+| `Sandakan Sabah Plywood-Factory-22a.jpg`, `-35c.jpg`, `CSIRO ScienceImage 2259` | the lathe from the back, a worker patching veneer, three men in suits at a lathe in 1930 |
+| `Mosquito Fuselage (8048040982).jpg` | the bare shell before paint, dim brown |
+| `Mjøstårnet Brumunddal Aug2018.jpg`, `Brock Commons ... facade panel texture.jpg`, `20230630 Structure of Katajanokan Laituri` | a crane and scaffold, a wood-print cladding that is not the timber, and a lobby |
+| `Plot 4.1 The Timber House` | a clad house, the CLT invisible |
+| the old `Reinforced concrete foundation.JPG` face | numbered callouts printed on the photograph |
+| `Bewehrung einer Bodenplatte.jpg`, `Rebar worker.jpg`, `Rebar lattice prior to the pouring` | a wide site, a man and a bar, a grid on gravel; the cage interior is the face |
+| `Concrete wall cracking as its steel reinforcing cracks and swells 9061.jpg` | a hairline on a wall at card size |
+| `Reinforced concrete rusted rebars german bunkers Pointe du Hoc.jpg`, `Hennebique.jpg`, `Qew bruecke ... 46 von 46.jpg` | rust on a bunker, a facade, a bridge |

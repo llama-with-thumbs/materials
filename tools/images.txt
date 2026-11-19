@@ -403,10 +403,17 @@ cfrp3|commons|McLaren MP4-1 Carbon Fibre-Kevlar Monocoque Chassis at Formula 1 E
 alhoneycomb|commons|Glare honeycomb.jpg|Honeycomb core bonded between thin skins|product
 alhoneycomb2|commons|Single-use crushable aluminium honeycomb shock absorber.jpg|The crushable honeycomb cartridge from inside an Apollo lunar module landing leg: a shock absorber that works once|related
 alhoneycomb3|commons|MAVEN Mission Primary Structure Complete (6186672814).jpg|The primary structure of the MAVEN Mars spacecraft at Lockheed Martin, 2011: aluminium honeycomb panels, as nearly every satellite is|product
-glare|commons|An exploded view of a GLARE hybrid sheet.jpg|GLARE, exploded — alloy sheets alternating with glass-fibre prepreg|photo
-plywood|NASA|https://images-assets.nasa.gov/image/AFRC2024-0127-32/AFRC2024-0127-32~medium.jpg|Plywood under a CNC router in a NASA fabrication shop|photo|Public domain|AFRC|https://images.nasa.gov/details/AFRC2024-0127-32
+glare|commons|Qantas Airbus A380 (5478680641).jpg|A Qantas A380 on the apron: the upper fuselage panels, 470 square metres of them, are GLARE, and it is the only airliner that used it|related
+glare2|commons|An exploded view of a GLARE hybrid sheet.jpg|GLARE pulled apart in a diagram: 0.4 mm aluminium sheets with glass prepreg between them|structure
+plywood|commons|Spruce plywood.JPG|Finnish spruce plywood, edge on: the plies at right angles and odd in number, so the two faces run the same way|photo
+plywood2|commons|Sandakan Sabah Plywood-Factory-23a.jpg|The veneer outlet of a peeling lathe in Sabah: the log comes off as a continuous ribbon a few millimetres thick|process
+plywood3|commons|Mosquito fuselage (940524665).jpg|A Mosquito fuselage at the de Havilland Museum: a moulded shell of birch ply over balsa, built by furniture makers in 1941|product
 clt|commons|Brettsperrholzkonstruktion.jpg|Cross-laminated timber construction|product
-rcconcrete|commons|Reinforced concrete foundation.JPG|Reinforced concrete going in|product
+clt2|commons|Fichte Dreischichtplatte 2009.jpg|A three-layer spruce panel, edge on: cross-lamination at its simplest, the idea the thick slabs scale up|structure
+clt3|commons|Mjøstårnet.jpg|Mjøstårnet at Brumunddal, Norway, at its opening in 2019: eighteen storeys and 85 metres, the tallest timber building then standing|product
+rcconcrete|commons|Baustelle-Hölzla-Rebar-6228085.jpg|Inside the reinforcement cage for a bored pile near Nuremberg: the steel tied and waiting for the concrete|process
+rcconcrete2|commons|Funchal Carbonatation Rebar.JPG|A wall in Funchal: carbonation reached the bar, the rust took six times the steel's volume and pushed the cover off|related
+rcconcrete3|commons|Carbonatisierung Bewehrung Phenolphtalein.jpg|The phenolphthalein test on a broken face: concrete still alkaline turns pink, and the grey carbonated skin has reached past the bar|process
 uhpc|commons|Gaertnerplatzbruecke Kassel.JPG|The Gärtnerplatz bridge in Kassel, built from UHPC|product
 selfhealconcrete|commons|Basilisk self-healing concrete exhibit at science museum.jpg|Self-healing concrete on display|photo
 fibrecement|commons|Fiber cement siding.jpg|Fibre cement siding|product

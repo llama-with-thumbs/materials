@@ -1859,39 +1859,44 @@ window.MATERIALS = [
 {
   id: "nomexcore", cat: "composite", name: "Nomex honeycomb",
   sub: "phenolic-dipped aramid paper core", img: "nomexcore",
-  hook: "Aramid paper folded into cells and dipped in phenolic resin until it is rigid. Lighter than aluminium core, does not corrode, does not conduct, and does not take a permanent dent — it springs back where the metal version stays crushed.",
+  hook: "Aramid paper glued in stripes, pulled open into cells and dipped in phenolic until it stands up. Lighter than the aluminium kind, it does not corrode or conduct, and it springs back from a knock that creases metal.",
+  more: "The paper is the meta-aramid sheet that insulates a transformer; a stack is printed with lines of adhesive, pulled open into hexagons, then dipped in phenolic and cured until the walls are stiff, at 30 to 140 kilos a cubic metre. Faced with prepreg in a press it is the floor you stand on in an airliner, the sidewall and the overhead bin, the flap and the rudder, a radome, since radar passes through it, the core of a helicopter blade and the inside of a ski. It passes the cabin fire tests, and a dropped tool leaves no mark. The costs: it is paper, so a cracked skin lets water in and the cells wick it; it carries less shear than metal core at the same weight; it machines slowly and crushes at a cut edge; and it costs more than the metal it replaces.",
   stats: [["Density", "29–130 kg/m³"], ["Dent", "recovers"], ["Flame", "self-extinguishing"]],
   uses: "Aircraft interior panels, radomes, racing bodywork, skis and snowboards.",
   link: "https://en.wikipedia.org/wiki/Honeycomb_structure"
 },
 {
   id: "glare", cat: "composite", name: "GLARE",
-  sub: "glass-fibre / aluminium laminate", img: "glare",
-  hook: "Thin aluminium sheets alternating with glass-fibre prepreg. A fatigue crack runs through the metal layer and then stops dead, because the fibres bridging it carry the load across — cracks grow ten to a hundred times slower than in solid alloy.",
+  sub: "glass-fibre / aluminium laminate", img: "glare", extra: ["glare2"],
+  hook: "Aluminium sheets alternating with glass prepreg, bonded in an autoclave. A fatigue crack runs through one metal layer and stops, the fibres behind it bridging the gap, so cracks grow ten to a hundred times slower.",
+  more: "Delft worked it out in the 1980s: 0.4-millimetre alloy sheets with a quarter-millimetre of glass prepreg between, two to six layers, cured at 120 °C. Where a crack opens in one sheet the fibres across it are whole and hold it shut, and the sheets either side are untouched, so a skin goes far longer between inspections. It is lighter than the alloy, and in a fire the glass layers part and insulate, so it holds a flame out for minutes where aluminium melts through in seconds. The A380 carried 470 square metres of it and saved a tonne and a half. The costs: it comes as autoclave panels, so a fuselage needs splices; it is many times the price of sheet; it is less stiff than the alloy; it cannot be formed after cure; and no airliner since has used it.",
   stats: [["Crack growth", "10–100× slower"], ["Weight saving", "~10% vs alloy"], ["Flies on", "the A380 upper fuselage"]],
   uses: "Airbus A380 fuselage panels, cargo liners, blast-resistant containers.",
   link: "https://en.wikipedia.org/wiki/GLARE"
 },
 {
   id: "plywood", cat: "composite", name: "Plywood",
-  sub: "cross-laminated wood veneer", img: "plywood",
-  hook: "Wood is roughly thirty times stiffer along the grain than across it. Rotate every veneer 90° to its neighbour and you get a sheet that is equally strong in both directions and will not split — engineering around a flaw by stacking it out.",
+  sub: "cross-laminated wood veneer", img: "plywood", extra: ["plywood2", "plywood3"],
+  hook: "Wood is thirty times stiffer along the grain than across. Peel a log into veneer, glue every sheet at right angles to the next, and the weakness cancels sheet by sheet: strong both ways, and it will not split.",
+  more: "A steamed log spins against a knife and comes off as a ribbon a few millimetres thick, dried, glued, laid up in an odd number of plies so the faces match and the sheet stays flat, and hot-pressed. Every ply stops the next from shrinking across its grain, so the sheet holds its size through the seasons, a screw bites anywhere, and a crack cannot follow the grain, which turns every millimetre. It sheathes houses, forms concrete, planks boats, and in 1941 made the fastest aircraft in the world, built by furniture makers. The costs: an edge drinks water and the plies part; cheap grades hide voids in the core; interior glue breathes formaldehyde for years; a saw tears the face ply; and tropical plywood is logged from forests that do not grow back.",
   stats: [["Plies", "odd number, always"], ["Grain", "alternating 90°"], ["Splitting", "designed out"]],
   uses: "Construction sheathing, furniture, boat hulls, concrete formwork, aircraft (Mosquito).",
   link: "https://en.wikipedia.org/wiki/Plywood"
 },
 {
   id: "clt", cat: "composite", name: "Cross-laminated timber",
-  sub: "CLT mass timber panel", img: "clt",
-  hook: "Plywood's logic at building scale: whole boards stacked crosswise into slabs a foot thick. It carries like concrete at a fifth of the weight, and in a fire the outside chars into an insulating layer that protects the structural core behind it.",
+  sub: "CLT mass timber panel", img: "clt", extra: ["clt2", "clt3"],
+  hook: "Plywood's logic at building scale: boards laid crosswise, three to nine layers, glued into a slab the size of a wall. It carries like concrete at a fifth the weight and chars at a rate you can calculate.",
+  more: "Austrian sawmills began it in the 1990s as a use for side boards: spruce finger-jointed, laid in layers at right angles and glued into panels 16 metres long and 300 thick, routed with every window already in. A panel is wall, floor and bracing at once, spans six metres and arrives numbered, so a storey goes up in a day, dry. Fire chars 0.65 millimetres a minute and the char insulates what is behind, so a slab is rated by thickness; Mjøstårnet in Norway stands eighteen storeys on it. The costs: it is dear per cubic metre; it must be kept dry on site or it swells; a light floor drums underfoot and needs a screed; glue lines can let go in a long fire and expose fresh wood; the steel connectors are the weak point then; and the codes still argue.",
   stats: [["Char rate", "~0.65 mm/min"], ["vs concrete", "~1/5 the weight"], ["Tallest so far", "~25 storeys"]],
   uses: "Mid-rise apartment and office buildings, floor and roof slabs, shear walls.",
   link: "https://en.wikipedia.org/wiki/Cross-laminated_timber"
 },
 {
   id: "rcconcrete", cat: "composite", name: "Reinforced concrete",
-  sub: "concrete with embedded steel", img: "rcconcrete",
-  hook: "The partnership works for a reason nobody planned: concrete and steel happen to expand at almost exactly the same rate, so a hot day does not tear them apart. The concrete's alkalinity also passivates the steel, which is why carbonation and chloride are what eventually kill a structure.",
+  sub: "concrete with embedded steel", img: "rcconcrete", extra: ["rcconcrete2", "rcconcrete3"],
+  hook: "Concrete carries squeezing and cracks under a pull; steel carries the pull. They expand at the same rate, so no season parts them, and the concrete's alkali keeps the steel bright. Most of what was built since 1900.",
+  more: "Monier patented it for flowerpots in 1867 and Hennebique built with it from 1892: ribbed bars placed where the tension will be, the bottom of a beam, the top over a support, and the concrete poured round. The concrete cracks, hairline and by design, and the steel takes over; between them they do everything a frame, a slab or a dam asks. The cement's lime holds the pore water at a pH of 12.5, which films the steel against rust. The costs: carbon dioxide works in a millimetre a year, salt faster, and when either reaches the bar the film fails, the rust takes six times the steel's volume and the cover bursts off, which is eating every 1960s car park; it is heavy; the cement is eight per cent of the world's carbon dioxide; and nothing inside can be seen.",
   stats: [["Compression", "concrete, 20–50 MPa"], ["Tension", "steel, ~500 MPa"], ["Expansion", "near-identical, by luck"]],
   uses: "Essentially all modern construction — frames, slabs, dams, foundations.",
   link: "https://en.wikipedia.org/wiki/Reinforced_concrete"
