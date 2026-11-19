@@ -1344,6 +1344,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "alumina2": {
+    "file": "alumina2.jpg",
+    "caption": "A spark plug insulator broken open: the alumina body, the centre electrode and the glass seal",
+    "kind": "structure",
+    "title": "Spark plug guts.jpeg",
+    "site": "Wikimedia",
+    "artist": "User:Industry shill",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Spark_plug_guts.jpeg",
+    "w": 960,
+    "h": 720
+  },
+  "alumina3": {
+    "file": "alumina3.jpg",
+    "caption": "Alumina parts printed by robocasting, before and after firing: lattices, a rod, a gear",
+    "kind": "product",
+    "title": "Alumina Robocast Parts.jpg",
+    "site": "Wikimedia",
+    "artist": "Ezrado",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alumina_Robocast_Parts.jpg",
+    "w": 960,
+    "h": 795
+  },
   "sapphire": {
     "file": "sapphire.jpg",
     "caption": "A synthetic sapphire boule pulled from the melt",
@@ -1356,17 +1380,65 @@ window.CREDITS = {
     "h": 1280,
     "site": "Wikimedia"
   },
+  "sapphire2": {
+    "file": "sapphire2.jpg",
+    "caption": "A Verneuil-grown blue sapphire, 15 mm across: the same crystal with a trace of iron and titanium",
+    "kind": "related",
+    "title": "Synthetic sapphire 1.jpg",
+    "site": "Wikimedia",
+    "artist": "James St. John",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Synthetic_sapphire_1.jpg",
+    "w": 960,
+    "h": 530
+  },
+  "sapphire3": {
+    "file": "sapphire3.jpg",
+    "caption": "A sapphire hyper-hemisphere, the dome in front of an infrared seeker",
+    "kind": "product",
+    "title": "5 Sapphire Hyper Hemisphere Crystaltechno.jpg",
+    "site": "Wikimedia",
+    "artist": "Crystaltechno",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:5_Sapphire_Hyper_Hemisphere_Crystaltechno.jpg",
+    "w": 960,
+    "h": 720
+  },
   "fusedsilica": {
     "file": "fusedsilica.jpg",
-    "caption": "The fused silica window of a UV-erasable EPROM; ordinary glass would block the ultraviolet",
+    "caption": "A Gravity Probe B gyroscope rotor: a fused silica sphere, round to forty atoms, the roundest thing ever made",
     "kind": "product",
-    "title": "https://live.staticflickr.com/3572/4567498923_cb29327d38_b.jpg",
-    "site": "Flickr",
-    "artist": "sumeet basak",
-    "license": "CC BY 2.0",
-    "page": "https://www.flickr.com/photos/9037890@N05/4567498923",
+    "title": "Einstein gyro gravity probe b.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Einstein_gyro_gravity_probe_b.jpg",
     "w": 960,
-    "h": 638
+    "h": 644
+  },
+  "fusedsilica2": {
+    "file": "fusedsilica2.jpg",
+    "caption": "A synthetic silica glass ingot at the Nikon museum: lens glass for a lithography stepper",
+    "kind": "photo",
+    "title": "Synthetic silica glass ingot 2016 Nikon Museum.jpg",
+    "site": "Wikimedia",
+    "artist": "Morio",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Synthetic_silica_glass_ingot_2016_Nikon_Museum.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "fusedsilica3": {
+    "file": "fusedsilica3.jpg",
+    "caption": "A silica fibre preform held to the window: the doped core is already there, the rod becomes kilometres of fibre",
+    "kind": "product",
+    "title": "At the edge of optical fiber preform 1.jpg",
+    "site": "Wikimedia",
+    "artist": "AndreyTheSparrow",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:At_the_edge_of_optical_fiber_preform_1.jpg",
+    "w": 960,
+    "h": 812
   },
   "gorilla": {
     "file": "gorilla.jpg",
@@ -1380,6 +1452,18 @@ window.CREDITS = {
     "w": 960,
     "h": 720
   },
+  "gorilla2": {
+    "file": "gorilla2.jpg",
+    "caption": "A Lumia 925 after the kerb: once a flaw gets under the compressed skin, the stored tension does the rest",
+    "kind": "product",
+    "title": "Nokia Lumia 925 front broken Gorilla Glass.jpg",
+    "site": "Wikimedia",
+    "artist": "old_s",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nokia_Lumia_925_front_broken_Gorilla_Glass.jpg",
+    "w": 960,
+    "h": 1280
+  },
   "borosilicate": {
     "file": "borosilicate.jpg",
     "caption": "Borosilicate labware",
@@ -1391,6 +1475,30 @@ window.CREDITS = {
     "w": 960,
     "h": 948,
     "site": "Wikimedia"
+  },
+  "borosilicate2": {
+    "file": "borosilicate2.jpg",
+    "caption": "The 200-inch Palomar disc arriving in Pasadena, 1936: twenty tons of Pyrex with a waffle back, a year in the annealing oven",
+    "kind": "product",
+    "title": "200-inch, 20-ton lens for the future Hale Telescope, after its arrival in Pasadena, CA.jpg",
+    "site": "Wikimedia",
+    "artist": "Los Angeles Daily News",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:200-inch,_20-ton_lens_for_the_future_Hale_Telescope,_after_its_arrival_in_Pasadena,_CA.jpg",
+    "w": 960,
+    "h": 761
+  },
+  "borosilicate3": {
+    "file": "borosilicate3.jpg",
+    "caption": "Two Pyrex cups: the Corning one is borosilicate, the World Kitchen one is tempered soda-lime",
+    "kind": "related",
+    "title": "Pyrex and PYREX.jpg",
+    "site": "Wikimedia",
+    "artist": "Picofluidicist at English Wikipedia",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pyrex_and_PYREX.jpg",
+    "w": 960,
+    "h": 638
   },
   "si3n4": {
     "file": "si3n4.jpg",

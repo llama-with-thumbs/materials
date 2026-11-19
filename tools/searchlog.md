@@ -1019,3 +1019,33 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `NeutronMonochromatorBNL.jpg` | a tall rack of labelled crystals, 858 px wide |
 | `Hand holding up a piece of Yttralox outdoors.jpg` | fetched, then dropped: at card size it is a thumb and some sky, the sample is invisible |
 | the NASA pyrolytic graphite collector | fetched, then dropped: copper rings and wires, the graphite is not in the frame |
+
+
+## Restyle batch, 19 November 2026: alumina, sapphire, fusedsilica, gorilla, borosilicate
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Alumina as a crucible or furnace tube | `alumina crucible`, `alumina tube furnace`, `Aluminiumoxid Keramik` | 1920 metallurgy plates and a pot oven | a white crucible with a melt in it |
+| A sapphire wafer with LEDs on it | `LED sapphire substrate`, `sapphire wafer` | a schematic, a TIFF, and a JSC carrier of three tiny squares | a patterned 6-inch sapphire wafer |
+| A fibre drawing tower | `optical fibre drawing tower` | nothing | the tower at Corning or Prysmian |
+| Gorilla Glass being made or tested | `chemically strengthened glass`, `ion exchange glass`, `Displayglas` | lunar glass beads, Amberlite resin brochures and a painting | a salt-bath line or a ball-drop test |
+| Borosilicate being cast or blown | `borosilicate casting`, `glassblowing borosilicate` | nothing | a lampworker at a bench |
+
+| rejected after looking | why |
+|---|---|
+| the Flickr fused silica EPROM window as the face | the Flickr URL now serves a photograph of lightning over a town; dropped, the Gravity Probe B rotor is the face |
+| `EPROM fused silica window - UV-vis spectrum.jpg` | a spectrum on a screen, not the window |
+| `Ceramic substrate used for repeater in coaxial transmissions.jpg` | alumina, but buried under red annotation arrows |
+| `IBM 51F1784ESD ceramic square substrate.jpg` | a grid of pads; it could be any ceramic |
+| `Hip prosthesis.jpg`, `Hip replacement Image 3684-PH.jpg` | the ball may be alumina but nothing says so; and an X-ray |
+| the Wendelstein 7-X insulators | porcelain or alumina, unstated, and a busy cage |
+| `35kg sapphire crystal growth by the Kyropoulos method.jpg`, `Sapphire crystal growth by the Kyropoulos method.jpg` | the same glassy lump as the face |
+| `Curved Striations in Synthetic Color-Change Sapphire.jpg` | a purple kaleidoscope |
+| `3 Sapphire ingots window Crystaltechno.jpg`, `NbN on sapphire.jpg` | two slabs on a tablecloth, and a blue-grey disc in a box |
+| `Jsc2021e066969.jpg` | three thumbnail-sized squares on a plate |
+| the Bulova with a sapphire crystal | a watch; the crystal is invisible by design |
+| `Zlewki, tygle, kolby i talerzyk z kwarcu.JPG` | quartz labware, indistinguishable from borosilicate at card size |
+| `Czochralski method used crucible wall`, `Lens in DESI corrector`, `Fused silica phosphorescence` | a brown stain, a lens inside a frame, and a blue streak |
+| `CES 2012 - Corning Gorilla Glass`, `Samsung Galaxy S2 shattered screen.jpg`, `Smartphone cracked screen.jpg` | a trade-show crowd, and two more broken phones; one is enough |
+| `S73-15171.jpg` | lunar glass beads, no relation |
+| `Hale telescope mirror during grinding 1945.jpg`, `Pyrex (33207525465).jpg`, `VibratingGlassBeam.jpg`, the Duran bottle | 757 px, a cup on a white table, a capillary wobbling, and a bottle; the Palomar disc and the two Pyrex cups say more |

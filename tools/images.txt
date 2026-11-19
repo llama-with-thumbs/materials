@@ -115,10 +115,19 @@ sap2|commons|Water beads (42106).jpg|Decorative water beads: the same polymer, s
 polyurea|commons|Spray-on bedliner.jpg|A pickup bed freshly sprayed by a Line-X shop: a polyurea hybrid, seamless and set within the hour|product
 polyurea2|commons|Spraying truck bed liners.jpg|Spraying a bed liner in a full air-fed suit, the two parts meeting hot inside the gun|process
 alumina|commons|Spark plug insulator.jpeg|A spark plug insulator — alumina’s highest-volume job|photo
+alumina2|commons|Spark plug guts.jpeg|A spark plug insulator broken open: the alumina body, the centre electrode and the glass seal|structure
+alumina3|commons|Alumina Robocast Parts.jpg|Alumina parts printed by robocasting, before and after firing: lattices, a rod, a gear|product
 sapphire|commons|Sapphire boule, Kyropoulos method.jpg|A synthetic sapphire boule pulled from the melt|photo
-fusedsilica|Flickr|https://live.staticflickr.com/3572/4567498923_cb29327d38_b.jpg|The fused silica window of a UV-erasable EPROM; ordinary glass would block the ultraviolet|product|CC BY 2.0|sumeet basak|https://www.flickr.com/photos/9037890@N05/4567498923
+sapphire2|commons|Synthetic sapphire 1.jpg|A Verneuil-grown blue sapphire, 15 mm across: the same crystal with a trace of iron and titanium|related
+sapphire3|commons|5 Sapphire Hyper Hemisphere Crystaltechno.jpg|A sapphire hyper-hemisphere, the dome in front of an infrared seeker|product
+fusedsilica|commons|Einstein gyro gravity probe b.jpg|A Gravity Probe B gyroscope rotor: a fused silica sphere, round to forty atoms, the roundest thing ever made|product
+fusedsilica2|commons|Synthetic silica glass ingot 2016 Nikon Museum.jpg|A synthetic silica glass ingot at the Nikon museum: lens glass for a lithography stepper|photo
+fusedsilica3|commons|At the edge of optical fiber preform 1.jpg|A silica fibre preform held to the window: the doped core is already there, the rod becomes kilometres of fibre|product
 gorilla|Flickr|https://live.staticflickr.com/4130/5083750412_4d69cec42b_b.jpg|Chemically strengthened cover glass|photo|CC BY-SA 2.0|Titanas|https://www.flickr.com/photos/titanas/5083750412
+gorilla2|commons|Nokia Lumia 925 front broken Gorilla Glass.jpg|A Lumia 925 after the kerb: once a flaw gets under the compressed skin, the stored tension does the rest|product
 borosilicate|commons|Beakers.jpg|Borosilicate labware|photo
+borosilicate2|commons|200-inch, 20-ton lens for the future Hale Telescope, after its arrival in Pasadena, CA.jpg|The 200-inch Palomar disc arriving in Pasadena, 1936: twenty tons of Pyrex with a waffle back, a year in the annealing oven|product
+borosilicate3|commons|Pyrex and PYREX.jpg|Two Pyrex cups: the Corning one is borosilicate, the World Kitchen one is tempered soda-lime|related
 si3n4|commons|Si3N4bearings.jpg|Silicon nitride bearing balls|photo
 hbn|commons|Hexagonal Boron Nitride.jpg|Hexagonal boron nitride crystals — "white graphite", soft enough to machine|photo
 pzt|Flickr|https://live.staticflickr.com/3828/13848755775_c08dab1a00_b.jpg|Ferroelectric domains meeting at a grain boundary in PZT, under the microscope|photo|CC BY 2.0|oakridgelabnews|https://www.flickr.com/photos/37940997@N05/13848755775

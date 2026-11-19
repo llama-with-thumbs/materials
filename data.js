@@ -1360,40 +1360,45 @@ window.MATERIALS = [
 },
 {
   id: "alumina", cat: "ceramic", name: "Alumina",
-  sub: "Al₂O₃, 96–99.8%", img: "alumina",
-  hook: "The workhorse of technical ceramics and the one you have definitely touched. Hard, stiff, inert, a superb insulator even when red hot, and cheap enough to throw at problems the exotic ceramics would solve more elegantly.",
+  sub: "Al₂O₃, 96–99.8%", img: "alumina", extra: ["alumina2", "alumina3"],
+  hook: "White powder, pressed and fired: the workhorse ceramic, the one in every spark plug. Hard, stiff, inert, an insulator at red heat, and cheap enough to throw at problems finer ceramics solve more elegantly.",
+  more: "The Bayer process makes a hundred million tonnes of alumina a year, nearly all smelted into aluminium; the few per cent sintered instead become the hardest common ceramic, 96 per cent grade with a glassy binder for the spark plug and the substrate, 99.8 for the pump seal and the hip ball. It is harder than hardened steel, insulates at a thousand volts a millimetre while the plug glows, and shrugs off acids, alkalis and molten metal; it is also the core of a dental crown and the tile in an armour vest. The costs: a fracture toughness a tenth of steel's, so a part is designed never to see tension; a fifth shrinkage on firing, so precision means diamond grinding; and middling conduction, so a thermal shock cracks it where silicon carbide survives.",
   stats: [["Hardness", "~15 GPa"], ["Max use", "~1700 °C"], ["Cost", "the cheap option"]],
   uses: "Spark plug insulators, circuit substrates, wear liners, pump seals, armour plate.",
   link: "https://en.wikipedia.org/wiki/Aluminium_oxide"
 },
 {
   id: "sapphire", cat: "ceramic", name: "Sapphire",
-  sub: "single-crystal Al₂O₃", img: "sapphire",
-  hook: "The same chemistry as alumina, grown as one enormous crystal instead of sintered powder — and the difference is total. It is transparent from UV to mid-infrared and second only to diamond among common hard materials.",
+  sub: "single-crystal Al₂O₃", img: "sapphire", extra: ["sapphire2", "sapphire3"],
+  hook: "Alumina grown as one crystal instead of sintered powder, and everything changes: clear from ultraviolet to infrared, second in hardness only to diamond. Iron and titanium make it blue; pure, it is water-clear.",
+  more: "Verneuil dripped alumina powder through a flame in 1902 and built a boule drop by drop; Kyropoulos pulled one slowly from a melt and got 300 kilograms of flawless crystal, which is how it is done now. The crystal is hexagonal, so it is cut by the wafer-load for the LED, where gallium nitride grows on its face and lights every white bulb; for the watch glass that cannot be scratched; the checkout scanner window; the window of a diamond anvil cell and the dome of a missile seeker. The costs: it is brittle, so a thin phone screen of it shatters where strengthened glass flexes, which is why that plan died in 2014; it is cut and polished with diamond only, so a part is dear; and it is birefringent, so an optical window must be cut on the right axis.",
   stats: [["Hardness", "9 Mohs"], ["Transmits", "0.15–5.5 µm"], ["Grown as", "boules up to ~200 kg"]],
   uses: "Watch crystals, scanner windows, LED substrates, high-pressure cell windows, endoscopes.",
   link: "https://en.wikipedia.org/wiki/Sapphire"
 },
 {
   id: "fusedsilica", cat: "ceramic", name: "Fused silica",
-  sub: "amorphous SiO₂", img: "fusedsilica",
-  hook: "Glass with everything else taken out. Pure silica barely expands, transmits deep into the ultraviolet, and loses so little light that a signal survives tens of kilometres of it — which is the entire basis of the internet.",
+  sub: "amorphous SiO₂", img: "fusedsilica", extra: ["fusedsilica2", "fusedsilica3"],
+  hook: "Glass with everything else taken out. Pure silica barely expands, passes deep ultraviolet, and loses so little light that a signal survives a hundred kilometres of it, which is the basis of the internet.",
+  more: "Melt quartz, or better burn silicon tetrachloride in a flame and collect the soot: a glass of one oxide, no sodium to soak up ultraviolet, no boron to creep, a network so tight it expands a twentieth as much as window glass. A rod with a germanium-doped core, drawn at 2,000 °C into a fibre finer than a hair, loses a fifth of a decibel a kilometre, so an undersea cable needs an amplifier every hundred kilometres; the semiconductor furnace tube, the lithography lens and the telescope mirror blank are the same glass, as were the Gravity Probe B gyroscope rotors, round to forty atoms. The costs: it is soft for a glass and scratches; it has to be worked at 2,000 °C in an oxy-hydrogen flame; and it is dear, because purity costs more than any additive.",
   stats: [["CTE", "~0.55 ppm/K"], ["Optical loss", "~0.2 dB/km"], ["Purity", "parts per billion"]],
   uses: "Optical fibre, UV optics, semiconductor process ware, gyroscope rotors, mirror substrates.",
   link: "https://en.wikipedia.org/wiki/Fused_quartz"
 },
 {
   id: "gorilla", cat: "ceramic", name: "Chemically strengthened glass",
-  sub: "Gorilla Glass and relatives", img: "gorilla",
-  hook: "Soak the glass in molten potassium salt and the big potassium ions swap into sodium's places near the surface, wedging it into permanent compression. A crack cannot open in a layer that is being squeezed shut.",
+  sub: "Gorilla Glass and relatives", img: "gorilla", extra: ["gorilla2"],
+  hook: "Soak glass in molten potassium salt and fat potassium ions take sodium's places, wedging it into compression. A crack cannot open in a skin squeezed shut: the phone survives the table and dies on the kerb.",
+  more: "Corning sold it as Chemcor in 1962 and nobody wanted it, until a phone needed a thin hard face in 2007. The aluminosilicate sheet goes into a potassium salt bath at 400 °C for hours; each potassium ion is a third bigger than the sodium it replaces, so the outer 50 microns end up under 800 megapascals of compression and the core in tension to balance. A flaw in the skin stays shut until the load beats the squeeze, so the sheet bends further and takes a harder knock than glass ten times as thick. The costs: the skin is thin, so a sharp grain on a kerb gets under it and the stored tension does the rest, all at once, across the whole screen; it still scratches, since sand is harder; and cut or ground after the bath, it loses the stress at the edge.",
   stats: [["Compression depth", "~30–100 µm"], ["Surface stress", "up to ~1 GPa"], ["Method", "ion exchange"]],
   uses: "Phone and watch cover glass, laptop screens, vehicle glazing, appliance fronts.",
   link: "https://en.wikipedia.org/wiki/Gorilla_Glass"
 },
 {
   id: "borosilicate", cat: "ceramic", name: "Borosilicate glass",
-  sub: "Pyrex, Duran", img: "borosilicate",
-  hook: "Boron oxide loosens the silica network just enough to cut its expansion by two thirds, so the glass can go from a flame into water without splitting. The 200-inch Hale telescope mirror is a single borosilicate casting.",
+  sub: "Pyrex, Duran", img: "borosilicate", extra: ["borosilicate2", "borosilicate3"],
+  hook: "Boron oxide loosens the silica network enough to cut its expansion by two thirds, so it goes from a flame into water without splitting. Schott made it in 1893 for the lab; Corning cast the Palomar mirror in 1934.",
+  more: "Soda-lime glass expands nine parts per million per kelvin, so the hot face of a beaker tries to grow while the cold back holds it, and it cracks; with 13 per cent boron oxide and little soda the number falls to three, and the beaker survives a 160-degree shock. That made it the glass of the lab, the oven dish, the thermometer, the halogen bulb and the vaccine vial, which it suits twice over, since it sheds no sodium into the drug; the 20-ton Palomar disc took a year to cool. The costs: it melts hotter, so it costs more to make and blow; it tempers badly, so American kitchen Pyrex since the 1990s is tempered soda-lime instead, and shatters on a wet counter where the old dishes did not; and boron is a toxic emission at the furnace.",
   stats: [["CTE", "~3.3 ppm/K"], ["Soda-lime", "~9 ppm/K"], ["Thermal shock", "~160 K"]],
   uses: "Laboratory glassware, cookware, lighting, telescope mirror blanks, sight glasses.",
   link: "https://en.wikipedia.org/wiki/Borosilicate_glass"
