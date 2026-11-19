@@ -3998,15 +3998,39 @@ window.CREDITS = {
   },
   "porcelain": {
     "file": "porcelain.jpg",
-    "caption": "A porcelain strain insulator",
+    "caption": "A 20 kV pin insulator: glazed, pore-free, with sheds to stretch the wet path",
     "kind": "product",
-    "title": "Johnny ball strain insulator.JPG",
-    "artist": "Chetvorno",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Johnny_ball_strain_insulator.JPG",
-    "w": 874,
-    "h": 1196,
-    "site": "Wikimedia"
+    "title": "Pin insulator, 20KV.jpg",
+    "site": "Wikimedia",
+    "artist": "Parsa 2au",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pin_insulator,_20KV.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "porcelain2": {
+    "file": "porcelain2.jpg",
+    "caption": "Cap-and-pin strings on a 1950s line at Avrillé: each disc adds its share of the volts",
+    "kind": "product",
+    "title": "Chaînes d'isolateurs en suspension..jpg",
+    "site": "Wikimedia",
+    "artist": "Tirand",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cha%C3%AEnes_d%27isolateurs_en_suspension..jpg",
+    "w": 960,
+    "h": 720
+  },
+  "porcelain3": {
+    "file": "porcelain3.jpg",
+    "caption": "An insulator works between the wars: turned green, dried, glazed and fired by the thousand",
+    "kind": "process",
+    "title": "Porcelain insulators, factory Fortepan 73047.jpg",
+    "site": "Wikimedia",
+    "artist": "FOTO:Fortepan — ID 73047: Adományozó/Donor: Lissák Tivadar. archive copy at the Wayback Machine",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porcelain_insulators,_factory_Fortepan_73047.jpg",
+    "w": 960,
+    "h": 1299
   },
   "steatite": {
     "file": "steatite.jpg",
@@ -4020,6 +4044,30 @@ window.CREDITS = {
     "w": 900,
     "h": 785
   },
+  "steatite2": {
+    "file": "steatite2.jpg",
+    "caption": "Loading steatite chips into the kiln at Beckman, 1966: pressed soft, then fired hard",
+    "kind": "process",
+    "title": "High Temperature Firing of Steatite Chip - DPLA - 34eda39f9b7ca48eb3a9dcbe3217cda2.jpg",
+    "site": "Wikimedia",
+    "artist": "Herb Radin and Associates",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:High_Temperature_Firing_of_Steatite_Chip_-_DPLA_-_34eda39f9b7ca48eb3a9dcbe3217cda2.jpg",
+    "w": 960,
+    "h": 1261
+  },
+  "steatite3": {
+    "file": "steatite3.jpg",
+    "caption": "Soapstone as it comes out of the ground: the talc rock the ceramic is milled from",
+    "kind": "related",
+    "title": "Soapstone (Speckstein) - several colored samples.jpg",
+    "site": "Wikimedia",
+    "artist": "Ra'ike (see also: de:Benutzer:Ra'ike)",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Soapstone_(Speckstein)_-_several_colored_samples.jpg",
+    "w": 960,
+    "h": 704
+  },
   "mullite": {
     "file": "mullite.png",
     "caption": "Kiln furniture — mullite-bonded refractory props",
@@ -4031,6 +4079,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "mullite2": {
+    "file": "mullite2.jpg",
+    "caption": "Natural mullite from New Zealand, a 5 mm spray of needles: rare in rock, everywhere in fired clay",
+    "kind": "related",
+    "title": "Mullite-655833.jpg",
+    "site": "Wikimedia",
+    "artist": "Ralph Bottrill",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mullite-655833.jpg",
+    "w": 960,
+    "h": 641
+  },
+  "mullite3": {
+    "file": "mullite3.jpg",
+    "caption": "Fireclay saggars at Gladstone Pottery, Stoke: the mullite that forms in them is why they go round the kiln again and again",
+    "kind": "related",
+    "title": "Saggars.jpg",
+    "site": "Wikimedia",
+    "artist": "NotFromUtrecht",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saggars.jpg",
+    "w": 960,
+    "h": 1283
   },
   "glassycarbon": {
     "file": "glassycarbon.jpg",
@@ -6240,6 +6312,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1075
   },
+  "zblan2": {
+    "file": "zblan2.jpg",
+    "caption": "Three ZBLAN blocks: praseodymium-doped, erbium-doped and plain, the colour from the dopant",
+    "kind": "photo",
+    "title": "Doped glasses.jpg",
+    "site": "Wikimedia",
+    "artist": "Icozmuta",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Doped_glasses.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "zblan3": {
+    "file": "zblan3.jpg",
+    "caption": "The glovebox on the space station where ZBLAN fibre is drawn with nothing to settle, 2024",
+    "kind": "related",
+    "title": "ISS070E110532 - NASA astronaut Loral O'Hara poses in front of the Destiny laboratory’s Microgravity Science Glovebox (MSG) during Flawless Space Fibers operations (iss070e110532).jpg",
+    "site": "Wikimedia",
+    "artist": "NASA Johnson Space Center",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:ISS070E110532_-_NASA_astronaut_Loral_O%27Hara_poses_in_front_of_the_Destiny_laboratory%E2%80%99s_Microgravity_Science_Glovebox_(MSG)_during_Flawless_Space_Fibers_operations_(iss070e110532).jpg",
+    "w": 960,
+    "h": 640
+  },
   "isographite": {
     "file": "isographite.jpg",
     "caption": "Graphite crucibles, good to about 1500 °C",
@@ -6722,15 +6818,27 @@ window.CREDITS = {
   },
   "tib2": {
     "file": "tib2.jpg",
+    "caption": "A grain of titanium diboride held in a carbon matrix under the electron microscope: the cathode coating of an aluminium cell",
+    "kind": "structure",
+    "title": "TiB2 grain.jpg",
+    "site": "Wikimedia",
+    "artist": "Александр Щукин",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TiB2_grain.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "tib22": {
+    "file": "tib22.jpg",
     "caption": "A 400 kA aluminium reduction cell hall — titanium diboride is what the cathode surface is made of",
     "kind": "analog",
     "title": "Цех электролизных ванн для выплавки алюминия с силой тока 400 КА в промышленно-инновационном парке \"Юйлянь\" в г. Гунъи (Китай).jpg",
+    "site": "Wikimedia",
     "artist": "Ischek",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:%D0%A6%D0%B5%D1%85_%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BB%D0%B8%D0%B7%D0%BD%D1%8B%D1%85_%D0%B2%D0%B0%D0%BD%D0%BD_%D0%B4%D0%BB%D1%8F_%D0%B2%D1%8B%D0%BF%D0%BB%D0%B0%D0%B2%D0%BA%D0%B8_%D0%B0%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B8%D1%8F_%D1%81_%D1%81%D0%B8%D0%BB%D0%BE%D0%B9_%D1%82%D0%BE%D0%BA%D0%B0_400_%D0%9A%D0%90_%D0%B2_%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE-%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D0%BA%D0%B5_%22%D0%AE%D0%B9%D0%BB%D1%8F%D0%BD%D1%8C%22_%D0%B2_%D0%B3._%D0%93%D1%83%D0%BD%D1%8A%D0%B8_(%D0%9A%D0%B8%D1%82%D0%B0%D0%B9).jpg",
     "w": 960,
-    "h": 643,
-    "site": "Wikimedia"
+    "h": 643
   },
   "nextel": {
     "file": "nextel.jpg",

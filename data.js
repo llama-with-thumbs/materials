@@ -1540,40 +1540,45 @@ window.MATERIALS = [
 },
 {
   id: "zblan", cat: "ceramic", name: "ZBLAN fluoride glass",
-  sub: "ZrF₄–BaF₂–LaF₃–AlF₃–NaF", img: "zblan",
-  hook: "In theory it could carry light a hundred times further than silica fibre. In practice gravity lets crystals nucleate and settle while it cools, ruining it — so it is now being drawn in orbit, where there is nothing to settle.",
+  sub: "ZrF₄–BaF₂–LaF₃–AlF₃–NaF", img: "zblan", extra: ["zblan2", "zblan3"],
+  hook: "Five fluorides melted into a glass clear from the ultraviolet to 5 microns. In theory it carries light a hundred times further than silica; in practice crystals form as it cools, so it is now drawn in orbit.",
+  more: "Poulain found it by chance in 1974, hunting a laser crystal and getting a glass. Fluorides scatter less than oxides and absorb further into the infrared, so the loss at 2.5 microns could be a thousandth of a decibel a kilometre, a fifth for the best silica. The catch: the melt wants to crystallise, and on the ground convection and settling seed tiny crystals that scatter light back to where silica started. In orbit the melt sits still, and fibre drawn on the space station since 2017 comes out clear, so companies now plan to make it there. Meanwhile it earns its keep as the 2.8-micron fibre laser and the amplifier. The costs: it is soft, weak and water-soluble, so the fibre is sealed; it crystallises if reheated; and the fluorides are dear and toxic.",
   stats: [["Theoretical loss", "~0.001 dB/km"], ["Problem", "crystallises on cooling"], ["Drawn on", "the ISS, since 2017"]],
   uses: "Mid-IR fibre lasers, fibre amplifiers, proposed ultra-long-haul links.",
   link: "https://en.wikipedia.org/wiki/ZBLAN"
 },
 {
   id: "porcelain", cat: "ceramic", name: "Electrical porcelain",
-  sub: "kaolin–feldspar–quartz, vitrified", img: "porcelain",
-  hook: "Fired until the glassy phase closes every pore, so rain cannot get in and nothing tracks across the surface. A grid insulator has held tens of thousands of volts outdoors for a century with no maintenance at all.",
+  sub: "kaolin–feldspar–quartz, vitrified", img: "porcelain", extra: ["porcelain2", "porcelain3"],
+  hook: "Kaolin, feldspar and quartz fired until the glass closes every pore, so rain cannot get in and nothing tracks the glaze. A grid insulator has held a hundred kilovolts outdoors for a century, unmaintained.",
+  more: "At 1,300 °C the feldspar melts into a glass that dissolves the quartz and binds the mullite needles growing from the clay; cooled, it has no open pore, which an outdoor insulator needs, since a pore fills with water and water conducts. The glaze sheds rain and dirt, the ribbed sheds stretch the path so a wet film cannot bridge it, and the body stands 20 kilovolts a millimetre. Pin insulators carried the first telegraphs, cap-and-pin strings carry the 400-kilovolt line, and every transformer bushing is the same body. The costs: it is heavy, so a string is a quarter of a tonne; a chipped glaze lets water in and the ice splits it; a gunshot or a flashover cracks it; and silicone composites have taken the salt-fog coast, where porcelain flashes over.",
   stats: [["Dielectric strength", "~20 kV/mm"], ["Porosity", "zero"], ["Fired at", "1200–1400 °C"]],
   uses: "Power line and substation insulators, fuse bodies, spark plug cores, lab ware.",
   link: "https://en.wikipedia.org/wiki/Porcelain"
 },
 {
   id: "steatite", cat: "ceramic", name: "Steatite",
-  sub: "fired talc–clay (soapstone)", img: "steatite",
-  hook: "Soft enough to carve with a knife before firing, then fires into a hard insulator with low dielectric loss. That window — machine it green, fire it hard — made it the standard body for electrical parts before plastics.",
+  sub: "fired talc–clay (soapstone)", img: "steatite", extra: ["steatite2", "steatite3"],
+  hook: "Talc and clay, shaped soft, then fired into a hard magnesium silicate with almost no loss. Machine green, fire hard: that made it the body of electrical parts before plastics, and it still holds the heater coil.",
+  more: "Soapstone has been carved since the Stone Age because it cuts with a fingernail, and fired it turns hard, so Indus seals are still sharp. The ceramic is 90 per cent talc with a little clay and feldspar, pressed from granulate into formers, bushings and terminal blocks, then fired at 1,350 °C, when it shrinks a tenth and becomes enstatite in a glass. The loss tangent is a tenth of porcelain's, so it was the insulator of every radio coil and valve base until polymers came, and it is still the former in a toaster, the bead on a thermocouple and the block in an oven. The costs: a narrow firing window, since a few degrees over and the batch slumps; it is weak and chips at an edge; it cannot take a thermal shock; and nobody machines it after firing.",
   stats: [["Green state", "machinable"], ["Loss tangent", "very low"], ["Max use", "~1000 °C"]],
   uses: "Heater element formers, terminal blocks, RF insulators, aquarium heaters.",
   link: "https://en.wikipedia.org/wiki/Steatite"
 },
 {
   id: "mullite", cat: "ceramic", name: "Mullite",
-  sub: "3Al₂O₃·2SiO₂", img: "mullite",
-  hook: "Almost nonexistent in nature — it was named after a Scottish island where lava met clay — yet it is the phase that forms in nearly every fired clay body and gives it strength. It barely creeps at 1500 °C.",
+  sub: "3Al₂O₃·2SiO₂", img: "mullite", extra: ["mullite2", "mullite3"],
+  hook: "Rare in nature, named after a Scottish island where lava baked clay, yet it forms in nearly every fired clay body and holds it together. Needles of it lock a porcelain; a block of it barely creeps at 1,500 °C.",
+  more: "Heat clay past 1,000 °C and the kaolinite breaks down and regrows as mullite, three alumina to two silica, in interlocking needles; the more needles, the stronger the ware, which is why a hard-fired porcelain outlasts an earthenware. Made on purpose from bauxite and clay, or fused in an arc furnace, it is the kiln shelf and prop that carry every load through a firing, the furnace lining, the crucible, the hot-face brick in a glass tank; low expansion gives it the shock resistance, and near-zero creep keeps a shelf flat for years at 1,500 °C. The costs: it is weak beside the engineering ceramics, as strong as a good brick; molten alkali and iron slag eat it slowly; the fused grades are dear; and above 1,800 °C it falls apart into corundum and glass.",
   stats: [["Stable to", "~1800 °C"], ["Creep", "very low"], ["Expansion", "5 × 10⁻⁶ /K"]],
   uses: "Kiln furniture, furnace linings, foundry crucibles, IR-transparent windows.",
   link: "https://en.wikipedia.org/wiki/Mullite"
 },
 {
   id: "tib2", cat: "ceramic", name: "Titanium diboride",
-  sub: "TiB₂", img: "tib2",
-  hook: "A ceramic that conducts electricity better than titanium metal while being nearly as hard as boron carbide. That combination lets it be cut by EDM — you can spark-erode shapes into a ceramic, which is normally impossible.",
+  sub: "TiB₂", img: "tib2", extra: ["tib22"],
+  hook: "A ceramic that conducts better than titanium metal and is nearly as hard as boron carbide. So it spark-erodes to shape, which no other ceramic allows, and molten aluminium wets it, as no other cathode does.",
+  more: "Titanium and boron bond in a hexagonal lattice with electrons to spare, so a block of it conducts like a poor metal, melts at 3,230 °C, and stands up to molten aluminium, which dissolves most things. In the Hall-Héroult cell the aluminium should wet the carbon cathode and does not, so it pools in a thick layer stirred by the magnetic field; a coat of titanium diboride is wetted, so the pool can be thin and the anode closer, and a smelter saves a tenth of its power. It is also the evaporation boat that holds molten aluminium in a metalliser and a tile in heavy armour. The costs: it oxidises above 1,000 °C in air; full density needs 2,000 °C and pressure; it is brittle, so the cathode coat cracks as the cell heats; and the powder is dear.",
   stats: [["Hardness", "~25 GPa"], ["Resistivity", "~15 µΩ·cm"], ["Melting", "3230 °C"]],
   uses: "Aluminium smelter cathodes, crucibles for molten metal, armour, cutting tools.",
   link: "https://en.wikipedia.org/wiki/Titanium_diboride"

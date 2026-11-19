@@ -1131,3 +1131,32 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Thermal imaging camera side.jpg` | the MSA camera is in a dark stairwell |
 | `Flir E8-Thermal imaging camera-Thermographic camera-01ASD.jpg` | fetched, then dropped: a grey handset on a dark counter, nothing reads at card size |
 | `Thermal and visual image showing 29 degree C...` | the picture a thermal camera takes, not the glass |
+
+
+## Restyle batch, 19 November 2026: zblan, porcelain, steatite, mullite, tib2
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| ZBLAN fibre or preform | `ZBLAN fiber`, `fluoride fiber`, `fiber optic drawing microgravity`, `Fluoridglas` | a Russian lab bench in green light, and nothing else | a ZBLAN preform or a spool of the fibre |
+| A porcelain bushing on a transformer | `bushing transformer`, `substation insulator` | a 1974 NARA print of three bushings on a floor, and substations where the porcelain is a speck | a bushing close up |
+| Steatite as an electrical part | `steatite insulator`, `terminal block ceramic`, `ceramic terminal block`, `heating element ceramic former`, `Lüsterklemme Keramik`, `Steatitkeramik` | PlayStations and a strap mount; Commons has no toaster former or terminal block | a white steatite terminal block or a heater former |
+| Mullite as a made product | `mullite crystals`, `kiln shelf props`, `porcelain microstructure mullite` | nothing | a mullite needle micrograph |
+| Titanium diboride as a part | `titanium diboride`, `TiB2 cathode`, `aluminium smelter cathode`, `evaporation boat`, `Hall-Heroult cell`, `Aluminiumhütte Elektrolyse` | a magnesium diboride render, Tunisian salt flats and cell diagrams | a TiB2 cathode block or an evaporation boat |
+
+| rejected after looking | why |
+|---|---|
+| `Si ZBLAN comparison.jpg` | an attenuation plot |
+| the Er ZBLAN laser bench photos | an optical table in green light, the fibre a thread |
+| `Erbium-doped fiber with green light.jpg` | silica fibre, not fluoride |
+| the Flickr-style strain insulator as the porcelain face | a grey egg on a wire, 874 px; dropped for the 20 kV pin insulator |
+| `Porcelain-insulator.jpg`, `Insulator on an overhead powerline.jpg` | a fence insulator in grass, and a glass one |
+| `3 PORC TRANSFORMER BUSHINGS - NARA - 17423208.jpg` | three dark bushings on a floor with a label |
+| `Boxes of Suspension Insulators`, `Electric insulators on top of a transformer (2).JPG` | crates in a field, and a row of bushings against sky, readable but the strings say more |
+| `Steatit-Magnesia AG 1932.jpg` | a share certificate |
+| the Kenyan soapstone carver, the Anatolian figurine, the Nishapur lamp | hands with a pink box, a museum torso, and a lamp; the raw rock and the kiln say more |
+| `Steatite Chip Pressing (Model 61 Potentiometer)` | a dark press, nothing readable |
+| `Soapstone talc.JPG` | a single grey lump |
+| `Kiln furniture from front view (After Glost firing).jpg`, `Firing kiln furniture di kilang Claytan.jpg` | the same racks as the face |
+| `Refractory bricks lining.jpg`, `Torpedo car refractory bricks.JPG` | already the insulating-firebrick face, and a dark tunnel |
+| `TiB2.png` | a 1125 px lattice render |
+| `Saint-Jean et son usine en 2018.jpg` | an aerial of a valley; the old smelter hall is kept as the second view |

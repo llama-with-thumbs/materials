@@ -524,7 +524,7 @@ in `fonts/OFL.txt`.
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
   chemical tanker for duplex stainless, and a 2 mm model of an 1871 microscope for the two-photon
   resist.
-- **21 show a similar example** — the nearest comparable thing, where neither the material nor
+- **20 show a similar example** — the nearest comparable thing, where neither the material nor
   anything made from it has been photographed freely: a piezoelectric hydrophone for Terfenol-D, a
   Level IIIA vest for Zylon, a roll of Kapton tape for Torlon, activated carbon for MOF-5, a
   dye-laser mirror for hafnium oxide, a cast-iron surface plate for the granite one, a
@@ -543,7 +543,7 @@ No entry falls back to a drawn swatch, and none shows a molecular or crystal str
 material itself has never been photographed freely, the card carries the closest real object
 instead.
 
-A few cards carry more than one view, paged on the card itself — 249 extra views so far: the raw material
+A few cards carry more than one view, paged on the card itself — 258 extra views so far: the raw material
 beside the finished part (Nitinol wire and the cut spoons), the shell beside the inlay (nacre),
 the harvest beside the bark (cork), the property beside the thing (a brick resting on a slab of
 aerogel), the two unmixed sticks beside what a sculptor and a museum made of them (epoxy putty).
