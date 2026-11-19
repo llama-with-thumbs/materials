@@ -238,8 +238,19 @@ h1 .dot { color: var(--red); }
 .card.plate.wide .readout { font-size: 13.5px; }
 .card.plate.wide .readout .ro b { flex-basis: 60px; }
 /* The curriculum wheel, on its shelf: the rings in ink on the panel, blue under the pointer,
-   red when kept; the panel a ring fills sits where a plate's readout does. */
+   red when kept. The wheel keeps its size on the left; the facts a ring fills stand on the
+   right, in hairline rows; the card's text runs under both. */
 .wheel-fig .wheel-root { max-width: 640px; margin: 0 auto; padding: 42px 16px 14px; }
+@media (min-width: 900px) {
+  .card.plate.wide.wheelcard { grid-template-columns: minmax(0, 11fr) minmax(0, 9fr); }
+  .card.plate.wide.wheelcard .figure { grid-column: 1; border-right: 2px solid var(--ink); border-bottom: 0; }
+  .card.plate.wide.wheelcard .readout { grid-column: 2; border-right: 0; border-top: 0; padding-top: 14px; align-self: start; }
+  .card.plate.wide.wheelcard .body { grid-column: 1 / -1; border-top: 2px solid var(--ink); }
+}
+.wheel-panel .facts { margin: 8px 0 0; border-top: 1px solid var(--line); }
+.wheel-panel .facts .ro { padding: 5px 0; line-height: 1.45; }
+.wheel-panel .facts .ro b { flex-basis: 84px; }
+.wheel-panel .facts .ro span, .wheel-panel .facts .ro:first-child span { font-weight: 400; }
 svg.wheel { display: block; width: 100%; height: auto; font-family: var(--font); }
 svg.wheel .area { fill: var(--panel); stroke: var(--ink); stroke-width: 1.4; stroke-linejoin: round; cursor: pointer; }
 svg.wheel .seg:hover .area, svg.wheel .seg:focus-visible .area { fill: var(--blue); fill-opacity: 0.16; }

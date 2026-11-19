@@ -204,30 +204,153 @@ window.WHEEL = (() => {
       <defs>${defs.join("")}</defs>${out.join("")}${centre}${rings}${marks}</svg>`;
   }
 
-  // The panel beside the wheel: what a segment was, who ran it, what came of it, and where
-  // it lives in this catalogue.
-  function panelHTML(s) {
-    if (!s) return `<p class="no">the wheel</p><h3>read it from the outside in</h3>
-      <p class="sub">Gropius, 1922; the figure answers the pointer</p>
-      <p>The outer ring is the preliminary course, half a year, which every student took first. Inside it run the three years of workshop training and the five studies taught beside it. Then the seven workshops, each named for its material. At the centre, building, where the course was meant to end.</p>
-      <p>Point at a ring for what it was and who taught it; click to keep it. The switch above the wheel turns the words to the German of the 1922 statutes.</p>`;
+  // The facts of each segment, as label and value: what it was, how long, when, who, how many.
+  const FACTS = {
+    whole: [
+      ["the school", "1919 to 1933: Weimar 1919–25, Dessau 1925–32, Berlin 1932–33"],
+      ["directors", "Gropius 1919–28 · Hannes Meyer 1928–30 · Mies van der Rohe 1930–33"],
+      ["the course", "basic course, half a year → a workshop, three years → building"],
+      ["workshops", "7 on the wheel: stone, wood, metal, textiles, colour, glass, clay"],
+      ["studies", "5 beside the bench: nature, materials, space and colour and composition, construction and representation, materials and tools"],
+      ["the diagram", "Gropius, statutes of July 1922; reprinted 1923 in Staatliches Bauhaus Weimar 1919–1923"]
+    ],
+    vorkurs: [
+      ["duration", "half a year, compulsory, on probation; a full year in Dessau"],
+      ["years", "1919 to 1933, every entrant"],
+      ["taught by", "Itten 1919–23 · Moholy-Nagy and Albers 1923–28 · Albers alone 1928–33"],
+      ["contents", "form and colour, composition, materials, drawing from life and from nature"],
+      ["hours", "material studies up to 18 a week under Albers"],
+      ["ends with", "the masters assign a workshop, or not"]
+    ],
+    form: [
+      ["part of", "the preliminary course, the first half-year"],
+      ["taught by", "Itten 1919–23; then the theory courses of Klee and Kandinsky, and Moholy-Nagy"],
+      ["exercises", "contrasts (light–dark, rough–smooth, large–small), rhythm studies with the whole arm, analyses of old masters, breathing and movement"],
+      ["texts", "Pedagogical Sketchbook 1925 · Point and Line to Plane 1926"]
+    ],
+    matstudy: [
+      ["part of", "the preliminary course, the first half-year; up to 18 hours a week from 1928"],
+      ["materials", "wood, metal, glass, paper, clay, cloth"],
+      ["tools", "simple hand tools; no product in mind"],
+      ["taught by", "Itten 1919–23 · Albers 1923–33"],
+      ["principle", "the most effect from the least material, energy and time"],
+      ["carried on by", "this catalogue"]
+    ],
+    tools: [
+      ["duration", "three years, at the bench"],
+      ["taught by", "the master of craft of each workshop"],
+      ["form", "an apprentice's contract"],
+      ["ends with", "the journeyman's examination before the chamber of crafts, where the trade allowed it"],
+      ["status", "the craft half of the dual mastership; dropped in Dessau, 1925, when graduates taught both"]
+    ],
+    nature: [
+      ["duration", "through the three years"],
+      ["taught by", "Itten; Klee from 1921; Peterhans with the camera from 1929"],
+      ["content", "drawing from nature, a thistle, a stem, a block of wood, for its structure"],
+      ["aim", "to see how a thing is built before deciding what to make of it"]
+    ],
+    materials: [
+      ["duration", "through the three years"],
+      ["content", "the science of the workshop's stuff: clay in the kiln, dye in wool, an alloy under the hammer"],
+      ["taught by", "the masters of craft, from experience; outside lecturers in the sciences under Meyer, 1928–30"],
+      ["carried on by", "this catalogue, which is a study of materials and nothing else"]
+    ],
+    space: [
+      ["subjects", "3: Raumlehre, Farbenlehre, Kompositionslehre"],
+      ["taught by", "Klee 1921–31 · Kandinsky 1922–33 · Schlemmer, the human figure, 1928–29"],
+      ["texts", "Pedagogical Sketchbook 1925 · Point and Line to Plane 1926"],
+      ["colour rule", "yellow triangle, red square, blue circle: Kandinsky's questionnaire, 1923"]
+    ],
+    construction: [
+      ["subjects", "technical drawing, projection and descriptive geometry, lettering, model building"],
+      ["taught by", "the masters of craft; the building office; the building department from 1927"],
+      ["also", "Bayer's lowercase type, 1925; Joost Schmidt's lettering course"]
+    ],
+    stone: [
+      ["years", "1919 to 1925, Weimar only"],
+      ["masters", "form: Itten, then Schlemmer · craft: Josef Hartwig"],
+      ["work", "the Monument to the March Dead, 1921–22; plaster models for the pottery; fittings for the 1923 exhibition"],
+      ["fate", "merged with wood into one sculpture workshop in Dessau, under Joost Schmidt"]
+    ],
+    wood: [
+      ["workshops", "2 in Weimar: wood sculpture, and the joinery"],
+      ["years", "1919 to 1933; the fitting-out workshop from 1929"],
+      ["masters", "joinery: Itten 1919–22 · Gropius 1922–25 · Breuer 1925–28"],
+      ["work", "the Sommerfeld house carvings 1920–21 · African chair 1921 · slatted chair 1924 · Haus am Horn furniture 1923 · stacking tables, Thonet 1929"],
+      ["fate", "folded into the fitting-out workshop, 1929"]
+    ],
+    metal: [
+      ["years", "1919 to 1929; part of the fitting-out workshop after"],
+      ["masters", "form: Itten 1919–23 · Moholy-Nagy 1923–28 · craft: Christian Dell 1922–25 · Brandt in charge 1928"],
+      ["work", "the Bauhaus lamp 1924 · tea infusers, ashtrays · the Dessau building's lamps, numbered ME · the Kandem lamps, 1928"],
+      ["industry", "Schwintzer & Gräff, Berlin; Körting & Mathiesen, Leipzig"],
+      ["fate", "merged into the fitting-out workshop under Alfred Arndt, 1929"]
+    ],
+    textiles: [
+      ["years", "1919 to 1933, the whole life of the school"],
+      ["masters", "form: Itten 1919–21 · Muche 1921–27 · Stölzl to 1931 · Lilly Reich · craft: Helene Börner to 1925"],
+      ["learned", "weaving, spinning, dyeing, crochet, macramé, embroidery"],
+      ["work", "fabrics for the Sommerfeld house and the Haus am Horn · Bauhaus fabrics by the metre · Stölzl's slit tapestry 1927 · synthetic fibres under Meyer"],
+      ["note", "the women's class was merged into it in 1920; it was the workshop that paid"]
+    ],
+    color: [
+      ["workshop", "wall painting"],
+      ["years", "1920 to 1933; the fitting-out workshop from 1929"],
+      ["masters", "Itten · Schlemmer and Kandinsky 1922–25 · Hinnerk Scheper 1925–33 · Alfred Arndt standing in 1929–31"],
+      ["work", "the Weimar corridors · the 1923 exhibition murals · a colour plan for each Dessau masters' house"],
+      ["best seller", "Bauhaus wallpaper, Rasch of Hanover, contract 1929, in production 1930"]
+    ],
+    glass: [
+      ["workshop", "glass painting"],
+      ["years", "1920 to 1925, Weimar only"],
+      ["masters", "form: Itten, then Klee · craft: Josef Albers from 1923"],
+      ["work", "leaded windows for the Sommerfeld house 1921 and the Otte house 1922; Albers's sandblasted glass pictures"],
+      ["fate", "closed at the move to Dessau; Albers to the preliminary course"]
+    ],
+    clay: [
+      ["workshop", "the pottery"],
+      ["where", "Dornburg an der Saale from 1920, twenty kilometres from Weimar"],
+      ["years", "1919 to 1925"],
+      ["masters", "form: Gerhard Marcks · craft: Max Krehan 1920–25 · then Theodor Bogler and Otto Lindig"],
+      ["work", "thrown ware; from 1923 slip-cast prototypes for industry: the combination teapot, the mocha machine; shown at Stuttgart 1924"],
+      ["fate", "the one workshop not moved to Dessau in 1925; Lindig kept part of it in Weimar"]
+    ],
+    bau: [
+      ["the words", "site (a testing ground), testing, design, building and engineering science"],
+      ["course", "none until April 1927; before that, work in the office of Gropius and Adolf Meyer"],
+      ["department", "Hannes Meyer 1927–30 · Mies van der Rohe 1930–33"],
+      ["built", "Haus am Horn 1923 · the Dessau building 1926 · Törten estate 1926–28 · the trade-union school at Bernau 1928–30"],
+      ["who got there", "a few: the diagram puts it at the middle as the goal, not the rule"]
+    ]
+  };
+  const factsHTML = rows => rows.map(([k, v]) => `<div class="ro"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
+
+  // The panel beside the wheel: what a segment was, as facts; then, on the full page, the
+  // paragraphs; and where it lives in this catalogue.
+  function panelHTML(s, full) {
+    if (!s) return `<p class="no">the wheel</p><h3>the course, from the outside in</h3>
+      <p class="sub">Gropius, 1922; point at a ring, click to keep it</p>
+      <div class="facts">${factsHTML(FACTS.whole)}</div>`
+      + (full ? `<p>The outer ring is the preliminary course, half a year, which every student took first. Inside it run the three years of workshop training and the five studies taught beside it. Then the seven workshops, each named for its material. At the centre, building, where the course was meant to end. The switch above the wheel turns the words to the German of the 1922 statutes.</p>` : "");
     const cats = (s.cats || []).map(c => `<a href="${CAT}${c}">${esc(CATS[c] || c)}</a>`).join(", ");
     const lib = (s.lib || []).map(id => LIB.get(id)).filter(Boolean)
       .map(t => `<a href="${CAT}library">${esc(t.author.split(" and ")[0].split(",")[0])}, ${esc(t.english || t.title)}, ${t.year}</a>`).join("; ");
     return `<p class="no">${esc(["the centre", "workshop", "study", "preliminary course"][s.ring])} · ${esc(s.de)}</p>
       <h3>${esc(s.en)}</h3><p class="sub">${esc(s.sub)}</p>
-      ${s.text.map(t => `<p>${esc(t)}</p>`).join("")}
+      <div class="facts">${factsHTML(FACTS[s.key] || [])}</div>
+      ${full ? s.text.map(t => `<p>${esc(t)}</p>`).join("") : ""}
       <p class="here"><b>in this catalogue:</b> ${cats || "no workshop of its own"}${lib ? `<br><b>in the library:</b> ${lib}` : ""}</p>`;
   }
 
-  // Mount the wheel in a container, with its panel and its switch.
-  function mount(root, panel, toggle) {
+  // Mount the wheel in a container, with its panel and its switch; full shows the paragraphs
+  // under the facts, as the page does.
+  function mount(root, panel, toggle, full) {
     let kept = null;
     const draw = () => { root.innerHTML = svg(); light(); };
     const light = () => {
       for (const g of root.querySelectorAll(".seg")) g.classList.toggle("on", !!kept && g.dataset.key === kept);
     };
-    const show = key => { panel.innerHTML = panelHTML(key ? SEG.find(s => s.key === key) : null); };
+    const show = key => { panel.innerHTML = panelHTML(key ? SEG.find(s => s.key === key) : null, full); };
     draw(); show(null);
     root.addEventListener("pointerover", e => { const g = e.target.closest(".seg"); if (g && !kept) show(g.dataset.key); });
     root.addEventListener("pointerout", e => { const g = e.target.closest(".seg"); if (g && !kept) show(null); });
@@ -257,5 +380,5 @@ window.WHEEL = (() => {
     cats: ["exotic"], link: "bauhaus.html"
   };
 
-  return { SEG, svg, panelHTML, mount, card };
+  return { SEG, FACTS, svg, panelHTML, mount, card };
 })();
