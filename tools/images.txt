@@ -414,9 +414,13 @@ clt3|commons|Mjøstårnet.jpg|Mjøstårnet at Brumunddal, Norway, at its opening
 rcconcrete|commons|Baustelle-Hölzla-Rebar-6228085.jpg|Inside the reinforcement cage for a bored pile near Nuremberg: the steel tied and waiting for the concrete|process
 rcconcrete2|commons|Funchal Carbonatation Rebar.JPG|A wall in Funchal: carbonation reached the bar, the rust took six times the steel's volume and pushed the cover off|related
 rcconcrete3|commons|Carbonatisierung Bewehrung Phenolphtalein.jpg|The phenolphthalein test on a broken face: concrete still alkaline turns pink, and the grey carbonated skin has reached past the bar|process
-uhpc|commons|Gaertnerplatzbruecke Kassel.JPG|The Gärtnerplatz bridge in Kassel, built from UHPC|product
-selfhealconcrete|commons|Basilisk self-healing concrete exhibit at science museum.jpg|Self-healing concrete on display|photo
-fibrecement|commons|Fiber cement siding.jpg|Fibre cement siding|product
+uhpc|commons|UHPFRC - Ultra-High Performance Fiber Reinforced Concrete.jpg|A broken UHPFRC specimen: the steel fibres that bridged the crack, bristling from a matrix with no pore you can see|photo
+uhpc2|commons|Paris Stade Jean-Bouin 2.jpg|Stade Jean-Bouin, Paris, 2013: a lattice shell of 3,600 UHPC panels, each a few centimetres thick|product
+uhpc3|commons|Maschinenbauteil aus UHPC.JPG|A machine-tool bed cast in UHPC with its steel rails set in, where the usual answer is grey cast iron or polymer concrete|product
+selfhealconcrete|commons|Basilisk self-healing concrete exhibit at science museum.jpg|A cracked cylinder of self-healing concrete on a museum bench: the pale line across the face is the limestone the bacteria left in the crack|photo
+fibrecement|commons|Fiber cement siding.jpg|Fibre cement lap siding, painted: the planks do not move, so the paint stays|product
+fibrecement2|commons|Corrugated fibre cement roofing.jpg|Corrugated fibre cement roofing, Stellenbosch: the profile the asbestos sheets had, fixed with the same capped screws|product
+fibrecement3|commons|Asbestzement (2).jpg|The old kind on its way out: asbestos cement sheets bagged for disposal. From a metre away it is the same material|related
 alsic|commons|255-GRC-1988-C-06617 Ceramic fiber metal matrix composite.jpg|A metal matrix composite — ceramic reinforcement inside metal|photo
 tyre|commons|Pirelli Cinturato Tire cutaway.jpg|A radial tyre cut away — belts, plies and bead|product
 transparentarmour|commons|IDET2007 bulletproof glass.jpg|Transparent armour, layered glass and polycarbonate|product
@@ -587,7 +591,9 @@ isographite3|commons|Leclanche Element zerlegt.jpg|A Leclanché cell taken apart
 azs|commons|THE INTERIOR OF THE 2500 DEGREE F. FURNACE WHERE CRUSHED BOTTLES ARE MADE INTO MOLTEN GLASS. PART OF A NEW GLASS... - NARA - 543707.jpg|Inside a glass tank at 1,370 °C, 1972: the molten glass the fused-cast blocks have to hold for fifteen years|process
 azs2|commons|Lemington Glass Furnace - geograph.org.uk - 498767.jpg|The Lemington glass furnace, the last of its type working in Britain — fused-cast AZS lines the tank that holds molten glass|related
 nomexcore|commons|Composite honeycomb exhaust duct (2).jpg|A sectioned composite exhaust duct, showing the honeycomb core between its skins|product
-forgedcomposite|commons|Forged Carbon Fiber Mat for Lamborghini HURACAN.jpg|Forged composite — a mat of chopped carbon tow, pressed to shape|photo
+forgedcomposite|commons|Forged Composite look on prototype engine bay cover.jpg|A Lamborghini Aventador engine bay cover in forged composite, matte on the left and gloss on the right: the chips lie where they fell|photo
+forgedcomposite2|commons|Lamborghini Sesto Elemento.jpg|The Sesto Elemento, Paris 2010: the first car with a tub of forged composite, 999 kg all in|product
+forgedcomposite3|commons|Bespoke Design Forged Carbon Fiber Watch Sport.jpg|A watch case in forged carbon, the scale at which the marbling sells|product
 pvcfoam|commons|Begutachtung eines Rotorblattes.JPG|A wind turbine blade under inspection — the shells are foam-cored sandwich|product
 twophoton|commons|Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg|A 2 mm model of an 1871 microscope, written by two-photon lithography|product
 sandprint|commons|SandMoldCopeDragCores.jpg|Cope, drag and cores of a sand mould — printing makes these without a pattern|related
@@ -628,7 +634,8 @@ tib2|commons|TiB2 grain.jpg|A grain of titanium diboride held in a carbon matrix
 tib22|commons|Цех электролизных ванн для выплавки алюминия с силой тока 400 КА в промышленно-инновационном парке "Юйлянь" в г. Гунъи (Китай).jpg|A 400 kA aluminium reduction cell hall — titanium diboride is what the cathode surface is made of|analog
 nextel|commons|Oxid Hubtor heiß.JPG|A furnace lifting gate of alumina fibre in an alumina matrix at working heat: the oxide composite that alumina fibres like Nextel are woven for|related
 nextel2|commons|Flammrohr nach 15000h.jpg|A flame tube of oxide composite after 15,000 hours in a crispbread oven: alumina fibre cloth, stiffened with a ceramic matrix|related
-smc|commons|1979 tvr 3000s.jpg|A TVR 3000S — its body is hand-laid glass-reinforced plastic; sheet moulding compound is the same idea pressed out by the minute|analog
+smc|commons|1999 Chevrolet C5 Corvette Convertible (30572198050).jpg|A 1999 C5 Corvette: every body panel is sheet moulding compound, pressed in minutes and painted on the line|product
+smc2|commons|Pontiac Fiero GT DSC 8971.jpg|A Pontiac Fiero GT, 1985 to 1988: the hood, roof and decklid were SMC; the doors and fenders a softer moulded urethane|product
 g10|commons|SEG DVD 430 - Printed circuit board-4276.jpg|A DVD player's circuit board — boards like this are cut from glass-cloth epoxy laminate, the electrical grade of G10|analog
 fgm|commons|Repair process for a V2500 high-pressure turbine guide vane (8).jpg|A V2500 turbine guide vane, its thermal barrier just plasma-sprayed on — coatings like this are where graded composition earns its keep|analog
 contfibre|DVIDS|https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9832271/1000w_q95.jpg|Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell|process|Public domain|US Army, DVIDS|https://www.dvidshub.net/image/9832271

@@ -4934,19 +4934,43 @@ window.CREDITS = {
   },
   "uhpc": {
     "file": "uhpc.jpg",
-    "caption": "The Gärtnerplatz bridge in Kassel, built from UHPC",
+    "caption": "A broken UHPFRC specimen: the steel fibres that bridged the crack, bristling from a matrix with no pore you can see",
+    "kind": "photo",
+    "title": "UHPFRC - Ultra-High Performance Fiber Reinforced Concrete.jpg",
+    "site": "Wikimedia",
+    "artist": "Bianca Paola Maffezzoli",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:UHPFRC_-_Ultra-High_Performance_Fiber_Reinforced_Concrete.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "uhpc2": {
+    "file": "uhpc2.jpg",
+    "caption": "Stade Jean-Bouin, Paris, 2013: a lattice shell of 3,600 UHPC panels, each a few centimetres thick",
     "kind": "product",
-    "title": "Gaertnerplatzbruecke Kassel.JPG",
+    "title": "Paris Stade Jean-Bouin 2.jpg",
+    "site": "Wikimedia",
+    "artist": "Валерий Дед",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_Stade_Jean-Bouin_2.jpg",
+    "w": 960,
+    "h": 536
+  },
+  "uhpc3": {
+    "file": "uhpc3.jpg",
+    "caption": "A machine-tool bed cast in UHPC with its steel rails set in, where the usual answer is grey cast iron or polymer concrete",
+    "kind": "product",
+    "title": "Maschinenbauteil aus UHPC.JPG",
+    "site": "Wikimedia",
     "artist": "Betonschaedel",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gaertnerplatzbruecke_Kassel.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Maschinenbauteil_aus_UHPC.JPG",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 685
   },
   "selfhealconcrete": {
     "file": "selfhealconcrete.jpg",
-    "caption": "Self-healing concrete on display",
+    "caption": "A cracked cylinder of self-healing concrete on a museum bench: the pale line across the face is the limestone the bacteria left in the crack",
     "kind": "photo",
     "title": "Basilisk self-healing concrete exhibit at science museum.jpg",
     "artist": "Syced",
@@ -4958,7 +4982,7 @@ window.CREDITS = {
   },
   "fibrecement": {
     "file": "fibrecement.jpg",
-    "caption": "Fibre cement siding",
+    "caption": "Fibre cement lap siding, painted: the planks do not move, so the paint stays",
     "kind": "product",
     "title": "Fiber cement siding.jpg",
     "artist": "Wikideas1",
@@ -4967,6 +4991,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "fibrecement2": {
+    "file": "fibrecement2.jpg",
+    "caption": "Corrugated fibre cement roofing, Stellenbosch: the profile the asbestos sheets had, fixed with the same capped screws",
+    "kind": "product",
+    "title": "Corrugated fibre cement roofing.jpg",
+    "site": "Wikimedia",
+    "artist": "HelenOnline",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Corrugated_fibre_cement_roofing.jpg",
+    "w": 960,
+    "h": 686
+  },
+  "fibrecement3": {
+    "file": "fibrecement3.jpg",
+    "caption": "The old kind on its way out: asbestos cement sheets bagged for disposal. From a metre away it is the same material",
+    "kind": "related",
+    "title": "Asbestzement (2).jpg",
+    "site": "Wikimedia",
+    "artist": "DKrieger",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Asbestzement_(2).jpg",
+    "w": 960,
+    "h": 640
   },
   "alsic": {
     "file": "alsic.jpg",
@@ -7010,15 +7058,39 @@ window.CREDITS = {
   },
   "forgedcomposite": {
     "file": "forgedcomposite.jpg",
-    "caption": "Forged composite — a mat of chopped carbon tow, pressed to shape",
+    "caption": "A Lamborghini Aventador engine bay cover in forged composite, matte on the left and gloss on the right: the chips lie where they fell",
     "kind": "photo",
-    "title": "Forged Carbon Fiber Mat for Lamborghini HURACAN.jpg",
-    "artist": "Own Silent International LLC",
+    "title": "Forged Composite look on prototype engine bay cover.jpg",
+    "site": "Wikimedia",
+    "artist": "Bw570",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Forged_Carbon_Fiber_Mat_for_Lamborghini_HURACAN.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Forged_Composite_look_on_prototype_engine_bay_cover.jpg",
     "w": 960,
-    "h": 1557,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "forgedcomposite2": {
+    "file": "forgedcomposite2.jpg",
+    "caption": "The Sesto Elemento, Paris 2010: the first car with a tub of forged composite, 999 kg all in",
+    "kind": "product",
+    "title": "Lamborghini Sesto Elemento.jpg",
+    "site": "Wikimedia",
+    "artist": "Sébastien Rondet",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamborghini_Sesto_Elemento.jpg",
+    "w": 960,
+    "h": 638
+  },
+  "forgedcomposite3": {
+    "file": "forgedcomposite3.jpg",
+    "caption": "A watch case in forged carbon, the scale at which the marbling sells",
+    "kind": "product",
+    "title": "Bespoke Design Forged Carbon Fiber Watch Sport.jpg",
+    "site": "Wikimedia",
+    "artist": "Crateecount",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bespoke_Design_Forged_Carbon_Fiber_Watch_Sport.jpg",
+    "w": 800,
+    "h": 800
   },
   "pvcfoam": {
     "file": "pvcfoam.jpg",
@@ -7502,15 +7574,27 @@ window.CREDITS = {
   },
   "smc": {
     "file": "smc.jpg",
-    "caption": "A TVR 3000S — its body is hand-laid glass-reinforced plastic; sheet moulding compound is the same idea pressed out by the minute",
-    "kind": "analog",
-    "title": "1979 tvr 3000s.jpg",
-    "artist": "ColinMB at English Wikipedia",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:1979_tvr_3000s.jpg",
+    "caption": "A 1999 C5 Corvette: every body panel is sheet moulding compound, pressed in minutes and painted on the line",
+    "kind": "product",
+    "title": "1999 Chevrolet C5 Corvette Convertible (30572198050).jpg",
+    "site": "Wikimedia",
+    "artist": "Sicnag",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1999_Chevrolet_C5_Corvette_Convertible_(30572198050).jpg",
     "w": 960,
-    "h": 629,
-    "site": "Wikimedia"
+    "h": 640
+  },
+  "smc2": {
+    "file": "smc2.jpg",
+    "caption": "A Pontiac Fiero GT, 1985 to 1988: the hood, roof and decklid were SMC; the doors and fenders a softer moulded urethane",
+    "kind": "product",
+    "title": "Pontiac Fiero GT DSC 8971.jpg",
+    "site": "Wikimedia",
+    "artist": "Alexander Migl",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pontiac_Fiero_GT_DSC_8971.jpg",
+    "w": 960,
+    "h": 555
   },
   "g10": {
     "file": "g10.jpg",

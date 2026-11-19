@@ -1903,43 +1903,48 @@ window.MATERIALS = [
 },
 {
   id: "uhpc", cat: "composite", name: "Ultra-high-performance concrete",
-  sub: "UHPC with steel microfibres", img: "uhpc",
-  hook: "Packed with particles of every size from a centimetre down to a tenth of a micron so there is no space left for voids, plus steel fibres to carry tension. It is eight times stronger than structural concrete and does not need rebar.",
-  stats: [["Compressive", "120–250 MPa"], ["Water/cement", "<0.25"], ["Rebar", "often none"]],
-  uses: "Thin-shell footbridges, façade panels, bridge deck joints, security bollards.",
-  link: "https://en.wikipedia.org/wiki/Types_of_concrete"
+  sub: "UHPC with steel microfibres", img: "uhpc", extra: ["uhpc2", "uhpc3"],
+  hook: "Concrete with the holes designed out: grains graded from a millimetre down to silica fume, water barely enough to wet them, two per cent steel fibre. It bends before it breaks, which no concrete did before.",
+  more: "Richard and Cheyrezy published it at Bouygues in 1995 as reactive powder concrete; Lafarge sells it as Ductal. The recipe is a packing problem: cement, silica fume, quartz flour and fine sand sized so each fills the gaps of the last, water to binder near 0.2 kept workable by superplasticiser, and 13 millimetre steel fibres at two per cent by volume. Compressive strength lands at 150 to 200 megapascals, flexural at 20 to 40 as the fibres pull out. The first footbridge went up at Sherbrooke in 1997. The costs: ten to twenty times the price of ready-mix, a mix weighed like a pharmacy, a 90 degree steam cure for the top numbers, and fibres that line up with the flow of the pour, so a badly filled mould is weak where the drawing says it is strong.",
+  stats: [["Compressive", "150–200 MPa"], ["Water/binder", "~0.2"], ["Price", "10–20× ready-mix"]],
+  uses: "Thin-shell footbridges and lattice façades, bridge deck joints, machine beds, security bollards.",
+  link: "https://en.wikipedia.org/wiki/Types_of_concrete#Ultra-high-performance_concrete"
 },
 {
   id: "selfhealconcrete", cat: "composite", name: "Self-healing concrete",
   sub: "bacterial or capsule-healed concrete", img: "selfhealconcrete",
-  hook: "Dormant Bacillus spores and their calcium lactate food are mixed into the pour and sit inert for decades. A crack lets water in, the spores wake, and they precipitate limestone until the crack is plugged and the water stops.",
-  stats: [["Spore dormancy", "200 years, claimed"], ["Crack sealed", "to ~0.8 mm"], ["Trigger", "water ingress"]],
-  uses: "Tunnel linings, marine structures, basement walls — anywhere repair access is expensive.",
+  hook: "Bacillus spores and their calcium lactate lunch go into the pour and sleep for decades. Water finds a crack, the spores wake, eat, and leave limestone until the crack is plugged. It works only on thin cracks.",
+  more: "Henk Jonkers at Delft put alkali-tolerant Bacillus spores into clay pellets or coated granules with calcium lactate, and mixed them in at a few kilograms a cubic metre. Dormant in the alkaline matrix, they wait out the design life. When a crack lets water and oxygen in, they turn the lactate to calcium carbonate at the crack face, and a half-millimetre crack seals in weeks, watertight long before it is strong. Basilisk sells it as an admixture, a mortar and a liquid for standing structures. The costs: cracks over a millimetre stay open, a dry crack never heals, the first clay pellets cost a tenth of the strength, the dose adds tens of euros to a cubic metre that cost a hundred, and nobody has watched a batch for the decades the claims rest on.",
+  stats: [["Healed crack", "to ~0.8 mm"], ["Trigger", "water in the crack"], ["Dose", "a few kg/m³"]],
+  uses: "Tunnel linings, marine structures, basement walls, anywhere repair access is dearer than the concrete.",
   link: "https://en.wikipedia.org/wiki/Self-healing_material"
 },
 {
   id: "fibrecement", cat: "composite", name: "Fibre cement",
-  sub: "cellulose-reinforced cement board", img: "fibrecement",
-  hook: "The modern, honest replacement for asbestos cement: wood pulp fibres do the same crack-bridging job without the lung hazard. Non-combustible, immune to termites and rot, and it holds paint for decades.",
-  stats: [["Fibre", "cellulose, not asbestos"], ["Combustible", "no"], ["Life", "50 years typical"]],
-  uses: "Cladding and siding, soffits, tile backer board, roof slates.",
+  sub: "cellulose-reinforced cement board", img: "fibrecement", extra: ["fibrecement2", "fibrecement3"],
+  hook: "Asbestos cement with the asbestos taken out: wood pulp bridges the cracks in a thin cement sheet instead. It does not burn, rot or feed termites, holds paint for fifteen years, and cuts in a cloud of silica dust.",
+  more: "Ludwig Hatschek patented the asbestos version in 1901 and called it Eternit; his drum machine still makes nearly all of it. The fibre changed in the 1980s when the lungs caught up with the asbestos: now 8 to 10 per cent wood pulp, with some polyvinyl alcohol fibre where the sheet must hold a nail. Autoclaving at 180 degrees turns the lime into tobermorite and halves the moisture movement, which is why siding planked 16 inches apart does not cup, and why the paint lasts. The costs: brittle, so a dropped plank snaps; 11 kilograms a square metre at 8 millimetres; cut under a shroud or score and snap, since the dust is crystalline silica; and the sheets on the roof next door are still the asbestos kind, and look identical.",
+  stats: [["Fibre", "8–10% cellulose"], ["Fire", "non-combustible"], ["Weakness", "brittle; silica dust"]],
+  uses: "Cladding and siding, soffits, tile backer board, roof slates and corrugated sheet.",
   link: "https://en.wikipedia.org/wiki/Fibre_cement"
 },
 {
   id: "smc", cat: "composite", name: "Sheet moulding compound",
-  sub: "SMC, chopped glass in thickened polyester", img: "smc",
-  hook: "A leathery sheet of resin and chopped fibre that is pressed into a hot steel die and cured in two minutes. It is how a composite body panel gets made at car-plant rate instead of boat-yard rate, and it does not dent or rust.",
-  stats: [["Cycle", "1–3 minutes"], ["Glass", "25–30%"], ["Finish", "paintable Class A"]],
-  uses: "Truck and car body panels, electrical enclosures, lorry cabs, bathroom units.",
+  sub: "SMC, chopped glass in thickened polyester", img: "smc", extra: ["smc2"],
+  hook: "A sheet of polyester, chalk and inch-long chopped glass, ripened a few days until leathery, then pressed in a hot steel die for two minutes. Body panels at car-plant rate; the price is 1.9 grams a cubic centimetre.",
+  more: "The sheet is made on a line: resin paste doctored onto a carrier film, glass roving chopped to 25 millimetres rained onto it, a second film on top. Magnesium oxide thickens it over two or three days from syrup to a leather to stack in a 150 degree mould, where 50 to 100 bar and a peroxide set it in one to three minutes. Glass runs 25 to 30 per cent, filler 40, the rest unsaturated polyester with a low-profile thermoplastic that swells as the polyester shrinks, so the panel comes out flat enough to paint. Corvette bodies have been it since 1973. The costs: twice the density of nylon, a shelf life of weeks, fibres that line up where the charge flows and leave it weak across them, paint pops from trapped air, and no recycling but grinding into filler.",
+  stats: [["Cycle", "1–3 min at ~150 °C"], ["Glass", "25–30%, 25 mm"], ["Density", "1.8–2.0 g/cm³"]],
+  uses: "Car and truck body panels, lorry cabs, tractor hoods, electrical enclosures, bathroom units.",
   link: "https://en.wikipedia.org/wiki/Sheet_moulding_compound"
 },
 {
   id: "forgedcomposite", cat: "composite", name: "Forged composite",
-  sub: "chopped-tow compression moulded CFRP", img: "forgedcomposite",
-  hook: "Short random carbon tows squeezed into a die instead of laid up by hand. You lose the directional strength of a laminate and gain the ability to mould ribs, bosses and thick sections in one shot — and a marbled surface nobody can fake.",
-  stats: [["Tow length", "~25–50 mm"], ["Cycle", "minutes"], ["Shapes", "3D, not just shells"]],
-  uses: "Supercar structural parts, watch cases, bicycle components, tool bodies.",
-  link: "https://en.wikipedia.org/wiki/Carbon_fiber_reinforced_polymer"
+  sub: "chopped-tow compression moulded CFRP", img: "forgedcomposite", extra: ["forgedcomposite2", "forgedcomposite3"],
+  hook: "Carbon tow chopped to an inch, dumped in a die and squeezed: no weave, no layup, fibres pointing wherever they fell. Ribs, bosses and thick walls in one three-minute shot, with a marbled face nobody can order twice.",
+  more: "Lamborghini and Callaway Golf announced it in 2010; the Sesto Elemento got the first car tub made of it. The stock is carbon sheet moulding compound: 50 per cent fibre by volume in toughened epoxy, chips 25 to 50 millimetres, pressed at a few hundred tonnes and 150 degrees. Because the chips flow, the part can have what a laminate cannot: a boss with an insert, a wall that goes from two millimetres to twenty, an edge with no plies to peel. Stiffness is about 40 gigapascals, below aluminium, though at half the weight it wins on the scale. The costs: strength a third to a half of woven cloth and scattered by the random chips, so every part carries a wide margin; the flow starves thin sections; and the chips are still carbon at carbon prices.",
+  stats: [["Chip", "25–50 mm, ~50 vol%"], ["Cycle", "~3 min in the press"], ["Strength", "⅓–½ of woven cloth"]],
+  uses: "Supercar tubs and covers, golf club crowns, watch cases, bicycle cranks, tool bodies.",
+  link: "https://en.wikipedia.org/wiki/Forged_composite"
 },
 {
   id: "alsic", cat: "composite", name: "Al-SiC metal matrix",

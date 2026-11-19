@@ -1336,3 +1336,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Bewehrung einer Bodenplatte.jpg`, `Rebar worker.jpg`, `Rebar lattice prior to the pouring` | a wide site, a man and a bar, a grid on gravel; the cage interior is the face |
 | `Concrete wall cracking as its steel reinforcing cracks and swells 9061.jpg` | a hairline on a wall at card size |
 | `Reinforced concrete rusted rebars german bunkers Pointe du Hoc.jpg`, `Hennebique.jpg`, `Qew bruecke ... 46 von 46.jpg` | rust on a bunker, a facade, a bridge |
+
+## Batch 37 restyle (uhpc, selfhealconcrete, fibrecement, smc, forgedcomposite)
+
+- `smc`: Commons has no photograph of sheet moulding compound itself. `sheet moulding compound`, `sheet molding compound`, `SMC press`, `SMC Formteil`, `bulk moulding compound` return the Small Magellanic Cloud, Pentax SMC lenses and Singapore constituencies. Dropped the TVR 3000S (hand-laid GRP, an analog) for a C5 Corvette and a Fiero GT, whose panels really are SMC.
+- `uhpc`: `Ductal` returns only carcinoma histology; `Sherbrooke footbridge` finds nothing of the 1997 bridge. Replaced the Kassel footbridge, small in a park shot, with a broken fibre-bristling specimen; added Stade Jean-Bouin and a UHPC machine bed. The Krefeld bank façade in white UHPC and the MuCEM (lattice too small in frame) were looked at and left.
+- `forgedcomposite`: dropped the Huracán floor mat, where the material was a trim strip. The 800 px watch photograph is a maker's product shot under CC0, kept for the scale at which the marbling is bought.
+- `selfhealconcrete`: no second honest photograph. `self-healing concrete` and `bacteria concrete crack` return one 654 px gif, a mechanism diagram and concrete pump trucks.
+- `fibrecement`: `Cement Board.jpg` (USG Durock) is glass-mesh cement board, not fibre cement; left out rather than badge it related.
