@@ -1104,3 +1104,30 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Synthetic quartz crystal in Museum für Naturkunde Berlin 0846.jpg`, `Synthetic quartz hydrothermal processing Créer le cristal.jpg` | a bar behind museum glass with a label, and three crystals on a shelf; the bare bar is used |
 | `ITT Crystal resonator opened.jpg` | a speck on a yellow square |
 | `Quartz Watch Mechanism Closeup.jpg`, `RAKON STP2734B LF OCXO 10MHZ internal view.jpg`, `Quartz Crystal (5940516603).jpg` | a battery and gears, a green board, and a gloved hand with discs |
+
+
+## Restyle batch, 19 November 2026: yag, sodalime, leadcrystal, ceran, chalcogenide
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| A YAG boule or a laser at work | `laser crystal boule`, `Czochralski crystal growth`, `Nd:YAG laser`, `Festkörperlaser` | silicon boules, optical benches and a 640 px Powerlite | a YAG boule out of the puller, or a laser cutting steel |
+| A float line or a bottle machine | `float glass line`, `bottle forming machine`, `glass gob`, `glass furnace` | parade floats, reverse-vending receipts, a 800 px gob and Agricola woodcuts | the tin bath, or an IS machine |
+| Lead crystal being cut | `glass cutting wheel`, `Waterford crystal`, `crystal chandelier` | a 640 px Waterford tour photo and chandeliers in churches | a cutter at the wheel, larger than 640 px |
+| A stove window in glass-ceramic | `wood stove glass`, `Robax` | diagrams of flueless stoves, and a muscle relaxant | a stove with its window named as glass-ceramic |
+| Chalcogenide glass itself | `chalcogenide glass`, `Chalkogenidglas`, `germanium lens infrared`, `thermal camera lens`, `phase change memory` | nothing; a space station, power stations and Algerian salt lakes | a moulded chalcogenide lens blank or a boule of As2S3 |
+
+| rejected after looking | why |
+|---|---|
+| `Nd YAG Laser Rod.JPG`, `Laser rods 02.jpg` | a second pale rod, and the smaller copy of the four-rod photo |
+| `Nd-YAG laser.JPG`, `Nd laser VisNatural.jpg` | a lab in the dark, and an optical bench; the crystal is a speck |
+| `White LED.png` | already the face of the Ce:YAG card |
+| `Soda-lime window, not by float glass process.jpg` | a window frame on a wall |
+| `Glass production ... Fortepan 50405.jpg` | a dark 1930s glassworks, handsome and unreadable small |
+| `Double gob under the feeder.jpg` | 800 px, the gob a red smear |
+| `2023 Unterköblitz Flachglas Wernberg 01.jpg`, `Glass bottles 01.jpg` | an aerial of a factory roof, and a heap of dirty bottles |
+| `Waterford Crystal engraved glass.JPG`, `Old Fashioned Glass.jpg` | an engraved bird, and a rocks glass that may not be lead |
+| `Hanging cut-glass crystal pendants...`, `Crystal Chandelier Garden (Unsplash).jpg` | pendants on strings, and a chandelier in a garden, soft focus |
+| `Cooktop Ceran IR.JPG`, `SCHOTT Ceran Kochfeld.jpg`, `Ceran 1971 Domotechnika.jpg` | a thermogram, a second product shot, and a 1971 press photo of a woman at a hob |
+| `Thermal imaging camera side.jpg` | the MSA camera is in a dark stairwell |
+| `Flir E8-Thermal imaging camera-Thermographic camera-01ASD.jpg` | fetched, then dropped: a grey handset on a dark counter, nothing reads at card size |
+| `Thermal and visual image showing 29 degree C...` | the picture a thermal camera takes, not the glass |

@@ -1776,6 +1776,30 @@ window.CREDITS = {
     "h": 400,
     "site": "Wikimedia"
   },
+  "yag2": {
+    "file": "yag2.jpg",
+    "caption": "Four laser rods: ruby, alexandrite, erbium-doped YAG and neodymium-doped YAP, the garnet third from the left",
+    "kind": "related",
+    "title": "Laser rods 06.jpg",
+    "site": "Wikimedia",
+    "artist": "Artem.G",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laser_rods_06.jpg",
+    "w": 960,
+    "h": 861
+  },
+  "yag3": {
+    "file": "yag3.jpg",
+    "caption": "Undoped YAG cut as a gem, 8 mm: the 1970s diamond stand-in before cubic zirconia",
+    "kind": "photo",
+    "title": "Yttrium-aluminum garnet (synthetic gemstone) 1.jpg",
+    "site": "Wikimedia",
+    "artist": "James St. John",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yttrium-aluminum_garnet_(synthetic_gemstone)_1.jpg",
+    "w": 960,
+    "h": 518
+  },
   "batio3": {
     "file": "batio3.jpg",
     "caption": "Barium titanate ceramic — the dielectric inside billions of capacitors",
@@ -3876,6 +3900,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "sodalime2": {
+    "file": "sodalime2.jpg",
+    "caption": "Robots lifting float glass off the line: every pane the same flat face since 1959",
+    "kind": "process",
+    "title": "Float Glass Unloading.jpg",
+    "site": "Wikimedia",
+    "artist": "ICAPlants",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Float_Glass_Unloading.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "sodalime3": {
+    "file": "sodalime3.jpg",
+    "caption": "Washed and sorted cullet beside a coin: it melts easier than the raw batch, so it goes round again",
+    "kind": "related",
+    "title": "Glas aus Aufbereitungsanlage bunt - glass cullet various flash (Alter Fritz).JPG",
+    "site": "Wikimedia",
+    "artist": "Alter Fritz",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glas_aus_Aufbereitungsanlage_bunt_-_glass_cullet_various_flash_(Alter_Fritz).JPG",
+    "w": 960,
+    "h": 720
+  },
   "leadcrystal": {
     "file": "leadcrystal.jpg",
     "caption": "Cut lead crystal",
@@ -3888,6 +3936,30 @@ window.CREDITS = {
     "h": 721,
     "site": "Wikimedia"
   },
+  "leadcrystal2": {
+    "file": "leadcrystal2.png",
+    "caption": "Three cut decanters in a tantalus: the lead glass that port should not be left in",
+    "kind": "product",
+    "title": "Crystal decanter 01 (31689105656).png",
+    "site": "Wikimedia",
+    "artist": "Rebecca Hardgrave",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Crystal_decanter_01_(31689105656).png",
+    "w": 960,
+    "h": 1064
+  },
+  "leadcrystal3": {
+    "file": "leadcrystal3.jpg",
+    "caption": "A lead crystal vase cut on the wheel: the soft glass takes the deep facets",
+    "kind": "product",
+    "title": "A cut glass vase on white.jpg",
+    "site": "Wikimedia",
+    "artist": "Lambtron",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_cut_glass_vase_on_white.jpg",
+    "w": 960,
+    "h": 1551
+  },
   "ceran": {
     "file": "ceran.jpg",
     "caption": "A glass-ceramic cooktop",
@@ -3899,6 +3971,30 @@ window.CREDITS = {
     "w": 960,
     "h": 633,
     "site": "Wikimedia"
+  },
+  "ceran2": {
+    "file": "ceran2.jpg",
+    "caption": "Ceran panels in the furnace at Schott: the bake that grows the crystals inside the glass",
+    "kind": "process",
+    "title": "Ceran panels during production.jpg",
+    "site": "Wikimedia",
+    "artist": "Schott AG",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ceran_panels_during_production.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "ceran3": {
+    "file": "ceran3.jpg",
+    "caption": "A ring glowing red under the glass-ceramic: an inch away the plate is cool, and nothing cracks",
+    "kind": "product",
+    "title": "Electric stove coil with glass ceramic cooktop.jpg",
+    "site": "Wikimedia",
+    "artist": "A.Savin",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Electric_stove_coil_with_glass_ceramic_cooktop.jpg",
+    "w": 960,
+    "h": 960
   },
   "porcelain": {
     "file": "porcelain.jpg",
@@ -6119,6 +6215,18 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "chalcogenide3": {
+    "file": "chalcogenide3.jpg",
+    "caption": "Orpiment from Nevada: arsenic trisulphide as a mineral, the same compound the glass is melted from",
+    "kind": "related",
+    "title": "Orpiment 1.jpg",
+    "site": "Wikimedia",
+    "artist": "Géry PARENT",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Orpiment_1.jpg",
+    "w": 960,
+    "h": 638
   },
   "zblan": {
     "file": "zblan.jpg",

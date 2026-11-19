@@ -1495,40 +1495,45 @@ window.MATERIALS = [
 },
 {
   id: "yag", cat: "ceramic", name: "Nd:YAG",
-  sub: "neodymium-doped yttrium aluminium garnet", img: "yag",
-  hook: "A synthetic garnet grown as a flawless crystal and seeded with neodymium atoms that store energy and release it in step. It is the host that made the industrial solid-state laser practical.",
+  sub: "neodymium-doped yttrium aluminium garnet", img: "yag", extra: ["yag2", "yag3"],
+  hook: "A synthetic garnet with no natural twin, pulled from a melt and seeded with neodymium that stores pump light and lets it go in step. It made the laser a factory tool: 1,064 nanometres, invisible, through steel.",
+  more: "Geusic made it lase at Bell Labs in 1964; the garnet is hard, conducts heat well enough to take kilowatts of pump light, and holds its neodymium in a site that gives sharp lines and almost no loss. Flash-lamps once pumped it; now diode bars do, and the rod has become a slab or a thin disc. That is the laser that cuts and welds steel, marks every serial number, drills turbine-blade cooling holes, ranges the target, removes the tattoo and, doubled to green, points at the stars for adaptive optics. With cerium instead, it is the yellow phosphor in every white LED. The costs: a boule is pulled over weeks at 1,970 °C from an iridium crucible; it lenses as it heats, so beam quality falls with power; and fibre lasers took the big cutting jobs.",
   stats: [["Wavelength", "1064 nm"], ["Form", "grown rod or disc"], ["Host for", "Nd, Yb, Er, Ce"]],
   uses: "Industrial cutting and welding lasers, rangefinders, surgery, LED phosphor (Ce:YAG).",
   link: "https://en.wikipedia.org/wiki/Yttrium_aluminium_garnet"
 },
 {
   id: "sodalime", cat: "ceramic", name: "Soda-lime glass",
-  sub: "SiO₂–Na₂O–CaO", img: "sodalime",
-  hook: "90% of all glass made. Soda drops silica's melting point by 700 °C so it can be worked at all; lime is then added to stop the result dissolving in water, which is exactly what soda alone produces — water glass.",
+  sub: "SiO₂–Na₂O–CaO", img: "sodalime", extra: ["sodalime2", "sodalime3"],
+  hook: "Nine tenths of all glass. Soda drops the melting point of silica by 700 °C; lime stops the result dissolving, which is what soda alone makes: water glass. Window, bottle, jar and bulb, for three thousand years.",
+  more: "Silica melts at 1,700 °C, beyond any ancient furnace, and plant ash brought it down to what charcoal could reach; the sodium breaks the network, and the glass flows at 1,000 °C. Soda glass alone dissolves in rain, so 10 per cent lime stiffens the network again. Pilkington floated it on molten tin in 1959 and gave every window the same flat face; a bottle machine presses and blows one a second. It is cheap because sand, soda and limestone are, and it recycles for ever, since cullet melts easier than raw batch. The costs: it expands nine parts per million per kelvin, so a hot dish shatters in the sink; it breaks into daggers unless toughened; it blocks the ultraviolet a greenhouse wants; and the furnace burns gas night and day for fifteen years.",
   stats: [["Melt", "~1500 °C"], ["Expansion", "9 × 10⁻⁶ /K"], ["Share of all glass", "~90%"]],
   uses: "Windows, bottles, jars, light bulbs, everyday tableware.",
   link: "https://en.wikipedia.org/wiki/Soda%E2%80%93lime_glass"
 },
 {
   id: "leadcrystal", cat: "ceramic", name: "Lead crystal",
-  sub: "potash–lead silicate glass", img: "leadcrystal",
-  hook: "Lead oxide raises the refractive index and spreads the colours further apart, so a cut facet throws rainbows. It also softens the glass enough to cut deeply, and it rings — the low internal damping gives a long, pure note.",
+  sub: "potash–lead silicate glass", img: "leadcrystal", extra: ["leadcrystal2", "leadcrystal3"],
+  hook: "Ravenscroft's 1676 glass: a third lead oxide, which bends light harder and spreads the colours, so a facet throws rainbows. It softens the glass to cut deep, and it rings, a long note, not a thud. And it leaches.",
+  more: "Lead oxide joins the network as a heavy, polarisable modifier, so the glass bends light harder and disperses it more, like a diamond; it also lowers the working temperature and widens the range in which the glass stays soft, so it can be blown thick and cut on a wheel without cracking. Low internal friction gives the ring. Hence the Georgian decanter, the Waterford goblet, the chandelier drop and, uncut, the hot-cell window and the television tube face, where the lead stopped the X-rays. The costs: an acidic drink left in it, port in a decanter, picks up lead within hours, so the trade has quietly moved to lead-free crystal with barium and zinc; it is soft and scratches; it is heavy; and the old television tubes are a landfill problem.",
   stats: [["PbO", "24–33%"], ["Refractive index", "1.55–1.6"], ["Ring", "seconds, not a thud"]],
   uses: "Cut glassware and chandeliers; historically radiation shielding windows and CRT faces.",
   link: "https://en.wikipedia.org/wiki/Lead_glass"
 },
 {
   id: "ceran", cat: "ceramic", name: "Glass-ceramic cooktop",
-  sub: "lithium aluminosilicate, Ceran", img: "ceran",
-  hook: "Glass that is heat-treated until tiny crystals grow inside it, and those crystals shrink as the glass expands. The two cancel out: you can run a red-hot ring in one spot while the plate an inch away stays cool, with no crack.",
+  sub: "lithium aluminosilicate, Ceran", img: "ceran", extra: ["ceran2", "ceran3"],
+  hook: "Glass baked until tiny crystals grow in it, crystals that shrink as the glass round them expands. They cancel, so a ring glows red under one spot while the plate an inch away stays cool. The hob since 1971.",
+  more: "Stookey at Corning found it by accident in 1953, a glass left in a hot furnace that came out white and unbreakable; Schott made it a hob in 1971. A lithium aluminosilicate glass is melted, rolled to a plate, then baked for hours while titania seeds nucleate crystals a tenth of a micron across, too small to scatter light, so the plate stays translucent. The crystal shrinks on heating, the glass grows, and the mix is tuned to near zero; the plate also passes the infrared from the element below while staying cool to touch at the edge. The costs: it is a glass and shatters on a dropped pan corner; sugar burnt onto it pits the surface as it cools; it scratches under a dragged cast-iron pot; and a crack from an impact grows across the whole hob.",
   stats: [["Expansion", "≈0 × 10⁻⁶ /K"], ["Spot heating", "no thermal shock"], ["Crystals", "grown in place"]],
   uses: "Hob panels, wood stove windows, telescope mirror blanks, cookware.",
   link: "https://en.wikipedia.org/wiki/Glass-ceramic"
 },
 {
   id: "chalcogenide", cat: "ceramic", name: "Chalcogenide glass",
-  sub: "Ge–As–Se / As₂S₃", img: "chalcogenide",
-  hook: "Looks like a black mirror and is completely opaque to the eye, yet thermal infrared passes straight through it. It can be moulded like plastic, which is why thermal cameras got cheap enough to clip onto a phone.",
+  sub: "Ge–As–Se / As₂S₃", img: "chalcogenide", extra: ["chalcogenide3"],
+  hook: "Sulphur, selenium or tellurium with germanium, melted into a black-mirror glass, opaque to the eye, yet thermal infrared passes straight through. It moulds like plastic, so a thermal camera clips onto a phone.",
+  more: "Heavy atoms and weak bonds put the lattice vibrations far out in the infrared, so the glass is clear from 1 to 12 microns, where warm bodies glow; the same looseness softens it near 300 °C, so a lens is moulded in minutes instead of diamond-turned from germanium. That is the lens in the firefighter's camera, the night sight and the phone clip-on, and the fibre that pipes a surgical laser. The same glasses switch: a pulse of heat flips a germanium-antimony-tellurium film between glass and crystal, read back as reflectivity or resistance: the CD-RW and the phase-change memory chip. The costs: arsenic and selenium are poisons; it is soft and scratches; it is blind in the visible, so the camera needs a second eye; and a hot day shifts its focus.",
   stats: [["Transmits", "8–12 µm"], ["Visible", "opaque"], ["Forming", "precision moulded"]],
   uses: "Thermal imaging lenses, IR fibre, rewritable optical disc layers, phase-change memory.",
   link: "https://en.wikipedia.org/wiki/Chalcogenide_glass"

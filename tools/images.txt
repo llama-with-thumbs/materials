@@ -151,6 +151,8 @@ quartzxtal|commons|32768 Hz quartz crystal resonator.jpg|A 32,768 Hz quartz tuni
 quartzxtal2|commons|Quartz synthese.jpg|A hydrothermally grown quartz bar, 19 cm long: the seed plate runs down its middle|photo
 quartzxtal3|commons|Crystal oscillator internals.JPG|A Kyocera 16 MHz oscillator opened: the plated quartz disc on its two springs beside the chip that drives it|product
 yag|commons|Yag-rod.jpg|An Nd:YAG laser rod|photo
+yag2|commons|Laser rods 06.jpg|Four laser rods: ruby, alexandrite, erbium-doped YAG and neodymium-doped YAP, the garnet third from the left|related
+yag3|commons|Yttrium-aluminum garnet (synthetic gemstone) 1.jpg|Undoped YAG cut as a gem, 8 mm: the 1970s diamond stand-in before cubic zirconia|photo
 batio3|commons|BaTiO3ceramics.JPG|Barium titanate ceramic — the dielectric inside billions of capacitors|photo
 batio32|commons|MLCC cross section.jpg|A multilayer ceramic capacitor in section: hundreds of barium titanate layers between nickel electrodes|structure
 batio33|commons|Ceramic capacitors mounted on a PCB.jpg|Multilayer ceramic capacitors on a board: the commonest component there is|product
@@ -326,8 +328,14 @@ hea|commons|U.S. Department of Energy - Science - 408 048 001 (9631928920).jpg|A
 hea2|commons|Microstructure of High-Entropy Alloy AlCoCrFeNi₂.₁.jpg|An aluminium-cobalt-chromium-iron-nickel high-entropy alloy in section: two phases, not the promised one|structure
 hea3|commons|Arc-melting.jpg|A bench arc melter in a university lab: a few grams at a time, under argon|process
 sodalime|commons|Foxton Fizz Bottles.jpg|Soda-lime glass bottles|product
+sodalime2|commons|Float Glass Unloading.jpg|Robots lifting float glass off the line: every pane the same flat face since 1959|process
+sodalime3|commons|Glas aus Aufbereitungsanlage bunt - glass cullet various flash (Alter Fritz).JPG|Washed and sorted cullet beside a coin: it melts easier than the raw batch, so it goes round again|related
 leadcrystal|commons|Cut crystal wine glasses in the Fakiris series by German glassworks Knittel 4.jpg|Cut lead crystal|product
+leadcrystal2|commons|Crystal decanter 01 (31689105656).png|Three cut decanters in a tantalus: the lead glass that port should not be left in|product
+leadcrystal3|commons|A cut glass vase on white.jpg|A lead crystal vase cut on the wheel: the soft glass takes the deep facets|product
 ceran|commons|Schott Ceran glass-ceramic cooktop.jpg|A glass-ceramic cooktop|product
+ceran2|commons|Ceran panels during production.jpg|Ceran panels in the furnace at Schott: the bake that grows the crystals inside the glass|process
+ceran3|commons|Electric stove coil with glass ceramic cooktop.jpg|A ring glowing red under the glass-ceramic: an inch away the plate is cool, and nothing cracks|product
 porcelain|commons|Johnny ball strain insulator.JPG|A porcelain strain insulator|product
 steatite|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1973.161/1973.161_web.jpg|An Indus seal carved in steatite and fired hard|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1973.161
 mullite|commons|Kiln Furniture Before Glost FIring.png|Kiln furniture — mullite-bonded refractory props|product
@@ -513,6 +521,7 @@ babbitt2|commons|Pigs and Bars of Babbitt.jpg|Grade 2 babbitt as it is bought: p
 babbitt3|commons|NYC 100-driving-axle-friction-bearing.jpg|The driving-axle bearing of a 1906 New York Central electric: a babbitt-lined brass on the journal|product
 macor|commons|60kV Feedthrough.jpg|A 60 kV vacuum feedthrough — the insulator is the kind of part Macor gets machined into|related
 chalcogenide|commons|CD-RW bottom.jpg|The underside of a CD-RW — the recording layer is a chalcogenide that switches between glass and crystal|product
+chalcogenide3|commons|Orpiment 1.jpg|Orpiment from Nevada: arsenic trisulphide as a mineral, the same compound the glass is melted from|related
 zblan|NASA|https://images-assets.nasa.gov/image/0003771/0003771~medium.jpg|Sections of ZBLAN fibre, crystallised where it was drawn on the ground, clear where it was drawn in microgravity|photo|Public domain|MSFC|https://images.nasa.gov/details/0003771
 isographite|commons|Graphite crucibles.jpg|Graphite crucibles, good to about 1500 °C|product
 azs|commons|Lemington Glass Furnace - geograph.org.uk - 498767.jpg|The Lemington glass furnace, the last of its type working in Britain — fused-cast AZS lines the tank that holds molten glass|related
