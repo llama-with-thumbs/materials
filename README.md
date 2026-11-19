@@ -531,10 +531,10 @@ in `fonts/OFL.txt`.
   magnetorheological fluid for the electrorheological one, aramid filaments for M5, turnout gear for
   melamine fibre, and a hand-laid glass-reinforced body for sheet moulding compound. The caption
   always says what the picture actually is.
-- **22 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
+- **21 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
   optical calcium fluoride, a superhydrophobic droplet for SLIPS, a printed sand mould for
   furan-bonded sand, a GAGG:Ce scintillator for GGG, and a cut-resistant glove for Vectran.
-- **25 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
+- **26 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
   spraying for Nafion, cold spray mid-deposition for cold-spray powder, hand needle felting for
   needle-punched felt, two Markforged X7 machines for continuous fibre printing, and the loom or
   knitting machine itself for Jacquard weave, warp knitting and whole-garment knitting.
@@ -543,7 +543,7 @@ No entry falls back to a drawn swatch, and none shows a molecular or crystal str
 material itself has never been photographed freely, the card carries the closest real object
 instead.
 
-A few cards carry more than one view, paged on the card itself — 267 extra views so far: the raw material
+A few cards carry more than one view, paged on the card itself — 275 extra views so far: the raw material
 beside the finished part (Nitinol wire and the cut spoons), the shell beside the inlay (nacre),
 the harvest beside the bark (cork), the property beside the thing (a brick resting on a slab of
 aerogel), the two unmixed sticks beside what a sculptor and a museum made of them (epoxy putty).

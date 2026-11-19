@@ -357,9 +357,16 @@ mnznferrite|commons|T-10 Ferrite Core (1).jpg|A MnZn ferrite core|photo
 mnznferrite2|commons|PQ Coil formers.jpg|PQ and E cores with their bobbins: the transformer shapes inside a switch-mode power supply|product
 mnznferrite3|commons|Cable end.JPG|A USB cable with its moulded ferrite lump: a one-turn choke that soaks up the noise|product
 ifb|commons|Refractory bricks lining.jpg|Refractory brick lining|product
+ifb2|commons|Selb, Porzellanikon, Brennofen, innen.jpg|Inside a porcelain kiln at Selb: the pale lining is insulating brick, glazed by a century of firings|product
+ifb3|commons|Refractory Brick from the Salamander Brick Works.jpg|A dense firebrick from the 1800s, Salamander Works, New Jersey: the heavy kind the insulating brick replaced behind the hot face|related
 sialon|commons|ASiAlONb.jpg|Sialon ceramic|photo
+sialon2|commons|SiAlONphosphors.jpg|Sialon phosphors under ultraviolet: the same lattice with europium in it is the red in a warm white LED|related
 beo|commons|BeO sample.jpg|A beryllium oxide ceramic sample|photo
+beo2|commons|IRFM260 mosfet with beryllia insulation (01).jpg|Military MOSFETs in TO-254 packages insulated with beryllia: the datasheet forbids grinding or sanding them|product
+beo3|commons|Philips BGY36 VHF power amplifier module.jpg|A Philips VHF power module on a beryllia base, with the warning label every such part carries|product
 uraniumglass|Flickr|https://live.staticflickr.com/3820/13877095484_5fe755a9be_b.jpg|Uranium glass under ultraviolet light; the uranium makes it fluoresce green|product|CC BY 2.0|larry.nutt|https://www.flickr.com/photos/123119224@N04/13877095484
+uraniumglass2|commons|Uranium glass in daylight.JPG|A 1930s Val Saint Lambert dish in daylight: the pale yellow-green that gives the glass away before the lamp does|product
+uraniumglass3|commons|Depression Glass Juicer.jpg|A Depression-era pressed glass juicer: tableware by the tonne with a tenth of a per cent of uranium in it|product
 dichroic|commons|Petit Palais Verre dichroïque Noir souriant 13012018 1.jpg|Dichroic glass|product
 photochromic|commons|Photo Grey glasses, Фото греј наочари.JPG|Photochromic spectacle lenses|product
 bonechina|commons|BLW Bone China Chocolate Cup.jpg|A bone china cup|product
@@ -541,7 +548,8 @@ zblan3|commons|ISS070E110532 - NASA astronaut Loral O'Hara poses in front of the
 isographite|commons|Graphite crucibles.jpg|Graphite crucibles, good to about 1500 °C|product
 isographite2|commons|DMM Funkenerodiermaschine.jpg|A sinker EDM machine: the graphite electrode in its head burns the shape into hardened steel|process
 isographite3|commons|Leclanche Element zerlegt.jpg|A Leclanché cell taken apart: the dark rod is the graphite electrode, the older job of the same carbon|related
-azs|commons|Lemington Glass Furnace - geograph.org.uk - 498767.jpg|The Lemington glass furnace, the last of its type working in Britain — fused-cast AZS lines the tank that holds molten glass|related
+azs|commons|THE INTERIOR OF THE 2500 DEGREE F. FURNACE WHERE CRUSHED BOTTLES ARE MADE INTO MOLTEN GLASS. PART OF A NEW GLASS... - NARA - 543707.jpg|Inside a glass tank at 1,370 °C, 1972: the molten glass the fused-cast blocks have to hold for fifteen years|process
+azs2|commons|Lemington Glass Furnace - geograph.org.uk - 498767.jpg|The Lemington glass furnace, the last of its type working in Britain — fused-cast AZS lines the tank that holds molten glass|related
 nomexcore|commons|Composite honeycomb exhaust duct (2).jpg|A sectioned composite exhaust duct, showing the honeycomb core between its skins|product
 forgedcomposite|commons|Forged Carbon Fiber Mat for Lamborghini HURACAN.jpg|Forged composite — a mat of chopped carbon tow, pressed to shape|photo
 pvcfoam|commons|Begutachtung eines Rotorblattes.JPG|A wind turbine blade under inspection — the shells are foam-cored sandwich|product

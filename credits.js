@@ -4248,6 +4248,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "ifb2": {
+    "file": "ifb2.jpg",
+    "caption": "Inside a porcelain kiln at Selb: the pale lining is insulating brick, glazed by a century of firings",
+    "kind": "product",
+    "title": "Selb, Porzellanikon, Brennofen, innen.jpg",
+    "site": "Wikimedia",
+    "artist": "Dguendel",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Selb,_Porzellanikon,_Brennofen,_innen.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "ifb3": {
+    "file": "ifb3.jpg",
+    "caption": "A dense firebrick from the 1800s, Salamander Works, New Jersey: the heavy kind the insulating brick replaced behind the hot face",
+    "kind": "related",
+    "title": "Refractory Brick from the Salamander Brick Works.jpg",
+    "site": "Wikimedia",
+    "artist": "RinoaSG",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Refractory_Brick_from_the_Salamander_Brick_Works.jpg",
+    "w": 960,
+    "h": 540
+  },
   "sialon": {
     "file": "sialon.jpg",
     "caption": "Sialon ceramic",
@@ -4259,6 +4283,18 @@ window.CREDITS = {
     "w": 960,
     "h": 819,
     "site": "Wikimedia"
+  },
+  "sialon2": {
+    "file": "sialon2.jpg",
+    "caption": "Sialon phosphors under ultraviolet: the same lattice with europium in it is the red in a warm white LED",
+    "kind": "related",
+    "title": "SiAlONphosphors.jpg",
+    "site": "Wikimedia",
+    "artist": "User:Materialscientist",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SiAlONphosphors.jpg",
+    "w": 960,
+    "h": 579
   },
   "beo": {
     "file": "beo.jpg",
@@ -4272,6 +4308,30 @@ window.CREDITS = {
     "h": 815,
     "site": "Wikimedia"
   },
+  "beo2": {
+    "file": "beo2.jpg",
+    "caption": "Military MOSFETs in TO-254 packages insulated with beryllia: the datasheet forbids grinding or sanding them",
+    "kind": "product",
+    "title": "IRFM260 mosfet with beryllia insulation (01).jpg",
+    "site": "Wikimedia",
+    "artist": "155LA3",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:IRFM260_mosfet_with_beryllia_insulation_(01).jpg",
+    "w": 960,
+    "h": 640
+  },
+  "beo3": {
+    "file": "beo3.jpg",
+    "caption": "A Philips VHF power module on a beryllia base, with the warning label every such part carries",
+    "kind": "product",
+    "title": "Philips BGY36 VHF power amplifier module.jpg",
+    "site": "Wikimedia",
+    "artist": "Alex P. Kok",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Philips_BGY36_VHF_power_amplifier_module.jpg",
+    "w": 960,
+    "h": 540
+  },
   "uraniumglass": {
     "file": "uraniumglass.jpg",
     "caption": "Uranium glass under ultraviolet light; the uranium makes it fluoresce green",
@@ -4283,6 +4343,30 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/123119224@N04/13877095484",
     "w": 960,
     "h": 640
+  },
+  "uraniumglass2": {
+    "file": "uraniumglass2.jpg",
+    "caption": "A 1930s Val Saint Lambert dish in daylight: the pale yellow-green that gives the glass away before the lamp does",
+    "kind": "product",
+    "title": "Uranium glass in daylight.JPG",
+    "site": "Wikimedia",
+    "artist": "Jędrzej Pełka",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Uranium_glass_in_daylight.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "uraniumglass3": {
+    "file": "uraniumglass3.jpg",
+    "caption": "A Depression-era pressed glass juicer: tableware by the tonne with a tenth of a per cent of uranium in it",
+    "kind": "product",
+    "title": "Depression Glass Juicer.jpg",
+    "site": "Wikimedia",
+    "artist": "James Quinn from Albuquerque. NM, USA",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Depression_Glass_Juicer.jpg",
+    "w": 960,
+    "h": 689
   },
   "dichroic": {
     "file": "dichroic.jpg",
@@ -6458,15 +6542,27 @@ window.CREDITS = {
   },
   "azs": {
     "file": "azs.jpg",
+    "caption": "Inside a glass tank at 1,370 °C, 1972: the molten glass the fused-cast blocks have to hold for fifteen years",
+    "kind": "process",
+    "title": "THE INTERIOR OF THE 2500 DEGREE F. FURNACE WHERE CRUSHED BOTTLES ARE MADE INTO MOLTEN GLASS. PART OF A NEW GLASS... - NARA - 543707.jpg",
+    "site": "Wikimedia",
+    "artist": "Bill Gillette",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:THE_INTERIOR_OF_THE_2500_DEGREE_F._FURNACE_WHERE_CRUSHED_BOTTLES_ARE_MADE_INTO_MOLTEN_GLASS._PART_OF_A_NEW_GLASS..._-_NARA_-_543707.jpg",
+    "w": 960,
+    "h": 651
+  },
+  "azs2": {
+    "file": "azs2.jpg",
     "caption": "The Lemington glass furnace, the last of its type working in Britain — fused-cast AZS lines the tank that holds molten glass",
     "kind": "related",
     "title": "Lemington Glass Furnace - geograph.org.uk - 498767.jpg",
+    "site": "Wikimedia",
     "artist": "ivan everett",
     "license": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Lemington_Glass_Furnace_-_geograph.org.uk_-_498767.jpg",
     "w": 640,
-    "h": 480,
-    "site": "Wikimedia"
+    "h": 480
   },
   "nomexcore": {
     "file": "nomexcore.jpg",

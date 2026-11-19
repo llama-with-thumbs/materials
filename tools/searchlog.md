@@ -1185,3 +1185,29 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Ferrite clamp-on.jpg`, `A collection of Snap-On - Clamp-on ferrite beads.jpg` | a clamp on a red wire, and three split cores; the USB lump says the same |
 | `Forward Converter ATX PC Power Supply IMG 1092.jpg`, `Universum UR 1886 ... Ferrite rod antenna` | a crowded board, and a rod taped into a tuner |
 | `Ferrite-R-Core (7).jpg` | five black cylinders, unreadable as anything |
+
+
+## Restyle batch, 19 November 2026: azs, ifb, sialon, beo, uraniumglass
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| A fused-cast AZS block | `fused cast refractory`, `AZS`, `zirconia refractory block`, `glass furnace rebuild`, `Glasschmelzwanne` | Polish volleyball, Siemens diagrams of 1892 and a Dortmund colliery | a block on a pallet at a furnace rebuild |
+| An insulating firebrick by name | `insulating firebrick`, `lightweight refractory brick`, `Schamottestein`, `forge firebrick` | nothing; every hit is dense brick | a white K23 brick with a saw |
+| Sialon at work | `thermocouple sheath`, `welding nozzle ceramic`, `riser tube aluminium`, `cutting insert ceramic`, `Schweißdüse Keramik` | a gas-valve thermocouple fitting, nothing else | a sheath in an aluminium furnace or a nozzle on a MIG gun |
+| Beryllia in a klystron or laser | `klystron`, `magnetron beryllia`, `laser tube beryllia`, `beryllium oxide insulator` | a glass reflex klystron with no ceramic visible | a beryllia laser bore or klystron window |
+| Uranium glass being made | `Annagrün`, `uranium glass marbles` | nothing | a Riedel piece photographed as such |
+
+| rejected after looking | why |
+|---|---|
+| the Lemington cone as the AZS face | a brick chimney in a field; kept as second view, the furnace interior is the face |
+| `Tank Furnace - DPLA` | a patent drawing |
+| `Modern silica or refractory clay waste` | two green lumps on a scale |
+| `Fire brick (AM 703842-1).jpg` | a black fireplace tile |
+| `Gladstone glost bottle kiln interior 3821.JPG`, `Factory interiors 002 2005 10 13.jpg` | a bottle oven's firemouths, and a row of electric kilns from outside |
+| `ASiAlON.jpg` | the same parts as the face, rearranged |
+| `Thermocouple connection.JPG` | a brass fitting, the sheath is steel |
+| `BeO.jpg`, `Оксид бериллия 99,9 %.jpg` | a green tube that is a crucible of something else, and a bottle with a pinch of powder |
+| `K41 Klystron reflective vacuum tube 01.jpg` | a glass tube, no beryllia in view |
+| `Uranium glass.jpg`, `Luminescence of various kinds of uranium glass.JPG`, `Uranium Glass Collection.jpg` | more green glow, the face already glows |
+| `Uranovy Kvet v Dennim Svetle.jpg`, `Uranovy Kvet ve Tme po Expozici.jpg` | a glass flower, pretty and shapeless small |
+| `Uranium-glass-necklace.jpg`, `AW U glass bowl on fiestaware plate.jpg` | beads on black, and a cat on an orange plate |

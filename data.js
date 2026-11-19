@@ -1630,40 +1630,45 @@ window.MATERIALS = [
 },
 {
   id: "azs", cat: "ceramic", name: "Fused-cast AZS",
-  sub: "alumina–zirconia–silica refractory", img: "azs",
-  hook: "Melted at over 2000 °C and cast like metal into blocks, rather than pressed and fired. The result stands in molten glass for ten or fifteen years without dissolving into it — a glass furnace is rebuilt around the AZS, not the other way round.",
+  sub: "alumina–zirconia–silica refractory", img: "azs", extra: ["azs2"],
+  hook: "Alumina, zirconia and silica melted at 2,000 °C and cast like metal, not pressed and fired. A block stands in molten glass for fifteen years. The furnace is rebuilt around its AZS, not the other way round.",
+  more: "A pressed brick is grains with pores between, and molten glass creeps in and lifts the grains out one by one. Fuse the oxides and pour them into a sand mould and the block freezes as interlocking corundum and zirconia crystals, no open pore, nothing for the glass to grip. The zirconia is what will not dissolve, so the throat and the sidewall at the glass line, where the attack is worst, get 41 per cent; the crown gets by on 33. Corning cast the first in 1925; every float line and bottle tank since is lined with it. The costs: a block weighs tonnes and takes weeks to cast and anneal, so a rebuild costs millions and is planned a decade ahead; the glassy phase sweats into the melt as stones at first; and each block's shrinkage cavity must be cut away.",
   stats: [["Cast at", ">2000 °C"], ["Campaign life", "10–15 years"], ["ZrO₂", "33–41%"]],
   uses: "Glass melting furnace linings, throats and feeders.",
   link: "https://en.wikipedia.org/wiki/Refractory"
 },
 {
   id: "ifb", cat: "ceramic", name: "Insulating firebrick",
-  sub: "porous alumina-silicate refractory", img: "ifb",
-  hook: "Sawdust or polystyrene beads are burned out of the body during firing, leaving a brick that is mostly sealed air. You can hold one corner while the other glows at 1200 °C, and cut it with a hand saw.",
+  sub: "porous alumina-silicate refractory", img: "ifb", extra: ["ifb2", "ifb3"],
+  hook: "Sawdust or foam beads in the clay, burned out in the kiln, leaving a brick that is mostly sealed air. Hold one corner while the other glows at 1,200 °C; cut it with a wood saw. Every pottery kiln is lined with it.",
+  more: "A dense firebrick carries heat away almost as fast as it stops the fire, and a furnace lined with it spends most of its fuel on its own walls. Foam the slip, or load it with combustibles, and after firing the body is 70 per cent closed pores: a tenth the conductivity, half a gram a cubic centimetre, and a kiln that heats in hours and is cool enough to open next morning. It is graded by the temperature it holds its shape at, 1,260 for a pottery kiln, 1,650 behind a steel furnace, and shaped with a hand saw, a rasp and a drill. The costs: it crumbles under a knock, so where the work touches it takes a dense brick; it soaks up glaze drips and salt vapour and spalls; it carries no load; and the dust is silica, so you cut it wet or masked.",
   stats: [["Density", "0.5–0.8 g/cm³"], ["Rating", "1260–1650 °C"], ["Cutting", "ordinary wood saw"]],
   uses: "Kiln and furnace linings, forge interiors, back-up insulation.",
   link: "https://en.wikipedia.org/wiki/Fire_brick"
 },
 {
   id: "sialon", cat: "ceramic", name: "Sialon",
-  sub: "Si–Al–O–N solid solution", img: "sialon",
-  hook: "Silicon nitride with aluminium and oxygen substituted into the lattice, which lets it be sintered without a glassy grain-boundary phase to soften at temperature. Molten aluminium will not wet it, so it survives in a job that destroys steel.",
+  sub: "Si–Al–O–N solid solution", img: "sialon", extra: ["sialon2"],
+  hook: "Silicon nitride with aluminium and oxygen swapped into the lattice, so it sinters without the glassy film that softens at heat. Molten aluminium will not wet it, so it lives in a melt that eats steel in a shift.",
+  more: "Jack found in 1971 that alumina dissolves into silicon nitride, atom for atom, and the solution densifies with less additive and holds its strength past 1,300 °C, where the parent creeps. Harder, as shock-proof, with a surface molten aluminium slides off, it is the thermocouple sheath that stands in a holding furnace for months, the riser tube of a casting machine, the welding nozzle spatter will not stick to, and the insert that turns a nickel superalloy faster than carbide can. A cousin with europium in it is the red phosphor in a warm white LED. The costs: it is sintered at 1,800 °C under nitrogen, so parts are dear and small; the alpha grades are brittle; molten iron and hot steam attack it; and the insert chips on an interrupted cut.",
   stats: [["Hardness", "~1600 HV"], ["Thermal shock", "excellent"], ["Molten Al", "non-wetting"]],
   uses: "Welding nozzles, thermocouple sheaths in aluminium melts, cutting inserts for nickel alloys.",
   link: "https://en.wikipedia.org/wiki/Sialon"
 },
 {
   id: "beo", cat: "ceramic", name: "Beryllia",
-  sub: "BeO, beryllium oxide", img: "beo",
-  hook: "An electrical insulator that conducts heat better than aluminium metal — only diamond and a couple of others beat it. Sintered parts are safe to handle; the dust is not, which is why aluminium nitride replaced it wherever it could.",
+  sub: "BeO, beryllium oxide", img: "beo", extra: ["beo2", "beo3"],
+  hook: "An insulator that conducts heat better than aluminium; only diamond and a few nitrides beat it. Sintered, it is safe to hold; the dust gives an incurable disease, so aluminium nitride replaced it.",
+  more: "The lattice is light, stiff and simple, the recipe that makes diamond conduct, so a tile carries 285 watts a metre-kelvin while standing off kilovolts, with almost no loss at microwave. That made it the base under every radio-frequency power transistor, the insulator in a klystron and a magnetron, the bore of a carbon dioxide laser, the washer under a military MOSFET. Fired, it is inert and harmless to touch. The costs: grind, drill, sandblast or burn it and the dust causes berylliosis, a lung disease that appears years later in people merely sensitised, so every part is labelled, a factory needs an extraction room and disposal is hazardous waste; the powder is dear; and aluminium nitride, at two thirds the conductivity, took the market.",
   stats: [["Thermal conductivity", "~285 W/m·K"], ["Dielectric", "insulator"], ["Hazard", "dust only, chronic"]],
   uses: "Legacy RF power transistor and klystron packages, laser tubes, specialist heat spreaders.",
   link: "https://en.wikipedia.org/wiki/Beryllium_oxide"
 },
 {
   id: "uraniumglass", cat: "ceramic", name: "Uranium glass",
-  sub: "uranium-doped soda-lime glass", img: "uraniumglass",
-  hook: "A couple of percent uranium oxide turns glass yellow-green and makes it blaze under ultraviolet. Made as ordinary tableware from the 1830s; the radioactivity is real but trivial, less than a banana's worth of dose from sitting in the cabinet.",
+  sub: "uranium-doped soda-lime glass", img: "uraniumglass", extra: ["uraniumglass2", "uraniumglass3"],
+  hook: "A per cent or two of uranium oxide turns glass yellow-green and makes it blaze under ultraviolet. Ordinary tableware from the 1830s; the radioactivity is real and trivial, less than the bananas in the bowl.",
+  more: "Riedel sold it as Annagrün from 1834, and for a century uranium was a colourant and a glaze before anyone wanted it for anything else. The uranyl ion in the glass absorbs blue and fluoresces green, so a piece that is pale yellow in daylight lights up like a tube under a black light, which is how collectors find it. Depression glass, pressed by the tonne, carries a tenth of a per cent; old Vaseline glass up to 2. The costs: the US seized the uranium in 1943 and production stopped until the 1950s; a Geiger counter clicks at a piece but the dose at arm's length is below background; the hazard, such as it is, is drinking daily from a scratched cup; and nobody makes it in quantity now, so the price is a collector's.",
   stats: [["Uranium", "~0.1–2%"], ["Under UV", "bright green"], ["Dose", "negligible"]],
   uses: "Collectable glassware, Depression-era pressed glass, historical lab ware.",
   link: "https://en.wikipedia.org/wiki/Uranium_glass"
