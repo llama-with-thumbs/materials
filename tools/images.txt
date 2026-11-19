@@ -65,10 +65,17 @@ alon|commons|TTO Spinel Ceramic.JPG|Transparent spinel ceramic — AlON's close 
 alon3|commons|AIM-9B Sidewinder heat-seeking missile Head.jpg|The seeker head of the first Sidewinder, 1956: the dome in front of an infrared eye is the job ALON now does|related
 pyro|Flickr|https://live.staticflickr.com/4072/4674344608_5165891d65_b.jpg|Pyrolytic graphite floating over a magnet array: diamagnetic levitation|photo|CC BY 2.0|yellowcloud|https://www.flickr.com/photos/63794141@N00/4674344608
 pyro2|commons|Cleaving HOPG.jpg|Cleaving oriented pyrolytic graphite with a razor blade: once started, the blade glides between the sheets|process
-cc|commons|Ferrari F430 Challenge Brake.JPG|Carbon-carbon / carbon-ceramic racing brake|photo
-cmc|commons|CMC-X38-Bodyflaps.jpg|SiC/SiC ceramic matrix composite body flaps (X-38)|photo
+cc|commons|A320-Carbon-Brake Le Bourget 20110624.jpg|An A320 carbon brake by Safran: the black stack of rotors and stators is all carbon-carbon, and it is the consumable|product
+cc2|commons|Impact-test.jpg|A reinforced carbon-carbon leading-edge panel from Atlantis after the Columbia investigation fired foam at it at 850 km/h|product
+cc3|commons|Ferrari F430 Challenge Brake.JPG|A road-car carbon-ceramic disc: the same carbon preform, but soaked in molten silicon so it can live in air|related
+cmc|commons|255-GRC-2002-C-01632 SiC-SiC Silicon carbide fiber reinforced silicon carbide.jpg|A SiC/SiC turbine vane at NASA Glenn, 2002: woven carbide fibre in a carbide matrix, the shape of an aerofoil|product
+cmc2|commons|CMC-X38-Bodyflaps.jpg|SiC/SiC ceramic matrix composite body flaps (X-38)|product
+cmc3|commons|255-GRC-1987-C-01044 Fiber-reinforced ceramic matrix, strain damage (3).jpg|Fibre pull-out in a strained fibre-reinforced silicon nitride: the fibres bridge the crack instead of letting it run|structure
 cf|commons|Carbon fiber bundle.jpg|Carbon fibre tow|photo
+cf2|commons|Carbon fiber spools (17264394646).jpg|A creel of carbon fibre spools feeding a production line: the tow goes in as yarn and comes out as a part|process
 syntactic|commons|Syntactic foam sphere.jpg|Syntactic foam — glass microballoons in resin|photo
+syntactic2|commons|Syntacticfoam.JPG|Syntactic foam under the electron microscope: glass microballoons packed in epoxy, no open void anywhere|structure
+syntactic3|commons|Deepsea Challenger - Cité de la Mer-7935.jpg|Deepsea Challenger, which went to 10,908 m in 2012: the green body is a beam of syntactic foam, 70 per cent of the vehicle|product
 aerogel|commons|Aerogel hand.jpg|Silica aerogel, about 0.001 g/cm³|photo
 metalfoam|commons|Aluminium foam.jpg|Closed-cell aluminium foam|photo
 bioglass|commons|MorphologyofBioglass.png|Bioglass 45S5 surface morphology|photo
@@ -598,7 +605,8 @@ terfenol|commons|FEM2-018-500-3V-1 magnetostrictive transducer details 03.jpg|A 
 terfenol2|Flickr|https://live.staticflickr.com/2228/3542186251_54d5c3fec0_b.jpg|A hydrophone going into the North Atlantic — this one is piezoelectric; Terfenol-D does the same job by stretching in a magnetic field|analog|CC BY-SA 2.0|Oregon State University|https://www.flickr.com/photos/oregonstateuniversity/3542186251
 tib2|commons|TiB2 grain.jpg|A grain of titanium diboride held in a carbon matrix under the electron microscope: the cathode coating of an aluminium cell|structure
 tib22|commons|Цех электролизных ванн для выплавки алюминия с силой тока 400 КА в промышленно-инновационном парке "Юйлянь" в г. Гунъи (Китай).jpg|A 400 kA aluminium reduction cell hall — titanium diboride is what the cathode surface is made of|analog
-nextel|commons|Industrial furnace equipped with HTIW modules.jpg|A furnace lined with high-temperature insulation wool — Nextel's woven alumina cloth does this job where the lining must also be strong|analog
+nextel|commons|Oxid Hubtor heiß.JPG|A furnace lifting gate of alumina fibre in an alumina matrix at working heat: the oxide composite that alumina fibres like Nextel are woven for|related
+nextel2|commons|Flammrohr nach 15000h.jpg|A flame tube of oxide composite after 15,000 hours in a crispbread oven: alumina fibre cloth, stiffened with a ceramic matrix|related
 smc|commons|1979 tvr 3000s.jpg|A TVR 3000S — its body is hand-laid glass-reinforced plastic; sheet moulding compound is the same idea pressed out by the minute|analog
 g10|commons|SEG DVD 430 - Printed circuit board-4276.jpg|A DVD player's circuit board — boards like this are cut from glass-cloth epoxy laminate, the electrical grade of G10|analog
 fgm|commons|Repair process for a V2500 high-pressure turbine guide vane (8).jpg|A V2500 turbine guide vane, its thermal barrier just plasma-sprayed on — coatings like this are where graded composition earns its keep|analog

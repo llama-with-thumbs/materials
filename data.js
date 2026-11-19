@@ -1722,24 +1722,27 @@ window.MATERIALS = [
 /* ---------- COMPOSITES & STRUCTURES ---------- */
 {
   id: "cc", cat: "composite", name: "Carbon–carbon",
-  sub: "carbon fibre in a carbon matrix", img: "cc",
-  hook: "Both the fibre and the glue are carbon, so there is nothing softer to fail first. It keeps its strength past 2000 °C in an inert atmosphere — one of very few materials that is happier hot.",
+  sub: "carbon fibre in a carbon matrix", img: "cc", extra: ["cc2", "cc3"],
+  hook: "Carbon fibre in a carbon matrix: nothing softer to fail first. It gets stronger to 2,000 °C and shrugs off thermal shock, so it stops a 747 and faced the Shuttle's wing. In air above 500 °C it quietly burns away.",
+  more: "A woven carbon preform is soaked in pitch or resin, charred, and soaked again, six or eight times over months, until the pores are carbon too. An aircraft brake stack of it swallows a rejected take-off, glowing, at half the weight of steel; a racing disc runs at 1,000 °C lap after lap; a rocket throat holds its shape where graphite erodes; and the Shuttle's nose and leading edges were 44 panels of it, faced with silicon carbide against the air. The costs: it is a fuel, so every use in air needs a coating, and coatings crack; densifying takes months and the price is thousands a kilogram; the brakes bite poorly cold, which is why racing drivers weave; and it is brittle to a blow, which is how a block of foam killed Columbia.",
   stats: [["Usable to", ">2000 °C inert"], ["Weakness", "oxidises in air"], ["Density", "~1.8 g/cm³"]],
   uses: "Aircraft and F1 brakes, rocket nozzle throats, re-entry leading edges, furnace fixtures.",
   link: "https://en.wikipedia.org/wiki/Reinforced_carbon%E2%80%93carbon"
 },
 {
   id: "cmc", cat: "composite", name: "SiC/SiC composite",
-  sub: "ceramic matrix composite", img: "cmc",
-  hook: "Ceramics are strong but shatter. Weave ceramic fibres into a ceramic matrix and cracks get pinned and pulled out fibre by fibre, so it fails gracefully — which is what let engines run hotter.",
+  sub: "ceramic matrix composite", img: "cmc", extra: ["cmc2", "cmc3"],
+  hook: "Carbide fibre in a carbide matrix, with a whisper of boron nitride between so the two never bond. A crack meets a fibre and is turned aside, so a ceramic that should shatter frays instead. In jet engines since 2016.",
+  more: "The fibre is woven, coated from vapour with boron nitride a fraction of a micron thick, then the matrix is grown through the cloth from gas and the last pores filled with molten silicon. The weak film is the trick: a crack cannot cross it, the fibres pull out one by one, and the part takes ten times the strain of solid carbide. At a third the density of a superalloy it runs at 1,300 °C with no cooling air, so the turbine shroud and combustor liner are made of it and the engine keeps its cooling air. The costs: the fibre is thousands a kilogram and a part spends weeks in the furnace; steam in the exhaust eats carbide away, so every part wears a rare-earth silicate coat that can spall; and the free silicon melts at 1,414 °C, which is the ceiling.",
   stats: [["Service", "1200–1300 °C"], ["Density", "~⅓ of superalloy"], ["Failure", "pseudo-ductile"]],
   uses: "Turbine shrouds and combustor liners, exhaust nozzles, hot structures.",
   link: "https://en.wikipedia.org/wiki/Ceramic_matrix_composite"
 },
 {
   id: "cf", cat: "composite", name: "Pitch-based carbon fibre",
-  sub: "K13D and relatives", img: "cf",
-  hook: "The high-modulus cousin of ordinary PAN carbon fibre. Its graphite planes are aligned so well along the fibre that it beats copper at conducting heat, and shrinks slightly when warmed.",
+  sub: "K13D and relatives", img: "cf", extra: ["cf2"],
+  hook: "Carbon fibre spun from pitch instead of acrylic, so the graphite planes line up along the fibre. Four times as stiff as steel, it carries heat better than copper and shrinks when warmed. Satellites are made of it.",
+  more: "Acrylic-based fibre is a jumble of graphite: strong, but a modulus near 250. Mesophase pitch is a liquid crystal of flat molecules; drawn through a spinneret they line up, and after a bake at 3,000 °C the fibre is nearly a single crystal along its length: 900 gigapascals, 800 watts a metre-kelvin against copper's 400, and a thermal expansion slightly negative. So an optical bench is laid up to zero expansion over 300 degrees, and a strap of it carries heat from a box to the radiator at a fraction of aluminium's weight. The costs: half the strength of the acrylic kind and a third of a per cent strain, so it snaps where that would bend and breaks on the loom; it is hundreds a kilogram; and it conducts, so an aluminium fitting against it corrodes.",
   stats: [["Modulus", "to ~935 GPa"], ["Conductivity", "~800 W/m·K"], ["Axial CTE", "negative"]],
   uses: "Satellite structures and optical benches, thermal doublers, stiff robot arms.",
   link: "https://en.wikipedia.org/wiki/Carbon_fibers"
@@ -1747,15 +1750,17 @@ window.MATERIALS = [
 {
   id: "nextel", cat: "composite", name: "Nextel ceramic fabric",
   sub: "alumina–boria–silica fibre",
-  img: "nextel",
-  hook: "A ceramic you can weave, drape and sew. It takes a flame straight on, which is why it forms the outer layers of spacecraft shielding and furnace curtains.",
+  img: "nextel", extra: ["nextel2"],
+  hook: "Alumina, boria and silica spun into a fibre fine enough to weave, sew and knot. Hold a 1,200 °C flame on the cloth and nothing happens. It wraps the Space Station against debris and hangs in furnaces as a curtain.",
+  more: "3M spins a syrup of aluminium salts into 10-micron filaments and fires them to mullite, or to pure alumina for the composite grade; hundreds make a yarn, woven on a textile loom into cloth, tape and sleeving. Glass fibre melts at 800 °C and silica cloth sags at 1,000; this holds at 1,200. So it is the outer layer of the Station's debris shield, where it bursts a fragment into a cloud for the Kevlar behind to catch, the kiln thermocouple's sleeve, and the fibre in an oxide composite: furnace doors that sit in the fire for years. The costs: tens of dollars a metre; the filaments are ceramic and break when flexed, so it is never worn; above 1,100 °C the grains grow and the strength drains away; and the dust is a respirable fibre, so it is cut masked.",
   stats: [["Continuous use", "1200–1400 °C"], ["Form", "cloth, sleeve, tape"], ["Handling", "like fabric"]],
   uses: "Thermal protection blankets, furnace curtains, CMC preforms, flame barriers."
 },
 {
   id: "syntactic", cat: "composite", name: "Syntactic foam",
-  sub: "glass microballoons in resin", img: "syntactic",
-  hook: "Foam whose bubbles are rigid glass spheres instead of voids. That makes a foam which does not collapse under pressure — the only reason crewed submersibles can float back up.",
+  sub: "glass microballoons in resin", img: "syntactic", extra: ["syntactic2", "syntactic3"],
+  hook: "Hollow glass spheres a tenth of a millimetre across, packed in epoxy. A foam with no void for pressure to squeeze shut, so it floats at full ocean depth and comes back. Before it, Trieste hung from a tank of petrol.",
+  more: "The spheres are borosilicate bubbles 20 to 100 microns across with a wall a micron thick that crush at over a hundred megapascals; stirred 60 per cent by volume into epoxy, they make a solid of 0.5 to 0.7 grams a cubic centimetre the sea cannot compress. A block for 6,000 metres gives half a kilogram of lift a litre; for the Challenger Deep it is denser and gives a third. Alvin floats on it, every working ROV wears it as the yellow top, and Deepsea Challenger was 70 per cent foam by volume. The costs: deeper means denser foam, so the lift fades where it is needed most; the spheres crack a few at a time, the foam drinks water and the vehicle gains weight yearly; the dust is glass; and the cheapest block is ten times the price of a polyurethane foam.",
   stats: [["Density", "0.3–0.7 g/cm³"], ["Depth", "to 11,000 m"], ["Water uptake", "negligible"]],
   uses: "Submersible and ROV buoyancy, riser modules, sandwich cores.",
   link: "https://en.wikipedia.org/wiki/Syntactic_foam"

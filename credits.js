@@ -746,27 +746,75 @@ window.CREDITS = {
   },
   "cc": {
     "file": "cc.jpg",
-    "caption": "Carbon-carbon / carbon-ceramic racing brake",
-    "kind": "photo",
+    "caption": "An A320 carbon brake by Safran: the black stack of rotors and stators is all carbon-carbon, and it is the consumable",
+    "kind": "product",
+    "title": "A320-Carbon-Brake Le Bourget 20110624.jpg",
+    "site": "Wikimedia",
+    "artist": "Tieum512",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A320-Carbon-Brake_Le_Bourget_20110624.jpg",
+    "w": 960,
+    "h": 638
+  },
+  "cc2": {
+    "file": "cc2.jpg",
+    "caption": "A reinforced carbon-carbon leading-edge panel from Atlantis after the Columbia investigation fired foam at it at 850 km/h",
+    "kind": "product",
+    "title": "Impact-test.jpg",
+    "site": "Wikimedia",
+    "artist": "Rick Stiles",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Impact-test.jpg",
+    "w": 960,
+    "h": 642
+  },
+  "cc3": {
+    "file": "cc3.jpg",
+    "caption": "A road-car carbon-ceramic disc: the same carbon preform, but soaked in molten silicon so it can live in air",
+    "kind": "related",
     "title": "Ferrari F430 Challenge Brake.JPG",
+    "site": "Wikimedia",
     "artist": "The359",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Ferrari_F430_Challenge_Brake.JPG",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
   },
   "cmc": {
     "file": "cmc.jpg",
+    "caption": "A SiC/SiC turbine vane at NASA Glenn, 2002: woven carbide fibre in a carbide matrix, the shape of an aerofoil",
+    "kind": "product",
+    "title": "255-GRC-2002-C-01632 SiC-SiC Silicon carbide fiber reinforced silicon carbide.jpg",
+    "site": "Wikimedia",
+    "artist": "Photographer: TOM JARES",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:255-GRC-2002-C-01632_SiC-SiC_Silicon_carbide_fiber_reinforced_silicon_carbide.jpg",
+    "w": 960,
+    "h": 894
+  },
+  "cmc2": {
+    "file": "cmc2.jpg",
     "caption": "SiC/SiC ceramic matrix composite body flaps (X-38)",
-    "kind": "photo",
+    "kind": "product",
     "title": "CMC-X38-Bodyflaps.jpg",
+    "site": "Wikimedia",
     "artist": "Unknown",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:CMC-X38-Bodyflaps.jpg",
     "w": 960,
-    "h": 433,
-    "site": "Wikimedia"
+    "h": 433
+  },
+  "cmc3": {
+    "file": "cmc3.jpg",
+    "caption": "Fibre pull-out in a strained fibre-reinforced silicon nitride: the fibres bridge the crack instead of letting it run",
+    "kind": "structure",
+    "title": "255-GRC-1987-C-01044 Fiber-reinforced ceramic matrix, strain damage (3).jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:255-GRC-1987-C-01044_Fiber-reinforced_ceramic_matrix,_strain_damage_(3).jpg",
+    "w": 960,
+    "h": 939
   },
   "cf": {
     "file": "cf.jpg",
@@ -780,6 +828,18 @@ window.CREDITS = {
     "h": 540,
     "site": "Wikimedia"
   },
+  "cf2": {
+    "file": "cf2.jpg",
+    "caption": "A creel of carbon fibre spools feeding a production line: the tow goes in as yarn and comes out as a part",
+    "kind": "process",
+    "title": "Carbon fiber spools (17264394646).jpg",
+    "site": "Wikimedia",
+    "artist": "Oak Ridge National Laboratory",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carbon_fiber_spools_(17264394646).jpg",
+    "w": 960,
+    "h": 642
+  },
   "syntactic": {
     "file": "syntactic.jpg",
     "caption": "Syntactic foam — glass microballoons in resin",
@@ -791,6 +851,30 @@ window.CREDITS = {
     "w": 960,
     "h": 703,
     "site": "Wikimedia"
+  },
+  "syntactic2": {
+    "file": "syntactic2.jpg",
+    "caption": "Syntactic foam under the electron microscope: glass microballoons packed in epoxy, no open void anywhere",
+    "kind": "structure",
+    "title": "Syntacticfoam.JPG",
+    "site": "Wikimedia",
+    "artist": "Nikgupt at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Syntacticfoam.JPG",
+    "w": 835,
+    "h": 604
+  },
+  "syntactic3": {
+    "file": "syntactic3.jpg",
+    "caption": "Deepsea Challenger, which went to 10,908 m in 2012: the green body is a beam of syntactic foam, 70 per cent of the vehicle",
+    "kind": "product",
+    "title": "Deepsea Challenger - Cité de la Mer-7935.jpg",
+    "site": "Wikimedia",
+    "artist": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Deepsea_Challenger_-_Cit%C3%A9_de_la_Mer-7935.jpg",
+    "w": 960,
+    "h": 1280
   },
   "aerogel": {
     "file": "aerogel.jpg",
@@ -7142,15 +7226,27 @@ window.CREDITS = {
   },
   "nextel": {
     "file": "nextel.jpg",
-    "caption": "A furnace lined with high-temperature insulation wool — Nextel's woven alumina cloth does this job where the lining must also be strong",
-    "kind": "analog",
-    "title": "Industrial furnace equipped with HTIW modules.jpg",
-    "artist": "ANDRITZ Maerz GmbH",
-    "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Industrial_furnace_equipped_with_HTIW_modules.jpg",
-    "w": 640,
-    "h": 480,
-    "site": "Wikimedia"
+    "caption": "A furnace lifting gate of alumina fibre in an alumina matrix at working heat: the oxide composite that alumina fibres like Nextel are woven for",
+    "kind": "related",
+    "title": "Oxid Hubtor heiß.JPG",
+    "site": "Wikimedia",
+    "artist": "Walter E. C. Pritzkow",
+    "license": "GFDL",
+    "page": "https://commons.wikimedia.org/wiki/File:Oxid_Hubtor_hei%C3%9F.JPG",
+    "w": 960,
+    "h": 540
+  },
+  "nextel2": {
+    "file": "nextel2.jpg",
+    "caption": "A flame tube of oxide composite after 15,000 hours in a crispbread oven: alumina fibre cloth, stiffened with a ceramic matrix",
+    "kind": "related",
+    "title": "Flammrohr nach 15000h.jpg",
+    "site": "Wikimedia",
+    "artist": "Walter E.C. Pritzkow Spezialkeramik, Stuttgart",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flammrohr_nach_15000h.jpg",
+    "w": 960,
+    "h": 1280
   },
   "smc": {
     "file": "smc.jpg",

@@ -1236,3 +1236,28 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Bathtub refinishing service with chips.jpg` | a grey before-and-after of a bath |
 | `TiN-SS.jpg`, `TiN coating.jpg` | a gold micrograph and a surface profile; the powder makes the point better |
 | `AlCrTiN-CoatedHob`, `ArcSource SablevType.jpg` | a grey hob, and a line drawing |
+
+
+## Restyle batch, 19 November 2026: cc, cmc, cf, nextel, syntactic
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| A glowing carbon brake or a rocket throat | `carbon brake glowing`, `Formula One brake disc glowing`, `carbon carbon nozzle`, `rocket nozzle carbon`, `Kohlenstoff Bremsscheibe` | nothing; NARA fuel nozzles with soot on them | a night shot of a racing brake, or a throat insert on a bench |
+| A CMC shroud or liner in an engine | `CMC turbine shroud`, `LEAP engine shroud`, `GE9X`, `CMC combustor liner`, `ceramic composite turbine`, `Keramikmatrix Verbundwerkstoff` | 777X roll-outs and a Rafale; the GE parts are not on Commons | a LEAP shroud segment photographed at a show |
+| Pitch fibre by name, or a satellite structure of it | `pitch carbon fiber`, `mesophase pitch`, `carbon fibre satellite structure`, `optical bench carbon fibre`, `CFRP optical bench`, `James Webb backplane`, `Gaia payload module`, `graphite epoxy` | skates, a Starship, Delta boosters; nothing says pitch | a K13D spool, or a thermal strap |
+| Nextel cloth as cloth | `Nextel`, `Nextel 312`, `Nextel fabric`, `ceramic fabric`, `ceramic fiber sleeve`, `Hitzeschutzgewebe`, `Keramikfaser Gewebe`, `3M ceramic fiber` | Nextel phones, medieval potsherds, Tang ladies; the ATV shield photo is already the aramid card's | a roll of 312 cloth, or the Station's shield layers opened |
+| Buoyancy blocks on an ROV | `ROV buoyancy foam`, `submersible buoyancy block`, `riser buoyancy module`, `subsea buoyancy`, `Jason ROV` | Jason from angles where the yellow is a stripe; `Lander Skaff.jpg` shows the white blocks but reads as a crate | a bare foam block on a workshop floor |
+
+| rejected after looking | why |
+|---|---|
+| the Ferrari carbon-ceramic disc as the carbon-carbon face | a different material; kept as third view with an honest caption, the A320 brake is the face |
+| `Frein Airbus A330 A340 ... Bourget` | the housing and pistons, discs hidden |
+| `Concorde brake discs.jpg` | a dark stack inside a wheel, unreadable small |
+| `Tested RCC panel with hole.JPG` | a museum case; `Impact-test.jpg` shows the same hole on the rig |
+| `255-GRC-2002-C-01633 SiC-SiC` | the weave close up, brown; 01632 shows the vane |
+| `Oxid Hubtor kalt.JPG`, `Heißgasventilator.JPG` | the gate cold, and a white fan wheel; the glowing gate is the face |
+| `Ceramic fibre close up 1.jpg`, `Orbiterblanket.lmb.jpg`, `Giotto Whipple shield ESA239195.jpg` | pale fluff, a quilting machine, a spacecraft with no shield visible |
+| `Carbon fibre tows.jpg`, `Carbon fibers objects.jpg` | tows again, bronze; a wallet and a knife |
+| `Shaker test of radiator panel`, `Mercury Planetary Orbiter radiator panel`, `GRAPHITE EPOXY DISK - NARA` | a white panel with people, gold foil, and a black disc on a scale |
+| `Syntaktischer Aluminium-Schaum.jpg`, `Cropped Hollow glass microspheres` | metal foam, and a lovely broken sphere at 867 px; the epoxy micrograph covers it |
+| `Lander Skaff.jpg`, `Limiting Factor on the water surface.jpg` | a lander that reads as a crate, and a white sub with the foam under the skin |
