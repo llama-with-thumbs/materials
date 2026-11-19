@@ -126,6 +126,7 @@ function wheelFor(w) {
       <span class="opts fig-opts" id="wheel-lang" role="group" aria-label="the words on the wheel">
         <button class="opt" type="button" data-lang="en" aria-pressed="true" title="the English wording usually reproduced">english</button>
         <button class="opt" type="button" data-lang="de" aria-pressed="false" title="the German of the 1922 statutes">deutsch</button>
+        <button class="opt" type="button" data-lang="ru" aria-pressed="false" title="Russian in the words of VKhUTEMAS, the Moscow school of 1920 built on the same plan; no translation from the school's own time survives">русский</button>
       </span>
       <span class="tag">wheel</span>
       <div class="wheel-root" id="wheel-root"></div>

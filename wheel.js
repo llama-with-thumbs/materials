@@ -5,7 +5,11 @@
    training with the studies that ran beside it; the seven workshops by their material;
    and building at the centre. Every segment carries what is known about it, and the
    catalogue's own workshop where it has one. Set in the school's lowercase, which Bayer
-   made the rule in 1925: the words are the diagram's, the case is the page's. */
+   made the rule in 1925: the words are the diagram's, the case is the page's. The German is
+   the statutes'. No Russian translation from the school's time could be found; the Russian
+   here follows the vocabulary of VKhUTEMAS, the Moscow school founded in 1920 on the same
+   plan, whose basic department, disciplines of space, colour and composition, and
+   production workshops were the same rings under their own names. */
 
 window.WHEEL = (() => {
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -14,7 +18,7 @@ window.WHEEL = (() => {
   // The segments. ring: 0 centre, 1 workshops, 2 studies, 3 the preliminary course.
   // a0, a1: degrees clockwise from the top. en/de: the words on the diagram, both tongues.
   const SEG = [
-    { key: "bau", ring: 0, en: "building", de: "bau",
+    { key: "bau", ring: 0, en: "building", de: "bau", ru: "строительство",
       sub: "the centre · Bau · site, testing, design, building and engineering science",
       text: [
         "Gropius's programme of 1919 opened with the sentence that the goal of all creative work is the building, and the diagram puts it at the middle, the place a student arrives at last. The four words round it are the diagram's own: the site, meaning a testing ground; testing; design; and building and engineering science.",
@@ -22,7 +26,7 @@ window.WHEEL = (() => {
       ],
       cats: ["composite"], lib: ["gropius1919", "gropius1930bd"] },
 
-    { key: "wood", ring: 1, a0: 0, a1: 360 / 7, en: "wood", de: "holz",
+    { key: "wood", ring: 1, a0: 0, a1: 360 / 7, en: "wood", de: "holz", ru: "дерево",
       sub: "the wood sculpture workshop and the joinery · Weimar 1919, Dessau to 1933",
       text: [
         "Two workshops in Weimar handled wood. The wood sculpture shop carved the whole interior of the Sommerfeld house in 1920 and 1921, the apprentice Joost Schmidt cutting its doors and stair cladding, and made models for the other shops. The joinery was Itten's from 1919 to 1922, Gropius's own from 1922 to 1925, and Marcel Breuer's from 1925 to 1928: the African chair of 1921, the slatted chair of 1924, the furniture of the Haus am Horn, and the stacking tables Thonet put into production in 1929.",
@@ -30,7 +34,7 @@ window.WHEEL = (() => {
       ],
       cats: ["natural"] },
 
-    { key: "metal", ring: 1, a0: 360 / 7, a1: 2 * 360 / 7, en: "metal", de: "metall",
+    { key: "metal", ring: 1, a0: 360 / 7, a1: 2 * 360 / 7, en: "metal", de: "metall", ru: "металл",
       sub: "the metal workshop · 1919 to 1929, then part of the fitting-out workshop",
       text: [
         "It began in the old gold, silver and copper forge of the Weimar art school, with Itten as master of form from 1919 and the silversmith Christian Dell as master of craft from 1922. When Itten left in 1923 László Moholy-Nagy turned the forge into a design laboratory: prototypes for industry, a small production line, and the pieces the school is remembered by, the Bauhaus lamp of 1924 by Wagenfeld and Jucker, Marianne Brandt's tea infuser, Tümpel's and Brandt's ashtrays.",
@@ -38,7 +42,7 @@ window.WHEEL = (() => {
       ],
       cats: ["metal"], lib: ["gropius1925na", "brandt1966"] },
 
-    { key: "textiles", ring: 1, a0: 2 * 360 / 7, a1: 3 * 360 / 7, en: "textiles", de: "gewebe",
+    { key: "textiles", ring: 1, a0: 2 * 360 / 7, a1: 3 * 360 / 7, en: "textiles", de: "gewebe", ru: "ткань",
       sub: "the weaving workshop · 1919 to 1933, the most productive of them all",
       text: [
         "It opened in 1919 with Itten as master of form and Helene Börner teaching the craft until 1925; the women's class, where most women were sent whatever they had asked for, was merged into it in 1920. Georg Muche ran it from 1921 to 1927 and pushed it from the hand loom toward industrial production and the so-called Bauhaus fabrics sold by the metre; Gunta Stölzl, who had taught herself dyeing as a student, led it to 1931, then Lilly Reich.",
@@ -46,7 +50,7 @@ window.WHEEL = (() => {
       ],
       cats: ["fibre", "fabric", "warmth"], lib: ["stolzl1931", "annialbers1965"] },
 
-    { key: "color", ring: 1, a0: 3 * 360 / 7, a1: 4 * 360 / 7, en: "colour", de: "farbe",
+    { key: "color", ring: 1, a0: 3 * 360 / 7, a1: 4 * 360 / 7, en: "colour", de: "farbe", ru: "цвет",
       sub: "the wall-painting workshop · 1920 to 1933, the fitting-out workshop from 1929",
       text: [
         "Colour on the diagram meant the wall-painting workshop: Itten first, Oskar Schlemmer and Wassily Kandinsky from 1922 to 1925, then Hinnerk Scheper, who had trained in it, from 1925 to 1933, with Alfred Arndt standing in while Scheper was in Moscow from 1929 to 1931. It painted the corridors of the Weimar building to Itten's scheme, the murals of the 1923 exhibition, and gave each of the Dessau masters' houses its own colour plan, Scheper letting the building decide where colour went and using it to show the way through.",
@@ -54,7 +58,7 @@ window.WHEEL = (() => {
       ],
       cats: [], lib: ["kandinsky1926"] },
 
-    { key: "glass", ring: 1, a0: 4 * 360 / 7, a1: 5 * 360 / 7, en: "glass", de: "glas",
+    { key: "glass", ring: 1, a0: 4 * 360 / 7, a1: 5 * 360 / 7, en: "glass", de: "glas", ru: "стекло",
       sub: "the glass-painting workshop · Weimar 1920 to 1925",
       text: [
         "Stained glass had its own workshop in Weimar, with Itten and then Paul Klee as masters of form, and Josef Albers, who had arrived as a student in 1920 and built the shop up from salvaged glass, as its craftsman from 1923. It made leaded windows for the Sommerfeld house in 1921 and the Otte house in 1922, and Albers's sandblasted flashed-glass pictures came out of it.",
@@ -62,7 +66,7 @@ window.WHEEL = (() => {
       ],
       cats: ["ceramic"] },
 
-    { key: "clay", ring: 1, a0: 5 * 360 / 7, a1: 6 * 360 / 7, en: "clay", de: "ton",
+    { key: "clay", ring: 1, a0: 5 * 360 / 7, a1: 6 * 360 / 7, en: "clay", de: "ton", ru: "глина",
       sub: "the pottery at Dornburg · 1919 to 1925",
       text: [
         "The pottery opened in 1919 and moved in 1920 to Dornburg an der Saale, twenty kilometres from Weimar, into the stables of a castle, because there was a kiln and a master potter there: Max Krehan, master of craft until 1925, with the sculptor Gerhard Marcks as master of form. Theodor Bogler and Otto Lindig were its apprentices and then its masters.",
@@ -70,7 +74,7 @@ window.WHEEL = (() => {
       ],
       cats: ["ceramic"] },
 
-    { key: "stone", ring: 1, a0: 6 * 360 / 7, a1: 360, en: "stone", de: "stein",
+    { key: "stone", ring: 1, a0: 6 * 360 / 7, a1: 360, en: "stone", de: "stein", ru: "камень",
       sub: "the stone sculpture workshop · Weimar 1919 to 1925",
       text: [
         "Weimar kept separate workshops for stone and for wood, both directed in practice by Itten and then Schlemmer, with the sculptor Josef Hartwig, who carved the Bauhaus chess set of 1924, as the master of craft. The stone shop cut the Monument to the March Dead in the Weimar cemetery in 1921 and 1922 to Gropius's design, and made plaster models for the pottery and fittings for the 1923 exhibition.",
@@ -78,42 +82,42 @@ window.WHEEL = (() => {
       ],
       cats: ["natural"] },
 
-    { key: "nature", ring: 2, a0: 0, a1: 76, en: "study of nature", de: "naturstudium",
+    { key: "nature", ring: 2, a0: 0, a1: 76, en: "study of nature", de: "naturstudium", ru: "изучение натуры",
       sub: "the studies beside the workshop, three years",
       text: [
         "Drawing from nature ran beside the workshop for the whole three years. Itten had students draw a thistle, a plant stem or a block of wood until they had its structure, not its outline; Klee carried on from 1921 with studies of growth and movement; Moholy-Nagy and later Walter Peterhans brought the camera to it. The point was not botany but the habit of looking at how a thing is built before deciding what to make of it."
       ],
       cats: ["natural"] },
 
-    { key: "materials", ring: 2, a0: 76, a1: 150, en: "study of materials", de: "materialkunde",
+    { key: "materials", ring: 2, a0: 76, a1: 150, en: "study of materials", de: "materialkunde", ru: "материаловедение",
       sub: "the studies beside the workshop, three years",
       text: [
         "The science of the workshop's own stuff: what a clay body does in the kiln, what a dye does to wool, what an alloy does under the hammer. In Weimar it was taught by the masters of craft from experience; under Hannes Meyer in Dessau the programme added lectures from outside the school in the sciences and in sociology, on the argument that a designer who could not reckon the material could not design for the factory. This catalogue is a study of materials, and nothing else."
       ],
       cats: ["metal", "ceramic", "polymer"] },
 
-    { key: "space", ring: 2, a0: 150, a1: 224, en: "space study, colour study, composition study", de: "raumlehre, farbenlehre, kompositionslehre",
+    { key: "space", ring: 2, a0: 150, a1: 224, en: "space study, colour study, composition study", de: "raumlehre, farbenlehre, kompositionslehre", ru: "пространство, цвет, композиция",
       sub: "the studies beside the workshop, three years",
       text: [
         "The form teaching proper, the Formlehre: Klee's elementary design theory from 1921 to 1931, which became the Pedagogical Sketchbook of 1925; Kandinsky's colour seminar and analytical drawing from 1922 to 1933, which became Point and Line to Plane in 1926; and Oskar Schlemmer's course on the human figure in 1928 and 1929. Kandinsky's 1923 questionnaire, which gave the yellow to the triangle, the red to the square and the blue to the circle, is the page's own colour rule."
       ],
       cats: ["exotic"], lib: ["klee1925", "kandinsky1926"] },
 
-    { key: "construction", ring: 2, a0: 224, a1: 290, en: "study of construction and representation", de: "konstruktions- und darstellungslehre",
+    { key: "construction", ring: 2, a0: 224, a1: 290, en: "study of construction and representation", de: "konstruktions- und darstellungslehre", ru: "конструкция и изображение",
       sub: "the studies beside the workshop, three years",
       text: [
         "How to draw a thing so that someone else can make it: technical drawing, projection and descriptive geometry, lettering, model building. It was taught by the masters of craft and by the building office, and from 1927 inside the building department; Herbert Bayer's lowercase type and Joost Schmidt's lettering course belong here as much as any machine drawing."
       ],
       cats: ["additive"] },
 
-    { key: "tools", ring: 2, a0: 290, a1: 360, en: "study of materials and tools", de: "material- und werkzeuglehre",
+    { key: "tools", ring: 2, a0: 290, a1: 360, en: "study of materials and tools", de: "material- und werkzeuglehre", ru: "материалы и инструменты",
       sub: "the studies beside the workshop, three years",
       text: [
         "The craft itself, the Werklehre, learned at the bench from the master of craft: warping a loom, turning a pot, raising a bowl, cutting a tenon. A student signed an apprentice's contract, and the three years ended, where the trade allowed it, in the journeyman's examination before the local chamber of crafts, so that a Bauhaus weaver or joiner left with a trade paper as well as a school's. It was the half of the dual mastership that made the school a school and not an academy."
       ],
       cats: ["metal", "natural"] },
 
-    { key: "vorkurs", ring: 3, a0: 0, a1: 100, en: "basic course", de: "vorlehre",
+    { key: "vorkurs", ring: 3, a0: 0, a1: 100, en: "basic course", de: "vorlehre", ru: "основной курс",
       sub: "the preliminary course · half a year, compulsory, from 1919; a full year later",
       twin: { a0: 260, a1: 360 },
       text: [
@@ -122,14 +126,14 @@ window.WHEEL = (() => {
       ],
       cats: ["exotic"], lib: ["itten1961", "albers1963"] },
 
-    { key: "form", ring: 3, a0: 100, a1: 180, en: "elementary study of form", de: "elementare formlehre",
+    { key: "form", ring: 3, a0: 100, a1: 180, en: "elementary study of form", de: "elementare formlehre", ru: "элементарное учение о форме",
       sub: "the first half of the preliminary course",
       text: [
         "Itten's exercises: the contrasts, light against dark, rough against smooth, large against small, drawn until the student could feel them; rhythm studies made with the whole arm; analyses of old paintings for their structure; and breathing and movement before the drawing began. After him the form side passed to Klee's and Kandinsky's theory courses, and Moholy-Nagy's studies of balance and suspended construction."
       ],
       cats: ["exotic"], lib: ["klee1925", "itten1961"] },
 
-    { key: "matstudy", ring: 3, a0: 180, a1: 260, en: "study of materials in the basic workshop", de: "materialstudien in der vorwerkstatt",
+    { key: "matstudy", ring: 3, a0: 180, a1: 260, en: "study of materials in the basic workshop", de: "materialstudien in der vorwerkstatt", ru: "изучение материалов в учебной мастерской",
       sub: "the second half of the preliminary course, and the half this page continues",
       text: [
         "Students handled wood, metal, glass, paper, clay and cloth with simple tools and no product in mind: a sheet of paper folded until it stood up and carried a load, a brass sheet cut and bent into a structure, wood shavings arranged by how they sprang, a study in wire. Albers made this the heart of the course, extended it to as much as eighteen hours a week, and called it a school of invention: the most effect from the least material, energy and time.",
@@ -188,16 +192,16 @@ window.WHEEL = (() => {
     const centre = `<g class="seg centre" data-key="bau" tabindex="0" role="button" aria-label="${esc(word(bau))}: ${esc(bau.sub)}">
       <circle class="area" cx="${C}" cy="${C}" r="${R[0]}"/>
       <text class="big" x="${C}" y="${C - 22}" text-anchor="middle">${esc(word(bau))}</text>
-      <text class="small" x="${C}" y="${C + 2}" text-anchor="middle">${lang === "de" ? "baulehre · versuchsplatz" : "site · testing"}</text>
-      <text class="small" x="${C}" y="${C + 20}" text-anchor="middle">${lang === "de" ? "entwurf" : "design"}</text>
-      <text class="small" x="${C}" y="${C + 38}" text-anchor="middle">${lang === "de" ? "bau- und ingenieurwissen" : "building and engineering science"}</text>
+      <text class="small" x="${C}" y="${C + 2}" text-anchor="middle">${{ de: "baulehre · versuchsplatz", ru: "площадка · испытания" }[lang] || "site · testing"}</text>
+      <text class="small" x="${C}" y="${C + 20}" text-anchor="middle">${{ de: "entwurf", ru: "проект" }[lang] || "design"}</text>
+      <text class="small" x="${C}" y="${C + 38}" text-anchor="middle">${{ de: "bau- und ingenieurwissen", ru: "строительная и инженерная наука" }[lang] || "building and engineering science"}</text>
     </g>`;
     // The two marks at the top: half a year on the outer ring, three years on the studies.
     const marks = `<g class="marks">
       <line x1="${C}" y1="${C - R[3] - 10}" x2="${C}" y2="${C - R[2]}"/>
-      <text x="${C + 7}" y="${C - R[3] + 18}">${lang === "de" ? "½ jahr" : "½ year"}</text>
+      <text x="${C + 7}" y="${C - R[3] + 18}">${{ de: "½ jahr", ru: "½ года" }[lang] || "½ year"}</text>
       <line x1="${C}" y1="${C - R[2]}" x2="${C}" y2="${C - R[1]}"/>
-      <text x="${C + 7}" y="${C - R[2] + 18}">${lang === "de" ? "3 jahre" : "3 years"}</text>
+      <text x="${C + 7}" y="${C - R[2] + 18}">${{ de: "3 jahre", ru: "3 года" }[lang] || "3 years"}</text>
     </g>`;
     const rings = R.map(r => `<circle class="ring" cx="${C}" cy="${C}" r="${r}"/>`).join("");
     return `<svg class="wheel" viewBox="0 0 720 720" role="group" aria-label="the Bauhaus curriculum as a wheel of rings">
@@ -335,7 +339,7 @@ window.WHEEL = (() => {
     const cats = (s.cats || []).map(c => `<a href="${CAT}${c}">${esc(CATS[c] || c)}</a>`).join(", ");
     const lib = (s.lib || []).map(id => LIB.get(id)).filter(Boolean)
       .map(t => `<a href="${CAT}library">${esc(t.author.split(" and ")[0].split(",")[0])}, ${esc(t.english || t.title)}, ${t.year}</a>`).join("; ");
-    return `<p class="no">${esc(["the centre", "workshop", "study", "preliminary course"][s.ring])} · ${esc(s.de)}</p>
+    return `<p class="no">${esc(["the centre", "workshop", "study", "preliminary course"][s.ring])} · ${esc(s.de)} · ${esc(s.ru)}</p>
       <h3>${esc(s.en)}</h3><p class="sub">${esc(s.sub)}</p>
       <div class="facts">${factsHTML(FACTS[s.key] || [])}</div>
       ${full ? s.text.map(t => `<p>${esc(t)}</p>`).join("") : ""}
