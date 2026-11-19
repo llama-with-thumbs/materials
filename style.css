@@ -186,7 +186,10 @@ h1 .dot { color: var(--red); }
 .theme[data-cat="duvet"]::before { background: var(--blue); clip-path: circle(50%); }
 
 /* The week's card: a red square, a number and a name, on its own hairline row. */
+/* The pick of the week is still made, for the link and the hash, but no longer shown:
+   the rule under the controls stands on its own. */
 .week {
+  display: none;
   grid-column: 1 / -1;
   margin: 0;
   padding: 8px 0;
@@ -449,10 +452,18 @@ svg.fig .ax { fill: var(--dim); }
 
 /* ---------- grid ---------- */
 
-main { padding: 20px 0 64px; }
+main { padding: 10px 0 64px; }
 
+/* The count is read to assistive technology and the checks, not shown: the grid starts
+   straight under the rule. */
 #count {
-  margin: 0 0 16px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
   font-size: 13px;
   color: var(--dim);
 }
