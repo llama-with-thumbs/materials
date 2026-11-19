@@ -1211,3 +1211,28 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Uranium glass.jpg`, `Luminescence of various kinds of uranium glass.JPG`, `Uranium Glass Collection.jpg` | more green glow, the face already glows |
 | `Uranovy Kvet v Dennim Svetle.jpg`, `Uranovy Kvet ve Tme po Expozici.jpg` | a glass flower, pretty and shapeless small |
 | `Uranium-glass-necklace.jpg`, `AW U glass bowl on fiestaware plate.jpg` | beads on black, and a cat on an orange plate |
+
+
+## Restyle batch, 19 November 2026: dichroic, photochromic, bonechina, enamel, tincoat
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Dichroic art glass or a pendant | `dichroic glass pendant`, `dichroic glass art`, `dichroitisches Glas` | Roman cage cups and a laser's innards; no fused art glass at all | a kiln-formed dichroic piece photographed on black |
+| A half-darkened photochromic glass lens | `photochromic glass darkened`, `photogrey`, `phototrope Brille`, `Transitions lenses` | the only before-and-after pairs are plastic cycling lenses, used as related | a glass lens with a card half over it in the sun |
+| Bone china translucency | `bone china translucent`, `bone china light through`, `teacup translucent`, `Stoke bone china factory` | an 1894 handbook plate, chicken with chillies and a bulldog | a cup held to a window with a hand behind it |
+| Enamelled steel being fired | `enamelling kiln`, `enameling furnace`, `Emaille Topf`, `enamel steel panel` | a pottery muffle kiln for on-glaze colours, 1912 book plates, an Armco house | a sign coming out of the furnace |
+| A gold TiN drill bit by name | `TiN coated drill`, `titanium nitride drill`, `Bohrer Titannitrid`, `gold coloured drill bit`, `TiN coated tap`, `coated milling cutter` | hand drills from Wuppertal and sawmill catalogues; `Drill tip spur.jpg` is 774 px | a coated twist drill on a white sheet |
+
+| rejected after looking | why |
+|---|---|
+| the Petit Palais Roman goblet as the dichroic face | a grey stone head at card size, no colour anywhere; dropped, the Lycurgus Cup covers the ancient kind |
+| `Dichroic color wheel 75mm ... .webp` set | webp, which the fetch does not handle; the Acer wheel says the same |
+| `DichroicMirrors.JPG`, `Dichroicmirror.JPG` | round filters in a row, and a small blue lens on a mount |
+| `Optical photochromic lenses.jpg`, `PhotochromicLens.jpg` | spectacles half in shadow, which is not darkening; and 918 px |
+| `Teacup, Wedgwood Mariposa`, `Royal Stuart ... plate reverse` | a second cup and saucer, and a backstamp |
+| `Enamel sign ... Sepulkralkultur, Kassel 01`, `Enamel station sign, relocated` | a German text sign and WHARRAM in red; the roundel and the chipped signs say more |
+| `Le Creuset Enamel Cast Iron Cookware.jpg`, `Enamel mug.jpg` | pans on a drying rack, and a mug that reads as any white mug |
+| `Gladstone Enamel Kiln 3861.JPG` | a pottery muffle kiln full of plates, not steel enamelling |
+| `Bathtub refinishing service with chips.jpg` | a grey before-and-after of a bath |
+| `TiN-SS.jpg`, `TiN coating.jpg` | a gold micrograph and a surface profile; the powder makes the point better |
+| `AlCrTiN-CoatedHob`, `ArcSource SablevType.jpg` | a grey hob, and a line drawing |

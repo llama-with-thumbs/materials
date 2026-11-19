@@ -367,10 +367,18 @@ beo3|commons|Philips BGY36 VHF power amplifier module.jpg|A Philips VHF power mo
 uraniumglass|Flickr|https://live.staticflickr.com/3820/13877095484_5fe755a9be_b.jpg|Uranium glass under ultraviolet light; the uranium makes it fluoresce green|product|CC BY 2.0|larry.nutt|https://www.flickr.com/photos/123119224@N04/13877095484
 uraniumglass2|commons|Uranium glass in daylight.JPG|A 1930s Val Saint Lambert dish in daylight: the pale yellow-green that gives the glass away before the lamp does|product
 uraniumglass3|commons|Depression Glass Juicer.jpg|A Depression-era pressed glass juicer: tableware by the tonne with a tenth of a per cent of uranium in it|product
-dichroic|commons|Petit Palais Verre dichroïque Noir souriant 13012018 1.jpg|Dichroic glass|product
-photochromic|commons|Photo Grey glasses, Фото греј наочари.JPG|Photochromic spectacle lenses|product
+dichroic|commons|DLP color wheel front ACER.jpg|The colour wheel out of a DLP projector: six dichroic glass segments that spin between the lamp and the chip for the life of the lamp|product
+dichroic2|commons|Lycurgus Cup red BM MME1958.12-2.1.jpg|The Lycurgus Cup, fourth century: green by reflected light and this red by transmitted, done with gold and silver particles in the glass rather than an oxide stack|related
+dichroic3|commons|Dichroic filter from a DLP projector color wheel.jpg|A dichroic segment at work: the light it will not pass is reflected, not absorbed, and lights the cotton bud in the complementary colour|structure
+photochromic|commons|Photo Grey glasses, Фото греј наочари.JPG|Photochromic spectacles darkened on a beach, sold as Photo Grey: the silver-halide glass kind|product
+photochromic2|commons|ROCKBROS photochromic lens darkened in sunlight.jpg|A photochromic cycling lens in full sun: plastic, with an organic dye doing the glass trick|related
+photochromic3|commons|Photochromic cycling lens in low light conditions.jpg|The same kind of lens at dusk, cleared: what the glass version also does, but for the life of the lens|related
 bonechina|commons|BLW Bone China Chocolate Cup.jpg|A bone china cup|product
-enamel|Flickr|https://live.staticflickr.com/5545/14622677165_532efd3675_b.jpg|A cloisonne bowl: coloured glass fused onto metal between wire cells, the oldest trick in vitreous enamel|product|CC BY 2.0|Scott 97006|https://www.flickr.com/photos/29487672@N07/14622677165
+bonechina2|commons|2025.03.27 Royal Albert Sweet Violets Coffee Cup Soucer Bone China 02.jpg|A Royal Albert coffee cup and saucer: the thin wall and the whiteness the bone ash buys|product
+bonechina3|commons|Teacup (AM 5809-5).jpg|A Royal Stafford bone china cup marked Hotel Auckland, dug up in Parnell with its handle gone: hotelware, which is what the toughness is for|product
+enamel|commons|LU Leytonstone sign.jpg|The enamelled steel roundel at Leytonstone: glass fired onto steel, out in the weather for decades and still glossy|product
+enamel2|commons|Enamel signs at Acle station - geograph.org.uk - 7837436.jpg|Old enamel advertising signs at Acle station: the colours have not faded, and every chip shows rust|product
+enamel3|Flickr|https://live.staticflickr.com/5545/14622677165_532efd3675_b.jpg|A cloisonne bowl: coloured glass fused onto metal between wire cells, the oldest trick in vitreous enamel|product|CC BY 2.0|Scott 97006|https://www.flickr.com/photos/29487672@N07/14622677165
 gfrp|commons|Glass reinforced plastic SEM Stereo 200x.JPG|Glass-reinforced plastic under the electron microscope — fibres embedded in resin|photo
 cfrp|commons|Carbon fibre weave.jpg|Carbon fibre fabric|photo
 alhoneycomb|commons|Glare honeycomb.jpg|Honeycomb core bonded between thin skins|product
@@ -648,6 +656,8 @@ wroughtiron|Flickr|https://live.staticflickr.com/1950/31440405118_bcf4c59f1d_b.j
 wroughtiron2|commons|Menai Bridge Chains - geograph.org.uk - 4636869.jpg|The eyebar chains of the Menai Bridge: Telford's wrought iron of 1826, still hanging|product
 wroughtiron3|commons|Puddled iron Longitudinal direction metallography.PNG|Wrought iron in section, from a 1900s metallurgy text: the dark bands are slag, drawn out along the fibre|structure
 tincoat|commons|TiNCoatedPunches NanoShieldPVD Thailand.JPG|Punches coated with titanium nitride by cathodic arc deposition|photo
+tincoat2|commons|AlTiNCoatedEndmill NanoShieldPVD Thailand.JPG|End mills recoated in aluminium titanium nitride: the dark successor that grows its own oxide skin for hot, dry cutting|related
+tincoat3|commons|Titanium nitride TiN.jpg|Titanium nitride as a powder: brown, not gold; the colour belongs to the thin dense film, not the compound in bulk|related
 lfp|commons|Lithium Iron Phosphate LiFePO4 Cells 400 Ah Amp Hours 3.25 Volts - 1.jpg|400 Ah lithium iron phosphate cells wired into a house battery|product
 rattan|commons|Rattan and Nito.jpg|Rattan and nito woven into baskets and trays, in a Philippine craft display|product
 willow|commons|Weidenkorbflechter Intangible Cultural Heritage of Austria 01.jpg|A giant jug woven from willow rods, outside an Austrian basket maker|product

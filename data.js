@@ -1675,40 +1675,45 @@ window.MATERIALS = [
 },
 {
   id: "dichroic", cat: "ceramic", name: "Dichroic glass",
-  sub: "glass with a vapour-deposited oxide stack", img: "dichroic",
-  hook: "The colour is not a pigment but a stack of oxide layers a few hundred atoms thick, interfering with light. It shows one colour reflected and the complementary one transmitted, and changes as you tilt it. NASA developed it for spacecraft filters.",
+  sub: "glass with a vapour-deposited oxide stack", img: "dichroic", extra: ["dichroic2", "dichroic3"],
+  hook: "Thirty to fifty oxide layers, each thinner than a wavelength, evaporated onto glass in a vacuum. No dye: the colour is interference, so it reflects one colour, passes the complement, and both shift as you tilt it.",
+  more: "Alternate titania and silica, each a quarter wave thick, and the reflections from every boundary add up for one band and cancel for the rest. Nothing is absorbed, so nothing fades or heats: the filter in front of a kilowatt stage lamp lasts where a gel burns through in a night, and a projector's colour wheel spins the same six segments for ten thousand hours. The same stacks make the laser mirror and the microscope's filter cube; NASA bought them for spacecraft and the glass artists took the rejects. The costs: a vacuum run is dear and no two match, so you buy by the batch; the stack is a few hundred nanometres and scratches, so art glass caps it under clear; and the colour moves with angle, the charm in a pendant and a nuisance in a window.",
   stats: [["Layers", "30–50, nanometre scale"], ["Colour source", "interference, not dye"], ["Origin", "NASA optical filters"]],
   uses: "Art glass and jewellery, stage lighting filters, laser mirrors, architectural glazing.",
   link: "https://en.wikipedia.org/wiki/Dichroic_glass"
 },
 {
   id: "photochromic", cat: "ceramic", name: "Photochromic glass",
-  sub: "silver halide microcrystals in glass", img: "photochromic",
-  hook: "Silver halide crystals suspended in the glass split into silver and halogen in sunlight, darkening the lens — and because the glass cage holds both halves in place, they recombine in the shade. The same reaction as photographic film, made reversible.",
+  sub: "silver halide microcrystals in glass", img: "photochromic", extra: ["photochromic2", "photochromic3"],
+  hook: "Silver chloride crystals a few nanometres across, grown in the glass. Sunlight splits them to silver, which is dark; the glass holds the chlorine next door, so in shade they go back. Corning sold it from 1964.",
+  more: "Armistead and Stookey melted a borosilicate with silver halide and a trace of copper, then heat-treated it until crystals of 10 to 20 nanometres grew, too small to scatter light. Ultraviolet knocks an electron over, silver forms and the lens goes grey in a minute; film does the same, but there the halogen escapes and the image is fixed, while here nothing can leave the glass, so warmth drives it back in minutes, for the life of the lens. The costs: it is glass, heavy and breakable; a strong lens is thick in the middle and darkens unevenly; it stays pale in a hot car and idles behind a windscreen, which stops the ultraviolet; and plastic lenses with organic dyes took the market in the 1990s, though the dyes tire in a few years and the glass does not.",
   stats: [["Darkening", "under 60 s"], ["Clearing", "a few minutes"], ["Cycles", "effectively unlimited"]],
   uses: "Sunglass and spectacle lenses, aircraft and architectural glazing.",
   link: "https://en.wikipedia.org/wiki/Photochromic_lens"
 },
 {
   id: "bonechina", cat: "ceramic", name: "Bone china",
-  sub: "~50% calcined bone ash", img: "bonechina",
-  hook: "Half the body is ash from cattle bone, which gives it a translucency and a whiteness no clay alone reaches, and makes a thin-walled cup strong enough to survive a hotel. Fired once hot and glazed once cool — the opposite order to porcelain.",
+  sub: "~50% calcined bone ash", img: "bonechina", extra: ["bonechina2", "bonechina3"],
+  hook: "Half the body is calcined ox bone. Spode fixed the recipe in 1800 because England had no kaolin, and got a china whiter, clearer and tougher than the porcelain it copied. Fired hot first, glazed cool after.",
+  more: "Bone ash is calcium phosphate, and at 1,250 °C it reacts with the clay and Cornish stone into phosphate and anorthite crystals in a glass that scatters so little light you can see a hand through a cup. It also doubles the strength of hard porcelain, which is why a wall a millimetre and a half thick survives a hotel dishwasher. The biscuit firing does the work and the glaze goes on at 1,100 after, a soft glaze on a hard body. The costs: at the top of the biscuit firing the body is a few degrees from slumping, so every piece is fired propped in alumina sand or on its own setter, and some still warp; it shrinks 20 per cent; the soft glaze takes grey cutlery marks; and most of it is now made in China, so the Stoke name on the base is a licence.",
   stats: [["Bone ash", "~50%"], ["Translucency", "you can see a hand through it"], ["Firing", "biscuit high, glaze low"]],
   uses: "Fine tableware, teacups, figurines.",
   link: "https://en.wikipedia.org/wiki/Bone_china"
 },
 {
   id: "enamel", cat: "ceramic", name: "Vitreous enamel",
-  sub: "glass fused to steel or cast iron", img: "enamel",
-  hook: "Powdered glass fired onto metal at 800 °C, so the two expand together for the life of the part. It gives steel a surface that does not fade, scratch or stain — the London Underground's signs are nearly a century old and still look printed yesterday.",
+  sub: "glass fused to steel or cast iron", img: "enamel", extra: ["enamel2", "enamel3"],
+  hook: "Powdered glass dusted onto steel and fired at 800 °C, so the two cool as one and expand together ever after. It will not fade, stain or burn; the Underground's signs are a century old. Chip it and the steel rusts.",
+  more: "The steel is pickled, a ground coat with cobalt oxide in it is fired on at 850 °C so the iron oxide dissolves into the glass and keys it, then the colour coats are fired on over it, a tenth of a millimetre each. The glass is made to expand a little less than the steel, so on cooling it ends in compression and cannot craze, so a 1930 bath still shines and a glass-lined reactor holds acid for decades. The costs: a knock at an edge flakes a chip, the bare steel rusts and there is no repair but paint; hydrogen in the steel blows fish-scale blisters months later, so the sheet is a special decarburised grade; every hole and bend is made before the firing, none after; it is heavy; and powder coat, which does none of this, took the washing machines.",
   stats: [["Fired at", "750–850 °C"], ["Hardness", "~6 Mohs"], ["Weakness", "chips if struck"]],
   uses: "Cookware and sinks, cast iron baths, road and transit signs, cloisonné jewellery.",
   link: "https://en.wikipedia.org/wiki/Vitreous_enamel"
 },
 {
   id: "tincoat", cat: "ceramic", name: "Titanium nitride coating",
-  sub: "a few micrometres, struck on by arc", img: "tincoat",
-  hook: "Two to four micrometres of titanium nitride grown onto a finished tool by striking an arc on a titanium cathode in nitrogen, hot enough to bond but not to ruin the temper underneath. The coating is around three times the hardness of hardened steel and slides better, so the tool keeps its own toughness while the surface takes the wear, and a worn tool can be stripped and recoated rather than scrapped. The gold colour is incidental — a consequence of how its electrons swallow blue light — and hotter cutting has since moved on to aluminium-titanium and aluminium-chromium nitrides, which grow their own oxide skin at the edge.",
+  sub: "a few micrometres, struck on by arc", img: "tincoat", extra: ["tincoat2", "tincoat3"],
+  hook: "Two microns struck onto a finished tool by an arc on a titanium cathode in nitrogen, hot enough to bond, not to draw the temper. Three times the hardness of the steel; the gold is a side effect, and sells the drill.",
+  more: "The arc boils titanium off the cathode as ions, a bias on the tool pulls them in, nitrogen meets them on the surface and a columnar film grows at 450 °C, where the chemical route needs 1,000 and softens any high-speed steel. At 2,300 Vickers it slides on steel chips with half the friction and will not weld to them, so a drill lasts three times as long, or runs faster, and a worn one is stripped and coated again. The costs: it is line of sight, so a deep hole is bare; the cathode spits droplets that roughen it; above 550 °C it oxidises and the edge is gone, so hot dry cutting moved to the aluminium nitrides, which grow their own alumina skin; and the gold on a cheap drill set is a few hundred nanometres of show, gone after one hole in steel.",
   stats: [["Thickness", "2–4 µm"], ["Hardness", "around 2000–2400 HV"], ["Gold colour", "a side effect, not a plating"]],
   uses: "Drills, taps, punches and cutters; injection moulds, medical implants, decorative trim.",
   link: "https://en.wikipedia.org/wiki/Titanium_nitride"

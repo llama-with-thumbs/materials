@@ -4370,19 +4370,43 @@ window.CREDITS = {
   },
   "dichroic": {
     "file": "dichroic.jpg",
-    "caption": "Dichroic glass",
+    "caption": "The colour wheel out of a DLP projector: six dichroic glass segments that spin between the lamp and the chip for the life of the lamp",
     "kind": "product",
-    "title": "Petit Palais Verre dichroïque Noir souriant 13012018 1.jpg",
-    "artist": "Vassil",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Petit_Palais_Verre_dichro%C3%AFque_Noir_souriant_13012018_1.jpg",
+    "title": "DLP color wheel front ACER.jpg",
+    "site": "Wikimedia",
+    "artist": "Chris 73",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DLP_color_wheel_front_ACER.jpg",
     "w": 960,
-    "h": 1313,
-    "site": "Wikimedia"
+    "h": 789
+  },
+  "dichroic2": {
+    "file": "dichroic2.jpg",
+    "caption": "The Lycurgus Cup, fourth century: green by reflected light and this red by transmitted, done with gold and silver particles in the glass rather than an oxide stack",
+    "kind": "related",
+    "title": "Lycurgus Cup red BM MME1958.12-2.1.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown artistUnknown artist",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Lycurgus_Cup_red_BM_MME1958.12-2.1.jpg",
+    "w": 960,
+    "h": 1440
+  },
+  "dichroic3": {
+    "file": "dichroic3.jpg",
+    "caption": "A dichroic segment at work: the light it will not pass is reflected, not absorbed, and lights the cotton bud in the complementary colour",
+    "kind": "structure",
+    "title": "Dichroic filter from a DLP projector color wheel.jpg",
+    "site": "Wikimedia",
+    "artist": "DrTune",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dichroic_filter_from_a_DLP_projector_color_wheel.jpg",
+    "w": 850,
+    "h": 675
   },
   "photochromic": {
     "file": "photochromic.jpg",
-    "caption": "Photochromic spectacle lenses",
+    "caption": "Photochromic spectacles darkened on a beach, sold as Photo Grey: the silver-halide glass kind",
     "kind": "product",
     "title": "Photo Grey glasses, Фото греј наочари.JPG",
     "artist": "Делфина",
@@ -4391,6 +4415,30 @@ window.CREDITS = {
     "w": 960,
     "h": 622,
     "site": "Wikimedia"
+  },
+  "photochromic2": {
+    "file": "photochromic2.jpg",
+    "caption": "A photochromic cycling lens in full sun: plastic, with an organic dye doing the glass trick",
+    "kind": "related",
+    "title": "ROCKBROS photochromic lens darkened in sunlight.jpg",
+    "site": "Wikimedia",
+    "artist": "JaredMcKenzie",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:ROCKBROS_photochromic_lens_darkened_in_sunlight.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "photochromic3": {
+    "file": "photochromic3.jpg",
+    "caption": "The same kind of lens at dusk, cleared: what the glass version also does, but for the life of the lens",
+    "kind": "related",
+    "title": "Photochromic cycling lens in low light conditions.jpg",
+    "site": "Wikimedia",
+    "artist": "JaredMcKenzie",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Photochromic_cycling_lens_in_low_light_conditions.jpg",
+    "w": 960,
+    "h": 720
   },
   "bonechina": {
     "file": "bonechina.jpg",
@@ -4404,8 +4452,56 @@ window.CREDITS = {
     "h": 1280,
     "site": "Wikimedia"
   },
+  "bonechina2": {
+    "file": "bonechina2.jpg",
+    "caption": "A Royal Albert coffee cup and saucer: the thin wall and the whiteness the bone ash buys",
+    "kind": "product",
+    "title": "2025.03.27 Royal Albert Sweet Violets Coffee Cup Soucer Bone China 02.jpg",
+    "site": "Wikimedia",
+    "artist": "Tess Mattew",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025.03.27_Royal_Albert_Sweet_Violets_Coffee_Cup_Soucer_Bone_China_02.jpg",
+    "w": 960,
+    "h": 960
+  },
+  "bonechina3": {
+    "file": "bonechina3.jpg",
+    "caption": "A Royal Stafford bone china cup marked Hotel Auckland, dug up in Parnell with its handle gone: hotelware, which is what the toughness is for",
+    "kind": "product",
+    "title": "Teacup (AM 5809-5).jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teacup_(AM_5809-5).jpg",
+    "w": 960,
+    "h": 720
+  },
   "enamel": {
     "file": "enamel.jpg",
+    "caption": "The enamelled steel roundel at Leytonstone: glass fired onto steel, out in the weather for decades and still glossy",
+    "kind": "product",
+    "title": "LU Leytonstone sign.jpg",
+    "site": "Wikimedia",
+    "artist": "Chris McKenna (user:Thryduulf)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LU_Leytonstone_sign.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "enamel2": {
+    "file": "enamel2.jpg",
+    "caption": "Old enamel advertising signs at Acle station: the colours have not faded, and every chip shows rust",
+    "kind": "product",
+    "title": "Enamel signs at Acle station - geograph.org.uk - 7837436.jpg",
+    "site": "Wikimedia",
+    "artist": "Alan Murray-Rust",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Enamel_signs_at_Acle_station_-_geograph.org.uk_-_7837436.jpg",
+    "w": 960,
+    "h": 646
+  },
+  "enamel3": {
+    "file": "enamel3.jpg",
     "caption": "A cloisonne bowl: coloured glass fused onto metal between wire cells, the oldest trick in vitreous enamel",
     "kind": "product",
     "title": "https://live.staticflickr.com/5545/14622677165_532efd3675_b.jpg",
@@ -7739,6 +7835,30 @@ window.CREDITS = {
     "w": 960,
     "h": 473,
     "site": "Wikimedia"
+  },
+  "tincoat2": {
+    "file": "tincoat2.jpg",
+    "caption": "End mills recoated in aluminium titanium nitride: the dark successor that grows its own oxide skin for hot, dry cutting",
+    "kind": "related",
+    "title": "AlTiNCoatedEndmill NanoShieldPVD Thailand.JPG",
+    "site": "Wikimedia",
+    "artist": "Sunyataburus",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AlTiNCoatedEndmill_NanoShieldPVD_Thailand.JPG",
+    "w": 960,
+    "h": 418
+  },
+  "tincoat3": {
+    "file": "tincoat3.jpg",
+    "caption": "Titanium nitride as a powder: brown, not gold; the colour belongs to the thin dense film, not the compound in bulk",
+    "kind": "related",
+    "title": "Titanium nitride TiN.jpg",
+    "site": "Wikimedia",
+    "artist": "Sa123",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Titanium_nitride_TiN.jpg",
+    "w": 960,
+    "h": 764
   },
   "lfp": {
     "file": "lfp.jpg",
