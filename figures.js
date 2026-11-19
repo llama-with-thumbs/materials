@@ -2,46 +2,64 @@
    data in plates.js, draws the fields as flat polygons, and keeps a readout beside the
    figure that follows the pointer — which field, which phases, what crystal structure,
    the two coordinates under the cursor and, in a two-phase field, the lever rule: how
-   much of each phase and at what composition. A click pins a vertical line, an alloy of
-   that composition, and the readout lists every field it crosses on the way down, with
-   the temperature at each crossing. A figure may declare zooms, each a window on the
-   same data, and the switches above the figure move between them. Nothing here knows
-   about iron; a TTT curve or a copper–zinc diagram is the same code with different data.
+   much of each phase and at what composition, with the tie line drawn across the field.
+   A click pins a vertical line, an alloy of that composition, and the readout lists every
+   field it crosses on the way down, with the temperature at each crossing. A figure may
+   declare zooms, each a window on the same data, and styles, each a convention for
+   drawing the same fields: its own axes, ticks, lettered points, labels and names, the way
+   two textbooks draw one diagram differently. The switches above the figure move between
+   them. Nothing here knows about iron; a TTT curve or a copper–zinc diagram is the same
+   code with different data.
 
    Optional parts of a figure, beyond the shape documented in plates.js:
-     wide: true                     the plate takes the full row, text beside the figure
+     wide: true                     the plate takes the full row, text under the figure
      zooms: [{ name, x: [a, b], y: [a, b], xticks, yticks, labels }]
-     marks: [{ x, y, t, note }]     a lettered point: hover reads its note
+     styles: [{ key, name, title, note, h, x: [a, b], y: [a, b], xticks, yticks, labels,
+                marks, lines, names: { zoneId: "name" },
+                x2: { label, ticks }, y2: { label, ticks } }]   a second axis on top, on the right
+     marks: [{ x, y, t, note, dx, dy }] a lettered point: hover reads its note
      alloys: [{ x, name, id, note }] a composition under the axis: click pins it
      zone.pair: ["left phase", "right phase"]   enables the lever rule in that field
-     line.zoomOnly: true            a rule drawn only inside a zoom */
+     line.zoomOnly: true            a rule drawn only inside a zoom
+     line.only: "key"               a rule drawn only in the style with that key */
 
 window.FIGURES = (() => {
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-  // The viewBox and margins: a wide plate draws a longer figure.
-  const dims = f => f.wide
-    ? { W: 1240, H: 560, ML: 64, MR: 16, MT: 18, MB: 52 }
-    : { W: 720, H: 500, ML: 58, MR: 14, MT: 18, MB: 50 };
-
-  // What the reader has done to each figure: which zoom is showing and where the pin is.
+  // What the reader has done to each figure: the zoom, the style, and the pin.
   const STATE = new Map();
   const state = id => {
     let s = STATE.get(id);
-    if (!s) { s = { zoom: -1, pin: null, alloy: null }; STATE.set(id, s); }
+    if (!s) { s = { zoom: -1, style: 0, pin: null, alloy: null }; STATE.set(id, s); }
     return s;
   };
+  const styleOf = (f, s) => f.styles && f.styles.length ? f.styles[Math.min(s ? s.style : 0, f.styles.length - 1)] : null;
 
-  // The axis ranges in force: the figure's own, or the zoom's window on them.
+  // The viewBox and margins: a wide plate draws a longer figure; a style may ask for a
+  // taller one, and a second axis on top or on the right takes its margin.
+  const dims = (f, s) => {
+    const st = styleOf(f, s);
+    const d = f.wide
+      ? { W: 1240, H: (st && st.h) || 560, ML: 64, MR: 16, MT: 18, MB: 52 }
+      : { W: 720, H: (st && st.h) || 500, ML: 58, MR: 14, MT: 18, MB: 50 };
+    if (st && st.x2) d.MT = 44;
+    if (st && st.y2) d.MR = 66;
+    return d;
+  };
+
+  // The axis ranges in force: the figure's own, the style's, or the zoom's window on them.
   const range = (f, s) => {
     const z = s && s.zoom >= 0 && f.zooms ? f.zooms[s.zoom] : null;
-    return { x: z && z.x ? z.x : f.x, y: z && z.y ? z.y : f.y, zoom: z };
+    const st = styleOf(f, s);
+    const x = z && z.x ? z.x : (st && st.x) || f.x;
+    const y = z && z.y ? z.y : (st && st.y) || f.y;
+    return { x, y, zoom: z, style: st };
   };
 
   // Scales map axis units to pixels. An axis marked log (f.xlog / f.ylog) is placed by the
   // base-ten logarithm of the value, so a density or a modulus can run over many decades.
   const scales = (f, s) => {
-    const { W, H, ML, MR, MT, MB } = dims(f);
+    const { W, H, ML, MR, MT, MB } = dims(f, s);
     const r = range(f, s);
     const [x0, x1] = r.x, [y0, y1] = r.y;
     const lx = !!f.xlog, ly = !!f.ylog;
@@ -52,8 +70,8 @@ window.FIGURES = (() => {
     const sy = v => H - MB - (gy(v) - Y0) / (Y1 - Y0) * (H - MT - MB);
     const ux = px => hx(X0 + (px - ML) / (W - ML - MR) * (X1 - X0));
     const uy = py => hy(Y0 + (H - MB - py) / (H - MT - MB) * (Y1 - Y0));
-    const inX = v => v >= Math.min(x0, x1) && v <= Math.max(x0, x1);
-    const inY = v => v >= Math.min(y0, y1) && v <= Math.max(y0, y1);
+    const inX = v => v >= Math.min(x0, x1) - 1e-9 && v <= Math.max(x0, x1) + 1e-9;
+    const inY = v => v >= Math.min(y0, y1) - 1e-9 && v <= Math.max(y0, y1) + 1e-9;
     return { sx, sy, ux, uy, inX, inY, r };
   };
 
@@ -67,23 +85,26 @@ window.FIGURES = (() => {
   // The figure as an SVG string, so it can live inside the card HTML.
   function svg(id, f) {
     const s = state(id);
-    const { W, H, ML, MR, MT, MB } = dims(f);
+    const { W, H, ML, MR, MT, MB } = dims(f, s);
     const { sx, sy, inX, inY, r } = scales(f, s);
+    const st = r.style, sk = st ? st.key : null;
     const pts = a => a.map(([x, y]) => `${sx(x).toFixed(1)},${sy(y).toFixed(1)}`).join(" ");
     const clip = `clip-${String(id).replace(/[^a-z0-9]/gi, "")}`;
+    const yb = H - MB;
     const zones = f.zones.map((z, i) =>
       `<polygon class="zone ${z.one ? "one" : "two"}" data-zone="${i}" points="${pts(z.pts)}"><title>${esc(z.name)}</title></polygon>`).join("");
-    const lines = (f.lines || []).filter(l => !l.zoomOnly || r.zoom).map(l =>
+    const lineSet = (f.lines || []).concat(st && st.lines ? st.lines : []);
+    const lines = lineSet.filter(l => (!l.zoomOnly || r.zoom) && (!l.only || l.only === sk)).map(l =>
       `<polyline class="rule${l.red ? " red" : ""}${l.dashed ? " dashed" : ""}" points="${pts(l.pts)}"/>`).join("");
-    const labelSet = r.zoom && r.zoom.labels ? r.zoom.labels : (f.labels || []);
+    const labelSet = r.zoom ? (st && st.zoomLabels ? st.zoomLabels : (r.zoom.labels || [])) : (st && st.labels ? st.labels : (f.labels || []));
     const labels = labelSet.filter(([x, y]) => inX(x) && inY(y)).map(([x, y, t]) =>
       `<text class="lab" x="${sx(x).toFixed(1)}" y="${sy(y).toFixed(1)}">${esc(t)}</text>`).join("");
     // Lettered points: a small ring and its letter, read out under the pointer.
-    const marks = (f.marks || []).map((m, i) => !(inX(m.x) && inY(m.y)) ? "" :
+    const markSet = st && st.marks ? st.marks : (f.marks || []);
+    const marks = markSet.map((m, i) => !(inX(m.x) && inY(m.y)) ? "" :
       `<g class="mark" data-mark="${i}"><circle cx="${sx(m.x).toFixed(1)}" cy="${sy(m.y).toFixed(1)}" r="3.6"/>` +
       `<text class="mk" x="${(sx(m.x) + (m.dx || 6)).toFixed(1)}" y="${(sy(m.y) + (m.dy || -5)).toFixed(1)}">${esc(m.t)}</text></g>`).join("");
     // Compositions worth knowing, as small triangles standing on the axis; a click pins one.
-    const yb = H - MB;
     const alloys = (f.alloys || []).map((a, i) => !inX(a.x) ? "" :
       `<polygon class="alloy${s.alloy === i ? " on" : ""}" data-alloy="${i}" points="${sx(a.x).toFixed(1)},${yb - 1} ${(sx(a.x) - 7).toFixed(1)},${yb - 13} ${(sx(a.x) + 7).toFixed(1)},${yb - 13}"><title>${esc(a.name)}</title></polygon>`).join("");
     // The pin: a vertical line at the fixed composition, labelled at the top.
@@ -94,34 +115,52 @@ window.FIGURES = (() => {
     // A points layer: each material a dot, carrying data-goto so a click opens its card.
     const points = (f.points || []).map((p, i) =>
       `<circle class="pt" data-pt="${i}"${p.id ? ` data-goto="${esc(p.id)}"` : ""} cx="${sx(p.x).toFixed(1)}" cy="${sy(p.y).toFixed(1)}" r="4.5"><title>${esc(p.name)}</title></circle>`).join("");
-    const xticks = (r.zoom && r.zoom.xticks ? r.zoom.xticks : (f.xticks || [])).filter(([v]) => inX(v));
-    const yticks = (r.zoom && r.zoom.yticks ? r.zoom.yticks : (f.yticks || [])).filter(([v]) => inY(v));
+    const xticks = (r.zoom && r.zoom.xticks ? r.zoom.xticks : (st && st.xticks) || f.xticks || []).filter(([v]) => inX(v));
+    const yticks = (r.zoom && r.zoom.yticks ? r.zoom.yticks : (st && st.yticks) || f.yticks || []).filter(([v]) => inY(v));
     const xt = xticks.map(([v, t]) =>
       `<line class="tick" x1="${sx(v).toFixed(1)}" y1="${yb}" x2="${sx(v).toFixed(1)}" y2="${yb + 5}"/>` +
       `<text class="tk" x="${sx(v).toFixed(1)}" y="${yb + 18}" text-anchor="middle">${esc(t)}</text>`).join("");
     const yt = yticks.map(([v, t]) =>
       `<line class="tick" x1="${ML - 5}" y1="${sy(v).toFixed(1)}" x2="${ML}" y2="${sy(v).toFixed(1)}"/>` +
       `<text class="tk" x="${ML - 8}" y="${(sy(v) + 4).toFixed(1)}" text-anchor="end">${esc(t)}</text>`).join("");
+    // The second axes a style may draw: along the top and down the right.
+    let x2 = "", y2 = "";
+    if (st && st.x2 && !r.zoom) {
+      x2 = st.x2.ticks.filter(([v]) => inX(v)).map(([v, t]) =>
+        `<line class="tick" x1="${sx(v).toFixed(1)}" y1="${MT}" x2="${sx(v).toFixed(1)}" y2="${MT - 5}"/>` +
+        `<text class="tk" x="${sx(v).toFixed(1)}" y="${MT - 9}" text-anchor="middle">${esc(t)}</text>`).join("") +
+        `<text class="ax" x="${ML}" y="${MT - 26}">${esc(st.x2.label)}</text>`;
+    }
+    if (st && st.y2 && !r.zoom) {
+      const xr = W - MR;
+      y2 = st.y2.ticks.filter(([v]) => inY(v)).map(([v, t]) =>
+        `<line class="tick" x1="${xr}" y1="${sy(v).toFixed(1)}" x2="${xr + 5}" y2="${sy(v).toFixed(1)}"/>` +
+        `<text class="tk" x="${xr + 8}" y="${(sy(v) + 4).toFixed(1)}">${esc(t)}</text>`).join("") +
+        `<text class="ax" x="${W - 12}" y="${(MT + yb) / 2}" text-anchor="middle" transform="rotate(90 ${W - 12} ${(MT + yb) / 2})">${esc(st.y2.label)}</text>`;
+    }
     return `<svg class="fig${f.wide ? " wide" : ""}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(f.x[2])} against ${esc(f.y[2])}" data-fig="${esc(id)}">
       <defs><clipPath id="${clip}"><rect x="${ML}" y="${MT}" width="${W - ML - MR}" height="${H - MT - MB}"/></clipPath></defs>
       <g class="zones" clip-path="url(#${clip})">${zones}</g>
       <g class="rules" clip-path="url(#${clip})">${lines}</g>
       <rect class="frame" x="${ML}" y="${MT}" width="${W - ML - MR}" height="${H - MT - MB}"/>
-      ${xt}${yt}<g class="points">${points}</g><g class="labels" clip-path="url(#${clip})">${labels}</g>
-      <g class="marks" clip-path="url(#${clip})">${marks}</g><g class="alloys">${alloys}</g>${pin}
+      ${xt}${yt}${x2}${y2}<g class="points">${points}</g><g class="labels" clip-path="url(#${clip})">${labels}</g>
+      <g class="marks">${marks}</g><g class="alloys">${alloys}</g>${pin}
       <g class="hover" clip-path="url(#${clip})"></g>
       <text class="ax" x="${(ML + (W - MR)) / 2}" y="${H - 8}" text-anchor="middle">${esc(f.x[2])}</text>
-      <text class="ax" x="14" y="${(MT + H - MB) / 2}" text-anchor="middle" transform="rotate(-90 14 ${(MT + H - MB) / 2})">${esc(f.y[2])}</text>
+      <text class="ax" x="14" y="${(MT + yb) / 2}" text-anchor="middle" transform="rotate(-90 14 ${(MT + yb) / 2})">${esc(f.y[2])}</text>
     </svg>`;
   }
 
-  // The switches above a figure that declares zooms: the whole figure, then each window.
+  // The switches above a figure: the whole figure and each zoom; then each style.
   function controlsHTML(id, f) {
-    if (!f.zooms || !f.zooms.length) return "";
+    const hasZ = f.zooms && f.zooms.length, hasS = f.styles && f.styles.length > 1;
+    if (!hasZ && !hasS) return "";
     const s = state(id);
-    const b = (i, word, title) =>
-      `<button class="opt" data-zoom="${i}" aria-pressed="${s.zoom === i ? "true" : "false"}" title="${esc(title)}">${esc(word)}</button>`;
-    return `<span class="opts fig-opts">${b(-1, "whole", "the whole diagram")}${f.zooms.map((z, i) => b(i, z.name, z.title || z.name)).join("")}</span>`;
+    const b = (attr, i, on, word, title) =>
+      `<button class="opt" data-${attr}="${i}" aria-pressed="${on ? "true" : "false"}" title="${esc(title)}">${esc(word)}</button>`;
+    const zooms = hasZ ? b("zoom", -1, s.zoom === -1, "whole", "the whole diagram") + f.zooms.map((z, i) => b("zoom", i, s.zoom === i, z.name, z.title || z.name)).join("") : "";
+    const styles = hasS ? (hasZ ? `<i class="sep"></i>` : "") + f.styles.map((z, i) => b("style", i, s.style === i, z.name, z.title || z.name)).join("") : "";
+    return `<span class="opts fig-opts">${zooms}${styles}</span>`;
   }
 
   // Ray casting: which zone holds the point, in axis units.
@@ -194,6 +233,9 @@ window.FIGURES = (() => {
     return `${pct(1 - L.fr)} % ${z.pair[0]} at ${fmt(L.left, sp)} ${u}, ${pct(L.fr)} % ${z.pair[1]} at ${fmt(L.right, sp)} ${u}`;
   };
 
+  // A field's name, with the name the current style gives it where that differs.
+  const zoneName = (z, st) => st && st.names && st.names[z.id] ? `${z.name} · ${st.names[z.id]}` : z.name;
+
   // The pinned alloy's way down the diagram, as a list under the readout rows.
   function pathHTML(f, s) {
     if (!s || s.pin == null) return "";
@@ -213,6 +255,7 @@ window.FIGURES = (() => {
 
   function readoutHTML(f, z, x, y, s, mark) {
     if (f.points && f.points.length) return pointReadoutHTML(f, null);
+    const st = styleOf(f, s);
     const at = x == null ? "" : `${fmt(x, f.x[1] - f.x[0])} ${esc(f.x[2])}, ${fmt(y, f.y[1] - f.y[0])} ${esc(f.y[2])}`;
     let v;
     if (mark) {
@@ -220,37 +263,38 @@ window.FIGURES = (() => {
       v = { zone: `point ${mark.t}`, at: `${fmt(mark.x, f.x[1] - f.x[0])} ${esc(f.x[2])}, ${fmt(mark.y, f.y[1] - f.y[0])} ${esc(f.y[2])}`,
             phases: zz ? zz.phases : "", lever: "", structure: zz ? zz.structure : "", note: mark.note };
     } else if (z) {
-      v = { zone: z.name, at, phases: z.phases, lever: leverText(f, z, x, y), structure: z.structure, note: z.note };
+      v = { zone: zoneName(z, st), at, phases: z.phases, lever: leverText(f, z, x, y), structure: z.structure, note: z.note };
     } else {
-      v = { zone: "point at a field", at: "", phases: "", lever: "", structure: "",
-            note: "the readout follows the pointer: which field, which phases, the lever rule in a two-phase field, the crystal structure, and the "
+      v = { zone: st && f.styles.length > 1 ? `drawn as ${st.name}` : "point at a field", at: "", phases: "", lever: "", structure: "",
+            note: (st && st.note ? st.note + " " : "") + "the readout follows the pointer: which field, which phases, the lever rule in a two-phase field, the crystal structure, and the "
               + axName(f.y[2]) + " and " + axName(f.x[2]) + " under the cursor; the lettered points read their names; click to pin a composition and follow it down" };
     }
     return rows.map(([label, k]) => `<div class="ro"><b>${label}</b><span>${esc(v[k] || "")}</span></div>`).join("") + pathHTML(f, s);
   }
 
   // Pointer position in pixels of the viewBox, and in axis units, or null outside the field.
-  function px(svgEl, f, clientX, clientY) {
-    const { W, H } = dims(f);
+  function px(svgEl, f, s, clientX, clientY) {
+    const { W, H } = dims(f, s);
     const r = svgEl.getBoundingClientRect();
     return [(clientX - r.left) / r.width * W, (clientY - r.top) / r.height * H];
   }
   function at(svgEl, f, clientX, clientY, s) {
-    const { W, H, ML, MR, MT, MB } = dims(f);
-    const [x, y] = px(svgEl, f, clientX, clientY);
+    const { W, H, ML, MR, MT, MB } = dims(f, s);
+    const [x, y] = px(svgEl, f, s, clientX, clientY);
     if (x < ML || x > W - MR || y < MT || y > H - MB) return null;
     const { ux, uy } = scales(f, s);
     return [ux(x), uy(y)];
   }
 
-  // The hover lines: hairlines from the pointer to both axes and, in a two-phase field,
-  // the tie line across it with its two ends, which are the compositions the lever rule reads.
+  // The hover lines: a hairline from the pointer down to the composition axis and, in a
+  // two-phase field, the tie line across it with its two ends, which are the compositions
+  // the lever rule reads.
   function hoverSVG(f, s, u, z) {
     if (!u) return "";
-    const { W, H, ML, MR, MT, MB } = dims(f);
+    const { H, MB } = dims(f, s);
     const { sx, sy } = scales(f, s);
     const qx = sx(u[0]).toFixed(1), qy = sy(u[1]).toFixed(1);
-    let out = `<line class="hair" x1="${ML}" y1="${qy}" x2="${W - MR}" y2="${qy}"/><line class="hair" x1="${qx}" y1="${MT}" x2="${qx}" y2="${H - MB}"/>`;
+    let out = `<line class="hair" x1="${qx}" y1="${qy}" x2="${qx}" y2="${H - MB}"/>`;
     const L = z ? lever(z, u[0], u[1]) : null;
     if (L) out += `<line class="tie" x1="${sx(L.left).toFixed(1)}" y1="${qy}" x2="${sx(L.right).toFixed(1)}" y2="${qy}"/>` +
       `<circle class="tie-end" cx="${sx(L.left).toFixed(1)}" cy="${qy}" r="3.6"/><circle class="tie-end" cx="${sx(L.right).toFixed(1)}" cy="${qy}" r="3.6"/>`;
@@ -260,7 +304,7 @@ window.FIGURES = (() => {
   // The readout belongs to the plate, beside or under the figure.
   const outFor = svgEl => (svgEl.closest(".card") || svgEl.parentNode).querySelector(".readout");
 
-  // Draw the figure again in place, after a zoom or a pin, and refresh the readout.
+  // Draw the figure again in place, after a zoom, a style or a pin, and refresh the readout.
   function redraw(fig, p) {
     const svgEl = fig.querySelector("svg.fig");
     if (svgEl) svgEl.outerHTML = svg(p.id, p.figure);
@@ -268,6 +312,7 @@ window.FIGURES = (() => {
     if (out) out.innerHTML = readoutHTML(p.figure, null, null, null, state(p.id));
     const s = state(p.id);
     for (const b of fig.querySelectorAll("[data-zoom]")) b.setAttribute("aria-pressed", String(+b.dataset.zoom === s.zoom));
+    for (const b of fig.querySelectorAll("[data-style]")) b.setAttribute("aria-pressed", String(+b.dataset.style === s.style));
   }
 
   // One delegated listener per container; the cards are re-inserted on every render,
@@ -287,7 +332,7 @@ window.FIGURES = (() => {
       if (!p || !out) return;
       const f = p.figure, s = state(p.id);
       clear();
-      const [qx, qy] = px(svgEl, f, e.clientX, e.clientY);
+      const [qx, qy] = px(svgEl, f, s, e.clientX, e.clientY);
       const sc = scales(f, s);
       // A scatter: light the nearest dot within reach, and read it out.
       if (f.points && f.points.length) {
@@ -302,8 +347,9 @@ window.FIGURES = (() => {
         return;
       }
       // A lettered point within reach takes precedence over the field under it.
+      const st = styleOf(f, s), markSet = st && st.marks ? st.marks : (f.marks || []);
       let mi = -1, md = 144;
-      (f.marks || []).forEach((m, i) => {
+      markSet.forEach((m, i) => {
         if (!(sc.inX(m.x) && sc.inY(m.y))) return;
         const dx = sc.sx(m.x) - qx, dy = sc.sy(m.y) - qy, d = dx * dx + dy * dy;
         if (d < md) { md = d; mi = i; }
@@ -315,7 +361,7 @@ window.FIGURES = (() => {
       if (mi >= 0) {
         hot = svgEl.querySelector(`[data-mark="${mi}"]`);
         if (hot) hot.classList.add("hot");
-        out.innerHTML = readoutHTML(f, z, u && u[0], u && u[1], s, f.marks[mi]);
+        out.innerHTML = readoutHTML(f, z, u && u[0], u && u[1], s, markSet[mi]);
         return;
       }
       if (z) {
@@ -327,13 +373,14 @@ window.FIGURES = (() => {
     const click = e => {
       const fig = e.target.closest && e.target.closest(".figure");
       if (!fig) return;
-      const zb = e.target.closest("[data-zoom]");
+      const zb = e.target.closest("[data-zoom]"), sb = e.target.closest("[data-style]");
       const svgEl = fig.querySelector("svg.fig");
       if (!svgEl) return;
       const p = byId.get(svgEl.dataset.fig);
       if (!p) return;
       const f = p.figure, s = state(p.id);
       if (zb) { s.zoom = +zb.dataset.zoom; clear(); redraw(fig, p); return; }
+      if (sb) { s.style = +sb.dataset.style; clear(); redraw(fig, p); return; }
       if (f.points && f.points.length) return;        // a scatter's dots are links, handled elsewhere
       const al = e.target.closest(".alloy");
       if (al) {
@@ -345,7 +392,7 @@ window.FIGURES = (() => {
       const u = at(svgEl, f, e.clientX, e.clientY, s);
       if (!u) return;
       const sc = scales(f, s);
-      const [qx] = px(svgEl, f, e.clientX, e.clientY);
+      const [qx] = px(svgEl, f, s, e.clientX, e.clientY);
       // A click near a marked composition takes that composition.
       let ai = -1, ad = 81;
       (f.alloys || []).forEach((a, i) => { const d = (sc.sx(a.x) - qx) ** 2; if (sc.inX(a.x) && d < ad) { ad = d; ai = i; } });

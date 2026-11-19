@@ -92,6 +92,23 @@ for (const p of P) {
       else if (!(inAxes(z.x[0], z.y[0]) && inAxes(z.x[1], z.y[1]) && z.x[0] < z.x[1] && z.y[0] < z.y[1])) fail("zoom " + z.name + " on plate " + p.id + " is not a window inside the axes");
       for (const [x, y, t] of z.labels || []) if (!(typeof x === "number" && typeof y === "number" && t)) fail("bad label in zoom " + z.name + " on plate " + p.id);
     }
+    const tickOk = t => Array.isArray(t) && t.every(([v, l]) => typeof v === "number" && typeof l === "string" && !/"/.test(l));
+    for (const st of f.styles || []) {
+      if (!(st.key && st.name && /^[a-z0-9]+$/.test(st.key))) fail("style on plate " + p.id + " needs a lower-case key and a name");
+      for (const k of ["xticks", "yticks"]) if (st[k] && !tickOk(st[k])) fail("bad " + k + " in style " + st.key + " on plate " + p.id);
+      for (const k of ["x2", "y2"]) if (st[k] && !(st[k].label && tickOk(st[k].ticks))) fail("bad " + k + " in style " + st.key + " on plate " + p.id);
+      if (st.y && !(inAxes(f.x[0], st.y[0]) && inAxes(f.x[0], st.y[1]) && st.y[0] < st.y[1])) fail("style " + st.key + " on plate " + p.id + " leaves the y axis");
+      if (st.x && !(inAxes(st.x[0], f.y[0]) && inAxes(st.x[1], f.y[0]) && st.x[0] < st.x[1])) fail("style " + st.key + " on plate " + p.id + " leaves the x axis");
+      for (const m of st.marks || []) {
+        if (!(m.t && m.note && typeof m.x === "number" && typeof m.y === "number")) fail("mark in style " + st.key + " on plate " + p.id + " needs t, note and numeric x, y");
+        else if (!inAxes(m.x, m.y)) fail("mark " + m.t + " in style " + st.key + " on plate " + p.id + " leaves the axes");
+        if (/"/.test((m.t || "") + (m.note || ""))) fail("double quote in mark " + m.t + " of style " + st.key + " on plate " + p.id);
+      }
+      for (const [x, y, t] of st.labels || []) if (!(typeof x === "number" && typeof y === "number" && t && !/"/.test(t))) fail("bad label in style " + st.key + " on plate " + p.id);
+      for (const l of st.lines || []) for (const [x, y] of l.pts || []) if (!inAxes(x, y)) fail("a line in style " + st.key + " on plate " + p.id + " leaves the axes");
+      for (const k of Object.keys(st.names || {})) if (!(f.zones || []).some(z => z.id === k)) fail("style " + st.key + " on plate " + p.id + " names a zone that does not exist: " + k);
+      if (/"/.test((st.title || "") + (st.note || ""))) fail("double quote in style " + st.key + " on plate " + p.id);
+    }
     for (const z of f.zones || []) {
       if (z.pair && !(Array.isArray(z.pair) && z.pair.length === 2 && z.pair.every(n => typeof n === "string" && n))) fail("zone " + z.id + " on plate " + p.id + " has a pair that is not two names");
       if (z.pair && z.one) fail("zone " + z.id + " on plate " + p.id + " is one phase and has a lever pair");

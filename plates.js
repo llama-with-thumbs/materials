@@ -10,7 +10,7 @@
        zones: [{ id, name, phases, structure, note, one: true|false, pts: [[x, y], ...] }],
        lines: [
       { pts: [P, K], red: true },                                          // A1, the eutectoid line
-      { pts: [[0, 770], [0.76, 770]], dashed: true },                      // A2, the Curie line
+      { pts: [[0, 770], [0.76, 770]], dashed: true, only: "asm" },         // A2, the Curie line, 770 °C in the western books
       { pts: [[2.14, 0], [2.14, 1147]], dashed: true },                    // steel on the left, iron on the right
       { pts: [[0.02, 738], [2.2, 738]], dashed: true, zoomOnly: true },    // the stable graphite eutectoid, 11 °C above the carbide one
       { pts: [[2.0, 1154], [2.2, 1154]], dashed: true, zoomOnly: true }    // the stable graphite eutectic, at the edge of the zoom
@@ -65,6 +65,56 @@ const FEC = (() => {
       { x: 1.5, name: "wootz, the Damascus steel", id: "damascus", note: "hypereutectoid: the carbide that the smith bands into the pattern" },
       { x: 3.3, name: "grey cast iron", id: "greyiron", note: "on this diagram it would freeze to ledeburite; in the foundry the carbon comes out as graphite flakes instead" },
       { x: 4.3, name: "eutectic cast iron", note: "the lowest melting point in the system, 1147 °C: the composition that pours best" }
+    ],
+    // Two ways the same fields are drawn. The western textbook (Callister, the ASM Handbook,
+    // the MIT metallurgy course that assigns Callister's figure 9.24) runs 0 to 1600 °C with
+    // Fahrenheit down the right and atom per cent along the top, names the fields by phase
+    // (α, γ, δ, L, Fe₃C) and reads 1538, 1495, 1394, 912, 727 and 0.76. The Soviet textbook
+    // (Gulyaev, and every Russian course since) cuts the figure at 600 °C, runs per cent
+    // cementite along the top, letters the points A to Q with M, O and L, names the fields by
+    // structure (Ж, А, Ф, Ц, П, Л) and reads 1539, 1499, 1392, 911, 727 and 0.8. The fields are
+    // the same polygons; what changes is the frame, the ticks, the letters and the names.
+    styles: [
+      { key: "asm", name: "ASM", title: "as Callister and the ASM Handbook draw it: 0 to 1600 °C, Fahrenheit on the right, atom per cent on top, fields named by phase",
+        note: "The western frame: 0 to 1600 °C, a long landscape, Fahrenheit down the right and atom per cent along the top; fields named by their phases; 1538, 1495, 1394, 912 and 0.76.",
+        x2: { label: "carbon, atom %", ticks: [[0, "0"], [1.12, "5"], [2.33, "10"], [3.66, "15"], [5.10, "20"]] },
+        y2: { label: "temperature, °F", ticks: [[260, "500"], [537.8, "1000"], [815.6, "1500"], [1093.3, "2000"], [1371.1, "2500"]] } },
+      { key: "gost", name: "ГОСТ", title: "as Gulyaev and the Soviet textbooks draw it: cut at 600 °C, per cent cementite on top, the points lettered A to Q, the fields named by their structures",
+        note: "The Soviet frame: nothing below 600 °C, so the steel fields stand taller; per cent cementite along the top; the points lettered A to Q with M, O and L; the fields named by structure, Ж А Ф Ц П Л; 1539, 1499, 1392, 911, 768 and 0.8.",
+        h: 860, y: [600, 1600],
+        xticks: [[0, "0"], [0.8, "0,8"], [1, "1"], [2, "2"], [2.14, "2,14"], [3, "3"], [3.5, "3,5"], [4, "4"], [4.3, "4,3"], [5, "5"], [6, "6"], [6.67, "6,67"]],
+        yticks: [[600, "600"], [700, "700"], [727, "727"], [800, "800"], [911, "911"], [1000, "1000"], [1100, "1100"], [1147, "1147"], [1200, "1200"], [1300, "1300"], [1392, "1392"], [1499, "1499"], [1539, "1539"], [1600, "1600"]],
+        x2: { label: "цементит, %", ticks: [[0, "0"], [0.667, "10"], [1.334, "20"], [2.001, "30"], [2.668, "40"], [3.335, "50"], [4.002, "60"], [4.669, "70"], [5.336, "80"], [6.003, "90"], [6.67, "100"]] },
+        lines: [
+          { pts: [[0, 768], [0.5, 768]], dashed: true },        // MO, the Curie line at the Soviet 768 °C
+          { pts: [[0.8, 600], [0.8, 727]], dashed: true },      // the pearlite composition
+          { pts: [[4.3, 600], [4.3, 1147]], dashed: true }      // the ledeburite composition
+        ],
+        labels: [[3.2, 1440, "Жидкость (Ж)"], [1.4, 1290, "Ж + А"], [5.3, 1225, "Ж + Ц(I)"], [0.9, 1010, "Аустенит (А)"],
+          [2.4, 950, "А + Ц(II) + Л (А + Ц)"], [4.8, 950, "Ц(I) + Л (А + Ц)"], [0.17, 835, "А + Ф"], [1.25, 830, "А + Ц(II)"],
+          [0.25, 650, "Ф + П"], [1.1, 650, "П + Ц(II)"], [2.4, 650, "П + Ц(II) + Л (П + Ц)"], [4.8, 650, "Ц(I) + Л (П + Ц)"],
+          [0.83, 700, "перлит"], [4.33, 1060, "ледебурит"], [0.05, 1455, "Ф(δ)"], [2.2, 1185, "ECF, 1147 °C"], [2.4, 745, "PSK, 727 °C"]],
+        marks: [
+          { x: 0, y: 1538, t: "A", note: "A: чистое железо плавится; 1539 °C in the Soviet tables, 1538 in the western ones" },
+          { x: 0.53, y: 1495, t: "B", note: "B: the melt at the peritectic; 0,51 % C and 1499 °C in the Soviet tables" },
+          { x: 0.09, y: 1495, t: "H", dy: 14, note: "H: the most carbon δ-ferrite (Ф) holds, 0,1 %" },
+          { x: 0.17, y: 1495, t: "J", dx: 4, dy: -6, note: "J: the peritectic, 0,16 % C: Ж + Ф(δ) give А" },
+          { x: 0, y: 1394, t: "N", note: "N: δ to γ in pure iron; 1392 °C in the Soviet tables" },
+          { x: 6.67, y: 1227, t: "D", dx: -14, note: "D: cementite melts; the Soviet tables put it near 1250 °C, drawn here at 1227" },
+          { x: 2.14, y: 1147, t: "E", dy: -6, note: "E: the most carbon austenite holds, 2,14 %; steel to the left, cast iron to the right" },
+          { x: 4.3, y: 1147, t: "C", note: "C: the eutectic, 4,3 % C, 1147 °C: the melt freezes to ledeburit (Л), А + Ц" },
+          { x: 6.67, y: 1147, t: "F", dx: -14, note: "F: cementite (Ц), 6,67 % C, the right-hand edge" },
+          { x: 0, y: 912, t: "G", note: "G: γ to α in pure iron; 911 °C in the Soviet tables" },
+          { x: 0, y: 768, t: "M", note: "M: the Curie point of ferrite, 768 °C in the Soviet tables, 770 in the western" },
+          { x: 0.5, y: 768, t: "O", dy: -6, note: "O: where the Curie line MO meets GS" },
+          { x: 0.022, y: 727, t: "P", dy: 15, note: "P: the most carbon ferrite holds, 0,02 % at 727 °C" },
+          { x: 0.76, y: 727, t: "S", dy: 16, note: "S: the eutectoid, 0,8 % C in the Soviet tables, 0.76 in the western; austenite splits to perlit (П), Ф + Ц" },
+          { x: 6.67, y: 727, t: "K", dx: -14, note: "K: cementite at the eutectoid temperature" },
+          { x: 0.006, y: 600, t: "Q", dx: 6, dy: -4, note: "Q: the carbon ferrite holds cold, 0,006 %; the PQ line is where tertiary cementite, Ц(III), comes out" },
+          { x: 6.67, y: 600, t: "L", dx: -14, dy: -4, note: "L: the bottom right corner of the Soviet frame, cementite at 600 °C" }
+        ],
+        names: { L: "Ж, жидкость", d: "Ф(δ), феррит", dL: "Ж + Ф(δ)", dg: "Ф(δ) + А", gL: "Ж + А", g: "А, аустенит", LC: "Ж + Ц(I), первичный цементит",
+          gC: "А + Ц(II); in cast iron with ledeburit, Л", ag: "А + Ф", a: "Ф, феррит", aC: "Ф + Ц: perlit (П) at 0,8 %, Ф + П below it, П + Ц(II) above; in cast iron with Л" } }
     ],
     zooms: [{
       name: "steel", title: "the steel corner: carbon to 2.2 per cent, 600 to 1600 °C",

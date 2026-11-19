@@ -290,8 +290,14 @@ down with the temperature at each crossing; the compositions worth knowing stand
 as small triangles, each a pin, and the ones that are cards are named for them. A figure may
 carry lettered `marks`, the textbook's named points, which read their notes under the
 pointer, and `zooms`, windows on the same data with their own ticks and labels, which the
-switches above the figure move between. The iron–carbon diagram is one, with a zoom on the
-steel corner. A **scatter** is a layer of
+switches above the figure move between; and `styles`, each a convention for drawing the
+same fields, with its own frame, ticks, second axes, lettered points, labels and field
+names, which a second row of switches moves between. The iron–carbon diagram is one, with
+a zoom on the steel corner and two styles: the western frame of Callister and the ASM
+Handbook, 0 to 1600 °C with Fahrenheit on the right and atom per cent on top, and the
+Soviet frame of Gulyaev, cut at 600 °C with per cent cementite on top, the points lettered
+A to Q and the fields named by structure. The polygons are the same; only the frame, the
+letters and the names change, and the readout says which numbers each tradition reads. A **scatter** is a layer of
 `points` instead, each a material placed by two of its properties, and the readout names the
 material, its family and where it sits; the Ashby chart is one, and its points carry the id of
 a card, so a dot is a link. Either axis can be marked `log` for a quantity that runs over many
