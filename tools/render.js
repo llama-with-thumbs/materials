@@ -44,7 +44,7 @@ global.addEventListener = () => {};
 global.location = { hash: "", pathname: "/", search: "" };
 global.history = { replaceState(_s, _t, url) { global.location.hash = String(url).startsWith("#") ? url : ""; } };
 
-for (const f of ["taxonomy.js", "credits.js", "data.js", "plates.js", "papers.js", "library.js", "lattices.js", "classes.js", "added.js", "swatch.js", "figures.js", "drawings.js", "app.js"])
+for (const f of ["taxonomy.js", "credits.js", "data.js", "plates.js", "papers.js", "library.js", "wheel.js", "lattices.js", "classes.js", "added.js", "swatch.js", "figures.js", "drawings.js", "app.js"])
   new Function(fs.readFileSync(path.join(root, f), "utf8"))();
 
 const html = nodes.grid.innerHTML;
@@ -109,6 +109,7 @@ const click = (bar, cat) => {
   }), packed.length);
   want("every class renders with its sketch", KL.every(k => html.includes(`data-id="${k.id}"`) && html.includes(`class="sketch ${k.sketch}"`)), KL.length);
   want("a drawn plate carries its readout", P.filter(p => p.figure).every(p => html.includes(`data-fig="${p.id}"`) && html.includes('class="readout"')));
+  want("the wheel renders on its shelf", html.includes('id="wheel-root"') && html.includes('id="wheel-panel"') && html.includes('data-id="wheel"'));
   const plain = await search("rope");
   want("search finds something for rope", plain.length > 5, plain.length);
   const folded = await search("pina");
@@ -124,7 +125,8 @@ const click = (bar, cat) => {
     + P.filter(p => (p.cats || []).includes(key) || (p.tags || []).includes(key)).length
     + R.filter(r => (r.cats || []).includes(key)).length
     + L.filter(t => (t.cats || []).includes(key)).length
-    + KL.filter(k => (k.cats || []).includes(key)).length;   // a class sits under its workshops too
+    + KL.filter(k => (k.cats || []).includes(key)).length    // a class sits under its workshops too
+    + ((global.window.WHEEL && global.window.WHEEL.card && (global.window.WHEEL.card.cats || []).includes(key)) ? 1 : 0);   // the wheel, under the preliminary course
   for (const [cat] of Object.entries(global.window.CATS)) {
     const got = click(filters, cat);
     want(`filter ${cat}`, got.length === expect(cat), `${got.length} of ${expect(cat)}`);

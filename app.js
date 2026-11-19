@@ -23,9 +23,10 @@ for (const p of CLASSES) p.klass = true;      // metal, ceramic, polymer... said
 // Cards, plates, papers, texts, lattices and classes render in one grid; a plate, paper or
 // text or class belongs to every workshop it lists, a lattice to none; the lattices show
 // only on their shelf. The shelf keys show one kind on its own.
-const ALL = MATERIALS.concat(PLATES, PAPERS, LIBRARY, LATTICES, CLASSES);
-const SHELF = { classes: "the classes", lattices: "the lattices", plates: "the plates", papers: "the papers", library: "the library" };
-const SHELF_SETS = { classes: CLASSES, lattices: LATTICES, plates: PLATES, papers: PAPERS, library: LIBRARY };
+const WHEELS = window.WHEEL && window.WHEEL.card ? [window.WHEEL.card] : [];   // the curriculum wheel, one card
+const ALL = MATERIALS.concat(PLATES, PAPERS, LIBRARY, LATTICES, CLASSES, WHEELS);
+const SHELF = { wheel: "the wheel", classes: "the classes", lattices: "the lattices", plates: "the plates", papers: "the papers", library: "the library" };
+const SHELF_SETS = { wheel: WHEELS, classes: CLASSES, lattices: LATTICES, plates: PLATES, papers: PAPERS, library: LIBRARY };
 const DRAWINGS = window.DRAWINGS;
 const ADDED = window.ADDED || {};
 const FIGURES = window.FIGURES;
@@ -58,6 +59,7 @@ const HAYSTACK = new Map(ALL.map(m => [m.id, fold([
   m.text ? ["text library bauhaus", m.title, m.english, m.author, m.role, m.kind, m.year, m.what].join(" ") : "",
   m.lattice ? ["lattice crystal bravais cell", m.symbol, m.system, m.centring, m.found].join(" ") : "",
   m.klass ? ["class", (m.cats || []).map(c => CATS[c] || c).join(" ")].join(" ") : "",
+  m.wheel ? "wheel bauhaus curriculum course gropius vorkurs workshop building" : "",
   m.cat ? CATS[m.cat] || "" : (m.plate ? "plate " : "") + (m.cats || []).map(c => CATS[c] || c).join(" "),
   (m.tags || []).map(t => THEMES[t] || t).join(" ")
 ].join(" "))]));
@@ -67,7 +69,8 @@ const HAYSTACK = new Map(ALL.map(m => [m.id, fold([
 const inFilter = (m, key) =>
   key === "all" || m.cat === key || (m.cats || []).includes(key) || (m.tags || []).includes(key)
   || (key === "plates" && !!m.plate) || (key === "papers" && !!m.paper)
-  || (key === "library" && !!m.text) || (key === "lattices" && !!m.lattice) || (key === "classes" && !!m.klass);
+  || (key === "library" && !!m.text) || (key === "lattices" && !!m.lattice) || (key === "classes" && !!m.klass)
+  || (key === "wheel" && !!m.wheel);
 
 /* ---------- rendering ---------- */
 
@@ -112,6 +115,32 @@ const catTag = cat => CAT_TAGS[cat] || (CATS[cat] || "").split(" ")[0];
 // Building a card's HTML is the expensive part, and a card never changes once built,
 // so each one is built at most once and re-used on every later filter or sort.
 const CARD_HTML = new Map();
+
+// The curriculum wheel: a wide card like a drawn plate. The figure is the wheel, the readout
+// is the panel a ring fills, and the text says what the figure is. It is mounted after each
+// render, because the grid is rebuilt and the wheel binds to its own elements.
+function wheelFor(w) {
+  const stats = w.stats.map(([k, v]) => `<div class="stat"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
+  return `<article class="card plate wide wheelcard" id="m-${esc(w.id)}" data-cat="${esc((w.cats || [])[0] || "")}" data-id="${esc(w.id)}">
+    <div class="figure wheel-fig">
+      <span class="opts fig-opts" id="wheel-lang" role="group" aria-label="the words on the wheel">
+        <button class="opt" type="button" data-lang="en" aria-pressed="true" title="the English wording usually reproduced">english</button>
+        <button class="opt" type="button" data-lang="de" aria-pressed="false" title="the German of the 1922 statutes">deutsch</button>
+      </span>
+      <span class="tag">wheel</span>
+      <div class="wheel-root" id="wheel-root"></div>
+    </div>
+    <div class="readout wheel-panel" id="wheel-panel"></div>
+    <div class="body">
+      <p class="no">the wheel</p>
+      <h2>${esc(w.name)}</h2>
+      <p class="sub">${esc(w.sub)}</p>
+      <p class="hook">${esc(w.hook)}</p>
+      <div class="stats">${stats}</div>
+      <p class="meta"><span>drawn for this page after the 1922 statutes</span><span class="links"><a href="${esc(w.link)}">the full page, with the dates and the sources</a></span></p>
+    </div>
+  </article>`;
+}
 
 // A plate: a figure, the paragraph that reads it, three facts, and the cards it explains.
 function plateFor(p) {
@@ -296,6 +325,7 @@ function cardFor(mat) {
   let html = CARD_HTML.get(mat.id);
   if (html) return html;
   if (mat.lattice) { html = latticeFor(mat); CARD_HTML.set(mat.id, html); return html; }
+  if (mat.wheel) { html = wheelFor(mat); CARD_HTML.set(mat.id, html); return html; }
   if (mat.klass) { html = classFor(mat); CARD_HTML.set(mat.id, html); return html; }
   // A drawn plate is not cached: its figure carries the reader's zoom and pin.
   if (mat.plate) { html = plateFor(mat); if (!mat.figure) CARD_HTML.set(mat.id, html); return html; }
@@ -376,7 +406,7 @@ function latticeShelf(refs) {
 }
 
 // A reference card is a plate, a paper or a library text — something that is not a material.
-const isRef = m => m.plate || m.paper || m.text || m.lattice || m.klass;
+const isRef = m => m.plate || m.paper || m.text || m.lattice || m.klass || m.wheel;
 
 function render() {
   const q = fold(activeQuery.trim());
@@ -406,12 +436,16 @@ function render() {
     }
   }
   grid.innerHTML = html;
+  // The wheel binds to its own elements, so it is mounted again whenever it is on the page.
+  const wheelRoot = grid.querySelector("#wheel-root");
+  if (wheelRoot && window.WHEEL) window.WHEEL.mount(wheelRoot, grid.querySelector("#wheel-panel"), grid.querySelector("#wheel-lang"));
 
   const where = activeCat === "all" ? "" : ` · ${CATS[activeCat] || THEMES[activeCat] || SHELF[activeCat] || activeCat}`;
   const np = refs.filter(m => m.plate).length, nr = refs.filter(m => m.paper).length, nt = refs.filter(m => m.text).length;
-  const nl = refs.filter(m => m.lattice).length, nk = refs.filter(m => m.klass).length;
+  const nl = refs.filter(m => m.lattice).length, nk = refs.filter(m => m.klass).length, nw = refs.filter(m => m.wheel).length;
   const parts = [];
   if (!shelf) parts.push(`${mats.length} of ${MATERIALS.length} materials`);
+  if (nw) parts.push(`the wheel`);
   if (nk) parts.push(`${nk} of ${CLASSES.length} classes`);
   if (nl) parts.push(`${nl} of ${LATTICES.length} on the lattices shelf`);
   if (np) parts.push(`${np} of ${PLATES.length} plate${PLATES.length === 1 ? "" : "s"}`);

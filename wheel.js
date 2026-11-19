@@ -248,5 +248,14 @@ window.WHEEL = (() => {
     });
   }
 
-  return { SEG, svg, panelHTML, mount };
+  // The wheel as an entry of the catalogue, for the shelf of its own on the main page.
+  const card = {
+    id: "wheel", wheel: true, name: "The curriculum wheel",
+    sub: "Gropius's scheme of the Bauhaus course, 1922, drawn as rings that answer the pointer",
+    hook: "The school drew its course as a target. Everyone began on the rim, with half a year of the preliminary course; those who passed entered one of seven workshops, named for a material, for three years, with five studies beside the bench; a few reached the centre, which the school called building. Point at a ring for what it was, who ran it and what became of it; click to keep it; the switch turns the words to the German of the statutes. This catalogue is the lower rim carried on, and its workshops are the middle ring.",
+    stats: [["Rings", "preliminary course, studies, workshops, building"], ["Workshops", "stone, wood, metal, textiles, colour, glass, clay"], ["Drawn", "statutes of July 1922; reprinted 1923"]],
+    cats: ["exotic"], link: "bauhaus.html"
+  };
+
+  return { SEG, svg, panelHTML, mount, card };
 })();
