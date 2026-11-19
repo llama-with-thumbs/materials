@@ -986,40 +986,45 @@ window.MATERIALS = [
 },
 {
   id: "phosbronze", cat: "metal", name: "Phosphor bronze",
-  sub: "Cu–Sn with ~0.2% P", img: "phosbronze",
-  hook: "The phosphorus deoxidises the melt and leaves hard tin phosphide particles behind. The result springs back forever without fatiguing and slides against steel without seizing — one alloy for contacts and for bearings.",
+  sub: "Cu–Sn with ~0.2% P", img: "phosbronze", extra: ["phosbronze2", "phosbronze3"],
+  hook: "Copper with 5 to 8 per cent tin and a trace of phosphorus to scrub the oxygen out: a spring that does not tire, a bush that does not seize on steel. The relay contact, the guitar string, the bellows.",
+  more: "Tin stiffens copper and the phosphorus, added as a deoxidiser, leaves a little hard copper phosphide behind, so the alloy work-hardens into a spring that outlasts brass by far and slides on steel without picking up. The 5 per cent grade is the spring and the contact in every relay, switch and connector; the 8 per cent, wound round steel, is the acoustic guitar string and the antenna wire that carries current and its own weight; the 10 per cent casting is the bearing, the worm wheel and the wartime propeller. The costs: tin is dear and the conductivity drops to 15 per cent of copper; it will not hot-work; it seizes against itself, so the shaft must be steel; and a gear cut from it wears faster than the aluminium bronze that replaced it.",
   stats: [["Tin", "4–10%"], ["Fatigue", "excellent in spring temper"], ["Friction", "low against steel"]],
   uses: "Electrical contacts and connectors, plain bearings, ship propellers, bass strings.",
   link: "https://en.wikipedia.org/wiki/Phosphor_bronze"
 },
 {
   id: "monel", cat: "metal", name: "Monel 400",
-  sub: "~67% Ni, 30% Cu", img: "monel",
-  hook: "Smelted almost straight from an ore that already contained both metals in roughly the right ratio. It is one of very few metals that holds up in hydrofluoric acid and in fast-moving seawater at the same time, and it will not spark.",
+  sub: "~67% Ni, 30% Cu", img: "monel", extra: ["monel2", "monel3"],
+  hook: "Two thirds nickel, one third copper, and in 1901 it came out of the Sudbury ore in that ratio. It holds in hydrofluoric acid and in fast seawater, and it does not spark. Dear, gummy on the lathe, faintly magnetic.",
+  more: "Monell's metal was an accident of geology: the Sudbury matte smelted to 67 nickel, 30 copper, and the mix stands where neither parent would, in flowing seawater that erodes copper alloys and in hydrofluoric acid that eats stainless. So it is the valve trim, the pump shaft and the strainer of a seawater system, the alkylation unit of a refinery, the roof of the old Pennsylvania Station, the Art Deco screens of the 1920s and, age-hardened as K-500, the drill collar. The costs: nickel makes it five times the price of stainless; in still seawater it pits under a barnacle; sulphur in a flue gas eats it hot; its Curie point sits near room temperature, so a magnet reads it one way in summer and another in winter; and it machines like chewing gum.",
   stats: [["Nickel", "63–70%"], ["Seawater", "resists erosion-corrosion"], ["HF acid", "one of the few"]],
   uses: "Marine shafting and pumps, HF service, cryogenic parts, saxophone necks.",
   link: "https://en.wikipedia.org/wiki/Monel"
 },
 {
   id: "hastelloy", cat: "metal", name: "Hastelloy C-276",
-  sub: "Ni–Mo–Cr superalloy", img: "hastelloy",
-  hook: "Holds against wet chlorine, hot hydrochloric and sulfuric acid, and oxidising and reducing conditions in the same vessel — a combination almost nothing else survives. It is priced accordingly, so it is used as cladding more than as bulk.",
+  sub: "Ni–Mo–Cr superalloy", img: "hastelloy", extra: ["hastelloy2"],
+  hook: "Nickel with 16 per cent molybdenum and 15 chromium: molybdenum fights the reducing acids, chromium the oxidising ones, so one vessel holds wet chlorine, hot hydrochloric and sulphuric. Priced like it; worn as skin.",
+  more: "Most alloys pick a side. Chromium builds the oxide that survives nitric acid and bleach; molybdenum and tungsten keep the metal whole in hydrochloric acid and chlorides, where chromium loses. C-276 carries both at once, with carbon and silicon kept so low that a weld needs no anneal to stay honest. That is the scrubber of a coal-fired power station, the reactor of a chemical works, the pulp bleach plant and the incinerator liner. Its cousin INOR-8, later Hastelloy-N, held molten fluoride salt in the Oak Ridge reactor. The costs: ten times the price of 316, so a vessel is steel clad with a few millimetres of it; it machines slowly; the filler must match or the weld is the weak spot; and hot hydrofluoric acid still beats it.",
   stats: [["Molybdenum", "~16%"], ["Resists", "oxidising and reducing"], ["Weld", "no post-weld anneal needed"]],
   uses: "Chemical reactors, flue gas scrubbers, pollution control, nuclear reprocessing.",
   link: "https://en.wikipedia.org/wiki/Hastelloy"
 },
 {
   id: "zamak", cat: "metal", name: "Zamak",
-  sub: "Zn–Al–Mg–Cu die casting alloy", img: "zamak",
-  hook: "Melts at 385 °C, so it is injected into a steel die that lasts a million shots instead of ten thousand. That is why a zinc casting carries crisp lettering and threads straight out of the machine. Old impure zinc crumbled; the 'zamak' name marks the purity rule that fixed it.",
+  sub: "Zn–Al–Mg–Cu die casting alloy", img: "zamak", extra: ["zamak2", "zamak3"],
+  hook: "Zinc with 4 per cent aluminium, melting at 385 °C, shot from a hot-chamber machine into a steel die that lasts a million cycles. Thread, lettering and a plated finish out of the tool. Keep it cool and pure.",
+  more: "The aluminium makes the melt fluid and stops it eating the iron pot, so a steel gooseneck injects it hundreds of times an hour, and the casting comes out in half-millimetre walls with detail no other metal holds. That is the carburettor body, the door handle, the zip pull, the model car, the padlock, the key and the tap under its chrome. The name is the recipe, Zink Aluminium Magnesium Kupfer, and purity is the cure: a trace of lead, tin or cadmium in 1920s zinc let corrosion creep down the grain boundaries until the part swelled and crumbled, and pre-war toys still fall apart in the box. The costs: it creeps above 80 °C; it is heavy for what it carries; it shrinks for years after casting; and a cheap feel follows the name around.",
   stats: [["Melting", "~385 °C"], ["Die life", "~1,000,000 shots"], ["Detail", "as-cast threads"]],
   uses: "Carburettors, locks and keys, model cars, zips, bathroom fittings.",
   link: "https://en.wikipedia.org/wiki/Zamak"
 },
 {
   id: "sac305", cat: "metal", name: "SAC305 solder",
-  sub: "Sn–3.0Ag–0.5Cu", img: "sac305",
-  hook: "The lead-free replacement the whole electronics industry switched to at once. It melts 34 °C hotter than tin-lead, wets worse, looks dull when it is actually fine — and brings back tin whiskers, hair-thin crystals that grow out of the joint and short things years later.",
+  sub: "Sn–3.0Ag–0.5Cu", img: "sac305", extra: ["sac3052", "sac3053"],
+  hook: "Tin, 3 per cent silver, half a per cent copper: the lead-free solder the whole industry chose in 2006. It melts 34 °C hotter, wets worse, looks dull when it is sound, and without lead the tin whiskers come back.",
+  more: "Tin-lead melted at 183 °C and flowed like water; the RoHS ban left tin with silver and copper, melting at 217 °C, so every oven runs at 245 °C and the parts and the board have to take it. The joint freezes grainy and matte, and inspectors had to unlearn shiny as the test of good. The lead did one more job: a few per cent of it stopped pure tin growing whiskers, hair-thin crystals that push out of a tin finish over years and short the next pin, which is why satellites and pacemakers kept their exemption. The costs: silver at 3 per cent is most of the price; the hard intermetallics crack at a drop, so phones use a 1 per cent silver grade; molten tin eats the copper off pads and out of the wave pot; and the extra heat warps a thin board.",
   stats: [["Melting", "217–220 °C"], ["vs Sn63Pb37", "+34 °C"], ["Known issue", "tin whiskers"]],
   uses: "Essentially all consumer electronics assembly since RoHS in 2006.",
   link: "https://en.wikipedia.org/wiki/Solder"

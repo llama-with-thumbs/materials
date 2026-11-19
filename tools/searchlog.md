@@ -848,3 +848,33 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `HSS-E Bohrer.jpg` | GFDL only, and duplicates the drill face |
 | `Wälzfräser und gefräste Verzahnung.JPG`, `Spline hobs.JPG` | good hobs, but coated and unlabelled; two extras are enough |
 | `4X-HSS Micha.jpg` | an aircraft registration |
+
+
+## Restyle batch, 18 November 2026: phosbronze, monel, hastelloy, zamak, sac305
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Phosphor bronze spring, contact strip or bushing | `phosphor bronze spring contact`, `phosphor bronze bearing bushing`, `phosphor bronze strip`, `phosphor bronze wire mesh`, `bronze bushing` | only 1900s catalogue scans; `bronze bushing` returns a butterfly | a relay spring or a coil of contact strip named as phosphor bronze |
+| Monel in a seawater system | `Monel propeller shaft`, `Monel seawater pump`, `Monel wire` | nothing; the Monel photos are a logo, a letter opener, a nibbler and two buildings | a Monel pump shaft or valve trim named as such |
+| Hastelloy in a plant | `Hastelloy reactor`, `nickel alloy chemical reactor`, `chlorine plant piping` | `Hastelloy` returns the Haynes motor museum; only the two ball valves and the ORNL exchangers exist | a scrubber lining or a C-276 reactor named as such |
+| A zinc carburettor or a die-casting in the machine | `die cast zinc carburettor`, `zinc casting handle` | nothing named; the machine photo is a flow chart | a carburettor body or a zinc casting with its runner |
+| SAC305 by name, a cross-section | `SAC305`, `bleifreies Lot`, `solder joint cross section`, `solder balls BGA` | nothing; the cross-section query returns Roman finger rings | a micrograph of a SAC joint or a BGA ball array |
+
+| rejected after looking | why |
+|---|---|
+| `Phosphorbronzeguitarstring.jpg` as the face | a thin loop of wire on cloth, unreadable at card size; dropped |
+| `Cavitation Propeller Damage.JPG` | a jet-ski propeller, alloy unstated |
+| `Monel-valves--The-Alloy-Valve-Stockist.JPG` as the face | painted yellow, no metal visible; dropped |
+| `Brynathyn6.JPG` | 1010 px and dim; the door handles do not read |
+| `Woodrow Wilson House-Serving Kitchen.jpg` | a kitchen, the Monel sink is a grey corner |
+| `Nibbling machine cutting 1-2 monel metal plate` | a 1049 px archive print, the plate invisible |
+| `Válvula de bola en Hastelloy C276` | a second ball valve, same as the face |
+| `Swing Check valves.JPG` | generic valves, alloy unstated |
+| `Zink auto.jpg` as the zamak face | grey model on grey, tall crop; dropped for the key |
+| `1990s small zinc die casting samples by Fishercast` | castings in a bag, blurred by the plastic |
+| `Zinc die casting machine working process.jpg` | a flow chart, not a machine |
+| `ZAMAK ingots.jpg`, `Zamak Haarforke.jpg`, `Saint-Claude Zamak Voltaire` | a stack of ingots, a hair fork on orange, a bust; the pour says more |
+| `Dinky liners with zinc pest.jpg`, `Trix Lokomotive mit Zinkpest.jpg` | the pest is less legible than on the wheelset |
+| `Valvo OC171 Whiskers dead.jpg`, `Tin Whiskers.jpg` | whiskers on a tinned can and a pot cover, both pre-date lead-free; the ESA micrograph is clearer |
+| `Reflow oven.jpg`, `Soldering a 0805.jpg` | a machine hall and a pair of tweezers |
+| `Late 20th century Multicore Ersin 5 core` | 60/40 tin-lead, the thing this card replaced |

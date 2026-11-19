@@ -236,11 +236,20 @@ duplex3|commons|Chemical tanker Ternholm at Skarvikshamnen 2.jpg|A chemical tank
 hss|commons|HSS Twist Drill into Aluminium with Lubricant.jpg|An HSS twist drill cutting aluminium|product
 hss2|commons|Narex M6 high speed steel 6 g tolerance threading die.jpg|An M6 threading die with HSS stamped on it: four cutting edges that must not chip|product
 hss3|commons|Electrite Uranium HSS advert in American Machinist v53 n1 1920.png|A 1920 advert for a high-speed steel with uranium in it, when every maker had a secret addition|related
-phosbronze|commons|Phosphorbronzeguitarstring.jpg|Phosphor bronze guitar string|product
-monel|commons|Monel-valves--The-Alloy-Valve-Stockist.JPG|Monel valves|product
+phosbronze|commons|1940s warship propeller.jpg|A 1940s warship propeller cast in phosphor bronze: the casting grade, before aluminium bronze took the job|product
+phosbronze2|commons|Bronze strings Taylor Acoustic (14619649315).jpg|Phosphor bronze wound strings on an acoustic guitar, the 8 per cent tin grade|product
+phosbronze3|commons|BBC Kranji Phosphor-Bronze-Copper antenna wire.jpg|Antenna wire from the BBC Kranji transmitter: phosphor bronze for the breaking strain, copper for the current|product
+monel|commons|Monel tool.jpg|A Monel letter opener from about 1930, when the alloy was the fashionable stainless|product
+monel2|commons|Guardianinterior.jpg|The Guardian Building, Detroit, 1929: a two-storey Art Deco screen in Monel|product
+monel3|commons|Pennsylvania Station Hawley 1910.jpg|Pennsylvania Station in 1910: the green roof was Monel sheet|related
 hastelloy|commons|Hastelloy Ball valve.jpg|A Hastelloy ball valve|product
-zamak|commons|Zink auto.jpg|A zinc die-cast model car — detail straight out of the die|product
+hastelloy2|commons|ORNL History (31537153147).jpg|Heat exchangers in INOR-8, later Hastelloy-N, the nickel-molybdenum cousin made to hold molten fluoride salt at Oak Ridge|related
+zamak|commons|Schaltschrank Schlüssel.jpg|A switch-cabinet key die-cast in zinc, bottle opener included: the detail comes out of the die|product
+zamak2|commons|Fonderie-Zamak-liquide.jpg|Zamak molten in the pot at 400 °C, ready for the hot-chamber machine|process
+zamak3|commons|Zinc pest Zinkpest Zamac Radsatz Maerklin Spur 0.JPG|A pre-war Märklin wheelset eaten by zinc pest: impure zinc swelling and crumbling along its grain boundaries|product
 sac305|commons|Solder on spool.jpeg|Solder wire on a spool|product
+sac3052|commons|Tin whisker ESA385984.jpg|A tin whisker under the electron microscope, the single crystal that grows out of lead-free tin and shorts the next pin|structure
+sac3053|commons|SMD circuit on a wave soldered PCB.JPG|A wave-soldered board with its solder-thief pads: the matte lead-free joint that is sound even when it looks dull|product
 tantalum|Flickr|https://live.staticflickr.com/65535/54041464509_22cba30bfa_b.jpg|Tantalum metal|photo|CC BY 2.0|James St. John|https://www.flickr.com/photos/47445767@N05/54041464509
 niobium|Flickr|https://live.staticflickr.com/5011/5560087101_2275157f38_b.jpg|Anodised niobium rings, pink from the thickness of their oxide film, woven with silver|product|CC BY 2.0|The ChainMaille Lady|https://www.flickr.com/photos/26800041@N04/5560087101
 nbti|Flickr|https://live.staticflickr.com/3019/2544000149_a81f59288f_b.jpg|Nb-Ti superconducting cable from the LHC|photo|CC BY-SA 2.0|ÂµÂµ|https://www.flickr.com/photos/muriel_vd/2544000149/in/set-72157605393246803
