@@ -1813,40 +1813,45 @@ window.MATERIALS = [
 },
 {
   id: "mycelium", cat: "composite", name: "Mycelium composite",
-  sub: "fungal biocomposite", img: "mycelium",
-  hook: "Not manufactured — grown. Fungal threads colonise agricultural waste inside a mould over a few days, then are heat-killed, leaving a foam-like solid that composts at end of life.",
+  sub: "fungal biocomposite", img: "mycelium", extra: ["mycelium2", "mycelium3"],
+  hook: "Grown, not made: fungal threads eat through hemp hurd in a mould for five days, knitting it into a block, then an oven kills the fungus. Dell shipped servers in it; it composts in a month; it chars, not burns.",
+  more: "Two Rensselaer students worked it out in 2007: pasteurise farm waste, seed it with a bracket fungus, pack it in a tray in the dark, and the hyphae grow through every particle and glue them solid; an oven stops it. Out comes a foam of 60 to 300 kilos a cubic metre that cushions like polystyrene, insulates nearly as well, self-extinguishes, and composts with the peelings. It has shipped wine and computers, filled acoustic panels, and stood as a tower of ten thousand bricks in New York; grown alone on a sheet, it is sold as leather. The costs: it crumbles at an edge and will not take a pull; every batch is a culture, and cultures spoil; it drinks water and softens; it smells of mushroom; and a week in a clean room will never match polystyrene's price.",
   stats: [["Growth", "days, room temp"], ["Feedstock", "crop waste"], ["End of life", "compostable"]],
   uses: "Protective packaging, acoustic and insulation panels, furniture, leather substitute.",
   link: "https://en.wikipedia.org/wiki/Mycelium-based_materials"
 },
 {
   id: "twood", cat: "composite", name: "Transparent wood",
-  sub: "delignified wood + polymer", img: "twood",
-  hook: "Strip the light-absorbing lignin out of a thin slice of wood and backfill the cell structure with index-matched polymer. The grain stays, light passes through, and it insulates far better than glass.",
+  sub: "delignified wood + polymer", img: "twood", extra: ["twood2", "twood3"],
+  hook: "Bleach the lignin out of a slice of birch, leaving a white cellulose skeleton, and fill the pores with a resin of the same refractive index. The grain stays as a ghost, 85 per cent of the light gets through.",
+  more: "Lignin absorbs the light, so peroxide takes it out and leaves cellulose cell walls, white because every wall scatters where it meets air. Fill the air with a resin of the wall's own index and the scattering stops; a microscopist did it to balsa in 1992, and KTH and Maryland made it a material in 2016. The sheet passes 85 per cent of the light but scatters most of it, so a room behind it is bright and private; it conducts heat at a fifth the rate of glass, keeps the wood's strength along the grain, and bends before it breaks. The costs: by weight it is mostly plastic, so the green story is thin; a few millimetres is the limit, thicker goes cloudy; you cannot see through it; sun yellows it; the cellulose swells in damp; and nobody sells it by the pane.",
   stats: [["Transmittance", "~85–90%"], ["vs. glass", "tougher, warmer"], ["Keeps", "the grain"]],
   uses: "Experimental glazing, diffusing light panels, structural windows.",
   link: "https://en.wikipedia.org/wiki/Transparent_wood_composite"
 },
 {
   id: "gfrp", cat: "composite", name: "Glass-fibre laminate",
-  sub: "GFRP / fibreglass", img: "gfrp",
-  hook: "Glass in bulk is brittle because of surface flaws; drawn into a 10 µm filament and kept coated, those flaws never form, and the fibre is stronger than steel wire. The resin's only job is to hold the fibres apart and pass load between them.",
+  sub: "GFRP / fibreglass", img: "gfrp", extra: ["gfrp2"],
+  hook: "Glass breaks at the scratches on its skin; drawn to a 10-micron filament and coated at once, it has none and beats steel wire. The resin only holds the fibres apart and passes the load. Every small boat since 1950.",
+  more: "E-glass runs out of a platinum bushing at 1,200 °C as two thousand filaments at once, sized with a silane so resin will wet it, and is wound as roving, chopped into mat or woven into cloth. Wetted out with polyester by hand, or sucked full of resin under a vacuum bag, it sets into a laminate that is 30 to 60 per cent glass in the shape of any mould you can build: hulls, baths, the 1953 Corvette, a turbine blade a hundred metres long, the board under every circuit, ladders and rebar. The costs: the fibre is stiff but the laminate is not, a third of aluminium, so parts are thick; styrene fumes; water through the gelcoat blisters a hull; sun chalks it; the dust itches; and nothing recycles it, so old blades are buried or, once, made into a footbridge.",
   stats: [["Fibre tensile", "~3.4 GPa"], ["Fibre fraction", "30–60%"], ["Resin's job", "load transfer"]],
   uses: "Boat hulls, wind turbine blades, bath tubs, circuit boards, ladders.",
   link: "https://en.wikipedia.org/wiki/Fiberglass"
 },
 {
   id: "cfrp", cat: "composite", name: "CFRP prepreg laminate",
-  sub: "carbon fibre pre-impregnated with epoxy", img: "cfrp",
-  hook: "Cloth arrives already loaded with exactly the right amount of B-staged resin, frozen to stop it curing. You lay it up, bag it and bake it, and the part has the fibre fraction an engineer specified rather than the one a wet brush happened to give.",
+  sub: "carbon fibre pre-impregnated with epoxy", img: "cfrp", extra: ["cfrp2", "cfrp3"],
+  hook: "Cloth that arrives soaked with the measured resin, half-cured and kept frozen. Lay it up, bag it, bake it under seven atmospheres, and the part has the fibre fraction the engineer drew, not what a wet brush gave.",
+  more: "A film of epoxy is pressed into the cloth and advanced just far enough to be tacky, then stored at minus 18 °C, where it keeps a year; on the bench it has weeks. It sticks to the tool, so plies go down by hand or off a placement head at a metre a second; a vacuum bag and an autoclave at 180 °C and 7 bar squeeze the voids below one per cent and the fibre to 60. A 787 is half of it by weight; the 1981 McLaren was the first racing car with a tub of it, and every one since has one. The costs: a freezer and a clock on every roll, and a stale roll is waste; the autoclave is a pressure vessel the size of the part; nesting wastes a third of the roll; voids hide inside, so every part is scanned; and lightning needs a copper mesh in the skin.",
   stats: [["Fibre fraction", "~60%, controlled"], ["Shelf life", "months at −18 °C"], ["Cure", "120–180 °C in autoclave"]],
   uses: "Airframes, F1 monocoques, bicycle frames, satellite structures.",
   link: "https://en.wikipedia.org/wiki/Pre-preg"
 },
 {
   id: "alhoneycomb", cat: "composite", name: "Aluminium honeycomb",
-  sub: "expanded foil core sandwich", img: "alhoneycomb",
-  hook: "Foil 25 µm thick, glued in stripes and pulled open into hexagons. Separating two thin skins by an inch of near-nothing multiplies the panel's bending stiffness by a hundred for a few percent extra weight — the I-beam idea in two dimensions.",
+  sub: "expanded foil core sandwich", img: "alhoneycomb", extra: ["alhoneycomb2", "alhoneycomb3"],
+  hook: "Foil 50 microns thick glued in stripes and pulled open into hexagons, then faced with two thin skins. An inch of near-nothing between them makes the panel a hundred times stiffer for a few per cent more weight.",
+  more: "Foil is printed with lines of adhesive, stacked, cured, sliced, and the slice pulled open into cells 3 to 6 millimetres across, at 30 to 130 kilos a cubic metre. The skins carry the bending like flanges and the core the shear like a web, so a floor panel a centimetre thick holds a person at a kilo a square metre. It is in aircraft floors and rudders, nearly every satellite and every flight case; crushed on purpose it is a one-shot shock absorber, and a cartridge in each leg took the Apollo landers' touchdown. The costs: water gets in at a puncture, freezes and corrodes the core from inside; a dent buckles the core unseen, so panels are tap-tested; every bolt hole is potted first; it will not bend after bonding; and it is dear by the square metre.",
   stats: [["Foil", "~25 µm"], ["Density", "~50 kg/m³"], ["Stiffness gain", "~100×"]],
   uses: "Aircraft floors and control surfaces, satellite panels, race car floors, flight cases.",
   link: "https://en.wikipedia.org/wiki/Honeycomb_structure"

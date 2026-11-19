@@ -1284,3 +1284,29 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Aluminium foam sandwich.jpg`, `Aluminium foam mg 3713.jpg`, `Aluminiumschaum-Sandwich, Kern nach dem Umformen` | the face again with a ruler, a disc on red, and a bent grey panel |
 | `Metal foam Coffee table.jpg` | a table |
 | `Auxetische Materialien.wiki.png` | fetched as auxetic3, then dropped: a wide diagram that the card crop cuts in half, labels and all |
+
+
+## Restyle batch, 19 November 2026: mycelium, twood, gfrp, cfrp, alhoneycomb
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Mycelium leather, or the Hy-Fi tower | `mycelium leather`, `Mylo`, `Hy-Fi`, `Myzel Werkstoff` | a Sony Mylo phone, Mylo in North Dakota, and Thai beaches | the MoMA PS1 tower from 2014, or a Mylo swatch |
+| Delignified wood before infill, or the process | `delignified wood`, `transparentes Holz` | nothing; two KTH samples and one lantern are all there is | a bleached white veneer beside the finished pane |
+| Fibreglass hand lay-up on a hull, or glass roving spools | `fibreglass layup`, `hand lay-up`, `fiberglass boat hull`, `boat building fibreglass`, `glass fibre spool` | Norwegian fishing boats, a laying-on of hands, a 1929 sloop in timber; `Glasfaser Roving` is the silica-fibre card's photograph in another file | a hull being laid up in a mould |
+| A prepreg roll or an autoclave | `prepreg`, `carbon fibre prepreg`, `Prepreg Autoklav`, `autoclave composite`, `vacuum bag composite`, `Boeing 787 fuselage barrel` | a Viper roof, a dull NARA stack of sheets, and a repair-manual figure | a roll of prepreg coming out of the freezer with its backing paper |
+| Honeycomb being expanded, or an aircraft floor panel | `honeycomb expanded foil`, `honeycomb aircraft floor`, `Wabenkern`, `Nomex honeycomb` | a wind-tunnel honeycomb, bull kelp, model rockets, the MH370 debris map | a block being pulled open, or a floor panel cut through |
+
+| rejected after looking | why |
+|---|---|
+| the old `Glass reinforced plastic SEM Stereo 200x.JPG` face | a red-and-cyan anaglyph, unreadable without glasses; dropped |
+| `Material by Ecovative.jpg`, `Candle and its mycelium packaging.jpg`, `Mycelium objects at Genspace` | a beige figure, white on white, and a table of lumps |
+| `Mushroom Insulation Installation.jpg` | a man carrying a white panel; the brick house says insulation better |
+| `Goze Mokudon ... night front view.jpg` | the whole bench small and dark; the close-up is the picture |
+| `Glasfaser Roving (rotated).jpg` | the same photograph as `silicafibre`, turned |
+| `Moscow, fiberglass half-shell of a lamppost` | a grey shell on a kerb |
+| `Tanahashi Cleanroom Prepreg.jpg`, `FIBER RESIN PREPREG - NARA`, `AFP Prepreg.jpg` | a man holding a black sheet, a stack of grey sheets, spools without a machine |
+| `F1 Monocoque Chassis ...`, `SpaceX factory Falcon 9 interstage.jpg` | a second tub, and a black cylinder; the McLaren has the history |
+| `Catalog 26 ... Metally Bonded Honeycomb Sandwich Panel`, `... F-4 Outer Wing Panel` | black-and-white panels in hangars |
+| `Honeycomb structure (6248780733).jpg`, `Ali1234.jpg` | bees' wax, and a shop of saucepans |
+| `Flown SpaceX DM-2 Dragon Delta Panel` | a scorched white panel that reads as a tile |
+| `Tränken der Glasfasermatte mit multi PL-Harz.jpg` | fetched as the gfrp face, then dropped: at card crop it is a white stream and a cardboard box, the mat is out of frame; the blade footbridge is the face |

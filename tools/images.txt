@@ -89,7 +89,11 @@ vantablack|commons|Vantablack 02.JPG|Vantablack-coated foil — the crumpled sur
 mrf|commons|MRF mit Permanentmagnet.jpg|Magnetorheological fluid standing up on a permanent magnet|photo
 ferrofluid|commons|Ferrofluid Magnet under glass edit.jpg|Ferrofluid spiking along field lines|photo
 twood|commons|KTH-forskare har uppfunnit genomskinligt trä prov 1.jpg|Transparent wood sample (KTH)|photo
+twood2|commons|LED-backlit transparent wood panels in Goze Mokudon bench-shaped andon lantern.jpg|Backlit panels of transparent wood in a lantern bench at Joetsu, Japan: the grain shows through the light|product
+twood3|commons|KTH-forskare har uppfunnit genomskinligt trä prov 2.jpg|The KTH sample laid over a printed page: bright, but hazy, which is the point and the limit|photo
 mycelium|commons|Mycelium based composite.png|Mycelium composite grown on substrate|photo
+mycelium2|commons|Wine Shipper in fungal products by Mycobond.jpg|A wine shipper grown by the Rensselaer students' company: the job polystyrene used to do, and the compost heap afterwards|product
+mycelium3|commons|NYBG Mycelium Brick Home September 2024.jpg|A small building of mycelium bricks at the New York Botanical Garden, 2024: grown blocks on a timber frame|product
 starlite|commons|Starlite sample.jpg|A surviving Starlite sample|photo
 auxetic|commons|Meta-aux-orange.jpg|Auxetic lattice — gets thinner when stretched|photo
 auxetic2|commons|Athletic Footwear with Auxetic Sole.jpg|A running-shoe sole cut as an auxetic lattice: it widens as the foot spreads instead of pinching|product
@@ -391,9 +395,14 @@ bonechina3|commons|Teacup (AM 5809-5).jpg|A Royal Stafford bone china cup marked
 enamel|commons|LU Leytonstone sign.jpg|The enamelled steel roundel at Leytonstone: glass fired onto steel, out in the weather for decades and still glossy|product
 enamel2|commons|Enamel signs at Acle station - geograph.org.uk - 7837436.jpg|Old enamel advertising signs at Acle station: the colours have not faded, and every chip shows rust|product
 enamel3|Flickr|https://live.staticflickr.com/5545/14622677165_532efd3675_b.jpg|A cloisonne bowl: coloured glass fused onto metal between wire cells, the oldest trick in vitreous enamel|product|CC BY 2.0|Scott 97006|https://www.flickr.com/photos/29487672@N07/14622677165
-gfrp|commons|Glass reinforced plastic SEM Stereo 200x.JPG|Glass-reinforced plastic under the electron microscope — fibres embedded in resin|photo
+gfrp|commons|Kładka z łopaty turbiny wiatrowej w Szprotawie.jpg|A footbridge in Szprotawa, Poland, made from a retired wind-turbine blade: the laminate outlives the turbine and nothing recycles it|product
+gfrp2|commons|Oman Modzelewski RM58 armchair 1958 fiberglass prototype 1961 Polish modernism exhibition Warsaw 2026.jpg|Modzelewski's RM58 armchair, a 1961 prototype: glass mat and epoxy, sculpted by hand, lacquered|product
 cfrp|commons|Carbon fibre weave.jpg|Carbon fibre fabric|photo
+cfrp2|commons|Thermoset Prepreg Automated Fiber Placement Machine.jpg|An automated fibre-placement head laying prepreg tape: the hand lay-up done by machine, a metre a second|process
+cfrp3|commons|McLaren MP4-1 Carbon Fibre-Kevlar Monocoque Chassis at Formula 1 Exhibition, London.jpg|The 1981 McLaren MP4/1 tub, the first carbon fibre monocoque in Formula One: prepreg laid up in a mould and baked|product
 alhoneycomb|commons|Glare honeycomb.jpg|Honeycomb core bonded between thin skins|product
+alhoneycomb2|commons|Single-use crushable aluminium honeycomb shock absorber.jpg|The crushable honeycomb cartridge from inside an Apollo lunar module landing leg: a shock absorber that works once|related
+alhoneycomb3|commons|MAVEN Mission Primary Structure Complete (6186672814).jpg|The primary structure of the MAVEN Mars spacecraft at Lockheed Martin, 2011: aluminium honeycomb panels, as nearly every satellite is|product
 glare|commons|An exploded view of a GLARE hybrid sheet.jpg|GLARE, exploded — alloy sheets alternating with glass-fibre prepreg|photo
 plywood|NASA|https://images-assets.nasa.gov/image/AFRC2024-0127-32/AFRC2024-0127-32~medium.jpg|Plywood under a CNC router in a NASA fabrication shop|photo|Public domain|AFRC|https://images.nasa.gov/details/AFRC2024-0127-32
 clt|commons|Brettsperrholzkonstruktion.jpg|Cross-laminated timber construction|product

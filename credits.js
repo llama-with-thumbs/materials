@@ -1032,6 +1032,30 @@ window.CREDITS = {
     "h": 710,
     "site": "Wikimedia"
   },
+  "twood2": {
+    "file": "twood2.jpg",
+    "caption": "Backlit panels of transparent wood in a lantern bench at Joetsu, Japan: the grain shows through the light",
+    "kind": "product",
+    "title": "LED-backlit transparent wood panels in Goze Mokudon bench-shaped andon lantern.jpg",
+    "site": "Wikimedia",
+    "artist": "ArchandEng Lab",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LED-backlit_transparent_wood_panels_in_Goze_Mokudon_bench-shaped_andon_lantern.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "twood3": {
+    "file": "twood3.jpg",
+    "caption": "The KTH sample laid over a printed page: bright, but hazy, which is the point and the limit",
+    "kind": "photo",
+    "title": "KTH-forskare har uppfunnit genomskinligt trä prov 2.jpg",
+    "site": "Wikimedia",
+    "artist": "Peter Larsson",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:KTH-forskare_har_uppfunnit_genomskinligt_tr%C3%A4_prov_2.jpg",
+    "w": 960,
+    "h": 639
+  },
   "mycelium": {
     "file": "mycelium.png",
     "caption": "Mycelium composite grown on substrate",
@@ -1043,6 +1067,30 @@ window.CREDITS = {
     "w": 960,
     "h": 688,
     "site": "Wikimedia"
+  },
+  "mycelium2": {
+    "file": "mycelium2.jpg",
+    "caption": "A wine shipper grown by the Rensselaer students' company: the job polystyrene used to do, and the compost heap afterwards",
+    "kind": "product",
+    "title": "Wine Shipper in fungal products by Mycobond.jpg",
+    "site": "Wikimedia",
+    "artist": "mycobond",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wine_Shipper_in_fungal_products_by_Mycobond.jpg",
+    "w": 960,
+    "h": 688
+  },
+  "mycelium3": {
+    "file": "mycelium3.jpg",
+    "caption": "A small building of mycelium bricks at the New York Botanical Garden, 2024: grown blocks on a timber frame",
+    "kind": "product",
+    "title": "NYBG Mycelium Brick Home September 2024.jpg",
+    "site": "Wikimedia",
+    "artist": "SnowFire",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NYBG_Mycelium_Brick_Home_September_2024.jpg",
+    "w": 960,
+    "h": 1280
   },
   "starlite": {
     "file": "starlite.jpg",
@@ -4658,15 +4706,27 @@ window.CREDITS = {
   },
   "gfrp": {
     "file": "gfrp.jpg",
-    "caption": "Glass-reinforced plastic under the electron microscope — fibres embedded in resin",
-    "kind": "photo",
-    "title": "Glass reinforced plastic SEM Stereo 200x.JPG",
-    "artist": "SecretDisc",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Glass_reinforced_plastic_SEM_Stereo_200x.JPG",
+    "caption": "A footbridge in Szprotawa, Poland, made from a retired wind-turbine blade: the laminate outlives the turbine and nothing recycles it",
+    "kind": "product",
+    "title": "Kładka z łopaty turbiny wiatrowej w Szprotawie.jpg",
+    "site": "Wikimedia",
+    "artist": "Maciej Boryna",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C5%82adka_z_%C5%82opaty_turbiny_wiatrowej_w_Szprotawie.jpg",
     "w": 960,
-    "h": 772,
-    "site": "Wikimedia"
+    "h": 540
+  },
+  "gfrp2": {
+    "file": "gfrp2.jpg",
+    "caption": "Modzelewski's RM58 armchair, a 1961 prototype: glass mat and epoxy, sculpted by hand, lacquered",
+    "kind": "product",
+    "title": "Oman Modzelewski RM58 armchair 1958 fiberglass prototype 1961 Polish modernism exhibition Warsaw 2026.jpg",
+    "site": "Wikimedia",
+    "artist": "Siarhei V",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oman_Modzelewski_RM58_armchair_1958_fiberglass_prototype_1961_Polish_modernism_exhibition_Warsaw_2026.jpg",
+    "w": 960,
+    "h": 1229
   },
   "cfrp": {
     "file": "cfrp.jpg",
@@ -4680,6 +4740,30 @@ window.CREDITS = {
     "h": 636,
     "site": "Wikimedia"
   },
+  "cfrp2": {
+    "file": "cfrp2.jpg",
+    "caption": "An automated fibre-placement head laying prepreg tape: the hand lay-up done by machine, a metre a second",
+    "kind": "process",
+    "title": "Thermoset Prepreg Automated Fiber Placement Machine.jpg",
+    "site": "Wikimedia",
+    "artist": "Jota Machinery",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thermoset_Prepreg_Automated_Fiber_Placement_Machine.jpg",
+    "w": 960,
+    "h": 540
+  },
+  "cfrp3": {
+    "file": "cfrp3.jpg",
+    "caption": "The 1981 McLaren MP4/1 tub, the first carbon fibre monocoque in Formula One: prepreg laid up in a mould and baked",
+    "kind": "product",
+    "title": "McLaren MP4-1 Carbon Fibre-Kevlar Monocoque Chassis at Formula 1 Exhibition, London.jpg",
+    "site": "Wikimedia",
+    "artist": "Hullian111",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:McLaren_MP4-1_Carbon_Fibre-Kevlar_Monocoque_Chassis_at_Formula_1_Exhibition,_London.jpg",
+    "w": 960,
+    "h": 640
+  },
   "alhoneycomb": {
     "file": "alhoneycomb.jpg",
     "caption": "Honeycomb core bonded between thin skins",
@@ -4691,6 +4775,30 @@ window.CREDITS = {
     "w": 960,
     "h": 638,
     "site": "Wikimedia"
+  },
+  "alhoneycomb2": {
+    "file": "alhoneycomb2.jpg",
+    "caption": "The crushable honeycomb cartridge from inside an Apollo lunar module landing leg: a shock absorber that works once",
+    "kind": "related",
+    "title": "Single-use crushable aluminium honeycomb shock absorber.jpg",
+    "site": "Wikimedia",
+    "artist": "Steve Jurvetson from Menlo Park, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Single-use_crushable_aluminium_honeycomb_shock_absorber.jpg",
+    "w": 960,
+    "h": 774
+  },
+  "alhoneycomb3": {
+    "file": "alhoneycomb3.jpg",
+    "caption": "The primary structure of the MAVEN Mars spacecraft at Lockheed Martin, 2011: aluminium honeycomb panels, as nearly every satellite is",
+    "kind": "product",
+    "title": "MAVEN Mission Primary Structure Complete (6186672814).jpg",
+    "site": "Wikimedia",
+    "artist": "NASA Goddard Space Flight Center from Greenbelt, MD, USA",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:MAVEN_Mission_Primary_Structure_Complete_(6186672814).jpg",
+    "w": 960,
+    "h": 1200
   },
   "glare": {
     "file": "glare.jpg",
