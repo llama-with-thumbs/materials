@@ -346,9 +346,16 @@ mullite|commons|Kiln Furniture Before Glost FIring.png|Kiln furniture — mullit
 mullite2|commons|Mullite-655833.jpg|Natural mullite from New Zealand, a 5 mm spray of needles: rare in rock, everywhere in fired clay|related
 mullite3|commons|Saggars.jpg|Fireclay saggars at Gladstone Pottery, Stoke: the mullite that forms in them is why they go round the kiln again and again|related
 glassycarbon|commons|Glassy Carbon.jpg|Glassy carbon|photo
+glassycarbon2|commons|Glassy carbon and a 1cm3 graphite cube HP68-79.jpg|A 570-gram lump of glassy carbon beside a one-centimetre graphite cube: the conchoidal fracture of a glass|photo
+glassycarbon3|commons|Vitreous carbon - thick sections.jpg|Thick-section rods of vitreous carbon on a rule: about as thick as the shrinkage allows|product
 emax|commons|Detached-dental-crown-view-a.jpg|A pressed ceramic dental crown|product
-zta|commons|Hip replacement Image 3684-PH.jpg|A hip replacement — the ball is a toughened alumina ceramic|product
+emax2|commons|CEREC-krona.jpg|A crown designed on the CEREC screen from a scan of the mouth: the file the mill cuts from the blue block|process
+emax3|commons|Faccette estetiche confronto prima e dopo.jpg|Before and after bonded ceramic veneers: half a millimetre of glass-ceramic on each front tooth|related
+zta|commons|Hip prosthesis.jpg|A hip stem with its ceramic ball and liner: alumina or its zirconia-toughened grade, ground to a tenth of a micron|product
+zta2|commons|Hip replacement Image 3684-PH.jpg|A hip replacement on the X-ray: the ceramic ball is the dense white sphere on the stem|product
 mnznferrite|commons|T-10 Ferrite Core (1).jpg|A MnZn ferrite core|photo
+mnznferrite2|commons|PQ Coil formers.jpg|PQ and E cores with their bobbins: the transformer shapes inside a switch-mode power supply|product
+mnznferrite3|commons|Cable end.JPG|A USB cable with its moulded ferrite lump: a one-turn choke that soaks up the noise|product
 ifb|commons|Refractory bricks lining.jpg|Refractory brick lining|product
 sialon|commons|ASiAlONb.jpg|Sialon ceramic|photo
 beo|commons|BeO sample.jpg|A beryllium oxide ceramic sample|photo
@@ -532,6 +539,8 @@ zblan|NASA|https://images-assets.nasa.gov/image/0003771/0003771~medium.jpg|Secti
 zblan2|commons|Doped glasses.jpg|Three ZBLAN blocks: praseodymium-doped, erbium-doped and plain, the colour from the dopant|photo
 zblan3|commons|ISS070E110532 - NASA astronaut Loral O'Hara poses in front of the Destiny laboratory’s Microgravity Science Glovebox (MSG) during Flawless Space Fibers operations (iss070e110532).jpg|The glovebox on the space station where ZBLAN fibre is drawn with nothing to settle, 2024|related
 isographite|commons|Graphite crucibles.jpg|Graphite crucibles, good to about 1500 °C|product
+isographite2|commons|DMM Funkenerodiermaschine.jpg|A sinker EDM machine: the graphite electrode in its head burns the shape into hardened steel|process
+isographite3|commons|Leclanche Element zerlegt.jpg|A Leclanché cell taken apart: the dark rod is the graphite electrode, the older job of the same carbon|related
 azs|commons|Lemington Glass Furnace - geograph.org.uk - 498767.jpg|The Lemington glass furnace, the last of its type working in Britain — fused-cast AZS lines the tank that holds molten glass|related
 nomexcore|commons|Composite honeycomb exhaust duct (2).jpg|A sectioned composite exhaust duct, showing the honeycomb core between its skins|product
 forgedcomposite|commons|Forged Carbon Fiber Mat for Lamborghini HURACAN.jpg|Forged composite — a mat of chopped carbon tow, pressed to shape|photo

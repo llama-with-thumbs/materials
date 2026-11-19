@@ -4116,6 +4116,30 @@ window.CREDITS = {
     "h": 821,
     "site": "Wikimedia"
   },
+  "glassycarbon2": {
+    "file": "glassycarbon2.jpg",
+    "caption": "A 570-gram lump of glassy carbon beside a one-centimetre graphite cube: the conchoidal fracture of a glass",
+    "kind": "photo",
+    "title": "Glassy carbon and a 1cm3 graphite cube HP68-79.jpg",
+    "site": "Wikimedia",
+    "artist": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
+    "license": "FAL",
+    "page": "https://commons.wikimedia.org/wiki/File:Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg",
+    "w": 960,
+    "h": 796
+  },
+  "glassycarbon3": {
+    "file": "glassycarbon3.jpg",
+    "caption": "Thick-section rods of vitreous carbon on a rule: about as thick as the shrinkage allows",
+    "kind": "product",
+    "title": "Vitreous carbon - thick sections.jpg",
+    "site": "Wikimedia",
+    "artist": "Semiochemic",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vitreous_carbon_-_thick_sections.jpg",
+    "w": 960,
+    "h": 1280
+  },
   "emax": {
     "file": "emax.jpg",
     "caption": "A pressed ceramic dental crown",
@@ -4128,17 +4152,53 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "emax2": {
+    "file": "emax2.jpg",
+    "caption": "A crown designed on the CEREC screen from a scan of the mouth: the file the mill cuts from the blue block",
+    "kind": "process",
+    "title": "CEREC-krona.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CEREC-krona.jpg",
+    "w": 960,
+    "h": 580
+  },
+  "emax3": {
+    "file": "emax3.jpg",
+    "caption": "Before and after bonded ceramic veneers: half a millimetre of glass-ceramic on each front tooth",
+    "kind": "related",
+    "title": "Faccette estetiche confronto prima e dopo.jpg",
+    "site": "Wikimedia",
+    "artist": "Yvul",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Faccette_estetiche_confronto_prima_e_dopo.jpg",
+    "w": 960,
+    "h": 720
+  },
   "zta": {
     "file": "zta.jpg",
-    "caption": "A hip replacement — the ball is a toughened alumina ceramic",
+    "caption": "A hip stem with its ceramic ball and liner: alumina or its zirconia-toughened grade, ground to a tenth of a micron",
+    "kind": "product",
+    "title": "Hip prosthesis.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hip_prosthesis.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "zta2": {
+    "file": "zta2.jpg",
+    "caption": "A hip replacement on the X-ray: the ceramic ball is the dense white sphere on the stem",
     "kind": "product",
     "title": "Hip replacement Image 3684-PH.jpg",
+    "site": "Wikimedia",
     "artist": "X-ray Image ID: 3684. Photographer: Unknown.",
     "license": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Hip_replacement_Image_3684-PH.jpg",
     "w": 960,
-    "h": 772,
-    "site": "Wikimedia"
+    "h": 772
   },
   "mnznferrite": {
     "file": "mnznferrite.jpg",
@@ -4151,6 +4211,30 @@ window.CREDITS = {
     "w": 960,
     "h": 640,
     "site": "Wikimedia"
+  },
+  "mnznferrite2": {
+    "file": "mnznferrite2.jpg",
+    "caption": "PQ and E cores with their bobbins: the transformer shapes inside a switch-mode power supply",
+    "kind": "product",
+    "title": "PQ Coil formers.jpg",
+    "site": "Wikimedia",
+    "artist": "Powerfox",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PQ_Coil_formers.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "mnznferrite3": {
+    "file": "mnznferrite3.jpg",
+    "caption": "A USB cable with its moulded ferrite lump: a one-turn choke that soaks up the noise",
+    "kind": "product",
+    "title": "Cable end.JPG",
+    "site": "Wikimedia",
+    "artist": "Stwalkerster at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cable_end.JPG",
+    "w": 960,
+    "h": 604
   },
   "ifb": {
     "file": "ifb.jpg",
@@ -6347,6 +6431,30 @@ window.CREDITS = {
     "w": 960,
     "h": 817,
     "site": "Wikimedia"
+  },
+  "isographite2": {
+    "file": "isographite2.jpg",
+    "caption": "A sinker EDM machine: the graphite electrode in its head burns the shape into hardened steel",
+    "kind": "process",
+    "title": "DMM Funkenerodiermaschine.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DMM_Funkenerodiermaschine.jpg",
+    "w": 960,
+    "h": 1190
+  },
+  "isographite3": {
+    "file": "isographite3.jpg",
+    "caption": "A Leclanché cell taken apart: the dark rod is the graphite electrode, the older job of the same carbon",
+    "kind": "related",
+    "title": "Leclanche Element zerlegt.jpg",
+    "site": "Wikimedia",
+    "artist": "Gernek",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Leclanche_Element_zerlegt.jpg",
+    "w": 960,
+    "h": 720
   },
   "azs": {
     "file": "azs.jpg",

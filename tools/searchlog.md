@@ -1160,3 +1160,28 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Refractory bricks lining.jpg`, `Torpedo car refractory bricks.JPG` | already the insulating-firebrick face, and a dark tunnel |
 | `TiB2.png` | a 1125 px lattice render |
 | `Saint-Jean et son usine en 2018.jpg` | an aerial of a valley; the old smelter hall is kept as the second view |
+
+
+## Restyle batch, 19 November 2026: isographite, glassycarbon, emax, zta, mnznferrite
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| A machined isostatic graphite block or electrode | `isostatic graphite`, `graphite electrode EDM`, `graphite block machined`, `machined graphite`, `sinker EDM electrode`, `graphite heating element`, `continuous casting die graphite`, `Graphit Tiegel` | nothing: reactor blocks from 1951, felt electrodes and curtain rods | a milled graphite electrode on the bench |
+| Glassy carbon in use | `glassy carbon electrode`, `glassy carbon crucible` | the RDE disc from the HEA batch and an Argonne 3D-printed cell | a polished electrode tip or a crucible |
+| Lithium disilicate as the blue block | `lithium disilicate`, `e.max`, `Lithiumdisilikat`, `dental crown milling`, `CAD/CAM dentistry` | one 873 px in-situ photo, Max Giesinger, and army dentists at a screen | the blue block in the mill, or before-and-after firing |
+| ZTA named as such | `zirconia toughened alumina`, `Biolox`, `ceramic femoral head`, `alumina ceramic ball hip`, `Hüftprothese Keramik` | nothing by name; the ball in `Hip prosthesis.jpg` is ceramic but unlabelled, used with an honest caption | a Biolox delta head photographed as such |
+| A ferrite core in a charger | `switching power supply transformer`, `pot core ferrite` | boards where the core is a black lump among many | an opened phone charger with the transformer pulled |
+
+| rejected after looking | why |
+|---|---|
+| `Small hole drilling EDM machines.jpg` | the electrode is brass |
+| `Metal crucible.jpg`, `Aluminium melting crucible casting process.jpg` | a glowing ladle and a melt; the crucible material is not the point |
+| `Gas flow controlled ionization chamber.jpg`, DOE `362 047 001` | an exploded drawing, and a plastic cell with syringes |
+| `Inlay krone lithium-disilikat situ.jpg` | 873 px of molar |
+| `CEREC-kronprep.jpg` | the same screen one step earlier |
+| `Керамические Виниры.png` | a second before-and-after, watermarked |
+| the hip X-ray as the ZTA face | readable but grey; moved to second view, the stem and ball are the face |
+| `Coil with ferrite core from dimmer.jpg`, `Ferrite toroid.jpg`, `Ferrite cores different sizes.jpg` | a wound toroid, a bare toroid, more toroids; the face already is five |
+| `Ferrite clamp-on.jpg`, `A collection of Snap-On - Clamp-on ferrite beads.jpg` | a clamp on a red wire, and three split cores; the USB lump says the same |
+| `Forward Converter ATX PC Power Supply IMG 1092.jpg`, `Universum UR 1886 ... Ferrite rod antenna` | a crowded board, and a rod taped into a tuner |
+| `Ferrite-R-Core (7).jpg` | five black cylinders, unreadable as anything |

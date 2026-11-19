@@ -1585,40 +1585,45 @@ window.MATERIALS = [
 },
 {
   id: "isographite", cat: "ceramic", name: "Isostatic graphite",
-  sub: "isotropically pressed fine-grain carbon", img: "isographite",
-  hook: "Unlike every other structural material, it gets stronger as it gets hotter, peaking around 2500 °C. It also machines like chalk and conducts electricity, so it is the electrode that burns a shape into hardened steel.",
+  sub: "isotropically pressed fine-grain carbon", img: "isographite", extra: ["isographite2", "isographite3"],
+  hook: "Coke flour and pitch pressed from every side, then graphitised: a fine carbon with no grain. Alone among structural materials it strengthens as it heats, to 2,500 °C. It machines like chalk and conducts like metal.",
+  more: "Extruded graphite has a grain and a weak direction; pressing the powder in a rubber bag under oil gives a block the same every way, grains under 10 microns, no pore an electrode would print into the die. So it is milled with ordinary tools, which it coats in black dust, into the electrode that spark-erodes a mould cavity into hardened steel, the die a caster pulls copper bar through, the silicon crucible and the vacuum-furnace heater. At 2,000 °C its strength is still rising while every metal is a puddle, and no melt wets it. The costs: it burns in air above 450 °C, so the furnace runs in vacuum or argon; it is weak in tension and chips at an edge; the dust shorts electronics and gets everywhere; and a fine block takes months from pitch to kiln.",
   stats: [["Strength peak", "~2500 °C"], ["Grain", "<10 µm"], ["Machining", "like dense chalk"]],
   uses: "EDM electrodes, continuous casting dies, crucibles, rocket nozzle throats.",
   link: "https://en.wikipedia.org/wiki/Graphite"
 },
 {
   id: "glassycarbon", cat: "ceramic", name: "Glassy carbon",
-  sub: "vitreous carbon", img: "glassycarbon",
-  hook: "Carbon that has been baked until it is neither graphite nor diamond but a tangle of ribbons with no connected porosity at all. Gas cannot get through it, acid cannot touch it, and it keeps a mirror polish.",
+  sub: "vitreous carbon", img: "glassycarbon", extra: ["glassycarbon2", "glassycarbon3"],
+  hook: "Resin baked slowly to 3,000 °C, so the carbon left is neither graphite nor diamond but a tangle of ribbons with no connected pore. Gas cannot get through, acid cannot touch it, and it keeps a mirror polish.",
+  more: "Graphite flakes slide and soak up liquid; this does neither, because the polymer chains carbonise in place into curved ribbons knotted like a bird's nest, so it fractures like glass and rings when tapped. Hard for a carbon, gas-tight, inert to acid and alkali, stable in vacuum to 3,000 °C and conductive, it is the electrochemist's working electrode, polished to a mirror and reused for years; the crucible for a melt that must stay pure, the X-ray cell window and, as a foam, the filter for molten aluminium. The costs: the resin loses half its mass as gas on the way, so a thick piece cracks and parts stay a few millimetres thick; after firing it is shaped only by grinding; and a block takes weeks in the furnace, so by volume it costs more than platinum.",
   stats: [["Permeability", "gas-tight"], ["Use temp", "to 3000 °C, inert"], ["Density", "1.5 g/cm³"]],
   uses: "Electrochemistry electrodes, crucibles for ultra-pure melts, AFM calibration standards.",
   link: "https://en.wikipedia.org/wiki/Glassy_carbon"
 },
 {
   id: "emax", cat: "ceramic", name: "Lithium disilicate",
-  sub: "Li₂Si₂O₅ dental glass-ceramic", img: "emax",
-  hook: "Milled as a soft blue-violet blank in twenty minutes, then fired — and during the firing the crystals grow, the colour turns to tooth, and the strength triples. The machining happens while it is still weak on purpose.",
+  sub: "Li₂Si₂O₅ dental glass-ceramic", img: "emax", extra: ["emax2", "emax3"],
+  hook: "Milled from a soft blue block in twenty minutes, then fired, and in the firing the crystals grow, the colour turns to tooth and the strength triples. Machined while weak, on purpose. A crown in one visit.",
+  more: "The glass-ceramic trick again: the glass is cast with its crystals half grown, as lithium metasilicate, soft enough for the dentist's mill to carve a crown in minutes without eating the burs. Twenty minutes at 850 °C finishes it: the metasilicate dissolves and lithium disilicate needles grow through the glass, interlocking, and the bend strength goes from 130 to 400 megapascals while the blue burns off and the piece turns translucent, close enough to enamel to glaze in place. It bonds to the tooth with resin, so a veneer half a millimetre thick holds. The costs: it is weaker than zirconia, so a molar crown is made thick and a long bridge not at all; it needs a dry field to bond; unpolished, it wears the opposing teeth; and the blocks are dear.",
   stats: [["Milled strength", "~130 MPa"], ["Fired strength", "~400 MPa"], ["Chairside", "under an hour"]],
   uses: "Crowns, veneers and inlays made in the dentist's own milling machine.",
   link: "https://en.wikipedia.org/wiki/Glass-ceramic"
 },
 {
   id: "zta", cat: "ceramic", name: "Zirconia-toughened alumina",
-  sub: "ZTA, Al₂O₃ + 10–20% ZrO₂", img: "zta",
-  hook: "Zirconia grains sit in the alumina like loaded springs. A crack running through triggers them to change crystal structure and swell, which squeezes the crack shut behind the tip. Alumina's hardness with much of zirconia's toughness.",
+  sub: "ZTA, Al₂O₃ + 10–20% ZrO₂", img: "zta", extra: ["zta2"],
+  hook: "Zirconia grains sit in the alumina like loaded springs. A crack sets them off, they swell, and it is clamped shut behind the tip. Alumina's hardness, most of zirconia's toughness, and it does not age in the body.",
+  more: "Alumina is hard but brittle, and a few early hip balls shattered in the patient; zirconia is tough but ages in warm body fluid and roughens. Mix 15 per cent of fine zirconia into alumina and each grain is held compressed by the stiffer matrix, unable to transform until a crack tip frees it, when it swells 4 per cent and shuts the crack; the alumina round it stops the ageing. Toughness doubles, hardness barely drops, and the pink ball on a hip stem fractures once in a hundred thousand. It is also the cyclone wear tile and the insert that turns cast iron. The costs: a ball is pressed, sintered and ground to a tenth of a micron, so it costs hundreds; a ceramic still, so one dropped in theatre goes in the bin; and a scratched one wears the socket.",
   stats: [["Toughness", "~6 MPa·m½"], ["Hardness", "~1700 HV"], ["Mechanism", "transformation toughening"]],
   uses: "Hip replacement heads, wear tiles, cutting inserts, ballistic plates.",
   link: "https://en.wikipedia.org/wiki/Zirconium_dioxide"
 },
 {
   id: "mnznferrite", cat: "ceramic", name: "MnZn ferrite",
-  sub: "soft ferrite core material", img: "mnznferrite",
-  hook: "A magnetic ceramic that is an electrical insulator, so eddy currents that would cook a solid iron core simply cannot circulate. That is the only reason switching power supplies can run at hundreds of kilohertz.",
+  sub: "soft ferrite core material", img: "mnznferrite", extra: ["mnznferrite2", "mnznferrite3"],
+  hook: "Iron oxide with manganese and zinc, fired into a magnet that insulates, so eddy currents cannot flow. That alone is why a switching supply runs at a hundred kilohertz and fits in a plug.",
+  more: "Snoek worked it out at Philips in the 1940s: in the spinel lattice the iron sits on two kinds of site with opposed moments, so the ceramic is magnetic, and manganese and zinc tune it to a permeability of ten thousand. Sintered at 1,300 °C into toroids, E-cores and pot cores, it is the transformer in every charger and laptop brick, the inductor on the motherboard, the radio's rod aerial and the lump on a USB cable that soaks up noise. The costs: it saturates at a third of iron's flux, so a core is bigger for the same power; its permeability wanders with temperature and falls off a cliff at the Curie point near 200 °C; above a megahertz the losses climb and nickel-zinc takes over; it is brittle; and a gapped core sings.",
   stats: [["Permeability", "2000–15000"], ["Resistivity", "~1 Ω·m"], ["Useful to", "~1 MHz"]],
   uses: "SMPS transformers, inductors, the lump on every USB cable, antenna rods.",
   link: "https://en.wikipedia.org/wiki/Ferrite_(magnet)"
