@@ -3254,15 +3254,39 @@ window.CREDITS = {
   },
   "zircaloy": {
     "file": "zircaloy.jpg",
-    "caption": "A nuclear fuel rod — the cladding tube is Zircaloy",
+    "caption": "A fuel assembly at the Novosibirsk works: a bundle of Zircaloy tubes, each holding a column of uranium pellets",
     "kind": "product",
-    "title": "https://live.staticflickr.com/1540/26072384441_7faf9bf9f9_b.jpg",
-    "site": "Flickr",
-    "artist": "NRCgov",
-    "license": "CC BY 2.0",
-    "page": "https://www.flickr.com/photos/nrcgov/26072384441",
+    "title": "RIAN archive 132603 Nuclear power reactor fuel assembly.jpg",
+    "site": "Wikimedia",
+    "artist": "Ruslan Krivobok / Руслан Кривобок",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:RIAN_archive_132603_Nuclear_power_reactor_fuel_assembly.jpg",
     "w": 960,
-    "h": 844
+    "h": 641
+  },
+  "zircaloy2": {
+    "file": "zircaloy2.jpg",
+    "caption": "Inside Fukushima Unit 4 after the hydrogen explosion: the hydrogen came from hot zirconium and steam",
+    "kind": "related",
+    "title": "Rubble inside Unit 4 Building (02813320).jpg",
+    "site": "Wikimedia",
+    "artist": "IAEA Imagebank",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rubble_inside_Unit_4_Building_(02813320).jpg",
+    "w": 960,
+    "h": 720
+  },
+  "zircaloy3": {
+    "file": "zircaloy3.png",
+    "caption": "A zirconium hydride plate in Zircaloy-4 under the electron microscope: the slow way the cladding goes brittle",
+    "kind": "structure",
+    "title": "Zirconium Hydride in the microstructure of Zircaloy-4.png",
+    "site": "Wikimedia",
+    "artist": "Matheustunes",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zirconium_Hydride_in_the_microstructure_of_Zircaloy-4.png",
+    "w": 960,
+    "h": 960
   },
   "hafnium": {
     "file": "hafnium.jpg",
@@ -3276,17 +3300,65 @@ window.CREDITS = {
     "h": 810,
     "site": "Wikimedia"
   },
+  "hafnium2": {
+    "file": "hafnium2.jpg",
+    "caption": "A 1.7 kg hafnium crystal bar from the van Arkel iodide process, the purest form it comes in",
+    "kind": "photo",
+    "title": "Hf-crystal bar.jpg",
+    "site": "Wikimedia",
+    "artist": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
+    "license": "CC BY-SA 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:Hf-crystal_bar.jpg",
+    "w": 960,
+    "h": 273
+  },
+  "hafnium3": {
+    "file": "hafnium3.jpg",
+    "caption": "Arc-remelted hafnium pellets: the colours are a thin oxide film, not the metal",
+    "kind": "photo",
+    "title": "Hafnium pellets with a thin oxide layer.jpg",
+    "site": "Wikimedia",
+    "artist": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
+    "license": "FAL",
+    "page": "https://commons.wikimedia.org/wiki/File:Hafnium_pellets_with_a_thin_oxide_layer.jpg",
+    "w": 960,
+    "h": 383
+  },
   "hea": {
     "file": "hea.jpg",
-    "caption": "High-entropy alloy microstructure",
-    "kind": "photo",
+    "caption": "An alloy button melting in an arc furnace, no crucible: how every high-entropy alloy sample is made",
+    "kind": "process",
+    "title": "U.S. Department of Energy - Science - 408 048 001 (9631928920).jpg",
+    "site": "Wikimedia",
+    "artist": "U.S. Department of Energy from United States",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:U.S._Department_of_Energy_-_Science_-_408_048_001_(9631928920).jpg",
+    "w": 960,
+    "h": 626
+  },
+  "hea2": {
+    "file": "hea2.jpg",
+    "caption": "An aluminium-cobalt-chromium-iron-nickel high-entropy alloy in section: two phases, not the promised one",
+    "kind": "structure",
     "title": "Microstructure of High-Entropy Alloy AlCoCrFeNi₂.₁.jpg",
+    "site": "Wikimedia",
     "artist": "OndrejAmbroz",
     "license": "CC BY 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Microstructure_of_High-Entropy_Alloy_AlCoCrFeNi%E2%82%82.%E2%82%81.jpg",
     "w": 960,
-    "h": 801,
-    "site": "Wikimedia"
+    "h": 801
+  },
+  "hea3": {
+    "file": "hea3.jpg",
+    "caption": "A bench arc melter in a university lab: a few grams at a time, under argon",
+    "kind": "process",
+    "title": "Arc-melting.jpg",
+    "site": "Wikimedia",
+    "artist": "Sofia Gambaro, Giovanna Canu, Francesca Cirisano, CNR-ICMATE",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arc-melting.jpg",
+    "w": 960,
+    "h": 720
   },
   "sodalime": {
     "file": "sodalime.jpg",
@@ -6672,6 +6744,30 @@ window.CREDITS = {
     "w": 960,
     "h": 640
   },
+  "nb3sn2": {
+    "file": "nb3sn2.jpg",
+    "caption": "Niobium-tin quadrupole coils for the high-luminosity LHC, wound and reacted",
+    "kind": "product",
+    "title": "HLLHC1.jpg",
+    "site": "Wikimedia",
+    "artist": "CERN",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HLLHC1.jpg",
+    "w": 960,
+    "h": 641
+  },
+  "nb3sn3": {
+    "file": "nb3sn3.jpg",
+    "caption": "Winding a module of ITER's central solenoid at General Atomics, before the coil goes into the furnace",
+    "kind": "process",
+    "title": "ITER central solenoid manufacturing (41809722361).jpg",
+    "site": "Wikimedia",
+    "artist": "Oak Ridge National Laboratory",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ITER_central_solenoid_manufacturing_(41809722361).jpg",
+    "w": 960,
+    "h": 640
+  },
   "wroughtiron": {
     "file": "wroughtiron.jpg",
     "caption": "A wrought iron gate of about 1840, forged and scrolled before mild steel existed",
@@ -6683,6 +6779,30 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/28643687@N08/31440405118",
     "w": 793,
     "h": 1024
+  },
+  "wroughtiron2": {
+    "file": "wroughtiron2.jpg",
+    "caption": "The eyebar chains of the Menai Bridge: Telford's wrought iron of 1826, still hanging",
+    "kind": "product",
+    "title": "Menai Bridge Chains - geograph.org.uk - 4636869.jpg",
+    "site": "Wikimedia",
+    "artist": "Andy Beecroft",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Menai_Bridge_Chains_-_geograph.org.uk_-_4636869.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "wroughtiron3": {
+    "file": "wroughtiron3.png",
+    "caption": "Wrought iron in section, from a 1900s metallurgy text: the dark bands are slag, drawn out along the fibre",
+    "kind": "structure",
+    "title": "Puddled iron Longitudinal direction metallography.PNG",
+    "site": "Wikimedia",
+    "artist": "Albert Sauveur",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Puddled_iron_Longitudinal_direction_metallography.PNG",
+    "w": 867,
+    "h": 544
   },
   "tincoat": {
     "file": "tincoat.jpg",

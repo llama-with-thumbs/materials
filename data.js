@@ -1121,40 +1121,45 @@ window.MATERIALS = [
 },
 {
   id: "zircaloy", cat: "metal", name: "Zircaloy",
-  sub: "zirconium–tin cladding alloy", img: "zircaloy",
-  hook: "Chosen for one property: neutrons pass straight through it. That lets a fuel rod be wrapped in metal without poisoning the reaction. Its one bad day is a loss of coolant, when hot zirconium strips oxygen from steam and makes hydrogen.",
+  sub: "zirconium–tin cladding alloy", img: "zircaloy", extra: ["zircaloy2", "zircaloy3"],
+  hook: "Zirconium with a little tin, chosen because neutrons pass through it, so a fuel rod can be wrapped in metal without poisoning the reaction. Lose the coolant and hot zirconium strips steam and makes hydrogen.",
+  more: "Hafnium-free zirconium has a neutron cross-section fifteen times smaller than steel's, so a tube half a millimetre thick holds the uranium pellets and their fission gas for five years at 350 °C in water without stealing the neutrons that pay for it. The tin, iron and chromium are there for creep and corrosion; a fuel assembly is a few hundred such tubes in a zirconium grid, and every water-cooled reactor is full of them. The costs: above 1,200 °C the metal takes oxygen off steam faster than anything can cool it, and the hydrogen it gives off is what blew the roofs off Fukushima; it drinks hydrogen as it corrodes and grows brittle hydride plates; it creeps and bows under irradiation; and getting the hafnium out of the ore is the dear part.",
   stats: [["Neutron capture", "very low"], ["Service", "~350 °C in water"], ["Steam above 1200 °C", "makes H₂"]],
   uses: "Fuel rod cladding and channel boxes in essentially every water-cooled reactor.",
   link: "https://en.wikipedia.org/wiki/Zircaloy"
 },
 {
   id: "hafnium", cat: "metal", name: "Hafnium",
-  sub: "Hf, zirconium's chemical twin", img: "hafnium",
-  hook: "Chemically almost identical to zirconium and found in the same ore, but it swallows neutrons about 600 times more greedily. So the two are painstakingly separated: zirconium wraps the fuel, hafnium makes the control rods that stop it.",
+  sub: "Hf, zirconium's chemical twin", img: "hafnium", extra: ["hafnium2", "hafnium3"],
+  hook: "Zirconium's twin, in the same ore and so alike it hid until 1923. It swallows neutrons 600 times more greedily, so the two are painstakingly split: zirconium wraps the fuel, hafnium makes the rods that stop it.",
+  more: "The lanthanide contraction leaves hafnium the same size as zirconium, so every zircon crystal carries a few per cent of it and no chemistry tells them apart; the split takes solvent extraction or hundreds of distillation stages, and nuclear zirconium is defined by the hafnium it lacks. The hafnium left over is the control rod of a submarine reactor, strong, corrosion-proof in hot water and good for a decade without swelling. Out of the reactor it is the tip of a plasma cutter electrode, whose oxide emits electrons where copper melts; a per cent in the turbine blade alloy; and as the oxide, the gate dielectric in every chip since 2007. The costs: it is priced like silver, the supply is a by-product of the zirconium trade, and the powder burns.",
   stats: [["Neutron capture", "~600× zirconium"], ["Melting", "2233 °C"], ["Separation", "the hard part"]],
   uses: "Reactor control rods, plasma cutting electrodes, superalloy additive, high-k gate oxide.",
   link: "https://en.wikipedia.org/wiki/Hafnium"
 },
 {
   id: "hea", cat: "metal", name: "High-entropy alloy",
-  sub: "CrMnFeCoNi (Cantor alloy)", img: "hea",
-  hook: "Five metals in roughly equal amounts, with no host element at all — the opposite of how alloys are normally designed. The Cantor alloy's fracture toughness rises as it gets colder, which almost every other metal refuses to do.",
+  sub: "CrMnFeCoNi (Cantor alloy)", img: "hea", extra: ["hea2", "hea3"],
+  hook: "Five metals in equal measure and no host element, the opposite of how alloys are designed. Cantor's chromium-manganese-iron-cobalt-nickel gets tougher as it gets colder, which almost no other metal does.",
+  more: "Cantor and Yeh's idea of 2004: mixing five elements raises the entropy enough to hold one solid solution where a textbook predicts brittle compounds. It half works: the Cantor alloy is one face-centred cubic phase, and at 77 K it twins under strain instead of cracking, so its toughness climbs past 200 MPa root-metre, better than any cryogenic steel. Every sample is an arc-melted button of a few grams, and the field is a search: refractory ones for turbines, cobalt-free ones for reactors, coatings that resist wear. The costs: cobalt and nickel make it dearer than the steel it would replace; its strength at room temperature is only ordinary; many of the mixtures segregate after all if held hot; and nothing is yet made of it beyond a test bar.",
   stats: [["Elements", "5, near-equiatomic"], ["Toughness at 77 K", "~200 MPa·m½"], ["First reported", "2004"]],
   uses: "Cryogenic structures, research into radiation-tolerant and wear-resistant alloys.",
   link: "https://en.wikipedia.org/wiki/High-entropy_alloy"
 },
 {
   id: "nb3sn", cat: "metal", name: "Nb3Sn superconductor",
-  sub: "A15 intermetallic, reacted after winding", img: "nb3sn",
-  hook: "Niobium and tin in the A15 structure stay superconducting in fields that flatten niobium-titanium — useful past 20 tesla, where Nb-Ti gives up around 10. The catch is that the compound is a ceramic in all but name: bend a finished strand and the filaments crack. So magnets are wound from ductile niobium-and-bronze precursor and then baked at about 650 °C for days, forming the superconductor in place inside the finished coil, after which the whole thing has to be handled as if it were glass.",
+  sub: "A15 intermetallic, reacted after winding", img: "nb3sn", extra: ["nb3sn2", "nb3sn3"],
+  hook: "Niobium and tin in the A15 structure stay superconducting past 20 tesla, where Nb-Ti gave up at 10. The catch: the compound is a ceramic in all but name, so the magnet is wound soft and baked into existence.",
+  more: "Bend a finished strand and the filaments crack, so the wire is drawn as niobium rods in bronze or tin-cored copper, still ductile, and wound into the coil; then the whole coil sits in a furnace at 650 °C for days while the tin diffuses into the niobium and the superconductor forms in place. After that it is handled like glass: potted in epoxy, never flexed, every joint made before the bake. That is the 900 MHz NMR magnet, ITER's central solenoid and toroidal coils, and the quadrupoles of the high-luminosity LHC near 12 tesla. The costs: the strain sensitivity, since a few tenths of a per cent of stretch kills the current; the heat treatment, which rules out most insulation; a price ten times Nb-Ti; and 18 K still needs liquid helium.",
   stats: [["Critical temperature", "about 18 K"], ["Useful past", "20 T, where Nb-Ti stops"], ["Formed", "after winding, near 650 °C"]],
   uses: "ITER and fusion magnets, high-luminosity LHC quadrupoles, high-field NMR and research magnets.",
   link: "https://en.wikipedia.org/wiki/Niobium%E2%80%93tin"
 },
 {
   id: "wroughtiron", cat: "metal", name: "Wrought iron",
-  sub: "iron with its slag rolled into fibres", img: "wroughtiron",
-  hook: "Neither steel nor cast iron: almost pure iron with one or two percent of its smelting slag left inside and rolled out into long fibres, so the metal has a grain and tears along it like timber. The grain is why it forge-welds so willingly and why old chain and railing bends instead of snapping, and the low carbon with a trace of phosphorus is why some of it corrodes so slowly — the Delhi pillar has stood in the open for sixteen centuries. Nobody has made it at scale since the 1970s, so restoration work runs on reclaimed stock.",
+  sub: "iron with its slag rolled into fibres", img: "wroughtiron", extra: ["wroughtiron2", "wroughtiron3"],
+  hook: "Neither steel nor cast iron: near-pure iron with a per cent or two of smelting slag left in and rolled into fibres, so the metal has a grain and tears along it like timber. Not made at scale since the 1970s.",
+  more: "The puddler stirred molten pig iron until the carbon burned out and a pasty ball of iron and slag could be lifted, hammered and rolled; the slag never left, it only stretched, so a bar is iron laced with glassy threads. The grain is why it forge-welds so willingly, why old chain and railing bend, not snap, and why a crack runs along a bar before it runs across. Low carbon and a trace of phosphorus are why some of it corrodes so slowly: the Delhi pillar has stood in the rain for sixteen centuries. It built the Menai chains, the Eiffel Tower and every anchor until Bessemer steel undercut it. The costs: weak along the fibre and weaker across it; a quality that varied with the puddler; and now only reclaimed stock, so restoration runs on salvage.",
   stats: [["Carbon", "under 0.1 percent"], ["Slag", "1–2 percent, drawn into fibres"], ["Supply", "reclaimed — no longer made at scale"]],
   uses: "Historic chain, gates and railings; blacksmithing; conservation and restoration work.",
   link: "https://en.wikipedia.org/wiki/Wrought_iron"

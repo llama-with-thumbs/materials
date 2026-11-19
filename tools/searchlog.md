@@ -934,3 +934,32 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `USS Annapolis (PG-10) Condenser Tube Sheets` | an 1890s drawing, pale and 12,000 px |
 | `Gleitlager Kraftwerksdecke.JPG` | a concrete slide bearing, no babbitt |
 | the Miba thrust bearing as the babbitt face | a product render, but the pads read as a bearing at card size; kept |
+
+
+## Restyle batch, 18 November 2026: zircaloy, hafnium, hea, nb3sn, wroughtiron
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| A bare Zircaloy tube or sponge | `zirconium alloy tube`, `zirconium sponge`, `nuclear fuel rod cladding` | nothing but a Thai research reactor pool | a cladding tube on a bench, or Kroll sponge |
+| A hafnium control rod or cutter tip | `control rod`, `control rod drive`, `plasma cutter electrode` | drive mechanisms and fly-rods; the electrode returns nothing | a hafnium-tipped electrode close up |
+| A high-entropy alloy part | `high entropy alloy`, `Cantor alloy`, `CrMnFeCoNi`, `Hochentropielegierung` | copper Buddhas, salts in DMSO and two journal graphics; there is no part yet | anything made of it beyond a button |
+| A niobium-tin strand in section | `Nb3Sn strand`, `niobium tin`, `Nb3Sn` | crystal-structure renders and a phase diagram | a micrograph of the reacted filaments |
+| Wrought iron torn along the grain | `wrought iron fracture fibrous`, `wrought iron microstructure` | nothing but the Turtleville bridge survey | a broken bar showing the woody fracture |
+
+| rejected after looking | why |
+|---|---|
+| the NRC fuel-rod diagram as the Zircaloy face | a cartoon; dropped for the real assembly |
+| `Zircaloy-4.tif` | a grey micrograph with nothing to read; the hydride TEM says more |
+| `Nuclear-Fuel.jpg`, `Dukovany 2012 03.jpg` | a rack of assemblies behind a technician, and a control room |
+| `Nuclear fuel pellets at the Greifswald...` | pellets in a plastic dome, not the cladding |
+| `HD.6B.096` | a lathe, by its own caption tungsten |
+| `Hafnium (Element - 72) 1.jpg`, `Hafnium (72 Hf).jpg` | a sample vial by a periodic tile |
+| `TREAT Control Rod Drive Mechanisms.JPG` | a hall of yellow steel, no hafnium in sight |
+| `My miniature moon.jpg` | a white disc; the coating is invisible at any size |
+| the old AlCoCrFeNi micrograph as the face | kept as second view with an honest caption; the arc-melted button is the face |
+| `Close-up of a compact sintered joint`, DOE `394 059 002` | a second cable end, same as the face |
+| `ITER Central Solenoid (41767826062).jpg`, `Toroidal field conductor` | a wrapped conductor and a 700 px coil |
+| `Superconducting magnet cutaway.jpg` | a cutaway with no alloy named |
+| the Delhi pillar | a dark post between arches at card size; it is in the text instead |
+| `Anchor at Ravenglass`, `Post-Medieval Iron Chain Link` | a rusty anchor on mud, and three small links on a scale |
+| the puddling-furnace woodcuts | 1,300 px engravings; the metallography shows the fibre better |

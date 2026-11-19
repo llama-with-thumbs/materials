@@ -274,9 +274,15 @@ alnico3|commons|Alnico magnet assortment.jpg|Arnold Engineering's cast alnico sh
 corten|commons|Angel of the North 2016 011.jpg|Gormley's Angel of the North, 1998: 200 tonnes of weathering steel, never painted|product
 corten2|commons|Weather resistant steel bridge.jpg|A road bridge in Kochi, Japan, in weathering steel: no repainting budget, by design|product
 corten3|Flickr|https://live.staticflickr.com/4089/5014715316_a30872ba4c_b.jpg|A weathering steel door, the rust skin fully formed and stable|product|CC BY 2.0|Newtown grafitti|https://www.flickr.com/photos/28713775@N02/5014715316
-zircaloy|Flickr|https://live.staticflickr.com/1540/26072384441_7faf9bf9f9_b.jpg|A nuclear fuel rod — the cladding tube is Zircaloy|product|CC BY 2.0|NRCgov|https://www.flickr.com/photos/nrcgov/26072384441
+zircaloy|commons|RIAN archive 132603 Nuclear power reactor fuel assembly.jpg|A fuel assembly at the Novosibirsk works: a bundle of Zircaloy tubes, each holding a column of uranium pellets|product
+zircaloy2|commons|Rubble inside Unit 4 Building (02813320).jpg|Inside Fukushima Unit 4 after the hydrogen explosion: the hydrogen came from hot zirconium and steam|related
+zircaloy3|commons|Zirconium Hydride in the microstructure of Zircaloy-4.png|A zirconium hydride plate in Zircaloy-4 under the electron microscope: the slow way the cladding goes brittle|structure
 hafnium|commons|Hafnium ebeam remelted.jpg|Electron-beam remelted hafnium|photo
-hea|commons|Microstructure of High-Entropy Alloy AlCoCrFeNi₂.₁.jpg|High-entropy alloy microstructure|photo
+hafnium2|commons|Hf-crystal bar.jpg|A 1.7 kg hafnium crystal bar from the van Arkel iodide process, the purest form it comes in|photo
+hafnium3|commons|Hafnium pellets with a thin oxide layer.jpg|Arc-remelted hafnium pellets: the colours are a thin oxide film, not the metal|photo
+hea|commons|U.S. Department of Energy - Science - 408 048 001 (9631928920).jpg|An alloy button melting in an arc furnace, no crucible: how every high-entropy alloy sample is made|process
+hea2|commons|Microstructure of High-Entropy Alloy AlCoCrFeNi₂.₁.jpg|An aluminium-cobalt-chromium-iron-nickel high-entropy alloy in section: two phases, not the promised one|structure
+hea3|commons|Arc-melting.jpg|A bench arc melter in a university lab: a few grams at a time, under argon|process
 sodalime|commons|Foxton Fizz Bottles.jpg|Soda-lime glass bottles|product
 leadcrystal|commons|Cut crystal wine glasses in the Fakiris series by German glassworks Knittel 4.jpg|Cut lead crystal|product
 ceran|commons|Schott Ceran glass-ceramic cooktop.jpg|A glass-ceramic cooktop|product
@@ -559,7 +565,11 @@ hideglue|commons|Knochenleim Granulat.jpg|Animal glue granules, ready to be soak
 shockmount|commons|AKG C214 condenser microphone with H85 shock mount.jpg|A condenser microphone slung in an elastic shock mount|photo
 endpin|commons|Cello endpin.JPG|A cello endpin — the steel spike, with its rubber cap beside it|photo
 nb3sn|Flickr|https://live.staticflickr.com/4202/34860816181_5e2e163cfc_b.jpg|An exploded view of ITER's central solenoid conductor, cabled from niobium-tin|product|CC BY-SA 2.0|ChaSanabria|https://www.flickr.com/photos/98777507@N04/34860816181
+nb3sn2|commons|HLLHC1.jpg|Niobium-tin quadrupole coils for the high-luminosity LHC, wound and reacted|product
+nb3sn3|commons|ITER central solenoid manufacturing (41809722361).jpg|Winding a module of ITER's central solenoid at General Atomics, before the coil goes into the furnace|process
 wroughtiron|Flickr|https://live.staticflickr.com/1950/31440405118_bcf4c59f1d_b.jpg|A wrought iron gate of about 1840, forged and scrolled before mild steel existed|product|CC BY-SA 2.0|Spencer Means|https://www.flickr.com/photos/28643687@N08/31440405118
+wroughtiron2|commons|Menai Bridge Chains - geograph.org.uk - 4636869.jpg|The eyebar chains of the Menai Bridge: Telford's wrought iron of 1826, still hanging|product
+wroughtiron3|commons|Puddled iron Longitudinal direction metallography.PNG|Wrought iron in section, from a 1900s metallurgy text: the dark bands are slag, drawn out along the fibre|structure
 tincoat|commons|TiNCoatedPunches NanoShieldPVD Thailand.JPG|Punches coated with titanium nitride by cathodic arc deposition|photo
 lfp|commons|Lithium Iron Phosphate LiFePO4 Cells 400 Ah Amp Hours 3.25 Volts - 1.jpg|400 Ah lithium iron phosphate cells wired into a house battery|product
 rattan|commons|Rattan and Nito.jpg|Rattan and nito woven into baskets and trays, in a Philippine craft display|product
