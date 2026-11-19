@@ -1405,8 +1405,9 @@ window.MATERIALS = [
 },
 {
   id: "si3n4", cat: "ceramic", name: "Silicon nitride",
-  sub: "Si₃N₄", img: "si3n4",
-  hook: "Interlocking needle-shaped grains make it the toughest of the structural ceramics, and it barely expands with heat. A ball of it is 60% the weight of steel, needs no lubricant, and will not weld itself to a steel race.",
+  sub: "Si₃N₄", img: "si3n4", extra: ["si3n42", "si3n43"],
+  hook: "Sintered into a felt of interlocking needle grains: the toughest ceramic, light, and barely expands with heat. A ball of it weighs 40 per cent of steel, runs faster in a steel race and never welds to it.",
+  more: "Fired hot enough, the powder dissolves and regrows as long beta needles that lock together, so a crack must wind round every grain; the result is the ceramic that takes a hammer blow and a 1,000 °C shock. The bearing ball is the big job: at 3.2 grams a cubic centimetre it has half the centrifugal load of steel, so a spindle runs faster, cooler, and ceramic on steel cannot micro-weld, so the hybrid bearing survives lost oil. It is also the turbo rotor that spools in half the time, the glow plug that heats in two seconds, the welding nozzle and the insert that turns cast iron dry. The costs: it is sintered under nitrogen with a glassy additive at 1,800 °C, so a part is dear; it is still brittle; and grinding a bearing finish costs more than the ball.",
   stats: [["Density", "3.2 g/cm³"], ["Thermal shock", "excellent"], ["Bearings", "run dry, faster"]],
   uses: "Hybrid and ceramic bearings, turbocharger rotors, glow plugs, cutting tools, weld nozzles.",
   link: "https://en.wikipedia.org/wiki/Silicon_nitride"
@@ -1414,31 +1415,35 @@ window.MATERIALS = [
 {
   id: "hbn", cat: "ceramic", name: "Hexagonal boron nitride",
   sub: "hBN, “white graphite”", img: "hbn",
-  hook: "Identical chemistry to the second-hardest material known, stacked differently — and the result is soft, slippery and white. It machines with ordinary tools, lubricates at 900 °C, insulates electrically and conducts heat well.",
+  hook: "Graphite with every other atom swapped for boron or nitrogen: soft, slippery and white. It machines, lubricates at 900 °C, insulates and carries heat. Pressed at 60,000 atmospheres, it is the second-hardest solid.",
+  more: "The sheets are held together by almost nothing, so they slide, which is the lubricant and the machinability; unlike graphite the electrons stay in the boron-nitrogen bonds, so the sheet insulates with a 6 electron-volt gap, and it needs no oxygen to stay slippery. Hot-pressed into a block it is the crucible that molten aluminium and glass will not wet, the setter under a sintering run, the insulator in a plasma chamber; as a powder it is the mould release, the dry-film spray and the glide in a face powder. The costs: a hot-pressed block is soft and porous and soaks up water, which blows it apart when heated fast; it oxidises above 900 °C in air; the sheet grades are anisotropic, strong one way; and the powder is dear for a lubricant.",
   stats: [["Hardness", "soft — it is a lubricant"], ["Electrically", "insulating"], ["Lubricates to", "~900 °C"]],
   uses: "Crucibles and setters, mould release, high-temperature lubricant, plasma chamber parts.",
   link: "https://en.wikipedia.org/wiki/Boron_nitride"
 },
 {
   id: "pzt", cat: "ceramic", name: "PZT",
-  sub: "lead zirconate titanate", img: "pzt",
-  hook: "Squeeze it and it produces a voltage; apply a voltage and it changes length by nanometres, reliably, forever. Almost every ultrasound image, fuel injector and parking sensor runs through a piece of this.",
+  sub: "lead zirconate titanate", img: "pzt", extra: ["pzt2", "pzt3"],
+  hook: "A lead perovskite that is not quite symmetric, poled once: squeeze it and it makes a voltage, feed it a voltage and it moves nanometres, forever. Every ultrasound scan, fuel injector and parking sensor has a piece.",
+  more: "Jaffe's 1954 find: at 52 per cent zirconium the crystal sits between two distorted forms and cannot decide, so a field tips it easily and the response is three times barium titanate's. Fire the disc, silver it, pole it at 150 °C in a kilovolt a millimetre so the domains line up, and it stays so: a buzzer and a lighter spark, a sonar array and a 128-element medical probe, a hundred-layer stack that opens a diesel injector in 100 microseconds, and the microscope stage that moves a hundredth of a nanometre. The costs: it is 60 per cent lead oxide and exempt from the lead bans only because nothing lead-free matches it; it depoles above 350 °C or in a strong reverse field; and the strain is a tenth of a per cent, so a big move needs a lever.",
   stats: [["Strain", "~0.1%, sub-nm resolution"], ["Response", "microseconds"], ["Force", "very high"]],
   uses: "Ultrasound transducers, fuel injectors, nanopositioners, sonar, buzzers, igniters.",
   link: "https://en.wikipedia.org/wiki/Lead_zirconate_titanate"
 },
 {
   id: "batio3", cat: "ceramic", name: "Barium titanate",
-  sub: "BaTiO₃", img: "batio3",
-  hook: "A perovskite whose unit cell is slightly lopsided, giving it a dielectric constant in the thousands where most insulators manage single digits. Stacked in hundreds of sub-micron layers, it is the most manufactured electronic component on earth.",
+  sub: "BaTiO₃", img: "batio3", extra: ["batio32", "batio33"],
+  hook: "A perovskite with its titanium off centre, polarised with no field, a dielectric constant in the thousands where glass manages five. Stacked in hundreds of layers, it is the commonest component on earth.",
+  more: "Below 120 °C the cubic cell stretches a per cent and the titanium shifts toward one oxygen, so each cell is a dipole and the grain polarises easily, which is what a capacitor wants. Tape-cast a micron thick, printed with nickel, stacked five hundred high, cut and fired, it is the multilayer ceramic capacitor: three trillion a year, a thousand in a phone, microfarads in a grain of rice. Doped with lanthanum it conducts until its Curie point, then its resistance jumps a thousandfold: the self-regulating heater and the resettable fuse. The costs: the dielectric constant falls with temperature, voltage and age, so the label value is the best case; it is piezoelectric, so a board full of them sings; and a bent board cracks one and shorts the rail.",
   stats: [["Dielectric constant", "~1000–7000"], ["Layer thickness", "<1 µm"], ["Made", "trillions per year"]],
   uses: "Multilayer ceramic capacitors, PTC thermistors, transducers, non-volatile memory.",
   link: "https://en.wikipedia.org/wiki/Barium_titanate"
 },
 {
   id: "wc", cat: "ceramic", name: "Cemented carbide",
-  sub: "WC–Co hardmetal", img: "wc",
-  hook: "Tungsten carbide grains glued together by cobalt metal — a ceramic with a metal binder, so it is nearly as hard as a ceramic but will not shatter like one. It is also twice as stiff as steel.",
+  sub: "WC–Co hardmetal", img: "wc", extra: ["wc2", "wc3"],
+  hook: "Tungsten carbide grains glued with cobalt: a ceramic with a metal binder, nearly as hard as a ceramic but does not shatter like one, and twice as stiff as steel. Made in 1923 for the dies that draw lamp filament.",
+  more: "Mix micron carbide powder with 6 to 15 per cent cobalt, press it and sinter at 1,400 °C: the cobalt melts, wets every grain and pulls the compact dense, a skeleton of carbide in a thin ductile web. Harder than any steel at 1,600 Vickers, three times as stiff, and the cobalt lets it take a shock that would split a pure ceramic: the insert in every lathe and mill, the masonry drill tip, the wire-drawing die it was invented for, the rock-bit button, the ballpoint ball and the ring that cannot be cut off a finger. The costs: cobalt is dear, toxic as dust and, like tungsten, comes mostly from one or two countries; more cobalt means tougher and softer; it weighs 15 grams a cubic centimetre; and it is shaped only by diamond grinding or spark erosion.",
   stats: [["Hardness", "~1600 HV"], ["Stiffness", "~2× steel"], ["Binder", "6–15% cobalt"]],
   uses: "Cutting inserts and drills, drawing dies, rock bits, wear parts, anti-vibration bars.",
   link: "https://en.wikipedia.org/wiki/Tungsten_carbide"

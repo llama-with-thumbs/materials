@@ -1512,6 +1512,30 @@ window.CREDITS = {
     "w": 530,
     "h": 468
   },
+  "si3n42": {
+    "file": "si3n42.jpg",
+    "caption": "An engine valve in silicon nitride, NGK 1996: half the weight of steel, no cooling needed",
+    "kind": "product",
+    "title": "Silicon nitride valve.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown authorUnknown author",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Silicon_nitride_valve.jpg",
+    "w": 918,
+    "h": 668
+  },
+  "si3n43": {
+    "file": "si3n43.jpg",
+    "caption": "Bearing balls from 1 to 20 mm, grade 5 to 28: ground and lapped to a tenth of a micron",
+    "kind": "product",
+    "title": "Silicon nitride Si3N4 bearing balls 1–20 mm.jpg",
+    "site": "Wikimedia",
+    "artist": "Lucasbosch",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Silicon_nitride_Si3N4_bearing_balls_1%E2%80%9320_mm.jpg",
+    "w": 960,
+    "h": 720
+  },
   "hbn": {
     "file": "hbn.jpg",
     "caption": "Hexagonal boron nitride crystals — \"white graphite\", soft enough to machine",
@@ -1536,6 +1560,30 @@ window.CREDITS = {
     "w": 960,
     "h": 960
   },
+  "pzt2": {
+    "file": "pzt2.jpg",
+    "caption": "A piezo buzzer disc, front and back: a PZT wafer silvered on both faces and bonded to brass",
+    "kind": "product",
+    "title": "Piezo.jpg",
+    "site": "Wikimedia",
+    "artist": "Stefan Riepl (Quark48)",
+    "license": "CC BY-SA 2.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:Piezo.jpg",
+    "w": 960,
+    "h": 932
+  },
+  "pzt3": {
+    "file": "pzt3.jpg",
+    "caption": "A Philips curved-array ultrasound probe opened: 128 PZT elements under the lens",
+    "kind": "product",
+    "title": "Curved Array Ultrasound Sensor Construction.jpg",
+    "site": "Wikimedia",
+    "artist": "Binarysequence",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Curved_Array_Ultrasound_Sensor_Construction.jpg",
+    "w": 960,
+    "h": 596
+  },
   "wc": {
     "file": "wc.jpg",
     "caption": "Tungsten carbide cutting inserts",
@@ -1547,6 +1595,30 @@ window.CREDITS = {
     "w": 960,
     "h": 821,
     "site": "Wikimedia"
+  },
+  "wc2": {
+    "file": "wc2.jpg",
+    "caption": "A 5 mm solid carbide drill: the shallow point angle only a stiff material allows",
+    "kind": "product",
+    "title": "5mm carbide bit displaying shallow point angle.jpg",
+    "site": "Wikimedia",
+    "artist": "Junkyardsparkle",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:5mm_carbide_bit_displaying_shallow_point_angle.jpg",
+    "w": 960,
+    "h": 768
+  },
+  "wc3": {
+    "file": "wc3.jpg",
+    "caption": "A tungsten carbide ring: polished once, never scratched, and cut off a finger only by cracking it",
+    "kind": "product",
+    "title": "Tungsten Carbide.jpg",
+    "site": "Wikimedia",
+    "artist": "LUCIUS CORNELIUS SULLA FELIX",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tungsten_Carbide.jpg",
+    "w": 960,
+    "h": 643
   },
   "uhtc": {
     "file": "uhtc.jpg",
@@ -1619,6 +1691,30 @@ window.CREDITS = {
     "w": 500,
     "h": 435,
     "site": "Wikimedia"
+  },
+  "batio32": {
+    "file": "batio32.jpg",
+    "caption": "A multilayer ceramic capacitor in section: hundreds of barium titanate layers between nickel electrodes",
+    "kind": "structure",
+    "title": "MLCC cross section.jpg",
+    "site": "Wikimedia",
+    "artist": "TubeTimeUS",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MLCC_cross_section.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "batio33": {
+    "file": "batio33.jpg",
+    "caption": "Multilayer ceramic capacitors on a board: the commonest component there is",
+    "kind": "product",
+    "title": "Ceramic capacitors mounted on a PCB.jpg",
+    "site": "Wikimedia",
+    "artist": "Giovanna 27",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ceramic_capacitors_mounted_on_a_PCB.jpg",
+    "w": 960,
+    "h": 640
   },
   "tbc": {
     "file": "tbc.jpg",

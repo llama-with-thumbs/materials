@@ -129,15 +129,23 @@ borosilicate|commons|Beakers.jpg|Borosilicate labware|photo
 borosilicate2|commons|200-inch, 20-ton lens for the future Hale Telescope, after its arrival in Pasadena, CA.jpg|The 200-inch Palomar disc arriving in Pasadena, 1936: twenty tons of Pyrex with a waffle back, a year in the annealing oven|product
 borosilicate3|commons|Pyrex and PYREX.jpg|Two Pyrex cups: the Corning one is borosilicate, the World Kitchen one is tempered soda-lime|related
 si3n4|commons|Si3N4bearings.jpg|Silicon nitride bearing balls|photo
+si3n42|commons|Silicon nitride valve.jpg|An engine valve in silicon nitride, NGK 1996: half the weight of steel, no cooling needed|product
+si3n43|commons|Silicon nitride Si3N4 bearing balls 1–20 mm.jpg|Bearing balls from 1 to 20 mm, grade 5 to 28: ground and lapped to a tenth of a micron|product
 hbn|commons|Hexagonal Boron Nitride.jpg|Hexagonal boron nitride crystals — "white graphite", soft enough to machine|photo
 pzt|Flickr|https://live.staticflickr.com/3828/13848755775_c08dab1a00_b.jpg|Ferroelectric domains meeting at a grain boundary in PZT, under the microscope|photo|CC BY 2.0|oakridgelabnews|https://www.flickr.com/photos/37940997@N05/13848755775
+pzt2|commons|Piezo.jpg|A piezo buzzer disc, front and back: a PZT wafer silvered on both faces and bonded to brass|product
+pzt3|commons|Curved Array Ultrasound Sensor Construction.jpg|A Philips curved-array ultrasound probe opened: 128 PZT elements under the lens|product
 wc|commons|Tungsten carbide inserts.jpg|Tungsten carbide cutting inserts|photo
+wc2|commons|5mm carbide bit displaying shallow point angle.jpg|A 5 mm solid carbide drill: the shallow point angle only a stiff material allows|product
+wc3|commons|Tungsten Carbide.jpg|A tungsten carbide ring: polished once, never scratched, and cut off a finger only by cracking it|product
 uhtc|commons|An UHTC strake composed of three different sections with different UHTC compositions.jpg|An ultra-high-temperature ceramic leading-edge strake|photo
 li900|commons|Shuttle tile.jpg|A Shuttle silica tile — 94% air, held by the edges while glowing|photo
 cvddiamond|commons|Single-crystal CVD diamond disc.jpg|A single-crystal CVD diamond disc|photo
 quartzxtal|commons|32768 Hz quartz crystal resonator.jpg|A 32,768 Hz quartz tuning fork, the heart of every quartz watch|photo
 yag|commons|Yag-rod.jpg|An Nd:YAG laser rod|photo
 batio3|commons|BaTiO3ceramics.JPG|Barium titanate ceramic — the dielectric inside billions of capacitors|photo
+batio32|commons|MLCC cross section.jpg|A multilayer ceramic capacitor in section: hundreds of barium titanate layers between nickel electrodes|structure
+batio33|commons|Ceramic capacitors mounted on a PCB.jpg|Multilayer ceramic capacitors on a board: the commonest component there is|product
 tbc|NASA|https://images-assets.nasa.gov/image/GRC-1999-C-02488/GRC-1999-C-02488~medium.jpg|A coated specimen in a burner rig at NASA Glenn, the test every thermal barrier coating faces|process|Public domain|GRC|https://images.nasa.gov/details/GRC-1999-C-02488
 sorbothane|Flickr|https://live.staticflickr.com/7183/6909790478_98ec83fdeb_b.jpg|Sorbothane grommets isolating a turntable motor|product|CC BY 2.0|Turntable Guy|https://www.flickr.com/photos/alternativeroute/6909790478
 zylon|commons|NIJ LVLIIIA Kogelvrij vest, BA8001.jpg|A Level IIIA vest — Zylon was woven into vests like this until it was found to lose strength as it aged|analog

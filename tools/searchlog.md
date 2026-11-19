@@ -1049,3 +1049,29 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `CES 2012 - Corning Gorilla Glass`, `Samsung Galaxy S2 shattered screen.jpg`, `Smartphone cracked screen.jpg` | a trade-show crowd, and two more broken phones; one is enough |
 | `S73-15171.jpg` | lunar glass beads, no relation |
 | `Hale telescope mirror during grinding 1945.jpg`, `Pyrex (33207525465).jpg`, `VibratingGlassBeam.jpg`, the Duran bottle | 757 px, a cup on a white table, a capillary wobbling, and a bottle; the Palomar disc and the two Pyrex cups say more |
+
+
+## Restyle batch, 19 November 2026: si3n4, hbn, pzt, batio3, wc
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Hexagonal boron nitride as a photograph | `hexagonal boron nitride`, `boron nitride crucible`, `boron nitride powder`, `boron nitride spray`, `boron nitride nozzle`, `boron nitride plate`, `boron nitride ceramic`, `BN ceramic`, `Bornitrid`, `white graphite` | lattice renders, nanotube diagrams, a Casio watch and a Mazda; the NARA HIP plate is a grey smear | a white hot-pressed crucible or a can of the spray; the card keeps its render and gets no extra views |
+| A silicon nitride turbo rotor or glow plug | `silicon nitride turbocharger`, `ceramic glow plug`, `silicon nitride rotor`, `silicon nitride microstructure` | the NGK rotor is 759 px; nothing else | a larger rotor photo, or an etched micrograph of the needles |
+| A PZT stack or disc as itself | `piezo stack actuator`, `Piezokeramik`, `piezoelectric disc` | nothing | a multilayer stack actuator |
+| Cemented carbide microstructure or a rock bit | `cemented carbide microstructure`, `rock drill bit carbide`, `carbide end mill` | nothing but an 1899 forestry journal | an etched WC-Co micrograph or a tricone bit |
+
+| rejected after looking | why |
+|---|---|
+| `Silicon nitride turborotor.jpg` | 759 px; the valve is the same maker and readable |
+| `U.S. Department of Energy - Science - 390 013 002` | a scientist at a beamline, no ceramic in view |
+| `Maxim-2-HydrophonPZT50x725und10x200.JPG` | a brown shard on a bench |
+| `PMN and PZT (12349671403).jpg` | two scattering plots |
+| `Piezo igniter.jpg`, `Ideenwelt EM2862 - Piezoelectric buzzer`, `EFR-0SB40K23 opened.jpg` | a black block, a buzzer in its case, a 1970s transducer with a yellow blob; the bare disc and the opened probe say more |
+| `A medical ultrasound linear array probe...` | a gloved hand and a probe; the ceramic is inside |
+| `VL14 - piezoelectric transducers.jpg`, `Piezoelectric bimorph bending elements.jpg` | two lugs on a yellow block, and five green strips |
+| `BaTiO3 ferro domains.jpg` | 980 px of grey squares |
+| `Ceramic disc capacitor cross section.jpg`, `MLCC cross section detail.jpg` | a disc in section, and the termination of the same chip; the full section shows the layers |
+| `MFrey PTC Resistor normal.JPG` | a multimeter, two glasses and a wire |
+| `Tungsten carbide.jpg` | 1200 by 500, a strip of bits beside two rods |
+| `Carbide-tipped jaws.JPG`, `2023 Noże z węglika wolframu.jpg`, `BurrCarbideCutters.jpg`, `Carbide Wolfram.jpg` | caliper jaws, two grey knives, five burrs at 969 px, and two grey tips stamped AS |
+| `Spherical Tungster Carbide under Scanning Electron Microscope.png` | a thermal-spray sphere, not cemented carbide |
