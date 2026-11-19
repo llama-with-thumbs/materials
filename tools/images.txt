@@ -78,8 +78,12 @@ syntactic2|commons|Syntacticfoam.JPG|Syntactic foam under the electron microscop
 syntactic3|commons|Deepsea Challenger - Cité de la Mer-7935.jpg|Deepsea Challenger, which went to 10,908 m in 2012: the green body is a beam of syntactic foam, 70 per cent of the vehicle|product
 aerogel|commons|Aerogel hand.jpg|Silica aerogel, about 0.001 g/cm³|photo
 metalfoam|commons|Aluminium foam.jpg|Closed-cell aluminium foam|photo
-bioglass|commons|MorphologyofBioglass.png|Bioglass 45S5 surface morphology|photo
-hap|commons|Hydroxylapatite-338779.jpg|Hydroxyapatite, the mineral phase of bone|photo
+metalfoam2|commons|Metal foam -Crash box 1.JPG|A crash box with an aluminium foam core: it folds at a steady load for most of its length, which is the point|product
+metalfoam3|commons|Offenporöser Aluminiumschaum.jpg|Open-cell aluminium foam, cast around a polymer template that is then burnt out: the heat-exchanger and filter kind|related
+bioglass|commons|Micropear.png|A hydroxyapatite crystal five microns high, grown on bioactive glass after a soak in simulated body fluid: the reaction the glass is designed to have|structure
+hap|commons|Hydroxylapatite, Triplite-212964.jpg|Hydroxylapatite, the white mineral, on salmon-pink triplite from a Virginia pegmatite, 4 cm across: bone mineral as a rock|photo
+hap2|commons|Bertazzo S SEM deproteined bone - cranium rat - x10k.jpg|Rat bone with the protein stripped out, at ten thousand times: what is left is the hydroxyapatite, in platelets|structure
+hap3|commons|Kalkdepots bei Tendinosis calcarea.jpg|Hydroxyapatite removed from a human shoulder tendon: the same crystal in the wrong place, 7 mm across, which is a calcific shoulder|related
 mxene|commons|SEM of MXene.png|MXene flakes under the electron microscope|photo
 vantablack|commons|Vantablack 02.JPG|Vantablack-coated foil — the crumpled surface is invisible|photo
 mrf|commons|MRF mit Permanentmagnet.jpg|Magnetorheological fluid standing up on a permanent magnet|photo
@@ -88,6 +92,7 @@ twood|commons|KTH-forskare har uppfunnit genomskinligt trä prov 1.jpg|Transpare
 mycelium|commons|Mycelium based composite.png|Mycelium composite grown on substrate|photo
 starlite|commons|Starlite sample.jpg|A surviving Starlite sample|photo
 auxetic|commons|Meta-aux-orange.jpg|Auxetic lattice — gets thinner when stretched|photo
+auxetic2|commons|Athletic Footwear with Auxetic Sole.jpg|A running-shoe sole cut as an auxetic lattice: it widens as the foot spreads instead of pinching|product
 albemet|commons|Be-140g.jpg|Pure beryllium, the stiffening phase in AlBeMet|photo
 albemet2|commons|James Webb Space Telescope Mirror38.jpg|Webb telescope mirror segments: pure beryllium ground to nanometres and gilded, the metal doing what the alloy does more cheaply|related
 ptfe|Flickr|https://live.staticflickr.com/2228/2363587972_e1fcd0cdb0_b.jpg|A machined PTFE bearing cage|product|CC BY 2.0|oskay|https://www.flickr.com/photos/17425845@N00/2363587972
@@ -780,6 +785,8 @@ lcfilm|commons|Thermochromic thermometer.jpg|A liquid crystal thermometer strip 
 feelerstock|commons|Parallel feeler gauge (imperial and metric)-92397.jpg|A feeler gauge fanned open|product
 greenhousefilm|commons|Interior view of strawberry high tunnel greenhouse with garlic intercropping in Umm Haratayn al-Gharbiyah, Syria.jpg|Inside a polyethylene high tunnel of strawberries, Homs countryside, Syria|photo
 aerogel2|commons|Brick of aerogel.jpg|A slab of silica aerogel supporting a brick — the JPL demonstration of how much it holds for its own slight weight|photo
+aerogel3|commons|Aerogelflower filtered.jpg|A flower on a slab of aerogel over a Bunsen flame, unharmed: the air in the pores cannot carry the heat up|photo
+aerogel4|commons|Stardust Dust Collector with aerogel.jpg|The Stardust collector, a tray of aerogel tiles that caught comet grains at 6 km/s and brought them home whole|product
 nitinol2|commons|Nitinol draht.jpg|Nitinol in its raw form as drawn wire, before it is shaped and trained to remember|photo
 nitinol3|commons|Nitinol bueroklammer verbogen.jpg|The paperclip demonstration: a nitinol clip bent cold, before hot water straightens it again|process
 nacre2|commons|AbaloneInside.jpg|The iridescent inside of an abalone shell — nacre itself, the layered material the inlay is cut from|photo

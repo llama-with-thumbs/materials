@@ -1767,8 +1767,9 @@ window.MATERIALS = [
 },
 {
   id: "aerogel", cat: "composite", name: "Silica aerogel",
-  sub: "“frozen smoke”", img: "aerogel", extra: ["aerogel2"],
-  hook: "A gel with the liquid removed and the structure left standing. Almost all of it is air, held in pores too small for air molecules to carry heat across.",
+  sub: "“frozen smoke”", img: "aerogel", extra: ["aerogel2", "aerogel3", "aerogel4"],
+  hook: "A gel dried so the liquid leaves and the skeleton stays: a silica lattice 99.8 per cent air, in pores too small for air to carry heat across. Kistler made it in 1931 on a bet; NASA caught comet dust in it at 6 km/s.",
+  more: "A silicate gel has its water swapped for alcohol and the alcohol taken out above its critical point, so no meniscus ever forms to pull the pores shut. What is left is silica strands round pores of 20 nanometres, shorter than an air molecule's free path, so the gas inside cannot carry heat: 0.015 watts a metre-kelvin, and a flower sits unharmed on a slab over a Bunsen flame. It scatters blue like the sky. Stardust flew a tray of it to a comet, where grains at 6 kilometres a second dug carrot-shaped tracks and stopped whole; the Mars rovers kept warm in it; and a felt of it wraps subsea pipelines. The costs: a block crushes under a thumb and sheds dust; untreated, it drinks water and collapses; the drying is slow and dear; and the blanket itches.",
   stats: [["Density", "from 0.001 g/cm³"], ["Conductivity", "0.012–0.02 W/m·K"], ["Air", "~99.8%"]],
   uses: "Spacecraft and pipeline insulation, comet dust capture, insulating blankets.",
   link: "https://en.wikipedia.org/wiki/Aerogel",
@@ -1776,16 +1777,18 @@ window.MATERIALS = [
 },
 {
   id: "metalfoam", cat: "composite", name: "Metal foam",
-  sub: "closed-cell aluminium", img: "metalfoam",
-  hook: "Metal with gas blown into the melt. It crushes at a near-constant stress over a long stroke, which is exactly the curve you want from a crash structure.",
+  sub: "closed-cell aluminium", img: "metalfoam", extra: ["metalfoam2", "metalfoam3"],
+  hook: "Aluminium melt thickened with calcium and blown with titanium hydride, so it rises like bread and sets as it stands. It crushes at a steady stress for most of its length, the curve a crash box wants; and it floats.",
+  more: "Calcium thickens the melt, the hydride gives off hydrogen, and the loaf sets as cells 2 to 10 millimetres across at a tenth of solid density; the German route presses the hydride into aluminium powder and foams the slug in a mould, or between two sheets that come out as a sandwich. Squeeze a cube and the cell walls buckle a layer at a time at a stress that barely rises until the foam is packed solid, so a crash box soaks up a steel one's energy at half the weight. It damps vibration and does not burn. The costs: no two cells match, so the properties scatter and a design uses the worst; it cannot be welded without collapsing, so it is glued or bolted through inserts; it costs several times an extrusion; and a cut face is torn cells that catch dirt.",
   stats: [["Relative density", "5–25%"], ["Crush", "constant plateau"], ["Bonus", "stiff and quiet"]],
   uses: "Crash boxes, sandwich panel cores, heat exchangers, acoustic panels.",
   link: "https://en.wikipedia.org/wiki/Metal_foam"
 },
 {
   id: "auxetic", cat: "composite", name: "Auxetic structures",
-  sub: "negative Poisson's ratio", img: "auxetic",
-  hook: "Stretch it and it gets fatter; squeeze it and it gets thinner. That comes from geometry rather than chemistry, so it can be printed into almost any base material. Under impact it pulls material inwards instead of squirting it out.",
+  sub: "negative Poisson's ratio", img: "auxetic", extra: ["auxetic2"],
+  hook: "Pull it and it gets fatter; squeeze it, thinner. Not a chemistry but a geometry, a honeycomb with its walls folded inward, cut into any material. Under a blow it gathers under the point instead of squirting away.",
+  more: "Lakes made the first in 1987 by crushing a polyurethane foam in a mould and heat-setting it so every cell rib buckled inward; pull such a cell and the ribs unfold, widening it. The same happens in expanded PTFE, which is why Gore-Tex is auxetic without anyone meaning it. The payoff: a punch meets material flowing toward it, so it resists denting; a sheet bends into a dome instead of a saddle, so a curved panel forms without wrinkles; and a filter opens its pores when stretched. It is in a running-shoe sole, a stent, and a blast curtain. The costs: it is mostly holes, so stiffness is given away to get it; the effect is large only at small strains and in chosen directions; the hinges fatigue; and most of the uses are still papers.",
   stats: [["Poisson's ratio", "negative"], ["Source", "geometry"], ["Impact", "densifies"]],
   uses: "Protective padding, stents, filters, conformable panels, shoe soles.",
   link: "https://en.wikipedia.org/wiki/Auxetics"
@@ -1793,15 +1796,17 @@ window.MATERIALS = [
 {
   id: "bioglass", cat: "composite", name: "Bioglass 45S5",
   sub: "bioactive glass", img: "bioglass",
-  hook: "Most implant materials are merely tolerated by the body. This one is chemically attacked by it — and the reaction layer is hydroxyapatite, so bone bonds straight onto the glass instead of walling it off.",
+  hook: "A soda-lime phosphate glass the body attacks on purpose. In an hour the surface is a silica gel, in a day it is hydroxyapatite, in a month bone has grown onto it. Hench made it in 1969 to answer a wounded colonel.",
+  more: "The colonel asked why nothing could be made that the body would not reject; the answer was a glass of 45 per cent silica, low enough to dissolve. In body fluid sodium leaves, the surface turns to silica gel, calcium and phosphate crowd onto it and crystallise as bone's own apatite, and bone cells, finding their own mineral, build onto it with no fibrous wall. The silicon and calcium it sheds switch on bone-making genes. Middle-ear bones of it went in from 1985, then granules for bone defects, and the powder in sensitivity toothpaste. The costs: it is a glass, weak and brittle, so it is filler, never structure; it crystallises if sintered, so it is hard to make porous; in some sites it dissolves faster than bone fills in; and it is dear by the gram.",
   stats: [["Silica", "45%"], ["Reaction", "grows apatite"], ["Bond", "direct to bone"]],
   uses: "Bone graft granules, dental repair, sensitivity toothpaste, scaffolds.",
   link: "https://en.wikipedia.org/wiki/Bioglass_45S5"
 },
 {
   id: "hap", cat: "composite", name: "Hydroxyapatite",
-  sub: "Ca₅(PO₄)₃(OH)", img: "hap",
-  hook: "The mineral your skeleton is made of, which also occurs as a rock you can hold. Plasma-sprayed onto a titanium implant, it persuades bone to grow onto metal.",
+  sub: "Ca₅(PO₄)₃(OH)", img: "hap", extra: ["hap2", "hap3"],
+  hook: "The mineral of bone and teeth, which also grows as a rock in a pegmatite. Sprayed onto a titanium stem it fools bone into growing onto metal; shed into a tendon, it is the chalk that makes a shoulder scream.",
+  more: "Bone is two thirds of it by weight, as platelets 50 nanometres long stacked in collagen, and enamel is nearly all of it; the body's version is badly crystalline, so it can be dissolved and rebuilt. Since the 1980s a hip stem or a dental screw has carried 50 microns of it, plasma-sprayed on, so bone grows onto the coating in weeks where it would have walled off bare metal. Granules of it, synthetic or burnt out of coral and cow bone, fill the socket after a tooth comes out. The costs: the coating can flake off and the loose grains grind the joint; it is brittle and carries no load; sintered grains barely resorb and sit there for years; the spray leaves a glassy fraction that dissolves too fast; and in a tendon or a kidney the crystal is a disease.",
   stats: [["Of bone mineral", "~60–70%"], ["Role", "osteoconductive"], ["Also", "a natural mineral"]],
   uses: "Implant coatings, bone void filler, chromatography media, enamel repair.",
   link: "https://en.wikipedia.org/wiki/Hydroxyapatite"

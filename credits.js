@@ -900,29 +900,77 @@ window.CREDITS = {
     "h": 1280,
     "site": "Wikimedia"
   },
+  "metalfoam2": {
+    "file": "metalfoam2.jpg",
+    "caption": "A crash box with an aluminium foam core: it folds at a steady load for most of its length, which is the point",
+    "kind": "product",
+    "title": "Metal foam -Crash box 1.JPG",
+    "site": "Wikimedia",
+    "artist": "Blanchet matthieu",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Metal_foam_-Crash_box_1.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "metalfoam3": {
+    "file": "metalfoam3.jpg",
+    "caption": "Open-cell aluminium foam, cast around a polymer template that is then burnt out: the heat-exchanger and filter kind",
+    "kind": "related",
+    "title": "Offenporöser Aluminiumschaum.jpg",
+    "site": "Wikimedia",
+    "artist": "Fraunhofer IFAM",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Offenpor%C3%B6ser_Aluminiumschaum.jpg",
+    "w": 960,
+    "h": 767
+  },
   "bioglass": {
     "file": "bioglass.png",
-    "caption": "Bioglass 45S5 surface morphology",
-    "kind": "photo",
-    "title": "MorphologyofBioglass.png",
-    "artist": "X. Wang",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MorphologyofBioglass.png",
+    "caption": "A hydroxyapatite crystal five microns high, grown on bioactive glass after a soak in simulated body fluid: the reaction the glass is designed to have",
+    "kind": "structure",
+    "title": "Micropear.png",
+    "site": "Wikimedia",
+    "artist": "Rob Pullar",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Micropear.png",
     "w": 960,
-    "h": 486,
-    "site": "Wikimedia"
+    "h": 720
   },
   "hap": {
     "file": "hap.jpg",
-    "caption": "Hydroxyapatite, the mineral phase of bone",
+    "caption": "Hydroxylapatite, the white mineral, on salmon-pink triplite from a Virginia pegmatite, 4 cm across: bone mineral as a rock",
     "kind": "photo",
-    "title": "Hydroxylapatite-338779.jpg",
-    "artist": "Robert M. Lavinsky",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hydroxylapatite-338779.jpg",
-    "w": 460,
-    "h": 432,
-    "site": "Wikimedia"
+    "title": "Hydroxylapatite, Triplite-212964.jpg",
+    "site": "Wikimedia",
+    "artist": "Mark Joseph Wylie",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hydroxylapatite,_Triplite-212964.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "hap2": {
+    "file": "hap2.jpg",
+    "caption": "Rat bone with the protein stripped out, at ten thousand times: what is left is the hydroxyapatite, in platelets",
+    "kind": "structure",
+    "title": "Bertazzo S SEM deproteined bone - cranium rat - x10k.jpg",
+    "site": "Wikimedia",
+    "artist": "User:Sbertazzo",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bertazzo_S_SEM_deproteined_bone_-_cranium_rat_-_x10k.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "hap3": {
+    "file": "hap3.jpg",
+    "caption": "Hydroxyapatite removed from a human shoulder tendon: the same crystal in the wrong place, 7 mm across, which is a calcific shoulder",
+    "kind": "related",
+    "title": "Kalkdepots bei Tendinosis calcarea.jpg",
+    "site": "Wikimedia",
+    "artist": "Dr. Joachim Gärtner",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kalkdepots_bei_Tendinosis_calcarea.jpg",
+    "w": 960,
+    "h": 606
   },
   "mxene": {
     "file": "mxene.png",
@@ -1019,6 +1067,18 @@ window.CREDITS = {
     "w": 960,
     "h": 665,
     "site": "Wikimedia"
+  },
+  "auxetic2": {
+    "file": "auxetic2.jpg",
+    "caption": "A running-shoe sole cut as an auxetic lattice: it widens as the foot spreads instead of pinching",
+    "kind": "product",
+    "title": "Athletic Footwear with Auxetic Sole.jpg",
+    "site": "Wikimedia",
+    "artist": "Keenan Crane",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Athletic_Footwear_with_Auxetic_Sole.jpg",
+    "w": 960,
+    "h": 1280
   },
   "albemet": {
     "file": "albemet.jpg",
@@ -9323,6 +9383,30 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Brick_of_aerogel.jpg",
     "w": 752,
     "h": 794
+  },
+  "aerogel3": {
+    "file": "aerogel3.jpg",
+    "caption": "A flower on a slab of aerogel over a Bunsen flame, unharmed: the air in the pores cannot carry the heat up",
+    "kind": "photo",
+    "title": "Aerogelflower filtered.jpg",
+    "site": "Wikimedia",
+    "artist": "Aerogelflower.jpg: No information.\nderivative work: JovanCormac",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerogelflower_filtered.jpg",
+    "w": 960,
+    "h": 1231
+  },
+  "aerogel4": {
+    "file": "aerogel4.jpg",
+    "caption": "The Stardust collector, a tray of aerogel tiles that caught comet grains at 6 km/s and brought them home whole",
+    "kind": "product",
+    "title": "Stardust Dust Collector with aerogel.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Stardust_Dust_Collector_with_aerogel.jpg",
+    "w": 960,
+    "h": 871
   },
   "nitinol2": {
     "file": "nitinol2.jpg",

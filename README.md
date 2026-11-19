@@ -516,7 +516,7 @@ the picture and its badge on every card. If you redistribute this page, keep tho
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 
-284 are photographs of the material itself. 300 are not, and say so on a paper strip up the left edge of the image:
+283 are photographs of the material itself. 301 are not, and say so on a paper strip up the left edge of the image:
 
 - **232 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
@@ -543,7 +543,7 @@ No entry falls back to a drawn swatch, and none shows a molecular or crystal str
 material itself has never been photographed freely, the card carries the closest real object
 instead.
 
-A few cards carry more than one view, paged on the card itself — 293 extra views so far: the raw material
+A few cards carry more than one view, paged on the card itself — 300 extra views so far: the raw material
 beside the finished part (Nitinol wire and the cut spoons), the shell beside the inlay (nacre),
 the harvest beside the bark (cork), the property beside the thing (a brick resting on a slab of
 aerogel), the two unmixed sticks beside what a sculptor and a museum made of them (epoxy putty).

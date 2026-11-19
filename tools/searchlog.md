@@ -1261,3 +1261,26 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Shaker test of radiator panel`, `Mercury Planetary Orbiter radiator panel`, `GRAPHITE EPOXY DISK - NARA` | a white panel with people, gold foil, and a black disc on a scale |
 | `Syntaktischer Aluminium-Schaum.jpg`, `Cropped Hollow glass microspheres` | metal foam, and a lovely broken sphere at 867 px; the epoxy micrograph covers it |
 | `Lander Skaff.jpg`, `Limiting Factor on the water surface.jpg` | a lander that reads as a crate, and a white sub with the foam under the skin |
+
+
+## Restyle batch, 19 November 2026: aerogel, metalfoam, auxetic, bioglass, hap
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Aerogel blanket on a pipe | `aerogel blanket`, `aerogel insulation pipe`, `Pyrogel`, `aerogel insulation blanket pipe` | nothing at all | a roll of the felt, or a lagged pipe |
+| A closed-cell foam panel in a building or a car | `aluminium foam panel architecture`, `Alporas`, `Schaumaluminium`, `aluminum foam sandwich` | the Rutan VariEze, twice | a foam facade or a foam-cored car part photographed as such |
+| An auxetic foam or textile, or the Lakes foam | `auxetic foam`, `auxetic textile`, `auxetic 3D printed`, `re-entrant honeycomb`, `auxetic lattice` | nothing; the shoe sole and the diagram are what exists | a printed re-entrant block being stretched |
+| Bioglass as granules or putty | `bioglass granules`, `bioactive glass granules`, `bone graft granules`, `bone graft putty`, `Novamin`, `Sensodyne Repair`, `Knochenersatz Glas` | metamizole vials and nothing else; no second view, the card has the face only | a vial of 45S5 granules or a Novamin tube |
+| A hydroxyapatite-coated hip stem | `hydroxyapatite coated implant`, `plasma sprayed hydroxyapatite`, `hip stem coated`, `hip stem hydroxyapatite`, `dental implant coated` | a 1910 overdress, and Estonian ALD-coated screws in a pig femur, which is not this coating | a stem with the matt white coating photographed |
+
+| rejected after looking | why |
+|---|---|
+| `Bioactive glass.jpg`, `MorphologyofBioglass.png` | grey electron-microscope fluff, twice; the Micropear crystal shows the reaction and is the face |
+| the old `Hydroxylapatite-338779.jpg` face | 460 px and pale; the Virginia specimen replaces it |
+| `Crystals of hydroxylapatite.tif` | an electrodeposited coating at 5,000 times, cauliflower; the deproteined bone says more |
+| `Hydroxyapatite (51578011146).jpg`, `Bio-Oss (51578353138).jpg` | pink histology slides |
+| `Calcific tendinitis marked.jpg` | an X-ray with a circle; the removed deposits are the better picture |
+| `-StateOfNASA ... Space-grade Aerogel` | a hand holding a plastic box |
+| `Aluminium foam sandwich.jpg`, `Aluminium foam mg 3713.jpg`, `Aluminiumschaum-Sandwich, Kern nach dem Umformen` | the face again with a ruler, a disc on red, and a bent grey panel |
+| `Metal foam Coffee table.jpg` | a table |
+| `Auxetische Materialien.wiki.png` | fetched as auxetic3, then dropped: a wide diagram that the card crop cuts in half, labels and all |
