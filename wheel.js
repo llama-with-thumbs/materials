@@ -204,8 +204,29 @@ window.WHEEL = (() => {
       <text x="${C + 7}" y="${C - R[2] + 18}">${{ de: "3 jahre", ru: "3 года" }[lang] || "3 years"}</text>
     </g>`;
     const rings = R.map(r => `<circle class="ring" cx="${C}" cy="${C}" r="${r}"/>`).join("");
-    return `<svg class="wheel" viewBox="0 0 720 720" role="group" aria-label="the Bauhaus curriculum as a wheel of rings">
-      <defs>${defs.join("")}</defs>${out.join("")}${centre}${rings}${marks}</svg>`;
+    // Under the rings, the same three stages to scale in years: the half-year of the basic
+    // course, the three years at the bench to the journeyman, and building, which the 1922
+    // statutes left without a term and which became a nine-semester course in 1929. The
+    // rings above are drawn as Gropius drew them, and their widths mean nothing in time.
+    const T0 = 60, T1 = 660, TY = 748, TH = 18, YRS = 8, PY = (T1 - T0) / YRS;
+    const W3 = (lang === "de" ? ["vorlehre · ½ jahr; ab 1926 meist zwei semester", "werkstatt und die fünf lehren · 3 jahre, bis zum gesellen", "bau · 1922 ohne frist; ab 1929 ein kurs von neun semestern"]
+      : lang === "ru" ? ["основной курс · ½ года; с 1926 обычно два семестра", "мастерская и пять учений · 3 года, до звания подмастерья", "строительство · в 1922 без срока; с 1929 курс в девять семестров"]
+      : ["basic course · ½ year; mostly two semesters from 1926", "workshop and the five studies · 3 years, to the journeyman", "building · no term in 1922; a nine-semester course from 1929"]);
+    const stages = [[0.5, "a"], [3, "b"], [4.5, "c open"]];
+    let x = T0, bars = "", labs = "";
+    stages.forEach(([yr, cls], i) => {
+      const w = yr * PY;
+      bars += `<rect class="stage ${cls}" x="${f(x)}" y="${TY}" width="${f(w)}" height="${TH}"/>`;
+      // Three lines, each starting where its stage starts, so none runs into the next.
+      labs += `<text class="tl" x="${f(x)}" y="${TY - 36 + i * 14}">${esc(W3[i])}</text>`;
+      x += w;
+    });
+    let ticks = "";
+    for (let y = 0; y <= YRS; y++) ticks += `<line class="tt" x1="${f(T0 + y * PY)}" y1="${TY + TH}" x2="${f(T0 + y * PY)}" y2="${TY + TH + 5}"/><text class="tk" x="${f(T0 + y * PY)}" y="${TY + TH + 17}" text-anchor="middle">${y}</text>`;
+    const unit = { de: "jahre, maßstäblich; die ringe oben sind es nicht", ru: "годы, в масштабе; кольца выше — нет" }[lang] || "years, to scale; the rings above are not";
+    const time = `<g class="time">${bars}${labs}${ticks}<text class="tk unit" x="${T1}" y="${TY + TH + 32}" text-anchor="end">${esc(unit)}</text></g>`;
+    return `<svg class="wheel" viewBox="0 0 720 800" role="group" aria-label="the Bauhaus curriculum as a wheel of rings, with the three stages to scale in years beneath">
+      <defs>${defs.join("")}</defs>${out.join("")}${centre}${rings}${marks}${time}</svg>`;
   }
 
   // The facts of each segment, as label and value: what it was, how long, when, who, how many.
@@ -214,12 +235,13 @@ window.WHEEL = (() => {
       ["the school", "1919 to 1933: Weimar 1919–25, Dessau 1925–32, Berlin 1932–33"],
       ["directors", "Gropius 1919–28 · Hannes Meyer 1928–30 · Mies van der Rohe 1930–33"],
       ["the course", "basic course, half a year → a workshop, three years → building"],
+      ["durations", "½ year in the 1922 statutes, mostly two semesters from winter 1926 · 3 years to the journeyman · building with no term in 1922, a nine-semester course from 1929"],
       ["workshops", "7 on the wheel: stone, wood, metal, textiles, colour, glass, clay"],
       ["studies", "5 beside the bench: nature, materials, space and colour and composition, construction and representation, materials and tools"],
       ["the diagram", "Gropius, statutes of July 1922; reprinted 1923 in Staatliches Bauhaus Weimar 1919–1923"]
     ],
     vorkurs: [
-      ["duration", "half a year, compulsory, on probation; a full year in Dessau"],
+      ["duration", "half a year in the 1922 statutes; compulsory from 1921; mostly two semesters from winter 1926/27, renamed the Grundlehre; the general training under the 1930 statutes"],
       ["years", "1919 to 1933, every entrant"],
       ["taught by", "Itten 1919–23 · Moholy-Nagy and Albers 1923–28 · Albers alone 1928–33"],
       ["contents", "form and colour, composition, materials, drawing from life and from nature"],
@@ -321,6 +343,7 @@ window.WHEEL = (() => {
     ],
     bau: [
       ["the words", "site (a testing ground), testing, design, building and engineering science"],
+      ["duration", "none set in 1922; a nine-semester course from 1929, a journeyman's paper to enter"],
       ["course", "none until April 1927; before that, work in the office of Gropius and Adolf Meyer"],
       ["department", "Hannes Meyer 1927–30 · Mies van der Rohe 1930–33"],
       ["built", "Haus am Horn 1923 · the Dessau building 1926 · Törten estate 1926–28 · the trade-union school at Bernau 1928–30"],
