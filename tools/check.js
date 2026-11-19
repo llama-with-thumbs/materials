@@ -74,6 +74,28 @@ for (const p of P) {
       if (pt.id && !mids.has(pt.id)) fail("point " + pt.name + " on plate " + p.id + " links to a card that does not exist: " + pt.id);
       if (/"/.test(pt.name || "")) fail("double quote in a point name on plate " + p.id);
     }
+    // The optional layers of a field diagram: lettered marks, pinnable alloys, zooms, lever pairs.
+    const inAxes = (x, y) => !(x < f.x[0] || x > f.x[1] || y < f.y[0] || y > f.y[1]);
+    for (const m of f.marks || []) {
+      if (!(m.t && m.note && typeof m.x === "number" && typeof m.y === "number")) fail("mark on plate " + p.id + " needs t, note and numeric x, y");
+      else if (!inAxes(m.x, m.y)) fail("mark " + m.t + " on plate " + p.id + " leaves the axes");
+      if (/"/.test((m.t || "") + (m.note || ""))) fail("double quote in mark " + m.t + " on plate " + p.id);
+    }
+    for (const a of f.alloys || []) {
+      if (!(a.name && typeof a.x === "number")) fail("alloy on plate " + p.id + " needs a name and numeric x");
+      else if (a.x < f.x[0] || a.x > f.x[1]) fail("alloy " + a.name + " on plate " + p.id + " leaves the axis");
+      if (a.id && !mids.has(a.id)) fail("alloy " + a.name + " on plate " + p.id + " links to a card that does not exist: " + a.id);
+      if (/"/.test((a.name || "") + (a.note || ""))) fail("double quote in alloy " + a.name + " on plate " + p.id);
+    }
+    for (const z of f.zooms || []) {
+      if (!(z.name && Array.isArray(z.x) && Array.isArray(z.y))) fail("zoom on plate " + p.id + " needs a name, x and y");
+      else if (!(inAxes(z.x[0], z.y[0]) && inAxes(z.x[1], z.y[1]) && z.x[0] < z.x[1] && z.y[0] < z.y[1])) fail("zoom " + z.name + " on plate " + p.id + " is not a window inside the axes");
+      for (const [x, y, t] of z.labels || []) if (!(typeof x === "number" && typeof y === "number" && t)) fail("bad label in zoom " + z.name + " on plate " + p.id);
+    }
+    for (const z of f.zones || []) {
+      if (z.pair && !(Array.isArray(z.pair) && z.pair.length === 2 && z.pair.every(n => typeof n === "string" && n))) fail("zone " + z.id + " on plate " + p.id + " has a pair that is not two names");
+      if (z.pair && z.one) fail("zone " + z.id + " on plate " + p.id + " is one phase and has a lever pair");
+    }
   } else if (p.img) {
     if (!C[p.img]) fail("no credit: plate " + p.id);
     else if (!fs.existsSync(path.join(root, "images", C[p.img].file))) fail("no file: " + C[p.img].file);

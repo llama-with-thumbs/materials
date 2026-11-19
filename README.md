@@ -29,6 +29,8 @@ library.js     the library: primary Bauhaus texts, each linking out to a public-
 lattices.js    the lattices: the fourteen Bravais lattices, each drawn from its six numbers
 classes.js     the classes: metal, ceramic, glass, polymer, elastomer, composite, semiconductor
 figures.js     draws a plate's figure from its data and runs the readout under the pointer
+bauhaus.html   the curriculum wheel: Gropius's 1922 diagram of the course, drawn as rings that answer the pointer
+wheel.js       the wheel's segments, what is known about each, and the drawing
 drawings.js    draws a lattice's cell and a class's sketch, in ink, paper and one red
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
@@ -257,6 +259,16 @@ The three jobs, and why each material is chosen for one of them:
 | Lining and cover | downproof ticking, satin weave, seersucker, flannel, lyocell | Whether the filling stays in, and what the cloth does against skin. Ticking is woven tight enough to stop a quill and is therefore nearly airproof; seersucker lifts off the skin; flannel's nap holds a layer of still air; lyocell moves moisture |
 | Holding it together | thread lattice | Whether the filling can move inside its cover. Quilting lines, baffle walls and the Hainan thread lattice are three answers to one problem: an unrestrained batt migrates to the corners and leaves cold voids |
 
+## The curriculum wheel
+
+`bauhaus.html` draws Gropius's 1922 scheme of the course as rings that answer the pointer: the
+preliminary course on the rim, the three years of workshop training with the five studies
+beside it, the seven workshops by their material, and building at the centre. Every segment
+carries what is known about it, who ran it and what became of it, the catalogue's own workshop
+where it has one, and the texts in the library it leans on; a switch turns the words to the
+German of the statutes. The segments and their texts live in `wheel.js`, with the geometry;
+the page's sources are listed at its foot.
+
 ## Plates
 
 A card is one material. A plate is a figure that explains several, the way the plates in the
@@ -264,13 +276,22 @@ Bauhaus books sat between the chapters: the iron–carbon diagram was the first,
 of stiffness against density the second. A plate is not
 filed under a category, because it is not a material; it names the workshops it belongs to
 (`cats`) and appears among their cards, twice as wide, with its own running number. It also
-names the cards it explains, and those are links.
+names the cards it explains, and those are links. A plate marked `wide` takes the whole row,
+its figure on the left and its text beside it.
 
 A plate carries either a credited image, through `tools/images.txt` like any card, or a
 figure drawn from data. A drawn figure is one of two kinds. A **field diagram** is a set of
 zones on two axes — polygons in axis units, each with a name, the phases, the crystal structure
 and a note — and the readout under it names the field, the phases, the structure and the two
-coordinates under the pointer; the iron–carbon diagram is one. A **scatter** is a layer of
+coordinates under the pointer. In a two-phase field it works the lever rule, naming the two
+compositions the tie line meets and how much of each phase there is. A click pins a vertical
+line, an alloy of that composition, and the readout lists every field it crosses on the way
+down with the temperature at each crossing; the compositions worth knowing stand on the axis
+as small triangles, each a pin, and the ones that are cards are named for them. A figure may
+carry lettered `marks`, the textbook's named points, which read their notes under the
+pointer, and `zooms`, windows on the same data with their own ticks and labels, which the
+switches above the figure move between. The iron–carbon diagram is one, with a zoom on the
+steel corner. A **scatter** is a layer of
 `points` instead, each a material placed by two of its properties, and the readout names the
 material, its family and where it sits; the Ashby chart is one, and its points carry the id of
 a card, so a dot is a link. Either axis can be marked `log` for a quantity that runs over many

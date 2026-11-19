@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the curriculum wheel · interesting materials</title>
+<meta name="description" content="Gropius's 1922 diagram of the Bauhaus course, drawn again as rings that answer the pointer: the preliminary course, the three years of workshop training, the seven workshops by their material, and building at the centre — with what is known about each, and where it lives in this catalogue.">
+<link rel="canonical" href="https://llama-with-thumbs.github.io/materials/bauhaus.html">
+<meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f2eb" media="(prefers-color-scheme: light)">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="interesting materials">
+<meta property="og:title" content="the curriculum wheel">
+<meta property="og:description" content="Gropius's 1922 diagram of the Bauhaus course, drawn again as rings that answer the pointer, with what is known about every ring and workshop.">
+<meta property="og:url" content="https://llama-with-thumbs.github.io/materials/bauhaus.html">
+<meta property="og:image" content="https://llama-with-thumbs.github.io/materials/card-about.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="interesting materials — the Bauhaus curriculum wheel">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="the curriculum wheel">
+<meta name="twitter:description" content="Gropius's 1922 diagram of the Bauhaus course, drawn again as rings that answer the pointer.">
+<meta name="twitter:image" content="https://llama-with-thumbs.github.io/materials/card-about.png">
+<script>
+  try {
+    var t = localStorage.getItem("materials-theme");
+    document.documentElement.setAttribute("data-theme", t === "dark" ? "dark" : "light");
+  } catch (e) {}
+</script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="article.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  /* The wheel page: the prose page's type, with the figure and its panel side by side. */
+  .doc.wide { max-width: 1120px; }
+  .wheel-wrap { display: grid; grid-template-columns: minmax(0, 11fr) minmax(0, 9fr); gap: 28px; align-items: start; margin: 28px 0 8px; }
+  .wheel-fig { position: relative; background: var(--panel); border: 1px solid var(--line); padding: 18px; }
+  .wheel-fig .opts { display: flex; gap: 4px; margin: 0 0 10px; }
+  .wheel-fig .opt { padding: 2px 8px; font: inherit; font-size: 12px; line-height: 1.5; color: var(--ink); background: var(--paper); border: 1px solid var(--line); cursor: pointer; }
+  .wheel-fig .opt:hover, .wheel-fig .opt:focus-visible { border-color: var(--blue); color: var(--blue); outline: none; }
+  .wheel-fig .opt[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .wheel-fig .cap { margin: 10px 0 0; font-size: 12.5px; color: var(--dim); line-height: 1.5; }
+  svg.wheel { display: block; width: 100%; height: auto; font-family: var(--font); }
+  svg.wheel .area { fill: var(--panel); stroke: var(--ink); stroke-width: 1.4; stroke-linejoin: round; cursor: pointer; transition: fill 0.15s; }
+  svg.wheel .seg:hover .area, svg.wheel .seg:focus-visible .area { fill: var(--blue); fill-opacity: 0.16; }
+  svg.wheel .seg:focus-visible { outline: none; }
+  svg.wheel .seg.on .area { fill: var(--red); fill-opacity: 0.22; }
+  svg.wheel .ring { fill: none; stroke: var(--ink); stroke-width: 1.4; pointer-events: none; }
+  svg.wheel text { fill: var(--ink); pointer-events: none; }
+  svg.wheel .arc.r1 { font-size: 21px; font-weight: 500; letter-spacing: 0.02em; }
+  svg.wheel .arc.r2 { font-size: 14px; }
+  svg.wheel .arc.r3 { font-size: 15.5px; font-weight: 500; letter-spacing: 0.06em; }
+  svg.wheel .big { font-size: 24px; font-weight: 500; }
+  svg.wheel .small { font-size: 11.5px; fill: var(--dim); }
+  svg.wheel .marks line { stroke: var(--red); stroke-width: 2; }
+  svg.wheel .marks text { font-size: 12px; fill: var(--red); font-weight: 500; }
+  .panel { position: sticky; top: 20px; background: var(--panel); border: 1px solid var(--line); border-top: 3px solid var(--ink); padding: 14px 18px 16px; min-height: 320px; }
+  .panel .no { margin: 0 0 2px; font-size: 12px; color: var(--dim); }
+  .panel h3 { margin: 0; font-size: 22px; font-weight: 500; line-height: 1.15; }
+  .panel .sub { margin: 4px 0 12px; font-size: 13px; color: var(--dim); }
+  .panel p { font-size: 15px; line-height: 1.55; margin: 0 0 10px; }
+  .panel .here { font-size: 13.5px; border-top: 1px solid var(--line); padding-top: 10px; margin-top: 12px; }
+  .panel .here b { font-weight: 400; color: var(--dim); }
+  .panel a { color: inherit; }
+  .panel a:hover { color: var(--red); }
+  .doc .rings li b { font-weight: 600; }
+  .doc .dates { list-style: none; padding: 0; margin: 0 0 16px; }
+  .doc .dates li { display: grid; grid-template-columns: 110px 1fr; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 15.5px; line-height: 1.5; margin: 0; }
+  .doc .dates li b { font-weight: 500; }
+  .doc .src-list { font-size: 14.5px; }
+  .doc .src-list li { margin: 0 0 5px; }
+  @media (max-width: 860px) {
+    .wheel-wrap { grid-template-columns: 1fr; }
+    .panel { position: static; min-height: 0; }
+    svg.wheel .arc.r2 { font-size: 15px; }
+  }
+</style>
+</head>
+<body>
+<main class="doc wide">
+  <a class="back" href="./"><img class="mark" src="mark.svg" alt="" width="26" height="26"><img class="mark dark" src="mark-dark.svg" alt="" width="26" height="26"><b>interesting materials</b><span class="dot" style="color:var(--red)">.</span></a>
+  <h1>the curriculum wheel</h1>
+  <p class="dek">Gropius drew the Bauhaus course as a target: the preliminary course on the outside, the
+    workshops inside it, building at the centre. Here it is drawn again, with every ring answering the pointer
+    and saying what became of it, and where this catalogue keeps it.</p>
+
+  <p class="lead">The diagram appeared in the statutes of the Staatliches Bauhaus in Weimar in July 1922 and was reprinted
+    the next year, in Gropius's essay <em>Idee und Aufbau</em>, in the exhibition book <em>Staatliches Bauhaus Weimar
+    1919–1923</em>, which is in <a href="./#cat=library">the library</a>. It reads from the outside in. Everyone began
+    on the rim, with half a year of the preliminary course. Those who passed entered one of seven workshops, named not
+    for a trade but for a material, for three years of training, with five studies running alongside. A few went
+    on to the centre, which the school called simply building. The words are the diagram's own, in the English
+    rendering usually reproduced; the case is the school's lowercase, which Herbert Bayer made the rule in 1925.</p>
+
+  <div class="wheel-wrap">
+    <div class="wheel-fig">
+      <div class="opts" id="lang" role="group" aria-label="the words on the wheel">
+        <button class="opt" type="button" data-lang="en" aria-pressed="true">english</button>
+        <button class="opt" type="button" data-lang="de" aria-pressed="false">deutsch, after the 1922 statutes</button>
+      </div>
+      <div id="wheel"></div>
+      <p class="cap">after Walter Gropius, scheme of the Bauhaus course, 1922. point at a ring; click to keep it; tab
+        through the segments and press enter. red marks the two durations the original writes at the top.</p>
+    </div>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </div>
+
+  <h2>the rings, from the outside in</h2>
+  <ul class="rings">
+    <li><b>The preliminary course</b>, <em>Vorlehre</em>, half a year. Compulsory, on probation, and the only ring
+      everyone shared. Its two halves are written on the lower rim: the elementary study of form, and the study of
+      materials in the basic workshop. Itten ran it from 1919, Moholy-Nagy and Albers from 1923, Albers alone from
+      1928; in Dessau it grew to a year.</li>
+    <li><b>Three years in a workshop</b>, and the five studies taught beside the bench: nature, materials, space
+      and colour and composition, construction and representation, materials and tools. The first four are the
+      <em>Formlehre</em>, the form teaching of the painters; the last is the <em>Werklehre</em>, the craft itself.
+      Together they are the dual mastership, a master of form and a master of craft in every shop, which Weimar kept
+      and Dessau gave up once its own graduates could teach both.</li>
+    <li><b>The seven workshops</b>, by material: stone, wood, metal, textiles, colour, glass, clay. Three of them,
+      stone, glass and clay, did not survive the move to Dessau in 1925; wood and metal were folded into one
+      fitting-out workshop in 1929; weaving ran to the end and paid for much of the rest.</li>
+    <li><b>Building</b>, at the centre, with its four words: site, testing, design, and building and engineering
+      science. The goal of the whole, and for eight years a goal without a course: architecture was not taught
+      until 1927.</li>
+  </ul>
+
+  <h2>the seven workshops, and where they went</h2>
+  <table>
+    <thead><tr><th>on the wheel</th><th>the workshop</th><th>masters</th><th>what came of it</th><th>in this catalogue</th></tr></thead>
+    <tbody>
+      <tr><td>stone</td><td>stone sculpture, Weimar 1919–25</td><td>Itten, Schlemmer; Hartwig</td><td>the Monument to the March Dead, 1921–22; merged into the Dessau sculpture workshop under Joost Schmidt</td><td><a href="./#cat=natural">wood, bone and horn</a>, the nearest; <a href="./#cat=lattices">the lattices</a></td></tr>
+      <tr><td>wood</td><td>wood sculpture, and the joinery, 1919–33</td><td>Itten, Gropius, Breuer</td><td>the Sommerfeld house carvings; the slatted chair; the stacking tables; the fitting-out workshop from 1929</td><td><a href="./#cat=natural">wood, bone and horn</a></td></tr>
+      <tr><td>metal</td><td>the metal workshop, 1919–29</td><td>Itten, Dell, Moholy-Nagy, Brandt</td><td>the Bauhaus lamp of 1924; the Kandem lamps; folded into fitting-out in 1929</td><td><a href="./#cat=metal">metal</a></td></tr>
+      <tr><td>textiles</td><td>the weaving workshop, 1919–33</td><td>Itten, Börner, Muche, Stölzl, Reich</td><td>Bauhaus fabrics by the metre; Stölzl's tapestries; synthetic fibres under Meyer</td><td><a href="./#cat=fibre">yarn and rope</a>, <a href="./#cat=fabric">cloth</a>, <a href="./#cat=warmth">warmth</a></td></tr>
+      <tr><td>colour</td><td>wall painting, 1920–33</td><td>Itten, Schlemmer, Kandinsky, Scheper</td><td>the colour plans of the Dessau houses; Bauhaus wallpaper with Rasch, 1929</td><td>none: the page keeps one red, and the primaries for the three forms</td></tr>
+      <tr><td>glass</td><td>glass painting, 1920–25</td><td>Itten, Klee; Albers</td><td>windows for the Sommerfeld and Otte houses; closed at the move, Albers to the preliminary course</td><td><a href="./#cat=ceramic">clay and glass</a></td></tr>
+      <tr><td>clay</td><td>the pottery at Dornburg, 1919–25</td><td>Marcks; Krehan, Bogler, Lindig</td><td>slip-cast prototypes for the factory from 1923; the one workshop left behind in 1925</td><td><a href="./#cat=ceramic">clay and glass</a></td></tr>
+    </tbody>
+  </table>
+  <p>The catalogue's own workshops are named for these, and the <a href="about.html">about page</a> says which
+    descend from which. Where the school had no such workshop, plastics, light and current, printing in three
+    dimensions, film and foil, glues, the table says so rather than pretending. The material studies of the
+    preliminary course keep the cards that fit no workshop at all.</p>
+
+  <h2>the three preliminary courses</h2>
+  <p>The outer ring was taught three ways in fourteen years, and the differences are the history of the school.
+    <strong>Itten, 1919 to 1923,</strong> made it a course in seeing and feeling: contrast exercises, rhythm studies
+    drawn with the whole arm, analyses of old masters, breathing before drawing, and a Mazdaznan diet that Gropius
+    came to find hard to defend to the Thuringian parliament. <strong>Moholy-Nagy and Albers, 1923 to 1928,</strong>
+    turned it toward construction: Albers's material studies in the first semester, with wood, metal, paper and
+    glass handled by their own rules, and Moholy-Nagy's balance and space studies in the second, the school's
+    turn from the crafts toward industry made into a syllabus. <strong>Albers alone, 1928 to 1933,</strong> gave
+    the material study up to eighteen hours a week, asked for the most effect from the least material, energy
+    and time, and called the course a school of invention. He carried it to Black Mountain College in 1933 and to
+    Yale in 1950, which is how the exercise outlived the school.</p>
+
+  <h2>the dates</h2>
+  <ul class="dates">
+    <li><b>April 1919</b><span>the Staatliches Bauhaus opens in Weimar under Walter Gropius, merging the academy of fine art and the school of arts and crafts; Itten's probationary semester becomes the preliminary course.</span></li>
+    <li><b>1920</b><span>the pottery moves to Dornburg an der Saale; the women's class is merged into the weaving workshop.</span></li>
+    <li><b>July 1922</b><span>the statutes are printed, with this diagram and Schlemmer's new seal.</span></li>
+    <li><b>1923</b><span>Itten leaves in the spring; Moholy-Nagy arrives; the pottery turns to slip casting; the summer exhibition and the Haus am Horn; the book that reprints the diagram.</span></li>
+    <li><b>April 1925</b><span>the school moves to Dessau; the pottery, the stone workshop and the glass workshop are left behind; the dual mastership ends; Bayer's lowercase becomes the house rule.</span></li>
+    <li><b>December 1926</b><span>the Dessau building opens, lit by the metal workshop and painted by the wall-painting workshop.</span></li>
+    <li><b>April 1927</b><span>the building department opens under Hannes Meyer: the centre of the wheel has a course at last.</span></li>
+    <li><b>1928</b><span>Gropius resigns in February; Meyer is director; Moholy-Nagy, Bayer and Breuer leave; Albers runs the preliminary course alone.</span></li>
+    <li><b>1930</b><span>Meyer is dismissed; Mies van der Rohe is director, and the school leans to architecture.</span></li>
+    <li><b>October 1932</b><span>Dessau closes the school; Mies reopens it in a Berlin factory.</span></li>
+    <li><b>April 1933</b><span>the Berlin school is searched and sealed; in July the masters vote to dissolve it.</span></li>
+  </ul>
+
+  <h2>what this page took from it</h2>
+  <p>A catalogue of what materials do, how they are made and how they fail is the lower rim of the wheel carried
+    on: the study of materials in the basic workshop, with no product in mind. Its categories are the workshops
+    of the middle ring, under the names of their materials. Its plates are the Formlehre, drawn from data. Its
+    library is the course's own writing. And its one rule of design, nothing on the page that is not doing a job,
+    is Albers's, from the outer ring: the most effect from the least.</p>
+
+  <h2>sources</h2>
+  <ul class="src-list">
+    <li>Walter Gropius, <em>Idee und Aufbau des Staatlichen Bauhauses</em>, in <em>Staatliches Bauhaus Weimar 1919–1923</em> (Weimar and Munich, 1923), p. 10, the reprint of the diagram; <a href="https://archive.org/details/staatlichesbauha01unse" target="_blank" rel="noopener">archive.org</a>.</li>
+    <li>Getty Research Institute, <em>Bauhaus: Pioneers of a New World</em>, principles and curriculum, with the 1922 lithograph as fig. 14; <a href="https://getty.edu/research/exhibitions_events/exhibitions/bauhaus/new_artist/history/principles_curriculum/" target="_blank" rel="noopener">getty.edu</a>.</li>
+    <li>German History Intersections, <em>Walter Gropius, conceptual diagram of the Bauhaus curriculum (1923)</em>; <a href="https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-33" target="_blank" rel="noopener">germanhistory-intersections.org</a>.</li>
+    <li>Bauhaus Kooperation, the workshop pages: <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/metal" target="_blank" rel="noopener">metal</a>, <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/weaving" target="_blank" rel="noopener">weaving</a>, <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/ceramics" target="_blank" rel="noopener">ceramics</a>, <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/sculpture" target="_blank" rel="noopener">sculpture</a>, <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/wall-painting" target="_blank" rel="noopener">wall painting</a>, <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/joinery" target="_blank" rel="noopener">joinery</a>; and <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/preliminary-course/josef-alberss-preliminary-course" target="_blank" rel="noopener">Josef Albers's preliminary course</a>.</li>
+    <li>Bauhaus-Archiv Berlin, <em>the Bauhaus 1919–1933</em>, the timeline; <a href="https://www.bauhaus.de/en/das_bauhaus/48_1919_1933/" target="_blank" rel="noopener">bauhaus.de</a>.</li>
+    <li>Smarthistory, <em>the Bauhaus, an introduction</em>; <a href="https://smarthistory.org/?p=44188" target="_blank" rel="noopener">smarthistory.org</a>.</li>
+    <li>The texts themselves, in <a href="./#cat=library">the library</a>: the 1919 programme, the 1923 book, Klee's sketchbook, Kandinsky's point and line.</li>
+  </ul>
+
+  <p class="foot">Set in Jost, after Futura, in the manner of the Staatliches Bauhaus: one typeface, one working
+    colour, everything lowercase, nothing on the page that is not doing a job. See also
+    <a href="about.html">how this is made</a> and <a href="comparison.html">how it compares →</a></p>
+</main>
+<script src="taxonomy.js"></script>
+<script src="library.js"></script>
+<script src="wheel.js"></script>
+<script>
+  WHEEL.mount(document.getElementById("wheel"), document.getElementById("panel"), document.getElementById("lang"));
+</script>
+</body>
+</html>
