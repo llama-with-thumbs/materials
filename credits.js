@@ -684,6 +684,18 @@ window.CREDITS = {
     "h": 183,
     "site": "Wikimedia"
   },
+  "aln2": {
+    "file": "aln2.jpg",
+    "caption": "A 600 A IGBT module with the lid off: the dies sit on white ceramic tiles, aluminium nitride in the high-power grades",
+    "kind": "related",
+    "title": "CM600DU-24NFH.jpg",
+    "site": "Wikimedia",
+    "artist": "Pslawinski",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CM600DU-24NFH.jpg",
+    "w": 960,
+    "h": 638
+  },
   "alon": {
     "file": "alon.jpg",
     "caption": "Transparent spinel ceramic — AlON's close cousin, same trick: a polycrystalline ceramic you can see through",
@@ -696,6 +708,18 @@ window.CREDITS = {
     "h": 337,
     "site": "Wikimedia"
   },
+  "alon3": {
+    "file": "alon3.jpg",
+    "caption": "The seeker head of the first Sidewinder, 1956: the dome in front of an infrared eye is the job ALON now does",
+    "kind": "related",
+    "title": "AIM-9B Sidewinder heat-seeking missile Head.jpg",
+    "site": "Wikimedia",
+    "artist": "Steve Jurvetson",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AIM-9B_Sidewinder_heat-seeking_missile_Head.jpg",
+    "w": 960,
+    "h": 967
+  },
   "pyro": {
     "file": "pyro.jpg",
     "caption": "Pyrolytic graphite floating over a magnet array: diamagnetic levitation",
@@ -707,6 +731,18 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/63794141@N00/4674344608",
     "w": 960,
     "h": 722
+  },
+  "pyro2": {
+    "file": "pyro2.jpg",
+    "caption": "Cleaving oriented pyrolytic graphite with a razor blade: once started, the blade glides between the sheets",
+    "kind": "process",
+    "title": "Cleaving HOPG.jpg",
+    "site": "Wikimedia",
+    "artist": "yellowcloud from Germany",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cleaving_HOPG.jpg",
+    "w": 960,
+    "h": 721
   },
   "cc": {
     "file": "cc.jpg",
@@ -1622,6 +1658,30 @@ window.CREDITS = {
   },
   "cordierite": {
     "file": "cordierite.jpg",
+    "caption": "A catalytic converter cut open at Oak Ridge: the cordierite honeycomb, end on, under its washcoat",
+    "kind": "product",
+    "title": "Catalytic converter (4293629922).jpg",
+    "site": "Wikimedia",
+    "artist": "Oak Ridge National Laboratory",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catalytic_converter_(4293629922).jpg",
+    "w": 960,
+    "h": 640
+  },
+  "cordierite2": {
+    "file": "cordierite2.jpg",
+    "caption": "Extruded ceramic monoliths before coating: walls a tenth of a millimetre, hundreds of channels to the square inch",
+    "kind": "product",
+    "title": "Ceramic monoliths.jpg",
+    "site": "Wikimedia",
+    "artist": "S. Govender, H. Friedrich",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ceramic_monoliths.jpg",
+    "w": 825,
+    "h": 683
+  },
+  "cordierite3": {
+    "file": "cordierite3.jpg",
     "caption": "Cordierite as a mineral; the kiln-shelf ceramic is the same magnesium aluminosilicate, fired",
     "kind": "related",
     "title": "https://live.staticflickr.com/3815/11185998225_f48065e822_b.jpg",

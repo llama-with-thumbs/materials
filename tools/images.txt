@@ -60,8 +60,11 @@ zerodur|ESO|https://cdn.eso.org/images/large/eso1715a.jpg|A cast Zerodur mirror 
 zerodur2|commons|8 2-m zerodur mirror (eso9950a).jpg|Peeling the protective film off a polished 8.2-metre VLT mirror after its journey from Paris|process
 zerodur3|commons|First ELT Main Mirror Segments Successfully Cast.jpg|An ELT segment blank glowing from the mould at Schott in Mainz: cast round, cut hexagonal later, 798 in all|process
 aln|commons|Aluminium Nitride.jpg|Aluminium nitride — an insulator that conducts heat like metal|photo
+aln2|commons|CM600DU-24NFH.jpg|A 600 A IGBT module with the lid off: the dies sit on white ceramic tiles, aluminium nitride in the high-power grades|related
 alon|commons|TTO Spinel Ceramic.JPG|Transparent spinel ceramic — AlON's close cousin, same trick: a polycrystalline ceramic you can see through|photo
+alon3|commons|AIM-9B Sidewinder heat-seeking missile Head.jpg|The seeker head of the first Sidewinder, 1956: the dome in front of an infrared eye is the job ALON now does|related
 pyro|Flickr|https://live.staticflickr.com/4072/4674344608_5165891d65_b.jpg|Pyrolytic graphite floating over a magnet array: diamagnetic levitation|photo|CC BY 2.0|yellowcloud|https://www.flickr.com/photos/63794141@N00/4674344608
+pyro2|commons|Cleaving HOPG.jpg|Cleaving oriented pyrolytic graphite with a razor blade: once started, the blade glides between the sheets|process
 cc|commons|Ferrari F430 Challenge Brake.JPG|Carbon-carbon / carbon-ceramic racing brake|photo
 cmc|commons|CMC-X38-Bodyflaps.jpg|SiC/SiC ceramic matrix composite body flaps (X-38)|photo
 cf|commons|Carbon fiber bundle.jpg|Carbon fibre tow|photo
@@ -138,7 +141,9 @@ metglas|commons|US Navy melt spinning.jpg|Melt spinning at the Naval Research La
 metglas2|commons|U.S. Department of Energy - Science - 408 052 001 (9568528731).jpg|The melt spinner at Ames Laboratory: a copper wheel in a chamber, the whole machine|process
 metglas3|commons|MeltSpinner.png|The diagram: the molten jet hits a chilled wheel and freezes before it can crystallise|process
 maraging|commons|Semi-finals Heinzer-Novosjolov Masters epee 2012 n06.jpg|Competition épée blades are maraging steel — it bends far before it breaks|product
-cordierite|Flickr|https://live.staticflickr.com/3815/11185998225_f48065e822_b.jpg|Cordierite as a mineral; the kiln-shelf ceramic is the same magnesium aluminosilicate, fired|related|CC BY 2.0|Juhele_CZ|https://www.flickr.com/photos/96541566@N06/11185998225
+cordierite|commons|Catalytic converter (4293629922).jpg|A catalytic converter cut open at Oak Ridge: the cordierite honeycomb, end on, under its washcoat|product
+cordierite2|commons|Ceramic monoliths.jpg|Extruded ceramic monoliths before coating: walls a tenth of a millimetre, hundreds of channels to the square inch|product
+cordierite3|Flickr|https://live.staticflickr.com/3815/11185998225_f48065e822_b.jpg|Cordierite as a mineral; the kiln-shelf ceramic is the same magnesium aluminosilicate, fired|related|CC BY 2.0|Juhele_CZ|https://www.flickr.com/photos/96541566@N06/11185998225
 torlon|commons|Ruban-capton-adhesif.jpg|A roll of Kapton tape — polyimide, the amber chemical neighbour Torlon's amide-imide sits beside|analog
 fields|commons|Wood's alloy 2.JPG|Wood's metal, Field's older cadmium-bearing cousin, melting in hot water|related
 fields2|commons|Fusible plug, view 1.jpg|A boiler fusible plug: a low-melting alloy core that lets go when the water runs low, the job fusible alloys were invented for|related

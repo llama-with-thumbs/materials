@@ -1315,15 +1315,17 @@ window.MATERIALS = [
   id: "macor", cat: "ceramic", name: "Macor",
   sub: "machinable glass-ceramic",
   img: "macor",
-  hook: "Mica crystals in a glass matrix: the crystals deflect and arrest the cutting edge, so you can drill and tap it on an ordinary mill — then run the finished part at 800 °C.",
+  hook: "Corning's glass-ceramic of 1972: mica flakes grown in a glass, interlocked so a crack dies at every flake. It drills, taps and turns on an ordinary mill, then runs at 800 °C in a vacuum.",
+  more: "Most ceramics are shaped soft and fired, shrinking a fifth on the way, so a precise part means diamond grinding afterwards. Macor is fired first: a fluorine-mica glass is cast, then heat-treated until half of it is tiny interlocking mica plates. A cutting edge splits a plate along its cleavage and the crack dies at the next, so the material comes away as dust like a soft stone, with carbide tooling and no coolant. It holds vacuum, insulates to 40 kilovolts a millimetre, takes a thread and does not outgas. That is the one-off fixture in the vacuum chamber, the laser spacer, the insulator with an odd hole pattern due tomorrow. The costs: a third the strength of alumina; it conducts heat badly; it is dear per block; and above 800 °C the mica lets go.",
   stats: [["Continuous use", "800 °C"], ["Porosity", "zero"], ["Tooling", "standard metalworking"]],
   uses: "Vacuum feedthroughs, laser and plasma fixtures, precision insulators.",
   link: "https://en.wikipedia.org/wiki/Macor"
 },
 {
   id: "aln", cat: "ceramic", name: "Aluminium nitride",
-  sub: "AlN, Shapal", img: "aln",
-  hook: "An electrical insulator that moves heat almost like a metal. The machinable grade lets you mill a part that isolates volts while draining watts.",
+  sub: "AlN, Shapal", img: "aln", extra: ["aln2"],
+  hook: "An insulator that moves heat almost like aluminium: 180 watts a metre-kelvin against 30 for alumina. Under the chips of a power module it drains the watts and holds off the volts. Water turns it back to alumina.",
+  more: "The lattice is light and stiff with strong bonds, so phonons run through it almost unhindered: a pure crystal carries 320 watts a metre-kelvin, a sintered tile with its oxygen 170, within a factor of two of aluminium, while a 6 electron-volt band gap keeps it an insulator. That is the tile between a traction inverter's silicon carbide dies and their copper, the chuck that holds a wafer at an even 600 °C, the package under a radio-frequency transistor and, with boron nitride added, the machinable Shapal. The costs: it is sintered at 1,800 °C with yttria to pull the oxygen out, and every tenth of a per cent left halves the conductivity; it hydrolyses, so a wet tile smells of ammonia and grows an alumina skin; and it costs ten times alumina.",
   stats: [["Conductivity", "90–180 W/m·K"], ["Electrically", "insulating"], ["Shapal", "machinable grade"]],
   uses: "Power electronics substrates, heater chucks, RF packages, heat spreaders.",
   link: "https://en.wikipedia.org/wiki/Aluminium_nitride"
@@ -1331,24 +1333,27 @@ window.MATERIALS = [
 {
   id: "cordierite", cat: "ceramic", name: "Cordierite",
   sub: "2MgO·2Al₂O₃·5SiO₂",
-  img: "cordierite",
-  hook: "Barely expands when heated, so it can go from cold to glowing without cracking. Extruded into a honeycomb, it is the substrate inside essentially every catalytic converter ever fitted.",
+  img: "cordierite", extra: ["cordierite2", "cordierite3"],
+  hook: "Magnesium aluminosilicate that barely expands when heated, so it goes cold to glowing without cracking. Extruded into a honeycomb of 400 cells to the inch, it is the brick inside almost every catalytic converter.",
+  more: "The crystal expands along two axes and shrinks along the third, so a body of random grains barely moves: 1 part per million per kelvin, a tenth of steel. Corning worked out in 1973 how to extrude a paste of talc, clay and alumina into a honeycomb with walls a tenth of a millimetre, fire it and coat it with the platinum washcoat: kilometres of channel in a brick the size of a tin, where the exhaust goes from 20 °C to 900 in a minute, forty thousand times. The same body is the diesel filter, with alternate channels plugged, the kiln shelf, the pizza stone and the stove baffle. The costs: it melts at 1,460 °C, so a filter burn-off that runs away slumps it; it is porous and weak, so the brick lives wrapped in a mat; and sulphur and alkali attack it.",
   stats: [["CTE", "~1–2 ppm/K"], ["Thermal shock", "excellent"], ["Form", "extruded honeycomb"]],
   uses: "Catalytic converter and diesel filter substrates, kiln furniture, heat shields.",
   link: "https://en.wikipedia.org/wiki/Cordierite"
 },
 {
   id: "alon", cat: "ceramic", name: "AlON & transparent spinel",
-  sub: "“transparent aluminium”", img: "alon",
-  hook: "A polycrystalline ceramic with no grain-boundary phase to scatter light, so it comes out transparent — and far harder than glass. It really is the science-fiction name, and it really stops bullets.",
+  sub: "“transparent aluminium”", img: "alon", extra: ["alon3"],
+  hook: "Transparent aluminium is real: aluminium oxynitride, cubic grains and no glass between, so light passes as through one crystal. Four times harder than glass, it stops a round that pierces laminate twice as thick.",
+  more: "Alumina is hexagonal, so every grain boundary bends the light and a sintered body is white; add nitrogen and the lattice turns cubic, the same to light in every direction, and with the pores pressed out the polycrystal is as clear as sapphire from ultraviolet to 5 microns. Spinel, magnesium aluminate, does the trick a little cheaper. Hardness near sapphire means a laminate of it on a polycarbonate back stops a 0.50 round at half the thickness and weight of glass, and a dome of it lets an infrared seeker see out at Mach 3 without sandblasting away. The costs: a panel is hot-pressed, then ground and polished for weeks, so it costs more per square foot than any window; sizes stop below a metre; and it is still a ceramic, so a scratch is a crack waiting.",
   stats: [["Hardness", "~80% of sapphire"], ["Transmits", "~0.2–5 µm"], ["vs. laminated glass", "thinner, lighter"]],
   uses: "Transparent armour, IR missile domes, scratch-proof windows, scanner platens.",
   link: "https://en.wikipedia.org/wiki/Aluminium_oxynitride"
 },
 {
   id: "pyro", cat: "ceramic", name: "Pyrolytic graphite",
-  sub: "oriented CVD carbon", img: "pyro",
-  hook: "Grown layer by layer out of hot gas, so its properties differ wildly along and across the sheet. It is also the most diamagnetic solid at room temperature: it floats over magnets with no cooling at all.",
+  sub: "oriented CVD carbon", img: "pyro", extra: ["pyro2"],
+  hook: "Carbon laid down layer by layer from hot methane, so the sheets lie flat: a hundred times more conductive along the sheet than through it, and the most diamagnetic solid known. It floats over desk magnets.",
+  more: "At 2,000 °C the gas cracks on a graphite mandrel and the carbon lands as graphene layers parallel to the surface, stacked but skewed; anneal under pressure at 3,000 °C and they line up into highly oriented pyrolytic graphite, near a single crystal in the sheet. Along the sheet it carries heat better than copper, across it worse than steel, and electrons circling in the plane repel any magnet, so a square of it hovers over a grid of neodymium cubes on a desk. It is the heat spreader in a laptop, the crucible for a melt that must stay clean, the X-ray and neutron monochromator, and the coating on a mechanical heart valve. The costs: it grows at microns an hour; it cleaves with a thumbnail; and across the sheet it insulates the heat you wanted out.",
   stats: [["In-plane", "~1700 W/m·K"], ["Through-plane", "~100× lower"], ["Levitates", "at room temperature"]],
   uses: "Heat spreaders, crucibles, X-ray optics, neutron monochromators, desk toys.",
   link: "https://en.wikipedia.org/wiki/Pyrolytic_carbon"

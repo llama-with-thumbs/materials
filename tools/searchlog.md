@@ -991,3 +991,31 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | the Deutsche Carborundum whetstone | a red box in a field |
 | `Schott Ceran glass-ceramic cooktop.jpg` | already the face of the ceran card |
 | `The last ELT M1 segment blanks leaving SCHOTT`, `Arrival of ELT secondary at SCHOTT` | a container on a lorry, twice |
+
+
+## Restyle batch, 19 November 2026: macor, aln, cordierite, alon, pyro
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| Macor as itself | `Macor`, `machinable glass ceramic`, `glass ceramic machined`, `mica glass ceramic`, `UHV insulator`, `Keramik Isolator Vakuum`, `vacuum feedthrough ceramic` | hamburgers, MacArthur, beads; nothing of the white block or a machined part | a photo of a Macor part on a mill; the card keeps its feedthrough and gets no extra views |
+| Aluminium nitride as a tile or substrate | `aluminum nitride substrate`, `DBC substrate`, `ceramic heater aluminum nitride`, `Shapal`, `Leistungsmodul`, `power module ceramic substrate` | an MOCVD film, auroras and a Sony power supply; the opened IGBT module is the nearest | a bare AlN substrate with its copper, or a heater chuck |
+| A catalytic converter cut in half | `catalytic converter cut`, `Katalysator aufgeschnitten`, `catalytic converter cutaway`, `monolith catalyst` | a Renault and some granite; the Oak Ridge end view is used instead | a sectioned converter showing brick, mat and can |
+| ALON by name | `aluminum oxynitride`, `ALON transparent`, `Aluminiumoxynitrid`, `MgAl2O4 ceramic`, `optical ceramic window`, `spinel ceramic` | Israeli villages and a signature; Commons has no ALON panel | a Surmet panel or a ballistic test of one |
+| Pyrolytic graphite at work | `graphite heat spreader`, `pyrolytic graphite crucible`, `pyrolytic graphite sheet`, `mechanical heart valve pyrolytic carbon` | nothing | a laptop heat spreader or a carbon valve leaflet |
+
+| rejected after looking | why |
+|---|---|
+| `Self-etched nitride MOCVD film.jpg` | a rainbow blob in a dish |
+| `MITSUBISHI IGBT module.jpg`, `IGBT 2441.JPG` | a closed black box, and a module where the ceramic is hidden under the bond wires; the Powerex one shows the tiles |
+| the Flickr cordierite mineral as the face | a brown rock; kept as third view, the honeycomb is the face |
+| `Catalytic converter 20230510.jpg` | a rusty can on the ground |
+| `Diesel particulate filter 01.JPG`, `FAP-Filter Peugeot.jpg`, `DPF vor Reinigung.JPG` | a steel can under a car, another, and a sintered-metal filter, not cordierite |
+| `Pizza on stone.jpg`, `Baking stone.jpg` | a pizza, and an oven; the stone is invisible in both |
+| `23 0066973 Convair ... ceramic honeycomb` | an engineering drawing |
+| `Cordierite volcanic.jpg` | a thin-section in polarised light, pretty and unreadable |
+| `Transparent optical ceramic - Transparent sample - CILAS.jpg` | a second disc on a logo; the face already is one |
+| `IDET2007 bulletproof glass armor.jpg` | laminated glass after a shoot, which is the competitor, not the card |
+| `Diamagnetism levitation simple experiment.jpg`, `Pyrolytic Carbon Levitation (4647754841).jpg` | a pencil lead, and three magnet cubes with no graphite in frame |
+| `NeutronMonochromatorBNL.jpg` | a tall rack of labelled crystals, 858 px wide |
+| `Hand holding up a piece of Yttralox outdoors.jpg` | fetched, then dropped: at card size it is a thumb and some sky, the sample is invisible |
+| the NASA pyrolytic graphite collector | fetched, then dropped: copper rings and wires, the graphite is not in the frame |
