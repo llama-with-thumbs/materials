@@ -1075,3 +1075,32 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `Tungsten carbide.jpg` | 1200 by 500, a strip of bits beside two rods |
 | `Carbide-tipped jaws.JPG`, `2023 Noże z węglika wolframu.jpg`, `BurrCarbideCutters.jpg`, `Carbide Wolfram.jpg` | caliper jaws, two grey knives, five burrs at 969 px, and two grey tips stamped AS |
 | `Spherical Tungster Carbide under Scanning Electron Microscope.png` | a thermal-spray sphere, not cemented carbide |
+
+
+## Restyle batch, 19 November 2026: uhtc, li900, tbc, cvddiamond, quartzxtal
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| A UHTC edge after an arc-jet run | `arc jet test`, `sharp leading edge hypersonic`, `zirconium diboride`, `UHTC` | Orion Avcoat, Shuttle tiles, a Recife street and a boride render | a post-test strake from Ames or Sandia |
+| A tile glowing in a hand | `shuttle tile glowing`, `Hitzeschutzkacheln`, `LI-900` | nothing; the famous photo is not on Commons | the NASA Ames photo of the glowing tile, if it is ever uploaded |
+| A coated blade in section | `turbine blade cross section`, `EB-PVD`, `yttria stabilized zirconia coating` | nothing | a micrograph of columns on a bond coat |
+| A diamond window or heat spreader | `diamond window`, `synthetic diamond plate`, `diamond heat spreader`, `microwave plasma CVD` | pub windows, an amplifier and nanotubes | a gyrotron window or a diamond-on-copper submount |
+| A watch fork cut open | `quartz tuning fork`, `quartz crystal HC-49`, `quartz crystal microbalance` | an AFM tip, a 714 px can and schematics | a macro of a fork out of its can, larger than 640 px |
+
+| rejected after looking | why |
+|---|---|
+| `Tantalum carbide TaC.JPG` | a brown pile of powder |
+| `Black Engine (14050971320).jpg` | a trade-show stand with a screen |
+| `U.S. Department of Energy - Science - 210 005 001` | a scientist at an electron microscope |
+| `Shuttle Tile 1.jpg`, `Silica Space Shuttle ... tile, c 1980` | the same black tile as the face, and a white quilt |
+| `Space Shuttle Tile ... Ames Arc Jet (ARC-1974-AC74-2002).jpg` | dark machinery, the tile invisible |
+| `STS-132 Atlantis putty repair HRSI.jpg`, `KSC-06pd0022` | a technician's back, and a man with a tile on a table |
+| `2013-09-18 TrentTurbineBlades.jpg` | already the second view of the superalloy card |
+| `CORROSION RESISTANT CERAMIC THERMAL BARRIER COATING - NARA - 17472301.jpg` | a 1979 diagram |
+| `Plasma sprayed dual layer coating optical microscopy.jpg` | a coating in section, alloy and ceramic unnamed |
+| `Plasma spraying process.jpg`, `Robotic plasma spray setup 01.jpg`, the NARA film-cooled vane | copper on aluminium, a robot in the dark, and a vane in a fixture |
+| `DiamondAnvilCell 001.jpg`, `Irradiated spot of diamond...` | an X-ray diffraction ring pattern, and a fluorescence blob |
+| `WD Lab Grown Diamonds.jpg` | 1080 px of three stones; the Syntechno set is larger |
+| `Synthetic quartz crystal in Museum für Naturkunde Berlin 0846.jpg`, `Synthetic quartz hydrothermal processing Créer le cristal.jpg` | a bar behind museum glass with a label, and three crystals on a shelf; the bare bar is used |
+| `ITT Crystal resonator opened.jpg` | a speck on a yellow square |
+| `Quartz Watch Mechanism Closeup.jpg`, `RAKON STP2734B LF OCXO 10MHZ internal view.jpg`, `Quartz Crystal (5940516603).jpg` | a battery and gears, a green board, and a gloved hand with discs |

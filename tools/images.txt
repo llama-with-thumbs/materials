@@ -139,14 +139,24 @@ wc|commons|Tungsten carbide inserts.jpg|Tungsten carbide cutting inserts|photo
 wc2|commons|5mm carbide bit displaying shallow point angle.jpg|A 5 mm solid carbide drill: the shallow point angle only a stiff material allows|product
 wc3|commons|Tungsten Carbide.jpg|A tungsten carbide ring: polished once, never scratched, and cut off a finger only by cracking it|product
 uhtc|commons|An UHTC strake composed of three different sections with different UHTC compositions.jpg|An ultra-high-temperature ceramic leading-edge strake|photo
+uhtc2|commons|255-GRC-1994-C-04456 Hafnium Carbide-Tantalum Carbide CMC rocket chamber.jpg|A 25-pound-thrust rocket chamber in hafnium carbide and tantalum carbide, NASA Glenn 1994|product
+uhtc3|commons|X-43A.jpg|The X-43A and its booster leaving the B-52, 2004: the Mach 7 flight whose leading edges were these ceramics|related
 li900|commons|Shuttle tile.jpg|A Shuttle silica tile — 94% air, held by the edges while glowing|photo
+li9002|commons|Space Shuttle Columbia receives her thermal tiles at KSC (KSC-79P-319).jpg|Columbia being tiled by hand at Kennedy, 1979: 34,000 tiles, each cut to its own numbered shape|process
+li9003|commons|Space Shuttle Endeavour Tile damage Aug 12-2007.jpg|A gouge in Endeavour's belly tiles photographed from the station, 2007: foam from the tank did it|product
 cvddiamond|commons|Single-crystal CVD diamond disc.jpg|A single-crystal CVD diamond disc|photo
+cvddiamond2|commons|CVD diamond.jpg|A diamond film on silicon under the electron microscope, two hours of growth: faceted crystallites a few microns across|structure
+cvddiamond3|commons|Colorless Diamond created by Syntechno LTD.jpg|A heap of cut stones grown by chemical vapour deposition: the jewellery end of the same reactor|related
 quartzxtal|commons|32768 Hz quartz crystal resonator.jpg|A 32,768 Hz quartz tuning fork, the heart of every quartz watch|photo
+quartzxtal2|commons|Quartz synthese.jpg|A hydrothermally grown quartz bar, 19 cm long: the seed plate runs down its middle|photo
+quartzxtal3|commons|Crystal oscillator internals.JPG|A Kyocera 16 MHz oscillator opened: the plated quartz disc on its two springs beside the chip that drives it|product
 yag|commons|Yag-rod.jpg|An Nd:YAG laser rod|photo
 batio3|commons|BaTiO3ceramics.JPG|Barium titanate ceramic — the dielectric inside billions of capacitors|photo
 batio32|commons|MLCC cross section.jpg|A multilayer ceramic capacitor in section: hundreds of barium titanate layers between nickel electrodes|structure
 batio33|commons|Ceramic capacitors mounted on a PCB.jpg|Multilayer ceramic capacitors on a board: the commonest component there is|product
 tbc|NASA|https://images-assets.nasa.gov/image/GRC-1999-C-02488/GRC-1999-C-02488~medium.jpg|A coated specimen in a burner rig at NASA Glenn, the test every thermal barrier coating faces|process|Public domain|GRC|https://images.nasa.gov/details/GRC-1999-C-02488
+tbc2|commons|IGT Blades.jpg|An industrial gas turbine opened: the hot-section blades and vanes wear the ceramic|product
+tbc3|commons|CMF 56 exhaust system with plasma-sprayed thermal barrier.jpg|The exhaust of a CFM56 on a 737, plasma-sprayed with a thermal barrier: the same coating, a cooler job|product
 sorbothane|Flickr|https://live.staticflickr.com/7183/6909790478_98ec83fdeb_b.jpg|Sorbothane grommets isolating a turntable motor|product|CC BY 2.0|Turntable Guy|https://www.flickr.com/photos/alternativeroute/6909790478
 zylon|commons|NIJ LVLIIIA Kogelvrij vest, BA8001.jpg|A Level IIIA vest — Zylon was woven into vests like this until it was found to lose strength as it aged|analog
 lignostone|commons|Royal Air Force 1939-1945- Fighter Command CH18184.jpg|A Spitfire XIV refuelling in 1944: the five Rotol blades are densified birch laminate, Jablo, the wartime cousin of Lignostone|related

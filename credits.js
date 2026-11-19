@@ -1632,6 +1632,30 @@ window.CREDITS = {
     "h": 252,
     "site": "Wikimedia"
   },
+  "uhtc2": {
+    "file": "uhtc2.jpg",
+    "caption": "A 25-pound-thrust rocket chamber in hafnium carbide and tantalum carbide, NASA Glenn 1994",
+    "kind": "product",
+    "title": "255-GRC-1994-C-04456 Hafnium Carbide-Tantalum Carbide CMC rocket chamber.jpg",
+    "site": "Wikimedia",
+    "artist": "Photographer: QUENTIN SCHWINN",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:255-GRC-1994-C-04456_Hafnium_Carbide-Tantalum_Carbide_CMC_rocket_chamber.jpg",
+    "w": 960,
+    "h": 749
+  },
+  "uhtc3": {
+    "file": "uhtc3.jpg",
+    "caption": "The X-43A and its booster leaving the B-52, 2004: the Mach 7 flight whose leading edges were these ceramics",
+    "kind": "related",
+    "title": "X-43A.jpg",
+    "site": "Wikimedia",
+    "artist": "NASA/Jim Ross",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:X-43A.jpg",
+    "w": 960,
+    "h": 752
+  },
   "li900": {
     "file": "li900.jpg",
     "caption": "A Shuttle silica tile — 94% air, held by the edges while glowing",
@@ -1643,6 +1667,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1074,
     "site": "Wikimedia"
+  },
+  "li9002": {
+    "file": "li9002.jpg",
+    "caption": "Columbia being tiled by hand at Kennedy, 1979: 34,000 tiles, each cut to its own numbered shape",
+    "kind": "process",
+    "title": "Space Shuttle Columbia receives her thermal tiles at KSC (KSC-79P-319).jpg",
+    "site": "Wikimedia",
+    "artist": "NASA",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_receives_her_thermal_tiles_at_KSC_(KSC-79P-319).jpg",
+    "w": 960,
+    "h": 746
+  },
+  "li9003": {
+    "file": "li9003.jpg",
+    "caption": "A gouge in Endeavour's belly tiles photographed from the station, 2007: foam from the tank did it",
+    "kind": "product",
+    "title": "Space Shuttle Endeavour Tile damage Aug 12-2007.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Endeavour_Tile_damage_Aug_12-2007.jpg",
+    "w": 960,
+    "h": 568
   },
   "cvddiamond": {
     "file": "cvddiamond.jpg",
@@ -1656,6 +1704,30 @@ window.CREDITS = {
     "h": 802,
     "site": "Wikimedia"
   },
+  "cvddiamond2": {
+    "file": "cvddiamond2.jpg",
+    "caption": "A diamond film on silicon under the electron microscope, two hours of growth: faceted crystallites a few microns across",
+    "kind": "structure",
+    "title": "CVD diamond.jpg",
+    "site": "Wikimedia",
+    "artist": "Kugel",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CVD_diamond.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "cvddiamond3": {
+    "file": "cvddiamond3.jpg",
+    "caption": "A heap of cut stones grown by chemical vapour deposition: the jewellery end of the same reactor",
+    "kind": "related",
+    "title": "Colorless Diamond created by Syntechno LTD.jpg",
+    "site": "Wikimedia",
+    "artist": "Igor Stratichuk",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Colorless_Diamond_created_by_Syntechno_LTD.jpg",
+    "w": 960,
+    "h": 960
+  },
   "quartzxtal": {
     "file": "quartzxtal.jpg",
     "caption": "A 32,768 Hz quartz tuning fork, the heart of every quartz watch",
@@ -1667,6 +1739,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1446,
     "site": "Wikimedia"
+  },
+  "quartzxtal2": {
+    "file": "quartzxtal2.jpg",
+    "caption": "A hydrothermally grown quartz bar, 19 cm long: the seed plate runs down its middle",
+    "kind": "photo",
+    "title": "Quartz synthese.jpg",
+    "site": "Wikimedia",
+    "artist": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quartz_synthese.jpg",
+    "w": 960,
+    "h": 641
+  },
+  "quartzxtal3": {
+    "file": "quartzxtal3.jpg",
+    "caption": "A Kyocera 16 MHz oscillator opened: the plated quartz disc on its two springs beside the chip that drives it",
+    "kind": "product",
+    "title": "Crystal oscillator internals.JPG",
+    "site": "Wikimedia",
+    "artist": "Marcin Andrzejewski",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Crystal_oscillator_internals.JPG",
+    "w": 894,
+    "h": 835
   },
   "yag": {
     "file": "yag.jpg",
@@ -1727,6 +1823,30 @@ window.CREDITS = {
     "page": "https://images.nasa.gov/details/GRC-1999-C-02488",
     "w": 960,
     "h": 1200
+  },
+  "tbc2": {
+    "file": "tbc2.jpg",
+    "caption": "An industrial gas turbine opened: the hot-section blades and vanes wear the ceramic",
+    "kind": "product",
+    "title": "IGT Blades.jpg",
+    "site": "Wikimedia",
+    "artist": "Nabonaco",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:IGT_Blades.jpg",
+    "w": 960,
+    "h": 626
+  },
+  "tbc3": {
+    "file": "tbc3.jpg",
+    "caption": "The exhaust of a CFM56 on a 737, plasma-sprayed with a thermal barrier: the same coating, a cooler job",
+    "kind": "product",
+    "title": "CMF 56 exhaust system with plasma-sprayed thermal barrier.jpg",
+    "site": "Wikimedia",
+    "artist": "Ltosnar",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CMF_56_exhaust_system_with_plasma-sprayed_thermal_barrier.jpg",
+    "w": 960,
+    "h": 720
   },
   "sorbothane": {
     "file": "sorbothane.jpg",

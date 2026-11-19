@@ -1450,40 +1450,45 @@ window.MATERIALS = [
 },
 {
   id: "uhtc", cat: "ceramic", name: "Ultra-high-temperature ceramics",
-  sub: "ZrB₂, HfB₂, HfC", img: "uhtc",
-  hook: "The borides and carbides of hafnium and zirconium melt somewhere near 3900 °C — close to the highest melting points known. They are what you use when a leading edge must be sharp rather than blunt and rounded.",
+  sub: "ZrB₂, HfB₂, HfC", img: "uhtc", extra: ["uhtc2", "uhtc3"],
+  hook: "Zirconium and hafnium borides and carbides melt near 3,900 °C, as high as anything, and keep their strength there. They are what you use when a leading edge at Mach 8 must stay sharp instead of rounded to survive.",
+  more: "Above Mach 5 a sharp nose cannot shed its heat, so the Shuttle and every capsule flew blunt and pushed the shock out in front; a sharp edge flies further and turns tighter but its tip runs past 2,000 °C, where no metal and no ordinary ceramic lasts. The diborides, hot-pressed with 20 per cent silicon carbide, do: the boride carries the heat away, the carbide grows a silica skin that slows oxidation, and a strake came back from a Mach 7 test with its edge. The same powders are the throat insert of a solid rocket and the electrode of a plasma torch. The costs: they are dense and brittle, and a thermal shock cracks them; the skin fails above 1,700 °C as the boria boils off; sintering needs 2,000 °C and a press; and nothing of this is cheap or large.",
   stats: [["Melting", "~3200–3900 °C"], ["HfC", "~3950 °C"], ["Enables", "sharp hypersonic edges"]],
   uses: "Hypersonic leading edges, rocket nozzle inserts, plasma electrodes, reactor components.",
   link: "https://en.wikipedia.org/wiki/Ultra-high-temperature_ceramics"
 },
 {
   id: "li900", cat: "ceramic", name: "LI-900 silica tile",
-  sub: "Shuttle thermal protection", img: "li900",
-  hook: "Silica fibres sintered at their contact points into a block that is 94% air. Heat has almost no path through it, which is why the famous photograph shows a technician holding a tile by its edges while the middle is still glowing.",
+  sub: "Shuttle thermal protection", img: "li900", extra: ["li9002", "li9003"],
+  hook: "Silica fibres sintered where they cross into a block that is 94 per cent air. Heat finds no path through it, hence the famous photograph of a technician holding a tile by its edges while the middle still glows.",
+  more: "Lockheed made it from pure silica fibres a few microns across, slurried, pressed and fired until they fused where they touched; it weighs 144 kilograms a cubic metre, a ninth of water, and conducts heat like still air. Glazed black to radiate, 20,000 of them covered the Shuttle's belly, each cut to its own numbered shape, and a tile took 1,260 °C on its face while the aluminium under it stayed below 175. The costs: it is as fragile as meringue, so a tile is glued to a felt pad to let the airframe flex under it, and a dropped tool or a lump of foam gouges it; it drinks water and was waterproofed after every flight; each tile was fitted by hand; and a lost tile over a hot spot was the difference between landing and not.",
   stats: [["Density", "144 kg/m³"], ["Air", "~94%"], ["Surface", "~1260 °C in use"]],
   uses: "Orbiter thermal protection, furnace insulation, high-temperature standoffs.",
   link: "https://en.wikipedia.org/wiki/Space_Shuttle_thermal_protection_system"
 },
 {
   id: "tbc", cat: "ceramic", name: "Thermal barrier coating",
-  sub: "plasma-sprayed YSZ", img: "tbc",
-  hook: "A deliberately porous, deliberately cracked zirconia layer a fraction of a millimetre thick, sprayed onto a turbine blade. The gaps let it expand without spalling, and it drops the metal temperature underneath by over 100 °C.",
+  sub: "plasma-sprayed YSZ", img: "tbc", extra: ["tbc2", "tbc3"],
+  hook: "A porous, cracked zirconia layer a quarter-millimetre thick on a turbine blade, on purpose: the gaps let it stretch, and it drops the metal under it by 150 °C. Every jet engine runs hotter than its blades can stand.",
+  more: "Yttria-stabilised zirconia conducts heat a tenth as well as the superalloy under it and expands almost as much, as no other ceramic does. Plasma-sprayed, it lands as splats with cracks and pores between; evaporated on, it grows as columns, and either way the gaps let the layer breathe when the blade goes from cold to 1,400 °C in seconds. Under it an aluminium-rich bond coat grows a slow alumina scale that glues the ceramic on. With cooling air through the blade too, the gas runs 200 °C above the metal's melting point. The costs: the scale thickens every hour until the coating pops off, so a blade has a life; molten sand from a volcano or a desert runway soaks into the pores and shatters it on cooling; and the layer is thin, so a nick is bare metal.",
   stats: [["Thickness", "~0.1–0.5 mm"], ["Metal temperature", "−100 to −150 °C"], ["Structure", "porous by design"]],
   uses: "Turbine blades and vanes, combustors, exhaust components, diesel piston crowns.",
   link: "https://en.wikipedia.org/wiki/Thermal_barrier_coating"
 },
 {
   id: "cvddiamond", cat: "ceramic", name: "CVD diamond",
-  sub: "grown from methane plasma", img: "cvddiamond",
-  hook: "Diamond grown atom by atom out of a glowing gas, in sheets rather than gemstones. It conducts heat better than any other material known — roughly five times copper — while being an electrical insulator and transparent.",
+  sub: "grown from methane plasma", img: "cvddiamond", extra: ["cvddiamond2", "cvddiamond3"],
+  hook: "Diamond grown atom by atom from a glowing methane plasma, in plates, not gems. It conducts heat better than anything known, five times copper, insulates electrically and passes light from ultraviolet to radar.",
+  more: "At a few tens of millibar a microwave plasma splits hydrogen and a per cent of methane, and on a hot seed carbon lands as diamond, since atomic hydrogen eats graphite faster than diamond; a polycrystalline plate grows at microns an hour, a single crystal on a diamond seed ten times faster. A disc of it is the window of a gyrotron that heats a fusion plasma with a megawatt of microwaves, the heat spreader under a radar transistor or a laser diode, the exit window of a synchrotron beamline, the scalpel honed to an atom, and now the gem in the ring at a tenth the mined price. The costs: a plate takes days and tens of kilowatts; it is still brittle; the polycrystalline grades are opaque until polished for weeks; and above 700 °C in air it burns.",
   stats: [["Thermal conductivity", "~2000 W/m·K"], ["Copper", "~400 W/m·K"], ["Electrically", "insulating"]],
   uses: "Laser and X-ray windows, heat spreaders for power devices, anvils, surgical blades.",
   link: "https://en.wikipedia.org/wiki/Synthetic_diamond"
 },
 {
   id: "quartzxtal", cat: "ceramic", name: "Quartz crystal",
-  sub: "piezoelectric SiO₂", img: "quartzxtal",
-  hook: "Cut at exactly the right angle to the crystal axes, a sliver of quartz rings at a frequency that barely drifts with temperature. Etched into a tuning fork at 32,768 Hz — 2¹⁵ — it divides neatly down to one tick per second.",
+  sub: "piezoelectric SiO₂", img: "quartzxtal", extra: ["quartzxtal2", "quartzxtal3"],
+  hook: "Cut right, a sliver of quartz rings at a pitch that barely drifts with heat. Etched into a fork at 32,768 hertz, two to the fifteenth, it halves down to one tick a second. Every clock and computer counts on one.",
+  more: "Quartz is piezoelectric, so a plated wafer driven at resonance rings with a quality factor in the hundreds of thousands, and Cady showed in 1921 that it holds an oscillator to parts per million. The AT cut, 35 degrees off the axis, has a frequency curve flat at room temperature; the fork, at 32 kilohertz, fits a watch and draws nanoamps. The crystal is grown in an autoclave at 350 °C and a thousand atmospheres onto a seed plate, a millimetre a day, since natural quartz has too many twins. The costs: it drifts 20 parts a million over a year as it ages, so a watch gains or loses a minute; it is temperature sensitive away from its turnover point, so a precision oscillator lives in an oven; and a dropped crystal cracks.",
   stats: [["Watch fork", "32,768 Hz"], ["Stability", "~±20 ppm"], ["Drift", "seconds per month"]],
   uses: "Every quartz watch and clock, oscillators in nearly all digital electronics, mass sensors.",
   link: "https://en.wikipedia.org/wiki/Crystal_oscillator"
