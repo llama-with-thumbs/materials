@@ -265,9 +265,15 @@ bismuth3|commons|BrokenBismuthIngot.jpg|A broken bismuth ingot: the crystals ins
 inconel718|commons|Astra Rocket Engine — Delphin 3.0.jpg|An Astra Delphin engine printed in Inconel, cooling channels and all|product
 inconel7182|commons|Inconel 718 microstructure.png|Inconel 718 under the electron microscope after a sour-service heat treatment|structure
 inconel7183|commons|Inconel 718.JPG|A bar of Inconel 718|photo
-ndfeb|Flickr|https://live.staticflickr.com/5191/5804419692_4bdd11df2d_b.jpg|Neodymium magnet spheres holding themselves in a lattice|product|CC BY 2.0|Brett Jordan|https://www.flickr.com/photos/55497864@N00/5804419692
+ndfeb|commons|Big neodymium magnet.jpg|A sintered neodymium block under its nickel plating: the coat is what keeps it from crumbling|product
+ndfeb2|commons|NdFeB corrosion.jpg|Neodymium magnets left on a sea wall for five months: where the plating failed, the alloy went|product
+ndfeb3|commons|Maxtor DiamondMax Plus 9 80GB - head arm attached to a magnet, parking position - with overall view.png|A hard drive opened: the head arm swings between two neodymium plates, ringed in red|product
 alnico|Flickr|https://live.staticflickr.com/2426/3854438766_17dd00cacb_b.jpg|A humbucker pickup, wound around Alnico bar magnets|product|CC BY-SA 2.0|Roadside Guitars|https://www.flickr.com/photos/32742419@N04/3854438766
-corten|Flickr|https://live.staticflickr.com/4089/5014715316_a30872ba4c_b.jpg|A weathering steel door, the rust skin fully formed and stable|product|CC BY 2.0|Newtown grafitti|https://www.flickr.com/photos/28713775@N02/5014715316
+alnico2|commons|Magnetron magnet.JPG|An alnico horseshoe from a microwave magnetron, 8 cm long, dark from the casting|product
+alnico3|commons|Alnico magnet assortment.jpg|Arnold Engineering's cast alnico shapes of 1956: every one poured, none machined|related
+corten|commons|Angel of the North 2016 011.jpg|Gormley's Angel of the North, 1998: 200 tonnes of weathering steel, never painted|product
+corten2|commons|Weather resistant steel bridge.jpg|A road bridge in Kochi, Japan, in weathering steel: no repainting budget, by design|product
+corten3|Flickr|https://live.staticflickr.com/4089/5014715316_a30872ba4c_b.jpg|A weathering steel door, the rust skin fully formed and stable|product|CC BY 2.0|Newtown grafitti|https://www.flickr.com/photos/28713775@N02/5014715316
 zircaloy|Flickr|https://live.staticflickr.com/1540/26072384441_7faf9bf9f9_b.jpg|A nuclear fuel rod — the cladding tube is Zircaloy|product|CC BY 2.0|NRCgov|https://www.flickr.com/photos/nrcgov/26072384441
 hafnium|commons|Hafnium ebeam remelted.jpg|Electron-beam remelted hafnium|photo
 hea|commons|Microstructure of High-Entropy Alloy AlCoCrFeNi₂.₁.jpg|High-entropy alloy microstructure|photo
@@ -452,7 +458,11 @@ al70752|commons|Bicycle rear derailleur pulley wheels.JPG|Derailleur pulley whee
 ss316l|Flickr|https://live.staticflickr.com/7511/27964588231_b90529058e_b.jpg|Orbital welding 316L tube — the low-carbon grade exists so a weld like this does not sensitise|product|CC BY 2.0|fourbyfourblazer|https://www.flickr.com/photos/chrisyarzab/27964588231
 ss316l2|commons|SCC of stainless steel UNS S31603.jpg|A stress-corrosion crack through 316L after 500 hours of evaporating seawater at 110 °C: not immune|structure
 cupronickel|Flickr|https://live.staticflickr.com/4145/5089714818_9e5b4d545d_b.jpg|British 50 pence coins, struck in cupronickel|product|CC BY 2.0|ell brown|https://www.flickr.com/photos/39415781@N06/5089714818
+cupronickel2|commons|US Navy 060528-N-1332Y-022 Hull Maintenance Technician Fireman Bob Chambers uses a brazing torch to weld a one-and-a-half-inch copper-nickel pipe in the pipe shop aboard USS Kitty Hawk (CV 63).jpg|Brazing a copper-nickel seawater pipe aboard USS Kitty Hawk: the navy's standard pipework|process
+cupronickel3|commons|Corrosion of alloys in NaCl.jpg|Two weeks in salt water: aluminium brass on top, 70-30 cupronickel in the middle, 304 stainless below|related
 babbitt|commons|Miba Thrust Bearing.jpg|A fluid-film thrust bearing for a gas turbine — the pads carry a Babbitt lining|product
+babbitt2|commons|Pigs and Bars of Babbitt.jpg|Grade 2 babbitt as it is bought: pigs and bars, melted and poured into the shell|photo
+babbitt3|commons|NYC 100-driving-axle-friction-bearing.jpg|The driving-axle bearing of a 1906 New York Central electric: a babbitt-lined brass on the journal|product
 macor|commons|60kV Feedthrough.jpg|A 60 kV vacuum feedthrough — the insulator is the kind of part Macor gets machined into|related
 chalcogenide|commons|CD-RW bottom.jpg|The underside of a CD-RW — the recording layer is a chalcogenide that switches between glass and crystal|product
 zblan|NASA|https://images-assets.nasa.gov/image/0003771/0003771~medium.jpg|Sections of ZBLAN fibre, crystallised where it was drawn on the ground, clear where it was drawn in microgravity|photo|Public domain|MSFC|https://images.nasa.gov/details/0003771

@@ -1076,40 +1076,45 @@ window.MATERIALS = [
 },
 {
   id: "cupronickel", cat: "metal", name: "Cupronickel",
-  sub: "Cu–10Ni or Cu–30Ni", img: "cupronickel",
-  hook: "Copper ions leaching slowly from the surface keep barnacles and weed from ever settling, so a cupronickel hull or intake pipe stays clean without paint. It is also why most 'silver' coins are not silver.",
+  sub: "Cu–10Ni or Cu–30Ni", img: "cupronickel", extra: ["cupronickel2", "cupronickel3"],
+  hook: "Copper with 10 or 30 per cent nickel: copper ions leaching from the surface keep barnacles and weed from settling, so a hull or seawater pipe stays clean without paint. Also why most silver coins are not silver.",
+  more: "Nickel dissolves in copper without limit, so the alloy is one phase, soft, ductile and weldable, and the nickel with a touch of iron grows a film that seawater does not strip, while enough copper bleeds through to poison anything trying to settle. The 90-10 grade is the seawater pipework of every navy, the condenser tube and the desalination plant; 70-30 goes where the flow is faster. The coin is the same metal because it takes a strike, wears white and does not tarnish in a pocket. The costs: a speed limit, since fast water or sand strips the film and erosion eats the pipe at every bend; a sulphide-polluted harbour ruins the film before it forms; nickel is dear; and bolted to steel it is the noble one, so the steel corrodes for both of them.",
   stats: [["Nickel", "10–30%"], ["Biofouling", "self-resisting"], ["Seawater", "decades of service"]],
   uses: "Ship hull cladding, condenser tubing, seawater piping, coinage.",
   link: "https://en.wikipedia.org/wiki/Cupronickel"
 },
 {
   id: "ndfeb", cat: "metal", name: "Neodymium magnet",
-  sub: "Nd₂Fe₁₄B sintered", img: "ndfeb",
-  hook: "The strongest permanent magnet ever made, and the reason headphones, hard drives and electric motors shrank in the 1980s. It rusts if left bare, demagnetises above about 80 °C, and will shatter and take a fingertip if two are allowed to meet.",
+  sub: "Nd₂Fe₁₄B sintered", img: "ndfeb", extra: ["ndfeb2", "ndfeb3"],
+  hook: "Sagawa's 1982 compound, sintered: the strongest permanent magnet made, and why motors, headphones and hard drives shrank. It rusts where the plating chips, fades above 80 °C and shatters when two meet.",
+  more: "Neodymium, iron and boron crystallise in a cell that wants its moment along one axis and resists turning it, so a sintered block aligned in a field holds five times the energy of ferrite. That is the hard-drive actuator, the earbud driver, the wind turbine with no gearbox and most electric cars; a thumb-sized block lifts a hundred times its weight. The costs: the bare alloy corrodes along its grain boundaries and crumbles, so every magnet wears nickel or epoxy and dies where the coat chips; the cheap grades lose their field above 80 °C, and holding it to 200 takes dysprosium, which is scarcer still; it is brittle and chips when two slam together, fingers between or not; and nine tenths of it comes from China.",
   stats: [["Energy product", "to 52 MGOe"], ["Max temp", "80–200 °C by grade"], ["Discovered", "1982"]],
   uses: "EV and wind turbine motors, hard drives, speakers, MRI, magnetic couplings.",
   link: "https://en.wikipedia.org/wiki/Neodymium_magnet"
 },
 {
   id: "alnico", cat: "metal", name: "Alnico",
-  sub: "Al–Ni–Co–Fe cast magnet", img: "alnico",
-  hook: "Weaker than neodymium but it barely cares about heat, holding its field to 500 °C where modern magnets give up at 80. Guitar pickups still use it because it saturates gently and softens the top end — a magnetic compressor.",
+  sub: "Al–Ni–Co–Fe cast magnet", img: "alnico", extra: ["alnico2", "alnico3"],
+  hook: "Iron with aluminium, nickel and cobalt, cast since 1931 and the best magnet until ferrite. Weaker than neodymium but it holds its field to 500 °C, and a pickup still wants it for the gentle way it saturates.",
+  more: "Mishima's alloy hardens magnetically by splitting as it cools: held in a field, it separates into iron-cobalt needles in a nickel-aluminium matrix, each needle a tiny bar magnet pointing one way. Cast or sintered, it is hard, brittle and shaped only by grinding, so it comes as the forms it was poured in: the horseshoe, the cow magnet, the magnetron bar, the pickup slug. A Curie point near 800 °C and a field that barely drifts make it the magnet of the sensor, the meter and the travelling-wave tube. The costs: coercivity is low, so a strong external field or a hard knock demagnetises it, and two stored pole to pole weaken each other; cobalt is dear and its price swings; and for force per gram, ferrite is cheaper and neodymium ten times stronger.",
   stats: [["Curie point", "~800 °C"], ["Working temp", "to 500 °C"], ["Coercivity", "low — easily demagnetised"]],
   uses: "Guitar pickups, sensors and magnetrons, hot-environment holding magnets.",
   link: "https://en.wikipedia.org/wiki/Alnico"
 },
 {
   id: "babbitt", cat: "metal", name: "Babbitt metal",
-  sub: "tin or lead matrix with hard crystals", img: "babbitt",
-  hook: "A deliberately weak bearing lining: hard crystals sit in a soft matrix that wears away around them, leaving channels for oil and letting grit bury itself harmlessly. The bearing is sacrificed instead of the million-dollar shaft.",
+  sub: "tin or lead matrix with hard crystals", img: "babbitt", extra: ["babbitt2", "babbitt3"],
+  hook: "Babbitt's bearing metal of 1839: hard tin-antimony cubes sit in a soft tin matrix that wears away around them, leaving channels for oil and letting grit bury itself. The lining is sacrificed, not the shaft.",
+  more: "The structure is the whole idea. Cast against a steel or bronze shell, the alloy freezes as hard antimony-tin cuboids and copper-tin needles in a matrix soft enough to dent with a nail. The soft phase conforms to a shaft that is never quite round, swallows grit before it can score, and if the oil fails it smears and melts at 240 °C instead of seizing; the hard phase carries the load and holds the film. That is the turbine journal and thrust pad, the ship's line shaft, an old engine's big end, and the lining poured and scraped in on site. The costs: it is weak, so it works only as a millimetre on a backing and creeps above 130 °C; it carries almost nothing dry, so it lives or dies with the oil; and the lead grades are poison, so the tin grades won.",
   stats: [["Hardness", "~20–30 HB"], ["Structure", "hard phase in soft matrix"], ["Role", "the sacrificial part"]],
   uses: "Steam and gas turbine journal bearings, large engines, machine tool ways.",
   link: "https://en.wikipedia.org/wiki/Babbitt_(alloy)"
 },
 {
   id: "corten", cat: "metal", name: "Weathering steel",
-  sub: "Cor-Ten, Cu–Cr–Ni–P steel", img: "corten",
-  hook: "A steel that rusts on purpose and then stops. Copper and phosphorus make the first rust layer dense and sticky instead of flaky, so it seals the surface and corrosion slows to near nothing — no paint, ever. Give it standing water and the trick fails.",
+  sub: "Cor-Ten, Cu–Cr–Ni–P steel", img: "corten", extra: ["corten2", "corten3"],
+  hook: "A steel that rusts on purpose, then stops. Copper and phosphorus make the first rust dense and clinging, not flaky, so it seals the surface and corrosion crawls. No paint, ever. Keep it wet and the trick fails.",
+  more: "US Steel sold it in 1933 for coal hoppers, and the trick is in the rust itself: on plain steel the oxide is porous and spalls, baring fresh metal every winter; with half a per cent of copper and a little chromium and phosphorus the inner layer grows tight and amorphous, and after a few years of wetting and drying the loss drops to microns a decade. Hence bridges with no paint budget, Gormley's Angel of the North, the Chicago Picasso, shipping containers and planters. The costs: the patina must dry out, so a sheltered or wet detail, a crevice or a salted road keeps rusting through; for the first years it bleeds orange onto the concrete below; a bolted joint packs rust and jacks itself apart; and sea air salts it and eats it like any other steel.",
   stats: [["Patina", "stable in 2–6 years"], ["Paint", "none required"], ["Fails if", "constantly wet or salted"]],
   uses: "Bridges, sculpture, building façades, shipping containers, planters.",
   link: "https://en.wikipedia.org/wiki/Weathering_steel"

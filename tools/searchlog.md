@@ -906,3 +906,31 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 | `3-D Printed Rocket Part Blazes to Life.jpg`, `Marshall engineers installed the injector...` | a flame in a yard, and a test stand; the alloy is not named |
 | `Cladding-Auftragschweißung in einem Rohr mit Inconel 625.jpg` | 625, the other Inconel |
 | `Orbex Prime rocket engine.jpg` | a bell in a purple light show |
+
+
+## Restyle batch, 18 November 2026: ndfeb, alnico, corten, cupronickel, babbitt
+
+| candidate | queries | why not | what might unblock it |
+|---|---|---|---|
+| A neodymium motor rotor | `permanent magnet rotor`, `magnet motor rotor`, `sintered neodymium magnets` | the rotors are wound brushed ones; the wind generator is a nacelle on a crane | a cut-open EV or scooter hub motor with the magnets visible |
+| Alnico in a pickup, close | `guitar pickup alnico`, `cast alnico` | nothing beyond the 1956 catalogue photos | a bare pickup bobbin with the slugs out |
+| Rust staining under weathering steel | `corten rust stain concrete`, `rust streaks weathering steel` | sphalerite and a shipyard | a stained plinth under a Corten sculpture |
+| Cupronickel tube or hull | `condenser tubes`, `cupronickel hull`, `copper-nickel seawater`, `desalination plant tubes`, `heat exchanger tube bundle` | the Anadrian condenser is brass; the bundles are unnamed alloys; `desalination` returns ORNL | a named CuNi condenser retube or the Copper Mariner |
+| Babbitt being poured or scraped | `pouring babbitt`, `bearing scraping`, `babbitt microstructure`, `Weißmetall Lager`, `Babbitt-Lager` | the name returns a Minnesota town and a politician | a shop photo of a shell being tinned and poured, or a micrograph of the cuboids |
+
+| rejected after looking | why |
+|---|---|
+| the Flickr magnet-sphere lattice as the neodymium face | a desk toy; dropped for the plated block in a hand |
+| `Neodymium magnet 1140509.jpg`, `Neodym Magnete.jpg` | foil in a petri dish, and two grey discs by a match |
+| `Ironpowder on magnet.JPG` | a grey fuzz, the magnet invisible |
+| `One Energy ... direct-drive generator.jpg` | a nacelle on a crane, no magnet in sight |
+| `CowMagnet.jpg`, `Horseshoe magnet metal shavings.jpg` | a pill on a desk, and a painted toy horseshoe |
+| `Alnico horseshoe magnet assortment 1956.jpg` | the second catalogue photo, with a caption bleeding into the frame; the first is enough |
+| `COR-TEN-Steel detail 1.JPG`, the Essen museum, the Bad Mergentheim sheep, the Ketelmeerdijk sculptures | a close grain with no scale, a brown box, black silhouettes on a lawn, and shapes by a road; the Angel and the bridge say more |
+| the Flickr Corten door | fine at close range but flat as a face; kept as third view |
+| `Crack in CuNi metal due to silver brazing.jpg` | a bright scratch on black, unreadable small |
+| `Surface condenser Anadrian MMM n02.jpg` | brass tubes by its own description |
+| `Tube bundle of a shell & tube heat exchanger` | alloy unnamed |
+| `USS Annapolis (PG-10) Condenser Tube Sheets` | an 1890s drawing, pale and 12,000 px |
+| `Gleitlager Kraftwerksdecke.JPG` | a concrete slide bearing, no babbitt |
+| the Miba thrust bearing as the babbitt face | a product render, but the pads read as a bearing at card size; kept |

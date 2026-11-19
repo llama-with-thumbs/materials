@@ -3146,15 +3146,39 @@ window.CREDITS = {
   },
   "ndfeb": {
     "file": "ndfeb.jpg",
-    "caption": "Neodymium magnet spheres holding themselves in a lattice",
+    "caption": "A sintered neodymium block under its nickel plating: the coat is what keeps it from crumbling",
     "kind": "product",
-    "title": "https://live.staticflickr.com/5191/5804419692_4bdd11df2d_b.jpg",
-    "site": "Flickr",
-    "artist": "Brett Jordan",
-    "license": "CC BY 2.0",
-    "page": "https://www.flickr.com/photos/55497864@N00/5804419692",
+    "title": "Big neodymium magnet.jpg",
+    "site": "Wikimedia",
+    "artist": "Saimon (Researcher)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Big_neodymium_magnet.jpg",
     "w": 960,
-    "h": 917
+    "h": 641
+  },
+  "ndfeb2": {
+    "file": "ndfeb2.jpg",
+    "caption": "Neodymium magnets left on a sea wall for five months: where the plating failed, the alloy went",
+    "kind": "product",
+    "title": "NdFeB corrosion.jpg",
+    "site": "Wikimedia",
+    "artist": "mango chutney from Germany",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NdFeB_corrosion.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "ndfeb3": {
+    "file": "ndfeb3.png",
+    "caption": "A hard drive opened: the head arm swings between two neodymium plates, ringed in red",
+    "kind": "product",
+    "title": "Maxtor DiamondMax Plus 9 80GB - head arm attached to a magnet, parking position - with overall view.png",
+    "site": "Wikimedia",
+    "artist": "Raimond Spekking; combined: Jörg Heinrich",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maxtor_DiamondMax_Plus_9_80GB_-_head_arm_attached_to_a_magnet,_parking_position_-_with_overall_view.png",
+    "w": 960,
+    "h": 639
   },
   "alnico": {
     "file": "alnico.jpg",
@@ -3168,8 +3192,56 @@ window.CREDITS = {
     "w": 960,
     "h": 720
   },
+  "alnico2": {
+    "file": "alnico2.jpg",
+    "caption": "An alnico horseshoe from a microwave magnetron, 8 cm long, dark from the casting",
+    "kind": "product",
+    "title": "Magnetron magnet.JPG",
+    "site": "Wikimedia",
+    "artist": "Chetvorno",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Magnetron_magnet.JPG",
+    "w": 960,
+    "h": 860
+  },
+  "alnico3": {
+    "file": "alnico3.jpg",
+    "caption": "Arnold Engineering's cast alnico shapes of 1956: every one poured, none machined",
+    "kind": "related",
+    "title": "Alnico magnet assortment.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Alnico_magnet_assortment.jpg",
+    "w": 960,
+    "h": 719
+  },
   "corten": {
     "file": "corten.jpg",
+    "caption": "Gormley's Angel of the North, 1998: 200 tonnes of weathering steel, never painted",
+    "kind": "product",
+    "title": "Angel of the North 2016 011.jpg",
+    "site": "Wikimedia",
+    "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Angel_of_the_North_2016_011.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "corten2": {
+    "file": "corten2.jpg",
+    "caption": "A road bridge in Kochi, Japan, in weathering steel: no repainting budget, by design",
+    "kind": "product",
+    "title": "Weather resistant steel bridge.jpg",
+    "site": "Wikimedia",
+    "artist": "Pinqui",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Weather_resistant_steel_bridge.jpg",
+    "w": 960,
+    "h": 729
+  },
+  "corten3": {
+    "file": "corten3.jpg",
     "caption": "A weathering steel door, the rust skin fully formed and stable",
     "kind": "product",
     "title": "https://live.staticflickr.com/4089/5014715316_a30872ba4c_b.jpg",
@@ -5388,6 +5460,30 @@ window.CREDITS = {
     "w": 960,
     "h": 833
   },
+  "cupronickel2": {
+    "file": "cupronickel2.jpg",
+    "caption": "Brazing a copper-nickel seawater pipe aboard USS Kitty Hawk: the navy's standard pipework",
+    "kind": "process",
+    "title": "US Navy 060528-N-1332Y-022 Hull Maintenance Technician Fireman Bob Chambers uses a brazing torch to weld a one-and-a-half-inch copper-nickel pipe in the pipe shop aboard USS Kitty Hawk (CV 63).jpg",
+    "site": "Wikimedia",
+    "artist": "U.S. Navy photo",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_060528-N-1332Y-022_Hull_Maintenance_Technician_Fireman_Bob_Chambers_uses_a_brazing_torch_to_weld_a_one-and-a-half-inch_copper-nickel_pipe_in_the_pipe_shop_aboard_USS_Kitty_Hawk_(CV_63).jpg",
+    "w": 960,
+    "h": 638
+  },
+  "cupronickel3": {
+    "file": "cupronickel3.jpg",
+    "caption": "Two weeks in salt water: aluminium brass on top, 70-30 cupronickel in the middle, 304 stainless below",
+    "kind": "related",
+    "title": "Corrosion of alloys in NaCl.jpg",
+    "site": "Wikimedia",
+    "artist": "Vvjbp",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Corrosion_of_alloys_in_NaCl.jpg",
+    "w": 960,
+    "h": 720
+  },
   "babbitt": {
     "file": "babbitt.jpg",
     "caption": "A fluid-film thrust bearing for a gas turbine — the pads carry a Babbitt lining",
@@ -5399,6 +5495,30 @@ window.CREDITS = {
     "w": 960,
     "h": 689,
     "site": "Wikimedia"
+  },
+  "babbitt2": {
+    "file": "babbitt2.jpg",
+    "caption": "Grade 2 babbitt as it is bought: pigs and bars, melted and poured into the shell",
+    "kind": "photo",
+    "title": "Pigs and Bars of Babbitt.jpg",
+    "site": "Wikimedia",
+    "artist": "WillisPThomas",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pigs_and_Bars_of_Babbitt.jpg",
+    "w": 920,
+    "h": 640
+  },
+  "babbitt3": {
+    "file": "babbitt3.jpg",
+    "caption": "The driving-axle bearing of a 1906 New York Central electric: a babbitt-lined brass on the journal",
+    "kind": "product",
+    "title": "NYC 100-driving-axle-friction-bearing.jpg",
+    "site": "Wikimedia",
+    "artist": "Sturmovik",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NYC_100-driving-axle-friction-bearing.jpg",
+    "w": 960,
+    "h": 720
   },
   "macor": {
     "file": "macor.jpg",
