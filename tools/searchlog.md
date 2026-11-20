@@ -1384,3 +1384,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `slaresin`: the white cut-out part replaced by the clear cycloidal drive. `SLA resin vat`, `resin 3D printer vat`, `DLP 3D printer` nothing; the Form 2 set and the Materialise Mammoth are the process views. `SLA 3D Printed PCB.jpg` is grey on grey, passed over.
 - `boundmetal`: no photograph of the filament itself or of debinding. `Markforged Metal X`, `BASF Ultrafuse`, `metal FDM`, `sintered 316L` nothing; `sinter based additive` gave the Fraunhofer shrinkage comparison, which says the whole card in one picture, and their parts-beside-a-coin plate. The filament extruder photo was already on `fff3`.
 - `pa12powder`: `SLS nylon powder`, `polyamide 12 powder`, `SLS powder cake` nothing, so still no picture of the powder or the cake. `EOS Formiga` is ants. Hart's tetrahedron and the Duraform pulley added as parts.
+
+## Batch 43 restyle (metalpowder, alsi10mg, grcop, bioink, fourd)
+
+- `alsi10mg`: still no photograph of a printed aluminium part. `AlSi10Mg`, `laser powder bed fusion aluminium`, `3D printed heat exchanger`, `SLM aluminium`, `Aluminium additiv gefertigt` nothing; `3D printed aluminum` gives a cylinder head cast in a printed sand mould; the Ramstein bracket does not say its metal; the A350 hydraulic block is titanium. The nickel turbochargers stay as the analog, alone.
+- `bioink`: the BioFabrication Facility was a grey box at card size; replaced by the Swansea construct coming off the printer, with the three ears and the NCATS well plate. `hydrogel printing`, `alginate hydrogel` nothing; `GelMA` is a town in Algeria.
+- `fourd`: the strain diagram replaced by the gripper photo sequence; the humidity aperture and the blooming flower added. `shape memory polymer stent`, `Skylar Tibbits`, `self-folding` (umbrellas) nothing.
+- `metalpowder`: no photograph of an atomiser or a recoater. `gas atomization` gives the diagram, added; `Plasma atomized pure titanium powder sample.png` is a software screenshot; `powder bed recoater`, `titanium powder spherical` nothing.
+- `grcop`: no photograph of a GRCop part itself (`GRCop` is a French photo album). The AFRL deposition chamber added as the geometry; the Astra Delphin was already on `inconel718`. The Marshall injector stays.

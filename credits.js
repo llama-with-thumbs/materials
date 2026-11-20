@@ -6758,7 +6758,7 @@ window.CREDITS = {
   },
   "metalpowder": {
     "file": "metalpowder.jpg",
-    "caption": "Electron micrograph of gas-atomised steel powder",
+    "caption": "Atomised 316L under the electron microscope: spheres, a few satellites, nothing angular",
     "kind": "photo",
     "title": "SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg",
     "artist": "Michaltoczko",
@@ -6767,6 +6767,18 @@ window.CREDITS = {
     "w": 960,
     "h": 884,
     "site": "Wikimedia"
+  },
+  "metalpowder2": {
+    "file": "metalpowder2.jpg",
+    "caption": "How it is made: melt falls through a ring of gas jets and freezes to spheres on the way down, the micrograph at the end",
+    "kind": "process",
+    "title": "Atomization.jpg",
+    "site": "Wikimedia",
+    "artist": "Fernando Santos da Silva, Núria Cinca, Sergi Dosta, Irene Garcia Cano, Josep Maria Guilemany, Assis Vicente Benedetti",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Atomization.jpg",
+    "w": 850,
+    "h": 485
   },
   "fff": {
     "file": "fff.jpg",
@@ -6842,15 +6854,39 @@ window.CREDITS = {
   },
   "fourd": {
     "file": "fourd.jpg",
-    "caption": "Printed shape-memory composites, folded and recovered",
-    "kind": "photo",
-    "title": "Multishape active composites by 3d printing of digial smps.jpg",
-    "artist": "Jiangtao Wu, Chao Yuan, Zhen Ding, Michael Isakov, Yiqi Mao, Tiejun Wang, Martin L. Dunn & H. Jerry Qi",
+    "caption": "A printed gripper closing on a bolt as it warms, one frame at a time",
+    "kind": "product",
+    "title": "4D Printing - gripper.jpg",
+    "site": "Wikimedia",
+    "artist": "Qi Ge, Amir Hosein Sakhaei, Howon Lee, Conner K. Dunn, Nicholas X. Fang & Martin L. Dunn",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:4D_Printing_-_gripper.jpg",
+    "w": 739,
+    "h": 405
+  },
+  "fourd2": {
+    "file": "fourd2.jpg",
+    "caption": "An aperture of printed wood-filled bilayers that opens as the air dries, the way a pine cone does",
+    "kind": "product",
+    "title": "Correa David biomimetic 4D printing.jpg",
+    "site": "Wikimedia",
+    "artist": "R4d3dp",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Multishape_active_composites_by_3d_printing_of_digial_smps.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Correa_David_biomimetic_4D_printing.jpg",
     "w": 960,
-    "h": 823,
-    "site": "Wikimedia"
+    "h": 508
+  },
+  "fourd3": {
+    "file": "fourd3.jpg",
+    "caption": "A printed flower blooming from 20 to 70 degrees, petals of different transitions opening in turn",
+    "kind": "process",
+    "title": "Figure6 the sequential recovery of a multimaterial flower.jpg",
+    "site": "Wikimedia",
+    "artist": "Qi Ge, Amir Hosein Sakhaei, Howon Lee, Conner K. Dunn, Nicholas X. Fang, Martin L. Dunnc",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Figure6_the_sequential_recovery_of_a_multimaterial_flower.jpg",
+    "w": 787,
+    "h": 546
   },
   "lcmceramic": {
     "file": "lcmceramic.jpg",
@@ -6914,19 +6950,43 @@ window.CREDITS = {
   },
   "bioink": {
     "file": "bioink.jpg",
-    "caption": "The BioFabrication Facility, the bioprinter flown to the space station to lay down cell-laden ink",
+    "caption": "Two syringes of ink over a dish: a construct coming off a bioprinter",
     "kind": "process",
-    "title": "https://images-assets.nasa.gov/image/jsc2022e072969/jsc2022e072969~medium.jpg",
-    "site": "NASA",
-    "artist": "JSC",
-    "license": "Public domain",
-    "page": "https://images.nasa.gov/details/jsc2022e072969",
+    "title": "Removing bioprinted construct.jpg",
+    "site": "Wikimedia",
+    "artist": "Philip Ezze",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Removing_bioprinted_construct.jpg",
     "w": 960,
-    "h": 640
+    "h": 657
+  },
+  "bioink2": {
+    "file": "bioink2.jpg",
+    "caption": "Three ears printed from the same file at three air pressures: the ink answers every change in push",
+    "kind": "product",
+    "title": "Three 3D Bioprinted ears showing the effect of changes in air pressure on structure..jpg",
+    "site": "Wikimedia",
+    "artist": "FoxandMagpie",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Three_3D_Bioprinted_ears_showing_the_effect_of_changes_in_air_pressure_on_structure..jpg",
+    "w": 960,
+    "h": 540
+  },
+  "bioink3": {
+    "file": "bioink3.jpg",
+    "caption": "Printed tissues in a twelve-well plate for drug screening, the same shape in every well",
+    "kind": "product",
+    "title": "3-D Bioprinted Tissues in Well Plate (42569479372).jpg",
+    "site": "Wikimedia",
+    "artist": "National Center for Advancing Translational Sciences from Bethesda, MD",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:3-D_Bioprinted_Tissues_in_Well_Plate_(42569479372).jpg",
+    "w": 659,
+    "h": 436
   },
   "grcop": {
     "file": "grcop.jpg",
-    "caption": "A printed fuel injector going into a subscale RS-25 engine — hot-fire tested near 3300 °C",
+    "caption": "A printed injector going into a subscale RS-25 at Marshall, then fired: the copper alloy was proved on parts like this",
     "kind": "product",
     "title": "Marshall engineers installed the injector in a subscale RS-25 engine model.jpg",
     "artist": "NASA/MSFC",
@@ -6935,6 +6995,18 @@ window.CREDITS = {
     "w": 960,
     "h": 639,
     "site": "Wikimedia"
+  },
+  "grcop2": {
+    "file": "grcop2.jpg",
+    "caption": "A thrust chamber built in one block by blown-powder deposition at the Air Force Research Laboratory",
+    "kind": "process",
+    "title": "AFRL researchers pave the way to lighter, faster additively manufactured rocket engines (8348001).jpg",
+    "site": "Wikimedia",
+    "artist": "U.S. Air Force AFRL by [null Courtesy]",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:AFRL_researchers_pave_the_way_to_lighter,_faster_additively_manufactured_rocket_engines_(8348001).jpg",
+    "w": 822,
+    "h": 1096
   },
   "ebm": {
     "file": "ebm.jpg",

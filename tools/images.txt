@@ -566,21 +566,27 @@ nonwoven|commons|The front of a blue disposable mask.jpg|A disposable mask — s
 weldedseam|commons|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
 waam|commons|Metal 3D printed turbine (49803494637).jpg|A propeller built from welding wire by wire arc deposition, the beads still on the blades and the hub turned|product
 waam2|commons|World first 3D printed steel bridge in Amsterdam.jpg|The MX3D footbridge over the Oudezijds Achterburgwal, Amsterdam, 2021: twelve metres of stainless steel laid bead by bead by four robots|product
-metalpowder|commons|SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg|Electron micrograph of gas-atomised steel powder|photo
+metalpowder|commons|SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg|Atomised 316L under the electron microscope: spheres, a few satellites, nothing angular|photo
+metalpowder2|commons|Atomization.jpg|How it is made: melt falls through a ring of gas jets and freezes to spheres on the way down, the micrograph at the end|process
 fff|Flickr|https://live.staticflickr.com/3945/15591161602_45e12b004d_b.jpg|A spool of 1.75 mm filament on a printed stand|photo|CC BY 2.0|Creative Tools|https://www.flickr.com/photos/33907867@N02/15591161602
 fff2|commons|Crossed filiment.jpg|The thing to look for on a spool: a strand crossed under its neighbour, which will jam and snap the print at three in the morning|related
 fff3|commons|Filamentherstellung mittels Extruder.jpg|Filament being made: a metal-filled strand leaving the die of a laboratory extruder|process
 coldspray|Flickr|https://live.staticflickr.com/5182/5725947299_2c7feb8b42_b.jpg|Aluminium and titanium powder blended as cold-spray feedstock, under the electron microscope: the round aluminium sticks, the angular titanium rides along|photo|CC BY 2.0|CORE-Materials|https://www.flickr.com/photos/41639353@N08/5725947299
 coldspray2|commons|Холодное газодинамическое напыление защитных и восстановительных покрытий.jpg|A casting built back up by cold spray: the grey deposit over the old blue paint, a repair with no heat in it|product
 coldspray3|commons|U S Marines bring advanced manufacturing to the front lines during Valiant Shield 26 (9821835).jpg|Cold spray in a field shop: a boat-motor stator housing being built back up by hand in a glove box, Okinawa 2026|process
-fourd|commons|Multishape active composites by 3d printing of digial smps.jpg|Printed shape-memory composites, folded and recovered|photo
+fourd|commons|4D Printing - gripper.jpg|A printed gripper closing on a bolt as it warms, one frame at a time|product
+fourd2|commons|Correa David biomimetic 4D printing.jpg|An aperture of printed wood-filled bilayers that opens as the air dries, the way a pine cone does|product
+fourd3|commons|Figure6 the sequential recovery of a multimaterial flower.jpg|A printed flower blooming from 20 to 70 degrees, petals of different transitions opening in turn|process
 lcmceramic|commons|3D-printed ceramic parts made from lunar regolith ESA18889804.jpeg|Ceramic parts printed for ESA from simulated lunar regolith stirred into photopolymer, the finest detail yet in that powder|product
 lcmceramic2|commons|Single Unit Zirconia Anterior Dental Crown.jpg|A zirconia front-tooth crown, the part the slurry route is sold for; this one may well be milled|related
 concreteprint|commons|Detail of 3D printed concrete bicycle bridge in Gemert (NL).jpg|The first printed concrete bridge, Gemert 2017: the beads on edge, printed in slices and post-tensioned through them|product
 concreteprint2|commons|Demo Betondruck Peri.jpg|A gantry printer laying a wall at Bauma 2022: two beads with a cavity between, the hose feeding the head|process
 concreteprint3|commons|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a house printed in raw earth: the same thixotropic trick, with clay in place of cement|related
-bioink|NASA|https://images-assets.nasa.gov/image/jsc2022e072969/jsc2022e072969~medium.jpg|The BioFabrication Facility, the bioprinter flown to the space station to lay down cell-laden ink|process|Public domain|JSC|https://images.nasa.gov/details/jsc2022e072969
-grcop|commons|Marshall engineers installed the injector in a subscale RS-25 engine model.jpg|A printed fuel injector going into a subscale RS-25 engine — hot-fire tested near 3300 °C|product
+bioink|commons|Removing bioprinted construct.jpg|Two syringes of ink over a dish: a construct coming off a bioprinter|process
+bioink2|commons|Three 3D Bioprinted ears showing the effect of changes in air pressure on structure..jpg|Three ears printed from the same file at three air pressures: the ink answers every change in push|product
+bioink3|commons|3-D Bioprinted Tissues in Well Plate (42569479372).jpg|Printed tissues in a twelve-well plate for drug screening, the same shape in every well|product
+grcop|commons|Marshall engineers installed the injector in a subscale RS-25 engine model.jpg|A printed injector going into a subscale RS-25 at Marshall, then fired: the copper alloy was proved on parts like this|product
+grcop2|commons|AFRL researchers pave the way to lighter, faster additively manufactured rocket engines (8348001).jpg|A thrust chamber built in one block by blown-powder deposition at the Air Force Research Laboratory|process
 ebm|Flickr|https://live.staticflickr.com/7015/6790413239_05b51c6b63_b.jpg|A titanium lattice gauntlet grown by electron-beam melting at Oak Ridge|product|CC BY 2.0|oakridgelabnews|https://www.flickr.com/photos/37940997@N05/6790413239
 ebm2|commons|Arcam A2.jpg|An Arcam A2, the machine most of the hip cups came out of, with its covers off: the electron gun column above, the vacuum chamber behind the porthole|process
 soluble|commons|-3DBenchy made of two types of water-soluble PVA plastic (17130375132).jpg|The support material printed as the part: two test boats in two grades of water-soluble PVA filament|product

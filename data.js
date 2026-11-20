@@ -2175,8 +2175,9 @@ window.MATERIALS = [
 },
 {
   id: "metalpowder", cat: "additive", name: "Gas-atomised powder",
-  sub: "spherical metal feedstock", img: "metalpowder",
-  hook: "Molten metal blown apart by an inert gas jet freezes into spheres before it can land. Roundness is the whole specification: only spheres flow and pack evenly under a recoater blade, and a satellite — a small sphere welded to a big one — is enough to streak a layer and seed a pore. Oxygen is counted in parts per million, because every reuse picks up a little more.",
+  sub: "spherical metal feedstock", img: "metalpowder", extra: ["metalpowder2"],
+  hook: "Molten metal blown apart by an argon jet freezes into spheres before it lands. Roundness is the whole specification: only spheres flow and pack under a recoater blade, and a satellite on a sphere streaks a layer.",
+  more: "A stream of melt falls through a ring of gas nozzles under a tundish; the jet tears it into droplets, and surface tension rounds each one in the milliseconds before it freezes. The yield in the 15 to 45 micron cut a laser bed wants is a third at best; the rest is sieved out for coarser processes. Argon, because nitrogen dissolves in titanium and steel. The costs: a satellite, a small drop frozen onto a large one, spoils the flow and seeds a pore; a hollow sphere with argon inside is a pore nothing can close; oxygen is counted in parts per million, since every pass through a hot bed adds some, and titanium powder is retired after a dozen builds; and the fine fraction is a dust that burns and goes to the lungs.",
   stats: [["Size cut", "15–45 µm for laser beds"], ["Shape", "spherical, satellite-free"], ["Oxygen", "tracked, ppm level"]],
   uses: "Feedstock for every powder bed and blown powder process; also metal injection moulding and thermal spray.",
   link: "https://en.wikipedia.org/wiki/Powder_metallurgy"
@@ -2184,31 +2185,35 @@ window.MATERIALS = [
 {
   id: "alsi10mg", cat: "additive", name: "AlSi10Mg",
   sub: "printable aluminium casting alloy", img: "alsi10mg",
-  hook: "A casting alloy that turned out to suit lasers: the silicon sits near the eutectic, so the freezing range is narrow and the melt pool solidifies without tearing itself apart. Cooling is steep enough that the printed structure comes out finer, and stronger, than the same alloy poured into a mould.",
+  hook: "A casting alloy that suits lasers: silicon near the eutectic gives a narrow freezing range, so the melt pool solidifies without tearing itself apart. Cooling is steep enough that the print beats the casting.",
+  more: "AlSi10Mg is what die-casters pour for gearbox housings, and the first aluminium that printed cleanly, around 2010: at 10 per cent silicon the alloy freezes over a few degrees rather than fifty, so the shrinking pool does not pull itself open behind the laser. The pool cools at a million degrees a second, and the silicon that forms coarse plates in a casting stays as a fine network round cells a micron across; the as-built part reaches 450 megapascals where the casting manages 300. The costs: aluminium reflects the laser and conducts the heat away, so it wants twice the power of steel and spatters anyway; hydrogen leaves pores as the pool freezes; the fine network coarsens at 160 degrees, so the strength goes in the first heat treatment.",
   stats: [["Tensile", "~450 MPa as built"], ["Why it works", "near-eutectic, no hot tearing"], ["Versus cast", "finer grain, stronger"]],
   uses: "Heat exchangers and cold plates, motorsport brackets, drone and robot structures.",
   link: "https://en.wikipedia.org/wiki/Aluminium%E2%80%93silicon_alloys"
 },
 {
   id: "grcop", cat: "additive", name: "GRCop-42",
-  sub: "Cu-Cr-Nb rocket chamber alloy", img: "grcop",
-  hook: "Copper carries heat better than almost anything and softens if you look at it hot. NASA's answer disperses Cr₂Nb particles through it, which hold the grains in place at 800 °C while the copper keeps conducting — and the chamber is printed because its cooling channels cannot be drilled.",
+  sub: "Cu-Cr-Nb rocket chamber alloy", img: "grcop", extra: ["grcop2"],
+  hook: "Copper carries heat better than almost anything and softens if you look at it hot. Cr₂Nb particles pin its grains at 800 degrees while the copper keeps conducting. Printed, since the channels cannot be drilled.",
+  more: "Glenn developed GRCop in the 1980s for the Shuttle main engine liner: copper with 4 per cent chromium and 2 of niobium, which form Cr₂Nb and stay as particles a tenth of a micron across that pin grain boundaries up to 800 degrees. Cast, it had to be forged and machined, the channels milled into a liner and closed with an electroformed jacket, months of work. Printed in a laser bed since 2014, the chamber comes out with its channels inside the wall; the first GRCop-42 chambers were fired at Marshall in 2018 and flew on Terran 1 in 2023. The costs: copper reflects the infrared laser, so it wants a hot bed or a green one; the powder oxidises and lives under argon; and conductivity is 80 per cent of pure copper, paid for in wall temperature.",
   stats: [["Conductivity", "~80% of pure copper"], ["Hot strength", "holds to ~800 °C"], ["Built by", "laser powder bed fusion"]],
   uses: "Regeneratively cooled rocket combustion chambers, nozzle liners and injectors.",
   link: "https://en.wikipedia.org/wiki/Regenerative_cooling_(rocketry)"
 },
 {
   id: "bioink", cat: "additive", name: "Bioink",
-  sub: "cell-laden hydrogel", img: "bioink",
-  hook: "Three demands that pull against each other: runny enough to pass a nozzle, stiff enough to hold its shape once it lands, and gentle enough that the cells inside survive the shear on the way through. Every formulation is a compromise, and the number that matters is how many cells are still alive afterwards.",
+  sub: "cell-laden hydrogel", img: "bioink", extra: ["bioink2", "bioink3"],
+  hook: "Three demands that pull against each other: runny enough to pass a nozzle, stiff enough to hold shape, gentle enough that the cells survive the shear. The number that matters is how many cells are still alive.",
+  more: "Alginate sets in a bath of calcium ions; gelatin methacrylate, GelMA, sets under blue light with a photoinitiator; collagen and fibrin set with warmth and enzymes; Pluronic is printed as a gel and washed out cold, a sacrificial ink. The syringe pushes at a shear that would kill the cells in a plain liquid, so the ink is made shear-thinning: a gel at rest, a liquid in the needle, a gel again on the plate. The costs: a strut that holds its shape is stiffer than tissue, and the cells inside behave as if cast in rubber; anything thicker than a millimetre starves in the middle without printed vessels; 90 per cent viability on the day says nothing about the week after; and every lab tunes its own recipe, so no two papers print the same material.",
   stats: [["Base", "GelMA, alginate, collagen"], ["Cell viability", "the figure of merit"], ["Gelling", "temperature, ions or UV"]],
   uses: "Tissue and tumour models, skin and cartilage constructs, organ-on-a-chip, drug screening.",
   link: "https://en.wikipedia.org/wiki/Bio-ink"
 },
 {
   id: "fourd", cat: "additive", name: "Printed shape-memory polymer",
-  sub: "the fold programmed by the toolpath", img: "fourd",
-  hook: "A polymer that will hold a deformed shape until heat lets its network pull back to the one it was printed in — so the print is the program. Lay the fibres in one direction, or print a bilayer that swells unevenly, and the part folds, curls or opens itself when it is warmed or wetted. Flat-pack goes in, a structure comes out.",
+  sub: "the fold programmed by the toolpath", img: "fourd", extra: ["fourd2", "fourd3"],
+  hook: "A polymer that holds a bent shape until heat lets its network pull back to the one it was printed in, so the print is the program. Lay fibres one way, or print a bilayer that swells unevenly, and it folds itself.",
+  more: "A shape-memory polymer has two things in it: cross-links that remember the printed shape, and a transition, glass or melting, that lets the chains move above it and freezes them below. Warm the part, bend it, cool it, and it stays bent; warm it again and the network pulls it back. Printing adds a second trick: the toolpath builds in the stress or the grain the recovery follows, so a flat sheet printed with fibres crossing at an angle rolls into a tube. The Wyss lab printed cellulose hydrogels that curl like a seed pod in water. The costs: the recovery force is small, grams not newtons; a part that must work at the transition cannot also be triggered there; each cycle loses a little; and the trigger is slow, minutes of soaking, not a snap.",
   stats: [["Trigger", "heat, water, light or field"], ["Recovery", "to the as-printed shape"], ["Cycles", "tens to hundreds"]],
   uses: "Self-folding structures, deployable space hardware, adaptive textiles, soft actuators, stents.",
   link: "https://en.wikipedia.org/wiki/Shape-memory_polymer"
