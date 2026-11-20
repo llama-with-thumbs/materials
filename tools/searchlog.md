@@ -1416,3 +1416,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `polyesterfab`: thin. `Dacron sail`, `sailcloth`, `Segeltuch` return cruise ships and oil paintings; `polyester halyard`, `webbing sling`, `fibre spinning`, `staple fibre`, `Polyesterseil` nothing. The one rope whose uploader states it is polyester, and the Dacron reels, added.
 - `wirerope`: `Drahtseil Querschnitt`, `Seilquerschnitt`, `wire rope broken wires` return headframes and antennas; the Teufelberger section model and the tug drum added. `Glasfaser Roving (rotated).jpg` is the same photograph as `silicafibre`, passed over.
 - `glassfibre`: `woven roving`, `bushing drawing`, `hull layup` nothing; the Owens-Corning furnace is a 9,000-pixel TIFF of a furnace wall. The 1930s Millville drawing photograph added; the mat wet-out (`Tränken der Glasfasermatte`) is a resin bag and a cardboard box at card crop, dropped after fetching.
+
+## Batch 47 restyle (basalt, nomex, ripstop, sailcloth, nylonrope)
+
+- `basalt`: nothing beyond the comparison already on the card. `basalt fibre` and `Basaltfaser` return it plus a process diagram; `basalt rebar` is an Afsluitdijk concrete pour with steel; `basalt roving` is Mars and Apollo; `150 Jahre Wiener Weltausstellung` are daimyo house models. One photo stays.
+- `sailcloth`: `Bear of Britain spinnaker.jpg` dropped; a spinnaker is nylon, not laminate, and the caption could not be defended. `Kevlar-Carbon-Sail.JPG` is a genuine laminate close-up and took the main slot; `Laminate sails.jpg` (800 px, described only as My work) added as product. `3Di sail`, `carbon sail America's Cup` nothing; the Cuben clew is on `dcf`; the Caseneuve trimaran is carbon-Kevlar hull, not sail.
+- `nomex`: `racing suit fireproof`, `aramid paper insulation` nothing; `Nomex honeycomb` is model rockets again; `Nomex Reaction.jpg` is a structure diagram. The USDA flight suit added.
+- `ripstop`: `ripstop tear`, `parachute ripstop fabric`, `hot air balloon fabric closeup` nothing; the NYCO blend and the Peter Lynn kite interior added, the Cherai paraglider passed over as a third.
+- `nylonrope`: `Nylon Rope.JPG` is on `nylon662`, the Sterling kernmantle series is on `kernmantle`; `anchor rode nylon`, `mooring line snapback`, `double braid rope` return one frayed end, which is exactly the structure shot wanted, plus the Auckland lifebuoy.

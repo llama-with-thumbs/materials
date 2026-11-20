@@ -3120,18 +3120,6 @@ window.CREDITS = {
     "w": 960,
     "h": 687
   },
-  "glassfibre3": {
-    "file": "glassfibre3.jpg",
-    "caption": "Resin poured onto a glass mat: the fibre is only ever half the laminate",
-    "kind": "process",
-    "title": "Tränken der Glasfasermatte mit multi PL-Harz.jpg",
-    "site": "Wikimedia",
-    "artist": "Bdnbndr2020",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tr%C3%A4nken_der_Glasfasermatte_mit_multi_PL-Harz.jpg",
-    "w": 960,
-    "h": 1440
-  },
   "basalt": {
     "file": "basalt.jpg",
     "caption": "Basalt fibre (dark) beside glass fibre",
@@ -3156,6 +3144,18 @@ window.CREDITS = {
     "h": 630,
     "site": "Wikimedia"
   },
+  "nomex2": {
+    "file": "nomex2.jpg",
+    "caption": "A forest-survey observer in a Nomex flight suit, 1975: worn by people who may catch fire",
+    "kind": "product",
+    "title": "C.1975. Aerial observer in nomex flight suit with Cessna 337 Skymaster II survey plane. (36068818355).jpg",
+    "site": "Wikimedia",
+    "artist": "R6, State & Private Forestry, Forest Health Protection",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:C.1975._Aerial_observer_in_nomex_flight_suit_with_Cessna_337_Skymaster_II_survey_plane._(36068818355).jpg",
+    "w": 960,
+    "h": 631
+  },
   "ripstop": {
     "file": "ripstop.jpg",
     "caption": "Ripstop: a grid of heavier yarns that stops a tear spreading",
@@ -3168,17 +3168,53 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "ripstop2": {
+    "file": "ripstop2.jpg",
+    "caption": "The same grid in a cotton and nylon blend for uniforms: the pattern, not the fibre, is the material",
+    "kind": "photo",
+    "title": "Rip-stop NYCO.jpg",
+    "site": "Wikimedia",
+    "artist": "MAx 92",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rip-stop_NYCO.jpg",
+    "w": 800,
+    "h": 600
+  },
+  "ripstop3": {
+    "file": "ripstop3.jpg",
+    "caption": "Inside a Peter Lynn kite: ripstop at the scale of a building, with cords through the seams",
+    "kind": "product",
+    "title": "Peter Lynn Mega Ray, inside, showing super-ripstop, thru-cording construction system.jpg",
+    "site": "Wikimedia",
+    "artist": "The original uploader was Clappingsimon at English Wikipedia.",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Peter_Lynn_Mega_Ray,_inside,_showing_super-ripstop,_thru-cording_construction_system.jpg",
+    "w": 960,
+    "h": 720
+  },
   "sailcloth": {
     "file": "sailcloth.jpg",
-    "caption": "A modern laminate spinnaker under load",
-    "kind": "product",
-    "title": "Bear of Britain spinnaker.jpg",
-    "artist": "No machine-readable author provided. Malcolm Morley~commonswiki assumed (based on copyright claims).",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Bear_of_Britain_spinnaker.jpg",
+    "caption": "Laminate sailcloth up close: Kevlar and carbon yarns laid along the load paths between two films",
+    "kind": "photo",
+    "title": "Kevlar-Carbon-Sail.JPG",
+    "site": "Wikimedia",
+    "artist": "Henry Heatly from Chicago, United States of America",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kevlar-Carbon-Sail.JPG",
     "w": 960,
-    "h": 1108,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "sailcloth2": {
+    "file": "sailcloth2.jpg",
+    "caption": "Racing dinghies under laminate sails, the grey translucent film that replaced white Dacron",
+    "kind": "product",
+    "title": "Laminate sails.jpg",
+    "site": "Wikimedia",
+    "artist": "Kevin Murray",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laminate_sails.jpg",
+    "w": 800,
+    "h": 1021
   },
   "abs": {
     "file": "abs.jpg",
@@ -5570,7 +5606,7 @@ window.CREDITS = {
   },
   "nylonrope": {
     "file": "nylonrope.jpg",
-    "caption": "Braided synthetic rope",
+    "caption": "Braided synthetic rope coiled on a lifeboat",
     "kind": "photo",
     "title": "Rope 20221203 102029.jpg",
     "artist": "Ka23 13",
@@ -5579,6 +5615,30 @@ window.CREDITS = {
     "w": 960,
     "h": 540,
     "site": "Wikimedia"
+  },
+  "nylonrope2": {
+    "file": "nylonrope2.png",
+    "caption": "An unwhipped end of double braid: the braided core inside the braided cover, each carrying half the load",
+    "kind": "structure",
+    "title": "Frayed.png",
+    "site": "Wikimedia",
+    "artist": "NE Ent",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frayed.png",
+    "w": 960,
+    "h": 754
+  },
+  "nylonrope3": {
+    "file": "nylonrope3.jpg",
+    "caption": "Wet nylon rope on a lifebuoy, Auckland: wet is where it gives up a tenth of its strength",
+    "kind": "photo",
+    "title": "An orange lifesaver with a wet sailing nylon rope, Auckland - 0569.jpg",
+    "site": "Wikimedia",
+    "artist": "Jorge Royan",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:An_orange_lifesaver_with_a_wet_sailing_nylon_rope,_Auckland_-_0569.jpg",
+    "w": 960,
+    "h": 1440
   },
   "bungee": {
     "file": "bungee.jpg",

@@ -265,8 +265,12 @@ glassfibre|commons|Glass fiber bundle.jpg|Glass filaments gathered into a bundle
 glassfibre2|commons|Millville, New Jersey - Glass wool. Frederick and Dimmock. Drawing glass from a tube. Each of the protruded knobs in... - NARA - 518649.jpg|Drawing glass fibre by hand from a heated tube, Millville, New Jersey, 1930s: the craft the bushing replaced|process
 basalt|commons|Basalt fibre and glass fibre.jpg|Basalt fibre (dark) beside glass fibre|photo
 nomex|commons|TFS Nomex Hood.JPG|A Nomex firefighting hood|product
+nomex2|commons|C.1975. Aerial observer in nomex flight suit with Cessna 337 Skymaster II survey plane. (36068818355).jpg|A forest-survey observer in a Nomex flight suit, 1975: worn by people who may catch fire|product
 ripstop|commons|RipStop.jpg|Ripstop: a grid of heavier yarns that stops a tear spreading|photo
-sailcloth|commons|Bear of Britain spinnaker.jpg|A modern laminate spinnaker under load|product
+ripstop2|commons|Rip-stop NYCO.jpg|The same grid in a cotton and nylon blend for uniforms: the pattern, not the fibre, is the material|photo
+ripstop3|commons|Peter Lynn Mega Ray, inside, showing super-ripstop, thru-cording construction system.jpg|Inside a Peter Lynn kite: ripstop at the scale of a building, with cords through the seams|product
+sailcloth|commons|Kevlar-Carbon-Sail.JPG|Laminate sailcloth up close: Kevlar and carbon yarns laid along the load paths between two films|photo
+sailcloth2|commons|Laminate sails.jpg|Racing dinghies under laminate sails, the grey translucent film that replaced white Dacron|product
 abs|Flickr|https://live.staticflickr.com/317/19709520299_6e2089a6e1_b.jpg|3DBenchy test prints in ABS filament|product|CC BY 2.0|Creative Tools|https://www.flickr.com/photos/33907867@N02/19709520299
 abs2|commons|Lego bricks.jpg|Lego bricks, ABS since 1963: the clutch depends on a tolerance of a hundredth of a millimetre|product
 pet|Flickr|https://live.staticflickr.com/3261/2629301274_8f41b9afd0_b.jpg|PET bottles, blown and biaxially stretched|product|CC BY 2.0|dierk schaefer|https://www.flickr.com/photos/dierkschaefer/2629301274
@@ -466,7 +470,9 @@ pykrete3|commons|Habakukk aircraft 01.jpg|HMS Habakkuk as proposed, 1943: 600 me
 hempcrete|Flickr|https://live.staticflickr.com/3746/11221285985_cac4e86ef0_b.jpg|A hempcrete wall before plaster: shiv in lime, the pieces of stalk still legible|product|CC BY 2.0|Jnzl's Photos|https://www.flickr.com/photos/102748040@N03/11221285985
 hempcrete2|commons|Frisch gemischter Hanfkalk.jpg|Freshly mixed hemp-lime in the pan: the shiv wetted first, then coated in the binder|process
 hempcrete3|commons|Highland Hemp House finished hempcrete.jpg|A house in Bellingham, Washington, with the hempcrete cast round its timber frame and the plaster still to come|product
-nylonrope|commons|Rope 20221203 102029.jpg|Braided synthetic rope|photo
+nylonrope|commons|Rope 20221203 102029.jpg|Braided synthetic rope coiled on a lifeboat|photo
+nylonrope2|commons|Frayed.png|An unwhipped end of double braid: the braided core inside the braided cover, each carrying half the load|structure
+nylonrope3|commons|An orange lifesaver with a wet sailing nylon rope, Auckland - 0569.jpg|Wet nylon rope on a lifebuoy, Auckland: wet is where it gives up a tenth of its strength|photo
 bungee|commons|Bungee Cord PICT6882a.jpg|Shock cord — rubber strands in a braided jacket|photo
 kernmantle|commons|Kernmantle climbing rope dynamic Sterling 10.7mm cut end.jpg|Kernmantle rope cut open — load-bearing core, protective sheath|photo
 seatbelt|commons|Female driver buckling seatbelt.jpg|Seat-belt webbing in use|product

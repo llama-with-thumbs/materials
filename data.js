@@ -2359,39 +2359,44 @@ window.MATERIALS = [
 {
   id: "basalt", cat: "fibre", name: "Basalt fibre",
   sub: "melt-spun volcanic rock", img: "basalt",
-  hook: "Crushed basalt melted at 1450 °C and drawn straight into filament — one raw material, no additives, no binders. It outperforms E-glass on temperature and alkali resistance, which matters in concrete.",
+  hook: "Crushed basalt melted at 1,450 degrees and drawn straight into filament: one raw material, no additives. It beats E-glass on heat and on alkali, which is what matters inside concrete, and costs twice as much.",
+  more: "Glass fibre is a recipe, a dozen oxides batched and melted; basalt fibre is a quarry. The rock is crushed, melted at 1,450 degrees and drawn through a bushing like glass, but the melt is black and opaque, so the furnace is slow and hard to run. The fibre comes out 10 to 20 per cent stiffer than E-glass, as strong, and able to sit at 700 degrees where glass has softened. It shrugs off the alkali of wet cement, so basalt rebar neither rusts nor rots in a bridge deck the way glass does. The costs: the ore varies from quarry to quarry, and so does the fibre; the opaque melt makes it twice the price of glass; most production was in Ukraine and Russia; and it is a third as stiff as carbon, so it competes on cost, which it loses to glass.",
   stats: [["Service", "−260 to 700 °C"], ["Input", "rock, nothing else"], ["vs. E-glass", "stiffer, more alkali-proof"]],
   uses: "Concrete reinforcement, fire barriers, pipe wrap, automotive composites, insulation.",
   link: "https://en.wikipedia.org/wiki/Basalt_fiber"
 },
 {
   id: "nomex", cat: "fibre", name: "Nomex",
-  sub: "meta-aramid", img: "nomex",
-  hook: "Kevlar's sibling with the bonds in the meta position instead of para, which trades tensile strength for heat. It does not melt or drip; it thickens and chars, and the char is what keeps the flame off skin.",
+  sub: "meta-aramid", img: "nomex", extra: ["nomex2"],
+  hook: "Kevlar's sibling with the bonds in the meta position, which trades strength for heat. It does not melt or drip; it thickens and chars, and the char keeps the flame off the skin for the few seconds that count.",
+  more: "DuPont sold it in 1967, five years before Kevlar: the same aramid chemistry, but the rings link at the meta position, so the chain kinks and never packs into Kevlar's stiff crystal. What it keeps is the aromatic backbone, which does not soften below 370 degrees and does not burn in air. In a flash fire the fibre swells, the weave closes and the surface chars into a crust, so the suit buys two or three seconds in a fuel fire, which is the time to get out of a car. As paper it insulates transformers; dipped in phenolic, it is honeycomb. The costs: a third the strength of Kevlar and no better than nylon; it dyes badly; sunlight degrades it; it stops flame, not heat; and it costs ten times cotton, which is why only people who may catch fire wear it.",
   stats: [["Behaviour in fire", "chars, never melts"], ["Continuous use", "~200 °C"], ["Also made as", "honeycomb core"]],
   uses: "Firefighting and racing suits, flight gloves, electrical insulation paper, honeycomb cores.",
   link: "https://en.wikipedia.org/wiki/Nomex"
 },
 {
   id: "ripstop", cat: "fibre", name: "Ripstop",
-  sub: "a weave, not a material", img: "ripstop",
-  hook: "The only entry here that is pure geometry. Thicker yarns woven in every few millimetres do nothing until something tears — then the tear runs to the next grid line and stops, so a hole stays a hole.",
+  sub: "a weave, not a material", img: "ripstop", extra: ["ripstop2", "ripstop3"],
+  hook: "The one entry here that is pure geometry. Thicker yarns woven in every few millimetres do nothing until something tears; then the tear runs to the next grid line and stops, so a hole stays a hole.",
+  more: "A tear runs because the whole load lands on the one yarn at its tip, which breaks, and then the next. Every 5 to 8 millimetres ripstop doubles the yarn or puts in a heavier one; the tear arrives, the stress spreads across twice the strength, and it stops. The grid weighs nothing, which is why it went into the wartime parachute and every tent, sail, kite and balloon since. It works in any fibre, cotton and nylon for uniforms, Dyneema for the lightest packs; the pattern is the material. The costs: it stops a tear running and does nothing against a puncture or abrasion; the heavy yarns let water through a coating and give the fabric a line to crease along; it is stiffer and noisier than plain cloth; and a slit that keeps pulling simply follows the grid.",
   stats: [["Grid spacing", "~5–8 mm"], ["Weight cost", "almost none"], ["Effect", "arrests tear propagation"]],
   uses: "Parachutes and paragliders, tents and sails, hot air balloons, outdoor clothing, flags.",
   link: "https://en.wikipedia.org/wiki/Ripstop"
 },
 {
   id: "sailcloth", cat: "fibre", name: "Laminate sailcloth",
-  sub: "scrim between films", img: "sailcloth",
-  hook: "A racing sail fails by stretching, not by tearing, so modern cloth is a sandwich: load-bearing yarns of aramid, carbon or UHMWPE laid exactly along the computed load paths and trapped between polyester films.",
+  sub: "scrim between films", img: "sailcloth", extra: ["sailcloth2"],
+  hook: "A racing sail fails by stretching, not tearing, so the cloth is a sandwich: aramid, carbon or Dyneema yarns laid along the load paths between polyester films. It holds its shape for a season, then it is a tarpaulin.",
+  more: "Woven cloth stretches on the bias however tight the weave, and a sail that stretches loses its shape and its drive. Laminate cloth stops pretending: a scrim of high-modulus yarn is laid between two films of Mylar, which take the shear and keep the air out, and the yarns do all the pulling. Since the 1990s the yarns go only where the loads go, radiating from the corners; North Sails now moulds the whole sail in one piece. The costs: Mylar cracks where it is folded and delaminates where it flexes, so the sail is dead in two or three seasons where Dacron lasts ten; sunlight kills aramid in a year; repairs are sticky-back patches; it costs three to five times the woven sail; and it goes to landfill, since film, glue and three fibres cannot be separated.",
   stats: [["Design driver", "stretch, not strength"], ["Yarns", "aligned to load paths"], ["Build", "film–scrim–film"]],
   uses: "Racing sails, kites and wings, lightweight packs, inflatable structures.",
   link: "https://en.wikipedia.org/wiki/Sailcloth"
 },
 {
   id: "nylonrope", cat: "fibre", name: "Nylon double braid",
-  sub: "polyamide rope", img: "nylonrope",
-  hook: "Chosen for the opposite of what a rope is usually judged on: it stretches. Up to 30% before it breaks, which turns a snatch load into a long gentle pull — and makes a parted line a lethal whip, because all that stored energy comes back.",
+  sub: "polyamide rope", img: "nylonrope", extra: ["nylonrope2", "nylonrope3"],
+  hook: "Chosen for the opposite of what a rope is usually judged on: it stretches. Up to 30 per cent before it breaks, which turns a snatch into a long pull, and makes a parted line a whip when the energy comes back.",
+  more: "Double braid is a braided core inside a braided cover, each carrying half the load: a rope that is round, soft in the hand and splices without a tool. Nylon stretches because its chains are coiled and straighten under load; a mooring line pays out a metre and takes it back, and the boat never feels the snatch. That is why it holds out against polyester as anchor rode, towline and climbing rope, where the stretch saves the climber. The costs: wet, it loses 10 to 15 per cent of its strength and shrinks; sunlight goes through it in a few years; it heats inside where the yarns rub, and a nylon rope working over a sheave can melt its own core; and the stored energy is why a tow is watched from behind a bulkhead: a parted nylon line has cut men in half.",
   stats: [["Stretch at break", "~25–30%"], ["Wet strength", "−10 to −15%"], ["Danger", "stored energy on failure"]],
   uses: "Anchor and mooring rode, tow and recovery straps, climbing slings, winch snatch lines.",
   link: "https://en.wikipedia.org/wiki/Rope"
