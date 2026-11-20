@@ -258,11 +258,11 @@ svg.wheel .seg:focus-visible { outline: none; }
 svg.wheel .seg.on .area { fill: var(--red); fill-opacity: 0.22; }
 svg.wheel .ring { fill: none; stroke: var(--ink); stroke-width: 1.4; pointer-events: none; }
 svg.wheel text { fill: var(--ink); pointer-events: none; }
-svg.wheel .arc.r1 { font-size: 21px; font-weight: 500; letter-spacing: 0.02em; }
-svg.wheel .arc.r2 { font-size: 14px; }
-svg.wheel .arc.r3 { font-size: 15.5px; font-weight: 500; letter-spacing: 0.06em; }
-svg.wheel .big { font-size: 24px; font-weight: 500; }
-svg.wheel .small { font-size: 11.5px; fill: var(--dim); }
+svg.wheel .arc.r1 { font-size: 34px; font-weight: 500; letter-spacing: 0.02em; }
+svg.wheel .arc.r2 { font-size: 19px; }
+svg.wheel .arc.r3 { font-size: 26px; font-weight: 500; letter-spacing: 0.04em; }
+svg.wheel .big { font-size: 34px; font-weight: 500; }
+svg.wheel .small { font-size: 20px; }
 svg.wheel .marks line { stroke: var(--red); stroke-width: 2; }
 svg.wheel .marks text { font-size: 12px; fill: var(--red); font-weight: 500; }
 svg.wheel .time .stage { fill: var(--panel); stroke: var(--ink); stroke-width: 1.4; }

@@ -146,8 +146,14 @@ window.WHEEL = (() => {
   const LIB = window.LIBRARY ? new Map(window.LIBRARY.map(t => [t.id, t])) : new Map();
   const CATS = window.CATS || {};
 
-  // Geometry: a 720-square viewBox, the centre at 360, rings by outer radius.
-  const C = 360, R = [104, 196, 266, 346];
+  // Geometry: a 720-square viewBox, the centre at 360, rings by outer radius. The radii keep
+  // the proportions of the 1922 diagram, where the ring lines sit at 0.42, 0.62 and 0.82 of
+  // the outer radius: three rings of nearly one width around a centre that holds five lines.
+  const C = 360, R = [145, 214, 283, 346];
+  // Letter sizes in the same proportion to their ring as on the original, and the same in
+  // every language: a word that will not fit its arc breaks onto two arcs, as the original's
+  // long ones do, instead of shrinking.
+  const FS = { 1: 34, 2: 19, 3: 26 }, EM = { 1: 0.56, 2: 0.52, 3: 0.56 };
   const rad = a => (a - 90) * Math.PI / 180;
   const pt = (r, a) => [C + r * Math.cos(rad(a)), C + r * Math.sin(rad(a))];
   const f = n => n.toFixed(1);
@@ -176,10 +182,30 @@ window.WHEEL = (() => {
       const r0 = s.ring ? R[s.ring - 1] : 0, r1 = R[s.ring];
       const id = `w-${s.key}${i ? "-" + i : ""}`;
       const d = s.ring ? sector(r0, r1, a0, a1) : `M${C} ${C - r1} A${r1} ${r1} 0 1 1 ${C - 0.01} ${C - r1} Z`;
-      defs.push(`<path id="${id}-t" d="${arc(s.ring ? (r0 + r1) / 2 + (s.ring === 1 ? 0 : 4) : 0, a0, a1)}"/>`);
+      let lines = "";
+      if (s.ring) {
+        const fs = FS[s.ring], rm = (r0 + r1) / 2, mid = (a0 + a1) / 2 % 360, low = mid > 90 && mid < 270;
+        const room = (a1 - a0) / 180 * Math.PI * rm, w = word(s);
+        // Break at the space nearest the middle when one arc is too short for the word.
+        let parts = [w];
+        if (w.length * EM[s.ring] * fs > 0.92 * room && w.includes(" ")) {
+          let best = -1;
+          for (let k = w.indexOf(" "); k >= 0; k = w.indexOf(" ", k + 1)) if (best < 0 || Math.abs(k - w.length / 2) < Math.abs(best - w.length / 2)) best = k;
+          parts = [w.slice(0, best), w.slice(best + 1)];
+        }
+        // On the path the glyphs stand outward above the top half and inward below it, so
+        // the baseline moves by half a cap height to centre them on the ring; two lines sit
+        // either side of the middle, the first one nearer the reader's top.
+        const cap = 0.36 * fs, gap = parts.length > 1 ? 0.58 * fs : 0;
+        parts.forEach((p, n) => {
+          const off = parts.length > 1 ? (n === 0 ? gap : -gap) * (low ? -1 : 1) : 0;
+          const r = rm + off + (low ? cap : -cap);
+          defs.push(`<path id="${id}-t${n}" d="${arc(r, a0, a1)}"/>`);
+          lines += `<text class="arc r${s.ring}"><textPath href="#${id}-t${n}" startOffset="50%" text-anchor="middle">${esc(p)}</textPath></text>`;
+        });
+      }
       return `<g class="seg" data-key="${s.key}" tabindex="0" role="button" aria-label="${esc(word(s))}: ${esc(s.sub)}">
-        <path class="area" d="${d}"/>
-        ${s.ring ? `<text class="arc r${s.ring}"><textPath href="#${id}-t" startOffset="50%" text-anchor="middle">${esc(word(s))}</textPath></text>` : ""}
+        <path class="area" d="${d}"/>${lines}
       </g>`;
     };
     for (const s of SEG) {
@@ -191,10 +217,11 @@ window.WHEEL = (() => {
     const bau = SEG[0];
     const centre = `<g class="seg centre" data-key="bau" tabindex="0" role="button" aria-label="${esc(word(bau))}: ${esc(bau.sub)}">
       <circle class="area" cx="${C}" cy="${C}" r="${R[0]}"/>
-      <text class="big" x="${C}" y="${C - 22}" text-anchor="middle">${esc(word(bau))}</text>
-      <text class="small" x="${C}" y="${C + 2}" text-anchor="middle">${{ de: "baulehre · versuchsplatz", ru: "площадка · испытания" }[lang] || "site · testing"}</text>
-      <text class="small" x="${C}" y="${C + 20}" text-anchor="middle">${{ de: "entwurf", ru: "проект" }[lang] || "design"}</text>
-      <text class="small" x="${C}" y="${C + 38}" text-anchor="middle">${{ de: "bau- und ingenieurwissen", ru: "строительная и инженерная наука" }[lang] || "building and engineering science"}</text>
+      <text class="big" x="${C}" y="${C - 46}" text-anchor="middle">${esc(word(bau))}</text>
+      ${({ de: ["bauplatz", "versuchsplatz", "entwurf", "bau- und ingenieur-", "wissen"],
+          ru: ["площадка", "испытания", "проект", "строительная и", "инженерная наука"] }[lang]
+        || ["site", "testing", "design", "building and", "engineering science"])
+        .map((t, n) => `<text class="small" x="${C}" y="${C - 20 + n * 23}" text-anchor="middle">${esc(t)}</text>`).join("")}
     </g>`;
     // The two marks at the top: half a year on the outer ring, three years on the studies.
     const marks = `<g class="marks">
