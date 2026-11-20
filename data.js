@@ -2312,8 +2312,9 @@ window.MATERIALS = [
 },
 {
   id: "felt", cat: "fibre", name: "Wool felt",
-  sub: "non-woven matted fibre", img: "felt",
-  hook: "Fabric with no weave at all. Wool scales ratchet past each other under heat, moisture and pressure and then cannot slide back, locking into a solid sheet. It has no grain, so it never frays and cuts in any direction.",
+  sub: "non-woven matted fibre", img: "felt", extra: ["felt2", "felt3"],
+  hook: "Fabric with no weave at all. Wool scales ratchet past each other under heat, soap and pressure and cannot slide back, so the fleece locks into a sheet. No grain, so it never frays and cuts clean in any direction.",
+  more: "Each wool fibre is covered in scales pointing to the tip, so it moves root-first through its neighbours and jams going back; roll a wet, soapy mat of fibres for an hour and they tangle ever tighter. That is the whole process, and it is older than spinning: the Tarim mummies wore felt hats 3,800 years ago, and a yurt is still a frame wrapped in it. Dense, it damps vibration, seals a joint, holds oil and takes a polish, which is why a piano is full of it and so is a machine shop. The costs: it has no yarn to carry tension, so it tears, stretches out of shape and sags on a wall; it pills and thins where rubbed; moths eat it and damp rots it; and thick grades are hard to make even, so a piano hammer is still voiced by hand with a needle.",
   stats: [["Structure", "no weave, no grain"], ["Edges", "never fray"], ["Age", "oldest known fabric"]],
   uses: "Piano hammers and dampers, gaskets and washers, polishing wheels, yurts, hats, acoustic panels.",
   link: "https://en.wikipedia.org/wiki/Felt",
@@ -2321,32 +2322,36 @@ window.MATERIALS = [
 },
 {
   id: "paracord", cat: "fibre", name: "Paracord 550",
-  sub: "nylon kernmantle cord", img: "paracord",
-  hook: "A braided nylon sheath over seven to nine twisted inner yarns, each of which is itself usable cordage. Nylon stretches roughly a third before it breaks, which is exactly what you want under a parachute canopy and nowhere near a winch.",
+  sub: "nylon kernmantle cord", img: "paracord", extra: ["paracord2", "paracord3"],
+  hook: "A braided nylon sheath over seven twisted yarns, each a usable cord on its own. Nylon stretches a third of its length before it breaks, which is exactly what a parachute canopy wants and a winch does not.",
+  more: "MIL-C-5040 Type III: a 32-strand nylon sheath over seven two-ply core yarns, rated at 550 pounds, hence the name. The military cord carries a marker yarn naming the maker; most of what is sold as paracord is a looser copy with no rating. Nylon was chosen in 1942 because silk lines were snapping under the opening shock: nylon stretches 30 per cent and gives the shock back slowly. Cut, the sheath is sealed with a lighter and the core pulled out for fishing line, thread or a snare. The costs: the stretch that saves a parachutist makes it useless for a guy line or a bowstring; it is slippery, so knots slide unless locked; it loses a tenth of its strength wet and a third to a season of sun; and 550 is a new, dry, unknotted figure, which a knot halves.",
   stats: [["Breaking strength", "550 lb / 2.5 kN"], ["Stretch", "~30%"], ["Core", "7–9 separate yarns"]],
   uses: "Parachute suspension lines, general lashing, repairs, bracelets, improvised shelter.",
   link: "https://en.wikipedia.org/wiki/Parachute_cord"
 },
 {
   id: "polyesterfab", cat: "fibre", name: "Polyester (Dacron)",
-  sub: "PET fibre", img: "polyesterfab",
-  hook: "Nylon's quieter rival and the reason natural rope disappeared from working boats. It barely creeps under sustained load, is unbothered by water and shrugs off sunlight far better than nylon does.",
+  sub: "PET fibre", img: "polyesterfab", extra: ["polyesterfab2", "polyesterfab3"],
+  hook: "Nylon's quieter rival, and why natural rope vanished from working boats. It barely creeps under a standing load, ignores water and shrugs off sunlight better than nylon, so a halyard holds its tension for a season.",
+  more: "Polyethylene terephthalate, spun into filament in 1941 by Whinfield and Dickson and sold as Terylene, then as Dacron by DuPont. The chain is stiff with benzene rings, which is why it takes a set at 70 degrees and holds a crease forever, why it absorbs almost no water, 0.4 per cent against nylon's 4, and why it creeps so little that a sail keeps its shape. About as strong as nylon and half as stretchy, which makes it the halyard, the sheet, the webbing sling and most sailcloth. The costs: that stiffness means it will not absorb a shock, so a polyester anchor line snatches where nylon gives; it holds oil stains and smells, since nothing washes out of a fibre that takes up no water; it pills; and polyester fleece sheds microfibres with every wash.",
   stats: [["Creep", "very low"], ["Wet strength", "unchanged"], ["UV", "good resistance"]],
   uses: "Halyards and standing rigging, sailcloth, webbing and slings, clothing, tyre cord.",
   link: "https://en.wikipedia.org/wiki/Polyester"
 },
 {
   id: "wirerope", cat: "fibre", name: "Wire rope",
-  sub: "laid steel strand", img: "wirerope",
-  hook: "A solid steel bar of the same section cannot bend around a sheave; a few hundred thin wires can, because each one only has to flex a little. Spiral the strands against the lay of the wires and the whole rope resists unwinding under load.",
+  sub: "laid steel strand", img: "wirerope", extra: ["wirerope2", "wirerope3"],
+  hook: "A solid bar of the same section cannot bend round a sheave; a few hundred thin wires can, each flexing only a little. Lay the strands against the twist of their wires and the rope resists unwinding under load.",
+  more: "Wilhelm Albert twisted the first in 1834 for the Clausthal mines, where hemp rotted and chain broke without warning; wire rope breaks one wire at a time. A 6×19 rope is six strands of 19 wires round a core of fibre or more steel; ordinary lay twists wires and strands opposite ways, so the rope will not spin under load, while Lang's lay twists them the same way and wears better. The strength is in the drawn wire, 1,800 megapascals of pearlitic steel. The costs: it is as stiff as it is strong, so a sheave must be 20 to 40 rope diameters or the outer wires fatigue; it rusts from the core where no one sees; a kink is permanent and halves the strength; and a rope is condemned by counting broken wires in one lay length, before it fails.",
   stats: [["Construction", "e.g. 6×19, 6×36"], ["Why it bends", "thin wires, low strain"], ["Invented", "1830s, mining"]],
   uses: "Cranes and lifts, cable cars and bridges, winches, rigging, control cables.",
   link: "https://en.wikipedia.org/wiki/Wire_rope"
 },
 {
   id: "glassfibre", cat: "fibre", name: "Glass fibre",
-  sub: "E-glass and S-glass", img: "glassfibre",
-  hook: "Bulk glass is brittle because of the flaws on its surface; drawn into a filament ten microns across, there is hardly any surface left to flaw. The same material that shatters as a pane becomes a fibre you can tie in a knot.",
+  sub: "E-glass and S-glass", img: "glassfibre", extra: ["glassfibre2"],
+  hook: "Bulk glass is brittle because of the flaws on its surface; drawn to a filament ten microns across, there is hardly any surface left to flaw. The stuff that shatters as a pane becomes a fibre you can tie in a knot.",
+  more: "Molten glass runs through a platinum bushing with a few thousand holes and is pulled away at 60 metres a second, which draws each stream to a filament and freezes it before a crack can start, at scale since 1938. E-glass, the electrical grade, is the cheap one and most of the market; S-glass has more alumina and a third more strength. The fibre is only as good as its surface, so a size of silane and starch goes on before it touches anything. The costs: it is heavy and a third as stiff as carbon; bare fibre abrades itself to dust in a bundle; water attacks the surface and takes a quarter of a wet laminate's strength; it is a skin and lung irritant to cut; and the matrix fails long before the fibre, so a GRP hull is a story about resin, not glass.",
   stats: [["Modulus", "~72 GPa (E-glass)"], ["Diameter", "~5–20 µm"], ["Weakness", "abrasion, moisture"]],
   uses: "GRP hulls and panels, circuit board laminate, insulation, pressure vessels, ducting.",
   link: "https://en.wikipedia.org/wiki/Glass_fiber"

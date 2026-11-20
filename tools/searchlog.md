@@ -1408,3 +1408,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `silk`: `silk fibre micrograph` nothing; the Tomioka mill photos show the building, not the reeling; the Okaya filature machine added instead.
 - `spidersilk`: the V&A cape made the main photograph, the NASA spider moved to an extra; `Nephila dragline` and `spider silk textile Madagascar` return nothing; the one SEM is a braided suture at 787 px.
 - `jute`: `jute fibre drying` and `jute mill spinning` return 1917 book plates and mill exteriors; the retting pond and the coffee sacks added.
+
+## Batch 46 restyle (felt, paracord, polyesterfab, wirerope, glassfibre)
+
+- `felt`: `felt microscope wool scales` and `Filzherstellung` return nothing; `piano hammer felt` returns action diagrams and a honky-tonk bar; the yurt photos are good but the Tarim hat says more about the age. The hand felting and the hat added.
+- `paracord`: all five main-photo candidates (`MIL-C-5040`) stay; the Irvin parawing lines (700 px, legible) and a bracelet added.
+- `polyesterfab`: thin. `Dacron sail`, `sailcloth`, `Segeltuch` return cruise ships and oil paintings; `polyester halyard`, `webbing sling`, `fibre spinning`, `staple fibre`, `Polyesterseil` nothing. The one rope whose uploader states it is polyester, and the Dacron reels, added.
+- `wirerope`: `Drahtseil Querschnitt`, `Seilquerschnitt`, `wire rope broken wires` return headframes and antennas; the Teufelberger section model and the tug drum added. `Glasfaser Roving (rotated).jpg` is the same photograph as `silicafibre`, passed over.
+- `glassfibre`: `woven roving`, `bushing drawing`, `hull layup` nothing; the Owens-Corning furnace is a 9,000-pixel TIFF of a furnace wall. The 1930s Millville drawing photograph added; the mat wet-out (`Tränken der Glasfasermatte`) is a resin bag and a cardboard box at card crop, dropped after fetching.

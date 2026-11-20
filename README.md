@@ -573,7 +573,7 @@ No entry falls back to a drawn swatch, and none shows a molecular or crystal str
 material itself has never been photographed freely, the card carries the closest real object
 instead.
 
-A few cards carry more than one view, paged on the card itself — 378 extra views so far: the raw material
+A few cards carry more than one view, paged on the card itself — 387 extra views so far: the raw material
 beside the finished part (Nitinol wire and the cut spoons), the shell beside the inlay (nacre),
 the harvest beside the bark (cork), the property beside the thing (a brick resting on a slab of
 aerogel), the two unmixed sticks beside what a sculptor and a museum made of them (epoxy putty).

@@ -2954,7 +2954,7 @@ window.CREDITS = {
   },
   "felt": {
     "file": "felt.jpg",
-    "caption": "Wool felt — fabric with no weave at all",
+    "caption": "Wool felt, fabric with no weave at all",
     "kind": "photo",
     "title": "Colored felt cloth.jpg",
     "artist": "Bastet78",
@@ -2963,6 +2963,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "felt2": {
+    "file": "felt2.jpg",
+    "caption": "Felting by hand in İzmir: loose dyed wool laid out before the soap, water and rolling",
+    "kind": "process",
+    "title": "Felt making workshop.jpg",
+    "site": "Wikimedia",
+    "artist": "Koray",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Felt_making_workshop.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "felt3": {
+    "file": "felt3.jpg",
+    "caption": "A felt hat from the Xiaohe cemetery in the Tarim basin, about 3,800 years old",
+    "kind": "product",
+    "title": "Felt hat, Tarim mummies, Xiaohe cemetery.jpg",
+    "site": "Wikimedia",
+    "artist": "Scott Newman",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Felt_hat,_Tarim_mummies,_Xiaohe_cemetery.jpg",
+    "w": 960,
+    "h": 1445
   },
   "paracord": {
     "file": "paracord.jpg",
@@ -2976,6 +3000,30 @@ window.CREDITS = {
     "h": 890,
     "site": "Wikimedia"
   },
+  "paracord2": {
+    "file": "paracord2.jpg",
+    "caption": "The job it was made for: suspension lines of a parawing parachute, stowed in their bands",
+    "kind": "product",
+    "title": "Colouredlines.jpg",
+    "site": "Wikimedia",
+    "artist": "Ahd8108",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Colouredlines.jpg",
+    "w": 700,
+    "h": 503
+  },
+  "paracord3": {
+    "file": "paracord3.jpg",
+    "caption": "A snake-knot bracelet, a few metres of cord worn until needed",
+    "kind": "product",
+    "title": "A paracord bracelet.JPG",
+    "site": "Wikimedia",
+    "artist": "Markwell",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_paracord_bracelet.JPG",
+    "w": 960,
+    "h": 720
+  },
   "polyesterfab": {
     "file": "polyesterfab.jpg",
     "caption": "Water beading on woven polyester",
@@ -2987,6 +3035,30 @@ window.CREDITS = {
     "w": 960,
     "h": 627,
     "site": "Wikimedia"
+  },
+  "polyesterfab2": {
+    "file": "polyesterfab2.jpg",
+    "caption": "A three-strand polyester mooring rope, the fibre that replaced manila on the quay",
+    "kind": "product",
+    "title": "The mooring rope. (16291085142).jpg",
+    "site": "Wikimedia",
+    "artist": "Bernard Spragg. NZ from Christchurch, New Zealand",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_mooring_rope._(16291085142).jpg",
+    "w": 960,
+    "h": 638
+  },
+  "polyesterfab3": {
+    "file": "polyesterfab3.jpg",
+    "caption": "Dacron thread on reels, the filament before it is anything else",
+    "kind": "photo",
+    "title": "Dacron Reels.jpeg",
+    "site": "Wikimedia",
+    "artist": "Simon A. Eugster",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dacron_Reels.jpeg",
+    "w": 960,
+    "h": 609
   },
   "wirerope": {
     "file": "wirerope.jpg",
@@ -3000,9 +3072,33 @@ window.CREDITS = {
     "h": 508,
     "site": "Wikimedia"
   },
+  "wirerope2": {
+    "file": "wirerope2.jpg",
+    "caption": "A cableway rope in section: every wire and strand accounted for, a maker's model at Interalpin",
+    "kind": "structure",
+    "title": "Innsbruck-Teufelberger-model Steel wire rope cableway -01ASD.jpg",
+    "site": "Wikimedia",
+    "artist": "Asurnipal",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Innsbruck-Teufelberger-model_Steel_wire_rope_cableway_-01ASD.jpg",
+    "w": 960,
+    "h": 1292
+  },
+  "wirerope3": {
+    "file": "wirerope3.jpg",
+    "caption": "Two-centimetre wire on a tug's winch drum, Brofjorden",
+    "kind": "photo",
+    "title": "Steel wire rope on a drum.jpg",
+    "site": "Wikimedia",
+    "artist": "W.carter",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Steel_wire_rope_on_a_drum.jpg",
+    "w": 960,
+    "h": 640
+  },
   "glassfibre": {
     "file": "glassfibre.jpg",
-    "caption": "A glass fibre bundle",
+    "caption": "Glass filaments gathered into a bundle at a loom",
     "kind": "photo",
     "title": "Glass fiber bundle.jpg",
     "artist": "Acheolg",
@@ -3011,6 +3107,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "glassfibre2": {
+    "file": "glassfibre2.jpg",
+    "caption": "Drawing glass fibre by hand from a heated tube, Millville, New Jersey, 1930s: the craft the bushing replaced",
+    "kind": "process",
+    "title": "Millville, New Jersey - Glass wool. Frederick and Dimmock. Drawing glass from a tube. Each of the protruded knobs in... - NARA - 518649.jpg",
+    "site": "Wikimedia",
+    "artist": "Lewis Hine",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Millville,_New_Jersey_-_Glass_wool._Frederick_and_Dimmock._Drawing_glass_from_a_tube._Each_of_the_protruded_knobs_in..._-_NARA_-_518649.jpg",
+    "w": 960,
+    "h": 687
+  },
+  "glassfibre3": {
+    "file": "glassfibre3.jpg",
+    "caption": "Resin poured onto a glass mat: the fibre is only ever half the laminate",
+    "kind": "process",
+    "title": "Tränken der Glasfasermatte mit multi PL-Harz.jpg",
+    "site": "Wikimedia",
+    "artist": "Bdnbndr2020",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tr%C3%A4nken_der_Glasfasermatte_mit_multi_PL-Harz.jpg",
+    "w": 960,
+    "h": 1440
   },
   "basalt": {
     "file": "basalt.jpg",

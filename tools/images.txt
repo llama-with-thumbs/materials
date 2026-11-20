@@ -249,11 +249,20 @@ silk3|commons|Filature machine.jpg|A reeling machine at the Okaya silk museum: c
 spidersilk|commons|Godley & Peers Golden Spider Silk Cape at the VAM.jpg|The Godley and Peers cape at the V&A, 2011: a million orb-weavers milked over four years|product
 spidersilk2|NASA|https://images-assets.nasa.gov/image/KSC-06pd2059/KSC-06pd2059~medium.jpg|A golden silk orb-weaver on its web; the dragline is the fibre everyone wants to copy|related|Public domain|KSC|https://images.nasa.gov/details/KSC-06pd2059
 spidersilk3|commons|SEM-of-single-spider-silk-fibres-and-braided-spider-silk-suture Ausschnitt.jpg|A braided suture of spider silk under the electron microscope|structure
-felt|commons|Colored felt cloth.jpg|Wool felt — fabric with no weave at all|photo
+felt|commons|Colored felt cloth.jpg|Wool felt, fabric with no weave at all|photo
+felt2|commons|Felt making workshop.jpg|Felting by hand in İzmir: loose dyed wool laid out before the soap, water and rolling|process
+felt3|commons|Felt hat, Tarim mummies, Xiaohe cemetery.jpg|A felt hat from the Xiaohe cemetery in the Tarim basin, about 3,800 years old|product
 paracord|commons|MIL-C-5040 Type III 550 Paracord.jpg|550 paracord, sheath opened to show the core yarns|photo
+paracord2|commons|Colouredlines.jpg|The job it was made for: suspension lines of a parawing parachute, stowed in their bands|product
+paracord3|commons|A paracord bracelet.JPG|A snake-knot bracelet, a few metres of cord worn until needed|product
 polyesterfab|commons|Drop of water on water-resistant textile (100% polyester).jpg|Water beading on woven polyester|photo
+polyesterfab2|commons|The mooring rope. (16291085142).jpg|A three-strand polyester mooring rope, the fibre that replaced manila on the quay|product
+polyesterfab3|commons|Dacron Reels.jpeg|Dacron thread on reels, the filament before it is anything else|photo
 wirerope|commons|Lhol wire rope.jpg|Steel wire rope, laid left-hand ordinary|photo
-glassfibre|commons|Glass fiber bundle.jpg|A glass fibre bundle|photo
+wirerope2|commons|Innsbruck-Teufelberger-model Steel wire rope cableway -01ASD.jpg|A cableway rope in section: every wire and strand accounted for, a maker's model at Interalpin|structure
+wirerope3|commons|Steel wire rope on a drum.jpg|Two-centimetre wire on a tug's winch drum, Brofjorden|photo
+glassfibre|commons|Glass fiber bundle.jpg|Glass filaments gathered into a bundle at a loom|photo
+glassfibre2|commons|Millville, New Jersey - Glass wool. Frederick and Dimmock. Drawing glass from a tube. Each of the protruded knobs in... - NARA - 518649.jpg|Drawing glass fibre by hand from a heated tube, Millville, New Jersey, 1930s: the craft the bushing replaced|process
 basalt|commons|Basalt fibre and glass fibre.jpg|Basalt fibre (dark) beside glass fibre|photo
 nomex|commons|TFS Nomex Hood.JPG|A Nomex firefighting hood|product
 ripstop|commons|RipStop.jpg|Ripstop: a grid of heavier yarns that stops a tear spreading|photo
