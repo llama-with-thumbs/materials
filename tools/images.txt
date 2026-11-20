@@ -624,6 +624,8 @@ pina|commons|Piña Barong tagalog AklanA.jpg|A barong tagalog woven from piña: 
 pina2|commons|Queen of Philippine Fabrics October 4 2026 " Liniwan Pina Weaving La Herminia 03.jpg|Piña on a handloom in Aklan: the warp is hand-knotted liniwan, the finest grade of the fibre|process
 pina3|commons|Banga Aklan Piña natural fibre1.jpg|Embroidered piña from Banga, Aklan: the cloth is the ground, the needlework is what it is for|product
 pianowire|Flickr|https://live.staticflickr.com/13/14232121_c20a01a398_b.jpg|Music wire strung in a grand piano|product|CC BY 2.0|easement|https://www.flickr.com/photos/44046918@N00/14232121
+pianowire2|commons|Springs 009.jpg|Two extension springs: the other job of music wire, and the bigger one by tonnage|product
+pianowire3|commons|ECSC Financial report 1985 Marnaval tréfileuse.jpg|A multi-die drawing machine at Marnaval, 1985: the wire goes in as rod and comes out thinner at every die|process
 jacquard|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1953.329/1953.329_web.jpg|Violet and Columbine, a wool and mohair cloth woven on a Jacquard loom|product|CC0|William Morris (British, 1834–1896)|https://clevelandart.org/art/1953.329
 doublecloth|commons|Blue Double Weave Kimono Close Up.png|Double-weave cloth, close up|photo
 warpknit|commons|NIM 1910 Warp knitting machine 2522.jpg|A warp knitting machine — one needle per warp end|process
@@ -738,9 +740,14 @@ rawhide3|commons|Rawhide mallet in Tuntorp 3.jpg|A rawhide mallet: a face that s
 laidrope|commons|Cordage chantier de l'Hermione Rochefort sur Mer.jpg|Three-strand hemp rope at the Hermione dockyard, coiled clockwise with the lay|photo
 laidrope2|commons|Seilerei (14980940883).jpg|A ropewalk at Feldbach, Styria, built 1947: the hooks turn the strands, and the shed is as long as the rope|process
 laidrope3|commons|MaryRose-rope fragment.JPG|Rope from the Mary Rose, sunk 1545: the same three-strand lay, 450 years on|related
-doublebraid|commons|Tree Climbing Arborist.jpg|An arborist on a climbing line, the job double braid was made for|product
-twelvestrand|commons|Soft shackles.JPG|Soft shackles — a loop of hollow braid spliced into itself|product
+doublebraid|commons|LIROS XTR Dyneema.jpg|A racing double braid cut open: a twelve-plait Dyneema core inside a thirty-two-plait cover, 12 mm, rated 9,900 kg|photo
+doublebraid2|commons|John Jordan Splicing Line (OOI 902).jpg|Splicing mooring line at Woods Hole: the core goes into the cover, the cover into the core, by hand|process
+doublebraid3|commons|Balance 451 "Mahi Mahi" - 26.jpg|A catamaran's line-handling station: every sheet and reef line in double braid, led to one winch|product
+twelvestrand|commons|Soft shackles.JPG|Soft shackles: a loop of hollow braid spliced into itself, closed with a stopper knot|product
+twelvestrand2|commons|Masson Mills WTM 16 Rope Braider 5862.JPG|A rope braider at Masson Mills: the bobbins pass over and under each other, and the braid grows down the middle|process
 braidedline|commons|Fishing lines 2025 G1.jpg|Eight-strand braided line, 0.15 mm|photo
+braidedline2|commons|Fishing reel 2025 G1.jpg|The same line on a spinning reel: a third the diameter of mono, so three times the length on the spool|product
+braidedline3|commons|Reel with DSMB P9027417 (cropped).JPG|A diver's ratchet reel with 100 m of braided Dacron: the polyester braid that came before the polyethylene kind|product
 needlepunch|commons|Needle-felt-making-1080204.jpg|Needle felting by hand in Kyrgyzstan — barbed needles tangling fibre into cloth|process
 woven3d|commons|Paris Air Show 2017 LEAP fan.jpg|A LEAP engine fan — each blade is a 3D-woven preform, injected with resin|product
 laminateshell|commons|Early Gore-Tex hooded rain jacket.jpg|An MSR Gore-Tex jacket from about 1976, one of the first laminate shells|product
@@ -775,7 +782,8 @@ m5fibre|commons|Aramid fiber2.jpg|Aramid filaments about 10 µm across: M5 is th
 basofil|commons|Turnout gear in the Czech Republic.jpg|Firefighters' turnout gear: melamine fibre goes into the liners and hoods of kit like this|analog
 silicafibre|commons|Silica fibre 1250g m2 1600dpi.jpg|Woven high-silica cloth at 1,250 grams a square metre, scanned: glass with everything but the silica leached out|photo
 silicafibre2|commons|Stafford Air & Space Museum, Weatherford, OK, US (14).jpg|An Apollo 10 stowage bag of Beta cloth, woven silica coated in PTFE: the cloth NASA chose after the fire of 1967|product
-kineticrope|Flickr|https://live.staticflickr.com/65535/53832951206_5e50292625_b.jpg|A fuse shackle for vehicle recovery, built to break first — the weak link that goes in line with a kinetic rope|analog|CC BY 2.0|Tony Webster|https://www.flickr.com/photos/diversey/53832951206
+kineticrope|commons|Abschleppseil Automobile equipment 01.JPG|An ordinary car tow rope, laid polypropylene with hooks: no give in it, which is the problem kinetic rope was made to solve|analog
+kineticrope2|Flickr|https://live.staticflickr.com/65535/53832951206_5e50292625_b.jpg|A fuse shackle for vehicle recovery, built to break first: the weak link that goes in line with a kinetic rope|analog|CC BY 2.0|Tony Webster|https://www.flickr.com/photos/diversey/53832951206
 triaxial|commons|Woven Fabric (ST177) - MoMu Antwerp.jpg|An open leno-type weave — triaxial takes the idea further, with three yarn sets at 60°|analog
 stitchbond|commons|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A glass–aramid hybrid reinforcement, 580 g/m² — non-crimp fabric is this job with the yarns kept dead straight|analog
 erf|commons|MRF-Effekt-static-crop.png|Magnetorheological fluid stiffening in a field — the electric cousin behaves the same way, with volts instead of magnets|analog

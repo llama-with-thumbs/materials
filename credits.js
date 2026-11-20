@@ -7452,6 +7452,30 @@ window.CREDITS = {
     "w": 960,
     "h": 633
   },
+  "pianowire2": {
+    "file": "pianowire2.jpg",
+    "caption": "Two extension springs: the other job of music wire, and the bigger one by tonnage",
+    "kind": "product",
+    "title": "Springs 009.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Springs_009.jpg",
+    "w": 960,
+    "h": 655
+  },
+  "pianowire3": {
+    "file": "pianowire3.jpg",
+    "caption": "A multi-die drawing machine at Marnaval, 1985: the wire goes in as rod and comes out thinner at every die",
+    "kind": "process",
+    "title": "ECSC Financial report 1985 Marnaval tréfileuse.jpg",
+    "site": "Wikimedia",
+    "artist": "European Coal and Steel Community",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ECSC_Financial_report_1985_Marnaval_tr%C3%A9fileuse.jpg",
+    "w": 960,
+    "h": 715
+  },
   "jacquard": {
     "file": "jacquard.jpg",
     "caption": "Violet and Columbine, a wool and mohair cloth woven on a Jacquard loom",
@@ -8822,19 +8846,43 @@ window.CREDITS = {
   },
   "doublebraid": {
     "file": "doublebraid.jpg",
-    "caption": "An arborist on a climbing line, the job double braid was made for",
-    "kind": "product",
-    "title": "Tree Climbing Arborist.jpg",
-    "artist": "TreeMinion15",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tree_Climbing_Arborist.jpg",
+    "caption": "A racing double braid cut open: a twelve-plait Dyneema core inside a thirty-two-plait cover, 12 mm, rated 9,900 kg",
+    "kind": "photo",
+    "title": "LIROS XTR Dyneema.jpg",
+    "site": "Wikimedia",
+    "artist": "Justsail",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LIROS_XTR_Dyneema.jpg",
     "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "h": 401
+  },
+  "doublebraid2": {
+    "file": "doublebraid2.jpg",
+    "caption": "Splicing mooring line at Woods Hole: the core goes into the cover, the cover into the core, by hand",
+    "kind": "process",
+    "title": "John Jordan Splicing Line (OOI 902).jpg",
+    "site": "Wikimedia",
+    "artist": "Ocean Observatories Initiative",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Jordan_Splicing_Line_(OOI_902).jpg",
+    "w": 960,
+    "h": 617
+  },
+  "doublebraid3": {
+    "file": "doublebraid3.jpg",
+    "caption": "A catamaran's line-handling station: every sheet and reef line in double braid, led to one winch",
+    "kind": "product",
+    "title": "Balance 451 \"Mahi Mahi\" - 26.jpg",
+    "site": "Wikimedia",
+    "artist": "Craig Stanfill",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Balance_451_%22Mahi_Mahi%22_-_26.jpg",
+    "w": 960,
+    "h": 640
   },
   "twelvestrand": {
     "file": "twelvestrand.jpg",
-    "caption": "Soft shackles — a loop of hollow braid spliced into itself",
+    "caption": "Soft shackles: a loop of hollow braid spliced into itself, closed with a stopper knot",
     "kind": "product",
     "title": "Soft shackles.JPG",
     "artist": "White74",
@@ -8843,6 +8891,18 @@ window.CREDITS = {
     "w": 960,
     "h": 1280,
     "site": "Wikimedia"
+  },
+  "twelvestrand2": {
+    "file": "twelvestrand2.jpg",
+    "caption": "A rope braider at Masson Mills: the bobbins pass over and under each other, and the braid grows down the middle",
+    "kind": "process",
+    "title": "Masson Mills WTM 16 Rope Braider 5862.JPG",
+    "site": "Wikimedia",
+    "artist": "Clem Rutter, Rochester, Kent.",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Masson_Mills_WTM_16_Rope_Braider_5862.JPG",
+    "w": 960,
+    "h": 720
   },
   "braidedline": {
     "file": "braidedline.jpg",
@@ -8855,6 +8915,30 @@ window.CREDITS = {
     "w": 960,
     "h": 768,
     "site": "Wikimedia"
+  },
+  "braidedline2": {
+    "file": "braidedline2.jpg",
+    "caption": "The same line on a spinning reel: a third the diameter of mono, so three times the length on the spool",
+    "kind": "product",
+    "title": "Fishing reel 2025 G1.jpg",
+    "site": "Wikimedia",
+    "artist": "George Chernilevsky",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fishing_reel_2025_G1.jpg",
+    "w": 960,
+    "h": 912
+  },
+  "braidedline3": {
+    "file": "braidedline3.jpg",
+    "caption": "A diver's ratchet reel with 100 m of braided Dacron: the polyester braid that came before the polyethylene kind",
+    "kind": "product",
+    "title": "Reel with DSMB P9027417 (cropped).JPG",
+    "site": "Wikimedia",
+    "artist": "Peter Southwood",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Reel_with_DSMB_P9027417_(cropped).JPG",
+    "w": 960,
+    "h": 715
   },
   "needlepunch": {
     "file": "needlepunch.jpg",
@@ -9266,7 +9350,19 @@ window.CREDITS = {
   },
   "kineticrope": {
     "file": "kineticrope.jpg",
-    "caption": "A fuse shackle for vehicle recovery, built to break first — the weak link that goes in line with a kinetic rope",
+    "caption": "An ordinary car tow rope, laid polypropylene with hooks: no give in it, which is the problem kinetic rope was made to solve",
+    "kind": "analog",
+    "title": "Abschleppseil Automobile equipment 01.JPG",
+    "site": "Wikimedia",
+    "artist": "Iswoar",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Abschleppseil_Automobile_equipment_01.JPG",
+    "w": 960,
+    "h": 640
+  },
+  "kineticrope2": {
+    "file": "kineticrope2.jpg",
+    "caption": "A fuse shackle for vehicle recovery, built to break first: the weak link that goes in line with a kinetic rope",
     "kind": "analog",
     "title": "https://live.staticflickr.com/65535/53832951206_5e50292625_b.jpg",
     "site": "Flickr",

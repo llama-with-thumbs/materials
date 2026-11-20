@@ -2772,42 +2772,47 @@ window.MATERIALS = [
 },
 {
   id: "doublebraid", cat: "fibre", name: "Double braid",
-  sub: "braided core inside a braided cover", img: "doublebraid",
-  hook: "Two ropes sharing one job, each taking roughly half the load, and neither one twisting. The clever part is the splice: the core is buried inside its own cover, so pulling harder only locks it tighter — stronger than any knot you could tie in it.",
+  sub: "braided core inside a braided cover", img: "doublebraid", extra: ["doublebraid2", "doublebraid3"],
+  hook: "Two ropes sharing one job, each taking about half the load, and neither twisting. The clever part is the splice: the core is buried in its own cover, so pulling harder only locks it tighter, which beats any knot.",
+  more: "Braid on braid came out of the American yacht trade in the 1950s, for nylon and the winch. A braided core carries half the load, a braided cover the other half, and since the strands run both ways round the axis there is no twist to unwind: it coils flat and runs through a block. The splice is the trick: cover tucked into core and core back into cover, and under load the two grip like a finger trap, so a good splice tests at nearly the rope's strength and a knot at half. The racing version puts Dyneema in the core and leaves the cover only the clutch and the sun. The costs: a knot throws away what the splice keeps; the cover can milk along the core and bunch; nylon drinks water; and a cut end is two ropes' worth of mess until it is whipped.",
   stats: [["Load split", "~50/50 core and cover"], ["Splice strength", "95–100% of rope"], ["Torque", "balanced, none"]],
-  uses: "Yacht sheets and halyards, arborist climbing lines, winch and rescue rope.",
+  uses: "Yacht sheets and halyards, arborist climbing lines, winch and rescue rope, dock lines.",
   link: "https://en.wikipedia.org/wiki/Rope_splicing"
 },
 {
   id: "twelvestrand", cat: "fibre", name: "Twelve-strand hollow braid",
-  sub: "single-braid construction", img: "twelvestrand",
-  hook: "A rope with nothing inside it, which is the point: a splice can be pushed down the middle of the rope itself. That is what makes a soft shackle possible — a loop of cord stronger than the steel shackle it replaces, that cannot dent a deck or take an eye out when it lets go.",
+  sub: "single-braid construction", img: "twelvestrand", extra: ["twelvestrand2"],
+  hook: "A rope with nothing inside it, which is the point: the splice goes down the middle of the rope itself. Hence the soft shackle: a loop of cord stronger than the steel it replaces, that dents no deck when it lets go.",
+  more: "Twelve carriers braided round an empty middle give a flat, hollow tube of rope, and in Dyneema it is eight times as strong as steel wire for its weight. It is made for the splice: a fid pushes the tail into the hollow for seventy diameters, locked where it enters, and the braid grips the buried tail harder the harder you pull. A soft shackle is that splice closed on itself with a stopper knot: a lashing rated in tonnes that weighs grams, floats and bounces off a hull. The costs: Dyneema is slippery, so a knot holds half the rope's strength at best and the bury must be long; it creeps under a load left on it; it melts at 150 degrees, so a line running fast glazes on a winch; and the hollow flattens and chafes, so the ends wear a sleeve.",
   stats: [["Carriers", "12, no core"], ["Splice", "buried in its own braid"], ["Soft shackle", "beats steel per gram"]],
-  uses: "Soft shackles and lashings, winch lines, arborist rigging, rope-to-rope connections.",
+  uses: "Soft shackles and lashings, winch lines, arborist rigging, rope-to-rope connections, dinghy and racing control lines.",
   link: "https://en.wikipedia.org/wiki/Soft_shackle"
 },
 {
   id: "braidedline", cat: "fibre", name: "Braided fishing line",
-  sub: "gel-spun UHMWPE, 4–8 carriers", img: "braidedline",
-  hook: "Near-zero stretch changes what fishing feels like: a fish mouthing the bait forty metres away arrives in your fingertips. It also means nothing absorbs a shock, so the rod and the knot have to, and the line quietly saws grooves in the rod guides.",
+  sub: "gel-spun UHMWPE, 4–8 carriers", img: "braidedline", extra: ["braidedline2", "braidedline3"],
+  hook: "No stretch changes what fishing feels like: a fish mouthing the bait forty metres out arrives in your fingertips. It also means nothing absorbs a shock, so the rod and the knot must, and the line saws the guides.",
+  more: "Four or eight strands of gel-spun polyethylene, Spectra or Dyneema, braided tight as thread; Japanese makers made it a product in the 1990s and it has taken over since. For a given breaking strain it is a third the diameter of nylon mono, so a reel holds three times the line and a lure casts further, and it stretches a few per cent where mono gives a quarter, which is why a bite and the bottom feel so close. It does not kink or remember the spool, and ignores the sun. The costs: no give, so a hard strike on a stiff rod breaks hooks and knots; slippery, so ordinary knots slide and the good ones are a lesson; opaque, so a fluorocarbon leader goes between it and the fish; it digs into itself on the spool; and it cuts fingers and guide rings alike.",
   stats: [["Stretch", "~3% or less"], ["Diameter", "about a third of mono"], ["Knots", "slips unless tied for it"]],
   uses: "Spinning and baitcasting mainline, jigging, kite and drone line, cut-resistant cord.",
   link: "https://en.wikipedia.org/wiki/Fishing_line"
 },
 {
   id: "kineticrope", cat: "fibre", name: "Kinetic recovery rope",
-  sub: "double-braid nylon, high stretch", img: "kineticrope",
-  hook: "A rope engineered to be stretchy, the opposite of every other rope here. The recovery vehicle takes a run-up, the rope stores that kinetic energy and hands it back, and a stuck truck floats out on a gentle pull where a steel cable would tear a bumper off.",
-  stats: [["Stretch", "20–30% working"], ["Energy", "stores it, returns it"], ["Failure", "recoils — the dangerous part"]],
-  uses: "Off-road vehicle recovery, agricultural and military towing; replaced snatch straps and steel cable.",
+  sub: "double-braid nylon, high stretch", img: "kineticrope", extra: ["kineticrope2"],
+  hook: "A rope made to stretch, the opposite of every other rope. The recovery vehicle takes a run-up, the rope stores the energy and hands it back, and a stuck truck floats out where a cable would tear the bumper off.",
+  more: "Nylon stretches more than any rope fibre, a double braid of it most of all: a fifth to a third of its length under load, and back. Hitch it to a stuck vehicle, drive off at walking pace, and the rope takes the mover's energy over two or three metres of stretch and feeds it to the stuck one as a steady, rising pull; the truck comes out of the mud as if lifted. A chain or a cable has no such reserve, so it breaks what it is tied to. The costs: what makes it work makes it dangerous, because a rope holding a few hundred kilojoules that lets go, or pulls a tow ball off, fires it through a windscreen; so the anchors are rated, the shackles soft or fused to break first, a blanket over it; nylon is a tenth weaker wet; and every hard pull leaves it longer.",
+  stats: [["Stretch", "20–30% working"], ["Energy", "stores it, returns it"], ["Failure", "recoils: the dangerous part"]],
+  uses: "Off-road and farm vehicle recovery, military towing; the successor to the snatch strap and the steel cable.",
   link: "https://en.wikipedia.org/wiki/Snatch_strap"
 },
 {
   id: "pianowire", cat: "fibre", name: "Music wire",
-  sub: "cold-drawn high-carbon steel", img: "pianowire",
-  hook: "Among the strongest steel sold by the kilometre, and it gets there by being pulled through holes. Each die squeezes the pearlite lamellae thinner and straighter until the wire is nearly a composite of itself — strength that drawing gives you, not heat treatment.",
+  sub: "cold-drawn high-carbon steel", img: "pianowire", extra: ["pianowire2", "pianowire3"],
+  hook: "The strongest steel sold by the kilometre, made so by being pulled through holes. Each die draws the pearlite plates thinner and straighter until the wire is a composite of itself: drawing, not heat treatment.",
+  more: "Plain carbon steel, eight or nine parts in a thousand, nothing exotic. The trick is the sequence: the rod is patented, heated and quenched in a lead bath so it sets as fine pearlite, then drawn cold through die after die until nine-tenths of its section is gone and the cementite plates are ribbons nanometres apart along the wire. That is the strength, 2,000 megapascals thick and 3,000 fine, and why music wire is never hardened and tempered: drawing has done more than a quench could. A grand piano holds twenty tonnes of it, hence the cast-iron plate, and every spring that must last is the same stuff. The costs: heat it and the strength is gone, so no welding, brazing or hot forming; it rusts; a sharp bend cracks it; and a snapped string whips.",
   stats: [["Tensile", "2300–3000 MPa in fine sizes"], ["Carbon", "0.7–1.0%"], ["Route", "cold drawing, no quench"]],
-  uses: "Piano and instrument strings, springs, cheese cutters, control cables, lock picks.",
+  uses: "Piano and instrument strings, springs, cheese cutters, control cables, lock picks, model aircraft undercarriages.",
   link: "https://en.wikipedia.org/wiki/Piano_wire"
 },
 {
