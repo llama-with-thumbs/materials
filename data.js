@@ -2727,42 +2727,47 @@ window.MATERIALS = [
 },
 {
   id: "harakeke", cat: "fibre", name: "Harakeke (New Zealand flax)",
-  sub: "Phormium tenax leaf fibre, muka", img: "harakeke",
-  hook: "Not a flax at all. The fibre is scraped out of the living leaf with the edge of a mussel shell, which strips the green away without cutting the strands — a tool choice that is also a technique, and the reason muka comes out silky rather than hairy.",
+  sub: "Phormium tenax leaf fibre, muka", img: "harakeke", extra: ["harakeke2", "harakeke3"],
+  hook: "Not a flax at all. The fibre is scraped out of the leaf with the edge of a mussel shell, which strips the green away without cutting the strands; the tool is the technique, and why muka comes out silky, not hairy.",
+  more: "Phormium is a lily relative with two-metre leaves; the fibre runs their full length under green pulp. The Maori method is haro: score the leaf with a mussel shell and draw it under the edge so the pulp peels away, then soak, beat with a stone patu muka and roll into thread: long, lustrous and strong. The colonial mills skipped all that with a drum stripper that beat the leaf against a bar and sold the coarse result as New Zealand hemp for rope; the trade peaked around 1916 in the swamps near Foxton and died with yellow-leaf disease and cheap manila. The costs: the machine fibre was bruised and rotted fast in salt water; the hand fibre takes a day for a handful; and each use wants its own cultivar, so a pa harakeke is a collection, not a hedge.",
   stats: [["Wet strength", "holds up in water"], ["Extraction", "scraped, not retted"], ["Fineness", "spinnable by hand"]],
-  uses: "Māori weaving — korowai cloaks, kete baskets, cordage; a 19th-century export rope trade.",
+  uses: "Maori weaving: korowai cloaks, kete baskets, nets and cordage; a 19th-century export rope trade.",
   link: "https://en.wikipedia.org/wiki/Phormium_tenax"
 },
 {
   id: "esparto", cat: "fibre", name: "Esparto grass",
-  sub: "Stipa tenacissima", img: "esparto",
-  hook: "A desert grass tough enough to be rope and short enough to be paper. Victorian Britain printed on it by the shipload because it gave a bulky, opaque sheet from a plant nobody had to farm: it grows on ground that supports nothing else.",
+  sub: "Stipa tenacissima", img: "esparto", extra: ["esparto2", "esparto3"],
+  hook: "A desert grass tough enough to be rope and short enough to be paper. Victorian Britain printed on it by the shipload: a bulky, opaque sheet from a plant nobody farmed, on ground that grows nothing else.",
+  more: "Esparto is pulled, not cut, by hand off the dry hills of Spain and the Maghreb, where it is alfa. Raw it is wiry and brittle; soaked a month and sun-bleached it is esparto cocido, pale and pliable, and beaten it braids. Pleita, a flat braid sewn edge to edge, makes everything from baskets to espadrille soles, and twisted esparto was the Mediterranean's cheap rope. The second life came in 1856 when Thomas Routledge pulped it: fibres a millimetre or two long make a smooth, opaque, stable sheet that takes print well, and Scottish mills ate hundreds of thousands of tons a year until wood pulp undercut it. The costs: hot, prickly hand harvesting; it rots in damp, so esparto soles live in dry climates; and pulping it burns soda for a low yield.",
   stats: [["Fibre length", "~1.5 mm, short"], ["Paper", "bulky and opaque"], ["Habitat", "semi-arid, unirrigated"]],
-  uses: "Cordage and mats, espadrille soles, baskets, book and printing papers.",
+  uses: "Cordage and mats, espadrille soles, baskets, pleita, book and printing papers.",
   link: "https://en.wikipedia.org/wiki/Esparto"
 },
 {
   id: "raffia", cat: "fibre", name: "Raffia",
-  sub: "Raphia palm leaf epidermis", img: "raffia",
-  hook: "A flat fibre in a world of round ones. It is peeled off the leaf as a ribbon, so it lies down, grips itself and ties without cutting into what it holds — exactly what a grafted stem or a woven hat brim needs.",
+  sub: "Raphia palm leaf epidermis", img: "raffia", extra: ["raffia2", "raffia3"],
+  hook: "A flat fibre in a world of round ones. It is peeled off the leaf as a ribbon, so it lies down, grips itself and ties without cutting into what it holds, exactly what a grafted stem or a hat brim needs.",
+  more: "Raffia is the skin of a palm leaflet, stripped from the young frond; Raphia palms have the longest leaves of any plant, so a strand runs to a metre and a half. The strip is thin, flat and soft and hardly moves with the weather, which is why a nurseryman ties a graft with it: it holds the scion without girdling the stem, and rots away about when it is no longer needed. Madagascar supplies most of it. In central Africa the strands are woven into Kuba cloth and cut-pile embroidery, and elsewhere into hats, mats and bags. The costs: it is brittle dry and must be dampened before it bends without cracking; strands are short, so everything is joined; and it fades and frays, so the florist's raffia is now mostly polypropylene tape pretending.",
   stats: [["Section", "flat ribbon, not round"], ["Length", "up to ~1.5 m"], ["Wet", "pliable, dries firm"]],
   uses: "Garden and grafting ties, hats and baskets, Kuba cloth, millinery, florist work.",
   link: "https://en.wikipedia.org/wiki/Raffia_palm"
 },
 {
   id: "pina", cat: "fibre", name: "Piña",
-  sub: "pineapple leaf fibre", img: "pina",
-  hook: "Scraped out of pineapple leaves by hand, then knotted end to end — every single filament — to make a continuous thread. The cloth is stiff, translucent and faintly glassy, and the labour behind a metre of it is why it stayed ceremonial.",
+  sub: "pineapple leaf fibre", img: "pina", extra: ["pina2", "pina3"],
+  hook: "Scraped out of pineapple leaves by hand, then knotted end to end, every filament, into a continuous thread. The cloth is stiff, sheer and faintly glassy, and the labour in a metre of it is why it stayed ceremonial.",
+  more: "The leaves are the long spiny ones of the Red Spanish pineapple, grown in Aklan for the leaf. A broken plate scrapes off the pulp and gives two grades: coarse bastos on the outside and fine liniwan beneath, the one that matters. The fibres are washed, dried and tied one to the next by hand into a thread long enough to warp a loom, which takes weeks before a pick is thrown. The result is a crisp, ivory cloth that takes embroidery like paper, which is why 19th-century European courts wore it and the barong tagalog still does; UNESCO listed Aklan weaving in 2023. The costs: the price; it creases, dislikes water and is washed by hand; and because the real thing is so dear, most of what is sold as pina is piña-seda or jusi, silk or abaca doing the work.",
   stats: [["Preparation", "hand-scraped, hand-knotted"], ["Handle", "stiff and translucent"], ["Source", "a by-product of fruit"]],
   uses: "Barong tagalog and formal Philippine dress, embroidery grounds, ecclesiastical cloth.",
   link: "https://en.wikipedia.org/wiki/Pi%C3%B1a"
 },
 {
   id: "laidrope", cat: "fibre", name: "Three-strand laid rope",
-  sub: "twisted construction", img: "laidrope",
-  hook: "Nothing holds this rope together but opposing twist. Fibres are spun one way, yarns laid the other, strands the first way again — each level permanently trying to unwind the one above it, and the standoff is the rope. Let it unbalance and it hockles into a knot by itself.",
+  sub: "twisted construction", img: "laidrope", extra: ["laidrope2", "laidrope3"],
+  hook: "Nothing holds this rope together but opposing twist: fibres spun one way, yarns laid the other, strands the first way again, each trying to unwind the next, and the standoff is the rope. Unbalance it and it knots.",
+  more: "The build is older than writing: fibre spun right-handed into yarn, yarns twisted left-handed into strands, three strands laid right-handed into hawser, three hawsers laid left-handed into cable. Each twist is held by the next, so a cut end unlays in the hand unless whipped, and a splice is only strands tucked back against the lay. Every strand is as long as the rope, so it was made in a ropewalk: Chatham's is 346 metres. Natural fibre rope stretches, shrinks when wet, and coils clockwise or kinks. The costs: it spins under load, so a single line turns the weight it hoists; a sudden release kinks it into hockles that never quite come out; it is stiffer and weaker for its size than a braid; and chafe takes the outer strands, where the load sits.",
   stats: [["Lay", "right-hand by convention"], ["Splice", "strands tucked, no tools"], ["Vice", "torque, twist and hockling"]],
-  uses: "Mooring and anchor lines, traditional rigging, hauling rope — the rope every knot book assumes.",
+  uses: "Mooring and anchor lines, traditional rigging, hauling rope: the rope every knot book assumes.",
   link: "https://en.wikipedia.org/wiki/Rope"
 },
 {

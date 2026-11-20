@@ -611,10 +611,18 @@ qiviut2|commons|Muskox (Ovibos moschatus) male Dovrefjell 1.jpg|A bull at Dovref
 qiviut3|commons|Qiviut yarn skein.jpg|Undyed qiviut yarn from the Alaskan co-operative: two ounces, 120 yards, and priced accordingly|product
 sinew|commons|Whale sinew string.jpg|String twisted from whale sinew by the Yaghan of Tierra del Fuego, collected in the late 19th century|photo
 sinew2|commons|Sinew wrapped split feathers on Sinagua arrow.jpg|Sinew lashing the split feathers to a Sinagua arrow shaft, Montezuma Castle: wrapped wet, it shrank tight and stayed tight for 700 years|product
-harakeke|commons|Te Pā Harakeke o te Iwi 20230816 082439 02.jpg|A pā harakeke — the stand the leaves are cut from|photo
-esparto|commons|Stipa tenacissima kz08.jpg|Esparto grass growing on dry ground|photo
+harakeke|commons|MAP Expo Maori Lin 30 12 2011 1.jpg|A hank of muka, 19th century, in the Musée du quai Branly: the fibre after the shell and the pounder have done their work|photo
+harakeke2|commons|Detail of border of Māori kahu kiwi.JPG|The border of a kiwi-feather cloak with the feathers worn off, showing the muka weave underneath|product
+harakeke3|commons|Group of Maori women weaving flax baskets (kete), at Rangiahua, 1918. ATLIB 297992.png|Weaving kete at Rangiahua, 1918|process
+esparto|commons|Pleita artesania esparto.jpg|A coil of pleita, the flat esparto braid that is sewn edge to edge into baskets and soles, Bullas, Murcia|photo
+esparto2|commons|Stipa tenacissima kz08.jpg|Esparto grass growing on dry ground: pulled by hand, never sown|related
+esparto3|commons|Alpargatas oliva.jpg|Espadrilles: the braided sole is what esparto was for before the paper mills wanted it|product
 raffia|commons|Raffia fibers.jpg|Raffia, peeled off the leaf as flat ribbon|photo
-pina|commons|Piña Barong tagalog AklanA.jpg|A barong tagalog woven from piña|product
+raffia2|commons|Raffia cloth, Kuba kingdom, c. 1909, HMA.JPG|Kuba raffia cloth, about 1909: the strands woven on an upright loom, then embroidered|product
+raffia3|commons|Raffia Basket Making.jpg|Weaving a raffia basket at the Mama Africa market, Abuja|process
+pina|commons|Piña Barong tagalog AklanA.jpg|A barong tagalog woven from piña: the cloth is sheer enough to show the shirt beneath|product
+pina2|commons|Queen of Philippine Fabrics October 4 2026 " Liniwan Pina Weaving La Herminia 03.jpg|Piña on a handloom in Aklan: the warp is hand-knotted liniwan, the finest grade of the fibre|process
+pina3|commons|Banga Aklan Piña natural fibre1.jpg|Embroidered piña from Banga, Aklan: the cloth is the ground, the needlework is what it is for|product
 pianowire|Flickr|https://live.staticflickr.com/13/14232121_c20a01a398_b.jpg|Music wire strung in a grand piano|product|CC BY 2.0|easement|https://www.flickr.com/photos/44046918@N00/14232121
 jacquard|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1953.329/1953.329_web.jpg|Violet and Columbine, a wool and mohair cloth woven on a Jacquard loom|product|CC0|William Morris (British, 1834–1896)|https://clevelandart.org/art/1953.329
 doublecloth|commons|Blue Double Weave Kimono Close Up.png|Double-weave cloth, close up|photo
@@ -727,7 +735,9 @@ kuralon|commons|Sample of Polyvinyl alcohol.jpg|Polyvinyl alcohol resin: Kuralon
 rawhide|commons|Rawhide chair weave detail in the Jacob Hamblin House.jpg|Hair-on rawhide strips woven into a chair seat, Santa Clara, Utah: laced wet, shrunk tight, and still tight|photo
 rawhide2|commons|Stanley Naveau moosehide.jpg|A moosehide hung to dry at Mattagami First Nation before it is cut into lacing|process
 rawhide3|commons|Rawhide mallet in Tuntorp 3.jpg|A rawhide mallet: a face that strikes hard without marking|product
-laidrope|commons|Cordage chantier de l'Hermione Rochefort sur Mer.jpg|Three-strand hemp rope at the Hermione dockyard|photo
+laidrope|commons|Cordage chantier de l'Hermione Rochefort sur Mer.jpg|Three-strand hemp rope at the Hermione dockyard, coiled clockwise with the lay|photo
+laidrope2|commons|Seilerei (14980940883).jpg|A ropewalk at Feldbach, Styria, built 1947: the hooks turn the strands, and the shed is as long as the rope|process
+laidrope3|commons|MaryRose-rope fragment.JPG|Rope from the Mary Rose, sunk 1545: the same three-strand lay, 450 years on|related
 doublebraid|commons|Tree Climbing Arborist.jpg|An arborist on a climbing line, the job double braid was made for|product
 twelvestrand|commons|Soft shackles.JPG|Soft shackles — a loop of hollow braid spliced into itself|product
 braidedline|commons|Fishing lines 2025 G1.jpg|Eight-strand braided line, 0.15 mm|photo

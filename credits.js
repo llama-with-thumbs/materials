@@ -7298,27 +7298,75 @@ window.CREDITS = {
   },
   "harakeke": {
     "file": "harakeke.jpg",
-    "caption": "A pā harakeke — the stand the leaves are cut from",
+    "caption": "A hank of muka, 19th century, in the Musée du quai Branly: the fibre after the shell and the pounder have done their work",
     "kind": "photo",
-    "title": "Te Pā Harakeke o te Iwi 20230816 082439 02.jpg",
-    "artist": "Prosperosity",
-    "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Te_P%C4%81_Harakeke_o_te_Iwi_20230816_082439_02.jpg",
+    "title": "MAP Expo Maori Lin 30 12 2011 1.jpg",
+    "site": "Wikimedia",
+    "artist": "Vassil",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:MAP_Expo_Maori_Lin_30_12_2011_1.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 496
+  },
+  "harakeke2": {
+    "file": "harakeke2.jpg",
+    "caption": "The border of a kiwi-feather cloak with the feathers worn off, showing the muka weave underneath",
+    "kind": "product",
+    "title": "Detail of border of Māori kahu kiwi.JPG",
+    "site": "Wikimedia",
+    "artist": "Stuart Yeates",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Detail_of_border_of_M%C4%81ori_kahu_kiwi.JPG",
+    "w": 960,
+    "h": 1440
+  },
+  "harakeke3": {
+    "file": "harakeke3.png",
+    "caption": "Weaving kete at Rangiahua, 1918",
+    "kind": "process",
+    "title": "Group of Maori women weaving flax baskets (kete), at Rangiahua, 1918. ATLIB 297992.png",
+    "site": "Wikimedia",
+    "artist": "Godber, Albert Percy, 1875-1949",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Group_of_Maori_women_weaving_flax_baskets_(kete),_at_Rangiahua,_1918._ATLIB_297992.png",
+    "w": 960,
+    "h": 583
   },
   "esparto": {
     "file": "esparto.jpg",
-    "caption": "Esparto grass growing on dry ground",
+    "caption": "A coil of pleita, the flat esparto braid that is sewn edge to edge into baskets and soles, Bullas, Murcia",
     "kind": "photo",
+    "title": "Pleita artesania esparto.jpg",
+    "site": "Wikimedia",
+    "artist": "Retama",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pleita_artesania_esparto.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "esparto2": {
+    "file": "esparto2.jpg",
+    "caption": "Esparto grass growing on dry ground: pulled by hand, never sown",
+    "kind": "related",
     "title": "Stipa tenacissima kz08.jpg",
+    "site": "Wikimedia",
     "artist": "Krzysztof Ziarnek, Kenraiz",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Stipa_tenacissima_kz08.jpg",
     "w": 960,
-    "h": 1280,
-    "site": "Wikimedia"
+    "h": 1280
+  },
+  "esparto3": {
+    "file": "esparto3.jpg",
+    "caption": "Espadrilles: the braided sole is what esparto was for before the paper mills wanted it",
+    "kind": "product",
+    "title": "Alpargatas oliva.jpg",
+    "site": "Wikimedia",
+    "artist": "Cantabrucu",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alpargatas_oliva.jpg",
+    "w": 960,
+    "h": 720
   },
   "raffia": {
     "file": "raffia.jpg",
@@ -7332,9 +7380,33 @@ window.CREDITS = {
     "h": 641,
     "site": "Wikimedia"
   },
+  "raffia2": {
+    "file": "raffia2.jpg",
+    "caption": "Kuba raffia cloth, about 1909: the strands woven on an upright loom, then embroidered",
+    "kind": "product",
+    "title": "Raffia cloth, Kuba kingdom, c. 1909, HMA.JPG",
+    "site": "Wikimedia",
+    "artist": "Hiart",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Raffia_cloth,_Kuba_kingdom,_c._1909,_HMA.JPG",
+    "w": 960,
+    "h": 830
+  },
+  "raffia3": {
+    "file": "raffia3.jpg",
+    "caption": "Weaving a raffia basket at the Mama Africa market, Abuja",
+    "kind": "process",
+    "title": "Raffia Basket Making.jpg",
+    "site": "Wikimedia",
+    "artist": "NkechiOnyenali",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Raffia_Basket_Making.jpg",
+    "w": 960,
+    "h": 712
+  },
   "pina": {
     "file": "pina.jpg",
-    "caption": "A barong tagalog woven from piña",
+    "caption": "A barong tagalog woven from piña: the cloth is sheer enough to show the shirt beneath",
     "kind": "product",
     "title": "Piña Barong tagalog AklanA.jpg",
     "artist": "Unknown",
@@ -7343,6 +7415,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1399,
     "site": "Wikimedia"
+  },
+  "pina2": {
+    "file": "pina2.jpg",
+    "caption": "Piña on a handloom in Aklan: the warp is hand-knotted liniwan, the finest grade of the fibre",
+    "kind": "process",
+    "title": "Queen of Philippine Fabrics October 4 2026 \" Liniwan Pina Weaving La Herminia 03.jpg",
+    "site": "Wikimedia",
+    "artist": "P1898",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Queen_of_Philippine_Fabrics_October_4_2026_%22_Liniwan_Pina_Weaving_La_Herminia_03.jpg",
+    "w": 960,
+    "h": 838
+  },
+  "pina3": {
+    "file": "pina3.jpg",
+    "caption": "Embroidered piña from Banga, Aklan: the cloth is the ground, the needlework is what it is for",
+    "kind": "product",
+    "title": "Banga Aklan Piña natural fibre1.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Banga_Aklan_Pi%C3%B1a_natural_fibre1.jpg",
+    "w": 960,
+    "h": 607
   },
   "pianowire": {
     "file": "pianowire.jpg",
@@ -8690,7 +8786,7 @@ window.CREDITS = {
   },
   "laidrope": {
     "file": "laidrope.jpg",
-    "caption": "Three-strand hemp rope at the Hermione dockyard",
+    "caption": "Three-strand hemp rope at the Hermione dockyard, coiled clockwise with the lay",
     "kind": "photo",
     "title": "Cordage chantier de l'Hermione Rochefort sur Mer.jpg",
     "artist": "Jebulon",
@@ -8699,6 +8795,30 @@ window.CREDITS = {
     "w": 960,
     "h": 960,
     "site": "Wikimedia"
+  },
+  "laidrope2": {
+    "file": "laidrope2.jpg",
+    "caption": "A ropewalk at Feldbach, Styria, built 1947: the hooks turn the strands, and the shed is as long as the rope",
+    "kind": "process",
+    "title": "Seilerei (14980940883).jpg",
+    "site": "Wikimedia",
+    "artist": "Manfred Moitzi",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seilerei_(14980940883).jpg",
+    "w": 960,
+    "h": 1014
+  },
+  "laidrope3": {
+    "file": "laidrope3.jpg",
+    "caption": "Rope from the Mary Rose, sunk 1545: the same three-strand lay, 450 years on",
+    "kind": "related",
+    "title": "MaryRose-rope fragment.JPG",
+    "site": "Wikimedia",
+    "artist": "Peter Crossman of the Mary Rose Trust",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MaryRose-rope_fragment.JPG",
+    "w": 960,
+    "h": 443
   },
   "doublebraid": {
     "file": "doublebraid.jpg",
