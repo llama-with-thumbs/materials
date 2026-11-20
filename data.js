@@ -2589,8 +2589,9 @@ window.MATERIALS = [
 },
 {
   id: "primaloft", cat: "fibre", name: "Synthetic down",
-  sub: "fine crimped polyester microfibre", img: "primaloft",
-  hook: "Developed for the US Army when they wanted something that worked soaked. It gets about 70% of down's warmth per gram and keeps most of it when wet, because polyester holds no water — a straight trade of peak performance for reliability.",
+  sub: "fine crimped polyester microfibre", img: "primaloft", extra: ["primaloft2"],
+  hook: "Built for the US Army, which wanted down that worked wet. Microfibres finer than a hair, crimped and siliconised: 70 per cent of down's warmth per gram, and most of it kept when wet, since polyester holds no water.",
+  more: "Albany International made it to an army brief in 1983: filaments under a denier, hollow or solid, crimped, siliconised so they slide and loft, and blown into a batt held by a scrim or a light bonding. Thinsulate from 3M came first and Polarguard was a continuous filament; the trick in all of them is a fibre fine enough to trap air in the gaps a down barb would. It dries in hours, it is cheap, it can be cut and sewn as a sheet, and it does not leak through the shell. The costs: it never matches down, and the gap widens with every stuffing, since the fibres crease and do not spring back; a two-season jacket is visibly thinner; it packs to twice the volume for the same warmth; it melts at a spark and smoulders; and every wash sheds microfibres.",
   stats: [["vs down", "~70% warmth/weight"], ["Wet", "retains most loft"], ["Dries", "hours, not days"]],
   uses: "Insulated jackets and sleeping bags, work wear, marine clothing.",
   link: "https://en.wikipedia.org/wiki/Synthetic_fiber",
@@ -2598,24 +2599,27 @@ window.MATERIALS = [
 },
 {
   id: "emifabric", cat: "fibre", name: "Conductive fabric",
-  sub: "silver- or nickel-plated nylon ripstop", img: "emifabric",
-  hook: "A textile that is also a Faraday cage: metal plated onto each fibre gives a cloth that drapes and sews but blocks 50–80 dB of radio. Silver versions also kill odour-causing bacteria, which is how it ended up in socks.",
+  sub: "silver- or nickel-plated nylon ripstop", img: "emifabric", extra: ["emifabric2"],
+  hook: "A Faraday cage you can sew. Ripstop is plated with silver, nickel or copper and the cloth drapes like taffeta while stopping 50 to 80 decibels of radio. Silver also kills foot bacteria, hence socks.",
+  more: "The fabric goes through a bath that deposits a few hundred nanometres of metal on each fibre, so the weave stays open and soft but conducts at under a tenth of an ohm per square. A phone zipped into a bag of it cannot be rung, tracked or wiped, which is why the police evidence bag is made of it; a tent of it is a quiet room for a hospital MRI or a government office; a strip of it with foam inside is the gasket round a server door. The costs: the shield is only as good as its seams, and a seam sewn with ordinary thread is a slot antenna; silver tarnishes and nickel cracks where the cloth is folded, so the attenuation falls with every crease; washing finishes it; nickel on skin is an allergen; and a metre costs what a metre of silk does.",
   stats: [["Shielding", "50–80 dB"], ["Surface resistance", "<0.1 Ω/sq"], ["Plating", "Ag, Ni or Cu"]],
   uses: "EMI gaskets and shielding bags, ESD garments, touchscreen gloves, medical electrodes.",
   link: "https://en.wikipedia.org/wiki/Electromagnetic_shielding"
 },
 {
   id: "horsehair", cat: "fibre", name: "Horsehair",
-  sub: "tail hair, woven or in hanks", img: "horsehair",
-  hook: "A long, springy, scaled hair that two trades still cannot replace. Woven into interlining it holds a jacket's shape where no synthetic will; in a bow, the microscopic scales grip rosin and make a string speak.",
+  sub: "tail hair, woven or in hanks", img: "horsehair", extra: ["horsehair3"],
+  hook: "A long, springy, scaled hair two trades never replaced. Woven as the weft of a canvas it holds a jacket's chest where no synthetic will; drawn across a string, its scales hold rosin and make the string speak.",
+  more: "Tail hair is the length, up to a metre; mane hair is softer and goes to brushes and plaster. A violin bow carries 150 to 200 white hairs from a cold-country stallion, because mares wet their tails and the hair goes brittle; the scales catch the rosin and the rosin catches the string, and a rehair is due when the scales have worn smooth. Haircloth is a cotton warp with a single hair as each weft pick, which is why it is never wider than a tail is long; it is the stiff, springy canvas inside a tailored coat. The costs: it comes from the slaughterhouse, mostly from Mongolia and Argentina; white hair for bows is scarce and the rest is bleached; it breaks at the frog; and a weft end working through a jacket lining is a needle in the chest.",
   stats: [["Length", "to ~1 m"], ["Surface", "scaled, grips rosin"], ["Replacement", "none accepted"]],
   uses: "Violin and cello bows, bespoke tailoring canvas, upholstery stuffing, plaster reinforcement.",
   link: "https://en.wikipedia.org/wiki/Horsehair"
 },
 {
   id: "catgut", cat: "fibre", name: "Catgut",
-  sub: "twisted serosa from sheep intestine", img: "catgut",
-  hook: "Never from cats. Cleaned and twisted sheep intestine makes a string with a warmth and complexity of tone that steel has never quite matched, and a suture that the body dissolves on its own schedule — the first self-removing stitch.",
+  sub: "twisted serosa from sheep intestine", img: "catgut", extra: ["catgut2", "catgut3"],
+  hook: "Not from cats. The outer layer of a sheep's gut, split into ribbons, twisted and dried, makes a string with a warmth steel never quite matched and a suture the body dissolves, the first stitch that took itself out.",
+  more: "The intestine is scraped down to the serosa, slit into ribbons, and a handful of them twisted wet and left to dry under tension; three ribbons for a violin E, dozens for a bass. The string is collagen, so it is elastic and damps in a way steel does not, which is the roundness in a baroque viol; it was also the only strong thread the body could absorb, so for a century it closed every wound inside the skin, plain gut going in a week, chromed gut in three. The costs: gut drinks moisture, so the pitch wanders with the weather and a wet night breaks strings; it frays under the finger and goes false; the suture sets off more inflammation than a synthetic, and the EU and Japan withdrew it after BSE; and a set of gut strings costs several steel ones.",
   stats: [["Source", "sheep or goat serosa"], ["Suture", "absorbed in 60–90 days"], ["Humidity", "tunes with the weather"]],
   uses: "Baroque and classical instrument strings, racquets historically, absorbable sutures.",
   link: "https://en.wikipedia.org/wiki/Catgut"
@@ -2623,7 +2627,8 @@ window.MATERIALS = [
 {
   id: "technora", cat: "fibre", name: "Technora",
   sub: "para-aramid copolymer", img: "technora",
-  hook: "An aramid built to survive the things that eat aramids. Swapping part of the backbone for an ether link makes it shrug off the steam, acid and seawater that hydrolyse Kevlar, while keeping most of the strength.",
+  hook: "An aramid built to survive what eats aramids. Teijin put an ether link into the backbone, so the chain flexes and it shrugs off the steam, acid and seawater that hydrolyse Kevlar and keeps most of the strength.",
+  more: "Teijin, 1987. Kevlar is spun from a liquid crystal in sulphuric acid; Technora copolymerises the same unit with a bent diamine joined through an oxygen, is spun from an ordinary solution and drawn hot tenfold, which is where the strength comes from. The result is 3.4 gigapascals, a little under Kevlar, with a chain that water and alkali cannot get a grip on: after weeks in boiling water it keeps the strength a standard aramid has half lost. It is the cord inside a brake hose and a timing belt, the strength member of an optical cable, and the wet yacht halyard. The costs: it costs more than Kevlar; sunlight eats it like every aramid, so it is covered; it is weak in compression and in a knot; and its modulus is below Kevlar 49, so it stretches more.",
   stats: [["Tensile", "~3.4 GPa"], ["Modulus", "~70 GPa"], ["Hot water", "far better than standard aramid"]],
   uses: "Brake and hydraulic hose reinforcement, timing belt cord, optical cable strength members, racing yacht lines.",
   link: "https://en.wikipedia.org/wiki/Technora"

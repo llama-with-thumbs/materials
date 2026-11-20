@@ -522,8 +522,11 @@ geotextile3|commons|Geotubes at Dawlish Warren.jpg|Geotextile tubes pumped full 
 down|commons|Hungarian Goose Down.jpg|A cluster of Hungarian goose down: barbs radiating from a point, no quill|photo
 down2|commons|Daune down feather.jpg|A single down plumule laid flat: the branching that holds the air|structure
 down3|commons|Man's eider duck feather parka, Qikirtamiut, Belcher Islands, Hudson Bay, c. 1914 - Royal Ontario Museum - DSC00312.JPG|An Inuit parka of eider-duck skins with the down still on, Belcher Islands, about 1914|product
-horsehair|commons|Bow, violin (AM 1998.60.381-2).jpg|A violin bow — the ribbon is horsehair|product
-catgut|commons|Catgut Plain 01.JPG|Catgut|photo
+horsehair|commons|Horsehair mecate2.jpg|A mecate rein braided entirely from horsehair, at a Montana saddlery|product
+horsehair3|commons|Textielmuseum-cabinet-16.jpg|A specimen tray in the Tilburg textile museum: hanks of horsehair among the other animal fibres|photo
+catgut|commons|Baroque violin Walter Mahr, 2010 - Gut strings.jpg|Gut strings on a baroque violin: twisted sheep serosa, the lowest wound with silver|photo
+catgut2|commons|Catgut Plain 01.JPG|Plain catgut suture in its pack: absorbed by the body in two to three months|product
+catgut3|commons|Igrometro a corda di minugia inv.2441 IF 21002.jpg|A gut-string hygrometer at the Museo Galileo: the string twists as it takes up moisture, which is also why it goes out of tune|related
 graphene|commons|Sample of graphene (1~3 layers).jpg|A commercial graphene sample — one to three layers, 98% carbon|photo
 cntyarn|commons|CSIRO ScienceImage 988 Carbon nanotubes spun to form a yarn.jpg|Carbon nanotubes being spun into a yarn|process
 aerographite|commons|TUHH CAU newexampleAerographite Netwok.png|Aerographite's network of hollow carbon tubes|photo
@@ -710,8 +713,9 @@ webbing3|commons|Popruhy.jpg|Flat webbing on rolls; tubular is the same yarn on 
 monofil|commons|GreenFishingLine.jpg|Monofilament running through a rod guide: one clear strand, nearly invisible against the water|photo
 monofil2|commons|String trimmer head-insert style.jpg|A fixed-line trimmer head: nylon monofilament doing the cutting|product
 monofil3|commons|Nylon suture 01.JPG|Nylon suture in its pack: a single strand with no fibres for bacteria to climb|product
-emifabric|commons|Isotoner touch gloves BB E86 jeh.jpg|Touchscreen gloves — conductive yarn knitted into the fingertips|product
-technora|commons|Tandriem BMW F 650 CS02.JPG|A toothed belt final drive — aramid cords carry the load inside the rubber|product
+emifabric|commons|MissionDarkness FaradayBag phone.jpg|A Faraday bag of metallised fabric: the phone inside cannot be rung, tracked or wiped|product
+emifabric2|commons|Conductive Silver material.jpg|Silver-plated nylon knit under the electron microscope: every filament coated, the weave still open|structure
+technora|commons|Tandriem BMW F 650 CS02.JPG|A toothed belt final drive: aramid cords carry the load inside the rubber|product
 preoxpan|commons|Fire-blanket-on-display.jpg|A fire blanket — oxidised PAN felt is one of the two cloths used for these, glass the other|related
 ptfethread|commons|Velodrome Marseille Stadium by Taiyo Europe.JPG|A stadium membrane roof — seams this size are sewn with PTFE thread|product
 kuralon|commons|Sample of Polyvinyl alcohol.jpg|Polyvinyl alcohol resin — Kuralon is this polymer, wet-spun into fibre|related
@@ -748,7 +752,8 @@ fgm|commons|Repair process for a V2500 high-pressure turbine guide vane (8).jpg|
 contfibre|DVIDS|https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9832271/1000w_q95.jpg|Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell|process|Public domain|US Army, DVIDS|https://www.dvidshub.net/image/9832271
 lattice|commons|3D-printed Microstructure.jpg|One printed lattice at three strut thicknesses, 1.0, 1.2 and 1.4: the same cell, three stiffnesses|photo
 lattice2|commons|Additive manufacturing (9067742195).jpg|Titanium lattices and the parts they live in, grown by electron-beam melting at Oak Ridge: spheres, a gauntlet, a housing with a lattice core|product
-primaloft|commons|Adidas belgements primaloft cycling gilet.jpg|An insulated cycling gilet — PrimaLoft wadding under a windproof shell|product
+primaloft|commons|Adidas belgements primaloft cycling gilet.jpg|An insulated cycling gilet: PrimaLoft wadding under a windproof shell|product
+primaloft2|commons|Handsker med thinsulate.jpg|Work gloves lined with Thinsulate, the 3M microfibre that came first|product
 m5fibre|commons|Aramid fiber2.jpg|Aramid filaments about 10 µm across — M5 is the rigid-rod fibre that was meant to beat these|analog
 basofil|commons|Turnout gear in the Czech Republic.jpg|Firefighters' turnout gear — melamine fibre goes into liners and hoods of kit like this|analog
 silicafibre|commons|Glasfaser Roving.jpg|A bobbin of glass roving — high-silica fibre starts as glass like this, then is leached until almost nothing but silica is left|analog

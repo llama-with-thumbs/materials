@@ -6230,27 +6230,75 @@ window.CREDITS = {
   },
   "horsehair": {
     "file": "horsehair.jpg",
-    "caption": "A violin bow — the ribbon is horsehair",
+    "caption": "A mecate rein braided entirely from horsehair, at a Montana saddlery",
     "kind": "product",
-    "title": "Bow, violin (AM 1998.60.381-2).jpg",
-    "artist": "Unknown authorUnknown author",
-    "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Bow,_violin_(AM_1998.60.381-2).jpg",
+    "title": "Horsehair mecate2.jpg",
+    "site": "Wikimedia",
+    "artist": "Montanabw",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Horsehair_mecate2.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 1281
+  },
+  "horsehair2": {
+    "file": "horsehair2.jpg",
+    "caption": "The frog of a French violin bow, where the ribbon of tail hair is clamped",
+    "kind": "product",
+    "title": "Violin Bow MET midp1989.146det.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Violin_Bow_MET_midp1989.146det.jpg",
+    "w": 960,
+    "h": 1026
+  },
+  "horsehair3": {
+    "file": "horsehair3.jpg",
+    "caption": "A specimen tray in the Tilburg textile museum: hanks of horsehair among the other animal fibres",
+    "kind": "photo",
+    "title": "Textielmuseum-cabinet-16.jpg",
+    "site": "Wikimedia",
+    "artist": "Joep Vogels, Textielmuseum Tilburg",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Textielmuseum-cabinet-16.jpg",
+    "w": 960,
+    "h": 665
   },
   "catgut": {
     "file": "catgut.jpg",
-    "caption": "Catgut",
+    "caption": "Gut strings on a baroque violin: twisted sheep serosa, the lowest wound with silver",
     "kind": "photo",
+    "title": "Baroque violin Walter Mahr, 2010 - Gut strings.jpg",
+    "site": "Wikimedia",
+    "artist": "David Schou",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Baroque_violin_Walter_Mahr,_2010_-_Gut_strings.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "catgut2": {
+    "file": "catgut2.jpg",
+    "caption": "Plain catgut suture in its pack: absorbed by the body in two to three months",
+    "kind": "product",
     "title": "Catgut Plain 01.JPG",
+    "site": "Wikimedia",
     "artist": "آرمین",
     "license": "CC0",
     "page": "https://commons.wikimedia.org/wiki/File:Catgut_Plain_01.JPG",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "catgut3": {
+    "file": "catgut3.jpg",
+    "caption": "A gut-string hygrometer at the Museo Galileo: the string twists as it takes up moisture, which is also why it goes out of tune",
+    "kind": "related",
+    "title": "Igrometro a corda di minugia inv.2441 IF 21002.jpg",
+    "site": "Wikimedia",
+    "artist": "Museo Galileo",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Igrometro_a_corda_di_minugia_inv.2441_IF_21002.jpg",
+    "w": 960,
+    "h": 922
   },
   "graphene": {
     "file": "graphene.jpg",
@@ -8486,19 +8534,31 @@ window.CREDITS = {
   },
   "emifabric": {
     "file": "emifabric.jpg",
-    "caption": "Touchscreen gloves — conductive yarn knitted into the fingertips",
+    "caption": "A Faraday bag of metallised fabric: the phone inside cannot be rung, tracked or wiped",
     "kind": "product",
-    "title": "Isotoner touch gloves BB E86 jeh.jpg",
-    "artist": "Jim.henderson",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Isotoner_touch_gloves_BB_E86_jeh.jpg",
+    "title": "MissionDarkness FaradayBag phone.jpg",
+    "site": "Wikimedia",
+    "artist": "MIC85",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MissionDarkness_FaradayBag_phone.jpg",
     "w": 960,
-    "h": 997,
-    "site": "Wikimedia"
+    "h": 640
+  },
+  "emifabric2": {
+    "file": "emifabric2.jpg",
+    "caption": "Silver-plated nylon knit under the electron microscope: every filament coated, the weave still open",
+    "kind": "structure",
+    "title": "Conductive Silver material.jpg",
+    "site": "Wikimedia",
+    "artist": "DrHughManning",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Conductive_Silver_material.jpg",
+    "w": 960,
+    "h": 631
   },
   "technora": {
     "file": "technora.jpg",
-    "caption": "A toothed belt final drive — aramid cords carry the load inside the rubber",
+    "caption": "A toothed belt final drive: aramid cords carry the load inside the rubber",
     "kind": "product",
     "title": "Tandriem BMW F 650 CS02.JPG",
     "artist": "Piero",
@@ -8942,7 +9002,7 @@ window.CREDITS = {
   },
   "primaloft": {
     "file": "primaloft.jpg",
-    "caption": "An insulated cycling gilet — PrimaLoft wadding under a windproof shell",
+    "caption": "An insulated cycling gilet: PrimaLoft wadding under a windproof shell",
     "kind": "product",
     "title": "Adidas belgements primaloft cycling gilet.jpg",
     "artist": "Adenosine Triphosphate",
@@ -8951,6 +9011,18 @@ window.CREDITS = {
     "w": 960,
     "h": 1280,
     "site": "Wikimedia"
+  },
+  "primaloft2": {
+    "file": "primaloft2.jpg",
+    "caption": "Work gloves lined with Thinsulate, the 3M microfibre that came first",
+    "kind": "product",
+    "title": "Handsker med thinsulate.jpg",
+    "site": "Wikimedia",
+    "artist": "Villy Fink Isaksen",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Handsker_med_thinsulate.jpg",
+    "w": 960,
+    "h": 640
   },
   "m5fibre": {
     "file": "m5fibre.jpg",
