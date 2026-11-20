@@ -722,38 +722,58 @@ window.WHEEL = (() => {
   const TREE = { all: [791, 462], short: [393, 281], longer: [254, 143], paper: [144, 38], diploma: 133 };
   function treeSVG() {
     const out = [];
-    const x0 = 70, x1 = 710, yb = 92, hmax = 62, top = Math.max(...HEADS.map(h => h[2]));
+    // The head count, term by term, as one bending line through the counts.
+    const x0 = 70, x1 = 740, yb = 96, hmax = 66, top = Math.max(...HEADS.map(h => h[2]));
     const xt = (y, w) => x0 + (y + w * 0.5 - 1919) / 14 * (x1 - x0);
+    const P = HEADS.map(([y, w, n]) => [xt(y, w), yb - n / top * hmax, n]);
+    let d = `M${f(P[0][0])} ${f(P[0][1])}`;
+    for (let i = 0; i < P.length - 1; i++) {
+      const p0 = P[Math.max(i - 1, 0)], p1 = P[i], p2 = P[i + 1], p3 = P[Math.min(i + 2, P.length - 1)];
+      d += ` C${f(p1[0] + (p2[0] - p0[0]) / 6)} ${f(p1[1] + (p2[1] - p0[1]) / 6)} ${f(p2[0] - (p3[0] - p1[0]) / 6)} ${f(p2[1] - (p3[1] - p1[1]) / 6)} ${f(p2[0])} ${f(p2[1])}`;
+    }
     out.push(`<text class="lab" x="${x0 - 30}" y="14">in the school at a time, term by term</text>`);
     out.push(`<line class="base" x1="${x0 - 30}" y1="${yb}" x2="${x1 + 30}" y2="${yb}"/>`);
     for (let y = 1919; y <= 1933; y += 2) out.push(`<text class="yr" x="${f(xt(y, 0))}" y="${yb + 15}" text-anchor="middle">${y}</text>`);
-    for (const [y, w, n] of HEADS) {
-      const x = xt(y, w), h = n / top * hmax;
-      out.push(`<rect class="men" x="${f(x - 4)}" y="${f(yb - h)}" width="8" height="${f(h)}"/><text class="n" x="${f(x)}" y="${f(yb - h - 3)}" text-anchor="middle">${n}</text>`);
+    out.push(`<path class="curve" d="${d}"/>`);
+    for (const [x, y, n] of P) out.push(`<circle class="dot" cx="${f(x)}" cy="${f(y)}" r="3"/><text class="n" x="${f(x)}" y="${f(y - 7)}" text-anchor="middle">${n}</text>`);
+    // The register as lines: one line for every ten students, men in ink, women in red, each
+    // bending from the row of everyone who entered down to where they left. Below the 182
+    // with a paper the lines turn grey: the diplomas have not been counted by sex.
+    const ten = n => Math.round(n / 10);
+    const groups = [["m", ten(TREE.short[0]), 0], ["w", ten(TREE.short[1]), 0], ["m", ten(TREE.longer[0]), 1], ["w", ten(TREE.longer[1]), 1], ["m", ten(TREE.paper[0]), 2], ["w", ten(TREE.paper[1]), 2]];
+    const total = groups.reduce((a, g) => a + g[1], 0);
+    const Y0 = 184, Y1 = 356, Y2 = 516, sp0 = 3.2, sp1 = 5.6;
+    const rx = (820 - total * sp0) / 2;
+    const counts = [0, 1, 2].map(k => groups.filter(g => g[2] === k).reduce((a, g) => a + g[1], 0));
+    const lefts = [34, 34 + counts[0] * sp1 + 30, 34 + (counts[0] + counts[1]) * sp1 + 60];
+    const bend = (x, y0, u, y1) => { const ym = (y0 + y1) / 2; return `M${f(x)} ${y0} C${f(x)} ${f(ym)} ${f(u)} ${f(ym)} ${f(u)} ${y1}`; };
+    let i0 = 0; const at = [0, 0, 0];
+    const lines = [];
+    for (const [sex, n, k] of groups) for (let j = 0; j < n; j++) {
+      lines.push(`<path class="ln ${sex}" d="${bend(rx + (i0 + 0.5) * sp0, Y0, lefts[k] + (at[k] + 0.5) * sp1, Y1)}"/>`);
+      i0++; at[k]++;
     }
-    // The branches: a scale in pixels a head, bars split men then women, ribbons between.
-    const S = 0.38, bh = 20;
-    const sum = p => p[0] + p[1];
-    const bar = (x, y, p) => `<rect class="men" x="${f(x)}" y="${y}" width="${f(p[0] * S)}" height="${bh}"/><rect class="women" x="${f(x + p[0] * S)}" y="${y}" width="${f(p[1] * S)}" height="${bh}"/>`;
-    const rib = (a0, a1, y0, b0, b1, y1) => { const ym = (y0 + y1) / 2; return `<path class="rib" d="M${f(a0)} ${y0} C${f(a0)} ${ym} ${f(b0)} ${ym} ${f(b0)} ${y1} L${f(b1)} ${y1} C${f(b1)} ${ym} ${f(a1)} ${ym} ${f(a1)} ${y0} Z"/>`; };
-    const text = (x, y, lines, anchor) => lines.map((t, n) => `<text class="${n ? "" : "big"}" x="${f(x)}" y="${y + n * 15}"${anchor ? ` text-anchor="${anchor}"` : ""}>${esc(t)}</text>`).join("");
-    const Y0 = 150, Y1 = 262, Y2 = 392;
-    const wAll = sum(TREE.all) * S, rx = (820 - wAll) / 2;
-    const wA = sum(TREE.short) * S, wB = sum(TREE.longer) * S, wC = sum(TREE.paper) * S;
-    const ax = 40, bx = 336, cx = 540;
-    const wJ = (sum(TREE.paper) - TREE.diploma) * S, wD = TREE.diploma * S, jx = cx, dx = cx + wJ + 22;
-    out.push(`<text class="lab" x="${f(rx)}" y="${Y0 - 20}">the register: who entered, and how far each got</text>`);
-    out.push(text(rx, Y0 - 6, ["1,253 entered, 1919 to 1933 · 791 men in ink, 462 women in paper"]));
-    out.push(rib(rx, rx + wA, Y0 + bh, ax, ax + wA, Y1), rib(rx + wA, rx + wA + wB, Y0 + bh, bx, bx + wB, Y1), rib(rx + wA + wB, rx + wAll, Y0 + bh, cx, cx + wC, Y1));
-    out.push(bar(rx, Y0, TREE.all), bar(ax, Y1, TREE.short), bar(bx, Y1, TREE.longer), bar(cx, Y1, TREE.paper));
-    out.push(text(ax, Y1 + bh + 17, ["674 left within two semesters", "the rim, and no further: more than half", "393 men · 281 women"]));
-    out.push(text(bx, Y1 + bh + 17, ["397 stayed longer, no paper", "the workshops", "254 men · 143 women"]));
-    out.push(text(cx, Y1 + bh + 17, ["182 left with a paper", "one in seven", "144 men · 38 women"]));
-    out.push(rib(cx, cx + wJ, Y1 + bh, jx, jx + wJ, Y2), rib(cx + wJ, cx + wC, Y1 + bh, dx, dx + wD, Y2));
-    out.push(`<rect class="men" x="${f(jx)}" y="${Y2}" width="${f(wJ)}" height="${bh}"/><rect class="men" x="${f(dx)}" y="${Y2}" width="${f(wD)}" height="${bh}"/>`);
-    out.push(text(jx - 10, Y2 + 10, ["about 50 a journeyman's paper and no diploma", "the difference of two counts, not a record"], "end"));
-    out.push(text(dx, Y2 + bh + 19, ["133 the Bauhaus diploma", "the centre, from November 1929", "Siebenbrodt and Schöbe's count", "155 is also quoted"]));
-    return `<svg class="tree" viewBox="0 0 820 494" role="img" aria-label="the Bauhaus register as branches: 1,253 students entered, 674 left within two semesters, 397 stayed longer without a paper, 182 left with one, 133 of them with the diploma">${out.join("")}</svg>`;
+    out.push(`<g class="lines">${lines.join("")}</g>`);
+    const bar = (x, w, y) => `<rect class="bar" x="${f(x)}" y="${y}" width="${f(w)}" height="4"/>`;
+    out.push(bar(rx, total * sp0, Y0 - 4));
+    [0, 1, 2].forEach(k => out.push(bar(lefts[k], counts[k] * sp1, Y1)));
+    const big = (x, y, n, t, sub, anchor) => `<text class="big" x="${f(x)}" y="${y}"${anchor ? ` text-anchor="${anchor}"` : ""}>${esc(n)}</text><text x="${f(x)}" y="${y + 16}"${anchor ? ` text-anchor="${anchor}"` : ""}>${esc(t)}</text>${sub ? `<text class="lab" x="${f(x)}" y="${y + 31}"${anchor ? ` text-anchor="${anchor}"` : ""}>${esc(sub)}</text>` : ""}`;
+    out.push(big(rx, Y0 - 46, "1,253", "entered, 1919 to 1933", "one line is ten students · men in ink · women in red"));
+    out.push(big(lefts[0], Y1 + 26, "674", "two semesters or fewer: the rim, and out", "393 men · 281 women"));
+    out.push(big(lefts[1], Y1 + 26, "397", "stayed longer, left with no paper", "254 men · 143 women"));
+    out.push(big(lefts[2], Y1 + 26, "182", "left with a paper", "144 men · 38 women"));
+    // The second fork: the 182 papers against Siebenbrodt and Schöbe's 133 diplomas.
+    const nC = counts[2], nD = ten(TREE.diploma), nJ = nC - nD, cx = lefts[2];
+    const jx = cx - 90, dx = cx;
+    const l2 = [];
+    for (let j = 0; j < nC; j++) {
+      const x = cx + (j + 0.5) * sp1, u = j < nJ ? jx + (j + 0.5) * sp1 : dx + (j - nJ + 0.5) * sp1;
+      l2.push(`<path class="ln g" d="${bend(x, Y1 + 70, u, Y2)}"/>`);
+    }
+    out.push(`<g class="lines">${l2.join("")}</g>`, bar(jx, nJ * sp1, Y2), bar(dx, nD * sp1, Y2));
+    out.push(big(jx + nJ * sp1, Y2 + 26, "about 50", "a journeyman's paper and no diploma", "a subtraction, not a record", "end"));
+    out.push(big(dx, Y2 + 26, "133", "the Bauhaus diploma", "the centre, 1929 to 1933"));
+    return `<svg class="tree" viewBox="0 0 820 592" role="img" aria-label="the Bauhaus register as bending lines: 1,253 students entered, 674 left within two semesters, 397 stayed longer without a paper, 182 left with one, 133 of them with the diploma">${out.join("")}</svg>`;
   }
 
   // The switch of periods, for the card and the page: one button a date.

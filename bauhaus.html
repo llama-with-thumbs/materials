@@ -78,12 +78,16 @@
   .panel a:hover { color: var(--red); }
   .tree-fig { background: var(--panel); border: 1px solid var(--line); padding: 18px 18px 12px; margin: 18px 0 8px; }
   svg.tree { display: block; width: 100%; height: auto; font-family: var(--font); }
-  svg.tree .men { fill: var(--ink); }
-  svg.tree .women { fill: var(--panel); stroke: var(--ink); stroke-width: 1.2; }
-  svg.tree .rib { fill: var(--ink); fill-opacity: 0.09; }
+  svg.tree .bar { fill: var(--ink); }
+  svg.tree .ln { fill: none; stroke-width: 1.4; opacity: 0.9; }
+  svg.tree .ln.m { stroke: var(--ink); }
+  svg.tree .ln.w { stroke: var(--red); }
+  svg.tree .ln.g { stroke: var(--dim); opacity: 0.6; }
+  svg.tree .curve { fill: none; stroke: var(--ink); stroke-width: 1.8; }
+  svg.tree .dot { fill: var(--red); }
   svg.tree .base { stroke: var(--ink); stroke-width: 1; }
   svg.tree text { fill: var(--ink); font-size: 12px; }
-  svg.tree .big { font-size: 14px; font-weight: 500; }
+  svg.tree .big { font-size: 22px; font-weight: 500; }
   svg.tree .n { font-size: 10px; }
   svg.tree .yr, svg.tree .lab { font-size: 11.5px; fill: var(--dim); }
   .doc .rings li b { font-weight: 600; }
@@ -175,11 +179,11 @@
     says 155. Either way, one student in nine or ten who stepped onto the rim left with the paper from the middle
     of it.</p>
   <div class="tree-fig" id="tree"></div>
-  <p class="cap" style="font-size:12.5px;color:var(--dim);line-height:1.5;margin:0 0 18px">the register, drawn as branches from the top down: everyone who entered,
-    and where each left. the strip above is the head count term by term, from the school's papers; the branches
-    are the Bewegte Netze count of Dietzsch's register, Bauhaus-ShortCut No. 1, men in ink and women in paper.
-    the lowest split sets Siebenbrodt and Schöbe's 133 diplomas against the 182 papers of the register, two
-    sources, so the narrow branch is a subtraction, not a record; by sex the diplomas have not been counted.</p>
+  <p class="cap" style="font-size:12.5px;color:var(--dim);line-height:1.5;margin:0 0 18px">the register, drawn as lines from the top down: one line for every ten students
+    who entered, men in ink and women in red, each bending to where its ten left. the curve above is the head
+    count term by term, from the school's papers; the lines are the Bewegte Netze count of Dietzsch's register,
+    Bauhaus-ShortCut No. 1. the lowest fork sets Siebenbrodt and Schöbe's 133 diplomas against the 182 papers
+    of the register, two sources, so it is drawn grey: a subtraction, not a record, and not counted by sex.</p>
 
   <h2>the seven workshops, and where they went</h2>
   <table>
