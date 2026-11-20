@@ -23,6 +23,17 @@
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
+/* The Cyrillic of the same face, for the Russian words on the wheel: Jost's own, so the
+   Russian is lettered as the German and the English are, after Futura. */
+@font-face {
+  font-family: "Jost";
+  src: url("fonts/jost-cyrillic.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
 /* ---------- tokens ---------- */
 
 :root {
@@ -270,7 +281,7 @@ svg.wheel .small { font-size: 15px; }
 svg.wheel text.hit { pointer-events: auto; cursor: pointer; }
 svg.wheel .seg:hover text.hit, svg.wheel .seg:focus-visible text.hit, svg.wheel .seg.on text.hit { fill: var(--red); }
 svg.wheel .marks line { stroke: var(--red); stroke-width: 2; }
-svg.wheel .marks text { font-size: 14px; fill: var(--red); font-weight: 500; }
+svg.wheel .marks text { font-size: 17px; fill: var(--red); font-weight: 500; }
 .wheel-panel .no { margin: 0 0 2px; font-size: 12px; color: var(--dim); }
 .wheel-panel h3 { margin: 0; font-size: 19px; font-weight: 500; line-height: 1.2; }
 .wheel-panel .sub { margin: 3px 0 10px; font-size: 12.5px; color: var(--dim); }
@@ -284,6 +295,7 @@ svg.fig .tie { stroke: var(--blue); stroke-width: 2.2; pointer-events: none; }
 svg.fig .tie-end { fill: var(--blue); pointer-events: none; }
 svg.fig .tie-pt { fill: var(--panel); stroke: var(--blue); stroke-width: 2; pointer-events: none; }
 .figure .fig-opts { position: absolute; right: 64px; top: 8px; display: flex; gap: 4px; z-index: 3; }
+.wheelcard .figure .fig-opts { right: 8px; }
 .figure .fig-opts .sep { width: 10px; }
 
 .figure {

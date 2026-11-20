@@ -1,5 +1,5 @@
 /* The curriculum wheel: Gropius's diagram of the Bauhaus course, drawn again as rings
-   that answer the pointer. The figure is from the statutes of July 1922 and was reprinted
+   that answer a click. The figure is from the statutes of July 1922 and was reprinted
    in the 1923 exhibition book; its English wording is the one usually reproduced. Read it
    from the outside in: the preliminary course, half a year; the three years of workshop
    training with the studies that ran beside it; the seven workshops by their material;
@@ -441,18 +441,22 @@ window.WHEEL = (() => {
       <text class="big" x="${C}" y="${C - 34}" text-anchor="middle" data-fit="${chord(-62)}">${esc(word(bau))}</text>
       ${LINES.map((t, n) => { const y = -12 + n * 17; return `<text class="small" x="${C}" y="${C + y}" text-anchor="middle" data-fit="${chord(y > 0 ? y : y - 10.5)}">${esc(t)}</text>`; }).join("")}
     </g>`;
-    // The line down from the top, as on the original, with the two durations written along
-    // it: across the outer ring, and across the two inside it.
+    // The original writes two durations along a line from the rim to the centre. Here they
+    // stand on a scale beside the wheel, level with the rings of the lower half: a tick at
+    // every ring, the outer band's duration against the rim, the three years against the
+    // two rings inside it, and the centre open, since building had no fixed term in 1922.
     const M = is22 ? ({ de: ["½ jahr", "3 jahre"], ru: ["½ года", "3 года"] }[lang] || ["½ year", "3 years"]) : (E.marks[lang] || E.marks.en);
+    const BX = 752;
     const marks = `<g class="marks">
-      <line x1="${C}" y1="${C - R[3]}" x2="${C}" y2="${C - R[0]}"/>
-      ${M[0] ? `<text data-fit="${f(R[3] - R[2] - 10)}" transform="translate(${C + 4} ${C - R[3] + 7}) rotate(90)">${esc(M[0])}</text>` : ""}
-      ${M[1] ? `<text data-fit="${f(R[2] - R[1] - 10)}" transform="translate(${C + 4} ${C - R[2] + 7}) rotate(90)">${esc(M[1])}</text>` : ""}
+      <line x1="${BX}" y1="${f(C + R[0])}" x2="${BX}" y2="${f(C + R[3])}"/>
+      ${[R[0], R[2], R[3]].map(r => `<line x1="${BX - 7}" y1="${f(C + r)}" x2="${BX + 7}" y2="${f(C + r)}"/>`).join("")}
+      ${M[1] ? `<text data-fit="${f(R[2] - R[0] - 12)}" transform="translate(${BX + 18} ${f(C + R[0] + 6)}) rotate(90)">${esc(M[1])}</text>` : ""}
+      ${M[0] ? `<text data-fit="${f(R[3] - R[2] - 12)}" transform="translate(${BX + 18} ${f(C + R[2] + 6)}) rotate(90)">${esc(M[0])}</text>` : ""}
     </g>`;
     const rings = [RI, ...R, RO].map(r => `<circle class="ring" cx="${C}" cy="${C}" r="${r}"/>`).join("");
     // The durations of the stages are not in the drawing: the rings are Gropius's and their
     // widths mean nothing in time. They are read out beside the wheel, in the panel.
-    return `<svg class="wheel" viewBox="0 0 720 720" role="group" aria-label="the Bauhaus curriculum as a wheel of rings, as it stood in ${era}">
+    return `<svg class="wheel" viewBox="0 0 780 720" role="group" aria-label="the Bauhaus curriculum as a wheel of rings, as it stood in ${era}">
       <defs>${defs.join("")}</defs>${out.join("")}${centre}${rings}${marks}</svg>`;
   }
 
@@ -497,9 +501,10 @@ window.WHEEL = (() => {
     // centre. From Dietzsch's database of the students, the semester counts in the school's
     // own papers, and the numbered diplomas.
     heads: [
-      ["entered the rim", "about 1,250 students in fourteen years; 1,258 in Dietzsch's database. 150 to 200 at a time in Weimar, 63 the winter the school moved, 201 at the most in 1930"],
-      ["reached a workshop", "no count has been published. The trial semester ended it for many; the journeyman's paper before the chamber of crafts, the first in 1924, ended it for the rest"],
-      ["reached the centre", "133 Bauhaus diplomas in all, from No. 4 in November 1929 to No. 110 on 1 April 1933; one for every nine or ten who had enrolled"]
+      ["entered the rim", "1,253 in the school's files, 791 men and 462 women; never more than 242 at a time, 63 the winter the school moved, 201 at the most in 1930"],
+      ["two semesters or fewer", "674, more than half: the preliminary course, and out"],
+      ["reached a workshop", "397 stayed longer and left without a paper; the journeyman's examination before the chamber of crafts, the first in 1924, has no separate total"],
+      ["reached the centre", "182 left with a paper of some kind, one in seven; 133 of them the Bauhaus diploma, from No. 4 in November 1929 to No. 110 on 1 April 1933"]
     ],
     vorkurs: [
       ["duration", "half a year in the 1922 statutes; compulsory from 1921; mostly two semesters from winter 1926/27, renamed the Grundlehre; the general training under the 1930 statutes"],
@@ -640,7 +645,7 @@ window.WHEEL = (() => {
       ["course", "none until April 1927; before that, work in the office of Gropius and Adolf Meyer"],
       ["department", "Hannes Meyer 1927–30 · Mies van der Rohe 1930–33"],
       ["built", "Haus am Horn 1923 · the Dessau building 1926 · Törten estate 1926–28 · the trade-union school at Bernau 1928–30"],
-      ["who got there", "133 Bauhaus diplomas, 1929 to 1933, out of about 1,250 who enrolled: the diagram puts it at the middle as the goal, not the rule"]
+      ["who got there", "133 Bauhaus diplomas, 1929 to 1933, out of 1,253 who enrolled, and 182 with any paper at all: the diagram puts it at the middle as the goal, not the rule"]
     ]
   };
   const factsHTML = rows => rows.map(([k, v]) => `<div class="ro"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
@@ -654,7 +659,7 @@ window.WHEEL = (() => {
       const bar = (E.bar[lang] || E.bar.en).map(t => { const i = t.indexOf(" · "); return i < 0 ? ["", t] : [t.slice(0, i), t.slice(i + 3)]; });
       const heads = era === "1922" ? FACTS.heads : (E.heads || []);
       return `<p class="no">the wheel · ${esc(era)}</p><h3>the course, from the outside in</h3>
-      <p class="sub">${esc(E.title.en)}; point at a ring, click to keep it</p>
+      <p class="sub">${esc(E.title.en)}; click a ring; click it again to let go</p>
       <div class="facts">${factsHTML(E.facts || FACTS.whole)}</div>
       <p class="no">how long</p><div class="facts">${factsHTML(bar)}</div>
       <p class="no">how many</p><div class="facts">${factsHTML(heads)}</div>`
@@ -683,8 +688,6 @@ window.WHEEL = (() => {
     };
     const show = key => { panel.innerHTML = panelHTML(key ? BY.get(key) : null, full); };
     draw(); show(null);
-    root.addEventListener("pointerover", e => { const g = e.target.closest(".seg"); if (g && !kept) show(g.dataset.key); });
-    root.addEventListener("pointerout", e => { const g = e.target.closest(".seg"); if (g && !kept) show(null); });
     const pick = key => { kept = kept === key ? null : key; light(); show(kept); };
     root.addEventListener("click", e => { const g = e.target.closest(".seg"); if (g) pick(g.dataset.key); });
     root.addEventListener("keydown", e => {
@@ -692,7 +695,6 @@ window.WHEEL = (() => {
       if (!g || (e.key !== "Enter" && e.key !== " ")) return;
       e.preventDefault(); pick(g.dataset.key);
     });
-    root.addEventListener("focusin", e => { const g = e.target.closest(".seg"); if (g && !kept) show(g.dataset.key); });
     if (toggle) toggle.addEventListener("click", e => {
       const b = e.target.closest("[data-lang]");
       if (!b) return;
@@ -709,6 +711,51 @@ window.WHEEL = (() => {
     });
   }
 
+  // How many got how far, as branches from the rim down. The branches are the register count
+  // of the Bewegte Netze project (Bauhaus-ShortCut No. 1, 2019), built on Dietzsch's database:
+  // 1,253 students, 674 of them gone within two semesters, 397 who stayed longer and left
+  // without a paper, 182 who left with one; men in ink, women in paper. The 133 diplomas are
+  // Siebenbrodt and Schöbe's count, so the lowest split is a subtraction across two sources.
+  // Above it, the head count by term, from the school's papers: year, winter term or not, count.
+  const HEADS = [[1919, 0, 163], [1919, 1, 242], [1920, 1, 137], [1922, 0, 147], [1924, 0, 89], [1924, 1, 102], [1925, 1, 63],
+    [1926, 0, 83], [1928, 0, 166], [1928, 1, 170], [1930, 1, 201], [1932, 0, 168], [1932, 1, 115]];
+  const TREE = { all: [791, 462], short: [393, 281], longer: [254, 143], paper: [144, 38], diploma: 133 };
+  function treeSVG() {
+    const out = [];
+    const x0 = 70, x1 = 710, yb = 92, hmax = 62, top = Math.max(...HEADS.map(h => h[2]));
+    const xt = (y, w) => x0 + (y + w * 0.5 - 1919) / 14 * (x1 - x0);
+    out.push(`<text class="lab" x="${x0 - 30}" y="14">in the school at a time, term by term</text>`);
+    out.push(`<line class="base" x1="${x0 - 30}" y1="${yb}" x2="${x1 + 30}" y2="${yb}"/>`);
+    for (let y = 1919; y <= 1933; y += 2) out.push(`<text class="yr" x="${f(xt(y, 0))}" y="${yb + 15}" text-anchor="middle">${y}</text>`);
+    for (const [y, w, n] of HEADS) {
+      const x = xt(y, w), h = n / top * hmax;
+      out.push(`<rect class="men" x="${f(x - 4)}" y="${f(yb - h)}" width="8" height="${f(h)}"/><text class="n" x="${f(x)}" y="${f(yb - h - 3)}" text-anchor="middle">${n}</text>`);
+    }
+    // The branches: a scale in pixels a head, bars split men then women, ribbons between.
+    const S = 0.38, bh = 20;
+    const sum = p => p[0] + p[1];
+    const bar = (x, y, p) => `<rect class="men" x="${f(x)}" y="${y}" width="${f(p[0] * S)}" height="${bh}"/><rect class="women" x="${f(x + p[0] * S)}" y="${y}" width="${f(p[1] * S)}" height="${bh}"/>`;
+    const rib = (a0, a1, y0, b0, b1, y1) => { const ym = (y0 + y1) / 2; return `<path class="rib" d="M${f(a0)} ${y0} C${f(a0)} ${ym} ${f(b0)} ${ym} ${f(b0)} ${y1} L${f(b1)} ${y1} C${f(b1)} ${ym} ${f(a1)} ${ym} ${f(a1)} ${y0} Z"/>`; };
+    const text = (x, y, lines, anchor) => lines.map((t, n) => `<text class="${n ? "" : "big"}" x="${f(x)}" y="${y + n * 15}"${anchor ? ` text-anchor="${anchor}"` : ""}>${esc(t)}</text>`).join("");
+    const Y0 = 150, Y1 = 262, Y2 = 392;
+    const wAll = sum(TREE.all) * S, rx = (820 - wAll) / 2;
+    const wA = sum(TREE.short) * S, wB = sum(TREE.longer) * S, wC = sum(TREE.paper) * S;
+    const ax = 40, bx = 336, cx = 540;
+    const wJ = (sum(TREE.paper) - TREE.diploma) * S, wD = TREE.diploma * S, jx = cx, dx = cx + wJ + 22;
+    out.push(`<text class="lab" x="${f(rx)}" y="${Y0 - 20}">the register: who entered, and how far each got</text>`);
+    out.push(text(rx, Y0 - 6, ["1,253 entered, 1919 to 1933 · 791 men in ink, 462 women in paper"]));
+    out.push(rib(rx, rx + wA, Y0 + bh, ax, ax + wA, Y1), rib(rx + wA, rx + wA + wB, Y0 + bh, bx, bx + wB, Y1), rib(rx + wA + wB, rx + wAll, Y0 + bh, cx, cx + wC, Y1));
+    out.push(bar(rx, Y0, TREE.all), bar(ax, Y1, TREE.short), bar(bx, Y1, TREE.longer), bar(cx, Y1, TREE.paper));
+    out.push(text(ax, Y1 + bh + 17, ["674 left within two semesters", "the rim, and no further: more than half", "393 men · 281 women"]));
+    out.push(text(bx, Y1 + bh + 17, ["397 stayed longer, no paper", "the workshops", "254 men · 143 women"]));
+    out.push(text(cx, Y1 + bh + 17, ["182 left with a paper", "one in seven", "144 men · 38 women"]));
+    out.push(rib(cx, cx + wJ, Y1 + bh, jx, jx + wJ, Y2), rib(cx + wJ, cx + wC, Y1 + bh, dx, dx + wD, Y2));
+    out.push(`<rect class="men" x="${f(jx)}" y="${Y2}" width="${f(wJ)}" height="${bh}"/><rect class="men" x="${f(dx)}" y="${Y2}" width="${f(wD)}" height="${bh}"/>`);
+    out.push(text(jx - 10, Y2 + 10, ["about 50 a journeyman's paper and no diploma", "the difference of two counts, not a record"], "end"));
+    out.push(text(dx, Y2 + bh + 19, ["133 the Bauhaus diploma", "the centre, from November 1929", "Siebenbrodt and Schöbe's count", "155 is also quoted"]));
+    return `<svg class="tree" viewBox="0 0 820 494" role="img" aria-label="the Bauhaus register as branches: 1,253 students entered, 674 left within two semesters, 397 stayed longer without a paper, 182 left with one, 133 of them with the diploma">${out.join("")}</svg>`;
+  }
+
   // The switch of periods, for the card and the page: one button a date.
   const eraHTML = id => `<span class="opts era-opts" id="${id}" role="group" aria-label="the course at five dates">${ERAS.map(e =>
     `<button class="opt" type="button" data-era="${e.key}" aria-pressed="${String(e.key === era)}" title="${esc(e.title.en)}">${e.key}</button>`).join("")}</span>`;
@@ -716,11 +763,11 @@ window.WHEEL = (() => {
   // The wheel as an entry of the catalogue, for the shelf of its own on the main page.
   const card = {
     id: "wheel", wheel: true, name: "The curriculum wheel",
-    sub: "Gropius's scheme of the Bauhaus course, 1922, drawn as rings that answer the pointer",
-    hook: "The school drew its course as a target. Everyone began on the rim, with half a year of the preliminary course; those who passed entered one of seven workshops, named for a material, for three years, with five studies beside the bench; a few reached the centre, which the school called building. Point at a ring for what it was, who ran it and what became of it; click to keep it; the switch turns the words to the German of the statutes. This catalogue is the lower rim carried on, and its workshops are the middle ring.",
+    sub: "Gropius's scheme of the Bauhaus course, 1922, drawn as rings that answer a click",
+    hook: "The school drew its course as a target. Everyone began on the rim, with half a year of the preliminary course; those who passed entered one of seven workshops, named for a material, for three years, with five studies beside the bench; a few reached the centre, which the school called building. Click a ring for what it was, who ran it and what became of it; click it again to let go; the switch turns the words to the German of the statutes. This catalogue is the lower rim carried on, and its workshops are the middle ring.",
     stats: [["Rings", "preliminary course, studies, workshops, building"], ["Workshops", "stone, wood, metal, textiles, colour, glass, clay"], ["Drawn", "statutes of July 1922; reprinted 1923"]],
     cats: ["exotic"], link: "bauhaus.html"
   };
 
-  return { SEG, ERAS, FACTS, svg, panelHTML, mount, eraHTML, card };
+  return { SEG, ERAS, FACTS, svg, treeSVG, panelHTML, mount, eraHTML, card };
 })();

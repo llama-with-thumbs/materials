@@ -29,13 +29,13 @@ library.js     the library: primary Bauhaus texts, each linking out to a public-
 lattices.js    the lattices: the fourteen Bravais lattices, each drawn from its six numbers
 classes.js     the classes: metal, ceramic, glass, polymer, elastomer, composite, semiconductor
 figures.js     draws a plate's figure from its data and runs the readout under the pointer
-bauhaus.html   the curriculum wheel: Gropius's 1922 diagram of the course, drawn as rings that answer the pointer
+bauhaus.html   the curriculum wheel: Gropius's 1922 diagram of the course, drawn as rings that answer a click
 wheel.js       the wheel's segments, what is known about each, and the drawing
 drawings.js    draws a lattice's cell and a class's sketch, in ink, paper and one red
 credits.js     generated: image filenames, dimensions, photographers, licences, links
 added.js       generated: when each entry joined, in add order — the default sort
 images/        584 images, 960 px wide
-fonts/         Jost, variable weight, latin and latin-ext, with its OFL licence
+fonts/         Jost, variable weight, latin, latin-ext and cyrillic, with its OFL licence
 robots.txt     sitemap.xml   for search engines
 LICENSE        MIT for the text and the tools; the photographs keep their own licences
 SOURCES.md     generated: every second source grouped by site, and which ones answer
@@ -261,14 +261,14 @@ The three jobs, and why each material is chosen for one of them:
 
 ## The curriculum wheel
 
-`bauhaus.html` draws Gropius's 1922 scheme of the course as rings that answer the pointer: the
+`bauhaus.html` draws Gropius's 1922 scheme of the course as rings that answer a click: the
 preliminary course on the rim, the three years of workshop training with the five studies
 beside it, the seven workshops by their material, and building at the centre. Every segment
 carries what is known about it, who ran it and what became of it, the catalogue's own workshop
 where it has one, and the texts in the library it leans on; a switch turns the words to the
 German of the statutes, or to Russian in the vocabulary of VKhUTEMAS, the Moscow school of 1920
 built on the same plan, since no Russian rendering from the school's own time could be found. The segments and their texts live in `wheel.js`, with the geometry, which is measured on the lithograph in the 1922 statutes: ring radii, the angles of every division, and the proportion of each ring's letters to its ring, the same in all three languages, with a word too long for its room condensed as the original's are, and only then set smaller;
-the page's sources are listed at its foot. A switch of dates at the left of the figure redraws the course on the same rings as it stood in 1919, 1927, 1929 and 1930, from the programme of April 1919, the Dessau regulations of 1926, the chronology of Meyer's school and the statutes of October 1930; each date has its own panel of facts, its own time bar and its own segments. The wheel is also a shelf of its own on the main
+the page's sources are listed at its foot. A switch of dates at the left of the figure redraws the course on the same rings as it stood in 1919, 1927, 1929 and 1930, from the programme of April 1919, the Dessau regulations of 1926, the chronology of Meyer's school and the statutes of October 1930; each date has its own panel of facts, its own scale of durations beside the wheel and its own segments. Under the prose a second figure draws the register as branches from the rim down: 1,253 who entered, 674 gone within two semesters, 397 who stayed longer without a paper, 182 who left with one and the 133 diplomas among them, men in ink and women in paper, with the head count term by term above it; the counts are the Bewegte Netze project's reading of Dietzsch's database. The wheel is also a shelf of its own on the main
 page, *the wheel* in the collections row: one wide card with the rings, the panel a ring fills
 where a plate's readout sits, and a link to the full page.
 
