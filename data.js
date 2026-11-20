@@ -2817,42 +2817,47 @@ window.MATERIALS = [
 },
 {
   id: "rattan", cat: "fibre", name: "Rattan cane",
-  sub: "split peel and core of a climbing palm", img: "rattan",
-  hook: "A palm that climbs instead of standing, so its stem is solid, even in diameter and hundreds of metres long — the only plant that supplies long weaving stock without being sawn into it. Two materials come out of one stem: the glossy outer peel, cut into narrow strips and used wherever the weave has to take tension around a corner, and the soft inner core, which is extruded into round reed for baskets and takes a bend but no load. Steam or a soak makes it pliable and it sets hard as it dries, which is why a caned seat tightens on itself rather than going slack.",
+  sub: "split peel and core of a climbing palm", img: "rattan", extra: ["rattan2", "rattan3"],
+  hook: "A palm that climbs instead of standing, so its stem is solid, even in girth and a hundred metres long: long weaving stock that no saw made. The glossy peel takes the tension, the soft core takes the bend.",
+  more: "Rattan is six hundred species of hooked climbing palm in the South-East Asian forest, nearly all still cut wild, cured in hot diesel or smoke against the beetle, and dried on racks. The skin is glossy and hard with silica; split into strips it is the cane of a caned chair, woven by hand or by machine, and the binding that lashes a frame. The core is pith, takes a tight bend and no load: round reed, the stuff of wicker. Whole poles steam-bend into furniture frames. All of it is worked wet and sets as it dries, so a caned seat tightens on itself. The costs: it leaves the forest faster than it grows back; it fades, dries brittle, sags in a humid summer; the beetle still gets it; and a split in the peel runs the length of the strip.",
   stats: [["Peel", "strong, glossy, takes the tension"], ["Core", "soft reed, bends but carries little"], ["Set", "woven wet, tightens as it dries"]],
-  uses: "Caned chair seats and backs, baskets, furniture frames, walking sticks, bindings.",
+  uses: "Caned chair seats and backs, baskets, furniture frames, walking sticks, bindings, polo mallets.",
   link: "https://en.wikipedia.org/wiki/Rattan"
 },
 {
   id: "willow", cat: "fibre", name: "Willow (osier)",
-  sub: "one season of growth, cut in winter", img: "willow",
-  hook: "Basketry willow is never timber: it is a single year of growth cut from a stooled bed in winter, graded by length and sorted to the millimetre, because a rod that tapers differently weaves differently. Boiling the rods in their own tannin before stripping gives buff; stripping them after a spring soak gives white; leaving the bark on gives brown. All of them are soaked again before use — dry willow snaps, wet willow bends to a radius no sawn wood will take, and the weave tightens as the rods shrink, which is why a basket is stiffer a week after it is made.",
+  sub: "one season of growth, cut in winter", img: "willow", extra: ["willow2", "willow3"],
+  hook: "Basketry willow is never timber: a single year of growth, cut from a stooled bed in winter and sorted to the millimetre, because taper is everything in a weave. Dry it snaps; soaked, it bends as no sawn wood will.",
+  more: "A willow bed is cut to the ground every winter and the stools throw up rods a metre or two long by the next, straight and unbranched. The rods are graded by length and come three ways: bark on, brown; stood in water till the sap rises in spring and stripped, white; boiled a day in the bark so the tannin stains it, then stripped, buff, the usual colour. All are soaked again before weaving, a day or so a foot, and used within hours. The weave is pulled tight wet and the rods shrink as they dry, so a basket is stiffer a week on than the day it was made. The costs: a bed takes three years to bear and wants cutting every year after; stripping is most of the labour; the willow beetle eats the leaf; and a basket left in the rain rots from the base up.",
   stats: [["Stock", "one season of growth, winter cut"], ["Soaked", "days before weaving, or it snaps"], ["Shrinks", "tighter than it was woven"]],
-  uses: "Baskets, hurdles and fencing, living willow structures, coffins, garden furniture, fish traps.",
+  uses: "Baskets, hurdles and fencing, living willow structures, coffins, balloon baskets, fish traps.",
   link: "https://en.wikipedia.org/wiki/Salix_viminalis"
 },
 {
   id: "tatami", cat: "fibre", name: "Tatami rush (igusa)",
-  sub: "soft rush woven over a pressed core", img: "tatami",
-  hook: "A tatami mat is two materials: a thick compressed core of rice straw or board, and a facing of soft rush woven over it with hemp or cotton warp. The rush is a hollow tube full of pith, so the mat is springy, insulating and hygroscopic — it takes up damp in a humid summer and gives it back in winter, and it smells of hay for the first year. It is also a unit of measurement: rooms in Japan are counted in mats, not square metres. When the facing wears it is turned over, then re-faced on the same core.",
+  sub: "soft rush woven over a pressed core", img: "tatami", extra: ["tatami2", "tatami3"],
+  hook: "A tatami is two materials: a pressed core of straw or board, and a facing of soft rush woven over it. The rush is a tube of pith, so the mat is springy, warm and breathes with the seasons, and smells of hay a year.",
+  more: "Igusa is a soft rush grown in paddies, most of it in Kumamoto; cut in July, dipped in clay slurry to even the colour, dried, and woven at some five thousand stems a mat. That facing is stitched over a core that was forty centimetres of rice straw pressed to five and is now as often fibreboard and foam, then edged with tape. The pith is what the floor feels like: it gives underfoot, holds warmth, drinks the summer damp and gives it back in winter. A mat is also a measure; rooms are counted in it. A worn face is turned, after seven or eight years replaced on the same core, and binned at twenty. The costs: mould and mites in a damp room; sun turns the green to straw in a season; a chair leg dents it for good; and a real straw core weighs thirty kilos.",
   stats: [["Facing", "igusa rush over straw or board"], ["Doubles as", "the unit a room is measured in"], ["Worn out", "flipped, then re-faced, not binned"]],
   uses: "Japanese flooring, tea rooms, judo and kendo halls, zabuton and futon bases.",
   link: "https://en.wikipedia.org/wiki/Tatami"
 },
 {
   id: "toquilla", cat: "fibre", name: "Toquilla straw",
-  sub: "split palm shoot, boiled and sun-dried", img: "toquilla",
-  hook: "The straw of the so-called Panama hat, which is Ecuadorian: fibre split by fingernail from the unopened shoot of Carludovica palmata, boiled, dried in the sun and then woven damp, because dry straw breaks and wet straw stretches. The weave is counted in rows per inch like a textile, and at the top grades there are more rows in a hat brim than in most shirting — a fine one is months of work by one pair of hands, woven in the cool of early morning. The finished hat is a single woven fabric with no seam anywhere in it.",
+  sub: "split palm shoot, boiled and sun-dried", img: "toquilla", extra: ["toquilla2", "toquilla3"],
+  hook: "The straw of the Panama hat, which is Ecuadorian: split by fingernail from an unopened shoot, boiled, sun-dried and woven damp, since dry straw breaks and wet stretches. A fine hat is months of one pair of hands.",
+  more: "Carludovica palmata looks like a palm and is not; the straw is the young shoot, cut before it opens, split into strands with a needle or a nail, boiled, dried and bleached in sulphur smoke. The weaver starts a rosette at the crown and works out and down in the damp hours of the morning, since the straw is supple only wet, and the hat comes off as one seamless fabric, to be blocked and ironed. The grade is the count: a working hat has ten strands to the inch, a Montecristi superfino forty, and the finest take the weavers of Pile months each. The costs: the thousand-dollar hat earns its weaver a fraction; dry straw cracks, so the rolled-up Panama is a story about cheap ones; sweat and sun yellow it; and the name went to the canal and never came back.",
   stats: [["Split", "by fingernail from the leaf shoot"], ["Woven", "damp, in the cool of the morning"], ["Fine grades", "months of work, one weaver"]],
   uses: "Panama hats, fans and baskets, fine Ecuadorian and Peruvian weaving.",
   link: "https://en.wikipedia.org/wiki/Carludovica_palmata"
 },
 {
   id: "worsted", cat: "fibre", name: "Worsted yarn",
-  sub: "combed, parallel, long staple only", img: "worsted",
-  hook: "Worsted and woollen are not two kinds of sheep but two ways of handling the same fleece. Combing pulls the long fibres parallel and throws out the short ones as noil; spun tight, that gives a smooth dense yarn with little air in it, which makes cloth that is strong, holds a crease and shines slightly. Carding instead leaves the fibres crossed in every direction and spins them soft and full of air, which is why a tweed is warm and fuzzy and a suit length is not. The comb costs a third of the fleece and most of the price.",
-  stats: [["Combed", "fibres parallel, shorts removed"], ["Loses", "about a third of the fleece as noil"], ["Cloth", "smooth, dense, holds a crease"]],
-  uses: "Suiting and tailoring cloth, gabardine, fine knitting yarn, upholstery.",
+  sub: "combed, parallel, long staple only", img: "worsted", extra: ["worsted2", "worsted3"],
+  hook: "Worsted and woollen are not two sheep but two ways with one fleece. Combing lays the long fibres parallel and drops the short; spun tight, that is a smooth, dense yarn, and cloth that holds a crease and shines.",
+  more: "The name is a Norfolk village, Worstead; the trade moved to Bradford, where the stove-heated hand combs became the Noble comb of 1853, a ring of pins that leaves the long fibres side by side as top and drops the short as noil. Top is drawn out and spun with a short draft and a hard twist, so the yarn holds little air and has a clean, lustrous face. Its cloth, gabardine, serge, the suit length, drapes and holds a crease. Woollen is the opposite choice: carded, fibres every way, spun soft and airy, which is why tweed is warm and fuzzy and worsted is not. The costs: the comb drops a tenth to a third of the fleece, and only long wool combs, so it is the dear yarn; it is cool for its weight; and the face that takes a crease goes shiny at the elbows.",
+  stats: [["Combed", "fibres parallel, shorts removed"], ["Loses", "a tenth to a third of the fleece as noil"], ["Cloth", "smooth, dense, holds a crease"]],
+  uses: "Suiting and tailoring cloth, gabardine and serge, fine knitting yarn, upholstery, billiard cloth.",
   link: "https://en.wikipedia.org/wiki/Worsted"
 },
 

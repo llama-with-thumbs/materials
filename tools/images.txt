@@ -834,11 +834,21 @@ tincoat|commons|TiNCoatedPunches NanoShieldPVD Thailand.JPG|Punches coated with 
 tincoat2|commons|AlTiNCoatedEndmill NanoShieldPVD Thailand.JPG|End mills recoated in aluminium titanium nitride: the dark successor that grows its own oxide skin for hot, dry cutting|related
 tincoat3|commons|Titanium nitride TiN.jpg|Titanium nitride as a powder: brown, not gold; the colour belongs to the thin dense film, not the compound in bulk|related
 lfp|commons|Lithium Iron Phosphate LiFePO4 Cells 400 Ah Amp Hours 3.25 Volts - 1.jpg|400 Ah lithium iron phosphate cells wired into a house battery|product
-rattan|commons|Rattan and Nito.jpg|Rattan and nito woven into baskets and trays, in a Philippine craft display|product
-willow|commons|Weidenkorbflechter Intangible Cultural Heritage of Austria 01.jpg|A giant jug woven from willow rods, outside an Austrian basket maker|product
-tatami|Flickr|https://live.staticflickr.com/7829/47196268132_d9e187bfde_b.jpg|Tatami under repair, the rush facing lifted off its core|photo|CC BY 2.0|Rosewoman|https://www.flickr.com/photos/45873442@N04/47196268132
+rattan|commons|Rattan peel 籐皮.jpg|Rattan peel in strips: the glossy skin of the stem, the part that takes the tension|photo
+rattan2|commons|Flechten Sitzfläche Stuhl.JPG|Caning a bentwood chair seat: the strips go in wet and tighten as they dry|process
+rattan3|commons|USAID Measuring Impact Conservation Enterprise Retrospective (Philippines; Nagkakaisang Tribu ng Palawan) (38483157770).jpg|Rattan poles on the drying racks of a trader in Palawan, cured in hot diesel, to be straightened by hand and shipped to China|process
+willow|commons|Traditional willow basket maker.jpg|A basket maker at the bench, the soaked rods at hand: brown willow, bark on|process
+willow2|commons|Weidenkorbflechter Intangible Cultural Heritage of Austria 01.jpg|A giant jug woven from willow rods, outside an Austrian basket maker|product
+willow3|commons|2018-10-22 (879) Salix viminalis (basket willow) at Krems an der Donau, Austria.jpg|Salix viminalis, the osier, left to grow into a tree at Krems: in a bed it would be cut to the stool every winter|related
+tatami|commons|Texture of tatami; August 2007.jpg|The rush facing of two mats where they meet, the cloth edge between them|photo
+tatami2|commons|Tatami sectional view.jpg|A mat in section: the pressed straw core with a board between its layers, the woven rush over it|structure
+tatami3|Flickr|https://live.staticflickr.com/7829/47196268132_d9e187bfde_b.jpg|Tatami under repair, the rush facing lifted off its core|process|CC BY 2.0|Rosewoman|https://www.flickr.com/photos/45873442@N04/47196268132
 toquilla|commons|The toquilla straw hat is woven from fibres from a palm tree characteristic of the Ecuadorian coast.jpg|Cenovio, a master weaver, working toquilla straw on the Ecuadorian coast|process
+toquilla2|commons|Bécal Panama Hat Production.JPG|Splitting the shoot into strands at Bécal in Yucatán, where the same plant is jipijapa and the hats are woven in caves for the damp|process
+toquilla3|commons|Panama hats montecristi.jpg|Hats at every stage in Montecristi: the crown started, the brim in progress, the straw still hanging, the finished block|product
 worsted|commons|Worsted wool yarn.JPG|Worsted wool yarn, the plied structure visible|photo
+worsted2|commons|CSIRO ScienceImage 1734 Wool That has Been Combed.jpg|Wool top: the fleece after the comb, every fibre lying the same way and the short ones gone|process
+worsted3|commons|Bradford Industrial Museum Noble Comb (1891) 4991.jpg|A Noble comb of 1891 at Bradford: the ring of pins that made worsted a factory product|process
 tweed|pxhere|https://c.pxhere.com/photos/82/fa/fabric_detail_harris_tweed_coarse_plant_dyes_natural_colours-750549.jpg!d|Harris Tweed cloth under a macro lens|photo|CC0|pxhere|https://pxhere.com/en/photo/750549
 satin|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1948.69/1948.69_web.jpg|A Chinese rank badge embroidered on a silk satin ground|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1948.69
 carbonfab|commons|Woven carbon fiber fabric.jpg|Woven carbon fibre fabric, tow crossing tow|photo
