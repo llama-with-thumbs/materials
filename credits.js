@@ -7202,8 +7202,8 @@ window.CREDITS = {
   },
   "cashmere": {
     "file": "cashmere.jpg",
-    "caption": "Cashmere down, combed from a goat's undercoat",
-    "kind": "photo",
+    "caption": "A single cashmere fibre under the electron microscope: the scales are there, flatter and further apart than on wool, and the bar is 10 µm",
+    "kind": "structure",
     "title": "CSIRO ScienceImage 6863 Cashmere goat hair fibre.jpg",
     "artist": "division, CSIRO",
     "license": "CC BY 3.0",
@@ -7211,6 +7211,30 @@ window.CREDITS = {
     "w": 960,
     "h": 960,
     "site": "Wikimedia"
+  },
+  "cashmere2": {
+    "file": "cashmere2.jpg",
+    "caption": "Combing the down out of a goat in early spring, Mongolia: the guard hair stays on the animal",
+    "kind": "process",
+    "title": "Mongolia Herding Life 20.JPG",
+    "site": "Wikimedia",
+    "artist": "Taylor Weidman/The Vanishing Cultures Project",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mongolia_Herding_Life_20.JPG",
+    "w": 700,
+    "h": 467
+  },
+  "cashmere3": {
+    "file": "cashmere3.jpg",
+    "caption": "Changthangi goats in Ladakh: the pashmina grade, grown at 4,000 metres",
+    "kind": "related",
+    "title": "Pashmina goats.jpg",
+    "site": "Wikimedia",
+    "artist": "Redtigerxyz",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pashmina_goats.jpg",
+    "w": 960,
+    "h": 900
   },
   "qiviut": {
     "file": "qiviut.jpg",
@@ -7224,17 +7248,53 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "qiviut2": {
+    "file": "qiviut2.jpg",
+    "caption": "A bull at Dovrefjell in early summer, the qiviut lifting off in sheets under the guard hair: this is the harvest",
+    "kind": "related",
+    "title": "Muskox (Ovibos moschatus) male Dovrefjell 1.jpg",
+    "site": "Wikimedia",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Muskox_(Ovibos_moschatus)_male_Dovrefjell_1.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "qiviut3": {
+    "file": "qiviut3.jpg",
+    "caption": "Undyed qiviut yarn from the Alaskan co-operative: two ounces, 120 yards, and priced accordingly",
+    "kind": "product",
+    "title": "Qiviut yarn skein.jpg",
+    "site": "Wikimedia",
+    "artist": "Valereee",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Qiviut_yarn_skein.jpg",
+    "w": 960,
+    "h": 1280
+  },
   "sinew": {
     "file": "sinew.jpg",
-    "caption": "Sinew twisted into cordage",
+    "caption": "String twisted from whale sinew by the Yaghan of Tierra del Fuego, collected in the late 19th century",
     "kind": "photo",
-    "title": "Sinew strings.jpg",
-    "artist": "Сергей 6662",
+    "title": "Whale sinew string.jpg",
+    "site": "Wikimedia",
+    "artist": "Simon Speed",
     "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sinew_strings.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Whale_sinew_string.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 509
+  },
+  "sinew2": {
+    "file": "sinew2.jpg",
+    "caption": "Sinew lashing the split feathers to a Sinagua arrow shaft, Montezuma Castle: wrapped wet, it shrank tight and stayed tight for 700 years",
+    "kind": "product",
+    "title": "Sinew wrapped split feathers on Sinagua arrow.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown Sinagua artisan. Montezuma Castle National Monument Visitor Center photo?",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sinew_wrapped_split_feathers_on_Sinagua_arrow.jpg",
+    "w": 960,
+    "h": 381
   },
   "harakeke": {
     "file": "harakeke.jpg",
@@ -8582,7 +8642,7 @@ window.CREDITS = {
   },
   "kuralon": {
     "file": "kuralon.jpg",
-    "caption": "Polyvinyl alcohol resin — Kuralon is this polymer, wet-spun into fibre",
+    "caption": "Polyvinyl alcohol resin: Kuralon is this polymer, wet-spun into fibre and set with formaldehyde",
     "kind": "related",
     "title": "Sample of Polyvinyl alcohol.jpg",
     "artist": "LHcheM",
@@ -8594,15 +8654,39 @@ window.CREDITS = {
   },
   "rawhide": {
     "file": "rawhide.jpg",
-    "caption": "A rawhide mallet — a face that strikes hard without marking",
+    "caption": "Hair-on rawhide strips woven into a chair seat, Santa Clara, Utah: laced wet, shrunk tight, and still tight",
+    "kind": "photo",
+    "title": "Rawhide chair weave detail in the Jacob Hamblin House.jpg",
+    "site": "Wikimedia",
+    "artist": "Marné Lierman",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rawhide_chair_weave_detail_in_the_Jacob_Hamblin_House.jpg",
+    "w": 960,
+    "h": 1707
+  },
+  "rawhide2": {
+    "file": "rawhide2.jpg",
+    "caption": "A moosehide hung to dry at Mattagami First Nation before it is cut into lacing",
+    "kind": "process",
+    "title": "Stanley Naveau moosehide.jpg",
+    "site": "Wikimedia",
+    "artist": "Archives Of Ontario from Toronto, Canada",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stanley_Naveau_moosehide.jpg",
+    "w": 960,
+    "h": 645
+  },
+  "rawhide3": {
+    "file": "rawhide3.jpg",
+    "caption": "A rawhide mallet: a face that strikes hard without marking",
     "kind": "product",
     "title": "Rawhide mallet in Tuntorp 3.jpg",
+    "site": "Wikimedia",
     "artist": "W.carter",
     "license": "CC BY 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Rawhide_mallet_in_Tuntorp_3.jpg",
     "w": 960,
-    "h": 540,
-    "site": "Wikimedia"
+    "h": 540
   },
   "laidrope": {
     "file": "laidrope.jpg",

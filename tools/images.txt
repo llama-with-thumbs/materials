@@ -603,9 +603,14 @@ mov|commons|Metal Oxide Varistor.jpg|A metal oxide varistor|product
 ptcpoly|commons|Disassembled resettable fuse.JPG|A polymer resettable fuse, opened up|product
 etchedfoil|commons|Low-voltage-anode-foil.tif|Etched anode foil in cross-section — the tunnels that multiply its area|photo
 tim|commons|Thermal compound Applied.JPG|Thermal compound spread on a processor lid|product
-cashmere|commons|CSIRO ScienceImage 6863 Cashmere goat hair fibre.jpg|Cashmere down, combed from a goat's undercoat|photo
+cashmere|commons|CSIRO ScienceImage 6863 Cashmere goat hair fibre.jpg|A single cashmere fibre under the electron microscope: the scales are there, flatter and further apart than on wool, and the bar is 10 µm|structure
+cashmere2|commons|Mongolia Herding Life 20.JPG|Combing the down out of a goat in early spring, Mongolia: the guard hair stays on the animal|process
+cashmere3|commons|Pashmina goats.jpg|Changthangi goats in Ladakh: the pashmina grade, grown at 4,000 metres|related
 qiviut|commons|Qiviut wool 1.JPG|Raw qiviut, shed by a muskox and picked up by hand|photo
-sinew|commons|Sinew strings.jpg|Sinew twisted into cordage|photo
+qiviut2|commons|Muskox (Ovibos moschatus) male Dovrefjell 1.jpg|A bull at Dovrefjell in early summer, the qiviut lifting off in sheets under the guard hair: this is the harvest|related
+qiviut3|commons|Qiviut yarn skein.jpg|Undyed qiviut yarn from the Alaskan co-operative: two ounces, 120 yards, and priced accordingly|product
+sinew|commons|Whale sinew string.jpg|String twisted from whale sinew by the Yaghan of Tierra del Fuego, collected in the late 19th century|photo
+sinew2|commons|Sinew wrapped split feathers on Sinagua arrow.jpg|Sinew lashing the split feathers to a Sinagua arrow shaft, Montezuma Castle: wrapped wet, it shrank tight and stayed tight for 700 years|product
 harakeke|commons|Te Pā Harakeke o te Iwi 20230816 082439 02.jpg|A pā harakeke — the stand the leaves are cut from|photo
 esparto|commons|Stipa tenacissima kz08.jpg|Esparto grass growing on dry ground|photo
 raffia|commons|Raffia fibers.jpg|Raffia, peeled off the leaf as flat ribbon|photo
@@ -718,8 +723,10 @@ emifabric2|commons|Conductive Silver material.jpg|Silver-plated nylon knit under
 technora|commons|Tandriem BMW F 650 CS02.JPG|A toothed belt final drive: aramid cords carry the load inside the rubber|product
 preoxpan|commons|Fire-blanket-on-display.jpg|A fire blanket: oxidised PAN felt is one of the two cloths used for these, glass the other|related
 ptfethread|commons|Velodrome Marseille Stadium by Taiyo Europe.JPG|A stadium membrane roof: seams this size are sewn with PTFE thread|product
-kuralon|commons|Sample of Polyvinyl alcohol.jpg|Polyvinyl alcohol resin — Kuralon is this polymer, wet-spun into fibre|related
-rawhide|commons|Rawhide mallet in Tuntorp 3.jpg|A rawhide mallet — a face that strikes hard without marking|product
+kuralon|commons|Sample of Polyvinyl alcohol.jpg|Polyvinyl alcohol resin: Kuralon is this polymer, wet-spun into fibre and set with formaldehyde|related
+rawhide|commons|Rawhide chair weave detail in the Jacob Hamblin House.jpg|Hair-on rawhide strips woven into a chair seat, Santa Clara, Utah: laced wet, shrunk tight, and still tight|photo
+rawhide2|commons|Stanley Naveau moosehide.jpg|A moosehide hung to dry at Mattagami First Nation before it is cut into lacing|process
+rawhide3|commons|Rawhide mallet in Tuntorp 3.jpg|A rawhide mallet: a face that strikes hard without marking|product
 laidrope|commons|Cordage chantier de l'Hermione Rochefort sur Mer.jpg|Three-strand hemp rope at the Hermione dockyard|photo
 doublebraid|commons|Tree Climbing Arborist.jpg|An arborist on a climbing line, the job double braid was made for|product
 twelvestrand|commons|Soft shackles.JPG|Soft shackles — a loop of hollow braid spliced into itself|product
