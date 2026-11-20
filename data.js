@@ -2221,7 +2221,8 @@ window.MATERIALS = [
 {
   id: "printsilicone", cat: "additive", name: "Printable silicone",
   sub: "thixotropic liquid silicone rubber", img: "printsilicone",
-  hook: "Silicone will not hold a shape on its own, so it is either made thixotropic — stiff until the nozzle shears it, stiff again the instant it lands — or printed into a gel bath that holds it while it cures. Either way soft parts stop needing a mould, which is what soft robotics was waiting for.",
+  hook: "Silicone will not hold a shape on its own, so it is made thixotropic, stiff until the nozzle shears it, stiff again when it lands, or printed into a gel that holds it while it cures. Soft parts stop needing a mould.",
+  more: "Liquid silicone rubber is two parts that cure on platinum; for printing, fumed silica turns it into a paste that flows at the nozzle and stands in the bead, or an ultraviolet-curing grade sets under a lamp on every layer. The other route, from the Lewis lab at Harvard in 2014, writes the uncured silicone into a vat of granular gel that parts round the needle and closes behind it, so a gripper with air channels is drawn in free space and cured in place. The costs: layers bond worse than a cast block, so the part tears along them; a bead a quarter of a millimetre wide is as fine as it gets; the platinum cure dies on sulphur or tin, so the bed must be clean; and a thickened silicone is weaker than the same rubber poured.",
   stats: [["Shore", "00–30 to A-60"], ["Rheology", "shear-thinning, recovers fast"], ["Cure", "platinum or UV"]],
   uses: "Soft robot actuators, custom seals and gaskets, prosthetic liners, wearables, anatomical models.",
   link: "https://en.wikipedia.org/wiki/Silicone"
@@ -2230,32 +2231,36 @@ window.MATERIALS = [
 /* ---------- ROPES & WOVEN MATERIALS ---------- */
 {
   id: "manila", cat: "fibre", name: "Manila (abacá)",
-  sub: "Musa textilis leaf fibre", img: "manila",
-  hook: "Not hemp at all but a banana relative, and for a century the standard every other rope was measured against. It holds up in salt water where most plant fibres rot, and it is stiff enough to hold a coil.",
+  sub: "Musa textilis leaf fibre", img: "manila", extra: ["manila2", "manila3"],
+  hook: "Not hemp at all but a banana relative, and for a century the rope every other was measured against. It holds up in salt water where most plant fibres rot, and is stiff enough to hold a coil.",
+  more: "The fibre runs the length of the leaf sheath, two or three metres, and is stripped by drawing the sheath under a knife by hand; a tonne of stalks gives 15 kilograms. It is cellulose with the lignin left in, which is why it stands salt water that would rot cotton, and why it is harsh and stiff. Manila rope went round the world on whalers and clippers, and the US Navy specified it until nylon arrived in the 1940s; it keeps most of its strength wet, where hemp loses more and rots besides. The costs: it shrinks when wet and locks a knot; it is coarse and splintery in the hand; the stripping is hand labour and the price follows typhoons in Bicol; and the same fibre now goes mostly into teabags and banknotes, where the wet strength is the point.",
   stats: [["Wet", "tolerates salt water"], ["Historic role", "the benchmark rope"], ["Stretch", "low for a natural fibre"]],
   uses: "Marine and towing rope, heavy twine, teabags and currency paper, Manila folders.",
   link: "https://en.wikipedia.org/wiki/Abac%C3%A1"
 },
 {
   id: "hemprope", cat: "fibre", name: "Hemp",
-  sub: "Cannabis sativa bast fibre", img: "hemprope",
-  hook: "The rope that rigged the age of sail. It is strong and grips well, but it rots from the inside once damp — which is why standing rigging was tarred, and why the smell of tar is the smell of an old ship.",
+  sub: "Cannabis sativa bast fibre", img: "hemprope", extra: ["hemprope2", "hemprope3"],
+  hook: "The rope that rigged the age of sail. Strong, and it grips well, but it rots from the inside once damp, which is why standing rigging was tarred and why the smell of tar is the smell of an old ship.",
+  more: "Hemp is a bast fibre, the long strands under the bark of the stalk, freed by retting: the cut stems lie in a field or a pond until bacteria eat the pectin that glues the fibre to the wood. A first-rate ship carried 30 miles of it, and the Royal Navy bought Riga hemp by the thousand tons, one reason the Baltic mattered to Napoleon. Standing rigging was soaked in Stockholm tar, which kept the water out and gave the smell; running rigging, which had to render through blocks, was left white and replaced often. The costs: wet, it shrinks and swells, so the rigging was set up again after rain; untreated it rots inside the lay where no one can see; it is weaker than manila for the weight; and tarred rope is stiff and black on the hands.",
   stats: [["Strength", "high for a bast fibre"], ["Wet", "rots untreated"], ["Traditional fix", "tar"]],
   uses: "Traditional rigging and cordage, twine, canvas, decorative and theatre rope.",
   link: "https://en.wikipedia.org/wiki/Hemp"
 },
 {
   id: "sisal", cat: "fibre", name: "Sisal",
-  sub: "Agave sisalana leaf fibre", img: "sisal",
+  sub: "Agave sisalana leaf fibre", img: "sisal", extra: ["sisal2", "sisal3"],
   hook: "Coarse, cheap and sharply textured, so knots in it stay tied and cats sharpen their claws on it. It has almost no elasticity and little tolerance for damp, so it lives a short hard life on purpose.",
+  more: "The leaf of an agave is crushed and scraped, the pulp washed off and the fibre dried in the sun in hanks a metre long, 4 per cent of the leaf by weight. Yucatán grew it as henequen for the binder twine that fed the McCormick reaper, and the fortune built Mérida. The fibre is stiff, strong in a straight pull and rough enough that a knot holds without a locking turn, which is what a baler needs. The costs: it stretches only 3 per cent and snaps rather than gives; wet, it swells, weakens and rots, so it is never a marine rope; the fibres are short and the rope sheds them; and polypropylene twine did to sisal in the 1960s what nylon did to manila, so the crop that built a city is now carpet backing, scratching posts and polishing wheels.",
   stats: [["Texture", "deliberately rough"], ["Stretch", "minimal"], ["Wet", "weakens and rots"]],
   uses: "Baler and agricultural twine, scratching posts, buffing wheels, carpet backing, matting.",
   link: "https://en.wikipedia.org/wiki/Sisal"
 },
 {
   id: "coir", cat: "fibre", name: "Coir",
-  sub: "coconut husk fibre", img: "coir",
-  hook: "Weak by any engineering measure, but it floats, stretches about a third of its length before failing, and salt water barely touches it. For a mooring line that has to surge and never sink, those are the right properties.",
+  sub: "coconut husk fibre", img: "coir", extra: ["coir2", "coir3"],
+  hook: "Weak by any engineering measure, but it floats, stretches a third of its length before failing, and salt water barely touches it. For a mooring line that must surge and never sink, those are the right properties.",
+  more: "The husk of a coconut is retted in brackish water for months, then beaten to free the fibre; brown coir comes from ripe nuts. It is 45 per cent lignin, which is what shrugs off salt water and rot, and what makes the fibre coarse and the rope hairy. Spun on the beach by hand in Kerala and Sri Lanka, it was the rope of the Indian Ocean dhow, which was sewn together with it rather than nailed. The costs: a quarter of the strength of manila, so the rope is thick for its load; the stretch that makes a mooring line forgiving makes a halyard useless; it drinks water and is heavy wet; and the retting lagoons stink and foul the backwaters, which is why the fibre now goes more into doormats, mattresses and erosion matting than rope.",
   stats: [["Elongation", "~30%"], ["Buoyancy", "floats"], ["Salt water", "highly resistant"]],
   uses: "Mooring and towing lines, doormats and matting, erosion blankets, growing medium, brushes.",
   link: "https://en.wikipedia.org/wiki/Coir"

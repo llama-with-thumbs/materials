@@ -223,10 +223,18 @@ epoxy3|commons|Radar Horn Receiver PCB.jpg|A circuit board: the green laminate u
 eva|Flickr|https://live.staticflickr.com/8231/29185027553_8595d2db11_b.jpg|A closed-cell EVA foam camping mat|product|CC BY 2.0|MIKI Yoshihito. (#mikiyoshihito)|https://www.flickr.com/photos/7940758@N07/29185027553
 eva2|commons|Paar oranje Jackson Pollock Crocs, objectnr 91281-A.1-2.JPG|A pair of Crocs: a closed-cell foam resin of the EVA family, moulded in one piece|product
 eva3|commons|EVA sheet.png|Rolls of EVA foam sheet, the craft and orthotic form|product
-manila|commons|20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg|Abacá fibre, stripped and dried|photo
-hemprope|commons|Cordage en chanvre.jpg|Hemp cordage|photo
-sisal|commons|Pacas de sisal.jpg|Baled sisal fibre|photo
-coir|commons|Making coir rope in Kerala.JPG|Coir rope being twisted by hand in Kerala|product
+manila|commons|20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg|Abacá fibre stripped and hung to dry, the full length of the leaf sheath|photo
+manila2|commons|14-QWSTION-BANANATEX-STRIPPING-LAUSCHSICHT.jpg|Stripping: the sheath drawn under a knife by hand, the pulp left behind|process
+manila3|commons|Abaca 40x.JPG|One abacá fibre at 40 times, a hollow tube of cellulose|structure
+hemprope|commons|Cordage en chanvre.jpg|A coil of three-strand hemp rope, white, untarred|photo
+hemprope2|commons|Hemp fiber.jpg|Bast still on the stalk: the fibre is the layer under the bark, and retting is what frees it|photo
+hemprope3|commons|Photo Hemp fiber sheaves left to macerate 1950 - Touring Club Italiano 1.2770.jpg|Retting in Italy, 1950: sheaves of hemp sunk in a pond until the pectin rots away|process
+sisal|commons|Sotuta sisal drying Yucatán.jpg|Henequen drying on racks at Sotuta de Peón, Yucatán, the crop that built Mérida|photo
+sisal2|commons|Agave sisalana kz02.jpg|The plant, gone wild on the coast of Andalusia: the fibre is the leaf, the pole is the flower|related
+sisal3|commons|Combing sisal fibre, Tekik Plantation, Acanceh, Yucatan, Mexico 1909 crop showing right photo.jpg|Combing the dried fibre on a Yucatán plantation, 1909|process
+coir|commons|Making coir rope in Kerala.JPG|Coir rope twisted by hand in Kerala, two women and a wheel|product
+coir2|commons|Coir Fibre EX Stock.jpg|Brown coir baled for export, the fibre as it leaves the retting and beating|photo
+coir3|commons|Coir mat making.jpg|A doormat on the frame, where most of the fibre now ends up|process
 jute|commons|Jute Rope (சணல் கயிறு).jpg|Jute rope|photo
 cottonduck|commons|Close up of cotton duck canvas.JPG|Cotton duck, woven tight enough to shed water|photo
 linen|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1921.1026/1921.1026_web.jpg|Mummy linen: flax in a plain weave, thousands of years old and still cloth|photo|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1921.1026

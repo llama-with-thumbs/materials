@@ -1392,3 +1392,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `fourd`: the strain diagram replaced by the gripper photo sequence; the humidity aperture and the blooming flower added. `shape memory polymer stent`, `Skylar Tibbits`, `self-folding` (umbrellas) nothing.
 - `metalpowder`: no photograph of an atomiser or a recoater. `gas atomization` gives the diagram, added; `Plasma atomized pure titanium powder sample.png` is a software screenshot; `powder bed recoater`, `titanium powder spherical` nothing.
 - `grcop`: no photograph of a GRCop part itself (`GRCop` is a French photo album). The AFRL deposition chamber added as the geometry; the Astra Delphin was already on `inconel718`. The Marshall injector stays.
+
+## Batch 44 restyle (printsilicone, manila, hemprope, sisal, coir)
+
+- `printsilicone`: no second photograph of printed silicone. `silicone 3D printing`, `soft robot silicone`, `embedded 3D printing silicone`, `Silikon 3D-Druck` return only the actuator already on the card; `3D printed liver model` is PLA with cast silicone; `Soft robot locomotion.jpg` is already on `dea`; `Liquid-silicon-rubber` on `silicone2`. Additive is complete.
+- `sisal`: the bales replaced by the Sotuta drying racks, a better picture of the fibre and the place; the agave and the 1909 combing added. `Sisal fibres.JPG` is a wisp on black cloth, passed over.
+- `hemprope`: `tarred rope rigging` nothing; `Hemp Rope 1740.jpg` is a museum relic with no context; the Touring Club retting photo and the CC0 fibre detail added.
+- `manila`: `manila rope` returns textiles and lampshades, no rope; the stripping and the micrograph added.
+- `coir`: `coir retting`, `coir yarn spinning` nothing; the export bales and the mat frame added.

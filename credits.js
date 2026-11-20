@@ -2642,7 +2642,7 @@ window.CREDITS = {
   },
   "manila": {
     "file": "manila.jpg",
-    "caption": "Abacá fibre, stripped and dried",
+    "caption": "Abacá fibre stripped and hung to dry, the full length of the leaf sheath",
     "kind": "photo",
     "title": "20-QWSTION-BANANATEX-FIBERS-2-LAUSCHSICHT.jpg",
     "artist": "BANANATEX",
@@ -2652,9 +2652,33 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "manila2": {
+    "file": "manila2.jpg",
+    "caption": "Stripping: the sheath drawn under a knife by hand, the pulp left behind",
+    "kind": "process",
+    "title": "14-QWSTION-BANANATEX-STRIPPING-LAUSCHSICHT.jpg",
+    "site": "Wikimedia",
+    "artist": "BANANATEX",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:14-QWSTION-BANANATEX-STRIPPING-LAUSCHSICHT.jpg",
+    "w": 960,
+    "h": 716
+  },
+  "manila3": {
+    "file": "manila3.jpg",
+    "caption": "One abacá fibre at 40 times, a hollow tube of cellulose",
+    "kind": "structure",
+    "title": "Abaca 40x.JPG",
+    "site": "Wikimedia",
+    "artist": "No machine-readable author provided. Edward Dowlman assumed (based on copyright claims).",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Abaca_40x.JPG",
+    "w": 960,
+    "h": 720
+  },
   "hemprope": {
     "file": "hemprope.jpg",
-    "caption": "Hemp cordage",
+    "caption": "A coil of three-strand hemp rope, white, untarred",
     "kind": "photo",
     "title": "Cordage en chanvre.jpg",
     "artist": "Ji-Elle",
@@ -2664,21 +2688,69 @@ window.CREDITS = {
     "h": 749,
     "site": "Wikimedia"
   },
+  "hemprope2": {
+    "file": "hemprope2.jpg",
+    "caption": "The bast fibre itself, after retting and scutching",
+    "kind": "photo",
+    "title": "Hemp fiber.jpg",
+    "site": "Wikimedia",
+    "artist": "SpessiG",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hemp_fiber.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "hemprope3": {
+    "file": "hemprope3.jpg",
+    "caption": "Retting in Italy, 1950: sheaves of hemp sunk in a pond until the pectin rots away",
+    "kind": "process",
+    "title": "Photo Hemp fiber sheaves left to macerate 1950 - Touring Club Italiano 1.2770.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown authorUnknown author",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Photo_Hemp_fiber_sheaves_left_to_macerate_1950_-_Touring_Club_Italiano_1.2770.jpg",
+    "w": 960,
+    "h": 640
+  },
   "sisal": {
     "file": "sisal.jpg",
-    "caption": "Baled sisal fibre",
+    "caption": "Henequen drying on racks at Sotuta de Peón, Yucatán, the crop that built Mérida",
     "kind": "photo",
-    "title": "Pacas de sisal.jpg",
-    "artist": "Comvaser dice: Tomado de Wikipedia en Inglés según referencia señalada en Source.Dotado de licencia de uso de dominio público por el autor misma que se reproduce abajo.",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Pacas_de_sisal.jpg",
+    "title": "Sotuta sisal drying Yucatán.jpg",
+    "site": "Wikimedia",
+    "artist": "pichul12",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sotuta_sisal_drying_Yucat%C3%A1n.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 640
+  },
+  "sisal2": {
+    "file": "sisal2.jpg",
+    "caption": "The plant, gone wild on the coast of Andalusia: the fibre is the leaf, the pole is the flower",
+    "kind": "related",
+    "title": "Agave sisalana kz02.jpg",
+    "site": "Wikimedia",
+    "artist": "Krzysztof Ziarnek, Kenraiz",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Agave_sisalana_kz02.jpg",
+    "w": 960,
+    "h": 639
+  },
+  "sisal3": {
+    "file": "sisal3.jpg",
+    "caption": "Combing the dried fibre on a Yucatán plantation, 1909",
+    "kind": "process",
+    "title": "Combing sisal fibre, Tekik Plantation, Acanceh, Yucatan, Mexico 1909 crop showing right photo.jpg",
+    "site": "Wikimedia",
+    "artist": "Uncredited for Keystone View Company",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Combing_sisal_fibre,_Tekik_Plantation,_Acanceh,_Yucatan,_Mexico_1909_crop_showing_right_photo.jpg",
+    "w": 960,
+    "h": 989
   },
   "coir": {
     "file": "coir.jpg",
-    "caption": "Coir rope being twisted by hand in Kerala",
+    "caption": "Coir rope twisted by hand in Kerala, two women and a wheel",
     "kind": "product",
     "title": "Making coir rope in Kerala.JPG",
     "artist": "Bricaniwi",
@@ -2687,6 +2759,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "coir2": {
+    "file": "coir2.jpg",
+    "caption": "Brown coir baled for export, the fibre as it leaves the retting and beating",
+    "kind": "photo",
+    "title": "Coir Fibre EX Stock.jpg",
+    "site": "Wikimedia",
+    "artist": "TheOilLamp",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coir_Fibre_EX_Stock.jpg",
+    "w": 960,
+    "h": 540
+  },
+  "coir3": {
+    "file": "coir3.jpg",
+    "caption": "A doormat on the frame, where most of the fibre now ends up",
+    "kind": "process",
+    "title": "Coir mat making.jpg",
+    "site": "Wikimedia",
+    "artist": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coir_mat_making.jpg",
+    "w": 960,
+    "h": 720
   },
   "jute": {
     "file": "jute.jpg",
