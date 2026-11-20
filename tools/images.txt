@@ -716,8 +716,8 @@ monofil3|commons|Nylon suture 01.JPG|Nylon suture in its pack: a single strand w
 emifabric|commons|MissionDarkness FaradayBag phone.jpg|A Faraday bag of metallised fabric: the phone inside cannot be rung, tracked or wiped|product
 emifabric2|commons|Conductive Silver material.jpg|Silver-plated nylon knit under the electron microscope: every filament coated, the weave still open|structure
 technora|commons|Tandriem BMW F 650 CS02.JPG|A toothed belt final drive: aramid cords carry the load inside the rubber|product
-preoxpan|commons|Fire-blanket-on-display.jpg|A fire blanket — oxidised PAN felt is one of the two cloths used for these, glass the other|related
-ptfethread|commons|Velodrome Marseille Stadium by Taiyo Europe.JPG|A stadium membrane roof — seams this size are sewn with PTFE thread|product
+preoxpan|commons|Fire-blanket-on-display.jpg|A fire blanket: oxidised PAN felt is one of the two cloths used for these, glass the other|related
+ptfethread|commons|Velodrome Marseille Stadium by Taiyo Europe.JPG|A stadium membrane roof: seams this size are sewn with PTFE thread|product
 kuralon|commons|Sample of Polyvinyl alcohol.jpg|Polyvinyl alcohol resin — Kuralon is this polymer, wet-spun into fibre|related
 rawhide|commons|Rawhide mallet in Tuntorp 3.jpg|A rawhide mallet — a face that strikes hard without marking|product
 laidrope|commons|Cordage chantier de l'Hermione Rochefort sur Mer.jpg|Three-strand hemp rope at the Hermione dockyard|photo
@@ -754,9 +754,10 @@ lattice|commons|3D-printed Microstructure.jpg|One printed lattice at three strut
 lattice2|commons|Additive manufacturing (9067742195).jpg|Titanium lattices and the parts they live in, grown by electron-beam melting at Oak Ridge: spheres, a gauntlet, a housing with a lattice core|product
 primaloft|commons|Adidas belgements primaloft cycling gilet.jpg|An insulated cycling gilet: PrimaLoft wadding under a windproof shell|product
 primaloft2|commons|Handsker med thinsulate.jpg|Work gloves lined with Thinsulate, the 3M microfibre that came first|product
-m5fibre|commons|Aramid fiber2.jpg|Aramid filaments about 10 µm across — M5 is the rigid-rod fibre that was meant to beat these|analog
-basofil|commons|Turnout gear in the Czech Republic.jpg|Firefighters' turnout gear — melamine fibre goes into liners and hoods of kit like this|analog
-silicafibre|commons|Glasfaser Roving.jpg|A bobbin of glass roving — high-silica fibre starts as glass like this, then is leached until almost nothing but silica is left|analog
+m5fibre|commons|Aramid fiber2.jpg|Aramid filaments about 10 µm across: M5 is the rigid-rod fibre that was meant to beat these|analog
+basofil|commons|Turnout gear in the Czech Republic.jpg|Firefighters' turnout gear: melamine fibre goes into the liners and hoods of kit like this|analog
+silicafibre|commons|Silica fibre 1250g m2 1600dpi.jpg|Woven high-silica cloth at 1,250 grams a square metre, scanned: glass with everything but the silica leached out|photo
+silicafibre2|commons|Stafford Air & Space Museum, Weatherford, OK, US (14).jpg|An Apollo 10 stowage bag of Beta cloth, woven silica coated in PTFE: the cloth NASA chose after the fire of 1967|product
 kineticrope|Flickr|https://live.staticflickr.com/65535/53832951206_5e50292625_b.jpg|A fuse shackle for vehicle recovery, built to break first — the weak link that goes in line with a kinetic rope|analog|CC BY 2.0|Tony Webster|https://www.flickr.com/photos/diversey/53832951206
 triaxial|commons|Woven Fabric (ST177) - MoMu Antwerp.jpg|An open leno-type weave — triaxial takes the idea further, with three yarn sets at 60°|analog
 stitchbond|commons|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A glass–aramid hybrid reinforcement, 580 g/m² — non-crimp fabric is this job with the yarns kept dead straight|analog

@@ -6240,18 +6240,6 @@ window.CREDITS = {
     "w": 960,
     "h": 1281
   },
-  "horsehair2": {
-    "file": "horsehair2.jpg",
-    "caption": "The frog of a French violin bow, where the ribbon of tail hair is clamped",
-    "kind": "product",
-    "title": "Violin Bow MET midp1989.146det.jpg",
-    "site": "Wikimedia",
-    "artist": "Unknown",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Violin_Bow_MET_midp1989.146det.jpg",
-    "w": 960,
-    "h": 1026
-  },
   "horsehair3": {
     "file": "horsehair3.jpg",
     "caption": "A specimen tray in the Tilburg textile museum: hanks of horsehair among the other animal fibres",
@@ -8570,7 +8558,7 @@ window.CREDITS = {
   },
   "preoxpan": {
     "file": "preoxpan.jpg",
-    "caption": "A fire blanket — oxidised PAN felt is one of the two cloths used for these, glass the other",
+    "caption": "A fire blanket: oxidised PAN felt is one of the two cloths used for these, glass the other",
     "kind": "related",
     "title": "Fire-blanket-on-display.jpg",
     "artist": "JonathanLamb",
@@ -8582,7 +8570,7 @@ window.CREDITS = {
   },
   "ptfethread": {
     "file": "ptfethread.jpg",
-    "caption": "A stadium membrane roof — seams this size are sewn with PTFE thread",
+    "caption": "A stadium membrane roof: seams this size are sewn with PTFE thread",
     "kind": "product",
     "title": "Velodrome Marseille Stadium by Taiyo Europe.JPG",
     "artist": "Taiyo Europe",
@@ -9026,7 +9014,7 @@ window.CREDITS = {
   },
   "m5fibre": {
     "file": "m5fibre.jpg",
-    "caption": "Aramid filaments about 10 µm across — M5 is the rigid-rod fibre that was meant to beat these",
+    "caption": "Aramid filaments about 10 µm across: M5 is the rigid-rod fibre that was meant to beat these",
     "kind": "analog",
     "title": "Aramid fiber2.jpg",
     "artist": "Cjp24",
@@ -9038,7 +9026,7 @@ window.CREDITS = {
   },
   "basofil": {
     "file": "basofil.jpg",
-    "caption": "Firefighters' turnout gear — melamine fibre goes into liners and hoods of kit like this",
+    "caption": "Firefighters' turnout gear: melamine fibre goes into the liners and hoods of kit like this",
     "kind": "analog",
     "title": "Turnout gear in the Czech Republic.jpg",
     "artist": "Michal Maňas",
@@ -9050,15 +9038,27 @@ window.CREDITS = {
   },
   "silicafibre": {
     "file": "silicafibre.jpg",
-    "caption": "A bobbin of glass roving — high-silica fibre starts as glass like this, then is leached until almost nothing but silica is left",
-    "kind": "analog",
-    "title": "Glasfaser Roving.jpg",
-    "artist": "NoiseD at de.wikipedia",
+    "caption": "Woven high-silica cloth at 1,250 grams a square metre, scanned: glass with everything but the silica leached out",
+    "kind": "photo",
+    "title": "Silica fibre 1250g m2 1600dpi.jpg",
+    "site": "Wikimedia",
+    "artist": "Achim Hering",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Silica_fibre_1250g_m2_1600dpi.jpg",
+    "w": 960,
+    "h": 908
+  },
+  "silicafibre2": {
+    "file": "silicafibre2.jpg",
+    "caption": "An Apollo 10 stowage bag of Beta cloth, woven silica coated in PTFE: the cloth NASA chose after the fire of 1967",
+    "kind": "product",
+    "title": "Stafford Air & Space Museum, Weatherford, OK, US (14).jpg",
+    "site": "Wikimedia",
+    "artist": "Bubba73",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Glasfaser_Roving.jpg",
-    "w": 773,
-    "h": 1429,
-    "site": "Wikimedia"
+    "page": "https://commons.wikimedia.org/wiki/File:Stafford_Air_%26_Space_Museum,_Weatherford,_OK,_US_(14).jpg",
+    "w": 960,
+    "h": 641
   },
   "kineticrope": {
     "file": "kineticrope.jpg",

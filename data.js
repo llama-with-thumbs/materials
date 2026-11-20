@@ -2636,7 +2636,8 @@ window.MATERIALS = [
 {
   id: "m5fibre", cat: "fibre", name: "M5 (PIPD)",
   sub: "poly(pyridobisimidazole)", img: "m5fibre",
-  hook: "The one rigid-rod fibre designed to hold hydrogen bonds sideways between its chains, so it resists being squashed instead of only being pulled. On paper it beat everything. It never left the pilot plant.",
+  hook: "The one rigid-rod fibre built to hold hydrogen bonds sideways, so it resists being squashed as well as pulled; the others buckle at a tenth of that. On paper it beat everything. It never left the pilot plant.",
+  more: "Doetze Sikkema at Akzo Nobel designed it in the 1990s: a ladder-stiff backbone like Zylon's, with hydroxyl groups and imidazole nitrogens placed so that each chain bonds to its neighbours in two directions. Kevlar and Zylon fail in compression because their chains slide and kink; the sideways bonds in M5 lock them, and the measured compressive strength came out at three or four times an aramid's, with a modulus over 300 gigapascals and a tenacity above Kevlar's. The costs: the monomer, a tetraaminopyridine, is a multi-step synthesis nobody has made cheaply; the fibre is spun from polyphosphoric acid like PBO; Magellan ran a pilot line in Virginia on army money and closed it; and it remains the benchmark everyone cites and nobody can buy.",
   stats: [["Predicted modulus", "300–450 GPa"], ["Compression", "best of the rigid rods"], ["Status", "never commercialised"]],
   uses: "Armour and cable prototypes only; the benchmark everyone cites and nobody can buy.",
   link: "https://en.wikipedia.org/wiki/M5_fiber"
@@ -2644,7 +2645,8 @@ window.MATERIALS = [
 {
   id: "basofil", cat: "fibre", name: "Melamine fibre",
   sub: "melamine-formaldehyde, Basofil", img: "basofil",
-  hook: "A thermoset spun as a fibre, which means it has no melting point to reach. It chars, holds its shape and keeps heat off the skin for a fraction of the price of aramid. It is simply too weak to be the strength of the garment.",
+  hook: "A thermoset spun as a fibre, so no melting point to reach: it chars, holds its shape and keeps heat off the skin for a fraction of aramid's price. Too weak to be the strength, it is always the filling in a blend.",
+  more: "BASF worked out in the 1990s how to spin a melamine-formaldehyde resin before it set, then cure the filament into a crosslinked, infusible fibre; made at Enka in North Carolina as Basofil. The polymer is the one in unbreakable plates and worktop laminate, and it behaves the same as a fibre: it will not melt or drip, it needs 32 per cent oxygen to keep burning, it chars to a crust at 370 degrees and the crust insulates. It is also a poor conductor of heat, the job in a hood. The costs: the tenacity is a quarter of an aramid's, so it goes in at 40 to 60 per cent with aramid or FR viscose and never alone; it is brittle and dusty; it comes pink and dyes badly; it can give off traces of formaldehyde; and it is a felt or a knit, never a woven outer shell.",
   stats: [["Limiting oxygen index", "~32%"], ["Continuous use", "190–200 °C"], ["Tenacity", "low, always blended"]],
   uses: "Firefighter hoods and liners, aircraft seat fire blocking, hot gas filter felts, mattress barriers.",
   link: "https://en.wikipedia.org/wiki/Melamine_resin"
@@ -2652,15 +2654,17 @@ window.MATERIALS = [
 {
   id: "preoxpan", cat: "fibre", name: "Oxidised PAN",
   sub: "stabilised polyacrylonitrile, Panox", img: "preoxpan",
-  hook: "Carbon fibre stopped halfway. Heat acrylic fibre in air and it cyclises into a black, soft, infusible ladder polymer at about 62% carbon. Carry on and you get carbon fibre; stop here and you get something that stays textile and will not burn.",
+  hook: "Carbon fibre stopped halfway. Heat acrylic in air and it cyclises into a black, infusible ladder polymer, 62 per cent carbon; carry on at 1,500 and it is carbon fibre. Stop here: a textile that will not burn.",
+  more: "Every carbon-fibre plant has this stage: acrylic tow drawn slowly through ovens at 200 to 300 degrees in air, under tension so it does not shrink, while the nitriles close into rings. Sold as Panox or Pyron, it is black, limp, crimped and cut to staple like wool, and it will not catch: it needs 45 to 55 per cent oxygen to burn, does not melt or drip, and shrinks almost nothing in a flame. Needle-punched to felt, it goes under aircraft seats as the fire-blocking layer and into welding blankets. The costs: it is weak, about a third of a polyester, and wears through fast; it comes in one colour, black, and sheds a fine dust; it costs several times glass; and it is really a stage in someone else's process, priced accordingly.",
   stats: [["Carbon", "~62%"], ["Limiting oxygen index", "~45%"], ["Shrinkage in flame", "almost none"]],
   uses: "Fire blankets, flame barriers under aircraft and vehicle seats, firefighter underlayers, friction material preforms.",
   link: "https://en.wikipedia.org/wiki/Polyacrylonitrile"
 },
 {
   id: "silicafibre", cat: "fibre", name: "High-silica fibre",
-  sub: "acid-leached glass fibre, 96–99% SiO₂", img: "silicafibre",
-  hook: "Ordinary glass cloth soaked in acid until everything except the silica has been washed out of it. What is left behaves like quartz but drapes like a textile: it takes a welding spark or a rocket exhaust and stays a cloth.",
+  sub: "acid-leached glass fibre, 96–99% SiO₂", img: "silicafibre", extra: ["silicafibre2"],
+  hook: "Glass cloth soaked in hot acid until everything but the silica is washed out. It behaves like quartz and drapes like cloth: it takes a welding spark or a rocket exhaust and stays a cloth where glass goes soft.",
+  more: "A glass is a mixture of oxides, and most of them, the soda, the boron, the alumina, dissolve in hot hydrochloric acid; the silica does not. Leach a woven glass cloth for a day, rinse it, heat it to close the pores, and it is 96 to 99 per cent silica, with a softening point near 1,600 degrees instead of 700. Beta cloth, woven silica coated in PTFE, is what NASA dressed the Apollo spacecraft in after the fire of 1967. Fused-quartz fibre costs ten times as much. The costs: the leaching leaves the fibre porous and takes most of its strength, so the cloth tears and frays at an edge and is often coated with vermiculite to hold it; it abrades to a dust that itches; it cannot carry load hot, only heat; and it shrinks a little the first time it is fired.",
   stats: [["Silica", "96–99%"], ["Continuous use", "~1000 °C"], ["Short excursions", "~1600 °C"]],
   uses: "Welding blankets and curtains, furnace gaskets, ablative liners, exhaust wrap.",
   link: "https://en.wikipedia.org/wiki/Glass_fiber"
@@ -2668,7 +2672,8 @@ window.MATERIALS = [
 {
   id: "ptfethread", cat: "fibre", name: "PTFE thread",
   sub: "expanded PTFE sewing thread, Tenara", img: "ptfethread",
-  hook: "Awnings used to fail at the stitching, not the cloth, because polyester thread sitting proud of the surface takes the full UV dose. This thread is chemically indifferent to sunlight, chlorine and salt, so the seam now outlives the fabric it holds together.",
+  hook: "Awnings used to fail at the stitching, not the cloth: polyester thread sits proud and takes the whole dose of sun. This thread does not know the sun is there, or chlorine or salt, so the seam outlives the fabric.",
+  more: "Gore makes it from the same expanded PTFE as its rain jackets, stretched into a filament and twisted; nothing in sunlight, seawater, pool chlorine or bird droppings reacts with it, and it is the same at minus 70 as at 250 degrees. A seam in polyester thread on a boat cover is tired in three years and gone in five; one in this thread is guaranteed for the life of the fabric, which is why membrane roofs and marine canvas shops sew with it. The costs: it is several times the price of polyester and weaker, size for size, so it is sewn heavier; it is slippery, so the machine is retuned and a knot creeps; it has no stretch and no bite, so a badly set seam puckers; it will not take a dye and comes in a few pigmented colours; and it is a fluoropolymer.",
   stats: [["UV life", "effectively unlimited"], ["Strength", "below polyester"], ["Handling", "slippery, needs tension tuning"]],
   uses: "Marine canvas, awnings, tensile structures, pool covers, outdoor furniture.",
   link: "https://en.wikipedia.org/wiki/Polytetrafluoroethylene"
