@@ -41,8 +41,9 @@
   .wheel-fig .opt:hover, .wheel-fig .opt:focus-visible { border-color: var(--blue); color: var(--blue); outline: none; }
   .wheel-fig .opt[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
   .wheel-fig .cap { margin: 10px 0 0; font-size: 12.5px; color: var(--dim); line-height: 1.5; }
-  .wheel-fig .era-opts { position: absolute; left: 18px; top: 56px; flex-direction: column; margin: 0; }
+  .wheel-fig .era-opts { position: absolute; left: 18px; top: 18px; flex-direction: column; margin: 0; }
   .wheel-fig .era-opts .opt { text-align: center; }
+  .wheel-fig .lang-opts { position: absolute; right: 18px; top: 18px; flex-direction: column; align-items: flex-end; margin: 0; }
   .wheel-fig #wheel { padding-top: 5px; }
   svg.wheel { display: block; width: 100%; height: auto; font-family: var(--font); }
   svg.wheel .area { fill: var(--panel); stroke: var(--ink); stroke-width: 1.4; stroke-linejoin: round; cursor: pointer; transition: fill 0.15s; }
@@ -61,16 +62,9 @@
   svg.wheel .seg:hover text.hit, svg.wheel .seg:focus-visible text.hit, svg.wheel .seg.on text.hit { fill: var(--red); }
   svg.wheel .marks line { stroke: var(--red); stroke-width: 2; }
   svg.wheel .marks text { font-size: 14px; fill: var(--red); font-weight: 500; }
-  svg.wheel .time .stage { fill: var(--panel); stroke: var(--ink); stroke-width: 1.4; }
-  svg.wheel .time .stage.a { fill: var(--red); fill-opacity: 0.22; }
-  svg.wheel .time .stage.b { fill: var(--paper); }
-  svg.wheel .time .stage.open { stroke-dasharray: 5 4; }
-  svg.wheel .time .tl { font-size: 12px; fill: var(--ink); }
-  svg.wheel .time .tt { stroke: var(--ink); stroke-width: 1.2; }
-  svg.wheel .time .tk { font-size: 11.5px; fill: var(--ink); }
-  svg.wheel .time .unit { fill: var(--dim); }
   .panel { position: sticky; top: 20px; background: var(--panel); border: 1px solid var(--line); border-top: 3px solid var(--ink); padding: 14px 18px 16px; min-height: 320px; }
   .panel .no { margin: 0 0 2px; font-size: 12px; color: var(--dim); }
+  .panel .facts + .no { margin-top: 14px; }
   .panel h3 { margin: 0; font-size: 22px; font-weight: 500; line-height: 1.15; }
   .panel .sub { margin: 4px 0 12px; font-size: 13px; color: var(--dim); }
   .panel p { font-size: 15px; line-height: 1.55; margin: 0 0 10px; }
@@ -112,19 +106,20 @@
 
   <div class="wheel-wrap">
     <div class="wheel-fig">
-      <div class="opts" id="lang" role="group" aria-label="the words on the wheel">
-        <button class="opt" type="button" data-lang="en" aria-pressed="true">english</button>
-        <button class="opt" type="button" data-lang="de" aria-pressed="false">deutsch, after the 1922 statutes</button>
-        <button class="opt" type="button" data-lang="ru" aria-pressed="false">русский, in the words of VKhUTEMAS</button>
+      <div class="opts lang-opts" id="lang" role="group" aria-label="the words on the wheel">
+        <button class="opt" type="button" data-lang="en" aria-pressed="true" title="the English wording usually reproduced">english</button>
+        <button class="opt" type="button" data-lang="de" aria-pressed="false" title="the German of the 1922 statutes">deutsch</button>
+        <button class="opt" type="button" data-lang="ru" aria-pressed="false" title="Russian in the words of VKhUTEMAS, the Moscow school of 1920 built on the same plan; no translation from the school's own time survives">русский</button>
       </div>
       <div id="wheel"></div>
       <p class="cap">after Walter Gropius, scheme of the Bauhaus course, 1922. point at a ring; click to keep it; tab
         through the segments and press enter. the dates at the left redraw the course as it stood in 1919, 1927,
         1929 and 1930 on the same rings: the programme of April 1919, the Dessau regulations of 1926 with the
         building department of 1927, Hannes Meyer's school of 1929, and the statutes of 8 October 1930 under
-        Mies van der Rohe. red marks the two durations the original writes at the top; the bar
-        beneath draws the three stages to scale in years, which the rings do not: half a year, three years, and
-        building, which the statutes left without a term and which became a nine-semester course in 1929. no Russian
+        Mies van der Rohe. red marks the two durations the original writes at the top; how long each stage took,
+        and how many students got how far, is read out in the panel at the side, since the rings are drawn as
+        Gropius drew them and their widths mean nothing in time or in numbers. the words switch to German or
+        Russian in the corner. no Russian
         rendering from the school's own time could be found; the Russian follows the words of VKhUTEMAS, the Moscow
         school founded in 1920 on the same plan: основное отделение for the basic course, the disciplines of
         пространство, цвет and композиция, and the производственные мастерские by their material.</p>
@@ -150,6 +145,22 @@
       science. The goal of the whole, and for eight years a goal without a course: architecture was not taught
       until 1927.</li>
   </ul>
+
+  <h2>how many got how far</h2>
+  <p>The wheel draws the course, not the people on it; the numbers thin out toward the centre. <b>The rim:</b>
+    about 1,250 students passed through the school in fourteen years, 1,258 in the database Folke Dietzsch built
+    from the registers, and never more than a couple of hundred at a time: 137 in October 1920, 89 in the summer
+    of 1924, 63 in the winter the school left Weimar, 83 in 1926, 166 in 1928, 170 in 1929, 201 in the winter of
+    1930, the most it ever had, and 168 in the summer of 1932. Between a quarter and a half were women, depending
+    on the semester, and a sixth to a third were foreign. <b>The workshops:</b> the trial semester sent a share of
+    every intake home, and the three years at the bench ended in the journeyman's examination before the Weimar
+    chamber of crafts, the first of them in 1924, Breuer, Dieckmann, Consemüller and Wagenfeld among the
+    candidates; no total of Bauhaus journeymen has been published, and the lists sit in the Thuringian state
+    archive. <b>The centre:</b> the school's own leaving paper, the Bauhaus diploma, came only with the Dessau
+    statutes and was first issued in 1929; Erich Consemüller's is No. 4, dated November 1929, Margaretha
+    Reichardt's No. 54 in 1931, Kurt Kranz's No. 110 on 1 April 1933, three months before the school dissolved
+    itself. Siebenbrodt and Schöbe count 133 diplomas in all; one widely copied figure says 155. Either way, one
+    student in nine or ten who stepped onto the rim left with the paper from the middle of it.</p>
 
   <h2>the seven workshops, and where they went</h2>
   <table>
@@ -214,6 +225,9 @@
     <li>Art in Words, <em>Bauhaus: Chronologie</em>, the semester-by-semester chronology used for the dates of 1921, 1926/27, 1927, 1929 and 1930; <a href="https://artinwords.de/?p=25600" target="_blank" rel="noopener">artinwords.de</a>.</li>
     <li>Christoph Zuschlag, <em>Die Wanderausstellung zehn Jahre Bauhaus</em>, 2018, on Meyer's merger of the workshops into Ausbau in 1929; <a href="https://archiv.ub.uni-heidelberg.de/artdok/9274/" target="_blank" rel="noopener">archiv.ub.uni-heidelberg.de</a>.</li>
     <li>Smarthistory, <em>the Bauhaus, an introduction</em>; <a href="https://smarthistory.org/?p=44188" target="_blank" rel="noopener">smarthistory.org</a>.</li>
+    <li>Folke F. Dietzsch, <em>Die Studierenden am Bauhaus</em>, dissertation, Hochschule für Architektur und Bauwesen Weimar, 1990, the database of 1,258 students and their semesters; <a href="https://bauhauskooperation.de/wissen/publikationen/publikationen/publikationen-detail/publikation-170" target="_blank" rel="noopener">bauhauskooperation.de</a>.</li>
+    <li>Michael Siebenbrodt and Lutz Schöbe, <em>Bauhaus 1919–1933, Weimar Dessau Berlin</em>, 2009, for the 133 diplomas; the Bauhaus Bookshelf <em>timeline 1919–1933</em> for the students counted each term; <a href="https://www.bauhaus-bookshelf.org/timeline_chronology_1919_1933.html" target="_blank" rel="noopener">bauhaus-bookshelf.org</a>.</li>
+    <li>Bauhaus Community, <em>Personenlexikon Bauhaus</em>, the biographical database, for the numbered diplomas of Consemüller, Reichardt and Kranz; <a href="https://bauhaus.community/" target="_blank" rel="noopener">bauhaus.community</a>. The Weimar journeyman files are in the Staatliches Bauhaus Weimar holdings of the <a href="https://www.archive-in-thueringen.de/de/findbuch/view/bestand/25055/systematik/79054" target="_blank" rel="noopener">Archivportal Thüringen</a>.</li>
     <li>The texts themselves, in <a href="./#cat=library">the library</a>: the 1919 programme, the 1923 book, Klee's sketchbook, Kandinsky's point and line.</li>
   </ul>
 

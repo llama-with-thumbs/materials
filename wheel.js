@@ -11,7 +11,8 @@
    plan, whose basic department, disciplines of space, colour and composition, and
    production workshops were the same rings under their own names. A switch of dates draws
    the course as it stood in 1919, 1927, 1929 and 1930 on the same rings, from the programme,
-   the Dessau regulations, the chronology and the statutes of October 1930. */
+   the Dessau regulations, the chronology and the statutes of October 1930. How long each
+   stage took, and how many students got how far, is read out in the panel, not drawn. */
 
 window.WHEEL = (() => {
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -259,7 +260,8 @@ window.WHEEL = (() => {
   // regulations of winter 1926/27, the chronology of 1929 and the statutes of 8 October
   // 1930. ring1 and ring2 are dealt out evenly; outer names the rim, lines the two lines
   // under it, centre the middle; marks are the two durations written down the top line;
-  // stages are the time bar in years; lines5 the words in the centre circle.
+  // bar the durations of the stages, read out in the panel; heads the students who got how
+  // far; lines5 the words in the centre circle.
   const ERAS = [
     { key: "1919", title: { en: "the programme of April 1919", de: "das programm vom april 1919", ru: "программа апреля 1919" },
       ring1: ["sculpture19", "metal", "joinery", "painting19", "printing", "weaving"],
@@ -267,26 +269,30 @@ window.WHEEL = (() => {
       outer: "vorlehre19", lines: ["itten1", "itten2"], centre: "bau",
       marks: { en: ["1 semester", "3 years"], de: ["1 semester", "3 jahre"], ru: ["1 семестр", "3 года"] },
       lines5: { en: ["the goal of", "all creative", "work", "programme", "april 1919"], de: ["das endziel", "aller bildnerischen", "tätigkeit", "programm", "april 1919"], ru: ["цель всякой", "творческой", "работы", "программа", "апрель 1919"] },
-      stages: [[0.5, "a"], [3, "b"], [4.5, "c open"]],
       bar: { en: ["preliminary course · a trial semester; compulsory from 1921", "workshop apprenticeship · three years to the journeyman", "building · no course; work in the office of Gropius"],
              de: ["vorlehre · ein probesemester; pflicht ab 1921", "werkstattlehre · drei jahre bis zum gesellen", "bau · kein lehrgang; arbeit im büro gropius"],
              ru: ["вводный курс · пробный семестр; обязателен с 1921", "обучение в мастерской · три года до подмастерья", "строительство · курса нет; работа в бюро Гропиуса"] },
+      heads: [["enrolled", "about 150: 78 men and 59 women in October 1920, 25 to 50 per cent women by semester"], ["journeymen", "none yet: the first three-year apprenticeships ended in 1924"], ["diplomas", "none: the journeyman's paper of the chamber of crafts was the school's leaving certificate"]],
       facts: [["the school", "Weimar, opened 1 April 1919 in the two art schools' buildings"], ["director", "Walter Gropius"],
         ["the course", "three areas of teaching: craft, drawing and painting, science and theory; the grades apprentice, journeyman, young master"],
         ["workshops", "6 in the programme: sculpture, metal, joinery, painting and decoration, printing, weaving; bookbinding and stage added 1921"],
         ["preliminary course", "Itten's, from the winter of 1919/20; compulsory from the statutes of January 1921"],
         ["source", "Gropius, Programm des Staatlichen Bauhauses in Weimar, April 1919; the chronology of the school"]] },
-    { key: "1922", title: { en: "the statutes of July 1922", de: "die satzungen vom juli 1922", ru: "устав июля 1922" } },
+    { key: "1922", title: { en: "the statutes of July 1922", de: "die satzungen vom juli 1922", ru: "устав июля 1922" },
+      bar: { en: ["basic course · ½ year; mostly two semesters from 1926", "workshop and the five studies · 3 years, to the journeyman", "building · no term in 1922; a nine-semester course from 1929"],
+             de: ["vorlehre · ½ jahr; ab 1926 meist zwei semester", "werkstatt und die fünf lehren · 3 jahre, bis zum gesellen", "bau · 1922 ohne frist; ab 1929 ein kurs von neun semestern"],
+             ru: ["основной курс · ½ года; с 1926 обычно два семестра", "мастерская и пять учений · 3 года, до звания подмастерья", "строительство · в 1922 без срока; с 1929 курс в девять семестров"] },
+      heads: [["enrolled", "about 150 at a time in Weimar; 89 in the summer of 1924, 63 in the winter the school moved"], ["journeymen", "the first in 1924: Breuer, Dieckmann, Consemüller, Wagenfeld; no total has been published"], ["diplomas", "none yet; the school's own paper came in 1929"]] },
     { key: "1927", title: { en: "Dessau, the regulations of 1926 and the building department of 1927", de: "dessau, die lehrordnung 1926 und die bauabteilung 1927", ru: "Дессау, положение 1926 и строительное отделение 1927" },
       ring1: ["joinery", "metal", "wallpainting", "weaving", "advertising", "stage", "plastic"],
       ring2: ["formwerk", "sciences"],
       outer: "grundlehre", lines: ["gl1", "gl2"], centre: "bau27",
       marks: { en: ["2 semesters", "6 semesters"], de: ["2 semester", "6 semester"], ru: ["2 семестра", "6 семестров"] },
       lines5: { en: ["building", "department", "from april 1927", "hannes meyer", "five semesters"], de: ["bauabteilung", "ab april 1927", "hannes meyer", "mindestens", "fünf semester"], ru: ["строительное", "отделение", "с апреля 1927", "Ханнес Майер", "пять семестров"] },
-      stages: [[1, "a"], [3, "b"], [2.5, "c"]],
       bar: { en: ["basic teaching · mostly two semesters, the probation", "form teaching and workshop training · normally six semesters", "building department · at least five semesters, from April 1927"],
              de: ["grundlehre · meist zwei semester, zugleich probezeit", "form- und werklehre · normalerweise sechs semester", "bauabteilung · mindestens fünf semester, ab april 1927"],
              ru: ["основное обучение · обычно два семестра, испытательный срок", "форма и мастерская · обычно шесть семестров", "строительное отделение · не менее пяти семестров, с апреля 1927"] },
+      heads: [["enrolled", "83 in 1926, 166 in 1928: 119 men, 51 women"], ["journeymen", "the journeyman's paper still ended the workshop years; no total has been published"], ["diplomas", "the Bauhaus diploma of the Dessau statutes, first issued in 1929"]],
       facts: [["the school", "Dessau from 1925; the new building opened December 1926; renamed Hochschule für Gestaltung"], ["director", "Walter Gropius to April 1928"],
         ["the course", "basic teaching, mostly two semesters → form teaching and workshop training, normally six → architecture, advertising, stage or free art, at least five"],
         ["workshops", "7: joinery, metal, wall painting, weaving, printing and advertising, stage, sculpture; stone, wood, glass painting and pottery were not continued"],
@@ -299,10 +305,10 @@ window.WHEEL = (() => {
       outer: "grundlehre", lines: ["gl1", "gl2"], centre: "bau29",
       marks: { en: ["2 semesters", "9 in all"], de: ["2 semester", "9 insgesamt"], ru: ["2 семестра", "всего 9"] },
       lines5: { en: ["building", "nine semesters", "in all", "a journeyman's", "paper to enter"], de: ["bau", "neun semester", "insgesamt", "gesellenbrief", "zur aufnahme"], ru: ["строительство", "девять", "семестров", "принимают", "подмастерьев"] },
-      stages: [[1, "a"], [3, "b"], [0.5, "c"]],
       bar: { en: ["basic teaching · two semesters, Albers alone from 1928", "workshop · to the journeyman's paper, which building required", "building · nine semesters in all from entry"],
              de: ["grundlehre · zwei semester, albers allein ab 1928", "werkstatt · bis zum gesellenbrief, den der bau verlangte", "bau · neun semester insgesamt ab eintritt"],
              ru: ["основное обучение · два семестра, один Альберс с 1928", "мастерская · до свидетельства подмастерья", "строительство · девять семестров от поступления"] },
+      heads: [["enrolled", "170 in 1929, 140 of them German; 201 in the winter of 1930, the most the school ever had"], ["journeymen", "required to enter building; no total has been published"], ["diplomas", "the first in November 1929, Consemüller's is No. 4; 133 in all by 1933"]],
       facts: [["the school", "Dessau; the travelling exhibition ten years of Bauhaus, 1929–30"], ["director", "Hannes Meyer, April 1928 to August 1930"],
         ["the course", "basic teaching → a workshop → building, nine semesters in all; a journeyman's paper to enter building"],
         ["workshops", "6: fitting-out (joinery, metal and wall painting merged, winter 1929/30, Alfred Arndt), weaving, advertising with printing and photography, photography (Peterhans, 1929), stage (closed 1929), sculpture"],
@@ -314,10 +320,10 @@ window.WHEEL = (() => {
       outer: "allgemein", lines: ["ag1", "ag2"], centre: "bauausbau",
       marks: { en: ["", "6 semesters"], de: ["", "6 semester"], ru: ["", "6 семестров"] },
       lines5: { en: ["and fitting-out", "one department", "six semesters", "statutes of", "8 oct 1930"], de: ["und ausbau", "eine abteilung", "sechs semester", "statuten vom", "8. 10. 1930"], ru: ["и отделка", "одно отделение", "шесть семестров", "устав", "8. 10. 1930"] },
-      stages: [[3, "b"]],
       bar: { en: ["the six-semester course of the 1930 statutes · general training inside it, then a workshop, then building"],
              de: ["der sechssemestrige lehrgang der statuten von 1930 · allgemeine ausbildung darin, dann werkstatt, dann bau"],
              ru: ["шестисеместровый курс устава 1930 · общая подготовка внутри него, затем мастерская, затем строительство"] },
+      heads: [["enrolled", "168 in the summer of 1932, 33 of them foreign; 32 arrested when Berlin was searched in April 1933"], ["journeymen", "no longer the gate; the six-semester course ended in the diploma"], ["diplomas", "No. 54 in 1931, No. 110 on 1 April 1933; 133 issued in all, one for every nine or ten who had enrolled"]],
       facts: [["the school", "Dessau to September 1932; Berlin-Steglitz 1932–33; closed 20 July 1933"], ["director", "Ludwig Mies van der Rohe, 1930–33"],
         ["the course", "one course of six semesters, defined in the statutes of 8 October 1930"],
         ["fields", "5: building and fitting-out, advertising, photography, weaving, art"],
@@ -444,27 +450,10 @@ window.WHEEL = (() => {
       ${M[1] ? `<text data-fit="${f(R[2] - R[1] - 10)}" transform="translate(${C + 4} ${C - R[2] + 7}) rotate(90)">${esc(M[1])}</text>` : ""}
     </g>`;
     const rings = [RI, ...R, RO].map(r => `<circle class="ring" cx="${C}" cy="${C}" r="${r}"/>`).join("");
-    // Under the rings, the stages of the period to scale in years. The rings above are
-    // drawn as Gropius drew them, and their widths mean nothing in time.
-    const T0 = 60, T1 = 660, TY = 748, TH = 18, YRS = 8, PY = (T1 - T0) / YRS;
-    const W3 = is22 ? (lang === "de" ? ["vorlehre · ½ jahr; ab 1926 meist zwei semester", "werkstatt und die fünf lehren · 3 jahre, bis zum gesellen", "bau · 1922 ohne frist; ab 1929 ein kurs von neun semestern"]
-      : lang === "ru" ? ["основной курс · ½ года; с 1926 обычно два семестра", "мастерская и пять учений · 3 года, до звания подмастерья", "строительство · в 1922 без срока; с 1929 курс в девять семестров"]
-      : ["basic course · ½ year; mostly two semesters from 1926", "workshop and the five studies · 3 years, to the journeyman", "building · no term in 1922; a nine-semester course from 1929"]) : (E.bar[lang] || E.bar.en);
-    const stages = is22 ? [[0.5, "a"], [3, "b"], [4.5, "c open"]] : E.stages;
-    let x = T0, bars = "", labs = "";
-    stages.forEach(([yr, cls], i) => {
-      const w = yr * PY;
-      bars += `<rect class="stage ${cls}" x="${f(x)}" y="${TY}" width="${f(w)}" height="${TH}"/>`;
-      // One line per stage, each starting where its stage starts, so none runs into the next.
-      labs += `<text class="tl" x="${f(x)}" y="${TY - 36 + (i + 3 - stages.length) * 14}">${esc(W3[i])}</text>`;
-      x += w;
-    });
-    let ticks = "";
-    for (let y = 0; y <= YRS; y++) ticks += `<line class="tt" x1="${f(T0 + y * PY)}" y1="${TY + TH}" x2="${f(T0 + y * PY)}" y2="${TY + TH + 5}"/><text class="tk" x="${f(T0 + y * PY)}" y="${TY + TH + 17}" text-anchor="middle">${y}</text>`;
-    const unit = { de: "jahre, maßstäblich; die ringe oben sind es nicht", ru: "годы, в масштабе; кольца выше — нет" }[lang] || "years, to scale; the rings above are not";
-    const time = `<g class="time">${bars}${labs}${ticks}<text class="tk unit" x="${T1}" y="${TY + TH + 32}" text-anchor="end">${esc(unit)}</text></g>`;
-    return `<svg class="wheel" viewBox="0 0 720 800" role="group" aria-label="the Bauhaus curriculum as a wheel of rings, as it stood in ${era}, with its stages to scale in years beneath">
-      <defs>${defs.join("")}</defs>${out.join("")}${centre}${rings}${marks}${time}</svg>`;
+    // The durations of the stages are not in the drawing: the rings are Gropius's and their
+    // widths mean nothing in time. They are read out beside the wheel, in the panel.
+    return `<svg class="wheel" viewBox="0 0 720 720" role="group" aria-label="the Bauhaus curriculum as a wheel of rings, as it stood in ${era}">
+      <defs>${defs.join("")}</defs>${out.join("")}${centre}${rings}${marks}</svg>`;
   }
 
   // Once the fonts are in, every word measures itself against its room. A word on a curve
@@ -504,13 +493,22 @@ window.WHEEL = (() => {
       ["studies", "5 beside the bench: nature, materials, space and colour and composition, construction and representation, materials and tools"],
       ["the diagram", "Gropius, statutes of July 1922; reprinted 1923 in Staatliches Bauhaus Weimar 1919–1923"]
     ],
+    // How many got how far, for the panel beside every period: the rim, the workshops, the
+    // centre. From Dietzsch's database of the students, the semester counts in the school's
+    // own papers, and the numbered diplomas.
+    heads: [
+      ["entered the rim", "about 1,250 students in fourteen years; 1,258 in Dietzsch's database. 150 to 200 at a time in Weimar, 63 the winter the school moved, 201 at the most in 1930"],
+      ["reached a workshop", "no count has been published. The trial semester ended it for many; the journeyman's paper before the chamber of crafts, the first in 1924, ended it for the rest"],
+      ["reached the centre", "133 Bauhaus diplomas in all, from No. 4 in November 1929 to No. 110 on 1 April 1933; one for every nine or ten who had enrolled"]
+    ],
     vorkurs: [
       ["duration", "half a year in the 1922 statutes; compulsory from 1921; mostly two semesters from winter 1926/27, renamed the Grundlehre; the general training under the 1930 statutes"],
       ["years", "1919 to 1933, every entrant"],
       ["taught by", "Itten 1919–23 · Moholy-Nagy and Albers 1923–28 · Albers alone 1928–33"],
       ["contents", "form and colour, composition, materials, drawing from life and from nature"],
       ["hours", "material studies up to 18 a week under Albers"],
-      ["ends with", "the masters assign a workshop, or not"]
+      ["ends with", "the masters assign a workshop, or not"],
+      ["how many", "everyone: about 1,250 students in fourteen years, 1,258 in Dietzsch's database; 150 to 200 at a time"]
     ],
     form: [
       ["part of", "the preliminary course, the first half-year"],
@@ -531,7 +529,8 @@ window.WHEEL = (() => {
       ["taught by", "the master of craft of each workshop"],
       ["form", "an apprentice's contract"],
       ["ends with", "the journeyman's examination before the chamber of crafts, where the trade allowed it"],
-      ["status", "the craft half of the dual mastership; dropped in Dessau, 1925, when graduates taught both"]
+      ["status", "the craft half of the dual mastership; dropped in Dessau, 1925, when graduates taught both"],
+      ["how many", "no count has been published; the first passed before the Weimar chamber in 1924, Breuer, Dieckmann, Consemüller and Wagenfeld among them"]
     ],
     nature: [
       ["duration", "through the three years"],
@@ -641,7 +640,7 @@ window.WHEEL = (() => {
       ["course", "none until April 1927; before that, work in the office of Gropius and Adolf Meyer"],
       ["department", "Hannes Meyer 1927–30 · Mies van der Rohe 1930–33"],
       ["built", "Haus am Horn 1923 · the Dessau building 1926 · Törten estate 1926–28 · the trade-union school at Bernau 1928–30"],
-      ["who got there", "a few: the diagram puts it at the middle as the goal, not the rule"]
+      ["who got there", "133 Bauhaus diplomas, 1929 to 1933, out of about 1,250 who enrolled: the diagram puts it at the middle as the goal, not the rule"]
     ]
   };
   const factsHTML = rows => rows.map(([k, v]) => `<div class="ro"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join("");
@@ -650,10 +649,17 @@ window.WHEEL = (() => {
   // paragraphs; and where it lives in this catalogue.
   function panelHTML(s, full) {
     const E = ERA();
-    if (!s) return `<p class="no">the wheel · ${esc(era)}</p><h3>the course, from the outside in</h3>
+    if (!s) {
+      // How long each stage took, from the words the time bar used to carry: label · value.
+      const bar = (E.bar[lang] || E.bar.en).map(t => { const i = t.indexOf(" · "); return i < 0 ? ["", t] : [t.slice(0, i), t.slice(i + 3)]; });
+      const heads = era === "1922" ? FACTS.heads : (E.heads || []);
+      return `<p class="no">the wheel · ${esc(era)}</p><h3>the course, from the outside in</h3>
       <p class="sub">${esc(E.title.en)}; point at a ring, click to keep it</p>
-      <div class="facts">${factsHTML(E.facts || FACTS.whole)}</div>`
-      + (full ? `<p>The outer ring is the preliminary course, half a year, which every student took first. Inside it run the three years of workshop training and the five studies taught beside it. Then the seven workshops, each named for its material. At the centre, building, where the course was meant to end. The switch above the wheel turns the words to the German of the 1922 statutes.</p>` : "");
+      <div class="facts">${factsHTML(E.facts || FACTS.whole)}</div>
+      <p class="no">how long</p><div class="facts">${factsHTML(bar)}</div>
+      <p class="no">how many</p><div class="facts">${factsHTML(heads)}</div>`
+      + (full ? `<p>The outer ring is the preliminary course, half a year, which every student took first. Inside it run the three years of workshop training and the five studies taught beside it. Then the seven workshops, each named for its material. At the centre, building, where the course was meant to end. The switch in the corner turns the words to the German of the 1922 statutes.</p>` : "");
+    }
     const cats = (s.cats || []).map(c => `<a href="${CAT}${c}">${esc(CATS[c] || c)}</a>`).join(", ");
     const lib = (s.lib || []).map(id => LIB.get(id)).filter(Boolean)
       .map(t => `<a href="${CAT}library">${esc(t.author.split(" and ")[0].split(",")[0])}, ${esc(t.english || t.title)}, ${t.year}</a>`).join("; ");
