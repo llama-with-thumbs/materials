@@ -6854,15 +6854,27 @@ window.CREDITS = {
   },
   "lcmceramic": {
     "file": "lcmceramic.jpg",
-    "caption": "A zirconia dental bridge — the kind of part a ceramic slurry resin makes",
+    "caption": "Ceramic parts printed for ESA from simulated lunar regolith stirred into photopolymer, the finest detail yet in that powder",
     "kind": "product",
-    "title": "Zirconia bridge.jpg",
-    "artist": "AmirAttallah",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Zirconia_bridge.jpg",
+    "title": "3D-printed ceramic parts made from lunar regolith ESA18889804.jpeg",
+    "site": "Wikimedia",
+    "artist": "European Space Agency",
+    "license": "CC BY-SA 3.0 igo",
+    "page": "https://commons.wikimedia.org/wiki/File:3D-printed_ceramic_parts_made_from_lunar_regolith_ESA18889804.jpeg",
     "w": 960,
-    "h": 960,
-    "site": "Wikimedia"
+    "h": 640
+  },
+  "lcmceramic2": {
+    "file": "lcmceramic2.jpg",
+    "caption": "A zirconia front-tooth crown, the part the slurry route is sold for; this one may well be milled",
+    "kind": "related",
+    "title": "Single Unit Zirconia Anterior Dental Crown.jpg",
+    "site": "Wikimedia",
+    "artist": "James Roback, UticaDentalLab",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Single_Unit_Zirconia_Anterior_Dental_Crown.jpg",
+    "w": 960,
+    "h": 640
   },
   "concreteprint": {
     "file": "concreteprint.jpg",
@@ -6950,19 +6962,31 @@ window.CREDITS = {
   },
   "soluble": {
     "file": "soluble.jpg",
-    "caption": "Support structure on a printed part; soluble versions wash off",
+    "caption": "The support material printed as the part: two test boats in two grades of water-soluble PVA filament",
+    "kind": "product",
+    "title": "-3DBenchy made of two types of water-soluble PVA plastic (17130375132).jpg",
+    "site": "Wikimedia",
+    "artist": "3DBenchy",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:-3DBenchy_made_of_two_types_of_water-soluble_PVA_plastic_(17130375132).jpg",
+    "w": 960,
+    "h": 710
+  },
+  "soluble2": {
+    "file": "soluble2.jpg",
+    "caption": "What the second nozzle lays: the red part and its cyan support as the slicer plans them",
     "kind": "related",
     "title": "Support structure in 3D printing.jpg",
+    "site": "Wikimedia",
     "artist": "M6oh7z",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Support_structure_in_3D_printing.jpg",
     "w": 720,
-    "h": 483,
-    "site": "Wikimedia"
+    "h": 483
   },
   "pa12powder": {
     "file": "pa12powder.jpg",
-    "caption": "A laser-sintered nylon bicycle — the first workable one, grown in fused powder",
+    "caption": "The Airbike, the first rideable nylon bicycle, laser-sintered in 2011 and hung in the V&A",
     "kind": "product",
     "title": "https://live.staticflickr.com/6209/6123908690_17e3b89de7_b.jpg",
     "site": "Flickr",
@@ -6971,6 +6995,30 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/51pct/6123908690",
     "w": 960,
     "h": 720
+  },
+  "pa12powder2": {
+    "file": "pa12powder2.jpg",
+    "caption": "A Sierpinski tetrahedron sintered in nylon: the unfused powder held every stage while it grew",
+    "kind": "product",
+    "title": "Sierpinski tetrahedron by George W. Hart.jpg",
+    "site": "Wikimedia",
+    "artist": "George W. Hart",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sierpinski_tetrahedron_by_George_W._Hart.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "pa12powder3": {
+    "file": "pa12powder3.jpg",
+    "caption": "A pulley shaft sintered in Duraform HST, nylon 12 with fibre in it",
+    "kind": "product",
+    "title": "SLS 3D Systems Printed Duraform HST Pulley Shaft (49014691207).jpg",
+    "site": "Wikimedia",
+    "artist": "newman72@sbcglobal.net",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SLS_3D_Systems_Printed_Duraform_HST_Pulley_Shaft_(49014691207).jpg",
+    "w": 960,
+    "h": 1280
   },
   "cellacetate": {
     "file": "cellacetate.jpg",
@@ -7394,7 +7442,7 @@ window.CREDITS = {
   },
   "boundmetal": {
     "file": "boundmetal.jpg",
-    "caption": "Capsule, helix and tetrapod — filament-printed in 316L, then sintered",
+    "caption": "Capsule, helix and tetrapod printed from 316L filament and sintered: the bead lines survive the furnace",
     "kind": "product",
     "title": "Filamentgedruckte und gesinterte Bauteile aus hochlegiertem Stahl (316L).jpg",
     "artist": "Fraunhofer IFAM",
@@ -7404,17 +7452,65 @@ window.CREDITS = {
     "h": 1200,
     "site": "Wikimedia"
   },
+  "boundmetal2": {
+    "file": "boundmetal2.png",
+    "caption": "Green part and sintered part on the same rule: 17 per cent gone in the furnace from a filament print, 20 from a lithography one",
+    "kind": "process",
+    "title": "Sinterbasiertes AM Sinterschwund.png",
+    "site": "Wikimedia",
+    "artist": "CarloBurkhardtHSPF",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sinterbasiertes_AM_Sinterschwund.png",
+    "w": 960,
+    "h": 474
+  },
+  "boundmetal3": {
+    "file": "boundmetal3.png",
+    "caption": "Sintered parts beside a cent coin: filament-printed at top, binder-jetted and lithography-printed below, the same powder three ways",
+    "kind": "product",
+    "title": "Sinterbasiertes AM - Bauteile.png",
+    "site": "Wikimedia",
+    "artist": "CarloBurkhardtHSPF",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sinterbasiertes_AM_-_Bauteile.png",
+    "w": 960,
+    "h": 716
+  },
   "slaresin": {
     "file": "slaresin.jpg",
-    "caption": "A part grown in a vat of photopolymer",
+    "caption": "A cycloidal drive assembled from clear stereolithography parts, each one a single cross-linked network",
     "kind": "product",
-    "title": "SLA produced part.JPG",
-    "artist": "Wizard191",
+    "title": "Stereolithography cycloidal drive.JPG",
+    "site": "Wikimedia",
+    "artist": "Clemenspool",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:SLA_produced_part.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Stereolithography_cycloidal_drive.JPG",
+    "w": 916,
+    "h": 833
+  },
+  "slaresin2": {
+    "file": "slaresin2.jpg",
+    "caption": "The resin tank going into a Form 2: the orange is a filter against room light, the part grows upside down from the tank floor",
+    "kind": "process",
+    "title": "Formlabs Form2 Bild09 5184x2912 (24416246841).jpg",
+    "site": "Wikimedia",
+    "artist": "Creative Tools from Halmstad, Sweden",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Formlabs_Form2_Bild09_5184x2912_(24416246841).jpg",
     "w": 960,
-    "h": 569,
-    "site": "Wikimedia"
+    "h": 539
+  },
+  "slaresin3": {
+    "file": "slaresin3.jpg",
+    "caption": "Mammoth stereolithography at Materialise: a vat two metres long under yellow safelight",
+    "kind": "process",
+    "title": "Mammoth Stereolithography.jpg",
+    "site": "Wikimedia",
+    "artist": "Materialise NV",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mammoth_Stereolithography.jpg",
+    "w": 960,
+    "h": 640
   },
   "alsi10mg": {
     "file": "alsi10mg.jpg",

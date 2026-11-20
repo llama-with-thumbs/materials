@@ -2130,40 +2130,45 @@ window.MATERIALS = [
 },
 {
   id: "boundmetal", cat: "additive", name: "Bound metal filament",
-  sub: "metal powder in wax and polymer", img: "boundmetal",
-  hook: "Metal injection moulding feedstock drawn into a filament: around 60% steel powder by volume held in wax and polymer, stiff and faintly waxy in the hand. It prints on what is essentially a plastic machine — no laser, no argon, no loose powder — then the binder leaves in solvent and heat, and the part gives up a fifth of its size in the furnace.",
-  stats: [["Solids", "~55–60% powder by volume"], ["Shrinkage", "~20% on sintering"], ["Density", "96–99% after sinter"]],
+  sub: "metal powder in wax and polymer", img: "boundmetal", extra: ["boundmetal2", "boundmetal3"],
+  hook: "Injection-moulding feedstock pulled into a filament: steel powder in wax and polymer, printed on a plastic machine. Solvent and furnace then take the binder, and a fifth of the size with it.",
+  more: "Metal injection moulding has run since the 1980s on the same recipe: 60 per cent powder by volume in wax and polymer, debound, then sintered. BASF put that feedstock on a spool in 2018 as Ultrafuse 316L. It prints like a stiff, heavy PLA, goes into a solvent bath that takes the wax and leaves a sponge, then into a furnace at 1,380 degrees where the polymer burns off and the powder necks together, shrinking 16 to 20 per cent in every direction by an amount the slicer scales up for. The costs: the shrinking part sags under its own weight, so the furnace is where it fails; density is 96 to 99 per cent and fatigue strength a sintered part's; a section over a centimetre cannot be debound; and the furnace costs more than the printer.",
+  stats: [["Solids", "~55–60% powder by volume"], ["Shrinkage", "16–20% on sintering"], ["Density", "96–99% after sinter"]],
   uses: "Tooling, fixtures and soft jaws, spare parts, low-volume stainless and tool steel components.",
   link: "https://en.wikipedia.org/wiki/Metal_injection_molding"
 },
 {
   id: "lcmceramic", cat: "additive", name: "Ceramic slurry resin",
-  sub: "alumina or zirconia in photopolymer", img: "lcmceramic",
-  hook: "Half ceramic powder by volume suspended in photopolymer, which makes a paste that scatters the very light meant to cure it — so the binder is matched to the powder's refractive index to keep the cure depth usable. Fire it and the polymer leaves: what remains is over 99% dense zirconia or alumina, which behaves like a real ceramic rather than like something printed.",
+  sub: "alumina or zirconia in photopolymer", img: "lcmceramic", extra: ["lcmceramic2"],
+  hook: "Ceramic powder, half the volume, stirred into photopolymer that is matched to its refractive index, or the paste scatters the light meant to cure it. Fired, the polymer leaves and 99 per cent dense zirconia stays.",
+  more: "Lithoz in Vienna sold the first machines in 2011: a projector cures the slurry layer by layer from below through a clear vat, the green part is a plastic full of ceramic, and then the real work starts. Debinding takes days, the temperature raised by fractions of a degree a minute so the polymer gas gets out without cracking the body; sintering at 1,450 to 1,600 degrees shrinks it 20 to 25 per cent. What comes out is alumina or zirconia at 99.4 per cent density, as strong as a pressed ceramic, with walls of 0.1 millimetre no press could form. The costs: a build is small and slow; solids stop near 55 per cent, and dark powders such as silicon carbide barely cure; a thick section cracks in debinding; and every new shape is calibrated by firing one.",
   stats: [["Solids loading", "40–55% by volume"], ["After firing", ">99% dense"], ["Shrinkage", "~20–25%"]],
   uses: "Dental crowns and bridges, surgical tools, microreactors, high-temperature cores.",
   link: "https://en.wikipedia.org/wiki/Ceramic_engineering"
 },
 {
   id: "soluble", cat: "additive", name: "Soluble support",
-  sub: "PVA, BVOH and HIPS", img: "soluble",
-  hook: "Scaffolding that leaves through a chemical door rather than a mechanical one: PVA and BVOH wash out in water, HIPS dissolves in limonene. Once support no longer has to be broken off, a sealed cavity, a captive bearing or a gear train printed already meshed all become things you can simply print.",
+  sub: "PVA, BVOH and HIPS", img: "soluble", extra: ["soluble2"],
+  hook: "Scaffolding that leaves by a chemical door, not a mechanical one: PVA and BVOH wash out in water, HIPS in limonene. Once support need not be broken off, a sealed cavity or a meshed gear train is just printed.",
+  more: "A second nozzle lays the support in a plastic that sticks to the part well enough to hold it and dissolves out afterwards. Polyvinyl alcohol is the usual one, printed at 200 degrees under PLA and PETG and gone after a few hours in water; BVOH is its less thirsty cousin; HIPS goes under ABS and dissolves in limonene overnight. Stratasys has sold an alkaline-soluble support with its industrial machines since the 1990s; the idea came from there. The costs: PVA drinks water from the air and prints as foam after a week on the shelf, so it lives in a dry box; it chars in a hot nozzle and clogs it; a spool costs three times the part plastic and most of it goes down the drain; and a two-head printer purges and oozes, so the print takes twice as long.",
   stats: [["PVA", "dissolves in water"], ["HIPS", "dissolves in limonene"], ["Needs", "a second extruder"]],
   uses: "Enclosed voids, printed-in-place mechanisms, fine overhangs, clean surfaces where supports touched.",
   link: "https://en.wikipedia.org/wiki/Polyvinyl_alcohol"
 },
 {
   id: "slaresin", cat: "additive", name: "Photopolymer resin",
-  sub: "acrylate oligomers and a photoinitiator", img: "slaresin",
-  hook: "Oligomers, a reactive diluent and an initiator that fires under ultraviolet and runs a chain reaction across the whole exposed layer. Each layer cross-links into the one below instead of welding to it, so the part is a single continuous network with no weak direction — but it is a thermoset: it leaves the vat only partly cured, keeps changing for days, and the uncured monomer is a skin sensitiser.",
+  sub: "acrylate oligomers and a photoinitiator", img: "slaresin", extra: ["slaresin2", "slaresin3"],
+  hook: "Oligomers, a diluent and an initiator that fires under violet light. Each layer cross-links into the last instead of welding to it, so no weak direction. It leaves the vat half-cured; the liquid sensitises skin.",
+  more: "Charles Hull patented it in 1986 with a laser drawing in a bath of acrylate; machines now set a whole layer at once through an LCD mask. The resin is a syrup of acrylate oligomers, a monomer to thin it, a photoinitiator that splits into radicals under the light, and a dye that keeps the cure from running deeper than the layer. The radical chain runs down into the layer below, which is why the part is one network rather than a stack of welds. The costs: the green part is 60 to 80 per cent cured and must be washed in alcohol and finished under a lamp; standard resins are brittle and yellow in sunlight; the liquid is a skin sensitiser and the wash is flammable; and the tough grades borrow from urethanes and pay in creep.",
   stats: [["Cure", "UV, 385 or 405 nm"], ["Anisotropy", "essentially none"], ["Handling", "sensitiser, wear gloves"]],
   uses: "Every vat process: laser, DLP, masked LCD and continuous printing; dental, jewellery, models, engineering parts.",
   link: "https://en.wikipedia.org/wiki/Photopolymer"
 },
 {
   id: "pa12powder", cat: "additive", name: "PA12 powder",
-  sub: "nylon 12 for powder bed fusion", img: "pa12powder",
-  hook: "Chosen for a thermal quirk: the gap between where it melts and where it recrystallises is wide, so a fused layer stays liquid long enough for the next one to join it properly. The grains never fully melt, which leaves a few per cent porosity — matt, faintly absorbent, superb at taking dye — and powder that has sat hot in the bed ages, so every build blends used with virgin.",
+  sub: "nylon 12 for powder bed fusion", img: "pa12powder", extra: ["pa12powder2", "pa12powder3"],
+  hook: "Nylon 12 is chosen for a quirk: it melts at 185 degrees and recrystallises near 140, so a fused layer stays liquid while the next joins it. The grains never fully melt, so it has pores; the powder ages in the bed.",
+  more: "A laser, or an infrared lamp over a printed absorber, fuses powder of 50 microns in a bed held a few degrees under the melting point. The 40-degree gap between melting and freezing is the whole trick: the part stays molten through many layers and the bed does not, so the unfused powder is the support and nothing else is needed. Parts come out matt, slightly porous, tough and a little flexible, and take dye to the core. The costs: powder that sat hot has grown in molecular weight and gives an orange-peel skin, so each build is 30 to 50 per cent fresh and the rest is thrown away; the pores make parts absorbent and a leak path unless sealed; a build cools for as long as it printed; and the cake is dug out and blasted by hand.",
   stats: [["Particle size", "~45–60 µm"], ["Refresh", "30–50% virgin per build"], ["Porosity", "~2–4%"]],
   uses: "Laser-sintered and agent-jetted parts, ducting, housings, orthotics, living hinges.",
   link: "https://en.wikipedia.org/wiki/Nylon_12"

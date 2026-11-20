@@ -1376,3 +1376,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `coldspray`: `cold spray` returns freezer sprays and football physios; `Kaltgasspritzen` a USAF briefing photo that is a man and a poster. The Russian coated casting and the Marines' glove box added; the powder micrograph stays as the material.
 - `concreteprint`: Tecla is earth, not mortar, so it moved to a related extra; the Gemert bridge detail is the main view. `Apis Cor` returns Corby station; `ICON 3D printed house` nothing free.
 - `twophoton`: two TIFFs (fractal pyramid, castle on a pencil) fetched through the Commons thumbnailer like the two TIFFs already in the catalogue.
+
+## Batch 42 restyle (boundmetal, lcmceramic, soluble, slaresin, pa12powder)
+
+- `lcmceramic`: the zirconia bridge was an intraoral before-and-after, gums and all, unreadable at card size; replaced by the ESA regolith parts, which are the slurry route itself. `Lithoz`, `zirconia 3D printed`, `alumina 3D printed`, `ceramic stereolithography` otherwise empty; `ceramic 3D printing` is Studio Under's clay extrusion, a different thing.
+- `soluble`: `PVA filament` finally gave a photograph, two Benchys printed in the support plastic itself. `dissolvable support 3D`, `dual extruder print`, `BVOH` (a band), `support material removal` nothing. The slicer screenshot stays as the related view.
+- `slaresin`: the white cut-out part replaced by the clear cycloidal drive. `SLA resin vat`, `resin 3D printer vat`, `DLP 3D printer` nothing; the Form 2 set and the Materialise Mammoth are the process views. `SLA 3D Printed PCB.jpg` is grey on grey, passed over.
+- `boundmetal`: no photograph of the filament itself or of debinding. `Markforged Metal X`, `BASF Ultrafuse`, `metal FDM`, `sintered 316L` nothing; `sinter based additive` gave the Fraunhofer shrinkage comparison, which says the whole card in one picture, and their parts-beside-a-coin plate. The filament extruder photo was already on `fff3`.
+- `pa12powder`: `SLS nylon powder`, `polyamide 12 powder`, `SLS powder cake` nothing, so still no picture of the powder or the cake. `EOS Formiga` is ants. Hart's tetrahedron and the Duraform pulley added as parts.

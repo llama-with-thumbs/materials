@@ -574,7 +574,8 @@ coldspray|Flickr|https://live.staticflickr.com/5182/5725947299_2c7feb8b42_b.jpg|
 coldspray2|commons|Холодное газодинамическое напыление защитных и восстановительных покрытий.jpg|A casting built back up by cold spray: the grey deposit over the old blue paint, a repair with no heat in it|product
 coldspray3|commons|U S Marines bring advanced manufacturing to the front lines during Valiant Shield 26 (9821835).jpg|Cold spray in a field shop: a boat-motor stator housing being built back up by hand in a glove box, Okinawa 2026|process
 fourd|commons|Multishape active composites by 3d printing of digial smps.jpg|Printed shape-memory composites, folded and recovered|photo
-lcmceramic|commons|Zirconia bridge.jpg|A zirconia dental bridge — the kind of part a ceramic slurry resin makes|product
+lcmceramic|commons|3D-printed ceramic parts made from lunar regolith ESA18889804.jpeg|Ceramic parts printed for ESA from simulated lunar regolith stirred into photopolymer, the finest detail yet in that powder|product
+lcmceramic2|commons|Single Unit Zirconia Anterior Dental Crown.jpg|A zirconia front-tooth crown, the part the slurry route is sold for; this one may well be milled|related
 concreteprint|commons|Detail of 3D printed concrete bicycle bridge in Gemert (NL).jpg|The first printed concrete bridge, Gemert 2017: the beads on edge, printed in slices and post-tensioned through them|product
 concreteprint2|commons|Demo Betondruck Peri.jpg|A gantry printer laying a wall at Bauma 2022: two beads with a cavity between, the hose feeding the head|process
 concreteprint3|commons|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a house printed in raw earth: the same thixotropic trick, with clay in place of cement|related
@@ -582,8 +583,11 @@ bioink|NASA|https://images-assets.nasa.gov/image/jsc2022e072969/jsc2022e072969~m
 grcop|commons|Marshall engineers installed the injector in a subscale RS-25 engine model.jpg|A printed fuel injector going into a subscale RS-25 engine — hot-fire tested near 3300 °C|product
 ebm|Flickr|https://live.staticflickr.com/7015/6790413239_05b51c6b63_b.jpg|A titanium lattice gauntlet grown by electron-beam melting at Oak Ridge|product|CC BY 2.0|oakridgelabnews|https://www.flickr.com/photos/37940997@N05/6790413239
 ebm2|commons|Arcam A2.jpg|An Arcam A2, the machine most of the hip cups came out of, with its covers off: the electron gun column above, the vacuum chamber behind the porthole|process
-soluble|commons|Support structure in 3D printing.jpg|Support structure on a printed part; soluble versions wash off|related
-pa12powder|Flickr|https://live.staticflickr.com/6209/6123908690_17e3b89de7_b.jpg|A laser-sintered nylon bicycle — the first workable one, grown in fused powder|product|CC BY-SA 2.0|51% Studios Architecture|https://www.flickr.com/photos/51pct/6123908690
+soluble|commons|-3DBenchy made of two types of water-soluble PVA plastic (17130375132).jpg|The support material printed as the part: two test boats in two grades of water-soluble PVA filament|product
+soluble2|commons|Support structure in 3D printing.jpg|What the second nozzle lays: the red part and its cyan support as the slicer plans them|related
+pa12powder|Flickr|https://live.staticflickr.com/6209/6123908690_17e3b89de7_b.jpg|The Airbike, the first rideable nylon bicycle, laser-sintered in 2011 and hung in the V&A|product|CC BY-SA 2.0|51% Studios Architecture|https://www.flickr.com/photos/51pct/6123908690
+pa12powder2|commons|Sierpinski tetrahedron by George W. Hart.jpg|A Sierpinski tetrahedron sintered in nylon: the unfused powder held every stage while it grew|product
+pa12powder3|commons|SLS 3D Systems Printed Duraform HST Pulley Shaft (49014691207).jpg|A pulley shaft sintered in Duraform HST, nylon 12 with fibre in it|product
 cellacetate|commons|Ray-Ban Classic Wayfarer RB5121 47-22.jpg|A Wayfarer frame milled from a block of cellulose acetate, the colour through the thickness|product
 cellacetate2|commons|Ombraz Classic Tortoise Grey.jpg|A tortoiseshell pattern made of coloured acetate chips pressed into the slab, not printed on it|product
 cellacetate3|commons|8 mm Kodak safety film reel 01.jpg|An 8 mm reel of Kodak safety film: the acetate base that replaced nitrate, and the one that smells of vinegar as it goes|product
@@ -619,8 +623,12 @@ twophoton2|commons|Octahedron Fractal pyramide made with two photon polymerisati
 twophoton3|commons|Burg auf einer Bleistiftspitze.tif|A castle 0.4 mm tall on the point of a pencil lead|product
 sandprint|commons|SandMoldCopeDragCores.jpg|Cope, drag and cores of a sand mould made the old way, from a pattern; a printer makes the same without one|related
 sandprint2|commons|Voxeljet VX4000.jpg|A voxeljet VX4000, the machine that prints sand moulds four metres long, with its job box run out on rails|process
-boundmetal|commons|Filamentgedruckte und gesinterte Bauteile aus hochlegiertem Stahl (316L).jpg|Capsule, helix and tetrapod — filament-printed in 316L, then sintered|product
-slaresin|commons|SLA produced part.JPG|A part grown in a vat of photopolymer|product
+boundmetal|commons|Filamentgedruckte und gesinterte Bauteile aus hochlegiertem Stahl (316L).jpg|Capsule, helix and tetrapod printed from 316L filament and sintered: the bead lines survive the furnace|product
+boundmetal2|commons|Sinterbasiertes AM Sinterschwund.png|Green part and sintered part on the same rule: 17 per cent gone in the furnace from a filament print, 20 from a lithography one|process
+boundmetal3|commons|Sinterbasiertes AM - Bauteile.png|Sintered parts beside a cent coin: filament-printed at top, binder-jetted and lithography-printed below, the same powder three ways|product
+slaresin|commons|Stereolithography cycloidal drive.JPG|A cycloidal drive assembled from clear stereolithography parts, each one a single cross-linked network|product
+slaresin2|commons|Formlabs Form2 Bild09 5184x2912 (24416246841).jpg|The resin tank going into a Form 2: the orange is a filter against room light, the part grows upside down from the tank floor|process
+slaresin3|commons|Mammoth Stereolithography.jpg|Mammoth stereolithography at Materialise: a vat two metres long under yellow safelight|process
 alsi10mg|commons|Professional MotorSport World Expo 2024, Cologne (P1031209).jpg|Prototype turbochargers grown in a laser powder bed — the same powder route, though a housing this hot wants nickel rather than aluminium|analog
 printsilicone|commons|Silicone 3d print with support material.jpg|A pneumatic actuator printed in liquid silicone, still in its clear support|photo
 pprope|commons|Failedrope1.jpg|A polypropylene rope after UV exposure, beside a new one — sunlight is this fibre's weakness|product
