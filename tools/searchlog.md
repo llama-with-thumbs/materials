@@ -1400,3 +1400,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `hemprope`: `tarred rope rigging` nothing; `Hemp Rope 1740.jpg` is a museum relic with no context; the Touring Club retting photo and the CC0 fibre detail added.
 - `manila`: `manila rope` returns textiles and lampshades, no rope; the stripping and the micrograph added.
 - `coir`: `coir retting`, `coir yarn spinning` nothing; the export bales and the mat frame added.
+
+## Batch 45 restyle (jute, cottonduck, linen, silk, spidersilk)
+
+- `cottonduck`: the blurred green close-up replaced by `Cotton duck.jpg`, a flat, sharp weave; `canvas weave closeup` and `number 10 duck` return nothing (the MET hits are decoy ducks). The NARA tent-factory plates are 9000-pixel scans of a caption card with a small print in the corner, unusable at card size.
+- `linen`: the flowering flax fields are plain green at card size, passed over; the NARA retting photo is too dark to read; the Lithuanian scutching photo is 720 px but legible. `linen weave macro` returns a shuttle.
+- `silk`: `silk fibre micrograph` nothing; the Tomioka mill photos show the building, not the reeling; the Okaya filature machine added instead.
+- `spidersilk`: the V&A cape made the main photograph, the NASA spider moved to an extra; `Nephila dragline` and `spider silk textile Madagascar` return nothing; the one SEM is a braided suture at 787 px.
+- `jute`: `jute fibre drying` and `jute mill spinning` return 1917 book plates and mill exteriors; the retting pond and the coffee sacks added.

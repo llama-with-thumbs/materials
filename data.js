@@ -2267,40 +2267,45 @@ window.MATERIALS = [
 },
 {
   id: "jute", cat: "fibre", name: "Jute",
-  sub: "Corchorus bast fibre, “golden fibre”", img: "jute",
-  hook: "The cheapest usable natural fibre there is, grown in volumes second only to cotton. It is not strong, it hates water and it degrades in sunlight — and all of that is fine for a sack that composts after one trip.",
+  sub: "Corchorus bast fibre, “golden fibre”", img: "jute", extra: ["jute2", "jute3"],
+  hook: "The cheapest usable fibre there is, grown in volume second only to cotton. It is not strong, it hates water and sunlight rots it, and none of that matters to a sack that makes one trip and goes on the compost.",
+  more: "A bast fibre like flax, but the stalk is four metres tall and the fibre a fifth lignin, which is why it is cheap: it grows on the Ganges delta in three months on nothing but the monsoon. The stalks are retted in standing water for a fortnight, then men waist deep strip the fibre off the stick by hand; the delta still does this a million tonnes a year. Spun coarse on machines built in Dundee, it was the sack of the empire, grain, coffee, sandbags, and the backing of every carpet. The costs: the fibre is brittle, with 1 or 2 per cent stretch; it loses strength wet and goes brown in sunlight; it sheds, and smells of the oil that softens it for spinning; and polypropylene took the sack trade in the 1970s, so the price has been a famine price since.",
   stats: [["Cost", "the cheapest"], ["Lifetime", "short, by design"], ["End of life", "biodegrades"]],
   uses: "Sacking and hessian, carpet backing, rope and twine, geotextiles, packaging.",
   link: "https://en.wikipedia.org/wiki/Jute"
 },
 {
   id: "cottonduck", cat: "fibre", name: "Cotton duck",
-  sub: "tightly woven cotton canvas", img: "cottonduck",
-  hook: "A plain weave packed so densely that when the cotton wets it swells and closes the gaps. The fabric seals itself against rain while still breathing — a trick it performs with no coating at all.",
+  sub: "tightly woven cotton canvas", img: "cottonduck", extra: ["cottonduck2"],
+  hook: "A plain weave packed so tight that the yarns swell when wet and close the gaps. The cloth seals itself against rain and still breathes, with no coating at all; waxed, it was the tarpaulin before plastic.",
+  more: "Duck is from doek, Dutch for cloth, and has nothing to do with birds. Two-ply yarns are beaten into a plain weave that leaves no visible hole, and the numbering runs backwards: number 1 is the heaviest, 18 ounces to the square yard, number 12 the lightest. Dry, air passes through; wet, the cotton swells a third in diameter, the weave closes, and water beads on the outside while the inside stays dry. It was the army tent, the coasting sail, the wagon cover, the fire hose jacket and the painter's canvas. The costs: heavy, and heavier wet; it mildews if rolled damp and rots in a season on the ground; it shrinks on the first wetting, so a tent is cut oversize; and it seals only under tension, which is why a slack tent drips wherever a hand touches it.",
   stats: [["Weave", "plain, very dense"], ["Wet", "swells and seals"], ["Coating", "none required"]],
   uses: "Tents and awnings, workwear and aprons, sneakers, artist canvas, sandbags, tarpaulins.",
   link: "https://en.wikipedia.org/wiki/Cotton_duck"
 },
 {
   id: "linen", cat: "fibre", name: "Linen (flax)",
-  sub: "Linum usitatissimum bast fibre", img: "linen",
-  hook: "One of the few fibres that is stronger wet than dry, and among the oldest in use — there is linen in Egyptian tombs still recognisable as cloth. It barely stretches, which makes it crisp and makes it crease.",
+  sub: "Linum usitatissimum bast fibre", img: "linen", extra: ["linen2", "linen3"],
+  hook: "One of the few fibres stronger wet than dry, and among the oldest in use: there is linen in Egyptian tombs still recognisable as cloth. It barely stretches, which is why it is crisp and why it creases when you sit.",
+  more: "Flax is pulled, not cut, to keep the fibre whole, then retted in dew or a pond, broken, scutched to knock the woody shive off, and hackled through nails into a sliver half a metre long. The fibre is near-pure cellulose, crystalline and lined up along its length, which is where the strength and the stiffness come from; water pulls the fibrils closer, so it gains a fifth in strength wet, the opposite of wool. It was the sailcloth of every navy before cotton duck, and the first aeroplane skin. The costs: the fibre is stiff, so the yarn is slubby and the cloth wrinkles instead of recovering; it has no elastic give, so it wears through at the crease; retting is a smelly fortnight that fouls rivers; and all that handling is why it costs three times cotton.",
   stats: [["Wet strength", "~20% higher than dry"], ["Stretch", "very low"], ["Age of use", "~30,000 years"]],
   uses: "Cloth and sailcloth, fire hose liners, bookbinding and paper, composite reinforcement.",
   link: "https://en.wikipedia.org/wiki/Linen"
 },
 {
   id: "silk", cat: "fibre", name: "Silk",
-  sub: "Bombyx mori filament", img: "silk",
-  hook: "A single continuous filament, up to a kilometre and a half of it, unwound from one cocoon — no other natural fibre comes in a length like that. Strong, tough and smooth enough to pack a parachute.",
+  sub: "Bombyx mori filament", img: "silk", extra: ["silk2", "silk3"],
+  hook: "A single filament, up to a kilometre and a half of it, unwound from one cocoon; no other natural fibre comes in that length. Strong, tough and smooth enough to pack a parachute, and killed by the sun it shines in.",
+  more: "The caterpillar spins two strands of fibroin glued with sericin, a triangular cross-section that throws the light back and is why silk shines. The cocoon is baked before the moth can chew out, softened in hot water, and the ends of five or eight cocoons reeled together into one raw thread; a kilogram of silk is five thousand cocoons and a tonne of mulberry leaf. Degummed, it is a protein fibre as strong as nylon for its weight and tougher, which is why it was the parachute canopy until 1942 and is still a suture. The costs: wet, it loses a fifth of its strength; ultraviolet yellows and rots it, so a silk curtain dies at the window; sweat and alkali degrade it; moths eat it; and it is all hand labour, so it has been a luxury for four thousand years.",
   stats: [["Filament length", "up to ~1500 m"], ["Tensile", "~0.5 GPa"], ["Diameter", "~10–15 µm"]],
   uses: "Textiles, parachutes and balloon cloth historically, surgical suture, insulation in fine wire.",
   link: "https://en.wikipedia.org/wiki/Silk"
 },
 {
   id: "spidersilk", cat: "fibre", name: "Spider silk",
-  sub: "dragline silk and its recombinant copies", img: "spidersilk",
-  hook: "Not the strongest fibre, but the toughest: it stretches far while resisting hard, so it absorbs more energy before breaking than steel or aramid. Spiders are territorial and eat each other, so it cannot be farmed — it has to be brewed.",
+  sub: "dragline silk and its recombinant copies", img: "spidersilk", extra: ["spidersilk2", "spidersilk3"],
+  hook: "Not the strongest fibre, but the toughest: it stretches far while resisting hard, so it takes more energy to break than steel or aramid. Spiders eat each other, so it cannot be farmed; it has to be milked or brewed.",
+  more: "Dragline silk, the thread the spider hangs on, is crystalline alanine blocks between stretchy glycine-rich chains; the crystals carry the load and the chains unfold to take the energy, so it stretches a third of its length and still pulls at a gigapascal. The cape at the Victoria and Albert Museum took a million orb-weavers in Madagascar, milked a few metres at a time over four years, the only large cloth of it ever made. The recombinant route puts the gene into bacteria, goats or silkworms and spins the protein. The costs: the spider spins at a rate and a pH no machine matches, so the copy is weaker; a fermenter yields grams; the protein sticks to itself and falls out of solution; and after thirty years the product on sale is a shoe upper and a tie.",
   stats: [["Toughness", "~3× aramid"], ["Extension", "~30–40%"], ["Production", "recombinant, not farmed"]],
   uses: "Experimental textiles and composites, sutures and scaffolds, research into tough fibres.",
   link: "https://en.wikipedia.org/wiki/Spider_silk"

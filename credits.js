@@ -2690,7 +2690,7 @@ window.CREDITS = {
   },
   "hemprope2": {
     "file": "hemprope2.jpg",
-    "caption": "The bast fibre itself, after retting and scutching",
+    "caption": "Bast still on the stalk: the fibre is the layer under the bark, and retting is what frees it",
     "kind": "photo",
     "title": "Hemp fiber.jpg",
     "site": "Wikimedia",
@@ -2786,7 +2786,7 @@ window.CREDITS = {
   },
   "jute": {
     "file": "jute.jpg",
-    "caption": "Jute rope",
+    "caption": "Jute rope, the fibre at its coarsest and cheapest",
     "kind": "photo",
     "title": "Jute Rope (சணல் கயிறு).jpg",
     "artist": "Thamizhpparithi Maari",
@@ -2796,17 +2796,53 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "jute2": {
+    "file": "jute2.jpg",
+    "caption": "Retting in Bangladesh: the stalks sunk in a pond until the fibre loosens from the stick",
+    "kind": "process",
+    "title": "Processing of golden fiber.jpg",
+    "site": "Wikimedia",
+    "artist": "Mahinur11",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Processing_of_golden_fiber.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "jute3": {
+    "file": "jute3.jpg",
+    "caption": "Where most of it went: coffee sacks, though the Tanzanian one is probably sisal",
+    "kind": "product",
+    "title": "Coffee sacks.jpg",
+    "site": "Wikimedia",
+    "artist": "Downtowngal",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Coffee_sacks.jpg",
+    "w": 960,
+    "h": 803
+  },
   "cottonduck": {
     "file": "cottonduck.jpg",
-    "caption": "Cotton duck, woven tight enough to shed water",
+    "caption": "Cotton duck, the plain weave packed until no hole shows",
     "kind": "photo",
-    "title": "Close up of cotton duck canvas.JPG",
+    "title": "Cotton duck.jpg",
+    "site": "Wikimedia",
     "artist": "Clescelius",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Close_up_of_cotton_duck_canvas.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Cotton_duck.jpg",
     "w": 960,
-    "h": 1285,
-    "site": "Wikimedia"
+    "h": 746
+  },
+  "cottonduck2": {
+    "file": "cottonduck2.jpg",
+    "caption": "A canvas camp, the job duck is named for: it sheds rain only when pitched taut",
+    "kind": "product",
+    "title": "Canvas Tent.jpg",
+    "site": "Wikimedia",
+    "artist": "Deepak Official Id",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Canvas_Tent.jpg",
+    "w": 960,
+    "h": 748
   },
   "linen": {
     "file": "linen.jpg",
@@ -2820,6 +2856,30 @@ window.CREDITS = {
     "w": 900,
     "h": 223
   },
+  "linen2": {
+    "file": "linen2.jpg",
+    "caption": "Scutching, Lithuania 1936: the broken straw beaten off the fibre with a wooden blade",
+    "kind": "process",
+    "title": "Lithuanian woman scutching the flax, Užpaliai, 1936, Lithuania.jpg",
+    "site": "Wikimedia",
+    "artist": "Chaitas Halberštatas",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lithuanian_woman_scutching_the_flax,_U%C5%BEpaliai,_1936,_Lithuania.jpg",
+    "w": 720,
+    "h": 466
+  },
+  "linen3": {
+    "file": "linen3.jpg",
+    "caption": "Dew retting in a Normandy field, the seed bolls still on the straw",
+    "kind": "process",
+    "title": "Dew retting flax close-up.jpg",
+    "site": "Wikimedia",
+    "artist": "Stanzilla",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dew_retting_flax_close-up.jpg",
+    "w": 960,
+    "h": 619
+  },
   "silk": {
     "file": "silk.jpg",
     "caption": "A silk curtain woven for the Alhambra palace",
@@ -2832,8 +2892,44 @@ window.CREDITS = {
     "w": 573,
     "h": 900
   },
+  "silk2": {
+    "file": "silk2.jpg",
+    "caption": "Cocoons, each one a kilometre of filament wound by the caterpillar",
+    "kind": "related",
+    "title": "Silkworm cocoons.jpg",
+    "site": "Wikimedia",
+    "artist": "Fumikas Sagisavas",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Silkworm_cocoons.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "silk3": {
+    "file": "silk3.jpg",
+    "caption": "A reeling machine at the Okaya silk museum: cocoons in hot water, the ends drawn up together",
+    "kind": "process",
+    "title": "Filature machine.jpg",
+    "site": "Wikimedia",
+    "artist": "Miyuki Meinaka",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Filature_machine.jpg",
+    "w": 960,
+    "h": 720
+  },
   "spidersilk": {
     "file": "spidersilk.jpg",
+    "caption": "The Godley and Peers cape at the V&A, 2011: a million orb-weavers milked over four years",
+    "kind": "product",
+    "title": "Godley & Peers Golden Spider Silk Cape at the VAM.jpg",
+    "site": "Wikimedia",
+    "artist": "Matthew X Bird",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Godley_%26_Peers_Golden_Spider_Silk_Cape_at_the_VAM.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "spidersilk2": {
+    "file": "spidersilk2.jpg",
     "caption": "A golden silk orb-weaver on its web; the dragline is the fibre everyone wants to copy",
     "kind": "related",
     "title": "https://images-assets.nasa.gov/image/KSC-06pd2059/KSC-06pd2059~medium.jpg",
@@ -2843,6 +2939,18 @@ window.CREDITS = {
     "page": "https://images.nasa.gov/details/KSC-06pd2059",
     "w": 960,
     "h": 638
+  },
+  "spidersilk3": {
+    "file": "spidersilk3.jpg",
+    "caption": "A braided suture of spider silk under the electron microscope",
+    "kind": "structure",
+    "title": "SEM-of-single-spider-silk-fibres-and-braided-spider-silk-suture Ausschnitt.jpg",
+    "site": "Wikimedia",
+    "artist": "Hennecke, K., Redeker, J., Kuhbier, J. W., Strauss, S., Allmeling, C., Kasper, C., Reimers, K., & Vogt, P. M.",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SEM-of-single-spider-silk-fibres-and-braided-spider-silk-suture_Ausschnitt.jpg",
+    "w": 787,
+    "h": 528
   },
   "felt": {
     "file": "felt.jpg",

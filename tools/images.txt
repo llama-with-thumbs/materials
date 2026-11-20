@@ -235,11 +235,20 @@ sisal3|commons|Combing sisal fibre, Tekik Plantation, Acanceh, Yucatan, Mexico 1
 coir|commons|Making coir rope in Kerala.JPG|Coir rope twisted by hand in Kerala, two women and a wheel|product
 coir2|commons|Coir Fibre EX Stock.jpg|Brown coir baled for export, the fibre as it leaves the retting and beating|photo
 coir3|commons|Coir mat making.jpg|A doormat on the frame, where most of the fibre now ends up|process
-jute|commons|Jute Rope (சணல் கயிறு).jpg|Jute rope|photo
-cottonduck|commons|Close up of cotton duck canvas.JPG|Cotton duck, woven tight enough to shed water|photo
+jute|commons|Jute Rope (சணல் கயிறு).jpg|Jute rope, the fibre at its coarsest and cheapest|photo
+jute2|commons|Processing of golden fiber.jpg|Retting in Bangladesh: the stalks sunk in a pond until the fibre loosens from the stick|process
+jute3|commons|Coffee sacks.jpg|Where most of it went: coffee sacks, though the Tanzanian one is probably sisal|product
+cottonduck|commons|Cotton duck.jpg|Cotton duck, the plain weave packed until no hole shows|photo
+cottonduck2|commons|Canvas Tent.jpg|A canvas camp, the job duck is named for: it sheds rain only when pitched taut|product
 linen|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1921.1026/1921.1026_web.jpg|Mummy linen: flax in a plain weave, thousands of years old and still cloth|photo|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1921.1026
+linen2|commons|Lithuanian woman scutching the flax, Užpaliai, 1936, Lithuania.jpg|Scutching, Lithuania 1936: the broken straw beaten off the fibre with a wooden blade|process
+linen3|commons|Dew retting flax close-up.jpg|Dew retting in a Normandy field, the seed bolls still on the straw|process
 silk|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1982.16/1982.16_web.jpg|A silk curtain woven for the Alhambra palace|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1982.16
-spidersilk|NASA|https://images-assets.nasa.gov/image/KSC-06pd2059/KSC-06pd2059~medium.jpg|A golden silk orb-weaver on its web; the dragline is the fibre everyone wants to copy|related|Public domain|KSC|https://images.nasa.gov/details/KSC-06pd2059
+silk2|commons|Silkworm cocoons.jpg|Cocoons, each one a kilometre of filament wound by the caterpillar|related
+silk3|commons|Filature machine.jpg|A reeling machine at the Okaya silk museum: cocoons in hot water, the ends drawn up together|process
+spidersilk|commons|Godley & Peers Golden Spider Silk Cape at the VAM.jpg|The Godley and Peers cape at the V&A, 2011: a million orb-weavers milked over four years|product
+spidersilk2|NASA|https://images-assets.nasa.gov/image/KSC-06pd2059/KSC-06pd2059~medium.jpg|A golden silk orb-weaver on its web; the dragline is the fibre everyone wants to copy|related|Public domain|KSC|https://images.nasa.gov/details/KSC-06pd2059
+spidersilk3|commons|SEM-of-single-spider-silk-fibres-and-braided-spider-silk-suture Ausschnitt.jpg|A braided suture of spider silk under the electron microscope|structure
 felt|commons|Colored felt cloth.jpg|Wool felt — fabric with no weave at all|photo
 paracord|commons|MIL-C-5040 Type III 550 Paracord.jpg|550 paracord, sheath opened to show the core yarns|photo
 polyesterfab|commons|Drop of water on water-resistant textile (100% polyester).jpg|Water beading on woven polyester|photo
