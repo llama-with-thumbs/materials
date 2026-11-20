@@ -5726,7 +5726,7 @@ window.CREDITS = {
   },
   "seatbelt2": {
     "file": "seatbelt2.jpg",
-    "caption": "A sled test with a dummy, 1960s: where the specified stretch was worked out",
+    "caption": "A seat-belt test rig with a dummy: where the specified stretch was worked out",
     "kind": "process",
     "title": "Seat belt testing.jpg",
     "site": "Wikimedia",
@@ -5760,21 +5760,69 @@ window.CREDITS = {
     "h": 540,
     "site": "Wikimedia"
   },
+  "velcro2": {
+    "file": "velcro2.jpg",
+    "caption": "Hooks and loops under the microscope as the two halves are pulled apart: each bond is nothing, the sum holds",
+    "kind": "structure",
+    "title": "Velcro photomicrograph.jpg",
+    "site": "Wikimedia",
+    "artist": "Trazyanderson",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Velcro_photomicrograph.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "velcro3": {
+    "file": "velcro3.jpg",
+    "caption": "The original: a burr, whose hooks de Mestral copied after picking them off his dog",
+    "kind": "analog",
+    "title": "Bur Macro BlackBg.jpg",
+    "site": "Wikimedia",
+    "artist": "Zephyris",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bur_Macro_BlackBg.jpg",
+    "w": 960,
+    "h": 774
+  },
   "denim": {
     "file": "denim.jpg",
-    "caption": "Denim, woven as a right-hand twill: a scanned swatch rendered by Poly Haven",
+    "caption": "Denim close up: blue warp over white weft in diagonal twill lines",
     "kind": "photo",
-    "title": "https://cdn.polyhaven.com/asset_img/primary/denim_fabric_05.png?width=1024",
-    "site": "Poly Haven",
-    "artist": "Poly Haven",
+    "title": "Denim 130426.jpg",
+    "site": "Wikimedia",
+    "artist": "Maurizio Baldi",
     "license": "CC0",
-    "page": "https://polyhaven.com/a/denim_fabric_05",
+    "page": "https://commons.wikimedia.org/wiki/File:Denim_130426.jpg",
+    "w": 933,
+    "h": 1096
+  },
+  "denim2": {
+    "file": "denim2.jpg",
+    "caption": "Honeycomb fades behind the knee of raw denim: the indigo ring worn off wherever the cloth creased",
+    "kind": "product",
+    "title": "Raw denim honeycomb fades.jpg",
+    "site": "Wikimedia",
+    "artist": "Leondelrosario",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Raw_denim_honeycomb_fades.jpg",
     "w": 960,
-    "h": 480
+    "h": 1440
+  },
+  "denim3": {
+    "file": "denim3.jpg",
+    "caption": "A selvedge edge turned out on a cuff, the mark of denim woven narrow on a shuttle loom",
+    "kind": "product",
+    "title": "Selvagedenim.jpg",
+    "site": "Wikimedia",
+    "artist": "Liface at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Selvagedenim.jpg",
+    "w": 960,
+    "h": 640
   },
   "cordura": {
     "file": "cordura.jpg",
-    "caption": "Cordura fabric",
+    "caption": "Cordura fabric: the textured yarn gives it a matt, almost cotton look",
     "kind": "photo",
     "title": "Blue cordura garment.jpg",
     "artist": "Apapadop",
@@ -5784,9 +5832,21 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "cordura2": {
+    "file": "cordura2.jpg",
+    "caption": "A wallet with the licence label sewn on: the brand is part of what you pay for",
+    "kind": "product",
+    "title": "Cordura Purse.jpg",
+    "site": "Wikimedia",
+    "artist": "Markbenecke",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cordura_Purse.jpg",
+    "w": 960,
+    "h": 720
+  },
   "viscose": {
     "file": "viscose.jpg",
-    "caption": "Viscose rayon",
+    "caption": "Viscose rayon: silk's drape and lustre from wood pulp",
     "kind": "photo",
     "title": "Rayon sample.jpg",
     "artist": "Arkirkland",
@@ -5795,6 +5855,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "viscose2": {
+    "file": "viscose2.jpg",
+    "caption": "A viscose spinning machine at the Science Museum, London: syrup in, thread out",
+    "kind": "process",
+    "title": "Viscose Rayon spinning machine.JPG",
+    "site": "Wikimedia",
+    "artist": "Geni",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Viscose_Rayon_spinning_machine.JPG",
+    "w": 960,
+    "h": 803
+  },
+  "viscose3": {
+    "file": "viscose3.jpg",
+    "caption": "A single rayon fibre under the electron microscope, with the lengthwise striations of the acid bath",
+    "kind": "structure",
+    "title": "CSIRO ScienceImage 7342 Rayon fibre.jpg",
+    "site": "Wikimedia",
+    "artist": "division, CSIRO",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_7342_Rayon_fibre.jpg",
+    "w": 960,
+    "h": 447
   },
   "lyocell": {
     "file": "lyocell.jpg",
@@ -8138,15 +8222,39 @@ window.CREDITS = {
   },
   "monofil": {
     "file": "monofil.jpg",
-    "caption": "A fixed-line trimmer head — nylon monofilament doing the cutting",
+    "caption": "Monofilament running through a rod guide: one clear strand, nearly invisible against the water",
+    "kind": "photo",
+    "title": "GreenFishingLine.jpg",
+    "site": "Wikimedia",
+    "artist": "Jay Erickson",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GreenFishingLine.jpg",
+    "w": 960,
+    "h": 960
+  },
+  "monofil2": {
+    "file": "monofil2.jpg",
+    "caption": "A fixed-line trimmer head: nylon monofilament doing the cutting",
     "kind": "product",
     "title": "String trimmer head-insert style.jpg",
+    "site": "Wikimedia",
     "artist": "StrangeApparition2011",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:String_trimmer_head-insert_style.jpg",
     "w": 960,
-    "h": 540,
-    "site": "Wikimedia"
+    "h": 540
+  },
+  "monofil3": {
+    "file": "monofil3.jpg",
+    "caption": "Nylon suture in its pack: a single strand with no fibres for bacteria to climb",
+    "kind": "product",
+    "title": "Nylon suture 01.JPG",
+    "site": "Wikimedia",
+    "artist": "Saltanat",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nylon_suture_01.JPG",
+    "w": 960,
+    "h": 720
   },
   "emifabric": {
     "file": "emifabric.jpg",

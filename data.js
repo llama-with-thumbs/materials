@@ -2448,40 +2448,45 @@ window.MATERIALS = [
 },
 {
   id: "velcro", cat: "fibre", name: "Hook-and-loop",
-  sub: "Velcro, nylon hooks and loops", img: "velcro",
-  hook: "Copied directly from burdock burrs stuck to a dog in 1941. Thousands of stiff hooks catch a felt of soft loops; each bond is trivial, the sum is strong in shear and weak in peel, which is why you pull it apart from a corner.",
+  sub: "Velcro, nylon hooks and loops", img: "velcro", extra: ["velcro2", "velcro3"],
+  hook: "Copied from the burdock burrs de Mestral picked off his dog in 1941. Thousands of nylon hooks catch a felt of loops; each bond is nothing, the sum holds in shear and gives in peel, so you open it from a corner.",
+  more: "The hooks are woven as loops of stiff nylon monofilament and sliced open on one side; the loop side is a soft nylon pile. Press them together and the hooks snag loops at random, so a strip holds a curtain of weight in shear while a child can peel it off. It took de Mestral ten years to make it by machine. Nothing else closes blind, one-handed, in a glove, which is why it went to the Moon on Apollo and holds every pen and spoon to the walls of the space station. The costs: the loops stretch and the hooks straighten, so it is tired after a few thousand cycles; it fills with lint and fur and stops gripping; the hooks pull threads out of any knit they touch; it is loud; and it is ugly, which is why no tailor has ever liked it.",
   stats: [["Shear strength", "~100 kN/m²"], ["Peel", "weak, by design"], ["Cycles", "~10,000"]],
   uses: "Clothing and shoes, cable management, medical braces, spacecraft interiors.",
   link: "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
 },
 {
   id: "denim", cat: "fibre", name: "Denim",
-  sub: "indigo-dyed cotton twill", img: "denim",
-  hook: "Indigo will not penetrate cotton — it sits in rings on the outside of the yarn. Every crease wears that ring away and exposes white fibre underneath, so the fabric records exactly how its owner moved. The twill weave is what makes it fade in diagonal lines.",
+  sub: "indigo-dyed cotton twill", img: "denim", extra: ["denim2", "denim3"],
+  hook: "Indigo will not go into cotton; it sits in a ring on the yarn's surface. Every crease wears the ring away and bares the white core, so the cloth records how its owner moved. The twill is why it fades in diagonals.",
+  more: "The warp is dyed in a dozen dips in an indigo vat, each followed by an airing while the dye oxidises blue on the surface; the weft is left white. Woven 3×1 twill, the blue warp covers the face and the white weft the back, so jeans are blue outside and pale inside. Wear scuffs the dye off the ridges first, so the creases behind the knee and across the lap turn white in a pattern particular to one body; raw denim is sold unwashed so that happens in use. The costs: the dye keeps coming off, onto sofas and shoes; a yard of indigo cotton takes thousands of litres of water and a vat of hydrosulphite; it is stiff and heavy wet and slow to dry; and the pretend fades on a stonewashed pair are sandblasted on, which gave the sandblasters silicosis.",
   stats: [["Weave", "3×1 right-hand twill"], ["Dye", "ring, not through"], ["Weight", "10–21 oz/yd²"]],
   uses: "Jeans and workwear, upholstery, jackets.",
   link: "https://en.wikipedia.org/wiki/Denim"
 },
 {
   id: "cordura", cat: "fibre", name: "Cordura",
-  sub: "high-tenacity air-jet textured nylon 6,6", img: "cordura",
-  hook: "Abrasion resistance comes from the yarn, not the weave: the filaments are tangled by an air jet so they grab each other, and a snagged fibre pulls its neighbours in instead of pulling out. Several times the life of standard nylon of the same weight.",
+  sub: "high-tenacity air-jet textured nylon 6,6", img: "cordura", extra: ["cordura2"],
+  hook: "Thick nylon 6,6 blown through an air jet that tangles the filaments. Abrasion resistance is in the yarn, not the weave: a snagged filament drags its neighbours instead of pulling out, four times plain nylon's life.",
+  more: "DuPont registered Cordura in 1929 for a rayon used in tyre cord; the name moved to nylon in the 1960s and the air-jet texturing came in the late 1970s, for army packs that wore through at the corners. The jet loops and tangles the filaments so the yarn feels like cotton and holds together under a rubbing stone. Woven at 500 or 1,000 denier and coated with polyurethane on the back, it is the fabric of every serious pack, motorcycle suit and boot upper. The costs: it is heavy for a nylon; the texturing makes it rough and it needs the coating to shed water; it drinks water like all nylon and fades in the sun; the 1,000 denier grade is stiff as board; and it is a brand, so a licence fee is in the price and the label may be most of what you paid for.",
   stats: [["Denier", "500–1000 typical"], ["Abrasion", "~4× standard nylon"], ["Introduced", "1929, as rayon"]],
   uses: "Backpacks and luggage, motorcycle gear, military packs, boot panels.",
   link: "https://en.wikipedia.org/wiki/Cordura"
 },
 {
   id: "monofil", cat: "fibre", name: "Nylon monofilament",
-  sub: "single-strand extruded line", img: "monofil",
-  hook: "A single smooth strand rather than a bundle, so it is nearly invisible in water and knots bite into themselves. It also absorbs water and stretches, which is forgiving on a strike and infuriating when you need to feel the bottom.",
+  sub: "single-strand extruded line", img: "monofil", extra: ["monofil2", "monofil3"],
+  hook: "One extruded strand instead of a twisted bundle. Smooth, so a knot bites into itself; a refractive index near water, so a fish barely sees it; and a quarter of stretch, which forgives a strike and hides the bottom.",
+  more: "Nylon is extruded through a single hole and drawn to four times its length, which lines up the chains and gives a line that is round, clear and strong for its thickness, a 0.25 millimetre line holding 5 kilograms. DuPont sold the first in 1939; it was too stiff to catch on until 1958. Because the strand is one piece there is no fibre to fray, so it also runs through a trimmer head, holds a hem invisibly and closes a wound as a suture that bacteria cannot climb. The costs: it takes up water and loses strength and stretch overnight in the lake; a season of sun makes it brittle; a knot is where it breaks, at half the rated strength, and the spool figure is dry and unknotted; and lost line strangles birds for decades, since nothing in the sea eats it.",
   stats: [["Stretch", "~20–30%"], ["Refractive index", "close to water"], ["Weakness", "UV, ~1 season"]],
   uses: "Fishing line, string trimmers, surgical suture, brush bristles, netting.",
   link: "https://en.wikipedia.org/wiki/Monofilament_fishing_line"
 },
 {
   id: "viscose", cat: "fibre", name: "Viscose rayon",
-  sub: "regenerated cellulose", img: "viscose",
-  hook: "Neither natural nor synthetic: wood pulp is dissolved into a thick orange syrup and squirted back out as fibre. The first manufactured fibre, sold as artificial silk from 1905 — and it still drapes like silk, because the chemistry really is the same cellulose.",
+  sub: "regenerated cellulose", img: "viscose", extra: ["viscose2", "viscose3"],
+  hook: "Wood pulp dissolved to an orange syrup and squirted back out as fibre: what comes out is the same cellulose that went in, which is why it drapes like silk. Neither natural nor synthetic; artificial silk from 1905.",
+  more: "Cross, Bevan and Beadle patented it in 1892: pulp is steeped in caustic soda, treated with carbon disulphide to make the orange xanthate, dissolved to a viscous syrup, and pumped through a spinneret into a bath of sulphuric acid that turns it back into cellulose as a thread. The result is cotton's chemistry with silk's lustre and drape; Courtaulds made a fortune on it between the wars, and most of the world's tyres ran on rayon cord until polyester. The costs: it loses half its strength wet and is weaker than cotton dry, so it sags in the wash and shrinks in the dryer; it creases; the carbon disulphide poisoned the workers who made it for a century and still does where it is made cheaply; and the pulp is cheap because somebody's forest was.",
   stats: [["Source", "wood pulp"], ["Wet strength", "loses ~50%"], ["Since", "1905"]],
   uses: "Linings and dress fabric, tyre cord historically, wipes, cigarette filters.",
   link: "https://en.wikipedia.org/wiki/Viscose"
