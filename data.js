@@ -2403,40 +2403,45 @@ window.MATERIALS = [
 },
 {
   id: "pprope", cat: "fibre", name: "Polypropylene rope",
-  sub: "PP monofilament or split film", img: "pprope",
-  hook: "The only common rope that floats, which is why a throwline is always this garish yellow. The price is sunlight: a few seasons of UV and it turns to powder in your hand, and it melts at a temperature a hand-over-hand descent can reach.",
+  sub: "PP monofilament or split film", img: "pprope", extra: ["pprope2", "pprope3"],
+  hook: "The only common rope that floats, which is why a throwline is always garish yellow. The price is sunlight: a few seasons and it powders in the hand, and it melts at a heat a hand-over-hand descent can reach.",
+  more: "Polypropylene is lighter than water, 0.91 against 1, so the rope sits on the surface where a swimmer can grab it and a propeller cannot. It is also the cheapest fibre there is, extruded as monofilament or as film slit into tape and twisted, which is baler twine and the blue rope on every farm gate. It takes up no water, so it weighs the same wet and does not rot. The costs: half the strength of nylon, and it stretches without recovering, so a stretched rope stays long; a tertiary carbon on every chain unit is where ultraviolet attacks, so a plain rope dies in one summer and a black one in three; it melts at 165 degrees, which a fast rope through a descender can reach; it is slippery and knots creep; and it is stiff and hard in the hand when cold.",
   stats: [["Density", "0.91 g/cm³ — floats"], ["UV life", "1–3 seasons"], ["Melts", "~165 °C"]],
   uses: "Rescue throwlines, water-ski ropes, barrier rope, agriculture and baling.",
   link: "https://en.wikipedia.org/wiki/Polypropylene"
 },
 {
   id: "bungee", cat: "fibre", name: "Shock cord",
-  sub: "rubber strands in a braided sleeve", img: "bungee",
-  hook: "A bundle of natural rubber threads inside a woven jacket that limits how far it can go. The jacket takes the abrasion and sets the stretch limit; the rubber supplies the force. Jump off a bridge on one and it decelerates you over several seconds at well under 3 g.",
+  sub: "rubber strands in a braided sleeve", img: "bungee", extra: ["bungee2", "bungee3"],
+  hook: "Natural rubber threads inside a woven jacket that sets how far it can go. The jacket takes the abrasion and the stretch limit; the rubber supplies the force. Jump off a bridge on one and it slows you at under 3 g.",
+  more: "A few hundred threads of natural rubber lie parallel in a braided nylon or polyester sleeve; the sleeve is braided on under tension, so the cord cannot stretch past the point where the braid locks, usually double its length. Rubber stores energy by uncoiling its chains and gives most of it back, which makes a jump a long slow bounce instead of a jolt; the cord for a jumper is sized to the body weight on the day. The costs: the rubber ages in ozone and sunlight and the first sign is the sleeve going slack; a snapped hook is the commonest eye injury from a hardware shop; the stored energy comes back at the user, which is why it never lifts anything; and the sleeve hides the rubber, so a cord that looks fine can have half its threads broken.",
   stats: [["Stretch", "100–200%"], ["Core", "natural rubber"], ["Peak load", "~2–3 g on a jump"]],
   uses: "Bungee jumping, cargo nets and tie-downs, tent poles, kayak deck rigging.",
   link: "https://en.wikipedia.org/wiki/Bungee_cord"
 },
 {
   id: "kernmantle", cat: "fibre", name: "Kernmantle rope",
-  sub: "twisted nylon core in a woven sheath", img: "kernmantle",
-  hook: "Two ropes in one: a core that carries essentially all the load and a sheath that protects it and does almost nothing else. A dynamic rope is rated not by breaking strength but by how many standard falls it survives — it is a consumable energy absorber.",
+  sub: "twisted nylon core in a woven sheath", img: "kernmantle", extra: ["kernmantle2", "kernmantle3"],
+  hook: "Two ropes in one: a core that carries nearly all the load and a sheath that only protects it. A dynamic rope is rated not by strength but by how many standard falls it survives; it is a consumable energy absorber.",
+  more: "Edelrid wove the first in 1953: twisted nylon yarns, some S and some Z so the rope does not spin, inside a braided sheath that takes the rock, the grit and the sun; a laid rope kinked and spun a hanging climber. A dynamic rope stretches a third of its length under a falling climber, so the force on climber and anchor stays under 12 kilonewtons; the standard test drops 80 kilograms on it until it breaks. A static rope for caving is the same build with almost no stretch. The costs: the sheath can slip on the core and bunch at the end; a core shot, where the sheath is cut through, cannot be repaired; a rope that has held a hard fall has spent some of its stretch and is retired; grit and sunlight shorten its life; and it costs three times a laid rope.",
   stats: [["Core carries", "~70% of load"], ["Impact force", "<9 kN by standard"], ["Rated in", "UIAA falls held"]],
   uses: "Climbing and caving, rope access, rescue, arborist work.",
   link: "https://en.wikipedia.org/wiki/Kernmantle_rope"
 },
 {
   id: "webbing", cat: "fibre", name: "Tubular webbing",
-  sub: "flat-woven nylon tube", img: "webbing",
+  sub: "flat-woven nylon tube", img: "webbing", extra: ["webbing2", "webbing3"],
   hook: "Woven as a continuous tube on a shuttle loom rather than a strip folded over. There is no seam to abrade, it drapes flat over an edge instead of rolling onto a corner, and a hitch tied in it does not want to slip.",
+  more: "A needle loom makes flat webbing fast and cheap; a shuttle loom carries the weft round and round, so the webbing comes off as a tube, slower and dearer, which is what climbers buy. The tube flattens to a double thickness with no edge inside, so it slides round a tree or a rock horn unharmed, and it knots: the water knot, a rethreaded overhand, is the one trusted in tape, and the tails creep. Nylon 25 millimetres wide holds about 18 kilonewtons; the same width in Dyneema is stronger and lighter but will not hold a knot, so it is sewn into slings. The costs: a knot takes a third of the strength; nylon tape stretches and drinks water; the tube can hide a cut; and sunlight bleaches and weakens it in a season, so faded anchor tat is cut off and replaced.",
   stats: [["Strength", "~18 kN in 25 mm"], ["Weave", "seamless tube"], ["Edge load", "spread flat"]],
   uses: "Climbing anchors and slings, rescue harnesses, slacklines, load restraint.",
   link: "https://en.wikipedia.org/wiki/Webbing"
 },
 {
   id: "seatbelt", cat: "fibre", name: "Seat-belt webbing",
-  sub: "polyester, engineered to elongate", img: "seatbelt",
-  hook: "A belt that did not stretch would break ribs. This one is woven to give 8–14% at full load, which adds a few extra centimetres of stopping distance at exactly the moment they matter most, and polyester is used because it does not lose that behaviour when damp.",
+  sub: "polyester, engineered to elongate", img: "seatbelt", extra: ["seatbelt2", "seatbelt3"],
+  hook: "A belt that did not stretch would break ribs. This one gives 8 to 14 per cent at full load, a few centimetres more stopping distance at the moment they matter; polyester, because polyester does not change when damp.",
+  more: "Nils Bohlin at Volvo put the three-point belt in the Amazon in 1959 and the patent was given away; the webbing is 300 polyester yarns in a dense twill, and it is the stretch that is specified, not the strength. At 50 kilometres an hour the body stops in a few hundredths of a second; the belt's give stretches that out and halves the peak force on the chest. A pretensioner fires first to take the slack out; a load limiter then lets the spool pay out at about 4 kilonewtons. The costs: a belt that has held a crash has stretched past its elastic limit and must be replaced; the webbing frays on a cut edge of trim and loses strength invisibly; sunlight through a rear window weakens it over decades; and a twisted belt loads a line instead of a band.",
   stats: [["Elongation", "8–14% at rated load"], ["Strength", ">26 kN"], ["Fibre", "polyester, not nylon"]],
   uses: "Vehicle and aircraft restraints, child seats, racing harnesses.",
   link: "https://en.wikipedia.org/wiki/Seat_belt"

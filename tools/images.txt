@@ -473,9 +473,15 @@ hempcrete3|commons|Highland Hemp House finished hempcrete.jpg|A house in Belling
 nylonrope|commons|Rope 20221203 102029.jpg|Braided synthetic rope coiled on a lifeboat|photo
 nylonrope2|commons|Frayed.png|An unwhipped end of double braid: the braided core inside the braided cover, each carrying half the load|structure
 nylonrope3|commons|An orange lifesaver with a wet sailing nylon rope, Auckland - 0569.jpg|Wet nylon rope on a lifebuoy, Auckland: wet is where it gives up a tenth of its strength|photo
-bungee|commons|Bungee Cord PICT6882a.jpg|Shock cord — rubber strands in a braided jacket|photo
-kernmantle|commons|Kernmantle climbing rope dynamic Sterling 10.7mm cut end.jpg|Kernmantle rope cut open — load-bearing core, protective sheath|photo
+bungee|commons|Bungee Cord PICT6882a.jpg|Shock cord: rubber strands in a braided jacket|photo
+bungee2|commons|Bungee equipment.jpg|The jump cord and its harness ends, on the board at the Bloukrans Bridge bungee museum|product
+bungee3|commons|Bungee Jumping from Gorsabrua (Gorsa Bridge).JPG|Leaving the platform at Gorsa Bridge, Norway, 153 metres over the gorge|product
+kernmantle|commons|Kernmantle climbing rope dynamic Sterling 10.7mm cut end.jpg|Kernmantle rope cut open: load-bearing core, protective sheath|photo
+kernmantle2|commons|Kernmantle climbing rope dynamic Sterling 10.7mm internal yarns and plies.jpg|The core teased apart: seven three-ply yarns, four twisted one way and three the other, so the rope does not spin|structure
+kernmantle3|commons|Rope access kit.jpg|A rope-access kit laid out: static kernmantle, harness, descender and the second rope the rules demand|product
 seatbelt|commons|Female driver buckling seatbelt.jpg|Seat-belt webbing in use|product
+seatbelt2|commons|Seat belt testing.jpg|A seat-belt test rig with a dummy: where the specified stretch was worked out|process
+seatbelt3|commons|Novapax Sicherheitsgurt.jpg|The retractor opened: spool, locking pawl and the webbing wound on it|structure
 velcro|commons|Hook and loop fastener - macro photograph of "hooks".jpg|The hooks of a hook-and-loop fastener, magnified|photo
 denim|Poly Haven|https://cdn.polyhaven.com/asset_img/primary/denim_fabric_05.png?width=1024|Denim, woven as a right-hand twill: a scanned swatch rendered by Poly Haven|photo|CC0|Poly Haven|https://polyhaven.com/a/denim_fabric_05
 cordura|commons|Blue cordura garment.jpg|Cordura fabric|photo
@@ -669,8 +675,12 @@ slaresin2|commons|Formlabs Form2 Bild09 5184x2912 (24416246841).jpg|The resin ta
 slaresin3|commons|Mammoth Stereolithography.jpg|Mammoth stereolithography at Materialise: a vat two metres long under yellow safelight|process
 alsi10mg|commons|Professional MotorSport World Expo 2024, Cologne (P1031209).jpg|Prototype turbochargers grown in a laser powder bed — the same powder route, though a housing this hot wants nickel rather than aluminium|analog
 printsilicone|commons|Silicone 3d print with support material.jpg|A pneumatic actuator printed in liquid silicone, still in its clear support|photo
-pprope|commons|Failedrope1.jpg|A polypropylene rope after UV exposure, beside a new one — sunlight is this fibre's weakness|product
+pprope|commons|Failedrope1.jpg|A polypropylene rope after UV exposure, beside a new one: sunlight is this fibre's weakness|product
+pprope2|commons|Pararescuemen conduct swift water rescue training during Enduring Partners 2026 (9742070).jpg|A throw-bag line recoiled after a swift-water drill, Chiang Mai: the rope floats, which is the point|product
+pprope3|commons|JBER Fire Department conducts cold water and ice-rescue training 151220-F-YH552-019.jpg|A firefighter hauling himself out of an Alaskan lake on a throw-bag line|product
 webbing|commons|Water-knot-webbing-loose-ABOK-296.jpg|Tubular webbing joined with a water knot|photo
+webbing2|commons|Slackline Parc.jpg|A slackline in a Toulouse park: tubular webbing tensioned between trees and walked|product
+webbing3|commons|Popruhy.jpg|Flat webbing on rolls; tubular is the same yarn on a slower loom that closes the tube|photo
 monofil|commons|String trimmer head-insert style.jpg|A fixed-line trimmer head — nylon monofilament doing the cutting|product
 emifabric|commons|Isotoner touch gloves BB E86 jeh.jpg|Touchscreen gloves — conductive yarn knitted into the fingertips|product
 technora|commons|Tandriem BMW F 650 CS02.JPG|A toothed belt final drive — aramid cords carry the load inside the rubber|product

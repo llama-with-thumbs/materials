@@ -1424,3 +1424,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `nomex`: `racing suit fireproof`, `aramid paper insulation` nothing; `Nomex honeycomb` is model rockets again; `Nomex Reaction.jpg` is a structure diagram. The USDA flight suit added.
 - `ripstop`: `ripstop tear`, `parachute ripstop fabric`, `hot air balloon fabric closeup` nothing; the NYCO blend and the Peter Lynn kite interior added, the Cherai paraglider passed over as a third.
 - `nylonrope`: `Nylon Rope.JPG` is on `nylon662`, the Sterling kernmantle series is on `kernmantle`; `anchor rode nylon`, `mooring line snapback`, `double braid rope` return one frayed end, which is exactly the structure shot wanted, plus the Auckland lifebuoy.
+
+## Batch 48 restyle (pprope, bungee, kernmantle, webbing, seatbelt)
+
+- `pprope`: `polypropylene rope floating`, `baler twine`, `split film rope` nothing; `water ski rope` returns skiers and jet skis. Two throw-bag photographs added (the bag is polypropylene by design; the captions say throw-bag line, not polypropylene).
+- `bungee`: `shock cord cut rubber`, `kayak deck bungee` nothing; `elastic cord hook` returns 1890 dental headgear. The Bloukrans museum board and the Gorsa jump added; the Hamburg crane is a crane at card size.
+- `kernmantle`: the Sterling series has four views of one rope; the teased core added as structure. `climbing rope fall belay` returns self-belay devices; `sheath damage`, `drop test` nothing. The 768 px rope-access kit added over the Manhattan façade shot, which is a building with a dot.
+- `webbing`: `webbing sling anchor climbing`, `nylon webbing roll`, `cargo lashing strap` nothing in English; `Gurtband` returns the rolls (`Popruhy`, flat webbing, captioned as such) and the slackline.
+- `seatbelt`: `seat belt webbing closeup`, `three-point seat belt Volvo 1959`, `pretensioner`, `buckle retractor` nothing; the NARA-style sled test (no description on Commons, public domain) and the Novapax retractor added; the Geneva motor-show dummy passed over as a mannequin.

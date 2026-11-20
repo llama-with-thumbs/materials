@@ -5642,7 +5642,7 @@ window.CREDITS = {
   },
   "bungee": {
     "file": "bungee.jpg",
-    "caption": "Shock cord — rubber strands in a braided jacket",
+    "caption": "Shock cord: rubber strands in a braided jacket",
     "kind": "photo",
     "title": "Bungee Cord PICT6882a.jpg",
     "artist": "The original uploader was Jmb at English Wikipedia.",
@@ -5652,9 +5652,33 @@ window.CREDITS = {
     "h": 481,
     "site": "Wikimedia"
   },
+  "bungee2": {
+    "file": "bungee2.jpg",
+    "caption": "The jump cord and its harness ends, on the board at the Bloukrans Bridge bungee museum",
+    "kind": "product",
+    "title": "Bungee equipment.jpg",
+    "site": "Wikimedia",
+    "artist": "Saifunny",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bungee_equipment.jpg",
+    "w": 960,
+    "h": 772
+  },
+  "bungee3": {
+    "file": "bungee3.jpg",
+    "caption": "Leaving the platform at Gorsa Bridge, Norway, 153 metres over the gorge",
+    "kind": "product",
+    "title": "Bungee Jumping from Gorsabrua (Gorsa Bridge).JPG",
+    "site": "Wikimedia",
+    "artist": "Lyngenfjord Bungee",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bungee_Jumping_from_Gorsabrua_(Gorsa_Bridge).JPG",
+    "w": 960,
+    "h": 638
+  },
   "kernmantle": {
     "file": "kernmantle.jpg",
-    "caption": "Kernmantle rope cut open — load-bearing core, protective sheath",
+    "caption": "Kernmantle rope cut open: load-bearing core, protective sheath",
     "kind": "photo",
     "title": "Kernmantle climbing rope dynamic Sterling 10.7mm cut end.jpg",
     "artist": "David J. Fred",
@@ -5663,6 +5687,30 @@ window.CREDITS = {
     "w": 960,
     "h": 879,
     "site": "Wikimedia"
+  },
+  "kernmantle2": {
+    "file": "kernmantle2.jpg",
+    "caption": "The core teased apart: seven three-ply yarns, four twisted one way and three the other, so the rope does not spin",
+    "kind": "structure",
+    "title": "Kernmantle climbing rope dynamic Sterling 10.7mm internal yarns and plies.jpg",
+    "site": "Wikimedia",
+    "artist": "David J. Fred",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kernmantle_climbing_rope_dynamic_Sterling_10.7mm_internal_yarns_and_plies.jpg",
+    "w": 960,
+    "h": 960
+  },
+  "kernmantle3": {
+    "file": "kernmantle3.jpg",
+    "caption": "A rope-access kit laid out: static kernmantle, harness, descender and the second rope the rules demand",
+    "kind": "product",
+    "title": "Rope access kit.jpg",
+    "site": "Wikimedia",
+    "artist": "Mika343243",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rope_access_kit.jpg",
+    "w": 768,
+    "h": 1024
   },
   "seatbelt": {
     "file": "seatbelt.jpg",
@@ -5675,6 +5723,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1440,
     "site": "Wikimedia"
+  },
+  "seatbelt2": {
+    "file": "seatbelt2.jpg",
+    "caption": "A sled test with a dummy, 1960s: where the specified stretch was worked out",
+    "kind": "process",
+    "title": "Seat belt testing.jpg",
+    "site": "Wikimedia",
+    "artist": "National Institute of Standards and Technology",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Seat_belt_testing.jpg",
+    "w": 960,
+    "h": 1186
+  },
+  "seatbelt3": {
+    "file": "seatbelt3.jpg",
+    "caption": "The retractor opened: spool, locking pawl and the webbing wound on it",
+    "kind": "structure",
+    "title": "Novapax Sicherheitsgurt.jpg",
+    "site": "Wikimedia",
+    "artist": "Der Urheber Eric Tschernow hat das Werk lizenziert (siehe unten).",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Novapax_Sicherheitsgurt.jpg",
+    "w": 960,
+    "h": 720
   },
   "velcro": {
     "file": "velcro.jpg",
@@ -7994,7 +8066,7 @@ window.CREDITS = {
   },
   "pprope": {
     "file": "pprope.jpg",
-    "caption": "A polypropylene rope after UV exposure, beside a new one — sunlight is this fibre's weakness",
+    "caption": "A polypropylene rope after UV exposure, beside a new one: sunlight is this fibre's weakness",
     "kind": "product",
     "title": "Failedrope1.jpg",
     "artist": "Peterlewis at English Wikipedia",
@@ -8003,6 +8075,30 @@ window.CREDITS = {
     "w": 960,
     "h": 467,
     "site": "Wikimedia"
+  },
+  "pprope2": {
+    "file": "pprope2.jpg",
+    "caption": "A throw-bag line recoiled after a swift-water drill, Chiang Mai: the rope floats, which is the point",
+    "kind": "product",
+    "title": "Pararescuemen conduct swift water rescue training during Enduring Partners 2026 (9742070).jpg",
+    "site": "Wikimedia",
+    "artist": "U.S. Air National Guard photo by Senior Airman Jordaan Kvale",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pararescuemen_conduct_swift_water_rescue_training_during_Enduring_Partners_2026_(9742070).jpg",
+    "w": 960,
+    "h": 640
+  },
+  "pprope3": {
+    "file": "pprope3.jpg",
+    "caption": "A firefighter hauling himself out of an Alaskan lake on a throw-bag line",
+    "kind": "product",
+    "title": "JBER Fire Department conducts cold water and ice-rescue training 151220-F-YH552-019.jpg",
+    "site": "Wikimedia",
+    "artist": "Alejandro Pena",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:JBER_Fire_Department_conducts_cold_water_and_ice-rescue_training_151220-F-YH552-019.jpg",
+    "w": 960,
+    "h": 640
   },
   "webbing": {
     "file": "webbing.jpg",
@@ -8015,6 +8111,30 @@ window.CREDITS = {
     "w": 960,
     "h": 638,
     "site": "Wikimedia"
+  },
+  "webbing2": {
+    "file": "webbing2.jpg",
+    "caption": "A slackline in a Toulouse park: tubular webbing tensioned between trees and walked",
+    "kind": "product",
+    "title": "Slackline Parc.jpg",
+    "site": "Wikimedia",
+    "artist": "KlemanGellek",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Slackline_Parc.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "webbing3": {
+    "file": "webbing3.jpg",
+    "caption": "Flat webbing on rolls; tubular is the same yarn on a slower loom that closes the tube",
+    "kind": "photo",
+    "title": "Popruhy.jpg",
+    "site": "Wikimedia",
+    "artist": "Martin Bulvas",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Popruhy.jpg",
+    "w": 960,
+    "h": 640
   },
   "monofil": {
     "file": "monofil.jpg",
