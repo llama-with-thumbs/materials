@@ -1344,3 +1344,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `forgedcomposite`: dropped the Huracán floor mat, where the material was a trim strip. The 800 px watch photograph is a maker's product shot under CC0, kept for the scale at which the marbling is bought.
 - `selfhealconcrete`: no second honest photograph. `self-healing concrete` and `bacteria concrete crack` return one 654 px gif, a mechanism diagram and concrete pump trucks.
 - `fibrecement`: `Cement Board.jpg` (USG Durock) is glass-mesh cement board, not fibre cement; left out rather than badge it related.
+
+## Batch 38 restyle (alsic, tyre, transparentarmour, dyneemahb, pvcfoam)
+
+- `alsic`: no photograph of Al-SiC on Commons. `AlSiC`, `Al-SiC`, `Duralcan`, `IGBT baseplate`, `MMC brake`, `silicon carbide particle reinforced` return trains, banknotes and maps. The NASA poster of SiC fibre in titanium was all text at card size; replaced by a 1979 boron-aluminium shear specimen (related) with the poster's central micrograph as a structure view. A Lotus Elise S1 disc or a bare baseplate would fix it.
+- `tyre`: `tyre section` returns the city in Lebanon; `Reifenquerschnitt` nothing. `PKW-Reifen Aufbau (eingefärbt).jpg` is the honest section; the Pirelli brochure cutaway kept as a drawing.
+- `dyneemahb`: `UHMWPE armor`, `UHMWPE plate`, `Dyneema helmet` return nothing; `Enhanced Combat Helmet` gives the PEO Soldier profile, which is a UHMWPE shell. The Osprey plates (ceramic-faced, cover on) dropped. `Sapi plates.jpg` is already on the boron carbide card. `Climbing gear made of dyneema.jpg` is already on the UHMWPE card, so the helmet stands alone.
+- `pvcfoam`: `Divinycell`, `Airex`, `PVC foam core`, `foam core boat hull`, `closed cell foam sheet` return nothing of the foam. `Wind rotor profile.jpg` shows the cored shells in section; a bare scored sheet of the foam is still wanted.
+- `transparentarmour`: the 1931 NYPD demonstration photograph (`Kogelvrij glas`, 887 px, no restrictions) was looked at and left; it is a period piece, not the laminate.

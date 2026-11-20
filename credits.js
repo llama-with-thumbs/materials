@@ -5018,31 +5018,55 @@ window.CREDITS = {
   },
   "alsic": {
     "file": "alsic.jpg",
-    "caption": "A metal matrix composite — ceramic reinforcement inside metal",
-    "kind": "photo",
-    "title": "255-GRC-1988-C-06617 Ceramic fiber metal matrix composite.jpg",
+    "caption": "Boron fibre in aluminium, 1979, sheared in test: the aluminium-matrix composite of the generation before the grit",
+    "kind": "related",
+    "title": "TESTED SHEAR SPECIMENS OF BORON - ALUMINUM MATERIAL - DPLA - 8430f66765e46fcc42265fccb1a0bca2.jpg",
+    "site": "Wikimedia",
+    "artist": "Martin Brown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:TESTED_SHEAR_SPECIMENS_OF_BORON_-_ALUMINUM_MATERIAL_-_DPLA_-_8430f66765e46fcc42265fccb1a0bca2.jpg",
+    "w": 960,
+    "h": 752
+  },
+  "alsic2": {
+    "file": "alsic2.jpg",
+    "caption": "Silicon carbide fibres in a titanium matrix under the microscope, a 50 micron bar for scale: the ceramic holds the metal still",
+    "kind": "structure",
+    "title": "255-GRC-1988-C-06617 Ceramic fiber metal matrix composite, micrograph.jpg",
+    "site": "Wikimedia",
     "artist": "Unknown authorUnknown author",
     "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:255-GRC-1988-C-06617_Ceramic_fiber_metal_matrix_composite.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:255-GRC-1988-C-06617_Ceramic_fiber_metal_matrix_composite,_micrograph.jpg",
     "w": 960,
-    "h": 768,
-    "site": "Wikimedia"
+    "h": 753
   },
   "tyre": {
     "file": "tyre.jpg",
-    "caption": "A radial tyre cut away — belts, plies and bead",
-    "kind": "product",
+    "caption": "A car tyre in section, the parts tinted: steel belts under the tread, the radial carcass ply down the sidewall, the wire bead at the rim",
+    "kind": "photo",
+    "title": "PKW-Reifen Aufbau (eingefärbt).jpg",
+    "site": "Wikimedia",
+    "artist": "Christian Pietzsch",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PKW-Reifen_Aufbau_(eingef%C3%A4rbt).jpg",
+    "w": 960,
+    "h": 643
+  },
+  "tyre2": {
+    "file": "tyre2.jpg",
+    "caption": "Pirelli's own drawing: crossed bias plies on the left, the radial Cinturato on the right",
+    "kind": "related",
     "title": "Pirelli Cinturato Tire cutaway.jpg",
+    "site": "Wikimedia",
     "artist": "Pirelli",
     "license": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Pirelli_Cinturato_Tire_cutaway.jpg",
     "w": 960,
-    "h": 394,
-    "site": "Wikimedia"
+    "h": 394
   },
   "transparentarmour": {
     "file": "transparentarmour.jpg",
-    "caption": "Transparent armour, layered glass and polycarbonate",
+    "caption": "Transparent armour after three rounds of 7.62 NATO ball: the glass face crazed and gone white, the polycarbonate behind it whole",
     "kind": "product",
     "title": "IDET2007 bulletproof glass.jpg",
     "artist": "Shaddack",
@@ -5052,17 +5076,41 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "transparentarmour2": {
+    "file": "transparentarmour2.jpg",
+    "caption": "The same maker's stack from above, with the card: 55.6 mm, 116.3 kg/m², three armour-piercing 7.62 × 39 rounds stopped",
+    "kind": "product",
+    "title": "IDET2007 bulletproof glass armor.jpg",
+    "site": "Wikimedia",
+    "artist": "Shaddack",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:IDET2007_bulletproof_glass_armor.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "transparentarmour3": {
+    "file": "transparentarmour3.jpg",
+    "caption": "A jeweller's window after a burglary attempt: the pane crazed edge to edge and nothing came through",
+    "kind": "product",
+    "title": "Bulletproof glass window after a burglary attempt.jpg",
+    "site": "Wikimedia",
+    "artist": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bulletproof_glass_window_after_a_burglary_attempt.jpg",
+    "w": 960,
+    "h": 960
+  },
   "dyneemahb": {
     "file": "dyneemahb.jpg",
-    "caption": "Ballistic plates",
+    "caption": "The US Enhanced Combat Helmet, a pressed shell of cross-plied UHMWPE: a third more stopping power than the aramid helmet at the same weight",
     "kind": "product",
-    "title": "Osprey plates COB2009.jpg",
-    "artist": "Coliningrad at English Wikipedia",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Osprey_plates_COB2009.jpg",
-    "w": 800,
-    "h": 600,
-    "site": "Wikimedia"
+    "title": "PEO Soldier Enhanced Combat Helmet profile.jpg",
+    "site": "Wikimedia",
+    "artist": "PEO Soldier",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:PEO_Soldier_Enhanced_Combat_Helmet_profile.jpg",
+    "w": 960,
+    "h": 911
   },
   "gypsum": {
     "file": "gypsum.jpg",
@@ -7094,15 +7142,15 @@ window.CREDITS = {
   },
   "pvcfoam": {
     "file": "pvcfoam.jpg",
-    "caption": "A wind turbine blade under inspection — the shells are foam-cored sandwich",
+    "caption": "A wind turbine blade in section: the shells and the shear webs are cored sandwich, the tan bands top and bottom the solid spar caps",
     "kind": "product",
-    "title": "Begutachtung eines Rotorblattes.JPG",
-    "artist": "Markus Bergmann",
+    "title": "Wind rotor profile.jpg",
+    "site": "Wikimedia",
+    "artist": "Qkaz",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Begutachtung_eines_Rotorblattes.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Wind_rotor_profile.jpg",
     "w": 960,
-    "h": 713,
-    "site": "Wikimedia"
+    "h": 540
   },
   "twophoton": {
     "file": "twophoton.jpg",

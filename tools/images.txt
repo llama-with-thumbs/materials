@@ -421,10 +421,14 @@ selfhealconcrete|commons|Basilisk self-healing concrete exhibit at science museu
 fibrecement|commons|Fiber cement siding.jpg|Fibre cement lap siding, painted: the planks do not move, so the paint stays|product
 fibrecement2|commons|Corrugated fibre cement roofing.jpg|Corrugated fibre cement roofing, Stellenbosch: the profile the asbestos sheets had, fixed with the same capped screws|product
 fibrecement3|commons|Asbestzement (2).jpg|The old kind on its way out: asbestos cement sheets bagged for disposal. From a metre away it is the same material|related
-alsic|commons|255-GRC-1988-C-06617 Ceramic fiber metal matrix composite.jpg|A metal matrix composite — ceramic reinforcement inside metal|photo
-tyre|commons|Pirelli Cinturato Tire cutaway.jpg|A radial tyre cut away — belts, plies and bead|product
-transparentarmour|commons|IDET2007 bulletproof glass.jpg|Transparent armour, layered glass and polycarbonate|product
-dyneemahb|commons|Osprey plates COB2009.jpg|Ballistic plates|product
+alsic|commons|TESTED SHEAR SPECIMENS OF BORON - ALUMINUM MATERIAL - DPLA - 8430f66765e46fcc42265fccb1a0bca2.jpg|Boron fibre in aluminium, 1979, sheared in test: the aluminium-matrix composite of the generation before the grit|related
+alsic2|commons|255-GRC-1988-C-06617 Ceramic fiber metal matrix composite, micrograph.jpg|Silicon carbide fibres in a titanium matrix under the microscope, a 50 micron bar for scale: the ceramic holds the metal still|structure
+tyre|commons|PKW-Reifen Aufbau (eingefärbt).jpg|A car tyre in section, the parts tinted: steel belts under the tread, the radial carcass ply down the sidewall, the wire bead at the rim|photo
+tyre2|commons|Pirelli Cinturato Tire cutaway.jpg|Pirelli's own drawing: crossed bias plies on the left, the radial Cinturato on the right|related
+transparentarmour|commons|IDET2007 bulletproof glass.jpg|Transparent armour after three rounds of 7.62 NATO ball: the glass face crazed and gone white, the polycarbonate behind it whole|product
+transparentarmour2|commons|IDET2007 bulletproof glass armor.jpg|The same maker's stack from above, with the card: 55.6 mm, 116.3 kg/m², three armour-piercing 7.62 × 39 rounds stopped|product
+transparentarmour3|commons|Bulletproof glass window after a burglary attempt.jpg|A jeweller's window after a burglary attempt: the pane crazed edge to edge and nothing came through|product
+dyneemahb|commons|PEO Soldier Enhanced Combat Helmet profile.jpg|The US Enhanced Combat Helmet, a pressed shell of cross-plied UHMWPE: a third more stopping power than the aramid helmet at the same weight|product
 gypsum|commons|Drywall and tools.jpg|Gypsum board|product
 copv|NASA|https://images-assets.nasa.gov/image/wstf2019e04644/wstf2019e04644~medium.jpg|A composite overwrapped pressure vessel under inspection at NASA White Sands|product|Public domain|NASA/WSTF|https://images.nasa.gov/details/wstf2019e04644
 pykrete|commons|Pykrete.jpg|Pykrete — ice with wood pulp mixed into it|photo
@@ -594,7 +598,7 @@ nomexcore|commons|Composite honeycomb exhaust duct (2).jpg|A sectioned composite
 forgedcomposite|commons|Forged Composite look on prototype engine bay cover.jpg|A Lamborghini Aventador engine bay cover in forged composite, matte on the left and gloss on the right: the chips lie where they fell|photo
 forgedcomposite2|commons|Lamborghini Sesto Elemento.jpg|The Sesto Elemento, Paris 2010: the first car with a tub of forged composite, 999 kg all in|product
 forgedcomposite3|commons|Bespoke Design Forged Carbon Fiber Watch Sport.jpg|A watch case in forged carbon, the scale at which the marbling sells|product
-pvcfoam|commons|Begutachtung eines Rotorblattes.JPG|A wind turbine blade under inspection — the shells are foam-cored sandwich|product
+pvcfoam|commons|Wind rotor profile.jpg|A wind turbine blade in section: the shells and the shear webs are cored sandwich, the tan bands top and bottom the solid spar caps|product
 twophoton|commons|Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg|A 2 mm model of an 1871 microscope, written by two-photon lithography|product
 sandprint|commons|SandMoldCopeDragCores.jpg|Cope, drag and cores of a sand mould — printing makes these without a pattern|related
 boundmetal|commons|Filamentgedruckte und gesinterte Bauteile aus hochlegiertem Stahl (316L).jpg|Capsule, helix and tetrapod — filament-printed in 316L, then sintered|product
