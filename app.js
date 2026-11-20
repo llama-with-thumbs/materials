@@ -128,7 +128,7 @@ function wheelFor(w) {
         <button class="opt" type="button" data-lang="de" aria-pressed="false" title="the German of the 1922 statutes">deutsch</button>
         <button class="opt" type="button" data-lang="ru" aria-pressed="false" title="Russian in the words of VKhUTEMAS, the Moscow school of 1920 built on the same plan; no translation from the school's own time survives">русский</button>
       </span>
-      <span class="tag">wheel</span>
+      ${window.WHEEL ? window.WHEEL.eraHTML("wheel-era") : ""}
       <div class="wheel-root" id="wheel-root"></div>
     </div>
     <div class="readout wheel-panel" id="wheel-panel"></div>
@@ -439,7 +439,7 @@ function render() {
   grid.innerHTML = html;
   // The wheel binds to its own elements, so it is mounted again whenever it is on the page.
   const wheelRoot = grid.querySelector("#wheel-root");
-  if (wheelRoot && window.WHEEL) window.WHEEL.mount(wheelRoot, grid.querySelector("#wheel-panel"), grid.querySelector("#wheel-lang"));
+  if (wheelRoot && window.WHEEL) window.WHEEL.mount(wheelRoot, grid.querySelector("#wheel-panel"), grid.querySelector("#wheel-lang"), false, grid.querySelector("#wheel-era"));
 
   const where = activeCat === "all" ? "" : ` · ${CATS[activeCat] || THEMES[activeCat] || SHELF[activeCat] || activeCat}`;
   const np = refs.filter(m => m.plate).length, nr = refs.filter(m => m.paper).length, nt = refs.filter(m => m.text).length;

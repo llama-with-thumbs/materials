@@ -240,7 +240,9 @@ h1 .dot { color: var(--red); }
 /* The curriculum wheel, on its shelf: the rings in ink on the panel, blue under the pointer,
    red when kept. The wheel keeps its size on the left; the facts a ring fills stand on the
    right, in hairline rows; the card's text runs under both. */
-.wheel-fig .wheel-root { max-width: 640px; margin: 0 auto; padding: 4px 16px 10px; }
+.wheel-fig .wheel-root { max-width: 640px; margin: 0 auto; padding: 9px 16px 10px; }
+.figure .era-opts { position: absolute; left: 8px; top: 8px; display: flex; flex-direction: column; gap: 4px; z-index: 3; }
+.figure .era-opts .opt { justify-content: center; }
 @media (min-width: 900px) {
   .card.plate.wide.wheelcard { grid-template-columns: minmax(0, 11fr) minmax(0, 9fr); }
   .card.plate.wide.wheelcard .figure { grid-column: 1; border-right: 2px solid var(--ink); border-bottom: 0; }

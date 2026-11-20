@@ -41,6 +41,9 @@
   .wheel-fig .opt:hover, .wheel-fig .opt:focus-visible { border-color: var(--blue); color: var(--blue); outline: none; }
   .wheel-fig .opt[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
   .wheel-fig .cap { margin: 10px 0 0; font-size: 12.5px; color: var(--dim); line-height: 1.5; }
+  .wheel-fig .era-opts { position: absolute; left: 18px; top: 56px; flex-direction: column; margin: 0; }
+  .wheel-fig .era-opts .opt { text-align: center; }
+  .wheel-fig #wheel { padding-top: 5px; }
   svg.wheel { display: block; width: 100%; height: auto; font-family: var(--font); }
   svg.wheel .area { fill: var(--panel); stroke: var(--ink); stroke-width: 1.4; stroke-linejoin: round; cursor: pointer; transition: fill 0.15s; }
   svg.wheel .seg:hover .area, svg.wheel .seg:focus-visible .area { fill: var(--blue); fill-opacity: 0.16; }
@@ -116,7 +119,10 @@
       </div>
       <div id="wheel"></div>
       <p class="cap">after Walter Gropius, scheme of the Bauhaus course, 1922. point at a ring; click to keep it; tab
-        through the segments and press enter. red marks the two durations the original writes at the top; the bar
+        through the segments and press enter. the dates at the left redraw the course as it stood in 1919, 1927,
+        1929 and 1930 on the same rings: the programme of April 1919, the Dessau regulations of 1926 with the
+        building department of 1927, Hannes Meyer's school of 1929, and the statutes of 8 October 1930 under
+        Mies van der Rohe. red marks the two durations the original writes at the top; the bar
         beneath draws the three stages to scale in years, which the rings do not: half a year, three years, and
         building, which the statutes left without a term and which became a nine-semester course in 1929. no Russian
         rendering from the school's own time could be found; the Russian follows the words of VKhUTEMAS, the Moscow
@@ -204,6 +210,9 @@
     <li>German History Intersections, <em>Walter Gropius, conceptual diagram of the Bauhaus curriculum (1923)</em>; <a href="https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-33" target="_blank" rel="noopener">germanhistory-intersections.org</a>.</li>
     <li>Bauhaus Kooperation, the workshop pages: <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/metal" target="_blank" rel="noopener">metal</a>, <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/weaving" target="_blank" rel="noopener">weaving</a>, <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/ceramics" target="_blank" rel="noopener">ceramics</a>, <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/sculpture" target="_blank" rel="noopener">sculpture</a>, <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/wall-painting" target="_blank" rel="noopener">wall painting</a>, <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/workshops/joinery" target="_blank" rel="noopener">joinery</a>; and <a href="https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/preliminary-course/josef-alberss-preliminary-course" target="_blank" rel="noopener">Josef Albers's preliminary course</a>.</li>
     <li>Bauhaus-Archiv Berlin, <em>the Bauhaus 1919–1933</em>, the timeline; <a href="https://www.bauhaus.de/en/das_bauhaus/48_1919_1933/" target="_blank" rel="noopener">bauhaus.de</a>.</li>
+    <li>Walter Gropius, <em>Programm des Staatlichen Bauhauses in Weimar</em>, April 1919, the three areas of teaching and the six workshops; <a href="https://germanhistorydocs.org/de/die-weimarer-republik-1918-1933/walter-gropius-programm-des-staatlichen-bauhauses-in-weimar-1919.pdf" target="_blank" rel="noopener">germanhistorydocs.org</a>.</li>
+    <li>Art in Words, <em>Bauhaus: Chronologie</em>, the semester-by-semester chronology used for the dates of 1921, 1926/27, 1927, 1929 and 1930; <a href="https://artinwords.de/?p=25600" target="_blank" rel="noopener">artinwords.de</a>.</li>
+    <li>Christoph Zuschlag, <em>Die Wanderausstellung zehn Jahre Bauhaus</em>, 2018, on Meyer's merger of the workshops into Ausbau in 1929; <a href="https://archiv.ub.uni-heidelberg.de/artdok/9274/" target="_blank" rel="noopener">archiv.ub.uni-heidelberg.de</a>.</li>
     <li>Smarthistory, <em>the Bauhaus, an introduction</em>; <a href="https://smarthistory.org/?p=44188" target="_blank" rel="noopener">smarthistory.org</a>.</li>
     <li>The texts themselves, in <a href="./#cat=library">the library</a>: the 1919 programme, the 1923 book, Klee's sketchbook, Kandinsky's point and line.</li>
   </ul>
@@ -216,7 +225,8 @@
 <script src="library.js"></script>
 <script src="wheel.js"></script>
 <script>
-  WHEEL.mount(document.getElementById("wheel"), document.getElementById("panel"), document.getElementById("lang"), true);
+  document.getElementById("wheel").insertAdjacentHTML("beforebegin", WHEEL.eraHTML("era"));
+  WHEEL.mount(document.getElementById("wheel"), document.getElementById("panel"), document.getElementById("lang"), true, document.getElementById("era"));
 </script>
 </body>
 </html>
