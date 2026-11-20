@@ -507,11 +507,21 @@ mohair3|commons|My favorite Mohair - Steiff Schulte Dense Curly Kid mohair (8182
 ramie|commons|Ramie fiber exhibited in Yonezawa City Uesugi Museum.jpg|Degummed ramie fibre in the Uesugi Museum, Yonezawa: white, lustrous and stiff|photo
 ramie2|commons|CSIRO ScienceImage 8439 Ramie fibre.jpg|A single ramie fibre under the electron microscope|structure
 ramie3|commons|Boehmeria nivea kz01.jpg|The plant: a nettle without the sting, cut three to six times a year|related
-kapok|commons|Tunku Sabah Kapok-fibres-01.jpg|Kapok floss|photo
-rockwool|commons|Arrangement Mineralwolle.jpeg|Mineral wool|photo
-wiremesh|commons|Woven wire mesh.png|Woven wire mesh|photo
-geotextile|commons|Geotextile-GSI.JPG|Geotextile|photo
-down|commons|Hungarian Goose Down.jpg|Goose down clusters|photo
+kapok|commons|Tunku Sabah Kapok-fibres-01.jpg|Kapok floss drying by a roadside in Sabah|photo
+kapok2|commons|Schoten des Kapokbaums, weit geöffnet.jpg|The pods split on the tree and the floss bulges out, nine tenths air|related
+kapok3|commons|Belgenland 1923 lifeboat drill.jpg|Lifeboat drill on the liner Belgenland, 1923: the bulky lifejackets of the day were stuffed with kapok or cork|product
+rockwool|commons|Moscow, Lefortovsky Val 24, pile of mineral wool mats (31136798850).jpg|Mineral wool slabs stacked outside a Moscow block before cladding|product
+rockwool2|commons|Mineral wool in SEM.jpg|Glass wool, the sister product, under the electron microscope: a tangle of fibres a few microns across holding still air|structure
+rockwool3|commons|Substrat-tomates-Bernex.jpg|Spent rock-wool slabs from a tomato greenhouse near Geneva: the same fibre as a growing medium|product
+wiremesh|commons|Drahtgewebe (Quadratmasche).jpg|Plain square-weave wire cloth with a millimetre scale: the weave that stops at about 25 microns|photo
+wiremesh2|commons|Laboratory sieves BMK.jpg|Laboratory test sieves at 1,700, 500 and 250 microns: square weave in a frame|product
+wiremesh3|commons|Different mesh sizes of sieves.jpg|A stack of standard test sieves, each a square weave, which is still how a powder is graded|product
+geotextile|commons|Geotextile-GSI.JPG|Geotextile samples, woven and nonwoven, with a pen for scale|photo
+geotextile2|commons|Geogrid and geotextile.jpg|Crushed stone going down on geotextile and geogrid: the fabric keeps the aggregate out of the mud|process
+geotextile3|commons|Geotubes at Dawlish Warren.jpg|Geotextile tubes pumped full of sand as a dune defence at Dawlish Warren, Devon|product
+down|commons|Hungarian Goose Down.jpg|A cluster of Hungarian goose down: barbs radiating from a point, no quill|photo
+down2|commons|Daune down feather.jpg|A single down plumule laid flat: the branching that holds the air|structure
+down3|commons|Man's eider duck feather parka, Qikirtamiut, Belcher Islands, Hudson Bay, c. 1914 - Royal Ontario Museum - DSC00312.JPG|An Inuit parka of eider-duck skins with the down still on, Belcher Islands, about 1914|product
 horsehair|commons|Bow, violin (AM 1998.60.381-2).jpg|A violin bow — the ribbon is horsehair|product
 catgut|commons|Catgut Plain 01.JPG|Catgut|photo
 graphene|commons|Sample of graphene (1~3 layers).jpg|A commercial graphene sample — one to three layers, 98% carbon|photo
