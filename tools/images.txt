@@ -570,10 +570,14 @@ metalpowder|commons|SEM photo of 316L Stainless Steel metal powder atomized with
 fff|Flickr|https://live.staticflickr.com/3945/15591161602_45e12b004d_b.jpg|A spool of 1.75 mm filament on a printed stand|photo|CC BY 2.0|Creative Tools|https://www.flickr.com/photos/33907867@N02/15591161602
 fff2|commons|Crossed filiment.jpg|The thing to look for on a spool: a strand crossed under its neighbour, which will jam and snap the print at three in the morning|related
 fff3|commons|Filamentherstellung mittels Extruder.jpg|Filament being made: a metal-filled strand leaving the die of a laboratory extruder|process
-coldspray|Flickr|https://live.staticflickr.com/5182/5725947299_2c7feb8b42_b.jpg|Aluminium and titanium powder blended as cold-spray feedstock, under the electron microscope|photo|CC BY 2.0|CORE-Materials|https://www.flickr.com/photos/41639353@N08/5725947299
+coldspray|Flickr|https://live.staticflickr.com/5182/5725947299_2c7feb8b42_b.jpg|Aluminium and titanium powder blended as cold-spray feedstock, under the electron microscope: the round aluminium sticks, the angular titanium rides along|photo|CC BY 2.0|CORE-Materials|https://www.flickr.com/photos/41639353@N08/5725947299
+coldspray2|commons|Холодное газодинамическое напыление защитных и восстановительных покрытий.jpg|A casting built back up by cold spray: the grey deposit over the old blue paint, a repair with no heat in it|product
+coldspray3|commons|U S Marines bring advanced manufacturing to the front lines during Valiant Shield 26 (9821835).jpg|Cold spray in a field shop: a boat-motor stator housing being built back up by hand in a glove box, Okinawa 2026|process
 fourd|commons|Multishape active composites by 3d printing of digial smps.jpg|Printed shape-memory composites, folded and recovered|photo
 lcmceramic|commons|Zirconia bridge.jpg|A zirconia dental bridge — the kind of part a ceramic slurry resin makes|product
-concreteprint|commons|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a house printed in raw earth — the same thixotropic trick, with clay in place of cement|product
+concreteprint|commons|Detail of 3D printed concrete bicycle bridge in Gemert (NL).jpg|The first printed concrete bridge, Gemert 2017: the beads on edge, printed in slices and post-tensioned through them|product
+concreteprint2|commons|Demo Betondruck Peri.jpg|A gantry printer laying a wall at Bauma 2022: two beads with a cavity between, the hose feeding the head|process
+concreteprint3|commons|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a house printed in raw earth: the same thixotropic trick, with clay in place of cement|related
 bioink|NASA|https://images-assets.nasa.gov/image/jsc2022e072969/jsc2022e072969~medium.jpg|The BioFabrication Facility, the bioprinter flown to the space station to lay down cell-laden ink|process|Public domain|JSC|https://images.nasa.gov/details/jsc2022e072969
 grcop|commons|Marshall engineers installed the injector in a subscale RS-25 engine model.jpg|A printed fuel injector going into a subscale RS-25 engine — hot-fire tested near 3300 °C|product
 ebm|Flickr|https://live.staticflickr.com/7015/6790413239_05b51c6b63_b.jpg|A titanium lattice gauntlet grown by electron-beam melting at Oak Ridge|product|CC BY 2.0|oakridgelabnews|https://www.flickr.com/photos/37940997@N05/6790413239
@@ -610,8 +614,11 @@ forgedcomposite|commons|Forged Composite look on prototype engine bay cover.jpg|
 forgedcomposite2|commons|Lamborghini Sesto Elemento.jpg|The Sesto Elemento, Paris 2010: the first car with a tub of forged composite, 999 kg all in|product
 forgedcomposite3|commons|Bespoke Design Forged Carbon Fiber Watch Sport.jpg|A watch case in forged carbon, the scale at which the marbling sells|product
 pvcfoam|commons|Wind rotor profile.jpg|A wind turbine blade in section: the shells and the shear webs are cored sandwich, the tan bands top and bottom the solid spar caps|product
-twophoton|commons|Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg|A 2 mm model of an 1871 microscope, written by two-photon lithography|product
-sandprint|commons|SandMoldCopeDragCores.jpg|Cope, drag and cores of a sand mould — printing makes these without a pattern|related
+twophoton|commons|Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg|A 2 mm model of an 1871 microscope beside a match head, written by two-photon lithography|product
+twophoton2|commons|Octahedron Fractal pyramide made with two photon polymerisation.tif|A fractal pyramid 141 microns a side, written in SZ2080 resist and gold-coated for the electron microscope|structure
+twophoton3|commons|Burg auf einer Bleistiftspitze.tif|A castle 0.4 mm tall on the point of a pencil lead|product
+sandprint|commons|SandMoldCopeDragCores.jpg|Cope, drag and cores of a sand mould made the old way, from a pattern; a printer makes the same without one|related
+sandprint2|commons|Voxeljet VX4000.jpg|A voxeljet VX4000, the machine that prints sand moulds four metres long, with its job box run out on rails|process
 boundmetal|commons|Filamentgedruckte und gesinterte Bauteile aus hochlegiertem Stahl (316L).jpg|Capsule, helix and tetrapod — filament-printed in 316L, then sintered|product
 slaresin|commons|SLA produced part.JPG|A part grown in a vat of photopolymer|product
 alsi10mg|commons|Professional MotorSport World Expo 2024, Cologne (P1031209).jpg|Prototype turbochargers grown in a laser powder bed — the same powder route, though a housing this hot wants nickel rather than aluminium|analog

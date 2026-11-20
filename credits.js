@@ -6806,7 +6806,7 @@ window.CREDITS = {
   },
   "coldspray": {
     "file": "coldspray.jpg",
-    "caption": "Aluminium and titanium powder blended as cold-spray feedstock, under the electron microscope",
+    "caption": "Aluminium and titanium powder blended as cold-spray feedstock, under the electron microscope: the round aluminium sticks, the angular titanium rides along",
     "kind": "photo",
     "title": "https://live.staticflickr.com/5182/5725947299_2c7feb8b42_b.jpg",
     "site": "Flickr",
@@ -6815,6 +6815,30 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/41639353@N08/5725947299",
     "w": 960,
     "h": 960
+  },
+  "coldspray2": {
+    "file": "coldspray2.jpg",
+    "caption": "A casting built back up by cold spray: the grey deposit over the old blue paint, a repair with no heat in it",
+    "kind": "product",
+    "title": "Холодное газодинамическое напыление защитных и восстановительных покрытий.jpg",
+    "site": "Wikimedia",
+    "artist": "Александр Шоринов",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A5%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D0%B3%D0%B0%D0%B7%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%BD%D0%B0%D0%BF%D1%8B%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D1%8B%D1%85_%D0%B8_%D0%B2%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%BF%D0%BE%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B9.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "coldspray3": {
+    "file": "coldspray3.jpg",
+    "caption": "Cold spray in a field shop: a boat-motor stator housing being built back up by hand in a glove box, Okinawa 2026",
+    "kind": "process",
+    "title": "U S Marines bring advanced manufacturing to the front lines during Valiant Shield 26 (9821835).jpg",
+    "site": "Wikimedia",
+    "artist": "U.S. Marine Corps photo by Cpl. Rachel Mason",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:U_S_Marines_bring_advanced_manufacturing_to_the_front_lines_during_Valiant_Shield_26_(9821835).jpg",
+    "w": 960,
+    "h": 640
   },
   "fourd": {
     "file": "fourd.jpg",
@@ -6842,15 +6866,39 @@ window.CREDITS = {
   },
   "concreteprint": {
     "file": "concreteprint.jpg",
-    "caption": "Tecla, a house printed in raw earth — the same thixotropic trick, with clay in place of cement",
+    "caption": "The first printed concrete bridge, Gemert 2017: the beads on edge, printed in slices and post-tensioned through them",
     "kind": "product",
+    "title": "Detail of 3D printed concrete bicycle bridge in Gemert (NL).jpg",
+    "site": "Wikimedia",
+    "artist": "Marczoutendijk",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Detail_of_3D_printed_concrete_bicycle_bridge_in_Gemert_(NL).jpg",
+    "w": 960,
+    "h": 540
+  },
+  "concreteprint2": {
+    "file": "concreteprint2.jpg",
+    "caption": "A gantry printer laying a wall at Bauma 2022: two beads with a cavity between, the hose feeding the head",
+    "kind": "process",
+    "title": "Demo Betondruck Peri.jpg",
+    "site": "Wikimedia",
+    "artist": "Mailtosap",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Demo_Betondruck_Peri.jpg",
+    "w": 960,
+    "h": 540
+  },
+  "concreteprint3": {
+    "file": "concreteprint3.jpg",
+    "caption": "Tecla, a house printed in raw earth: the same thixotropic trick, with clay in place of cement",
+    "kind": "related",
     "title": "Eco-sustainable 3D printed house \"Tecla\".jpg",
+    "site": "Wikimedia",
     "artist": "Video Autor: Alfredo Milano\nDrone views: Italdron\n\n\nProject by:\nWASP: Engineering and 3D printing construction \nMario Cucinella Architects: Architectural design and project management\nIn collaboration with:\nSOS - School of Sustainability: Research partner\nMapei: Materials consultancy and supply\nMilan Ingegneria: Structural consultancy\nCapoferri: Frames engineering and production\nRiceHouse: Bio-materials consultancy and supply\nFrassinago: Landscaping\nLucifero’s: Lighting design\nAriatta: Energy and internal comfort consultancy\nImola Legno: Timber solutions consultancy and supply\nPrimat • Terracruda®: Earthen floor supply\nCefla: Electrical solutions supply\nUnder the patronage of: \nMunicipality of Massa Lombarda \nSponsored by:\n\nTer Costruzioni",
     "license": "CC BY 2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Eco-sustainable_3D_printed_house_%22Tecla%22.jpg",
     "w": 960,
-    "h": 741,
-    "site": "Wikimedia"
+    "h": 741
   },
   "bioink": {
     "file": "bioink.jpg",
@@ -7286,7 +7334,7 @@ window.CREDITS = {
   },
   "twophoton": {
     "file": "twophoton.jpg",
-    "caption": "A 2 mm model of an 1871 microscope, written by two-photon lithography",
+    "caption": "A 2 mm model of an 1871 microscope beside a match head, written by two-photon lithography",
     "kind": "product",
     "title": "Nanosize 3D model of a vintage ZEISS microscope, by Nanoscribe (29829841445).jpg",
     "artist": "ZEISS Microscopy from Germany",
@@ -7296,9 +7344,33 @@ window.CREDITS = {
     "h": 639,
     "site": "Wikimedia"
   },
+  "twophoton2": {
+    "file": "twophoton2.jpg",
+    "caption": "A fractal pyramid 141 microns a side, written in SZ2080 resist and gold-coated for the electron microscope",
+    "kind": "structure",
+    "title": "Octahedron Fractal pyramide made with two photon polymerisation.tif",
+    "site": "Wikimedia",
+    "artist": "Spanholz",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Octahedron_Fractal_pyramide_made_with_two_photon_polymerisation.tif",
+    "w": 960,
+    "h": 644
+  },
+  "twophoton3": {
+    "file": "twophoton3.jpg",
+    "caption": "A castle 0.4 mm tall on the point of a pencil lead",
+    "kind": "product",
+    "title": "Burg auf einer Bleistiftspitze.tif",
+    "site": "Wikimedia",
+    "artist": "Peter Gruber",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Burg_auf_einer_Bleistiftspitze.tif",
+    "w": 960,
+    "h": 721
+  },
   "sandprint": {
     "file": "sandprint.jpg",
-    "caption": "Cope, drag and cores of a sand mould — printing makes these without a pattern",
+    "caption": "Cope, drag and cores of a sand mould made the old way, from a pattern; a printer makes the same without one",
     "kind": "related",
     "title": "SandMoldCopeDragCores.jpg",
     "artist": "Photograph taken by Glenn McKechnie",
@@ -7307,6 +7379,18 @@ window.CREDITS = {
     "w": 960,
     "h": 648,
     "site": "Wikimedia"
+  },
+  "sandprint2": {
+    "file": "sandprint2.jpg",
+    "caption": "A voxeljet VX4000, the machine that prints sand moulds four metres long, with its job box run out on rails",
+    "kind": "process",
+    "title": "Voxeljet VX4000.jpg",
+    "site": "Wikimedia",
+    "artist": "Juliussoehn",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Voxeljet_VX4000.jpg",
+    "w": 960,
+    "h": 640
   },
   "boundmetal": {
     "file": "boundmetal.jpg",

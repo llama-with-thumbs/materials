@@ -2085,41 +2085,46 @@ window.MATERIALS = [
 },
 {
   id: "coldspray", cat: "additive", name: "Cold-spray powder",
-  sub: "ductile metal, bonded by impact", img: "coldspray",
-  hook: "Powder that has to be ductile, because the bond is mechanical: at 500–1200 m/s the particle and the surface deform past their oxide skins and weld without melting. Copper, aluminium, nickel and tantalum work; hard, brittle powders simply bounce off. No heat means no oxidation and no heat-affected zone, so a finished part can be built onto.",
-  stats: [["Particle speed", "500–1200 m/s"], ["Needs", "ductile powder, 5–45 µm"], ["Heat", "none, no oxidation"]],
-  uses: "Repairing worn or corroded castings, adding features to finished parts, coating, field repair of aircraft.",
+  sub: "ductile metal, bonded by impact", img: "coldspray", extra: ["coldspray2", "coldspray3"],
+  hook: "Metal powder fired at a surface at twice the speed of sound in warm gas. Nothing melts: particle and surface deform past their oxide skins and weld cold. So the powder must be ductile; a hard one bounces off.",
+  more: "Found by accident in Novosibirsk in the 1980s, when particles meant to erode a wind-tunnel model stuck to it. Helium or nitrogen at 30 bar runs through a de Laval nozzle to 500 to 1,200 metres a second; a particle of 5 to 45 microns arrives above its critical velocity and splats, its skin jetting out as it shears, and the fresh metal under the oxide bonds as in an explosive weld. Copper, aluminium, nickel and tantalum work; the deposit is dense and free of oxide, and builds up by the millimetre onto a finished part, which is why air forces repair magnesium gearboxes with it. The costs: the hard, brittle metals do not stick; the deposit is brittle until annealed; helium costs more than the powder; and a spray that misses the part is a sandblast.",
+  stats: [["Particle speed", "500–1,200 m/s"], ["Needs", "ductile powder, 5–45 µm"], ["Heat", "none; no oxide, no distortion"]],
+  uses: "Repairing worn or corroded castings, adding features to finished parts, coating, field repair of aircraft and boat motors.",
   link: "https://en.wikipedia.org/wiki/Cold_spraying"
 },
 {
   id: "twophoton", cat: "additive", name: "Two-photon resist",
-  sub: "acrylate resist cured only at the focus", img: "twophoton",
-  hook: "A resist formulated so that curing takes two infrared photons arriving at the same instant, which happens only inside the focal volume. That nonlinearity beats the diffraction limit: features land around 100–200 nm, smaller than the light writing them, anywhere inside the drop. Cure shrinkage is what fights you at that scale.",
-  stats: [["Feature size", "~100–200 nm"], ["Mechanism", "two-photon absorption"], ["Catch", "a few % cure shrinkage"]],
-  uses: "Microlenses printed on fibre tips, microfluidic parts, mechanical metamaterials, micro-robots.",
+  sub: "acrylate resist cured only at the focus", img: "twophoton", extra: ["twophoton2", "twophoton3"],
+  hook: "A resist that cures only where two infrared photons arrive in the same instant, which happens inside the focal spot and nowhere else. So light writes smaller than itself: 100 nanometre struts, anywhere in the drop.",
+  more: "A femtosecond laser at 780 nanometres is focused into a drop of acrylate resist with a photoinitiator that absorbs at 390; one photon does nothing, two together do, and the chance of two goes with the square of intensity, so only the centre of the focus sets. The stage moves the focus in three dimensions, the uncured resist is washed away, and a castle stands on a pencil lead. Nanoscribe's machines write at a few hundred nanometres; a cubic millimetre is a day. The costs: speed, since every tiny voxel is written in turn; shrinkage of a few per cent as the acrylate cures, which bends anything slender; the resist is a soft polymer, so a metal or ceramic part needs a second step; and the structure is invisible without an electron microscope.",
+  stats: [["Feature size", "~100–200 nm"], ["Mechanism", "two-photon absorption"], ["Rate", "a cubic millimetre a day"]],
+  uses: "Microlenses printed on fibre tips, microfluidic parts, mechanical metamaterials, micro-robots, cell scaffolds.",
   link: "https://en.wikipedia.org/wiki/Multiphoton_lithography"
 },
 {
   id: "concreteprint", cat: "additive", name: "Printable mortar",
-  sub: "thixotropic fine-aggregate mix", img: "concreteprint",
-  hook: "A mix that has to contradict itself: fluid enough to pump down a hose, then stiff enough within minutes to carry the beads stacked on it before any of it has cured. Aggregate is kept small enough to pass the nozzle, accelerator sets the open time, and the layer interface is the weak plane. Putting the steel back in is the part nobody has solved.",
-  stats: [["Aggregate", "under ~4 mm"], ["Open time", "minutes, set by accelerator"], ["Open problem", "reinforcement"]],
+  sub: "thixotropic fine-aggregate mix", img: "concreteprint", extra: ["concreteprint2", "concreteprint3"],
+  hook: "A mix that must contradict itself: fluid enough to pump down a hose, stiff enough a minute later to carry the bead stacked on it, before any of it has cured. Nobody has solved the steel.",
+  more: "Cement, sand under 4 millimetres, a modifier that lets it flow when sheared and stand when still, and at the nozzle an accelerator that sets the open time to minutes. The bead is 30 to 50 millimetres wide and 10 to 20 high, and a wall is two beads with a cavity between; a gantry lays a storey in a day or two. The first printed bridge, at Gemert in 2017, was printed in slices and post-tensioned: that is how the steel got in. The costs: each layer is a cold joint, weaker and more permeable than the mass, so a wall is strong along the bead and weak across it; no rebar goes in as the head runs, so printed walls carry little or are prestressed after; the mix is cement-rich and the carbon with it; and the ribbed surface is the look or a rendering bill.",
+  stats: [["Aggregate", "under ~4 mm"], ["Bead", "30–50 mm wide, 10–20 high"], ["Open problem", "reinforcement"]],
   uses: "House shells and walls, bridges, street furniture, formwork for conventional concrete.",
   link: "https://en.wikipedia.org/wiki/Construction_3D_printing"
 },
 {
   id: "sandprint", cat: "additive", name: "Furan-bonded sand",
-  sub: "foundry sand, printed into moulds", img: "sandprint",
-  hook: "Plain silica sand with furan resin and an acid catalyst jetted into it drop by drop: it sets where the head passed and the rest pours away. The casting that follows is three thousand years old and unchanged, but no pattern was carved and no core had to be withdrawable, so cooling passages can loop through a cylinder head any way they like.",
-  stats: [["Sand", "silica, 0.1–0.3 mm"], ["Binder", "furan resin, acid cured"], ["Tooling", "none"]],
+  sub: "foundry sand, printed into moulds", img: "sandprint", extra: ["sandprint2"],
+  hook: "Silica sand with an acid catalyst in it, spread in layers, and furan resin jetted where the mould should be. It sets where the head passed; the rest pours away. The casting that follows is three thousand years old.",
+  more: "A binder-jet printer spreads sand of a tenth to a third of a millimetre in layers of 0.3, and an inkjet head lays furfuryl alcohol resin on the slice; the acid in the sand cures it in minutes, and the loose sand is vacuumed off a mould ready to pour. No pattern was carved and no core had to be drawn out of a box, so a cooling passage can loop through a cylinder head any way the heat wants, and a one-off block costs no tooling. A mould for a two-tonne casting prints overnight. The costs: the mould is used once and goes to landfill with the furan in it; the sand grain is coarser than a good hand mould, so the finish is rougher; the furan fumes are regulated; and a printed core is weaker than a shell core, so a long thin one bends in the pour.",
+  stats: [["Sand", "silica, 0.1–0.3 mm"], ["Binder", "furan resin, acid cured"], ["Tooling", "none; the mould is the print"]],
   uses: "Engine blocks and heads, pump and valve bodies, art casting, foundry prototyping.",
-  link: "https://en.wikipedia.org/wiki/Sand_casting"
+  link: "https://en.wikipedia.org/wiki/Powder_bed_and_inkjet_head_3D_printing"
 },
 {
   id: "contfibre", cat: "additive", name: "Printed continuous tow",
   sub: "unbroken carbon or glass in a printed shell", img: "contfibre",
-  hook: "A single unbroken tow, fed by a second nozzle and laid along the load path while the plastic shell prints around it. Chopped fibre only stiffens a filament; continuous fibre changes what the part is, because the reinforcement follows the stress rather than the raster. The limit is geometric — a tow will not turn a sharp corner.",
-  stats: [["Fibre", "continuous, path-placed"], ["Stiffness", "several × unfilled"], ["Limit", "no sharp turns"]],
+  hook: "A single unbroken tow, fed by a second nozzle along the load path while the plastic shell prints round it. Chopped fibre stiffens a filament; a continuous one changes what the part is. A tow will not turn a corner.",
+  more: "Markforged sold the first machine in 2014: a nylon extruder for the shell and a second head that lays a pre-impregnated tow of carbon, glass or Kevlar and cuts it. The slicer decides where the fibre goes, rings round holes and edges, or rasters across a load, and stiffness along the fibre reaches 50 gigapascals, aluminium's, at a third of the weight. A fixture comes off the bed overnight. The costs: the fibre lies only in the plane of the layer, so the part is stiff in two directions and plastic in the third; a tow cannot turn tighter than a few millimetres, so small holes go unreinforced; voids where tow meets shell start the fatigue cracks; the fibre is a fifth of the volume, a laminate's half; and the printer costs ten times the desktop kind.",
+  stats: [["Fibre", "continuous, path-placed"], ["Stiffness", "to ~50 GPa along the fibre"], ["Limit", "in-plane only; no sharp turns"]],
   uses: "Tooling and fixtures, drone and robot structures, replacement brackets, low-volume load-bearing parts.",
   link: "https://en.wikipedia.org/wiki/Fibre-reinforced_plastic"
 },

@@ -1368,3 +1368,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `waam`: the Tomsk arc photograph was a blur of blue; replaced by a WAAM propeller with its beads showing. `RAMLAB propeller` and `Drahtlichtbogen additiv` nothing; the Damen propeller has no free photograph.
 - `ebm`: `acetabular cup trabecular`, `EBM titanium`, `powder bed titanium` nothing; the Arcam A2 added as the machine. The Oak Ridge family photograph went to the lattice card instead, since it is mostly lattices.
 - `fff`: `FDM layer lines`, `3D printing layers close up` nothing at card size; the crossed spool and the laboratory extruder added.
+
+## Batch 41 restyle (coldspray, twophoton, concreteprint, sandprint, contfibre)
+
+- `sandprint`: still no photograph of a printed sand mould. `3D printed sand mold`, `binder jetting sand`, `ExOne`, `printed sand core`, `Sandform gedruckt`, `3D-Sanddruck` return beach toys, chess pawns and 1950s core blowers. The pattern-made mould stays as the related view; the voxeljet machine added.
+- `contfibre`: no photograph of a continuous-fibre printed part. `continuous carbon fiber 3D printing`, `Markforged` (an office exterior), `Anisoprint`, `Endlosfaser 3D-Druck` nothing. The two X7 printers stay alone.
+- `coldspray`: `cold spray` returns freezer sprays and football physios; `Kaltgasspritzen` a USAF briefing photo that is a man and a poster. The Russian coated casting and the Marines' glove box added; the powder micrograph stays as the material.
+- `concreteprint`: Tecla is earth, not mortar, so it moved to a related extra; the Gemert bridge detail is the main view. `Apis Cor` returns Corby station; `ICON 3D printed house` nothing free.
+- `twophoton`: two TIFFs (fractal pyramid, castle on a pencil) fetched through the Commons thumbnailer like the two TIFFs already in the catalogue.
