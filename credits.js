@@ -6734,15 +6734,27 @@ window.CREDITS = {
   },
   "waam": {
     "file": "waam.jpg",
-    "caption": "Wire arc deposition in progress",
-    "kind": "photo",
-    "title": "Панфилов Александр - Wire Arc Additive Manufacturing (ИФПМ СО РАН).jpg",
-    "artist": "Панфилов Александр",
-    "license": "CC BY 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BD%D1%84%D0%B8%D0%BB%D0%BE%D0%B2_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_-_Wire_Arc_Additive_Manufacturing_(%D0%98%D0%A4%D0%9F%D0%9C_%D0%A1%D0%9E_%D0%A0%D0%90%D0%9D).jpg",
+    "caption": "A propeller built from welding wire by wire arc deposition, the beads still on the blades and the hub turned",
+    "kind": "product",
+    "title": "Metal 3D printed turbine (49803494637).jpg",
+    "site": "Wikimedia",
+    "artist": "Oak Ridge National Laboratory",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Metal_3D_printed_turbine_(49803494637).jpg",
     "w": 960,
-    "h": 1280,
-    "site": "Wikimedia"
+    "h": 768
+  },
+  "waam2": {
+    "file": "waam2.jpg",
+    "caption": "The MX3D footbridge over the Oudezijds Achterburgwal, Amsterdam, 2021: twelve metres of stainless steel laid bead by bead by four robots",
+    "kind": "product",
+    "title": "World first 3D printed steel bridge in Amsterdam.jpg",
+    "site": "Wikimedia",
+    "artist": "PersianDutchNetwork",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:World_first_3D_printed_steel_bridge_in_Amsterdam.jpg",
+    "w": 960,
+    "h": 432
   },
   "metalpowder": {
     "file": "metalpowder.jpg",
@@ -6758,7 +6770,7 @@ window.CREDITS = {
   },
   "fff": {
     "file": "fff.jpg",
-    "caption": "Spools of 1.75 mm filament on a printed stand",
+    "caption": "A spool of 1.75 mm filament on a printed stand",
     "kind": "photo",
     "title": "https://live.staticflickr.com/3945/15591161602_45e12b004d_b.jpg",
     "site": "Flickr",
@@ -6767,6 +6779,30 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/33907867@N02/15591161602",
     "w": 960,
     "h": 539
+  },
+  "fff2": {
+    "file": "fff2.jpg",
+    "caption": "The thing to look for on a spool: a strand crossed under its neighbour, which will jam and snap the print at three in the morning",
+    "kind": "related",
+    "title": "Crossed filiment.jpg",
+    "site": "Wikimedia",
+    "artist": "SuperBlobMonster",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Crossed_filiment.jpg",
+    "w": 960,
+    "h": 1707
+  },
+  "fff3": {
+    "file": "fff3.jpg",
+    "caption": "Filament being made: a metal-filled strand leaving the die of a laboratory extruder",
+    "kind": "process",
+    "title": "Filamentherstellung mittels Extruder.jpg",
+    "site": "Wikimedia",
+    "artist": "Fraunhofer IFAM",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Filamentherstellung_mittels_Extruder.jpg",
+    "w": 960,
+    "h": 1440
   },
   "coldspray": {
     "file": "coldspray.jpg",
@@ -6851,6 +6887,18 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/37940997@N05/6790413239",
     "w": 692,
     "h": 1024
+  },
+  "ebm2": {
+    "file": "ebm2.jpg",
+    "caption": "An Arcam A2, the machine most of the hip cups came out of, with its covers off: the electron gun column above, the vacuum chamber behind the porthole",
+    "kind": "process",
+    "title": "Arcam A2.jpg",
+    "site": "Wikimedia",
+    "artist": "William Sames",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arcam_A2.jpg",
+    "w": 960,
+    "h": 710
   },
   "soluble": {
     "file": "soluble.jpg",
@@ -7778,15 +7826,27 @@ window.CREDITS = {
   },
   "lattice": {
     "file": "lattice.jpg",
-    "caption": "A printed biodegradable bone scaffold going in, in Assam — the open structure is there for bone to grow into",
-    "kind": "analog",
-    "title": "3D-Printed Biodegradable Human Bone Scaffold 4.jpg",
-    "artist": "Donvikro",
+    "caption": "One printed lattice at three strut thicknesses, 1.0, 1.2 and 1.4: the same cell, three stiffnesses",
+    "kind": "photo",
+    "title": "3D-printed Microstructure.jpg",
+    "site": "Wikimedia",
+    "artist": "Robin Zitt",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:3D-Printed_Biodegradable_Human_Bone_Scaffold_4.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:3D-printed_Microstructure.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 1707
+  },
+  "lattice2": {
+    "file": "lattice2.jpg",
+    "caption": "Titanium lattices and the parts they live in, grown by electron-beam melting at Oak Ridge: spheres, a gauntlet, a housing with a lattice core",
+    "kind": "product",
+    "title": "Additive manufacturing (9067742195).jpg",
+    "site": "Wikimedia",
+    "artist": "Oak Ridge National Laboratory",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Additive_manufacturing_(9067742195).jpg",
+    "w": 960,
+    "h": 640
   },
   "primaloft": {
     "file": "primaloft.jpg",

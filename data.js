@@ -2039,16 +2039,18 @@ window.MATERIALS = [
 {
   id: "fgm", cat: "composite", name: "Functionally graded material",
   sub: "FGM, continuously varying composition", img: "fgm",
-  hook: "Instead of bonding ceramic to metal and living with the stress at the interface, the composition is swept gradually from one to the other across a few millimetres. There is no interface left to delaminate — the idea came out of Japanese hypersonic work in the 1980s.",
-  stats: [["Interface", "none — a gradient"], ["Made by", "powder grading, DED printing"], ["Origin", "Japan, 1984"]],
-  uses: "Thermal barrier layers, rocket nozzles, cutting tools, graded bone implants.",
+  hook: "Instead of gluing ceramic to metal and living with the stress where they meet, the mix is swept from one to the other across a few millimetres. No interface, nothing to peel. Japanese spaceplane work, 1984.",
+  more: "Niino, Hirai and Watanabe proposed it at Sendai in 1984 for a skin at 2,000 kelvin outside and a thousand less inside: ceramic at the hot face, metal at the cool one, and between them powder mixes sintered together, so the expansion changes by steps too small to crack. It is made by layering powders, by plasma spray with two feeders, and by directed energy deposition, where the feed ratio changes on the fly and a steel part grades into Inconel in one build. The costs: every gradient is a new material with no fatigue data; the middle mixes form brittle phases the ends never do; residual stress moves rather than vanishes; and parts come one at a time, which is why the two-layer thermal barrier coating still wins.",
+  stats: [["Interface", "none; a gradient"], ["Made by", "powder layers, plasma spray, DED"], ["Origin", "Sendai, 1984"]],
+  uses: "Thermal barrier layers, rocket nozzles, cutting tools, graded bone implants, and research.",
   link: "https://en.wikipedia.org/wiki/Functionally_graded_material"
 },
 {
   id: "lattice", cat: "additive", name: "Printed lattice",
-  sub: "a solid whose stiffness is geometry", img: "lattice",
-  hook: "A material whose properties come from its architecture rather than its chemistry: relative density sets the stiffness, and the cell type sets how it scales — a stretch-dominated octet truss falls off roughly linearly with density, a bending-dominated foam far faster. Printing is what made the inside of a part designable at all.",
-  stats: [["Mass saving", "50–80%"], ["Cell size", "1–10 mm"], ["Octet", "stiffness linear with density"]],
+  sub: "a solid whose stiffness is geometry", img: "lattice", extra: ["lattice2"],
+  hook: "Properties from the drawing, not the chemistry. Density sets the stiffness and the cell sets how it falls: a truss loses stiffness in step with density, a foam with its square. Printing made the inside a design.",
+  more: "Maxwell wrote the rule in 1864: a frame with enough struts carries load in pure tension and compression, and one without bends at the nodes. The octet truss, the stretch-dominated cell, became the thing to print. Its stiffness goes as density, a foam's as the square, so at ten per cent density the truss is ten times stiffer. Powder-bed printers make it in titanium and nylon at cells of one to ten millimetres: heat exchangers, helmet liners, the porous skins of hip cups that bone grows into. The costs: every strut is a notch, so fatigue life is a fraction of the solid; powder trapped inside cannot all be shaken out; low-angle struts print rough and thin; the inside needs a CT scan; and saving 60 per cent of the mass costs several times the solid part.",
+  stats: [["Mass saving", "50–80%"], ["Octet truss", "stiffness ∝ density"], ["Foam", "stiffness ∝ density²"]],
   uses: "Aerospace brackets, heat exchangers, bone-ingrowth implants, impact liners.",
   link: "https://en.wikipedia.org/wiki/Mechanical_metamaterial"
 },
@@ -2056,25 +2058,28 @@ window.MATERIALS = [
 /* ---------- 3D PRINTING & ADDITIVE ---------- */
 {
   id: "fff", cat: "additive", name: "Printer filament",
-  sub: "1.75 mm spooled thermoplastic", img: "fff",
-  hook: "A drawn monofilament on a spool, held to about ±0.02 mm, because the extruder meters by volume and a fat spot becomes a blob. PLA, PETG and ABS all arrive as the same stock and the machine only melts and places it — which is why what comes out is never isotropic: the layers are welds, and the weld is the weakest thing in the part.",
-  stats: [["Diameter", "1.75 mm, ±0.02 mm"], ["Z strength", "20–70% of XY"], ["Catch", "nylon and PETG drink water"]],
-  uses: "Prototyping, jigs and fixtures, end-use brackets, the entire desktop printer market.",
+  sub: "1.75 mm spooled thermoplastic", img: "fff", extra: ["fff2", "fff3"],
+  hook: "A monofilament on a spool, held to ±0.02 mm, because the extruder meters by length and a fat spot becomes a blob. The machine only melts and places it, so a part is a stack of welds, the weld its weakest thing.",
+  more: "Pellets melt in a screw extruder, pass a die, and are pulled through a water bath at the speed that sets the diameter, laser-gauged and wound. PLA prints at 200 degrees and warps little; PETG at 240 is tougher and drinks water; ABS at 250 shrinks and wants a warm box; nylon and the carbon-filled grades need a hardened nozzle and a drying oven. A layer bonds to the one below across a weld cooler than the melt that lasts a fraction of a second, so strength across the layers is 20 to 70 per cent of strength along them. The costs: a spool crossed under itself snaps the strand mid-print; moist filament pops and leaves voids; the layer lines are stress raisers and leak paths; and plastic at 2 euros a kilogram as pellets is 20 as filament.",
+  stats: [["Diameter", "1.75 mm, ±0.02 mm"], ["Z strength", "20–70% of XY"], ["Ruined by", "moisture; a crossed spool"]],
+  uses: "Prototyping, jigs and fixtures, end-use brackets, the whole desktop printer market.",
   link: "https://en.wikipedia.org/wiki/3D_printing_filament"
 },
 {
   id: "ebm", cat: "additive", name: "Electron-beam titanium",
-  sub: "Ti-6Al-4V built hot, in vacuum", img: "ebm",
-  hook: "Titanium grown in a powder bed held near 700 °C anneals itself as it goes, so it ends up with a lamellar α+β structure and almost none of the residual stress a laser leaves behind. The surface comes out rough, half-sintered powder — which is what surgeons want, because bone grows into exactly that kind of trabecular skin.",
-  stats: [["Bed", "700–1000 °C, self-annealed"], ["Structure", "lamellar α+β"], ["Surface", "rough, bone grows in"]],
+  sub: "Ti-6Al-4V built hot, in vacuum", img: "ebm", extra: ["ebm2"],
+  hook: "Titanium grown in a powder bed at 700 degrees anneals itself as it goes, so it comes out lamellar and nearly free of the stress a laser leaves. The skin is rough powder, and surgeons want it so: bone grows into it.",
+  more: "An electron gun of a few kilowatts, steered by magnets at kilometres a second, first sinters each new layer lightly so it holds its charge, then melts the part, in the vacuum titanium needs anyway. Because the bed sits at 650 to 750 degrees the part is stress-relieved as it builds, needs few supports, and comes out as fine lamellar alpha-beta titanium close to the wrought alloy. Hip cups have been built this way since 2007, the solid shell and its trabecular skin in one piece. The costs: the surface is rough, 25 to 35 microns, so mating faces are machined; the beam is wide, so a feature under half a millimetre is lost; the hot cake of powder is blasted off with more of the same powder; and the gun needs a vacuum and a new filament every build.",
+  stats: [["Bed", "650–750 °C, self-annealed"], ["Structure", "lamellar α+β"], ["Surface", "Ra 25–35 µm; bone grows in"]],
   uses: "Acetabular cups and spinal cages, patient-specific implants, turbine blades, refractory alloys.",
   link: "https://en.wikipedia.org/wiki/Electron-beam_additive_manufacturing"
 },
 {
   id: "waam", cat: "additive", name: "Welding wire feedstock",
-  sub: "ER70S, 5356 and titanium wire", img: "waam",
-  hook: "Ordinary welding wire off a spool, laid down by the kilogram an hour rather than the gram. What you get is weld metal — coarse, columnar, sound once machined back — and the build volume is simply the reach of the robot arm, which is the only reason a ship's propeller or a rocket tank can be printed at all.",
-  stats: [["Rate", "1–10 kg/h"], ["Build volume", "the robot's reach"], ["Finish", "rough, machine after"]],
+  sub: "ER70S, 5356 and titanium wire", img: "waam", extra: ["waam2"],
+  hook: "Welding wire off a spool, laid down by the kilogram an hour instead of the gram. What you get is weld metal, sound once machined, and the build volume is the reach of the robot, so a propeller can be printed.",
+  more: "A MIG or plasma torch on a robot, the wire a welder buys, and a path that lays bead on bead until a wall stands up: one to ten kilograms an hour against the grams of a powder bed, in steel, aluminium 5356, Inconel and titanium, at a welder's feedstock cost. Damen and RAMLAB printed a 400 kilogram ship's propeller in 2017 and had it classed; MX3D put a stainless footbridge over an Amsterdam canal in 2021. The costs: the metal is a casting of weld beads, with the big grains and the anisotropy that implies, so parts are designed on weld-metal numbers and machined all over; heat builds up and the geometry drifts unless the robot waits between layers; a wall thinner than the bead cannot be made; and titanium needs a tent of argon round the whole robot.",
+  stats: [["Rate", "1–10 kg/h"], ["Build volume", "the robot's reach"], ["Finish", "weld beads; machine after"]],
   uses: "Rocket tanks, ship propellers, large brackets, repair and feature addition on big castings.",
   link: "https://en.wikipedia.org/wiki/3D_printing_processes"
 },

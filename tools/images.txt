@@ -564,9 +564,12 @@ leno|commons|3611 Bandage rolling.jpg|Gauze bandage being rolled|product
 fleece|Poly Haven|https://cdn.polyhaven.com/asset_img/primary/polar_fleece.png?width=1024|Polar fleece, napped and shorn level: a scanned swatch rendered by Poly Haven|photo|CC0|Poly Haven|https://polyhaven.com/a/polar_fleece
 nonwoven|commons|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
 weldedseam|commons|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
-waam|commons|Панфилов Александр - Wire Arc Additive Manufacturing (ИФПМ СО РАН).jpg|Wire arc deposition in progress|photo
+waam|commons|Metal 3D printed turbine (49803494637).jpg|A propeller built from welding wire by wire arc deposition, the beads still on the blades and the hub turned|product
+waam2|commons|World first 3D printed steel bridge in Amsterdam.jpg|The MX3D footbridge over the Oudezijds Achterburgwal, Amsterdam, 2021: twelve metres of stainless steel laid bead by bead by four robots|product
 metalpowder|commons|SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg|Electron micrograph of gas-atomised steel powder|photo
-fff|Flickr|https://live.staticflickr.com/3945/15591161602_45e12b004d_b.jpg|Spools of 1.75 mm filament on a printed stand|photo|CC BY 2.0|Creative Tools|https://www.flickr.com/photos/33907867@N02/15591161602
+fff|Flickr|https://live.staticflickr.com/3945/15591161602_45e12b004d_b.jpg|A spool of 1.75 mm filament on a printed stand|photo|CC BY 2.0|Creative Tools|https://www.flickr.com/photos/33907867@N02/15591161602
+fff2|commons|Crossed filiment.jpg|The thing to look for on a spool: a strand crossed under its neighbour, which will jam and snap the print at three in the morning|related
+fff3|commons|Filamentherstellung mittels Extruder.jpg|Filament being made: a metal-filled strand leaving the die of a laboratory extruder|process
 coldspray|Flickr|https://live.staticflickr.com/5182/5725947299_2c7feb8b42_b.jpg|Aluminium and titanium powder blended as cold-spray feedstock, under the electron microscope|photo|CC BY 2.0|CORE-Materials|https://www.flickr.com/photos/41639353@N08/5725947299
 fourd|commons|Multishape active composites by 3d printing of digial smps.jpg|Printed shape-memory composites, folded and recovered|photo
 lcmceramic|commons|Zirconia bridge.jpg|A zirconia dental bridge — the kind of part a ceramic slurry resin makes|product
@@ -574,6 +577,7 @@ concreteprint|commons|Eco-sustainable 3D printed house "Tecla".jpg|Tecla, a hous
 bioink|NASA|https://images-assets.nasa.gov/image/jsc2022e072969/jsc2022e072969~medium.jpg|The BioFabrication Facility, the bioprinter flown to the space station to lay down cell-laden ink|process|Public domain|JSC|https://images.nasa.gov/details/jsc2022e072969
 grcop|commons|Marshall engineers installed the injector in a subscale RS-25 engine model.jpg|A printed fuel injector going into a subscale RS-25 engine — hot-fire tested near 3300 °C|product
 ebm|Flickr|https://live.staticflickr.com/7015/6790413239_05b51c6b63_b.jpg|A titanium lattice gauntlet grown by electron-beam melting at Oak Ridge|product|CC BY 2.0|oakridgelabnews|https://www.flickr.com/photos/37940997@N05/6790413239
+ebm2|commons|Arcam A2.jpg|An Arcam A2, the machine most of the hip cups came out of, with its covers off: the electron gun column above, the vacuum chamber behind the porthole|process
 soluble|commons|Support structure in 3D printing.jpg|Support structure on a printed part; soluble versions wash off|related
 pa12powder|Flickr|https://live.staticflickr.com/6209/6123908690_17e3b89de7_b.jpg|A laser-sintered nylon bicycle — the first workable one, grown in fused powder|product|CC BY-SA 2.0|51% Studios Architecture|https://www.flickr.com/photos/51pct/6123908690
 cellacetate|commons|Ray-Ban Classic Wayfarer RB5121 47-22.jpg|A Wayfarer frame milled from a block of cellulose acetate, the colour through the thickness|product
@@ -651,7 +655,8 @@ g10|commons|Open Source Hardware (OSHW) Logo on blank PCB.jpg|A bare circuit boa
 g10b|commons|Cross-section of PCB pins, magnification x50.jpg|A board in section at fifty times: the glass-cloth layers of the FR-4 between the copper, pins soldered through|structure
 fgm|commons|Repair process for a V2500 high-pressure turbine guide vane (8).jpg|A V2500 turbine guide vane, its thermal barrier just plasma-sprayed on — coatings like this are where graded composition earns its keep|analog
 contfibre|DVIDS|https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9832271/1000w_q95.jpg|Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell|process|Public domain|US Army, DVIDS|https://www.dvidshub.net/image/9832271
-lattice|commons|3D-Printed Biodegradable Human Bone Scaffold 4.jpg|A printed biodegradable bone scaffold going in, in Assam — the open structure is there for bone to grow into|analog
+lattice|commons|3D-printed Microstructure.jpg|One printed lattice at three strut thicknesses, 1.0, 1.2 and 1.4: the same cell, three stiffnesses|photo
+lattice2|commons|Additive manufacturing (9067742195).jpg|Titanium lattices and the parts they live in, grown by electron-beam melting at Oak Ridge: spheres, a gauntlet, a housing with a lattice core|product
 primaloft|commons|Adidas belgements primaloft cycling gilet.jpg|An insulated cycling gilet — PrimaLoft wadding under a windproof shell|product
 m5fibre|commons|Aramid fiber2.jpg|Aramid filaments about 10 µm across — M5 is the rigid-rod fibre that was meant to beat these|analog
 basofil|commons|Turnout gear in the Czech Republic.jpg|Firefighters' turnout gear — melamine fibre goes into liners and hoods of kit like this|analog

@@ -1360,3 +1360,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `copv`: the NASA White Sands inspection photograph showed a bare metal cylinder with two technicians, not the overwrap; replaced by the Mirai tank cutaway. `Copv tank close out prior to flight.png` is a black cylinder lost in wiring. `Type IV hydrogen tank`, `SCBA cylinder carbon` nothing.
 - `pykrete`: the old `Pykrete.jpg` is a 640 px rusty-looking block on dirt; replaced by the Juuka ice church. Perutz's block and the Patricia Lake hull have no free photograph.
 - `hempcrete`: `hemp lime block`, `chanvre banché` nothing; the Ukrainian HEMPIRE MIX bags are a product shot and were left.
+
+## Batch 40 restyle (fgm, lattice, fff, ebm, waam)
+
+- `fgm`: no photograph of a graded material. `functionally graded material` gives two diagrams of a segmented plate; `graded composition micrograph`, `thermal barrier coating cross section`, `graded porosity titanium`, `bamboo cross section density` nothing of use. The V2500 vane stays as the analog, with no extra view.
+- `lattice`: the Assam bone-scaffold surgery photograph showed surgeons, not the lattice; replaced by a printed lattice at three strut thicknesses. `octet truss` returns car space frames; `gyroid lattice`, `3D printed titanium lattice`, `3D printed heat exchanger` nothing.
+- `waam`: the Tomsk arc photograph was a blur of blue; replaced by a WAAM propeller with its beads showing. `RAMLAB propeller` and `Drahtlichtbogen additiv` nothing; the Damen propeller has no free photograph.
+- `ebm`: `acetabular cup trabecular`, `EBM titanium`, `powder bed titanium` nothing; the Arcam A2 added as the machine. The Oak Ridge family photograph went to the lattice card instead, since it is mostly lattices.
+- `fff`: `FDM layer lines`, `3D printing layers close up` nothing at card size; the crossed spool and the laboratory extruder added.
