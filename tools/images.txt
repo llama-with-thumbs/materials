@@ -429,10 +429,17 @@ transparentarmour|commons|IDET2007 bulletproof glass.jpg|Transparent armour afte
 transparentarmour2|commons|IDET2007 bulletproof glass armor.jpg|The same maker's stack from above, with the card: 55.6 mm, 116.3 kg/m², three armour-piercing 7.62 × 39 rounds stopped|product
 transparentarmour3|commons|Bulletproof glass window after a burglary attempt.jpg|A jeweller's window after a burglary attempt: the pane crazed edge to edge and nothing came through|product
 dyneemahb|commons|PEO Soldier Enhanced Combat Helmet profile.jpg|The US Enhanced Combat Helmet, a pressed shell of cross-plied UHMWPE: a third more stopping power than the aramid helmet at the same weight|product
-gypsum|commons|Drywall and tools.jpg|Gypsum board|product
-copv|NASA|https://images-assets.nasa.gov/image/wstf2019e04644/wstf2019e04644~medium.jpg|A composite overwrapped pressure vessel under inspection at NASA White Sands|product|Public domain|NASA/WSTF|https://images.nasa.gov/details/wstf2019e04644
-pykrete|commons|Pykrete.jpg|Pykrete — ice with wood pulp mixed into it|photo
-hempcrete|Flickr|https://live.staticflickr.com/3746/11221285985_cac4e86ef0_b.jpg|A hempcrete wall|product|CC BY 2.0|Jnzl's Photos|https://www.flickr.com/photos/102748040@N03/11221285985
+gypsum|commons|Drywall and tools.jpg|Gypsum board with the trade's tools: the knives, the tape and the paper face that takes the mud|product
+gypsum2|commons|Drywall reality.jpg|A fire-rated drywall assembly as built: cables through a cut-and-fit patch with no firestop, no tape and no mud, and the hour gone with them|related
+copv|commons|Toyota Mirai high-pressure hydrogen tank SAO 2016 9036.jpg|A Toyota Mirai hydrogen tank in a cutaway car: Type IV, plastic liner under carbon fibre wound in epoxy, 700 bar|product
+copv2|commons|Filament winding of the P80 solid rocket motor.jpg|Filament winding: carbon tow laid helically over a mandrel, here the P80 motor case of the Vega rocket, the same machine that wraps a tank|process
+copv3|commons|Dawn xenon tank.jpg|The xenon tank of the Dawn spacecraft, a titanium-lined COPV under its thermal blanket, 2004|product
+pykrete|commons|Bvof 2015 0124 arf license tue.jpg|The Sagrada Família in ice at Juuka, Finland, 2015: 21 metres of pykrete sprayed onto inflated forms by Eindhoven students, the tallest ice structure built|product
+pykrete2|commons|Vattensagspan2.JPG|The whole recipe: water and sawdust, in the proportions for pykrete|related
+pykrete3|commons|Habakukk aircraft 01.jpg|HMS Habakkuk as proposed, 1943: 600 metres, two million tonnes, a hull of pykrete 12 metres thick|related
+hempcrete|Flickr|https://live.staticflickr.com/3746/11221285985_cac4e86ef0_b.jpg|A hempcrete wall before plaster: shiv in lime, the pieces of stalk still legible|product|CC BY 2.0|Jnzl's Photos|https://www.flickr.com/photos/102748040@N03/11221285985
+hempcrete2|commons|Frisch gemischter Hanfkalk.jpg|Freshly mixed hemp-lime in the pan: the shiv wetted first, then coated in the binder|process
+hempcrete3|commons|Highland Hemp House finished hempcrete.jpg|A house in Bellingham, Washington, with the hempcrete cast round its timber frame and the plaster still to come|product
 nylonrope|commons|Rope 20221203 102029.jpg|Braided synthetic rope|photo
 bungee|commons|Bungee Cord PICT6882a.jpg|Shock cord — rubber strands in a braided jacket|photo
 kernmantle|commons|Kernmantle climbing rope dynamic Sterling 10.7mm cut end.jpg|Kernmantle rope cut open — load-bearing core, protective sheath|photo
@@ -640,7 +647,8 @@ nextel|commons|Oxid Hubtor heiß.JPG|A furnace lifting gate of alumina fibre in 
 nextel2|commons|Flammrohr nach 15000h.jpg|A flame tube of oxide composite after 15,000 hours in a crispbread oven: alumina fibre cloth, stiffened with a ceramic matrix|related
 smc|commons|1999 Chevrolet C5 Corvette Convertible (30572198050).jpg|A 1999 C5 Corvette: every body panel is sheet moulding compound, pressed in minutes and painted on the line|product
 smc2|commons|Pontiac Fiero GT DSC 8971.jpg|A Pontiac Fiero GT, 1985 to 1988: the hood, roof and decklid were SMC; the doors and fenders a softer moulded urethane|product
-g10|commons|SEG DVD 430 - Printed circuit board-4276.jpg|A DVD player's circuit board — boards like this are cut from glass-cloth epoxy laminate, the electrical grade of G10|analog
+g10|commons|Open Source Hardware (OSHW) Logo on blank PCB.jpg|A bare circuit board before the parts go on: FR-4 under the red mask, copper etched to tracks, holes drilled and plated through|product
+g10b|commons|Cross-section of PCB pins, magnification x50.jpg|A board in section at fifty times: the glass-cloth layers of the FR-4 between the copper, pins soldered through|structure
 fgm|commons|Repair process for a V2500 high-pressure turbine guide vane (8).jpg|A V2500 turbine guide vane, its thermal barrier just plasma-sprayed on — coatings like this are where graded composition earns its keep|analog
 contfibre|DVIDS|https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9832271/1000w_q95.jpg|Two Markforged X7 printers in a Marine fabrication shop — the machine that lays continuous fibre inside a printed shell|process|Public domain|US Army, DVIDS|https://www.dvidshub.net/image/9832271
 lattice|commons|3D-Printed Biodegradable Human Bone Scaffold 4.jpg|A printed biodegradable bone scaffold going in, in Assam — the open structure is there for bone to grow into|analog

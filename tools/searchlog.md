@@ -1352,3 +1352,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `dyneemahb`: `UHMWPE armor`, `UHMWPE plate`, `Dyneema helmet` return nothing; `Enhanced Combat Helmet` gives the PEO Soldier profile, which is a UHMWPE shell. The Osprey plates (ceramic-faced, cover on) dropped. `Sapi plates.jpg` is already on the boron carbide card. `Climbing gear made of dyneema.jpg` is already on the UHMWPE card, so the helmet stands alone.
 - `pvcfoam`: `Divinycell`, `Airex`, `PVC foam core`, `foam core boat hull`, `closed cell foam sheet` return nothing of the foam. `Wind rotor profile.jpg` shows the cored shells in section; a bare scored sheet of the foam is still wanted.
 - `transparentarmour`: the 1931 NYPD demonstration photograph (`Kogelvrij glas`, 887 px, no restrictions) was looked at and left; it is a period piece, not the laminate.
+
+## Batch 39 restyle (gypsum, g10, copv, pykrete, hempcrete)
+
+- `gypsum`: no photograph of a cut or broken board core on Commons: `drywall cut edge`, `plasterboard core`, `Gipsplatte Bruch`, `drywall broken` give only the firestop series. The tools photograph stays; the Cambrian College firestop failure added as the honest second view. The tapered-edge photographs are blank wall.
+- `g10`: nothing of bare G10 sheet: `G10 fiberglass` returns a bus and bearing balls, `Garolite`, `G10 knife scales`, `copper clad laminate`, `Glasfaser Epoxid Platte` nothing. The DVD board swapped for a bare board before assembly and a 50× section showing the glass layers. Micarta is phenolic, not G10, and was left.
+- `copv`: the NASA White Sands inspection photograph showed a bare metal cylinder with two technicians, not the overwrap; replaced by the Mirai tank cutaway. `Copv tank close out prior to flight.png` is a black cylinder lost in wiring. `Type IV hydrogen tank`, `SCBA cylinder carbon` nothing.
+- `pykrete`: the old `Pykrete.jpg` is a 640 px rusty-looking block on dirt; replaced by the Juuka ice church. Perutz's block and the Patricia Lake hull have no free photograph.
+- `hempcrete`: `hemp lime block`, `chanvre banché` nothing; the Ukrainian HEMPIRE MIX bags are a product shot and were left.
