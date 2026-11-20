@@ -493,11 +493,20 @@ cordura2|commons|Cordura Purse.jpg|A wallet with the licence label sewn on: the 
 viscose|commons|Rayon sample.jpg|Viscose rayon: silk's drape and lustre from wood pulp|photo
 viscose2|commons|Viscose Rayon spinning machine.JPG|A viscose spinning machine at the Science Museum, London: syrup in, thread out|process
 viscose3|commons|CSIRO ScienceImage 7342 Rayon fibre.jpg|A single rayon fibre under the electron microscope, with the lengthwise striations of the acid bath|structure
-lyocell|commons|Lyocell.jpg|Lyocell fibre|photo
-acrylicfibre|commons|Acrylic stash -1 (12115250915).jpg|Acrylic yarn|photo
-merino|commons|CSIRO ScienceImage 7663 The structure of a Merino Wool Fibre.jpg|A merino wool fibre, showing its scales|photo
-mohair|Flickr|https://live.staticflickr.com/2235/2366086549_a794cd4214_b.jpg|Mohair|photo|CC BY 2.0|AnnaKika|https://www.flickr.com/photos/ullkika/2366086549
-ramie|commons|Ramie fiber exhibited in Yonezawa City Uesugi Museum.jpg|Ramie fibre|photo
+lyocell|commons|Patagonia, OutDoor 2018, Friedrichshafen (1X7A0346).jpg|A lyocell shirt on a trade-show rail: the drape and the cool hand are the selling points|product
+lyocell2|commons|Lyocell Vital fabric.jpg|Quilted mattress ticking woven with lyocell, the fibre that takes up more water than cotton|product
+acrylicfibre|commons|Acrylic stash -1 (12115250915).jpg|A box of acrylic yarn: wool's bulk at a third of the weight, and colours wool does not do|photo
+acrylicfibre2|commons|Acrylic 40x.JPG|One acrylic fibre at 40 times, from a forensic lab: the pigment specks are inside it, not on it|structure
+acrylicfibre3|commons|ORLON teaches new fall fashions to keep their figure in the wash! - DPLA - 271f0a1df97147140c0d25ae915a67df.jpg|A 1950s Du Pont advertisement for Orlon, sold as the wool that keeps its shape in the wash|related
+merino|commons|New England Tablelands Merino in snow during winter..jpg|Superfine merinos in snow on the New England Tablelands, New South Wales|related
+merino2|commons|CSIRO ScienceImage 7663 The structure of a Merino Wool Fibre.jpg|The structure of a merino fibre from the helix up to the scaled cuticle, a CSIRO diagram|structure
+merino3|commons|SLNSW 7664 Judges opening the fleece of Merino rams.jpg|Judges opening the fleece of merino rams at a Sydney show: the fibre is graded on the animal|process
+mohair|Flickr|https://live.staticflickr.com/2235/2366086549_a794cd4214_b.jpg|Mohair yarn: the flat scales give the lustre and take dye to a brilliance wool cannot|photo|CC BY 2.0|AnnaKika|https://www.flickr.com/photos/ullkika/2366086549
+mohair2|commons|Quebec angora goat.jpg|An Angora goat in Quebec, its ringlets a few months from shearing|related
+mohair3|commons|My favorite Mohair - Steiff Schulte Dense Curly Kid mohair (8182916128).jpg|Steiff Schulte kid-mohair plush for teddy bears: a pile that stands back up|product
+ramie|commons|Ramie fiber exhibited in Yonezawa City Uesugi Museum.jpg|Degummed ramie fibre in the Uesugi Museum, Yonezawa: white, lustrous and stiff|photo
+ramie2|commons|CSIRO ScienceImage 8439 Ramie fibre.jpg|A single ramie fibre under the electron microscope|structure
+ramie3|commons|Boehmeria nivea kz01.jpg|The plant: a nettle without the sting, cut three to six times a year|related
 kapok|commons|Tunku Sabah Kapok-fibres-01.jpg|Kapok floss|photo
 rockwool|commons|Arrangement Mineralwolle.jpeg|Mineral wool|photo
 wiremesh|commons|Woven wire mesh.png|Woven wire mesh|photo

@@ -1440,3 +1440,11 @@ tungsten filament, the zinc anode, indium. Searched and not added:
 - `cordura`: only `Cordura Purse.jpg` names the fabric. `Tactical backpack at Lower Falls Trail.jpg` and the Dutch Army VOSS pouches are probably Cordura and cannot be captioned as such; the Wacken Open Air `Cordura` series is a band; `motorcycle textile jacket` is leather and a Nazi helmet; `1000D nylon`, `cordura backpack`, `MOLLE pouch` nothing usable.
 - `velcro`: `velcro ISS` is pizza and chess, the Velcro invisible at card size; `Velcro6.jpg` pocket and the sleeping-bag zip passed over; photomicrograph and burr added.
 - `viscose`: `viscose spinning bath`, `rayon spinneret` nothing; the Säteri factory and the sponge passed over; `Xanthation.png` is a diagram; the Science Museum machine and the CSIRO SEM (993 px wide, 2:1) added.
+
+## Batch 50 restyle (lyocell, acrylicfibre, merino, mohair, ramie)
+
+- `lyocell`: `Lyocell.jpg` dropped, it is a garment care label (55 per cent hemp). Commons has nothing of the fibre itself: `lyocell`, `Tencel`, `lyocell fibre` return two Czech mattress covers and a Patagonia shirt; `Tencel fabric` nothing; `Lenzing` is the town; `NMMO` is ball-and-stick. The shirt took the main slot as product, the embossed Vital ticking as second.
+- `merino`: the CSIRO structure diagram was captioned as a photo; it moved to second as structure. Sheep in snow made main (related, honestly), the SLNSW ram-judging picture third. `Merino ram fleece.jpg` is a labelled fleece map, passed over; `wool fibre SEM` returns an 1844 sterility treatise; `merino base layer` nothing.
+- `acrylicfibre`: `acrylic awning` returns only the Orlon advertisement, which was added; `Sunbrella` is a 1947 suntan lotion and Philadelphia umbrellas; `polyacrylonitrile fiber` is an airfield; `Acrylic 40x.JPG` (1024 px) is a genuine single fibre with pigment inside, added as structure. The Dralon factory tour is a building.
+- `mohair`: the goat and the Steiff Schulte plush added; `mohair suit` is a band called Green Mohair Suits and the Beatles' Millings suits, which are not stated to be mohair; `mohair fleece` is 1890s engravings; the Sebastian bear is mohair and alpaca mixed.
+- `ramie`: SEM and plant added; `Ramie-Band.jpg` bookbinding tape passed over as a fourth; the Honolulu katabira is faint at card size; `karamushi` is a roadside station; `Echigo-jofu` is a print.
