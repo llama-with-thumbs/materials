@@ -267,7 +267,7 @@ beside it, the seven workshops by their material, and building at the centre. Ev
 carries what is known about it, who ran it and what became of it, the catalogue's own workshop
 where it has one, and the texts in the library it leans on; a switch turns the words to the
 German of the statutes, or to Russian in the vocabulary of VKhUTEMAS, the Moscow school of 1920
-built on the same plan, since no Russian rendering from the school's own time could be found. The segments and their texts live in `wheel.js`, with the geometry;
+built on the same plan, since no Russian rendering from the school's own time could be found. The segments and their texts live in `wheel.js`, with the geometry, which is measured on the lithograph in the 1922 statutes: ring radii, the angles of every division, and the proportion of each ring's letters to its ring, the same in all three languages, with a word too long for its room condensed as the original's are, and only then set smaller;
 the page's sources are listed at its foot. The wheel is also a shelf of its own on the main
 page, *the wheel* in the collections row: one wide card with the rings, the panel a ring fills
 where a plate's readout sits, and a link to the full page.

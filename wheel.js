@@ -26,7 +26,7 @@ window.WHEEL = (() => {
       ],
       cats: ["composite"], lib: ["gropius1919", "gropius1930bd"] },
 
-    { key: "wood", ring: 1, a0: 0, a1: 360 / 7, en: "wood", de: "holz", ru: "дерево",
+    { key: "wood", ring: 1, a0: 0, a1: 48.4, en: "wood", de: "holz", ru: "дерево",
       sub: "the wood sculpture workshop and the joinery · Weimar 1919, Dessau to 1933",
       text: [
         "Two workshops in Weimar handled wood. The wood sculpture shop carved the whole interior of the Sommerfeld house in 1920 and 1921, the apprentice Joost Schmidt cutting its doors and stair cladding, and made models for the other shops. The joinery was Itten's from 1919 to 1922, Gropius's own from 1922 to 1925, and Marcel Breuer's from 1925 to 1928: the African chair of 1921, the slatted chair of 1924, the furniture of the Haus am Horn, and the stacking tables Thonet put into production in 1929.",
@@ -34,7 +34,7 @@ window.WHEEL = (() => {
       ],
       cats: ["natural"] },
 
-    { key: "metal", ring: 1, a0: 360 / 7, a1: 2 * 360 / 7, en: "metal", de: "metall", ru: "металл",
+    { key: "metal", ring: 1, a0: 48.4, a1: 102.8, en: "metal", de: "metall", ru: "металл",
       sub: "the metal workshop · 1919 to 1929, then part of the fitting-out workshop",
       text: [
         "It began in the old gold, silver and copper forge of the Weimar art school, with Itten as master of form from 1919 and the silversmith Christian Dell as master of craft from 1922. When Itten left in 1923 László Moholy-Nagy turned the forge into a design laboratory: prototypes for industry, a small production line, and the pieces the school is remembered by, the Bauhaus lamp of 1924 by Wagenfeld and Jucker, Marianne Brandt's tea infuser, Tümpel's and Brandt's ashtrays.",
@@ -42,7 +42,7 @@ window.WHEEL = (() => {
       ],
       cats: ["metal"], lib: ["gropius1925na", "brandt1966"] },
 
-    { key: "textiles", ring: 1, a0: 2 * 360 / 7, a1: 3 * 360 / 7, en: "textiles", de: "gewebe", ru: "ткань",
+    { key: "textiles", ring: 1, a0: 102.8, a1: 156.8, en: "textiles", de: "gewebe", ru: "ткань",
       sub: "the weaving workshop · 1919 to 1933, the most productive of them all",
       text: [
         "It opened in 1919 with Itten as master of form and Helene Börner teaching the craft until 1925; the women's class, where most women were sent whatever they had asked for, was merged into it in 1920. Georg Muche ran it from 1921 to 1927 and pushed it from the hand loom toward industrial production and the so-called Bauhaus fabrics sold by the metre; Gunta Stölzl, who had taught herself dyeing as a student, led it to 1931, then Lilly Reich.",
@@ -50,7 +50,7 @@ window.WHEEL = (() => {
       ],
       cats: ["fibre", "fabric", "warmth"], lib: ["stolzl1931", "annialbers1965"] },
 
-    { key: "color", ring: 1, a0: 3 * 360 / 7, a1: 4 * 360 / 7, en: "colour", de: "farbe", ru: "цвет",
+    { key: "color", ring: 1, a0: 156.8, a1: 208.5, en: "colour", de: "farbe", ru: "цвет",
       sub: "the wall-painting workshop · 1920 to 1933, the fitting-out workshop from 1929",
       text: [
         "Colour on the diagram meant the wall-painting workshop: Itten first, Oskar Schlemmer and Wassily Kandinsky from 1922 to 1925, then Hinnerk Scheper, who had trained in it, from 1925 to 1933, with Alfred Arndt standing in while Scheper was in Moscow from 1929 to 1931. It painted the corridors of the Weimar building to Itten's scheme, the murals of the 1923 exhibition, and gave each of the Dessau masters' houses its own colour plan, Scheper letting the building decide where colour went and using it to show the way through.",
@@ -58,7 +58,7 @@ window.WHEEL = (() => {
       ],
       cats: [], lib: ["kandinsky1926"] },
 
-    { key: "glass", ring: 1, a0: 4 * 360 / 7, a1: 5 * 360 / 7, en: "glass", de: "glas", ru: "стекло",
+    { key: "glass", ring: 1, a0: 208.5, a1: 261.1, en: "glass", de: "glas", ru: "стекло",
       sub: "the glass-painting workshop · Weimar 1920 to 1925",
       text: [
         "Stained glass had its own workshop in Weimar, with Itten and then Paul Klee as masters of form, and Josef Albers, who had arrived as a student in 1920 and built the shop up from salvaged glass, as its craftsman from 1923. It made leaded windows for the Sommerfeld house in 1921 and the Otte house in 1922, and Albers's sandblasted flashed-glass pictures came out of it.",
@@ -66,7 +66,7 @@ window.WHEEL = (() => {
       ],
       cats: ["ceramic"] },
 
-    { key: "clay", ring: 1, a0: 5 * 360 / 7, a1: 6 * 360 / 7, en: "clay", de: "ton", ru: "глина",
+    { key: "clay", ring: 1, a0: 261.1, a1: 309.5, en: "clay", de: "ton", ru: "глина",
       sub: "the pottery at Dornburg · 1919 to 1925",
       text: [
         "The pottery opened in 1919 and moved in 1920 to Dornburg an der Saale, twenty kilometres from Weimar, into the stables of a castle, because there was a kiln and a master potter there: Max Krehan, master of craft until 1925, with the sculptor Gerhard Marcks as master of form. Theodor Bogler and Otto Lindig were its apprentices and then its masters.",
@@ -74,7 +74,7 @@ window.WHEEL = (() => {
       ],
       cats: ["ceramic"] },
 
-    { key: "stone", ring: 1, a0: 6 * 360 / 7, a1: 360, en: "stone", de: "stein", ru: "камень",
+    { key: "stone", ring: 1, a0: 309.5, a1: 360, en: "stone", de: "stein", ru: "камень",
       sub: "the stone sculpture workshop · Weimar 1919 to 1925",
       text: [
         "Weimar kept separate workshops for stone and for wood, both directed in practice by Itten and then Schlemmer, with the sculptor Josef Hartwig, who carved the Bauhaus chess set of 1924, as the master of craft. The stone shop cut the Monument to the March Dead in the Weimar cemetery in 1921 and 1922 to Gropius's design, and made plaster models for the pottery and fittings for the 1923 exhibition.",
@@ -82,58 +82,57 @@ window.WHEEL = (() => {
       ],
       cats: ["natural"] },
 
-    { key: "nature", ring: 2, a0: 0, a1: 76, en: "study of nature", de: "naturstudium", ru: "изучение натуры",
+    { key: "nature", ring: 2, a0: 0, a1: 69.1, en: "study of nature", de: "naturstudium", ru: "изучение натуры",
       sub: "the studies beside the workshop, three years",
       text: [
         "Drawing from nature ran beside the workshop for the whole three years. Itten had students draw a thistle, a plant stem or a block of wood until they had its structure, not its outline; Klee carried on from 1921 with studies of growth and movement; Moholy-Nagy and later Walter Peterhans brought the camera to it. The point was not botany but the habit of looking at how a thing is built before deciding what to make of it."
       ],
       cats: ["natural"] },
 
-    { key: "materials", ring: 2, a0: 76, a1: 150, en: "study of materials", de: "materialkunde", ru: "материаловедение",
+    { key: "materials", ring: 2, a0: 69.1, a1: 144.1, en: "study of materials", de: "lehre von den stoffen", ru: "материаловедение",
       sub: "the studies beside the workshop, three years",
       text: [
         "The science of the workshop's own stuff: what a clay body does in the kiln, what a dye does to wool, what an alloy does under the hammer. In Weimar it was taught by the masters of craft from experience; under Hannes Meyer in Dessau the programme added lectures from outside the school in the sciences and in sociology, on the argument that a designer who could not reckon the material could not design for the factory. This catalogue is a study of materials, and nothing else."
       ],
       cats: ["metal", "ceramic", "polymer"] },
 
-    { key: "space", ring: 2, a0: 150, a1: 224, en: "space study, colour study, composition study", de: "raumlehre, farbenlehre, kompositionslehre", ru: "пространство, цвет, композиция",
+    { key: "space", ring: 2, a0: 144.1, a1: 218.9, en: "space study, colour study, composition study", de: "raumlehre · farblehre · kompositionslehre", ru: "пространство, цвет, композиция",
       sub: "the studies beside the workshop, three years",
       text: [
         "The form teaching proper, the Formlehre: Klee's elementary design theory from 1921 to 1931, which became the Pedagogical Sketchbook of 1925; Kandinsky's colour seminar and analytical drawing from 1922 to 1933, which became Point and Line to Plane in 1926; and Oskar Schlemmer's course on the human figure in 1928 and 1929. Kandinsky's 1923 questionnaire, which gave the yellow to the triangle, the red to the square and the blue to the circle, is the page's own colour rule."
       ],
       cats: ["exotic"], lib: ["klee1925", "kandinsky1926"] },
 
-    { key: "construction", ring: 2, a0: 224, a1: 290, en: "study of construction and representation", de: "konstruktions- und darstellungslehre", ru: "конструкция и изображение",
+    { key: "construction", ring: 2, a0: 218.9, a1: 290.9, en: "study of construction and representation", de: "lehre der konstruktionen und der darstellung", ru: "конструкция и изображение",
       sub: "the studies beside the workshop, three years",
       text: [
         "How to draw a thing so that someone else can make it: technical drawing, projection and descriptive geometry, lettering, model building. It was taught by the masters of craft and by the building office, and from 1927 inside the building department; Herbert Bayer's lowercase type and Joost Schmidt's lettering course belong here as much as any machine drawing."
       ],
       cats: ["additive"] },
 
-    { key: "tools", ring: 2, a0: 290, a1: 360, en: "study of materials and tools", de: "material- und werkzeuglehre", ru: "материалы и инструменты",
+    { key: "tools", ring: 2, a0: 290.9, a1: 360, en: "study of materials and tools", de: "material- und werkzeuglehre", ru: "материалы и инструменты",
       sub: "the studies beside the workshop, three years",
       text: [
         "The craft itself, the Werklehre, learned at the bench from the master of craft: warping a loom, turning a pot, raising a bowl, cutting a tenon. A student signed an apprentice's contract, and the three years ended, where the trade allowed it, in the journeyman's examination before the local chamber of crafts, so that a Bauhaus weaver or joiner left with a trade paper as well as a school's. It was the half of the dual mastership that made the school a school and not an academy."
       ],
       cats: ["metal", "natural"] },
 
-    { key: "vorkurs", ring: 3, a0: 0, a1: 100, en: "basic course", de: "vorlehre", ru: "основной курс",
+    { key: "vorkurs", ring: 3, a0: 0, a1: 360, en: "basic course", de: "vorlehre", ru: "основной курс",
       sub: "the preliminary course · half a year, compulsory, from 1919; a full year later",
-      twin: { a0: 260, a1: 360 },
       text: [
         "Every entrant took it before any workshop would have them: a half-year on probation, set up by Johannes Itten in 1919 and run by him until he left in the spring of 1923. From that autumn László Moholy-Nagy and Josef Albers shared it, Albers taking the handicraft and material work in the first semester and Moholy-Nagy a course on material and space in the second; when Moholy-Nagy left with Gropius in 1928, Albers ran it alone until the school closed in 1933. It covered form and colour, composition, materials, drawing from life and from nature, and at the end of it the masters decided which workshop a student was fit for.",
         "The diagram writes half a year at the top; in Dessau it grew to a full year. This catalogue is filed as its continuation, and the cards that fit no workshop are kept under its name."
       ],
       cats: ["exotic"], lib: ["itten1961", "albers1963"] },
 
-    { key: "form", ring: 3, a0: 100, a1: 180, en: "elementary study of form", de: "elementare formlehre", ru: "элементарное учение о форме",
+    { key: "form", ring: 3, line: 1, en: "elementary study of form", de: "elementare formlehre", ru: "элементарное учение о форме",
       sub: "the first half of the preliminary course",
       text: [
         "Itten's exercises: the contrasts, light against dark, rough against smooth, large against small, drawn until the student could feel them; rhythm studies made with the whole arm; analyses of old paintings for their structure; and breathing and movement before the drawing began. After him the form side passed to Klee's and Kandinsky's theory courses, and Moholy-Nagy's studies of balance and suspended construction."
       ],
       cats: ["exotic"], lib: ["klee1925", "itten1961"] },
 
-    { key: "matstudy", ring: 3, a0: 180, a1: 260, en: "study of materials in the basic workshop", de: "materialstudien in der vorwerkstatt", ru: "изучение материалов в учебной мастерской",
+    { key: "matstudy", ring: 3, line: 2, en: "study of materials in the basic workshop", de: "materiestudien in der vorwerkstatt", ru: "изучение материалов в учебной мастерской",
       sub: "the second half of the preliminary course, and the half this page continues",
       text: [
         "Students handled wood, metal, glass, paper, clay and cloth with simple tools and no product in mind: a sheet of paper folded until it stood up and carried a load, a brass sheet cut and bent into a structure, wood shavings arranged by how they sprang, a study in wire. Albers made this the heart of the course, extended it to as much as eighteen hours a week, and called it a school of invention: the most effect from the least material, energy and time.",
@@ -146,14 +145,15 @@ window.WHEEL = (() => {
   const LIB = window.LIBRARY ? new Map(window.LIBRARY.map(t => [t.id, t])) : new Map();
   const CATS = window.CATS || {};
 
-  // Geometry: a 720-square viewBox, the centre at 360, rings by outer radius. The radii keep
-  // the proportions of the 1922 diagram, where the ring lines sit at 0.42, 0.62 and 0.82 of
-  // the outer radius: three rings of nearly one width around a centre that holds five lines.
-  const C = 360, R = [145, 214, 283, 346];
-  // Letter sizes in the same proportion to their ring as on the original, and the same in
-  // every language: a word that will not fit its arc breaks onto two arcs, as the original's
-  // long ones do, instead of shrinking.
-  const FS = { 1: 34, 2: 19, 3: 26 }, EM = { 1: 0.56, 2: 0.52, 3: 0.56 };
+  // Geometry: a 720-square viewBox, the centre at 360, rings by outer radius, all measured
+  // on the lithograph in the 1922 statutes (Getty Research Institute 850513), whose outer
+  // ring is 349 px across in the scan, near enough one to one: the centre circle is drawn
+  // double at 83.5 and 94.5, the workshops end at 203, the studies at a double line of
+  // 265.5 and 275, the preliminary course at 346. The letters keep the lithograph's
+  // proportion to their ring, the same in every language; a word that will not fit its
+  // room is condensed as the original's long ones are, and only then set smaller.
+  const C = 360, R = [94.5, 203, 265.5, 346], RI = 83.5, RO = 275;
+  const FS = { 1: 46, 2: 24, 3: 40 }, EM = { 1: 0.56, 2: 0.52, 3: 0.56 };
   const rad = a => (a - 90) * Math.PI / 180;
   const pt = (r, a) => [C + r * Math.cos(rad(a)), C + r * Math.sin(rad(a))];
   const f = n => n.toFixed(1);
@@ -176,61 +176,84 @@ window.WHEEL = (() => {
   const word = s => s[lang];
 
   function svg() {
-    const out = [];
-    const defs = [];
-    const seg = (s, a0, a1, i) => {
-      const r0 = s.ring ? R[s.ring - 1] : 0, r1 = R[s.ring];
-      const id = `w-${s.key}${i ? "-" + i : ""}`;
-      const d = s.ring ? sector(r0, r1, a0, a1) : `M${C} ${C - r1} A${r1} ${r1} 0 1 1 ${C - 0.01} ${C - r1} Z`;
-      let lines = "";
-      if (s.ring) {
-        const fs = FS[s.ring], rm = (r0 + r1) / 2, mid = (a0 + a1) / 2 % 360, low = mid > 90 && mid < 270;
-        const room = (a1 - a0) / 180 * Math.PI * rm, w = word(s);
-        // Break at the space nearest the middle when one arc is too short for the word.
-        let parts = [w];
-        if (w.length * EM[s.ring] * fs > 0.92 * room && w.includes(" ")) {
-          let best = -1;
-          for (let k = w.indexOf(" "); k >= 0; k = w.indexOf(" ", k + 1)) if (best < 0 || Math.abs(k - w.length / 2) < Math.abs(best - w.length / 2)) best = k;
-          parts = [w.slice(0, best), w.slice(best + 1)];
-        }
-        // On the path the glyphs stand outward above the top half and inward below it, so
-        // the baseline moves by half a cap height to centre them on the ring; two lines sit
-        // either side of the middle, the first one nearer the reader's top.
-        const cap = 0.36 * fs, gap = parts.length > 1 ? 0.58 * fs : 0;
-        parts.forEach((p, n) => {
-          const off = parts.length > 1 ? (n === 0 ? gap : -gap) * (low ? -1 : 1) : 0;
-          const r = rm + off + (low ? cap : -cap);
-          defs.push(`<path id="${id}-t${n}" d="${arc(r, a0, a1)}"/>`);
-          lines += `<text class="arc r${s.ring}"><textPath href="#${id}-t${n}" startOffset="50%" text-anchor="middle">${esc(p)}</textPath></text>`;
-        });
+    const out = [], defs = [];
+    let np = 0;
+    // A word on an arc at radius r, centred between two angles. data-fit is the room it may
+    // take; fit() below condenses or shrinks it once the fonts are in.
+    const onArc = (cls, r, a0, a1, text) => {
+      const id = `w-p${np++}`;
+      defs.push(`<path id="${id}" d="${arc(r, a0, a1)}"/>`);
+      const room = f(Math.abs(a1 - a0) / 180 * Math.PI * r * 0.92);
+      return `<text class="${cls}" data-fit="${room}"><textPath href="#${id}" startOffset="50%" text-anchor="middle">${esc(text)}</textPath></text>`;
+    };
+    // The word of a segment: one line, or two when one arc is short for it, as the original
+    // breaks its long ones; the first line is the one nearer the reader's top. On the path
+    // the glyphs stand outward above the top half and inward below it, so the baseline
+    // moves by half a cap height to centre them on the ring.
+    const lines = (s, a0, a1, r0, r1) => {
+      const fs = FS[s.ring], rm = (r0 + r1) / 2, mid = (a0 + a1) / 2 % 360, low = mid > 90 && mid < 270;
+      const room = (a1 - a0) / 180 * Math.PI * rm, w = word(s);
+      // At the sides the original letters the workshop names straight along the tangent,
+      // not on the curve; straight text can also be condensed, which text on a path cannot.
+      if (s.ring === 1 && (Math.abs(mid - 90) < 45 || Math.abs(mid - 270) < 45)) {
+        const [x, y] = pt(rm, mid), rot = low ? mid - 180 : mid;
+        return `<text class="arc r1" data-fit="${f(room * 0.92)}" x="${f(x)}" y="${f(y)}" text-anchor="middle" dominant-baseline="central" transform="rotate(${f(rot)} ${f(x)} ${f(y)})">${esc(w)}</text>`;
       }
-      return `<g class="seg" data-key="${s.key}" tabindex="0" role="button" aria-label="${esc(word(s))}: ${esc(s.sub)}">
-        <path class="area" d="${d}"/>${lines}
+      let parts = [w];
+      if (w.length * EM[s.ring] * fs > 0.92 * room && w.includes(" ")) {
+        let best = -1;
+        for (let k = w.indexOf(" "); k >= 0; k = w.indexOf(" ", k + 1)) if (best < 0 || Math.abs(k - w.length / 2) < Math.abs(best - w.length / 2)) best = k;
+        parts = [w.slice(0, best), w.slice(best + 1)];
+      }
+      // The first line is the one nearer the tops of the letters: outside above the top
+      // half, inside below it, where the words are turned over, as the original has them.
+      const cap = 0.36 * fs, gap = parts.length > 1 ? 0.58 * fs : 0, innerFirst = low;
+      return parts.map((p, n) => {
+        const off = parts.length > 1 ? (n === 0 ? gap : -gap) * (innerFirst ? -1 : 1) : 0;
+        return onArc(`arc r${s.ring}`, rm + off + (low ? cap : -cap), a0, a1, p);
+      }).join("");
+    };
+    const label = s => `${esc(word(s))}: ${esc(s.sub)}`;
+    const seg = s => {
+      const r0 = R[s.ring - 1], r1 = R[s.ring];
+      return `<g class="seg" data-key="${s.key}" tabindex="0" role="button" aria-label="${label(s)}">
+        <path class="area" d="${sector(r0, r1, s.a0, s.a1)}"/>${lines(s, s.a0, s.a1, r0, r1)}
       </g>`;
     };
-    for (const s of SEG) {
-      if (s.ring === 0) continue;
-      out.push(seg(s, s.a0, s.a1, 0));
-      if (s.twin) out.push(seg(s, s.twin.a0, s.twin.a1, 1));
+    for (const s of SEG) if (s.ring === 1 || s.ring === 2) out.push(seg(s));
+    // The outer ring is one band with no line across it, as on the original: the name of the
+    // preliminary course twice in the upper half, and in the lower half the two lines that
+    // name what it held, each a segment of its own to the pointer and the keyboard.
+    const vk = SEG.find(s => s.key === "vorkurs"), rm3 = (RO + R[3]) / 2, cap3 = 0.36 * FS[3];
+    const circ = (r, sw) => `M${C} ${C - r} A${r} ${r} 0 1 ${sw} ${C} ${C + r} A${r} ${r} 0 1 ${sw} ${C} ${C - r} Z`;
+    const ring3 = circ(R[3], 1) + " " + circ(R[2], 0);
+    out.push(`<g class="seg" data-key="vorkurs" tabindex="0" role="button" aria-label="${label(vk)}">
+        <path class="area" fill-rule="evenodd" d="${ring3}"/>${onArc("arc r3", rm3 - cap3, 12, 72, word(vk))}${onArc("arc r3", rm3 - cap3, 288, 348, word(vk))}
+      </g>`);
+    for (const s of SEG) if (s.line) {
+      const rc = RO + (R[3] - RO) * (s.line === 1 ? 0.33 : 0.70), capL = 0.36 * 28, span = s.line === 1 ? 60 : 70;
+      out.push(`<g class="seg" data-key="${s.key}" tabindex="0" role="button" aria-label="${label(s)}">${onArc("arc line hit", rc + capL, 180 - span, 180 + span, word(s))}</g>`);
     }
-    // The centre: a disc with the four lines of the diagram.
+    // The centre: the word and the five lines of the original, each fitted to its chord.
     const bau = SEG[0];
-    const centre = `<g class="seg centre" data-key="bau" tabindex="0" role="button" aria-label="${esc(word(bau))}: ${esc(bau.sub)}">
+    const chord = y => f(2 * Math.sqrt(RI * RI - y * y) - 8);
+    const LINES = { de: ["bauplatz", "versuchsplatz", "entwurf", "bau u. ingenieur-", "wissen"],
+      ru: ["площадка", "испытания", "проект", "строительная и", "инженерная наука"] }[lang]
+      || ["site", "testing", "design", "building and", "engineering science"];
+    const centre = `<g class="seg centre" data-key="bau" tabindex="0" role="button" aria-label="${label(bau)}">
       <circle class="area" cx="${C}" cy="${C}" r="${R[0]}"/>
-      <text class="big" x="${C}" y="${C - 46}" text-anchor="middle">${esc(word(bau))}</text>
-      ${({ de: ["bauplatz", "versuchsplatz", "entwurf", "bau- und ingenieur-", "wissen"],
-          ru: ["площадка", "испытания", "проект", "строительная и", "инженерная наука"] }[lang]
-        || ["site", "testing", "design", "building and", "engineering science"])
-        .map((t, n) => `<text class="small" x="${C}" y="${C - 20 + n * 23}" text-anchor="middle">${esc(t)}</text>`).join("")}
+      <text class="big" x="${C}" y="${C - 34}" text-anchor="middle" data-fit="${chord(-62)}">${esc(word(bau))}</text>
+      ${LINES.map((t, n) => { const y = -12 + n * 17; return `<text class="small" x="${C}" y="${C + y}" text-anchor="middle" data-fit="${chord(y > 0 ? y : y - 10.5)}">${esc(t)}</text>`; }).join("")}
     </g>`;
-    // The two marks at the top: half a year on the outer ring, three years on the studies.
+    // The line down from the top, as on the original, with the two durations written along
+    // it: half a year across the outer ring, three years across the two inside it.
+    const M = { de: ["½ jahr", "3 jahre"], ru: ["½ года", "3 года"] }[lang] || ["½ year", "3 years"];
     const marks = `<g class="marks">
-      <line x1="${C}" y1="${C - R[3] - 10}" x2="${C}" y2="${C - R[2]}"/>
-      <text x="${C + 7}" y="${C - R[3] + 18}">${{ de: "½ jahr", ru: "½ года" }[lang] || "½ year"}</text>
-      <line x1="${C}" y1="${C - R[2]}" x2="${C}" y2="${C - R[1]}"/>
-      <text x="${C + 7}" y="${C - R[2] + 18}">${{ de: "3 jahre", ru: "3 года" }[lang] || "3 years"}</text>
+      <line x1="${C}" y1="${C - R[3]}" x2="${C}" y2="${C - R[0]}"/>
+      <text transform="translate(${C + 4} ${C - R[3] + 7}) rotate(90)">${esc(M[0])}</text>
+      <text transform="translate(${C + 4} ${C - R[2] + 7}) rotate(90)">${esc(M[1])}</text>
     </g>`;
-    const rings = R.map(r => `<circle class="ring" cx="${C}" cy="${C}" r="${r}"/>`).join("");
+    const rings = [RI, ...R, RO].map(r => `<circle class="ring" cx="${C}" cy="${C}" r="${r}"/>`).join("");
     // Under the rings, the same three stages to scale in years: the half-year of the basic
     // course, the three years at the bench to the journeyman, and building, which the 1922
     // statutes left without a term and which became a nine-semester course in 1929. The
@@ -254,6 +277,32 @@ window.WHEEL = (() => {
     const time = `<g class="time">${bars}${labs}${ticks}<text class="tk unit" x="${T1}" y="${TY + TH + 32}" text-anchor="end">${esc(unit)}</text></g>`;
     return `<svg class="wheel" viewBox="0 0 720 800" role="group" aria-label="the Bauhaus curriculum as a wheel of rings, with the three stages to scale in years beneath">
       <defs>${defs.join("")}</defs>${out.join("")}${centre}${rings}${marks}${time}</svg>`;
+  }
+
+  // Once the fonts are in, every word measures itself against its room. A straight word up
+  // to a quarter too long is condensed, as the original's long ones are lettered, and a
+  // longer one is set smaller until a quarter is enough; a word on a curve is set smaller.
+  // Nothing is done where the DOM cannot measure.
+  function fit(root) {
+    const svgEl = root.querySelector("svg");
+    if (!svgEl || typeof svgEl.createSVGPoint !== "function") return;
+    // A word on a path does not measure reliably, so each is measured as plain text in a
+    // scratch element with the same class, then the path copy is told its length.
+    const probe = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    probe.setAttribute("x", "-9999"); probe.setAttribute("y", "-9999"); svgEl.appendChild(probe);
+    for (const t of root.querySelectorAll("text[data-fit]")) {
+      const tp = t.querySelector("textPath"), el = t;
+      el.removeAttribute("textLength"); el.removeAttribute("lengthAdjust"); t.style.fontSize = "";
+      probe.setAttribute("class", t.getAttribute("class")); probe.textContent = (tp || t).textContent;
+      const max = +t.dataset.fit, w = probe.getComputedTextLength();
+      if (!(w > max)) continue;
+      const ratio = max / w, fs = parseFloat(getComputedStyle(probe).fontSize);
+      // Chrome will not condense text on a path, so a word on a curve is only set smaller.
+      if (tp) { t.style.fontSize = (fs * ratio).toFixed(1) + "px"; continue; }
+      if (ratio < 0.75) t.style.fontSize = (fs * ratio / 0.75).toFixed(1) + "px";
+      el.setAttribute("textLength", max.toFixed(1)); el.setAttribute("lengthAdjust", "spacingAndGlyphs");
+    }
+    probe.remove();
   }
 
   // The facts of each segment, as label and value: what it was, how long, when, who, how many.
@@ -400,7 +449,10 @@ window.WHEEL = (() => {
   // under the facts, as the page does.
   function mount(root, panel, toggle, full) {
     let kept = null;
-    const draw = () => { root.innerHTML = svg(); light(); };
+    const draw = () => {
+      root.innerHTML = svg(); light(); fit(root);
+      if (typeof document !== "undefined" && document.fonts && document.fonts.ready) document.fonts.ready.then(() => fit(root));
+    };
     const light = () => {
       for (const g of root.querySelectorAll(".seg")) g.classList.toggle("on", !!kept && g.dataset.key === kept);
     };
