@@ -10082,19 +10082,43 @@ window.CREDITS = {
   },
   "surgmesh": {
     "file": "surgmesh.jpg",
-    "caption": "Polypropylene hernia mesh, knitted open",
+    "caption": "A hernia mesh of titanised polypropylene monofilament: 16 grams a square metre, pores a millimetre across, 10 by 15 cm",
     "kind": "photo",
-    "title": "Hernia mesh 2.JPG",
-    "artist": "Doctoroftcm",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hernia_mesh_2.JPG",
+    "title": "2023-01-26-Herniennetz-3683.jpg",
+    "site": "Wikimedia",
+    "artist": "Superbass",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2023-01-26-Herniennetz-3683.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 640
+  },
+  "surgmesh2": {
+    "file": "surgmesh2.jpg",
+    "caption": "A two-part groin mesh with a scale: the flat sheet and the plug, both knitted polypropylene",
+    "kind": "product",
+    "title": "Two component mesh for Rutkow repair.JPG",
+    "site": "Wikimedia",
+    "artist": "Anpol42",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Two_component_mesh_for_Rutkow_repair.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "surgmesh3": {
+    "file": "surgmesh3.jpg",
+    "caption": "A light mesh with its door cut for the cord, and the pleated plug beside it",
+    "kind": "product",
+    "title": "Light Mesh for Groin hernia repair.JPG",
+    "site": "Wikimedia",
+    "artist": "Anpol42",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Light_Mesh_for_Groin_hernia_repair.JPG",
+    "w": 960,
+    "h": 640
   },
   "pinatex": {
     "file": "pinatex.jpg",
-    "caption": "Piñatex in white — pineapple-leaf fibre, needled into a web and coated",
+    "caption": "Piñatex in white: pineapple-leaf fibre needled into a web and coated",
     "kind": "photo",
     "title": "Piñatex fabric in white.jpg",
     "artist": "Piñatex",
@@ -10104,9 +10128,33 @@ window.CREDITS = {
     "h": 960,
     "site": "Wikimedia"
   },
+  "pinatex2": {
+    "file": "pinatex2.jpg",
+    "caption": "The leaf fibre hung to dry on the farm after decorticating and washing, before it is sold on",
+    "kind": "process",
+    "title": "After the fibre from the pineapple leaves is decorticated and washed the farmers hang it up to dry.jpg",
+    "site": "Wikimedia",
+    "artist": "Piñatex",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:After_the_fibre_from_the_pineapple_leaves_is_decorticated_and_washed_the_farmers_hang_it_up_to_dry.jpg",
+    "w": 960,
+    "h": 947
+  },
+  "pinatex3": {
+    "file": "pinatex3.jpg",
+    "caption": "A pineapple field in Bukidnon: every plant leaves a crown of long leaves behind when the fruit is cut",
+    "kind": "related",
+    "title": "Del Monte Pineapple field at Camp Philips, Bukidnon, Philippines 01.jpg",
+    "site": "Wikimedia",
+    "artist": "Obsidian Soul",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Del_Monte_Pineapple_field_at_Camp_Philips,_Bukidnon,_Philippines_01.jpg",
+    "w": 960,
+    "h": 540
+  },
   "waffle": {
     "file": "waffle.jpg",
-    "caption": "A close-up of waffle weave — floats stepping down into cells",
+    "caption": "A close-up of waffle weave: floats stepping down into cells",
     "kind": "photo",
     "title": "An example of waffle fabric.jpeg",
     "artist": "Alexandra.birenbaum",
@@ -10116,9 +10164,21 @@ window.CREDITS = {
     "h": 639,
     "site": "Wikimedia"
   },
+  "waffle2": {
+    "file": "waffle2.jpg",
+    "caption": "The same cells knitted instead of woven: thermal underwear cloth",
+    "kind": "analog",
+    "title": "Knitted Waffle fabric.jpg",
+    "site": "Wikimedia",
+    "artist": "RAJIVVASUDEV",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Knitted_Waffle_fabric.jpg",
+    "w": 960,
+    "h": 1280
+  },
   "twill": {
     "file": "twill.jpg",
-    "caption": "Broken twill denim, face and back — the diagonal reverses across the warp",
+    "caption": "Broken twill denim from a pair of Wrangler 13MWZ, face and back: the diagonal reverses across the warp",
     "kind": "photo",
     "title": "Broken twill denim Wrangler 13MWZ jeans (2026-01-21).jpg",
     "artist": "Olgierd Rudak",
@@ -10127,6 +10187,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "twill2": {
+    "file": "twill2.jpg",
+    "caption": "Plain twill in a wool blanket: the diagonal unbroken, every float stepping the same way",
+    "kind": "photo",
+    "title": "Twill weave.JPG",
+    "site": "Wikimedia",
+    "artist": "Sfuarch480",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Twill_weave.JPG",
+    "w": 960,
+    "h": 608
+  },
+  "twill3": {
+    "file": "twill3.jpg",
+    "caption": "Herringbone twill on a 1941 US Army jacket: the diagonal reversed in visible bands",
+    "kind": "product",
+    "title": "Herringbone Twill .jpg",
+    "site": "Wikimedia",
+    "artist": "Django Retroman",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Herringbone_Twill_.jpg",
+    "w": 960,
+    "h": 1280
   },
   "bellbronze": {
     "file": "bellbronze.jpg",
@@ -10766,7 +10850,7 @@ window.CREDITS = {
   },
   "tweed": {
     "file": "tweed.jpg",
-    "caption": "Harris Tweed cloth under a macro lens",
+    "caption": "Harris Tweed cloth under a macro lens: the colours blended inside the yarn",
     "kind": "photo",
     "title": "https://c.pxhere.com/photos/82/fa/fabric_detail_harris_tweed_coarse_plant_dyes_natural_colours-750549.jpg!d",
     "site": "pxhere",
@@ -10775,6 +10859,30 @@ window.CREDITS = {
     "page": "https://pxhere.com/en/photo/750549",
     "w": 960,
     "h": 838
+  },
+  "tweed2": {
+    "file": "tweed2.jpg",
+    "caption": "A weaver's loom in its shed on the islands, 2004: the web grows at home, by treadle, as the Act requires",
+    "kind": "process",
+    "title": "Harris tweed loom.jpg",
+    "site": "Wikimedia",
+    "artist": "Wojsyl",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Harris_tweed_loom.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "tweed3": {
+    "file": "tweed3.jpg",
+    "caption": "Donegal tweed, the Irish cousin: the flecks are slubs of coloured yarn, not blended dye",
+    "kind": "analog",
+    "title": "Donegal Tweed.JPG",
+    "site": "Wikimedia",
+    "artist": "Toxophilus",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Donegal_Tweed.JPG",
+    "w": 960,
+    "h": 640
   },
   "satin": {
     "file": "satin.jpg",

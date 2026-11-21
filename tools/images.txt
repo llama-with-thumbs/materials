@@ -843,10 +843,17 @@ seersucker3|commons|Seersucker Day 2024.jpg|Members of Congress on Seersucker Th
 flyknit|Flickr|https://live.staticflickr.com/8097/8483993132_4714f8e173_b.jpg|A Flyknit shoe: the upper is a single knitted piece|product|CC BY 2.0|Yanki01|https://www.flickr.com/photos/29621165@N03/8483993132
 flyknit2|commons|New shoes (13519423543).jpg|A Free Flyknit close to: open knit over the toes, the fused yarn as dark cables along the sides|product
 flyknit3|commons|Adidas Ultra Boost 4 running shoes.jpeg|Adidas Primeknit on an Ultraboost: the rival knit, out the same year, and the lawsuit that followed|product
-surgmesh|commons|Hernia mesh 2.JPG|Polypropylene hernia mesh, knitted open|photo
-pinatex|commons|Piñatex fabric in white.jpg|Piñatex in white — pineapple-leaf fibre, needled into a web and coated|photo
-waffle|commons|An example of waffle fabric.jpeg|A close-up of waffle weave — floats stepping down into cells|photo
-twill|commons|Broken twill denim Wrangler 13MWZ jeans (2026-01-21).jpg|Broken twill denim, face and back — the diagonal reverses across the warp|photo
+surgmesh|commons|2023-01-26-Herniennetz-3683.jpg|A hernia mesh of titanised polypropylene monofilament: 16 grams a square metre, pores a millimetre across, 10 by 15 cm|photo
+surgmesh2|commons|Two component mesh for Rutkow repair.JPG|A two-part groin mesh: the flat sheet with its door cut for the cord, and the pleated plug beside it|product
+surgmesh3|commons|Light Mesh for Groin hernia repair.JPG|A light mesh laid against a scale: 15 centimetres of knitted polypropylene, and very little of it|product
+pinatex|commons|Piñatex fabric in white.jpg|Piñatex in white: pineapple-leaf fibre needled into a web and coated|photo
+pinatex2|commons|After the fibre from the pineapple leaves is decorticated and washed the farmers hang it up to dry.jpg|The leaf fibre hung to dry on the farm after decorticating and washing, before it is sold on|process
+pinatex3|commons|Del Monte Pineapple field at Camp Philips, Bukidnon, Philippines 01.jpg|A pineapple field in Bukidnon: every plant leaves a crown of long leaves behind when the fruit is cut|related
+waffle|commons|An example of waffle fabric.jpeg|A close-up of waffle weave: floats stepping down into cells|photo
+waffle2|commons|Knitted Waffle fabric.jpg|The same cells knitted instead of woven: thermal underwear cloth|analog
+twill|commons|Broken twill denim Wrangler 13MWZ jeans (2026-01-21).jpg|Broken twill denim from a pair of Wrangler 13MWZ, face and back: the diagonal reverses across the warp|photo
+twill2|commons|Twill weave.JPG|Plain twill in a wool blanket: the diagonal unbroken, every float stepping the same way|photo
+twill3|commons|Herringbone Twill .jpg|Herringbone twill on a 1941 US Army jacket: the diagonal reversed in visible bands|product
 bellbronze|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1962.44/1962.44_web.jpg|A Chinese bo zhong bell, cast in high-tin bronze|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1962.44
 singingbowl|commons|Tibetan bowl 14 cm.jpg|A Himalayan standing bowl, 14 cm across|photo
 pipemetal|commons|Organ pipes.jpg|Open bass pipes in an organ, cast from tin and lead|product
@@ -900,7 +907,9 @@ toquilla3|commons|Panama hats montecristi.jpg|Hats at every stage in Montecristi
 worsted|commons|Worsted wool yarn.JPG|Worsted wool yarn, the plied structure visible|photo
 worsted2|commons|CSIRO ScienceImage 1734 Wool That has Been Combed.jpg|Wool top: the fleece after the comb, every fibre lying the same way and the short ones gone|process
 worsted3|commons|Bradford Industrial Museum Noble Comb (1891) 4991.jpg|A Noble comb of 1891 at Bradford: the ring of pins that made worsted a factory product|process
-tweed|pxhere|https://c.pxhere.com/photos/82/fa/fabric_detail_harris_tweed_coarse_plant_dyes_natural_colours-750549.jpg!d|Harris Tweed cloth under a macro lens|photo|CC0|pxhere|https://pxhere.com/en/photo/750549
+tweed|pxhere|https://c.pxhere.com/photos/82/fa/fabric_detail_harris_tweed_coarse_plant_dyes_natural_colours-750549.jpg!d|Harris Tweed cloth under a macro lens: the colours blended inside the yarn|photo|CC0|pxhere|https://pxhere.com/en/photo/750549
+tweed2|commons|Harris tweed loom.jpg|A weaver's loom in its shed on the islands, 2004: the web grows at home, by treadle, as the Act requires|process
+tweed3|commons|Donegal Tweed.JPG|Donegal tweed, the Irish cousin: the flecks are slubs of coloured yarn, not blended dye|analog
 satin|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1948.69/1948.69_web.jpg|A Chinese rank badge embroidered on a silk satin ground|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1948.69
 carbonfab|commons|Woven carbon fiber fabric.jpg|Woven carbon fibre fabric, tow crossing tow|photo
 fibc|commons|Flexible intermediate bulk containers-Fertilizer.jpg|Woven polypropylene big bags holding 600 kg of fertiliser each|product
