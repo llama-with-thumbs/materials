@@ -576,10 +576,20 @@ magnetocaloric|Flickr|https://live.staticflickr.com/65535/54041141131_993af738ca
 magnetocaloric2|commons|Gadolinium-2.jpg|Twelve grams of pure gadolinium cast in acrylic: the reference refrigerant, Curie point at room temperature|photo
 magnetocaloric3|commons|Refrigeration (5888007815).jpg|Gas compression above, magnetic cycle below, NIST: the same four steps with a field instead of a piston|structure
 zeolite|Flickr|https://live.staticflickr.com/176/393784940_f8ce143280_b.jpg|Zeolite crystals|photo|CC BY-SA 2.0|cobalt123|https://www.flickr.com/photos/cobalt/393784940
-mof|commons|Activated Carbon.jpg|Activated carbon, powder and block — the adsorbent a MOF is built to out-perform, surface area for surface area|analog
+zeolite2|commons|Molecular sieve 4A crop.jpg|Synthetic zeolite 4A as sieve beads: the pores take water, nothing larger|product
+zeolite3|commons|Framework structure of the FAU-type zeolite.png|The faujasite framework, the X and Y zeolites of oil cracking: cages joined by windows of one exact size|structure
+mof|commons|MOF(1).jpg|MOF powder: the blue is copper, the colour of HKUST-1, one of the few made by the kilogram|photo
+mof2|commons|CSIRO ScienceImage 11684 Scanning electron microscope image of the seed inside the MOF crystals.jpg|MOF crystals under the electron microscope, CSIRO: cubes fifty micrometres across, each mostly pore|photo
+mof3|commons|MOF-5 Crystal Structure.png|The MOF-5 framework: zinc oxide corners, terephthalate struts, and a cavity in the middle of every cell|structure
 metalhydride|commons|Metal Hydride Storage Canisters.jpg|Metal hydride hydrogen storage canisters|product
+metalhydride2|commons|Titanium hydride TiH2.jpg|Titanium hydride powder: a metal that has taken hydrogen into its lattice and cracked to dust doing it|photo
+metalhydride3|commons|Panasonic ENELOOP PRO Ni-MH BATTERIES & BATTERY CHARGER BQ-CC55C.jpg|NiMH cells on charge: the negative electrode of each is a few grams of hydride alloy|product
 pcm|commons|Bicycle chain in paraffin wax just about to solidify.jpg|Paraffin wax at the moment of freezing|photo
+pcm2|commons|Kristali Natrijum- acetata.jpg|Supercooled sodium acetate crystallising in dishes: the hand-warmer chemistry, heat given back at 58 degrees|process
+pcm3|commons|Ice packs, BKK, 2021-09-11 (02).jpg|Gel packs from a box of chocolate: the commonest phase change material is water|related
 vip|commons|Va-Q-vip 2.jpg|A vacuum insulation panel|photo
+vip2|commons|Sio2 130m2 per gram under blue book 1600dpi.jpg|Fumed silica, 130 square metres a gram: the core, pressed into a board before the air is pumped out|related
+vip3|commons|Dewar Flask.jpg|A Dewar flask: the same idea in glass, with a vacuum you can keep because nobody nails anything to it|analog
 getter|commons|6P1P vacuum tube teardown.jpg|A vacuum tube — the silver mirror on the glass is the flashed getter|product
 tritium|commons|Tritium-Glowring - 320s.jpg|A tritium glow ring|product
 slips|commons|Water droplet on a super hydrophobic surface.jpg|A droplet on a water-repellent surface — the same non-wetting idea|related

@@ -6876,17 +6876,65 @@ window.CREDITS = {
     "w": 960,
     "h": 720
   },
+  "zeolite2": {
+    "file": "zeolite2.jpg",
+    "caption": "Synthetic zeolite 4A as sieve beads: the pores take water, nothing larger",
+    "kind": "product",
+    "title": "Molecular sieve 4A crop.jpg",
+    "site": "Wikimedia",
+    "artist": "Nao1958",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Molecular_sieve_4A_crop.jpg",
+    "w": 960,
+    "h": 787
+  },
+  "zeolite3": {
+    "file": "zeolite3.png",
+    "caption": "The faujasite framework, the X and Y zeolites of oil cracking: cages joined by windows of one exact size",
+    "kind": "structure",
+    "title": "Framework structure of the FAU-type zeolite.png",
+    "site": "Wikimedia",
+    "artist": "Nao1958",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Framework_structure_of_the_FAU-type_zeolite.png",
+    "w": 960,
+    "h": 898
+  },
   "mof": {
     "file": "mof.jpg",
-    "caption": "Activated carbon, powder and block — the adsorbent a MOF is built to out-perform, surface area for surface area",
-    "kind": "analog",
-    "title": "Activated Carbon.jpg",
-    "artist": "Ravedave (talk)",
-    "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Activated_Carbon.jpg",
+    "caption": "MOF powder: the blue is copper, the colour of HKUST-1, one of the few made by the kilogram",
+    "kind": "photo",
+    "title": "MOF(1).jpg",
+    "site": "Wikimedia",
+    "artist": "Kargen1104",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MOF(1).jpg",
     "w": 960,
-    "h": 691,
-    "site": "Wikimedia"
+    "h": 640
+  },
+  "mof2": {
+    "file": "mof2.jpg",
+    "caption": "MOF crystals under the electron microscope, CSIRO: cubes fifty micrometres across, each mostly pore",
+    "kind": "photo",
+    "title": "CSIRO ScienceImage 11684 Scanning electron microscope image of the seed inside the MOF crystals.jpg",
+    "site": "Wikimedia",
+    "artist": "Dr Paolo Falcaro and Dr Dario Buso, CSIRO",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11684_Scanning_electron_microscope_image_of_the_seed_inside_the_MOF_crystals.jpg",
+    "w": 960,
+    "h": 651
+  },
+  "mof3": {
+    "file": "mof3.png",
+    "caption": "The MOF-5 framework: zinc oxide corners, terephthalate struts, and a cavity in the middle of every cell",
+    "kind": "structure",
+    "title": "MOF-5 Crystal Structure.png",
+    "site": "Wikimedia",
+    "artist": "Axs154",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MOF-5_Crystal_Structure.png",
+    "w": 960,
+    "h": 890
   },
   "metalhydride": {
     "file": "metalhydride.jpg",
@@ -6900,6 +6948,30 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "metalhydride2": {
+    "file": "metalhydride2.jpg",
+    "caption": "Titanium hydride powder: a metal that has taken hydrogen into its lattice and cracked to dust doing it",
+    "kind": "photo",
+    "title": "Titanium hydride TiH2.jpg",
+    "site": "Wikimedia",
+    "artist": "Sa123",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Titanium_hydride_TiH2.jpg",
+    "w": 960,
+    "h": 999
+  },
+  "metalhydride3": {
+    "file": "metalhydride3.jpg",
+    "caption": "NiMH cells on charge: the negative electrode of each is a few grams of hydride alloy",
+    "kind": "product",
+    "title": "Panasonic ENELOOP PRO Ni-MH BATTERIES & BATTERY CHARGER BQ-CC55C.jpg",
+    "site": "Wikimedia",
+    "artist": "Dinkun Chen",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Panasonic_ENELOOP_PRO_Ni-MH_BATTERIES_%26_BATTERY_CHARGER_BQ-CC55C.jpg",
+    "w": 960,
+    "h": 1596
+  },
   "pcm": {
     "file": "pcm.jpg",
     "caption": "Paraffin wax at the moment of freezing",
@@ -6912,6 +6984,30 @@ window.CREDITS = {
     "h": 1280,
     "site": "Wikimedia"
   },
+  "pcm2": {
+    "file": "pcm2.jpg",
+    "caption": "Supercooled sodium acetate crystallising in dishes: the hand-warmer chemistry, heat given back at 58 degrees",
+    "kind": "process",
+    "title": "Kristali Natrijum- acetata.jpg",
+    "site": "Wikimedia",
+    "artist": "MILOS ALEKSANDRIC",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kristali_Natrijum-_acetata.jpg",
+    "w": 960,
+    "h": 636
+  },
+  "pcm3": {
+    "file": "pcm3.jpg",
+    "caption": "Gel packs from a box of chocolate: the commonest phase change material is water",
+    "kind": "related",
+    "title": "Ice packs, BKK, 2021-09-11 (02).jpg",
+    "site": "Wikimedia",
+    "artist": "21janvier1793",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ice_packs,_BKK,_2021-09-11_(02).jpg",
+    "w": 960,
+    "h": 692
+  },
   "vip": {
     "file": "vip.jpg",
     "caption": "A vacuum insulation panel",
@@ -6923,6 +7019,30 @@ window.CREDITS = {
     "w": 827,
     "h": 827,
     "site": "Wikimedia"
+  },
+  "vip2": {
+    "file": "vip2.jpg",
+    "caption": "Fumed silica, 130 square metres a gram: the core, pressed into a board before the air is pumped out",
+    "kind": "related",
+    "title": "Sio2 130m2 per gram under blue book 1600dpi.jpg",
+    "site": "Wikimedia",
+    "artist": "Achim Hering",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sio2_130m2_per_gram_under_blue_book_1600dpi.jpg",
+    "w": 960,
+    "h": 1082
+  },
+  "vip3": {
+    "file": "vip3.jpg",
+    "caption": "A Dewar flask: the same idea in glass, with a vacuum you can keep because nobody nails anything to it",
+    "kind": "analog",
+    "title": "Dewar Flask.jpg",
+    "site": "Wikimedia",
+    "artist": "Seaborg",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dewar_Flask.jpg",
+    "w": 960,
+    "h": 720
   },
   "getter": {
     "file": "getter.jpg",
