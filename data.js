@@ -3916,42 +3916,47 @@ window.MATERIALS = [
 /* ---------- SEMICONDUCTORS & OPTICS ---------- */
 {
   id: "silicon", cat: "electronic", name: "Monocrystalline silicon",
-  sub: "Czochralski-grown Si boule", img: "silicon",
-  hook: "A single crystal 300 mm across and two metres long, pulled slowly out of a melt from one seed, with roughly one atom in a billion out of place. It is not a good semiconductor — germanium is better — but it grows a perfect insulating oxide on itself, and that decided the century.",
-  stats: [["Purity", "11 nines"], ["Wafer", "300 mm, going to 450"], ["Bandgap", "1.12 eV"]],
-  uses: "Every integrated circuit, most solar cells, MEMS sensors.",
+  sub: "Czochralski-grown Si boule", img: "silicon", extra: ["silicon2", "silicon3"],
+  hook: "A single crystal 300 mm across and two metres long, pulled from a melt on one seed, an atom in a billion wrong. Not the best semiconductor, but it grows a perfect insulating oxide on itself; that decided the age.",
+  more: "Quartz sand is reduced to silicon in an arc furnace, distilled as a gas to parts per trillion and deposited back as polysilicon; that is melted, a seed is dipped in and drawn upward, turning, a few millimetres a minute, and the melt freezes onto it in the seed's own lattice. The boule is ground round, sawn with diamond wire into wafers and polished flatter than any other object its size. Heated in oxygen it grows a glass skin that insulates and seals the surface, which germanium could not do and is why every transistor since the 1960s is silicon. The costs: a fab is the dearest building humans put up; the band gap is indirect, so it will not make light; a dropped wafer is dust; and at 450 mm the boules grew too heavy to pull.",
+  stats: [["Purity", "eleven nines"], ["Wafer", "300 mm; 450 stalled"], ["Band gap", "1.12 eV, indirect"]],
+  uses: "Every integrated circuit, most solar cells, MEMS sensors, wafer-scale optics.",
   link: "https://en.wikipedia.org/wiki/Monocrystalline_silicon"
 },
 {
   id: "gaas", cat: "electronic", name: "Gallium arsenide",
-  sub: "GaAs, direct bandgap III-V", img: "gaas",
-  hook: "Electrons move five times faster through it than through silicon, and unlike silicon it can emit light, because its bandgap is direct. It is brittle, expensive and arsenic-bearing, so it is used only where silicon genuinely cannot go.",
-  stats: [["Electron mobility", "~5× Si"], ["Bandgap", "1.42 eV, direct"], ["Solar record", "~29% single junction"]],
-  uses: "Phone RF front ends, laser diodes, satellite and concentrator solar cells, IR LEDs.",
+  sub: "GaAs, direct bandgap III-V", img: "gaas", extra: ["gaas2", "gaas3"],
+  hook: "Electrons move five times faster through it than through silicon, and unlike silicon it can emit light, since its band gap is direct. Brittle, dear and arsenic-bearing, it goes only where silicon cannot.",
+  more: "Gallium and arsenic in equal parts make a crystal with silicon's structure and a band gap of 1.42 electron volts that an electron can drop straight across, giving off a photon, where in silicon the drop needs a lattice vibration and the energy goes to heat. So it makes the infrared LED in every remote, the laser in every fibre link and the fast transistors in every phone's radio; in layers on germanium it is the solar cell on every satellite. The costs: it has no native oxide worth the name, so it never got cheap logic; the wafers are small, brittle and ten times the price; arsenic is arsenic, so the waste and the dust are poison; it conducts heat a third as well as silicon; and on Earth only a thousand suns of concentration make its solar cells pay.",
+  stats: [["Electron mobility", "about five times silicon"], ["Band gap", "1.42 eV, direct"], ["Solar record", "about 29 percent single junction"]],
+  uses: "Phone radio front ends, laser diodes and infrared LEDs, satellite and concentrator solar cells, microwave circuits.",
   link: "https://en.wikipedia.org/wiki/Gallium_arsenide"
 },
 {
   id: "gan", cat: "electronic", name: "Gallium nitride",
-  sub: "GaN, wide bandgap III-V", img: "gan",
-  hook: "Two Nobel-winning decades went into making it emit blue, which finally gave white LEDs. The same wide bandgap lets it switch hundreds of volts at megahertz with very little loss — which is why a 65 W laptop charger is now the size of a matchbox.",
-  stats: [["Bandgap", "3.4 eV"], ["Breakdown field", "~10× Si"], ["Blue LED", "Nobel Prize 2014"]],
-  uses: "White and blue LEDs, Blu-ray lasers, fast chargers, EV inverters, radar amplifiers.",
+  sub: "GaN, wide bandgap III-V", img: "gan", extra: ["gan2", "gan3"],
+  hook: "Two Nobel-winning decades went into making it emit blue, which gave us white LEDs. The same wide band gap lets it switch hundreds of volts at megahertz with little loss, so a laptop charger is now matchbox-sized.",
+  more: "Nobody could grow it clean or dope it p-type until Akasaki, Amano and Nakamura did both in the late 1980s, and the blue LED that followed, under a yellow phosphor, is the white light in every bulb since. The 3.4 electron volt gap that makes the blue photon also lets the crystal stand ten times the field silicon takes, so a GaN transistor can be small and fast, switching at frequencies where a power supply's transformer shrinks to almost nothing, and quick enough to amplify radar and 5G. The costs: there is no cheap GaN wafer, so it is grown as a film on sapphire or silicon, full of defects; the power devices are young; gallium supply is China's; and it costs several times silicon per watt, so the charger has it and the washing machine does not.",
+  stats: [["Band gap", "3.4 eV"], ["Breakdown field", "about ten times silicon"], ["Blue LED", "Nobel Prize 2014"]],
+  uses: "White and blue LEDs, Blu-ray lasers, fast chargers and power supplies, EV inverters, radar and 5G amplifiers.",
   link: "https://en.wikipedia.org/wiki/Gallium_nitride"
 },
 {
   id: "germanium", cat: "electronic", name: "Germanium",
-  sub: "Ge, the first transistor material", img: "germanium",
-  hook: "The first transistors were germanium, and silicon pushed it out because germanium's oxide is water-soluble. It came back anyway: it is transparent to thermal infrared, so almost every thermal camera lens is a disc of it.",
-  stats: [["Bandgap", "0.67 eV"], ["IR window", "2–14 µm"], ["Oxide", "soluble — its downfall"]],
-  uses: "Thermal imaging optics, SiGe high-speed transistors, fibre-optic dopant, solar cell substrates.",
+  sub: "Ge, the first transistor material", img: "germanium", extra: ["germanium2", "germanium3"],
+  hook: "The first transistors were germanium; silicon pushed it out because germanium's oxide dissolves in water. It came back anyway: it is transparent to thermal infrared, so nearly every thermal camera looks through it.",
+  more: "The transistors of 1947 and the 1950s were germanium, because it could be purified first; but its band gap is small, so a device leaks above seventy degrees, and its oxide washes off, so the surface could never be sealed, and by 1965 silicon had the market. The metal is opaque to the eye and clear from two to fourteen micrometres, so a disc of it is the lens of every thermal imager, and grown ultra-pure and cooled it is the detector for gamma-ray spectroscopy. The costs: it is scarce, a by-product of zinc at a few hundred tonnes a year, and the price follows China's export mood; the lens must be coated or it reflects half the light; it goes opaque when hot; and a germanium transistor in a vintage amp drifts with the room, which guitarists call tone.",
+  stats: [["Band gap", "0.67 eV"], ["Infrared window", "2 to 14 µm"], ["Oxide", "water-soluble, its downfall"]],
+  uses: "Thermal imaging lenses and windows, gamma-ray detectors, SiGe high-speed transistors, fibre-optic core dopant, solar cell substrates.",
   link: "https://en.wikipedia.org/wiki/Germanium"
 },
 {
   id: "hgcdte", cat: "electronic", name: "Mercury cadmium telluride",
-  sub: "HgCdTe, tunable IR detector", img: "hgcdte",
-  hook: "Change the mercury-to-cadmium ratio and the bandgap sweeps continuously, so the detector can be tuned to any infrared band you like. Nothing else offers that, which is why it is in every high-end thermal imager — and why it costs what it costs.",
-  stats: [["Cutoff", "tunable 1–30 µm"], ["Operating temp", "usually 77 K"], ["Alloy", "Hg₁₋ₓCdₓTe"]],
-  uses: "Military and astronomical infrared sensors, JWST detectors, gas spectroscopy.",
+  sub: "HgCdTe, tunable IR detector", img: "hgcdte", extra: ["hgcdte2", "hgcdte3"],
+  hook: "Change the mercury to cadmium ratio and the band gap sweeps from zero to 1.5 electron volts, so a detector can be tuned to any infrared band. Nothing else does that, which is why it is in the best imagers and Webb.",
+  more: "Mercury telluride has no band gap and cadmium telluride a wide one; alloy them and the gap lands wherever the recipe puts it, so one crystal can be grown to see starlight, a hot engine or a warm body. An array of such diodes bonded pixel by pixel to a silicon readout is the focal plane of a thermal sight, a weather satellite or Webb's NIRCam, whose purple sensors are four megapixels of it. The costs: a small band gap means thermal noise, so the array lives at 77 kelvin on a cooler, which is weight, power and a short life; mercury is volatile and poisonous, so the crystal is grown slowly on cadmium zinc telluride substrates that cost more than most finished chips; the composition drifts across a wafer, so yields are poor; and export is controlled.",
+  stats: [["Cutoff", "tunable from 1 to 30 µm"], ["Operating temperature", "usually 77 K"], ["Alloy", "Hg₁₋ₓCdₓTe"]],
+  uses: "Military and astronomical infrared arrays, Webb and Euclid detectors, weather satellites, gas spectroscopy.",
   link: "https://en.wikipedia.org/wiki/Mercury_cadmium_telluride"
 },
 {

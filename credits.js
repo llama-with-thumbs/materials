@@ -8160,6 +8160,30 @@ window.CREDITS = {
     "h": 1280,
     "site": "Wikimedia"
   },
+  "silicon2": {
+    "file": "silicon2.jpg",
+    "caption": "A 300 mm wafer: one slice of the boule, polished, before the chips go on",
+    "kind": "product",
+    "title": "12-inch silicon wafer.jpg",
+    "site": "Wikimedia",
+    "artist": "Peellden",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:12-inch_silicon_wafer.jpg",
+    "w": 960,
+    "h": 960
+  },
+  "silicon3": {
+    "file": "silicon3.jpg",
+    "caption": "Pulling a silicon crystal at Raytheon in 1956, for the first silicon transistors",
+    "kind": "process",
+    "title": "Silicon grown by Czochralski process 1956.jpg",
+    "site": "Wikimedia",
+    "artist": "George E. Meyers",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Silicon_grown_by_Czochralski_process_1956.jpg",
+    "w": 840,
+    "h": 1085
+  },
   "gaas": {
     "file": "gaas.jpg",
     "caption": "A gallium arsenide wafer",
@@ -8172,9 +8196,33 @@ window.CREDITS = {
     "h": 772,
     "site": "Wikimedia"
   },
+  "gaas2": {
+    "file": "gaas2.jpg",
+    "caption": "The Dawn spacecraft's triple-junction GaAs cells under black light before launch",
+    "kind": "product",
+    "title": "Black light test of Dawns solar cells.jpg",
+    "site": "Wikimedia",
+    "artist": "Photo credit: NASA/George Shelton",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_light_test_of_Dawns_solar_cells.jpg",
+    "w": 960,
+    "h": 643
+  },
+  "gaas3": {
+    "file": "gaas3.jpg",
+    "caption": "A Sprague GaAs LED of the early 1970s in its box: the direct band gap put to work",
+    "kind": "product",
+    "title": "Sprague ED-122 Yellow LED - GaAs - Early 1970's.jpg",
+    "site": "Wikimedia",
+    "artist": "WizzleLabs",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sprague_ED-122_Yellow_LED_-_GaAs_-_Early_1970%27s.jpg",
+    "w": 960,
+    "h": 720
+  },
   "gan": {
     "file": "gan.jpg",
-    "caption": "Two 30 W chargers — silicon on the left, GaN on the right",
+    "caption": "Two 30 W chargers: silicon on the left, GaN on the right",
     "kind": "product",
     "title": "Silicon vs GaN 30W USB-C chargers.jpg",
     "artist": "4300streetcar",
@@ -8183,6 +8231,30 @@ window.CREDITS = {
     "w": 960,
     "h": 640,
     "site": "Wikimedia"
+  },
+  "gan2": {
+    "file": "gan2.jpg",
+    "caption": "A 12 W bulb with its diffuser off: 24 blue GaN chips under yellow phosphor",
+    "kind": "product",
+    "title": "Lamp LED uncovered.jpg",
+    "site": "Wikimedia",
+    "artist": "Claudionico~commonswiki",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamp_LED_uncovered.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "gan3": {
+    "file": "gan3.jpg",
+    "caption": "GaN high-electron-mobility transistors in their packages, a cent for scale",
+    "kind": "product",
+    "title": "FBH GaN High electron mobility transistor.jpg",
+    "site": "Wikimedia",
+    "artist": "FBH/P.Immerz",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FBH_GaN_High_electron_mobility_transistor.jpg",
+    "w": 960,
+    "h": 640
   },
   "germanium": {
     "file": "germanium.jpg",
@@ -8196,6 +8268,30 @@ window.CREDITS = {
     "h": 941,
     "site": "Wikimedia"
   },
+  "germanium2": {
+    "file": "germanium2.jpg",
+    "caption": "A replica of the first transistor, 1947: two gold contacts on a slab of germanium, beside a 1950s part",
+    "kind": "related",
+    "title": "A replica of the first working transistor 02.jpg",
+    "site": "Wikimedia",
+    "artist": "Mister rf",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_replica_of_the_first_working_transistor_02.jpg",
+    "w": 960,
+    "h": 1110
+  },
+  "germanium3": {
+    "file": "germanium3.jpg",
+    "caption": "A high-purity germanium crystal from a gamma-ray detector: the purest solid made, and kept at 77 K to work",
+    "kind": "product",
+    "title": "HPGe detector 006.jpg",
+    "site": "Wikimedia",
+    "artist": "Juhele_CZ",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HPGe_detector_006.jpg",
+    "w": 960,
+    "h": 720
+  },
   "hgcdte": {
     "file": "hgcdte.png",
     "caption": "An infrared focal plane detector array",
@@ -8207,6 +8303,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1417,
     "site": "Wikimedia"
+  },
+  "hgcdte2": {
+    "file": "hgcdte2.jpg",
+    "caption": "A Webb NIRCam detector: the purple film is the mercury cadmium telluride, four megapixels of it",
+    "kind": "product",
+    "title": "A JWST NIRCam Detector (24852004939).jpg",
+    "site": "Wikimedia",
+    "artist": "NASA's James Webb Space Telescope from Greenbelt, MD, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_JWST_NIRCam_Detector_(24852004939).jpg",
+    "w": 960,
+    "h": 640
+  },
+  "hgcdte3": {
+    "file": "hgcdte3.jpg",
+    "caption": "Four mid-wave infrared detectors for NEO Surveyor on a clean-room bench",
+    "kind": "product",
+    "title": "The Heart of NEO Surveyor- Its Infrared Detectors (PIA26666).jpg",
+    "site": "Wikimedia",
+    "artist": "NASA Jet Propulsion Laboratory / Space Dynamics Laboratory/Allison Bills",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Heart_of_NEO_Surveyor-_Its_Infrared_Detectors_(PIA26666).jpg",
+    "w": 960,
+    "h": 640
   },
   "perovskitepv": {
     "file": "perovskitepv.jpg",
