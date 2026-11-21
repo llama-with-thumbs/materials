@@ -590,10 +590,18 @@ pcm3|commons|Ice packs, BKK, 2021-09-11 (02).jpg|Gel packs from a box of chocola
 vip|commons|Va-Q-vip 2.jpg|A vacuum insulation panel|photo
 vip2|commons|Sio2 130m2 per gram under blue book 1600dpi.jpg|Fumed silica, 130 square metres a gram: the core, pressed into a board before the air is pumped out|related
 vip3|commons|Dewar Flask.jpg|A Dewar flask: the same idea in glass, with a vacuum you can keep because nobody nails anything to it|analog
-getter|commons|6P1P vacuum tube teardown.jpg|A vacuum tube — the silver mirror on the glass is the flashed getter|product
+getter|commons|6P1P vacuum tube teardown.jpg|A vacuum tube: the silver mirror on the glass is the flashed getter|product
+getter2|commons|Tube-getter hg.jpg|A KT88 broken beside a sound one: air has turned the silver getter mirror white|photo
+getter3|commons|Tubegetter ATG12 80.jpg|A barium getter before flashing: two grams of barium in a steel channel, heated by induction once the tube is sealed|product
 tritium|commons|Tritium-Glowring - 320s.jpg|A tritium glow ring|product
-slips|commons|Water droplet on a super hydrophobic surface.jpg|A droplet on a water-repellent surface — the same non-wetting idea|related
+tritium2|commons|Tritium-exit-sign.jpg|A self-luminous exit sign: tritium tubes behind the letters, no wiring, dated for replacement|product
+tritium3|commons|DC3026A-SC-BK night.jpg|A diving watch by day and by night: 21 tritium tubes on the hands and markers|product
+slips|commons|Water droplet on a super hydrophobic surface.jpg|A droplet on a water-repellent surface: the same non-wetting idea, done with air instead of oil|related
+slips2|commons|Nepenthes truncata dark peristome.jpg|The original: a Nepenthes pitcher, its ridged rim wicking water into a film no insect can grip|related
+slips3|commons|Nepenthes rafflesiana ant.jpg|An ant at the peristome of Nepenthes rafflesiana, Borneo: one step further and it aquaplanes in|related
 tio2photo|commons|Titanium dioxide powder dispersing in water.JPG|Titanium dioxide powder|photo
+tio2photo2|commons|Chiesa di Dio Padre Misericordioso - Roma.jpg|Dio Padre Misericordioso, Rome, 2003: the sails are cast in photocatalytic cement and have stayed white|product
+tio2photo3|commons|Anatase Oisans.jpg|Anatase from the Oisans, the crystal form that does the work, 17 mm across|related
 electret|commons|Electret microphone MKE3.JPG|An electret microphone|product
 nacre|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1971.1065/1971.1065_web.jpg|A lacquer wine ewer inlaid with nacre|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1971.1065
 bamboo|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1988.75/1988.75_web.jpg|A brush holder carved from a single bamboo culm|product|CC0|Wang Meilin (Chinese, active c. 1825)|https://clevelandart.org/art/1988.75
@@ -844,6 +852,8 @@ dea|commons|Soft robot locomotion.jpg|A soft robot built for colonoscopy: the jo
 dea2|commons|Artificial Muscle.png|An arm with electroactive polymer muscles, drawn: the film contracts across and stretches along|structure
 dea3|commons|BionicHandlingAssistant.tif|Festo's Bionic Handling Assistant, a pneumatic trunk: the soft gripper the elastomer actuator is meant to drive without the compressor|related
 strontiumal|commons|Photoluminescent Exit Sign.jpg|A photoluminescent exit sign, charged by room light|product
+strontiumal2|commons|Phosphorescent.jpg|Europium-doped strontium aluminate powder in daylight, under ultraviolet, and in the dark|photo
+strontiumal3|commons|LUMI Resuable and Non Toxic Glow Stick Alternative.jpg|A rechargeable glow bracelet: strontium aluminate in a clear resin, no chemicals to snap|product
 spruce|commons|Violin Top and back plates.jpg|A carved violin top in spruce, beside its maple back|product
 ggg|commons|GAGG-Ce.jpg|A GAGG:Ce scintillator crystal — a garnet grown the same way as GGG|related
 bbo|commons|Beam output from OPA.jpg|The output of an optical parametric amplifier — BBO is the crystal that splits the beam|related

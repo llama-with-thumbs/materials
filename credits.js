@@ -7046,7 +7046,7 @@ window.CREDITS = {
   },
   "getter": {
     "file": "getter.jpg",
-    "caption": "A vacuum tube — the silver mirror on the glass is the flashed getter",
+    "caption": "A vacuum tube: the silver mirror on the glass is the flashed getter",
     "kind": "product",
     "title": "6P1P vacuum tube teardown.jpg",
     "artist": "Mister rf",
@@ -7055,6 +7055,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1200,
     "site": "Wikimedia"
+  },
+  "getter2": {
+    "file": "getter2.jpg",
+    "caption": "A KT88 broken beside a sound one: air has turned the silver getter mirror white",
+    "kind": "photo",
+    "title": "Tube-getter hg.jpg",
+    "site": "Wikimedia",
+    "artist": "Hannes Grobe",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tube-getter_hg.jpg",
+    "w": 960,
+    "h": 393
+  },
+  "getter3": {
+    "file": "getter3.jpg",
+    "caption": "A barium getter before flashing: two grams of barium in a steel channel, heated by induction once the tube is sealed",
+    "kind": "product",
+    "title": "Tubegetter ATG12 80.jpg",
+    "site": "Wikimedia",
+    "artist": "Alvatec Production and Sales GesmbH",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tubegetter_ATG12_80.jpg",
+    "w": 960,
+    "h": 701
   },
   "tritium": {
     "file": "tritium.jpg",
@@ -7068,9 +7092,33 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "tritium2": {
+    "file": "tritium2.jpg",
+    "caption": "A self-luminous exit sign: tritium tubes behind the letters, no wiring, dated for replacement",
+    "kind": "product",
+    "title": "Tritium-exit-sign.jpg",
+    "site": "Wikimedia",
+    "artist": "Gazebo",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tritium-exit-sign.jpg",
+    "w": 960,
+    "h": 661
+  },
+  "tritium3": {
+    "file": "tritium3.jpg",
+    "caption": "A diving watch by day and by night: 21 tritium tubes on the hands and markers",
+    "kind": "product",
+    "title": "DC3026A-SC-BK night.jpg",
+    "site": "Wikimedia",
+    "artist": "BALL Watch Company",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DC3026A-SC-BK_night.jpg",
+    "w": 960,
+    "h": 720
+  },
   "slips": {
     "file": "slips.jpg",
-    "caption": "A droplet on a water-repellent surface — the same non-wetting idea",
+    "caption": "A droplet on a water-repellent surface: the same non-wetting idea, done with air instead of oil",
     "kind": "related",
     "title": "Water droplet on a super hydrophobic surface.jpg",
     "artist": "Eskozxz",
@@ -7079,6 +7127,30 @@ window.CREDITS = {
     "w": 960,
     "h": 540,
     "site": "Wikimedia"
+  },
+  "slips2": {
+    "file": "slips2.jpg",
+    "caption": "The original: a Nepenthes pitcher, its ridged rim wicking water into a film no insect can grip",
+    "kind": "related",
+    "title": "Nepenthes truncata dark peristome.jpg",
+    "site": "Wikimedia",
+    "artist": "Thomas Gronemeyer",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nepenthes_truncata_dark_peristome.jpg",
+    "w": 960,
+    "h": 1434
+  },
+  "slips3": {
+    "file": "slips3.jpg",
+    "caption": "An ant at the peristome of Nepenthes rafflesiana, Borneo: one step further and it aquaplanes in",
+    "kind": "related",
+    "title": "Nepenthes rafflesiana ant.jpg",
+    "site": "Wikimedia",
+    "artist": "en:User:NepGrower",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Nepenthes_rafflesiana_ant.jpg",
+    "w": 960,
+    "h": 1280
   },
   "tio2photo": {
     "file": "tio2photo.jpg",
@@ -7091,6 +7163,30 @@ window.CREDITS = {
     "w": 960,
     "h": 638,
     "site": "Wikimedia"
+  },
+  "tio2photo2": {
+    "file": "tio2photo2.jpg",
+    "caption": "Dio Padre Misericordioso, Rome, 2003: the sails are cast in photocatalytic cement and have stayed white",
+    "kind": "product",
+    "title": "Chiesa di Dio Padre Misericordioso - Roma.jpg",
+    "site": "Wikimedia",
+    "artist": "manuel pagani - Mm4mm",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chiesa_di_Dio_Padre_Misericordioso_-_Roma.jpg",
+    "w": 960,
+    "h": 638
+  },
+  "tio2photo3": {
+    "file": "tio2photo3.jpg",
+    "caption": "Anatase from the Oisans, the crystal form that does the work, 17 mm across",
+    "kind": "related",
+    "title": "Anatase Oisans.jpg",
+    "site": "Wikimedia",
+    "artist": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Anatase_Oisans.jpg",
+    "w": 960,
+    "h": 890
   },
   "electret": {
     "file": "electret.jpg",
@@ -10091,6 +10187,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "strontiumal2": {
+    "file": "strontiumal2.jpg",
+    "caption": "Europium-doped strontium aluminate powder in daylight, under ultraviolet, and in the dark",
+    "kind": "photo",
+    "title": "Phosphorescent.jpg",
+    "site": "Wikimedia",
+    "artist": "Splarka at English Wikipedia",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Phosphorescent.jpg",
+    "w": 960,
+    "h": 422
+  },
+  "strontiumal3": {
+    "file": "strontiumal3.jpg",
+    "caption": "A rechargeable glow bracelet: strontium aluminate in a clear resin, no chemicals to snap",
+    "kind": "product",
+    "title": "LUMI Resuable and Non Toxic Glow Stick Alternative.jpg",
+    "site": "Wikimedia",
+    "artist": "Pagexrage",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LUMI_Resuable_and_Non_Toxic_Glow_Stick_Alternative.jpg",
+    "w": 960,
+    "h": 960
   },
   "spruce": {
     "file": "spruce.jpg",
