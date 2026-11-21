@@ -640,11 +640,21 @@ amber3|commons|Tumble-polished Baltic amber 1.jpg|Tumble-polished and drilled Ba
 shellac|commons|Shellac flakes closeup.JPG|Shellac flakes|photo
 shellac2|commons|Kerria-lacca.jpg|Lac on the branch: the crust the insects secrete, before it is scraped, washed and melted into flakes|process
 shellac3|commons|Record player and shellac record of the Soviet Union-Lemeshev.jpg|A shellac 78 on a Soviet record player: shellac and slate dust pressed into a disc|product
-guttapercha|commons|Caoutchouc Gutta-percha Droguier ISPB Lyon UCBL 1.jpg|Gutta-percha in a pharmacy specimen collection|photo
-diatomite|commons|Diatomaceous Earth BrightField.jpg|Diatomaceous earth under the microscope — fossil diatom skeletons|photo
+guttapercha|commons|Piece of first transatlantic telegraph cable at the Rupriikki Media Museum.jpg|A section of the first transatlantic telegraph cable: copper strands in a core of gutta-percha, armoured in iron|product
+guttapercha2|commons|Stifte Guttapercha DDR.jpg|Gutta-percha points for root canals, East German: the last trade left to it|product
+guttapercha3|commons|Sarawak; four Kayan natives collecting gutta percha from a t Wellcome V0037406.jpg|Collecting gutta-percha in Sarawak: the tree was felled and ringed to bleed it, which is why the forests went|process
+diatomite|commons|Diatomaceous Earth BrightField.jpg|Diatomaceous earth under the microscope: fossil diatom skeletons|photo
+diatomite2|commons|Coscinodiscus oculus-iridis (Ehrenberg) Ehrenberg 1840 diatom shell. Colored SEM image.jpg|One diatom shell under the electron microscope, coloured: a sieve in opal, pores inside pores|structure
+diatomite3|commons|Diatomaceous Earth.jpg|Food-grade diatomaceous earth: the powder the skeletons become|photo
 chitin|Flickr|https://live.staticflickr.com/7029/6555236543_8136048e40_b.jpg|A moulted crab exoskeleton|photo|CC BY 2.0|USFWS Pacific Southwest Region|https://www.flickr.com/photos/usfws_pacificsw/6555236543
+chitin2|commons|Cicada exuviae on tree bark, Parque Florestal de Monsanto, Lisbon, Portugal julesvernex2.jpg|A cicada's shed skin on bark, Lisbon: a whole cuticle of chitin, left behind|photo
+chitin3|commons|Bouligand.png|A wooden model of the Bouligand stacking: each sheet of chitin fibres turned a few degrees from the last, the twisted plywood of a shell|structure
 byssus|commons|Mussel & Byssal Threads.jpg|Mussel byssus threads|photo
-toothenamel|commons|What is Inside Human Tooth (Macro-Anatomy).jpg|A sectioned tooth — enamel is the outer shell|photo
+byssus2|commons|Mytilus with byssus.jpg|A mussel on a rock at Ocean Beach, San Francisco, its threads laid out in every direction|photo
+byssus3|commons|Handschuh aus Byssusseide Überseemuseum Bremen 2009 IMG 1471.JPG|A glove knitted from sea silk, the spun byssus of the Pinna, Übersee-Museum Bremen|product
+toothenamel|commons|What is Inside Human Tooth (Macro-Anatomy).jpg|A sectioned tooth: enamel is the outer shell|photo
+toothenamel2|commons|Hunter-Schreger Bands.jpg|Enamel under the microscope: the rods change direction in bands, so a crack cannot run straight through|structure
+toothenamel3|commons|Dental Caries Cavity 2.JPG|A cavity in a ten-year-old's tooth: enamel dissolved by acid, and nothing grows back|photo
 pumice|commons|Pumice stones.JPG|Pumice|photo
 mica|Flickr|https://live.staticflickr.com/555/31738996790_c22e49b401_b.jpg|Muscovite mica|photo|CC BY 2.0|James St. John|https://www.flickr.com/photos/47445767@N05/31738996790
 asbestos|GeoDIL|https://geodil.dperkins.org/i/2527.jpg|Chrysotile asbestos|photo|CC0|Dexter Perkins, GeoDIL|https://geodil.dperkins.org/h/2527.html

@@ -7646,19 +7646,43 @@ window.CREDITS = {
   },
   "guttapercha": {
     "file": "guttapercha.jpg",
-    "caption": "Gutta-percha in a pharmacy specimen collection",
-    "kind": "photo",
-    "title": "Caoutchouc Gutta-percha Droguier ISPB Lyon UCBL 1.jpg",
-    "artist": "Delphine Montagne",
+    "caption": "A section of the first transatlantic telegraph cable: copper strands in a core of gutta-percha, armoured in iron",
+    "kind": "product",
+    "title": "Piece of first transatlantic telegraph cable at the Rupriikki Media Museum.jpg",
+    "site": "Wikimedia",
+    "artist": "Trogain",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Caoutchouc_Gutta-percha_Droguier_ISPB_Lyon_UCBL_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Piece_of_first_transatlantic_telegraph_cable_at_the_Rupriikki_Media_Museum.jpg",
     "w": 960,
-    "h": 1280,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "guttapercha2": {
+    "file": "guttapercha2.jpg",
+    "caption": "Gutta-percha points for root canals, East German: the last trade left to it",
+    "kind": "product",
+    "title": "Stifte Guttapercha DDR.jpg",
+    "site": "Wikimedia",
+    "artist": "Guttstiftchen",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stifte_Guttapercha_DDR.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "guttapercha3": {
+    "file": "guttapercha3.jpg",
+    "caption": "Collecting gutta-percha in Sarawak: the tree was felled and ringed to bleed it, which is why the forests went",
+    "kind": "process",
+    "title": "Sarawak; four Kayan natives collecting gutta percha from a t Wellcome V0037406.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sarawak;_four_Kayan_natives_collecting_gutta_percha_from_a_t_Wellcome_V0037406.jpg",
+    "w": 960,
+    "h": 660
   },
   "diatomite": {
     "file": "diatomite.jpg",
-    "caption": "Diatomaceous earth under the microscope — fossil diatom skeletons",
+    "caption": "Diatomaceous earth under the microscope: fossil diatom skeletons",
     "kind": "photo",
     "title": "Diatomaceous Earth BrightField.jpg",
     "artist": "Zephyris",
@@ -7667,6 +7691,30 @@ window.CREDITS = {
     "w": 960,
     "h": 582,
     "site": "Wikimedia"
+  },
+  "diatomite2": {
+    "file": "diatomite2.jpg",
+    "caption": "One diatom shell under the electron microscope, coloured: a sieve in opal, pores inside pores",
+    "kind": "structure",
+    "title": "Coscinodiscus oculus-iridis (Ehrenberg) Ehrenberg 1840 diatom shell. Colored SEM image.jpg",
+    "site": "Wikimedia",
+    "artist": "Pavel.Somov",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coscinodiscus_oculus-iridis_(Ehrenberg)_Ehrenberg_1840_diatom_shell._Colored_SEM_image.jpg",
+    "w": 960,
+    "h": 960
+  },
+  "diatomite3": {
+    "file": "diatomite3.jpg",
+    "caption": "Food-grade diatomaceous earth: the powder the skeletons become",
+    "kind": "photo",
+    "title": "Diatomaceous Earth.jpg",
+    "site": "Wikimedia",
+    "artist": "SprocketRocket",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Diatomaceous_Earth.jpg",
+    "w": 960,
+    "h": 720
   },
   "chitin": {
     "file": "chitin.jpg",
@@ -7680,6 +7728,30 @@ window.CREDITS = {
     "w": 960,
     "h": 640
   },
+  "chitin2": {
+    "file": "chitin2.jpg",
+    "caption": "A cicada's shed skin on bark, Lisbon: a whole cuticle of chitin, left behind",
+    "kind": "photo",
+    "title": "Cicada exuviae on tree bark, Parque Florestal de Monsanto, Lisbon, Portugal julesvernex2.jpg",
+    "site": "Wikimedia",
+    "artist": "Jules Verne Times Two",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cicada_exuviae_on_tree_bark,_Parque_Florestal_de_Monsanto,_Lisbon,_Portugal_julesvernex2.jpg",
+    "w": 960,
+    "h": 1475
+  },
+  "chitin3": {
+    "file": "chitin3.png",
+    "caption": "A wooden model of the Bouligand stacking: each sheet of chitin fibres turned a few degrees from the last, the twisted plywood of a shell",
+    "kind": "structure",
+    "title": "Bouligand.png",
+    "site": "Wikimedia",
+    "artist": "Bwenig",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bouligand.png",
+    "w": 960,
+    "h": 1445
+  },
   "byssus": {
     "file": "byssus.jpg",
     "caption": "Mussel byssus threads",
@@ -7692,9 +7764,33 @@ window.CREDITS = {
     "h": 637,
     "site": "Wikimedia"
   },
+  "byssus2": {
+    "file": "byssus2.jpg",
+    "caption": "A mussel on a rock at Ocean Beach, San Francisco, its threads laid out in every direction",
+    "kind": "photo",
+    "title": "Mytilus with byssus.jpg",
+    "site": "Wikimedia",
+    "artist": "Brocken Inaglory",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mytilus_with_byssus.jpg",
+    "w": 960,
+    "h": 1440
+  },
+  "byssus3": {
+    "file": "byssus3.jpg",
+    "caption": "A glove knitted from sea silk, the spun byssus of the Pinna, Übersee-Museum Bremen",
+    "kind": "product",
+    "title": "Handschuh aus Byssusseide Überseemuseum Bremen 2009 IMG 1471.JPG",
+    "site": "Wikimedia",
+    "artist": "Politikaner",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Handschuh_aus_Byssusseide_%C3%9Cberseemuseum_Bremen_2009_IMG_1471.JPG",
+    "w": 960,
+    "h": 1440
+  },
   "toothenamel": {
     "file": "toothenamel.jpg",
-    "caption": "A sectioned tooth — enamel is the outer shell",
+    "caption": "A sectioned tooth: enamel is the outer shell",
     "kind": "photo",
     "title": "What is Inside Human Tooth (Macro-Anatomy).jpg",
     "artist": "Mohamed A.M. Ahmed",
@@ -7703,6 +7799,30 @@ window.CREDITS = {
     "w": 960,
     "h": 752,
     "site": "Wikimedia"
+  },
+  "toothenamel2": {
+    "file": "toothenamel2.jpg",
+    "caption": "Enamel under the microscope: the rods change direction in bands, so a crack cannot run straight through",
+    "kind": "structure",
+    "title": "Hunter-Schreger Bands.jpg",
+    "site": "Wikimedia",
+    "artist": "Kashortiss",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hunter-Schreger_Bands.jpg",
+    "w": 960,
+    "h": 936
+  },
+  "toothenamel3": {
+    "file": "toothenamel3.jpg",
+    "caption": "A cavity in a ten-year-old's tooth: enamel dissolved by acid, and nothing grows back",
+    "kind": "photo",
+    "title": "Dental Caries Cavity 2.JPG",
+    "site": "Wikimedia",
+    "artist": "Suyash.dwivedi",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dental_Caries_Cavity_2.JPG",
+    "w": 960,
+    "h": 640
   },
   "pumice": {
     "file": "pumice.jpg",
