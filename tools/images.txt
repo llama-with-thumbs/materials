@@ -85,11 +85,17 @@ hap|commons|Hydroxylapatite, Triplite-212964.jpg|Hydroxylapatite, the white mine
 hap2|commons|Bertazzo S SEM deproteined bone - cranium rat - x10k.jpg|Rat bone with the protein stripped out, at ten thousand times: what is left is the hydroxyapatite, in platelets|structure
 hap3|commons|Kalkdepots bei Tendinosis calcarea.jpg|Hydroxyapatite removed from a human shoulder tendon: the same crystal in the wrong place, 7 mm across, which is a calcific shoulder|related
 mxene|commons|SEM of MXene.png|MXene flakes under the electron microscope|photo
-vantablack|commons|Vantablack 02.JPG|Vantablack-coated foil — the crumpled surface is invisible|photo
+mxene2|commons|From MAX to MXenes, structure.jpg|From MAX phase to MXene: the A-element planes (grey) are etched out, the carbide sheets stay|structure
+mxene3|commons|Titanium aluminium carbide 312.jpg|Ti3AlC2 powder, the MAX phase that the first MXene was etched from|related
+vantablack|commons|Vantablack 02.JPG|Vantablack-coated foil: the crumpled surface is invisible|photo
+vantablack2|commons|VANTAs (5974655875).jpg|Nanotube arrays grown on silicon at NIST, the structure under the name: a chunk can be sliced off with a razor|related
+vantablack3|commons|Nanotube; Ultradark (5940479457).jpg|A nanotube forest on a NIST laser detector, colourised micrograph about 25 µm across|structure
 mrf|commons|MRF mit Permanentmagnet.jpg|Magnetorheological fluid standing up on a permanent magnet|photo
 mrf2|commons|MRF-Turm.jpg|A tower of magnetorheological fluid held up by the field below it|photo
 mrf3|commons|Messung Ansprechverhalten MRF-Daempfer.png|Measured response of an MR damper: force (red) follows the current (blue) in about a millisecond|related
 ferrofluid|commons|Ferrofluid Magnet under glass edit.jpg|Ferrofluid spiking along field lines|photo
+ferrofluid2|commons|Феррожидкость в магнитном поле.jpg|Ferrofluid over five small magnets: a spike field for each|photo
+ferrofluid3|commons|Ferrofluid poles.jpg|Ferrofluid under oil gathering at the two poles of a bar magnet, where the field is strongest|photo
 twood|commons|KTH-forskare har uppfunnit genomskinligt trä prov 1.jpg|Transparent wood sample (KTH)|photo
 twood2|commons|LED-backlit transparent wood panels in Goze Mokudon bench-shaped andon lantern.jpg|Backlit panels of transparent wood in a lantern bench at Joetsu, Japan: the grain shows through the light|product
 twood3|commons|KTH-forskare har uppfunnit genomskinligt trä prov 2.jpg|The KTH sample laid over a printed page: bright, but hazy, which is the point and the limit|photo
@@ -97,6 +103,7 @@ mycelium|commons|Mycelium based composite.png|Mycelium composite grown on substr
 mycelium2|commons|Wine Shipper in fungal products by Mycobond.jpg|A wine shipper grown by the Rensselaer students' company: the job polystyrene used to do, and the compost heap afterwards|product
 mycelium3|commons|NYBG Mycelium Brick Home September 2024.jpg|A small building of mycelium bricks at the New York Botanical Garden, 2024: grown blocks on a timber frame|product
 starlite|commons|Starlite sample.jpg|A surviving Starlite sample|photo
+starlite2|commons|Round intumescent damper.jpg|An intumescent fire damper: the family Starlite most likely belonged to, charring and swelling under heat to block it|analog
 auxetic|commons|Meta-aux-orange.jpg|Auxetic lattice — gets thinner when stretched|photo
 auxetic2|commons|Athletic Footwear with Auxetic Sole.jpg|A running-shoe sole cut as an auxetic lattice: it widens as the foot spreads instead of pinching|product
 albemet|commons|Be-140g.jpg|Pure beryllium, the stiffening phase in AlBeMet|photo
@@ -529,7 +536,9 @@ horsehair3|commons|Textielmuseum-cabinet-16.jpg|A specimen tray in the Tilburg t
 catgut|commons|Baroque violin Walter Mahr, 2010 - Gut strings.jpg|Gut strings on a baroque violin: twisted sheep serosa, the lowest wound with silver|photo
 catgut2|commons|Catgut Plain 01.JPG|Plain catgut suture in its pack: absorbed by the body in two to three months|product
 catgut3|commons|Igrometro a corda di minugia inv.2441 IF 21002.jpg|A gut-string hygrometer at the Museo Galileo: the string twists as it takes up moisture, which is also why it goes out of tune|related
-graphene|commons|Sample of graphene (1~3 layers).jpg|A commercial graphene sample — one to three layers, 98% carbon|photo
+graphene|commons|Carbon atoms in graphene.jpg|Carbon atoms in graphene under an atomic force microscope, the hexagons 0.25 nm across|photo
+graphene2|commons|Graphene Scotch Tape.jpg|Graphite and graphene on adhesive tape: the 2004 method, still used in the lab|process
+graphene3|commons|Sample of graphene (1~3 layers).jpg|A commercial graphene sample, one to three layers: grey dust|product
 cntyarn|commons|CSIRO ScienceImage 988 Carbon nanotubes spun to form a yarn.jpg|Carbon nanotubes being spun into a yarn|process
 aerographite|commons|TUHH CAU newexampleAerographite Netwok.png|Aerographite's network of hollow carbon tubes|photo
 ybco|commons|Tile levitates by Meissner effect.jpeg|A high-temperature superconductor levitating over a magnet track|photo

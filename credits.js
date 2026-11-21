@@ -984,9 +984,33 @@ window.CREDITS = {
     "h": 697,
     "site": "Wikimedia"
   },
+  "mxene2": {
+    "file": "mxene2.jpg",
+    "caption": "From MAX phase to MXene: the A-element planes (grey) are etched out, the carbide sheets stay",
+    "kind": "structure",
+    "title": "From MAX to MXenes, structure.jpg",
+    "site": "Wikimedia",
+    "artist": "Prussianblue1403",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:From_MAX_to_MXenes,_structure.jpg",
+    "w": 960,
+    "h": 1173
+  },
+  "mxene3": {
+    "file": "mxene3.jpg",
+    "caption": "Ti3AlC2 powder, the MAX phase that the first MXene was etched from",
+    "kind": "related",
+    "title": "Titanium aluminium carbide 312.jpg",
+    "site": "Wikimedia",
+    "artist": "Leiem",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Titanium_aluminium_carbide_312.jpg",
+    "w": 960,
+    "h": 879
+  },
   "vantablack": {
     "file": "vantablack.jpg",
-    "caption": "Vantablack-coated foil — the crumpled surface is invisible",
+    "caption": "Vantablack-coated foil: the crumpled surface is invisible",
     "kind": "photo",
     "title": "Vantablack 02.JPG",
     "artist": "Surrey NanoSystems",
@@ -995,6 +1019,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "vantablack2": {
+    "file": "vantablack2.jpg",
+    "caption": "Nanotube arrays grown on silicon at NIST, the structure under the name: a chunk can be sliced off with a razor",
+    "kind": "related",
+    "title": "VANTAs (5974655875).jpg",
+    "site": "Wikimedia",
+    "artist": "National Institute of Standards and Technology",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:VANTAs_(5974655875).jpg",
+    "w": 960,
+    "h": 720
+  },
+  "vantablack3": {
+    "file": "vantablack3.jpg",
+    "caption": "A nanotube forest on a NIST laser detector, colourised micrograph about 25 µm across",
+    "kind": "structure",
+    "title": "Nanotube; Ultradark (5940479457).jpg",
+    "site": "Wikimedia",
+    "artist": "National Institute of Standards and Technology",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Nanotube;_Ultradark_(5940479457).jpg",
+    "w": 960,
+    "h": 721
   },
   "mrf": {
     "file": "mrf.jpg",
@@ -1043,6 +1091,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "ferrofluid2": {
+    "file": "ferrofluid2.jpg",
+    "caption": "Ferrofluid over five small magnets: a spike field for each",
+    "kind": "photo",
+    "title": "Феррожидкость в магнитном поле.jpg",
+    "site": "Wikimedia",
+    "artist": "Gribkov",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%B5%D1%80%D1%80%D0%BE%D0%B6%D0%B8%D0%B4%D0%BA%D0%BE%D1%81%D1%82%D1%8C_%D0%B2_%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BD%D0%BE%D0%BC_%D0%BF%D0%BE%D0%BB%D0%B5.jpg",
+    "w": 960,
+    "h": 758
+  },
+  "ferrofluid3": {
+    "file": "ferrofluid3.jpg",
+    "caption": "Ferrofluid under oil gathering at the two poles of a bar magnet, where the field is strongest",
+    "kind": "photo",
+    "title": "Ferrofluid poles.jpg",
+    "site": "Wikimedia",
+    "artist": "Gregory F. Maxwell <gmaxwell@gmail.com> PGP:0xB0413BFA",
+    "license": "GFDL 1.2",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrofluid_poles.jpg",
+    "w": 960,
+    "h": 593
   },
   "twood": {
     "file": "twood.jpg",
@@ -1127,6 +1199,18 @@ window.CREDITS = {
     "w": 960,
     "h": 508,
     "site": "Wikimedia"
+  },
+  "starlite2": {
+    "file": "starlite2.jpg",
+    "caption": "An intumescent fire damper: the family Starlite most likely belonged to, charring and swelling under heat to block it",
+    "kind": "analog",
+    "title": "Round intumescent damper.jpg",
+    "site": "Wikimedia",
+    "artist": "Achim Hering",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Round_intumescent_damper.jpg",
+    "w": 960,
+    "h": 825
   },
   "auxetic": {
     "file": "auxetic.jpg",
@@ -6314,15 +6398,39 @@ window.CREDITS = {
   },
   "graphene": {
     "file": "graphene.jpg",
-    "caption": "A commercial graphene sample — one to three layers, 98% carbon",
+    "caption": "Carbon atoms in graphene under an atomic force microscope, the hexagons 0.25 nm across",
     "kind": "photo",
+    "title": "Carbon atoms in graphene.jpg",
+    "site": "Wikimedia",
+    "artist": "AFM real",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carbon_atoms_in_graphene.jpg",
+    "w": 868,
+    "h": 868
+  },
+  "graphene2": {
+    "file": "graphene2.jpg",
+    "caption": "Graphite and graphene on adhesive tape: the 2004 method, still used in the lab",
+    "kind": "process",
+    "title": "Graphene Scotch Tape.jpg",
+    "site": "Wikimedia",
+    "artist": "Alexander Mayorov",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Graphene_Scotch_Tape.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "graphene3": {
+    "file": "graphene3.jpg",
+    "caption": "A commercial graphene sample, one to three layers: grey dust",
+    "kind": "product",
     "title": "Sample of graphene (1~3 layers).jpg",
+    "site": "Wikimedia",
     "artist": "Leiem",
     "license": "CC0",
     "page": "https://commons.wikimedia.org/wiki/File:Sample_of_graphene_(1~3_layers).jpg",
     "w": 960,
-    "h": 881,
-    "site": "Wikimedia"
+    "h": 881
   },
   "cntyarn": {
     "file": "cntyarn.jpg",
