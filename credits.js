@@ -9492,6 +9492,30 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "etextile2": {
+    "file": "etextile2.jpg",
+    "caption": "Embroidered sensor pads: the conductive thread stitched as the circuit, zigzags for stretch",
+    "kind": "photo",
+    "title": "Gestickte Textile Sensorflächen.jpg",
+    "site": "Wikimedia",
+    "artist": "Forster Rohner AG",
+    "license": "CC BY-SA 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:Gestickte_Textile_Sensorfl%C3%A4chen.jpg",
+    "w": 960,
+    "h": 638
+  },
+  "etextile3": {
+    "file": "etextile3.jpg",
+    "caption": "A bobbin of conductive thread: a textile yarn with the metal spun in, sewn like any other",
+    "kind": "photo",
+    "title": "Conductive thread.jpg",
+    "site": "Wikimedia",
+    "artist": "Mosborne01",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Conductive_thread.jpg",
+    "w": 960,
+    "h": 540
+  },
   "dea": {
     "file": "dea.jpg",
     "caption": "A soft robot built for colonoscopy — the job DEAs are aimed at; this one runs on air, not volts",
@@ -9950,19 +9974,31 @@ window.CREDITS = {
   },
   "byborre": {
     "file": "byborre.jpg",
-    "caption": "A two-faced weft-knit structure — the kind of double knit this cloth is built from",
+    "caption": "Interlock, the plain double knit: two faces knitted as one, the base this cloth builds on, without the filler and the zones",
     "kind": "analog",
+    "title": "Interlockjersey.jpg",
+    "site": "Wikimedia",
+    "artist": "teslar",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Interlockjersey.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "byborre2": {
+    "file": "byborre2.jpg",
+    "caption": "A two-faced weft-knit structure drawn out: the kind of double knit this cloth is built from",
+    "kind": "structure",
     "title": "Double knit structure (weft knitted).jpg",
+    "site": "Wikimedia",
     "artist": "Elkagye",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Double_knit_structure_(weft_knitted).jpg",
     "w": 702,
-    "h": 621,
-    "site": "Wikimedia"
+    "h": 621
   },
   "dcf": {
     "file": "dcf.jpg",
-    "caption": "The clew of an AC45 catamaran's gennaker, cut from Cuben fibre",
+    "caption": "The clew of an AC45 catamaran's gennaker, cut from Cuben fibre: the laid filaments show through the film",
     "kind": "photo",
     "title": "Clew of an AC45 Cuben fiber gennaker.jpg",
     "artist": "HaeB",
@@ -9974,7 +10010,7 @@ window.CREDITS = {
   },
   "seersucker": {
     "file": "seersucker.jpg",
-    "caption": "A seersucker sample — the puckered stripes are woven in, not pressed",
+    "caption": "A seersucker sample: the puckered stripes are woven in, not pressed",
     "kind": "photo",
     "title": "Seersucker-sample1.jpg",
     "artist": "Giftzwerg 88",
@@ -9984,9 +10020,33 @@ window.CREDITS = {
     "h": 731,
     "site": "Wikimedia"
   },
+  "seersucker2": {
+    "file": "seersucker2.jpg",
+    "caption": "Green and white seersucker close to: the slack stripe crinkled, the tight one flat",
+    "kind": "photo",
+    "title": "Seersucker01closeup.JPG",
+    "site": "Wikimedia",
+    "artist": "Peteski1",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seersucker01closeup.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "seersucker3": {
+    "file": "seersucker3.jpg",
+    "caption": "Members of Congress on Seersucker Thursday, 2024: the summer suit of the South, worn in air conditioning",
+    "kind": "product",
+    "title": "Seersucker Day 2024.jpg",
+    "site": "Wikimedia",
+    "artist": "Daniel Rios",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Seersucker_Day_2024.jpg",
+    "w": 960,
+    "h": 640
+  },
   "flyknit": {
     "file": "flyknit.jpg",
-    "caption": "A Flyknit shoe — the upper is a single knitted piece",
+    "caption": "A Flyknit shoe: the upper is a single knitted piece",
     "kind": "product",
     "title": "https://live.staticflickr.com/8097/8483993132_4714f8e173_b.jpg",
     "site": "Flickr",
@@ -9995,6 +10055,30 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/29621165@N03/8483993132",
     "w": 960,
     "h": 640
+  },
+  "flyknit2": {
+    "file": "flyknit2.jpg",
+    "caption": "A Free Flyknit close to: open knit over the toes, the fused yarn as dark cables along the sides",
+    "kind": "product",
+    "title": "New shoes (13519423543).jpg",
+    "site": "Wikimedia",
+    "artist": "Mark Bonica from Durham, NH, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:New_shoes_(13519423543).jpg",
+    "w": 960,
+    "h": 638
+  },
+  "flyknit3": {
+    "file": "flyknit3.jpg",
+    "caption": "Adidas Primeknit on an Ultraboost: the rival knit, out the same year, and the lawsuit that followed",
+    "kind": "product",
+    "title": "Adidas Ultra Boost 4 running shoes.jpeg",
+    "site": "Wikimedia",
+    "artist": "Dough4872",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Adidas_Ultra_Boost_4_running_shoes.jpeg",
+    "w": 960,
+    "h": 720
   },
   "surgmesh": {
     "file": "surgmesh.jpg",

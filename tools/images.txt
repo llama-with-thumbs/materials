@@ -794,6 +794,8 @@ laminateshell|commons|Early Gore-Tex hooded rain jacket.jpg|An MSR Gore-Tex jack
 laminateshell2|commons|Water repellent shell layer jacket.jpg|Rain beading on a shell: the repellent finish on the face fabric at work, which is what keeps the membrane breathing|photo
 laminateshell3|commons|Mammut, OutDoor 2018, Friedrichshafen (1X7A0185).jpg|A hardshell of 2018: taped seams, laminated zips, the same three layers forty years on|product
 etextile|commons|Wireless electronic textiles.jpg|Inductors printed straight onto fabric, powering circuits without a wire|photo
+etextile2|commons|Gestickte Textile Sensorflächen.jpg|Embroidered sensor pads: the conductive thread stitched as the circuit, zigzags for stretch|photo
+etextile3|commons|Conductive thread.jpg|A bobbin of conductive thread: a textile yarn with the metal spun in, sewn like any other|photo
 dea|commons|Soft robot locomotion.jpg|A soft robot built for colonoscopy — the job DEAs are aimed at; this one runs on air, not volts|related
 strontiumal|commons|Photoluminescent Exit Sign.jpg|A photoluminescent exit sign, charged by room light|product
 spruce|commons|Violin Top and back plates.jpg|A carved violin top in spruce, beside its maple back|product
@@ -832,10 +834,15 @@ stitchbond2|commons|Maliwatt.jpg|Maliwatt stitch-bonded cloth: the East German t
 stitchbond3|commons|Stitch-bonded fabric in a car.jpg|Stitch-bonded insulation between an engine bay and the cabin, the arrow on it: the same stitching holding a heat and noise blanket|related
 erf|commons|MRF-Effekt-static-crop.png|Magnetorheological fluid stiffening in a field — the electric cousin behaves the same way, with volts instead of magnets|analog
 granite|commons|Surface plate.jpg|A cast-iron surface plate, 250 × 250 mm — the older material for the same lapped reference surface|analog
-byborre|commons|Double knit structure (weft knitted).jpg|A two-faced weft-knit structure — the kind of double knit this cloth is built from|analog
-dcf|commons|Clew of an AC45 Cuben fiber gennaker.jpg|The clew of an AC45 catamaran's gennaker, cut from Cuben fibre|photo
-seersucker|commons|Seersucker-sample1.jpg|A seersucker sample — the puckered stripes are woven in, not pressed|photo
-flyknit|Flickr|https://live.staticflickr.com/8097/8483993132_4714f8e173_b.jpg|A Flyknit shoe — the upper is a single knitted piece|product|CC BY 2.0|Yanki01|https://www.flickr.com/photos/29621165@N03/8483993132
+byborre|commons|Interlockjersey.jpg|Interlock, the plain double knit: two faces knitted as one, the base this cloth builds on, without the filler and the zones|analog
+byborre2|commons|Double knit structure (weft knitted).jpg|A two-faced weft-knit structure drawn out: the kind of double knit this cloth is built from|structure
+dcf|commons|Clew of an AC45 Cuben fiber gennaker.jpg|The clew of an AC45 catamaran's gennaker, cut from Cuben fibre: the laid filaments show through the film|photo
+seersucker|commons|Seersucker-sample1.jpg|A seersucker sample: the puckered stripes are woven in, not pressed|photo
+seersucker2|commons|Seersucker01closeup.JPG|Green and white seersucker close to: the slack stripe crinkled, the tight one flat|photo
+seersucker3|commons|Seersucker Day 2024.jpg|Members of Congress on Seersucker Thursday, 2024: the summer suit of the South, worn in air conditioning|product
+flyknit|Flickr|https://live.staticflickr.com/8097/8483993132_4714f8e173_b.jpg|A Flyknit shoe: the upper is a single knitted piece|product|CC BY 2.0|Yanki01|https://www.flickr.com/photos/29621165@N03/8483993132
+flyknit2|commons|New shoes (13519423543).jpg|A Free Flyknit close to: open knit over the toes, the fused yarn as dark cables along the sides|product
+flyknit3|commons|Adidas Ultra Boost 4 running shoes.jpeg|Adidas Primeknit on an Ultraboost: the rival knit, out the same year, and the lawsuit that followed|product
 surgmesh|commons|Hernia mesh 2.JPG|Polypropylene hernia mesh, knitted open|photo
 pinatex|commons|Piñatex fabric in white.jpg|Piñatex in white — pineapple-leaf fibre, needled into a web and coated|photo
 waffle|commons|An example of waffle fabric.jpeg|A close-up of waffle weave — floats stepping down into cells|photo

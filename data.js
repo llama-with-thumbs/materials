@@ -3090,16 +3090,18 @@ window.MATERIALS = [
 },
 {
   id: "etextile", cat: "fabric", name: "E-textile",
-  sub: "conductive yarn knitted as circuit", img: "etextile",
-  hook: "Spin a conductor into the yarn and the fabric becomes the sensor: a knitted stripe reads stretch, a woven grid reads touch, an embroidered trace carries the signal. The physics is easy. Surviving forty washes and a tumble dryer is the research problem.",
+  sub: "conductive yarn knitted as circuit", img: "etextile", extra: ["etextile2", "etextile3"],
+  hook: "Spin a conductor into the yarn and the fabric is the sensor: a knitted stripe reads stretch, a woven grid reads touch, an embroidered line is the wire. The physics is easy; forty washes are the research problem.",
+  more: "The conductor is a yarn already: silver-plated nylon, polyester spun with a little stainless steel, or fine enamelled copper wrapped round a core. Knit it in and a stripe changes resistance as the loops open, a stretch sensor round a chest; weave it as a grid and a finger changes the capacitance under it, how a cuff answered a phone in 2017; embroider it and it is a wire that bends with the arm. The LilyPad Arduino of 2007, a washable chip with sewable pads, put it in any hand with a needle. The costs: sweat corrodes silver and washing cracks every joint between yarn and chip, so most garments die at the joint; a stretched knit drifts, so the signal needs recalibrating; the battery is a lump; and a shirt with metal in it recycles as neither.",
   stats: [["Conductors", "silver, steel, copper yarn"], ["Sensing", "stretch, touch, ECG"], ["Hard part", "laundering durability"]],
   uses: "Touch-sensitive garments and bags, heated seats and clothing, ECG and respiration shirts, soft robotics.",
   link: "https://en.wikipedia.org/wiki/E-textiles"
 },
 {
   id: "byborre", cat: "fabric", name: "Byborre engineered knit",
-  sub: "layered double-knit, specified per zone", img: "byborre",
-  hook: "An Amsterdam studio that treats the knit itself as the design. On a circular machine two faces are knitted at once and a further yarn can be trapped between them, so weight, stretch, insulation and texture change from one zone to the next inside a single continuous piece, with no seam and no panel to cut. The cloth is knitted to order rather than held as stock, and each run carries a passport recording the yarns that went into it.",
+  sub: "layered double-knit, specified per zone", img: "byborre", extra: ["byborre2"],
+  hook: "An Amsterdam studio that treats the knit itself as the design. Two faces knitted at once, a third yarn trapped between them, so weight, stretch and texture change zone by zone in one piece, no seam, no panel to cut.",
+  more: "Borre Akkersdijk started with mattress ticking, knitted on circular machines as two faces with a filler between, and saw the machine could be told, stitch by stitch, where the filler goes and how the faces tie. The cloth is thin and open here, quilted and warm there, ribbed or blistered elsewhere, in one run, so a jacket or a chair needs no panels cut and sewn. Since 2019 it sells the method, not the cloth: a designer specifies structure and yarn online, the knit is made to order, and each run carries a passport of what went into it, rarer in cloth than it sounds. The costs: a bespoke knit is dear and slow next to cloth off a roll; the yarn is mostly polyester; three layers are heavy to wear; and the designer must think in stitches, which few do.",
   stats: [["Structure", "two faces, knitted as one"], ["Specified", "per zone, not per panel"], ["Made", "to order, not from stock"]],
   uses: "Upholstery and interiors, footwear and apparel panels, acoustic and insulating textiles.",
   link: "https://byborre.com/"
@@ -3107,15 +3109,17 @@ window.MATERIALS = [
 {
   id: "dcf", cat: "fabric", name: "Dyneema composite fabric",
   sub: "UHMWPE scrim laminated between films", img: "dcf",
-  hook: "Not woven at all. Parallel UHMWPE filaments are laid down in a thin cross-plied grid and sandwiched between polyester films, so every fibre carries load in a straight line instead of crimping over and under a weave. It barely stretches, takes up no water and comes out translucent — and it creases rather than drapes, which is why sails and packs are made of it and clothing is not.",
+  hook: "Not woven at all. UHMWPE filaments laid in a thin crossed grid between polyester films, so every fibre carries load in a straight line with no crimp. It barely stretches, takes no water, and creases, not drapes.",
+  more: "America³, Cubed, won the 1992 America's Cup under it, and the cloth was Cuben Fiber after the boat. Strands of Dyneema are laid flat at right angles, or along the loads, and glued between two thin polyester films. The fibre, the strongest for its weight there is, works in pure tension with no crimp to straighten, so the cloth barely gives, and the films make it waterproof. DSM bought the maker in 2015 and renamed it; hikers found it next, and a tarp of it weighs less than its guy lines. The costs: it costs more than almost any cloth; a crease cracks the film, so it is rolled, not folded; a stitch is a hole, so seams are taped; it punctures and abrades before it tears; sun gets at the polyethylene in years; and it is translucent, which a tent minds.",
   stats: [["Construction", "laid and laminated, no weave"], ["Stretch", "very low, no crimp"], ["Water", "the films stop it entirely"]],
   uses: "Racing sails, ultralight packs and shelters, kites, protective covers.",
   link: "https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene"
 },
 {
   id: "seersucker", cat: "fabric", name: "Seersucker",
-  sub: "slack-tension stripe weave", img: "seersucker",
-  hook: "Two warps are run at different tensions on the same loom, so when the cloth comes off and relaxes, the slack stripes bunch up into permanent puckers. The point is not the look: the ridges hold the fabric off the skin so air moves underneath it, and it never needs ironing, because the wrinkles are the construction.",
+  sub: "slack-tension stripe weave", img: "seersucker", extra: ["seersucker2", "seersucker3"],
+  hook: "Two warps at two tensions on one loom, so off it the slack stripes bunch into puckers for good. The ridges hold it off the skin so air moves beneath, and it never needs an iron: the wrinkles are the construction.",
+  more: "The name is Persian, shir o shakar, milk and sugar, for the smooth and rough stripes, and it came west by India. It is woven from two beams, one tight, one slack, in bands, so the slack threads crinkle the moment the tension comes off; nothing is pressed in, nothing washes out. The crinkle is the point in heat: it touches skin on the ridges only and air moves in the channels, and a suit is wrung out, dried and worn unironed, which is why a New Orleans tailor cut it into suits in 1909 and the South has worn it since. The costs: it looks rumpled because it is; it is light, wears through and shows a shirt; the stripes shrink differently and a cheap cut twists; and much sold as seersucker is plain cloth puckered with printed caustic, which washes flat.",
   stats: [["Made by", "two warp tensions at once"], ["Pucker", "permanent, woven in"], ["Why", "it stands off the skin"]],
   uses: "Summer suits and shirting, children's clothes, bedding, curtains.",
   link: "https://en.wikipedia.org/wiki/Seersucker",
@@ -3123,8 +3127,9 @@ window.MATERIALS = [
 },
 {
   id: "flyknit", cat: "fabric", name: "Engineered knit upper",
-  sub: "one piece, structure changed mid-knit", img: "flyknit",
-  hook: "A shoe upper knitted as a single piece, with the stitch structure changing as it goes: open mesh where the foot needs air, tight structure where it needs holding, and a fused yarn knitted in along the lines that take the load. Cutting and stitching panels disappears, and most of the offcut waste goes with it.",
+  sub: "one piece, structure changed mid-knit", img: "flyknit", extra: ["flyknit2", "flyknit3"],
+  hook: "An upper knitted as one piece, the stitch changing as it goes: open where the foot needs air, tight where it needs hold, fused yarn along the load lines. No panels cut and stitched, and most of the waste with them.",
+  more: "A running shoe upper was a dozen pieces of mesh, leather and foam, cut and stitched, a third of it binned. Nike spent four years teaching a flat machine to knit it in one piece and showed it at the 2012 Olympics: polyester knitted as a sock, switched row by row, open where the foot sweats, dense at the heel, and a thermoplastic-skinned yarn along the lace line, melted afterwards so it stiffens. The sock is lasted and glued to a sole; nothing inside rubs. Adidas had Primeknit out the same year, and lawyers. The costs: a knit is a sock, so it stretches where leather holds and wears out at the toe; it drinks water; every size is its own programme, and knitting is slower than cutting; and the fused zones are the stiff part of a shoe sold as soft.",
   stats: [["Pieces", "one, knitted to shape"], ["Zones", "structure changes mid-knit"], ["Waste", "far below cut-and-sew"]],
   uses: "Running and lifestyle shoe uppers, seamless garments, orthopaedic braces.",
   link: "https://en.wikipedia.org/wiki/Knitted_fabric"
