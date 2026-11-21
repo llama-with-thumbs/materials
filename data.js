@@ -2955,40 +2955,45 @@ window.MATERIALS = [
 },
 {
   id: "nonwoven", cat: "fabric", name: "Spunbond-meltblown nonwoven",
-  sub: "SMS web, no yarn at all", img: "nonwoven",
-  hook: "Fabric with no spinning and no weaving: polymer goes straight from melt to web and is bonded where the fibres touch. The meltblown middle layer is fibres a few µm across — fine enough to catch what a weave never could, which is why it is the filter in a mask.",
+  sub: "SMS web, no yarn at all", img: "nonwoven", extra: ["nonwoven2", "nonwoven3"],
+  hook: "Fabric with no spinning and no weaving: melt to web in one go, bonded where the fibres touch. The meltblown middle is fibres a few microns across, fine enough to catch what no weave could: the filter in a mask.",
+  more: "A spunbond line pushes molten polypropylene through thousands of holes, draws the filaments with air, drops them on a belt and welds the web at a pattern of points; a meltblown head blasts the melt with hot air, so the filaments shatter to a hundredth of the width and land as a weak, very fine web. Meltblown between two spunbonds is SMS, the cloth of the gown and the mask: the outer layers give the strength, the inner the pore size, and a static charge makes the fibres grab particles smaller than the holes. It comes off at hundreds of metres a minute, for pennies. The costs: no drape, no stretch, and a tear, once started, runs; it is made to be thrown away, by the billion; the meltblown head is the bottleneck, as 2020 showed; and a spark melts it.",
   stats: [["Meltblown fibre", "1–5 µm"], ["Spunbond fibre", "15–35 µm"], ["Route", "melt to fabric in one line"]],
-  uses: "Surgical gowns and masks, nappies and wipes, housewrap, geotextile, teabags.",
+  uses: "Surgical gowns and masks, nappies and wipes, housewrap, crop covers, geotextile, teabags.",
   link: "https://en.wikipedia.org/wiki/Nonwoven_fabric"
 },
 {
   id: "needlepunch", cat: "fabric", name: "Needle-punched felt",
-  sub: "mechanically entangled web", img: "needlepunch",
-  hook: "Thousands of barbed needles stab a loose web of fibre tens of times a second, dragging fibres down through the thickness. Nothing is spun, knitted, glued or melted — the fabric is held together purely by friction between tangled fibres.",
+  sub: "mechanically entangled web", img: "needlepunch", extra: ["needlepunch2", "needlepunch3"],
+  hook: "Thousands of barbed needles stab a loose web tens of times a second, dragging fibres down through it. Nothing is spun, knitted, glued or melted: friction between tangled fibres holds the fabric, and nothing else.",
+  more: "A needle loom is a board the width of the web set with thousands of needles, each a notched blade, driven up and down a thousand times a minute while the carded web crawls through below. Going down, each barb catches a few fibres and carries them through; coming up it lets go, and the fibres stay put, knotted round their neighbours. Enough passes and a fleece two fingers thick is a dense felt that holds a cut edge, made from anything that cards, old clothes and factory offcuts included, which is why a car boot and a carpet underlay are made of it. The costs: it is heavy for its strength, weaker than a woven cloth of the same weight; the needles break fibres and leave a pattern of holes; it sheds lint; and only crimped staple will felt.",
   stats: [["Punches", "up to ~2000 per cm²"], ["Binder", "none, friction only"], ["Thickness", "1–20 mm"]],
-  uses: "Automotive carpet and insulation, filter felt, geotextile, papermaker felts, craft felt.",
+  uses: "Car boot and underbody linings, carpet underlay, filter felt, geotextile, papermaker felts, craft felt.",
   link: "https://en.wikipedia.org/wiki/Needle_felting"
 },
 {
   id: "electrospun", cat: "fabric", name: "Electrospun nanofibre mat",
-  sub: "polymer drawn by a high-voltage field", img: "electrospun",
-  hook: "A drop of polymer solution at twenty kilovolts tears itself into a whipping jet and lands as fibres a hundred times thinner than anything a spinneret makes. The result has a pore structure no textile route can reach — and it comes off the rig by the gram, not the tonne.",
+  sub: "polymer drawn by a high-voltage field", img: "electrospun", extra: ["electrospun2", "electrospun3"],
+  hook: "A drop of polymer at twenty kilovolts tears into a whipping jet and lands as fibres a hundred times finer than any spinneret makes. No textile route makes pores like it, and it comes off the rig by the gram.",
+  more: "Hang a drop of polymer solution from a needle at twenty thousand volts above a plate, and it pulls into a cone and throws a jet from the tip. The jet runs straight a centimetre, then its own charge whips it into loops that stretch it thousands of times as the solvent goes, and what lands is a tangle of dry fibres hundreds of nanometres thick. Formhals patented it in 1934, Taylor explained the cone in 1964, and the 1990s rediscovered it for filters, battery separators and cell scaffolds, where collagen-sized fibres are the point. The costs: a needle makes a gram an hour, so industrial rigs spin from a wire, and count in kilograms; the mat is fragile and needs a carrier; there is solvent to recover; and humidity changes the fibre day to day.",
   stats: [["Fibre diameter", "50–500 nm"], ["Voltage", "10–30 kV"], ["Limit", "production rate"]],
   uses: "Wound dressings and scaffolds, high-efficiency air filtration, battery separators, sensor membranes.",
   link: "https://en.wikipedia.org/wiki/Electrospinning"
 },
 {
   id: "tyvek", cat: "fabric", name: "Tyvek",
-  sub: "flash-spun high-density polyethylene", img: "tyvek",
-  hook: "Polyethylene dissolved under pressure and released, so the solvent flashes off and leaves a cloud of fibres that are pressed into a sheet. It looks like paper, tears like fabric, passes water vapour and stops liquid water, and you cannot write on it with a pencil.",
+  sub: "flash-spun high-density polyethylene", img: "tyvek", extra: ["tyvek2", "tyvek3"],
+  hook: "Polyethylene in solvent under pressure, let go, so the solvent flashes off and leaves a cloud of fibres pressed to a sheet. It looks like paper, tears like cloth, passes vapour, stops water, and takes no pencil.",
+  more: "A DuPont researcher saw fluff blowing from a leaking pipe in 1955; by 1967 it was a product. Polyethylene is dissolved in a solvent held under pressure above its boiling point and let out through a nozzle; the solvent flashes and the polymer freezes as a web of ribbon fibres, laid down and pressed hot to bond where they touch. Nothing is woven, so a sheet has no grain and resists tearing every way, as a courier envelope wants; the pores pass vapour and stop a drop, as a house wrap wants; and they stop bacteria and pass steam, so sterile instruments come sealed in it. The costs: it melts at 135 degrees, so no ironing; sun breaks it down in months, so a wrapped house wants cladding soon; it is noisy, slippery, takes ink badly; and a pencil slides.",
   stats: [["Fibre diameter", "0.5–10 µm"], ["Water", "liquid out, vapour through"], ["Tear", "very high for paper"]],
   uses: "Housewrap, courier envelopes, sterile medical packaging, protective coveralls, wristbands, maps.",
   link: "https://en.wikipedia.org/wiki/Tyvek"
 },
 {
   id: "stitchbond", cat: "fabric", name: "Non-crimp fabric",
-  sub: "stitched multiaxial reinforcement", img: "stitchbond",
-  hook: "Weaving makes every fibre go over and under, and a bent fibre is a weaker fibre. Here the layers are laid dead straight at whatever angles the part needs and held with a light stitching yarn, so the reinforcement is as strong as the fibre actually is.",
+  sub: "stitched multiaxial reinforcement", img: "stitchbond", extra: ["stitchbond2", "stitchbond3"],
+  hook: "Weaving sends every fibre over and under, and a bent fibre is weaker. Here the layers lie dead straight at the angles the part needs, held by a light stitching yarn, so the laminate is as strong as the fibre.",
+  more: "In a woven reinforcement every yarn climbs over and dives under; under load the crimps straighten, costing stiffness, and the fibre breaks at the bend. A multiaxial machine lays sheets of parallel tow one over another, each at its angle, 0, 90, plus and minus 45, and needles chain-stitch the stack with fine polyester. The yarns never bend, so the laminate is stiffer and stronger than a woven one of the same weight, most in compression and fatigue, and a turbine blade goes up in a few thick layers instead of dozens of thin. The idea is East German stitch-bonding, borrowed. The costs: the stitches part the tows and leave resin-rich channels where cracks start; it drapes badly; a cut edge frays into loose tows; and thick layers hide dry spots.",
   stats: [["Crimp", "none"], ["Strength gain", "~10–15% over woven"], ["Angles", "0/90/±45 as laid"]],
   uses: "Wind turbine blades, boat hulls, automotive and rail composite panels.",
   link: "https://en.wikipedia.org/wiki/Fibre-reinforced_plastic"

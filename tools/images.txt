@@ -644,8 +644,12 @@ seamlessknit3|commons|Sock knitting machine.jpg|A sock machine in use: the first
 spacerfabric|commons|Spacer fabric.jpg|Spacer fabric: two faces held apart by monofilament|photo
 spacerfabric2|commons|Spacer fabric 3.jpg|The cross-section: a closed face, an open face, and the forest of monofilament columns between them|structure
 spacerfabric3|commons|Spacer fabric 2.JPG|The open mesh face of a raschel-knitted spacer fabric|photo
-electrospun|commons|Electrospun polymer nanofibers with bead-fiber morphology.jpg|Electron micrograph of electrospun nanofibres|photo
-tyvek|Flickr|https://live.staticflickr.com/3458/3350958206_db48d7665f_b.jpg|A Tyvek envelope|product|CC BY-SA 2.0|Newone1970|https://www.flickr.com/photos/32147839@N07/3350958206
+electrospun|commons|Electrospun polymer nanofibers with bead-fiber morphology.jpg|Electron micrograph of electrospun nanofibres, beads and all|photo
+electrospun2|commons|Taylor cone photo.jpg|The Taylor cone: a drop of polyvinyl alcohol solution pulled to a point by the field, and the jet leaving its tip|process
+electrospun3|commons|ElectroSpinz Doris.jpg|A laboratory electrospinning rig: syringe, needle, high-voltage supply and a collector plate, the whole industry on a bench|process
+tyvek|commons|Tyvek house wrap.jpg|A block of flats in Atlanta wrapped in Tyvek before the cladding: rain out, vapour through, and a deadline, since sunlight eats it|product
+tyvek2|Flickr|https://live.staticflickr.com/3458/3350958206_db48d7665f_b.jpg|A Tyvek envelope|product|CC BY-SA 2.0|Newone1970|https://www.flickr.com/photos/32147839@N07/3350958206
+tyvek3|commons|Tyvek Suits (cropped).jpg|Tyvek coveralls: the sheet that stops liquid and dust but lets sweat out as vapour|product
 mercerised|commons|Spool of white thread.jpg|Spooled cotton thread — mercerising gives it the sheen|product
 ringmesh|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1923.1120/1923.1120_web.jpg|A riveted mail hauberk of steel and brass rings|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1923.1120
 opwairbag|commons|Vauxhall Vectra curtain airbag deployed.jpg|A curtain airbag deployed in a car|product
@@ -660,7 +664,9 @@ leno|commons|Gauze 03.JPG|Plain-weave gauze, the threads already drifting out of
 leno2|commons|Ra (Usumono gauze weave)) (Sha gauze weave with stripes) LCCN2009615648.jpg|Ra and sha, the Japanese crossed-warp silk gauzes, in a weaver's sample drawing|related
 fleece|Poly Haven|https://cdn.polyhaven.com/asset_img/primary/polar_fleece.png?width=1024|Polar fleece, napped and shorn level: a scanned swatch rendered by Poly Haven|photo|CC0|Poly Haven|https://polyhaven.com/a/polar_fleece
 fleece2|commons|Balaclava with modern cut in red made of thin fabric with polar fleece on the inside.jpg|A balaclava lined with polar fleece: the air in the nap against the skin, a wind-stopping shell outside|product
-nonwoven|commons|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
+nonwoven|commons|The front of a blue disposable mask.jpg|A disposable mask: spunbond faces over a meltblown filter|product
+nonwoven2|commons|Sebészeti maszk középső rétege.jpg|The middle layer of a surgical mask at twelve times: the meltblown web, fibres a few microns across, that does the filtering|structure
+nonwoven3|commons|Kohlrabi unter Vliesbedeckung--Josef Schlaghecken.jpg|Spunbond as crop cover over kohlrabi: light and rain through, frost and flies out|product
 weldedseam|commons|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
 waam|commons|Metal 3D printed turbine (49803494637).jpg|A propeller built from welding wire by wire arc deposition, the beads still on the blades and the hub turned|product
 waam2|commons|World first 3D printed steel bridge in Amsterdam.jpg|The MX3D footbridge over the Oudezijds Achterburgwal, Amsterdam, 2021: twelve metres of stainless steel laid bead by bead by four robots|product
@@ -764,7 +770,9 @@ twelvestrand2|commons|Masson Mills WTM 16 Rope Braider 5862.JPG|A rope braider a
 braidedline|commons|Fishing lines 2025 G1.jpg|Eight-strand braided line, 0.15 mm|photo
 braidedline2|commons|Fishing reel 2025 G1.jpg|The same line on a spinning reel: a third the diameter of mono, so three times the length on the spool|product
 braidedline3|commons|Reel with DSMB P9027417 (cropped).JPG|A diver's ratchet reel with 100 m of braided Dacron: the polyester braid that came before the polyethylene kind|product
-needlepunch|commons|Needle-felt-making-1080204.jpg|Needle felting by hand in Kyrgyzstan — barbed needles tangling fibre into cloth|process
+needlepunch|commons|Suzuki SX4 Kofferraum.JPG|The boot of a small car lined with needle felt: the material as most people meet it|product
+needlepunch2|commons|Nadeln für die Herstellung von Nadelvlies.jpg|The barbed needles in the web: each notch carries a few fibres down through the thickness and leaves them there|structure
+needlepunch3|commons|Needle-felt-making-1080204-close-up.jpg|The same barbed needle by hand, in a felting co-operative on Issyk-Kul: one needle where the loom has thousands|process
 woven3d|commons|Paris Air Show 2017 LEAP fan.jpg|A LEAP engine fan — each blade is a 3D-woven preform, injected with resin|product
 laminateshell|commons|Early Gore-Tex hooded rain jacket.jpg|An MSR Gore-Tex jacket from about 1976, one of the first laminate shells|product
 etextile|commons|Wireless electronic textiles.jpg|Inductors printed straight onto fabric, powering circuits without a wire|photo
@@ -801,7 +809,9 @@ silicafibre2|commons|Stafford Air & Space Museum, Weatherford, OK, US (14).jpg|A
 kineticrope|commons|Abschleppseil Automobile equipment 01.JPG|An ordinary car tow rope, laid polypropylene with hooks: no give in it, which is the problem kinetic rope was made to solve|analog
 kineticrope2|Flickr|https://live.staticflickr.com/65535/53832951206_5e50292625_b.jpg|A fuse shackle for vehicle recovery, built to break first: the weak link that goes in line with a kinetic rope|analog|CC BY 2.0|Tony Webster|https://www.flickr.com/photos/diversey/53832951206
 triaxial|commons|Bamboo Wall Hanging, Maharashtra.jpg|Hexagonal bamboo weave from Maharashtra: three directions of strip at sixty degrees, the triaxial idea as basket makers have always had it|analog
-stitchbond|commons|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A glass–aramid hybrid reinforcement, 580 g/m² — non-crimp fabric is this job with the yarns kept dead straight|analog
+stitchbond|commons|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A glass–aramid hybrid reinforcement, 580 g/m²: non-crimp fabric is this job with the yarns kept dead straight|analog
+stitchbond2|commons|Maliwatt.jpg|Maliwatt stitch-bonded cloth: the East German technique of the 1950s, a web held by rows of chain stitch, that the composite trade borrowed|related
+stitchbond3|commons|Stitch-bonded fabric in a car.jpg|Stitch-bonded insulation between an engine bay and the cabin, the arrow on it: the same stitching holding a heat and noise blanket|related
 erf|commons|MRF-Effekt-static-crop.png|Magnetorheological fluid stiffening in a field — the electric cousin behaves the same way, with volts instead of magnets|analog
 granite|commons|Surface plate.jpg|A cast-iron surface plate, 250 × 250 mm — the older material for the same lapped reference surface|analog
 byborre|commons|Double knit structure (weft knitted).jpg|A two-faced weft-knit structure — the kind of double knit this cloth is built from|analog

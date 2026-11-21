@@ -7694,7 +7694,7 @@ window.CREDITS = {
   },
   "electrospun": {
     "file": "electrospun.jpg",
-    "caption": "Electron micrograph of electrospun nanofibres",
+    "caption": "Electron micrograph of electrospun nanofibres, beads and all",
     "kind": "photo",
     "title": "Electrospun polymer nanofibers with bead-fiber morphology.jpg",
     "artist": "Farizat Aidyn",
@@ -7704,8 +7704,44 @@ window.CREDITS = {
     "h": 769,
     "site": "Wikimedia"
   },
+  "electrospun2": {
+    "file": "electrospun2.jpg",
+    "caption": "The Taylor cone: a drop of polyvinyl alcohol solution pulled to a point by the field, and the jet leaving its tip",
+    "kind": "process",
+    "title": "Taylor cone photo.jpg",
+    "site": "Wikimedia",
+    "artist": "Robert Lamberts",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Taylor_cone_photo.jpg",
+    "w": 960,
+    "h": 796
+  },
+  "electrospun3": {
+    "file": "electrospun3.jpg",
+    "caption": "A laboratory electrospinning rig: syringe, needle, high-voltage supply and a collector plate, the whole industry on a bench",
+    "kind": "process",
+    "title": "ElectroSpinz Doris.jpg",
+    "site": "Wikimedia",
+    "artist": "Robert Lamberts",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ElectroSpinz_Doris.jpg",
+    "w": 960,
+    "h": 638
+  },
   "tyvek": {
     "file": "tyvek.jpg",
+    "caption": "A block of flats in Atlanta wrapped in Tyvek before the cladding: rain out, vapour through, and a deadline, since sunlight eats it",
+    "kind": "product",
+    "title": "Tyvek house wrap.jpg",
+    "site": "Wikimedia",
+    "artist": "Scott Ehardt",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Tyvek_house_wrap.jpg",
+    "w": 960,
+    "h": 756
+  },
+  "tyvek2": {
+    "file": "tyvek2.jpg",
     "caption": "A Tyvek envelope",
     "kind": "product",
     "title": "https://live.staticflickr.com/3458/3350958206_db48d7665f_b.jpg",
@@ -7715,6 +7751,18 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/32147839@N07/3350958206",
     "w": 960,
     "h": 720
+  },
+  "tyvek3": {
+    "file": "tyvek3.jpg",
+    "caption": "Tyvek coveralls: the sheet that stops liquid and dust but lets sweat out as vapour",
+    "kind": "product",
+    "title": "Tyvek Suits (cropped).jpg",
+    "site": "Wikimedia",
+    "artist": "Jarek Tuszyński",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tyvek_Suits_(cropped).jpg",
+    "w": 960,
+    "h": 1286
   },
   "mercerised": {
     "file": "mercerised.jpg",
@@ -7886,7 +7934,7 @@ window.CREDITS = {
   },
   "nonwoven": {
     "file": "nonwoven.jpg",
-    "caption": "A disposable mask — spunbond faces over a meltblown filter",
+    "caption": "A disposable mask: spunbond faces over a meltblown filter",
     "kind": "product",
     "title": "The front of a blue disposable mask.jpg",
     "artist": "彩色琪子",
@@ -7895,6 +7943,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "nonwoven2": {
+    "file": "nonwoven2.jpg",
+    "caption": "The middle layer of a surgical mask at twelve times: the meltblown web, fibres a few microns across, that does the filtering",
+    "kind": "structure",
+    "title": "Sebészeti maszk középső rétege.jpg",
+    "site": "Wikimedia",
+    "artist": "Elkágyé",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seb%C3%A9szeti_maszk_k%C3%B6z%C3%A9ps%C5%91_r%C3%A9tege.jpg",
+    "w": 960,
+    "h": 1002
+  },
+  "nonwoven3": {
+    "file": "nonwoven3.jpg",
+    "caption": "Spunbond as crop cover over kohlrabi: light and rain through, frost and flies out",
+    "kind": "product",
+    "title": "Kohlrabi unter Vliesbedeckung--Josef Schlaghecken.jpg",
+    "site": "Wikimedia",
+    "artist": "Schlaghecken Josef",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kohlrabi_unter_Vliesbedeckung--Josef_Schlaghecken.jpg",
+    "w": 960,
+    "h": 640
   },
   "weldedseam": {
     "file": "weldedseam.jpg",
@@ -9134,15 +9206,39 @@ window.CREDITS = {
   },
   "needlepunch": {
     "file": "needlepunch.jpg",
-    "caption": "Needle felting by hand in Kyrgyzstan — barbed needles tangling fibre into cloth",
+    "caption": "The boot of a small car lined with needle felt: the material as most people meet it",
+    "kind": "product",
+    "title": "Suzuki SX4 Kofferraum.JPG",
+    "site": "Wikimedia",
+    "artist": "Thomas doerfer",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Suzuki_SX4_Kofferraum.JPG",
+    "w": 960,
+    "h": 748
+  },
+  "needlepunch2": {
+    "file": "needlepunch2.jpg",
+    "caption": "The barbed needles in the web: each notch carries a few fibres down through the thickness and leaves them there",
+    "kind": "structure",
+    "title": "Nadeln für die Herstellung von Nadelvlies.jpg",
+    "site": "Wikimedia",
+    "artist": "Alfarosebud",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nadeln_f%C3%BCr_die_Herstellung_von_Nadelvlies.jpg",
+    "w": 960,
+    "h": 1031
+  },
+  "needlepunch3": {
+    "file": "needlepunch3.jpg",
+    "caption": "The same barbed needle by hand, in a felting co-operative on Issyk-Kul: one needle where the loom has thousands",
     "kind": "process",
-    "title": "Needle-felt-making-1080204.jpg",
+    "title": "Needle-felt-making-1080204-close-up.jpg",
+    "site": "Wikimedia",
     "artist": "Fabienkhan",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Needle-felt-making-1080204.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Needle-felt-making-1080204-close-up.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
   },
   "woven3d": {
     "file": "woven3d.jpg",
@@ -9578,7 +9674,7 @@ window.CREDITS = {
   },
   "stitchbond": {
     "file": "stitchbond.jpg",
-    "caption": "A glass–aramid hybrid reinforcement, 580 g/m² — non-crimp fabric is this job with the yarns kept dead straight",
+    "caption": "A glass–aramid hybrid reinforcement, 580 g/m²: non-crimp fabric is this job with the yarns kept dead straight",
     "kind": "analog",
     "title": "Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg",
     "artist": "Photo: User Cjp24; edited by User Jaybear",
@@ -9587,6 +9683,30 @@ window.CREDITS = {
     "w": 960,
     "h": 588,
     "site": "Wikimedia"
+  },
+  "stitchbond2": {
+    "file": "stitchbond2.jpg",
+    "caption": "Maliwatt stitch-bonded cloth: the East German technique of the 1950s, a web held by rows of chain stitch, that the composite trade borrowed",
+    "kind": "related",
+    "title": "Maliwatt.jpg",
+    "site": "Wikimedia",
+    "artist": "Ogodej",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maliwatt.jpg",
+    "w": 960,
+    "h": 576
+  },
+  "stitchbond3": {
+    "file": "stitchbond3.jpg",
+    "caption": "Stitch-bonded insulation between an engine bay and the cabin, the arrow on it: the same stitching holding a heat and noise blanket",
+    "kind": "related",
+    "title": "Stitch-bonded fabric in a car.jpg",
+    "site": "Wikimedia",
+    "artist": "Elkágyé",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stitch-bonded_fabric_in_a_car.jpg",
+    "w": 960,
+    "h": 720
   },
   "erf": {
     "file": "erf.png",
