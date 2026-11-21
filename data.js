@@ -2864,40 +2864,45 @@ window.MATERIALS = [
 /* ---------- FABRICS & CONSTRUCTIONS ---------- */
 {
   id: "jacquard", cat: "fabric", name: "Jacquard weave",
-  sub: "punched-card warp selection", img: "jacquard",
-  hook: "Every warp thread gets its own hook, and a punched card decides which ones lift. That turned pattern into data in 1804, freed the weaver from the repeat entirely, and gave Babbage and then Hollerith the idea of the punched card.",
+  sub: "punched-card warp selection", img: "jacquard", extra: ["jacquard2", "jacquard3"],
+  hook: "Every warp thread gets its own hook, and a punched card decides which ones lift. That turned pattern into data in 1804, freed the weaver from the repeat, and gave Babbage and Hollerith the punched card.",
+  more: "Before 1804 a figured cloth needed a draw-boy on the loom pulling cords in order, and the pattern was his reach. Jacquard's head puts a needle against every hook; a card pressed on them passes only the hooks that meet a hole, those lift, and the next card comes round on a chain. The pattern is the chain, as long as you like and copied by punching another. Lyon broke the first machines, then bought thousands; Babbage planned his engine round the chain; Hollerith counted a census with the card. Since the 1980s the needles are solenoids and the chain a file, but head and cloth are still called jacquard. The costs: a head of ten thousand hooks is dear and slow; a big figure means long floats that snag; and the chains weighed more than the loom.",
   stats: [["Control", "one card row per pick"], ["Repeat", "effectively unlimited"], ["Legacy", "the first stored program"]],
-  uses: "Figured upholstery and damask, labels and ribbons, airbag fabric, carbon fibre preforms.",
+  uses: "Figured upholstery and damask, labels and ribbons, one-piece woven airbags, carbon fibre preforms.",
   link: "https://en.wikipedia.org/wiki/Jacquard_machine"
 },
 {
   id: "leno", cat: "fabric", name: "Leno weave",
-  sub: "crossed-warp gauze", img: "leno",
-  hook: "Paired warp threads cross over each other between every pick, so each weft yarn is trapped in a twist rather than resting in a gap. That is how you get a fabric that is mostly holes and still cannot slide out of shape.",
+  sub: "crossed-warp gauze", img: "leno", extra: ["leno2"],
+  hook: "Paired warp threads cross over each other between every pick, so each weft yarn is trapped in a twist rather than resting in a gap. That is how a fabric can be mostly holes and still not slide out of shape.",
+  more: "In a plain open weave only friction holds a thread, so cheesecloth drifts out of square in the hand. Leno fixes that with a second heddle, the doup, that carries one end of each warp pair across its neighbour and back, so the pair twists round every pick and locks it. The cloth can then be as open as a net and the holes stay put: shade cloth and insect screen, plaster scrim, the orange mesh bag onions come in, marquisette curtain net, geogrid under a road, and once every bandage. Japan's silk summer gauzes, ro and sha, are the same crossing done fine. The costs: the doup runs at a fraction of plain-weave speed; the twist wears the yarn; an open cloth has no cover, so it shades and screens and keeps nothing warm; and a snag pulls a whole crossed pair.",
   stats: [["Openness", "mostly air"], ["Slippage", "locked by the twist"], ["Cost", "slower than plain weave"]],
-  uses: "Surgical gauze and bandage, shade cloth, plaster and render scrim, wallpaper backing, geogrid.",
+  uses: "Shade cloth and insect screen, plaster scrim, produce bags, marquisette, geogrid, surgical gauze.",
   link: "https://en.wikipedia.org/wiki/Leno_weave"
 },
 {
   id: "triaxial", cat: "fabric", name: "Triaxial weave",
   sub: "three yarn sets at 60°", img: "triaxial",
-  hook: "Ordinary cloth has two thread directions and no resistance to racking: pull it on the diagonal and the square becomes a parallelogram. Add a third set at sixty degrees and the shear has nowhere to go. The fabric holds its shape in its own plane.",
+  hook: "Ordinary cloth has two thread directions and no resistance to racking: pull it on the diagonal and the square goes to a parallelogram. Add a third set at sixty degrees and the shear has nowhere to go.",
+  more: "Basket makers always knew: hexagonal bamboo weave runs three sets of strips at sixty degrees, and the mesh is stiff where a square plait collapses. A loom for it came in 1969, when Norris Dow fed two warps across each other through a weft and sold the cloth as Doweave. The basic weave leaves small hexagonal holes, the yarns locked at every crossing; a tighter one closes them. The result is a thin cloth nearly the same in every direction, hard to tear because a tear must cut three yarns, and stiff on the bias, which is what sails, kites, balloons and composite skins want. The costs: the loom is rare and slow; three yarn sets give less cover for more yarn than two; the holes are there whether you want them or not; and almost nobody weaves it.",
   stats: [["Yarn directions", "3 at 60°"], ["Shear stiffness", "far above biaxial"], ["Isotropy", "near-equal in plane"]],
   uses: "Sailcloth and kite skins, filter and screen fabric, balloon envelopes, composite reinforcement.",
   link: "https://en.wikipedia.org/wiki/Weaving"
 },
 {
   id: "doublecloth", cat: "fabric", name: "Double cloth",
-  sub: "two fabrics woven at once", img: "doublecloth",
-  hook: "One loom, two complete cloths, stitched to each other wherever the weaver swaps a thread from the top layer to the bottom. Stop swapping and the two layers separate: the pocket, the tube and the closed bag are woven, not sewn.",
+  sub: "two fabrics woven at once", img: "doublecloth", extra: ["doublecloth2", "doublecloth3"],
+  hook: "One loom, two complete cloths, stitched together wherever the weaver swaps a thread from the top layer to the bottom. Stop swapping and the layers part: the pocket, the tube and the closed bag are woven, not sewn.",
+  more: "Two warps and two wefts weave an upper cloth and a lower one at once, and at every point the weaver decides whether they change places. Swap them wherever the colour should change and you have a reversible figured cloth, each face the negative of the other: Peru two thousand years ago, the Welsh tapestry blanket, the American Jacquard coverlet. Stitch the layers at the edges only and the middle is a pocket; stitch along two lines and it comes off the loom as a tube, which is how a fire hose is woven and an airbag made in one piece with no seam to burst. Double-faced coat cloth is the same idea in plain wool. The costs: twice the yarn, twice the weight, half the speed; the stitching points dimple a plain face; and badly stitched layers bag and slide.",
   stats: [["Layers", "2 or more, simultaneous"], ["Join", "by thread exchange"], ["Reversible", "a different face each side"]],
-  uses: "Reversible coats and blankets, Welsh and Jacquard tapestry, woven tubes, airbag and ducting fabric.",
+  uses: "Reversible coats and blankets, Welsh and Jacquard tapestry, woven tubes, one-piece airbags, ducting and hose.",
   link: "https://en.wikipedia.org/wiki/Double_cloth"
 },
 {
   id: "terrypile", cat: "fabric", name: "Pile weave",
-  sub: "terry and velvet construction", img: "terrypile",
-  hook: "A second warp fed in slack and lifted over wires, so the fabric grows a third dimension off a flat loom. Leave the loops whole and you have a towel, where the surface area is the point. Shear them and you have velvet, where the cut ends are.",
+  sub: "terry and velvet construction", img: "terrypile", extra: ["terrypile2", "terrypile3"],
+  hook: "A second warp fed in slack, so the fabric grows a third dimension off a flat loom. Leave the loops whole and it is a towel, where surface area is the point. Shear them and it is velvet, where the cut ends are.",
+  more: "A towel loom carries two warps, one tight, one slack. The reed leaves two picks short, then drives the third home with them, and the slack warp buckles into loops on both faces; the loops are what dry you, many times the cloth's area, and what makes a towel heavy and slow to dry. Velvet is the slack warp lifted over wires and cut, or two cloths woven face to face with the pile between them and a knife splitting them off the loom, the usual way since the 1800s. Velveteen and corduroy are the cheap kind, a weft pile cut after weaving; the wales are where the knife ran. The costs: a loop snags and pulls a row; cut pile crushes under a hand or a chair and shades two ways, so a garment is cut nap one way; and a pile loom is slow and eats twice the yarn.",
   stats: [["Warps", "2, one slack"], ["Loops uncut", "towel, high absorbency"], ["Loops cut", "velvet and velour"]],
   uses: "Towels and robes, velvet and corduroy, upholstery plush, cleaning cloth.",
   link: "https://en.wikipedia.org/wiki/Pile_(textile)"

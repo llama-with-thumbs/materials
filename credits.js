@@ -7488,6 +7488,30 @@ window.CREDITS = {
     "w": 900,
     "h": 620
   },
+  "jacquard2": {
+    "file": "jacquard2.jpg",
+    "caption": "The chain of punched cards: one card a pick, one hole a lifted thread",
+    "kind": "structure",
+    "title": "Jacquard loom cards.jpg",
+    "site": "Wikimedia",
+    "artist": "Robert-brook",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jacquard_loom_cards.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "jacquard3": {
+    "file": "jacquard3.jpg",
+    "caption": "A Jacquard loom in Edinburgh with its card chain hung over the head",
+    "kind": "process",
+    "title": "A Jacquard loom showing information punchcards, National Museum of Scotland.jpg",
+    "site": "Wikimedia",
+    "artist": "Stephencdickson",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Jacquard_loom_showing_information_punchcards,_National_Museum_of_Scotland.jpg",
+    "w": 960,
+    "h": 639
+  },
   "doublecloth": {
     "file": "doublecloth.png",
     "caption": "Double-weave cloth, close up",
@@ -7499,6 +7523,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "doublecloth2": {
+    "file": "doublecloth2.jpg",
+    "caption": "A Jacquard double-weave coverlet by John Schneider: two cloths changing places wherever the colour changes",
+    "kind": "product",
+    "title": "John Schneider Coverlet.jpg",
+    "site": "Wikimedia",
+    "artist": "John Schneider",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Schneider_Coverlet.jpg",
+    "w": 960,
+    "h": 1152
+  },
+  "doublecloth3": {
+    "file": "doublecloth3.jpg",
+    "caption": "Double cloth from Recuay, Peru, up to two thousand years old: the construction is older than the loom that made it famous",
+    "kind": "product",
+    "title": "Peru, Recuay Culture, 4th Century BC-8th Century AD - Double Cloth - 1993.243 - Cleveland Museum of Art.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Peru,_Recuay_Culture,_4th_Century_BC-8th_Century_AD_-_Double_Cloth_-_1993.243_-_Cleveland_Museum_of_Art.jpg",
+    "w": 960,
+    "h": 1207
   },
   "warpknit": {
     "file": "warpknit.jpg",
@@ -7658,27 +7706,63 @@ window.CREDITS = {
   },
   "terrypile": {
     "file": "terrypile.jpg",
-    "caption": "Two-colour velvet with gold: a cut pile weave",
+    "caption": "Terry towelling close up: the slack warp buckled into loops on the face of the cloth",
+    "kind": "photo",
+    "title": "Frottee-Handtuch.jpg",
+    "site": "Wikimedia",
+    "artist": "Anna reg",
+    "license": "CC BY-SA 3.0 at",
+    "page": "https://commons.wikimedia.org/wiki/File:Frottee-Handtuch.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "terrypile2": {
+    "file": "terrypile2.jpg",
+    "caption": "A Northrop terry loom at Queen Street Mill, Burnley, the towel coming off it with its loops up",
+    "kind": "process",
+    "title": "QSMM Northrop Terry Towelling Loom 2699cp.JPG",
+    "site": "Wikimedia",
+    "artist": "Clem Rutter, Rochester, Kent.",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:QSMM_Northrop_Terry_Towelling_Loom_2699cp.JPG",
+    "w": 960,
+    "h": 1025
+  },
+  "terrypile3": {
+    "file": "terrypile3.jpg",
+    "caption": "Corduroy from a shirt: a cut pile too, but weft pile, the wales where the knife ran",
     "kind": "product",
-    "title": "https://openaccess-cdn.clevelandart.org/1929.82/1929.82_web.jpg",
-    "site": "Cleveland Museum of Art",
-    "artist": "Cleveland Museum of Art",
-    "license": "CC0",
-    "page": "https://clevelandart.org/art/1929.82",
-    "w": 531,
-    "h": 893
+    "title": "Corduroy fabric.jpg",
+    "site": "Wikimedia",
+    "artist": "ArielGlenn",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Corduroy_fabric.jpg",
+    "w": 960,
+    "h": 720
   },
   "leno": {
     "file": "leno.jpg",
-    "caption": "Gauze bandage being rolled",
-    "kind": "product",
-    "title": "3611 Bandage rolling.jpg",
-    "artist": "Oscar Bernader Bengtsson (b1888)",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:3611_Bandage_rolling.jpg",
+    "caption": "Plain-weave gauze, the threads already drifting out of square in the hand: the slip that the leno crossing is there to stop",
+    "kind": "analog",
+    "title": "Gauze 03.JPG",
+    "site": "Wikimedia",
+    "artist": "Saltanat ebli",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gauze_03.JPG",
     "w": 960,
-    "h": 641,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "leno2": {
+    "file": "leno2.jpg",
+    "caption": "Ra and sha, the Japanese crossed-warp silk gauzes, in a weaver's sample drawing",
+    "kind": "related",
+    "title": "Ra (Usumono gauze weave)) (Sha gauze weave with stripes) LCCN2009615648.jpg",
+    "site": "Wikimedia",
+    "artist": "Japanese fine prints, pre-1915",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ra_(Usumono_gauze_weave))_(Sha_gauze_weave_with_stripes)_LCCN2009615648.jpg",
+    "w": 960,
+    "h": 1435
   },
   "fleece": {
     "file": "fleece.jpg",
@@ -9374,15 +9458,15 @@ window.CREDITS = {
   },
   "triaxial": {
     "file": "triaxial.jpg",
-    "caption": "An open leno-type weave — triaxial takes the idea further, with three yarn sets at 60°",
+    "caption": "Hexagonal bamboo weave from Maharashtra: three directions of strip at sixty degrees, the triaxial idea as basket makers have always had it",
     "kind": "analog",
-    "title": "Woven Fabric (ST177) - MoMu Antwerp.jpg",
-    "artist": "Unknown",
+    "title": "Bamboo Wall Hanging, Maharashtra.jpg",
+    "site": "Wikimedia",
+    "artist": "Art Projects MKCL KF",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Woven_Fabric_(ST177)_-_MoMu_Antwerp.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bamboo_Wall_Hanging,_Maharashtra.jpg",
     "w": 960,
-    "h": 1396,
-    "site": "Wikimedia"
+    "h": 2078
   },
   "stitchbond": {
     "file": "stitchbond.jpg",

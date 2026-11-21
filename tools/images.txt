@@ -627,7 +627,11 @@ pianowire|Flickr|https://live.staticflickr.com/13/14232121_c20a01a398_b.jpg|Musi
 pianowire2|commons|Springs 009.jpg|Two extension springs: the other job of music wire, and the bigger one by tonnage|product
 pianowire3|commons|ECSC Financial report 1985 Marnaval tréfileuse.jpg|A multi-die drawing machine at Marnaval, 1985: the wire goes in as rod and comes out thinner at every die|process
 jacquard|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1953.329/1953.329_web.jpg|Violet and Columbine, a wool and mohair cloth woven on a Jacquard loom|product|CC0|William Morris (British, 1834–1896)|https://clevelandart.org/art/1953.329
+jacquard2|commons|Jacquard loom cards.jpg|The chain of punched cards: one card a pick, one hole a lifted thread|structure
+jacquard3|commons|A Jacquard loom showing information punchcards, National Museum of Scotland.jpg|A Jacquard loom in Edinburgh with its card chain hung over the head|process
 doublecloth|commons|Blue Double Weave Kimono Close Up.png|Double-weave cloth, close up|photo
+doublecloth2|commons|John Schneider Coverlet.jpg|A Jacquard double-weave coverlet by John Schneider: two cloths changing places wherever the colour changes|product
+doublecloth3|commons|Peru, Recuay Culture, 4th Century BC-8th Century AD - Double Cloth - 1993.243 - Cleveland Museum of Art.jpg|Double cloth from Recuay, Peru, up to two thousand years old: the construction is older than the loom that made it famous|product
 warpknit|commons|NIM 1910 Warp knitting machine 2522.jpg|A warp knitting machine — one needle per warp end|process
 jersey|commons|Gestrick links-rechts rechte Seite.jpeg|Weft-knit fabric, face side|photo
 seamlessknit|commons|Computerized Flat Knitting Machine (Jacquard Machine) 07.jpg|A computerised flat knitting machine|process
@@ -641,8 +645,11 @@ ptfeglass|commons|Denver International Airport.jpg|Denver airport roof — PTFE-
 etfefoil|commons|Tropical Biome of the Eden Project - geograph.org.uk - 4456101.jpg|The Eden Project biomes, clad in inflated ETFE pillows|product
 dwrfinish|commons|CSIRO ScienceImage 11489 Water droplets on QuickDry merino wollen fabric.jpg|Water beading on treated fabric|photo
 tufted|commons|Deep Pile Carpet Up Close.jpg|Deep carpet pile, close up|product
-terrypile|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1929.82/1929.82_web.jpg|Two-colour velvet with gold: a cut pile weave|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1929.82
-leno|commons|3611 Bandage rolling.jpg|Gauze bandage being rolled|product
+terrypile|commons|Frottee-Handtuch.jpg|Terry towelling close up: the slack warp buckled into loops on the face of the cloth|photo
+terrypile2|commons|QSMM Northrop Terry Towelling Loom 2699cp.JPG|A Northrop terry loom at Queen Street Mill, Burnley, the towel coming off it with its loops up|process
+terrypile3|commons|Corduroy fabric.jpg|Corduroy from a shirt: a cut pile too, but weft pile, the wales where the knife ran|product
+leno|commons|Gauze 03.JPG|Plain-weave gauze, the threads already drifting out of square in the hand: the slip that the leno crossing is there to stop|analog
+leno2|commons|Ra (Usumono gauze weave)) (Sha gauze weave with stripes) LCCN2009615648.jpg|Ra and sha, the Japanese crossed-warp silk gauzes, in a weaver's sample drawing|related
 fleece|Poly Haven|https://cdn.polyhaven.com/asset_img/primary/polar_fleece.png?width=1024|Polar fleece, napped and shorn level: a scanned swatch rendered by Poly Haven|photo|CC0|Poly Haven|https://polyhaven.com/a/polar_fleece
 nonwoven|commons|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
 weldedseam|commons|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
@@ -784,7 +791,7 @@ silicafibre|commons|Silica fibre 1250g m2 1600dpi.jpg|Woven high-silica cloth at
 silicafibre2|commons|Stafford Air & Space Museum, Weatherford, OK, US (14).jpg|An Apollo 10 stowage bag of Beta cloth, woven silica coated in PTFE: the cloth NASA chose after the fire of 1967|product
 kineticrope|commons|Abschleppseil Automobile equipment 01.JPG|An ordinary car tow rope, laid polypropylene with hooks: no give in it, which is the problem kinetic rope was made to solve|analog
 kineticrope2|Flickr|https://live.staticflickr.com/65535/53832951206_5e50292625_b.jpg|A fuse shackle for vehicle recovery, built to break first: the weak link that goes in line with a kinetic rope|analog|CC BY 2.0|Tony Webster|https://www.flickr.com/photos/diversey/53832951206
-triaxial|commons|Woven Fabric (ST177) - MoMu Antwerp.jpg|An open leno-type weave — triaxial takes the idea further, with three yarn sets at 60°|analog
+triaxial|commons|Bamboo Wall Hanging, Maharashtra.jpg|Hexagonal bamboo weave from Maharashtra: three directions of strip at sixty degrees, the triaxial idea as basket makers have always had it|analog
 stitchbond|commons|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A glass–aramid hybrid reinforcement, 580 g/m² — non-crimp fabric is this job with the yarns kept dead straight|analog
 erf|commons|MRF-Effekt-static-crop.png|Magnetorheological fluid stiffening in a field — the electric cousin behaves the same way, with volts instead of magnets|analog
 granite|commons|Surface plate.jpg|A cast-iron surface plate, 250 × 250 mm — the older material for the same lapped reference surface|analog
