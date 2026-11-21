@@ -564,10 +564,17 @@ acousticmeta|commons|Órgano, de Eusebio Sempere Juan.JPG|Eusebio Sempere's scul
 acousticmeta2|commons|Bass Trap.jpg|A studio bass trap: the conventional tuned absorber, big because it has no lattice to help it|analog
 selfhealpoly|commons|Supramolecular rubber and polymer glass.tif|Supramolecular rubber, which re-forms its own broken bonds|photo
 selfhealpoly2|commons|Zelfhelend beton-1.jpg|A manhole cover slab in Antwerp, the first self-healing concrete used in Belgium: the same idea with bacteria as the capsule|analog
-lce|commons|Wikipedia pic LCE.png|A liquid crystal elastomer|photo
+lce|commons|Wikipedia pic LCE.png|A liquid crystal elastomer hinge, drawn and photographed: current on, the strip bends|photo
+lce2|commons|Liquid crystal texture.jpg|A liquid crystal between crossed polarisers: the order the rubber freezes in|related
 oobleck|commons|Corn speaker.jpg|A cornstarch suspension standing up on a speaker cone|photo
+oobleck2|commons|Hand in a non-newtonian fluid 05.jpg|A fist on a tray of it: the punch meets a solid|photo
+oobleck3|commons|Types of Non-Newtonian Fluids.png|Stress against shear rate: the dilatant curve bends up, everything else bends down|structure
 thermoelectric|commons|Thermoelectric Seebeck power module.jpg|A thermoelectric module|photo
+thermoelectric2|commons|Монокристалл теллурида висмута.jpg|A single crystal of bismuth telluride, grown as a rod|photo
+thermoelectric3|commons|New Horizon’s Radioisotope Thermoelectric Generator (nh-1280).jpg|New Horizons in the clean room: the black finned cylinder is the radioisotope thermoelectric generator|related
 magnetocaloric|Flickr|https://live.staticflickr.com/65535/54041141131_993af738ca_b.jpg|Gadolinium|photo|CC BY 2.0|James St. John|https://www.flickr.com/photos/47445767@N05/54041141131
+magnetocaloric2|commons|Gadolinium-2.jpg|Twelve grams of pure gadolinium cast in acrylic: the reference refrigerant, Curie point at room temperature|photo
+magnetocaloric3|commons|Refrigeration (5888007815).jpg|Gas compression above, magnetic cycle below, NIST: the same four steps with a field instead of a piston|structure
 zeolite|Flickr|https://live.staticflickr.com/176/393784940_f8ce143280_b.jpg|Zeolite crystals|photo|CC BY-SA 2.0|cobalt123|https://www.flickr.com/photos/cobalt/393784940
 mof|commons|Activated Carbon.jpg|Activated carbon, powder and block — the adsorbent a MOF is built to out-perform, surface area for surface area|analog
 metalhydride|commons|Metal Hydride Storage Canisters.jpg|Metal hydride hydrogen storage canisters|product
@@ -861,7 +868,7 @@ triaxial|commons|Bamboo Wall Hanging, Maharashtra.jpg|Hexagonal bamboo weave fro
 stitchbond|commons|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A glass–aramid hybrid reinforcement, 580 g/m²: non-crimp fabric is this job with the yarns kept dead straight|analog
 stitchbond2|commons|Maliwatt.jpg|Maliwatt stitch-bonded cloth: the East German technique of the 1950s, a web held by rows of chain stitch, that the composite trade borrowed|related
 stitchbond3|commons|Stitch-bonded fabric in a car.jpg|Stitch-bonded insulation between an engine bay and the cabin, the arrow on it: the same stitching holding a heat and noise blanket|related
-erf|commons|MRF-Effekt-static-crop.png|Magnetorheological fluid stiffening in a field — the electric cousin behaves the same way, with volts instead of magnets|analog
+erf|commons|Magneto-rheological fluid.jpg|Magnetorheological fluid stiffening in a field: the electric cousin does the same with volts instead of magnets, and looks like plain oil doing it|analog
 granite|commons|Surface plate.jpg|A cast-iron surface plate, 250 × 250 mm — the older material for the same lapped reference surface|analog
 byborre|commons|Interlockjersey.jpg|Interlock, the plain double knit: two faces knitted as one, the base this cloth builds on, without the filler and the zones|analog
 byborre2|commons|Double knit structure (weft knitted).jpg|A two-faced weft-knit structure drawn out: the kind of double knit this cloth is built from|structure

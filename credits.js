@@ -6734,7 +6734,7 @@ window.CREDITS = {
   },
   "lce": {
     "file": "lce.png",
-    "caption": "A liquid crystal elastomer",
+    "caption": "A liquid crystal elastomer hinge, drawn and photographed: current on, the strip bends",
     "kind": "photo",
     "title": "Wikipedia pic LCE.png",
     "artist": "Devinjroach",
@@ -6743,6 +6743,18 @@ window.CREDITS = {
     "w": 827,
     "h": 479,
     "site": "Wikimedia"
+  },
+  "lce2": {
+    "file": "lce2.jpg",
+    "caption": "A liquid crystal between crossed polarisers: the order the rubber freezes in",
+    "kind": "related",
+    "title": "Liquid crystal texture.jpg",
+    "site": "Wikimedia",
+    "artist": "Alexprague",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Liquid_crystal_texture.jpg",
+    "w": 960,
+    "h": 720
   },
   "oobleck": {
     "file": "oobleck.jpg",
@@ -6756,6 +6768,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "oobleck2": {
+    "file": "oobleck2.jpg",
+    "caption": "A fist on a tray of it: the punch meets a solid",
+    "kind": "photo",
+    "title": "Hand in a non-newtonian fluid 05.jpg",
+    "site": "Wikimedia",
+    "artist": "ElisaG87",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hand_in_a_non-newtonian_fluid_05.jpg",
+    "w": 960,
+    "h": 667
+  },
+  "oobleck3": {
+    "file": "oobleck3.png",
+    "caption": "Stress against shear rate: the dilatant curve bends up, everything else bends down",
+    "kind": "structure",
+    "title": "Types of Non-Newtonian Fluids.png",
+    "site": "Wikimedia",
+    "artist": "Joseasorrentino",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Types_of_Non-Newtonian_Fluids.png",
+    "w": 960,
+    "h": 545
+  },
   "thermoelectric": {
     "file": "thermoelectric.jpg",
     "caption": "A thermoelectric module",
@@ -6768,6 +6804,30 @@ window.CREDITS = {
     "h": 731,
     "site": "Wikimedia"
   },
+  "thermoelectric2": {
+    "file": "thermoelectric2.jpg",
+    "caption": "A single crystal of bismuth telluride, grown as a rod",
+    "kind": "photo",
+    "title": "Монокристалл теллурида висмута.jpg",
+    "site": "Wikimedia",
+    "artist": "Original uploader was User:333 in ru-wikipedia",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D0%BD%D0%BE%D0%BA%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%BB%D0%BB_%D1%82%D0%B5%D0%BB%D0%BB%D1%83%D1%80%D0%B8%D0%B4%D0%B0_%D0%B2%D0%B8%D1%81%D0%BC%D1%83%D1%82%D0%B0.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "thermoelectric3": {
+    "file": "thermoelectric3.jpg",
+    "caption": "New Horizons in the clean room: the black finned cylinder is the radioisotope thermoelectric generator",
+    "kind": "related",
+    "title": "New Horizon’s Radioisotope Thermoelectric Generator (nh-1280).jpg",
+    "site": "Wikimedia",
+    "artist": "NASA",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:New_Horizon%E2%80%99s_Radioisotope_Thermoelectric_Generator_(nh-1280).jpg",
+    "w": 960,
+    "h": 540
+  },
   "magnetocaloric": {
     "file": "magnetocaloric.jpg",
     "caption": "Gadolinium",
@@ -6779,6 +6839,30 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/47445767@N05/54041141131",
     "w": 960,
     "h": 834
+  },
+  "magnetocaloric2": {
+    "file": "magnetocaloric2.jpg",
+    "caption": "Twelve grams of pure gadolinium cast in acrylic: the reference refrigerant, Curie point at room temperature",
+    "kind": "photo",
+    "title": "Gadolinium-2.jpg",
+    "site": "Wikimedia",
+    "artist": "Jurii",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gadolinium-2.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "magnetocaloric3": {
+    "file": "magnetocaloric3.jpg",
+    "caption": "Gas compression above, magnetic cycle below, NIST: the same four steps with a field instead of a piston",
+    "kind": "structure",
+    "title": "Refrigeration (5888007815).jpg",
+    "site": "Wikimedia",
+    "artist": "National Institute of Standards and Technology",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Refrigeration_(5888007815).jpg",
+    "w": 960,
+    "h": 646
   },
   "zeolite": {
     "file": "zeolite.jpg",
@@ -10297,16 +10381,16 @@ window.CREDITS = {
     "h": 720
   },
   "erf": {
-    "file": "erf.png",
-    "caption": "Magnetorheological fluid stiffening in a field — the electric cousin behaves the same way, with volts instead of magnets",
+    "file": "erf.jpg",
+    "caption": "Magnetorheological fluid stiffening in a field: the electric cousin does the same with volts instead of magnets, and looks like plain oil doing it",
     "kind": "analog",
-    "title": "MRF-Effekt-static-crop.png",
-    "artist": "INVENTUS Engineering GmbH",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MRF-Effekt-static-crop.png",
-    "w": 640,
-    "h": 480,
-    "site": "Wikimedia"
+    "title": "Magneto-rheological fluid.jpg",
+    "site": "Wikimedia",
+    "artist": "Cristian V.",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Magneto-rheological_fluid.jpg",
+    "w": 960,
+    "h": 720
   },
   "granite": {
     "file": "granite.jpg",
