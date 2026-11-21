@@ -656,9 +656,17 @@ toothenamel|commons|What is Inside Human Tooth (Macro-Anatomy).jpg|A sectioned t
 toothenamel2|commons|Hunter-Schreger Bands.jpg|Enamel under the microscope: the rods change direction in bands, so a crack cannot run straight through|structure
 toothenamel3|commons|Dental Caries Cavity 2.JPG|A cavity in a ten-year-old's tooth: enamel dissolved by acid, and nothing grows back|photo
 pumice|commons|Pumice stones.JPG|Pumice|photo
+pumice2|commons|Pumice Floating in Water.JPG|Pumice floating: nine tenths bubble, it sits on the water until the pores fill|photo
+pumice3|commons|Lipari pumice mine panorama.jpg|The pumice workings on Lipari: a white hill, quarried with conveyors straight to the ships|process
 mica|Flickr|https://live.staticflickr.com/555/31738996790_c22e49b401_b.jpg|Muscovite mica|photo|CC BY 2.0|James St. John|https://www.flickr.com/photos/47445767@N05/31738996790
+mica2|commons|Mica - Silicate Mineral.jpg|A book of mica from Pennsylvania, the basal cleavage opening into leaves|photo
+mica3|commons|MT-100 transistor (Sanken 2SC3519) and matching mica sheet 01.jpg|Mica washers beside the power transistor they insulate from its heatsink: heat through, volts held off|product
 asbestos|GeoDIL|https://geodil.dperkins.org/i/2527.jpg|Chrysotile asbestos|photo|CC0|Dexter Perkins, GeoDIL|https://geodil.dperkins.org/h/2527.html
-nephrite|commons|Amphibole - Nephrite Jade Basic calcium magnesium iron silicate Lander County Wyoming 2077.jpg|Nephrite jade|photo
+asbestos2|commons|Asbestos SEM (13125285594).jpg|Asbestos fibres under the electron microscope, a tenth to one micrometre across: the size the lung cannot clear|structure
+asbestos3|commons|Heat-resistant asbestos glove.jpg|A heat-resistant asbestos glove: the woven cloth that laughed at heat|product
+nephrite|commons|Nephrite jade (Pounamu Ultramafics, Pounamu Ultramafic Belt, South Island, New Zealand) 3 (24069093093).jpg|A slab of New Zealand nephrite, pounamu, cut and polished: the felted structure shows as cloud|photo
+nephrite2|commons|Toki pounamu 11.jpg|Maori adzes of pounamu at Te Papa: ground, not flaked, and tougher than bronze|product
+nephrite3|commons|Nephrite mt. with hunting scene SF Asian Art Museum B60J49.JPG|A Qing nephrite mountain with a hunting scene: weeks of abrasion in a stone that will not chip|product
 washi|commons|Washi(Sugihara paper).JPG|Washi paper|photo
 vellum|commons|Ashmolean Parchment AN 1981.940.jpg|Parchment|photo
 beeswax|commons|Beeswax blocks.JPG|Beeswax blocks|photo
@@ -925,7 +933,9 @@ stitchbond|commons|Glass-aramid-hybrid-area used-for-reinforced-plastics.jpg|A g
 stitchbond2|commons|Maliwatt.jpg|Maliwatt stitch-bonded cloth: the East German technique of the 1950s, a web held by rows of chain stitch, that the composite trade borrowed|related
 stitchbond3|commons|Stitch-bonded fabric in a car.jpg|Stitch-bonded insulation between an engine bay and the cabin, the arrow on it: the same stitching holding a heat and noise blanket|related
 erf|commons|Magneto-rheological fluid.jpg|Magnetorheological fluid stiffening in a field: the electric cousin does the same with volts instead of magnets, and looks like plain oil doing it|analog
-granite|commons|Surface plate.jpg|A cast-iron surface plate, 250 × 250 mm — the older material for the same lapped reference surface|analog
+granite|commons|Granite Inspection Table (6V6A0717-CC).jpg|Parts on a black granite inspection table in the NOIRLab machine shop, Tucson|product
+granite2|commons|NOIRLab HQ Granite Inspection Table (OK upr IMG 0301-CC).jpg|The same table in its shop: a slab on a stand, the reference flat for everything around it|product
+granite3|commons|Polished Diabase.jpg|Polished diabase: the fine black rock most plates are cut from, feldspar white and pyroxene black|related
 byborre|commons|Interlockjersey.jpg|Interlock, the plain double knit: two faces knitted as one, the base this cloth builds on, without the filler and the zones|analog
 byborre2|commons|Double knit structure (weft knitted).jpg|A two-faced weft-knit structure drawn out: the kind of double knit this cloth is built from|structure
 dcf|commons|Clew of an AC45 Cuben fiber gennaker.jpg|The clew of an AC45 catamaran's gennaker, cut from Cuben fibre: the laid filaments show through the film|photo

@@ -7836,6 +7836,30 @@ window.CREDITS = {
     "h": 709,
     "site": "Wikimedia"
   },
+  "pumice2": {
+    "file": "pumice2.jpg",
+    "caption": "Pumice floating: nine tenths bubble, it sits on the water until the pores fill",
+    "kind": "photo",
+    "title": "Pumice Floating in Water.JPG",
+    "site": "Wikimedia",
+    "artist": "Outlookxp",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pumice_Floating_in_Water.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "pumice3": {
+    "file": "pumice3.jpg",
+    "caption": "The pumice workings on Lipari: a white hill, quarried with conveyors straight to the ships",
+    "kind": "process",
+    "title": "Lipari pumice mine panorama.jpg",
+    "site": "Wikimedia",
+    "artist": "kallerna",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lipari_pumice_mine_panorama.jpg",
+    "w": 960,
+    "h": 307
+  },
   "mica": {
     "file": "mica.jpg",
     "caption": "Muscovite mica",
@@ -7847,6 +7871,30 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/47445767@N05/31738996790",
     "w": 960,
     "h": 719
+  },
+  "mica2": {
+    "file": "mica2.jpg",
+    "caption": "A book of mica from Pennsylvania, the basal cleavage opening into leaves",
+    "kind": "photo",
+    "title": "Mica - Silicate Mineral.jpg",
+    "site": "Wikimedia",
+    "artist": "B. Domangue",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mica_-_Silicate_Mineral.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "mica3": {
+    "file": "mica3.jpg",
+    "caption": "Mica washers beside the power transistor they insulate from its heatsink: heat through, volts held off",
+    "kind": "product",
+    "title": "MT-100 transistor (Sanken 2SC3519) and matching mica sheet 01.jpg",
+    "site": "Wikimedia",
+    "artist": "Retired electrician",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:MT-100_transistor_(Sanken_2SC3519)_and_matching_mica_sheet_01.jpg",
+    "w": 960,
+    "h": 640
   },
   "asbestos": {
     "file": "asbestos.jpg",
@@ -7860,17 +7908,65 @@ window.CREDITS = {
     "w": 960,
     "h": 981
   },
+  "asbestos2": {
+    "file": "asbestos2.jpg",
+    "caption": "Asbestos fibres under the electron microscope, a tenth to one micrometre across: the size the lung cannot clear",
+    "kind": "structure",
+    "title": "Asbestos SEM (13125285594).jpg",
+    "site": "Wikimedia",
+    "artist": "Liangtai Lin",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Asbestos_SEM_(13125285594).jpg",
+    "w": 960,
+    "h": 645
+  },
+  "asbestos3": {
+    "file": "asbestos3.jpg",
+    "caption": "A heat-resistant asbestos glove: the woven cloth that laughed at heat",
+    "kind": "product",
+    "title": "Heat-resistant asbestos glove.jpg",
+    "site": "Wikimedia",
+    "artist": "LukaszKatlewa",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Heat-resistant_asbestos_glove.jpg",
+    "w": 960,
+    "h": 515
+  },
   "nephrite": {
     "file": "nephrite.jpg",
-    "caption": "Nephrite jade",
+    "caption": "A slab of New Zealand nephrite, pounamu, cut and polished: the felted structure shows as cloud",
     "kind": "photo",
-    "title": "Amphibole - Nephrite Jade Basic calcium magnesium iron silicate Lander County Wyoming 2077.jpg",
-    "artist": "Dave Dyet http://www.shutterstone.com  http://www.dyet.com",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Amphibole_-_Nephrite_Jade_Basic_calcium_magnesium_iron_silicate_Lander_County_Wyoming_2077.jpg",
-    "w": 640,
-    "h": 640,
-    "site": "Wikimedia"
+    "title": "Nephrite jade (Pounamu Ultramafics, Pounamu Ultramafic Belt, South Island, New Zealand) 3 (24069093093).jpg",
+    "site": "Wikimedia",
+    "artist": "James St. John",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nephrite_jade_(Pounamu_Ultramafics,_Pounamu_Ultramafic_Belt,_South_Island,_New_Zealand)_3_(24069093093).jpg",
+    "w": 960,
+    "h": 756
+  },
+  "nephrite2": {
+    "file": "nephrite2.jpg",
+    "caption": "Maori adzes of pounamu at Te Papa: ground, not flaked, and tougher than bronze",
+    "kind": "product",
+    "title": "Toki pounamu 11.jpg",
+    "site": "Wikimedia",
+    "artist": "Rudolph89",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Toki_pounamu_11.jpg",
+    "w": 960,
+    "h": 540
+  },
+  "nephrite3": {
+    "file": "nephrite3.jpg",
+    "caption": "A Qing nephrite mountain with a hunting scene: weeks of abrasion in a stone that will not chip",
+    "kind": "product",
+    "title": "Nephrite mt. with hunting scene SF Asian Art Museum B60J49.JPG",
+    "site": "Wikimedia",
+    "artist": "BrokenSphere",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nephrite_mt._with_hunting_scene_SF_Asian_Art_Museum_B60J49.JPG",
+    "w": 960,
+    "h": 808
   },
   "washi": {
     "file": "washi.jpg",
@@ -11066,15 +11162,39 @@ window.CREDITS = {
   },
   "granite": {
     "file": "granite.jpg",
-    "caption": "A cast-iron surface plate, 250 × 250 mm — the older material for the same lapped reference surface",
-    "kind": "analog",
-    "title": "Surface plate.jpg",
-    "artist": "Rrudzik",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Surface_plate.jpg",
+    "caption": "Parts on a black granite inspection table in the NOIRLab machine shop, Tucson",
+    "kind": "product",
+    "title": "Granite Inspection Table (6V6A0717-CC).jpg",
+    "site": "Wikimedia",
+    "artist": "NOIRLab/NSF/AURA/T. Slovinský",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Granite_Inspection_Table_(6V6A0717-CC).jpg",
     "w": 960,
-    "h": 449,
-    "site": "Wikimedia"
+    "h": 640
+  },
+  "granite2": {
+    "file": "granite2.jpg",
+    "caption": "The same table in its shop: a slab on a stand, the reference flat for everything around it",
+    "kind": "product",
+    "title": "NOIRLab HQ Granite Inspection Table (OK upr IMG 0301-CC).jpg",
+    "site": "Wikimedia",
+    "artist": "NOIRLab/NSF/AURA/P. Horálek",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NOIRLab_HQ_Granite_Inspection_Table_(OK_upr_IMG_0301-CC).jpg",
+    "w": 960,
+    "h": 640
+  },
+  "granite3": {
+    "file": "granite3.jpg",
+    "caption": "Polished diabase: the fine black rock most plates are cut from, feldspar white and pyroxene black",
+    "kind": "related",
+    "title": "Polished Diabase.jpg",
+    "site": "Wikimedia",
+    "artist": "CrankyScorpion at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Polished_Diabase.jpg",
+    "w": 960,
+    "h": 953
   },
   "byborre": {
     "file": "byborre.jpg",
