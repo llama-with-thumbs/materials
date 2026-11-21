@@ -3045,40 +3045,45 @@ window.MATERIALS = [
 },
 {
   id: "mercerised", cat: "fabric", name: "Mercerised cotton",
-  sub: "caustic treatment under tension", img: "mercerised",
-  hook: "Cotton is a flat twisted ribbon. Hold it in tension in caustic soda and it swells into a round rod and the cellulose recrystallises — so it reflects light, holds dye far better, gains strength and stops shrinking. Mercer found it in 1844; Lowe added the tension and made it useful.",
+  sub: "caustic treatment under tension", img: "mercerised", extra: ["mercerised2"],
+  hook: "Cotton is a flat twisted ribbon. Hold it taut in caustic soda and it swells to a round rod and recrystallises, so it shines, dyes deeper, strengthens and stops shrinking. Mercer found it in 1844, Lowe the tension.",
+  more: "Mercer, a Lancashire calico printer, found in 1844 that caustic soda made cotton swell, strengthen and drink up dye, and sold it to nobody: the cloth came out a quarter shorter. Lowe found the missing step in 1889: hold the yarn stretched through lye and rinse, and the fibre cannot shrink, so the ribbon fills out into a smooth cylinder. A round, smooth fibre reflects light like silk, the sheen on a polo shirt and a reel of thread; the cellulose has changed its crystal form, so dye goes deeper from the same bath; and the fibre is a fifth stronger and has done its shrinking. The costs: a bath of cold caustic, to be recovered, and the cloth neutralised; some softness goes; only cotton and linen take it; and the gloss wears dull at the cuff.",
   stats: [["Strength", "+20–30%"], ["Dye uptake", "much higher"], ["Shrinkage", "largely stabilised"]],
-  uses: "Sewing and embroidery thread, shirting and polo knits, quilting cotton, lace.",
+  uses: "Sewing and embroidery thread, shirting and polo knits, quilting cotton, lace, crochet cotton.",
   link: "https://en.wikipedia.org/wiki/Mercerised_cotton"
 },
 {
   id: "dwrfinish", cat: "fabric", name: "Durable water repellent",
-  sub: "low-surface-energy surface finish", img: "dwrfinish",
-  hook: "A coating a few nanometres thick that does not block the fabric at all: it lowers the surface energy so water beads and rolls, while the weave stays open to vapour. The old C8 fluorochemistry did it almost permanently — and stayed in the environment just as permanently.",
+  sub: "low-surface-energy surface finish", img: "dwrfinish", extra: ["dwrfinish2", "dwrfinish3"],
+  hook: "A coating nanometres thick that blocks nothing: it lowers the surface energy so water beads and rolls while the weave stays open. C8 fluorochemistry did it almost for ever, and stays in the environment as long.",
+  more: "Water beads on a surface or wets it according to which is lower in energy, and a fluorocarbon chain has the lowest of all, below oil. Pad a cloth through a bath of fluorinated acrylic and cure it, and every fibre wears a layer of chains standing on end, tails out, so rain draws into drops and rolls off before it wets the yarn, while the pores stay open and the shell keeps breathing. Durable means it survives washing, more or less; heat stands the chains back up. The costs: the eight-carbon chain that worked best breaks down to PFOA, now in every river and most blood, so it went in 2015, and the six-carbon after, and the wax and silicone that replace it shed water but not oil, so sunscreen beats them; and all abrade off at the shoulders in a season.",
   stats: [["Thickness", "nanometres"], ["Old chemistry", "C8, now phased out"], ["Upkeep", "wears off, heat reactivates"]],
-  uses: "Shell jackets and softshells, tents, umbrellas, upholstery stain finishes.",
+  uses: "Shell jackets and softshells, tents, umbrellas, upholstery stain finishes, workwear.",
   link: "https://en.wikipedia.org/wiki/Durable_water_repellent"
 },
 {
   id: "ringmesh", cat: "fabric", name: "Ring mesh",
-  sub: "riveted or welded steel rings", img: "ringmesh",
-  hook: "Fabric made of small steel circles, each one riveted or welded shut and linked to four neighbours. A blade cannot part a single ring without the load spreading to the others, so a cut becomes a push. Fifteen centuries as armour, now a butcher's glove.",
+  sub: "riveted or welded steel rings", img: "ringmesh", extra: ["ringmesh2", "ringmesh3"],
+  hook: "Small steel rings, each riveted or welded shut, linked to four neighbours. A blade cannot part one ring without loading the rest, so a cut is a push. Fifteen centuries as armour, now a butcher's glove.",
+  more: "Mail is the oldest metal cloth: iron rings, each through four others and closed, so it drapes like cloth and stops an edge like plate. The Celts had it by 300 BC and Europe wore it fifteen centuries, forty thousand rings a shirt, each riveted by hand, since a butted ring springs open under a point. A knife meets the same arithmetic: to cut one ring it must pull four, then sixteen, so the blade stops and the hand is shoved. The modern glove is stainless rings millimetres across, welded shut by machine, worn by butchers, oyster shuckers and shark divers on the hand that holds what is being cut. The costs: it stops a cut, not a blow, and a fine point can still find a ring; a shirt is ten kilos; it rusted till stainless; and meat gets into every ring.",
   stats: [["Pattern", "4-in-1 is standard"], ["Ring", "riveted or welded closed"], ["Cut", "stopped, not slowed"]],
   uses: "Butchers and oyster gloves, shark suits, abrasive blast curtains, chef aprons, reproduction mail.",
   link: "https://en.wikipedia.org/wiki/Mail_(armour)"
 },
 {
   id: "weldedseam", cat: "fabric", name: "Welded seam",
-  sub: "ultrasonic and RF bonding", img: "weldedseam",
-  hook: "A stitch is a neat row of holes through a waterproof layer, which is why it has to be taped afterwards. A weld melts the two layers into each other instead — no needle, no thread, no holes, and a joint thinner than the stitched one it replaces.",
+  sub: "ultrasonic and RF bonding", img: "weldedseam", extra: ["weldedseam2", "weldedseam3"],
+  hook: "A stitch is a neat row of holes through a waterproof layer, so it has to be taped. A weld melts the two layers into each other instead: no needle, no thread, no holes, and a joint thinner than the stitched one.",
+  more: "If both sides of a seam are thermoplastic nothing need go through them: heat, press, and they melt into one, three ways. A radio-frequency press heats PVC and polyurethane from inside, which makes an inflatable boat, a blood bag and a tarpaulin stitchless. An ultrasonic horn rubs the layers forty thousand times a second till friction melts them, which joins a mask or a gown at a seam a second with no thread to shed. A hot wedge or a jet of hot air runs between two sheets ahead of a roller, which closes roof membranes, drysuits and jacket seam tape. The costs: only thermoplastics weld, so cotton and wool are sewn; a weld peels where a seam holds, so the two often go together; heat stiffens the cloth beside it; and a failed weld cannot be unpicked.",
   stats: [["Holes", "none"], ["Ultrasonic", "20–40 kHz"], ["Limit", "thermoplastics only"]],
-  uses: "Drysuits and waders, inflatable boats, medical disposables, taped shell jackets, filter bags.",
+  uses: "Drysuits and waders, inflatable boats, medical disposables, taped shell jackets, filter bags, tarpaulins.",
   link: "https://en.wikipedia.org/wiki/Ultrasonic_welding"
 },
 {
   id: "tufted", cat: "fabric", name: "Tufting",
-  sub: "yarn needled into a backing", img: "tufted",
-  hook: "Hundreds of needles push yarn through a ready-made backing cloth and hooks hold the loops while the needles withdraw. A carpet that took a weaver months comes off the machine in minutes — which is the entire reason wall-to-wall carpet stopped being a luxury in the 1950s.",
+  sub: "yarn needled into a backing", img: "tufted", extra: ["tufted2", "tufted3"],
+  hook: "Hundreds of needles punch yarn through a backing cloth and hooks hold the loops as the needles withdraw. A carpet a weaver took months over comes off in minutes, the reason fitted carpet stopped being a luxury.",
+  more: "It began in Dalton, Georgia, where women tufted bedspreads by hand about 1900; a mechanic put the needle on a machine, then a row, and by the 1950s a machine four metres wide punched a thousand yarns at once through a woven backing. Each needle takes its yarn through the backing, a looper holds the loop as the needle rises, a knife cuts it for cut pile; the back is coated with latex to hold the tufts and a second backing glued on for stiffness. Nine carpets in ten are made so; a hand tufting gun does it a row at a time for rugs and art. The costs: glue holds the tuft, not weave, so a snag pulls a row; the backing parts with age; pattern was long what a needle row could do; and the sandwich is three plastics glued together, so old carpet is landfill.",
   stats: [["Share of carpet", "over 90%"], ["Speed", "minutes, not months"], ["Backing", "woven or nonwoven, added"]],
   uses: "Carpet and rugs, automotive floor mats, artificial turf, upholstery, tufted art.",
   link: "https://en.wikipedia.org/wiki/Tufting"

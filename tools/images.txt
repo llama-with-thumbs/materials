@@ -650,8 +650,11 @@ electrospun3|commons|ElectroSpinz Doris.jpg|A laboratory electrospinning rig: sy
 tyvek|commons|Tyvek house wrap.jpg|A block of flats in Atlanta wrapped in Tyvek before the cladding: rain out, vapour through, and a deadline, since sunlight eats it|product
 tyvek2|Flickr|https://live.staticflickr.com/3458/3350958206_db48d7665f_b.jpg|A Tyvek envelope|product|CC BY-SA 2.0|Newone1970|https://www.flickr.com/photos/32147839@N07/3350958206
 tyvek3|commons|Tyvek Suits (cropped).jpg|Tyvek coveralls: the sheet that stops liquid and dust but lets sweat out as vapour|product
-mercerised|commons|Spool of white thread.jpg|Spooled cotton thread — mercerising gives it the sheen|product
-ringmesh|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1923.1120/1923.1120_web.jpg|A riveted mail hauberk of steel and brass rings|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1923.1120
+mercerised|commons|Spool of white thread.jpg|Spooled cotton thread: mercerising gives it the sheen|product
+mercerised2|commons|Bobinas de hilo de algodón mercerizado - Cotton thread reels.jpg|Reels of mercerised cotton thread: the gloss is the fibre, round and smooth, not a coating|product
+ringmesh|commons|Gant anti coupure.jpg|A cut-resistant glove of welded stainless rings: the butcher's hand that holds the meat|product
+ringmesh2|commons|European riveted mail, close up view of the outside of the links.jpg|European riveted mail close to: every ring through four others, every ring closed with a rivet|photo
+ringmesh3|commons|Eastern riveted hood detail.JPG|A Mughal mail hood, riveted rings with a cloth lining: the same fabric as armour|product
 opwairbag|commons|Vauxhall Vectra curtain airbag deployed.jpg|A curtain airbag deployed down the side of a car: a bag with no seams, still holding its air|product
 opwairbag2|commons|Renault Laguna 01 airbag by-dpc.jpg|The front bags of a Laguna, hanging empty: the cut-and-sewn kind, which does its work in thirty milliseconds and may leak as it likes|analog
 ptfeglass|commons|Dresden Hauptbahnhof 001.jpg|Dresden main station under Foster's roof of 2006: a 0.7 mm glass membrane in PTFE, and the platforms in daylight|product
@@ -660,8 +663,12 @@ ptfeglass3|commons|2010-1212-MetrodomeRoofCollapse.jpg|The Metrodome, Minneapoli
 etfefoil|commons|Allianz Arena - Panels.jpg|The cushions of the Allianz Arena close to: two foils welded at the rim, air between, a lamp behind|photo
 etfefoil2|commons|AllianzArena Luftversorgung und Beleuchtung.jpg|Behind the cushions: the air pipes that keep them inflated and the lamps that colour them|structure
 etfefoil3|commons|Water Cube - panoramio (1).jpg|The Beijing Water Cube: three thousand ETFE bubbles on a steel foam, 2008|product
-dwrfinish|commons|CSIRO ScienceImage 11489 Water droplets on QuickDry merino wollen fabric.jpg|Water beading on treated fabric|photo
-tufted|commons|Deep Pile Carpet Up Close.jpg|Deep carpet pile, close up|product
+dwrfinish|commons|CSIRO ScienceImage 11489 Water droplets on QuickDry merino wollen fabric.jpg|Water beading on a treated merino cloth: the drops stand on the fibre tips and touch almost nothing|photo
+dwrfinish2|commons|Water drops in umbrella.jpg|Rain beading on an umbrella: the finish most people own without knowing it|product
+dwrfinish3|commons|Lotus-effect on a ginko leaf.jpg|A drop on a ginkgo leaf: wax and a rough surface doing by nature what the finish does by chemistry|analog
+tufted|commons|"Mirage" (Miraj), by the Tuff Guys, unknown date (circa 2020), rug tufting gun, with wool and wool + acrylic, photoed at Art Safari (10 February-14 May 2023), courtesy of the artists.jpg|A tufted wall piece by the Tuff Guys, about 2020: wool and acrylic punched into a backing with a tufting gun|product
+tufted2|commons|Tufting gun (TD-01).jpg|A hand tufting gun, cut-pile type: one needle doing what the carpet machine does with a thousand|process
+tufted3|commons|Tuftmachines Soest 1977.jpg|Four tufting lines at Soest in 1977: the machines that made fitted carpet ordinary|process
 terrypile|commons|Frottee-Handtuch.jpg|Terry towelling close up: the slack warp buckled into loops on the face of the cloth|photo
 terrypile2|commons|QSMM Northrop Terry Towelling Loom 2699cp.JPG|A Northrop terry loom at Queen Street Mill, Burnley, the towel coming off it with its loops up|process
 terrypile3|commons|Corduroy fabric.jpg|Corduroy from a shirt: a cut pile too, but weft pile, the wales where the knife ran|product
@@ -672,7 +679,9 @@ fleece2|commons|Balaclava with modern cut in red made of thin fabric with polar 
 nonwoven|commons|The front of a blue disposable mask.jpg|A disposable mask: spunbond faces over a meltblown filter|product
 nonwoven2|commons|Sebészeti maszk középső rétege.jpg|The middle layer of a surgical mask at twelve times: the meltblown web, fibres a few microns across, that does the filtering|structure
 nonwoven3|commons|Kohlrabi unter Vliesbedeckung--Josef Schlaghecken.jpg|Spunbond as crop cover over kohlrabi: light and rain through, frost and flies out|product
-weldedseam|commons|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
+weldedseam|commons|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit: its seams are welded, not sewn|product
+weldedseam2|commons|Ultrasonic Welding.JPG|Ultrasonic welding of thin foils at the Essen fair: the rotating sonotrode runs along the seam and friction does the melting|process
+weldedseam3|commons|Zodiac Inflatable Boat.jpg|An inflatable boat: PVC tubes with every seam radio-frequency welded, and not a stitch to leak|product
 waam|commons|Metal 3D printed turbine (49803494637).jpg|A propeller built from welding wire by wire arc deposition, the beads still on the blades and the hub turned|product
 waam2|commons|World first 3D printed steel bridge in Amsterdam.jpg|The MX3D footbridge over the Oudezijds Achterburgwal, Amsterdam, 2021: twelve metres of stainless steel laid bead by bead by four robots|product
 metalpowder|commons|SEM photo of 316L Stainless Steel metal powder atomized with ATO Lab Plus ultrasonic metal atomizer.jpg|Atomised 316L under the electron microscope: spheres, a few satellites, nothing angular|photo

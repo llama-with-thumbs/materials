@@ -7766,7 +7766,7 @@ window.CREDITS = {
   },
   "mercerised": {
     "file": "mercerised.jpg",
-    "caption": "Spooled cotton thread — mercerising gives it the sheen",
+    "caption": "Spooled cotton thread: mercerising gives it the sheen",
     "kind": "product",
     "title": "Spool of white thread.jpg",
     "artist": "No machine-readable author provided. Dmeranda assumed (based on copyright claims).",
@@ -7776,17 +7776,53 @@ window.CREDITS = {
     "h": 643,
     "site": "Wikimedia"
   },
+  "mercerised2": {
+    "file": "mercerised2.jpg",
+    "caption": "Reels of mercerised cotton thread: the gloss is the fibre, round and smooth, not a coating",
+    "kind": "product",
+    "title": "Bobinas de hilo de algodón mercerizado - Cotton thread reels.jpg",
+    "site": "Wikimedia",
+    "artist": "johannrela",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bobinas_de_hilo_de_algod%C3%B3n_mercerizado_-_Cotton_thread_reels.jpg",
+    "w": 960,
+    "h": 720
+  },
   "ringmesh": {
     "file": "ringmesh.jpg",
-    "caption": "A riveted mail hauberk of steel and brass rings",
+    "caption": "A cut-resistant glove of welded stainless rings: the butcher's hand that holds the meat",
     "kind": "product",
-    "title": "https://openaccess-cdn.clevelandart.org/1923.1120/1923.1120_web.jpg",
-    "site": "Cleveland Museum of Art",
-    "artist": "Cleveland Museum of Art",
-    "license": "CC0",
-    "page": "https://clevelandart.org/art/1923.1120",
-    "w": 731,
-    "h": 900
+    "title": "Gant anti coupure.jpg",
+    "site": "Wikimedia",
+    "artist": "Rizolait",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gant_anti_coupure.jpg",
+    "w": 960,
+    "h": 601
+  },
+  "ringmesh2": {
+    "file": "ringmesh2.jpg",
+    "caption": "European riveted mail close to: every ring through four others, every ring closed with a rivet",
+    "kind": "photo",
+    "title": "European riveted mail, close up view of the outside of the links.jpg",
+    "site": "Wikimedia",
+    "artist": "Worldantiques",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:European_riveted_mail,_close_up_view_of_the_outside_of_the_links.jpg",
+    "w": 960,
+    "h": 888
+  },
+  "ringmesh3": {
+    "file": "ringmesh3.jpg",
+    "caption": "A Mughal mail hood, riveted rings with a cloth lining: the same fabric as armour",
+    "kind": "product",
+    "title": "Eastern riveted hood detail.JPG",
+    "site": "Wikimedia",
+    "artist": "Samuraiantiqueworld",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eastern_riveted_hood_detail.JPG",
+    "w": 960,
+    "h": 720
   },
   "opwairbag": {
     "file": "opwairbag.jpg",
@@ -7886,7 +7922,7 @@ window.CREDITS = {
   },
   "dwrfinish": {
     "file": "dwrfinish.jpg",
-    "caption": "Water beading on treated fabric",
+    "caption": "Water beading on a treated merino cloth: the drops stand on the fibre tips and touch almost nothing",
     "kind": "photo",
     "title": "CSIRO ScienceImage 11489 Water droplets on QuickDry merino wollen fabric.jpg",
     "artist": "Bea Lipson, CSIRO",
@@ -7896,17 +7932,65 @@ window.CREDITS = {
     "h": 711,
     "site": "Wikimedia"
   },
+  "dwrfinish2": {
+    "file": "dwrfinish2.jpg",
+    "caption": "Rain beading on an umbrella: the finish most people own without knowing it",
+    "kind": "product",
+    "title": "Water drops in umbrella.jpg",
+    "site": "Wikimedia",
+    "artist": "சீதா லெட்சுமி நாராயணன்",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Water_drops_in_umbrella.jpg",
+    "w": 960,
+    "h": 450
+  },
+  "dwrfinish3": {
+    "file": "dwrfinish3.jpg",
+    "caption": "A drop on a ginkgo leaf: wax and a rough surface doing by nature what the finish does by chemistry",
+    "kind": "analog",
+    "title": "Lotus-effect on a ginko leaf.jpg",
+    "site": "Wikimedia",
+    "artist": "Polymerix",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lotus-effect_on_a_ginko_leaf.jpg",
+    "w": 960,
+    "h": 720
+  },
   "tufted": {
     "file": "tufted.jpg",
-    "caption": "Deep carpet pile, close up",
+    "caption": "A tufted wall piece by the Tuff Guys, about 2020: wool and acrylic punched into a backing with a tufting gun",
     "kind": "product",
-    "title": "Deep Pile Carpet Up Close.jpg",
-    "artist": "GHOSTIE134",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Deep_Pile_Carpet_Up_Close.jpg",
+    "title": "\"Mirage\" (Miraj), by the Tuff Guys, unknown date (circa 2020), rug tufting gun, with wool and wool + acrylic, photoed at Art Safari (10 February-14 May 2023), courtesy of the artists.jpg",
+    "site": "Wikimedia",
+    "artist": "Neoclassicism Enthusiast",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:%22Mirage%22_(Miraj),_by_the_Tuff_Guys,_unknown_date_(circa_2020),_rug_tufting_gun,_with_wool_and_wool_%2B_acrylic,_photoed_at_Art_Safari_(10_February-14_May_2023),_courtesy_of_the_artists.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 743
+  },
+  "tufted2": {
+    "file": "tufted2.jpg",
+    "caption": "A hand tufting gun, cut-pile type: one needle doing what the carpet machine does with a thousand",
+    "kind": "process",
+    "title": "Tufting gun (TD-01).jpg",
+    "site": "Wikimedia",
+    "artist": "KnowledgeBySean",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tufting_gun_(TD-01).jpg",
+    "w": 960,
+    "h": 770
+  },
+  "tufted3": {
+    "file": "tufted3.jpg",
+    "caption": "Four tufting lines at Soest in 1977: the machines that made fitted carpet ordinary",
+    "kind": "process",
+    "title": "Tuftmachines Soest 1977.jpg",
+    "site": "Wikimedia",
+    "artist": "BM Veen",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tuftmachines_Soest_1977.jpg",
+    "w": 960,
+    "h": 640
   },
   "terrypile": {
     "file": "terrypile.jpg",
@@ -8030,7 +8114,7 @@ window.CREDITS = {
   },
   "weldedseam": {
     "file": "weldedseam.jpg",
-    "caption": "A drysuit — its seams are welded, not sewn",
+    "caption": "A drysuit: its seams are welded, not sewn",
     "kind": "product",
     "title": "Viking pro 1000 drysuit with magnum hood.jpg",
     "artist": "dive90m",
@@ -8039,6 +8123,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1707,
     "site": "Wikimedia"
+  },
+  "weldedseam2": {
+    "file": "weldedseam2.jpg",
+    "caption": "Ultrasonic welding of thin foils at the Essen fair: the rotating sonotrode runs along the seam and friction does the melting",
+    "kind": "process",
+    "title": "Ultrasonic Welding.JPG",
+    "site": "Wikimedia",
+    "artist": "NearEMPTiness",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ultrasonic_Welding.JPG",
+    "w": 960,
+    "h": 719
+  },
+  "weldedseam3": {
+    "file": "weldedseam3.jpg",
+    "caption": "An inflatable boat: PVC tubes with every seam radio-frequency welded, and not a stitch to leak",
+    "kind": "product",
+    "title": "Zodiac Inflatable Boat.jpg",
+    "site": "Wikimedia",
+    "artist": "MrPanyGoff",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zodiac_Inflatable_Boat.jpg",
+    "w": 960,
+    "h": 405
   },
   "waam": {
     "file": "waam.jpg",
