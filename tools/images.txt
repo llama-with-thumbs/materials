@@ -87,6 +87,8 @@ hap3|commons|Kalkdepots bei Tendinosis calcarea.jpg|Hydroxyapatite removed from 
 mxene|commons|SEM of MXene.png|MXene flakes under the electron microscope|photo
 vantablack|commons|Vantablack 02.JPG|Vantablack-coated foil — the crumpled surface is invisible|photo
 mrf|commons|MRF mit Permanentmagnet.jpg|Magnetorheological fluid standing up on a permanent magnet|photo
+mrf2|commons|MRF-Turm.jpg|A tower of magnetorheological fluid held up by the field below it|photo
+mrf3|commons|Messung Ansprechverhalten MRF-Daempfer.png|Measured response of an MR damper: force (red) follows the current (blue) in about a millisecond|related
 ferrofluid|commons|Ferrofluid Magnet under glass edit.jpg|Ferrofluid spiking along field lines|photo
 twood|commons|KTH-forskare har uppfunnit genomskinligt trä prov 1.jpg|Transparent wood sample (KTH)|photo
 twood2|commons|LED-backlit transparent wood panels in Goze Mokudon bench-shaped andon lantern.jpg|Backlit panels of transparent wood in a lantern bench at Joetsu, Japan: the grain shows through the light|product
@@ -966,6 +968,8 @@ pvctarp|Flickr|https://live.staticflickr.com/65535/51170247859_908ab7d3a8_b.jpg|
 pvctarp2|commons|W2428-Semi Tautliner OuvertureLaterale 4576N8.jpg|A curtainsider with the side drawn back for a forklift: the curtain is the coated scrim, nothing else|product
 pvctarp3|commons|Marquee tent with 4 peacks.jpg|A marquee in the same cloth: welded panels, tensioned over a frame|product
 pleat|commons|CSIRO ScienceImage 2162 Skirt with Siroset and Skirt Without Siroset.jpg|Two wool skirts, the right one pleated by the Siroset process and the left one not|product
+pleat2|commons|Issey Miyake Rhythm Pleats series 1990.jpg|Issey Miyake, Rhythm Pleats, 1990: polyester pleated and set with heat and pressure|product
+pleat3|commons|Delphos Mariano Fortuny 01.jpg|Fortuny Delphos gowns of pleated silk, rolled for their boxes: silk holds no set, so they were stored twisted and re-pleated when they fell|product
 hammerfelt|commons|Piano hammer 2101-0006.jpg|Piano hammers in their rest position under the strings|photo
 ribbonmic|commons|Royer R-122 Active Ribbon Microphone (clip).jpg|A Royer R-122, with the ribbon hidden behind its grille|product
 drumhead|commons|Drumhead Coated on Tom Drum 01.png|A coated drumhead fitted to a tom|photo
@@ -1014,8 +1018,13 @@ cellulosefill|commons|Bulk recycled cellulose scan.jpg|A clump of milled newspri
 flaxinsul|commons|Linfiberisolasjon i himling.JPG|Flax fibre mats fitted between ceiling joists|photo
 eelgrass|commons|Seaweed roof at Læsø, 'Hedvigs Hus', DK.jpg|Eelgrass thatch on the gable of a Læsø farmhouse, bulging over the frame|product
 chambray|commons|Blue chambray cloth.JPG|Washed cotton chambray, with a millimetre scale|photo
+chambray2|commons|Chambray Macro (49852163717).jpg|Chambray close enough to count: blue warp, white weft, one over one|structure
+chambray3|commons|Chambray fabric.jpg|A linen and cotton chambray, both sides alike|photo
 oxfordcloth|commons|Oxford cloth.jpg|Oxford shirting, the paired warp ends visible at the left|photo
+oxfordcloth2|commons|Banana Republic Button-Down Shirt 1 2019-03-21.jpg|A blue oxford button-down: the collar the cloth was made for|product
 gingham|commons|Greengingham.jpg|Gingham hemmed as a pocket square, both faces alike|product
+gingham2|commons|Gingham teatowel.jpg|A red gingham tea towel: three tones from two yarns|product
+gingham3|commons|Portrait photograph of girl in gingham dress n.d. (3199631981).jpg|A girl in a gingham dress, Oxford, Ohio, around 1900: the school and kitchen cloth for two centuries|related
 polarfilm|commons|Polarizer sheet perpendicular.jpg|Two polarising sheets overlapping at right angles|photo
 cellophane|commons|Cellophane.JPG|Rolls of coloured cellophane|photo
 retrosheet|Flickr|https://live.staticflickr.com/3173/2927497238_23b7a0a23d_b.jpg|Retroreflective vinyl in daylight, and lit by a flash beside the lens|product|CC BY-SA 2.0|mandiberg|https://www.flickr.com/photos/42586873@N00/2927497238

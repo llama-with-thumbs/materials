@@ -1008,6 +1008,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "mrf2": {
+    "file": "mrf2.jpg",
+    "caption": "A tower of magnetorheological fluid held up by the field below it",
+    "kind": "photo",
+    "title": "MRF-Turm.jpg",
+    "site": "Wikimedia",
+    "artist": "INVENTUS Engineering GmbH",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MRF-Turm.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "mrf3": {
+    "file": "mrf3.png",
+    "caption": "Measured response of an MR damper: force (red) follows the current (blue) in about a millisecond",
+    "kind": "related",
+    "title": "Messung Ansprechverhalten MRF-Daempfer.png",
+    "site": "Wikimedia",
+    "artist": "INV",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Messung_Ansprechverhalten_MRF-Daempfer.png",
+    "w": 960,
+    "h": 672
+  },
   "ferrofluid": {
     "file": "ferrofluid.jpg",
     "caption": "Ferrofluid spiking along field lines",
@@ -11556,6 +11580,30 @@ window.CREDITS = {
     "h": 1458,
     "site": "Wikimedia"
   },
+  "pleat2": {
+    "file": "pleat2.jpg",
+    "caption": "Issey Miyake, Rhythm Pleats, 1990: polyester pleated and set with heat and pressure",
+    "kind": "product",
+    "title": "Issey Miyake Rhythm Pleats series 1990.jpg",
+    "site": "Wikimedia",
+    "artist": "ellenm1",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Issey_Miyake_Rhythm_Pleats_series_1990.jpg",
+    "w": 960,
+    "h": 1727
+  },
+  "pleat3": {
+    "file": "pleat3.jpg",
+    "caption": "Fortuny Delphos gowns of pleated silk, rolled for their boxes: silk holds no set, so they were stored twisted and re-pleated when they fell",
+    "kind": "product",
+    "title": "Delphos Mariano Fortuny 01.jpg",
+    "site": "Wikimedia",
+    "artist": "MorenaClara",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Delphos_Mariano_Fortuny_01.jpg",
+    "w": 960,
+    "h": 1279
+  },
   "hammerfelt": {
     "file": "hammerfelt.jpg",
     "caption": "Piano hammers in their rest position under the strings",
@@ -12132,6 +12180,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "chambray2": {
+    "file": "chambray2.jpg",
+    "caption": "Chambray close enough to count: blue warp, white weft, one over one",
+    "kind": "structure",
+    "title": "Chambray Macro (49852163717).jpg",
+    "site": "Wikimedia",
+    "artist": "Ajay Suresh from New York, NY, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chambray_Macro_(49852163717).jpg",
+    "w": 960,
+    "h": 540
+  },
+  "chambray3": {
+    "file": "chambray3.jpg",
+    "caption": "A linen and cotton chambray, both sides alike",
+    "kind": "photo",
+    "title": "Chambray fabric.jpg",
+    "site": "Wikimedia",
+    "artist": "Enby",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chambray_fabric.jpg",
+    "w": 960,
+    "h": 640
+  },
   "oxfordcloth": {
     "file": "oxfordcloth.jpg",
     "caption": "Oxford shirting, the paired warp ends visible at the left",
@@ -12144,6 +12216,18 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "oxfordcloth2": {
+    "file": "oxfordcloth2.jpg",
+    "caption": "A blue oxford button-down: the collar the cloth was made for",
+    "kind": "product",
+    "title": "Banana Republic Button-Down Shirt 1 2019-03-21.jpg",
+    "site": "Wikimedia",
+    "artist": "FASTILY",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Banana_Republic_Button-Down_Shirt_1_2019-03-21.jpg",
+    "w": 960,
+    "h": 1280
+  },
   "gingham": {
     "file": "gingham.jpg",
     "caption": "Gingham hemmed as a pocket square, both faces alike",
@@ -12155,6 +12239,30 @@ window.CREDITS = {
     "w": 960,
     "h": 768,
     "site": "Wikimedia"
+  },
+  "gingham2": {
+    "file": "gingham2.jpg",
+    "caption": "A red gingham tea towel: three tones from two yarns",
+    "kind": "product",
+    "title": "Gingham teatowel.jpg",
+    "site": "Wikimedia",
+    "artist": "Lewis Ronald",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gingham_teatowel.jpg",
+    "w": 960,
+    "h": 1440
+  },
+  "gingham3": {
+    "file": "gingham3.jpg",
+    "caption": "A girl in a gingham dress, Oxford, Ohio, around 1900: the school and kitchen cloth for two centuries",
+    "kind": "related",
+    "title": "Portrait photograph of girl in gingham dress n.d. (3199631981).jpg",
+    "site": "Wikimedia",
+    "artist": "Snyder, Frank R. \n\nFlickr: Miami U. Libraries - Digital Collections",
+    "license": "No restrictions",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrait_photograph_of_girl_in_gingham_dress_n.d._(3199631981).jpg",
+    "w": 960,
+    "h": 1176
   },
   "polarfilm": {
     "file": "polarfilm.jpg",

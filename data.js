@@ -3320,35 +3320,39 @@ window.MATERIALS = [
 },
 {
   id: "pleat", cat: "fabric", name: "Permanent pleating",
-  sub: "setting the cloth instead of pressing it", img: "pleat",
-  hook: "A pressed crease is only the cloth being squashed, and the first shower takes it out. A permanent one is a change in the fibre. In wool, the Siroset process of 1957 uses a reducing agent to break the disulphide bonds that hold keratin in shape and lets them re-form with the fabric folded, so the pleat is now what the fibre thinks it should be. In polyester nothing chemical is needed at all: heat the folded cloth past the temperature where its molecules can move, let it cool, and the shape is set until something hotter comes along — which is why a pleated skirt and a hot iron are a bad combination.",
+  sub: "setting the cloth instead of pressing it", img: "pleat", extra: ["pleat2", "pleat3"],
+  hook: "A pressed crease is cloth squashed; the first shower takes it out. A permanent one is a change in the fibre: wool with its sulphur bonds broken and re-formed folded, or polyester heated till it flows, cooled folded.",
+  more: "Wool keratin is held in shape by sulphur bridges between its chains; the Siroset process of 1957 sprays on a reducing agent that breaks them, presses the pleat and lets them re-form in the fold under steam, so the fold is where the fibre now returns after every wetting. Polyester needs no chemistry: above its glass transition the chains slip, fold it hot, cool it, and the fold is locked until something hotter arrives. A Fortuny Delphos of silk was re-pleated after each wearing; a Miyake of polyester comes out of the wash as it went in. The costs: a heat-set pleat is undone by the iron meant to help it; a Siroset crease lasts as long as the fibre, and the knees go first; cotton and linen hold neither way; and a set fold cannot be let out.",
   stats: [["Wool", "disulphide bonds broken, re-formed folded"], ["Polyester", "heat-set above its glass transition"], ["Undone by", "more heat than it was set with"]],
-  uses: "Pleated skirts and trousers, uniform creases, kilts, heat-pleated polyester garments.",
+  uses: "Pleated skirts and trousers, uniform creases, kilts, heat-pleated polyester garments and lampshades.",
   link: "https://en.wikipedia.org/wiki/Wrinkle-resistant_fabric"
 },
 {
   id: "chambray", cat: "fabric", name: "Chambray",
-  sub: "plain weave, coloured warp and white weft", img: "chambray",
-  hook: "Every second yarn is white, and that is the whole trick. A chambray is a plain weave with a dyed warp crossing an undyed weft, so the surface is a fine mix of colour and white that reads as a soft, faded blue from arm's length and as a chequerboard under a loupe. It looks like denim and behaves nothing like it: denim is a heavy twill that fades where it creases, while chambray is light, nearly square at about eighty by seventy-six threads to the inch, and fades evenly all over because there is nowhere for the dye to hide.",
-  stats: [["Weave", "plain, one over one"], ["Count", "about 80 x 76 per inch"], ["Mistaken for", "denim, which is a twill"]],
+  sub: "plain weave, coloured warp and white weft", img: "chambray", extra: ["chambray2", "chambray3"],
+  hook: "Every second yarn is white, and that is the whole trick. A dyed warp crosses an undyed weft in plain weave: faded blue from arm's length, a chequerboard under a loupe. Looks like denim, behaves nothing like it.",
+  more: "The name is from Cambrai, where fine linen was woven; the cloth now is a light cotton, about eighty ends by seventy-six picks to the inch, one over one, warp dyed and weft left white. The white is on the face as much as the colour, so the blue is half-faded on day one and fades evenly after, there being nowhere for the dye to hide; denim, a heavy twill with the blue warp riding the face, fades where it creases, which is why a denim shirt tells a story and a chambray one does not. It is cool, soft and alike on both sides, so a collar can be turned. The costs: it is thin and goes at collar and cuffs in a few years; it creases like any plain cotton; dark shades crock until washed; and it has none of the armour that makes denim a work cloth.",
+  stats: [["Weave", "plain, one over one"], ["Count", "about 80 by 76 per inch"], ["Mistaken for", "denim, which is a twill"]],
   uses: "Work shirts and summer shirting, dresses, heavier grades for uniforms and chore coats.",
   link: "https://en.wikipedia.org/wiki/Cambric",
   src: ["Textile School, chambray", "https://www.textileschool.com/452/chambray-fabric-the-plain-weave-denim-look-alike/"]
 },
 {
   id: "oxfordcloth", cat: "fabric", name: "Oxford cloth",
-  sub: "two-over-one modified basket weave", img: "oxfordcloth",
-  hook: "Two warp ends are lifted together against one thick weft, which gives a basket weave coarse enough to see and soft enough to wear straight off the loom. The doubled ends make a cloth that breathes and that forgives a bad iron, and they are also its weakness: paired floats slip against each other, so oxford shrinks more than a plain weave and frays where a cuff rubs. The dyed warp against a white weft is the same arrangement as chambray, one step heavier.",
-  stats: [["Weave", "2 x 1 modified basket"], ["Gains", "softness and air, no finishing needed"], ["Costs", "yarn slippage and shrinkage"]],
-  uses: "Button-down shirts, pyjamas, light jackets; the heavier royal oxfords in formal shirting.",
+  sub: "two-over-one modified basket weave", img: "oxfordcloth", extra: ["oxfordcloth2"],
+  hook: "Two warp ends lift together against one thick weft: a basket weave coarse enough to see, soft enough to wear off the loom. The doubled ends give air and forgive a bad iron; they also slip and fray.",
+  more: "A Scottish mill of the 1800s named four shirtings after universities; only Oxford survived. The weave takes two fine warp ends as one and crosses them with a single soft weft of twice the weight, so the face is a grid of baskets, and a dyed warp on a white weft gives the chalky mix of chambray, one step heavier. The floats are short but doubled, so the cloth is loose, breathes and comes off the loom soft without finishing; it also hides a crease, which is the whole case for the button-down. Pinpoint is the same weave in finer yarn, royal oxford finer still. The costs: paired ends slip, so oxford shrinks more than a plain weave; the thick weft pills; cuff edge and collar fold fray where they rub; and it is too heavy and too casual for a suit.",
+  stats: [["Weave", "2 by 1 modified basket"], ["Gains", "softness and air, no finishing needed"], ["Costs", "yarn slippage and shrinkage"]],
+  uses: "Button-down shirts, pyjamas, light jackets; pinpoint and royal oxford in formal shirting.",
   link: "https://en.wikipedia.org/wiki/Oxford_(cloth)",
   src: ["Textile School, weave patterns", "https://www.textileschool.com/270/major-fabric-weaving-patterns/"]
 },
 {
   id: "gingham", cat: "fabric", name: "Gingham",
-  sub: "yarn-dyed check in plain weave", img: "gingham",
-  hook: "The check is not printed on the cloth, it is the cloth. Dyed and white yarns alternate in blocks along both warp and weft, so a coloured warp crossing a coloured weft makes the solid squares, colour crossing white makes the pale ones, and white on white leaves the gaps. Because the colour is in the yarn before weaving there is no right or wrong side, and no print to crack or wash off; the pattern survives as long as the threads do. The cost is at the loom, where every stripe has to be counted into the warp.",
-  stats: [["Colour", "in the yarn, not on the surface"], ["Sides", "two, identical"], ["Costs", "a warp counted block by block"]],
+  sub: "yarn-dyed check in plain weave", img: "gingham", extra: ["gingham2", "gingham3"],
+  hook: "The check is not printed on the cloth, it is the cloth. Dyed and white yarns alternate in blocks along warp and weft: colour over colour makes the solid squares, colour over white the pale ones. No wrong side.",
+  more: "The word came from Malay and meant a stripe; the check is a Manchester idea of the 1700s, striping warp and weft alike to get three tones from two yarns. It is a plain weave, usually cotton, the warp wound in bands of a dyed yarn and a white one, the weft thrown in the same bands, so the pattern is as deep as the cloth and the back is the front. That is why it survives school and kitchen: no face to wear off, it boils, and it hangs square because the two systems balance. Vichy is the French name. The costs: every stripe must be counted into the warp and the weft beaten to the same pitch, or the squares go oblong; uneven shrinkage spoils the square too; the plain weave creases; and it is forever a summer frock and a tablecloth.",
+  stats: [["Colour", "in the yarn, not on the surface"], ["Sides", "two, identical"], ["Costs", "a warp and weft counted block by block"]],
   uses: "Shirting and summer dresses, school uniforms, tablecloths and tea towels, picnic cloth.",
   link: "https://en.wikipedia.org/wiki/Gingham",
   src: ["Textile School, fabric types", "https://www.textileschool.com/171/textile-fabric-types-comprehensive-list-of-textile-fabrics/"]
@@ -3357,10 +3361,11 @@ window.MATERIALS = [
 /* ---------- ACTIVE & EXOTIC ---------- */
 {
   id: "mrf", cat: "exotic", name: "Magnetorheological fluid",
-  sub: "iron particles in carrier oil", img: "mrf",
-  hook: "Oil, until you energise a coil — then the iron particles chain up along the field lines and it stiffens into a paste within milliseconds. Switch the current off and it is oil again.",
-  stats: [["Response", "~5–10 ms"], ["Yield stress", "~50–100 kPa"], ["Control", "continuously variable"]],
-  uses: "Adaptive dampers, prosthetic knees, clutches and brakes, haptic devices.",
+  sub: "iron particles in carrier oil", img: "mrf", extra: ["mrf2", "mrf3"],
+  hook: "Oil, until a coil is energised: the iron particles chain up along the field lines and the liquid stiffens to a paste in milliseconds. Current off, and it is oil again. A damper set by a current, not a valve.",
+  more: "The fluid is carbonyl iron, spheres a few micrometres across, a third by volume in oil. With no field it flows like heavy oil; in a field each sphere is a small magnet, they link pole to pole into columns across the gap, and a shear must break the columns before the fluid moves: a yield stress of fifty to a hundred kilopascals, rising with the current and gone when it stops. Response is a few milliseconds, fast enough to change a car's damping between one bump and the next, as MagneRide has since 2002, or a prosthetic knee between heel strike and swing. The costs: the iron settles in a parked car; the spheres abrade seals; it needs a coil, a current and a controller where a valve needed nothing; and it is heavy, being a third iron.",
+  stats: [["Response", "around 5 to 10 ms"], ["Yield stress", "50 to 100 kPa in the field"], ["Control", "continuously variable with current"]],
+  uses: "Adaptive dampers and seat suspensions, prosthetic knees, clutches and brakes, haptic devices, polishing optics.",
   link: "https://en.wikipedia.org/wiki/Magnetorheological_fluid"
 },
 {
