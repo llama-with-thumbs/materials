@@ -7356,6 +7356,30 @@ window.CREDITS = {
     "w": 768,
     "h": 1024
   },
+  "whiteoak2": {
+    "file": "whiteoak2.jpg",
+    "caption": "Tyloses under the electron microscope, in sessile oak: the vessels ballooned shut from inside, so the stave holds liquid",
+    "kind": "structure",
+    "title": "Verthyllung Quercus petraea.jpg",
+    "site": "Wikimedia",
+    "artist": "Dr. Michael Rosenthal, Technische Universität Dresden",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Verthyllung_Quercus_petraea.jpg",
+    "w": 960,
+    "h": 1455
+  },
+  "whiteoak3": {
+    "file": "whiteoak3.jpg",
+    "caption": "Casks maturing at Dallas Dhu: white oak, mostly on its second or third fill",
+    "kind": "product",
+    "title": "Whisky casks at Dallas Dhu.jpg",
+    "site": "Wikimedia",
+    "artist": "Nilfanion",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Whisky_casks_at_Dallas_Dhu.jpg",
+    "w": 960,
+    "h": 638
+  },
   "cork": {
     "file": "cork.jpg",
     "caption": "Cork",
@@ -7380,17 +7404,65 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "vegleather2": {
+    "file": "vegleather2.jpg",
+    "caption": "A tankard wet-formed from vegetable-tanned leather and waxed: the shape stays when it dries",
+    "kind": "product",
+    "title": "Leather tankard by Eugene Pik 18.jpg",
+    "site": "Wikimedia",
+    "artist": "Eugenepik",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Leather_tankard_by_Eugene_Pik_18.jpg",
+    "w": 960,
+    "h": 541
+  },
+  "vegleather3": {
+    "file": "vegleather3.jpg",
+    "caption": "Peeling hemlock bark for the Prattsville tannery, New York, 1840s: the tannin came off the forest by the hillside",
+    "kind": "process",
+    "title": "Peeling hemlock bark for tanning.jpg",
+    "site": "Wikimedia",
+    "artist": "R.H. Pease, Wilson Del",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Peeling_hemlock_bark_for_tanning.jpg",
+    "w": 960,
+    "h": 662
+  },
   "bone": {
     "file": "bone.jpg",
-    "caption": "A bone kept as a relic",
+    "caption": "A femur shaft cut through: the dense cortical shell round the marrow cavity",
     "kind": "photo",
-    "title": "https://openaccess-cdn.clevelandart.org/1931.462.l/1931.462.l_web.jpg",
-    "site": "Cleveland Museum of Art",
-    "artist": "Cleveland Museum of Art",
+    "title": "Femur - detail of diaphysis cross section.jpg",
+    "site": "Wikimedia",
+    "artist": "MAKY.OREL",
     "license": "CC0",
-    "page": "https://clevelandart.org/art/1931.462.l",
-    "w": 900,
-    "h": 673
+    "page": "https://commons.wikimedia.org/wiki/File:Femur_-_detail_of_diaphysis_cross_section.jpg",
+    "w": 960,
+    "h": 837
+  },
+  "bone2": {
+    "file": "bone2.jpg",
+    "caption": "Cow bone at 430 times: an osteon, the lamellae in rings round the blood vessel canal, the dark spots cells",
+    "kind": "structure",
+    "title": "Bovine Bone Sample and 430 times Magnification.jpg",
+    "site": "Wikimedia",
+    "artist": "Jlipuma1",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bovine_Bone_Sample_and_430_times_Magnification.jpg",
+    "w": 960,
+    "h": 719
+  },
+  "bone3": {
+    "file": "bone3.jpg",
+    "caption": "A Roman knife handle in bone: the dried, dead version that was a material for most of history",
+    "kind": "product",
+    "title": "Bone knife handle MET DP121087.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bone_knife_handle_MET_DP121087.jpg",
+    "w": 960,
+    "h": 1280
   },
   "antler": {
     "file": "antler.jpg",
@@ -10319,6 +10391,30 @@ window.CREDITS = {
     "w": 960,
     "h": 768,
     "site": "Wikimedia"
+  },
+  "spruce2": {
+    "file": "spruce2.jpg",
+    "caption": "A piano soundboard in European spruce, the ribs across the grain",
+    "kind": "product",
+    "title": "Knight piano soundboard.jpg",
+    "site": "Wikimedia",
+    "artist": "Peaceinpianos",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Knight_piano_soundboard.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "spruce3": {
+    "file": "spruce3.png",
+    "caption": "A Norway spruce trunk cut through: the rings a soundboard is sawn across",
+    "kind": "structure",
+    "title": "Norway spruce (Picea abies) trunk cross section.png",
+    "site": "Wikimedia",
+    "artist": "ILoveAllTrees",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Norway_spruce_(Picea_abies)_trunk_cross_section.png",
+    "w": 960,
+    "h": 720
   },
   "ggg": {
     "file": "ggg.jpg",
@@ -13430,7 +13526,7 @@ window.CREDITS = {
   },
   "cork2": {
     "file": "cork2.jpg",
-    "caption": "Cork oaks after the harvest — the outer bark is stripped and grows back over about nine years",
+    "caption": "Cork oaks after the harvest: the outer bark is stripped and grows back over about nine years",
     "kind": "process",
     "title": "Cork oak forest with harvested bark.jpg",
     "site": "Wikimedia",
@@ -13439,6 +13535,18 @@ window.CREDITS = {
     "page": "https://commons.wikimedia.org/wiki/File:Cork_oak_forest_with_harvested_bark.jpg",
     "w": 960,
     "h": 603
+  },
+  "cork3": {
+    "file": "cork3.jpg",
+    "caption": "Hooke's drawing of cork under his microscope, 1665: the boxes he named cells",
+    "kind": "structure",
+    "title": "Robert Hooke, Micrographia, cork. Wellcome M0010579.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_Hooke,_Micrographia,_cork._Wellcome_M0010579.jpg",
+    "w": 960,
+    "h": 1405
   },
   "galalith": {
     "file": "galalith.jpg",

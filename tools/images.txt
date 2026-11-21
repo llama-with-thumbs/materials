@@ -616,9 +616,15 @@ lignumvitae|commons|LignumVitaeMallet01.jpg|A lignum vitae mallet|product
 lignumvitae2|commons|Pokhouten lager windmolen.jpg|A lignum vitae bearing in a Dutch windmill: the wood block the iron shaft turns in|product
 lignumvitae3|commons|Bakaut.jpg|Lignum vitae heartwood: the green-brown colour is the resin|photo
 whiteoak|Flickr|https://live.staticflickr.com/6134/6039449508_f045c7224e_b.jpg|Oak staves in a cooperage|product|CC BY 2.0|davitydave|https://www.flickr.com/photos/79781814@N00/6039449508
+whiteoak2|commons|Verthyllung Quercus petraea.jpg|Tyloses under the electron microscope, in sessile oak: the vessels ballooned shut from inside, so the stave holds liquid|structure
+whiteoak3|commons|Whisky casks at Dallas Dhu.jpg|Casks maturing at Dallas Dhu: white oak, mostly on its second or third fill|product
 cork|Flickr|https://live.staticflickr.com/4628/25753850818_d37190dd84_b.jpg|Cork|photo|CC BY 2.0|pedrik|https://www.flickr.com/photos/pedrik/25753850818
 vegleather|commons|Tanned leather.JPG|Tanned leather|photo
-bone|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1931.462.l/1931.462.l_web.jpg|A bone kept as a relic|photo|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1931.462.l
+vegleather2|commons|Leather tankard by Eugene Pik 18.jpg|A tankard wet-formed from vegetable-tanned leather and waxed: the shape stays when it dries|product
+vegleather3|commons|Peeling hemlock bark for tanning.jpg|Peeling hemlock bark for the Prattsville tannery, New York, 1840s: the tannin came off the forest by the hillside|process
+bone|commons|Femur - detail of diaphysis cross section.jpg|A femur shaft cut through: the dense cortical shell round the marrow cavity|photo
+bone2|commons|Bovine Bone Sample and 430 times Magnification.jpg|Cow bone at 430 times: an osteon, the lamellae in rings round the blood vessel canal, the dark spots cells|structure
+bone3|commons|Bone knife handle MET DP121087.jpg|A Roman knife handle in bone: the dried, dead version that was a material for most of history|product
 antler|commons|Roe deer antler.jpg|A roe deer antler|photo
 horn|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1981.49/1981.49_web.jpg|A hair comb carved from horn and set with enamel|product|CC0|René Lalique (French, 1860–1945)|https://clevelandart.org/art/1981.49
 baleen|commons|Gray whale baleen plates.JPG|Baleen plates|photo
@@ -863,6 +869,8 @@ strontiumal|commons|Photoluminescent Exit Sign.jpg|A photoluminescent exit sign,
 strontiumal2|commons|Phosphorescent.jpg|Europium-doped strontium aluminate powder in daylight, under ultraviolet, and in the dark|photo
 strontiumal3|commons|LUMI Resuable and Non Toxic Glow Stick Alternative.jpg|A rechargeable glow bracelet: strontium aluminate in a clear resin, no chemicals to snap|product
 spruce|commons|Violin Top and back plates.jpg|A carved violin top in spruce, beside its maple back|product
+spruce2|commons|Knight piano soundboard.jpg|A piano soundboard in European spruce, the ribs across the grain|product
+spruce3|commons|Norway spruce (Picea abies) trunk cross section.png|A Norway spruce trunk cut through: the rings a soundboard is sawn across|structure
 ggg|commons|GAGG-Ce.jpg|A GAGG:Ce scintillator crystal — a garnet grown the same way as GGG|related
 bbo|commons|Beam output from OPA.jpg|The output of an optical parametric amplifier — BBO is the crystal that splits the beam|related
 ga2o3|commons|Czochralski Gallium Oxide.png|Pulling gallium oxide from the melt by the Czochralski method|process
@@ -1122,7 +1130,8 @@ nitinol2|commons|Nitinol draht.jpg|Nitinol in its raw form as drawn wire, before
 nitinol3|commons|Nitinol bueroklammer verbogen.jpg|The paperclip demonstration: a nitinol clip bent cold, before hot water straightens it again|process
 nacre2|commons|Haliotis rufescens (red abalone) (San Diego, California, USA) 4 (23833071989).jpg|The inside of a red abalone shell: nacre itself, the layered material the inlay is cut from|photo
 nacre3|commons|Perlmutt-Struktur.jpg|Nacre under the electron microscope, from a Cretaceous ammonite: stacks of hexagonal aragonite tiles, the brickwork|structure
-cork2|commons|Cork oak forest with harvested bark.jpg|Cork oaks after the harvest — the outer bark is stripped and grows back over about nine years|process
+cork2|commons|Cork oak forest with harvested bark.jpg|Cork oaks after the harvest: the outer bark is stripped and grows back over about nine years|process
+cork3|commons|Robert Hooke, Micrographia, cork. Wellcome M0010579.jpg|Hooke's drawing of cork under his microscope, 1665: the boxes he named cells|structure
 galalith|commons|Haarkam van galalith met half ronde rug met een ajour gesneden draak in het midden, BK-1977-231.jpg|A galalith hair comb carved with a dragon, in imitation of ivory|product
 galalith2|commons|Tavli Board with slots – Isolated.png|A tavli board with galalith checkers, turned and polished from the cured sheet|product
 celluloid|commons|Old celluloid film rolls (5201105455).jpg|Rolls of old celluloid cine film at a restoration studio|product
