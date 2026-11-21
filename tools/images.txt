@@ -626,10 +626,20 @@ bone|commons|Femur - detail of diaphysis cross section.jpg|A femur shaft cut thr
 bone2|commons|Bovine Bone Sample and 430 times Magnification.jpg|Cow bone at 430 times: an osteon, the lamellae in rings round the blood vessel canal, the dark spots cells|structure
 bone3|commons|Bone knife handle MET DP121087.jpg|A Roman knife handle in bone: the dried, dead version that was a material for most of history|product
 antler|commons|Roe deer antler.jpg|A roe deer antler|photo
-horn|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1981.49/1981.49_web.jpg|A hair comb carved from horn and set with enamel|product|CC0|René Lalique (French, 1860–1945)|https://clevelandart.org/art/1981.49
+antler2|commons|Shed antlers of a red deer.jpg|Shed antlers of one red deer, first head to seventh, Museum Ottoneum, Kassel: a new pair every year|photo
+antler3|commons|York, The Yorkshire Museum, Viking antler blanks, roughouts, combs and cases - geograph.org.uk - 7652912.jpg|Viking antler blanks, roughouts and finished combs from York: a workshop trade in a shed material|product
+horn|commons|Cow horn.jpg|A cow horn: a hollow keratin sheath, the raw stock|photo
+horn2|commons|Horn hair comb, Ludlow Museum - DSCF2042.JPG|A horn comb, Ludlow Museum: cut from a horn opened flat between hot plates|product
+horn3|commons|Edward William Cooke - A Horn Lantern, July 25, 1833 - B1986.29.35 - Yale Center for British Art.jpg|A horn lantern drawn by E. W. Cooke in 1833: the panes are horn shaved thin|related
 baleen|commons|Gray whale baleen plates.JPG|Baleen plates|photo
-amber|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1964.418/1964.418_web.jpg|A statuette carved from a single piece of amber|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1964.418
+baleen2|commons|Humpback Whale Baleen Section (52543964595).jpg|A section of humpback baleen washed up on a beach: the plates and the fringe that strains the sea|photo
+baleen3|commons|WhaleboneCorsetStay.jpg|A broken whalebone corset stay: a strip split from a plate, the spring steel of its day|product
+amber|commons|02024 1039 Large amber nuggets from a mine in Sambia.jpg|Large amber nuggets from the Sambia mine on the Baltic, as dug|photo
+amber2|commons|Amber2.jpg|An ant seven millimetres long in Baltic amber: sealed forty million years ago|photo
+amber3|commons|Tumble-polished Baltic amber 1.jpg|Tumble-polished and drilled Baltic amber, on a glass for scale|product
 shellac|commons|Shellac flakes closeup.JPG|Shellac flakes|photo
+shellac2|commons|Kerria-lacca.jpg|Lac on the branch: the crust the insects secrete, before it is scraped, washed and melted into flakes|process
+shellac3|commons|Record player and shellac record of the Soviet Union-Lemeshev.jpg|A shellac 78 on a Soviet record player: shellac and slate dust pressed into a disc|product
 guttapercha|commons|Caoutchouc Gutta-percha Droguier ISPB Lyon UCBL 1.jpg|Gutta-percha in a pharmacy specimen collection|photo
 diatomite|commons|Diatomaceous Earth BrightField.jpg|Diatomaceous earth under the microscope — fossil diatom skeletons|photo
 chitin|Flickr|https://live.staticflickr.com/7029/6555236543_8136048e40_b.jpg|A moulted crab exoskeleton|photo|CC BY 2.0|USFWS Pacific Southwest Region|https://www.flickr.com/photos/usfws_pacificsw/6555236543

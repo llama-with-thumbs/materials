@@ -7476,17 +7476,65 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "antler2": {
+    "file": "antler2.jpg",
+    "caption": "Shed antlers of one red deer, first head to seventh, Museum Ottoneum, Kassel: a new pair every year",
+    "kind": "photo",
+    "title": "Shed antlers of a red deer.jpg",
+    "site": "Wikimedia",
+    "artist": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shed_antlers_of_a_red_deer.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "antler3": {
+    "file": "antler3.jpg",
+    "caption": "Viking antler blanks, roughouts and finished combs from York: a workshop trade in a shed material",
+    "kind": "product",
+    "title": "York, The Yorkshire Museum, Viking antler blanks, roughouts, combs and cases - geograph.org.uk - 7652912.jpg",
+    "site": "Wikimedia",
+    "artist": "Michael Garlick",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:York,_The_Yorkshire_Museum,_Viking_antler_blanks,_roughouts,_combs_and_cases_-_geograph.org.uk_-_7652912.jpg",
+    "w": 960,
+    "h": 640
+  },
   "horn": {
     "file": "horn.jpg",
-    "caption": "A hair comb carved from horn and set with enamel",
-    "kind": "product",
-    "title": "https://openaccess-cdn.clevelandart.org/1981.49/1981.49_web.jpg",
-    "site": "Cleveland Museum of Art",
-    "artist": "René Lalique (French, 1860–1945)",
+    "caption": "A cow horn: a hollow keratin sheath, the raw stock",
+    "kind": "photo",
+    "title": "Cow horn.jpg",
+    "site": "Wikimedia",
+    "artist": "Dokev31",
     "license": "CC0",
-    "page": "https://clevelandart.org/art/1981.49",
-    "w": 639,
-    "h": 893
+    "page": "https://commons.wikimedia.org/wiki/File:Cow_horn.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "horn2": {
+    "file": "horn2.jpg",
+    "caption": "A horn comb, Ludlow Museum: cut from a horn opened flat between hot plates",
+    "kind": "product",
+    "title": "Horn hair comb, Ludlow Museum - DSCF2042.JPG",
+    "site": "Wikimedia",
+    "artist": "Rept0n1x",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Horn_hair_comb,_Ludlow_Museum_-_DSCF2042.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "horn3": {
+    "file": "horn3.jpg",
+    "caption": "A horn lantern drawn by E. W. Cooke in 1833: the panes are horn shaved thin",
+    "kind": "related",
+    "title": "Edward William Cooke - A Horn Lantern, July 25, 1833 - B1986.29.35 - Yale Center for British Art.jpg",
+    "site": "Wikimedia",
+    "artist": "Edward William Cooke",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Edward_William_Cooke_-_A_Horn_Lantern,_July_25,_1833_-_B1986.29.35_-_Yale_Center_for_British_Art.jpg",
+    "w": 960,
+    "h": 720
   },
   "baleen": {
     "file": "baleen.jpg",
@@ -7500,17 +7548,65 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "baleen2": {
+    "file": "baleen2.jpg",
+    "caption": "A section of humpback baleen washed up on a beach: the plates and the fringe that strains the sea",
+    "kind": "photo",
+    "title": "Humpback Whale Baleen Section (52543964595).jpg",
+    "site": "Wikimedia",
+    "artist": "Steve Jurvetson from Los Altos, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Humpback_Whale_Baleen_Section_(52543964595).jpg",
+    "w": 960,
+    "h": 815
+  },
+  "baleen3": {
+    "file": "baleen3.jpg",
+    "caption": "A broken whalebone corset stay: a strip split from a plate, the spring steel of its day",
+    "kind": "product",
+    "title": "WhaleboneCorsetStay.jpg",
+    "site": "Wikimedia",
+    "artist": "self",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:WhaleboneCorsetStay.jpg",
+    "w": 960,
+    "h": 1747
+  },
   "amber": {
     "file": "amber.jpg",
-    "caption": "A statuette carved from a single piece of amber",
+    "caption": "Large amber nuggets from the Sambia mine on the Baltic, as dug",
+    "kind": "photo",
+    "title": "02024 1039 Large amber nuggets from a mine in Sambia.jpg",
+    "site": "Wikimedia",
+    "artist": "Silar",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:02024_1039_Large_amber_nuggets_from_a_mine_in_Sambia.jpg",
+    "w": 960,
+    "h": 622
+  },
+  "amber2": {
+    "file": "amber2.jpg",
+    "caption": "An ant seven millimetres long in Baltic amber: sealed forty million years ago",
+    "kind": "photo",
+    "title": "Amber2.jpg",
+    "site": "Wikimedia",
+    "artist": "Anders L. Damgaard - www.amber-inclusions.dk - Baltic-amber-beetle",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Amber2.jpg",
+    "w": 960,
+    "h": 1440
+  },
+  "amber3": {
+    "file": "amber3.jpg",
+    "caption": "Tumble-polished and drilled Baltic amber, on a glass for scale",
     "kind": "product",
-    "title": "https://openaccess-cdn.clevelandart.org/1964.418/1964.418_web.jpg",
-    "site": "Cleveland Museum of Art",
-    "artist": "Cleveland Museum of Art",
-    "license": "CC0",
-    "page": "https://clevelandart.org/art/1964.418",
-    "w": 900,
-    "h": 657
+    "title": "Tumble-polished Baltic amber 1.jpg",
+    "site": "Wikimedia",
+    "artist": "W.carter",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tumble-polished_Baltic_amber_1.jpg",
+    "w": 960,
+    "h": 720
   },
   "shellac": {
     "file": "shellac.jpg",
@@ -7523,6 +7619,30 @@ window.CREDITS = {
     "w": 960,
     "h": 806,
     "site": "Wikimedia"
+  },
+  "shellac2": {
+    "file": "shellac2.jpg",
+    "caption": "Lac on the branch: the crust the insects secrete, before it is scraped, washed and melted into flakes",
+    "kind": "process",
+    "title": "Kerria-lacca.jpg",
+    "site": "Wikimedia",
+    "artist": "Jeffrey W. Lotz",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kerria-lacca.jpg",
+    "w": 960,
+    "h": 638
+  },
+  "shellac3": {
+    "file": "shellac3.jpg",
+    "caption": "A shellac 78 on a Soviet record player: shellac and slate dust pressed into a disc",
+    "kind": "product",
+    "title": "Record player and shellac record of the Soviet Union-Lemeshev.jpg",
+    "site": "Wikimedia",
+    "artist": "Ввласенко",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Record_player_and_shellac_record_of_the_Soviet_Union-Lemeshev.jpg",
+    "w": 960,
+    "h": 801
   },
   "guttapercha": {
     "file": "guttapercha.jpg",
