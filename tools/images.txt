@@ -951,10 +951,20 @@ crepe2|commons|Rouwhoed in de vorm van diadeem met lange gezichtssluier van zwar
 crepe3|commons|Beige crepe tunic and trusers by Teni, Aba and Tiwa Sagoe of Clan.jpg|A crêpe tunic and trousers by Clan, Lagos: the hang is the twist|product
 knitmesh|commons|OldMeshDemisterAcidProduction.jpg|A used demister pad in alloy 20 mesh, from sulphuric acid production|photo
 barkcloth|commons|PNG Turtle Tapa Cloth QM r.jpg|Tapa from Domara Village in Papua New Guinea, beaten from inner bark|photo
+barkcloth2|commons|Kapa beating (a0004769) - panoramio.jpg|Beating kapa on a wooden anvil near Ahalanui, Hawaii: the bark spreads under the grooved mallet|process
+barkcloth3|commons|Iʻe kuku (wooden beaters) and kua lāʻau (wood anvil), Hawaii State Art Museum.jpg|Kapa beaters and anvil, Hawaii State Art Museum: each face of a beater is grooved finer than the last|related
 flock|commons|Flock-foil golden-yellow.jpg|Cotton with a golden-yellow flock print, close enough to see the pile|photo
+flock2|commons|Флокирование на компьютерной мышке.JPG|A computer mouse flocked with one-millimetre nylon: the pile goes on anything the glue sticks to|product
+flock3|commons|Flock Paisley.JPG|Pink and gold paisley flock wallpaper: glue printed in the pattern, fibre stood up in the glue|product
 aluminised|commons|Fire proximity suit detail.jpg|Detail of a fire proximity suit in the Czech Republic|product
+aluminised2|commons|Aircraft Rescue Firefighting training.jpg|Aircraft rescue crews in aluminised suits at a training pit, Miramar: the heat here is mostly radiant|photo
+aluminised3|commons|Fire fighters practice with spraying equipment, March 1981.jpg|Air Force firefighters in proximity suits, Vandenberg, 1981: the hood mirror as well as the suit|photo
 ikat|commons|Antique Patan Patola Double Ikat Trade Textile courtesy Wovensouls Collection, Singapore.jpg|An antique double ikat patolu woven in Patan, Gujarat, for the Indonesian market|photo
+ikat2|commons|Thread before dyeing Tenun Ikat Lombok.JPG|Warp bound for dyeing, Lombok: the pattern is already there, in the wraps|process
+ikat3|commons|Cambodian weaving with ikat technique (cropped).jpg|Artisans Angkor, Cambodia: taking the plastic ties off dyed silk before it goes to the loom|process
 pvctarp|Flickr|https://live.staticflickr.com/65535/51170247859_908ab7d3a8_b.jpg|A loose tarpaulin over an old truck|product|CC BY 2.0|Ivan Radic|https://www.flickr.com/photos/26344495@N05/51170247859
+pvctarp2|commons|W2428-Semi Tautliner OuvertureLaterale 4576N8.jpg|A curtainsider with the side drawn back for a forklift: the curtain is the coated scrim, nothing else|product
+pvctarp3|commons|Marquee tent with 4 peacks.jpg|A marquee in the same cloth: welded panels, tensioned over a frame|product
 pleat|commons|CSIRO ScienceImage 2162 Skirt with Siroset and Skirt Without Siroset.jpg|Two wool skirts, the right one pleated by the Siroset process and the left one not|product
 hammerfelt|commons|Piano hammer 2101-0006.jpg|Piano hammers in their rest position under the strings|photo
 ribbonmic|commons|Royer R-122 Active Ribbon Microphone (clip).jpg|A Royer R-122, with the ribbon hidden behind its grille|product

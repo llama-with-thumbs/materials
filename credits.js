@@ -11376,6 +11376,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "barkcloth2": {
+    "file": "barkcloth2.jpg",
+    "caption": "Beating kapa on a wooden anvil near Ahalanui, Hawaii: the bark spreads under the grooved mallet",
+    "kind": "process",
+    "title": "Kapa beating (a0004769) - panoramio.jpg",
+    "site": "Wikimedia",
+    "artist": "This file was created by Thomas Tunsch. It is not in the public domain and use of this file outside of the licensing terms is a copyright violation.\nPlease credit authorship as follows:\n © CC BY-SA Thomas Tunsch / Kapa beating (a0004769) - panoramio.jpg (Wikimedia Commons).\nSource attribution by linking to this file page (//commons.wikimedia.org/wiki/File:Kapa_beating_(a0004769)_-_panoramio.jpg) is recommended.\n\nThe application Lizenzhinweisgenerator can help to reuse pictures from Wikipedia and the free media file repository easily and legally.",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kapa_beating_(a0004769)_-_panoramio.jpg",
+    "w": 960,
+    "h": 636
+  },
+  "barkcloth3": {
+    "file": "barkcloth3.jpg",
+    "caption": "Kapa beaters and anvil, Hawaii State Art Museum: each face of a beater is grooved finer than the last",
+    "kind": "related",
+    "title": "Iʻe kuku (wooden beaters) and kua lāʻau (wood anvil), Hawaii State Art Museum.jpg",
+    "site": "Wikimedia",
+    "artist": "Wmpearl",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:I%CA%BBe_kuku_(wooden_beaters)_and_kua_l%C4%81%CA%BBau_(wood_anvil),_Hawaii_State_Art_Museum.jpg",
+    "w": 960,
+    "h": 776
+  },
   "flock": {
     "file": "flock.jpg",
     "caption": "Cotton with a golden-yellow flock print, close enough to see the pile",
@@ -11387,6 +11411,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "flock2": {
+    "file": "flock2.jpg",
+    "caption": "A computer mouse flocked with one-millimetre nylon: the pile goes on anything the glue sticks to",
+    "kind": "product",
+    "title": "Флокирование на компьютерной мышке.JPG",
+    "site": "Wikimedia",
+    "artist": "Пигмалион",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B9_%D0%BC%D1%8B%D1%88%D0%BA%D0%B5.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "flock3": {
+    "file": "flock3.jpg",
+    "caption": "Pink and gold paisley flock wallpaper: glue printed in the pattern, fibre stood up in the glue",
+    "kind": "product",
+    "title": "Flock Paisley.JPG",
+    "site": "Wikimedia",
+    "artist": "Liz Sullivan",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flock_Paisley.JPG",
+    "w": 960,
+    "h": 720
   },
   "aluminised": {
     "file": "aluminised.jpg",
@@ -11400,6 +11448,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "aluminised2": {
+    "file": "aluminised2.jpg",
+    "caption": "Aircraft rescue crews in aluminised suits at a training pit, Miramar: the heat here is mostly radiant",
+    "kind": "photo",
+    "title": "Aircraft Rescue Firefighting training.jpg",
+    "site": "Wikimedia",
+    "artist": "Manuel F. Guerrero, U.S. Marine Corps",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Aircraft_Rescue_Firefighting_training.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "aluminised3": {
+    "file": "aluminised3.jpg",
+    "caption": "Air Force firefighters in proximity suits, Vandenberg, 1981: the hood mirror as well as the suit",
+    "kind": "photo",
+    "title": "Fire fighters practice with spraying equipment, March 1981.jpg",
+    "site": "Wikimedia",
+    "artist": "AIRMAN MELODY A. WEISS",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Fire_fighters_practice_with_spraying_equipment,_March_1981.jpg",
+    "w": 960,
+    "h": 621
+  },
   "ikat": {
     "file": "ikat.jpg",
     "caption": "An antique double ikat patolu woven in Patan, Gujarat, for the Indonesian market",
@@ -11412,6 +11484,30 @@ window.CREDITS = {
     "h": 1280,
     "site": "Wikimedia"
   },
+  "ikat2": {
+    "file": "ikat2.jpg",
+    "caption": "Warp bound for dyeing, Lombok: the pattern is already there, in the wraps",
+    "kind": "process",
+    "title": "Thread before dyeing Tenun Ikat Lombok.JPG",
+    "site": "Wikimedia",
+    "artist": "Midori",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thread_before_dyeing_Tenun_Ikat_Lombok.JPG",
+    "w": 960,
+    "h": 1280
+  },
+  "ikat3": {
+    "file": "ikat3.jpg",
+    "caption": "Artisans Angkor, Cambodia: taking the plastic ties off dyed silk before it goes to the loom",
+    "kind": "process",
+    "title": "Cambodian weaving with ikat technique (cropped).jpg",
+    "site": "Wikimedia",
+    "artist": "IM7100",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cambodian_weaving_with_ikat_technique_(cropped).jpg",
+    "w": 960,
+    "h": 833
+  },
   "pvctarp": {
     "file": "pvctarp.jpg",
     "caption": "A loose tarpaulin over an old truck",
@@ -11423,6 +11519,30 @@ window.CREDITS = {
     "page": "https://www.flickr.com/photos/26344495@N05/51170247859",
     "w": 960,
     "h": 719
+  },
+  "pvctarp2": {
+    "file": "pvctarp2.jpg",
+    "caption": "A curtainsider with the side drawn back for a forklift: the curtain is the coated scrim, nothing else",
+    "kind": "product",
+    "title": "W2428-Semi Tautliner OuvertureLaterale 4576N8.jpg",
+    "site": "Wikimedia",
+    "artist": "Llann Wé²",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:W2428-Semi_Tautliner_OuvertureLaterale_4576N8.jpg",
+    "w": 960,
+    "h": 540
+  },
+  "pvctarp3": {
+    "file": "pvctarp3.jpg",
+    "caption": "A marquee in the same cloth: welded panels, tensioned over a frame",
+    "kind": "product",
+    "title": "Marquee tent with 4 peacks.jpg",
+    "site": "Wikimedia",
+    "artist": "Barbieri.wiki",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marquee_tent_with_4_peacks.jpg",
+    "w": 960,
+    "h": 673
   },
   "pleat": {
     "file": "pleat.jpg",
