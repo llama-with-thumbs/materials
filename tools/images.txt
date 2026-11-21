@@ -540,10 +540,20 @@ graphene|commons|Carbon atoms in graphene.jpg|Carbon atoms in graphene under an 
 graphene2|commons|Graphene Scotch Tape.jpg|Graphite and graphene on adhesive tape: the 2004 method, still used in the lab|process
 graphene3|commons|Sample of graphene (1~3 layers).jpg|A commercial graphene sample, one to three layers: grey dust|product
 cntyarn|commons|CSIRO ScienceImage 988 Carbon nanotubes spun to form a yarn.jpg|Carbon nanotubes being spun into a yarn|process
+cntyarn2|commons|CSIRO ScienceImage 1074 Carbon nanotubes being spun to form a yarn.jpg|The forest drawn out into a ribbon and twisted, CSIRO: the whole process in one frame|process
+cntyarn3|commons|Buckypapers (5940484589).jpg|Buckypaper, NIST: nanotubes laid down as a sheet instead of a yarn, the other macroscopic form|related
 aerographite|commons|TUHH CAU newexampleAerographite Netwok.png|Aerographite's network of hollow carbon tubes|photo
+aerographite2|commons|Family of zinc oxide microtetrapods.jpg|Zinc oxide tetrapods: the scaffold the carbon is grown on and the zinc then boiled out of|related
+aerographite3|commons|Aerogel nasa.jpg|A silica aerogel cube at JPL: the previous record holder for lightness, and solid by comparison|analog
 ybco|commons|Tile levitates by Meissner effect.jpeg|A high-temperature superconductor levitating over a magnet track|photo
+ybco2|commons|YBCO superconductor.JPG|A pressed YBCO pellet, 4 by 4 by 1 cm: the black ceramic as made|product
+ybco3|commons|High-Temperature Superconducting Cables (5884863158).jpg|Cross-section of a superconducting cable design, NIST: the outer rings are HTS tapes wound round a copper core|product
 electrochromic|Flickr|https://live.staticflickr.com/6232/6381369959_14fe4d9c68_b.jpg|A 787 cabin window, electrochromically dimmed|product|CC BY 2.0|Jun Seita|https://www.flickr.com/photos/jseita/6381369959
+electrochromic2|commons|Airbus A350 dimmable window dimmed May 2025.jpg|An A350 window part dimmed: blue, as tungsten oxide always is|product
+electrochromic3|commons|Gentex Mirror.jpg|An auto-dimming rear-view mirror: the same chemistry, thin and small, so it switches in a second|product
 vo2|commons|VO2 crystal.jpg|A vanadium dioxide crystal|photo
+vo22|commons|VO2 structure.png|The two structures: monoclinic below 68 degrees with the vanadium atoms paired, rutile above with the pairs broken|structure
+vo23|commons|Microbolometer internals.jpg|A microbolometer from a thermal camera: vanadium oxide is the usual sensing film, its resistance swinging with a hair of warmth|related
 qdot|commons|Quantum dots 2.jpg|Quantum dots fluorescing — the colour is set by particle size|photo
 metamaterial|commons|Metamaterial 'Flat Lens' (8889691315).jpg|A metamaterial flat lens|photo
 acousticmeta|commons|Órgano, de Eusebio Sempere Juan.JPG|Eusebio Sempere's sculpture — the rod array that turned out to be the first proven sonic crystal|related

@@ -6444,6 +6444,30 @@ window.CREDITS = {
     "h": 648,
     "site": "Wikimedia"
   },
+  "cntyarn2": {
+    "file": "cntyarn2.jpg",
+    "caption": "The forest drawn out into a ribbon and twisted, CSIRO: the whole process in one frame",
+    "kind": "process",
+    "title": "CSIRO ScienceImage 1074 Carbon nanotubes being spun to form a yarn.jpg",
+    "site": "Wikimedia",
+    "artist": "division, CSIRO",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_1074_Carbon_nanotubes_being_spun_to_form_a_yarn.jpg",
+    "w": 960,
+    "h": 687
+  },
+  "cntyarn3": {
+    "file": "cntyarn3.jpg",
+    "caption": "Buckypaper, NIST: nanotubes laid down as a sheet instead of a yarn, the other macroscopic form",
+    "kind": "related",
+    "title": "Buckypapers (5940484589).jpg",
+    "site": "Wikimedia",
+    "artist": "National Institute of Standards and Technology",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Buckypapers_(5940484589).jpg",
+    "w": 922,
+    "h": 921
+  },
   "aerographite": {
     "file": "aerographite.png",
     "caption": "Aerographite's network of hollow carbon tubes",
@@ -6455,6 +6479,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "aerographite2": {
+    "file": "aerographite2.jpg",
+    "caption": "Zinc oxide tetrapods: the scaffold the carbon is grown on and the zinc then boiled out of",
+    "kind": "related",
+    "title": "Family of zinc oxide microtetrapods.jpg",
+    "site": "Wikimedia",
+    "artist": "Andrey P. Tarasov",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Family_of_zinc_oxide_microtetrapods.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "aerographite3": {
+    "file": "aerographite3.jpg",
+    "caption": "A silica aerogel cube at JPL: the previous record holder for lightness, and solid by comparison",
+    "kind": "analog",
+    "title": "Aerogel nasa.jpg",
+    "site": "Wikimedia",
+    "artist": "Courtesy NASA/JPL-Caltech",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerogel_nasa.jpg",
+    "w": 898,
+    "h": 900
   },
   "ybco": {
     "file": "ybco.jpg",
@@ -6468,6 +6516,30 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "ybco2": {
+    "file": "ybco2.jpg",
+    "caption": "A pressed YBCO pellet, 4 by 4 by 1 cm: the black ceramic as made",
+    "kind": "product",
+    "title": "YBCO superconductor.JPG",
+    "site": "Wikimedia",
+    "artist": "Maxim Bilovitskiy",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:YBCO_superconductor.JPG",
+    "w": 960,
+    "h": 611
+  },
+  "ybco3": {
+    "file": "ybco3.jpg",
+    "caption": "Cross-section of a superconducting cable design, NIST: the outer rings are HTS tapes wound round a copper core",
+    "kind": "product",
+    "title": "High-Temperature Superconducting Cables (5884863158).jpg",
+    "site": "Wikimedia",
+    "artist": "National Institute of Standards and Technology",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:High-Temperature_Superconducting_Cables_(5884863158).jpg",
+    "w": 960,
+    "h": 953
+  },
   "electrochromic": {
     "file": "electrochromic.jpg",
     "caption": "A 787 cabin window, electrochromically dimmed",
@@ -6480,6 +6552,30 @@ window.CREDITS = {
     "w": 768,
     "h": 1024
   },
+  "electrochromic2": {
+    "file": "electrochromic2.jpg",
+    "caption": "An A350 window part dimmed: blue, as tungsten oxide always is",
+    "kind": "product",
+    "title": "Airbus A350 dimmable window dimmed May 2025.jpg",
+    "site": "Wikimedia",
+    "artist": "4300streetcar",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Airbus_A350_dimmable_window_dimmed_May_2025.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "electrochromic3": {
+    "file": "electrochromic3.jpg",
+    "caption": "An auto-dimming rear-view mirror: the same chemistry, thin and small, so it switches in a second",
+    "kind": "product",
+    "title": "Gentex Mirror.jpg",
+    "site": "Wikimedia",
+    "artist": "No machine-readable author provided. SchuminWeb assumed (based on copyright claims).",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Gentex_Mirror.jpg",
+    "w": 960,
+    "h": 720
+  },
   "vo2": {
     "file": "vo2.jpg",
     "caption": "A vanadium dioxide crystal",
@@ -6491,6 +6587,30 @@ window.CREDITS = {
     "w": 960,
     "h": 670,
     "site": "Wikimedia"
+  },
+  "vo22": {
+    "file": "vo22.png",
+    "caption": "The two structures: monoclinic below 68 degrees with the vanadium atoms paired, rutile above with the pairs broken",
+    "kind": "structure",
+    "title": "VO2 structure.png",
+    "site": "Wikimedia",
+    "artist": "Ding-Shyue Yang, Peter Baum, and Ahmed H. Zewail",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:VO2_structure.png",
+    "w": 960,
+    "h": 1230
+  },
+  "vo23": {
+    "file": "vo23.jpg",
+    "caption": "A microbolometer from a thermal camera: vanadium oxide is the usual sensing film, its resistance swinging with a hair of warmth",
+    "kind": "related",
+    "title": "Microbolometer internals.jpg",
+    "site": "Wikimedia",
+    "artist": "Flopologist",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Microbolometer_internals.jpg",
+    "w": 960,
+    "h": 1433
   },
   "qdot": {
     "file": "qdot.jpg",
