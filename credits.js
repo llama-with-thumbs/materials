@@ -6614,15 +6614,39 @@ window.CREDITS = {
   },
   "qdot": {
     "file": "qdot.jpg",
-    "caption": "Quantum dots fluorescing — the colour is set by particle size",
+    "caption": "Cadmium selenide dots under ultraviolet, labelled by diameter: 2.0 nm blue to 4.2 nm red",
+    "kind": "photo",
+    "title": "CdSe Quantum Dots.jpg",
+    "site": "Wikimedia",
+    "artist": "Prof. Michael S. Wong",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CdSe_Quantum_Dots.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "qdot2": {
+    "file": "qdot2.jpg",
+    "caption": "Quantum dots fluorescing in vials: the colour is set by particle size",
     "kind": "photo",
     "title": "Quantum dots 2.jpg",
+    "site": "Wikimedia",
     "artist": "Marc Vidal",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Quantum_dots_2.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "qdot3": {
+    "file": "qdot3.jpg",
+    "caption": "A quantum dot television: a film of dots under blue LEDs makes the greens and reds",
+    "kind": "product",
+    "title": "Samsung QLED TV 8K - 75 inches - 2018-11-02.jpg",
+    "site": "Wikimedia",
+    "artist": "Bretwa",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Samsung_QLED_TV_8K_-_75_inches_-_2018-11-02.jpg",
+    "w": 960,
+    "h": 540
   },
   "metamaterial": {
     "file": "metamaterial.jpg",
@@ -6636,9 +6660,33 @@ window.CREDITS = {
     "h": 1210,
     "site": "Wikimedia"
   },
+  "metamaterial2": {
+    "file": "metamaterial2.png",
+    "caption": "One gold split ring on silicon, two micrometres across, under the atomic force microscope",
+    "kind": "structure",
+    "title": "Square circ metastruc.png",
+    "site": "Wikimedia",
+    "artist": "Nanoink1",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Square_circ_metastruc.png",
+    "w": 960,
+    "h": 695
+  },
+  "metamaterial3": {
+    "file": "metamaterial3.jpg",
+    "caption": "A fluid-tunable metasurface at NIST: copper resonators on board, retuned by water in the tubing",
+    "kind": "product",
+    "title": "Metasurface (5941035620).jpg",
+    "site": "Wikimedia",
+    "artist": "National Institute of Standards and Technology",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Metasurface_(5941035620).jpg",
+    "w": 960,
+    "h": 608
+  },
   "acousticmeta": {
     "file": "acousticmeta.jpg",
-    "caption": "Eusebio Sempere's sculpture — the rod array that turned out to be the first proven sonic crystal",
+    "caption": "Eusebio Sempere's sculpture: the rod array that turned out to be the first proven sonic crystal",
     "kind": "related",
     "title": "Órgano, de Eusebio Sempere Juan.JPG",
     "artist": "Asqueladd",
@@ -6647,6 +6695,18 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "acousticmeta2": {
+    "file": "acousticmeta2.jpg",
+    "caption": "A studio bass trap: the conventional tuned absorber, big because it has no lattice to help it",
+    "kind": "analog",
+    "title": "Bass Trap.jpg",
+    "site": "Wikimedia",
+    "artist": "Powerjoe",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bass_Trap.jpg",
+    "w": 960,
+    "h": 720
   },
   "selfhealpoly": {
     "file": "selfhealpoly.png",
@@ -6659,6 +6719,18 @@ window.CREDITS = {
     "w": 960,
     "h": 464,
     "site": "Wikimedia"
+  },
+  "selfhealpoly2": {
+    "file": "selfhealpoly2.jpg",
+    "caption": "A manhole cover slab in Antwerp, the first self-healing concrete used in Belgium: the same idea with bacteria as the capsule",
+    "kind": "analog",
+    "title": "Zelfhelend beton-1.jpg",
+    "site": "Wikimedia",
+    "artist": "Stokkestijn",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zelfhelend_beton-1.jpg",
+    "w": 960,
+    "h": 640
   },
   "lce": {
     "file": "lce.png",
@@ -9770,7 +9842,7 @@ window.CREDITS = {
   },
   "dea": {
     "file": "dea.jpg",
-    "caption": "A soft robot built for colonoscopy — the job DEAs are aimed at; this one runs on air, not volts",
+    "caption": "A soft robot built for colonoscopy: the job DEAs are aimed at; this one runs on air, not volts",
     "kind": "related",
     "title": "Soft robot locomotion.jpg",
     "artist": "Hdehqani",
@@ -9779,6 +9851,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "dea2": {
+    "file": "dea2.png",
+    "caption": "An arm with electroactive polymer muscles, drawn: the film contracts across and stretches along",
+    "kind": "structure",
+    "title": "Artificial Muscle.png",
+    "site": "Wikimedia",
+    "artist": "Chem538w10grp7",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Artificial_Muscle.png",
+    "w": 960,
+    "h": 583
+  },
+  "dea3": {
+    "file": "dea3.png",
+    "caption": "Festo's Bionic Handling Assistant, a pneumatic trunk: the soft gripper the elastomer actuator is meant to drive without the compressor",
+    "kind": "related",
+    "title": "BionicHandlingAssistant.tif",
+    "site": "Wikimedia",
+    "artist": "Festo AG & Co. KG",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BionicHandlingAssistant.tif",
+    "w": 960,
+    "h": 720
   },
   "strontiumal": {
     "file": "strontiumal.jpg",

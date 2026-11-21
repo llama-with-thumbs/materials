@@ -554,10 +554,16 @@ electrochromic3|commons|Gentex Mirror.jpg|An auto-dimming rear-view mirror: the 
 vo2|commons|VO2 crystal.jpg|A vanadium dioxide crystal|photo
 vo22|commons|VO2 structure.png|The two structures: monoclinic below 68 degrees with the vanadium atoms paired, rutile above with the pairs broken|structure
 vo23|commons|Microbolometer internals.jpg|A microbolometer from a thermal camera: vanadium oxide is the usual sensing film, its resistance swinging with a hair of warmth|related
-qdot|commons|Quantum dots 2.jpg|Quantum dots fluorescing — the colour is set by particle size|photo
+qdot|commons|CdSe Quantum Dots.jpg|Cadmium selenide dots under ultraviolet, labelled by diameter: 2.0 nm blue to 4.2 nm red|photo
+qdot2|commons|Quantum dots 2.jpg|Quantum dots fluorescing in vials: the colour is set by particle size|photo
+qdot3|commons|Samsung QLED TV 8K - 75 inches - 2018-11-02.jpg|A quantum dot television: a film of dots under blue LEDs makes the greens and reds|product
 metamaterial|commons|Metamaterial 'Flat Lens' (8889691315).jpg|A metamaterial flat lens|photo
-acousticmeta|commons|Órgano, de Eusebio Sempere Juan.JPG|Eusebio Sempere's sculpture — the rod array that turned out to be the first proven sonic crystal|related
+metamaterial2|commons|Square circ metastruc.png|One gold split ring on silicon, two micrometres across, under the atomic force microscope|structure
+metamaterial3|commons|Metasurface (5941035620).jpg|A fluid-tunable metasurface at NIST: copper resonators on board, retuned by water in the tubing|product
+acousticmeta|commons|Órgano, de Eusebio Sempere Juan.JPG|Eusebio Sempere's sculpture: the rod array that turned out to be the first proven sonic crystal|related
+acousticmeta2|commons|Bass Trap.jpg|A studio bass trap: the conventional tuned absorber, big because it has no lattice to help it|analog
 selfhealpoly|commons|Supramolecular rubber and polymer glass.tif|Supramolecular rubber, which re-forms its own broken bonds|photo
+selfhealpoly2|commons|Zelfhelend beton-1.jpg|A manhole cover slab in Antwerp, the first self-healing concrete used in Belgium: the same idea with bacteria as the capsule|analog
 lce|commons|Wikipedia pic LCE.png|A liquid crystal elastomer|photo
 oobleck|commons|Corn speaker.jpg|A cornstarch suspension standing up on a speaker cone|photo
 thermoelectric|commons|Thermoelectric Seebeck power module.jpg|A thermoelectric module|photo
@@ -817,7 +823,9 @@ laminateshell3|commons|Mammut, OutDoor 2018, Friedrichshafen (1X7A0185).jpg|A ha
 etextile|commons|Wireless electronic textiles.jpg|Inductors printed straight onto fabric, powering circuits without a wire|photo
 etextile2|commons|Gestickte Textile Sensorflächen.jpg|Embroidered sensor pads: the conductive thread stitched as the circuit, zigzags for stretch|photo
 etextile3|commons|Conductive thread.jpg|A bobbin of conductive thread: a textile yarn with the metal spun in, sewn like any other|photo
-dea|commons|Soft robot locomotion.jpg|A soft robot built for colonoscopy — the job DEAs are aimed at; this one runs on air, not volts|related
+dea|commons|Soft robot locomotion.jpg|A soft robot built for colonoscopy: the job DEAs are aimed at; this one runs on air, not volts|related
+dea2|commons|Artificial Muscle.png|An arm with electroactive polymer muscles, drawn: the film contracts across and stretches along|structure
+dea3|commons|BionicHandlingAssistant.tif|Festo's Bionic Handling Assistant, a pneumatic trunk: the soft gripper the elastomer actuator is meant to drive without the compressor|related
 strontiumal|commons|Photoluminescent Exit Sign.jpg|A photoluminescent exit sign, charged by room light|product
 spruce|commons|Violin Top and back plates.jpg|A carved violin top in spruce, beside its maple back|product
 ggg|commons|GAGG-Ce.jpg|A GAGG:Ce scintillator crystal — a garnet grown the same way as GGG|related
