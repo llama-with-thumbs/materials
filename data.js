@@ -3183,41 +3183,46 @@ window.MATERIALS = [
 },
 {
   id: "satin", cat: "fabric", name: "Satin weave",
-  sub: "long floats, as few crossings as possible", img: "satin",
-  hook: "The third basic weave, and the one defined by what it avoids: each warp thread passes over four or more wefts before tucking under a single one, and the tuck points are staggered so they never line up. The surface is therefore almost all unbroken float, which reflects light along the filament instead of scattering it at every crossing — the shine is geometry, not fibre, and the back of the same cloth is dull. Fewer crossings also means less friction holding the threads, so satin drapes beautifully and snags on anything.",
-  stats: [["Float", "over four or more, under one"], ["Shine", "from the weave, not the fibre"], ["Weakness", "snags — nothing pins the floats"]],
+  sub: "long floats, as few crossings as possible", img: "satin", extra: ["satin2", "satin3"],
+  hook: "The weave that avoids crossings: each warp floats over four wefts and tucks under one, no two tucks touching. The face is unbroken float, reflecting light instead of scattering it: the shine is geometry, not fibre.",
+  more: "Plain weave crosses at every thread, twill every few, satin as seldom as it can: in five-end satin each warp floats over four wefts and dips under one, and the dip moves along each row so no two tucks touch. The face is then all warp, flat and parallel, and if the warp is a smooth filament light comes off it as a sheet, which is the lustre; the back, all tucks, is dull. Weft-faced in cotton it is sateen, the smooth bedsheet. The floats also mean little friction between threads, so satin pours over a shape, slides as a lining, wraps a pointe shoe. The costs: nothing pins the floats, so a ring or a cat pulls a thread a yard long; seams slip; water spots it, every needle hole stays; and cheap polyester satin crackles and shines like a bin bag.",
+  stats: [["Float", "over four or more, under one"], ["Shine", "from the weave, not the fibre"], ["Weakness", "snags: nothing pins the floats"]],
   uses: "Linings and eveningwear, ribbon, bedding, pointe shoes, academic hoods.",
   link: "https://en.wikipedia.org/wiki/Satin",
   tags: ["duvet"]
 },
 {
   id: "carbonfab", cat: "fabric", name: "Woven carbon reinforcement",
-  sub: "3K tow, plain or 2x2 twill", img: "carbonfab",
-  hook: "Carbon fibre arrives as tow — a flat bundle of a few thousand filaments — and weaving it is a deliberate loss: every crossing bends the fibres out of line, and a crimped fibre carries less than a straight one. What the weave buys is handling. A dry fabric drapes over a mould, holds its yarns in place while resin wets it out, and resists the shear that would make a unidirectional sheet fall apart in the hands; a twill crosses less often than a plain weave and so follows a double curve where plain weave would wrinkle. Where the crimp cannot be afforded, the yarns are stitched instead of woven.",
+  sub: "3K tow, plain or 2x2 twill", img: "carbonfab", extra: ["carbonfab2", "carbonfab3"],
+  hook: "Carbon tow is a flat ribbon of filaments; weaving it is a chosen loss: every crossing bends fibre, and bent fibre carries less. The weave buys handling: cloth that drapes over a mould and holds still under resin.",
+  more: "The yarn is tow, 3,000 filaments of seven microns, woven flat and untwisted, since twist bends fibres before the loom does. Plain weave crosses at every tow and lies flattest; 2x2 twill crosses half as often, bends the fibres less and follows a double curve where plain weave wrinkles, which is why a bike frame wears the twill diagonal; harness satin crosses least and flies. The weave is only a way of getting straight fibres to the mould in one piece; once the resin sets, the fibres do the work. The costs: every crimp costs stiffness and strength next to straight tows, a tenth or more; the cloth frays at the scissors and shifts under the hand; resin pools at every crossing; the dust conducts and itches; and a square metre costs ten of glass cloth.",
   stats: [["3K tow", "3000 filaments laid flat"], ["Areal weight", "around 200 g/m² for 3K twill"], ["Crimp", "costs stiffness, buys drape"]],
   uses: "Wet lay-up and prepreg laminates, bike frames, car panels, repairs, cosmetic twill skins.",
   link: "https://en.wikipedia.org/wiki/Carbon_fibers"
 },
 {
   id: "fibc", cat: "fabric", name: "Bulk bag fabric",
-  sub: "flat polypropylene tape, woven both ways", img: "fibc",
-  hook: "The cloth a one-tonne bag is made of is not spun yarn at all: polypropylene film is slit into flat tapes and stretched several times its length, which lines the molecules up along the tape and makes it far stronger than the film it came from, then warp and weft of flat tape are woven into a cloth that barely stretches. Flat tape also packs edge to edge, so the weave is dense enough to hold powder without a liner. Sunlight is what ends it — a season outdoors and the tape goes chalky and tears in the hand, which is why a bag rated 5:1 is thrown away rather than reused.",
-  stats: [["Tape", "slit film, drawn to orient it"], ["Safety factor", "5:1 reusable, 6:1 single trip"], ["Killed by", "UV — months, not years"]],
+  sub: "flat polypropylene tape, woven both ways", img: "fibc", extra: ["fibc2", "fibc3"],
+  hook: "A one-tonne bag is not spun yarn: polypropylene film slit into tapes and stretched sixfold, which lines the molecules up along the tape and strengthens it many times, then woven into cloth that barely gives.",
+  more: "Polypropylene film is slit into tapes and drawn hot to six times their length, lining the chains up; a circular loom crosses tape with tape into a tube of cloth that stretches a few per cent at two hundred grams a square metre. Flat tape packs edge to edge, so the weave holds sand without a liner, and a bag of it with four loops at the corners carries a tonne, which is why since the 1960s grain moves as one bag on a forklift, not fifty on a back. The costs: ultraviolet ends it, a stabiliser buys a season outdoors before the tape goes chalky and tears, which is why a five-to-one bag is used once and thrown away; damp gets through; powder running out can charge the bag enough to spark, hence four electrostatic classes; and the empties pile up.",
+  stats: [["Tape", "slit film, drawn to orient it"], ["Safety factor", "5:1 single trip, 6:1 reusable"], ["Killed by", "UV: months, not years"]],
   uses: "FIBC big bags for sand, fertiliser and grain, woven sacks, ground sheets, tarpaulins.",
   link: "https://en.wikipedia.org/wiki/Flexible_intermediate_bulk_container"
 },
 {
   id: "machinelace", cat: "fabric", name: "Machine lace",
-  sub: "threads twisted round each other, not interlaced", img: "machinelace",
-  hook: "Lace is not a weave. Instead of passing over and under, each thread is twisted around its neighbours by a brass bobbin thin enough to swing through the warp in a comb, which produces a net that will not ravel when it is cut — the reason lace can be made as a shaped piece rather than a length. Heathcoat worked out the hexagonal bobbinet ground in 1808, and a Leavers machine with a Jacquard head on top of it can place pattern thread anywhere in that net. The machines still running are mostly a century old, because nobody has built new ones since.",
+  sub: "threads twisted round each other, not interlaced", img: "machinelace", extra: ["machinelace2", "machinelace3"],
+  hook: "Lace is not a weave. Each thread is twisted round its neighbours by a brass bobbin swung through the warp, so the net does not ravel when cut, and lace can be a shaped piece. The machines left are a century old.",
+  more: "Heathcoat made bobbin-lace net by machine in 1808: thousands of flat brass bobbins, each a thin disc of thread, swing through the warp and back, the warp shifting a space between, and each thread twists round a warp and moves on: the net. Leavers put the warp in a comb in 1813, and a Jacquard head on top in the 1830s put pattern anywhere in the net: Nottingham lace, and Calais lace once machines were smuggled over. A Leavers machine is ten metres and ten tonnes, makes a few metres an hour; the last was built in the 1950s. The costs: a tulliste takes years to train and weeks to set up; the thread must be fine and even or it breaks mid-swing; the world's cheap lace is knitted on raschels, which imitate; and a dead Leavers machine is not replaced.",
   stats: [["Threads", "twisted, never interlaced"], ["Cut edge", "does not ravel"], ["Bobbinet ground", "patented 1808, still the base"]],
   uses: "Lace trim and curtains, bridal and lingerie fabric, hosiery panels, millinery veiling.",
   link: "https://en.wikipedia.org/wiki/Bobbinet"
 },
 {
   id: "firehose", cat: "fabric", name: "Fire hose jacket",
-  sub: "circular-woven polyester over a rubber liner", img: "firehose",
-  hook: "A division of labour between two materials: a thin rubber or polyurethane liner holds the water and carries no load, and a jacket woven as a seamless tube on a circular loom takes the whole pressure. Because the jacket is woven rather than moulded it lies flat when empty — which is the only reason a hundred metres of it fits on a truck — and goes round the instant it is charged. Burst pressure is roughly three times the working pressure, but almost no hose dies of pressure: it dies of being dragged over concrete, and the jacket is what gets a coating to slow that down.",
+  sub: "circular-woven polyester over a rubber liner", img: "firehose", extra: ["firehose2", "firehose3"],
+  hook: "Two materials, a job each: a thin rubber liner holds the water and no load, a woven seamless jacket takes the pressure. Woven, not moulded, it lies flat empty, which is why a hundred metres fits on a truck.",
+  more: "Until the 1960s a hose was unlined linen that wept until its fibres swelled shut and rotted if rolled away damp, hence the tower by every old fire station. The modern hose is polyester woven as a seamless tube on a circular loom, with a rubber liner bonded inside; the liner is watertight and would burst at a few bar, the jacket strong and leaky, and together they hold twenty bar and fold. Flat, it is a strip a finger thick; charged, it is round and stiff as a log. A second jacket or a rubber coat is what an attack line gets for the kerbs. The costs: a kink halves the flow; charged, it weighs a kilo a metre and fights you; a burst at twenty bar is a whip; and almost no hose dies of pressure, it dies of concrete, so it is condemned for scuffs.",
   stats: [["Jacket", "circular-woven, no seam"], ["Burst", "around 3x working pressure"], ["Fails by", "abrasion, not pressure"]],
   uses: "Fire service attack and supply lines, industrial washdown, irrigation, layflat transfer hose.",
   link: "https://en.wikipedia.org/wiki/Fire_hose"

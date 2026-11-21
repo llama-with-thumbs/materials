@@ -10094,7 +10094,7 @@ window.CREDITS = {
   },
   "surgmesh2": {
     "file": "surgmesh2.jpg",
-    "caption": "A two-part groin mesh with a scale: the flat sheet and the plug, both knitted polypropylene",
+    "caption": "A two-part groin mesh: the flat sheet with its door cut for the cord, and the pleated plug beside it",
     "kind": "product",
     "title": "Two component mesh for Rutkow repair.JPG",
     "site": "Wikimedia",
@@ -10106,7 +10106,7 @@ window.CREDITS = {
   },
   "surgmesh3": {
     "file": "surgmesh3.jpg",
-    "caption": "A light mesh with its door cut for the cord, and the pleated plug beside it",
+    "caption": "A light mesh laid against a scale: 15 centimetres of knitted polypropylene, and very little of it",
     "kind": "product",
     "title": "Light Mesh for Groin hernia repair.JPG",
     "site": "Wikimedia",
@@ -10885,16 +10885,40 @@ window.CREDITS = {
     "h": 640
   },
   "satin": {
-    "file": "satin.jpg",
-    "caption": "A Chinese rank badge embroidered on a silk satin ground",
+    "file": "satin.png",
+    "caption": "Rolls of satin ribbon: the same yarn in every colour, and the shine is the long float catching the light",
     "kind": "product",
-    "title": "https://openaccess-cdn.clevelandart.org/1948.69/1948.69_web.jpg",
-    "site": "Cleveland Museum of Art",
-    "artist": "Cleveland Museum of Art",
+    "title": "Satin Ribbons.png",
+    "site": "Wikimedia",
+    "artist": "Jblayson",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Satin_Ribbons.png",
+    "w": 960,
+    "h": 720
+  },
+  "satin2": {
+    "file": "satin2.png",
+    "caption": "Crepe-back satin draped: the smooth face shining, the crepe back dull, from a scanned swatch rendered by Poly Haven",
+    "kind": "photo",
+    "title": "Crepe satin (Rico Cilliers and colormass via Poly Haven).png",
+    "site": "Wikimedia",
+    "artist": "Rico Cilliers (Processing)\ncolormass (Photography)",
     "license": "CC0",
-    "page": "https://clevelandart.org/art/1948.69",
-    "w": 856,
-    "h": 893
+    "page": "https://commons.wikimedia.org/wiki/File:Crepe_satin_(Rico_Cilliers_and_colormass_via_Poly_Haven).png",
+    "w": 960,
+    "h": 1016
+  },
+  "satin3": {
+    "file": "satin3.jpg",
+    "caption": "A satin dress in Gilon, the shine moving with every fold: the float does what the fibre alone would not",
+    "kind": "product",
+    "title": "National satin dress.jpg",
+    "site": "Wikimedia",
+    "artist": "Bunyod Rustamov",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:National_satin_dress.jpg",
+    "w": 960,
+    "h": 1440
   },
   "carbonfab": {
     "file": "carbonfab.jpg",
@@ -10908,6 +10932,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "carbonfab2": {
+    "file": "carbonfab2.jpg",
+    "caption": "A 3K 2x2 twill at 200 grams a square metre, scanned: the diagonal every bicycle frame wears",
+    "kind": "photo",
+    "title": "Carbon fabric yc 3k 200 twill.jpg",
+    "site": "Wikimedia",
+    "artist": "Achim Hering",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carbon_fabric_yc_3k_200_twill.jpg",
+    "w": 960,
+    "h": 887
+  },
+  "carbonfab3": {
+    "file": "carbonfab3.jpg",
+    "caption": "Carbon cloth draped in the factory: the weave is there so that it will hang like this over a mould",
+    "kind": "photo",
+    "title": "Ready to use carbon fiber sheet.jpg",
+    "site": "Wikimedia",
+    "artist": "Duboyong",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ready_to_use_carbon_fiber_sheet.jpg",
+    "w": 960,
+    "h": 640
+  },
   "fibc": {
     "file": "fibc.jpg",
     "caption": "Woven polypropylene big bags holding 600 kg of fertiliser each",
@@ -10919,6 +10967,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "fibc2": {
+    "file": "fibc2.jpg",
+    "caption": "A bag of setts: the flat tape weave at the rim, and a tonne of stone held by cloth",
+    "kind": "product",
+    "title": "BigBag mit kleinen Pflastersteinen.jpg",
+    "site": "Wikimedia",
+    "artist": "Leo Miregalitheo",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BigBag_mit_kleinen_Pflastersteinen.jpg",
+    "w": 960,
+    "h": 889
+  },
+  "fibc3": {
+    "file": "fibc3.jpg",
+    "caption": "Big bags as a flood barrier at Frankfurt, weathering in the water and the sun that will end them",
+    "kind": "product",
+    "title": "Bigbags im Wasser (fcm).jpg",
+    "site": "Wikimedia",
+    "artist": "Frank C. Müller",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Bigbags_im_Wasser_(fcm).jpg",
+    "w": 960,
+    "h": 720
   },
   "machinelace": {
     "file": "machinelace.jpg",
@@ -10932,6 +11004,30 @@ window.CREDITS = {
     "h": 2284,
     "site": "Wikimedia"
   },
+  "machinelace2": {
+    "file": "machinelace2.jpg",
+    "caption": "A Leavers machine with its Jacquard at the Cité de la Dentelle, Calais: ten metres of iron, a century old, still making lace",
+    "kind": "process",
+    "title": "Cité internationale de la Dentelle .- Leavers machine with Jacquard (1).jpg",
+    "site": "Wikimedia",
+    "artist": "Pierre André Leclercq",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_internationale_de_la_Dentelle_.-_Leavers_machine_with_Jacquard_(1).jpg",
+    "w": 960,
+    "h": 643
+  },
+  "machinelace3": {
+    "file": "machinelace3.jpg",
+    "caption": "Machine lace magnified, from a Nottingham maker's sample book of about 1905: the threads twist round each other, nothing goes over and under",
+    "kind": "structure",
+    "title": "Teneriffe machine lace magnified.jpg",
+    "site": "Wikimedia",
+    "artist": "Mmangan333",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teneriffe_machine_lace_magnified.jpg",
+    "w": 960,
+    "h": 960
+  },
   "firehose": {
     "file": "firehose.jpg",
     "caption": "Rolled supply hose in a water tender, the woven jacket uppermost",
@@ -10943,6 +11039,30 @@ window.CREDITS = {
     "w": 960,
     "h": 834,
     "site": "Wikimedia"
+  },
+  "firehose2": {
+    "file": "firehose2.jpg",
+    "caption": "A charged attack line at Ramstein: round, stiff and heavy the moment the water is in it",
+    "kind": "product",
+    "title": "Forged by fire- 86th CES firefighters train for the call (9862041).jpg",
+    "site": "Wikimedia",
+    "artist": "U.S. Air Force photo by Airman 1st Class Joseph Curzi",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Forged_by_fire-_86th_CES_firefighters_train_for_the_call_(9862041).jpg",
+    "w": 960,
+    "h": 639
+  },
+  "firehose3": {
+    "file": "firehose3.jpg",
+    "caption": "Hose laid out to dry at the fire centre in Boise: the habit left over from the days of linen",
+    "kind": "process",
+    "title": "Cjc drying fire hose in preparation for the next fire (28940038240).jpg",
+    "site": "Wikimedia",
+    "artist": "Intermountain Region US Forest Service",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Cjc_drying_fire_hose_in_preparation_for_the_next_fire_(28940038240).jpg",
+    "w": 960,
+    "h": 720
   },
   "wiltoncarpet": {
     "file": "wiltoncarpet.jpg",

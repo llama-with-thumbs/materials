@@ -910,11 +910,21 @@ worsted3|commons|Bradford Industrial Museum Noble Comb (1891) 4991.jpg|A Noble c
 tweed|pxhere|https://c.pxhere.com/photos/82/fa/fabric_detail_harris_tweed_coarse_plant_dyes_natural_colours-750549.jpg!d|Harris Tweed cloth under a macro lens: the colours blended inside the yarn|photo|CC0|pxhere|https://pxhere.com/en/photo/750549
 tweed2|commons|Harris tweed loom.jpg|A weaver's loom in its shed on the islands, 2004: the web grows at home, by treadle, as the Act requires|process
 tweed3|commons|Donegal Tweed.JPG|Donegal tweed, the Irish cousin: the flecks are slubs of coloured yarn, not blended dye|analog
-satin|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1948.69/1948.69_web.jpg|A Chinese rank badge embroidered on a silk satin ground|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1948.69
+satin|commons|Satin Ribbons.png|Rolls of satin ribbon: the same yarn in every colour, and the shine is the long float catching the light|product
+satin2|commons|Crepe satin (Rico Cilliers and colormass via Poly Haven).png|Crepe-back satin draped: the smooth face shining, the crepe back dull, from a scanned swatch rendered by Poly Haven|photo
+satin3|commons|National satin dress.jpg|A satin dress in Gilon, the shine moving with every fold: the float does what the fibre alone would not|product
 carbonfab|commons|Woven carbon fiber fabric.jpg|Woven carbon fibre fabric, tow crossing tow|photo
+carbonfab2|commons|Carbon fabric yc 3k 200 twill.jpg|A 3K 2x2 twill at 200 grams a square metre, scanned: the diagonal every bicycle frame wears|photo
+carbonfab3|commons|Ready to use carbon fiber sheet.jpg|Carbon cloth draped in the factory: the weave is there so that it will hang like this over a mould|photo
 fibc|commons|Flexible intermediate bulk containers-Fertilizer.jpg|Woven polypropylene big bags holding 600 kg of fertiliser each|product
+fibc2|commons|BigBag mit kleinen Pflastersteinen.jpg|A bag of setts: the flat tape weave at the rim, and a tonne of stone held by cloth|product
+fibc3|commons|Bigbags im Wasser (fcm).jpg|Big bags as a flood barrier at Frankfurt, weathering in the water and the sun that will end them|product
 machinelace|commons|Border (ST293) - Lace-Machine Lace - MoMu Antwerp.jpg|A machine-made lace border, from the MoMu collection in Antwerp|photo
+machinelace2|commons|Cité internationale de la Dentelle .- Leavers machine with Jacquard (1).jpg|A Leavers machine with its Jacquard at the Cité de la Dentelle, Calais: ten metres of iron, a century old, still making lace|process
+machinelace3|commons|Teneriffe machine lace magnified.jpg|Machine lace magnified, from a Nottingham maker's sample book of about 1905: the threads twist round each other, nothing goes over and under|structure
 firehose|commons|Fire hose supply.jpg|Rolled supply hose in a water tender, the woven jacket uppermost|photo
+firehose2|commons|Forged by fire- 86th CES firefighters train for the call (9862041).jpg|A charged attack line at Ramstein: round, stiff and heavy the moment the water is in it|product
+firehose3|commons|Cjc drying fire hose in preparation for the next fire (28940038240).jpg|Hose laid out to dry at the fire centre in Boise: the habit left over from the days of linen|process
 wiltoncarpet|commons|Museum of Carpet - Jacquard Wilton loom - geograph.org.uk - 6292683.jpg|A Jacquard Wilton carpet loom at the Museum of Carpet, Kidderminster|process
 reedcane|commons|B-flat e-flat a-flat reeds.jpg|Clarinet and saxophone reeds in three sizes, cut from cane|product
 ebonite|commons|Mouthpiece tenor saxophone.jpg|Two tenor saxophone mouthpieces, the Selmer in hard rubber and the Dukoff in metal|product
