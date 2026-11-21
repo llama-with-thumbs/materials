@@ -668,10 +668,20 @@ nephrite|commons|Nephrite jade (Pounamu Ultramafics, Pounamu Ultramafic Belt, So
 nephrite2|commons|Toki pounamu 11.jpg|Maori adzes of pounamu at Te Papa: ground, not flaked, and tougher than bronze|product
 nephrite3|commons|Nephrite mt. with hunting scene SF Asian Art Museum B60J49.JPG|A Qing nephrite mountain with a hunting scene: weeks of abrasion in a stone that will not chip|product
 washi|commons|Washi(Sugihara paper).JPG|Washi paper|photo
+washi2|commons|Japanese paper making 05.jpg|Forming a sheet at Echizen: the slurry thrown across the screen in waves, layer over layer|process
+washi3|commons|Shōji and Engawa of the former Miura residence 6-10 Reisenmachi Hakata-ku Fukuoka 20240119.jpg|Shoji in a Fukuoka house: the paper as wall and window at once|product
 vellum|commons|Ashmolean Parchment AN 1981.940.jpg|Parchment|photo
+vellum2|commons|Parchment from goatskin.jpg|A goatskin parchment laced into its frame: dried under tension, which is the whole process|process
+vellum3|commons|Magna Carta (British Library Cotton MS Augustus II.106).jpg|Magna Carta, 1215: iron-gall ink on sheepskin parchment, legible after eight centuries|product
 beeswax|commons|Beeswax blocks.JPG|Beeswax blocks|photo
+beeswax2|commons|Wax foundation - Flickr - conall...jpg|Comb foundation: beeswax rolled with the hexagon pattern, with the flakes a bee secretes beside a match for scale|product
+beeswax3|commons|Lost Wax-Model of apple in wax.jpg|An apple modelled in wax, the first step of a lost-wax bronze: the wax will be burnt out and the bronze take its place|process
 cuttlebone|commons|Zeeschuim of sepia.jpg|Cuttlebone|photo
+cuttlebone2|commons|3D visualisation of μCT-data of a cuttlebone 01.jpg|A cuttlebone in micro-CT: the stacked floors and the pillars between them|structure
+cuttlebone3|commons|European Common Cuttlefish (Sepia officinalis) Bone - Muro, Spain 2022-04-17 (01).jpg|A common cuttlefish bone on a Mallorcan beach, hard plate up|photo
 nanocellulose|commons|Nanocellulose.JPG|Nanocellulose|photo
+nanocellulose2|commons|Macroscopic picture of a film of cellulose nanocrystal suspension cast on a Petri dish (diameter 3.5cm)..jpg|A film of cellulose nanocrystals dried in a dish: the rods line up and the film reflects blue-green|product
+nanocellulose3|commons|Cellulose nanofiber network.jpg|A nanofibril network under the electron microscope: the tangle that gels water at one percent|structure
 silicon|commons|Silicon ingot 2019-01-30 064114.jpg|A monocrystalline silicon ingot|photo
 gaas|commons|Gallium Arsenide (GaAs) 2" wafer.jpg|A gallium arsenide wafer|photo
 gan|commons|Silicon vs GaN 30W USB-C chargers.jpg|Two 30 W chargers — silicon on the left, GaN on the right|product

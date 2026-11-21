@@ -7980,6 +7980,30 @@ window.CREDITS = {
     "h": 638,
     "site": "Wikimedia"
   },
+  "washi2": {
+    "file": "washi2.jpg",
+    "caption": "Forming a sheet at Echizen: the slurry thrown across the screen in waves, layer over layer",
+    "kind": "process",
+    "title": "Japanese paper making 05.jpg",
+    "site": "Wikimedia",
+    "artist": "TR15336300101",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Japanese_paper_making_05.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "washi3": {
+    "file": "washi3.jpg",
+    "caption": "Shoji in a Fukuoka house: the paper as wall and window at once",
+    "kind": "product",
+    "title": "Shōji and Engawa of the former Miura residence 6-10 Reisenmachi Hakata-ku Fukuoka 20240119.jpg",
+    "site": "Wikimedia",
+    "artist": "LLAAYY",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dji_and_Engawa_of_the_former_Miura_residence_6-10_Reisenmachi_Hakata-ku_Fukuoka_20240119.jpg",
+    "w": 960,
+    "h": 540
+  },
   "vellum": {
     "file": "vellum.jpg",
     "caption": "Parchment",
@@ -7991,6 +8015,30 @@ window.CREDITS = {
     "w": 960,
     "h": 732,
     "site": "Wikimedia"
+  },
+  "vellum2": {
+    "file": "vellum2.jpg",
+    "caption": "A goatskin parchment laced into its frame: dried under tension, which is the whole process",
+    "kind": "process",
+    "title": "Parchment from goatskin.jpg",
+    "site": "Wikimedia",
+    "artist": "Michal Maňas",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Parchment_from_goatskin.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "vellum3": {
+    "file": "vellum3.jpg",
+    "caption": "Magna Carta, 1215: iron-gall ink on sheepskin parchment, legible after eight centuries",
+    "kind": "product",
+    "title": "Magna Carta (British Library Cotton MS Augustus II.106).jpg",
+    "site": "Wikimedia",
+    "artist": "Original authors were the barons and King John of England. Uploaded by Earthsound.",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg",
+    "w": 960,
+    "h": 640
   },
   "beeswax": {
     "file": "beeswax.jpg",
@@ -8004,6 +8052,30 @@ window.CREDITS = {
     "h": 719,
     "site": "Wikimedia"
   },
+  "beeswax2": {
+    "file": "beeswax2.jpg",
+    "caption": "Comb foundation: beeswax rolled with the hexagon pattern, with the flakes a bee secretes beside a match for scale",
+    "kind": "product",
+    "title": "Wax foundation - Flickr - conall...jpg",
+    "site": "Wikimedia",
+    "artist": "Conall from Downpatrick, Northern Ireland",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wax_foundation_-_Flickr_-_conall...jpg",
+    "w": 960,
+    "h": 517
+  },
+  "beeswax3": {
+    "file": "beeswax3.jpg",
+    "caption": "An apple modelled in wax, the first step of a lost-wax bronze: the wax will be burnt out and the bronze take its place",
+    "kind": "process",
+    "title": "Lost Wax-Model of apple in wax.jpg",
+    "site": "Wikimedia",
+    "artist": "José-Manuel Benito",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Lost_Wax-Model_of_apple_in_wax.jpg",
+    "w": 960,
+    "h": 960
+  },
   "cuttlebone": {
     "file": "cuttlebone.jpg",
     "caption": "Cuttlebone",
@@ -8016,6 +8088,30 @@ window.CREDITS = {
     "h": 540,
     "site": "Wikimedia"
   },
+  "cuttlebone2": {
+    "file": "cuttlebone2.jpg",
+    "caption": "A cuttlebone in micro-CT: the stacked floors and the pillars between them",
+    "kind": "structure",
+    "title": "3D visualisation of μCT-data of a cuttlebone 01.jpg",
+    "site": "Wikimedia",
+    "artist": "SecretDisc",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:3D_visualisation_of_%CE%BCCT-data_of_a_cuttlebone_01.jpg",
+    "w": 960,
+    "h": 734
+  },
+  "cuttlebone3": {
+    "file": "cuttlebone3.jpg",
+    "caption": "A common cuttlefish bone on a Mallorcan beach, hard plate up",
+    "kind": "photo",
+    "title": "European Common Cuttlefish (Sepia officinalis) Bone - Muro, Spain 2022-04-17 (01).jpg",
+    "site": "Wikimedia",
+    "artist": "Ryan Hodnett",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:European_Common_Cuttlefish_(Sepia_officinalis)_Bone_-_Muro,_Spain_2022-04-17_(01).jpg",
+    "w": 960,
+    "h": 1399
+  },
   "nanocellulose": {
     "file": "nanocellulose.jpg",
     "caption": "Nanocellulose",
@@ -8027,6 +8123,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1086,
     "site": "Wikimedia"
+  },
+  "nanocellulose2": {
+    "file": "nanocellulose2.jpg",
+    "caption": "A film of cellulose nanocrystals dried in a dish: the rods line up and the film reflects blue-green",
+    "kind": "product",
+    "title": "Macroscopic picture of a film of cellulose nanocrystal suspension cast on a Petri dish (diameter 3.5cm)..jpg",
+    "site": "Wikimedia",
+    "artist": "Yapadaryko",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Macroscopic_picture_of_a_film_of_cellulose_nanocrystal_suspension_cast_on_a_Petri_dish_(diameter_3.5cm)..jpg",
+    "w": 960,
+    "h": 960
+  },
+  "nanocellulose3": {
+    "file": "nanocellulose3.jpg",
+    "caption": "A nanofibril network under the electron microscope: the tangle that gels water at one percent",
+    "kind": "structure",
+    "title": "Cellulose nanofiber network.jpg",
+    "site": "Wikimedia",
+    "artist": "Qspheroid4",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cellulose_nanofiber_network.jpg",
+    "w": 960,
+    "h": 744
   },
   "silicon": {
     "file": "silicon.jpg",
