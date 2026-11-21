@@ -652,9 +652,14 @@ tyvek2|Flickr|https://live.staticflickr.com/3458/3350958206_db48d7665f_b.jpg|A T
 tyvek3|commons|Tyvek Suits (cropped).jpg|Tyvek coveralls: the sheet that stops liquid and dust but lets sweat out as vapour|product
 mercerised|commons|Spool of white thread.jpg|Spooled cotton thread — mercerising gives it the sheen|product
 ringmesh|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1923.1120/1923.1120_web.jpg|A riveted mail hauberk of steel and brass rings|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1923.1120
-opwairbag|commons|Vauxhall Vectra curtain airbag deployed.jpg|A curtain airbag deployed in a car|product
-ptfeglass|commons|Denver International Airport.jpg|Denver airport roof — PTFE-coated glass fibre on cables|product
-etfefoil|commons|Tropical Biome of the Eden Project - geograph.org.uk - 4456101.jpg|The Eden Project biomes, clad in inflated ETFE pillows|product
+opwairbag|commons|Vauxhall Vectra curtain airbag deployed.jpg|A curtain airbag deployed down the side of a car: a bag with no seams, still holding its air|product
+opwairbag2|commons|Renault Laguna 01 airbag by-dpc.jpg|The front bags of a Laguna, hanging empty: the cut-and-sewn kind, which does its work in thirty milliseconds and may leak as it likes|analog
+ptfeglass|commons|Dresden Hauptbahnhof 001.jpg|Dresden main station under Foster's roof of 2006: a 0.7 mm glass membrane in PTFE, and the platforms in daylight|product
+ptfeglass2|commons|Denver International Airport.jpg|Denver airport: PTFE-coated glass fibre on cables, the peaks since 1995|product
+ptfeglass3|commons|2010-1212-MetrodomeRoofCollapse.jpg|The Metrodome, Minneapolis, 12 December 2010: the air-supported membrane torn by snow and lying on the field|product
+etfefoil|commons|Allianz Arena - Panels.jpg|The cushions of the Allianz Arena close to: two foils welded at the rim, air between, a lamp behind|photo
+etfefoil2|commons|AllianzArena Luftversorgung und Beleuchtung.jpg|Behind the cushions: the air pipes that keep them inflated and the lamps that colour them|structure
+etfefoil3|commons|Water Cube - panoramio (1).jpg|The Beijing Water Cube: three thousand ETFE bubbles on a steel foam, 2008|product
 dwrfinish|commons|CSIRO ScienceImage 11489 Water droplets on QuickDry merino wollen fabric.jpg|Water beading on treated fabric|photo
 tufted|commons|Deep Pile Carpet Up Close.jpg|Deep carpet pile, close up|product
 terrypile|commons|Frottee-Handtuch.jpg|Terry towelling close up: the slack warp buckled into loops on the face of the cloth|photo
@@ -773,8 +778,12 @@ braidedline3|commons|Reel with DSMB P9027417 (cropped).JPG|A diver's ratchet ree
 needlepunch|commons|Suzuki SX4 Kofferraum.JPG|The boot of a small car lined with needle felt: the material as most people meet it|product
 needlepunch2|commons|Nadeln für die Herstellung von Nadelvlies.jpg|The barbed needles in the web: each notch carries a few fibres down through the thickness and leaves them there|structure
 needlepunch3|commons|Needle-felt-making-1080204-close-up.jpg|The same barbed needle by hand, in a felting co-operative on Issyk-Kul: one needle where the loom has thousands|process
-woven3d|commons|Paris Air Show 2017 LEAP fan.jpg|A LEAP engine fan — each blade is a 3D-woven preform, injected with resin|product
+woven3d|commons|Paris Air Show 2017 LEAP fan.jpg|A LEAP engine fan: each blade is a 3D-woven preform, injected with resin|product
+woven3d2|commons|GE90 blades dsc04669.jpg|The GE90 fan of 1995, the first carbon blades in service: laid up ply by ply, the laminate that 3D weaving did away with|analog
+woven3d3|commons|CFMI LEAP 1B engine from a Boeing 737-8 MAX.jpg|A LEAP-1B on a 737 MAX: the woven blades in service, black carbon with titanium noses|product
 laminateshell|commons|Early Gore-Tex hooded rain jacket.jpg|An MSR Gore-Tex jacket from about 1976, one of the first laminate shells|product
+laminateshell2|commons|Water repellent shell layer jacket.jpg|Rain beading on a shell: the repellent finish on the face fabric at work, which is what keeps the membrane breathing|photo
+laminateshell3|commons|Mammut, OutDoor 2018, Friedrichshafen (1X7A0185).jpg|A hardshell of 2018: taped seams, laminated zips, the same three layers forty years on|product
 etextile|commons|Wireless electronic textiles.jpg|Inductors printed straight onto fabric, powering circuits without a wire|photo
 dea|commons|Soft robot locomotion.jpg|A soft robot built for colonoscopy — the job DEAs are aimed at; this one runs on air, not volts|related
 strontiumal|commons|Photoluminescent Exit Sign.jpg|A photoluminescent exit sign, charged by room light|product

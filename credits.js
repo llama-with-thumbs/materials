@@ -7790,7 +7790,7 @@ window.CREDITS = {
   },
   "opwairbag": {
     "file": "opwairbag.jpg",
-    "caption": "A curtain airbag deployed in a car",
+    "caption": "A curtain airbag deployed down the side of a car: a bag with no seams, still holding its air",
     "kind": "product",
     "title": "Vauxhall Vectra curtain airbag deployed.jpg",
     "artist": "Janipewter (talk)",
@@ -7800,29 +7800,89 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "opwairbag2": {
+    "file": "opwairbag2.jpg",
+    "caption": "The front bags of a Laguna, hanging empty: the cut-and-sewn kind, which does its work in thirty milliseconds and may leak as it likes",
+    "kind": "analog",
+    "title": "Renault Laguna 01 airbag by-dpc.jpg",
+    "site": "Wikimedia",
+    "artist": "David Perez",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Renault_Laguna_01_airbag_by-dpc.jpg",
+    "w": 960,
+    "h": 720
+  },
   "ptfeglass": {
     "file": "ptfeglass.jpg",
-    "caption": "Denver airport roof — PTFE-coated glass fibre on cables",
+    "caption": "Dresden main station under Foster's roof of 2006: a 0.7 mm glass membrane in PTFE, and the platforms in daylight",
+    "kind": "product",
+    "title": "Dresden Hauptbahnhof 001.jpg",
+    "site": "Wikimedia",
+    "artist": "Loracco",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dresden_Hauptbahnhof_001.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "ptfeglass2": {
+    "file": "ptfeglass2.jpg",
+    "caption": "Denver airport: PTFE-coated glass fibre on cables, the peaks since 1995",
     "kind": "product",
     "title": "Denver International Airport.jpg",
+    "site": "Wikimedia",
     "artist": "Unknown",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Denver_International_Airport.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "ptfeglass3": {
+    "file": "ptfeglass3.jpg",
+    "caption": "The Metrodome, Minneapolis, 12 December 2010: the air-supported membrane torn by snow and lying on the field",
+    "kind": "product",
+    "title": "2010-1212-MetrodomeRoofCollapse.jpg",
+    "site": "Wikimedia",
+    "artist": "Bobak Ha'Eri",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2010-1212-MetrodomeRoofCollapse.jpg",
+    "w": 960,
+    "h": 722
   },
   "etfefoil": {
     "file": "etfefoil.jpg",
-    "caption": "The Eden Project biomes, clad in inflated ETFE pillows",
-    "kind": "product",
-    "title": "Tropical Biome of the Eden Project - geograph.org.uk - 4456101.jpg",
-    "artist": "Gareth James",
-    "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tropical_Biome_of_the_Eden_Project_-_geograph.org.uk_-_4456101.jpg",
+    "caption": "The cushions of the Allianz Arena close to: two foils welded at the rim, air between, a lamp behind",
+    "kind": "photo",
+    "title": "Allianz Arena - Panels.jpg",
+    "site": "Wikimedia",
+    "artist": "Stewart Damonsing",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Allianz_Arena_-_Panels.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "etfefoil2": {
+    "file": "etfefoil2.jpg",
+    "caption": "Behind the cushions: the air pipes that keep them inflated and the lamps that colour them",
+    "kind": "structure",
+    "title": "AllianzArena Luftversorgung und Beleuchtung.jpg",
+    "site": "Wikimedia",
+    "artist": "Paskal Kiefer",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AllianzArena_Luftversorgung_und_Beleuchtung.jpg",
+    "w": 960,
+    "h": 642
+  },
+  "etfefoil3": {
+    "file": "etfefoil3.jpg",
+    "caption": "The Beijing Water Cube: three thousand ETFE bubbles on a steel foam, 2008",
+    "kind": "product",
+    "title": "Water Cube - panoramio (1).jpg",
+    "site": "Wikimedia",
+    "artist": "Alastair0392",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Water_Cube_-_panoramio_(1).jpg",
+    "w": 960,
+    "h": 720
   },
   "dwrfinish": {
     "file": "dwrfinish.jpg",
@@ -9242,7 +9302,7 @@ window.CREDITS = {
   },
   "woven3d": {
     "file": "woven3d.jpg",
-    "caption": "A LEAP engine fan — each blade is a 3D-woven preform, injected with resin",
+    "caption": "A LEAP engine fan: each blade is a 3D-woven preform, injected with resin",
     "kind": "product",
     "title": "Paris Air Show 2017 LEAP fan.jpg",
     "artist": "Marc Lacoste",
@@ -9251,6 +9311,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "woven3d2": {
+    "file": "woven3d2.jpg",
+    "caption": "The GE90 fan of 1995, the first carbon blades in service: laid up ply by ply, the laminate that 3D weaving did away with",
+    "kind": "analog",
+    "title": "GE90 blades dsc04669.jpg",
+    "site": "Wikimedia",
+    "artist": "David Monniaux",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GE90_blades_dsc04669.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "woven3d3": {
+    "file": "woven3d3.jpg",
+    "caption": "A LEAP-1B on a 737 MAX: the woven blades in service, black carbon with titanium noses",
+    "kind": "product",
+    "title": "CFMI LEAP 1B engine from a Boeing 737-8 MAX.jpg",
+    "site": "Wikimedia",
+    "artist": "Thyrome",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:CFMI_LEAP_1B_engine_from_a_Boeing_737-8_MAX.jpg",
+    "w": 960,
+    "h": 640
   },
   "laminateshell": {
     "file": "laminateshell.jpg",
@@ -9263,6 +9347,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1449,
     "site": "Wikimedia"
+  },
+  "laminateshell2": {
+    "file": "laminateshell2.jpg",
+    "caption": "Rain beading on a shell: the repellent finish on the face fabric at work, which is what keeps the membrane breathing",
+    "kind": "photo",
+    "title": "Water repellent shell layer jacket.jpg",
+    "site": "Wikimedia",
+    "artist": "alinja",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Water_repellent_shell_layer_jacket.jpg",
+    "w": 960,
+    "h": 951
+  },
+  "laminateshell3": {
+    "file": "laminateshell3.jpg",
+    "caption": "A hardshell of 2018: taped seams, laminated zips, the same three layers forty years on",
+    "kind": "product",
+    "title": "Mammut, OutDoor 2018, Friedrichshafen (1X7A0185).jpg",
+    "site": "Wikimedia",
+    "artist": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mammut,_OutDoor_2018,_Friedrichshafen_(1X7A0185).jpg",
+    "w": 960,
+    "h": 1200
   },
   "etextile": {
     "file": "etextile.jpg",

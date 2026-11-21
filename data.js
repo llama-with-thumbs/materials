@@ -3000,40 +3000,45 @@ window.MATERIALS = [
 },
 {
   id: "woven3d", cat: "fabric", name: "3D woven preform",
-  sub: "through-thickness yarn architecture", img: "woven3d",
-  hook: "A stack of flat plies delaminates because there is nothing holding one ply to the next except resin. Weave yarns through the thickness and there is no plane to split along: the part comes off the loom as a shape, and the resin is only filler.",
+  sub: "through-thickness yarn architecture", img: "woven3d", extra: ["woven3d2", "woven3d3"],
+  hook: "A stack of flat plies delaminates because only resin holds one ply to the next. Weave yarns through the thickness and there is no plane to split along: the part leaves the loom as a shape, the resin is only filler.",
+  more: "A laminate's weakness is the glue between its plies: hit it and they part inside, unseen. A 3D loom runs a third set of yarns up and down through the stack, binding every layer to the next, so a crack must cut fibre to grow and a blow leaves a dent, not a hidden split. The weave can be shaped as it goes, thicker here, forked there, so a fan blade leaves the loom as a preform wanting only resin. That is the LEAP engine's fan: eighteen woven carbon blades with titanium noses, half the weight of metal and tough enough to take a bird, where the generation before laid blades up ply by ply. The costs: the through-thickness yarns crimp the in-plane ones and cost stiffness; the looms are few and slow; a thick preform fills badly; and the design tools lag.",
   stats: [["Yarn directions", "3, including Z"], ["Delamination", "designed out"], ["Form", "near-net shape off the loom"]],
   uses: "Jet engine fan blades and cases, rocket nozzles, stiffened panels, I-beam and joint preforms.",
   link: "https://en.wikipedia.org/wiki/Woven_fabric"
 },
 {
   id: "opwairbag", cat: "fabric", name: "One-piece woven airbag",
-  sub: "bag woven closed on a Jacquard loom", img: "opwairbag",
-  hook: "A curtain airbag has to hold pressure for several seconds through a rollover, and a sewn seam is a row of holes waiting to open. So the bag is woven as a bag — two layers that merge into one wherever the edge should be. Nothing is stitched, because nothing is cut.",
+  sub: "bag woven closed on a Jacquard loom", img: "opwairbag", extra: ["opwairbag2"],
+  hook: "A curtain airbag must hold air for seconds through a rollover, and a sewn seam is a row of holes. So the bag is woven as a bag: two layers merging into one wherever an edge should be. Nothing is stitched or cut.",
+  more: "A front airbag is a cushion for thirty milliseconds; a sewn coated bag does that well. A curtain bag is another job: it drops from the roof rail in a side impact and must stay up five seconds while the car rolls, and every stitch of a sewn seam is a leak. One-piece weaving is double cloth at work: a Jacquard loom weaves two layers of nylon at once and, along the lines the designer draws, interlaces them into one, so chambers and tethers are woven in and the bag leaves the loom finished, wanting only silicone and an inflator. The costs: a Jacquard head of thousands of hooks is slow and dear for a part that is scrap if a thread is wrong; the coating adds bulk where a roof rail has no room; and a woven edge is thinner than the cloth either side.",
   stats: [["Seams", "woven, not sewn"], ["Hold time", "seconds, not milliseconds"], ["Loom", "Jacquard, double cloth"]],
   uses: "Side curtain airbags, inflatable slides and rafts, high-pressure inflatable structures.",
   link: "https://en.wikipedia.org/wiki/Airbag"
 },
 {
   id: "ptfeglass", cat: "fabric", name: "PTFE-coated glass fabric",
-  sub: "woven glass fibre in fluoropolymer", img: "ptfeglass",
-  hook: "A roof you can see daylight through that will not burn, will not rot and washes itself in the rain. Glass fibre takes the tension, the PTFE takes the weather, and the two together let a building be spanned by a membrane under cable rather than held up by structure.",
+  sub: "woven glass fibre in fluoropolymer", img: "ptfeglass", extra: ["ptfeglass2", "ptfeglass3"],
+  hook: "A roof you can see daylight through that will not burn or rot and washes itself in the rain. Glass takes the tension, PTFE the weather, and together they roof a building with a membrane on cables, not beams.",
+  more: "Fine glass cloth is dipped in PTFE dispersion and sintered, over and over, until the glass is sealed in fluoropolymer under a millimetre thick. Glass does not stretch or creep, so a membrane pulled taut over cables stays taut for decades; PTFE takes neither dirt, sun nor fire, so the roof stays white and the fire officer calm. It went over a California college in 1973, then the Hajj Terminal at Jeddah, Denver airport's peaks, the Millennium Dome and Dresden station, where the platforms sit in daylight under a tent. The costs: glass cracks where it folds, so the membrane is handled like a window; one skin insulates like a tent and drips in winter; it is dear; and it stands only on tension or air, which is how the Metrodome fell under the snow of 2010.",
   stats: [["Light transmission", "~10–15%"], ["Service life", "30 years plus"], ["Fire", "non-combustible"]],
   uses: "Stadium and terminal roofs, the Hajj Terminal and Millennium Dome, conveyor belts, release sheets.",
   link: "https://en.wikipedia.org/wiki/Tensile_structure"
 },
 {
   id: "etfefoil", cat: "fabric", name: "ETFE cushion",
-  sub: "inflated multi-layer fluoropolymer foil", img: "etfefoil",
-  hook: "Two or three films welded into a pillow and kept inflated at a few hundred pascals. It weighs about one per cent of the glass it replaces, lets through the ultraviolet that plants need, and a printed dot pattern on each layer turns shading on and off by changing the pressure.",
+  sub: "inflated multi-layer fluoropolymer foil", img: "etfefoil", extra: ["etfefoil2", "etfefoil3"],
+  hook: "Two or three films welded to a pillow, kept blown up at a few hundred pascals. It weighs a hundredth of the glass it replaces, passes the ultraviolet plants need, and printed dots shade it on command, by pressure.",
+  more: "ETFE is a fluoropolymer film a tenth of a millimetre thick, clear as glass; weld two or three into a cushion, clamp it in a frame, keep it blown up with a fan, and it is a roof. The air is the structure, so the cushions span metres on almost no frame and weigh a hundredth of the glazing they replace, which is how Eden roofed a quarry in eleven-metre hexagons and the Water Cube wrapped a stadium in three thousand bubbles. Light passes almost whole, ultraviolet included, so plants grow under it; rain washes it. The costs: the fans never stop, and when the power goes the roof sags; rain drums on it, sound goes through, it insulates poorly; hail punctures it, though a patch mends it; and it melts rather than burns, which fire engineers call a feature.",
   stats: [["Weight", "~1% of glazing"], ["Pressure", "200–800 Pa"], ["UV", "passes it, unlike glass"]],
   uses: "Eden Project, Allianz Arena, Beijing Water Cube; atria, greenhouses, stadium facades.",
   link: "https://en.wikipedia.org/wiki/ETFE"
 },
 {
   id: "laminateshell", cat: "fabric", name: "Three-layer laminate",
-  sub: "face fabric, membrane, knit backer", img: "laminateshell",
-  hook: "The waterproof-breathable membrane is the whole point of the jacket and it cannot be either surface: abrasion destroys it from outside and skin oil blocks it from inside. So it is buried between a face fabric and a scrim. The sandwich, not the film, is the invention.",
+  sub: "face fabric, membrane, knit backer", img: "laminateshell", extra: ["laminateshell2", "laminateshell3"],
+  hook: "The membrane is the point of the jacket and cannot be either surface: abrasion kills it outside, skin oil blocks it inside. So it is buried between a face cloth and a scrim. The sandwich is the invention.",
+  more: "Gore's porous PTFE film of 1969 went into jackets in 1976, which leaked in a season: the pores that pass vapour and stop rain wet through once sweat got into them. The fix was to laminate the membrane under a nylon face, which takes the scuffing and carries a repellent so rain beads off, and over a light knit that keeps skin off it; later a thin polyurethane coat went on too. Every seam is sewn, then taped: a needle hole leaks. Rain stays out while much of the sweat gets out, as no coating managed. The costs: once the face wets out, breathing stops and the jacket is a raincoat, and the repellent wears off, and was lately a fluorocarbon; polyurethane slows vapour; three layers and tape are stiff and loud; and when they part there is no mending it.",
   stats: [["Layers", "3, bonded"], ["Membrane", "buried, never exposed"], ["Seams", "taped, not just sewn"]],
   uses: "Hardshell jackets and gloves, drysuits, surgical drapes, tent flys.",
   link: "https://en.wikipedia.org/wiki/Waterproof_fabric"
