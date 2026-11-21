@@ -11066,15 +11066,39 @@ window.CREDITS = {
   },
   "wiltoncarpet": {
     "file": "wiltoncarpet.jpg",
-    "caption": "A Jacquard Wilton carpet loom at the Museum of Carpet, Kidderminster",
+    "caption": "A Wilton carpet from the Wilton Royal Workshops, mid-19th century: cut pile, the colours carried in the back",
+    "kind": "product",
+    "title": "Wilton Carpet Wilton Royal Workshops England mid-19th.jpg",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Wilton_Carpet_Wilton_Royal_Workshops_England_mid-19th.jpg",
+    "w": 960,
+    "h": 1531
+  },
+  "wiltoncarpet2": {
+    "file": "wiltoncarpet2.jpg",
+    "caption": "A mechanical Axminster loom of 1910 by Schönherr of Chemnitz, at the carpet museum in Oelsnitz",
     "kind": "process",
-    "title": "Museum of Carpet - Jacquard Wilton loom - geograph.org.uk - 6292683.jpg",
-    "artist": "Chris Allen",
-    "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Carpet_-_Jacquard_Wilton_loom_-_geograph.org.uk_-_6292683.jpg",
-    "w": 640,
-    "h": 480,
-    "site": "Wikimedia"
+    "title": "Teppich-Museum Oelsnitz 24.jpg",
+    "site": "Wikimedia",
+    "artist": "User:Oelsnitz10",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Teppich-Museum_Oelsnitz_24.jpg",
+    "w": 960,
+    "h": 736
+  },
+  "wiltoncarpet3": {
+    "file": "wiltoncarpet3.jpg",
+    "caption": "An Axminster carpet of about 1790, attributed to Thomas Whitty: any colour anywhere, when it was still done by hand",
+    "kind": "product",
+    "title": "George III Axminster carpet ca. 1790.jpg",
+    "site": "Wikimedia",
+    "artist": "Attributed to Thomas Whitty",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:George_III_Axminster_carpet_ca._1790.jpg",
+    "w": 960,
+    "h": 1457
   },
   "reedcane": {
     "file": "reedcane.jpg",
@@ -11232,6 +11256,30 @@ window.CREDITS = {
     "h": 1280,
     "site": "Wikimedia"
   },
+  "fulledwool2": {
+    "file": "fulledwool2.jpg",
+    "caption": "Vadmal, the Nordic fulled cloth, at six times: the weave still there under the felt",
+    "kind": "structure",
+    "title": "Vadmal-Detail.jpg",
+    "site": "Wikimedia",
+    "artist": "Ökologix",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Vadmal-Detail.jpg",
+    "w": 850,
+    "h": 700
+  },
+  "fulledwool3": {
+    "file": "fulledwool3.jpg",
+    "caption": "A boiled-wool Janker from Trentino: knitted, then fulled until it is a cloth",
+    "kind": "product",
+    "title": "Trient Janker Apr 2008 (1).JPG",
+    "site": "Wikimedia",
+    "artist": "Gryffindor",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Trient_Janker_Apr_2008_(1).JPG",
+    "w": 960,
+    "h": 1280
+  },
   "waxcotton": {
     "file": "waxcotton.jpg",
     "caption": "Water beading on waxed canvas",
@@ -11244,6 +11292,30 @@ window.CREDITS = {
     "h": 639,
     "site": "Wikimedia"
   },
+  "waxcotton2": {
+    "file": "waxcotton2.jpg",
+    "caption": "The sheen and the scuffs of a worn waxed jacket at the stud: the wax is in the weave, and the thumb puts it back",
+    "kind": "product",
+    "title": "Barbour jacket 01.jpg",
+    "site": "Wikimedia",
+    "artist": "Luca Boldrini",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barbour_jacket_01.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "waxcotton3": {
+    "file": "waxcotton3.jpg",
+    "caption": "Fishermen at La Rochelle in PVC oilskins: the coated cloth that took over at sea from oiled and waxed cotton",
+    "kind": "analog",
+    "title": "Marins-pêcheurs travaillant sur leur bateau au port (8).JPG",
+    "site": "Wikimedia",
+    "artist": "Jean-Pierre Bazard  Jpbazard",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marins-p%C3%AAcheurs_travaillant_sur_leur_bateau_au_port_(8).JPG",
+    "w": 960,
+    "h": 874
+  },
   "crepe": {
     "file": "crepe.jpg",
     "caption": "Chirimen, a finely crinkled cotton crêpe",
@@ -11255,6 +11327,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "crepe2": {
+    "file": "crepe2.jpg",
+    "caption": "A mourning veil of black crêpe georgette, Rijksmuseum: the sheer, matte, hard-twisted kind",
+    "kind": "product",
+    "title": "Rouwhoed in de vorm van diadeem met lange gezichtssluier van zwarte crêpe georgette, BK-1990-17.jpg",
+    "site": "Wikimedia",
+    "artist": "Rijksmuseum",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rouwhoed_in_de_vorm_van_diadeem_met_lange_gezichtssluier_van_zwarte_cr%C3%AApe_georgette,_BK-1990-17.jpg",
+    "w": 960,
+    "h": 1282
+  },
+  "crepe3": {
+    "file": "crepe3.jpg",
+    "caption": "A crêpe tunic and trousers by Clan, Lagos: the hang is the twist",
+    "kind": "product",
+    "title": "Beige crepe tunic and trusers by Teni, Aba and Tiwa Sagoe of Clan.jpg",
+    "site": "Wikimedia",
+    "artist": "Brighton Museums",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beige_crepe_tunic_and_trusers_by_Teni,_Aba_and_Tiwa_Sagoe_of_Clan.jpg",
+    "w": 960,
+    "h": 1440
   },
   "knitmesh": {
     "file": "knitmesh.jpg",

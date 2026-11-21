@@ -3229,33 +3229,37 @@ window.MATERIALS = [
 },
 {
   id: "wiltoncarpet", cat: "fabric", name: "Woven carpet",
-  sub: "pile tied in by the weave itself", img: "wiltoncarpet",
-  hook: "Tufted carpet is needled into a finished backing and held there by glue; woven carpet makes backing and pile in one pass, each tuft locked by the warp that passes over it, with no latex doing the holding. A Wilton loom raises the pile as loops over wires and either leaves them or cuts them as the wire withdraws, limited to the few colours its shuttles carry; an Axminster loom instead grips individual tufts from spools of yarn and can place any colour anywhere, which is why figured carpet is woven that way. It is several times slower than tufting, and it does not shed.",
+  sub: "pile tied in by the weave itself", img: "wiltoncarpet", extra: ["wiltoncarpet2", "wiltoncarpet3"],
+  hook: "Tufted carpet is needled into a backing and glued; woven carpet makes both in one pass, each tuft locked under a warp. A Wilton raises the pile over wires in a few colours; an Axminster puts any colour anywhere.",
+  more: "A Wilton loom lifts the pile warp over a steel wire across the cloth, weaves the ground and draws the wire out, leaving a row of loops that a blade on the wire cuts to velvet or leaves as Brussels loop. The colours ride in the back as frames of yarn, five at most, lifted to the face where wanted and buried where not, so a five-frame Wilton is heavy with unseen yarn. Axminster is the other way: the Spool loom of 1876 and the Gripper of the 1890s pick one tuft of the right colour, fold it under a weft and bind it in, so any colour goes anywhere. The costs: a woven carpet comes off at metres an hour against a tufter's hundreds; it is dear; a Wilton's buried yarn is paid for and never trodden; and a woven width is a loom width, so big rooms get seams.",
   stats: [["Pile", "locked by the weave, not glued"], ["Wilton", "loops raised over wires, then cut"], ["Axminster", "any colour, tuft by tuft"]],
   uses: "Hotel, theatre and ship carpet, stair runners, patterned domestic carpet.",
   link: "https://en.wikipedia.org/wiki/Carpet"
 },
 {
   id: "fulledwool", cat: "fabric", name: "Fulled wool",
-  sub: "cloth shrunk on purpose until it felts", img: "fulledwool",
-  hook: "Weave it loose, then beat it in hot soapy water until the scales on every fibre lock into their neighbours and the whole cloth shrinks by a quarter or a third. The weave disappears into a dense matted surface that sheds rain, holds a layer of still air, and — the part tailors care about — can be cut and left raw, because there is no longer anything in it to unravel. Loden, melton, billiard cloth and boiled wool are all the same trick at different severities. The cost is weight: a fulled coat is warm because it is heavy, not in spite of it.",
-  stats: [["Shrinks", "a quarter to a third in the fulling"], ["Cut edge", "does not fray, so no hem"], ["Weatherproofing", "mechanical — no coating involved"]],
+  sub: "cloth shrunk on purpose until it felts", img: "fulledwool", extra: ["fulledwool2", "fulledwool3"],
+  hook: "Weave it loose, then beat it in hot soapy water till the scales lock and the cloth shrinks by a third. The weave vanishes into a dense mat that sheds rain, holds air and can be cut and left raw: nothing unravels.",
+  more: "Wool fibres are scaled like roof tiles and creep one way worked wet and warm, so a loose woollen cloth pounded in soapy water for hours draws in a quarter to a third each way, until the threads vanish into felt with a weave buried in it. It was done by foot in a trough, then by water hammers in fulling mills, medieval Europe's first factories. The cloth is thick, windproof and shower-proof with nothing added, holds the air a coat needs, and can be cut and left, since no thread is loose to fray. Loden, melton, baize and boiled wool are the same trick at different severities. The costs: it is warm because it is heavy, no other way; it dries slowly once soaked; moths find it; and once fulled it cannot be let out, the seam allowance having felted too.",
+  stats: [["Shrinks", "a quarter to a third in the fulling"], ["Cut edge", "does not fray, so no hem"], ["Weatherproofing", "mechanical, no coating involved"]],
   uses: "Loden coats and capes, melton jackets and uniform cloth, billiard cloth, blankets, boiled-wool slippers.",
   link: "https://en.wikipedia.org/wiki/Fulling",
   tags: ["warmth"]
 },
 {
   id: "waxcotton", cat: "fabric", name: "Waxed cotton",
-  sub: "tight cotton loaded with paraffin", img: "waxcotton",
-  hook: "Densely woven cotton with wax pushed into every gap between the yarns, so water cannot wick through but the cloth is not sealed into a plastic bag either. It started as linseed oil on sailcloth, which worked and then went yellow and brittle, and paraffin blends fixed that in the 1930s. The useful oddity is that it repairs itself: a scratch or a crease is closed by rubbing it warm with a thumb, and the whole garment is re-waxed every year or two rather than replaced. In exchange it is heavy, stiff in the cold, smells faintly of petrol and marks everything it touches.",
+  sub: "tight cotton loaded with paraffin", img: "waxcotton", extra: ["waxcotton2", "waxcotton3"],
+  hook: "Dense cotton with wax in every gap between the yarns, so water cannot wick through but the cloth is no plastic bag. A crease closes under a warm thumb, and the coat is re-waxed every year or two, not replaced.",
+  more: "Sailors oiled canvas with linseed, which worked till it yellowed and cracked; Scottish mills swapped it for paraffin wax in the 1930s, and sailcloth went into coats. The base is tight cotton, the wax driven in hot so it fills the pores between yarns rather than lying on top; water cannot pass the waxed gaps, but the cloth still breathes and bends. Wear scratches the wax and a fold cracks it, and the cure is heat: a thumb over the crease, or a tin of dressing worked in every year or two, hence forty-year-old waxed jackets, and no forty-year-old nylon. The costs: it weighs a kilo more than it looks; it stiffens in cold, goes tacky in heat; it waxes car seats and smells of paraffin; and it is never washed, only wiped: soap takes the wax with the dirt.",
   stats: [["Wax", "fills the weave, it is not a film"], ["Maintenance", "re-waxed yearly, not replaced"], ["Repairs", "by rubbing the crease warm"]],
   uses: "Field and motorcycle jackets, bags and tool rolls, shooting coats, historically sails and covers.",
   link: "https://en.wikipedia.org/wiki/Waxed_cotton"
 },
 {
   id: "crepe", cat: "fabric", name: "Crêpe",
-  sub: "yarn twisted until the cloth crinkles", img: "crepe",
-  hook: "The pucker in crêpe is stored energy. The yarn is given several times the twist it needs — thousands of turns per metre — and yarns twisted clockwise are alternated with yarns twisted the other way; when the finished cloth is wetted, every yarn tries to untwist at once and shoves the fabric into a fine random crinkle that cancels out across the piece instead of skewing it. The result is matte rather than shiny, hides creases because it is already crumpled, drapes like liquid, and gives slightly in every direction with no elastic fibre in it at all.",
+  sub: "yarn twisted until the cloth crinkles", img: "crepe", extra: ["crepe2", "crepe3"],
+  hook: "Crêpe's pucker is stored energy: yarn with several times the twist it needs, right and left by turns; wet the cloth and every yarn tries to untwist at once, shoving it into a crinkle that cancels across the piece.",
+  more: "A plain yarn has a few hundred turns a metre, a crêpe yarn thousands, so many it kinks if let go, and is woven stiffened. The yarns alternate, two twisted one way and two the other, and the cloth washed: the size goes, the yarns writhe, and since neighbours writhe opposite ways the cloth puckers evenly, into a grain no iron removes. That grain scatters light, so crêpe is matte; it hides creases, being creased already; it gives a little every way without elastic; and hangs like water. Crêpe de Chine twists only the weft, georgette both and sheer, and Victorian mourning crape made Courtaulds rich. The costs: it shrinks again whenever wet; it shifts under the scissors; it wears shiny where it rubs; a snag pulls a loop; and polyester crêpe adds static.",
   stats: [["Twist", "thousands of turns per metre"], ["Balance", "S-twist and Z-twist yarns alternated"], ["Gives", "stretch and a matte face, with no elastane"]],
   uses: "Dresses and blouses, georgette and chiffon, mourning crêpe, crêpe bandage.",
   link: "https://en.wikipedia.org/wiki/Cr%C3%AApe_(textile)"
@@ -3263,9 +3267,10 @@ window.MATERIALS = [
 {
   id: "knitmesh", cat: "fabric", name: "Knitted wire mesh",
   sub: "one continuous wire, looped not woven", img: "knitmesh",
-  hook: "Knit a wire instead of weaving it and the loops can move: the mesh stretches, springs back and swallows vibration where a woven cloth would simply tear. It is made from a single continuous wire, so a pad can be unravelled back to the wire it came from, and it is knitted loose then compressed to whatever density the job wants. In a column it is a demister — gas blows through, droplets hit wire, coalesce and run back down — and compressed harder it becomes an exhaust hanger, a shielding gasket or a spring that cannot rust through in one place and fail.",
+  hook: "Knit a wire instead of weaving it and the loops can move: the mesh stretches, springs back and swallows vibration where a weave tears. One continuous wire, knitted loose and pressed to the density the job wants.",
+  more: "A circular knitting machine takes a quarter-millimetre stainless wire as readily as yarn, and off it comes a tube of loops, nearly all air. Flatten the tube, crimp it, fold it into a pad: a demister. Gas threads through, the droplets it carries cannot turn the corners, hit wire, run together and drain back, a trick sold to refineries in 1947. Pressed harder, the loops are a spring in every direction: the ring that holds a catalytic converter's brick through heat and shock, the exhaust hanger, the gasket on a radio room, the filter cooling an airbag's gas. The costs: a demister fouls and is washed or binned; push the gas too fast and the drops tear off and go up; thin wire corrodes where plate would not; and a pad is only as even as its press.",
   stats: [["Made from", "one continuous wire, knitted"], ["Loops", "stretch and spring back"], ["Density", "set by how hard the pad is pressed"]],
-  uses: "Demister and coalescer pads, exhaust and vibration mounts, EMI gaskets, filters and flame arrestors.",
+  uses: "Demister and coalescer pads, exhaust and vibration mounts, EMI gaskets, filters and flame arrestors, airbag inflator filters.",
   link: "https://en.wikipedia.org/wiki/Mesh"
 },
 {

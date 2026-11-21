@@ -925,7 +925,9 @@ machinelace3|commons|Teneriffe machine lace magnified.jpg|Machine lace magnified
 firehose|commons|Fire hose supply.jpg|Rolled supply hose in a water tender, the woven jacket uppermost|photo
 firehose2|commons|Forged by fire- 86th CES firefighters train for the call (9862041).jpg|A charged attack line at Ramstein: round, stiff and heavy the moment the water is in it|product
 firehose3|commons|Cjc drying fire hose in preparation for the next fire (28940038240).jpg|Hose laid out to dry at the fire centre in Boise: the habit left over from the days of linen|process
-wiltoncarpet|commons|Museum of Carpet - Jacquard Wilton loom - geograph.org.uk - 6292683.jpg|A Jacquard Wilton carpet loom at the Museum of Carpet, Kidderminster|process
+wiltoncarpet|commons|Wilton Carpet Wilton Royal Workshops England mid-19th.jpg|A Wilton carpet from the Wilton Royal Workshops, mid-19th century: cut pile, the colours carried in the back|product
+wiltoncarpet2|commons|Teppich-Museum Oelsnitz 24.jpg|A mechanical Axminster loom of 1910 by Schönherr of Chemnitz, at the carpet museum in Oelsnitz|process
+wiltoncarpet3|commons|George III Axminster carpet ca. 1790.jpg|An Axminster carpet of about 1790, attributed to Thomas Whitty: any colour anywhere, when it was still done by hand|product
 reedcane|commons|B-flat e-flat a-flat reeds.jpg|Clarinet and saxophone reeds in three sizes, cut from cane|product
 ebonite|commons|Mouthpiece tenor saxophone.jpg|Two tenor saxophone mouthpieces, the Selmer in hard rubber and the Dukoff in metal|product
 snarewire|commons|Orange county snare wire.jpg|A snare drum with its snare wire lifted clear of the head|photo
@@ -939,8 +941,14 @@ woodwool|commons|Holzfaserbeton groß.jpg|The surface of a wood-wool cement boar
 drumshell|commons|Solid Shell Maple, Matte Black Laquer with Maple Inlay.jpg|A solid maple drum shell with a maple inlay|photo
 goss|commons|Grain-oriented electrical steel (grains).jpg|Uncoated grain-oriented electrical steel, the aligned grains visible across 6 cm|photo
 fulledwool|commons|Jagdhorn auf Loden 1.jpg|A dark grey loden cape, with a pocket hunting horn laid on it|photo
+fulledwool2|commons|Vadmal-Detail.jpg|Vadmal, the Nordic fulled cloth, at six times: the weave still there under the felt|structure
+fulledwool3|commons|Trient Janker Apr 2008 (1).JPG|A boiled-wool Janker from Trentino: knitted, then fulled until it is a cloth|product
 waxcotton|commons|Martexin Waxed Canvas Water Resistance.jpg|Water beading on waxed canvas|photo
+waxcotton2|commons|Barbour jacket 01.jpg|The sheen and the scuffs of a worn waxed jacket at the stud: the wax is in the weave, and the thumb puts it back|product
+waxcotton3|commons|Marins-pêcheurs travaillant sur leur bateau au port (8).JPG|Fishermen at La Rochelle in PVC oilskins: the coated cloth that took over at sea from oiled and waxed cotton|analog
 crepe|commons|Chirimen gaufré.JPG|Chirimen, a finely crinkled cotton crêpe|photo
+crepe2|commons|Rouwhoed in de vorm van diadeem met lange gezichtssluier van zwarte crêpe georgette, BK-1990-17.jpg|A mourning veil of black crêpe georgette, Rijksmuseum: the sheer, matte, hard-twisted kind|product
+crepe3|commons|Beige crepe tunic and trusers by Teni, Aba and Tiwa Sagoe of Clan.jpg|A crêpe tunic and trousers by Clan, Lagos: the hang is the twist|product
 knitmesh|commons|OldMeshDemisterAcidProduction.jpg|A used demister pad in alloy 20 mesh, from sulphuric acid production|photo
 barkcloth|commons|PNG Turtle Tapa Cloth QM r.jpg|Tapa from Domara Village in Papua New Guinea, beaten from inner bark|photo
 flock|commons|Flock-foil golden-yellow.jpg|Cotton with a golden-yellow flock print, close enough to see the pile|photo
