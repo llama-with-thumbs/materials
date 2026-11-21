@@ -7200,6 +7200,30 @@ window.CREDITS = {
     "h": 626,
     "site": "Wikimedia"
   },
+  "electret2": {
+    "file": "electret2.jpg",
+    "caption": "An electret capsule cut through: charged film over the backplate, the amplifier transistor beneath",
+    "kind": "structure",
+    "title": "Cross section of an electret microphone element.jpg",
+    "site": "Wikimedia",
+    "artist": "TubeTimeUS",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cross_section_of_an_electret_microphone_element.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "electret3": {
+    "file": "electret3.jpg",
+    "caption": "An N95 respirator: its melt-blown middle layer is a charged electret, which is why it catches what it cannot sieve",
+    "kind": "related",
+    "title": "N95mask.jpg",
+    "site": "Wikimedia",
+    "artist": "Hanabishi",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:N95mask.jpg",
+    "w": 960,
+    "h": 853
+  },
   "nacre": {
     "file": "nacre.jpg",
     "caption": "A lacquer wine ewer inlaid with nacre",
@@ -7214,15 +7238,39 @@ window.CREDITS = {
   },
   "bamboo": {
     "file": "bamboo.jpg",
-    "caption": "A brush holder carved from a single bamboo culm",
-    "kind": "product",
-    "title": "https://openaccess-cdn.clevelandart.org/1988.75/1988.75_web.jpg",
-    "site": "Cleveland Museum of Art",
-    "artist": "Wang Meilin (Chinese, active c. 1825)",
+    "caption": "Bamboo culms and nodes: hollow tubes with a solid diaphragm at every joint",
+    "kind": "photo",
+    "title": "Bamboo culms and nodes, Baltimore County, Maryland.jpg",
+    "site": "Wikimedia",
+    "artist": "Z3lvs",
     "license": "CC0",
-    "page": "https://clevelandart.org/art/1988.75",
-    "w": 823,
-    "h": 893
+    "page": "https://commons.wikimedia.org/wiki/File:Bamboo_culms_and_nodes,_Baltimore_County,_Maryland.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "bamboo2": {
+    "file": "bamboo2.jpg",
+    "caption": "Bamboo scaffolding on a temple in Chiang Mai: culms lashed, nothing bolted",
+    "kind": "product",
+    "title": "Chiang-Mai Thailand Workers-on-a-bamboo-scaffolding-01.jpg",
+    "site": "Wikimedia",
+    "artist": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chiang-Mai_Thailand_Workers-on-a-bamboo-scaffolding-01.jpg",
+    "w": 960,
+    "h": 742
+  },
+  "bamboo3": {
+    "file": "bamboo3.jpg",
+    "caption": "Bamboo fibre under the microscope: the bundles that crowd toward the skin of the culm",
+    "kind": "structure",
+    "title": "Bamboo fiber microscope.jpg",
+    "site": "Wikimedia",
+    "artist": "tamakisono",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bamboo_fiber_microscope.jpg",
+    "w": 960,
+    "h": 720
   },
   "balsa": {
     "file": "balsa.jpg",
@@ -7236,6 +7284,30 @@ window.CREDITS = {
     "w": 960,
     "h": 960
   },
+  "balsa2": {
+    "file": "balsa2.jpg",
+    "caption": "A radio-control model in balsa, the frame showing through the covering",
+    "kind": "product",
+    "title": "Seniorita-radio control-model aircraft-balsa construction.jpg",
+    "site": "Wikimedia",
+    "artist": "John Miller Crawford",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seniorita-radio_control-model_aircraft-balsa_construction.jpg",
+    "w": 960,
+    "h": 690
+  },
+  "balsa3": {
+    "file": "balsa3.jpg",
+    "caption": "Kon-Tiki in its museum in Oslo: nine balsa logs, 1947, 101 days to Polynesia",
+    "kind": "related",
+    "title": "Kon-Tiki raft, side view.jpg",
+    "site": "Wikimedia",
+    "artist": "Wikipek",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kon-Tiki_raft,_side_view.jpg",
+    "w": 960,
+    "h": 720
+  },
   "lignumvitae": {
     "file": "lignumvitae.jpg",
     "caption": "A lignum vitae mallet",
@@ -7247,6 +7319,30 @@ window.CREDITS = {
     "w": 846,
     "h": 1627,
     "site": "Wikimedia"
+  },
+  "lignumvitae2": {
+    "file": "lignumvitae2.jpg",
+    "caption": "A lignum vitae bearing in a Dutch windmill: the wood block the iron shaft turns in",
+    "kind": "product",
+    "title": "Pokhouten lager windmolen.jpg",
+    "site": "Wikimedia",
+    "artist": "Rasbak",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pokhouten_lager_windmolen.jpg",
+    "w": 960,
+    "h": 753
+  },
+  "lignumvitae3": {
+    "file": "lignumvitae3.jpg",
+    "caption": "Lignum vitae heartwood: the green-brown colour is the resin",
+    "kind": "photo",
+    "title": "Bakaut.jpg",
+    "site": "Wikimedia",
+    "artist": "Abarmot",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bakaut.jpg",
+    "w": 960,
+    "h": 725
   },
   "whiteoak": {
     "file": "whiteoak.jpg",
@@ -13310,15 +13406,27 @@ window.CREDITS = {
   },
   "nacre2": {
     "file": "nacre2.jpg",
-    "caption": "The iridescent inside of an abalone shell — nacre itself, the layered material the inlay is cut from",
+    "caption": "The inside of a red abalone shell: nacre itself, the layered material the inlay is cut from",
     "kind": "photo",
-    "title": "AbaloneInside.jpg",
+    "title": "Haliotis rufescens (red abalone) (San Diego, California, USA) 4 (23833071989).jpg",
     "site": "Wikimedia",
-    "artist": "Unknown",
+    "artist": "James St. John",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Haliotis_rufescens_(red_abalone)_(San_Diego,_California,_USA)_4_(23833071989).jpg",
+    "w": 960,
+    "h": 749
+  },
+  "nacre3": {
+    "file": "nacre3.jpg",
+    "caption": "Nacre under the electron microscope, from a Cretaceous ammonite: stacks of hexagonal aragonite tiles, the brickwork",
+    "kind": "structure",
+    "title": "Perlmutt-Struktur.jpg",
+    "site": "Wikimedia",
+    "artist": "Dr. René Hoffmann",
     "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:AbaloneInside.jpg",
-    "w": 640,
-    "h": 480
+    "page": "https://commons.wikimedia.org/wiki/File:Perlmutt-Struktur.jpg",
+    "w": 960,
+    "h": 768
   },
   "cork2": {
     "file": "cork2.jpg",

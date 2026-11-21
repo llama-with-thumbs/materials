@@ -3642,44 +3642,49 @@ window.MATERIALS = [
 },
 {
   id: "electret", cat: "exotic", name: "Electret",
-  sub: "permanently charged fluoropolymer film", img: "electret",
-  hook: "The electrostatic equivalent of a permanent magnet: charge frozen into a polymer film that stays there for decades. Nearly every microphone built in the last fifty years is one, and the same charge is what makes an N95 filter catch particles far smaller than its holes.",
-  stats: [["Charge life", "decades"], ["Bias supply", "none needed"], ["Filter gain", "~10× at 0.3 µm"]],
-  uses: "Microphones in every phone and laptop, N95 and HEPA filter media, air ionisers, energy harvesters.",
+  sub: "permanently charged fluoropolymer film", img: "electret", extra: ["electret2", "electret3"],
+  hook: "The electrostatic twin of a permanent magnet: charge frozen into a polymer film for decades. Nearly every microphone of the last fifty years is one, and the same charge lets a mask catch what it cannot sieve.",
+  more: "Heat a film of Teflon or polypropylene, spray it with ions, and cool it; the charge is trapped and leaks away so slowly that the half-life runs to centuries. Bell Labs put such a film over a backplate in 1962 and had a condenser microphone with no polarising voltage, pea-sized for pennies, hence one in every phone. Blown into fibres, the same charged polymer makes a filter that pulls a particle onto a fibre it would have slipped past, so an N95 breathes easily and still stops 95 percent at the worst size. The costs: heat, solvent and slowly humidity kill the charge, which is why a mask is single-use and a microphone drifts after a decade in a hot car; a charged surface attracts dust; and MEMS microphones are replacing the capsule.",
+  stats: [["Charge life", "decades, centuries by extrapolation"], ["Bias supply", "none needed"], ["Filter gain", "about ten times at 0.3 µm"]],
+  uses: "Microphones in phones, laptops and hearing aids, N95 and HEPA filter media, air ionisers, energy harvesters.",
   link: "https://en.wikipedia.org/wiki/Electret"
 },
 
 /* ---------- NATURAL & BIOLOGICAL ---------- */
 {
   id: "nacre", cat: "natural", name: "Nacre",
-  sub: "mother of pearl, aragonite and conchiolin", img: "nacre", extra: ["nacre2"],
-  hook: "95% chalk, and three thousand times tougher than chalk. Microscopic aragonite tiles are laid like brickwork with a protein mortar between them; a crack cannot run straight, it has to go around every tile, and it runs out of energy trying.",
-  stats: [["Mineral", "~95% aragonite"], ["Toughness", "~3000× the mineral"], ["Tile", "~0.5 µm thick"]],
-  uses: "Inlay and buttons, pearls; the structural template for a generation of tough composites.",
+  sub: "mother of pearl, aragonite and conchiolin", img: "nacre", extra: ["nacre2", "nacre3"],
+  hook: "Ninety-five percent chalk, three thousand times tougher than chalk. Aragonite tiles half a micrometre thick are laid like brickwork in protein mortar; a crack must go round every tile and runs out of energy trying.",
+  more: "A mollusc lays its shell lining down a layer at a time, hexagonal aragonite platelets in a scaffold of chitin and protein, each half a micrometre thick and ten wide, staggered against the course below. The mineral is brittle, the protein soft; together they are neither. A crack has to turn at every tile, the protein stretches and tears a little as the tiles slide, and each small event eats energy, so the shell takes a blow that would shatter the same chalk in one sheet. The iridescence is a by-product of tiles a wavelength of light thick. The costs: it grows a fraction of a millimetre a year, only inside a living shell; a knife scratches it; it cannot be moulded, only cut; and synthetic versions reach a fraction of its toughness after thirty years.",
+  stats: [["Mineral", "about 95 percent aragonite"], ["Toughness", "about 3,000 times the mineral alone"], ["Tile", "about 0.5 µm thick"]],
+  uses: "Inlay, buttons and jewellery, pearls; the structural template for a generation of tough layered composites.",
   link: "https://en.wikipedia.org/wiki/Nacre"
 },
 {
   id: "bamboo", cat: "natural", name: "Bamboo",
-  sub: "graded fibre-reinforced grass", img: "bamboo",
-  hook: "A grass, not a tree, and a natural composite with the fibres packed densest at the outside where bending stress is highest. It reaches full height in a season, and along the grain it out-pulls mild steel for its weight.",
-  stats: [["Tensile", "~400–800 MPa"], ["Growth", "to 1 m per day"], ["Fibres", "graded to the outside"]],
-  uses: "Scaffolding, flooring and panels, bicycle frames, textiles, reinforcement research.",
+  sub: "graded fibre-reinforced grass", img: "bamboo", extra: ["bamboo2", "bamboo3"],
+  hook: "A grass, not a tree, and a composite with the fibres densest at the outside, where the bending stress is. Full height in a season, and along the grain it out-pulls mild steel for its weight. Across it, it splits.",
+  more: "A culm is a hollow tube of soft tissue threaded with fibre bundles that crowd toward the skin, so a cross-section shows a dense rind grading to a spongy core, where an engineer would put the material too. Nodes, solid diaphragms every few decimetres, stop it buckling. Moso grows a metre a day in spring, is cut at three to five years and dries to several hundred megapascals along the grain at a soft wood's density, which is why Hong Kong still scaffolds its towers in it. The costs: it is strong only along the grain and splits along it at a touch; beetles and fungus take it unless it is treated; it cracks at the nodes as it dries; a round culm cannot be bolted like a timber, so joints are the whole craft; and bamboo textile is viscose made from bamboo.",
+  stats: [["Tensile", "about 400 to 800 MPa along the grain"], ["Growth", "up to a metre a day"], ["Fibres", "graded densest at the outside"]],
+  uses: "Scaffolding and housing, flooring and laminated panels, bicycle frames, furniture, paper and viscose, reinforcement research.",
   link: "https://en.wikipedia.org/wiki/Bamboo"
 },
 {
   id: "balsa", cat: "natural", name: "Balsa",
-  sub: "Ochroma pyramidale", img: "balsa",
-  hook: "A hardwood that floats higher than cork, because it is 60% air held in cells with thin but genuinely stiff walls. End-grain balsa, sliced across the cells, carries compression like a honeycomb and is still the core in most wind turbine blades.",
-  stats: [["Density", "100–200 kg/m³"], ["Air", "~60% of volume"], ["End grain", "honeycomb-like"]],
-  uses: "Wind turbine blade and boat cores, model aircraft, surfboards, packaging.",
+  sub: "Ochroma pyramidale", img: "balsa", extra: ["balsa2", "balsa3"],
+  hook: "A hardwood lighter than cork, because it is mostly air held in cells with thin but stiff walls. Cut across the cells, end-grain balsa carries compression like a honeycomb, which is why it cores most turbine blades.",
+  more: "The tree is an Ecuadorian weed that grows twenty metres in six years and is felled before the wood hardens; what is sawn from it is a lattice of long thin-walled cells, a tenth to a fifth the density of water. The cell walls are ordinary wood, so the stiffness per weight matches spruce and the end-grain crush strength is remarkable, which is what a sandwich core needs: thin skins carry the bending, the core holds them apart and takes the shear. The costs: it drinks resin, so a balsa core weighs more laminated than dry; it rots if water gets in, and water gets in; the density varies threefold from tree to tree; the supply is one country and a few years of weather; and PET and PVC foams are taking the blade market as the trees run short.",
+  stats: [["Density", "100 to 200 kg per cubic metre"], ["Air", "about 60 percent of the volume"], ["End grain", "crushes like a honeycomb"]],
+  uses: "Wind turbine blade and boat hull cores, model aircraft and bridges, surfboards, packaging, rafts.",
   link: "https://en.wikipedia.org/wiki/Ochroma"
 },
 {
   id: "lignumvitae", cat: "natural", name: "Lignum vitae",
-  sub: "Guaiacum, self-lubricating hardwood", img: "lignumvitae",
-  hook: "The densest commercial wood — it sinks — and about a quarter of its weight is natural resin, so it oils itself. Submarine propeller shaft bearings were made from it well into the nuclear age, lubricated by nothing but seawater and the wood.",
-  stats: [["Density", "1.23 g/cm³"], ["Resin", "~25% by weight"], ["Lubrication", "its own"]],
-  uses: "Propeller shaft and turbine bearings, mallet heads, bowls, pulley sheaves.",
+  sub: "Guaiacum, self-lubricating hardwood", img: "lignumvitae", extra: ["lignumvitae2", "lignumvitae3"],
+  hook: "The densest wood in trade, so dense it sinks, and a quarter of its weight is resin, so it oils itself. Ship propeller shafts ran in bearings of it into the nuclear age, lubricated by resin and seawater alone.",
+  more: "A slow Caribbean tree with an interlocked grain, a green-brown heartwood at 1.2 times the density of water, and guaiac resin filling its pores. Rubbed, the resin comes up as a waxy film; wetted, it takes on a slickness no other timber has, so a bearing of it runs quiet and cool against a steel shaft with water as the only coolant. Mill wheels ran on it, and USS Nautilus went to sea in 1954 with it in her stern tube. The costs: the trees grow a few millimetres a year and were cut for three centuries for bearings and for a syphilis cure that did not work, so the species is on the CITES list and the wood comes as old stock or Argentine substitutes; the grain that will not split will not plane cleanly either; and a cutting edge lasts minutes in it.",
+  stats: [["Density", "about 1.23 g per cubic centimetre; it sinks"], ["Resin", "about 25 percent by weight"], ["Lubrication", "its own, with water"]],
+  uses: "Propeller shaft and water turbine bearings, mallet heads and mortars, pulley sheaves, bowls, clock gears.",
   link: "https://en.wikipedia.org/wiki/Lignum_vitae"
 },
 {
