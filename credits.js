@@ -7550,19 +7550,43 @@ window.CREDITS = {
   },
   "warpknit": {
     "file": "warpknit.jpg",
-    "caption": "A warp knitting machine — one needle per warp end",
+    "caption": "The needle bar of a 1939 warp knitting machine at Nottingham: one needle for every warp end, all knitting at once",
     "kind": "process",
-    "title": "NIM 1910 Warp knitting machine 2522.jpg",
+    "title": "NIM 1939 Warp knitting machine 2572.jpg",
+    "site": "Wikimedia",
     "artist": "ClemRutter",
     "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:NIM_1910_Warp_knitting_machine_2522.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:NIM_1939_Warp_knitting_machine_2572.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "warpknit2": {
+    "file": "warpknit2.jpg",
+    "caption": "Lace ribbon off a raschel machine: the net ground and the figure knitted together",
+    "kind": "product",
+    "title": "Raschel lace.jpg",
+    "site": "Wikimedia",
+    "artist": "Elkagye",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Raschel_lace.jpg",
+    "w": 960,
+    "h": 796
+  },
+  "warpknit3": {
+    "file": "warpknit3.jpg",
+    "caption": "How a raschel needle makes its loop, step by step: the guide laps the yarn round the needle, the needle draws it through the loop below",
+    "kind": "structure",
+    "title": "Raschel loop formation.jpg",
+    "site": "Wikimedia",
+    "artist": "Elkagye",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Raschel_loop_formation.jpg",
+    "w": 960,
+    "h": 1219
   },
   "jersey": {
     "file": "jersey.jpg",
-    "caption": "Weft-knit fabric, face side",
+    "caption": "Weft-knit fabric, face side: the columns of V-shaped loops",
     "kind": "photo",
     "title": "Gestrick links-rechts rechte Seite.jpeg",
     "artist": "Unknown",
@@ -7572,21 +7596,69 @@ window.CREDITS = {
     "h": 705,
     "site": "Wikimedia"
   },
+  "jersey2": {
+    "file": "jersey2.jpg",
+    "caption": "A T-shirt under a macro lens: the same loops at the size they are worn",
+    "kind": "photo",
+    "title": "T-shirt macro view (143610293).jpg",
+    "site": "Wikimedia",
+    "artist": "Matthew Bellemare",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:T-shirt_macro_view_(143610293).jpg",
+    "w": 960,
+    "h": 640
+  },
+  "jersey3": {
+    "file": "jersey3.jpg",
+    "caption": "The needle dial of an old circular knitting machine: a ring of latch needles, each knitting one wale of the tube",
+    "kind": "process",
+    "title": "Old-Knitting-Machine-Knitting-Machine-Close-up-Dial-1588882.jpg",
+    "site": "Wikimedia",
+    "artist": "webqueen-1444369",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Old-Knitting-Machine-Knitting-Machine-Close-up-Dial-1588882.jpg",
+    "w": 960,
+    "h": 720
+  },
   "seamlessknit": {
     "file": "seamlessknit.jpg",
-    "caption": "A computerised flat knitting machine",
+    "caption": "A Stoll knit-and-wear flat machine of 2007: four needle beds, and the garment comes off finished",
     "kind": "process",
-    "title": "Computerized Flat Knitting Machine (Jacquard Machine) 07.jpg",
-    "artist": "Asivechowdhury",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Computerized_Flat_Knitting_Machine_(Jacquard_Machine)_07.jpg",
+    "title": "WLANL - jpa2003 - knit and wear vlakbreimachine(2007).jpg",
+    "site": "Wikimedia",
+    "artist": "Joop anker",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WLANL_-_jpa2003_-_knit_and_wear_vlakbreimachine(2007).jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 640
+  },
+  "seamlessknit2": {
+    "file": "seamlessknit2.jpg",
+    "caption": "Knitted shoe uppers: each zone of the foot its own stitch, no panels, no seams",
+    "kind": "product",
+    "title": "Leguano Barefoot Slip-On Shoes - Top View.jpg",
+    "site": "Wikimedia",
+    "artist": "Wiki.cullin",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Leguano_Barefoot_Slip-On_Shoes_-_Top_View.jpg",
+    "w": 960,
+    "h": 1127
+  },
+  "seamlessknit3": {
+    "file": "seamlessknit3.jpg",
+    "caption": "A sock machine in use: the first seamless garment, heel and toe turned without a cutter since the 1860s",
+    "kind": "process",
+    "title": "Sock knitting machine.jpg",
+    "site": "Wikimedia",
+    "artist": "jhritz",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sock_knitting_machine.jpg",
+    "w": 960,
+    "h": 1280
   },
   "spacerfabric": {
     "file": "spacerfabric.jpg",
-    "caption": "Spacer fabric — two faces held apart by monofilament",
+    "caption": "Spacer fabric: two faces held apart by monofilament",
     "kind": "photo",
     "title": "Spacer fabric.jpg",
     "artist": "Elkagye",
@@ -7595,6 +7667,30 @@ window.CREDITS = {
     "w": 960,
     "h": 631,
     "site": "Wikimedia"
+  },
+  "spacerfabric2": {
+    "file": "spacerfabric2.jpg",
+    "caption": "The cross-section: a closed face, an open face, and the forest of monofilament columns between them",
+    "kind": "structure",
+    "title": "Spacer fabric 3.jpg",
+    "site": "Wikimedia",
+    "artist": "Elkagye",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spacer_fabric_3.jpg",
+    "w": 960,
+    "h": 497
+  },
+  "spacerfabric3": {
+    "file": "spacerfabric3.jpg",
+    "caption": "The open mesh face of a raschel-knitted spacer fabric",
+    "kind": "photo",
+    "title": "Spacer fabric 2.JPG",
+    "site": "Wikimedia",
+    "artist": "Elkagye",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spacer_fabric_2.JPG",
+    "w": 960,
+    "h": 720
   },
   "electrospun": {
     "file": "electrospun.jpg",
@@ -7775,6 +7871,18 @@ window.CREDITS = {
     "page": "https://polyhaven.com/a/polar_fleece",
     "w": 960,
     "h": 480
+  },
+  "fleece2": {
+    "file": "fleece2.jpg",
+    "caption": "A balaclava lined with polar fleece: the air in the nap against the skin, a wind-stopping shell outside",
+    "kind": "product",
+    "title": "Balaclava with modern cut in red made of thin fabric with polar fleece on the inside.jpg",
+    "site": "Wikimedia",
+    "artist": "Tobias ToMar Maier",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Balaclava_with_modern_cut_in_red_made_of_thin_fabric_with_polar_fleece_on_the_inside.jpg",
+    "w": 960,
+    "h": 1440
   },
   "nonwoven": {
     "file": "nonwoven.jpg",

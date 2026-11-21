@@ -632,10 +632,18 @@ jacquard3|commons|A Jacquard loom showing information punchcards, National Museu
 doublecloth|commons|Blue Double Weave Kimono Close Up.png|Double-weave cloth, close up|photo
 doublecloth2|commons|John Schneider Coverlet.jpg|A Jacquard double-weave coverlet by John Schneider: two cloths changing places wherever the colour changes|product
 doublecloth3|commons|Peru, Recuay Culture, 4th Century BC-8th Century AD - Double Cloth - 1993.243 - Cleveland Museum of Art.jpg|Double cloth from Recuay, Peru, up to two thousand years old: the construction is older than the loom that made it famous|product
-warpknit|commons|NIM 1910 Warp knitting machine 2522.jpg|A warp knitting machine — one needle per warp end|process
-jersey|commons|Gestrick links-rechts rechte Seite.jpeg|Weft-knit fabric, face side|photo
-seamlessknit|commons|Computerized Flat Knitting Machine (Jacquard Machine) 07.jpg|A computerised flat knitting machine|process
-spacerfabric|commons|Spacer fabric.jpg|Spacer fabric — two faces held apart by monofilament|photo
+warpknit|commons|NIM 1939 Warp knitting machine 2572.jpg|The needle bar of a 1939 warp knitting machine at Nottingham: one needle for every warp end, all knitting at once|process
+warpknit2|commons|Raschel lace.jpg|Lace ribbon off a raschel machine: the net ground and the figure knitted together|product
+warpknit3|commons|Raschel loop formation.jpg|How a raschel needle makes its loop, step by step: the guide laps the yarn round the needle, the needle draws it through the loop below|structure
+jersey|commons|Gestrick links-rechts rechte Seite.jpeg|Weft-knit fabric, face side: the columns of V-shaped loops|photo
+jersey2|commons|T-shirt macro view (143610293).jpg|A T-shirt under a macro lens: the same loops at the size they are worn|photo
+jersey3|commons|Old-Knitting-Machine-Knitting-Machine-Close-up-Dial-1588882.jpg|The needle dial of an old circular knitting machine: a ring of latch needles, each knitting one wale of the tube|process
+seamlessknit|commons|WLANL - jpa2003 - knit and wear vlakbreimachine(2007).jpg|A Stoll knit-and-wear flat machine of 2007: four needle beds, and the garment comes off finished|process
+seamlessknit2|commons|Leguano Barefoot Slip-On Shoes - Top View.jpg|Knitted shoe uppers: each zone of the foot its own stitch, no panels, no seams|product
+seamlessknit3|commons|Sock knitting machine.jpg|A sock machine in use: the first seamless garment, heel and toe turned without a cutter since the 1860s|process
+spacerfabric|commons|Spacer fabric.jpg|Spacer fabric: two faces held apart by monofilament|photo
+spacerfabric2|commons|Spacer fabric 3.jpg|The cross-section: a closed face, an open face, and the forest of monofilament columns between them|structure
+spacerfabric3|commons|Spacer fabric 2.JPG|The open mesh face of a raschel-knitted spacer fabric|photo
 electrospun|commons|Electrospun polymer nanofibers with bead-fiber morphology.jpg|Electron micrograph of electrospun nanofibres|photo
 tyvek|Flickr|https://live.staticflickr.com/3458/3350958206_db48d7665f_b.jpg|A Tyvek envelope|product|CC BY-SA 2.0|Newone1970|https://www.flickr.com/photos/32147839@N07/3350958206
 mercerised|commons|Spool of white thread.jpg|Spooled cotton thread — mercerising gives it the sheen|product
@@ -651,6 +659,7 @@ terrypile3|commons|Corduroy fabric.jpg|Corduroy from a shirt: a cut pile too, bu
 leno|commons|Gauze 03.JPG|Plain-weave gauze, the threads already drifting out of square in the hand: the slip that the leno crossing is there to stop|analog
 leno2|commons|Ra (Usumono gauze weave)) (Sha gauze weave with stripes) LCCN2009615648.jpg|Ra and sha, the Japanese crossed-warp silk gauzes, in a weaver's sample drawing|related
 fleece|Poly Haven|https://cdn.polyhaven.com/asset_img/primary/polar_fleece.png?width=1024|Polar fleece, napped and shorn level: a scanned swatch rendered by Poly Haven|photo|CC0|Poly Haven|https://polyhaven.com/a/polar_fleece
+fleece2|commons|Balaclava with modern cut in red made of thin fabric with polar fleece on the inside.jpg|A balaclava lined with polar fleece: the air in the nap against the skin, a wind-stopping shell outside|product
 nonwoven|commons|The front of a blue disposable mask.jpg|A disposable mask — spunbond faces over a meltblown filter|product
 weldedseam|commons|Viking pro 1000 drysuit with magnum hood.jpg|A drysuit — its seams are welded, not sewn|product
 waam|commons|Metal 3D printed turbine (49803494637).jpg|A propeller built from welding wire by wire arc deposition, the beads still on the blades and the hub turned|product
