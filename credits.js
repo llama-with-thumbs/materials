@@ -15146,15 +15146,39 @@ window.CREDITS = {
   },
   "tolex": {
     "file": "tolex.jpg",
-    "caption": "A worn-through patch of tolex on a 1977 Rhodes suitcase piano",
+    "caption": "The corner of a 1975 Rhodes: the vinyl worn through where it was stretched, the backing showing",
     "kind": "photo",
-    "title": "https://live.staticflickr.com/3/3952411_55609c552d_b.jpg",
-    "site": "Flickr",
-    "artist": "daniel spils",
+    "title": "1975 Rhodes Mark I Stage Piano 73-key (serial no.300???) with Dyna Rhodes modification - tolex wear (2005-01-07 20.52.33 by Daniel Spils).jpg",
+    "site": "Wikimedia",
+    "artist": "Daniel Spils from Seattle, USA",
     "license": "CC BY 2.0",
-    "page": "https://www.flickr.com/photos/danielspils/3952411",
+    "page": "https://commons.wikimedia.org/wiki/File:1975_Rhodes_Mark_I_Stage_Piano_73-key_(serial_no.300%3F%3F%3F)_with_Dyna_Rhodes_modification_-_tolex_wear_(2005-01-07_20.52.33_by_Daniel_Spils).jpg",
     "w": 960,
     "h": 720
+  },
+  "tolex2": {
+    "file": "tolex2.jpg",
+    "caption": "A worn-through patch on a 1977 Rhodes suitcase cabinet",
+    "kind": "photo",
+    "title": "1977 Rhodes Mark I Suitcase Piano 73-key (serial no. K610578) - tolex wear spot 1 (2005-01-29 10.00.30 by Daniel Spils).jpg",
+    "site": "Wikimedia",
+    "artist": "Daniel Spils from Seattle, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1977_Rhodes_Mark_I_Suitcase_Piano_73-key_(serial_no._K610578)_-_tolex_wear_spot_1_(2005-01-29_10.00.30_by_Daniel_Spils).jpg",
+    "w": 960,
+    "h": 720
+  },
+  "tolex3": {
+    "file": "tolex3.jpg",
+    "caption": "A 1960s Teisco in black-on-red sparkle vinyl: the covering as decoration",
+    "kind": "product",
+    "title": "TEISCO 74R guitar amp (1960s, black-on-red cover) - Front angled (2006-12-14 12.05.13 by Ian Abbott).jpg",
+    "site": "Wikimedia",
+    "artist": "Ian Abbott from Santa Clara, California, USA",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TEISCO_74R_guitar_amp_(1960s,_black-on-red_cover)_-_Front_angled_(2006-12-14_12.05.13_by_Ian_Abbott).jpg",
+    "w": 960,
+    "h": 638
   },
   "grillecloth": {
     "file": "grillecloth.jpg",
@@ -15168,17 +15192,65 @@ window.CREDITS = {
     "h": 771,
     "site": "Wikimedia"
   },
+  "grillecloth2": {
+    "file": "grillecloth2.jpg",
+    "caption": "Four amplifiers, four cloths: gold, salt and pepper, black basket weave",
+    "kind": "product",
+    "title": "1998 Fender Woody Jr, Serial No. B-050344 (Bonhams auction 19226, lot 98) & Music Man, Marshall, Pignose.jpg",
+    "site": "Wikimedia",
+    "artist": "Deidre Woollard",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1998_Fender_Woody_Jr,_Serial_No._B-050344_(Bonhams_auction_19226,_lot_98)_%26_Music_Man,_Marshall,_Pignose.jpg",
+    "w": 960,
+    "h": 643
+  },
+  "grillecloth3": {
+    "file": "grillecloth3.jpg",
+    "caption": "An early tweed Fender with its brown linen cloth",
+    "kind": "product",
+    "title": "A very early Fender guitar amp. Tweed, 2 knobs. IMG 0873 (52454602188).jpg",
+    "site": "Wikimedia",
+    "artist": "Bill Abbott",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_very_early_Fender_guitar_amp._Tweed,_2_knobs._IMG_0873_(52454602188).jpg",
+    "w": 960,
+    "h": 720
+  },
   "woundstring": {
     "file": "woundstring.jpg",
+    "caption": "Piano bass strings: copper wrap spun turn against turn over a steel core, the same build at a larger scale",
+    "kind": "structure",
+    "title": "Piano string detail.jpg",
+    "site": "Wikimedia",
+    "artist": "Frost Nova from Australia",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Piano_string_detail.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "woundstring2": {
+    "file": "woundstring2.jpg",
+    "caption": "Flatwound bass strings: a flattened ribbon wrap, no finger noise and a duller voice",
+    "kind": "structure",
+    "title": "Flatwound 01.JPG",
+    "site": "Wikimedia",
+    "artist": "jd",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flatwound_01.JPG",
+    "w": 960,
+    "h": 638
+  },
+  "woundstring3": {
+    "file": "woundstring3.jpg",
     "caption": "A worker at a string winding machine, finished strings in hand",
     "kind": "process",
     "title": "Guitar string manufacturing at Cleartone Strings.jpg",
+    "site": "Wikimedia",
     "artist": "ScottS1998",
     "license": "CC BY 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Guitar_string_manufacturing_at_Cleartone_Strings.jpg",
     "w": 960,
-    "h": 723,
-    "site": "Wikimedia"
+    "h": 723
   },
   "pick": {
     "file": "pick.jpg",
@@ -15192,17 +15264,65 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "pick2": {
+    "file": "pick2.jpg",
+    "caption": "Tortoiseshell-pattern celluloid picks, the imitation that outlived the original",
+    "kind": "product",
+    "title": "Celluloid Picks.jpg",
+    "site": "Wikimedia",
+    "artist": "Urban Versis 32",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Celluloid_Picks.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "pick3": {
+    "file": "pick3.jpg",
+    "caption": "Acetal picks colour-coded by thickness, 0.5 to 1.14 mm",
+    "kind": "product",
+    "title": "Various Dunlop Tortex picks.jpg",
+    "site": "Wikimedia",
+    "artist": "Rachmaninoff",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Various_Dunlop_Tortex_picks.jpg",
+    "w": 960,
+    "h": 720
+  },
   "gaffer": {
     "file": "gaffer.jpg",
+    "caption": "A roll of black gaffer tape, the cloth weave showing at the lifted end",
+    "kind": "product",
+    "title": "Black gaffer tape.jpg",
+    "site": "Wikimedia",
+    "artist": "Marie-Lan Nguyen",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_gaffer_tape.jpg",
+    "w": 960,
+    "h": 768
+  },
+  "gaffer2": {
+    "file": "gaffer2.jpg",
     "caption": "Shelves of gaffer tape in a film expendables shop",
     "kind": "product",
     "title": "Gaffer Tape, Black, White and Gray.jpg",
+    "site": "Wikimedia",
     "artist": "Robert.Harker",
     "license": "CC BY 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Gaffer_Tape,_Black,_White_and_Gray.jpg",
     "w": 960,
-    "h": 911,
-    "site": "Wikimedia"
+    "h": 911
+  },
+  "gaffer3": {
+    "file": "gaffer3.jpg",
+    "caption": "Black and orange: the second colour is for marks that must be seen",
+    "kind": "product",
+    "title": "Black and Orange Gaffer Tape.jpg",
+    "site": "Wikimedia",
+    "artist": "Lionel Allorge",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_and_Orange_Gaffer_Tape.jpg",
+    "w": 960,
+    "h": 640
   },
   "drumstick": {
     "file": "drumstick.jpg",

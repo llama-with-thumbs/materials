@@ -4681,40 +4681,45 @@ window.MATERIALS = [
 },
 {
   id: "tolex", cat: "music", name: "Tolex",
-  sub: "grained vinyl on a cloth backing", img: "tolex",
-  hook: "The covering on a guitar amplifier is a sheet of PVC on a woven backing, embossed with a grain — levant, bronco, elephant — and contact-cemented over the plywood with the corners folded like a parcel. It is there because it is cheap, because it wipes clean, and because it hides every joint and every screw head in a box that was built in an afternoon. It is also the part that shows the miles: the vinyl is thinnest where it was stretched round a corner, so the wear starts at the corners and the handles, and a well-played amplifier ends up with the backing cloth showing through.",
+  sub: "grained vinyl on a cloth backing", img: "tolex", extra: ["tolex2", "tolex3"],
+  hook: "PVC on a woven backing, embossed with a grain and contact-cemented over the plywood with the corners folded like a parcel. Cheap, wipeable, and it hides every joint and screw head in a box built in an afternoon.",
+  more: "A PVC skin a few tenths of a millimetre thick is fused to a cotton scrim and embossed while hot: levant, bronco, elephant, sparkle. The cabinet maker cements both faces, lays the sheet from the middle out, slits and folds the corners like wrapping paper and tucks the edges under the baffle. The costs: the vinyl is thinnest where it stretched round a corner, so the wear starts at the corners and the handle and a gigged amplifier ends up with the scrim showing; plasticiser migrates and old tolex goes stiff, shrinks at the seams and takes a tacky bloom; a knock that would dent bare plywood tears it instead; the cement lets go in a hot van; and a recover is a strip-and-redo job few bother with, which is why worn tolex became a look.",
   stats: [["Build", "PVC skin on woven backing"], ["Fitted", "contact cement, corners folded"], ["Wears", "at corners first, where it stretched"]],
   uses: "Guitar and bass amplifier cabinets, keyboard and speaker cabinets, case coverings.",
   link: "https://en.wikipedia.org/wiki/Tolex"
 },
 {
   id: "grillecloth", cat: "music", name: "Grille cloth",
-  sub: "open-woven cotton, rayon or metallised yarn", img: "grillecloth",
-  hook: "A loudspeaker grille cloth has one acoustic requirement — that air can pass through it without noticing — and one visual one, that the driver behind it cannot be seen. Those pull in opposite directions, which is why the classics are loose weaves of cotton or rayon in dark colours, often with a metallic thread for sparkle: salt and pepper, wheat, oxford, gold. It has to be stretched taut and kept that way, because a slack cloth flutters against the baffle and buzzes on bass notes. Smoke and dust fill the weave over the years, and a clogged cloth is a cloth that resists airflow.",
+  sub: "open-woven cotton, rayon or metallised yarn", img: "grillecloth", extra: ["grillecloth2", "grillecloth3"],
+  hook: "One acoustic requirement, that air passes through unnoticed, and one visual one, that the driver cannot be seen. They pull opposite ways, which is why the classics are loose dark weaves with a glint of metal thread.",
+  more: "A loose weave of cotton, rayon or polyester, dyed dark, often with a wrapped metallic yarn, in patterns with names: salt and pepper, wheat, oxford, Vox diamond, Fender gold. It is stretched over a frame or the baffle and stapled under tension; a good cloth is nearly transparent on a meter and opaque to the eye. The costs: a slack cloth flutters against the baffle and buzzes on bass notes, and cloth sags with age and damp; smoke and dust fill the weave until it resists the air it was meant to ignore; the metallic yarns tarnish; a tear cannot be mended invisibly, so the patterns are reissued to keep old amplifiers original; and a loose weave is no protection, so a boot or a mic stand goes straight through to the cone.",
   stats: [["Needs", "low airflow resistance, high opacity"], ["Stretched", "taut, or it buzzes"], ["Clogs", "with smoke and dust"]],
   uses: "Amplifier and hi-fi speaker grilles, organ and radio fronts, acoustic panel facings.",
   link: "https://en.wikipedia.org/wiki/Guitar_amplifier"
 },
 {
   id: "woundstring", cat: "music", name: "Wound string",
-  sub: "a hexagonal steel core under a spun wrap", img: "woundstring",
-  hook: "A thick plain wire at pitch is stiff, and a stiff string sounds sharp in its upper partials and hurts to bend. So a bass string is built: a hexagonal high-carbon steel core carries all the tension, and a round wrap wire is spun over it to add mass without adding stiffness. The hexagon matters — its corners bite into the wrap so the winding cannot creep along the core when the string is bent or cut. The wrap alloy is the voice: phosphor bronze for acoustic warmth, nickel-plated steel for output under a magnetic pickup, pure nickel for something softer, flattened ribbon for players who want no finger noise.",
+  sub: "a hexagonal steel core under a spun wrap", img: "woundstring", extra: ["woundstring2", "woundstring3"],
+  hook: "A thick plain wire at pitch is stiff, sounds sharp in its partials and hurts to bend. So a bass string is built: a hexagonal steel core carries the tension, and a wrap spun over it adds mass without stiffness.",
+  more: "A steel core, drawn hexagonal, spins while a wrap wire is laid on under tension, turn against turn; the corners bite into the wrap so it cannot creep when the string is bent or cut, and the wrap alloy is the voice: phosphor bronze for acoustic warmth, nickel-plated steel for output under a magnetic pickup, pure nickel for softer, flat ribbon for no finger noise, copper for a piano bass. The costs: the wrap is a spring of thousands of turns and anything that gets between them stays, so sweat and oxide deaden a roundwound in weeks while a plain string plays on; a flatwound lasts for years and sounds like it; a kink in the core is a break waiting to happen; and tension is set by core and wrap together, so the same gauge from two makers feels different.",
   stats: [["Core", "hexagonal, carries all the tension"], ["Wrap", "phosphor bronze, nickel, or flat ribbon"], ["Why wound", "mass without stiffness"]],
   uses: "Guitar, bass and piano strings, harp and orchestral bass strings.",
   link: "https://en.wikipedia.org/wiki/String_(music)"
 },
 {
   id: "pick", cat: "music", name: "Plectrum",
-  sub: "celluloid, acetal, nylon or Ultem", img: "pick",
-  hook: "The thing that actually excites the string is a sliver of plastic, and which plastic is audible. Celluloid, the old tortoiseshell imitation, is bright and a bit clicky and wears away visibly in a few gigs. Acetal is slick and rounder. Nylon grips damp fingers and flexes, so it softens the attack. Ultem and the glass-filled stiff plastics barely flex at all and sound loud and sharp. Thickness does the rest: half a millimetre bends away from the string and spreads the transient, a millimetre and a half transfers it whole. The edge finish matters as much as the material, which is why players sand them.",
+  sub: "celluloid, acetal, nylon or Ultem", img: "pick", extra: ["pick2", "pick3"],
+  hook: "What actually excites the string is a sliver of plastic, and which plastic is audible. Celluloid is bright and clicky and wears away in a few gigs, nylon flexes and softens the attack, Ultem barely flexes at all.",
+  more: "A sheet of plastic is punched to shape and the edge tumbled or bevelled: celluloid, the old imitation of tortoiseshell and nearly the last celluloid still made; acetal, which Dunlop colour-codes by gauge as Tortex; nylon, which grips a damp hand; Ultem and glass-filled plastics for hitting the string hard. Thickness does the rest: half a millimetre bends away and spreads the transient, a millimetre and a half transfers it whole, and the bevel sets the click. The costs: celluloid wears visibly in hours, warps, and is nitrate film by another name; nylon goes slick with sweat; the stiff plastics chip; thick picks round a strummed chord and thin ones mush a picked line; and most of them end up in the sofa, which is why they are sold by the gross.",
   stats: [["Materials", "celluloid, acetal, nylon, Ultem"], ["Gauge", "0.4 mm flexes, 1.5 mm does not"], ["Also voiced", "by the bevel on the edge"]],
   uses: "Guitar, bass, mandolin and banjo picks; harpsichord jacks; plucked zithers.",
   link: "https://en.wikipedia.org/wiki/Guitar_pick"
 },
 {
   id: "gaffer", cat: "music", name: "Gaffer tape",
-  sub: "matte cloth scrim, synthetic rubber adhesive", img: "gaffer",
-  hook: "A cotton or polyester scrim coated matte black and backed with a synthetic rubber adhesive, built around three stage requirements. It tears straight by hand in both directions, so one hand can work; it does not reflect a spotlight, because anything shiny on a floor becomes a highlight; and it comes up without the baked-on film that duct tape leaves, because the adhesive is chosen to release rather than to hold forever. The price of all that is that it is not waterproof — duct tape has a polyethylene skin and gaffer tape does not — and that it costs several times as much per roll.",
+  sub: "matte cloth scrim, synthetic rubber adhesive", img: "gaffer", extra: ["gaffer2", "gaffer3"],
+  hook: "A cotton scrim coated matte over a synthetic rubber adhesive, built for three stage needs: it tears straight by hand both ways, it does not shine under a spotlight, and it comes up without the film duct tape leaves.",
+  more: "A woven cotton cloth is coated with a matte vinyl face and a thick synthetic rubber adhesive formulated to hold for a night and release clean in the morning; the cloth gives a straight tear along the weave both ways, so a rigger works it one-handed off a roll on a belt, and the matte face swallows light where a shiny tape is a highlight in a lens. The costs: it is not waterproof, duct tape has a polyethylene skin and gaffer tape does not; it costs several times as much a roll, and a tour goes through cases of it; what releases from a floor still lifts paint from a wall, and left for weeks in heat it leaves residue after all; the cheap kind is duct tape dyed black; and the marks it leaves are a trail of every set change.",
   stats: [["Carrier", "matte cloth scrim, not plastic film"], ["Tears", "straight, both ways, by hand"], ["Releases", "without the duct-tape residue"]],
   uses: "Taping down cables and setlists, marking stage positions, film and theatre rigging, repairs.",
   link: "https://en.wikipedia.org/wiki/Gaffer_tape"
