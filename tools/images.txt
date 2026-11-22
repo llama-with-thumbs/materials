@@ -1235,11 +1235,21 @@ nickelsilver3|commons|Posate.JPG|Nineteenth-century cutlery in bare nickel silve
 vibebars|commons|Vibraphone bar.jpg|The underside of a vibraphone bar, showing the arch cut into it|photo
 vibebars2|commons|Vibraphone motor.jpg|The discs in the resonator mouths, turned by the motor: the wobble|structure
 vibebars3|commons|Vibraphone overhead with mallets.jpg|A Musser vibraphone from above with its mallets|product
-lacquermaster|Flickr|https://live.staticflickr.com/5130/5377502526_5ee195fddf_b.jpg|A Neumann VMS-70 lathe, where the lacquer is cut|process|CC BY-SA 2.0|\ \ \ V A C A N T F E V E R|https://www.flickr.com/photos/31649343@N02/5377502526
+lacquermaster|commons|Neumann VMS-70 Cutting Lathe, SAE Mastering, Phoenix, AZ.jpg|A Neumann VMS-70 lathe at a mastering studio, where the lacquer is cut|process
+lacquermaster2|commons|The Chessmen Acetate Disc Demo cut at Robin's studio.jpg|A cut acetate of 1964, an audition disc from a Vancouver studio|product
+lacquermaster3|commons|Neumann TELDEC-Kupferfolien-Schneidkopf.jpg|A Neumann cutting head over its disc: this one cuts copper for direct metal mastering, the lacquer's rival|related
 cabinetmdf|commons|MDF Sample.jpg|Samples of medium-density fibreboard, cut to show the core|photo
-pickupwire|Flickr|https://live.staticflickr.com/3613/3511734489_7a8608f228_b.jpg|A single-coil guitar pickup, freshly rewound|product|CC BY-SA 2.0|Roadside Guitars|https://www.flickr.com/photos/roadsideguitars/3511734489
-woodpipe|commons|Large wooden organ pipes, Hereford Cathedral - geograph.org.uk - 2701066.jpg|Large wooden pipes in the organ at Hereford Cathedral|photo
+cabinetmdf2|commons|Fibreboard 07889.jpg|A torn edge against a rule: fibre all the way through, no grain|structure
+cabinetmdf3|commons|Loudspeaker enclosure.jpg|A home-built subwoofer box in bare fibreboard|product
+pickupwire|commons|Electric Guitar Single Coil Pickup (New Winding) (3511734489).jpg|A single-coil guitar pickup, freshly rewound|product
+pickupwire2|commons|T-TOP (Neck) Bobbins (6673648115).jpg|Humbucker bobbins out of their cover: two coils of the same wire, wound in opposition|structure
+pickupwire3|commons|Stator Winding of a BLDC Motor.jpg|The same enamelled copper doing its other job, in a motor stator|related
+woodpipe|commons|Brustpositiv Holzpfeifen 14.04.02.jpg|A rank of wooden pipes in the organ at Norden: square boxes, each with its mouth cut into one face|product
+woodpipe2|commons|Breitenau Subasspfeifen.jpg|Subbass pipes of sixteen feet: the pedal ranks that are almost always wood|product
+woodpipe3|commons|Klais Organ Workshop, Wooden Pipes.png|Wooden pipes being made in the Klais workshop|process
 valvepiston|commons|Trompette - premier piston - perspective.JPG|The first piston valve of a Yamaha trumpet, out of its casing|photo
+valvepiston2|commons|Wiki loves Music - Hamburg-5696.jpg|A piston close up: the angled ports that route the air through or round the loop|structure
+valvepiston3|commons|III MEF Band’s Sole Fixer (9488854).jpg|A band repair technician cleaning a trumpet valve|process
 saxpad|commons|AltoSaxRolledToneHoles.JPG|Rolled tone holes on a 1938 alto saxophone, with resonator pads in the key cups|photo
 moldedcab|commons|Behringer Eurolive B212D Loudspeaker.jpg|A Behringer Eurolive B212D, a moulded powered PA top|product
 grillesteel|commons|Loudspeaker grille.jpg|A round perforated grille, dished to stiffen it|product
