@@ -737,9 +737,17 @@ pcf|commons|Photonic-crystal-fiber-from-NRL.jpg|Photonic crystal fibre in cross-
 pcf2|commons|Hollow-core photonic bandgap fiber.jpg|A hollow-core photonic band gap fibre: the light travels down the empty centre|structure
 pcf3|commons|Ligth emerging from a photonic crystal fiber.JPG|Light out of a photonic crystal fibre thrown on a screen: the hole lattice printed in light|process
 oled|commons|LG gram Pro 16 (2024) 16Z90SPG OLED DISPLAY RGB DOT MATRIX, OLED PANEL MADE BY SAMSUNG DISPLAY.jpg|OLED subpixels, magnified|product
-eink|commons|Electronic paper display microphotography.jpg|E-ink microcapsules under the microscope|photo
+oled2|commons|Samsung Transparent OLED Display (24182257080).jpg|A transparent OLED panel: no backlight, so the glass behind the pixels can show through|product
+oled3|commons|OLED 01.jpg|A battery-driven flexible OLED lamp, bent in the hand at a Merck press conference|product
+eink|commons|EPaper.closeUp.HINK 029A14-A1.jpg|A three-colour e-paper shelf label close up: black and red pigment on white|product
+eink2|commons|Electronic paper display microphotography.jpg|E-paper under the microscope: the capsule layer over its transistor backplane|structure
+eink3|commons|E Ink Pearl Display.jpg|An E Ink Pearl screen showing all sixteen of its greys, magnified|structure
 nematiclc|commons|Nematic liquid crystal.jpg|A nematic liquid crystal texture|photo
+nematiclc2|commons|Liquid Crystal Phase Transition.jpg|A drop of liquid crystal under crossed polarisers at the clearing point, magnified a hundred times|process
+nematiclc3|commons|LCD Pixels Macro.jpg|What the molecules are for: the red, green and blue subpixels of an LCD monitor|product
 mov|commons|Metal Oxide Varistor.jpg|A metal oxide varistor|product
+mov2|commons|Varistorfail full.jpg|A 130 volt varistor from a surge strip after a lightning strike: this is how they end|photo
+mov3|commons|Pont-l'Abbé high-voltage substation 02 - Surge protection.jpg|Substation surge arresters: stacks of the same zinc oxide discs, metres tall|related
 ptcpoly|commons|Disassembled resettable fuse.JPG|A polymer resettable fuse, opened up|product
 etchedfoil|commons|Low-voltage-anode-foil.tif|Etched anode foil in cross-section — the tunnels that multiply its area|photo
 tim|commons|Thermal compound Applied.JPG|Thermal compound spread on a processor lid|product
@@ -951,7 +959,9 @@ ggg3|commons|Магнитная доменная структура в плен�
 bbo|commons|OPA produced femtosecond UV laser beam.jpg|The ultraviolet beam out of an optical parametric amplifier, lit by lab dust: a BBO crystal made it|related
 bbo2|commons|Laser Pointer green taken apart.jpg|A green laser pointer dismantled: the doubling crystal sits just right of the diode, the same trick in a cheaper crystal|analog
 bbo3|commons|Beam output from OPA.jpg|The output of an optical parametric amplifier: BBO is the crystal that splits the beam|related
-ga2o3|commons|Czochralski Gallium Oxide.png|Pulling gallium oxide from the melt by the Czochralski method|process
+ga2o3|commons|Dr Thaddeus (Tadj) Asel focuses on the growth of oxide semiconductor materials such as Gallium Oxide to address the need for smaller and higher power electronics (8380304).jpg|A molecular beam epitaxy chamber at the Air Force Research Laboratory where gallium oxide films are grown|process
+ga2o32|commons|Kristallstruktur Galliumoxid.png|The beta gallium oxide lattice: gallium in both tetrahedral and octahedral sites|structure
+ga2o33|commons|Czochralski Gallium Oxide.png|Pulling gallium oxide from the melt by the Czochralski method|process
 pebax|commons|Nike Vaporfly Cut in Half.png|A Vaporfly cut in half: the white foam is Pebax, blown with gas, around the dark carbon plate|product
 pebax2|commons|Ski boots alpin large.jpg|Alpine ski boots: Pebax took the race shell from polyurethane because its stiffness holds in the cold|analog
 pei|commons|COSMIC-2 Cafeteria Cups Radio Occultation Antenna Array.png|A satellite antenna array 3D printed in Ultem 9085 at JPL, the grade that flies|product

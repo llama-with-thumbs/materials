@@ -8808,17 +8808,65 @@ window.CREDITS = {
     "h": 567,
     "site": "Wikimedia"
   },
+  "oled2": {
+    "file": "oled2.jpg",
+    "caption": "A transparent OLED panel: no backlight, so the glass behind the pixels can show through",
+    "kind": "product",
+    "title": "Samsung Transparent OLED Display (24182257080).jpg",
+    "site": "Wikimedia",
+    "artist": "Maurizio Pesce from Milan, Italia",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Samsung_Transparent_OLED_Display_(24182257080).jpg",
+    "w": 960,
+    "h": 640
+  },
+  "oled3": {
+    "file": "oled3.jpg",
+    "caption": "A battery-driven flexible OLED lamp, bent in the hand at a Merck press conference",
+    "kind": "product",
+    "title": "OLED 01.jpg",
+    "site": "Wikimedia",
+    "artist": "Kuebi = Armin Kübelbeck",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:OLED_01.jpg",
+    "w": 960,
+    "h": 989
+  },
   "eink": {
     "file": "eink.jpg",
-    "caption": "E-ink microcapsules under the microscope",
-    "kind": "photo",
+    "caption": "A three-colour e-paper shelf label close up: black and red pigment on white",
+    "kind": "product",
+    "title": "EPaper.closeUp.HINK 029A14-A1.jpg",
+    "site": "Wikimedia",
+    "artist": "Xofc",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EPaper.closeUp.HINK_029A14-A1.jpg",
+    "w": 960,
+    "h": 916
+  },
+  "eink2": {
+    "file": "eink2.jpg",
+    "caption": "E-paper under the microscope: the capsule layer over its transistor backplane",
+    "kind": "structure",
     "title": "Electronic paper display microphotography.jpg",
+    "site": "Wikimedia",
     "artist": "Nikita Mikheev",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Electronic_paper_display_microphotography.jpg",
     "w": 960,
-    "h": 951,
-    "site": "Wikimedia"
+    "h": 951
+  },
+  "eink3": {
+    "file": "eink3.jpg",
+    "caption": "An E Ink Pearl screen showing all sixteen of its greys, magnified",
+    "kind": "structure",
+    "title": "E Ink Pearl Display.jpg",
+    "site": "Wikimedia",
+    "artist": "Medvedev",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:E_Ink_Pearl_Display.jpg",
+    "w": 960,
+    "h": 640
   },
   "nematiclc": {
     "file": "nematiclc.jpg",
@@ -8832,6 +8880,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "nematiclc2": {
+    "file": "nematiclc2.jpg",
+    "caption": "A drop of liquid crystal under crossed polarisers at the clearing point, magnified a hundred times",
+    "kind": "process",
+    "title": "Liquid Crystal Phase Transition.jpg",
+    "site": "Wikimedia",
+    "artist": "KarlGaff",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Liquid_Crystal_Phase_Transition.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "nematiclc3": {
+    "file": "nematiclc3.jpg",
+    "caption": "What the molecules are for: the red, green and blue subpixels of an LCD monitor",
+    "kind": "product",
+    "title": "LCD Pixels Macro.jpg",
+    "site": "Wikimedia",
+    "artist": "Image taken by Daniel Schwen using an inverse mounted lens.",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:LCD_Pixels_Macro.jpg",
+    "w": 960,
+    "h": 720
+  },
   "mov": {
     "file": "mov.jpg",
     "caption": "A metal oxide varistor",
@@ -8843,6 +8915,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1498,
     "site": "Wikimedia"
+  },
+  "mov2": {
+    "file": "mov2.jpg",
+    "caption": "A 130 volt varistor from a surge strip after a lightning strike: this is how they end",
+    "kind": "photo",
+    "title": "Varistorfail full.jpg",
+    "site": "Wikimedia",
+    "artist": "Mwdonnellan",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Varistorfail_full.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "mov3": {
+    "file": "mov3.jpg",
+    "caption": "Substation surge arresters: stacks of the same zinc oxide discs, metres tall",
+    "kind": "related",
+    "title": "Pont-l'Abbé high-voltage substation 02 - Surge protection.jpg",
+    "site": "Wikimedia",
+    "artist": "PtiBzh",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pont-l%27Abb%C3%A9_high-voltage_substation_02_-_Surge_protection.jpg",
+    "w": 960,
+    "h": 720
   },
   "ptcpoly": {
     "file": "ptcpoly.jpg",
@@ -11377,16 +11473,40 @@ window.CREDITS = {
     "h": 1707
   },
   "ga2o3": {
-    "file": "ga2o3.png",
+    "file": "ga2o3.jpg",
+    "caption": "A molecular beam epitaxy chamber at the Air Force Research Laboratory where gallium oxide films are grown",
+    "kind": "process",
+    "title": "Dr Thaddeus (Tadj) Asel focuses on the growth of oxide semiconductor materials such as Gallium Oxide to address the need for smaller and higher power electronics (8380304).jpg",
+    "site": "Wikimedia",
+    "artist": "U.S. Air Force AFRL by Keith C Lewis",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Dr_Thaddeus_(Tadj)_Asel_focuses_on_the_growth_of_oxide_semiconductor_materials_such_as_Gallium_Oxide_to_address_the_need_for_smaller_and_higher_power_electronics_(8380304).jpg",
+    "w": 960,
+    "h": 540
+  },
+  "ga2o32": {
+    "file": "ga2o32.png",
+    "caption": "The beta gallium oxide lattice: gallium in both tetrahedral and octahedral sites",
+    "kind": "structure",
+    "title": "Kristallstruktur Galliumoxid.png",
+    "site": "Wikimedia",
+    "artist": "Orci",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kristallstruktur_Galliumoxid.png",
+    "w": 960,
+    "h": 500
+  },
+  "ga2o33": {
+    "file": "ga2o33.png",
     "caption": "Pulling gallium oxide from the melt by the Czochralski method",
     "kind": "process",
     "title": "Czochralski Gallium Oxide.png",
+    "site": "Wikimedia",
     "artist": "GalliumGorl",
     "license": "CC0",
     "page": "https://commons.wikimedia.org/wiki/File:Czochralski_Gallium_Oxide.png",
     "w": 960,
-    "h": 466,
-    "site": "Wikimedia"
+    "h": 466
   },
   "pebax": {
     "file": "pebax.png",
