@@ -8942,27 +8942,75 @@ window.CREDITS = {
   },
   "ptcpoly": {
     "file": "ptcpoly.jpg",
-    "caption": "A polymer resettable fuse, opened up",
+    "caption": "Polymer PTC fuses, the red discs, in a range of ratings",
     "kind": "product",
-    "title": "Disassembled resettable fuse.JPG",
-    "artist": "Dmitry G",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Disassembled_resettable_fuse.JPG",
+    "title": "Photo-Polyswitch.jpg",
+    "site": "Wikimedia",
+    "artist": "Shaddack",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Photo-Polyswitch.jpg",
     "w": 960,
-    "h": 541,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "ptcpoly2": {
+    "file": "ptcpoly2.jpg",
+    "caption": "A meter's input board, labelled: the Polyswitch sits among the fuses and varistors",
+    "kind": "product",
+    "title": "Fluke 28 Multimeter Input Protection.jpg",
+    "site": "Wikimedia",
+    "artist": "Binarysequence",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fluke_28_Multimeter_Input_Protection.jpg",
+    "w": 912,
+    "h": 684
+  },
+  "ptcpoly3": {
+    "file": "ptcpoly3.jpg",
+    "caption": "The same effect in a ceramic PTC thermistor: resistance read warm, between ice water and hot",
+    "kind": "analog",
+    "title": "MFrey PTC Resistor warm.JPG",
+    "site": "Wikimedia",
+    "artist": "MichaelFrey 2006-10-13 18:30 (UTC)",
+    "license": "CC BY-SA 2.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:MFrey_PTC_Resistor_warm.JPG",
+    "w": 960,
+    "h": 720
   },
   "etchedfoil": {
     "file": "etchedfoil.jpg",
-    "caption": "Etched anode foil in cross-section — the tunnels that multiply its area",
-    "kind": "photo",
+    "caption": "A Siemens electrolytic marked Al-Elko rauh: rough, meaning etched, foil inside",
+    "kind": "product",
+    "title": "Revue tron bc 28 - Siemens -aluminum electrolytic capacitor--4293.jpg",
+    "site": "Wikimedia",
+    "artist": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Revue_tron_bc_28_-_Siemens_-aluminum_electrolytic_capacitor--4293.jpg",
+    "w": 960,
+    "h": 1276
+  },
+  "etchedfoil2": {
+    "file": "etchedfoil2.jpg",
+    "caption": "Etched anode foil in cross-section: the tunnels that multiply its area",
+    "kind": "structure",
     "title": "Low-voltage-anode-foil.tif",
+    "site": "Wikimedia",
     "artist": "Elcap",
     "license": "CC0",
     "page": "https://commons.wikimedia.org/wiki/File:Low-voltage-anode-foil.tif",
     "w": 500,
-    "h": 333,
-    "site": "Wikimedia"
+    "h": 333
+  },
+  "etchedfoil3": {
+    "file": "etchedfoil3.jpg",
+    "caption": "Electrolytic capacitors on a board, each a roll of etched foil",
+    "kind": "product",
+    "title": "Electrolytic capacitors mounted on a circuit board.jpg",
+    "site": "Wikimedia",
+    "artist": "Giovanna 27",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Electrolytic_capacitors_mounted_on_a_circuit_board.jpg",
+    "w": 960,
+    "h": 640
   },
   "tim": {
     "file": "tim.jpg",
@@ -8975,6 +9023,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "tim2": {
+    "file": "tim2.jpg",
+    "caption": "A graphics chip under a film of liquid metal, Kapton tape round it against spills",
+    "kind": "product",
+    "title": "GPU die covered in liquid metal.jpg",
+    "site": "Wikimedia",
+    "artist": "Phiarc",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GPU_die_covered_in_liquid_metal.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "tim3": {
+    "file": "tim3.jpg",
+    "caption": "A car computer's cooling plate: the grey rectangles are the paste that coupled each chip to it",
+    "kind": "product",
+    "title": "Tesla Autopilot Cooling Plate + Thermal Paste (50939186576).jpg",
+    "site": "Wikimedia",
+    "artist": "Steve Jurvetson from Los Altos, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tesla_Autopilot_Cooling_Plate_%2B_Thermal_Paste_(50939186576).jpg",
+    "w": 960,
+    "h": 637
   },
   "cashmere": {
     "file": "cashmere.jpg",
@@ -12158,15 +12230,39 @@ window.CREDITS = {
   },
   "bellbronze": {
     "file": "bellbronze.jpg",
-    "caption": "A Chinese bo zhong bell, cast in high-tin bronze",
+    "caption": "A bronze bell of 1813 at San Geremia, Venice",
     "kind": "product",
-    "title": "https://openaccess-cdn.clevelandart.org/1962.44/1962.44_web.jpg",
-    "site": "Cleveland Museum of Art",
-    "artist": "Cleveland Museum of Art",
-    "license": "CC0",
-    "page": "https://clevelandart.org/art/1962.44",
-    "w": 690,
-    "h": 893
+    "title": "San Geremia (Venice) - Bronze bell from 1813.jpg",
+    "site": "Wikimedia",
+    "artist": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Geremia_(Venice)_-_Bronze_bell_from_1813.jpg",
+    "w": 960,
+    "h": 1237
+  },
+  "bellbronze2": {
+    "file": "bellbronze2.jpg",
+    "caption": "The inside of an old clock bell: the crystal grains of the bronze show on the surface",
+    "kind": "structure",
+    "title": "Bronze bell with visible material structure.jpg",
+    "site": "Wikimedia",
+    "artist": "Anonimski",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bronze_bell_with_visible_material_structure.jpg",
+    "w": 960,
+    "h": 641
+  },
+  "bellbronze3": {
+    "file": "bellbronze3.jpg",
+    "caption": "A village bell lifted from its casting pit the day after the pour",
+    "kind": "process",
+    "title": "Glockenguss Ewattingen 1030807.jpg",
+    "site": "Wikimedia",
+    "artist": "Flominator (talk)",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glockenguss_Ewattingen_1030807.jpg",
+    "w": 960,
+    "h": 720
   },
   "singingbowl": {
     "file": "singingbowl.jpg",
@@ -12611,6 +12707,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "lfp2": {
+    "file": "lfp2.jpg",
+    "caption": "A 302 Ah prismatic cell, the kind that fills a car or a storage rack",
+    "kind": "product",
+    "title": "CATL Lifepo4 302Ah.jpg",
+    "site": "Wikimedia",
+    "artist": "Aeroid",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CATL_Lifepo4_302Ah.jpg",
+    "w": 960,
+    "h": 1161
+  },
+  "lfp3": {
+    "file": "lfp3.png",
+    "caption": "The formula unit: lithium, iron and a phosphate tetrahedron holding its oxygen tight",
+    "kind": "structure",
+    "title": "Lithium-iron-phosphate-3D-balls-ionic.png",
+    "site": "Wikimedia",
+    "artist": "Unknown",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lithium-iron-phosphate-3D-balls-ionic.png",
+    "w": 960,
+    "h": 730
   },
   "rattan": {
     "file": "rattan.jpg",

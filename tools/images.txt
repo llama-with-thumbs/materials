@@ -748,9 +748,15 @@ nematiclc3|commons|LCD Pixels Macro.jpg|What the molecules are for: the red, gre
 mov|commons|Metal Oxide Varistor.jpg|A metal oxide varistor|product
 mov2|commons|Varistorfail full.jpg|A 130 volt varistor from a surge strip after a lightning strike: this is how they end|photo
 mov3|commons|Pont-l'Abbé high-voltage substation 02 - Surge protection.jpg|Substation surge arresters: stacks of the same zinc oxide discs, metres tall|related
-ptcpoly|commons|Disassembled resettable fuse.JPG|A polymer resettable fuse, opened up|product
-etchedfoil|commons|Low-voltage-anode-foil.tif|Etched anode foil in cross-section — the tunnels that multiply its area|photo
+ptcpoly|commons|Photo-Polyswitch.jpg|Polymer PTC fuses, the red discs, in a range of ratings|product
+ptcpoly2|commons|Fluke 28 Multimeter Input Protection.jpg|A meter's input board, labelled: the Polyswitch sits among the fuses and varistors|product
+ptcpoly3|commons|MFrey PTC Resistor warm.JPG|The same effect in a ceramic PTC thermistor: resistance read warm, between ice water and hot|analog
+etchedfoil|commons|Revue tron bc 28 - Siemens -aluminum electrolytic capacitor--4293.jpg|A Siemens electrolytic marked Al-Elko rauh: rough, meaning etched, foil inside|product
+etchedfoil2|commons|Low-voltage-anode-foil.tif|Etched anode foil in cross-section: the tunnels that multiply its area|structure
+etchedfoil3|commons|Electrolytic capacitors mounted on a circuit board.jpg|Electrolytic capacitors on a board, each a roll of etched foil|product
 tim|commons|Thermal compound Applied.JPG|Thermal compound spread on a processor lid|product
+tim2|commons|GPU die covered in liquid metal.jpg|A graphics chip under a film of liquid metal, Kapton tape round it against spills|product
+tim3|commons|Tesla Autopilot Cooling Plate + Thermal Paste (50939186576).jpg|A car computer's cooling plate: the grey rectangles are the paste that coupled each chip to it|product
 cashmere|commons|CSIRO ScienceImage 6863 Cashmere goat hair fibre.jpg|A single cashmere fibre under the electron microscope: the scales are there, flatter and further apart than on wool, and the bar is 10 µm|structure
 cashmere2|commons|Mongolia Herding Life 20.JPG|Combing the down out of a goat in early spring, Mongolia: the guard hair stays on the animal|process
 cashmere3|commons|Pashmina goats.jpg|Changthangi goats in Ladakh: the pashmina grade, grown at 4,000 metres|related
@@ -1016,7 +1022,9 @@ waffle2|commons|Knitted Waffle fabric.jpg|The same cells knitted instead of wove
 twill|commons|Broken twill denim Wrangler 13MWZ jeans (2026-01-21).jpg|Broken twill denim from a pair of Wrangler 13MWZ, face and back: the diagonal reverses across the warp|photo
 twill2|commons|Twill weave.JPG|Plain twill in a wool blanket: the diagonal unbroken, every float stepping the same way|photo
 twill3|commons|Herringbone Twill .jpg|Herringbone twill on a 1941 US Army jacket: the diagonal reversed in visible bands|product
-bellbronze|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1962.44/1962.44_web.jpg|A Chinese bo zhong bell, cast in high-tin bronze|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1962.44
+bellbronze|commons|San Geremia (Venice) - Bronze bell from 1813.jpg|A bronze bell of 1813 at San Geremia, Venice|product
+bellbronze2|commons|Bronze bell with visible material structure.jpg|The inside of an old clock bell: the crystal grains of the bronze show on the surface|structure
+bellbronze3|commons|Glockenguss Ewattingen 1030807.jpg|A village bell lifted from its casting pit the day after the pour|process
 singingbowl|commons|Tibetan bowl 14 cm.jpg|A Himalayan standing bowl, 14 cm across|photo
 pipemetal|commons|Organ pipes.jpg|Open bass pipes in an organ, cast from tin and lead|product
 pernambuco|commons|Brazilwood Paubrasilia echinata square blank.jpg|A squared blank of pernambuco, cut in 1987 and kept for bows|photo
@@ -1054,6 +1062,8 @@ tincoat|commons|TiNCoatedPunches NanoShieldPVD Thailand.JPG|Punches coated with 
 tincoat2|commons|AlTiNCoatedEndmill NanoShieldPVD Thailand.JPG|End mills recoated in aluminium titanium nitride: the dark successor that grows its own oxide skin for hot, dry cutting|related
 tincoat3|commons|Titanium nitride TiN.jpg|Titanium nitride as a powder: brown, not gold; the colour belongs to the thin dense film, not the compound in bulk|related
 lfp|commons|Lithium Iron Phosphate LiFePO4 Cells 400 Ah Amp Hours 3.25 Volts - 1.jpg|400 Ah lithium iron phosphate cells wired into a house battery|product
+lfp2|commons|CATL Lifepo4 302Ah.jpg|A 302 Ah prismatic cell, the kind that fills a car or a storage rack|product
+lfp3|commons|Lithium-iron-phosphate-3D-balls-ionic.png|The formula unit: lithium, iron and a phosphate tetrahedron holding its oxygen tight|structure
 rattan|commons|Rattan peel 籐皮.jpg|Rattan peel in strips: the glossy skin of the stem, the part that takes the tension|photo
 rattan2|commons|Flechten Sitzfläche Stuhl.JPG|Caning a bentwood chair seat: the strips go in wet and tighten as they dry|process
 rattan3|commons|USAID Measuring Impact Conservation Enterprise Retrospective (Philippines; Nagkakaisang Tribu ng Palawan) (38483157770).jpg|Rattan poles on the drying racks of a trader in Palawan, cured in hot diesel, to be straightened by hand and shipped to China|process
