@@ -1026,10 +1026,20 @@ bellbronze|commons|San Geremia (Venice) - Bronze bell from 1813.jpg|A bronze bel
 bellbronze2|commons|Bronze bell with visible material structure.jpg|The inside of an old clock bell: the crystal grains of the bronze show on the surface|structure
 bellbronze3|commons|Glockenguss Ewattingen 1030807.jpg|A village bell lifted from its casting pit the day after the pour|process
 singingbowl|commons|Tibetan bowl 14 cm.jpg|A Himalayan standing bowl, 14 cm across|photo
+singingbowl2|commons|Playing a hand-forged Nepalese singing bowl with a felt mallet during studio recording in Bratislava.jpg|A hand-forged bowl held on an open palm and struck with a felt mallet|process
+singingbowl3|commons|Singing Bowl from Nepal.jpg|An engraved Nepalese bowl on its cushion|photo
 pipemetal|commons|Organ pipes.jpg|Open bass pipes in an organ, cast from tin and lead|product
+pipemetal2|commons|Prospektpfeifen.jpg|Facade pipes with their mouths: the voicer's cuts decide how each one speaks|product
+pipemetal3|commons|Atlas Orgelbaukunst Tafel 062.jpg|Casting and working pipe metal, from a Weimar organ-building atlas of 1855|process
 pernambuco|commons|Brazilwood Paubrasilia echinata square blank.jpg|A squared blank of pernambuco, cut in 1987 and kept for bows|photo
-ebony|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1983.98/1983.98_web.jpg|A statuette carved in ebony|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1983.98
+pernambuco2|commons|Three bow frogs.jpg|Violin, viola and cello bows at the frog: the pernambuco sticks, ebony frogs and silver lapping|product
+pernambuco3|commons|Bow maker workshop.jpg|A bow maker's bench in Cremona|process
+ebony|commons|Diospyros crassiflora00.jpg|A strip of Gabon ebony against a hand|photo
+ebony2|commons|Fingerboard (3678671062).jpg|A violinist's hand on an ebony fingerboard|product
+ebony3|commons|Ebony And Ivory (photo by Garry Knight).jpg|The sharps of a piano, the other place a finger meets ebony|product
 rosin|commons|Violin rosin (2).jpg|A cake of violin rosin|photo
+rosin2|commons|Rosins.JPG|Rosin as sold: cakes for violin, viola and cello, in cloth and in wooden boxes|product
+rosin3|commons|Gemmage 01.jpg|Tapping a maritime pine in the Landes: the resin that becomes rosin|process
 fiddleback|commons|Riegelahorn Holz.JPG|Sliced fiddleback maple veneer — the stripes are waves in the grain|photo
 instbrass|commons|Trumpet Bell.jpg|The bell of a trumpet, spun from brass sheet|product
 lithophone|commons|Pierre sonore d'un lithophone jade chine 1764 mariemont.JPG|A jade sounding stone from a Chinese lithophone, dated 1764|product

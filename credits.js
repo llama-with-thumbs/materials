@@ -12276,6 +12276,30 @@ window.CREDITS = {
     "h": 612,
     "site": "Wikimedia"
   },
+  "singingbowl2": {
+    "file": "singingbowl2.jpg",
+    "caption": "A hand-forged bowl held on an open palm and struck with a felt mallet",
+    "kind": "process",
+    "title": "Playing a hand-forged Nepalese singing bowl with a felt mallet during studio recording in Bratislava.jpg",
+    "site": "Wikimedia",
+    "artist": "JAMBATI eu",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playing_a_hand-forged_Nepalese_singing_bowl_with_a_felt_mallet_during_studio_recording_in_Bratislava.jpg",
+    "w": 960,
+    "h": 960
+  },
+  "singingbowl3": {
+    "file": "singingbowl3.jpg",
+    "caption": "An engraved Nepalese bowl on its cushion",
+    "kind": "photo",
+    "title": "Singing Bowl from Nepal.jpg",
+    "site": "Wikimedia",
+    "artist": "Serg Childed",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Singing_Bowl_from_Nepal.jpg",
+    "w": 960,
+    "h": 640
+  },
   "pipemetal": {
     "file": "pipemetal.jpg",
     "caption": "Open bass pipes in an organ, cast from tin and lead",
@@ -12287,6 +12311,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "pipemetal2": {
+    "file": "pipemetal2.jpg",
+    "caption": "Facade pipes with their mouths: the voicer's cuts decide how each one speaks",
+    "kind": "product",
+    "title": "Prospektpfeifen.jpg",
+    "site": "Wikimedia",
+    "artist": "Kantor.JH at German Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Prospektpfeifen.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "pipemetal3": {
+    "file": "pipemetal3.jpg",
+    "caption": "Casting and working pipe metal, from a Weimar organ-building atlas of 1855",
+    "kind": "process",
+    "title": "Atlas Orgelbaukunst Tafel 062.jpg",
+    "site": "Wikimedia",
+    "artist": "Autor: Johann Gottlob Töpfer; Verlag, Druck und Lithographie: Bernhard Friedrich Voigt",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Atlas_Orgelbaukunst_Tafel_062.jpg",
+    "w": 960,
+    "h": 566
   },
   "pernambuco": {
     "file": "pernambuco.jpg",
@@ -12300,17 +12348,65 @@ window.CREDITS = {
     "h": 1280,
     "site": "Wikimedia"
   },
+  "pernambuco2": {
+    "file": "pernambuco2.jpg",
+    "caption": "Violin, viola and cello bows at the frog: the pernambuco sticks, ebony frogs and silver lapping",
+    "kind": "product",
+    "title": "Three bow frogs.jpg",
+    "site": "Wikimedia",
+    "artist": "No machine-readable author provided. Just plain Bill assumed (based on copyright claims).",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Three_bow_frogs.jpg",
+    "w": 960,
+    "h": 586
+  },
+  "pernambuco3": {
+    "file": "pernambuco3.jpg",
+    "caption": "A bow maker's bench in Cremona",
+    "kind": "process",
+    "title": "Bow maker workshop.jpg",
+    "site": "Wikimedia",
+    "artist": "Brian Johnson from Pleasanton, California, USA",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bow_maker_workshop.jpg",
+    "w": 960,
+    "h": 720
+  },
   "ebony": {
     "file": "ebony.jpg",
-    "caption": "A statuette carved in ebony",
+    "caption": "A strip of Gabon ebony against a hand",
+    "kind": "photo",
+    "title": "Diospyros crassiflora00.jpg",
+    "site": "Wikimedia",
+    "artist": "Paul venter",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Diospyros_crassiflora00.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "ebony2": {
+    "file": "ebony2.jpg",
+    "caption": "A violinist's hand on an ebony fingerboard",
     "kind": "product",
-    "title": "https://openaccess-cdn.clevelandart.org/1983.98/1983.98_web.jpg",
-    "site": "Cleveland Museum of Art",
-    "artist": "Cleveland Museum of Art",
-    "license": "CC0",
-    "page": "https://clevelandart.org/art/1983.98",
-    "w": 583,
-    "h": 893
+    "title": "Fingerboard (3678671062).jpg",
+    "site": "Wikimedia",
+    "artist": "Steve Snodgrass from Shreveport, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fingerboard_(3678671062).jpg",
+    "w": 960,
+    "h": 638
+  },
+  "ebony3": {
+    "file": "ebony3.jpg",
+    "caption": "The sharps of a piano, the other place a finger meets ebony",
+    "kind": "product",
+    "title": "Ebony And Ivory (photo by Garry Knight).jpg",
+    "site": "Wikimedia",
+    "artist": "Garry Knight from London, England",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ebony_And_Ivory_(photo_by_Garry_Knight).jpg",
+    "w": 960,
+    "h": 640
   },
   "rosin": {
     "file": "rosin.jpg",
@@ -12323,6 +12419,30 @@ window.CREDITS = {
     "w": 960,
     "h": 777,
     "site": "Wikimedia"
+  },
+  "rosin2": {
+    "file": "rosin2.jpg",
+    "caption": "Rosin as sold: cakes for violin, viola and cello, in cloth and in wooden boxes",
+    "kind": "product",
+    "title": "Rosins.JPG",
+    "site": "Wikimedia",
+    "artist": "Just plain Bill",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rosins.JPG",
+    "w": 960,
+    "h": 576
+  },
+  "rosin3": {
+    "file": "rosin3.jpg",
+    "caption": "Tapping a maritime pine in the Landes: the resin that becomes rosin",
+    "kind": "process",
+    "title": "Gemmage 01.jpg",
+    "site": "Wikimedia",
+    "artist": "Patchanka64",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gemmage_01.jpg",
+    "w": 960,
+    "h": 1280
   },
   "fiddleback": {
     "file": "fiddleback.jpg",
