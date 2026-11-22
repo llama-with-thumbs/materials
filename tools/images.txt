@@ -1251,10 +1251,20 @@ valvepiston|commons|Trompette - premier piston - perspective.JPG|The first pisto
 valvepiston2|commons|Wiki loves Music - Hamburg-5696.jpg|A piston close up: the angled ports that route the air through or round the loop|structure
 valvepiston3|commons|III MEF Band’s Sole Fixer (9488854).jpg|A band repair technician cleaning a trumpet valve|process
 saxpad|commons|AltoSaxRolledToneHoles.JPG|Rolled tone holes on a 1938 alto saxophone, with resonator pads in the key cups|photo
+saxpad2|commons|Mechanik mit Polstern.jpg|Clarinet keys off the instrument, the pads bedded in their cups|structure
+saxpad3|commons|Andy's clarinet (100919942).jpg|Pads on the lower joint of a clarinet, seated over their tone holes|photo
 moldedcab|commons|Behringer Eurolive B212D Loudspeaker.jpg|A Behringer Eurolive B212D, a moulded powered PA top|product
+moldedcab2|commons|JBL EON 1500.jpg|A JBL EON, one of the first moulded PA tops, handle and pole cup in the same shot|product
+moldedcab3|commons|TOKYO CULTURE CULTURE stage.jpg|Moulded tops on their poles either side of a small stage, the job they were shaped for|product
 grillesteel|commons|Loudspeaker grille.jpg|A round perforated grille, dished to stiffen it|product
+grillesteel2|commons|Perforated steel.jpg|Perforated steel sheet close up: round holes on a staggered pitch|structure
+grillesteel3|commons|Lochblech (2) (24980540967).jpg|Perforated plate rusting at the cut edge of every hole once the coating has gone|photo
 surround|commons|Midrange loudspeaker of JBL TI 5000 loudspeaker box, 130 mm diameter.jpg|The 130 mm midrange of a JBL TI 5000, with its surround rolled around the rim|photo
+surround2|commons|LS3 without grilles.jpg|A KEF B110 in an LS3/5A: the soft half-roll surround round a small woofer|product
+surround3|commons|Logitech X530 Speakers.jpg|A small driver close up, the rolled edge between cone and frame|product
 roadcase|commons|Road-case-removable-lid-vol-case.jpg|A road case with a removable lid, laminate over plywood in aluminium edging|product
+roadcase2|commons|Nuit Boréale 2013 011.jpg|Cases on their castors beside the truck at a festival load-in|product
+roadcase3|commons|Road-case-custom-foam-vol-case.jpg|Inside: cut foam holding the gear off the walls|structure
 tolex|Flickr|https://live.staticflickr.com/3/3952411_55609c552d_b.jpg|A worn-through patch of tolex on a 1977 Rhodes suitcase piano|photo|CC BY 2.0|daniel spils|https://www.flickr.com/photos/danielspils/3952411
 grillecloth|commons|Fender Twin Reverb Blonde.jpg|The gold grille cloth of a 1965 Fender Twin Reverb|product
 woundstring|commons|Guitar string manufacturing at Cleartone Strings.jpg|A worker at a string winding machine, finished strings in hand|process

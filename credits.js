@@ -14976,6 +14976,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "saxpad2": {
+    "file": "saxpad2.jpg",
+    "caption": "Clarinet keys off the instrument, the pads bedded in their cups",
+    "kind": "structure",
+    "title": "Mechanik mit Polstern.jpg",
+    "site": "Wikimedia",
+    "artist": "User:Gisbert K",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mechanik_mit_Polstern.jpg",
+    "w": 960,
+    "h": 647
+  },
+  "saxpad3": {
+    "file": "saxpad3.jpg",
+    "caption": "Pads on the lower joint of a clarinet, seated over their tone holes",
+    "kind": "photo",
+    "title": "Andy's clarinet (100919942).jpg",
+    "site": "Wikimedia",
+    "artist": "Andy / Andrew Fogg from near Cambridge, UK",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Andy%27s_clarinet_(100919942).jpg",
+    "w": 960,
+    "h": 640
+  },
   "moldedcab": {
     "file": "moldedcab.jpg",
     "caption": "A Behringer Eurolive B212D, a moulded powered PA top",
@@ -14987,6 +15011,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1352,
     "site": "Wikimedia"
+  },
+  "moldedcab2": {
+    "file": "moldedcab2.jpg",
+    "caption": "A JBL EON, one of the first moulded PA tops, handle and pole cup in the same shot",
+    "kind": "product",
+    "title": "JBL EON 1500.jpg",
+    "site": "Wikimedia",
+    "artist": "Blurred Ren",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:JBL_EON_1500.jpg",
+    "w": 960,
+    "h": 1444
+  },
+  "moldedcab3": {
+    "file": "moldedcab3.jpg",
+    "caption": "Moulded tops on their poles either side of a small stage, the job they were shaped for",
+    "kind": "product",
+    "title": "TOKYO CULTURE CULTURE stage.jpg",
+    "site": "Wikimedia",
+    "artist": "yoggy0 from Yokohama, Japan",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TOKYO_CULTURE_CULTURE_stage.jpg",
+    "w": 960,
+    "h": 720
   },
   "grillesteel": {
     "file": "grillesteel.jpg",
@@ -15000,6 +15048,30 @@ window.CREDITS = {
     "h": 960,
     "site": "Wikimedia"
   },
+  "grillesteel2": {
+    "file": "grillesteel2.jpg",
+    "caption": "Perforated steel sheet close up: round holes on a staggered pitch",
+    "kind": "structure",
+    "title": "Perforated steel.jpg",
+    "site": "Wikimedia",
+    "artist": "Tahini",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Perforated_steel.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "grillesteel3": {
+    "file": "grillesteel3.jpg",
+    "caption": "Perforated plate rusting at the cut edge of every hole once the coating has gone",
+    "kind": "photo",
+    "title": "Lochblech (2) (24980540967).jpg",
+    "site": "Wikimedia",
+    "artist": "Rüdiger Stehn from Kiel, Deutschland",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lochblech_(2)_(24980540967).jpg",
+    "w": 960,
+    "h": 640
+  },
   "surround": {
     "file": "surround.jpg",
     "caption": "The 130 mm midrange of a JBL TI 5000, with its surround rolled around the rim",
@@ -15012,6 +15084,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "surround2": {
+    "file": "surround2.jpg",
+    "caption": "A KEF B110 in an LS3/5A: the soft half-roll surround round a small woofer",
+    "kind": "product",
+    "title": "LS3 without grilles.jpg",
+    "site": "Wikimedia",
+    "artist": "Ohconfucius at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LS3_without_grilles.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "surround3": {
+    "file": "surround3.jpg",
+    "caption": "A small driver close up, the rolled edge between cone and frame",
+    "kind": "product",
+    "title": "Logitech X530 Speakers.jpg",
+    "site": "Wikimedia",
+    "artist": "William Hook",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Logitech_X530_Speakers.jpg",
+    "w": 960,
+    "h": 720
+  },
   "roadcase": {
     "file": "roadcase.jpg",
     "caption": "A road case with a removable lid, laminate over plywood in aluminium edging",
@@ -15023,6 +15119,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "roadcase2": {
+    "file": "roadcase2.jpg",
+    "caption": "Cases on their castors beside the truck at a festival load-in",
+    "kind": "product",
+    "title": "Nuit Boréale 2013 011.jpg",
+    "site": "Wikimedia",
+    "artist": "Lionel Allorge",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nuit_Bor%C3%A9ale_2013_011.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "roadcase3": {
+    "file": "roadcase3.jpg",
+    "caption": "Inside: cut foam holding the gear off the walls",
+    "kind": "structure",
+    "title": "Road-case-custom-foam-vol-case.jpg",
+    "site": "Wikimedia",
+    "artist": "VCCmatt",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Road-case-custom-foam-vol-case.jpg",
+    "w": 960,
+    "h": 1280
   },
   "tolex": {
     "file": "tolex.jpg",
