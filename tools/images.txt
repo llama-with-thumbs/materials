@@ -1221,10 +1221,20 @@ hammerfelt|commons|Piano hammer 2101-0006.jpg|Piano hammers in their rest positi
 hammerfelt2|commons|Grand piano action - Piano Hammers, at piano shop Steinway Pianos of Calgary.jpg|A row of pear-shaped grand hammers, the felt graded from bass to treble|photo
 hammerfelt3|commons|Gekroepfte.Intoniernadel.P1161863.jpg|A voicing tool: the needles that are pushed into the felt to soften a note|process
 ribbonmic|commons|Royer R-122 Active Ribbon Microphone (clip).jpg|A Royer R-122, with the ribbon hidden behind its grille|product
+ribbonmic2|commons|RCA 44-BX Bi-Directional Velocity Microphone.jpg|An RCA 44-BX, the 1930s ribbon microphone that set the sound|product
+ribbonmic3|commons|EMI RM-1B microphone (1930s), Abbey Road Studios.jpg|A 1930s EMI ribbon microphone in its case at Abbey Road|related
 drumhead|commons|Drumhead Coated on Tom Drum 01.png|A coated drumhead fitted to a tom|photo
+drumhead2|commons|Drum Skin Tightening (10147569764).jpg|The old way: a skin head tightened over a fire in Tanzania, which polyester made unnecessary|analog
+drumhead3|commons|Kettle Drums MET DP229625.jpg|Eighteenth-century kettle drums with calfskin heads, the material film replaced|related
 accordionreed|commons|Stimmplatte.jpg|A bass reed plate from a DIX accordion|photo
-nickelsilver|commons|Flute (AM 1998.60.225-3).jpg|A simple-system flute of nickel silver, France, about 1900|product
+accordionreed2|commons|Accordeon JB1.jpg|The bass side of a Hohner opened: reed plates waxed onto their blocks|structure
+accordionreed3|commons|German Jubilate, Harmola and Monarch harmonium reeds.jpg|Harmonium reeds: the same tongue over a slot, in brass, for a bigger box|related
+nickelsilver|commons|Yamaha Alto trombone YSL-871 recrop.jpg|A trombone in yellow brass with a nickel-silver slide: the white is the alloy, not plating|product
+nickelsilver2|commons|Flute (AM 1998.60.225-3).jpg|A simple-system flute of nickel silver, France, about 1900|product
+nickelsilver3|commons|Posate.JPG|Nineteenth-century cutlery in bare nickel silver, the base metal under most electroplate|related
 vibebars|commons|Vibraphone bar.jpg|The underside of a vibraphone bar, showing the arch cut into it|photo
+vibebars2|commons|Vibraphone motor.jpg|The discs in the resonator mouths, turned by the motor: the wobble|structure
+vibebars3|commons|Vibraphone overhead with mallets.jpg|A Musser vibraphone from above with its mallets|product
 lacquermaster|Flickr|https://live.staticflickr.com/5130/5377502526_5ee195fddf_b.jpg|A Neumann VMS-70 lathe, where the lacquer is cut|process|CC BY-SA 2.0|\ \ \ V A C A N T F E V E R|https://www.flickr.com/photos/31649343@N02/5377502526
 cabinetmdf|commons|MDF Sample.jpg|Samples of medium-density fibreboard, cut to show the core|photo
 pickupwire|Flickr|https://live.staticflickr.com/3613/3511734489_7a8608f228_b.jpg|A single-coil guitar pickup, freshly rewound|product|CC BY-SA 2.0|Roadside Guitars|https://www.flickr.com/photos/roadsideguitars/3511734489

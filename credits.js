@@ -14616,6 +14616,30 @@ window.CREDITS = {
     "h": 960,
     "site": "Wikimedia"
   },
+  "ribbonmic2": {
+    "file": "ribbonmic2.jpg",
+    "caption": "An RCA 44-BX, the 1930s ribbon microphone that set the sound",
+    "kind": "product",
+    "title": "RCA 44-BX Bi-Directional Velocity Microphone.jpg",
+    "site": "Wikimedia",
+    "artist": "Roadside Guitars",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:RCA_44-BX_Bi-Directional_Velocity_Microphone.jpg",
+    "w": 896,
+    "h": 1371
+  },
+  "ribbonmic3": {
+    "file": "ribbonmic3.jpg",
+    "caption": "A 1930s EMI ribbon microphone in its case at Abbey Road",
+    "kind": "related",
+    "title": "EMI RM-1B microphone (1930s), Abbey Road Studios.jpg",
+    "site": "Wikimedia",
+    "artist": "Josephenus P. Riley",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EMI_RM-1B_microphone_(1930s),_Abbey_Road_Studios.jpg",
+    "w": 960,
+    "h": 720
+  },
   "drumhead": {
     "file": "drumhead.png",
     "caption": "A coated drumhead fitted to a tom",
@@ -14627,6 +14651,30 @@ window.CREDITS = {
     "w": 960,
     "h": 960,
     "site": "Wikimedia"
+  },
+  "drumhead2": {
+    "file": "drumhead2.jpg",
+    "caption": "The old way: a skin head tightened over a fire in Tanzania, which polyester made unnecessary",
+    "kind": "analog",
+    "title": "Drum Skin Tightening (10147569764).jpg",
+    "site": "Wikimedia",
+    "artist": "Rod Waddington from Kergunyah, Australia",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Drum_Skin_Tightening_(10147569764).jpg",
+    "w": 960,
+    "h": 780
+  },
+  "drumhead3": {
+    "file": "drumhead3.jpg",
+    "caption": "Eighteenth-century kettle drums with calfskin heads, the material film replaced",
+    "kind": "related",
+    "title": "Kettle Drums MET DP229625.jpg",
+    "site": "Wikimedia",
+    "artist": "Creator:Franz Peter Bunsen",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kettle_Drums_MET_DP229625.jpg",
+    "w": 960,
+    "h": 626
   },
   "accordionreed": {
     "file": "accordionreed.jpg",
@@ -14640,17 +14688,65 @@ window.CREDITS = {
     "h": 704,
     "site": "Wikimedia"
   },
+  "accordionreed2": {
+    "file": "accordionreed2.jpg",
+    "caption": "The bass side of a Hohner opened: reed plates waxed onto their blocks",
+    "kind": "structure",
+    "title": "Accordeon JB1.jpg",
+    "site": "Wikimedia",
+    "artist": "Fantagu",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Accordeon_JB1.jpg",
+    "w": 960,
+    "h": 528
+  },
+  "accordionreed3": {
+    "file": "accordionreed3.jpg",
+    "caption": "Harmonium reeds: the same tongue over a slot, in brass, for a bigger box",
+    "kind": "related",
+    "title": "German Jubilate, Harmola and Monarch harmonium reeds.jpg",
+    "site": "Wikimedia",
+    "artist": "Bubble71",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:German_Jubilate,_Harmola_and_Monarch_harmonium_reeds.jpg",
+    "w": 960,
+    "h": 872
+  },
   "nickelsilver": {
     "file": "nickelsilver.jpg",
+    "caption": "A trombone in yellow brass with a nickel-silver slide: the white is the alloy, not plating",
+    "kind": "product",
+    "title": "Yamaha Alto trombone YSL-871 recrop.jpg",
+    "site": "Wikimedia",
+    "artist": "Yamaha Corporation",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yamaha_Alto_trombone_YSL-871_recrop.jpg",
+    "w": 960,
+    "h": 480
+  },
+  "nickelsilver2": {
+    "file": "nickelsilver2.jpg",
     "caption": "A simple-system flute of nickel silver, France, about 1900",
     "kind": "product",
     "title": "Flute (AM 1998.60.225-3).jpg",
+    "site": "Wikimedia",
     "artist": "Rudall Carte & Co",
     "license": "CC BY 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Flute_(AM_1998.60.225-3).jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "nickelsilver3": {
+    "file": "nickelsilver3.jpg",
+    "caption": "Nineteenth-century cutlery in bare nickel silver, the base metal under most electroplate",
+    "kind": "related",
+    "title": "Posate.JPG",
+    "site": "Wikimedia",
+    "artist": "Ricce",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Posate.JPG",
+    "w": 960,
+    "h": 921
   },
   "vibebars": {
     "file": "vibebars.jpg",
@@ -14663,6 +14759,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "vibebars2": {
+    "file": "vibebars2.jpg",
+    "caption": "The discs in the resonator mouths, turned by the motor: the wobble",
+    "kind": "structure",
+    "title": "Vibraphone motor.jpg",
+    "site": "Wikimedia",
+    "artist": "Why? I Ask",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vibraphone_motor.jpg",
+    "w": 960,
+    "h": 982
+  },
+  "vibebars3": {
+    "file": "vibebars3.jpg",
+    "caption": "A Musser vibraphone from above with its mallets",
+    "kind": "product",
+    "title": "Vibraphone overhead with mallets.jpg",
+    "site": "Wikimedia",
+    "artist": "Why? I Ask",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vibraphone_overhead_with_mallets.jpg",
+    "w": 960,
+    "h": 550
   },
   "lacquermaster": {
     "file": "lacquermaster.jpg",
