@@ -1071,10 +1071,20 @@ handpan|commons|Handpan 2014.jpg|A handpan being played: nitrided sheet steel|pr
 handpan2|commons|Handpan player showing handpan at cathedral, Milan, Italy.jpg|The top shell held up: the central ding and the ring of note fields|photo
 handpan3|commons|The Hang (2947923613).jpg|A PANArt Hang, the original, on its stand|product
 springreverb|commons|Spring Reverb 8325.jpg|A spring reverb tank with the lid off|photo
+springreverb2|commons|Detall del Transductor.jpg|The transducer end of a tank: a coil drives magnets on the springs, which twist the wire|structure
+springreverb3|commons|Spring reverb for Doepfer A-199.jpg|A spring tank for a modular synthesiser, where the springs are still the point|product
 thermowood|commons|Thermoholz vergleich.JPG|Ash before and after thermal modification|photo
+thermowood2|commons|Modifikacija.JPG|Spruce boards baked at 190 to 230 degrees: the colour deepens with the temperature|process
+thermowood3|commons|Abri-vélo-bois-thermowood-Grenoble-2025-ByCommute.jpg|A bicycle shelter in thermowood, left outside untreated|product
 headstock|commons|Avebury St James - old bell headstock - geograph.org.uk - 7250336.jpg|An old wooden bell headstock, taken out of the tower at Avebury|photo
+headstock2|commons|Liberty bell mount.JPG|The Liberty Bell's yoke, American elm, close up|photo
+headstock3|commons|English full circle bell mechanism.png|A bell hung for full-circle ringing, labelled: headstock, stay, wheel, bearings and frame|structure
 clapper|commons|Glockenklöppel St. Maximilian München.jpg|The clapper of a bell at St Maximilian in Munich|photo
-cymbalfelt|commons|Cymbal stand buttons and disassembled bolts.JPG|Cymbal stand tops taken apart — felts, plastic sleeves, washers and nuts|photo
+clapper2|commons|Great Malvern Priory Bells 14.jpg|A clapper hanging in its bell at Great Malvern, ball against the sound bow|process
+clapper3|commons|Weißenkirchen Kirche alte Klöppel.jpg|Old forged clappers retired from the bells at Weissenkirchen in the Wachau|photo
+cymbalfelt|commons|Cymbal stand buttons and disassembled bolts.JPG|Cymbal stand tops taken apart: felts, plastic sleeves, washers and nuts|photo
+cymbalfelt2|commons|Hi-hat clutch on a cymbal.JPG|A hi-hat clutch on its cymbal, the felts either side of the plate|product
+cymbalfelt3|commons|Spinbal.jpg|A ball-bearing cymbal mount with its felts|product
 bowlcushion|commons|Rin gong at Kiyomizu-dera, Kyoto.JPG|A temple rin resting on its brocade ring cushion, Kiyomizu-dera in Kyoto|photo
 soundpost|commons|Soundpost end.jpg|The foot of a soundpost, seen through the treble f-hole|photo
 violinbridge|commons|Cello bridge.jpg|The bridge of a cello, standing on string pressure alone|photo

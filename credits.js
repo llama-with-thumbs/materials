@@ -12816,6 +12816,30 @@ window.CREDITS = {
     "h": 552,
     "site": "Wikimedia"
   },
+  "springreverb2": {
+    "file": "springreverb2.jpg",
+    "caption": "The transducer end of a tank: a coil drives magnets on the springs, which twist the wire",
+    "kind": "structure",
+    "title": "Detall del Transductor.jpg",
+    "site": "Wikimedia",
+    "artist": "DaMag",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Detall_del_Transductor.jpg",
+    "w": 960,
+    "h": 593
+  },
+  "springreverb3": {
+    "file": "springreverb3.jpg",
+    "caption": "A spring tank for a modular synthesiser, where the springs are still the point",
+    "kind": "product",
+    "title": "Spring reverb for Doepfer A-199.jpg",
+    "site": "Wikimedia",
+    "artist": "GeschnittenBrot",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spring_reverb_for_Doepfer_A-199.jpg",
+    "w": 960,
+    "h": 1434
+  },
   "thermowood": {
     "file": "thermowood.jpg",
     "caption": "Ash before and after thermal modification",
@@ -12827,6 +12851,30 @@ window.CREDITS = {
     "w": 960,
     "h": 390,
     "site": "Wikimedia"
+  },
+  "thermowood2": {
+    "file": "thermowood2.jpg",
+    "caption": "Spruce boards baked at 190 to 230 degrees: the colour deepens with the temperature",
+    "kind": "process",
+    "title": "Modifikacija.JPG",
+    "site": "Wikimedia",
+    "artist": "Miladin at Slovenian Wikipedia",
+    "license": "CC BY-SA 2.5 si",
+    "page": "https://commons.wikimedia.org/wiki/File:Modifikacija.JPG",
+    "w": 960,
+    "h": 722
+  },
+  "thermowood3": {
+    "file": "thermowood3.jpg",
+    "caption": "A bicycle shelter in thermowood, left outside untreated",
+    "kind": "product",
+    "title": "Abri-vélo-bois-thermowood-Grenoble-2025-ByCommute.jpg",
+    "site": "Wikimedia",
+    "artist": "OscarGusse",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Abri-v%C3%A9lo-bois-thermowood-Grenoble-2025-ByCommute.jpg",
+    "w": 960,
+    "h": 720
   },
   "headstock": {
     "file": "headstock.jpg",
@@ -12840,6 +12888,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "headstock2": {
+    "file": "headstock2.jpg",
+    "caption": "The Liberty Bell's yoke, American elm, close up",
+    "kind": "photo",
+    "title": "Liberty bell mount.JPG",
+    "site": "Wikimedia",
+    "artist": "RadioFan (talk)",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Liberty_bell_mount.JPG",
+    "w": 960,
+    "h": 640
+  },
+  "headstock3": {
+    "file": "headstock3.png",
+    "caption": "A bell hung for full-circle ringing, labelled: headstock, stay, wheel, bearings and frame",
+    "kind": "structure",
+    "title": "English full circle bell mechanism.png",
+    "site": "Wikimedia",
+    "artist": "Dougsim",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:English_full_circle_bell_mechanism.png",
+    "w": 960,
+    "h": 720
+  },
   "clapper": {
     "file": "clapper.jpg",
     "caption": "The clapper of a bell at St Maximilian in Munich",
@@ -12852,9 +12924,33 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "clapper2": {
+    "file": "clapper2.jpg",
+    "caption": "A clapper hanging in its bell at Great Malvern, ball against the sound bow",
+    "kind": "process",
+    "title": "Great Malvern Priory Bells 14.jpg",
+    "site": "Wikimedia",
+    "artist": "Horep",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Great_Malvern_Priory_Bells_14.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "clapper3": {
+    "file": "clapper3.jpg",
+    "caption": "Old forged clappers retired from the bells at Weissenkirchen in the Wachau",
+    "kind": "photo",
+    "title": "Weißenkirchen Kirche alte Klöppel.jpg",
+    "site": "Wikimedia",
+    "artist": "Uoaei1",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wei%C3%9Fenkirchen_Kirche_alte_Kl%C3%B6ppel.jpg",
+    "w": 960,
+    "h": 1440
+  },
   "cymbalfelt": {
     "file": "cymbalfelt.jpg",
-    "caption": "Cymbal stand tops taken apart — felts, plastic sleeves, washers and nuts",
+    "caption": "Cymbal stand tops taken apart: felts, plastic sleeves, washers and nuts",
     "kind": "photo",
     "title": "Cymbal stand buttons and disassembled bolts.JPG",
     "artist": "Andrewa",
@@ -12863,6 +12959,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "cymbalfelt2": {
+    "file": "cymbalfelt2.jpg",
+    "caption": "A hi-hat clutch on its cymbal, the felts either side of the plate",
+    "kind": "product",
+    "title": "Hi-hat clutch on a cymbal.JPG",
+    "site": "Wikimedia",
+    "artist": "Andrewa",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hi-hat_clutch_on_a_cymbal.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "cymbalfelt3": {
+    "file": "cymbalfelt3.jpg",
+    "caption": "A ball-bearing cymbal mount with its felts",
+    "kind": "product",
+    "title": "Spinbal.jpg",
+    "site": "Wikimedia",
+    "artist": "Neuegestalt",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spinbal.jpg",
+    "w": 960,
+    "h": 960
   },
   "bowlcushion": {
     "file": "bowlcushion.jpg",
