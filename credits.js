@@ -8474,31 +8474,79 @@ window.CREDITS = {
   },
   "tisapphire": {
     "file": "tisapphire.jpg",
-    "caption": "A Ti:sapphire laser crystal",
+    "caption": "A Ti:sapphire laser running: the green pump beam enters from the left and the crystal glows where it lands",
     "kind": "photo",
-    "title": "TiSa crystal.jpg",
+    "title": "TiSa laser.jpg",
+    "site": "Wikimedia",
     "artist": "No machine-readable author provided. Mathieu Perrin assumed (based on copyright claims).",
     "license": "CC BY 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:TiSa_crystal.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:TiSa_laser.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "tisapphire2": {
+    "file": "tisapphire2.jpg",
+    "caption": "A femtosecond pulse from a Ti:sapphire laser focused into a garnet crystal, spread into a supercontinuum",
+    "kind": "process",
+    "title": "Ti Sapph YAG supercontinnum.jpg",
+    "site": "Wikimedia",
+    "artist": "Neath g",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ti_Sapph_YAG_supercontinnum.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "tisapphire3": {
+    "file": "tisapphire3.jpg",
+    "caption": "A 35 kilogram sapphire boule grown by the Kyropoulos method: the host crystal before doping",
+    "kind": "process",
+    "title": "35kg sapphire crystal growth by the Kyropoulos method.jpg",
+    "site": "Wikimedia",
+    "artist": "LaMèreVeille",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:35kg_sapphire_crystal_growth_by_the_Kyropoulos_method.jpg",
+    "w": 960,
+    "h": 1440
   },
   "calcite": {
     "file": "calcite.jpg",
-    "caption": "Iceland spar doubling the lines beneath it",
+    "caption": "A calcite rhomb doubling the letter beneath it",
     "kind": "photo",
-    "title": "3310.calcite (Iceland Spar) birefringence.jpg",
-    "artist": "Furrfu",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:3310.calcite_(Iceland_Spar)_birefringence.jpg",
+    "title": "Calcite and double refraction (GeoDIL number - 670).jpg",
+    "site": "Wikimedia",
+    "artist": "Twyla Baker",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Calcite_and_double_refraction_(GeoDIL_number_-_670).jpg",
     "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "h": 1063
+  },
+  "calcite2": {
+    "file": "calcite2.jpg",
+    "caption": "Nicol prisms: two calcite wedges cemented so that only one polarisation passes",
+    "kind": "product",
+    "title": "Museo di mineralogia Luigi Bombicci (Bologna) abc1 Prisma di Nicol.jpg",
+    "site": "Wikimedia",
+    "artist": "Patafisik",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Museo_di_mineralogia_Luigi_Bombicci_(Bologna)_abc1_Prisma_di_Nicol.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "calcite3": {
+    "file": "calcite3.jpg",
+    "caption": "A clear Iceland spar block from the Helgustadir mine, source of the world's optical calcite",
+    "kind": "photo",
+    "title": "Calcite, da helgustadir, islanda.JPG",
+    "site": "Wikimedia",
+    "artist": "Sailko",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Calcite,_da_helgustadir,_islanda.JPG",
+    "w": 960,
+    "h": 875
   },
   "caf2": {
     "file": "caf2.jpg",
-    "caption": "Fluorite — calcium fluoride in its mineral form",
+    "caption": "Fluorite: calcium fluoride in its mineral form",
     "kind": "related",
     "title": "Fluorite crystal.jpg",
     "artist": "Masha Milshina",
@@ -8507,6 +8555,30 @@ window.CREDITS = {
     "w": 960,
     "h": 960,
     "site": "Wikimedia"
+  },
+  "caf22": {
+    "file": "caf22.jpg",
+    "caption": "A single fluorite octahedron: the crystal cleaves on these faces",
+    "kind": "structure",
+    "title": "Pale blue single octahedron fluorite crystal 1.jpg",
+    "site": "Wikimedia",
+    "artist": "W.carter",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pale_blue_single_octahedron_fluorite_crystal_1.jpg",
+    "w": 960,
+    "h": 960
+  },
+  "caf23": {
+    "file": "caf23.jpg",
+    "caption": "An excimer laser for eye surgery: its ultraviolet optics are calcium fluoride",
+    "kind": "related",
+    "title": "Excimer laser Summit.jpg",
+    "site": "Wikimedia",
+    "artist": "IoOALP",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Excimer_laser_Summit.jpg",
+    "w": 960,
+    "h": 640
   },
   "znse": {
     "file": "znse.jpg",
@@ -8519,6 +8591,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "znse2": {
+    "file": "znse2.jpg",
+    "caption": "CVD zinc selenide as grown, the rough plate, beside finished windows",
+    "kind": "process",
+    "title": "1 CVD ZnSe optics ingots window Crystaltechno.jpg",
+    "site": "Wikimedia",
+    "artist": "Crystaltechno",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1_CVD_ZnSe_optics_ingots_window_Crystaltechno.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "znse3": {
+    "file": "znse3.jpg",
+    "caption": "The head of a CO₂ laser cutter: the focusing lens inside it is zinc selenide",
+    "kind": "related",
+    "title": "Laser CNC Cutting Head.jpg",
+    "site": "Wikimedia",
+    "artist": "Adaeuper",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laser_CNC_Cutting_Head.jpg",
+    "w": 960,
+    "h": 640
   },
   "yagce": {
     "file": "yagce.png",
@@ -11126,15 +11222,39 @@ window.CREDITS = {
   },
   "bbo": {
     "file": "bbo.jpg",
-    "caption": "The output of an optical parametric amplifier — BBO is the crystal that splits the beam",
+    "caption": "The ultraviolet beam out of an optical parametric amplifier, lit by lab dust: a BBO crystal made it",
+    "kind": "related",
+    "title": "OPA produced femtosecond UV laser beam.jpg",
+    "site": "Wikimedia",
+    "artist": "Abdullahkepceoglu",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:OPA_produced_femtosecond_UV_laser_beam.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "bbo2": {
+    "file": "bbo2.jpg",
+    "caption": "A green laser pointer dismantled: the doubling crystal sits just right of the diode, the same trick in a cheaper crystal",
+    "kind": "analog",
+    "title": "Laser Pointer green taken apart.jpg",
+    "site": "Wikimedia",
+    "artist": "Ll1324",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laser_Pointer_green_taken_apart.jpg",
+    "w": 960,
+    "h": 384
+  },
+  "bbo3": {
+    "file": "bbo3.jpg",
+    "caption": "The output of an optical parametric amplifier: BBO is the crystal that splits the beam",
     "kind": "related",
     "title": "Beam output from OPA.jpg",
+    "site": "Wikimedia",
     "artist": "Fauzul Uzul",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Beam_output_from_OPA.jpg",
     "w": 960,
-    "h": 1707,
-    "site": "Wikimedia"
+    "h": 1707
   },
   "ga2o3": {
     "file": "ga2o3.png",
