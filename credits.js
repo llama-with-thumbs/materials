@@ -14100,6 +14100,30 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "recordvinyl2": {
+    "file": "recordvinyl2.jpg",
+    "caption": "The groove under the electron microscope: the walls carry the music as a wiggle",
+    "kind": "structure",
+    "title": "SEM vinyl record.jpg",
+    "site": "Wikimedia",
+    "artist": "Tbraunstein",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SEM_vinyl_record.jpg",
+    "w": 960,
+    "h": 256
+  },
+  "recordvinyl3": {
+    "file": "recordvinyl3.jpg",
+    "caption": "A record press of 1978: the stampers close on a warm puck of vinyl",
+    "kind": "process",
+    "title": "Record press 1978.jpg",
+    "site": "Wikimedia",
+    "artist": "geni",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Record_press_1978.jpg",
+    "w": 960,
+    "h": 810
+  },
   "woodwool": {
     "file": "woodwool.jpg",
     "caption": "The surface of a wood-wool cement board",
@@ -14111,6 +14135,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "woodwool2": {
+    "file": "woodwool2.jpg",
+    "caption": "A wood-wool board in place, lining a rooflight reveal",
+    "kind": "product",
+    "title": "Holzwolle-Leichtbauplatte Laibung.JPG",
+    "site": "Wikimedia",
+    "artist": "Florian Gerlach (Nawaro)",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Holzwolle-Leichtbauplatte_Laibung.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "woodwool3": {
+    "file": "woodwool3.jpg",
+    "caption": "The raw material: fine wood wool before the cement",
+    "kind": "process",
+    "title": "Fijn houtwol, detail - Unknown - 20348271 - RCE.jpg",
+    "site": "Wikimedia",
+    "artist": "Kris Roderburg",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fijn_houtwol,_detail_-_Unknown_-_20348271_-_RCE.jpg",
+    "w": 960,
+    "h": 636
   },
   "drumshell": {
     "file": "drumshell.jpg",
@@ -14124,6 +14172,30 @@ window.CREDITS = {
     "h": 960,
     "site": "Wikimedia"
   },
+  "drumshell2": {
+    "file": "drumshell2.jpg",
+    "caption": "A bare shell in the maker's hands, before edges and hardware",
+    "kind": "process",
+    "title": "FDC Drumline Visits Swiss Drum Shops (9981999).jpg",
+    "site": "Wikimedia",
+    "artist": "U.S. Army TUSA-Fife-and-Drum by Staff Sgt. Shannon Sera",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:FDC_Drumline_Visits_Swiss_Drum_Shops_(9981999).jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "drumshell3": {
+    "file": "drumshell3.jpg",
+    "caption": "Ringo Starr's 1963 Ludwig kit: thin three-ply shells, which is much of that sound",
+    "kind": "product",
+    "title": "Ringo Starr's Ludwig Downbeat Four-piece drum set with cymbals (1963) - Play It Loud. MET (2019-05-13 18.37.59 by Eden, Janine and Jim).jpg",
+    "site": "Wikimedia",
+    "artist": "Eden, Janine and Jim from New York City",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ringo_Starr%27s_Ludwig_Downbeat_Four-piece_drum_set_with_cymbals_(1963)_-_Play_It_Loud._MET_(2019-05-13_18.37.59_by_Eden,_Janine_and_Jim).jpg",
+    "w": 960,
+    "h": 1446
+  },
   "goss": {
     "file": "goss.jpg",
     "caption": "Uncoated grain-oriented electrical steel, the aligned grains visible across 6 cm",
@@ -14135,6 +14207,30 @@ window.CREDITS = {
     "w": 960,
     "h": 765,
     "site": "Wikimedia"
+  },
+  "goss2": {
+    "file": "goss2.png",
+    "caption": "The magnetic domains in the steel, made visible: stripes that swing with every cycle",
+    "kind": "structure",
+    "title": "Magnetic domains of grain oriented silicon or electrical steel.png",
+    "site": "Wikimedia",
+    "artist": "Matesy",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Magnetic_domains_of_grain_oriented_silicon_or_electrical_steel.png",
+    "w": 960,
+    "h": 596
+  },
+  "goss3": {
+    "file": "goss3.jpg",
+    "caption": "Thousands of silicon steel laminations being stacked into a generator core on site",
+    "kind": "process",
+    "title": "Generator Core In progress.JPG",
+    "site": "Wikimedia",
+    "artist": "Wtshymanski",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Generator_Core_In_progress.JPG",
+    "w": 960,
+    "h": 720
   },
   "fulledwool": {
     "file": "fulledwool.jpg",
@@ -14483,6 +14579,30 @@ window.CREDITS = {
     "w": 960,
     "h": 641,
     "site": "Wikimedia"
+  },
+  "hammerfelt2": {
+    "file": "hammerfelt2.jpg",
+    "caption": "A row of pear-shaped grand hammers, the felt graded from bass to treble",
+    "kind": "photo",
+    "title": "Grand piano action - Piano Hammers, at piano shop Steinway Pianos of Calgary.jpg",
+    "site": "Wikimedia",
+    "artist": "Rhona-Mae Arca",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_piano_action_-_Piano_Hammers,_at_piano_shop_Steinway_Pianos_of_Calgary.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "hammerfelt3": {
+    "file": "hammerfelt3.jpg",
+    "caption": "A voicing tool: the needles that are pushed into the felt to soften a note",
+    "kind": "process",
+    "title": "Gekroepfte.Intoniernadel.P1161863.jpg",
+    "site": "Wikimedia",
+    "artist": "Bautsch",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gekroepfte.Intoniernadel.P1161863.jpg",
+    "w": 960,
+    "h": 720
   },
   "ribbonmic": {
     "file": "ribbonmic.jpg",

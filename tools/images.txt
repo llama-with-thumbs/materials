@@ -1178,9 +1178,17 @@ metaldome|commons|Tweeter with Titanium membrane of loudspeaker box JBL TI 5000,
 metaldome2|commons|B&W 685 tweeter.jpg|An aluminium dome tweeter in a Bowers and Wilkins 685|product
 metaldome3|commons|Soft dome tweeter.jpg|The alternative: a one-inch fabric dome, which loses its breakup energy as heat|analog
 recordvinyl|commons|Vinyl groove macro.jpg|Record grooves under a macro lens, the modulation visible|photo
+recordvinyl2|commons|SEM vinyl record.jpg|The groove under the electron microscope: the walls carry the music as a wiggle|structure
+recordvinyl3|commons|Record press 1978.jpg|A record press of 1978: the stampers close on a warm puck of vinyl|process
 woodwool|commons|Holzfaserbeton groß.jpg|The surface of a wood-wool cement board|photo
+woodwool2|commons|Holzwolle-Leichtbauplatte Laibung.JPG|A wood-wool board in place, lining a rooflight reveal|product
+woodwool3|commons|Fijn houtwol, detail - Unknown - 20348271 - RCE.jpg|The raw material: fine wood wool before the cement|process
 drumshell|commons|Solid Shell Maple, Matte Black Laquer with Maple Inlay.jpg|A solid maple drum shell with a maple inlay|photo
+drumshell2|commons|FDC Drumline Visits Swiss Drum Shops (9981999).jpg|A bare shell in the maker's hands, before edges and hardware|process
+drumshell3|commons|Ringo Starr's Ludwig Downbeat Four-piece drum set with cymbals (1963) - Play It Loud. MET (2019-05-13 18.37.59 by Eden, Janine and Jim).jpg|Ringo Starr's 1963 Ludwig kit: thin three-ply shells, which is much of that sound|product
 goss|commons|Grain-oriented electrical steel (grains).jpg|Uncoated grain-oriented electrical steel, the aligned grains visible across 6 cm|photo
+goss2|commons|Magnetic domains of grain oriented silicon or electrical steel.png|The magnetic domains in the steel, made visible: stripes that swing with every cycle|structure
+goss3|commons|Generator Core In progress.JPG|Thousands of silicon steel laminations being stacked into a generator core on site|process
 fulledwool|commons|Jagdhorn auf Loden 1.jpg|A dark grey loden cape, with a pocket hunting horn laid on it|photo
 fulledwool2|commons|Vadmal-Detail.jpg|Vadmal, the Nordic fulled cloth, at six times: the weave still there under the felt|structure
 fulledwool3|commons|Trient Janker Apr 2008 (1).JPG|A boiled-wool Janker from Trentino: knitted, then fulled until it is a cloth|product
@@ -1210,6 +1218,8 @@ pleat|commons|CSIRO ScienceImage 2162 Skirt with Siroset and Skirt Without Siros
 pleat2|commons|Issey Miyake Rhythm Pleats series 1990.jpg|Issey Miyake, Rhythm Pleats, 1990: polyester pleated and set with heat and pressure|product
 pleat3|commons|Delphos Mariano Fortuny 01.jpg|Fortuny Delphos gowns of pleated silk, rolled for their boxes: silk holds no set, so they were stored twisted and re-pleated when they fell|product
 hammerfelt|commons|Piano hammer 2101-0006.jpg|Piano hammers in their rest position under the strings|photo
+hammerfelt2|commons|Grand piano action - Piano Hammers, at piano shop Steinway Pianos of Calgary.jpg|A row of pear-shaped grand hammers, the felt graded from bass to treble|photo
+hammerfelt3|commons|Gekroepfte.Intoniernadel.P1161863.jpg|A voicing tool: the needles that are pushed into the felt to soften a note|process
 ribbonmic|commons|Royer R-122 Active Ribbon Microphone (clip).jpg|A Royer R-122, with the ribbon hidden behind its grille|product
 drumhead|commons|Drumhead Coated on Tom Drum 01.png|A coated drumhead fitted to a tom|photo
 accordionreed|commons|Stimmplatte.jpg|A bass reed plate from a DIX accordion|photo
