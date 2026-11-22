@@ -1163,10 +1163,20 @@ snarewire|commons|Orange county snare wire.jpg|A snare drum with its snare wire 
 snarewire2|commons|Boben-snare-spodnji del.jpg|The underside of a snare drum: the wires lying across the resonant head|structure
 snarewire3|commons|Snare drum strainer.jpg|A strainer, the throw-off that tensions the wires or lifts them clear|product
 conepulp|commons|X5 Paper Pulp Cone.jpg|A paper pulp loudspeaker cone|photo
+conepulp2|commons|PAudioChallengerFrontRear.JPG|Twelve-inch woofers front and back: the pulp cone on its cast frame|product
+conepulp3|commons|P1020006 (2361463764).jpg|A 1920s radio cone speaker: paper from the start|related
 voicecoil|commons|Loudspeaker voice coil, three inch diameter.jpg|A three-inch dual voice coil from a subwoofer driver|photo
-marimbarose|commons|San Domingo-Palisander Holz.JPG|Sliced veneer of the same wood, labelled San Domingo palisander and Honduras rosewood|related
-rhodestine|Flickr|https://live.staticflickr.com/23/34831520_95e88b3c4b_b.jpg|The tines of a 1975 Rhodes Mark I, with the pickups facing them|photo|CC BY 2.0|daniel spils|https://www.flickr.com/photos/danielspils/34831520
+voicecoil2|commons|Schwingspule Visaton W 100 S.jpg|The coil of a small woofer: enamelled copper on its former|photo
+voicecoil3|commons|Dynamischer Tiefton-Lautsprecher (geschnittenes Original).jpg|A woofer cut open: the coil hangs in the ring gap of the magnet|structure
+marimbarose|commons|Marimba-Antonko-AMC12.jpg|A concert marimba: the rosewood bars over their resonators|product
+marimbarose2|commons|San Domingo-Palisander Holz.JPG|Sliced veneer of the same wood, labelled San Domingo palisander and Honduras rosewood|related
+marimbarose3|commons|A typical grain of a Dalbergia wood species.jpg|The grain of a Dalbergia board|related
+rhodestine|commons|1974 Fender Rhodes Mark I Suitcase Piano 88-key (serial no. 10320) - tines and dampers (2013-08-02 13.58.33 by Daniel Spils).jpg|The tines and dampers of a 1974 Rhodes Mark I|photo
+rhodestine2|commons|Fender Rhodes (Inside).jpg|The harp of a Rhodes with the lid off: tines, tone bars and pickups the length of the keyboard|structure
+rhodestine3|commons|1975 Rhodes Mark I Stage Piano 73-key (serial no.300???) with Dyna Rhodes modification - hammers, pickups, tines (2005-01-07 20.49.02 by Daniel Spils).jpg|Hammers, pickups and tines along the harp of a 1975 Mark I|photo
 metaldome|commons|Tweeter with Titanium membrane of loudspeaker box JBL TI 5000, 1990s.jpg|A JBL tweeter with a 25 mm titanium membrane|photo
+metaldome2|commons|B&W 685 tweeter.jpg|An aluminium dome tweeter in a Bowers and Wilkins 685|product
+metaldome3|commons|Soft dome tweeter.jpg|The alternative: a one-inch fabric dome, which loses its breakup energy as heat|analog
 recordvinyl|commons|Vinyl groove macro.jpg|Record grooves under a macro lens, the modulation visible|photo
 woodwool|commons|Holzfaserbeton groß.jpg|The surface of a wood-wool cement board|photo
 drumshell|commons|Solid Shell Maple, Matte Black Laquer with Maple Inlay.jpg|A solid maple drum shell with a maple inlay|photo

@@ -13920,6 +13920,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "conepulp2": {
+    "file": "conepulp2.jpg",
+    "caption": "Twelve-inch woofers front and back: the pulp cone on its cast frame",
+    "kind": "product",
+    "title": "PAudioChallengerFrontRear.JPG",
+    "site": "Wikimedia",
+    "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PAudioChallengerFrontRear.JPG",
+    "w": 960,
+    "h": 579
+  },
+  "conepulp3": {
+    "file": "conepulp3.jpg",
+    "caption": "A 1920s radio cone speaker: paper from the start",
+    "kind": "related",
+    "title": "P1020006 (2361463764).jpg",
+    "site": "Wikimedia",
+    "artist": "Ricardo Reis from Lisboa, Portugal",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:P1020006_(2361463764).jpg",
+    "w": 960,
+    "h": 1280
+  },
   "voicecoil": {
     "file": "voicecoil.jpg",
     "caption": "A three-inch dual voice coil from a subwoofer driver",
@@ -13932,29 +13956,101 @@ window.CREDITS = {
     "h": 717,
     "site": "Wikimedia"
   },
+  "voicecoil2": {
+    "file": "voicecoil2.jpg",
+    "caption": "The coil of a small woofer: enamelled copper on its former",
+    "kind": "photo",
+    "title": "Schwingspule Visaton W 100 S.jpg",
+    "site": "Wikimedia",
+    "artist": "Corvintaurus",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Schwingspule_Visaton_W_100_S.jpg",
+    "w": 960,
+    "h": 815
+  },
+  "voicecoil3": {
+    "file": "voicecoil3.jpg",
+    "caption": "A woofer cut open: the coil hangs in the ring gap of the magnet",
+    "kind": "structure",
+    "title": "Dynamischer Tiefton-Lautsprecher (geschnittenes Original).jpg",
+    "site": "Wikimedia",
+    "artist": "Journey234",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Dynamischer_Tiefton-Lautsprecher_(geschnittenes_Original).jpg",
+    "w": 960,
+    "h": 435
+  },
   "marimbarose": {
     "file": "marimbarose.jpg",
+    "caption": "A concert marimba: the rosewood bars over their resonators",
+    "kind": "product",
+    "title": "Marimba-Antonko-AMC12.jpg",
+    "site": "Wikimedia",
+    "artist": "Vassia Atanassova - Spiritia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marimba-Antonko-AMC12.jpg",
+    "w": 960,
+    "h": 479
+  },
+  "marimbarose2": {
+    "file": "marimbarose2.jpg",
     "caption": "Sliced veneer of the same wood, labelled San Domingo palisander and Honduras rosewood",
     "kind": "related",
     "title": "San Domingo-Palisander Holz.JPG",
+    "site": "Wikimedia",
     "artist": "Philipp Zinger",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:San_Domingo-Palisander_Holz.JPG",
     "w": 960,
-    "h": 489,
-    "site": "Wikimedia"
+    "h": 489
+  },
+  "marimbarose3": {
+    "file": "marimbarose3.jpg",
+    "caption": "The grain of a Dalbergia board",
+    "kind": "related",
+    "title": "A typical grain of a Dalbergia wood species.jpg",
+    "site": "Wikimedia",
+    "artist": "HAA2026",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_typical_grain_of_a_Dalbergia_wood_species.jpg",
+    "w": 960,
+    "h": 709
   },
   "rhodestine": {
     "file": "rhodestine.jpg",
-    "caption": "The tines of a 1975 Rhodes Mark I, with the pickups facing them",
+    "caption": "The tines and dampers of a 1974 Rhodes Mark I",
     "kind": "photo",
-    "title": "https://live.staticflickr.com/23/34831520_95e88b3c4b_b.jpg",
-    "site": "Flickr",
-    "artist": "daniel spils",
+    "title": "1974 Fender Rhodes Mark I Suitcase Piano 88-key (serial no. 10320) - tines and dampers (2013-08-02 13.58.33 by Daniel Spils).jpg",
+    "site": "Wikimedia",
+    "artist": "Daniel Spils from Seattle, USA",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1974_Fender_Rhodes_Mark_I_Suitcase_Piano_88-key_(serial_no._10320)_-_tines_and_dampers_(2013-08-02_13.58.33_by_Daniel_Spils).jpg",
+    "w": 960,
+    "h": 720
+  },
+  "rhodestine2": {
+    "file": "rhodestine2.jpg",
+    "caption": "The harp of a Rhodes with the lid off: tines, tone bars and pickups the length of the keyboard",
+    "kind": "structure",
+    "title": "Fender Rhodes (Inside).jpg",
+    "site": "Wikimedia",
+    "artist": "CasinoKat",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fender_Rhodes_(Inside).jpg",
+    "w": 960,
+    "h": 720
+  },
+  "rhodestine3": {
+    "file": "rhodestine3.jpg",
+    "caption": "Hammers, pickups and tines along the harp of a 1975 Mark I",
+    "kind": "photo",
+    "title": "1975 Rhodes Mark I Stage Piano 73-key (serial no.300???) with Dyna Rhodes modification - hammers, pickups, tines (2005-01-07 20.49.02 by Daniel Spils).jpg",
+    "site": "Wikimedia",
+    "artist": "Daniel Spils from Seattle, USA",
     "license": "CC BY 2.0",
-    "page": "https://www.flickr.com/photos/danielspils/34831520",
-    "w": 768,
-    "h": 1024
+    "page": "https://commons.wikimedia.org/wiki/File:1975_Rhodes_Mark_I_Stage_Piano_73-key_(serial_no.300%3F%3F%3F)_with_Dyna_Rhodes_modification_-_hammers,_pickups,_tines_(2005-01-07_20.49.02_by_Daniel_Spils).jpg",
+    "w": 960,
+    "h": 720
   },
   "metaldome": {
     "file": "metaldome.jpg",
@@ -13967,6 +14063,30 @@ window.CREDITS = {
     "w": 960,
     "h": 923,
     "site": "Wikimedia"
+  },
+  "metaldome2": {
+    "file": "metaldome2.jpg",
+    "caption": "An aluminium dome tweeter in a Bowers and Wilkins 685",
+    "kind": "product",
+    "title": "B&W 685 tweeter.jpg",
+    "site": "Wikimedia",
+    "artist": "Derrick Noh on Flickr : https://www.flickr.com/photos/dsix",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:B%26W_685_tweeter.jpg",
+    "w": 960,
+    "h": 638
+  },
+  "metaldome3": {
+    "file": "metaldome3.jpg",
+    "caption": "The alternative: a one-inch fabric dome, which loses its breakup energy as heat",
+    "kind": "analog",
+    "title": "Soft dome tweeter.jpg",
+    "site": "Wikimedia",
+    "artist": "Thesp3akerguy10",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Soft_dome_tweeter.jpg",
+    "w": 960,
+    "h": 2130
   },
   "recordvinyl": {
     "file": "recordvinyl.jpg",
