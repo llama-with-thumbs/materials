@@ -1280,11 +1280,20 @@ pick3|commons|Various Dunlop Tortex picks.jpg|Acetal picks colour-coded by thick
 gaffer|commons|Black gaffer tape.jpg|A roll of black gaffer tape, the cloth weave showing at the lifted end|product
 gaffer2|commons|Gaffer Tape, Black, White and Gray.jpg|Shelves of gaffer tape in a film expendables shop|product
 gaffer3|commons|Black and Orange Gaffer Tape.jpg|Black and orange: the second colour is for marks that must be seen|product
-drumstick|commons|2006-07-05 sticks.jpg|A matched pair of drumsticks, lacquered black|product
-truss|commons|Traverse (Truss).JPG|Loaded lighting trusses under a marquee roof, chords and diagonals in view|product
+drumstick|commons|Plain wooden drumsticks.JPG|Five hickory sticks from four makers, tips from teardrop to barrel|product
+drumstick2|commons|Vic Firth drumsticks.jpg|A matched pair of 5A hickory sticks|product
+drumstick3|commons|Hickory Holz.JPG|Hickory veneer: the interlocked grain that takes the shock|structure
+truss|commons|Aluminium box trussing at Hatfield Broad Oak, Essex, England 3.jpg|A box truss node close up: chords, diagonals and the conical spigot joint|structure
+truss2|commons|LDI-rogue-rig.jpg|A truss loaded with moving lights on the floor, waiting for the chain hoists|process
+truss3|commons|Corner Block F34.jpg|Building a stage roof: a corner block joining three trusses|process
 miccable|commons|Microphone cable structure.jpg|A microphone cable opened up: two insulated cores and the screen twisted into a tail|photo
+miccable2|commons|XLR connectors, male and female.jpg|Three-pin XLR connectors, male and female: pin 1 is the screen|product
+miccable3|commons|Audio multicore cable with XLR connectors and stage box.JPG|A stage snake: sixteen pairs in one jacket, fanned out to XLRs at the desk end|product
 gel|commons|Many color gels.jpg|Lighting gels, loose sheets and some taped into frames|product
-eiderdown|commons|Dunhreinsun2.jpg|A farmer in Skaleyjar cleaning and drying eiderdown, still full of hay|process
+gel2|commons|StripOfParCans.jpg|A bar of par cans, each with a different gel in its frame|photo
+eiderdown|commons|Common eider nest (6728250085).jpg|An eider nest: the eggs bedded in the hen's own breast down|photo
+eiderdown2|commons|Ohreinsadur-aedardunn.jpg|Raw eiderdown as gathered in Skaleyjar, Iceland, hay and all|photo
+eiderdown3|commons|Dunhreinsun2.jpg|A farmer in Skaleyjar cleaning and drying eiderdown, still full of hay|process
 shearling|commons|Shearling Coat for Men Hood Detail.jpg|The collar of a shearling coat, wool pile inside and tanned skin out|product
 alpaca|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1946.227/1946.227_web.jpg|A tunic woven from alpaca wool, plain weave with embroidery|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1946.227
 angora|commons|Satinangora rot Garn und Flocke.jpg|Plucked angora rabbit fur and the yarn spun from it|photo

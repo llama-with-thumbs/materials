@@ -546,9 +546,9 @@ the picture and its badge on every card. If you redistribute this page, keep tho
 photograph. The typeface, Jost, is bundled under the SIL Open Font License; the licence text is
 in `fonts/OFL.txt`.
 
-286 are photographs of the material itself. 298 are not, and say so on a paper strip up the left edge of the image:
+287 are photographs of the material itself. 297 are not, and say so on a paper strip up the left edge of the image:
 
-- **232 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
+- **231 show something made from it** — Lego bricks for ABS, a track frog for manganese steel, a
   fuel rod for Zircaloy, climbing carabiners for 7075 aluminium, a gas turbine thrust bearing for
   Babbitt, the underside of a CD-RW for chalcogenide glass, a laser-sintered nylon bicycle for PA12
   powder, a printed RS-25 fuel injector for GRCop-42, a titanium hip prosthesis for Ti-6Al-4V, a
@@ -564,7 +564,7 @@ in `fonts/OFL.txt`.
 - **22 show a close relative** — Wood's metal for Field's metal, PFA tubing for FEP, fluorite for
   optical calcium fluoride, a superhydrophobic droplet for SLIPS, a printed sand mould for
   furan-bonded sand, a GAGG:Ce scintillator for GGG, and a cut-resistant glove for Vectran.
-- **26 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
+- **25 show how it is made** — melt spinning for Metglas, nanotube spinning for CNT yarn, catalyst
   spraying for Nafion, cold spray mid-deposition for cold-spray powder, hand needle felting for
   needle-punched felt, two Markforged X7 machines for continuous fibre printing, and the loom or
   knitting machine itself for Jacquard weave, warp knitting and whole-garment knitting.
@@ -573,7 +573,7 @@ No entry falls back to a drawn swatch, and none shows a molecular or crystal str
 material itself has never been photographed freely, the card carries the closest real object
 instead.
 
-A few cards carry more than one view, paged on the card itself — 860 extra views so far: the raw material
+A few cards carry more than one view, paged on the card itself — 869 extra views so far: the raw material
 beside the finished part (Nitinol wire and the cut spoons), the shell beside the inlay (nacre),
 the harvest beside the bark (cork), the property beside the thing (a brick resting on a slab of
 aerogel), the two unmixed sticks beside what a sculptor and a museum made of them (epoxy putty).

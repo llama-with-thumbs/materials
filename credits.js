@@ -15326,27 +15326,75 @@ window.CREDITS = {
   },
   "drumstick": {
     "file": "drumstick.jpg",
-    "caption": "A matched pair of drumsticks, lacquered black",
+    "caption": "Five hickory sticks from four makers, tips from teardrop to barrel",
     "kind": "product",
-    "title": "2006-07-05 sticks.jpg",
-    "artist": "Stephan Czuratis (Jazz-face)",
-    "license": "CC BY-SA 2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:2006-07-05_sticks.jpg",
+    "title": "Plain wooden drumsticks.JPG",
+    "site": "Wikimedia",
+    "artist": "Andrewa",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plain_wooden_drumsticks.JPG",
     "w": 960,
-    "h": 1066,
-    "site": "Wikimedia"
+    "h": 1280
+  },
+  "drumstick2": {
+    "file": "drumstick2.jpg",
+    "caption": "A matched pair of 5A hickory sticks",
+    "kind": "product",
+    "title": "Vic Firth drumsticks.jpg",
+    "site": "Wikimedia",
+    "artist": "Mark Kobayashi-Hillary",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vic_Firth_drumsticks.jpg",
+    "w": 960,
+    "h": 1280
+  },
+  "drumstick3": {
+    "file": "drumstick3.jpg",
+    "caption": "Hickory veneer: the interlocked grain that takes the shock",
+    "kind": "structure",
+    "title": "Hickory Holz.JPG",
+    "site": "Wikimedia",
+    "artist": "Philipp Zinger",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hickory_Holz.JPG",
+    "w": 960,
+    "h": 489
   },
   "truss": {
     "file": "truss.jpg",
-    "caption": "Loaded lighting trusses under a marquee roof, chords and diagonals in view",
-    "kind": "product",
-    "title": "Traverse (Truss).JPG",
-    "artist": "Gleiten 10:49, 17. Sep. 2012 (CEST)",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Traverse_(Truss).JPG",
-    "w": 932,
-    "h": 700,
-    "site": "Wikimedia"
+    "caption": "A box truss node close up: chords, diagonals and the conical spigot joint",
+    "kind": "structure",
+    "title": "Aluminium box trussing at Hatfield Broad Oak, Essex, England 3.jpg",
+    "site": "Wikimedia",
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aluminium_box_trussing_at_Hatfield_Broad_Oak,_Essex,_England_3.jpg",
+    "w": 960,
+    "h": 1440
+  },
+  "truss2": {
+    "file": "truss2.jpg",
+    "caption": "A truss loaded with moving lights on the floor, waiting for the chain hoists",
+    "kind": "process",
+    "title": "LDI-rogue-rig.jpg",
+    "site": "Wikimedia",
+    "artist": "Lumenbuddha",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LDI-rogue-rig.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "truss3": {
+    "file": "truss3.jpg",
+    "caption": "Building a stage roof: a corner block joining three trusses",
+    "kind": "process",
+    "title": "Corner Block F34.jpg",
+    "site": "Wikimedia",
+    "artist": "Tinastrega",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Corner_Block_F34.jpg",
+    "w": 960,
+    "h": 887
   },
   "miccable": {
     "file": "miccable.jpg",
@@ -15360,6 +15408,30 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "miccable2": {
+    "file": "miccable2.jpg",
+    "caption": "Three-pin XLR connectors, male and female: pin 1 is the screen",
+    "kind": "product",
+    "title": "XLR connectors, male and female.jpg",
+    "site": "Wikimedia",
+    "artist": "Jud McCranie",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:XLR_connectors,_male_and_female.jpg",
+    "w": 960,
+    "h": 611
+  },
+  "miccable3": {
+    "file": "miccable3.jpg",
+    "caption": "A stage snake: sixteen pairs in one jacket, fanned out to XLRs at the desk end",
+    "kind": "product",
+    "title": "Audio multicore cable with XLR connectors and stage box.JPG",
+    "site": "Wikimedia",
+    "artist": "VK1LW",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Audio_multicore_cable_with_XLR_connectors_and_stage_box.JPG",
+    "w": 960,
+    "h": 720
+  },
   "gel": {
     "file": "gel.jpg",
     "caption": "Lighting gels, loose sheets and some taped into frames",
@@ -15372,17 +15444,53 @@ window.CREDITS = {
     "h": 768,
     "site": "Wikimedia"
   },
+  "gel2": {
+    "file": "gel2.jpg",
+    "caption": "A bar of par cans, each with a different gel in its frame",
+    "kind": "photo",
+    "title": "StripOfParCans.jpg",
+    "site": "Wikimedia",
+    "artist": "Scoreed",
+    "license": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:StripOfParCans.jpg",
+    "w": 960,
+    "h": 720
+  },
   "eiderdown": {
     "file": "eiderdown.jpg",
+    "caption": "An eider nest: the eggs bedded in the hen's own breast down",
+    "kind": "photo",
+    "title": "Common eider nest (6728250085).jpg",
+    "site": "Wikimedia",
+    "artist": "USFWSAlaska",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Common_eider_nest_(6728250085).jpg",
+    "w": 960,
+    "h": 720
+  },
+  "eiderdown2": {
+    "file": "eiderdown2.jpg",
+    "caption": "Raw eiderdown as gathered in Skaleyjar, Iceland, hay and all",
+    "kind": "photo",
+    "title": "Ohreinsadur-aedardunn.jpg",
+    "site": "Wikimedia",
+    "artist": "Salvör Gissurardóttir",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Ohreinsadur-aedardunn.jpg",
+    "w": 800,
+    "h": 600
+  },
+  "eiderdown3": {
+    "file": "eiderdown3.jpg",
     "caption": "A farmer in Skaleyjar cleaning and drying eiderdown, still full of hay",
     "kind": "process",
     "title": "Dunhreinsun2.jpg",
+    "site": "Wikimedia",
     "artist": "Salvör Gissurardóttir",
     "license": "CC BY 2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Dunhreinsun2.jpg",
     "w": 800,
-    "h": 1000,
-    "site": "Wikimedia"
+    "h": 1000
   },
   "shearling": {
     "file": "shearling.jpg",
