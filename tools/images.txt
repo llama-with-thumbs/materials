@@ -721,11 +721,21 @@ caf23|commons|Excimer laser Summit.jpg|An excimer laser for eye surgery: its ult
 znse|commons|2 CVD ZnSe domes and lenses Crystaltechno.jpg|CVD zinc selenide optics|photo
 znse2|commons|1 CVD ZnSe optics ingots window Crystaltechno.jpg|CVD zinc selenide as grown, the rough plate, beside finished windows|process
 znse3|commons|Laser CNC Cutting Head.jpg|The head of a CO₂ laser cutter: the focusing lens inside it is zinc selenide|related
-yagce|commons|White LED.png|A white LED — a blue chip under a dot of YAG:Ce phosphor|product
-scintillator|commons|RadiaCode-101 dosimeter-spectrometer (front view).jpg|A scintillation spectrometer — crystal coupled to a photodetector|product
-hfo2|commons|Dielectric laser mirror from a dye laser.JPG|A dye-laser mirror, over 99% reflective at 550 nm — hafnium oxide is one of the standard high-index layers in coatings like this|analog
-opticalfibre|commons|MoST Fiber Optic Cable Display.jpg|Optical fibre carrying light|product
-pcf|commons|Photonic-crystal-fiber-from-NRL.jpg|Photonic crystal fibre in cross-section — the lattice of air holes|photo
+yagce|commons|High Power COB-LED with low current at 5pct.JPG|A chip-on-board LED run at five percent: forty blue chips glow through the yellow YAG:Ce layer|product
+yagce2|commons|3 watt power LED after removing phosphor.jpg|A power LED with the phosphor scraped off: the bare blue chips underneath|structure
+yagce3|commons|LED filament light bulb E27, 6W, 810lm, 2700K, EGB 539575-8434.jpg|A filament bulb: each yellow strip is a row of blue chips under YAG:Ce|product
+scintillator|commons|FZU scintillators 2.jpg|A scintillator crystal under an ultraviolet lamp, glowing in visible light|photo
+scintillator2|commons|NaI-Tl-crystals.jpg|Thallium-doped sodium iodide crystals, sealed in their cans behind glass windows|product
+scintillator3|commons|BGO-crystals.jpg|Bismuth germanate blocks: three times the density, for stopping PET photons|photo
+hfo2|commons|Dielectric laser mirror from a dye laser.JPG|A dye-laser mirror, over 99 percent reflective at 550 nm: hafnium oxide is one of the standard high-index layers in coatings like this|analog
+hfo22|commons|Aomic-layer-deposition-system.jpg|An atomic layer deposition system: the gate oxide goes on one atomic layer per pulse|process
+hfo23|commons|Topographic (left) and current (right) maps collected with CAFM on a polycrystalline HfO2 stack.png|A hafnium oxide film under a conductive atomic force microscope: topography left, leakage current right, along the grain boundaries|structure
+opticalfibre|commons|Optical patchcord.jpg|A fibre patchcord carrying red laser light, leaking a little at the bend|photo
+opticalfibre2|commons|At the edge of optical fiber preform 2.jpg|A silica preform held to the light: this rod becomes kilometres of fibre|process
+opticalfibre3|commons|Optical fiber fusion splicing - USDA.jpg|Fusion splicing in the field: the two ends are melted together, aligned to a micrometre|process
+pcf|commons|Photonic-crystal-fiber-from-NRL.jpg|Photonic crystal fibre in cross-section: the lattice of air holes|photo
+pcf2|commons|Hollow-core photonic bandgap fiber.jpg|A hollow-core photonic band gap fibre: the light travels down the empty centre|structure
+pcf3|commons|Ligth emerging from a photonic crystal fiber.JPG|Light out of a photonic crystal fibre thrown on a screen: the hole lattice printed in light|process
 oled|commons|LG gram Pro 16 (2024) 16Z90SPG OLED DISPLAY RGB DOT MATRIX, OLED PANEL MADE BY SAMSUNG DISPLAY.jpg|OLED subpixels, magnified|product
 eink|commons|Electronic paper display microphotography.jpg|E-ink microcapsules under the microscope|photo
 nematiclc|commons|Nematic liquid crystal.jpg|A nematic liquid crystal texture|photo
