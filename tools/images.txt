@@ -1040,11 +1040,21 @@ ebony3|commons|Ebony And Ivory (photo by Garry Knight).jpg|The sharps of a piano
 rosin|commons|Violin rosin (2).jpg|A cake of violin rosin|photo
 rosin2|commons|Rosins.JPG|Rosin as sold: cakes for violin, viola and cello, in cloth and in wooden boxes|product
 rosin3|commons|Gemmage 01.jpg|Tapping a maritime pine in the Landes: the resin that becomes rosin|process
-fiddleback|commons|Riegelahorn Holz.JPG|Sliced fiddleback maple veneer — the stripes are waves in the grain|photo
+fiddleback|commons|Ex "Kurtz" Violin MET DP147091.jpg|The flamed maple back of a Cremonese violin|product
+fiddleback2|commons|Roasted Figured Maple Guitar Neck Blanks.jpg|Figured maple cut into guitar neck blanks: the wave is in the wood before any finish|photo
+fiddleback3|commons|1964 Gibson J-200 Custom (SN 67437) back, flamed maple.jpg|The flamed maple back of a 1964 Gibson J-200|product
 instbrass|commons|Trumpet Bell.jpg|The bell of a trumpet, spun from brass sheet|product
+instbrass2|commons|Trombone On Lathe.jpg|A trombone bell being spun on the lathe over its mandrel|process
+instbrass3|commons|Trumpet-XRAY.jpg|A trumpet under X-ray: the darker the metal the thicker the wall|structure
 lithophone|commons|Pierre sonore d'un lithophone jade chine 1764 mariemont.JPG|A jade sounding stone from a Chinese lithophone, dated 1764|product
+lithophone2|commons|Eastern Zhou Stone Chimes.jpg|An Eastern Zhou bianqing: L-shaped stones of one length, tuned by thickness|product
+lithophone3|commons|Đàn đá ở Hội quán Vịnh Nha Trang 2016 (3).jpg|A Vietnamese dan da: chipped stone bars on a frame|product
 cymbalbronze|commons|Crashride cymbal.JPG|A deeply hammered B8 crash-ride cymbal|product
+cymbalbronze2|commons|Zildjian k custom 22inch ride.jpg|A B20 ride: cast, rolled, hammered and lathed, the grooves and hammer marks both showing|product
+cymbalbronze3|commons|Bhutanese cymbal.jpg|Cymbals being made at Sarthebari in Assam|process
 tuningfork|commons|Diapason Wittner à branches carrées à 440 Hz.jpg|A chromed steel tuning fork cut for 440 Hz|product
+tuningfork2|commons|Tuning forks - Various frequencies.jpg|A set of forks: the same steel, the pitch in the length of the tines|product
+tuningfork3|commons|Alarm Clock Balance Wheel.jpg|A clock balance wheel and its hairspring, the other job Elinvar was invented for|related
 singingsand|commons|Singing Sand Dunes and Crescent Lake (20230918100733).jpg|The Mingsha singing dunes at Dunhuang|photo
 ringingrock|commons|Boulder field, Ringing Rocks Park, Bridgeton Township, PA.jpg|The boulder field at Ringing Rocks Park, Pennsylvania|photo
 steelpan|commons|Steelpan.jpeg|A tenor steelpan, sunk and tuned from a barrel end|product

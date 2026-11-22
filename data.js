@@ -4231,42 +4231,47 @@ window.MATERIALS = [
 },
 {
   id: "fiddleback", cat: "music", name: "Fiddleback maple",
-  sub: "wavy-grain Acer", img: "fiddleback",
-  hook: "The stripes are not a pattern on the surface but a wave in the fibres themselves, so each band of figure catches light at a different angle and the back seems to move as the instrument is turned. Maple earns its place for a duller reason: it is stiff across the grain and dense enough to reflect sound back into the box, leaving a soft, light spruce top to do the radiating. Wavy grain is harder to work and does nothing for the sound — luthiers choose it anyway.",
+  sub: "wavy-grain Acer", img: "fiddleback", extra: ["fiddleback2", "fiddleback3"],
+  hook: "The stripes are a wave in the fibres, so each band catches light at its own angle and the back seems to move as it turns. Wavy grain is harder to work and does nothing for the sound; luthiers choose it anyway.",
+  more: "In some maples the fibres grow in a wave along the trunk, and a plank sawn through them alternates end grain and side grain: one reflects, the next absorbs, and tilt the board and they swap. Nobody knows why. Maple earns the back of a violin for duller reasons: stiff across the grain, dense enough to reflect the sound back into the box and leave the soft spruce top to radiate; the figure is what the best Balkan maple happened to have, and Cremona made it the look. The costs: the grain rises and falls under the gouge, so it tears out and must be scraped, not planed; a flamed back can crack along a stripe; it is priced by the figure, which is cosmetic; and a buyer judging a violin by its flame is judging the wrong plate.",
   stats: [["Figure", "waves in the fibre, not the surface"], ["Role", "the stiff, reflecting back plate"], ["Paired with", "a light spruce top"]],
-  uses: "Violin, viola and cello backs, necks and ribs, guitar backs, drum shells, veneer.",
+  uses: "Violin, viola and cello backs, necks and ribs, guitar backs and necks, drum shells, veneer and furniture.",
   link: "https://en.wikipedia.org/wiki/Figure_(wood)"
 },
 {
   id: "instbrass", cat: "music", name: "Instrument brass",
-  sub: "yellow brass, 70/30 copper-zinc", img: "instbrass",
-  hook: "Seventy copper to thirty zinc, picked because it can be spun and hammered into a bell without splitting, not because of how it sounds. The bell is pressed from flat sheet over a mandrel and the metal thins as it flares, so the wall ends up thinnest exactly where it moves most. Players hear real differences between yellow, gold and red brass; measurement puts most of it in wall thickness, the flare of the bell and the lacquer, with the alloy a small term.",
+  sub: "yellow brass, 70/30 copper-zinc", img: "instbrass", extra: ["instbrass2", "instbrass3"],
+  hook: "Seventy copper, thirty zinc, picked because it spins into a bell without splitting, not for its sound. Players hear the brasses apart; measurement puts most of that in wall and flare, the alloy a small term.",
+  more: "Cartridge brass is the most ductile of the copper-zinc alloys: a flat sheet is cut to a fan, rolled and brazed into a cone, then spun over a steel mandrel and hammered, so the metal thins as it flares and the wall is thinnest where it moves most. Gold brass is 85 percent copper and red brass 90, each softer, darker, and said to sound darker. The costs: zinc leaches out of a sweaty mouthpiece, which is why it is plated; the alloy is soft enough that a dropped horn dents and a dent in the bell changes the note; brass fatigues at the braces and cracks along a seam decades on; and the metal's effect on timbre is small enough that blind tests struggle to find it, while its effect on the player's confidence is not.",
   stats: [["Alloy", "about 70 copper, 30 zinc"], ["Formed by", "spinning and hammering sheet"], ["Timbre", "mostly geometry, not alloy"]],
-  uses: "Trumpet, trombone, horn and tuba bells, mouthpieces, keywork and slides.",
+  uses: "Trumpet, trombone, horn and tuba bells and bodies, mouthpieces, keywork and slides, saxophone bodies.",
   link: "https://en.wikipedia.org/wiki/Brass"
 },
 {
   id: "lithophone", cat: "music", name: "Sounding stone",
-  sub: "fine-grained rock, cut to pitch", img: "lithophone",
-  hook: "Dense, even-grained rock with no crack in it has very little internal damping, so a free slab struck on the edge rings like metal instead of thudding. The Chinese bianqing cut sets of them from jade and limestone and tuned them by thickness rather than length, and the same trick turns up wherever a quarry yields stone of uniform grain. One crack anywhere in the slab kills it — the ring collapses to a thud — which is why complete old sets are so rare.",
-  stats: [["Needs", "even grain and no cracks"], ["Tuned by", "thickness"], ["Failure", "one crack and the ring is gone"]],
-  uses: "Chinese and Vietnamese stone chimes, Ethiopian church stones, orchestral stone percussion.",
+  sub: "fine-grained rock, cut to pitch", img: "lithophone", extra: ["lithophone2", "lithophone3"],
+  hook: "Dense, even-grained rock with no crack in it has little internal damping, so a free slab struck on the edge rings like metal. One crack anywhere and the ring collapses to a thud, which is why old sets are rare.",
+  more: "Most rock is grains and microcracks that rub when it flexes and turn a vibration to heat at once; a slab of fine, tight stone, a hornfels, a limestone, a nephrite, has so little of that friction that a struck bar rings for seconds. The Chinese bianqing hung sixteen L-shaped slabs of one length and tuned them by thickness three thousand years ago; the Vietnamese dan da is a row of chipped basalt bars, some Neolithic; a Cumbrian mason built an instrument of Skiddaw hornfels in 1840 and played it to the Queen. The costs: the right stone is rare and no two quarries sound alike; a slab can only be ground down, so tuning is one-way; a hairline crack ends it; and the tone, however pure, is quiet beside bronze, which took over.",
+  stats: [["Needs", "even grain and no cracks"], ["Tuned by", "thickness, ground down"], ["Failure", "one crack and the ring is gone"]],
+  uses: "Chinese and Vietnamese stone chimes, Ethiopian church stones, the Musical Stones of Skiddaw, orchestral stone percussion.",
   link: "https://en.wikipedia.org/wiki/Lithophone"
 },
 {
   id: "cymbalbronze", cat: "music", name: "Cymbal bronze",
-  sub: "B20 and B8, hammered sheet", img: "cymbalbronze",
-  hook: "A fifth tin, like bell metal, but rolled and hammered rather than cast, which leaves a plate stressed unevenly and never quite symmetrical. That is the point: a symmetrical plate would ring on a few clean modes, while a hammered one carries hundreds of close, inharmonic ones that smear into a wash with no pitch in it. Drop the tin to eight percent and the alloy becomes forgiving enough to stamp out of sheet — brighter, more uniform, shorter, and much easier to make.",
+  sub: "B20 and B8, hammered sheet", img: "cymbalbronze", extra: ["cymbalbronze2", "cymbalbronze3"],
+  hook: "A fifth tin, like bell metal, but rolled and hammered rather than cast, which leaves it stressed unevenly and never symmetrical. On purpose: it carries hundreds of close modes that smear into a wash with no pitch.",
+  more: "B20 is cast as a disc, rolled thinner hot to scramble the grain, hammered in thousands of blows, then lathed into a shallow cone with a spiral of grooves; the stiffness varies from point to point, so instead of a few clean modes it has hundreds packed close, and the strike spreads into a shimmer with no note. Twenty percent tin would shatter under the hammer if not rolled hot and annealed, Zildjian's secret since 1623. At eight percent tin the alloy stamps from sheet: brighter, more uniform, shorter, cheaper. The costs: B20 is brittle and a cymbal struck hard on its edge cracks, for good; no two plates match, so a drummer chooses by ear from a rack; and the bronze tarnishes and the grooves fill with dirt, patina to some and dull to others.",
   stats: [["B20", "about 20 percent tin, cast then hammered"], ["B8", "about 8 percent tin, from sheet"], ["Spectrum", "dense and inharmonic on purpose"]],
-  uses: "Drum kit and orchestral cymbals, hi-hats, tam-tams and gongs.",
+  uses: "Drum kit and orchestral cymbals, hi-hats, tam-tams and gongs, temple cymbals.",
   link: "https://en.wikipedia.org/wiki/Cymbal"
 },
 {
   id: "tuningfork", cat: "music", name: "Tuning-fork steel",
-  sub: "pitch from stiffness and density", img: "tuningfork",
-  hook: "A fork's pitch follows from its geometry and from the stiffness of its metal divided by its density, and from nothing else — no air column, no string tension to creep. Which leaves one flaw: steel loses a little stiffness as it warms, so a fork goes flat in a warm room. Elinvar, a nickel-iron-chromium alloy whose stiffness barely moves with temperature, was invented for exactly that complaint, and the same alloy went into watch balance springs.",
+  sub: "pitch from stiffness and density", img: "tuningfork", extra: ["tuningfork2", "tuningfork3"],
+  hook: "A fork's pitch follows from its geometry and its metal's stiffness over density, and nothing else: no air column, no string. One flaw: steel loses a little stiffness as it warms, so it goes flat in a warm room.",
+  more: "Two tines vibrate in opposite phase, so the stem hardly moves and it can be held without damping, and the pitch is set by the tines' length and thickness and the square root of stiffness over density, which does not drift with humidity or age; John Shore, Handel's trumpeter, made the first in 1711, and for two centuries a fork was the pitch reference. The costs: steel's modulus falls a hundredth of a percent per degree, so a 440 fork is half a cent flat on a warm stage, and Guillaume's Elinvar, an alloy whose stiffness barely moves with temperature, was the cure, and went into watch springs too; a fork is loud only on a resonance box; it gives one note; and a quartz crystal cut as a tiny fork does the job far better in every watch.",
   stats: [["Pitch set by", "geometry, stiffness, density"], ["Steel", "goes flat as it warms"], ["Fix", "Elinvar, near-constant stiffness"]],
-  uses: "Pitch references, hearing and bone-conduction tests, clock oscillators, vibrating sensors.",
+  uses: "Pitch references, hearing and bone-conduction tests, the 32 kHz quartz fork in every watch, vibrating sensors and gyroscopes.",
   link: "https://en.wikipedia.org/wiki/Tuning_fork"
 },
 {

@@ -12446,15 +12446,39 @@ window.CREDITS = {
   },
   "fiddleback": {
     "file": "fiddleback.jpg",
-    "caption": "Sliced fiddleback maple veneer — the stripes are waves in the grain",
-    "kind": "photo",
-    "title": "Riegelahorn Holz.JPG",
-    "artist": "Philipp Zinger",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Riegelahorn_Holz.JPG",
+    "caption": "The flamed maple back of a Cremonese violin",
+    "kind": "product",
+    "title": "Ex \"Kurtz\" Violin MET DP147091.jpg",
+    "site": "Wikimedia",
+    "artist": "Andrea Amati",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ex_%22Kurtz%22_Violin_MET_DP147091.jpg",
     "w": 960,
-    "h": 489,
-    "site": "Wikimedia"
+    "h": 1280
+  },
+  "fiddleback2": {
+    "file": "fiddleback2.jpg",
+    "caption": "Figured maple cut into guitar neck blanks: the wave is in the wood before any finish",
+    "kind": "photo",
+    "title": "Roasted Figured Maple Guitar Neck Blanks.jpg",
+    "site": "Wikimedia",
+    "artist": "Stephen Ondich",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Roasted_Figured_Maple_Guitar_Neck_Blanks.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "fiddleback3": {
+    "file": "fiddleback3.jpg",
+    "caption": "The flamed maple back of a 1964 Gibson J-200",
+    "kind": "product",
+    "title": "1964 Gibson J-200 Custom (SN 67437) back, flamed maple.jpg",
+    "site": "Wikimedia",
+    "artist": "bptakoma",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1964_Gibson_J-200_Custom_(SN_67437)_back,_flamed_maple.jpg",
+    "w": 960,
+    "h": 1280
   },
   "instbrass": {
     "file": "instbrass.jpg",
@@ -12468,6 +12492,30 @@ window.CREDITS = {
     "h": 638,
     "site": "Wikimedia"
   },
+  "instbrass2": {
+    "file": "instbrass2.jpg",
+    "caption": "A trombone bell being spun on the lathe over its mandrel",
+    "kind": "process",
+    "title": "Trombone On Lathe.jpg",
+    "site": "Wikimedia",
+    "artist": "Daniel Rossi from Seattle, WA, USA",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Trombone_On_Lathe.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "instbrass3": {
+    "file": "instbrass3.jpg",
+    "caption": "A trumpet under X-ray: the darker the metal the thicker the wall",
+    "kind": "structure",
+    "title": "Trumpet-XRAY.jpg",
+    "site": "Wikimedia",
+    "artist": "DrTrumpet",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Trumpet-XRAY.jpg",
+    "w": 960,
+    "h": 657
+  },
   "lithophone": {
     "file": "lithophone.jpg",
     "caption": "A jade sounding stone from a Chinese lithophone, dated 1764",
@@ -12479,6 +12527,30 @@ window.CREDITS = {
     "w": 960,
     "h": 640,
     "site": "Wikimedia"
+  },
+  "lithophone2": {
+    "file": "lithophone2.jpg",
+    "caption": "An Eastern Zhou bianqing: L-shaped stones of one length, tuned by thickness",
+    "kind": "product",
+    "title": "Eastern Zhou Stone Chimes.jpg",
+    "site": "Wikimedia",
+    "artist": "Gary Todd",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eastern_Zhou_Stone_Chimes.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "lithophone3": {
+    "file": "lithophone3.jpg",
+    "caption": "A Vietnamese dan da: chipped stone bars on a frame",
+    "kind": "product",
+    "title": "Đàn đá ở Hội quán Vịnh Nha Trang 2016 (3).jpg",
+    "site": "Wikimedia",
+    "artist": "Phương Huy (thảo luận)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:%C4%90%C3%A0n_%C4%91%C3%A1_%E1%BB%9F_H%E1%BB%99i_qu%C3%A1n_V%E1%BB%8Bnh_Nha_Trang_2016_(3).jpg",
+    "w": 960,
+    "h": 720
   },
   "cymbalbronze": {
     "file": "cymbalbronze.jpg",
@@ -12492,6 +12564,30 @@ window.CREDITS = {
     "h": 686,
     "site": "Wikimedia"
   },
+  "cymbalbronze2": {
+    "file": "cymbalbronze2.jpg",
+    "caption": "A B20 ride: cast, rolled, hammered and lathed, the grooves and hammer marks both showing",
+    "kind": "product",
+    "title": "Zildjian k custom 22inch ride.jpg",
+    "site": "Wikimedia",
+    "artist": "Xemilien",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zildjian_k_custom_22inch_ride.jpg",
+    "w": 960,
+    "h": 747
+  },
+  "cymbalbronze3": {
+    "file": "cymbalbronze3.jpg",
+    "caption": "Cymbals being made at Sarthebari in Assam",
+    "kind": "process",
+    "title": "Bhutanese cymbal.jpg",
+    "site": "Wikimedia",
+    "artist": "পৱন বৰ্মন",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bhutanese_cymbal.jpg",
+    "w": 960,
+    "h": 640
+  },
   "tuningfork": {
     "file": "tuningfork.jpg",
     "caption": "A chromed steel tuning fork cut for 440 Hz",
@@ -12503,6 +12599,30 @@ window.CREDITS = {
     "w": 960,
     "h": 640,
     "site": "Wikimedia"
+  },
+  "tuningfork2": {
+    "file": "tuningfork2.jpg",
+    "caption": "A set of forks: the same steel, the pitch in the length of the tines",
+    "kind": "product",
+    "title": "Tuning forks - Various frequencies.jpg",
+    "site": "Wikimedia",
+    "artist": "K.Venkataramana",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tuning_forks_-_Various_frequencies.jpg",
+    "w": 960,
+    "h": 933
+  },
+  "tuningfork3": {
+    "file": "tuningfork3.jpg",
+    "caption": "A clock balance wheel and its hairspring, the other job Elinvar was invented for",
+    "kind": "related",
+    "title": "Alarm Clock Balance Wheel.jpg",
+    "site": "Wikimedia",
+    "artist": "Chris Burks Chetvorno",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Alarm_Clock_Balance_Wheel.jpg",
+    "w": 960,
+    "h": 723
   },
   "singingsand": {
     "file": "singingsand.jpg",
