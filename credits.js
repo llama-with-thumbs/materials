@@ -8340,17 +8340,65 @@ window.CREDITS = {
     "w": 960,
     "h": 1440
   },
-  "ito": {
-    "file": "ito.png",
-    "caption": "A transparent ITO-coated touch keypad",
-    "kind": "product",
-    "title": "Transparent keypad touchscreen.png",
-    "artist": "Ron Binstead",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Transparent_keypad_touchscreen.png",
+  "perovskitepv2": {
+    "file": "perovskitepv2.png",
+    "caption": "The perovskite lattice: lead and iodine cages with the small organic ion rattling inside",
+    "kind": "structure",
+    "title": "Perovskite crystal structure.png",
+    "site": "Wikimedia",
+    "artist": "Oregon State University",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Perovskite_crystal_structure.png",
     "w": 960,
-    "h": 768,
-    "site": "Wikimedia"
+    "h": 960
+  },
+  "perovskitepv3": {
+    "file": "perovskitepv3.jpg",
+    "caption": "Laboratory perovskite cells on glass, the size the records are set at",
+    "kind": "product",
+    "title": "Perovskite tin solar cell (13893069777).jpg",
+    "site": "Wikimedia",
+    "artist": "University of Oxford Press Office",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Perovskite_tin_solar_cell_(13893069777).jpg",
+    "w": 960,
+    "h": 720
+  },
+  "ito": {
+    "file": "ito.jpg",
+    "caption": "A silicon solar wafer sputtered with 80 nm of ITO: the blue is the coating, the current runs through it",
+    "kind": "photo",
+    "title": "Unmetallised Silicon Heterojunction solar cell precursor.jpg",
+    "site": "Wikimedia",
+    "artist": "Radiotrefoil",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Unmetallised_Silicon_Heterojunction_solar_cell_precursor.jpg",
+    "w": 960,
+    "h": 960
+  },
+  "ito2": {
+    "file": "ito2.jpg",
+    "caption": "The ITO surface under the electron microscope, coloured, with gold nanoparticles sitting on it",
+    "kind": "structure",
+    "title": "Indium tin oxide and gold nanoparticles.tiff",
+    "site": "Wikimedia",
+    "artist": "TiberiusRufus",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Indium_tin_oxide_and_gold_nanoparticles.tiff",
+    "w": 960,
+    "h": 684
+  },
+  "ito3": {
+    "file": "ito3.jpg",
+    "caption": "ITO grains on glass under the microscope, a few impurities among them",
+    "kind": "structure",
+    "title": "ITO grains on glass.tif",
+    "site": "Wikimedia",
+    "artist": "Topliuchao",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ITO_grains_on_glass.tif",
+    "w": 960,
+    "h": 884
   },
   "linbo3": {
     "file": "linbo3.jpg",
@@ -8364,6 +8412,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "linbo32": {
+    "file": "linbo32.jpg",
+    "caption": "A fibre-coupled lithium niobate intensity modulator: the crystal in the long case, the data goes on here",
+    "kind": "product",
+    "title": "Modulateur d'intensité optique 1.jpg",
+    "site": "Wikimedia",
+    "artist": "Christophe.Finot",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Modulateur_d%27intensit%C3%A9_optique_1.jpg",
+    "w": 960,
+    "h": 648
+  },
+  "linbo33": {
+    "file": "linbo33.jpg",
+    "caption": "A surface acoustic wave filter opened: the interdigital fingers on the piezoelectric slab",
+    "kind": "product",
+    "title": "F1319M SAW Filter.jpg",
+    "site": "Wikimedia",
+    "artist": "Mister rf",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:F1319M_SAW_Filter.jpg",
+    "w": 960,
+    "h": 628
+  },
   "yig": {
     "file": "yig.jpg",
     "caption": "YIG spheres inside a tunable microwave filter",
@@ -8375,6 +8447,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "yig2": {
+    "file": "yig2.jpg",
+    "caption": "A synthetic YIG single crystal, with red traces of the flux it grew from",
+    "kind": "photo",
+    "title": "Wiki-YIG.jpg",
+    "site": "Wikimedia",
+    "artist": "Krizu",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wiki-YIG.jpg",
+    "w": 960,
+    "h": 705
+  },
+  "yig3": {
+    "file": "yig3.png",
+    "caption": "One YIG sphere on its post inside a disassembled oscillator",
+    "kind": "product",
+    "title": "Yig-sphere.png",
+    "site": "Wikimedia",
+    "artist": "Collezioneperiodica",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yig-sphere.png",
+    "w": 960,
+    "h": 960
   },
   "tisapphire": {
     "file": "tisapphire.jpg",
@@ -10994,7 +11090,7 @@ window.CREDITS = {
   },
   "ggg": {
     "file": "ggg.jpg",
-    "caption": "A GAGG:Ce scintillator crystal — a garnet grown the same way as GGG",
+    "caption": "A GAGG:Ce scintillator crystal: a garnet grown the same way as GGG, which has no photograph of its own on Commons",
     "kind": "related",
     "title": "GAGG-Ce.jpg",
     "artist": "Thunderblood101",
@@ -11003,6 +11099,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1280,
     "site": "Wikimedia"
+  },
+  "ggg2": {
+    "file": "ggg2.jpg",
+    "caption": "An Intel Magnetics bubble memory module, about 1982: a garnet film on a GGG wafer inside the can",
+    "kind": "related",
+    "title": "Bubble memory module.jpg",
+    "site": "Wikimedia",
+    "artist": "DMGualtieri",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bubble_memory_module.jpg",
+    "w": 960,
+    "h": 622
+  },
+  "ggg3": {
+    "file": "ggg3.jpg",
+    "caption": "Magnetic domains in a garnet film by magnetic force microscope: the stripes a bubble memory wrote in",
+    "kind": "structure",
+    "title": "Магнитная доменная структура в пленке феррита-граната.jpg",
+    "site": "Wikimedia",
+    "artist": "Temiryazev",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BD%D0%B0%D1%8F_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%B2_%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%B5_%D1%84%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%B0-%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0.jpg",
+    "w": 960,
+    "h": 960
   },
   "bbo": {
     "file": "bbo.jpg",

@@ -698,9 +698,17 @@ hgcdte|commons|Detector array on the focal plane of the Infrared Astronomical Sa
 hgcdte2|commons|A JWST NIRCam Detector (24852004939).jpg|A Webb NIRCam detector: the purple film is the mercury cadmium telluride, four megapixels of it|product
 hgcdte3|commons|The Heart of NEO Surveyor- Its Infrared Detectors (PIA26666).jpg|Four mid-wave infrared detectors for NEO Surveyor on a clean-room bench|product
 perovskitepv|US Department of Energy|https://www.energy.gov/sites/default/files/2022-05/Perovskite-Hand-2-64514.jpg|A perovskite solar cell|photo|Public domain|US Department of Energy, Solar Energy Technologies Office|https://www.energy.gov/eere/solar/perovskite-solar-cells
-ito|commons|Transparent keypad touchscreen.png|A transparent ITO-coated touch keypad|product
+perovskitepv2|commons|Perovskite crystal structure.png|The perovskite lattice: lead and iodine cages with the small organic ion rattling inside|structure
+perovskitepv3|commons|Perovskite tin solar cell (13893069777).jpg|Laboratory perovskite cells on glass, the size the records are set at|product
+ito|commons|Unmetallised Silicon Heterojunction solar cell precursor.jpg|A silicon solar wafer sputtered with 80 nm of ITO: the blue is the coating, the current runs through it|photo
+ito2|commons|Indium tin oxide and gold nanoparticles.tiff|The ITO surface under the electron microscope, coloured, with gold nanoparticles sitting on it|structure
+ito3|commons|ITO grains on glass.tif|ITO grains on glass under the microscope, a few impurities among them|structure
 linbo3|commons|Lithium Niobate Wafer.jpg|A lithium niobate wafer|photo
+linbo32|commons|Modulateur d'intensité optique 1.jpg|A fibre-coupled lithium niobate intensity modulator: the crystal in the long case, the data goes on here|product
+linbo33|commons|F1319M SAW Filter.jpg|A surface acoustic wave filter opened: the interdigital fingers on the piezoelectric slab|product
 yig|commons|Four Yttrium Iron Garnet spheres filter.jpg|YIG spheres inside a tunable microwave filter|product
+yig2|commons|Wiki-YIG.jpg|A synthetic YIG single crystal, with red traces of the flux it grew from|photo
+yig3|commons|Yig-sphere.png|One YIG sphere on its post inside a disassembled oscillator|product
 tisapphire|commons|TiSa crystal.jpg|A Ti:sapphire laser crystal|photo
 calcite|commons|3310.calcite (Iceland Spar) birefringence.jpg|Iceland spar doubling the lines beneath it|photo
 caf2|commons|Fluorite crystal.jpg|Fluorite — calcium fluoride in its mineral form|related
@@ -919,7 +927,9 @@ strontiumal3|commons|LUMI Resuable and Non Toxic Glow Stick Alternative.jpg|A re
 spruce|commons|Violin Top and back plates.jpg|A carved violin top in spruce, beside its maple back|product
 spruce2|commons|Knight piano soundboard.jpg|A piano soundboard in European spruce, the ribs across the grain|product
 spruce3|commons|Norway spruce (Picea abies) trunk cross section.png|A Norway spruce trunk cut through: the rings a soundboard is sawn across|structure
-ggg|commons|GAGG-Ce.jpg|A GAGG:Ce scintillator crystal — a garnet grown the same way as GGG|related
+ggg|commons|GAGG-Ce.jpg|A GAGG:Ce scintillator crystal: a garnet grown the same way as GGG, which has no photograph of its own on Commons|related
+ggg2|commons|Bubble memory module.jpg|An Intel Magnetics bubble memory module, about 1982: a garnet film on a GGG wafer inside the can|related
+ggg3|commons|Магнитная доменная структура в пленке феррита-граната.jpg|Magnetic domains in a garnet film by magnetic force microscope: the stripes a bubble memory wrote in|structure
 bbo|commons|Beam output from OPA.jpg|The output of an optical parametric amplifier — BBO is the crystal that splits the beam|related
 ga2o3|commons|Czochralski Gallium Oxide.png|Pulling gallium oxide from the melt by the Czochralski method|process
 pebax|commons|Nike Vaporfly Cut in Half.png|A Vaporfly cut in half: the white foam is Pebax, blown with gas, around the dark carbon plate|product
