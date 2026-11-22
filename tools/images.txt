@@ -1100,7 +1100,11 @@ hideglue|commons|Knochenleim Granulat.jpg|Animal glue granules, ready to be soak
 hideglue2|commons|Animal glue liquid.jpg|Hot glue running off the brush, the few seconds it stays open|process
 hideglue3|commons|Dissolving hide glue 1.jpeg|Hide glue granules soaking before the water bath|process
 shockmount|commons|AKG C214 condenser microphone with H85 shock mount.jpg|A condenser microphone slung in an elastic shock mount|photo
-endpin|commons|Cello endpin.JPG|A cello endpin — the steel spike, with its rubber cap beside it|photo
+shockmount2|commons|AKG Perception 120 USB condenser microphone with SH 100 shock mount.jpg|A spider mount: the microphone hangs in a web of elastic cord|product
+shockmount3|commons|Neumann TLM170R & Elastic Suspension.jpg|A Neumann in its elastic suspension|product
+endpin|commons|Cello endpin.JPG|A cello endpin: the steel spike, with its rubber cap beside it|photo
+endpin2|commons|Endpin stopper.JPG|A rubber endpin stopper: isolates the cello from the floor and stops the slide|product
+endpin3|commons|Cello anchor (110035345).jpg|A wooden endpin anchor, looped round the chair legs|product
 nb3sn|Flickr|https://live.staticflickr.com/4202/34860816181_5e2e163cfc_b.jpg|An exploded view of ITER's central solenoid conductor, cabled from niobium-tin|product|CC BY-SA 2.0|ChaSanabria|https://www.flickr.com/photos/98777507@N04/34860816181
 nb3sn2|commons|HLLHC1.jpg|Niobium-tin quadrupole coils for the high-luminosity LHC, wound and reacted|product
 nb3sn3|commons|ITER central solenoid manufacturing (41809722361).jpg|Winding a module of ITER's central solenoid at General Atomics, before the coil goes into the furnace|process
@@ -1150,8 +1154,14 @@ wiltoncarpet|commons|Wilton Carpet Wilton Royal Workshops England mid-19th.jpg|A
 wiltoncarpet2|commons|Teppich-Museum Oelsnitz 24.jpg|A mechanical Axminster loom of 1910 by Schönherr of Chemnitz, at the carpet museum in Oelsnitz|process
 wiltoncarpet3|commons|George III Axminster carpet ca. 1790.jpg|An Axminster carpet of about 1790, attributed to Thomas Whitty: any colour anywhere, when it was still done by hand|product
 reedcane|commons|B-flat e-flat a-flat reeds.jpg|Clarinet and saxophone reeds in three sizes, cut from cane|product
+reedcane2|commons|Arundo donax (Πελοπόννησος).jpg|Arundo donax standing in the Peloponnese, taller than a man|photo
+reedcane3|commons|2021 Exposición Arquitectura Atemporal CentroCentro - Caña (Arundo donax).jpg|Cut cane, bundled and dried|process
 ebonite|commons|Mouthpiece tenor saxophone.jpg|Two tenor saxophone mouthpieces, the Selmer in hard rubber and the Dukoff in metal|product
+ebonite2|commons|Ideal mouthpiece, top.jpg|A hard-rubber clarinet mouthpiece, the facing and tip rail that a repairer refaces by hand|product
+ebonite3|commons|Dentures (NCP 003271), National Museum of Health and Medicine (5476283407).jpg|A vulcanite partial denture of about 1900: the other thing ebonite was for|related
 snarewire|commons|Orange county snare wire.jpg|A snare drum with its snare wire lifted clear of the head|photo
+snarewire2|commons|Boben-snare-spodnji del.jpg|The underside of a snare drum: the wires lying across the resonant head|structure
+snarewire3|commons|Snare drum strainer.jpg|A strainer, the throw-off that tensions the wires or lifts them clear|product
 conepulp|commons|X5 Paper Pulp Cone.jpg|A paper pulp loudspeaker cone|photo
 voicecoil|commons|Loudspeaker voice coil, three inch diameter.jpg|A three-inch dual voice coil from a subwoofer driver|photo
 marimbarose|commons|San Domingo-Palisander Holz.JPG|Sliced veneer of the same wood, labelled San Domingo palisander and Honduras rosewood|related

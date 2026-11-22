@@ -13164,9 +13164,33 @@ window.CREDITS = {
     "h": 1358,
     "site": "Wikimedia"
   },
+  "shockmount2": {
+    "file": "shockmount2.jpg",
+    "caption": "A spider mount: the microphone hangs in a web of elastic cord",
+    "kind": "product",
+    "title": "AKG Perception 120 USB condenser microphone with SH 100 shock mount.jpg",
+    "site": "Wikimedia",
+    "artist": "Lucasbosch",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AKG_Perception_120_USB_condenser_microphone_with_SH_100_shock_mount.jpg",
+    "w": 960,
+    "h": 1440
+  },
+  "shockmount3": {
+    "file": "shockmount3.jpg",
+    "caption": "A Neumann in its elastic suspension",
+    "kind": "product",
+    "title": "Neumann TLM170R & Elastic Suspension.jpg",
+    "site": "Wikimedia",
+    "artist": "Foleying_the_water_sound.jpg: Hens Zimmerman\nderivative work: Clusternote (talk)",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Neumann_TLM170R_%26_Elastic_Suspension.jpg",
+    "w": 960,
+    "h": 1280
+  },
   "endpin": {
     "file": "endpin.jpg",
-    "caption": "A cello endpin — the steel spike, with its rubber cap beside it",
+    "caption": "A cello endpin: the steel spike, with its rubber cap beside it",
     "kind": "photo",
     "title": "Cello endpin.JPG",
     "artist": "SMasters",
@@ -13175,6 +13199,30 @@ window.CREDITS = {
     "w": 960,
     "h": 593,
     "site": "Wikimedia"
+  },
+  "endpin2": {
+    "file": "endpin2.jpg",
+    "caption": "A rubber endpin stopper: isolates the cello from the floor and stops the slide",
+    "kind": "product",
+    "title": "Endpin stopper.JPG",
+    "site": "Wikimedia",
+    "artist": "SMasters",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Endpin_stopper.JPG",
+    "w": 800,
+    "h": 667
+  },
+  "endpin3": {
+    "file": "endpin3.jpg",
+    "caption": "A wooden endpin anchor, looped round the chair legs",
+    "kind": "product",
+    "title": "Cello anchor (110035345).jpg",
+    "site": "Wikimedia",
+    "artist": "Andy / Andrew Fogg from near Cambridge, UK",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cello_anchor_(110035345).jpg",
+    "w": 960,
+    "h": 640
   },
   "nb3sn": {
     "file": "nb3sn.jpg",
@@ -13764,6 +13812,30 @@ window.CREDITS = {
     "h": 1183,
     "site": "Wikimedia"
   },
+  "reedcane2": {
+    "file": "reedcane2.jpg",
+    "caption": "Arundo donax standing in the Peloponnese, taller than a man",
+    "kind": "photo",
+    "title": "Arundo donax (Πελοπόννησος).jpg",
+    "site": "Wikimedia",
+    "artist": "Opzwartbeek",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arundo_donax_(%CE%A0%CE%B5%CE%BB%CE%BF%CF%80%CF%8C%CE%BD%CE%BD%CE%B7%CF%83%CE%BF%CF%82).jpg",
+    "w": 960,
+    "h": 1033
+  },
+  "reedcane3": {
+    "file": "reedcane3.jpg",
+    "caption": "Cut cane, bundled and dried",
+    "kind": "process",
+    "title": "2021 Exposición Arquitectura Atemporal CentroCentro - Caña (Arundo donax).jpg",
+    "site": "Wikimedia",
+    "artist": "Keinmy",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:2021_Exposici%C3%B3n_Arquitectura_Atemporal_CentroCentro_-_Ca%C3%B1a_(Arundo_donax).jpg",
+    "w": 960,
+    "h": 2133
+  },
   "ebonite": {
     "file": "ebonite.jpg",
     "caption": "Two tenor saxophone mouthpieces, the Selmer in hard rubber and the Dukoff in metal",
@@ -13776,6 +13848,30 @@ window.CREDITS = {
     "h": 638,
     "site": "Wikimedia"
   },
+  "ebonite2": {
+    "file": "ebonite2.jpg",
+    "caption": "A hard-rubber clarinet mouthpiece, the facing and tip rail that a repairer refaces by hand",
+    "kind": "product",
+    "title": "Ideal mouthpiece, top.jpg",
+    "site": "Wikimedia",
+    "artist": "Jud McCranie",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ideal_mouthpiece,_top.jpg",
+    "w": 960,
+    "h": 1995
+  },
+  "ebonite3": {
+    "file": "ebonite3.jpg",
+    "caption": "A vulcanite partial denture of about 1900: the other thing ebonite was for",
+    "kind": "related",
+    "title": "Dentures (NCP 003271), National Museum of Health and Medicine (5476283407).jpg",
+    "site": "Wikimedia",
+    "artist": "National Museum of  Health and Medicine",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dentures_(NCP_003271),_National_Museum_of_Health_and_Medicine_(5476283407).jpg",
+    "w": 960,
+    "h": 760
+  },
   "snarewire": {
     "file": "snarewire.jpg",
     "caption": "A snare drum with its snare wire lifted clear of the head",
@@ -13787,6 +13883,30 @@ window.CREDITS = {
     "w": 960,
     "h": 638,
     "site": "Wikimedia"
+  },
+  "snarewire2": {
+    "file": "snarewire2.jpg",
+    "caption": "The underside of a snare drum: the wires lying across the resonant head",
+    "kind": "structure",
+    "title": "Boben-snare-spodnji del.jpg",
+    "site": "Wikimedia",
+    "artist": "Žiga",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boben-snare-spodnji_del.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "snarewire3": {
+    "file": "snarewire3.jpg",
+    "caption": "A strainer, the throw-off that tensions the wires or lifts them clear",
+    "kind": "product",
+    "title": "Snare drum strainer.jpg",
+    "site": "Wikimedia",
+    "artist": "ZooFari",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Snare_drum_strainer.jpg",
+    "w": 960,
+    "h": 720
   },
   "conepulp": {
     "file": "conepulp.jpg",
