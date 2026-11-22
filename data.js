@@ -4366,42 +4366,47 @@ window.MATERIALS = [
 },
 {
   id: "bowlcushion", cat: "music", name: "Bowl cushion",
-  sub: "cloth over a loose fill", img: "bowlcushion",
-  hook: "A standing bowl rings in its wall, and the wall barely moves only in a narrow band near the base — so that band is the one place anything is allowed to touch. A ring cushion of cloth over a loose fill does two jobs at once: it holds the bowl steady, and it is soft enough to mould itself to the base instead of making the hard point contact that would short the vibration out. Set the same bowl on a bare table and it goes dull and buzzes; the cushion is not decoration, it is the mount.",
+  sub: "cloth over a loose fill", img: "bowlcushion", extra: ["bowlcushion2"],
+  hook: "A standing bowl rings in its wall, which is still only in a narrow band near the base, so that band is the one place anything may touch. On a bare table the bowl goes dull and buzzes; the cushion is the mount.",
+  more: "The wall bends in lobes round the rim swinging in and out, and the motion falls to almost nothing at the foot; a ring cushion of brocade over a loose fill touches only there, moulds to the curve so there is no hard point of contact, and is lossy enough to swallow the chatter between bowl and support. The Japanese rin sits on a padded ring, the Himalayan bowl on a stuffed doughnut, the gong hangs from cord, for the same reason: hold the instrument where it is already quiet. The costs: a cushion too small lets the bowl rock and clack, too big and it climbs the wall and damps the note; the fill packs down and the silk wears through; and a bowl set straight on a shop table sounds like a saucepan, which is how saucepans get sold.",
   stats: [["Touches", "only the quiet band near the base"], ["Fill", "loose, so it moulds to the bowl"], ["Bare table", "dull note and a buzz"]],
   uses: "Temple rin and singing bowls, gong cushions and stands, sound therapy sets.",
   link: "https://en.wikipedia.org/wiki/Standing_bell"
 },
 {
   id: "soundpost", cat: "music", name: "Soundpost",
-  sub: "a spruce dowel held by friction", img: "soundpost",
-  hook: "A stick of spruce about six millimetres thick, wedged between belly and back with no glue at all, its ends cut to match the curve of each plate so it stands up on friction alone. It stiffens the treble side so the bridge rocks instead of pumping the whole top, and moving it a millimetre is audible — it is the largest single adjustment anyone makes to a finished instrument. Leaving it unglued is also the safety feature: a hard knock drops the post instead of cracking the plates.",
+  sub: "a spruce dowel held by friction", img: "soundpost", extra: ["soundpost2", "soundpost3"],
+  hook: "A spruce stick six millimetres thick, wedged between belly and back unglued, its ends cut to each plate's curve so it stands on friction. A millimetre's move is audible: the biggest adjustment to a finished violin.",
+  more: "The post stands just behind the treble foot of the bridge and ties top to back there, so when the bridge rocks under the bow the treble side is held and the bass side pumps the top, which is where a violin's volume comes from. A luthier fits each end to the inside arch, sets it through the f-hole with a bent setter, then moves it by fractions of a millimetre while the player listens: nearer the bridge for brighter, further for darker. The costs: it is set by ear and no two makers agree where; it falls over if the strings come off, so a violin is never fully unstrung; a post too long cracks the top from inside, too short falls at the first knock; it loosens in a dry winter; and the French call it the soul, which tells you how much argument it causes.",
   stats: [["Held by", "friction alone, never glued"], ["Adjusted in", "fractions of a millimetre"], ["Doubles as", "the fuse against a knock"]],
   uses: "Violins, violas, cellos and basses; some lutes, guitars and viols.",
   link: "https://en.wikipedia.org/wiki/Sound_post"
 },
 {
   id: "violinbridge", cat: "music", name: "Bridge maple",
-  sub: "cut to fit one instrument", img: "violinbridge",
-  hook: "The bridge is held on by string pressure alone, and its feet are cut by hand to the exact arch of that one belly — move it to another instrument of the same model and it fits nothing. Quarter-sawn maple is used because it has to be stiff enough not to fold under roughly nine kilograms of downward load and still light enough to move at audio frequencies. The cut-out waist, heart and kidneys are a tuned filter rather than decoration: they put a broad resonance somewhere near 2–3 kHz, right where the ear is sharpest.",
-  stats: [["Held by", "string pressure, no glue"], ["Load", "about 9 kg pressing down"], ["Bridge hill", "a broad peak near 2–3 kHz"]],
+  sub: "cut to fit one instrument", img: "violinbridge", extra: ["violinbridge2", "violinbridge3"],
+  hook: "Held on by string pressure alone, its feet cut by hand to the arch of that one belly; move it to another instrument and it fits nothing. The cut-out heart and kidneys are a tuned filter, not decoration.",
+  more: "A blank of quarter-sawn maple is thinned, its feet carved to sit flat on the arching, and its waist, heart and kidneys opened until it flexes as the maker wants; under nine kilograms of string load it must be stiff enough not to warp and light enough to move at audio frequencies, and the cut-outs put a broad resonance near two to three kilohertz, where the ear is sharpest, which is why a violin carries over an orchestra. The costs: it is never glued, so it creeps forward with tuning and must be pulled upright or it warps and snaps; it fits one instrument and one set of strings; too thick is dull, too thin is shrill and short-lived; each replacement costs a luthier an hour or two; and the player cannot see what the maker did to it.",
+  stats: [["Held by", "string pressure, no glue"], ["Load", "about 9 kg pressing down"], ["Bridge hill", "a broad peak near 2 to 3 kHz"]],
   uses: "Violin family and double bass, and in other forms most stringed instruments.",
   link: "https://en.wikipedia.org/wiki/Bridge_(instrument)"
 },
 {
   id: "bonesaddle", cat: "music", name: "Nut and saddle",
-  sub: "bone, Micarta or sintered polymer", img: "bonesaddle",
-  hook: "Every string ends on a hard little block, and that block has to be harder than the string, uniform the whole way through, and slippery enough that the string slides across it while being tuned instead of catching and then jumping sharp. Bone has been the default for centuries because it is dense, takes a polish and has a bright attack — but no two pieces are alike and some are porous enough to deaden one string out of six. Micarta and sintered polymers give up a little of that brightness for blanks that are all identical, which is what a factory and a repairer both want.",
-  stats: [["Harder than", "the string that sits on it"], ["Must", "let the string slide while tuning"], ["Bone", "dense and bright, but never twice the same"]],
+  sub: "bone, Micarta or sintered polymer", img: "bonesaddle", extra: ["bonesaddle2", "bonesaddle3"],
+  hook: "Every string ends on a hard block: harder than the string, and slippery enough that the string slides over it in tuning, not catching and jumping sharp. Bone has been the default for centuries; no two pieces match.",
+  more: "Nut and saddle set the speaking length of every string and pass its vibration on, so they want a material hard, dense, low in damping and easy to file: cattle bone, boiled and bleached, has been that since the lute, and a fitted bone saddle gives a bright attack that cheap plastic does not. Micarta, a linen-phenolic laminate, and sintered polymers like Tusq are bone without the lottery: every blank the same, moulded for a factory to drop in. The costs: one bone blank in several has a porous streak that deadens the string on it, found too late; it smells of the dentist when filed; a slot a tenth of a millimetre too deep buzzes and too shallow plays sharp; and the synthetics give up a little brightness, which players argue about and rarely hear.",
+  stats: [["Harder than", "the string that sits on it"], ["Must", "let the string slide while tuning"], ["Bone", "dense and bright, never twice the same"]],
   uses: "Guitar nuts and saddles, mandolin and banjo bridges, harp and zither bearing points.",
   link: "https://en.wikipedia.org/wiki/Nut_(string_instrument)"
 },
 {
   id: "hideglue", cat: "music", name: "Hot hide glue",
-  sub: "collagen, brushed on at about 60 °C", img: "hideglue",
-  hook: "Collagen boiled out of hide and bone, kept molten in a pot at around 60 °C and brushed on hot, where it gels as it cools — which gives perhaps ten seconds to close the joint. It dries hard and glassy rather than rubbery, and that is the whole point: a flexible glue line inside a violin would swallow the vibration the wood is trying to pass along. It also releases with heat and water, so a three-hundred-year-old instrument can be opened and closed again, and the maker gets to decide which joint lets go first when the thing is dropped.",
-  stats: [["Worked at", "about 60 °C, sets as it cools"], ["Dry joint", "hard and glassy, not rubbery"], ["Reversible", "with heat and moisture"]],
-  uses: "Violin family and acoustic guitars, piano actions, furniture restoration, gilding.",
+  sub: "collagen, brushed on at about 60 degrees", img: "hideglue", extra: ["hideglue2", "hideglue3"],
+  hook: "Collagen from hide, kept molten at 60 degrees and brushed on hot; it gels as it cools, ten seconds to close the joint. It dries hard and glassy, not rubbery: a flexible joint in a violin would swallow the vibration.",
+  more: "Hide scraps are cooked to gelatin, dried to amber granules, then soaked and warmed to a thin syrup; brushed on and clamped it gels in seconds and shrinks as it dries, pulling the joint tight. The dry film is harder than the wood and too thin to add mass, so a violin top can be glued on all round and still ring, and it opens with a hot knife and a damp cloth, so an old instrument can be taken apart and put back; the maker also chooses which joint lets go first when the thing is dropped. The costs: the open time is seconds, so a big joint needs hot wood and practice; the pot goes off in a day or two and stinks; it will not fill a gap, so the joint must fit dry; and modern glues hold better, which is why restorers refuse them.",
+  stats: [["Worked at", "about 60 degrees, sets as it cools"], ["Dry joint", "hard and glassy, not rubbery"], ["Reversible", "with heat and moisture"]],
+  uses: "Violin family and acoustic guitars, piano actions, furniture restoration, gilding, bookbinding.",
   link: "https://en.wikipedia.org/wiki/Hide_glue"
 },
 {

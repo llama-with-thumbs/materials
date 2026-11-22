@@ -1085,11 +1085,20 @@ clapper3|commons|Weißenkirchen Kirche alte Klöppel.jpg|Old forged clappers ret
 cymbalfelt|commons|Cymbal stand buttons and disassembled bolts.JPG|Cymbal stand tops taken apart: felts, plastic sleeves, washers and nuts|photo
 cymbalfelt2|commons|Hi-hat clutch on a cymbal.JPG|A hi-hat clutch on its cymbal, the felts either side of the plate|product
 cymbalfelt3|commons|Spinbal.jpg|A ball-bearing cymbal mount with its felts|product
-bowlcushion|commons|Rin gong at Kiyomizu-dera, Kyoto.JPG|A temple rin resting on its brocade ring cushion, Kiyomizu-dera in Kyoto|photo
+bowlcushion|commons|Orin by CR.jpg|A Japanese rin on its brocade cushion and lacquered stand: the bowl touches only the pad|product
+bowlcushion2|commons|Rin gong at Kiyomizu-dera, Kyoto.JPG|A temple rin on its ring cushion, Kiyomizu-dera in Kyoto|photo
 soundpost|commons|Soundpost end.jpg|The foot of a soundpost, seen through the treble f-hole|photo
+soundpost2|commons|Stimmstock-CIMG2005.JPG|Raw soundpost dowels at a string maker's: spruce, split straight|process
+soundpost3|commons|Kemence soundpost.jpg|The same idea in a Black Sea kemence, the post standing in plain view|related
 violinbridge|commons|Cello bridge.jpg|The bridge of a cello, standing on string pressure alone|photo
+violinbridge2|commons|Despiau front.JPG|A Despiau blank before cutting: quarter-sawn maple, the ray flecks showing|process
+violinbridge3|commons|In the workshop of a luthier 18.jpg|A bridge set on an unfinished violin in a Linz workshop|process
 bonesaddle|commons|Classical Guitar Bridge Bone.jpg|The bridge of a classical guitar with its bone saddle|photo
+bonesaddle2|commons|Yamaha FG720S-12 headstock with Bone Nut installed.jpg|A hand-cut bone nut on a twelve-string, replacing the plastic one|product
+bonesaddle3|commons|Bridge of Acoustic guitar by Kay type K 235.jpg|A steel-string bridge with its saddle and pins|product
 hideglue|commons|Knochenleim Granulat.jpg|Animal glue granules, ready to be soaked and melted|photo
+hideglue2|commons|Animal glue liquid.jpg|Hot glue running off the brush, the few seconds it stays open|process
+hideglue3|commons|Dissolving hide glue 1.jpeg|Hide glue granules soaking before the water bath|process
 shockmount|commons|AKG C214 condenser microphone with H85 shock mount.jpg|A condenser microphone slung in an elastic shock mount|photo
 endpin|commons|Cello endpin.JPG|A cello endpin — the steel spike, with its rubber cap beside it|photo
 nb3sn|Flickr|https://live.staticflickr.com/4202/34860816181_5e2e163cfc_b.jpg|An exploded view of ITER's central solenoid conductor, cabled from niobium-tin|product|CC BY-SA 2.0|ChaSanabria|https://www.flickr.com/photos/98777507@N04/34860816181

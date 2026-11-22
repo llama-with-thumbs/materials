@@ -12986,15 +12986,27 @@ window.CREDITS = {
   },
   "bowlcushion": {
     "file": "bowlcushion.jpg",
-    "caption": "A temple rin resting on its brocade ring cushion, Kiyomizu-dera in Kyoto",
+    "caption": "A Japanese rin on its brocade cushion and lacquered stand: the bowl touches only the pad",
+    "kind": "product",
+    "title": "Orin by CR.jpg",
+    "site": "Wikimedia",
+    "artist": "Corpse Reviver",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Orin_by_CR.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "bowlcushion2": {
+    "file": "bowlcushion2.jpg",
+    "caption": "A temple rin on its ring cushion, Kiyomizu-dera in Kyoto",
     "kind": "photo",
     "title": "Rin gong at Kiyomizu-dera, Kyoto.JPG",
+    "site": "Wikimedia",
     "artist": "MichaelMaggs",
     "license": "CC BY-SA 2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Rin_gong_at_Kiyomizu-dera,_Kyoto.JPG",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
   },
   "soundpost": {
     "file": "soundpost.jpg",
@@ -13008,6 +13020,30 @@ window.CREDITS = {
     "h": 823,
     "site": "Wikimedia"
   },
+  "soundpost2": {
+    "file": "soundpost2.jpg",
+    "caption": "Raw soundpost dowels at a string maker's: spruce, split straight",
+    "kind": "process",
+    "title": "Stimmstock-CIMG2005.JPG",
+    "site": "Wikimedia",
+    "artist": "Johann Pascher",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stimmstock-CIMG2005.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "soundpost3": {
+    "file": "soundpost3.jpg",
+    "caption": "The same idea in a Black Sea kemence, the post standing in plain view",
+    "kind": "related",
+    "title": "Kemence soundpost.jpg",
+    "site": "Wikimedia",
+    "artist": "JTE Dimandix",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kemence_soundpost.jpg",
+    "w": 960,
+    "h": 1280
+  },
   "violinbridge": {
     "file": "violinbridge.jpg",
     "caption": "The bridge of a cello, standing on string pressure alone",
@@ -13019,6 +13055,30 @@ window.CREDITS = {
     "w": 960,
     "h": 833,
     "site": "Wikimedia"
+  },
+  "violinbridge2": {
+    "file": "violinbridge2.jpg",
+    "caption": "A Despiau blank before cutting: quarter-sawn maple, the ray flecks showing",
+    "kind": "process",
+    "title": "Despiau front.JPG",
+    "site": "Wikimedia",
+    "artist": "Just plain Bill",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Despiau_front.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "violinbridge3": {
+    "file": "violinbridge3.jpg",
+    "caption": "A bridge set on an unfinished violin in a Linz workshop",
+    "kind": "process",
+    "title": "In the workshop of a luthier 18.jpg",
+    "site": "Wikimedia",
+    "artist": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:In_the_workshop_of_a_luthier_18.jpg",
+    "w": 960,
+    "h": 640
   },
   "bonesaddle": {
     "file": "bonesaddle.jpg",
@@ -13032,6 +13092,30 @@ window.CREDITS = {
     "h": 763,
     "site": "Wikimedia"
   },
+  "bonesaddle2": {
+    "file": "bonesaddle2.jpg",
+    "caption": "A hand-cut bone nut on a twelve-string, replacing the plastic one",
+    "kind": "product",
+    "title": "Yamaha FG720S-12 headstock with Bone Nut installed.jpg",
+    "site": "Wikimedia",
+    "artist": "Roadside Guitars",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yamaha_FG720S-12_headstock_with_Bone_Nut_installed.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "bonesaddle3": {
+    "file": "bonesaddle3.jpg",
+    "caption": "A steel-string bridge with its saddle and pins",
+    "kind": "product",
+    "title": "Bridge of Acoustic guitar by Kay type K 235.jpg",
+    "site": "Wikimedia",
+    "artist": "Elmschrat",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bridge_of_Acoustic_guitar_by_Kay_type_K_235.jpg",
+    "w": 960,
+    "h": 720
+  },
   "hideglue": {
     "file": "hideglue.jpg",
     "caption": "Animal glue granules, ready to be soaked and melted",
@@ -13043,6 +13127,30 @@ window.CREDITS = {
     "w": 960,
     "h": 638,
     "site": "Wikimedia"
+  },
+  "hideglue2": {
+    "file": "hideglue2.jpg",
+    "caption": "Hot glue running off the brush, the few seconds it stays open",
+    "kind": "process",
+    "title": "Animal glue liquid.jpg",
+    "site": "Wikimedia",
+    "artist": "Simon Eugster – Simon / ?! 15:03, 10 May 2008 (UTC)",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Animal_glue_liquid.jpg",
+    "w": 960,
+    "h": 636
+  },
+  "hideglue3": {
+    "file": "hideglue3.jpg",
+    "caption": "Hide glue granules soaking before the water bath",
+    "kind": "process",
+    "title": "Dissolving hide glue 1.jpeg",
+    "site": "Wikimedia",
+    "artist": "Simon A. Eugster",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dissolving_hide_glue_1.jpeg",
+    "w": 960,
+    "h": 638
   },
   "shockmount": {
     "file": "shockmount.jpg",
