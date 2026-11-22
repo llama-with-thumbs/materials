@@ -12636,6 +12636,30 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "singingsand2": {
+    "file": "singingsand2.jpg",
+    "caption": "Grains of singing sand under the microscope: rounded, and all much the same size",
+    "kind": "structure",
+    "title": "Sand Australia Gold Coast.jpg",
+    "site": "Wikimedia",
+    "artist": "PeterKopias",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sand_Australia_Gold_Coast.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "singingsand3": {
+    "file": "singingsand3.jpg",
+    "caption": "Avalanche tongues on a dune slip face: the sliding sheet is what sings",
+    "kind": "process",
+    "title": "Avalanche Slope on Dunes (46116909755).jpg",
+    "site": "Wikimedia",
+    "artist": "Great Sand Dunes National Park and Preserve",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Avalanche_Slope_on_Dunes_(46116909755).jpg",
+    "w": 960,
+    "h": 720
+  },
   "ringingrock": {
     "file": "ringingrock.jpg",
     "caption": "The boulder field at Ringing Rocks Park, Pennsylvania",
@@ -12647,6 +12671,30 @@ window.CREDITS = {
     "w": 960,
     "h": 640,
     "site": "Wikimedia"
+  },
+  "ringingrock2": {
+    "file": "ringingrock2.jpg",
+    "caption": "Visitors with hammers at Ringing Rocks, Montana, one of the few fields where striking is encouraged",
+    "kind": "process",
+    "title": "My Public Lands Roadtrip- Ringing Rocks in Montana (20754744252).jpg",
+    "site": "Wikimedia",
+    "artist": "mypubliclands",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:My_Public_Lands_Roadtrip-_Ringing_Rocks_in_Montana_(20754744252).jpg",
+    "w": 960,
+    "h": 640
+  },
+  "ringingrock3": {
+    "file": "ringingrock3.jpg",
+    "caption": "The same diabase lying in soil in Virginia: these do not ring",
+    "kind": "analog",
+    "title": "Diabase boulders 20210302.jpg",
+    "site": "Wikimedia",
+    "artist": "Jstuby",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Diabase_boulders_20210302.jpg",
+    "w": 960,
+    "h": 540
   },
   "steelpan": {
     "file": "steelpan.jpg",
@@ -12660,21 +12708,69 @@ window.CREDITS = {
     "h": 1702,
     "site": "Wikimedia"
   },
+  "steelpan2": {
+    "file": "steelpan2.jpg",
+    "caption": "Tuning a pan with a hammer, note by note",
+    "kind": "process",
+    "title": "Fiebre Boricua; Band Finds a New Rhythm at Guantanamo DVIDS163065.jpg",
+    "site": "Wikimedia",
+    "artist": "Staff Sgt. Emily Russell",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Fiebre_Boricua;_Band_Finds_a_New_Rhythm_at_Guantanamo_DVIDS163065.jpg",
+    "w": 960,
+    "h": 1450
+  },
+  "steelpan3": {
+    "file": "steelpan3.jpg",
+    "caption": "The bass battery of a Trinidad steel band: whole drums, skirts and all",
+    "kind": "product",
+    "title": "Oil Drum Battery (13512837255).jpg",
+    "site": "Wikimedia",
+    "artist": "David Stanley from Nanaimo, Canada",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oil_Drum_Battery_(13512837255).jpg",
+    "w": 960,
+    "h": 720
+  },
   "glassharp": {
     "file": "glassharp.jpg",
+    "caption": "A glass harp player in Cologne: wet fingers on the rims",
+    "kind": "process",
+    "title": "Glasharfenspielerin.jpg",
+    "site": "Wikimedia",
+    "artist": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glasharfenspielerin.jpg",
+    "w": 960,
+    "h": 960
+  },
+  "glassharp2": {
+    "file": "glassharp2.jpg",
     "caption": "A glass harp built in Brussels around 1850",
     "kind": "product",
     "title": "Glass Harp.jpg",
+    "site": "Wikimedia",
     "artist": "Kosboot",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Glass_Harp.jpg",
     "w": 960,
-    "h": 720,
-    "site": "Wikimedia"
+    "h": 720
+  },
+  "glassharp3": {
+    "file": "glassharp3.jpg",
+    "caption": "Franklin's armonica: lead-glass bowls nested on a spindle, early nineteenth century",
+    "kind": "related",
+    "title": "Glasses armonica (early 19th century), Museum of Fine Arts, Boston.jpg",
+    "site": "Wikimedia",
+    "artist": "mararie from Boston, United States",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Glasses_armonica_(early_19th_century),_Museum_of_Fine_Arts,_Boston.jpg",
+    "w": 960,
+    "h": 720
   },
   "handpan": {
     "file": "handpan.jpg",
-    "caption": "A handpan being played — nitrided sheet steel",
+    "caption": "A handpan being played: nitrided sheet steel",
     "kind": "product",
     "title": "Handpan 2014.jpg",
     "artist": "Toglenn",
@@ -12683,6 +12779,30 @@ window.CREDITS = {
     "w": 960,
     "h": 768,
     "site": "Wikimedia"
+  },
+  "handpan2": {
+    "file": "handpan2.jpg",
+    "caption": "The top shell held up: the central ding and the ring of note fields",
+    "kind": "photo",
+    "title": "Handpan player showing handpan at cathedral, Milan, Italy.jpg",
+    "site": "Wikimedia",
+    "artist": "Harvinder Chandigarh",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Handpan_player_showing_handpan_at_cathedral,_Milan,_Italy.jpg",
+    "w": 960,
+    "h": 1464
+  },
+  "handpan3": {
+    "file": "handpan3.jpg",
+    "caption": "A PANArt Hang, the original, on its stand",
+    "kind": "product",
+    "title": "The Hang (2947923613).jpg",
+    "site": "Wikimedia",
+    "artist": "Kuba Bożanowski from Warsaw, Poland",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Hang_(2947923613).jpg",
+    "w": 960,
+    "h": 1445
   },
   "springreverb": {
     "file": "springreverb.jpg",

@@ -4276,42 +4276,47 @@ window.MATERIALS = [
 },
 {
   id: "singingsand", cat: "music", name: "Booming sand",
-  sub: "dry, rounded, closely sized grains", img: "singingsand",
-  hook: "A few dozen dune fields in the world boom when sand avalanches down the lee face, loud enough to carry for about a kilometre and low enough to feel in the chest. It takes a narrow spread of grain size, well-rounded dry grains and a slope steep enough to slip; the shearing layer then locks into step with itself and radiates one note, usually somewhere around 70–105 Hz. Wet the sand or mix the sizes and the dune falls silent, so the effect lives in the packing rather than in the mineral.",
-  stats: [["Pitch", "roughly 70–105 Hz"], ["Needs", "dry, rounded, closely sized grains"], ["Carries", "about a kilometre"]],
+  sub: "dry, rounded, closely sized grains", img: "singingsand", extra: ["singingsand2", "singingsand3"],
+  hook: "A few dozen dune fields boom when sand avalanches down the lee face, loud enough to carry a kilometre and low enough to feel in the chest. Wet the sand or mix the grain sizes and it falls silent.",
+  more: "The grains are quartz, but dry, wind-rounded and sorted to a narrow band of size; when a slab slides on the slip face the shearing layer moves in a stick-slip of the whole sheet, every grain colliding in step, and the surface radiates the beat as one low note, 70 to 105 hertz, that can last a minute and shake the ground. Marco Polo heard it in the Gobi and wrote it down as spirits; Dunhuang, Kelso and Eureka do it on demand to anyone who slides down. The costs: it needs a hot, dry day and a steep face, so most visits are silent; a shower stops it for days and a humid climate for good; the pitch is set by the grain size alone; the physics was argued for a century and is not settled; and a dune that booms is a dune on the move.",
+  stats: [["Pitch", "roughly 70 to 105 Hz"], ["Needs", "dry, rounded, closely sized grains"], ["Carries", "about a kilometre"]],
   uses: "Dune fields from Dunhuang to the Mojave; a test case for how granular flows synchronise.",
   link: "https://en.wikipedia.org/wiki/Singing_sand"
 },
 {
   id: "ringingrock", cat: "music", name: "Ringing rock",
-  sub: "diabase boulders under locked-in stress", img: "ringingrock",
-  hook: "In a handful of boulder fields the rocks answer a hammer with a clear metallic ring rather than a thud, though the stone is ordinary fine-grained diabase. The fields are open and dry, the boulders rest on each other instead of in soil, and the rock still carries stress locked in by weathering — take a ringing boulder home and it often stops ringing. There is no single agreed explanation yet, which is unusual for something this easy to go and reproduce.",
+  sub: "diabase boulders under locked-in stress", img: "ringingrock", extra: ["ringingrock2", "ringingrock3"],
+  hook: "In a handful of boulder fields the rocks answer a hammer with a clear metallic ring instead of a thud, though the stone is ordinary diabase. Take a ringing boulder home and it often stops ringing.",
+  more: "The fields are open, dry and bare of soil, the blocks resting on each other rather than the ground, free to vibrate like a bell on a cushion; strike one and perhaps a third give a clear tone, looking no different from the dumb ones. The best guess since the 1960s is residual stress: the rock weathers from the outside in, the skin tightens round an unchanged core, and that locked-in tension stiffens the block and cuts its damping; move it into the damp or into soil and the note goes. The costs: a ringing rock is only a rock, so it is percussion at best; the fields are protected and the hammering tolerated rather than encouraged; the boulders cannot be moved without losing what makes them interesting; and the explanation is still a hypothesis.",
   stats: [["Rock", "fine-grained diabase"], ["Needs", "an open dry field, boulder on boulder"], ["Cause", "locked-in stress, still argued"]],
-  uses: "Ringing Rocks Park in Pennsylvania, Montana and elsewhere; struck-stone percussion.",
+  uses: "Ringing Rocks Park in Pennsylvania, Ringing Rocks in Montana and a few other fields; struck-stone percussion.",
   link: "https://en.wikipedia.org/wiki/Ringing_rocks"
 },
 {
   id: "steelpan", cat: "music", name: "Oil-drum steel",
-  sub: "a barrel end, sunk and tuned", img: "steelpan",
-  hook: "The one acoustic instrument invented in the twentieth century, and it was invented out of rubbish: the end of a 55-gallon oil drum, sunk into a bowl with a sledgehammer and then raised into note areas with a punch. The hammering work-hardens and pre-stresses the mild sheet, and the tuner shapes each area until its octave and fifth fall in with its fundamental — a thin steel plate talked into behaving harmonically. Pans are chromed or chemically treated now, because rust and the slow loss of that locked-in stress both pull the instrument out of tune.",
+  sub: "a barrel end, sunk and tuned", img: "steelpan", extra: ["steelpan2", "steelpan3"],
+  hook: "The one acoustic instrument invented in the twentieth century, and it was invented out of rubbish: the end of an oil drum, sunk into a bowl with a sledgehammer and raised into notes with a punch.",
+  more: "The lid of a mild-steel drum is beaten down into a dish, which work-hardens the sheet and leaves it in tension like a drumhead; the tuner grooves the outlines of the notes, hammers each area up into a dome whose size sets its pitch, and keeps hammering until the octave and fifth of each dome fall in tune with its fundamental, so one patch of steel sounds like a chord. Trinidad built it out of biscuit tins and dustbin lids in the 1940s, after the government banned drums. The costs: the steel rusts and a rusting pan goes out of tune, so pans are chromed; the stresses creep, so a pan drifts and needs a tuner, rarer than the player; a hard stick dents a note out of pitch; and a tenor pan carries two and a half octaves, so a band is a family of pans.",
   stats: [["From", "the end of a steel drum"], ["Tuned by", "hammering each note area"], ["Each note", "fundamental, octave and fifth aligned"]],
-  uses: "Steel bands and panorama orchestras, carnival, school and community ensembles.",
+  uses: "Steel bands and panorama orchestras, carnival, school and community ensembles, film and pop sessions.",
   link: "https://en.wikipedia.org/wiki/Steelpan"
 },
 {
   id: "glassharp", cat: "music", name: "Rubbed glass",
-  sub: "stemware as an instrument", img: "glassharp",
-  hook: "Ordinary stemware does something nobody designed it to do: a wet finger dragged round the rim grabs and releases it hundreds of times a second, drives the bending mode of the bowl, and the pitch follows how much water is in the glass. It works because glass has almost no internal damping — the same property that makes a dropped tumbler ring as it breaks. Lead crystal damps even less, which is what these were built from when they were built as instruments.",
-  stats: [["Driven by", "stick-slip from a wet finger"], ["Tuned by", "the water level"], ["Works because", "glass barely damps"]],
-  uses: "Glass harps and glass harmonicas, tuned bowl sets, physics demonstrations.",
+  sub: "stemware as an instrument", img: "glassharp", extra: ["glassharp2", "glassharp3"],
+  hook: "Stemware does something nobody designed it to do: a wet finger dragged round the rim grabs and lets go hundreds of times a second, drives the bending mode of the bowl, and the pitch follows the water in the glass.",
+  more: "A goblet rings because glass has almost no internal friction: the bowl flexes in a four-lobed mode and a wet fingertip, which sticks and slips a few hundred times a second, feeds that mode as a bow feeds a string. Water adds mass to the wall and lowers the note, so identical glasses can be tuned with a jug; glasses ground to different sizes need none, and that is the glass harp of the 1740s, which Franklin mechanised in 1761 as the armonica, nested bowls on a spindle. The costs: the sound is quiet and pure to the point of eeriness, which got the armonica blamed for madness and banned in some towns; the tuning drifts as the water evaporates; the glasses are glass; and the finger must be clean, wet and bare, so hand cream can silence it.",
+  stats: [["Driven by", "stick-slip from a wet finger"], ["Tuned by", "the water level, or the glass size"], ["Works because", "glass barely damps"]],
+  uses: "Glass harps and glass armonicas, tuned bowl sets, physics demonstrations, film scores.",
   link: "https://en.wikipedia.org/wiki/Glass_harp"
 },
 {
   id: "handpan", cat: "music", name: "Nitrided pan steel",
-  sub: "deep-drawn sheet, case-hardened", img: "handpan",
-  hook: "A handpan is two deep-drawn steel shells glued rim to rim, each note area hammered until its octave and fifth lock onto its fundamental, so one dome sounds a chord. Bare sheet steel rusts and a rusting pan drifts out of tune, so makers hold the shells in ammonia gas at around 500 °C until the surface turns to iron nitride: a hard, corrosion-resistant case a few hundredths of a millimetre deep, with soft steel left underneath to do the vibrating. It is a heat treatment borrowed straight from gearboxes and crankshafts.",
+  sub: "deep-drawn sheet, case-hardened", img: "handpan", extra: ["handpan2", "handpan3"],
+  hook: "Two steel shells glued rim to rim, each note hammered until its octave and fifth lock onto its fundamental, so one dome sounds a chord. The shells are nitrided, as gearbox parts are, because a rusting pan drifts.",
+  more: "A disc of sheet a millimetre thick is pressed into a shallow dome, the note fields are hammered into it as dimples, and a central dome, the ding, holds the lowest note; a second shell is glued underneath. PANArt in Bern made the first in 2000, the Hang. The nitriding came from PANArt too: the shells sit in ammonia at around 500 degrees until the surface turns to iron nitride, a hard, rust-resistant skin a few hundredths of a millimetre deep over soft steel that does the vibrating. The costs: each pan is tuned by hand and ear over days, so it costs what a guitar does; the notes drift if the pan is dropped, left in a hot car or played hard; the scale is fixed at eight or nine notes, so a player needs several; and a bad one sounds like a saucepan.",
   stats: [["Shell", "deep-drawn sheet steel"], ["Case", "iron nitride, gas-nitrided"], ["Each note", "fundamental, octave, fifth"]],
-  uses: "Handpans and steel tongue drums, percussion for film, street and studio.",
+  uses: "Handpans and steel tongue drums, percussion for film, street and studio, sound therapy.",
   link: "https://en.wikipedia.org/wiki/Handpan"
 },
 {

@@ -1056,10 +1056,20 @@ tuningfork|commons|Diapason Wittner à branches carrées à 440 Hz.jpg|A chromed
 tuningfork2|commons|Tuning forks - Various frequencies.jpg|A set of forks: the same steel, the pitch in the length of the tines|product
 tuningfork3|commons|Alarm Clock Balance Wheel.jpg|A clock balance wheel and its hairspring, the other job Elinvar was invented for|related
 singingsand|commons|Singing Sand Dunes and Crescent Lake (20230918100733).jpg|The Mingsha singing dunes at Dunhuang|photo
+singingsand2|commons|Sand Australia Gold Coast.jpg|Grains of singing sand under the microscope: rounded, and all much the same size|structure
+singingsand3|commons|Avalanche Slope on Dunes (46116909755).jpg|Avalanche tongues on a dune slip face: the sliding sheet is what sings|process
 ringingrock|commons|Boulder field, Ringing Rocks Park, Bridgeton Township, PA.jpg|The boulder field at Ringing Rocks Park, Pennsylvania|photo
+ringingrock2|commons|My Public Lands Roadtrip- Ringing Rocks in Montana (20754744252).jpg|Visitors with hammers at Ringing Rocks, Montana, one of the few fields where striking is encouraged|process
+ringingrock3|commons|Diabase boulders 20210302.jpg|The same diabase lying in soil in Virginia: these do not ring|analog
 steelpan|commons|Steelpan.jpeg|A tenor steelpan, sunk and tuned from a barrel end|product
-glassharp|commons|Glass Harp.jpg|A glass harp built in Brussels around 1850|product
-handpan|commons|Handpan 2014.jpg|A handpan being played — nitrided sheet steel|product
+steelpan2|commons|Fiebre Boricua; Band Finds a New Rhythm at Guantanamo DVIDS163065.jpg|Tuning a pan with a hammer, note by note|process
+steelpan3|commons|Oil Drum Battery (13512837255).jpg|The bass battery of a Trinidad steel band: whole drums, skirts and all|product
+glassharp|commons|Glasharfenspielerin.jpg|A glass harp player in Cologne: wet fingers on the rims|process
+glassharp2|commons|Glass Harp.jpg|A glass harp built in Brussels around 1850|product
+glassharp3|commons|Glasses armonica (early 19th century), Museum of Fine Arts, Boston.jpg|Franklin's armonica: lead-glass bowls nested on a spindle, early nineteenth century|related
+handpan|commons|Handpan 2014.jpg|A handpan being played: nitrided sheet steel|product
+handpan2|commons|Handpan player showing handpan at cathedral, Milan, Italy.jpg|The top shell held up: the central ding and the ring of note fields|photo
+handpan3|commons|The Hang (2947923613).jpg|A PANArt Hang, the original, on its stand|product
 springreverb|commons|Spring Reverb 8325.jpg|A spring reverb tank with the lid off|photo
 thermowood|commons|Thermoholz vergleich.JPG|Ash before and after thermal modification|photo
 headstock|commons|Avebury St James - old bell headstock - geograph.org.uk - 7250336.jpg|An old wooden bell headstock, taken out of the tower at Avebury|photo
