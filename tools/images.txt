@@ -1295,10 +1295,20 @@ eiderdown|commons|Common eider nest (6728250085).jpg|An eider nest: the eggs bed
 eiderdown2|commons|Ohreinsadur-aedardunn.jpg|Raw eiderdown as gathered in Skaleyjar, Iceland, hay and all|photo
 eiderdown3|commons|Dunhreinsun2.jpg|A farmer in Skaleyjar cleaning and drying eiderdown, still full of hay|process
 shearling|commons|Shearling Coat for Men Hood Detail.jpg|The collar of a shearling coat, wool pile inside and tanned skin out|product
-alpaca|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1946.227/1946.227_web.jpg|A tunic woven from alpaca wool, plain weave with embroidery|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1946.227
+shearling2|commons|Shearling Leather Coat Inside1.jpg|Inside a shearling coat: the sheared pile is the lining, grown in|product
+shearling3|commons|02017 1175 Waldkarpaten-Schaffellhandel, Lutowiska.jpg|Tanned sheepskins hung out for sale in the Carpathians|product
+alpaca|commons|Alpaca fleece.JPG|A huacaya fleece close up: dense, fine and only faintly crimped|structure
+alpaca2|commons|Alpaca fleece stall at Feria Dominicial in Juliaca, Puno, Perú.jpg|Fleeces sorted by colour on a Sunday market stall in Juliaca, Puno|product
+alpaca3|commons|Dülmen, Börnste, Alpakas -- 2020 -- 5462.jpg|The animal, a huacaya a few months into its coat|related
 angora|commons|Satinangora rot Garn und Flocke.jpg|Plucked angora rabbit fur and the yarn spun from it|photo
-camelhair|Cleveland Museum of Art|https://openaccess-cdn.clevelandart.org/1961.385/1961.385_web.jpg|A knotted carpet of wool, cotton and camel hair|product|CC0|Cleveland Museum of Art|https://clevelandart.org/art/1961.385
-vicuna|Flickr|https://live.staticflickr.com/65535/52359920912_1b88e8443a_b.jpg|Vicuna fleece, yarn and woven cloth laid out on a display table|photo|CC BY-SA 2.0|SecretarÃ­a de Cultura - Argentina|https://www.flickr.com/photos/culturaargentina/52359920912
+angora2|commons|Satin Angora Rabbit plucked from the back.JPG|A satin angora half plucked: the loose coat comes away by hand|process
+angora3|commons|Angora wool garment close up.jpg|An angora blend knit: the halo that is the whole point|product
+camelhair|commons|Camelus bactrianus in western Mongolia 06.jpg|A Bactrian camel in Khovd in spring, the winter coat coming away in sheets|photo
+camelhair2|commons|CSIRO ScienceImage 6862 Camel hair fibre.jpg|A camel hair under the electron microscope: the scales are low and smooth|structure
+camelhair3|commons|A camels hair being shorn at Pushkar..jpg|Shearing a dromedary at the Pushkar fair: the other camel, and the other way of getting the hair|related
+vicuna|commons|Diferentes lanas de vicuña - Conversatorio Las Manos que Piensan (Textiles).jpg|Vicuna fleece, yarn and woven cloth laid out on a display table in Santiago del Estero|photo
+vicuna2|commons|Manejo sustentable de la vicuña.jpg|A community chaccu: the human chain walking the wild herd towards the funnel|process
+vicuna3|commons|Vicuña Vigogne Lago Chungarà 4570m Chile Luca Galuzzi 2006.jpg|Vicuna grazing at 4570 m by Lake Chungara, Chile|related
 reindeerhide|commons|Reindeer hides.jpg|Reindeer hides on a market stall in Helsinki|photo
 flannel|Flickr|https://live.staticflickr.com/7812/46846780662_15f23e121b_b.jpg|A flannel shirt photographed close enough to show the raised nap|photo|CC BY 2.0|Lisa Zins|https://www.flickr.com/photos/lisazins/46846780662
 polyfill|commons|Polyfill.jpg|A handful of siliconised hollow polyester fibrefill|photo
