@@ -1421,10 +1421,20 @@ parafilm|commons|Parafilm roll.jpg|A roll of Parafilm|photo
 parafilm2|commons|Parafilm Petridish et Glassware.jpg|Beakers and Petri dishes sealed with it, stretched over the rims|photo
 parafilm3|commons|Rose chip budding, after 192 days (parafilm and grafting tape removed) - 2.jpg|A rose chip graft six months on, the Parafilm just taken off|related
 esdbag|commons|Antistatic Bags.jpg|A pink antistatic bag and a silver static-shielding bag|photo
+esdbag2|commons|ESD Verpackung.jpg|A network card inside a gridded shielding bag, the metal layer showing as a tint|product
+esdbag3|commons|ESD label.jpg|The warning label printed on the bag|product
 geomembrane|commons|Geomembrane installation.jpg|An HDPE geomembrane being laid as a landfill base liner|photo
-mulchfilm|Flickr|https://live.staticflickr.com/65535/48857227113_d1fae4d3c9_b.jpg|Strawberries on plastic mulch with drip irrigation under it|product|CC BY 2.0|water.alternatives|https://www.flickr.com/photos/143925215@N04/48857227113
-balewrap|Flickr|https://live.staticflickr.com/2467/3787178174_afc0ac95a9_b.jpg|Hay bales wrapped in stretch film|product|CC BY 2.0|Bobolink|https://www.flickr.com/photos/24854893@N00/3787178174
-microfilm|Flickr|https://live.staticflickr.com/5497/9957207095_108d7fa8ac_b.jpg|Boxes of microfilm on archive shelves|product|CC BY-SA 2.0|Luke McKernan|https://www.flickr.com/photos/33718942@N07/9957207095
+geomembrane2|commons|Geomembrana AGS.jpg|The black liner running up the side slope of a landfill cell|photo
+geomembrane3|commons|NNSA-NSO-1303.jpg|Extrusion-welding a liner boot round access tubes at a landfill closure in Nevada|process
+mulchfilm|commons|Strawberry field using black mulch in Umm Haratayn al-Gharbiyah, Homs.jpg|Strawberries on beds of black plastic mulch near Homs, Syria|photo
+mulchfilm2|commons|Plastic Laying Machine 1.jpg|A tractor-drawn layer forming the bed, unrolling the film and burying its edges in one pass|process
+mulchfilm3|commons|Mulch film Bio-Flex biodegraded.JPG|A starch-blend mulch film part way through rotting into the soil|photo
+balewrap|commons|Wrapped bales 3232.jpg|A stack of silage bales in pale green film, Titisee-Neustadt|product
+balewrap2|commons|Watching the bale wrapping machine - geograph.org.uk - 3552933.jpg|A wrapper spinning a bale under the film dispenser|process
+balewrap3|commons|Litter from plastic balage wrappings.JPG|Where the film goes: bale wrap dumped by a road in the Catlins, New Zealand|photo
+microfilm|commons|MCA NYT positive silver microfilm reel in position 1B.jpg|A reel of the New York Times for 1973, silver-gelatin positive, the pages visible as frames|photo
+microfilm2|commons|Microfilm Reader at Huron University College.jpg|The reader: a lamp, a lens and a screen|product
+microfilm3|commons|Kurs- och tidningsbiblioteket mikrofilmer.jpg|Boxed reels of a newspaper run on library shelves in Gothenburg|product
 shrinkart|Flickr|https://live.staticflickr.com/3230/2652714573_d645b61cc2_b.jpg|Shrunk pieces of biaxially oriented polystyrene sheet|photo|CC BY-SA 2.0|Nucho|https://www.flickr.com/photos/nucho/2652714573
 lcfilm|commons|Thermochromic thermometer.jpg|A liquid crystal thermometer strip reading 24 °C|photo
 feelerstock|commons|Parallel feeler gauge (imperial and metric)-92397.jpg|A feeler gauge fanned open|product
