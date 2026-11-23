@@ -1405,11 +1405,21 @@ ldpefilm3|commons|Plastic sheets, Eastdown - geograph.org.uk - 5793384.jpg|Blown
 pdlcfilm|commons|VITSWELL PDLC FILM.jpg|A sheet of PDLC switchable film with its leads|photo
 pdlcfilm2|commons|VITSWEL SMART WINDOW.jpg|The same film in a window, power off and power on|product
 pdlcfilm3|commons|HK TKT 大角咀道 86 Tai Kok Tsui Road 九龍珀麗酒店 Rosedale Kowloon Hotel room bathroom smart atomized glass September 2021 SS2 02.jpg|A hotel bathroom wall of switchable glass in Kowloon, here frosted|product
-capfilm|commons|Wiki-Folkos-P1090317-1.jpg|Plastic film capacitors, axial and radial|product
+capfilm|commons|Cut through MKP XY RFI film capacitor.jpg|A mains filter capacitor sawn through: the wound layers of metallised polypropylene|structure
+capfilm2|commons|Emerson Network Power 7001232-J200 - Film capacitor KNB1560 MKP-92806.jpg|An X2 mains filter capacitor on a power supply board, the MKP code meaning metallised polypropylene|product
+capfilm3|commons|Wiki-Folkos-P1090317-1.jpg|Plastic film capacitors, axial and radial|product
 nitratefilm|commons|Nitrate Deterioration.jpg|A cellulose nitrate negative in the late stages of decay, the image gone|photo
-sailfilm|NASA|https://images-assets.nasa.gov/image/MSFC-1601350/MSFC-1601350~medium.jpg|The NEA Scout solar sail, aluminised polyimide film, deployed for test|product|Public domain|NASA/MSFC|https://images.nasa.gov/details/MSFC-1601350
-ptfetape|Flickr|https://live.staticflickr.com/3483/3951457964_c49dc6e614_b.jpg|A roll of PTFE thread seal tape|product|CC BY-SA 2.0|suzyq212|https://www.flickr.com/photos/88722241@N00/3951457964
+nitratefilm2|commons|EYE Film Institute Netherlands - Nitrate film decay - 3.JPG|A can of cinema film at the EYE archive in Amsterdam, the reel gone to brown tar|photo
+nitratefilm3|commons|FilmarchivBundesarchivHoppegartenNitro.jpg|The nitrate vaults of the German Federal Archives at Hoppegarten: small, earth-banked and far apart|product
+sailfilm|commons|Advanced Composite Solar Sail System testing.jpg|The ACS3 sail unfurled for test at NASA Langley: eighty square metres of aluminised film on composite booms|product
+sailfilm2|commons|Solar sail material.jpg|The film itself: a sample of sail material on an engineer's fingertip at Marshall|photo
+sailfilm3|commons|LightSail 2 Deployment Test.jpg|LightSail 2 after a deployment test at Cal Poly, 2016: a loaf-sized satellite under thirty-two square metres of sail|product
+ptfetape|commons|PTFE Tape.png|A brass fitting with two turns of tape on its tapered thread, wound with the lay of tightening|photo
+ptfetape2|commons|PTFE tape.jpg|A roll of the tape, a length pulled off|product
+ptfetape3|commons|シールテープ施工.jpg|Wrapping the tape onto a thread|process
 parafilm|commons|Parafilm roll.jpg|A roll of Parafilm|photo
+parafilm2|commons|Parafilm Petridish et Glassware.jpg|Beakers and Petri dishes sealed with it, stretched over the rims|photo
+parafilm3|commons|Rose chip budding, after 192 days (parafilm and grafting tape removed) - 2.jpg|A rose chip graft six months on, the Parafilm just taken off|related
 esdbag|commons|Antistatic Bags.jpg|A pink antistatic bag and a silver static-shielding bag|photo
 geomembrane|commons|Geomembrane installation.jpg|An HDPE geomembrane being laid as a landfill base liner|photo
 mulchfilm|Flickr|https://live.staticflickr.com/65535/48857227113_d1fae4d3c9_b.jpg|Strawberries on plastic mulch with drip irrigation under it|product|CC BY 2.0|water.alternatives|https://www.flickr.com/photos/143925215@N04/48857227113
