@@ -16646,15 +16646,39 @@ window.CREDITS = {
   },
   "stretchwrap": {
     "file": "stretchwrap.jpg",
-    "caption": "A roll of hand stretch wrap",
-    "kind": "product",
-    "title": "https://live.staticflickr.com/65535/49465232058_40ac8efb8e_b.jpg",
-    "site": "Flickr",
-    "artist": "hireahelper",
-    "license": "CC BY 2.0",
-    "page": "https://www.flickr.com/photos/158517012@N07/49465232058",
+    "caption": "An airman stretching film round a cargo pallet at Ramstein: the film goes on under tension",
+    "kind": "process",
+    "title": "Day or Night – Dawgs on-site (9766866).jpg",
+    "site": "Wikimedia",
+    "artist": "U.S. Air Force photo by Airman 1st Class Patrick ONeill",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Day_or_Night_%E2%80%93_Dawgs_on-site_(9766866).jpg",
     "w": 960,
     "h": 640
+  },
+  "stretchwrap2": {
+    "file": "stretchwrap2.jpg",
+    "caption": "Pallets of cement bags in a yard, each held together by a few hundred grams of film",
+    "kind": "product",
+    "title": "Ceemnt CEM II A-V 42,5 R MOCNY na paletach.jpg",
+    "site": "Wikimedia",
+    "artist": "Krugerr",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ceemnt_CEM_II_A-V_42,5_R_MOCNY_na_paletach.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "stretchwrap3": {
+    "file": "stretchwrap3.jpg",
+    "caption": "An automatic stretch wrapper: the pallet turns, the film carriage climbs",
+    "kind": "product",
+    "title": "Enfardadora automatica.jpg",
+    "site": "Wikimedia",
+    "artist": "MOVITEC WRAPPING SYSTEMS",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Enfardadora_automatica.jpg",
+    "w": 960,
+    "h": 839
   },
   "bubblewrap": {
     "file": "bubblewrap.jpg",
@@ -16668,6 +16692,30 @@ window.CREDITS = {
     "w": 960,
     "h": 768
   },
+  "bubblewrap2": {
+    "file": "bubblewrap2.jpg",
+    "caption": "The ordinary kind: round pockets, two films",
+    "kind": "photo",
+    "title": "Bubble Wrap.jpg",
+    "site": "Wikimedia",
+    "artist": "User Consequencefree on en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bubble_Wrap.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "bubblewrap3": {
+    "file": "bubblewrap3.jpg",
+    "caption": "One bubble close up: a dome of film over a flat one",
+    "kind": "structure",
+    "title": "Bubble wrap (8436498020).jpg",
+    "site": "Wikimedia",
+    "artist": "James Petts from London, England",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bubble_wrap_(8436498020).jpg",
+    "w": 960,
+    "h": 720
+  },
   "shrinkfilm": {
     "file": "shrinkfilm.jpg",
     "caption": "A roll of heat-shrinkable polyethylene film",
@@ -16677,6 +16725,30 @@ window.CREDITS = {
     "artist": "Suyash Dwivedi",
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Heat_shrinkable_polyethylene_film.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "shrinkfilm2": {
+    "file": "shrinkfilm2.jpg",
+    "caption": "A shrunk multipack of water: the open ends pull into the bull's eye that is the handle",
+    "kind": "product",
+    "title": "Shrink wrapped case of bottles.jpg",
+    "site": "Wikimedia",
+    "artist": "Rlsheehan",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shrink_wrapped_case_of_bottles.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "shrinkfilm3": {
+    "file": "shrinkfilm3.jpg",
+    "caption": "An L-bar sealer: the box in centre-folded film, the hot bar cutting and sealing in one stroke before the tunnel",
+    "kind": "process",
+    "title": "Г-образный запайщик термоусадочной плёнки, упаковка коробки.jpg",
+    "site": "Wikimedia",
+    "artist": "ОператороФФ (operatoroff.ru)",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%93-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B0%D0%BF%D0%B0%D0%B9%D1%89%D0%B8%D0%BA_%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D1%83%D1%81%D0%B0%D0%B4%D0%BE%D1%87%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BB%D1%91%D0%BD%D0%BA%D0%B8,_%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B0_%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.jpg",
     "w": 960,
     "h": 640
   },
@@ -16692,6 +16764,30 @@ window.CREDITS = {
     "h": 1280,
     "site": "Wikimedia"
   },
+  "ldpefilm2": {
+    "file": "ldpefilm2.jpg",
+    "caption": "A three-layer film blowing tower: the bubble rises to the nip rolls at the top",
+    "kind": "product",
+    "title": "AKO SANAT PLAST ABA film blowing machine.jpg",
+    "site": "Wikimedia",
+    "artist": "Akosanatplast",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:AKO_SANAT_PLAST_ABA_film_blowing_machine.jpg",
+    "w": 960,
+    "h": 2133
+  },
+  "ldpefilm3": {
+    "file": "ldpefilm3.jpg",
+    "caption": "Blown polyethylene sheet laid over a field in Devon",
+    "kind": "product",
+    "title": "Plastic sheets, Eastdown - geograph.org.uk - 5793384.jpg",
+    "site": "Wikimedia",
+    "artist": "Derek Harper",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plastic_sheets,_Eastdown_-_geograph.org.uk_-_5793384.jpg",
+    "w": 960,
+    "h": 548
+  },
   "pdlcfilm": {
     "file": "pdlcfilm.jpg",
     "caption": "A sheet of PDLC switchable film with its leads",
@@ -16703,6 +16799,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "pdlcfilm2": {
+    "file": "pdlcfilm2.jpg",
+    "caption": "The same film in a window, power off and power on",
+    "kind": "product",
+    "title": "VITSWEL SMART WINDOW.jpg",
+    "site": "Wikimedia",
+    "artist": "Vitswell",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:VITSWEL_SMART_WINDOW.jpg",
+    "w": 960,
+    "h": 539
+  },
+  "pdlcfilm3": {
+    "file": "pdlcfilm3.jpg",
+    "caption": "A hotel bathroom wall of switchable glass in Kowloon, here frosted",
+    "kind": "product",
+    "title": "HK TKT 大角咀道 86 Tai Kok Tsui Road 九龍珀麗酒店 Rosedale Kowloon Hotel room bathroom smart atomized glass September 2021 SS2 02.jpg",
+    "site": "Wikimedia",
+    "artist": "Gindcheoutarkoadf OK",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HK_TKT_%E5%A4%A7%E8%A7%92%E5%92%80%E9%81%93_86_Tai_Kok_Tsui_Road_%E4%B9%9D%E9%BE%8D%E7%8F%80%E9%BA%97%E9%85%92%E5%BA%97_Rosedale_Kowloon_Hotel_room_bathroom_smart_atomized_glass_September_2021_SS2_02.jpg",
+    "w": 960,
+    "h": 1280
   },
   "capfilm": {
     "file": "capfilm.jpg",

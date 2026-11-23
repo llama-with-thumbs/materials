@@ -1390,11 +1390,21 @@ alufoil3|commons|Achenbach OPTIMILL Foil Rolling Mill.jpg|A foil rolling mill: t
 clingfilm|commons|Meat with cling wrap.jpg|Cling film pulled over a plate of sliced ham, the stretch and the cling visible|photo
 clingfilm2|commons|Saran Wrap 02.JPG|Saran Wrap, the name that started it, with a wrapped bowl|product
 clingfilm3|commons|Clingfilm.jpg|A roll of cling film in its box|product
-stretchwrap|Flickr|https://live.staticflickr.com/65535/49465232058_40ac8efb8e_b.jpg|A roll of hand stretch wrap|product|CC BY 2.0|hireahelper|https://www.flickr.com/photos/158517012@N07/49465232058
+stretchwrap|commons|Day or Night – Dawgs on-site (9766866).jpg|An airman stretching film round a cargo pallet at Ramstein: the film goes on under tension|process
+stretchwrap2|commons|Ceemnt CEM II A-V 42,5 R MOCNY na paletach.jpg|Pallets of cement bags in a yard, each held together by a few hundred grams of film|product
+stretchwrap3|commons|Enfardadora automatica.jpg|An automatic stretch wrapper: the pallet turns, the film carriage climbs|product
 bubblewrap|commons|Square-shaped bubble wrap (126wiki).jpg|Bubble wrap with square pockets|photo
+bubblewrap2|commons|Bubble Wrap.jpg|The ordinary kind: round pockets, two films|photo
+bubblewrap3|commons|Bubble wrap (8436498020).jpg|One bubble close up: a dome of film over a flat one|structure
 shrinkfilm|commons|Heat shrinkable polyethylene film.jpg|A roll of heat-shrinkable polyethylene film|photo
+shrinkfilm2|commons|Shrink wrapped case of bottles.jpg|A shrunk multipack of water: the open ends pull into the bull's eye that is the handle|product
+shrinkfilm3|commons|Г-образный запайщик термоусадочной плёнки, упаковка коробки.jpg|An L-bar sealer: the box in centre-folded film, the hot bar cutting and sealing in one stroke before the tunnel|process
 ldpefilm|commons|Film extrusion.jpg|A blown-film line, with the inflated bubble rising from the die|process
+ldpefilm2|commons|AKO SANAT PLAST ABA film blowing machine.jpg|A three-layer film blowing tower: the bubble rises to the nip rolls at the top|product
+ldpefilm3|commons|Plastic sheets, Eastdown - geograph.org.uk - 5793384.jpg|Blown polyethylene sheet laid over a field in Devon|product
 pdlcfilm|commons|VITSWELL PDLC FILM.jpg|A sheet of PDLC switchable film with its leads|photo
+pdlcfilm2|commons|VITSWEL SMART WINDOW.jpg|The same film in a window, power off and power on|product
+pdlcfilm3|commons|HK TKT 大角咀道 86 Tai Kok Tsui Road 九龍珀麗酒店 Rosedale Kowloon Hotel room bathroom smart atomized glass September 2021 SS2 02.jpg|A hotel bathroom wall of switchable glass in Kowloon, here frosted|product
 capfilm|commons|Wiki-Folkos-P1090317-1.jpg|Plastic film capacitors, axial and radial|product
 nitratefilm|commons|Nitrate Deterioration.jpg|A cellulose nitrate negative in the late stages of decay, the image gone|photo
 sailfilm|NASA|https://images-assets.nasa.gov/image/MSFC-1601350/MSFC-1601350~medium.jpg|The NEA Scout solar sail, aluminised polyimide film, deployed for test|product|Public domain|NASA/MSFC|https://images.nasa.gov/details/MSFC-1601350
