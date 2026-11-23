@@ -15674,27 +15674,75 @@ window.CREDITS = {
   },
   "reindeerhide": {
     "file": "reindeerhide.jpg",
-    "caption": "Reindeer hides on a market stall in Helsinki",
+    "caption": "A whole Scandinavian reindeer pelt laid out, hair side up",
     "kind": "photo",
-    "title": "Reindeer hides.jpg",
-    "artist": "TheGoodEndedHappily",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Reindeer_hides.jpg",
+    "title": "Reindeer fur skin 2.jpg",
+    "site": "Wikimedia",
+    "artist": "--Kürschner (talk) 17:30, 1 June 2009 (UTC)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Reindeer_fur_skin_2.jpg",
     "w": 960,
-    "h": 640,
-    "site": "Wikimedia"
+    "h": 740
+  },
+  "reindeerhide2": {
+    "file": "reindeerhide2.jpg",
+    "caption": "The hair close up: dense, hollow and brittle",
+    "kind": "structure",
+    "title": "Reindeer fur skin.jpg",
+    "site": "Wikimedia",
+    "artist": "--Kürschner (talk) 17:21, 1 June 2009 (UTC)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Reindeer_fur_skin.jpg",
+    "w": 960,
+    "h": 1458
+  },
+  "reindeerhide3": {
+    "file": "reindeerhide3.jpg",
+    "caption": "The everyday use: a pelt on a cafe chair in the snow, Brastad, Sweden",
+    "kind": "photo",
+    "title": "Chair with reindeer fur-skin and a café table in Brastad.jpg",
+    "site": "Wikimedia",
+    "artist": "W.carter",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chair_with_reindeer_fur-skin_and_a_caf%C3%A9_table_in_Brastad.jpg",
+    "w": 960,
+    "h": 640
   },
   "flannel": {
     "file": "flannel.jpg",
-    "caption": "A flannel shirt photographed close enough to show the raised nap",
+    "caption": "Plaid cotton flannel close enough to show the nap over the weave",
     "kind": "photo",
-    "title": "https://live.staticflickr.com/7812/46846780662_15f23e121b_b.jpg",
-    "site": "Flickr",
-    "artist": "Lisa Zins",
+    "title": "Flannels 5.jpg",
+    "site": "Wikimedia",
+    "artist": "Louis Beche",
     "license": "CC BY 2.0",
-    "page": "https://www.flickr.com/photos/lisazins/46846780662",
+    "page": "https://commons.wikimedia.org/wiki/File:Flannels_5.jpg",
     "w": 960,
-    "h": 724
+    "h": 720
+  },
+  "flannel2": {
+    "file": "flannel2.jpg",
+    "caption": "A cut edge: the plain weave underneath and the fuzz raised from it",
+    "kind": "structure",
+    "title": "Overlap of flannel fabric.jpg",
+    "site": "Wikimedia",
+    "artist": "kelly",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Overlap_of_flannel_fabric.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "flannel3": {
+    "file": "flannel3.jpg",
+    "caption": "A teasel gig at Armley Mills: dried teasel heads in frames, the original raising machine",
+    "kind": "process",
+    "title": "Leeds Industrial Museum raising gig 7063.JPG",
+    "site": "Wikimedia",
+    "artist": "Photograph by Clem Rutter, Rochester, Kent. (www.clemrutter.net).",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Leeds_Industrial_Museum_raising_gig_7063.JPG",
+    "w": 960,
+    "h": 720
   },
   "polyfill": {
     "file": "polyfill.jpg",
@@ -15708,6 +15756,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "polyfill2": {
+    "file": "polyfill2.jpg",
+    "caption": "The stuffing machine at a teddy bear factory, fibrefill blown in under air",
+    "kind": "process",
+    "title": "Stuffing and assembly machinery at the Vermont Teddy Bear factory.jpg",
+    "site": "Wikimedia",
+    "artist": "Tessa Bury",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stuffing_and_assembly_machinery_at_the_Vermont_Teddy_Bear_factory.jpg",
+    "w": 960,
+    "h": 1200
+  },
+  "polyfill3": {
+    "file": "polyfill3.png",
+    "caption": "Fibrefill as sold by the bag, for cushions and soft toys",
+    "kind": "product",
+    "title": "Rembourrage Baby Globe polyfill.png",
+    "site": "Wikimedia",
+    "artist": "Sukkoria",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rembourrage_Baby_Globe_polyfill.png",
+    "w": 960,
+    "h": 1280
+  },
   "spaceblanket": {
     "file": "spaceblanket.jpg",
     "caption": "A rescue blanket opened out, gold on one face and silver on the other",
@@ -15720,6 +15792,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "spaceblanket2": {
+    "file": "spaceblanket2.jpg",
+    "caption": "In use: wrapped up on cold ground, which is where the conduction gets you",
+    "kind": "photo",
+    "title": "Abi in a space blanket (4746073335).jpg",
+    "site": "Wikimedia",
+    "artist": "Paul Holloway from Birmingham, United Kingdom",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Abi_in_a_space_blanket_(4746073335).jpg",
+    "w": 960,
+    "h": 1169
+  },
+  "spaceblanket3": {
+    "file": "spaceblanket3.jpg",
+    "caption": "The same film on the Hubble telescope: multilayer insulation patches fitted on a 1997 servicing flight",
+    "kind": "related",
+    "title": "STS082-357-016 - STS-082 - HST, closeup details of Multilayer Insulation (MLI) patches installed - DPLA - cc611f1b6d0e6707e3f0ab1287e07827.jpg",
+    "site": "Wikimedia",
+    "artist": "National Aeronautics and Space Administration. Lyndon B. Johnson Space Center. 2/17/1973",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:STS082-357-016_-_STS-082_-_HST,_closeup_details_of_Multilayer_Insulation_(MLI)_patches_installed_-_DPLA_-_cc611f1b6d0e6707e3f0ab1287e07827.jpg",
+    "w": 960,
+    "h": 604
+  },
   "batting": {
     "file": "batting.jpg",
     "caption": "Farm women drawing striped ticking over a cotton batt, 1940",
@@ -15731,6 +15827,30 @@ window.CREDITS = {
     "w": 960,
     "h": 641,
     "site": "Wikimedia"
+  },
+  "batting2": {
+    "file": "batting2.jpg",
+    "caption": "Carded cotton wadding folded in its layers",
+    "kind": "structure",
+    "title": "Vatta2.jpg",
+    "site": "Wikimedia",
+    "artist": "Elkagye",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vatta2.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "batting3": {
+    "file": "batting3.jpg",
+    "caption": "A hand-quilted top: the stitching lines are what keep the batt where it was put",
+    "kind": "product",
+    "title": "Quilt - broken dishes pattern.jpg",
+    "site": "Wikimedia",
+    "artist": "leigh cooper from Atlanta, USA",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quilt_-_broken_dishes_pattern.jpg",
+    "w": 960,
+    "h": 720
   },
   "milkweed": {
     "file": "milkweed.jpg",

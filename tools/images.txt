@@ -1309,11 +1309,21 @@ camelhair3|commons|A camels hair being shorn at Pushkar..jpg|Shearing a dromedar
 vicuna|commons|Diferentes lanas de vicuña - Conversatorio Las Manos que Piensan (Textiles).jpg|Vicuna fleece, yarn and woven cloth laid out on a display table in Santiago del Estero|photo
 vicuna2|commons|Manejo sustentable de la vicuña.jpg|A community chaccu: the human chain walking the wild herd towards the funnel|process
 vicuna3|commons|Vicuña Vigogne Lago Chungarà 4570m Chile Luca Galuzzi 2006.jpg|Vicuna grazing at 4570 m by Lake Chungara, Chile|related
-reindeerhide|commons|Reindeer hides.jpg|Reindeer hides on a market stall in Helsinki|photo
-flannel|Flickr|https://live.staticflickr.com/7812/46846780662_15f23e121b_b.jpg|A flannel shirt photographed close enough to show the raised nap|photo|CC BY 2.0|Lisa Zins|https://www.flickr.com/photos/lisazins/46846780662
+reindeerhide|commons|Reindeer fur skin 2.jpg|A whole Scandinavian reindeer pelt laid out, hair side up|photo
+reindeerhide2|commons|Reindeer fur skin.jpg|The hair close up: dense, hollow and brittle|structure
+reindeerhide3|commons|Chair with reindeer fur-skin and a café table in Brastad.jpg|The everyday use: a pelt on a cafe chair in the snow, Brastad, Sweden|photo
+flannel|commons|Flannels 5.jpg|Plaid cotton flannel close enough to show the nap over the weave|photo
+flannel2|commons|Overlap of flannel fabric.jpg|A cut edge: the plain weave underneath and the fuzz raised from it|structure
+flannel3|commons|Leeds Industrial Museum raising gig 7063.JPG|A teasel gig at Armley Mills: dried teasel heads in frames, the original raising machine|process
 polyfill|commons|Polyfill.jpg|A handful of siliconised hollow polyester fibrefill|photo
+polyfill2|commons|Stuffing and assembly machinery at the Vermont Teddy Bear factory.jpg|The stuffing machine at a teddy bear factory, fibrefill blown in under air|process
+polyfill3|commons|Rembourrage Baby Globe polyfill.png|Fibrefill as sold by the bag, for cushions and soft toys|product
 spaceblanket|commons|RescueFoil.jpg|A rescue blanket opened out, gold on one face and silver on the other|photo
+spaceblanket2|commons|Abi in a space blanket (4746073335).jpg|In use: wrapped up on cold ground, which is where the conduction gets you|photo
+spaceblanket3|commons|STS082-357-016 - STS-082 - HST, closeup details of Multilayer Insulation (MLI) patches installed - DPLA - cc611f1b6d0e6707e3f0ab1287e07827.jpg|The same film on the Hubble telescope: multilayer insulation patches fitted on a 1997 servicing flight|related
 batting|commons|Mattress making, covering the cotton batting with ticking.jpg|Farm women drawing striped ticking over a cotton batt, 1940|process
+batting2|commons|Vatta2.jpg|Carded cotton wadding folded in its layers|structure
+batting3|commons|Quilt - broken dishes pattern.jpg|A hand-quilted top: the stitching lines are what keep the batt where it was put|product
 milkweed|commons|Milkweed Seed Pod Floss PLT-FL-WD-MW-2.jpg|Milkweed pods split open, the floss blowing out|photo
 possum|commons|Possum fur lining, front side.jpg|A cloth coat lined with brushtail possum fur|product
 furfelt|commons|Workers at a British hat factory prepare rabbit fur ready for its transformation into felt, 1940. D1259.jpg|Rabbit fur being blown clean in a British hat factory, 1940|process
