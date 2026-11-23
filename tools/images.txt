@@ -1325,10 +1325,19 @@ batting|commons|Mattress making, covering the cotton batting with ticking.jpg|Fa
 batting2|commons|Vatta2.jpg|Carded cotton wadding folded in its layers|structure
 batting3|commons|Quilt - broken dishes pattern.jpg|A hand-quilted top: the stitching lines are what keep the batt where it was put|product
 milkweed|commons|Milkweed Seed Pod Floss PLT-FL-WD-MW-2.jpg|Milkweed pods split open, the floss blowing out|photo
-possum|commons|Possum fur lining, front side.jpg|A cloth coat lined with brushtail possum fur|product
-furfelt|commons|Workers at a British hat factory prepare rabbit fur ready for its transformation into felt, 1940. D1259.jpg|Rabbit fur being blown clean in a British hat factory, 1940|process
-snow|commons|Building an igloo on Victoria Island (37009).jpg|A snow house of cut blocks, southwest Victoria Island|product
+milkweed2|commons|Open Milkweed Pod (37625998186).jpg|Inside a dried pod: the seeds stacked on their floss before it opens|structure
+milkweed3|commons|80-G-55265 (17125597358).jpg|A gunner in a floss-filled life vest aboard USS Minneapolis, October 1943|related
+possum|commons|Trichosurus vulpecula (New Zealand) fur skin.jpg|Two New Zealand brushtail possum pelts against a scale, fur school collection, Frankfurt|photo
+possum2|commons|Brushtail Possum - AndrewMercer IMG40135.jpg|The animal, at home in Brisbane and a pest in New Zealand|related
+possum3|commons|Possum kill trap, Burnside Escarpment.jpg|A kill trap on a tree near Auckland: where the fibre supply comes from|process
+furfelt|commons|Genuine beaver hat c.1850.jpg|A beaver felt top hat in the 1850 pattern: the nap of the felt close up|product
+furfelt2|commons|A fedora hat, made by Borsalino.jpg|A Borsalino fedora, the fur felt hat still made|product
+furfelt3|commons|Workers at a British hat factory prepare rabbit fur ready for its transformation into felt, 1940. D1259.jpg|Rabbit fur being blown clean in a British hat factory, 1940|process
+snow|commons|Inuit-Igloo P.png|Inuit raising an igloo: the spiral of cut blocks leaning in on each other|photo
+snow2|commons|Igloo interior.JPG|Inside: daylight through the shell, the entrance tunnel below the floor|structure
+snow3|commons|Installation of snow blocks for snow cave.jpg|Laying cut blocks for an emergency snow shelter|process
 featherdown|commons|Bettfedernreinigung L.H.Lorch Abfüllen der gereinigten Federn und Daunen in das Kissen mittels Federnfüllwaage.jpg|Cleaned feather and down being blown into a ticking shell on a filling scale|process
+featherdown2|commons|Donsveertje in het gras 26-04-2020. (actm.) 02.jpg|The feather half of the blend: a small body feather, down at the root and a quill up the middle|photo
 silkfloss|commons|MulberrySilk.JPG|Stacked layers of hand-pulled mulberry silk floss, the filling of a silk duvet|photo
 threadlattice|commons|Quilt making 13.JPG|Quilt makers laying a thread lattice over a cotton batt in Haikou, Hainan|process
 ticking|commons|Inlett 1.jpg|A feather pillow in its downproof ticking; the cloth is the subject|product
