@@ -1376,10 +1376,20 @@ holofoil|commons|Holographic Hot Stamping Foil From Karul Holo Science India Ltd
 holofoil2|commons|Folienpraegung.jpg|Hot stamping: the carton before, the carton after, and the spent foil with the shapes missing|process
 holofoil3|commons|500 euro banknote type 2002 hologram 500.jpg|The hologram patch on a 500 euro note, the 500 showing|product
 lenticular|commons|Close up of the surface of a lenticular print.jpg|The ridged face of a lenticular print, close up|photo
+lenticular2|commons|Кот в сапогах значок переливной стерео.jpg|A Soviet flip badge photographed from two angles: Puss in Boots in two poses|product
+lenticular3|commons|Пример действия двояковыпуклой линзы.JPG|A lenticular sheet laid over a ruler: each ridge magnifying the strip beneath it|structure
 fresnelsheet|commons|Flat flexible plastic sheet lens.JPG|A flexible plastic Fresnel sheet lens|photo
+fresnelsheet2|commons|Zpětný-projektor2018c.jpg|The Fresnel stage of an overhead projector: a page-sized lens under the glass|product
+fresnelsheet3|commons|First order Fresnel lens at Point Reyes lighthouse.jpg|The original: a first-order glass Fresnel lens at Point Reyes, the same steps in prisms the height of a man|related
 goldleaf|commons|Kanazawa Gold Factory.jpg|Gold leaf being lifted with bamboo tongs at a Kanazawa workshop|photo
-alufoil|Flickr|https://live.staticflickr.com/8528/8609668552_a264112975_b.jpg|Crumpled aluminium foil|photo|CC BY 2.0|Martin Pettitt|https://www.flickr.com/photos/95012874@N00/8609668552
-clingfilm|commons|Clingfilm.jpg|A roll of cling film in its box|photo
+goldleaf2|commons|Gold Leaf Close Up.jpg|A crumpled leaf of pure gold, focus-stacked: thinner than the creases suggest|structure
+goldleaf3|commons|Vergolder arbeitet an einem Bilderrahmen (2278).jpg|A gilder laying leaf onto a picture frame with a brush|process
+alufoil|commons|Aluminium cooking foil.jpg|A sheet of kitchen foil held up to the light, the matt face out|photo
+alufoil2|commons|Aluminum foil roll on baking paper.jpg|A roll of household foil, shiny face out|product
+alufoil3|commons|Achenbach OPTIMILL Foil Rolling Mill.jpg|A foil rolling mill: the last stand runs two webs through together|process
+clingfilm|commons|Meat with cling wrap.jpg|Cling film pulled over a plate of sliced ham, the stretch and the cling visible|photo
+clingfilm2|commons|Saran Wrap 02.JPG|Saran Wrap, the name that started it, with a wrapped bowl|product
+clingfilm3|commons|Clingfilm.jpg|A roll of cling film in its box|product
 stretchwrap|Flickr|https://live.staticflickr.com/65535/49465232058_40ac8efb8e_b.jpg|A roll of hand stretch wrap|product|CC BY 2.0|hireahelper|https://www.flickr.com/photos/158517012@N07/49465232058
 bubblewrap|commons|Square-shaped bubble wrap (126wiki).jpg|Bubble wrap with square pockets|photo
 shrinkfilm|commons|Heat shrinkable polyethylene film.jpg|A roll of heat-shrinkable polyethylene film|photo

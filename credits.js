@@ -16476,6 +16476,30 @@ window.CREDITS = {
     "h": 471,
     "site": "Wikimedia"
   },
+  "lenticular2": {
+    "file": "lenticular2.jpg",
+    "caption": "A Soviet flip badge photographed from two angles: Puss in Boots in two poses",
+    "kind": "product",
+    "title": "Кот в сапогах значок переливной стерео.jpg",
+    "site": "Wikimedia",
+    "artist": "EgorovaSvetlana",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D1%82_%D0%B2_%D1%81%D0%B0%D0%BF%D0%BE%D0%B3%D0%B0%D1%85_%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA_%D0%BF%D0%B5%D1%80%D0%B5%D0%BB%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%B5%D1%80%D0%B5%D0%BE.jpg",
+    "w": 960,
+    "h": 721
+  },
+  "lenticular3": {
+    "file": "lenticular3.jpg",
+    "caption": "A lenticular sheet laid over a ruler: each ridge magnifying the strip beneath it",
+    "kind": "structure",
+    "title": "Пример действия двояковыпуклой линзы.JPG",
+    "site": "Wikimedia",
+    "artist": "Superagent001",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80_%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F_%D0%B4%D0%B2%D0%BE%D1%8F%D0%BA%D0%BE%D0%B2%D1%8B%D0%BF%D1%83%D0%BA%D0%BB%D0%BE%D0%B9_%D0%BB%D0%B8%D0%BD%D0%B7%D1%8B.JPG",
+    "w": 960,
+    "h": 672
+  },
   "fresnelsheet": {
     "file": "fresnelsheet.jpg",
     "caption": "A flexible plastic Fresnel sheet lens",
@@ -16487,6 +16511,30 @@ window.CREDITS = {
     "w": 960,
     "h": 604,
     "site": "Wikimedia"
+  },
+  "fresnelsheet2": {
+    "file": "fresnelsheet2.jpg",
+    "caption": "The Fresnel stage of an overhead projector: a page-sized lens under the glass",
+    "kind": "product",
+    "title": "Zpětný-projektor2018c.jpg",
+    "site": "Wikimedia",
+    "artist": "Ben Skála, Benfoto",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zp%C4%9Btn%C3%BD-projektor2018c.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "fresnelsheet3": {
+    "file": "fresnelsheet3.jpg",
+    "caption": "The original: a first-order glass Fresnel lens at Point Reyes, the same steps in prisms the height of a man",
+    "kind": "related",
+    "title": "First order Fresnel lens at Point Reyes lighthouse.jpg",
+    "site": "Wikimedia",
+    "artist": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:First_order_Fresnel_lens_at_Point_Reyes_lighthouse.jpg",
+    "w": 960,
+    "h": 645
   },
   "goldleaf": {
     "file": "goldleaf.jpg",
@@ -16500,29 +16548,101 @@ window.CREDITS = {
     "w": 960,
     "h": 683
   },
+  "goldleaf2": {
+    "file": "goldleaf2.jpg",
+    "caption": "A crumpled leaf of pure gold, focus-stacked: thinner than the creases suggest",
+    "kind": "structure",
+    "title": "Gold Leaf Close Up.jpg",
+    "site": "Wikimedia",
+    "artist": "Tim Denholm",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gold_Leaf_Close_Up.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "goldleaf3": {
+    "file": "goldleaf3.jpg",
+    "caption": "A gilder laying leaf onto a picture frame with a brush",
+    "kind": "process",
+    "title": "Vergolder arbeitet an einem Bilderrahmen (2278).jpg",
+    "site": "Wikimedia",
+    "artist": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vergolder_arbeitet_an_einem_Bilderrahmen_(2278).jpg",
+    "w": 960,
+    "h": 960
+  },
   "alufoil": {
     "file": "alufoil.jpg",
-    "caption": "Crumpled aluminium foil",
+    "caption": "A sheet of kitchen foil held up to the light, the matt face out",
     "kind": "photo",
-    "title": "https://live.staticflickr.com/8528/8609668552_a264112975_b.jpg",
-    "site": "Flickr",
-    "artist": "Martin Pettitt",
-    "license": "CC BY 2.0",
-    "page": "https://www.flickr.com/photos/95012874@N00/8609668552",
-    "w": 680,
-    "h": 1024
+    "title": "Aluminium cooking foil.jpg",
+    "site": "Wikimedia",
+    "artist": "Lewis Ronald",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aluminium_cooking_foil.jpg",
+    "w": 960,
+    "h": 1440
+  },
+  "alufoil2": {
+    "file": "alufoil2.jpg",
+    "caption": "A roll of household foil, shiny face out",
+    "kind": "product",
+    "title": "Aluminum foil roll on baking paper.jpg",
+    "site": "Wikimedia",
+    "artist": "Sokolikmawwer0",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aluminum_foil_roll_on_baking_paper.jpg",
+    "w": 960,
+    "h": 624
+  },
+  "alufoil3": {
+    "file": "alufoil3.jpg",
+    "caption": "A foil rolling mill: the last stand runs two webs through together",
+    "kind": "process",
+    "title": "Achenbach OPTIMILL Foil Rolling Mill.jpg",
+    "site": "Wikimedia",
+    "artist": "Achenbach Buschhütten",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Achenbach_OPTIMILL_Foil_Rolling_Mill.jpg",
+    "w": 960,
+    "h": 655
   },
   "clingfilm": {
     "file": "clingfilm.jpg",
-    "caption": "A roll of cling film in its box",
+    "caption": "Cling film pulled over a plate of sliced ham, the stretch and the cling visible",
     "kind": "photo",
+    "title": "Meat with cling wrap.jpg",
+    "site": "Wikimedia",
+    "artist": "Nicholas Five",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Meat_with_cling_wrap.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "clingfilm2": {
+    "file": "clingfilm2.jpg",
+    "caption": "Saran Wrap, the name that started it, with a wrapped bowl",
+    "kind": "product",
+    "title": "Saran Wrap 02.JPG",
+    "site": "Wikimedia",
+    "artist": "Kakura",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saran_Wrap_02.JPG",
+    "w": 960,
+    "h": 640
+  },
+  "clingfilm3": {
+    "file": "clingfilm3.jpg",
+    "caption": "A roll of cling film in its box",
+    "kind": "product",
     "title": "Clingfilm.jpg",
+    "site": "Wikimedia",
     "artist": "Ilmari Karonen at English Wikipedia",
     "license": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Clingfilm.jpg",
     "w": 960,
-    "h": 638,
-    "site": "Wikimedia"
+    "h": 638
   },
   "stretchwrap": {
     "file": "stretchwrap.jpg",
