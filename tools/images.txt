@@ -1353,6 +1353,8 @@ flaxinsul|commons|Linfiberisolasjon i himling.JPG|Flax fibre mats fitted between
 flaxinsul2|commons|Linfiberisolasjon i himling-2.JPG|The mat close up: carded tow, the binder invisible|structure
 flaxinsul3|commons|Lin laftevatt (2).JPG|A roll of flax wadding for the joints of a log wall, the older use of the same tow|product
 eelgrass|commons|Seaweed roof at Læsø, 'Hedvigs Hus', DK.jpg|Eelgrass thatch on the gable of a Læsø farmhouse, bulging over the frame|product
+eelgrass2|commons|Tangtag paa Laesoe 2011 ubt-045.JPG|Re-thatching a Læsø house in 2011: the eelgrass heaped by the wall, the courses going on|process
+eelgrass3|commons|Zostera marina - iNaturalist.org(1).jpg|The plant: common eelgrass in the shallows, Puget Sound|related
 chambray|commons|Blue chambray cloth.JPG|Washed cotton chambray, with a millimetre scale|photo
 chambray2|commons|Chambray Macro (49852163717).jpg|Chambray close enough to count: blue warp, white weft, one over one|structure
 chambray3|commons|Chambray fabric.jpg|A linen and cotton chambray, both sides alike|photo
@@ -1362,9 +1364,17 @@ gingham|commons|Greengingham.jpg|Gingham hemmed as a pocket square, both faces a
 gingham2|commons|Gingham teatowel.jpg|A red gingham tea towel: three tones from two yarns|product
 gingham3|commons|Portrait photograph of girl in gingham dress n.d. (3199631981).jpg|A girl in a gingham dress, Oxford, Ohio, around 1900: the school and kitchen cloth for two centuries|related
 polarfilm|commons|Polarizer sheet perpendicular.jpg|Two polarising sheets overlapping at right angles|photo
+polarfilm2|commons|Vinegar syndrome affecting the polarizer of a TFT LCD on a laptop (Toshiba Satellite 400CDT).jpg|A 1990s laptop: the polariser gone grey in streaks that follow the stretch|photo
+polarfilm3|commons|LCD polarization.JPG|A polarising sheet held over a laptop screen: the display's own output is already polarised|related
 cellophane|commons|Cellophane.JPG|Rolls of coloured cellophane|photo
-retrosheet|Flickr|https://live.staticflickr.com/3173/2927497238_23b7a0a23d_b.jpg|Retroreflective vinyl in daylight, and lit by a flash beside the lens|product|CC BY-SA 2.0|mandiberg|https://www.flickr.com/photos/42586873@N00/2927497238
+cellophane2|commons|Butterscotch-Candies.jpg|Penny sweets in yellow cellophane twists, the wrap that crackles|product
+cellophane3|commons|Cellofan.jpg|A printed cellophane bag and a clear cellophane packet|product
+retrosheet|commons|SouthboundUS99signDark-DowntownSeattle.jpg|Overhead signs in downtown Seattle at night, lit only by the camera's flash beside the lens|photo
+retrosheet2|commons|Retroreflective sheeting on a moped.JPG|Conspicuity tape on a scooter, lit by flash|product
+retrosheet3|commons|Corner-Cube.jpg|A gold corner-cube retroreflector: three mirrors at right angles, the geometry a prismatic film repeats thousands of times per square centimetre|analog
 holofoil|commons|Holographic Hot Stamping Foil From Karul Holo Science India Ltd.jpg|Rolls of holographic hot-stamping foil|photo
+holofoil2|commons|Folienpraegung.jpg|Hot stamping: the carton before, the carton after, and the spent foil with the shapes missing|process
+holofoil3|commons|500 euro banknote type 2002 hologram 500.jpg|The hologram patch on a 500 euro note, the 500 showing|product
 lenticular|commons|Close up of the surface of a lenticular print.jpg|The ridged face of a lenticular print, close up|photo
 fresnelsheet|commons|Flat flexible plastic sheet lens.JPG|A flexible plastic Fresnel sheet lens|photo
 goldleaf|commons|Kanazawa Gold Factory.jpg|Gold leaf being lifted with bamboo tongs at a Kanazawa workshop|photo

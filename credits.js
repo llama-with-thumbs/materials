@@ -16200,6 +16200,30 @@ window.CREDITS = {
     "h": 720,
     "site": "Wikimedia"
   },
+  "eelgrass2": {
+    "file": "eelgrass2.jpg",
+    "caption": "Re-thatching a Læsø house in 2011: the eelgrass heaped by the wall, the courses going on",
+    "kind": "process",
+    "title": "Tangtag paa Laesoe 2011 ubt-045.JPG",
+    "site": "Wikimedia",
+    "artist": "© 2011 by Tomasz Sienicki [user: tsca, mail: tomasz.sienicki at gmail.com]",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tangtag_paa_Laesoe_2011_ubt-045.JPG",
+    "w": 960,
+    "h": 629
+  },
+  "eelgrass3": {
+    "file": "eelgrass3.jpg",
+    "caption": "The plant: common eelgrass in the shallows, Puget Sound",
+    "kind": "related",
+    "title": "Zostera marina - iNaturalist.org(1).jpg",
+    "site": "Wikimedia",
+    "artist": "Brew, John",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zostera_marina_-_iNaturalist.org(1).jpg",
+    "w": 960,
+    "h": 720
+  },
   "chambray": {
     "file": "chambray.jpg",
     "caption": "Washed cotton chambray, with a millimetre scale",
@@ -16308,6 +16332,30 @@ window.CREDITS = {
     "h": 960,
     "site": "Wikimedia"
   },
+  "polarfilm2": {
+    "file": "polarfilm2.jpg",
+    "caption": "A 1990s laptop: the polariser gone grey in streaks that follow the stretch",
+    "kind": "photo",
+    "title": "Vinegar syndrome affecting the polarizer of a TFT LCD on a laptop (Toshiba Satellite 400CDT).jpg",
+    "site": "Wikimedia",
+    "artist": "DigitalIceAge",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vinegar_syndrome_affecting_the_polarizer_of_a_TFT_LCD_on_a_laptop_(Toshiba_Satellite_400CDT).jpg",
+    "w": 960,
+    "h": 960
+  },
+  "polarfilm3": {
+    "file": "polarfilm3.jpg",
+    "caption": "A polarising sheet held over a laptop screen: the display's own output is already polarised",
+    "kind": "related",
+    "title": "LCD polarization.JPG",
+    "site": "Wikimedia",
+    "artist": "Pieter Kuiper",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:LCD_polarization.JPG",
+    "w": 960,
+    "h": 643
+  },
   "cellophane": {
     "file": "cellophane.jpg",
     "caption": "Rolls of coloured cellophane",
@@ -16320,17 +16368,65 @@ window.CREDITS = {
     "h": 717,
     "site": "Wikimedia"
   },
+  "cellophane2": {
+    "file": "cellophane2.jpg",
+    "caption": "Penny sweets in yellow cellophane twists, the wrap that crackles",
+    "kind": "product",
+    "title": "Butterscotch-Candies.jpg",
+    "site": "Wikimedia",
+    "artist": "Evan-Amos",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Butterscotch-Candies.jpg",
+    "w": 960,
+    "h": 604
+  },
+  "cellophane3": {
+    "file": "cellophane3.jpg",
+    "caption": "A printed cellophane bag and a clear cellophane packet",
+    "kind": "product",
+    "title": "Cellofan.jpg",
+    "site": "Wikimedia",
+    "artist": "Holger.Ellgaard",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Cellofan.jpg",
+    "w": 960,
+    "h": 661
+  },
   "retrosheet": {
     "file": "retrosheet.jpg",
-    "caption": "Retroreflective vinyl in daylight, and lit by a flash beside the lens",
-    "kind": "product",
-    "title": "https://live.staticflickr.com/3173/2927497238_23b7a0a23d_b.jpg",
-    "site": "Flickr",
-    "artist": "mandiberg",
-    "license": "CC BY-SA 2.0",
-    "page": "https://www.flickr.com/photos/42586873@N00/2927497238",
+    "caption": "Overhead signs in downtown Seattle at night, lit only by the camera's flash beside the lens",
+    "kind": "photo",
+    "title": "SouthboundUS99signDark-DowntownSeattle.jpg",
+    "site": "Wikimedia",
+    "artist": "Formulanone",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SouthboundUS99signDark-DowntownSeattle.jpg",
     "w": 960,
-    "h": 720
+    "h": 640
+  },
+  "retrosheet2": {
+    "file": "retrosheet2.jpg",
+    "caption": "Conspicuity tape on a scooter, lit by flash",
+    "kind": "product",
+    "title": "Retroreflective sheeting on a moped.JPG",
+    "site": "Wikimedia",
+    "artist": "Einarkramer",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Retroreflective_sheeting_on_a_moped.JPG",
+    "w": 960,
+    "h": 1280
+  },
+  "retrosheet3": {
+    "file": "retrosheet3.jpg",
+    "caption": "A gold corner-cube retroreflector: three mirrors at right angles, the geometry a prismatic film repeats thousands of times per square centimetre",
+    "kind": "analog",
+    "title": "Corner-Cube.jpg",
+    "site": "Wikimedia",
+    "artist": "Kkmurray",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Corner-Cube.jpg",
+    "w": 960,
+    "h": 768
   },
   "holofoil": {
     "file": "holofoil.jpg",
@@ -16343,6 +16439,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "holofoil2": {
+    "file": "holofoil2.jpg",
+    "caption": "Hot stamping: the carton before, the carton after, and the spent foil with the shapes missing",
+    "kind": "process",
+    "title": "Folienpraegung.jpg",
+    "site": "Wikimedia",
+    "artist": "Klaus-Dieter Keller",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Folienpraegung.jpg",
+    "w": 960,
+    "h": 619
+  },
+  "holofoil3": {
+    "file": "holofoil3.jpg",
+    "caption": "The hologram patch on a 500 euro note, the 500 showing",
+    "kind": "product",
+    "title": "500 euro banknote type 2002 hologram 500.jpg",
+    "site": "Wikimedia",
+    "artist": "Copyleft",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:500_euro_banknote_type_2002_hologram_500.jpg",
+    "w": 960,
+    "h": 718
   },
   "lenticular": {
     "file": "lenticular.jpg",
