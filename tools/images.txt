@@ -1339,10 +1339,19 @@ snow3|commons|Installation of snow blocks for snow cave.jpg|Laying cut blocks fo
 featherdown|commons|Bettfedernreinigung L.H.Lorch Abfüllen der gereinigten Federn und Daunen in das Kissen mittels Federnfüllwaage.jpg|Cleaned feather and down being blown into a ticking shell on a filling scale|process
 featherdown2|commons|Donsveertje in het gras 26-04-2020. (actm.) 02.jpg|The feather half of the blend: a small body feather, down at the root and a quill up the middle|photo
 silkfloss|commons|MulberrySilk.JPG|Stacked layers of hand-pulled mulberry silk floss, the filling of a silk duvet|photo
+silkfloss2|commons|女織蚕手業草 十-The Making of Silk Floss MET DP141293.jpg|Utamaro, about 1800: women stretching boiled cocoons into floss over a frame|related
+silkfloss3|commons|Japonsche rock van zijde met grijsblauw fond waarop rijstbundels en bloemtakken in rood met groen en rood met blauw, gevuld met zijden watten en gevoerd met gele zijde-Rijksmuseum BK-BR-725-A.jpeg|A Japanese silk gown padded with silk wadding, Rijksmuseum: the filling as a garment|product
 threadlattice|commons|Quilt making 13.JPG|Quilt makers laying a thread lattice over a cotton batt in Haikou, Hainan|process
+threadlattice2|commons|Quilt making 19.JPG|The finished lattice close up: diagonal cotton thread caging the batt|structure
+threadlattice3|commons|Quilt making 06.JPG|The frame pegs with the thread looped round them|process
 ticking|commons|Inlett 1.jpg|A feather pillow in its downproof ticking; the cloth is the subject|product
+ticking2|commons|Settee ticking fabric upholstery.jpg|The classic stripe, now on an antique settee|product
 cellulosefill|commons|Bulk recycled cellulose scan.jpg|A clump of milled newsprint insulation on squared paper, coloured ink still visible|photo
+cellulosefill2|commons|Insulating attic (49525467656).jpg|Blowing cellulose over a loft deck from a hose|process
+cellulosefill3|commons|Paper insulation.jpg|Damp-sprayed onto open framing and packed round the cables, before the board goes on|photo
 flaxinsul|commons|Linfiberisolasjon i himling.JPG|Flax fibre mats fitted between ceiling joists|photo
+flaxinsul2|commons|Linfiberisolasjon i himling-2.JPG|The mat close up: carded tow, the binder invisible|structure
+flaxinsul3|commons|Lin laftevatt (2).JPG|A roll of flax wadding for the joints of a log wall, the older use of the same tow|product
 eelgrass|commons|Seaweed roof at Læsø, 'Hedvigs Hus', DK.jpg|Eelgrass thatch on the gable of a Læsø farmhouse, bulging over the frame|product
 chambray|commons|Blue chambray cloth.JPG|Washed cotton chambray, with a millimetre scale|photo
 chambray2|commons|Chambray Macro (49852163717).jpg|Chambray close enough to count: blue warp, white weft, one over one|structure

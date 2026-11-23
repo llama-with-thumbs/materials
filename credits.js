@@ -16032,6 +16032,30 @@ window.CREDITS = {
     "h": 640,
     "site": "Wikimedia"
   },
+  "silkfloss2": {
+    "file": "silkfloss2.jpg",
+    "caption": "Utamaro, about 1800: women stretching boiled cocoons into floss over a frame",
+    "kind": "related",
+    "title": "女織蚕手業草 十-The Making of Silk Floss MET DP141293.jpg",
+    "site": "Wikimedia",
+    "artist": "Kitagawa Utamaro",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E5%A5%B3%E7%B9%94%E8%9A%95%E6%89%8B%E6%A5%AD%E8%8D%89_%E5%8D%81-The_Making_of_Silk_Floss_MET_DP141293.jpg",
+    "w": 960,
+    "h": 1437
+  },
+  "silkfloss3": {
+    "file": "silkfloss3.jpg",
+    "caption": "A Japanese silk gown padded with silk wadding, Rijksmuseum: the filling as a garment",
+    "kind": "product",
+    "title": "Japonsche rock van zijde met grijsblauw fond waarop rijstbundels en bloemtakken in rood met groen en rood met blauw, gevuld met zijden watten en gevoerd met gele zijde-Rijksmuseum BK-BR-725-A.jpeg",
+    "site": "Wikimedia",
+    "artist": "AnonymousUnknown author",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Japonsche_rock_van_zijde_met_grijsblauw_fond_waarop_rijstbundels_en_bloemtakken_in_rood_met_groen_en_rood_met_blauw,_gevuld_met_zijden_watten_en_gevoerd_met_gele_zijde-Rijksmuseum_BK-BR-725-A.jpeg",
+    "w": 960,
+    "h": 762
+  },
   "threadlattice": {
     "file": "threadlattice.jpg",
     "caption": "Quilt makers laying a thread lattice over a cotton batt in Haikou, Hainan",
@@ -16043,6 +16067,30 @@ window.CREDITS = {
     "w": 960,
     "h": 720,
     "site": "Wikimedia"
+  },
+  "threadlattice2": {
+    "file": "threadlattice2.jpg",
+    "caption": "The finished lattice close up: diagonal cotton thread caging the batt",
+    "kind": "structure",
+    "title": "Quilt making 19.JPG",
+    "site": "Wikimedia",
+    "artist": "Anna Frodesiak",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quilt_making_19.JPG",
+    "w": 960,
+    "h": 720
+  },
+  "threadlattice3": {
+    "file": "threadlattice3.jpg",
+    "caption": "The frame pegs with the thread looped round them",
+    "kind": "process",
+    "title": "Quilt making 06.JPG",
+    "site": "Wikimedia",
+    "artist": "Anna Frodesiak",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quilt_making_06.JPG",
+    "w": 960,
+    "h": 720
   },
   "ticking": {
     "file": "ticking.jpg",
@@ -16056,6 +16104,18 @@ window.CREDITS = {
     "h": 814,
     "site": "Wikimedia"
   },
+  "ticking2": {
+    "file": "ticking2.jpg",
+    "caption": "The classic stripe, now on an antique settee",
+    "kind": "product",
+    "title": "Settee ticking fabric upholstery.jpg",
+    "site": "Wikimedia",
+    "artist": "frenchfinds.co.uk",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Settee_ticking_fabric_upholstery.jpg",
+    "w": 768,
+    "h": 1024
+  },
   "cellulosefill": {
     "file": "cellulosefill.jpg",
     "caption": "A clump of milled newsprint insulation on squared paper, coloured ink still visible",
@@ -16068,6 +16128,30 @@ window.CREDITS = {
     "h": 820,
     "site": "Wikimedia"
   },
+  "cellulosefill2": {
+    "file": "cellulosefill2.jpg",
+    "caption": "Blowing cellulose over a loft deck from a hose",
+    "kind": "process",
+    "title": "Insulating attic (49525467656).jpg",
+    "site": "Wikimedia",
+    "artist": "USFWS Mountain Prairie",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Insulating_attic_(49525467656).jpg",
+    "w": 960,
+    "h": 720
+  },
+  "cellulosefill3": {
+    "file": "cellulosefill3.jpg",
+    "caption": "Damp-sprayed onto open framing and packed round the cables, before the board goes on",
+    "kind": "photo",
+    "title": "Paper insulation.jpg",
+    "site": "Wikimedia",
+    "artist": "Riisipuuro",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paper_insulation.jpg",
+    "w": 960,
+    "h": 1280
+  },
   "flaxinsul": {
     "file": "flaxinsul.jpg",
     "caption": "Flax fibre mats fitted between ceiling joists",
@@ -16079,6 +16163,30 @@ window.CREDITS = {
     "w": 960,
     "h": 640,
     "site": "Wikimedia"
+  },
+  "flaxinsul2": {
+    "file": "flaxinsul2.jpg",
+    "caption": "The mat close up: carded tow, the binder invisible",
+    "kind": "structure",
+    "title": "Linfiberisolasjon i himling-2.JPG",
+    "site": "Wikimedia",
+    "artist": "Øyvind Holmstad",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Linfiberisolasjon_i_himling-2.JPG",
+    "w": 960,
+    "h": 1440
+  },
+  "flaxinsul3": {
+    "file": "flaxinsul3.jpg",
+    "caption": "A roll of flax wadding for the joints of a log wall, the older use of the same tow",
+    "kind": "product",
+    "title": "Lin laftevatt (2).JPG",
+    "site": "Wikimedia",
+    "artist": "Øyvind Holmstad",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lin_laftevatt_(2).JPG",
+    "w": 960,
+    "h": 640
   },
   "eelgrass": {
     "file": "eelgrass.jpg",
