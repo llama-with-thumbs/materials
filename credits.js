@@ -17186,15 +17186,39 @@ window.CREDITS = {
   },
   "shrinkart": {
     "file": "shrinkart.jpg",
-    "caption": "Shrunk pieces of biaxially oriented polystyrene sheet",
+    "caption": "Shrunk pieces of biaxially oriented polystyrene sheet, curled and thickened",
     "kind": "photo",
-    "title": "https://live.staticflickr.com/3230/2652714573_d645b61cc2_b.jpg",
-    "site": "Flickr",
-    "artist": "Nucho",
+    "title": "Shrinky Dinks (2652714573).jpg",
+    "site": "Wikimedia",
+    "artist": "Wladimir Labeikovsky",
     "license": "CC BY-SA 2.0",
-    "page": "https://www.flickr.com/photos/nucho/2652714573",
+    "page": "https://commons.wikimedia.org/wiki/File:Shrinky_Dinks_(2652714573).jpg",
     "w": 960,
     "h": 720
+  },
+  "shrinkart2": {
+    "file": "shrinkart2.jpg",
+    "caption": "Before: a figure drawn on the flat sheet at full size, a library craft session",
+    "kind": "process",
+    "title": "Zombie Shrinky Dink Teen Program at Sollers Point (10295854276).jpg",
+    "site": "Wikimedia",
+    "artist": "Baltimore County Public Library",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zombie_Shrinky_Dink_Teen_Program_at_Sollers_Point_(10295854276).jpg",
+    "w": 960,
+    "h": 720
+  },
+  "shrinkart3": {
+    "file": "shrinkart3.jpg",
+    "caption": "After: shrunk butterflies pinned up, the drawing sharpened by the shrink",
+    "kind": "product",
+    "title": "Surel'sPlaceShrinkyDinksButterflies.jpg",
+    "site": "Wikimedia",
+    "artist": "Kencf0618",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Surel%27sPlaceShrinkyDinksButterflies.jpg",
+    "w": 960,
+    "h": 1280
   },
   "lcfilm": {
     "file": "lcfilm.jpg",
@@ -17208,6 +17232,30 @@ window.CREDITS = {
     "h": 2081,
     "site": "Wikimedia"
   },
+  "lcfilm2": {
+    "file": "lcfilm2.jpg",
+    "caption": "A short-pitch cholesteric under the microscope: the helix that picks the colour",
+    "kind": "structure",
+    "title": "2016-06-21 Cholesteric liquid crystal.jpg",
+    "site": "Wikimedia",
+    "artist": "Igor Gvozdovskyy",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2016-06-21_Cholesteric_liquid_crystal.jpg",
+    "w": 960,
+    "h": 724
+  },
+  "lcfilm3": {
+    "file": "lcfilm3.jpg",
+    "caption": "The same chemistry under a stone: an original 1970s mood ring, reading a cold finger",
+    "kind": "related",
+    "title": "Original Mood Stone ring.jpg",
+    "site": "Wikimedia",
+    "artist": "Moodman001",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Original_Mood_Stone_ring.jpg",
+    "w": 960,
+    "h": 755
+  },
   "feelerstock": {
     "file": "feelerstock.jpg",
     "caption": "A feeler gauge fanned open",
@@ -17220,6 +17268,30 @@ window.CREDITS = {
     "h": 960,
     "site": "Wikimedia"
   },
+  "feelerstock2": {
+    "file": "feelerstock2.jpg",
+    "caption": "In use: a four-thou leaf under the cam of a Jaguar XK engine",
+    "kind": "process",
+    "title": "XK engine inlet camshaft measuring valve clearance-0796.jpg",
+    "site": "Wikimedia",
+    "artist": "HReuter",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:XK_engine_inlet_camshaft_measuring_valve_clearance-0796.jpg",
+    "w": 960,
+    "h": 720
+  },
+  "feelerstock3": {
+    "file": "feelerstock3.jpg",
+    "caption": "One leaf close up, stamped 0.30 mm",
+    "kind": "photo",
+    "title": "Filler Gauge.jpg",
+    "site": "Wikimedia",
+    "artist": "Encik Tekateki",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Filler_Gauge.jpg",
+    "w": 960,
+    "h": 720
+  },
   "greenhousefilm": {
     "file": "greenhousefilm.jpg",
     "caption": "Inside a polyethylene high tunnel of strawberries, Homs countryside, Syria",
@@ -17231,6 +17303,30 @@ window.CREDITS = {
     "w": 960,
     "h": 1280,
     "site": "Wikimedia"
+  },
+  "greenhousefilm2": {
+    "file": "greenhousefilm2.jpg",
+    "caption": "A garden polytunnel from outside, the film a few seasons in and starting to cloud",
+    "kind": "product",
+    "title": "Easton Lodge Gardens, Little Easton, Essex, England ~ polytunnel hoop house.jpg",
+    "site": "Wikimedia",
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Easton_Lodge_Gardens,_Little_Easton,_Essex,_England_~_polytunnel_hoop_house.jpg",
+    "w": 960,
+    "h": 640
+  },
+  "greenhousefilm3": {
+    "file": "greenhousefilm3.jpg",
+    "caption": "The sea of plastic round Almeria from orbit: two hundred square kilometres of the film",
+    "kind": "related",
+    "title": "Plastic sea, Almería Spain.jpg",
+    "site": "Wikimedia",
+    "artist": "NASA",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Plastic_sea,_Almer%C3%ADa_Spain.jpg",
+    "w": 960,
+    "h": 636
   },
   "aerogel2": {
     "file": "aerogel2.jpg",

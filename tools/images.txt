@@ -1435,10 +1435,18 @@ balewrap3|commons|Litter from plastic balage wrappings.JPG|Where the film goes: 
 microfilm|commons|MCA NYT positive silver microfilm reel in position 1B.jpg|A reel of the New York Times for 1973, silver-gelatin positive, the pages visible as frames|photo
 microfilm2|commons|Microfilm Reader at Huron University College.jpg|The reader: a lamp, a lens and a screen|product
 microfilm3|commons|Kurs- och tidningsbiblioteket mikrofilmer.jpg|Boxed reels of a newspaper run on library shelves in Gothenburg|product
-shrinkart|Flickr|https://live.staticflickr.com/3230/2652714573_d645b61cc2_b.jpg|Shrunk pieces of biaxially oriented polystyrene sheet|photo|CC BY-SA 2.0|Nucho|https://www.flickr.com/photos/nucho/2652714573
+shrinkart|commons|Shrinky Dinks (2652714573).jpg|Shrunk pieces of biaxially oriented polystyrene sheet, curled and thickened|photo
+shrinkart2|commons|Zombie Shrinky Dink Teen Program at Sollers Point (10295854276).jpg|Before: a figure drawn on the flat sheet at full size, a library craft session|process
+shrinkart3|commons|Surel'sPlaceShrinkyDinksButterflies.jpg|After: shrunk butterflies pinned up, the drawing sharpened by the shrink|product
 lcfilm|commons|Thermochromic thermometer.jpg|A liquid crystal thermometer strip reading 24 °C|photo
+lcfilm2|commons|2016-06-21 Cholesteric liquid crystal.jpg|A short-pitch cholesteric under the microscope: the helix that picks the colour|structure
+lcfilm3|commons|Original Mood Stone ring.jpg|The same chemistry under a stone: an original 1970s mood ring, reading a cold finger|related
 feelerstock|commons|Parallel feeler gauge (imperial and metric)-92397.jpg|A feeler gauge fanned open|product
+feelerstock2|commons|XK engine inlet camshaft measuring valve clearance-0796.jpg|In use: a four-thou leaf under the cam of a Jaguar XK engine|process
+feelerstock3|commons|Filler Gauge.jpg|One leaf close up, stamped 0.30 mm|photo
 greenhousefilm|commons|Interior view of strawberry high tunnel greenhouse with garlic intercropping in Umm Haratayn al-Gharbiyah, Syria.jpg|Inside a polyethylene high tunnel of strawberries, Homs countryside, Syria|photo
+greenhousefilm2|commons|Easton Lodge Gardens, Little Easton, Essex, England ~ polytunnel hoop house.jpg|A garden polytunnel from outside, the film a few seasons in and starting to cloud|product
+greenhousefilm3|commons|Plastic sea, Almería Spain.jpg|The sea of plastic round Almeria from orbit: two hundred square kilometres of the film|related
 aerogel2|commons|Brick of aerogel.jpg|A slab of silica aerogel supporting a brick — the JPL demonstration of how much it holds for its own slight weight|photo
 aerogel3|commons|Aerogelflower filtered.jpg|A flower on a slab of aerogel over a Bunsen flame, unharmed: the air in the pores cannot carry the heat up|photo
 aerogel4|commons|Stardust Dust Collector with aerogel.jpg|The Stardust collector, a tray of aerogel tiles that caught comet grains at 6 km/s and brought them home whole|product

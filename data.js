@@ -5216,8 +5216,9 @@ window.MATERIALS = [
 },
 {
   id: "shrinkart", cat: "film", name: "Shrink art sheet",
-  sub: "biaxially oriented polystyrene, 0.25 mm", img: "shrinkart",
-  hook: "The toy that teaches orientation. A sheet of polystyrene is stretched in both directions while warm and cooled while stretched, which locks the chains in a flattened state and makes a sheet you can draw on with pencils. In an oven at about 160 °C the chains relax to their coiled shape and the sheet shrinks to about a third of its size in each direction, curling violently on the way, and ends up nine times smaller in area and nine times thicker, with the drawing shrunk and sharpened along with it. It is the same physics as shrink film and heat-shrink tubing, and the reason a polystyrene cup from a drinks machine turns into a thick button in the same oven.",
+  sub: "biaxially oriented polystyrene, 0.25 mm", img: "shrinkart", extra: ["shrinkart2", "shrinkart3"],
+  hook: "The toy that teaches orientation. Polystyrene stretched both ways while warm and chilled; draw on it, bake it at 160 degrees, and the chains relax and it shrinks to a third its size each way, drawing and all.",
+  more: "Polystyrene sheet is stretched both ways while warm and chilled, which locks the chains flat and makes a stiff clear film that takes pencil; cut to shape and drawn on, it goes into a domestic oven, where the chains recover their coils, the sheet curls violently, flattens again and ends up nine times smaller and nine times thicker, the drawing shrunk and sharpened with it. It is the physics of shrink film, and why a drinks-machine cup turns into a thick button in the same oven. The costs: it curls so hard it can fold onto itself and weld; the shrink is not quite equal both ways, so circles come out as ovals; it yellows with age; the fumes are styrene; and the keyring hole has to be punched before shrinking, because afterwards it is too hard to drill.",
   stats: [["Shrinks", "to about a third in each direction"], ["Oven", "about 160 °C"], ["Thickens", "by the same factor, roughly nine"]],
   uses: "Shrinky Dinks, jewellery and keyring craft, a classroom demonstration of polymer orientation.",
   link: "https://en.wikipedia.org/wiki/Shrinky_Dinks",
@@ -5225,24 +5226,27 @@ window.MATERIALS = [
 },
 {
   id: "lcfilm", cat: "film", name: "Liquid crystal thermometer",
-  sub: "cholesteric liquid crystal microcapsules on black polyester", img: "lcfilm",
-  hook: "A strip that reads temperature in colour with no sensor and no battery. Each number sits over a patch of cholesteric liquid crystal, a helix of rod molecules whose pitch changes with temperature and reflects the colour of light that matches it, so each patch is dark until its own band arrives and then runs red, green and blue over about a degree before going dark again. The crystal is microencapsulated and printed on a black background so the reflected colour shows. It is accurate to about half a degree, costs almost nothing, and is wrong the moment a hand or a lamp warms the strip rather than the thing it is stuck to.",
+  sub: "cholesteric liquid crystal microcapsules on black polyester", img: "lcfilm", extra: ["lcfilm2", "lcfilm3"],
+  hook: "A strip that reads temperature in colour with no sensor and no battery. Each number sits on a patch of cholesteric liquid crystal, a helix whose pitch changes with temperature and reflects the light that matches it.",
+  more: "A chiral nematic blend is emulsified into gelatin microcapsules and screen-printed as a row of patches onto black polyester, each tuned a degree apart; the helix in each capsule reflects the wavelength that matches its pitch, and the pitch shortens as the temperature rises, so a patch is dark until its band arrives, runs red through green to blue over a degree, and goes dark again. The black backing is so the colour shows against nothing. The costs: it reads the strip, not the thing behind it, and a hand or a lamp on it is a wrong answer in seconds; the resolution is a patch, a degree; ultraviolet and solvents kill the capsules and an old strip goes blank; and the same chemistry in a mood ring reads the temperature of your finger and nothing else.",
   stats: [["Reads by", "helix pitch selecting a reflected colour"], ["Resolution", "about 1 °C per patch"], ["Fooled by", "anything that warms the strip itself"]],
   uses: "Aquariums and fermenters, fridge strips, forehead thermometers, mood rings, mapping airflow over a wing in a wind tunnel.",
   link: "https://en.wikipedia.org/wiki/Liquid_crystal_thermometer"
 },
 {
   id: "feelerstock", cat: "film", name: "Feeler stock",
-  sub: "hardened and tempered carbon steel strip, 0.04-1 mm", img: "feelerstock",
-  hook: "A measuring instrument whose whole content is a material held to a tolerance. Feeler stock is spring steel rolled to a stated thickness and hardened, so a leaf stamped 0.10 mm is 0.10 mm along its whole length and stays that way after ten thousand slides into a spark-plug gap; the same strip is sold by the metre as shim stock for packing a bearing or truing a machine. The thin leaves will not stand up on their own and measure by feel, a light drag between two faces, which is where the name comes from. It rusts if you look at it, and a kinked leaf is scrap, because the kink is thicker than the leaf.",
+  sub: "hardened and tempered carbon steel strip, 0.04-1 mm", img: "feelerstock", extra: ["feelerstock2", "feelerstock3"],
+  hook: "A measuring instrument that is a material held to a tolerance. Spring steel rolled to a stated thickness and hardened, so a leaf stamped 0.10 mm is 0.10 mm along its length and stays so after ten thousand plug gaps.",
+  more: "High-carbon strip is cold-rolled to a thickness held within a few microns along the coil, hardened and tempered to a spring, and either slit into leaves stamped with their size and riveted into a fan, or sold by the metre as shim stock for packing a bearing or truing a machine. The thin leaves measure by feel, a light drag between two faces, which is where the name comes from, and a stack of them adds up to any gap. The costs: it rusts if you look at it, so a gauge lives in oil; a kinked leaf is scrap, because the kink is thicker than the leaf; a burred edge reads thick; the feel is the operator's, and two people get two readings; and a leaf forced into a gap too small for it has been thinned, and the number stamped on it is now a lie.",
   stats: [["Thickness", "0.04-1 mm, held to a few microns"], ["Steel", "hardened and tempered carbon spring steel"], ["Scrap if", "kinked, rusted or burred"]],
   uses: "Valve clearances and plug gaps, bearing shims, machine alignment, the slide in a luthier's nut file.",
   link: "https://en.wikipedia.org/wiki/Feeler_gauge"
 },
 {
   id: "greenhousefilm", cat: "film", name: "Greenhouse film",
-  sub: "UV-stabilised polyethylene or EVA, 150-200 µm, three-layer", img: "greenhousefilm",
-  hook: "A glasshouse for the price of the plastic. Polytunnel film is polyethylene blown as a tube up to sixteen metres wide, two hundred microns thick, and made to last three or four summers in full sun by a hindered-amine stabiliser that scavenges the radicals ultraviolet knocks loose; without it the sheet goes brittle and shreds in a season. The middle layer of a modern film is EVA, which absorbs the infrared the ground radiates at night and holds a few degrees of warmth, and the inside face carries an anti-drip additive so condensation runs down instead of falling as cold rain on the plants. The same chemistry is why a sulphur-based pesticide can kill a greenhouse cover.",
+  sub: "UV-stabilised polyethylene or EVA, 150-200 µm, three-layer", img: "greenhousefilm", extra: ["greenhousefilm2", "greenhousefilm3"],
+  hook: "A glasshouse for the price of the plastic. Polyethylene blown as a tube up to sixteen metres wide, made to last three or four summers in full sun by a stabiliser that scavenges the radicals ultraviolet knocks loose.",
+  more: "Three layers come out of one die: an outer polyethylene carrying the stabiliser, a middle layer of EVA that absorbs the infrared the ground radiates at night and holds a few degrees of warmth, and an inner layer with an anti-drip additive so condensation sheets down instead of falling as cold rain; a crew pulls it over the hoops on a still morning and buries the edges. Without the stabiliser it shreds in a season. The costs: after three or four seasons a hectare of dirty film has to come off and go somewhere; sulphur or chlorine from a pesticide poisons the stabiliser, so a spray can kill a cover in a summer; it flaps and tears in a gale; it sweats, so disease loves it; and two hundred square kilometres of it round Almeria shows up from orbit.",
   stats: [["Thickness", "150-200 µm, often three layers"], ["Life", "3-4 seasons, set by the stabiliser"], ["Killed by", "sulphur and chlorine pesticides"]],
   uses: "Polytunnels and high tunnels worldwide, nursery cold frames, the winter cover on a strawberry field.",
   link: "https://en.wikipedia.org/wiki/Polytunnel"
